@@ -13,7 +13,8 @@
     markup: 0.25,           // +25 % sobre el precio base del proveedor
     pageSize: 24,
     storageKey: 'jkjstock.cart.v1',
-    discount: { min: 2000, rate: 0.05 }, // 5 % automático desde $2,000
+    freeShipping: 2300,                  // envío gratis desde $2,300 (abajo se cobra y se cotiza por WhatsApp)
+    discount: { min: 4000, rate: 0.15 }, // 15 % automático desde $4,000 (incluye envío gratis)
   };
 
   // Datos de la página actual (atributos data-* del <body>).
@@ -118,6 +119,7 @@
     get subtotal() { return this.items.reduce((s, i) => s + byId[i.id].price * i.qty, 0); }
     get discount() { return this.subtotal >= CONFIG.discount.min ? Math.round(this.subtotal * CONFIG.discount.rate) : 0; }
     get total() { return this.subtotal - this.discount; }
+    get freeShipping() { return this.subtotal >= CONFIG.freeShipping; }
     lines() { return this.items.map((i) => ({ ...i, p: byId[i.id] })); }
   }
 
@@ -193,6 +195,7 @@
       line('-'),
       leader('Piezas', String(pieces)),
       ...(order.discount ? [leader('Subtotal', fmt(order.subtotal)), leader(`Desc. ${CONFIG.discount.rate * 100}%`, `-${fmt(order.discount)}`)] : []),
+      ...(order.delivery === 'envio' ? [leader('Envio', order.freeShipping ? 'GRATIS' : 'Por cotizar')] : []),
       leader('TOTAL', `${fmt(order.total)} MXN`),
       line('='),
       '```',
@@ -399,6 +402,7 @@
         this.delivery = b.dataset.delivery;
         $$('[data-delivery]').forEach((x) => x.setAttribute('aria-checked', String(x === b)));
         $$('[data-delivery-field]').forEach((f) => f.classList.toggle('hidden', f.dataset.deliveryField !== this.delivery));
+        this.render();
       }));
       ['o-name', 'o-city'].forEach((id) => $(`#${id}`).addEventListener('input', () => this.err(id, '')));
       const saved = storage.get('jkjstock.customer', null);
@@ -426,15 +430,25 @@
       $('#cart-footer').classList.toggle('hidden', n === 0);
       $('#cart-sub').textContent = n ? `${n} ${n === 1 ? 'pieza' : 'piezas'}` : 'Aún no agregas productos';
       $('#cart-pieces').textContent = n;
-      const { subtotal, discount, total } = this.cart;
-      const missing = CONFIG.discount.min - subtotal;
+      const { subtotal, discount, total, freeShipping } = this.cart;
       $('#cart-subtotal').textContent = fmt(subtotal);
       $('#cart-discount').textContent = `-${fmt(discount)}`;
       $$('[data-discount-row]').forEach((r) => r.classList.toggle('hidden', !discount));
       $('#cart-total').textContent = fmt(total);
-      $('#discount-hint').classList.toggle('hidden', !n || missing <= 0);
-      $('#discount-missing').textContent = fmt(missing);
-      $('#discount-bar').style.width = `${Math.min(100, (subtotal / CONFIG.discount.min) * 100)}%`;
+      // Siguiente beneficio: envío gratis y después 15 % de descuento.
+      const goals = [{ at: CONFIG.freeShipping, label: 'envío gratis' }, { at: CONFIG.discount.min, label: `${CONFIG.discount.rate * 100} % de descuento` }];
+      const next = goals.find((g) => subtotal < g.at);
+      $('#discount-hint').classList.toggle('hidden', !n);
+      $('#perk-text').innerHTML = next
+        ? `${freeShipping ? 'Ya tienes envío gratis. ' : ''}Te faltan <strong class="text-ink">${fmt(next.at - subtotal)}</strong> para ${next.label}`
+        : `Tienes envío gratis y ${CONFIG.discount.rate * 100} % de descuento`;
+      $('#discount-bar').style.width = `${next ? Math.min(100, (subtotal / next.at) * 100) : 100}%`;
+      const shipping = this.delivery === 'envio';
+      $('#shipping-row').classList.toggle('hidden', !shipping);
+      $('#cart-shipping').textContent = freeShipping ? 'Gratis' : 'Se cobra aparte';
+      $('#shipping-note').textContent = !shipping ? 'Entrega personal: sin costo de envío.'
+        : freeShipping ? 'Tu pedido tiene envío gratis.'
+        : `El envío se cobra y su costo se confirma por WhatsApp. Gratis desde ${fmt(CONFIG.freeShipping)}.`;
       $('#cart-items').innerHTML = this.cart.lines().map((l) => `
         <li class="flex gap-3 rounded-2xl bg-white p-3 shadow-card">
           <img class="h-20 w-20 shrink-0 rounded-xl object-contain" src="${l.p.images[0]}" alt="" loading="lazy" />
@@ -473,7 +487,7 @@
       const order = {
         folio: folio(), date: stamp(), name, city, delivery: this.delivery,
         address: $('#o-address').value.trim(), pay: $('#o-pay').value, notes: $('#o-notes').value.trim(),
-        lines: this.cart.lines(), subtotal: this.cart.subtotal, discount: this.cart.discount, total: this.cart.total,
+        lines: this.cart.lines(), subtotal: this.cart.subtotal, discount: this.cart.discount, total: this.cart.total, freeShipping: this.cart.freeShipping,
       };
       const link = waLink(buildMessage(order));
       window.open(link, '_blank', 'noopener');

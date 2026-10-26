@@ -28,7 +28,7 @@
   <div class="bg-ink text-white">
     <div class="no-scrollbar mx-auto flex max-w-[1600px] items-center justify-center gap-6 overflow-x-auto px-4 py-2.5 text-[0.72rem] font-medium tracking-wide sm:justify-between">
       <p class="flex shrink-0 items-center gap-2"><i data-lucide="message-circle" class="h-3.5 w-3.5 text-wa"></i> Pedidos por WhatsApp · <a href="https://wa.me/524492094034" target="_blank" rel="noopener" class="underline decoration-white/30 underline-offset-2 hover:decoration-white">449 209 4034</a></p>
-      <p class="hidden shrink-0 items-center gap-2 sm:flex"><i data-lucide="badge-percent" class="h-3.5 w-3.5 text-bronze-light"></i> 5 % de descuento automático desde $2,000</p>
+      <p class="hidden shrink-0 items-center gap-2 sm:flex"><i data-lucide="truck" class="h-3.5 w-3.5 text-bronze-light"></i> Envío gratis desde $2,300 · 15 % de descuento desde $4,000</p>
       <a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="hidden shrink-0 items-center gap-2 hover:text-bronze-light sm:flex"><i data-lucide="instagram" class="h-3.5 w-3.5"></i> @l_u_k_a_mon</a>
     </div>
   </div>
@@ -219,7 +219,7 @@
           <li class="rounded-[28px] border border-black/10 bg-ivory p-7 sm:p-9" data-reveal style="--d:240ms">
             <span class="font-display text-6xl italic text-bronze">03</span>
             <h3 class="mt-4 text-lg font-extrabold">Confirmamos y entregamos</h3>
-            <p class="mt-2 text-sm leading-relaxed text-ink-mute">Te respondemos por WhatsApp para confirmar existencias, forma de pago y entrega.</p>
+            <p class="mt-2 text-sm leading-relaxed text-ink-mute">Te respondemos por WhatsApp para confirmar existencias, pago y envío. Envío gratis desde $2,300 y 15 % de descuento desde $4,000.</p>
           </li>
         </ol>
       </div>
@@ -385,20 +385,23 @@
 
         <div id="cart-footer" class="border-t border-black/10 bg-white px-5 py-5 sm:px-7">
           <div id="discount-hint" class="mb-4 hidden rounded-2xl bg-ivory px-4 py-3">
-            <p class="flex items-center gap-2 text-xs font-semibold text-ink-soft"><i data-lucide="badge-percent" class="h-4 w-4 shrink-0 text-bronze"></i> Te faltan <strong id="discount-missing" class="text-ink"></strong> para el 5 % de descuento</p>
+            <p class="flex items-center gap-2 text-xs font-semibold text-ink-soft"><i data-lucide="gift" class="h-4 w-4 shrink-0 text-bronze"></i> <span id="perk-text"></span></p>
             <div class="mt-2 h-1 overflow-hidden rounded-full bg-black/10"><div id="discount-bar" class="h-full rounded-full bg-bronze transition-all duration-700"></div></div>
           </div>
           <div data-discount-row class="hidden flex items-baseline justify-between text-sm text-ink-mute">
             <span>Subtotal</span><span id="cart-subtotal" class="tabular-nums"></span>
           </div>
           <div data-discount-row class="mb-2 hidden flex items-baseline justify-between text-sm font-semibold text-bronze-deep">
-            <span class="inline-flex items-center gap-1.5"><i data-lucide="badge-percent" class="h-4 w-4"></i> Descuento 5 %</span><span id="cart-discount" class="tabular-nums"></span>
+            <span class="inline-flex items-center gap-1.5"><i data-lucide="badge-percent" class="h-4 w-4"></i> Descuento 15 %</span><span id="cart-discount" class="tabular-nums"></span>
+          </div>
+          <div id="shipping-row" class="mb-2 flex items-baseline justify-between text-sm text-ink-mute">
+            <span class="inline-flex items-center gap-1.5"><i data-lucide="truck" class="h-4 w-4"></i> Envío</span><span id="cart-shipping" class="font-semibold"></span>
           </div>
           <div class="flex items-baseline justify-between">
             <span class="text-sm text-ink-mute">Total (<span id="cart-pieces">0</span> piezas)</span>
             <span id="cart-total" class="font-display text-3xl font-semibold"></span>
           </div>
-          <p class="mt-1 text-[0.7rem] text-ink-mute">El costo de envío, si aplica, se confirma por WhatsApp.</p>
+          <p id="shipping-note" class="mt-1 text-[0.7rem] text-ink-mute"></p>
           <button type="button" id="send-order" class="btn btn-wa mt-4 w-full py-4 text-sm"><i data-lucide="send" class="h-4 w-4"></i> Enviar pedido por WhatsApp</button>
         </div>
       </div>

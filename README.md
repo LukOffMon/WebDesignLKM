@@ -4,7 +4,7 @@
 |---|---|---|
 | Vive Cafeto | `cafeto/` | Café · restaurante · bar. Menú digital, pedidos y reservaciones. |
 | Burdo San Telmo | `burdo/` | Parrilla & bar. Cortes con selección de término, pedidos y reservaciones. |
-| JkJ Stock | `jkj-stock/` | Catálogo de perfumes (74 productos) y sección Apple (próximamente), con un solo carrito, 5 % de descuento desde $2,000 y pedidos por WhatsApp (449 209 4034). |
+| JkJ Stock | `jkj-stock/` | Catálogo de perfumes (74 productos) y sección Apple (próximamente), con un solo carrito, envío gratis desde $2,300, 15 % de descuento desde $4,000 (envío gratis incluido) y pedidos por WhatsApp (449 209 4034). |
 
 `index.html` en la raíz es un portafolio con enlaces a los tres sitios. Para verlos localmente: `python3 -m http.server` y abre http://localhost:8000.
 
