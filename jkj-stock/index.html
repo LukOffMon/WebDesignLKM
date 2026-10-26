@@ -6,8 +6,8 @@
   <title>JkJ Stock · Perfumes de diseñador y árabes</title>
   <meta name="description" content="JkJ Stock: catálogo de perfumes de diseñador y árabes. Elige tus fragancias y haz tu pedido directo por WhatsApp." />
   <meta name="theme-color" content="#f6f3ee" />
-  <meta property="og:title" content="JkJ Stock · Perfumes" />
-  <meta property="og:description" content="Catálogo de fragancias con pedido directo por WhatsApp." />
+  <meta property="og:title" content="JkJ Stock · Perfumes de diseñador y árabes" />
+  <meta property="og:description" content="JkJ Stock: catálogo de perfumes de diseñador y árabes. Elige tus fragancias y haz tu pedido directo por WhatsApp." />
   <meta property="og:type" content="website" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%23111'/%3E%3Ctext x='24' y='32' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='22' fill='%23c9a46a'%3EJkJ%3C/text%3E%3C/svg%3E" />
 
@@ -17,138 +17,18 @@
 
   <script>document.documentElement.classList.add('js');</script>
   <script src="https://cdn.tailwindcss.com/3.4.16"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            ivory: '#f6f3ee',
-            sand: '#ece6dc',
-            ink: { DEFAULT: '#121110', soft: '#3a3733', mute: '#77716a' },
-            bronze: { DEFAULT: '#a87b45', light: '#c9a46a', deep: '#7d5a2f' },
-            wa: '#25d366',
-          },
-          fontFamily: {
-            display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
-            sans: ['Manrope', 'system-ui', 'sans-serif'],
-          },
-          boxShadow: {
-            card: '0 1px 2px rgba(18,17,16,.04), 0 8px 24px rgba(18,17,16,.06)',
-            lift: '0 24px 60px rgba(18,17,16,.14)',
-          },
-          screens: { xs: '400px', '3xl': '1920px' },
-          letterSpacing: { luxe: '0.3em' },
-        },
-      },
-    };
-  </script>
-
-  <style>
-    :root { --ease: cubic-bezier(0.22, 1, 0.36, 1); --bronze: #a87b45; color-scheme: light; }
-    html { -webkit-text-size-adjust: 100%; scroll-padding-top: 120px; }
-    body { background: #f6f3ee; color: #121110; font-family: Manrope, system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
-    body.is-locked { overflow: hidden; }
-    ::selection { background: rgba(168, 123, 69, 0.25); }
-    .no-scrollbar { scrollbar-width: none; }
-    .no-scrollbar::-webkit-scrollbar { display: none; }
-
-    .btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: .55rem; border-radius: 999px; font-weight: 700; letter-spacing: .01em; transition: transform .4s var(--ease), background-color .25s, color .25s, box-shadow .4s var(--ease), border-color .25s; overflow: hidden; isolation: isolate; -webkit-tap-highlight-color: transparent; }
-    .btn:active { transform: scale(.97); }
-    .btn:focus-visible, .focus-ring:focus-visible { outline: 2px solid var(--bronze); outline-offset: 3px; }
-    .btn-ink { background: #121110; color: #fff; }
-    .btn-ink:hover { background: #2b2825; box-shadow: 0 12px 30px rgba(18,17,16,.22); }
-    .btn-wa { background: #25d366; color: #0b3d1f; }
-    .btn-wa:hover { background: #2ee374; box-shadow: 0 12px 30px rgba(37,211,102,.35); }
-    .btn-line { border: 1px solid rgba(18,17,16,.18); color: #121110; background: rgba(255,255,255,.5); }
-    .btn-line:hover { border-color: #121110; background: #fff; }
-    .btn:disabled { opacity: .45; cursor: not-allowed; }
-    .ripple { position: absolute; border-radius: 50%; transform: scale(0); pointer-events: none; background: rgba(255,255,255,.4); animation: ripple .6s var(--ease) forwards; z-index: -1; }
-    @keyframes ripple { to { transform: scale(4); opacity: 0; } }
-
-    .chip { display: inline-flex; align-items: center; gap: .4rem; white-space: nowrap; border-radius: 999px; border: 1px solid rgba(18,17,16,.12); background: #fff; padding: .5rem .95rem; font-size: .8rem; font-weight: 600; color: #3a3733; transition: all .25s var(--ease); }
-    .chip:hover { border-color: rgba(18,17,16,.4); }
-    .chip[aria-pressed='true'], .chip[aria-selected='true'], .chip[aria-checked='true'] { background: #121110; border-color: #121110; color: #fff; }
-    .chip:focus-visible { outline: 2px solid var(--bronze); outline-offset: 2px; }
-
-    .field { width: 100%; background: #fff; border: 1px solid rgba(18,17,16,.14); border-radius: 14px; padding: .85rem 1rem; font-size: .92rem; color: #121110; transition: border-color .25s, box-shadow .25s; }
-    .field::placeholder { color: #a39d95; }
-    .field:focus { outline: none; border-color: #121110; box-shadow: 0 0 0 4px rgba(18,17,16,.07); }
-    .field[aria-invalid='true'] { border-color: #dc2626; box-shadow: 0 0 0 4px rgba(220,38,38,.08); }
-    select.field { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23121110' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right .9rem center; padding-right: 2.5rem; }
-    .err { min-height: 1rem; margin-top: .3rem; font-size: .72rem; color: #dc2626; }
-
-    #site-header { transition: background-color .4s var(--ease), box-shadow .4s, border-color .4s; }
-    #site-header.is-scrolled { background: rgba(246,243,238,.82); backdrop-filter: blur(14px) saturate(160%); -webkit-backdrop-filter: blur(14px) saturate(160%); border-color: rgba(18,17,16,.08); }
-    .nav-link { position: relative; }
-    .nav-link::after { content: ''; position: absolute; left: 0; right: 0; bottom: -5px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform .45s var(--ease); }
-    .nav-link:hover::after { transform: scaleX(1); transform-origin: left; }
-
-    .js [data-reveal] { opacity: 0; transform: translateY(24px); transition: opacity .9s var(--ease), transform 1s var(--ease); transition-delay: var(--d, 0ms); }
-    .js [data-reveal].is-visible { opacity: 1; transform: none; }
-    .fade-up { animation: fadeUp 1.1s var(--ease) both; animation-delay: var(--d, 0ms); }
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
-    .float-a { animation: floatA 7s ease-in-out infinite; }
-    .float-b { animation: floatA 8s ease-in-out -2s infinite; }
-    @keyframes floatA { 0%, 100% { transform: translateY(0) rotate(var(--r, 0deg)); } 50% { transform: translateY(-12px) rotate(var(--r, 0deg)); } }
-    .marquee-track { animation: marquee 40s linear infinite; }
-    @keyframes marquee { to { transform: translateX(-50%); } }
-
-    .product-card { transition: transform .5s var(--ease), box-shadow .5s var(--ease); }
-    .product-card:hover { transform: translateY(-4px); box-shadow: 0 24px 50px rgba(18,17,16,.12); }
-    .product-card .img-a, .product-card .img-b { transition: opacity .6s var(--ease), transform 1s var(--ease); }
-    .product-card .img-b { opacity: 0; }
-    @media (hover: hover) {
-      .product-card:hover .img-a.has-alt { opacity: 0; }
-      .product-card:hover .img-b { opacity: 1; transform: scale(1.04); }
-      .product-card:hover .img-a:not(.has-alt) { transform: scale(1.05); }
-    }
-    .card-in { animation: cardIn .6s var(--ease) both; animation-delay: var(--d, 0ms); }
-    @keyframes cardIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
-
-    .layer { position: fixed; inset: 0; visibility: hidden; pointer-events: none; }
-    .layer.is-open { visibility: visible; pointer-events: auto; }
-    .overlay { position: fixed; inset: 0; background: rgba(18,17,16,.45); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); opacity: 0; transition: opacity .4s var(--ease); }
-    .is-open > .overlay { opacity: 1; }
-    .drawer-panel { transform: translateX(100%); transition: transform .55s var(--ease); }
-    .drawer-left .drawer-panel { transform: translateX(-100%); }
-    .is-open .drawer-panel { transform: none; }
-    .modal-panel { opacity: 0; transform: translateY(30px) scale(.98); transition: opacity .45s var(--ease), transform .55s var(--ease); }
-    .is-open .modal-panel { opacity: 1; transform: none; }
-
-    .cart-bump { animation: bump .55s var(--ease); }
-    @keyframes bump { 35% { transform: scale(1.25); } }
-    .toast { animation: toastIn .5s var(--ease) both; }
-    .toast.is-leaving { animation: toastOut .35s var(--ease) both; }
-    @keyframes toastIn { from { opacity: 0; transform: translateY(14px) scale(.96); } to { opacity: 1; transform: none; } }
-    @keyframes toastOut { to { opacity: 0; transform: translateY(10px); } }
-    .shake { animation: shake .45s; }
-    @keyframes shake { 20%, 60% { transform: translateX(-6px); } 40%, 80% { transform: translateX(6px); } }
-    .success-ring { stroke-dasharray: 166; stroke-dashoffset: 166; animation: draw .9s var(--ease) forwards; }
-    .success-check { stroke-dasharray: 48; stroke-dashoffset: 48; animation: draw .6s .5s var(--ease) forwards; }
-    @keyframes draw { to { stroke-dashoffset: 0; } }
-    .wa-pulse::before { content: ''; position: absolute; inset: 0; border-radius: 999px; background: #25d366; animation: waPulse 2.4s ease-out infinite; z-index: -1; }
-    @keyframes waPulse { from { transform: scale(1); opacity: .55; } to { transform: scale(1.6); opacity: 0; } }
-
-    details > summary { list-style: none; cursor: pointer; }
-    details > summary::-webkit-details-marker { display: none; }
-    details[open] .chev { transform: rotate(180deg); }
-    .chev { transition: transform .35s var(--ease); }
-
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
-      .js [data-reveal] { opacity: 1; transform: none; }
-    }
-  </style>
+  <script src="assets/tw.js"></script>
+  <link rel="stylesheet" href="assets/jkj.css" />
 </head>
 
-<body class="font-sans">
+<body class="font-sans" data-section="perfumes" data-root="" data-noun="fragancia" data-noun-plural="fragancias" data-hero="le-labo-santal-33,lattafa-khamrah-100ml,xerjoff-erba-gold">
   <a href="#catalogo" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] btn btn-ink px-5 py-3">Saltar al catálogo</a>
 
   <!-- Barra de anuncio -->
   <div class="bg-ink text-white">
     <div class="no-scrollbar mx-auto flex max-w-[1600px] items-center justify-center gap-6 overflow-x-auto px-4 py-2.5 text-[0.72rem] font-medium tracking-wide sm:justify-between">
       <p class="flex shrink-0 items-center gap-2"><i data-lucide="message-circle" class="h-3.5 w-3.5 text-wa"></i> Pedidos por WhatsApp · <a href="https://wa.me/524492094034" target="_blank" rel="noopener" class="underline decoration-white/30 underline-offset-2 hover:decoration-white">449 209 4034</a></p>
-      <p class="hidden shrink-0 items-center gap-2 sm:flex"><i data-lucide="sparkles" class="h-3.5 w-3.5 text-bronze-light"></i> Fragancias de diseñador y árabes</p>
+      <p class="hidden shrink-0 items-center gap-2 sm:flex"><i data-lucide="badge-percent" class="h-3.5 w-3.5 text-bronze-light"></i> 5 % de descuento automático desde $2,000</p>
       <a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="hidden shrink-0 items-center gap-2 hover:text-bronze-light sm:flex"><i data-lucide="instagram" class="h-3.5 w-3.5"></i> @l_u_k_a_mon</a>
     </div>
   </div>
@@ -158,24 +38,26 @@
     <div class="mx-auto flex max-w-[1600px] items-center justify-between gap-3 px-4 py-3.5 sm:px-6 lg:px-10">
       <div class="flex items-center gap-2">
         <button type="button" id="nav-toggle" class="grid h-10 w-10 place-items-center rounded-full hover:bg-black/5 focus-ring lg:hidden" aria-label="Abrir menú" aria-controls="mobile-nav" aria-expanded="false"><i data-lucide="menu" class="h-5 w-5"></i></button>
-        <a href="#inicio" class="focus-ring rounded-lg" aria-label="JkJ Stock, ir al inicio">
+        <a href="./" class="focus-ring rounded-lg" aria-label="JkJ Stock, ir al inicio">
           <span class="font-display text-[1.9rem] font-semibold italic leading-none tracking-tight sm:text-[2.2rem]">JkJ</span>
           <span class="ml-1 align-middle text-[0.62rem] font-extrabold uppercase tracking-luxe text-bronze">Stock</span>
         </a>
       </div>
 
       <nav class="hidden lg:block" aria-label="Navegación principal">
-        <ul class="flex items-center gap-8 text-sm font-semibold text-ink-soft">
-          <li><a class="nav-link hover:text-ink" href="#catalogo">Catálogo</a></li>
-          <li><a class="nav-link hover:text-ink" href="#catalogo" data-quick-gender="hombre">Hombre</a></li>
-          <li><a class="nav-link hover:text-ink" href="#catalogo" data-quick-gender="mujer">Mujer</a></li>
-          <li><a class="nav-link hover:text-ink" href="#catalogo" data-quick-gender="unisex">Unisex</a></li>
+        <ul class="flex items-center gap-6 text-sm font-semibold text-ink-soft xl:gap-8">
+          <li><a class="nav-link hover:text-ink text-ink" href="./" aria-current="page">Perfumes</a></li>
+          <li><a class="nav-link hover:text-ink" href="accesorios/">Accesorios</a></li>
+          <li><a class="nav-link hover:text-ink" href="joyeria/">Joyería</a></li>
+          <li><a class="nav-link hover:text-ink" href="gorras/">Gorras</a></li>
+          <li><a class="nav-link hover:text-ink" href="ropa/">Ropa</a></li>
+          <li><a class="nav-link hover:text-ink" href="tenis/">Tenis</a></li>
           <li><a class="nav-link hover:text-ink" href="#como-comprar">Cómo comprar</a></li>
         </ul>
       </nav>
 
       <div class="flex items-center gap-1 sm:gap-2">
-        <button type="button" id="search-jump" class="grid h-10 w-10 place-items-center rounded-full hover:bg-black/5 focus-ring" aria-label="Buscar perfume"><i data-lucide="search" class="h-5 w-5"></i></button>
+        <button type="button" id="search-jump" class="grid h-10 w-10 place-items-center rounded-full hover:bg-black/5 focus-ring" aria-label="Buscar en el catálogo"><i data-lucide="search" class="h-5 w-5"></i></button>
         <a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="hidden h-10 w-10 place-items-center rounded-full hover:bg-black/5 focus-ring xs:grid" aria-label="Instagram @l_u_k_a_mon"><i data-lucide="instagram" class="h-5 w-5"></i></a>
         <button type="button" id="cart-button" class="relative grid h-10 w-10 place-items-center rounded-full hover:bg-black/5 focus-ring" aria-label="Abrir carrito" aria-controls="cart-drawer" aria-expanded="false">
           <i data-lucide="shopping-bag" class="h-5 w-5"></i>
@@ -196,10 +78,12 @@
       </div>
       <nav class="flex-1 overflow-y-auto px-6 py-6" aria-label="Menú móvil">
         <ul class="divide-y divide-black/5 font-display text-3xl">
-          <li><a class="flex items-center justify-between py-4" href="#catalogo" data-close-nav>Catálogo <i data-lucide="arrow-up-right" class="h-5 w-5 text-bronze"></i></a></li>
-          <li><a class="flex items-center justify-between py-4" href="#catalogo" data-close-nav data-quick-gender="hombre">Hombre <i data-lucide="arrow-up-right" class="h-5 w-5 text-bronze"></i></a></li>
-          <li><a class="flex items-center justify-between py-4" href="#catalogo" data-close-nav data-quick-gender="mujer">Mujer <i data-lucide="arrow-up-right" class="h-5 w-5 text-bronze"></i></a></li>
-          <li><a class="flex items-center justify-between py-4" href="#catalogo" data-close-nav data-quick-gender="unisex">Unisex <i data-lucide="arrow-up-right" class="h-5 w-5 text-bronze"></i></a></li>
+          <li><a class="flex items-center justify-between py-4" href="./" aria-current="page">Perfumes <i data-lucide="arrow-up-right" class="ml-auto h-5 w-5 text-bronze"></i></a></li>
+          <li><a class="flex items-center justify-between py-4" href="accesorios/">Accesorios <i data-lucide="arrow-up-right" class="ml-auto h-5 w-5 text-bronze"></i></a></li>
+          <li><a class="flex items-center justify-between py-4" href="joyeria/">Joyería <span class="ml-2 font-sans rounded-full bg-black/5 px-1.5 py-0.5 align-middle text-[0.55rem] font-extrabold uppercase tracking-wider text-ink-mute">Pronto</span> <i data-lucide="arrow-up-right" class="ml-auto h-5 w-5 text-bronze"></i></a></li>
+          <li><a class="flex items-center justify-between py-4" href="gorras/">Gorras <span class="ml-2 font-sans rounded-full bg-black/5 px-1.5 py-0.5 align-middle text-[0.55rem] font-extrabold uppercase tracking-wider text-ink-mute">Pronto</span> <i data-lucide="arrow-up-right" class="ml-auto h-5 w-5 text-bronze"></i></a></li>
+          <li><a class="flex items-center justify-between py-4" href="ropa/">Ropa <span class="ml-2 font-sans rounded-full bg-black/5 px-1.5 py-0.5 align-middle text-[0.55rem] font-extrabold uppercase tracking-wider text-ink-mute">Pronto</span> <i data-lucide="arrow-up-right" class="ml-auto h-5 w-5 text-bronze"></i></a></li>
+          <li><a class="flex items-center justify-between py-4" href="tenis/">Tenis <span class="ml-2 font-sans rounded-full bg-black/5 px-1.5 py-0.5 align-middle text-[0.55rem] font-extrabold uppercase tracking-wider text-ink-mute">Pronto</span> <i data-lucide="arrow-up-right" class="ml-auto h-5 w-5 text-bronze"></i></a></li>
           <li><a class="flex items-center justify-between py-4" href="#como-comprar" data-close-nav>Cómo comprar <i data-lucide="arrow-up-right" class="h-5 w-5 text-bronze"></i></a></li>
         </ul>
       </nav>
@@ -216,7 +100,7 @@
       <div class="pointer-events-none absolute -right-40 -top-40 h-[560px] w-[560px] rounded-full bg-[radial-gradient(circle,rgba(201,164,106,.28),transparent_65%)]" aria-hidden="true"></div>
       <div class="mx-auto grid max-w-[1600px] items-center gap-12 px-4 pb-16 pt-10 sm:px-6 sm:pt-16 lg:grid-cols-2 lg:gap-8 lg:px-10 lg:pb-24">
         <div>
-          <p class="fade-up inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/70 px-4 py-2 text-[0.68rem] font-bold uppercase tracking-[0.2em] text-ink-soft" style="--d:100ms"><span class="h-1.5 w-1.5 rounded-full bg-bronze"></span> <span id="hero-count">74</span> fragancias disponibles</p>
+          <p class="fade-up inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/70 px-4 py-2 text-[0.68rem] font-bold uppercase tracking-[0.2em] text-ink-soft" style="--d:100ms"><span class="h-1.5 w-1.5 rounded-full bg-bronze"></span> <span id="hero-count" data-if-products></span><span data-if-empty class="hidden">Próximamente</span></p>
           <h1 class="fade-up mt-6 font-display text-[3rem] font-medium leading-[0.95] tracking-tight xs:text-6xl sm:text-7xl xl:text-8xl" style="--d:220ms">
             Tu firma,<br /><em class="text-bronze">en una fragancia.</em>
           </h1>
@@ -224,19 +108,20 @@
             Perfumes de diseñador y árabes en un solo catálogo. Arma tu pedido en segundos y confírmalo directo por WhatsApp.
           </p>
           <div class="fade-up mt-9 flex flex-col gap-3 xs:flex-row" style="--d:480ms">
-            <a href="#catalogo" class="btn btn-ink px-8 py-4 text-sm"><i data-lucide="sparkles" class="h-4 w-4"></i> Ver catálogo</a>
-            <a href="https://wa.me/524492094034?text=Hola%20JkJ%20Stock%2C%20quiero%20informaci%C3%B3n%20de%20sus%20perfumes" target="_blank" rel="noopener" class="btn btn-wa px-8 py-4 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Pedir por WhatsApp</a>
+            <a href="#catalogo" class="btn btn-ink px-8 py-4 text-sm" data-if-products><i data-lucide="sparkles" class="h-4 w-4"></i> Ver perfumes</a>
+            <a href="https://wa.me/524492094034?text=Hola%20JkJ%20Stock%2C%20quiero%20informaci%C3%B3n%20de%20perfumes" target="_blank" rel="noopener" class="btn btn-wa px-8 py-4 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Pedir por WhatsApp</a>
           </div>
-          <dl class="fade-up mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-black/10 pt-7" style="--d:600ms">
-            <div><dt class="text-[0.62rem] font-bold uppercase tracking-[0.18em] text-ink-mute">Fragancias</dt><dd class="mt-1 font-display text-3xl" id="stat-count">74</dd></div>
-            <div><dt class="text-[0.62rem] font-bold uppercase tracking-[0.18em] text-ink-mute">Marcas</dt><dd class="mt-1 font-display text-3xl" id="stat-brands">22</dd></div>
-            <div><dt class="text-[0.62rem] font-bold uppercase tracking-[0.18em] text-ink-mute">Desde</dt><dd class="mt-1 font-display text-3xl" id="stat-min">$349</dd></div>
+          <dl data-if-products class="fade-up mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-black/10 pt-7" style="--d:600ms">
+            <div><dt class="text-[0.62rem] font-bold uppercase tracking-[0.18em] text-ink-mute">Fragancias</dt><dd class="mt-1 font-display text-3xl" id="stat-count"></dd></div>
+            <div><dt class="text-[0.62rem] font-bold uppercase tracking-[0.18em] text-ink-mute">Marcas</dt><dd class="mt-1 font-display text-3xl" id="stat-brands"></dd></div>
+            <div><dt class="text-[0.62rem] font-bold uppercase tracking-[0.18em] text-ink-mute">Desde</dt><dd class="mt-1 font-display text-3xl" id="stat-min"></dd></div>
           </dl>
         </div>
 
         <div class="relative mx-auto aspect-square w-full max-w-[560px]" aria-hidden="true">
           <div class="absolute inset-[8%] rounded-full border border-bronze/25"></div>
           <div class="absolute inset-[20%] rounded-full bg-white shadow-lift"></div>
+          <i data-lucide="sparkles" data-if-empty class="absolute left-1/2 top-1/2 hidden h-[22%] w-[22%] -translate-x-1/2 -translate-y-1/2 text-bronze" stroke-width="1"></i>
           <img id="hero-img-1" class="float-a absolute left-[22%] top-[18%] w-[56%] rounded-[28px] object-contain mix-blend-multiply" alt="" />
           <img id="hero-img-2" class="float-b absolute bottom-[6%] left-[-2%] w-[34%] rounded-3xl bg-white object-contain p-2 shadow-card" style="--r:-6deg" alt="" />
           <img id="hero-img-3" class="float-a absolute right-[-2%] top-[4%] w-[30%] rounded-3xl bg-white object-contain p-2 shadow-card" style="--r:6deg" alt="" />
@@ -257,7 +142,7 @@
             <p class="text-[0.7rem] font-extrabold uppercase tracking-luxe text-bronze">Catálogo</p>
             <h2 id="cat-title" class="mt-3 font-display text-5xl font-medium leading-none sm:text-6xl">Perfumes</h2>
           </div>
-          <label class="relative block w-full lg:w-96">
+          <label class="relative block w-full lg:w-96" data-if-products>
             <span class="sr-only">Buscar perfume o marca</span>
             <i data-lucide="search" class="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-mute"></i>
             <input id="search" type="search" class="field !rounded-full !pl-11" placeholder="Buscar perfume o marca…" autocomplete="off" />
@@ -265,7 +150,7 @@
         </div>
 
         <!-- Barra de filtros -->
-        <div class="sticky top-[64px] z-30 -mx-4 mt-8 border-y border-black/10 bg-ivory/90 px-4 py-3 backdrop-blur-md sm:-mx-6 sm:px-6 lg:-mx-10 lg:px-10">
+        <div data-if-products class="sticky top-[64px] z-30 -mx-4 mt-8 border-y border-black/10 bg-ivory/90 px-4 py-3 backdrop-blur-md sm:-mx-6 sm:px-6 lg:-mx-10 lg:px-10">
           <div class="flex flex-wrap items-center gap-3">
             <div id="gender-tabs" class="no-scrollbar flex gap-2 overflow-x-auto" role="tablist" aria-label="Filtrar por género">
               <button type="button" class="chip" role="tab" aria-selected="true" data-gender="all">Todos</button>
@@ -293,7 +178,7 @@
           </div>
         </div>
 
-        <div class="mt-6 flex items-center justify-between gap-4">
+        <div data-if-products class="mt-6 flex items-center justify-between gap-4">
           <p id="results" class="text-sm text-ink-mute" aria-live="polite"></p>
           <button type="button" id="clear-filters" class="hidden text-sm font-semibold underline underline-offset-4 hover:text-bronze">Limpiar filtros</button>
         </div>
@@ -301,14 +186,24 @@
         <div id="grid" class="mt-6 grid grid-cols-2 gap-3 sm:gap-5 md:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5"></div>
         <div id="empty" class="hidden py-20 text-center">
           <i data-lucide="search-x" class="mx-auto h-10 w-10 text-bronze"></i>
-          <p class="mt-4 font-display text-3xl">No encontramos ese perfume</p>
+          <p class="mt-4 font-display text-3xl">No encontramos ese producto</p>
           <p class="mt-2 text-ink-mute">Prueba con otra marca o pregúntanos por WhatsApp, quizá lo conseguimos.</p>
           <a id="empty-wa" href="https://wa.me/524492094034" target="_blank" rel="noopener" class="btn btn-wa mt-7 px-6 py-3.5 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Preguntar por WhatsApp</a>
         </div>
-        <div class="mt-12 text-center">
+        <div data-if-empty class="mt-10 hidden rounded-[28px] border border-black/10 bg-white px-6 py-16 text-center shadow-card sm:py-20">
+          <div class="mx-auto grid h-20 w-20 place-items-center rounded-full bg-ivory"><i data-lucide="sparkles" class="h-9 w-9 text-bronze"></i></div>
+          <p class="mt-6 text-[0.7rem] font-extrabold uppercase tracking-luxe text-bronze">Próximamente</p>
+          <p class="mt-2 font-display text-4xl">Estamos preparando esta sección</p>
+          <p class="mx-auto mt-3 max-w-md text-ink-mute">Muy pronto verás aquí perfumes. Mientras tanto, revisa las otras secciones o escríbenos por WhatsApp.</p>
+          <div class="mt-8 flex flex-col justify-center gap-3 xs:flex-row">
+            <a href="./" class="btn btn-ink px-7 py-3.5 text-sm"><i data-lucide="sparkles" class="h-4 w-4"></i> Ver perfumes</a>
+            <a href="https://wa.me/524492094034?text=Hola%20JkJ%20Stock%2C%20quiero%20informaci%C3%B3n%20de%20perfumes" target="_blank" rel="noopener" class="btn btn-wa px-7 py-3.5 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Escribir por WhatsApp</a>
+          </div>
+        </div>
+        <div data-if-products class="mt-12 text-center">
           <p id="progress-text" class="text-xs font-semibold uppercase tracking-[0.18em] text-ink-mute"></p>
           <div class="mx-auto mt-3 h-1 w-48 overflow-hidden rounded-full bg-black/10"><div id="progress-bar" class="h-full rounded-full bg-ink transition-all duration-700"></div></div>
-          <button type="button" id="load-more" class="btn btn-line mt-6 px-8 py-3.5 text-sm">Ver más perfumes</button>
+          <button type="button" id="load-more" class="btn btn-line mt-6 px-8 py-3.5 text-sm">Ver más</button>
         </div>
       </div>
     </section>
@@ -323,8 +218,8 @@
         <ol class="mt-14 grid gap-5 md:grid-cols-3">
           <li class="rounded-[28px] border border-black/10 bg-ivory p-7 sm:p-9" data-reveal style="--d:0ms">
             <span class="font-display text-6xl italic text-bronze">01</span>
-            <h3 class="mt-4 text-lg font-extrabold">Elige tus perfumes</h3>
-            <p class="mt-2 text-sm leading-relaxed text-ink-mute">Filtra por marca, género o precio y agrega al carrito las piezas que quieras.</p>
+            <h3 class="mt-4 text-lg font-extrabold">Elige tus productos</h3>
+            <p class="mt-2 text-sm leading-relaxed text-ink-mute">Recorre las secciones, filtra por marca o precio y agrega al carrito las piezas que quieras.</p>
           </li>
           <li class="rounded-[28px] border border-black/10 bg-ivory p-7 sm:p-9" data-reveal style="--d:120ms">
             <span class="font-display text-6xl italic text-bronze">02</span>
@@ -347,7 +242,7 @@
         <div data-reveal>
           <p class="text-[0.7rem] font-extrabold uppercase tracking-luxe text-bronze-light">Instagram</p>
           <h2 id="ig-title" class="mt-3 font-display text-5xl font-medium leading-tight sm:text-6xl">Novedades y llegadas, <em class="text-bronze-light">primero ahí</em>.</h2>
-          <p class="mt-5 max-w-md text-white/70">Síguenos para ver nuevos ingresos, reseñas de fragancias y promociones del momento.</p>
+          <p class="mt-5 max-w-md text-white/70">Síguenos para ver nuevos ingresos, reseñas y promociones del momento.</p>
           <a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="btn mt-8 bg-white px-7 py-4 text-sm text-ink hover:bg-bronze-light"><i data-lucide="instagram" class="h-4 w-4"></i> Seguir a @l_u_k_a_mon</a>
         </div>
         <div id="ig-grid" class="grid grid-cols-3 gap-2 sm:gap-3" data-reveal style="--d:120ms"></div>
@@ -361,7 +256,7 @@
       <div class="grid gap-12 pb-12 md:grid-cols-12">
         <div class="md:col-span-5">
           <p><span class="font-display text-5xl font-semibold italic">JkJ</span> <span class="text-xs font-extrabold uppercase tracking-luxe text-bronze">Stock</span></p>
-          <p class="mt-4 max-w-sm text-sm leading-relaxed text-ink-mute">Fragancias de diseñador y árabes. Todos los pedidos se atienden y confirman por WhatsApp.</p>
+          <p class="mt-4 max-w-sm text-sm leading-relaxed text-ink-mute">Perfumes y accesorios en un solo lugar. Todos los pedidos se atienden y confirman por WhatsApp.</p>
           <div class="mt-6 flex gap-3">
             <a href="https://wa.me/524492094034" target="_blank" rel="noopener" class="grid h-11 w-11 place-items-center rounded-full border border-black/15 transition-colors hover:border-ink hover:bg-ink hover:text-white focus-ring" aria-label="WhatsApp de JkJ Stock"><i data-lucide="message-circle" class="h-[18px] w-[18px]"></i></a>
             <a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="grid h-11 w-11 place-items-center rounded-full border border-black/15 transition-colors hover:border-ink hover:bg-ink hover:text-white focus-ring" aria-label="Instagram de JkJ Stock"><i data-lucide="instagram" class="h-[18px] w-[18px]"></i></a>
@@ -371,9 +266,12 @@
           <div>
             <h3 class="text-[0.68rem] font-extrabold uppercase tracking-[0.2em] text-bronze">Catálogo</h3>
             <ul class="mt-4 space-y-2.5 text-sm text-ink-soft">
-              <li><a href="#catalogo" data-quick-gender="hombre" class="hover:text-ink">Perfumes para hombre</a></li>
-              <li><a href="#catalogo" data-quick-gender="mujer" class="hover:text-ink">Perfumes para mujer</a></li>
-              <li><a href="#catalogo" data-quick-gender="unisex" class="hover:text-ink">Unisex</a></li>
+              <li><a href="./" class="hover:text-ink">Perfumes</a></li>
+              <li><a href="accesorios/" class="hover:text-ink">Accesorios</a></li>
+              <li><a href="joyeria/" class="hover:text-ink">Joyería</a></li>
+              <li><a href="gorras/" class="hover:text-ink">Gorras</a></li>
+              <li><a href="ropa/" class="hover:text-ink">Ropa</a></li>
+              <li><a href="tenis/" class="hover:text-ink">Tenis</a></li>
             </ul>
           </div>
           <div>
@@ -455,7 +353,7 @@
           <div id="cart-empty" class="hidden py-16 text-center">
             <div class="mx-auto grid h-20 w-20 place-items-center rounded-full bg-white shadow-card"><i data-lucide="shopping-bag" class="h-8 w-8 text-bronze"></i></div>
             <p class="mt-6 font-display text-3xl">Tu carrito está vacío</p>
-            <p class="mt-2 text-sm text-ink-mute">Explora el catálogo y elige tu próxima fragancia.</p>
+            <p class="mt-2 text-sm text-ink-mute">Explora las secciones y elige tus productos.</p>
             <button type="button" class="btn btn-ink mt-7 px-6 py-3.5 text-sm" data-close>Ver catálogo</button>
           </div>
 
@@ -501,6 +399,16 @@
         </div>
 
         <div id="cart-footer" class="border-t border-black/10 bg-white px-5 py-5 sm:px-7">
+          <div id="discount-hint" class="mb-4 hidden rounded-2xl bg-ivory px-4 py-3">
+            <p class="flex items-center gap-2 text-xs font-semibold text-ink-soft"><i data-lucide="badge-percent" class="h-4 w-4 shrink-0 text-bronze"></i> Te faltan <strong id="discount-missing" class="text-ink"></strong> para el 5 % de descuento</p>
+            <div class="mt-2 h-1 overflow-hidden rounded-full bg-black/10"><div id="discount-bar" class="h-full rounded-full bg-bronze transition-all duration-700"></div></div>
+          </div>
+          <div data-discount-row class="hidden flex items-baseline justify-between text-sm text-ink-mute">
+            <span>Subtotal</span><span id="cart-subtotal" class="tabular-nums"></span>
+          </div>
+          <div data-discount-row class="mb-2 hidden flex items-baseline justify-between text-sm font-semibold text-bronze-deep">
+            <span class="inline-flex items-center gap-1.5"><i data-lucide="badge-percent" class="h-4 w-4"></i> Descuento 5 %</span><span id="cart-discount" class="tabular-nums"></span>
+          </div>
           <div class="flex items-baseline justify-between">
             <span class="text-sm text-ink-mute">Total (<span id="cart-pieces">0</span> piezas)</span>
             <span id="cart-total" class="font-display text-3xl font-semibold"></span>
@@ -531,607 +439,7 @@
   </a>
 
   <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
-  <script>
-  (() => {
-    'use strict';
-
-    /* =========================================================
-       CONFIGURACIÓN
-       ========================================================= */
-    const CONFIG = {
-      store: 'JkJ Stock',
-      whatsapp: '524492094034',
-      whatsappDisplay: '449 209 4034',
-      instagram: 'https://www.instagram.com/l_u_k_a_mon/',
-      markup: 0.25,           // +25 % sobre el precio base del proveedor
-      pageSize: 24,
-      storageKey: 'jkjstock.cart.v1',
-    };
-
-    // Catálogo: precio base del proveedor; el precio público se calcula con CONFIG.markup.
-    const CATALOG = [
-      {"id":"valentino-uomo-born-in-roma-intense","name":"Valentino Uomo Born In Roma Intense 100ml","brand":"Valentino","gender":"hombre","ml":100,"base":370.0,"images":["assets/products/valentino-uomo-born-in-roma-intense-1.webp","assets/products/valentino-uomo-born-in-roma-intense-2.webp","assets/products/valentino-uomo-born-in-roma-intense-3.webp","assets/products/valentino-uomo-born-in-roma-intense-4.webp"],"order":0},
-      {"id":"jean-paul-gaultier-le-beau-le-parfum-125ml","name":"Jean Paul Gaultier Le Beau Le Parfum 125ml","brand":"Jean Paul Gaultier","gender":"hombre","ml":125,"base":379.0,"images":["assets/products/jean-paul-gaultier-le-beau-le-parfum-125ml-1.webp","assets/products/jean-paul-gaultier-le-beau-le-parfum-125ml-2.webp","assets/products/jean-paul-gaultier-le-beau-le-parfum-125ml-3.webp","assets/products/jean-paul-gaultier-le-beau-le-parfum-125ml-4.webp"],"order":1},
-      {"id":"jean-paul-gaultier-le-male-elixir","name":"Jean Paul Gaultier Le Male Elixir 125ml","brand":"Jean Paul Gaultier","gender":"hombre","ml":125,"base":379.0,"images":["assets/products/jean-paul-gaultier-le-male-elixir-1.webp","assets/products/jean-paul-gaultier-le-male-elixir-2.webp","assets/products/jean-paul-gaultier-le-male-elixir-3.webp","assets/products/jean-paul-gaultier-le-male-elixir-4.webp"],"order":2},
-      {"id":"jean-paul-gaultier-le-male-125ml","name":"Jean Paul Gaultier Le male 125ml","brand":"Jean Paul Gaultier","gender":"hombre","ml":125,"base":380.0,"images":["assets/products/jean-paul-gaultier-le-male-125ml-1.webp","assets/products/jean-paul-gaultier-le-male-125ml-2.webp","assets/products/jean-paul-gaultier-le-male-125ml-3.webp","assets/products/jean-paul-gaultier-le-male-125ml-4.webp"],"order":3},
-      {"id":"le-labo-santal-33","name":"Le labo santal 33 100ml","brand":"Le Labo","gender":"unisex","ml":100,"base":379.0,"images":["assets/products/le-labo-santal-33-1.webp"],"order":4},
-      {"id":"armaf-odyssey-mandarin-sky","name":"Armaf Odyssey Mandarin Sky 100ml","brand":"Armaf","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/armaf-odyssey-mandarin-sky-1.webp"],"order":5},
-      {"id":"yves-saint-laurent-eau-de-parfum-100ml","name":"Yves Saint Laurent Eau De Parfum 100Ml","brand":"Yves Saint Laurent","gender":"hombre","ml":100,"base":359.0,"images":["assets/products/yves-saint-laurent-eau-de-parfum-100ml-1.webp","assets/products/yves-saint-laurent-eau-de-parfum-100ml-2.webp","assets/products/yves-saint-laurent-eau-de-parfum-100ml-3.webp","assets/products/yves-saint-laurent-eau-de-parfum-100ml-4.webp"],"order":6},
-      {"id":"versace-eros","name":"Versace Eros EDP 100ml","brand":"Versace","gender":"hombre","ml":100,"base":359.0,"images":["assets/products/versace-eros-1.webp","assets/products/versace-eros-2.webp","assets/products/versace-eros-3.webp","assets/products/versace-eros-4.webp"],"order":7},
-      {"id":"sauvage-dior-parfum","name":"Sauvage Dior Parfum 100ml","brand":"Dior","gender":"hombre","ml":100,"base":369.0,"images":["assets/products/sauvage-dior-parfum-1.webp"],"order":8},
-      {"id":"xerjoff-erba-pura-eau-de-parfum-100ml","name":"Xerjoff Erba Pura Eau de Parfum 100ml","brand":"Xerjoff","gender":"unisex","ml":100,"base":379.0,"images":["assets/products/xerjoff-erba-pura-eau-de-parfum-100ml-1.webp","assets/products/xerjoff-erba-pura-eau-de-parfum-100ml-2.webp","assets/products/xerjoff-erba-pura-eau-de-parfum-100ml-3.webp","assets/products/xerjoff-erba-pura-eau-de-parfum-100ml-4.webp"],"order":9},
-      {"id":"jean-paul-gaultier-scandal-le-parfum-pour-homme","name":"Jean Paul Gaultier Scandal Le Parfum Pour Homme 100ml","brand":"Jean Paul Gaultier","gender":"hombre","ml":100,"base":380.0,"images":["assets/products/jean-paul-gaultier-scandal-le-parfum-pour-homme-1.webp","assets/products/jean-paul-gaultier-scandal-le-parfum-pour-homme-2.webp","assets/products/jean-paul-gaultier-scandal-le-parfum-pour-homme-3.webp","assets/products/jean-paul-gaultier-scandal-le-parfum-pour-homme-4.webp"],"order":10},
-      {"id":"coco-mademoiselle-eau-de-parfum-intense-100ml","name":"Coco Mademoiselle Eau de Parfum Intense 100ml","brand":"Chanel","gender":"mujer","ml":100,"base":370.0,"images":["assets/products/coco-mademoiselle-eau-de-parfum-intense-100ml-1.webp","assets/products/coco-mademoiselle-eau-de-parfum-intense-100ml-2.webp","assets/products/coco-mademoiselle-eau-de-parfum-intense-100ml-3.webp","assets/products/coco-mademoiselle-eau-de-parfum-intense-100ml-4.webp"],"order":11},
-      {"id":"bharara-king-edp-100ml","name":"Bharara King EDP 100ml","brand":"Bharara","gender":"hombre","ml":100,"base":399.0,"images":["assets/products/bharara-king-edp-100ml-1.webp","assets/products/bharara-king-edp-100ml-2.webp","assets/products/bharara-king-edp-100ml-3.webp","assets/products/bharara-king-edp-100ml-4.webp"],"order":12},
-      {"id":"sauvage-dior-elixir-100ml","name":"Sauvage Dior Elixir 100ml","brand":"Dior","gender":"hombre","ml":100,"base":369.0,"images":["assets/products/sauvage-dior-elixir-100ml-1.webp"],"order":13},
-      {"id":"aqua-di-gio","name":"Aqua Di Gio 100ml","brand":"Giorgio Armani","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/aqua-di-gio-1.webp","assets/products/aqua-di-gio-2.webp","assets/products/aqua-di-gio-3.webp","assets/products/aqua-di-gio-4.webp"],"order":14},
-      {"id":"valentino-uomo-intense-100ml","name":"Valentino Uomo Intense extradosis 100ml","brand":"Valentino","gender":"hombre","ml":100,"base":369.0,"images":["assets/products/valentino-uomo-intense-100ml-1.webp","assets/products/valentino-uomo-intense-100ml-2.webp","assets/products/valentino-uomo-intense-100ml-3.webp","assets/products/valentino-uomo-intense-100ml-4.webp"],"order":15},
-      {"id":"9pm-eau-de-perfum-vaporisateur-100ml","name":"9PM eau de perfum vaporisateur 100ml","brand":"Afnan","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/9pm-eau-de-perfum-vaporisateur-100ml-1.webp"],"order":16},
-      {"id":"bleu-de-chanel","name":"Bleu de Chanel 100ml","brand":"Chanel","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/bleu-de-chanel-1.webp","assets/products/bleu-de-chanel-2.webp","assets/products/bleu-de-chanel-3.webp","assets/products/bleu-de-chanel-4.webp"],"order":17},
-      {"id":"ariana-grande-cloud","name":"Ariana Grande Cloud 100ml","brand":"Ariana Grande","gender":"mujer","ml":100,"base":449.0,"images":["assets/products/ariana-grande-cloud-1.webp","assets/products/ariana-grande-cloud-2.webp","assets/products/ariana-grande-cloud-3.webp","assets/products/ariana-grande-cloud-4.webp"],"order":18},
-      {"id":"lattafa-khamrah-100ml","name":"Lattafa Khamrah 100ml","brand":"Lattafa","gender":"unisex","ml":100,"base":399.0,"images":["assets/products/lattafa-khamrah-100ml-1.webp"],"order":19},
-      {"id":"jean-paul-gaultier-divine-edp-100-ml","name":"Jean Paul Gaultier Divine Edp 100 Ml","brand":"Jean Paul Gaultier","gender":"mujer","ml":100,"base":379.0,"images":["assets/products/jean-paul-gaultier-divine-edp-100-ml-1.webp","assets/products/jean-paul-gaultier-divine-edp-100-ml-2.webp","assets/products/jean-paul-gaultier-divine-edp-100-ml-3.webp","assets/products/jean-paul-gaultier-divine-edp-100-ml-4.webp"],"order":20},
-      {"id":"hawas-malibu-100ml","name":"Hawas Malibu 100ml","brand":"Rasasi","gender":"hombre","ml":100,"base":399.0,"images":["assets/products/hawas-malibu-100ml-1.webp","assets/products/hawas-malibu-100ml-2.webp","assets/products/hawas-malibu-100ml-3.webp","assets/products/hawas-malibu-100ml-4.webp"],"order":21},
-      {"id":"valentino-donna-born-in-roma-eau-de-parfum-100ml","name":"Valentino Donna Born in Roma Extradose de Parfum 100ml","brand":"Valentino","gender":"mujer","ml":100,"base":370.0,"images":["assets/products/valentino-donna-born-in-roma-eau-de-parfum-100ml-1.webp","assets/products/valentino-donna-born-in-roma-eau-de-parfum-100ml-2.webp","assets/products/valentino-donna-born-in-roma-eau-de-parfum-100ml-3.webp","assets/products/valentino-donna-born-in-roma-eau-de-parfum-100ml-4.webp"],"order":22},
-      {"id":"valentino-born-in-roma-coral-fantasy-uomo","name":"Valentino born in roma coral fantasy uomo 100ml","brand":"Valentino","gender":"hombre","ml":100,"base":370.0,"images":["assets/products/valentino-born-in-roma-coral-fantasy-uomo-1.webp"],"order":23},
-      {"id":"eros-flame-100ml-edp","name":"Eros Flame 100Ml edp","brand":"Versace","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/eros-flame-100ml-edp-1.webp"],"order":24},
-      {"id":"versace-dylan-blue","name":"Versace Dylan Blue 100ml","brand":"Versace","gender":"hombre","ml":100,"base":370.0,"images":["assets/products/versace-dylan-blue-1.webp","assets/products/versace-dylan-blue-2.webp","assets/products/versace-dylan-blue-3.webp","assets/products/versace-dylan-blue-4.webp"],"order":25},
-      {"id":"valentino-uomo-melancholia-100ml","name":"Valentino uomo melancholia 100ml","brand":"Valentino","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/valentino-uomo-melancholia-100ml-1.webp"],"order":26},
-      {"id":"sauvage-dior-eau-de-toilette","name":"Sauvage Dior Eau de Toilette 100ml","brand":"Dior","gender":"hombre","ml":100,"base":369.0,"images":["assets/products/sauvage-dior-eau-de-toilette-1.webp"],"order":27},
-      {"id":"valentino-donna-eau-de-parfum","name":"Valentino Donna Eau de Parfum 100ml","brand":"Valentino","gender":"mujer","ml":100,"base":370.0,"images":["assets/products/valentino-donna-eau-de-parfum-1.webp","assets/products/valentino-donna-eau-de-parfum-2.webp","assets/products/valentino-donna-eau-de-parfum-3.webp","assets/products/valentino-donna-eau-de-parfum-4.webp"],"order":28},
-      {"id":"scandal-jean-paul","name":"Scandal Jean Paul 100ml","brand":"Jean Paul Gaultier","gender":"mujer","ml":100,"base":380.0,"images":["assets/products/scandal-jean-paul-1.webp","assets/products/scandal-jean-paul-2.webp","assets/products/scandal-jean-paul-3.webp","assets/products/scandal-jean-paul-4.webp"],"order":29},
-      {"id":"club-de-nuit-intense","name":"Club de Nuit Intense 100ml","brand":"Armaf","gender":"hombre","ml":100,"base":399.0,"images":["assets/products/club-de-nuit-intense-1.webp","assets/products/club-de-nuit-intense-2.webp","assets/products/club-de-nuit-intense-3.webp","assets/products/club-de-nuit-intense-4.webp"],"order":30},
-      {"id":"dolce-gabbana-light-blue-eau-de-toilette-de-100-ml","name":"Dolce & Gabbana Light Blue Eau de Toilette de 100 ml","brand":"Dolce & Gabbana","gender":"mujer","ml":100,"base":379.0,"images":["assets/products/dolce-gabbana-light-blue-eau-de-toilette-de-100-ml-1.webp"],"order":31},
-      {"id":"jean-paul-gaultier-125ml","name":"Jean Paul Gaultier 125ml","brand":"Jean Paul Gaultier","gender":"hombre","ml":125,"base":380.0,"images":["assets/products/jean-paul-gaultier-125ml-1.webp","assets/products/jean-paul-gaultier-125ml-2.webp","assets/products/jean-paul-gaultier-125ml-3.webp","assets/products/jean-paul-gaultier-125ml-4.webp"],"order":32},
-      {"id":"valentino-donna-born-in-roma-pink-pp-100ml","name":"Valentino donna born in roma pink pp 100ml","brand":"Valentino","gender":"mujer","ml":100,"base":279.0,"images":["assets/products/valentino-donna-born-in-roma-pink-pp-100ml-1.webp","assets/products/valentino-donna-born-in-roma-pink-pp-100ml-2.webp","assets/products/valentino-donna-born-in-roma-pink-pp-100ml-3.webp","assets/products/valentino-donna-born-in-roma-pink-pp-100ml-4.webp"],"order":33},
-      {"id":"hawas-oriental-rasasi","name":"Hawas Oriental Rasasi 100ml","brand":"Rasasi","gender":"hombre","ml":100,"base":449.0,"images":["assets/products/hawas-oriental-rasasi-1.webp","assets/products/hawas-oriental-rasasi-2.webp","assets/products/hawas-oriental-rasasi-3.webp","assets/products/hawas-oriental-rasasi-4.webp"],"order":34},
-      {"id":"212-vip-wild-party-men-100ml","name":"212 VIP wild party men 100ml","brand":"Carolina Herrera","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/212-vip-wild-party-men-100ml-1.webp"],"order":35},
-      {"id":"versace-tradicional","name":"Versace Tradicional 100ml","brand":"Versace","gender":"hombre","ml":100,"base":369.0,"images":["assets/products/versace-tradicional-1.webp","assets/products/versace-tradicional-2.webp","assets/products/versace-tradicional-3.webp","assets/products/versace-tradicional-4.webp"],"order":36},
-      {"id":"hawas-black","name":"Hawas Black 100ml","brand":"Rasasi","gender":"hombre","ml":100,"base":399.0,"images":["assets/products/hawas-black-1.webp","assets/products/hawas-black-2.webp","assets/products/hawas-black-3.webp","assets/products/hawas-black-4.webp"],"order":37},
-      {"id":"calvin-klein-be-eau-de-toilette-100ml","name":"Calvin Klein Be Eau de toilette 100ml","brand":"Calvin Klein","gender":"unisex","ml":100,"base":279.0,"images":["assets/products/calvin-klein-be-eau-de-toilette-100ml-1.webp","assets/products/calvin-klein-be-eau-de-toilette-100ml-2.webp","assets/products/calvin-klein-be-eau-de-toilette-100ml-3.webp","assets/products/calvin-klein-be-eau-de-toilette-100ml-4.webp"],"order":38},
-      {"id":"afnan-9am-dive-150ml-edp-spray-unisex","name":"Afnan 9am Dive 150ml Edp Spray - Unisex","brand":"Afnan","gender":"unisex","ml":150,"base":379.0,"images":["assets/products/afnan-9am-dive-150ml-edp-spray-unisex-1.webp"],"order":39},
-      {"id":"acqua-di-gio-profondo-edt","name":"Acqua di gio profondo edt 100ml","brand":"Giorgio Armani","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/acqua-di-gio-profondo-edt-1.webp","assets/products/acqua-di-gio-profondo-edt-2.webp","assets/products/acqua-di-gio-profondo-edt-3.webp","assets/products/acqua-di-gio-profondo-edt-4.webp"],"order":40},
-      {"id":"armaf-odyssey-mega-eau-de-parfum-100ml","name":"Armaf Odyssey Mega Eau de Parfum 100ml","brand":"Armaf","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/armaf-odyssey-mega-eau-de-parfum-100ml-1.webp"],"order":41},
-      {"id":"valentino-uomo-born-in-roma-the-gold","name":"Valentino uomo born in roma the gold 100ml","brand":"Valentino","gender":"hombre","ml":100,"base":289.0,"images":["assets/products/valentino-uomo-born-in-roma-the-gold-1.webp","assets/products/valentino-uomo-born-in-roma-the-gold-2.webp","assets/products/valentino-uomo-born-in-roma-the-gold-3.webp","assets/products/valentino-uomo-born-in-roma-the-gold-4.webp"],"order":42},
-      {"id":"sabrina-carpenter-cherry-baby","name":"Sabrina Carpenter Cherry Baby 100ml","brand":"Sabrina Carpenter","gender":"mujer","ml":100,"base":380.0,"images":["assets/products/sabrina-carpenter-cherry-baby-1.webp","assets/products/sabrina-carpenter-cherry-baby-2.webp","assets/products/sabrina-carpenter-cherry-baby-3.webp","assets/products/sabrina-carpenter-cherry-baby-4.webp"],"order":43},
-      {"id":"jean-paul-gaultier-le-beau-paradise-garden-125ml","name":"Jean Paul Gaultier Le Beau Paradise Garden 125ml","brand":"Jean Paul Gaultier","gender":"hombre","ml":125,"base":369.0,"images":["assets/products/jean-paul-gaultier-le-beau-paradise-garden-125ml-1.webp"],"order":44},
-      {"id":"jean-paul-gaultier-le-beau-narcisse-eau-de-parfum-125ml","name":"Jean Paul Gaultier Le Beau Narcisse Eau de Parfum 125ml","brand":"Jean Paul Gaultier","gender":"hombre","ml":125,"base":369.0,"images":["assets/products/jean-paul-gaultier-le-beau-narcisse-eau-de-parfum-125ml-1.webp"],"order":45},
-      {"id":"hugo-iced-125ml","name":"Hugo Iced 125ml","brand":"Hugo Boss","gender":"hombre","ml":125,"base":320.0,"images":["assets/products/hugo-iced-125ml-1.webp"],"order":46},
-      {"id":"sabrina-carpenter-sweet-tooth","name":"Sabrina Carpenter sweet tooth 100ml","brand":"Sabrina Carpenter","gender":"mujer","ml":100,"base":380.0,"images":["assets/products/sabrina-carpenter-sweet-tooth-1.webp","assets/products/sabrina-carpenter-sweet-tooth-2.webp","assets/products/sabrina-carpenter-sweet-tooth-3.webp","assets/products/sabrina-carpenter-sweet-tooth-4.webp"],"order":47},
-      {"id":"jean-paul-gaultier-le-male-blue-125ml","name":"Jean Paul Gaultier Le Male Blue 125ml","brand":"Jean Paul Gaultier","gender":"hombre","ml":125,"base":369.0,"images":["assets/products/jean-paul-gaultier-le-male-blue-125ml-1.webp"],"order":48},
-      {"id":"sin-titulo-6ago13-17-56","name":"Boss Bottled Night 100ml","brand":"Hugo Boss","gender":"hombre","ml":100,"base":350.0,"images":["assets/products/sin-titulo-6ago13-17-56-1.webp"],"order":49},
-      {"id":"xerjoff-erba-gold","name":"Xerjoff Erba Gold","brand":"Xerjoff","gender":"unisex","ml":100,"base":379.0,"images":["assets/products/xerjoff-erba-gold-1.webp","assets/products/xerjoff-erba-gold-2.webp","assets/products/xerjoff-erba-gold-3.webp","assets/products/xerjoff-erba-gold-4.webp"],"order":50},
-      {"id":"moschino-toy-boy-eau-de-parfum-de-100-ml","name":"Moschino Toy Boy Eau de Parfum de 100 ml","brand":"Moschino","gender":"hombre","ml":100,"base":359.0,"images":["assets/products/moschino-toy-boy-eau-de-parfum-de-100-ml-1.webp"],"order":51},
-      {"id":"odissey-homme-black-100ml","name":"Odissey Homme Black 100ml","brand":"Armaf","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/odissey-homme-black-100ml-1.webp"],"order":52},
-      {"id":"good-girl-supreme-de-carolina-herrera-100ml","name":"Good Girl Suprême de Carolina Herrera 100ml","brand":"Carolina Herrera","gender":"mujer","ml":100,"base":359.0,"images":["assets/products/good-girl-supreme-de-carolina-herrera-100ml-1.webp"],"order":53},
-      {"id":"lattafa-khamrah","name":"Lattafa Khamrah Dukhan 100ml","brand":"Lattafa","gender":"unisex","ml":100,"base":399.0,"images":["assets/products/lattafa-khamrah-1.webp"],"order":54},
-      {"id":"valentino-uomo-born-in-roma-green-stravaganza","name":"Valentino Uomo Born In Roma Green Stravaganza 100ml","brand":"Valentino","gender":"hombre","ml":100,"base":370.0,"images":["assets/products/valentino-uomo-born-in-roma-green-stravaganza-1.webp"],"order":55},
-      {"id":"hugo-edt-just-different-125ml","name":"Hugo EDT Just different 125ml","brand":"Hugo Boss","gender":"hombre","ml":125,"base":319.0,"images":["assets/products/hugo-edt-just-different-125ml-1.webp"],"order":56},
-      {"id":"sabrina-carpenter-me-espresso","name":"Sabrina Carpenter Me espresso 100ml","brand":"Sabrina Carpenter","gender":"mujer","ml":100,"base":380.0,"images":["assets/products/sabrina-carpenter-me-espresso-1.webp","assets/products/sabrina-carpenter-me-espresso-2.webp","assets/products/sabrina-carpenter-me-espresso-3.webp","assets/products/sabrina-carpenter-me-espresso-4.webp"],"order":57},
-      {"id":"good-girl-legere-eau-de-parfum-de-carolina-herrera-100ml","name":"Good Girl Légère Eau de Parfum de Carolina Herrera 100ml","brand":"Carolina Herrera","gender":"mujer","ml":100,"base":359.0,"images":["assets/products/good-girl-legere-eau-de-parfum-de-carolina-herrera-100ml-1.webp"],"order":58},
-      {"id":"montblanc-explorer-edp-100ml","name":"Montblanc Explorer edp 100ml","brand":"Montblanc","gender":"hombre","ml":100,"base":399.0,"images":["assets/products/montblanc-explorer-edp-100ml-1.webp"],"order":59},
-      {"id":"valentino-donna-born-in-roma-the-gold","name":"Valentino donna born in Roma the gold 100ml","brand":"Valentino","gender":"mujer","ml":100,"base":289.0,"images":["assets/products/valentino-donna-born-in-roma-the-gold-1.webp","assets/products/valentino-donna-born-in-roma-the-gold-2.webp","assets/products/valentino-donna-born-in-roma-the-gold-3.webp","assets/products/valentino-donna-born-in-roma-the-gold-4.webp"],"order":60},
-      {"id":"valentino-donna-born-in-roma-yellow-dream","name":"Valentino Donna Born In Roma Yellow Dream 100ml","brand":"Valentino","gender":"mujer","ml":100,"base":370.0,"images":["assets/products/valentino-donna-born-in-roma-yellow-dream-1.webp","assets/products/valentino-donna-born-in-roma-yellow-dream-2.webp","assets/products/valentino-donna-born-in-roma-yellow-dream-3.webp","assets/products/valentino-donna-born-in-roma-yellow-dream-4.webp"],"order":61},
-      {"id":"valentino-donna-born-in-roma-green-stravaganza-100ml","name":"Valentino Donna Born in Roma Green Stravaganza 100ml","brand":"Valentino","gender":"mujer","ml":100,"base":279.0,"images":["assets/products/valentino-donna-born-in-roma-green-stravaganza-100ml-1.webp","assets/products/valentino-donna-born-in-roma-green-stravaganza-100ml-2.webp","assets/products/valentino-donna-born-in-roma-green-stravaganza-100ml-3.webp","assets/products/valentino-donna-born-in-roma-green-stravaganza-100ml-4.webp"],"order":62},
-      {"id":"saint-laurent-myslf-100ml","name":"Saint Laurent MYSLF 100ml","brand":"Yves Saint Laurent","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/saint-laurent-myslf-100ml-1.webp"],"order":63},
-      {"id":"xerjoff-accento-overdose","name":"Xerjoff Accento Overdose 100ml","brand":"Xerjoff","gender":"unisex","ml":100,"base":380.0,"images":["assets/products/xerjoff-accento-overdose-1.webp","assets/products/xerjoff-accento-overdose-2.webp","assets/products/xerjoff-accento-overdose-3.webp","assets/products/xerjoff-accento-overdose-4.webp"],"order":64},
-      {"id":"xerjoff-purple-accento-eau-de-parfum-100ml","name":"Xerjoff Purple Accento Eau de Parfum 100ml","brand":"Xerjoff","gender":"unisex","ml":100,"base":379.0,"images":["assets/products/xerjoff-purple-accento-eau-de-parfum-100ml-1.webp","assets/products/xerjoff-purple-accento-eau-de-parfum-100ml-2.webp","assets/products/xerjoff-purple-accento-eau-de-parfum-100ml-3.webp","assets/products/xerjoff-purple-accento-eau-de-parfum-100ml-4.webp"],"order":65},
-      {"id":"perfume-versace-eau-fraiche-edt-amaderado-acuatico-100ml-hom","name":"Perfume Versace Eau Fraîche EDT Amaderado Acuático 100ml Hombre","brand":"Versace","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/perfume-versace-eau-fraiche-edt-amaderado-acuatico-100ml-hom-1.webp"],"order":66},
-      {"id":"valentino-melancholia-100ml-women-edp","name":"Valentino Melancholia 100ml women edp","brand":"Valentino","gender":"mujer","ml":100,"base":379.0,"images":["assets/products/valentino-melancholia-100ml-women-edp-1.webp"],"order":67},
-      {"id":"xerjoff-starlight-100ml","name":"Xerjoff Louis XV 100ml","brand":"Xerjoff","gender":"unisex","ml":100,"base":379.0,"images":["assets/products/xerjoff-starlight-100ml-1.webp","assets/products/xerjoff-starlight-100ml-2.webp","assets/products/xerjoff-starlight-100ml-3.webp","assets/products/xerjoff-starlight-100ml-4.webp"],"order":68},
-      {"id":"sabrina-carpenter-caramel-dream-100ml","name":"Sabrina Carpenter caramel dream 100ml","brand":"Sabrina Carpenter","gender":"mujer","ml":100,"base":380.0,"images":["assets/products/sabrina-carpenter-caramel-dream-100ml-1.webp","assets/products/sabrina-carpenter-caramel-dream-100ml-2.webp","assets/products/sabrina-carpenter-caramel-dream-100ml-3.webp","assets/products/sabrina-carpenter-caramel-dream-100ml-4.webp"],"order":69},
-      {"id":"lattafa-khamrah-waha-eau-de-parfum-100-ml","name":"Lattafa Khamrah Waha Eau de Parfum 100 ml","brand":"Lattafa","gender":"unisex","ml":100,"base":359.0,"images":["assets/products/lattafa-khamrah-waha-eau-de-parfum-100-ml-1.webp"],"order":70},
-      {"id":"xerjoff-opera","name":"Xerjoff Deified","brand":"Xerjoff","gender":"unisex","ml":100,"base":379.0,"images":["assets/products/xerjoff-opera-1.webp","assets/products/xerjoff-opera-2.webp","assets/products/xerjoff-opera-3.webp","assets/products/xerjoff-opera-4.webp"],"order":71},
-      {"id":"armaf-club-de-nuit-urban-man-eau-de-parfum-105ml","name":"Armaf Club de Nuit Urban Man Eau de Parfum 105ml","brand":"Armaf","gender":"hombre","ml":105,"base":379.0,"images":["assets/products/armaf-club-de-nuit-urban-man-eau-de-parfum-105ml-1.webp"],"order":72},
-      {"id":"xerjoff-homme-anniversary","name":"Xerjoff Homme Anniversary 100ml","brand":"Xerjoff","gender":"hombre","ml":100,"base":379.0,"images":["assets/products/xerjoff-homme-anniversary-1.webp","assets/products/xerjoff-homme-anniversary-2.webp","assets/products/xerjoff-homme-anniversary-3.webp","assets/products/xerjoff-homme-anniversary-4.webp"],"order":73},
-    ];
-
-    const GENDER_LABEL = { hombre: 'Hombre', mujer: 'Mujer', unisex: 'Unisex' };
-
-    /* =========================================================
-       UTILIDADES
-       ========================================================= */
-    const $ = (s, c = document) => c.querySelector(s);
-    const $$ = (s, c = document) => Array.from(c.querySelectorAll(s));
-    const money = new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', maximumFractionDigits: 0 });
-    const fmt = (n) => money.format(n);
-    const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-    const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const icons = () => window.lucide && window.lucide.createIcons();
-    const vibrate = (p = 10) => { try { if (navigator.vibrate) navigator.vibrate(p); } catch (e) { /* sin soporte */ } };
-    const storage = {
-      get(k, f) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : f; } catch (e) { return f; } },
-      set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* no disponible */ } },
-    };
-
-    const PRODUCTS = CATALOG.map((p) => ({ ...p, price: Math.round(p.base * (1 + CONFIG.markup)), search: norm(`${p.name} ${p.brand}`) }));
-    const byId = Object.fromEntries(PRODUCTS.map((p) => [p.id, p]));
-
-    /* =========================================================
-       TOASTS
-       ========================================================= */
-    const toast = (html, icon = 'check') => {
-      const el = document.createElement('div');
-      el.className = 'toast pointer-events-auto flex items-center gap-3 rounded-2xl bg-ink px-4 py-3 text-sm text-white shadow-lift';
-      el.innerHTML = `<span class="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-white/10"><i data-lucide="${icon}" class="h-4 w-4"></i></span><p class="flex-1">${html}</p>`;
-      $('#toasts').appendChild(el);
-      icons();
-      setTimeout(() => { el.classList.add('is-leaving'); el.addEventListener('animationend', () => el.remove(), { once: true }); }, 2800);
-    };
-
-    /* =========================================================
-       CAPAS ACCESIBLES (ESC + trampa de foco)
-       ========================================================= */
-    class Layer {
-      static stack = [];
-      constructor(el, { trigger, onClose } = {}) {
-        this.el = el; this.trigger = trigger; this.onClose = onClose;
-        el.addEventListener('click', (e) => { if (e.target.closest('[data-close]')) this.close(); });
-        el.addEventListener('keydown', (e) => {
-          if (e.key !== 'Tab') return;
-          const f = this.focusables(); if (!f.length) return;
-          if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
-          else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
-        });
-      }
-      get isOpen() { return this.el.classList.contains('is-open'); }
-      focusables() { return $$('a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])', this.el).filter((n) => n.offsetParent !== null); }
-      open(opener) {
-        if (this.isOpen) return;
-        this.last = opener || document.activeElement;
-        Layer.stack.push(this);
-        this.el.classList.add('is-open'); this.el.setAttribute('aria-hidden', 'false');
-        if (this.trigger) this.trigger.setAttribute('aria-expanded', 'true');
-        document.body.classList.add('is-locked');
-        requestAnimationFrame(() => { const f = this.focusables()[0]; if (f) f.focus({ preventScroll: true }); });
-      }
-      close() {
-        if (!this.isOpen) return;
-        Layer.stack = Layer.stack.filter((l) => l !== this);
-        this.el.classList.remove('is-open'); this.el.setAttribute('aria-hidden', 'true');
-        if (this.trigger) this.trigger.setAttribute('aria-expanded', 'false');
-        if (!Layer.stack.length) document.body.classList.remove('is-locked');
-        if (this.onClose) this.onClose();
-        if (this.last && document.contains(this.last)) this.last.focus({ preventScroll: true });
-      }
-      static init() { document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && Layer.stack.length) Layer.stack[Layer.stack.length - 1].close(); }); }
-    }
-
-    /* =========================================================
-       CARRITO
-       ========================================================= */
-    class Cart {
-      constructor() {
-        const saved = storage.get(CONFIG.storageKey, []);
-        this.items = Array.isArray(saved) ? saved.filter((i) => byId[i.id] && i.qty > 0) : [];
-        this.subs = new Set();
-      }
-      subscribe(fn) { this.subs.add(fn); fn(); }
-      emit() { storage.set(CONFIG.storageKey, this.items); this.subs.forEach((fn) => fn()); }
-      add(id, qty = 1) { const l = this.items.find((i) => i.id === id); if (l) l.qty = Math.min(l.qty + qty, 99); else this.items.push({ id, qty }); this.emit(); }
-      set(id, qty) { const l = this.items.find((i) => i.id === id); if (!l) return; if (qty <= 0) this.items = this.items.filter((i) => i.id !== id); else l.qty = Math.min(qty, 99); this.emit(); }
-      clear() { this.items = []; this.emit(); }
-      get count() { return this.items.reduce((s, i) => s + i.qty, 0); }
-      get total() { return this.items.reduce((s, i) => s + byId[i.id].price * i.qty, 0); }
-      lines() { return this.items.map((i) => ({ ...i, p: byId[i.id] })); }
-    }
-
-    const flyToCart = (img) => {
-      const target = $('#cart-button');
-      const bump = () => { target.classList.remove('cart-bump'); void target.offsetWidth; target.classList.add('cart-bump'); };
-      if (!img || reduced) return bump();
-      const s = img.getBoundingClientRect(), t = target.getBoundingClientRect();
-      if (!s.width) return bump();
-      const size = Math.min(s.width, 140);
-      const g = document.createElement('img');
-      g.src = img.currentSrc || img.src; g.alt = '';
-      Object.assign(g.style, { position: 'fixed', zIndex: 150, left: `${s.left + s.width / 2 - size / 2}px`, top: `${s.top + s.height / 2 - size / 2}px`, width: `${size}px`, height: `${size}px`, objectFit: 'contain', background: '#fff', borderRadius: '50%', pointerEvents: 'none', boxShadow: '0 20px 40px rgba(18,17,16,.25)' });
-      document.body.appendChild(g);
-      const dx = t.left + t.width / 2 - (s.left + s.width / 2), dy = t.top + t.height / 2 - (s.top + s.height / 2);
-      g.animate([{ transform: 'translate(0,0) scale(1)' }, { transform: `translate(${dx * 0.4}px, ${dy * 0.4 - 100}px) scale(.6)`, offset: 0.45 }, { transform: `translate(${dx}px, ${dy}px) scale(.12)`, opacity: 0.4 }], { duration: 850, easing: 'cubic-bezier(.55,0,.3,1)' }).onfinish = () => { g.remove(); bump(); };
-    };
-
-    /* =========================================================
-       MENSAJE DE WHATSAPP (formato ASCII)
-       ========================================================= */
-    const WIDTH = 30;
-    const line = (ch = '-') => ch.repeat(WIDTH);
-    const leader = (left, right, width = WIDTH) => {
-      const dots = Math.max(2, width - left.length - right.length - 2);
-      return `${left} ${'.'.repeat(dots)} ${right}`;
-    };
-    // Parte el texto en renglones: el primero mide `first`, los demás llevan `indent` delante.
-    const wrap = (text, first, indent) => {
-      const out = []; let cur = '';
-      text.split(/\s+/).forEach((w) => {
-        const max = out.length ? WIDTH - indent.length : first;
-        if (cur && (cur + ' ' + w).length > max) { out.push(cur); cur = w; } else cur = cur ? `${cur} ${w}` : w;
-      });
-      if (cur) out.push(cur);
-      return out.map((l, i) => (i === 0 ? l : indent + l));
-    };
-    const folio = () => `JKJ-${Date.now().toString(36).slice(-4).toUpperCase()}${Math.random().toString(36).slice(2, 4).toUpperCase()}`;
-    const stamp = () => new Intl.DateTimeFormat('es-MX', { dateStyle: 'short', timeStyle: 'short', timeZone: 'America/Mexico_City' }).format(new Date());
-
-    const buildMessage = (order) => {
-      const items = order.lines.map((l, i) => {
-        const n = String(i + 1).padStart(2, '0');
-        const name = wrap(l.p.name, WIDTH - 4, '    ');
-        return [
-          `${n}. ${name[0]}`,
-          ...name.slice(1),
-          `    ${l.p.brand} | ${GENDER_LABEL[l.p.gender]}`,
-          `    ${leader(`${l.qty} x ${fmt(l.p.price)}`, fmt(l.p.price * l.qty), WIDTH - 4)}`,
-        ].join('\n');
-      }).join('\n\n');
-      const pieces = order.lines.reduce((s, l) => s + l.qty, 0);
-      return [
-        `*${CONFIG.store.toUpperCase()} :: NUEVO PEDIDO*`,
-        '```',
-        line('='),
-        `Folio : ${order.folio}`,
-        `Fecha : ${order.date}`,
-        line('='),
-        '```',
-        '*CLIENTE*',
-        '```',
-        `Nombre : ${order.name}`,
-        `Entrega: ${order.delivery === 'envio' ? 'Envio' : 'Entrega personal'}`,
-        ...(order.delivery === 'envio' ? [`Ciudad : ${order.city}`] : []),
-        ...(order.delivery === 'envio' && order.address ? wrap(`Direcc.: ${order.address}`, WIDTH, '         ') : []),
-        `Pago   : ${order.pay}`,
-        '```',
-        '*PRODUCTOS*',
-        '```',
-        line('-'),
-        items,
-        line('-'),
-        leader('Piezas', String(pieces)),
-        leader('TOTAL', `${fmt(order.total)} MXN`),
-        line('='),
-        '```',
-        ...(order.notes ? [`*NOTAS:* ${order.notes}`, ''] : []),
-        '_Envio de pedido desde el catalogo web. Quedo atento(a) a la confirmacion de existencias, pago y entrega._',
-      ].join('\n');
-    };
-    const waLink = (text) => `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(text)}`;
-
-    /* =========================================================
-       CATÁLOGO
-       ========================================================= */
-    class Catalog {
-      constructor(cart, modal) {
-        this.cart = cart; this.modal = modal;
-        this.state = { gender: 'all', brands: new Set(), price: null, q: '', sort: 'relevance', shown: CONFIG.pageSize };
-        this.prices = this.priceBands();
-        this.renderChips();
-        this.bind();
-        this.render();
-      }
-      priceBands() {
-        const ps = PRODUCTS.map((p) => p.price).sort((a, b) => a - b);
-        const q1 = ps[Math.floor(ps.length / 3)], q2 = ps[Math.floor((ps.length * 2) / 3)];
-        return [
-          { id: 'low', label: `Hasta ${fmt(q1)}`, test: (p) => p.price <= q1 },
-          { id: 'mid', label: `${fmt(q1 + 1)} – ${fmt(q2)}`, test: (p) => p.price > q1 && p.price <= q2 },
-          { id: 'high', label: `Más de ${fmt(q2)}`, test: (p) => p.price > q2 },
-        ];
-      }
-      renderChips() {
-        const brands = [...new Set(PRODUCTS.map((p) => p.brand))].sort((a, b) => PRODUCTS.filter((p) => p.brand === b).length - PRODUCTS.filter((p) => p.brand === a).length);
-        $('#brand-chips').innerHTML = brands.map((b) => `<button type="button" class="chip" aria-pressed="false" data-brand="${esc(b)}">${esc(b)} <span class="text-[0.65rem] opacity-60">${PRODUCTS.filter((p) => p.brand === b).length}</span></button>`).join('');
-        $('#price-chips').innerHTML = this.prices.map((b) => `<button type="button" class="chip" aria-pressed="false" data-price="${b.id}">${b.label}</button>`).join('');
-      }
-      filtered() {
-        const s = this.state;
-        let list = PRODUCTS.filter((p) =>
-          (s.gender === 'all' || p.gender === s.gender) &&
-          (!s.brands.size || s.brands.has(p.brand)) &&
-          (!s.price || this.prices.find((b) => b.id === s.price).test(p)) &&
-          (!s.q || s.q.split(' ').every((w) => p.search.includes(w))));
-        const sorters = {
-          relevance: (a, b) => a.order - b.order,
-          'price-asc': (a, b) => a.price - b.price || a.order - b.order,
-          'price-desc': (a, b) => b.price - a.price || a.order - b.order,
-          az: (a, b) => a.name.localeCompare(b.name, 'es'),
-          za: (a, b) => b.name.localeCompare(a.name, 'es'),
-        };
-        return list.sort(sorters[s.sort]);
-      }
-      card(p, i) {
-        const alt = p.images[1];
-        return `
-        <article class="product-card card-in group flex flex-col overflow-hidden rounded-[22px] bg-white shadow-card" style="--d:${(i % CONFIG.pageSize) * 35}ms" data-id="${p.id}">
-          <button type="button" class="relative block aspect-square overflow-hidden bg-white focus-ring" data-action="view" aria-label="Ver ${esc(p.name)}">
-            <img class="img-a ${alt ? 'has-alt' : ''} absolute inset-0 h-full w-full object-contain p-3 sm:p-5" loading="lazy" decoding="async" src="${p.images[0]}" alt="${esc(p.name)}" />
-            ${alt ? `<img class="img-b absolute inset-0 h-full w-full object-contain p-3 sm:p-5" loading="lazy" decoding="async" src="${alt}" alt="" />` : ''}
-            <span class="absolute left-2.5 top-2.5 rounded-full bg-ivory/90 px-2.5 py-1 text-[0.6rem] font-extrabold uppercase tracking-wider text-ink-soft backdrop-blur sm:left-3 sm:top-3">${GENDER_LABEL[p.gender]}</span>
-          </button>
-          <div class="flex flex-1 flex-col p-3.5 pt-3 sm:p-5 sm:pt-4">
-            <p class="text-[0.6rem] font-extrabold uppercase tracking-[0.18em] text-bronze sm:text-[0.65rem]">${esc(p.brand)}</p>
-            <h3 class="mt-1 line-clamp-2 flex-1 text-[0.82rem] font-semibold leading-snug sm:text-[0.95rem]">${esc(p.name)}</h3>
-            <div class="mt-3 flex items-center justify-between gap-2">
-              <p class="text-base font-extrabold sm:text-lg">${fmt(p.price)}</p>
-              <button type="button" class="btn btn-ink h-9 w-9 shrink-0 !rounded-full p-0 sm:h-10 sm:w-auto sm:px-4 sm:text-xs" data-action="add" aria-label="Agregar ${esc(p.name)} al carrito"><i data-lucide="plus" class="h-4 w-4"></i><span class="hidden sm:inline">Agregar</span></button>
-            </div>
-          </div>
-        </article>`;
-      }
-      render(resetPage = false) {
-        if (resetPage) this.state.shown = CONFIG.pageSize;
-        const list = this.filtered();
-        const visible = list.slice(0, this.state.shown);
-        $('#grid').innerHTML = visible.map((p, i) => this.card(p, i)).join('');
-        $('#empty').classList.toggle('hidden', list.length > 0);
-        $('#results').textContent = list.length ? `${list.length} ${list.length === 1 ? 'perfume' : 'perfumes'}` : '';
-        $('#progress-text').textContent = list.length ? `Mostrando ${visible.length} de ${list.length}` : '';
-        $('#progress-bar').style.width = list.length ? `${(visible.length / list.length) * 100}%` : '0';
-        $('#progress-bar').parentElement.classList.toggle('hidden', !list.length);
-        $('#load-more').classList.toggle('hidden', visible.length >= list.length);
-        const active = this.state.brands.size + (this.state.price ? 1 : 0);
-        $('#filters-badge').textContent = active;
-        $('#filters-badge').classList.toggle('hidden', !active);
-        $('#clear-filters').classList.toggle('hidden', !(active || this.state.q || this.state.gender !== 'all'));
-        $('#empty-wa').href = waLink(`Hola ${CONFIG.store}, busco el perfume: ${$('#search').value || '(escribe aquí)'}`);
-        icons();
-      }
-      setGender(g) {
-        this.state.gender = g;
-        $$('#gender-tabs [data-gender]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.gender === g)));
-        this.render(true);
-      }
-      reset() {
-        this.state.brands.clear(); this.state.price = null; this.state.q = '';
-        $('#search').value = '';
-        $$('[data-brand], [data-price]').forEach((b) => b.setAttribute('aria-pressed', 'false'));
-        this.setGender('all');
-      }
-      bind() {
-        $('#gender-tabs').addEventListener('click', (e) => { const b = e.target.closest('[data-gender]'); if (b) this.setGender(b.dataset.gender); });
-        $('#brand-chips').addEventListener('click', (e) => {
-          const b = e.target.closest('[data-brand]'); if (!b) return;
-          const v = b.dataset.brand, on = !this.state.brands.has(v);
-          on ? this.state.brands.add(v) : this.state.brands.delete(v);
-          b.setAttribute('aria-pressed', String(on)); vibrate(6); this.render(true);
-        });
-        $('#price-chips').addEventListener('click', (e) => {
-          const b = e.target.closest('[data-price]'); if (!b) return;
-          this.state.price = this.state.price === b.dataset.price ? null : b.dataset.price;
-          $$('#price-chips [data-price]').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.price === this.state.price)));
-          vibrate(6); this.render(true);
-        });
-        $('#filters-toggle').addEventListener('click', (e) => {
-          const open = $('#filters-panel').classList.toggle('hidden') === false;
-          e.currentTarget.setAttribute('aria-expanded', String(open));
-        });
-        $('#sort').addEventListener('change', (e) => { this.state.sort = e.target.value; this.render(true); });
-        let t;
-        $('#search').addEventListener('input', (e) => { clearTimeout(t); t = setTimeout(() => { this.state.q = norm(e.target.value.trim()); this.render(true); }, 150); });
-        $('#clear-filters').addEventListener('click', () => this.reset());
-        $('#load-more').addEventListener('click', () => { this.state.shown += CONFIG.pageSize; this.render(); });
-        $('#grid').addEventListener('click', (e) => {
-          const btn = e.target.closest('[data-action]'); if (!btn) return;
-          const card = btn.closest('[data-id]'); const p = byId[card.dataset.id];
-          if (btn.dataset.action === 'view') this.modal.show(p, btn);
-          if (btn.dataset.action === 'add') {
-            this.cart.add(p.id); flyToCart($('.img-a', card)); vibrate();
-            toast(`<strong>${esc(p.name)}</strong> agregado`, 'shopping-bag');
-          }
-        });
-        $$('[data-quick-gender]').forEach((a) => a.addEventListener('click', () => this.setGender(a.dataset.quickGender)));
-        $('#search-jump').addEventListener('click', () => {
-          $('#catalogo').scrollIntoView({ behavior: reduced ? 'auto' : 'smooth' });
-          setTimeout(() => $('#search').focus({ preventScroll: true }), reduced ? 0 : 500);
-        });
-      }
-    }
-
-    /* =========================================================
-       VISTA RÁPIDA
-       ========================================================= */
-    class ProductModal {
-      constructor(cart) {
-        this.cart = cart; this.qty = 1;
-        this.layer = new Layer($('#product-modal'));
-        $('#pm-minus').addEventListener('click', () => this.setQty(this.qty - 1));
-        $('#pm-plus').addEventListener('click', () => this.setQty(this.qty + 1));
-        $('#pm-add').addEventListener('click', () => {
-          this.cart.add(this.p.id, this.qty); flyToCart($('#pm-img')); vibrate();
-          toast(`${this.qty} × <strong>${esc(this.p.name)}</strong> en tu carrito`, 'shopping-bag');
-          this.layer.close();
-        });
-        $('#pm-wa').addEventListener('click', () => {
-          this.cart.add(this.p.id, this.qty);
-          this.layer.close();
-          window.dispatchEvent(new CustomEvent('open-cart'));
-          toast('Completa tus datos para enviar el pedido', 'message-circle');
-        });
-        $('#pm-thumbs').addEventListener('click', (e) => { const b = e.target.closest('[data-src]'); if (b) this.setImage(b.dataset.src); });
-      }
-      setImage(src) {
-        $('#pm-img').src = src;
-        $$('#pm-thumbs [data-src]').forEach((b) => b.classList.toggle('!border-ink', b.dataset.src === src));
-      }
-      setQty(q) {
-        this.qty = Math.max(1, Math.min(99, q));
-        $('#pm-qty').textContent = this.qty;
-        $('#pm-total').textContent = `· ${fmt(this.p.price * this.qty)}`;
-        $('#pm-minus').disabled = this.qty <= 1;
-      }
-      show(p, opener) {
-        this.p = p;
-        $('#pm-img').alt = p.name;
-        $('#pm-brand').textContent = p.brand;
-        $('#pm-title').textContent = p.name;
-        $('#pm-price').textContent = fmt(p.price);
-        $('#pm-meta').innerHTML = [GENDER_LABEL[p.gender], `${p.ml} ml`, p.available === false ? 'Bajo pedido' : 'Disponible']
-          .map((t) => `<span class="rounded-full border border-black/10 bg-ivory px-3 py-1.5 text-xs font-semibold text-ink-soft">${t}</span>`).join('');
-        $('#pm-thumbs').innerHTML = p.images.length > 1 ? p.images.map((src) => `<button type="button" class="h-16 w-16 shrink-0 overflow-hidden rounded-xl border-2 border-transparent bg-white focus-ring" data-src="${src}" aria-label="Ver imagen"><img class="h-full w-full object-contain" src="${src}" alt="" loading="lazy" /></button>`).join('') : '';
-        this.setImage(p.images[0]);
-        this.setQty(1);
-        icons();
-        this.layer.open(opener);
-      }
-    }
-
-    /* =========================================================
-       CARRITO (drawer + pedido por WhatsApp)
-       ========================================================= */
-    class CartDrawer {
-      constructor(cart) {
-        this.cart = cart; this.delivery = 'envio';
-        this.layer = new Layer($('#cart-drawer'), { trigger: $('#cart-button'), onClose: () => { if (this.done) setTimeout(() => this.view('cart'), 500); } });
-        $('#cart-button').addEventListener('click', (e) => this.layer.open(e.currentTarget));
-        $('#open-cart-footer').addEventListener('click', (e) => this.layer.open(e.currentTarget));
-        window.addEventListener('open-cart', () => this.layer.open($('#cart-button')));
-        cart.subscribe(() => this.render());
-        $('#cart-items').addEventListener('click', (e) => {
-          const b = e.target.closest('[data-op]'); if (!b) return;
-          const l = this.cart.items.find((i) => i.id === b.dataset.id); if (!l) return;
-          vibrate(6);
-          if (b.dataset.op === 'inc') this.cart.set(l.id, l.qty + 1);
-          if (b.dataset.op === 'dec') this.cart.set(l.id, l.qty - 1);
-          if (b.dataset.op === 'del') this.cart.set(l.id, 0);
-        });
-        $$('[data-delivery]').forEach((b) => b.addEventListener('click', () => {
-          this.delivery = b.dataset.delivery;
-          $$('[data-delivery]').forEach((x) => x.setAttribute('aria-checked', String(x === b)));
-          $$('[data-delivery-field]').forEach((f) => f.classList.toggle('hidden', f.dataset.deliveryField !== this.delivery));
-        }));
-        ['o-name', 'o-city'].forEach((id) => $(`#${id}`).addEventListener('input', () => this.err(id, '')));
-        const saved = storage.get('jkjstock.customer', null);
-        if (saved) { $('#o-name').value = saved.name || ''; $('#o-city').value = saved.city || ''; }
-        $('#send-order').addEventListener('click', () => this.send());
-        $('#os-new').addEventListener('click', () => { this.layer.close(); });
-      }
-      err(id, msg) {
-        $(`#${id}`).setAttribute('aria-invalid', msg ? 'true' : 'false');
-        $(`#e-${id.slice(2)}`).textContent = msg;
-      }
-      view(v) {
-        this.done = v === 'success';
-        $('#cart-view').classList.toggle('hidden', v !== 'cart'); $('#cart-view').classList.toggle('flex', v === 'cart');
-        $('#cart-success').classList.toggle('hidden', v !== 'success'); $('#cart-success').classList.toggle('flex', v === 'success');
-      }
-      render() {
-        const n = this.cart.count;
-        const badge = $('#cart-count');
-        badge.textContent = n > 99 ? '99+' : n;
-        badge.style.transform = n ? 'scale(1)' : 'scale(0)';
-        $('#cart-button').setAttribute('aria-label', `Abrir carrito, ${n} ${n === 1 ? 'pieza' : 'piezas'}`);
-        $('#cart-empty').classList.toggle('hidden', n > 0);
-        $('#order-form').classList.toggle('hidden', n === 0);
-        $('#cart-footer').classList.toggle('hidden', n === 0);
-        $('#cart-sub').textContent = n ? `${n} ${n === 1 ? 'pieza' : 'piezas'}` : 'Aún no agregas perfumes';
-        $('#cart-pieces').textContent = n;
-        $('#cart-total').textContent = fmt(this.cart.total);
-        $('#cart-items').innerHTML = this.cart.lines().map((l) => `
-          <li class="flex gap-3 rounded-2xl bg-white p-3 shadow-card">
-            <img class="h-20 w-20 shrink-0 rounded-xl object-contain" src="${l.p.images[0]}" alt="" loading="lazy" />
-            <div class="flex min-w-0 flex-1 flex-col">
-              <div class="flex items-start justify-between gap-2">
-                <div class="min-w-0">
-                  <p class="text-[0.6rem] font-extrabold uppercase tracking-[0.16em] text-bronze">${esc(l.p.brand)}</p>
-                  <p class="line-clamp-2 text-sm font-semibold leading-snug">${esc(l.p.name)}</p>
-                </div>
-                <button type="button" class="-mr-1 -mt-1 grid h-8 w-8 shrink-0 place-items-center rounded-full text-ink-mute hover:text-red-600 focus-ring" data-op="del" data-id="${l.id}" aria-label="Quitar ${esc(l.p.name)}"><i data-lucide="trash-2" class="h-4 w-4"></i></button>
-              </div>
-              <div class="mt-auto flex items-center justify-between pt-2">
-                <div class="flex items-center rounded-full border border-black/10">
-                  <button type="button" class="grid h-8 w-8 place-items-center focus-ring" data-op="dec" data-id="${l.id}" aria-label="Quitar uno"><i data-lucide="minus" class="h-3.5 w-3.5"></i></button>
-                  <span class="w-6 text-center text-sm font-bold tabular-nums">${l.qty}</span>
-                  <button type="button" class="grid h-8 w-8 place-items-center focus-ring" data-op="inc" data-id="${l.id}" aria-label="Agregar uno"><i data-lucide="plus" class="h-3.5 w-3.5"></i></button>
-                </div>
-                <p class="font-extrabold tabular-nums">${fmt(l.p.price * l.qty)}</p>
-              </div>
-            </div>
-          </li>`).join('');
-        icons();
-      }
-      send() {
-        if (!this.cart.count) return;
-        const name = $('#o-name').value.trim(), city = $('#o-city').value.trim();
-        let ok = true;
-        if (name.length < 3) { this.err('o-name', 'Escribe tu nombre para identificar el pedido.'); ok = false; }
-        if (this.delivery === 'envio' && city.length < 3) { this.err('o-city', 'Indica tu ciudad para cotizar el envío.'); ok = false; }
-        if (!ok) {
-          const b = $('#send-order'); b.classList.remove('shake'); void b.offsetWidth; b.classList.add('shake');
-          const f = $('#order-form [aria-invalid="true"]'); if (f) f.focus();
-          return;
-        }
-        storage.set('jkjstock.customer', { name, city });
-        const order = {
-          folio: folio(), date: stamp(), name, city, delivery: this.delivery,
-          address: $('#o-address').value.trim(), pay: $('#o-pay').value, notes: $('#o-notes').value.trim(),
-          lines: this.cart.lines(), total: this.cart.total,
-        };
-        const link = waLink(buildMessage(order));
-        window.open(link, '_blank', 'noopener');
-        $('#os-name').textContent = name.split(' ')[0];
-        $('#os-folio').textContent = order.folio;
-        $('#os-wa').href = link;
-        this.cart.clear();
-        $('#o-notes').value = '';
-        this.view('success');
-        vibrate([10, 40, 20]);
-        $('#cart-success').focus();
-      }
-    }
-
-    /* =========================================================
-       EFECTOS
-       ========================================================= */
-    const effects = () => {
-      const header = $('#site-header');
-      const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 40);
-      window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
-      const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); } }), { threshold: 0.12 });
-      $$('[data-reveal]').forEach((el) => io.observe(el));
-      document.addEventListener('pointerdown', (e) => {
-        const b = e.target.closest('.btn'); if (!b || b.disabled) return;
-        const r = b.getBoundingClientRect(), s = Math.max(r.width, r.height), sp = document.createElement('span');
-        sp.className = 'ripple';
-        Object.assign(sp.style, { width: `${s}px`, height: `${s}px`, left: `${e.clientX - r.left - s / 2}px`, top: `${e.clientY - r.top - s / 2}px` });
-        b.appendChild(sp); sp.addEventListener('animationend', () => sp.remove(), { once: true });
-      });
-    };
-
-    const decorate = () => {
-      const pick = (id) => byId[id] || PRODUCTS[0];
-      $('#hero-img-1').src = pick('le-labo-santal-33').images[0];
-      $('#hero-img-2').src = pick('lattafa-khamrah-100ml').images[0];
-      $('#hero-img-3').src = pick('xerjoff-erba-gold').images[0];
-      const brands = [...new Set(PRODUCTS.map((p) => p.brand))].filter((b) => b !== 'Otras');
-      const row = brands.map((b) => `<span>${esc(b)}</span><span class="text-bronze">✦</span>`).join('');
-      $('#brand-marquee').innerHTML = row + row;
-      $('#stat-count').textContent = PRODUCTS.length;
-      $('#hero-count').textContent = PRODUCTS.length;
-      $('#stat-brands').textContent = brands.length;
-      $('#stat-min').textContent = fmt(Math.min(...PRODUCTS.map((p) => p.price)));
-      const ig = PRODUCTS.filter((p) => p.images.length > 1).slice(0, 6);
-      $('#ig-grid').innerHTML = ig.map((p) => `<a href="${CONFIG.instagram}" target="_blank" rel="noopener" class="group relative aspect-square overflow-hidden rounded-2xl bg-white" aria-label="Ver en Instagram"><img class="h-full w-full object-contain p-2 transition-transform duration-700 group-hover:scale-110" src="${p.images[1]}" alt="${esc(p.name)}" loading="lazy" /><span class="absolute inset-0 grid place-items-center bg-ink/50 opacity-0 transition-opacity group-hover:opacity-100"><i data-lucide="instagram" class="h-6 w-6 text-white"></i></span></a>`).join('');
-      $('#year').textContent = new Date().getFullYear();
-    };
-
-    /* =========================================================
-       ARRANQUE
-       ========================================================= */
-    const start = () => {
-      Layer.init();
-      const cart = new Cart();
-      const modal = new ProductModal(cart);
-      new Catalog(cart, modal);
-      new CartDrawer(cart);
-      const nav = new Layer($('#mobile-nav'), { trigger: $('#nav-toggle') });
-      $('#nav-toggle').addEventListener('click', (e) => nav.open(e.currentTarget));
-      $$('[data-close-nav]').forEach((a) => a.addEventListener('click', () => nav.close()));
-      decorate();
-      effects();
-      icons();
-    };
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
-  })();
-  </script>
+  <script src="assets/catalog.js"></script>
+  <script src="assets/jkj.js"></script>
 </body>
 </html>
