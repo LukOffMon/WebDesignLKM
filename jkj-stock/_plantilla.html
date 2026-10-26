@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}" />
+  <meta name="theme-color" content="#f6f3ee" />
+  <meta property="og:title" content="{{title}}" />
+  <meta property="og:description" content="{{description}}" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%23111'/%3E%3Ctext x='24' y='32' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='22' fill='%23c9a46a'%3EJkJ%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script src="{{root}}assets/tw.js"></script>
+  <link rel="stylesheet" href="{{root}}assets/jkj.css" />
+</head>
+
+<body class="font-sans" data-section="{{slug}}" data-root="{{root}}" data-noun="{{noun}}" data-noun-plural="{{nouns}}" data-hero="{{hero}}">
+  <a href="#catalogo" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] btn btn-ink px-5 py-3">Saltar al catálogo</a>
+
+  <!-- Barra de anuncio -->
+  <div class="bg-ink text-white">
+    <div class="no-scrollbar mx-auto flex max-w-[1600px] items-center justify-center gap-6 overflow-x-auto px-4 py-2.5 text-[0.72rem] font-medium tracking-wide sm:justify-between">
+      <p class="flex shrink-0 items-center gap-2"><i data-lucide="message-circle" class="h-3.5 w-3.5 text-wa"></i> Pedidos por WhatsApp · <a href="https://wa.me/524492094034" target="_blank" rel="noopener" class="underline decoration-white/30 underline-offset-2 hover:decoration-white">449 209 4034</a></p>
+      <p class="hidden shrink-0 items-center gap-2 sm:flex"><i data-lucide="badge-percent" class="h-3.5 w-3.5 text-bronze-light"></i> 5 % de descuento automático desde $2,000</p>
+      <a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="hidden shrink-0 items-center gap-2 hover:text-bronze-light sm:flex"><i data-lucide="instagram" class="h-3.5 w-3.5"></i> @l_u_k_a_mon</a>
+    </div>
+  </div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="site-header" class="sticky top-0 z-50 border-b border-transparent">
+    <div class="mx-auto flex max-w-[1600px] items-center justify-between gap-3 px-4 py-3.5 sm:px-6 lg:px-10">
+      <div class="flex items-center gap-2">
+        <button type="button" id="nav-toggle" class="grid h-10 w-10 place-items-center rounded-full hover:bg-black/5 focus-ring lg:hidden" aria-label="Abrir menú" aria-controls="mobile-nav" aria-expanded="false"><i data-lucide="menu" class="h-5 w-5"></i></button>
+        <a href="{{home}}" class="focus-ring rounded-lg" aria-label="JkJ Stock, ir al inicio">
+          <span class="font-display text-[1.9rem] font-semibold italic leading-none tracking-tight sm:text-[2.2rem]">JkJ</span>
+          <span class="ml-1 align-middle text-[0.62rem] font-extrabold uppercase tracking-luxe text-bronze">Stock</span>
+        </a>
+      </div>
+
+      <nav class="hidden lg:block" aria-label="Navegación principal">
+        <ul class="flex items-center gap-6 text-sm font-semibold text-ink-soft xl:gap-8">
+{{nav_desktop}}
+          <li><a class="nav-link hover:text-ink" href="#como-comprar">Cómo comprar</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-1 sm:gap-2">
+        <button type="button" id="search-jump" class="grid h-10 w-10 place-items-center rounded-full hover:bg-black/5 focus-ring" aria-label="Buscar en el catálogo"><i data-lucide="search" class="h-5 w-5"></i></button>
+        <a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="hidden h-10 w-10 place-items-center rounded-full hover:bg-black/5 focus-ring xs:grid" aria-label="Instagram @l_u_k_a_mon"><i data-lucide="instagram" class="h-5 w-5"></i></a>
+        <button type="button" id="cart-button" class="relative grid h-10 w-10 place-items-center rounded-full hover:bg-black/5 focus-ring" aria-label="Abrir carrito" aria-controls="cart-drawer" aria-expanded="false">
+          <i data-lucide="shopping-bag" class="h-5 w-5"></i>
+          <span id="cart-count" class="absolute -right-0.5 -top-0.5 grid h-5 min-w-[1.25rem] scale-0 place-items-center rounded-full bg-bronze px-1 text-[0.62rem] font-extrabold text-white transition-transform duration-500" aria-live="polite">0</span>
+        </button>
+        <a href="https://wa.me/524492094034" target="_blank" rel="noopener" class="btn btn-wa ml-1 hidden px-5 py-2.5 text-sm md:inline-flex"><i data-lucide="message-circle" class="h-4 w-4"></i> WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navegación móvil -->
+  <div id="mobile-nav" class="layer drawer-left z-[60]" role="dialog" aria-modal="true" aria-label="Menú" aria-hidden="true">
+    <div class="overlay" data-close></div>
+    <div class="drawer-panel absolute inset-y-0 left-0 flex w-[86%] max-w-sm flex-col bg-ivory">
+      <div class="flex items-center justify-between border-b border-black/10 px-6 py-5">
+        <span class="font-display text-3xl font-semibold italic">JkJ <span class="font-sans text-xs font-extrabold not-italic uppercase tracking-luxe text-bronze">Stock</span></span>
+        <button type="button" class="grid h-10 w-10 place-items-center rounded-full border border-black/10 focus-ring" data-close aria-label="Cerrar menú"><i data-lucide="x" class="h-5 w-5"></i></button>
+      </div>
+      <nav class="flex-1 overflow-y-auto px-6 py-6" aria-label="Menú móvil">
+        <ul class="divide-y divide-black/5 font-display text-3xl">
+{{nav_mobile}}
+          <li><a class="flex items-center justify-between py-4" href="#como-comprar" data-close-nav>Cómo comprar <i data-lucide="arrow-up-right" class="h-5 w-5 text-bronze"></i></a></li>
+        </ul>
+      </nav>
+      <div class="space-y-3 border-t border-black/10 p-6">
+        <a href="https://wa.me/524492094034" target="_blank" rel="noopener" class="btn btn-wa w-full py-4"><i data-lucide="message-circle" class="h-4 w-4"></i> WhatsApp 449 209 4034</a>
+        <a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="btn btn-line w-full py-4"><i data-lucide="instagram" class="h-4 w-4"></i> @l_u_k_a_mon</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section id="inicio" class="relative overflow-hidden">
+      <div class="pointer-events-none absolute -right-40 -top-40 h-[560px] w-[560px] rounded-full bg-[radial-gradient(circle,rgba(201,164,106,.28),transparent_65%)]" aria-hidden="true"></div>
+      <div class="mx-auto grid max-w-[1600px] items-center gap-12 px-4 pb-16 pt-10 sm:px-6 sm:pt-16 lg:grid-cols-2 lg:gap-8 lg:px-10 lg:pb-24">
+        <div>
+          <p class="fade-up inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/70 px-4 py-2 text-[0.68rem] font-bold uppercase tracking-[0.2em] text-ink-soft" style="--d:100ms"><span class="h-1.5 w-1.5 rounded-full bg-bronze"></span> <span id="hero-count" data-if-products></span><span data-if-empty class="hidden">Próximamente</span></p>
+          <h1 class="fade-up mt-6 font-display text-[3rem] font-medium leading-[0.95] tracking-tight xs:text-6xl sm:text-7xl xl:text-8xl" style="--d:220ms">
+            {{h1}}
+          </h1>
+          <p class="fade-up mt-6 max-w-lg text-base leading-relaxed text-ink-mute sm:text-lg" style="--d:360ms">
+            {{lead}}
+          </p>
+          <div class="fade-up mt-9 flex flex-col gap-3 xs:flex-row" style="--d:480ms">
+            <a href="#catalogo" class="btn btn-ink px-8 py-4 text-sm" data-if-products><i data-lucide="{{icon}}" class="h-4 w-4"></i> Ver {{name_lower}}</a>
+            <a href="https://wa.me/524492094034?text={{wa_text}}" target="_blank" rel="noopener" class="btn btn-wa px-8 py-4 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Pedir por WhatsApp</a>
+          </div>
+          <dl data-if-products class="fade-up mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-black/10 pt-7" style="--d:600ms">
+            <div><dt class="text-[0.62rem] font-bold uppercase tracking-[0.18em] text-ink-mute">{{stat_label}}</dt><dd class="mt-1 font-display text-3xl" id="stat-count"></dd></div>
+            <div><dt class="text-[0.62rem] font-bold uppercase tracking-[0.18em] text-ink-mute">Marcas</dt><dd class="mt-1 font-display text-3xl" id="stat-brands"></dd></div>
+            <div><dt class="text-[0.62rem] font-bold uppercase tracking-[0.18em] text-ink-mute">Desde</dt><dd class="mt-1 font-display text-3xl" id="stat-min"></dd></div>
+          </dl>
+        </div>
+
+        <div class="relative mx-auto aspect-square w-full max-w-[560px]" aria-hidden="true">
+          <div class="absolute inset-[8%] rounded-full border border-bronze/25"></div>
+          <div class="absolute inset-[20%] rounded-full bg-white shadow-lift"></div>
+          <i data-lucide="{{icon}}" data-if-empty class="absolute left-1/2 top-1/2 hidden h-[22%] w-[22%] -translate-x-1/2 -translate-y-1/2 text-bronze" stroke-width="1"></i>
+          <img id="hero-img-1" class="float-a absolute left-[22%] top-[18%] w-[56%] rounded-[28px] object-contain mix-blend-multiply" alt="" />
+          <img id="hero-img-2" class="float-b absolute bottom-[6%] left-[-2%] w-[34%] rounded-3xl bg-white object-contain p-2 shadow-card" style="--r:-6deg" alt="" />
+          <img id="hero-img-3" class="float-a absolute right-[-2%] top-[4%] w-[30%] rounded-3xl bg-white object-contain p-2 shadow-card" style="--r:6deg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Marcas -->
+    <div class="overflow-hidden border-y border-black/10 bg-white py-5" aria-hidden="true">
+      <div id="brand-marquee" class="marquee-track flex w-max gap-12 whitespace-nowrap font-display text-2xl italic text-ink-soft"></div>
+    </div>
+
+    <!-- ===================== CATÁLOGO ===================== -->
+    <section id="catalogo" class="py-16 sm:py-24" aria-labelledby="cat-title">
+      <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
+        <div class="flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
+          <div>
+            <p class="text-[0.7rem] font-extrabold uppercase tracking-luxe text-bronze">Catálogo</p>
+            <h2 id="cat-title" class="mt-3 font-display text-5xl font-medium leading-none sm:text-6xl">{{name}}</h2>
+          </div>
+          <label class="relative block w-full lg:w-96" data-if-products>
+            <span class="sr-only">{{search_ph}}</span>
+            <i data-lucide="search" class="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-ink-mute"></i>
+            <input id="search" type="search" class="field !rounded-full !pl-11" placeholder="{{search_ph}}…" autocomplete="off" />
+          </label>
+        </div>
+
+        <!-- Barra de filtros -->
+        <div data-if-products class="sticky top-[64px] z-30 -mx-4 mt-8 border-y border-black/10 bg-ivory/90 px-4 py-3 backdrop-blur-md sm:-mx-6 sm:px-6 lg:-mx-10 lg:px-10">
+          <div class="flex flex-wrap items-center gap-3">
+            <div id="gender-tabs" class="{{gender_hidden}}no-scrollbar flex gap-2 overflow-x-auto" role="tablist" aria-label="Filtrar por género">
+              <button type="button" class="chip" role="tab" aria-selected="true" data-gender="all">Todos</button>
+              <button type="button" class="chip" role="tab" aria-selected="false" data-gender="hombre">Hombre</button>
+              <button type="button" class="chip" role="tab" aria-selected="false" data-gender="mujer">Mujer</button>
+              <button type="button" class="chip" role="tab" aria-selected="false" data-gender="unisex">Unisex</button>
+            </div>
+            <div class="ml-auto flex items-center gap-2">
+              <button type="button" id="filters-toggle" class="chip" aria-expanded="false" aria-controls="filters-panel"><i data-lucide="sliders-horizontal" class="h-3.5 w-3.5"></i> Filtros <span id="filters-badge" class="hidden rounded-full bg-bronze px-1.5 text-[0.6rem] text-white"></span></button>
+              <label class="sr-only" for="sort">Ordenar</label>
+              <select id="sort" class="field !w-auto !rounded-full !py-2 !pl-4 text-xs font-semibold">
+                <option value="relevance">Más relevantes</option>
+                <option value="price-asc">Precio: menor a mayor</option>
+                <option value="price-desc">Precio: mayor a menor</option>
+                <option value="az">Nombre: A – Z</option>
+                <option value="za">Nombre: Z – A</option>
+              </select>
+            </div>
+          </div>
+          <div id="filters-panel" class="hidden pt-4">
+            <p class="text-[0.65rem] font-extrabold uppercase tracking-[0.18em] text-ink-mute">Marca</p>
+            <div id="brand-chips" class="no-scrollbar mt-2 flex gap-2 overflow-x-auto pb-1" role="group" aria-label="Filtrar por marca"></div>
+            <p class="mt-4 text-[0.65rem] font-extrabold uppercase tracking-[0.18em] text-ink-mute">Precio</p>
+            <div id="price-chips" class="no-scrollbar mt-2 flex gap-2 overflow-x-auto pb-1" role="group" aria-label="Filtrar por precio"></div>
+          </div>
+        </div>
+
+        <div data-if-products class="mt-6 flex items-center justify-between gap-4">
+          <p id="results" class="text-sm text-ink-mute" aria-live="polite"></p>
+          <button type="button" id="clear-filters" class="hidden text-sm font-semibold underline underline-offset-4 hover:text-bronze">Limpiar filtros</button>
+        </div>
+
+        <div id="grid" class="mt-6 grid grid-cols-2 gap-3 sm:gap-5 md:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5"></div>
+        <div id="empty" class="hidden py-20 text-center">
+          <i data-lucide="search-x" class="mx-auto h-10 w-10 text-bronze"></i>
+          <p class="mt-4 font-display text-3xl">No encontramos ese producto</p>
+          <p class="mt-2 text-ink-mute">Prueba con otra marca o pregúntanos por WhatsApp, quizá lo conseguimos.</p>
+          <a id="empty-wa" href="https://wa.me/524492094034" target="_blank" rel="noopener" class="btn btn-wa mt-7 px-6 py-3.5 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Preguntar por WhatsApp</a>
+        </div>
+        <div data-if-empty class="mt-10 hidden rounded-[28px] border border-black/10 bg-white px-6 py-16 text-center shadow-card sm:py-20">
+          <div class="mx-auto grid h-20 w-20 place-items-center rounded-full bg-ivory"><i data-lucide="{{icon}}" class="h-9 w-9 text-bronze"></i></div>
+          <p class="mt-6 text-[0.7rem] font-extrabold uppercase tracking-luxe text-bronze">Próximamente</p>
+          <p class="mt-2 font-display text-4xl">Estamos preparando esta sección</p>
+          <p class="mx-auto mt-3 max-w-md text-ink-mute">Muy pronto verás aquí {{name_lower}}. Mientras tanto, revisa las otras secciones o escríbenos por WhatsApp.</p>
+          <div class="mt-8 flex flex-col justify-center gap-3 xs:flex-row">
+            <a href="{{home}}" class="btn btn-ink px-7 py-3.5 text-sm"><i data-lucide="sparkles" class="h-4 w-4"></i> Ver perfumes</a>
+            <a href="https://wa.me/524492094034?text={{wa_text}}" target="_blank" rel="noopener" class="btn btn-wa px-7 py-3.5 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Escribir por WhatsApp</a>
+          </div>
+        </div>
+        <div data-if-products class="mt-12 text-center">
+          <p id="progress-text" class="text-xs font-semibold uppercase tracking-[0.18em] text-ink-mute"></p>
+          <div class="mx-auto mt-3 h-1 w-48 overflow-hidden rounded-full bg-black/10"><div id="progress-bar" class="h-full rounded-full bg-ink transition-all duration-700"></div></div>
+          <button type="button" id="load-more" class="btn btn-line mt-6 px-8 py-3.5 text-sm">Ver más</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CÓMO COMPRAR ===================== -->
+    <section id="como-comprar" class="border-t border-black/10 bg-white py-20 sm:py-28" aria-labelledby="how-title">
+      <div class="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-10">
+        <div class="mx-auto max-w-2xl text-center">
+          <p class="text-[0.7rem] font-extrabold uppercase tracking-luxe text-bronze" data-reveal>Cómo comprar</p>
+          <h2 id="how-title" class="mt-3 font-display text-5xl font-medium leading-tight sm:text-6xl" data-reveal style="--d:80ms">Tres pasos, <em class="text-bronze">cero complicaciones</em>.</h2>
+        </div>
+        <ol class="mt-14 grid gap-5 md:grid-cols-3">
+          <li class="rounded-[28px] border border-black/10 bg-ivory p-7 sm:p-9" data-reveal style="--d:0ms">
+            <span class="font-display text-6xl italic text-bronze">01</span>
+            <h3 class="mt-4 text-lg font-extrabold">Elige tus productos</h3>
+            <p class="mt-2 text-sm leading-relaxed text-ink-mute">Recorre las secciones, filtra por marca o precio y agrega al carrito las piezas que quieras.</p>
+          </li>
+          <li class="rounded-[28px] border border-black/10 bg-ivory p-7 sm:p-9" data-reveal style="--d:120ms">
+            <span class="font-display text-6xl italic text-bronze">02</span>
+            <h3 class="mt-4 text-lg font-extrabold">Envía tu pedido</h3>
+            <p class="mt-2 text-sm leading-relaxed text-ink-mute">Llena tus datos y el sitio arma un mensaje de WhatsApp con tu pedido completo y su folio.</p>
+          </li>
+          <li class="rounded-[28px] border border-black/10 bg-ivory p-7 sm:p-9" data-reveal style="--d:240ms">
+            <span class="font-display text-6xl italic text-bronze">03</span>
+            <h3 class="mt-4 text-lg font-extrabold">Confirmamos y entregamos</h3>
+            <p class="mt-2 text-sm leading-relaxed text-ink-mute">Te respondemos por WhatsApp para confirmar existencias, forma de pago y entrega.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== INSTAGRAM ===================== -->
+    <section class="relative overflow-hidden bg-ink py-20 text-white sm:py-28" aria-labelledby="ig-title">
+      <div class="pointer-events-none absolute -left-32 -top-32 h-96 w-96 rounded-full bg-[radial-gradient(circle,rgba(201,164,106,.25),transparent_65%)]" aria-hidden="true"></div>
+      <div class="relative mx-auto grid max-w-[1400px] items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-10">
+        <div data-reveal>
+          <p class="text-[0.7rem] font-extrabold uppercase tracking-luxe text-bronze-light">Instagram</p>
+          <h2 id="ig-title" class="mt-3 font-display text-5xl font-medium leading-tight sm:text-6xl">Novedades y llegadas, <em class="text-bronze-light">primero ahí</em>.</h2>
+          <p class="mt-5 max-w-md text-white/70">Síguenos para ver nuevos ingresos, reseñas y promociones del momento.</p>
+          <a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="btn mt-8 bg-white px-7 py-4 text-sm text-ink hover:bg-bronze-light"><i data-lucide="instagram" class="h-4 w-4"></i> Seguir a @l_u_k_a_mon</a>
+        </div>
+        <div id="ig-grid" class="grid grid-cols-3 gap-2 sm:gap-3" data-reveal style="--d:120ms"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="border-t border-black/10 bg-ivory pt-16">
+    <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
+      <div class="grid gap-12 pb-12 md:grid-cols-12">
+        <div class="md:col-span-5">
+          <p><span class="font-display text-5xl font-semibold italic">JkJ</span> <span class="text-xs font-extrabold uppercase tracking-luxe text-bronze">Stock</span></p>
+          <p class="mt-4 max-w-sm text-sm leading-relaxed text-ink-mute">Perfumes y accesorios en un solo lugar. Todos los pedidos se atienden y confirman por WhatsApp.</p>
+          <div class="mt-6 flex gap-3">
+            <a href="https://wa.me/524492094034" target="_blank" rel="noopener" class="grid h-11 w-11 place-items-center rounded-full border border-black/15 transition-colors hover:border-ink hover:bg-ink hover:text-white focus-ring" aria-label="WhatsApp de JkJ Stock"><i data-lucide="message-circle" class="h-[18px] w-[18px]"></i></a>
+            <a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="grid h-11 w-11 place-items-center rounded-full border border-black/15 transition-colors hover:border-ink hover:bg-ink hover:text-white focus-ring" aria-label="Instagram de JkJ Stock"><i data-lucide="instagram" class="h-[18px] w-[18px]"></i></a>
+          </div>
+        </div>
+        <div class="grid gap-10 sm:grid-cols-3 md:col-span-7">
+          <div>
+            <h3 class="text-[0.68rem] font-extrabold uppercase tracking-[0.2em] text-bronze">Catálogo</h3>
+            <ul class="mt-4 space-y-2.5 text-sm text-ink-soft">
+{{nav_footer}}
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-[0.68rem] font-extrabold uppercase tracking-[0.2em] text-bronze">Contacto</h3>
+            <ul class="mt-4 space-y-2.5 text-sm text-ink-soft">
+              <li><a href="https://wa.me/524492094034" target="_blank" rel="noopener" class="inline-flex items-center gap-2 hover:text-ink"><i data-lucide="message-circle" class="h-4 w-4"></i> 449 209 4034</a></li>
+              <li><a href="https://www.instagram.com/l_u_k_a_mon/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 hover:text-ink"><i data-lucide="instagram" class="h-4 w-4"></i> @l_u_k_a_mon</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-[0.68rem] font-extrabold uppercase tracking-[0.2em] text-bronze">Ayuda</h3>
+            <ul class="mt-4 space-y-2.5 text-sm text-ink-soft">
+              <li><a href="#como-comprar" class="hover:text-ink">Cómo comprar</a></li>
+              <li><button type="button" id="open-cart-footer" class="hover:text-ink">Ver mi carrito</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="select-none overflow-hidden whitespace-nowrap text-center font-display text-[26vw] font-semibold italic leading-[0.8] text-black/[0.04] lg:text-[18vw]" aria-hidden="true">JkJ Stock</p>
+      <div class="flex flex-col gap-3 border-t border-black/10 pb-24 pt-7 text-xs text-ink-mute md:flex-row md:items-center md:justify-between md:pb-7 md:pr-20">
+        <p>© <span id="year"></span> JkJ Stock. Precios en pesos mexicanos, sujetos a disponibilidad.</p>
+        <p>Sitio diseñado y desarrollado por <span class="font-extrabold text-ink">LKM’r</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== VISTA RÁPIDA ===================== -->
+  <div id="product-modal" class="layer z-[70] grid place-items-end sm:place-items-center sm:p-6" role="dialog" aria-modal="true" aria-labelledby="pm-title" aria-hidden="true">
+    <div class="overlay" data-close></div>
+    <div class="modal-panel relative flex max-h-[94svh] w-full max-w-4xl flex-col overflow-hidden rounded-t-[28px] bg-white md:flex-row md:rounded-[28px]">
+      <button type="button" class="absolute right-4 top-4 z-10 grid h-10 w-10 place-items-center rounded-full bg-white/90 shadow-card focus-ring" data-close aria-label="Cerrar"><i data-lucide="x" class="h-5 w-5"></i></button>
+      <div class="shrink-0 bg-white p-4 md:w-1/2 md:p-6">
+        <div class="relative aspect-square overflow-hidden rounded-2xl bg-white">
+          <img id="pm-img" class="h-full w-full object-contain" alt="" />
+        </div>
+        <div id="pm-thumbs" class="no-scrollbar mt-3 flex gap-2 overflow-x-auto"></div>
+      </div>
+      <div class="flex min-h-0 flex-1 flex-col border-t border-black/5 md:border-l md:border-t-0">
+        <div class="flex-1 overflow-y-auto p-6 sm:p-8">
+          <p id="pm-brand" class="text-[0.7rem] font-extrabold uppercase tracking-[0.22em] text-bronze"></p>
+          <h3 id="pm-title" class="mt-2 pr-10 font-display text-4xl font-medium leading-tight"></h3>
+          <p id="pm-price" class="mt-3 text-2xl font-extrabold"></p>
+          <div id="pm-meta" class="mt-5 flex flex-wrap gap-2"></div>
+          <ul class="mt-6 space-y-3 text-sm text-ink-soft">
+            <li class="flex items-start gap-3"><i data-lucide="message-circle" class="mt-0.5 h-4 w-4 shrink-0 text-bronze"></i> Pedido y confirmación por WhatsApp</li>
+            <li class="flex items-start gap-3"><i data-lucide="package-check" class="mt-0.5 h-4 w-4 shrink-0 text-bronze"></i> Existencias sujetas a confirmación</li>
+          </ul>
+        </div>
+        <div class="space-y-3 border-t border-black/10 p-4 sm:p-6">
+          <div class="flex items-center gap-3">
+            <div class="flex items-center rounded-full border border-black/15" role="group" aria-label="Cantidad">
+              <button type="button" id="pm-minus" class="grid h-12 w-11 place-items-center rounded-l-full focus-ring disabled:opacity-30" aria-label="Disminuir"><i data-lucide="minus" class="h-4 w-4"></i></button>
+              <output id="pm-qty" class="w-8 text-center font-bold" aria-live="polite">1</output>
+              <button type="button" id="pm-plus" class="grid h-12 w-11 place-items-center rounded-r-full focus-ring" aria-label="Aumentar"><i data-lucide="plus" class="h-4 w-4"></i></button>
+            </div>
+            <button type="button" id="pm-add" class="btn btn-ink flex-1 px-4 py-4 text-sm"><i data-lucide="shopping-bag" class="h-4 w-4"></i> Agregar <span id="pm-total"></span></button>
+          </div>
+          <button type="button" id="pm-wa" class="btn btn-wa w-full py-3.5 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Pedir solo este por WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== CARRITO ===================== -->
+  <div id="cart-drawer" class="layer z-[80]" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true">
+    <div class="overlay" data-close></div>
+    <div class="drawer-panel absolute inset-y-0 right-0 flex w-full max-w-md flex-col bg-ivory">
+      <div class="flex items-center justify-between border-b border-black/10 px-5 py-5 sm:px-7">
+        <div>
+          <h2 id="cart-title" class="font-display text-3xl font-medium">Tu carrito</h2>
+          <p id="cart-sub" class="text-xs text-ink-mute"></p>
+        </div>
+        <button type="button" class="grid h-10 w-10 place-items-center rounded-full border border-black/10 focus-ring" data-close aria-label="Cerrar carrito"><i data-lucide="x" class="h-5 w-5"></i></button>
+      </div>
+
+      <div id="cart-view" class="flex min-h-0 flex-1 flex-col">
+        <div class="flex-1 overflow-y-auto px-5 py-5 sm:px-7">
+          <ul id="cart-items" class="space-y-3"></ul>
+          <div id="cart-empty" class="hidden py-16 text-center">
+            <div class="mx-auto grid h-20 w-20 place-items-center rounded-full bg-white shadow-card"><i data-lucide="shopping-bag" class="h-8 w-8 text-bronze"></i></div>
+            <p class="mt-6 font-display text-3xl">Tu carrito está vacío</p>
+            <p class="mt-2 text-sm text-ink-mute">Explora las secciones y elige tus productos.</p>
+            <button type="button" class="btn btn-ink mt-7 px-6 py-3.5 text-sm" data-close>Ver catálogo</button>
+          </div>
+
+          <form id="order-form" class="mt-8 space-y-4" novalidate>
+            <p class="text-[0.68rem] font-extrabold uppercase tracking-[0.18em]">Datos para tu pedido</p>
+            <div>
+              <label for="o-name" class="mb-1.5 block text-xs font-semibold text-ink-soft">Nombre completo</label>
+              <input id="o-name" class="field" autocomplete="name" placeholder="¿A nombre de quién?" aria-describedby="e-name" />
+              <p id="e-name" class="err"></p>
+            </div>
+            <div>
+              <p class="mb-1.5 text-xs font-semibold text-ink-soft">Entrega</p>
+              <div class="grid grid-cols-2 gap-2" role="radiogroup" aria-label="Forma de entrega">
+                <button type="button" class="chip justify-center !py-3" role="radio" aria-checked="true" data-delivery="envio"><i data-lucide="truck" class="h-4 w-4"></i> Envío</button>
+                <button type="button" class="chip justify-center !py-3" role="radio" aria-checked="false" data-delivery="entrega"><i data-lucide="hand-heart" class="h-4 w-4"></i> Entrega personal</button>
+              </div>
+            </div>
+            <div data-delivery-field="envio" class="grid grid-cols-1 gap-3">
+              <div>
+                <label for="o-city" class="mb-1.5 block text-xs font-semibold text-ink-soft">Ciudad y estado</label>
+                <input id="o-city" class="field" autocomplete="address-level2" placeholder="Ej. Aguascalientes, Ags." aria-describedby="e-city" />
+                <p id="e-city" class="err"></p>
+              </div>
+              <div>
+                <label for="o-address" class="mb-1.5 block text-xs font-semibold text-ink-soft">Dirección <span class="font-normal text-ink-mute">(opcional, la confirmamos por WhatsApp)</span></label>
+                <input id="o-address" class="field" autocomplete="street-address" placeholder="Calle, número, colonia, C.P." />
+              </div>
+            </div>
+            <div>
+              <label for="o-pay" class="mb-1.5 block text-xs font-semibold text-ink-soft">Forma de pago preferida</label>
+              <select id="o-pay" class="field">
+                <option>Transferencia</option>
+                <option>Efectivo</option>
+                <option>Depósito en tienda</option>
+                <option>Por definir</option>
+              </select>
+            </div>
+            <div>
+              <label for="o-notes" class="mb-1.5 block text-xs font-semibold text-ink-soft">Notas <span class="font-normal text-ink-mute">(opcional)</span></label>
+              <textarea id="o-notes" rows="2" maxlength="240" class="field resize-none" placeholder="Horario para recibir, si es regalo, etc."></textarea>
+            </div>
+          </form>
+        </div>
+
+        <div id="cart-footer" class="border-t border-black/10 bg-white px-5 py-5 sm:px-7">
+          <div id="discount-hint" class="mb-4 hidden rounded-2xl bg-ivory px-4 py-3">
+            <p class="flex items-center gap-2 text-xs font-semibold text-ink-soft"><i data-lucide="badge-percent" class="h-4 w-4 shrink-0 text-bronze"></i> Te faltan <strong id="discount-missing" class="text-ink"></strong> para el 5 % de descuento</p>
+            <div class="mt-2 h-1 overflow-hidden rounded-full bg-black/10"><div id="discount-bar" class="h-full rounded-full bg-bronze transition-all duration-700"></div></div>
+          </div>
+          <div data-discount-row class="hidden flex items-baseline justify-between text-sm text-ink-mute">
+            <span>Subtotal</span><span id="cart-subtotal" class="tabular-nums"></span>
+          </div>
+          <div data-discount-row class="mb-2 hidden flex items-baseline justify-between text-sm font-semibold text-bronze-deep">
+            <span class="inline-flex items-center gap-1.5"><i data-lucide="badge-percent" class="h-4 w-4"></i> Descuento 5 %</span><span id="cart-discount" class="tabular-nums"></span>
+          </div>
+          <div class="flex items-baseline justify-between">
+            <span class="text-sm text-ink-mute">Total (<span id="cart-pieces">0</span> piezas)</span>
+            <span id="cart-total" class="font-display text-3xl font-semibold"></span>
+          </div>
+          <p class="mt-1 text-[0.7rem] text-ink-mute">El costo de envío, si aplica, se confirma por WhatsApp.</p>
+          <button type="button" id="send-order" class="btn btn-wa mt-4 w-full py-4 text-sm"><i data-lucide="send" class="h-4 w-4"></i> Enviar pedido por WhatsApp</button>
+        </div>
+      </div>
+
+      <div id="cart-success" class="hidden flex-1 flex-col overflow-y-auto p-6 text-center sm:p-8" tabindex="-1">
+        <svg class="mx-auto mt-6 h-20 w-20" viewBox="0 0 56 56" aria-hidden="true"><circle class="success-ring" cx="28" cy="28" r="26" fill="none" stroke="#25d366" stroke-width="2" /><path class="success-check" d="M17 29l7 7 15-16" fill="none" stroke="#25d366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>
+        <p class="mt-6 text-[0.68rem] font-extrabold uppercase tracking-luxe text-bronze">Pedido listo</p>
+        <h3 class="mt-2 font-display text-4xl">¡Gracias, <span id="os-name" class="italic"></span>!</h3>
+        <p class="mt-3 text-sm text-ink-mute">Tu folio es</p>
+        <p id="os-folio" class="mt-1 font-mono text-2xl font-bold tracking-wider"></p>
+        <p class="mx-auto mt-5 max-w-xs text-sm text-ink-mute">Abrimos WhatsApp con tu pedido. Solo toca <strong class="text-ink">enviar</strong> en el chat y te confirmamos en breve.</p>
+        <a id="os-wa" href="#" target="_blank" rel="noopener" class="btn btn-wa mt-7 w-full py-4 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Abrir WhatsApp de nuevo</a>
+        <button type="button" id="os-new" class="btn btn-line mt-3 w-full py-4 text-sm">Seguir comprando</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toasts" class="pointer-events-none fixed left-1/2 top-4 z-[120] flex w-[calc(100%-2rem)] max-w-sm -translate-x-1/2 flex-col gap-2 sm:bottom-6 sm:left-6 sm:top-auto sm:translate-x-0" aria-live="polite"></div>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/524492094034" target="_blank" rel="noopener" class="wa-pulse fixed bottom-4 right-4 z-40 grid h-12 w-12 sm:bottom-5 sm:right-5 sm:h-14 sm:w-14 place-items-center rounded-full bg-wa text-white shadow-lift transition-transform hover:scale-105" aria-label="Escríbenos por WhatsApp" style="margin-bottom: env(safe-area-inset-bottom);">
+    <svg viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.05-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.48.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.23-9.43 9.43-9.43 2.52 0 4.89.98 6.67 2.77a9.36 9.36 0 0 1 2.76 6.67c0 5.2-4.23 9.42-9.44 9.42m8.03-17.45A11.27 11.27 0 0 0 12.05.72C5.8.72.7 5.8.7 12.06c0 2 .52 3.95 1.52 5.67L.6 23.6l6.01-1.58a11.33 11.33 0 0 0 5.43 1.38h.01c6.25 0 11.34-5.09 11.34-11.34 0-3.03-1.18-5.88-3.32-8.02"/></svg>
+  </a>
+
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script src="{{root}}assets/catalog.js"></script>
+  <script src="{{root}}assets/jkj.js"></script>
+</body>
+</html>
