@@ -1,0 +1,2279 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Burdo San Telmo · Parrilla & Bar en Aguascalientes</title>
+  <meta name="description" content="Burdo San Telmo: parrilla al carbón, cortes seleccionados, coctelería de autor y terraza jardín en Aguascalientes. 4.8 en Google. Reserva tu mesa u ordena en línea." />
+  <meta name="theme-color" content="#0b0a0a" />
+  <meta property="og:title" content="Burdo San Telmo · Parrilla & Bar" />
+  <meta property="og:description" content="Cortes al carbón, buenos cócteles y terraza jardín. Av. Prol. Zaragoza 1014, Aguascalientes." />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1200&q=80" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%230b0a0a'/%3E%3Ctext x='24' y='34' text-anchor='middle' font-family='Arial Black,Arial' font-weight='900' font-size='28' fill='%23ff3b2f'%3EB%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#0b0a0a',
+            surface: '#161312',
+            surface2: '#1e1918',
+            ember: { DEFAULT: '#e8452c', light: '#ff7a4d', deep: '#b8311c' },
+            platinum: '#9ca3af',
+          },
+          fontFamily: {
+            display: ['"DM Serif Display"', 'Georgia', 'serif'],
+            neon: ['"Bebas Neue"', 'Impact', 'sans-serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          },
+          boxShadow: {
+            ember: '0 10px 30px rgba(232,69,44,0.10)',
+            'ember-lg': '0 20px 60px rgba(232,69,44,0.18)',
+          },
+          screens: { xs: '400px', '3xl': '1920px' },
+          letterSpacing: { luxe: '0.32em' },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    :root {
+      --ink: #0b0a0a;
+      --surface: #161312;
+      --ember: #e8452c;
+      --ember-light: #ff7a4d;
+      --line: rgba(232,69,44, 0.15);
+      --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+      color-scheme: dark;
+    }
+    html { -webkit-text-size-adjust: 100%; scroll-padding-top: 88px; }
+    body { background: var(--ink); color: #fff; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    body.is-locked { overflow: hidden; }
+    ::selection { background: rgba(232,69,44, 0.4); color: #fff; }
+
+    /* Grano cinematográfico */
+    .grain::after {
+      content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 100; opacity: 0.035;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 10px; height: 8px; }
+    ::-webkit-scrollbar-track { background: var(--ink); }
+    ::-webkit-scrollbar-thumb { background: #262931; border-radius: 99px; border: 2px solid var(--ink); }
+    ::-webkit-scrollbar-thumb:hover { background: #3a3d46; }
+    .no-scrollbar { scrollbar-width: none; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+
+    /* Superficies */
+    .card-luxe { background: var(--surface); border: 1px solid var(--line); }
+    .hairline { border-color: var(--line); }
+    .text-gradient-ember { background: linear-gradient(100deg, #ffc2a1 0%, #e8452c 45%, #b8311c 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    /* Letrero neón */
+    .neon { color: #ff4a3d; text-shadow: 0 0 6px rgba(255, 74, 61, 0.9), 0 0 18px rgba(255, 59, 47, 0.65), 0 0 42px rgba(255, 59, 47, 0.35); animation: flicker 7s infinite; }
+    @keyframes flicker { 0%, 92%, 100% { opacity: 1; } 93% { opacity: 0.55; } 94% { opacity: 1; } 96% { opacity: 0.7; } 97% { opacity: 1; } }
+    /* Brasas flotantes */
+    .embers { background-image: radial-gradient(2px 2px at 20% 80%, rgba(255, 140, 60, 0.9), transparent), radial-gradient(1.5px 1.5px at 70% 90%, rgba(255, 90, 40, 0.8), transparent), radial-gradient(2px 2px at 85% 70%, rgba(255, 170, 80, 0.7), transparent), radial-gradient(1.5px 1.5px at 40% 95%, rgba(255, 110, 50, 0.8), transparent), radial-gradient(1px 1px at 55% 75%, rgba(255, 200, 120, 0.8), transparent); background-size: 100% 100%; animation: rise 9s linear infinite; opacity: 0.8; mix-blend-mode: screen; }
+    @keyframes rise { from { transform: translateY(0); opacity: 0; } 15% { opacity: 0.8; } to { transform: translateY(-60%); opacity: 0; } }
+    .divider-ember { height: 1px; background: linear-gradient(90deg, transparent, rgba(232,69,44, 0.5), transparent); }
+
+    /* Botones */
+    .btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; border-radius: 999px; font-weight: 600; letter-spacing: 0.02em; transition: transform 0.45s var(--ease-luxe), background-color 0.3s, color 0.3s, box-shadow 0.45s var(--ease-luxe), border-color 0.3s; will-change: transform; -webkit-tap-highlight-color: transparent; overflow: hidden; isolation: isolate; }
+    .btn:focus-visible, .focus-ring:focus-visible { outline: 2px solid var(--ember-light); outline-offset: 3px; }
+    .btn-ember { background: var(--ember); color: #fff; box-shadow: 0 10px 30px rgba(232,69,44, 0.18); }
+    .btn-ember:hover { background: var(--ember-light); box-shadow: 0 16px 44px rgba(232,69,44, 0.32); }
+    .btn-ghost { border: 1px solid rgba(255, 255, 255, 0.18); color: #fff; background: rgba(255, 255, 255, 0.02); backdrop-filter: blur(8px); }
+    .btn-ghost:hover { border-color: var(--ember); color: var(--ember-light); box-shadow: 0 10px 30px rgba(232,69,44, 0.1); }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; box-shadow: none; }
+    /* Onda de retroalimentación háptica visual */
+    .ripple { position: absolute; border-radius: 50%; transform: scale(0); pointer-events: none; background: rgba(255, 255, 255, 0.35); animation: ripple 0.65s var(--ease-luxe) forwards; z-index: -1; }
+    @keyframes ripple { to { transform: scale(4); opacity: 0; } }
+    .press { transition: transform 0.18s var(--ease-luxe); }
+    .press:active { transform: scale(0.96); }
+
+    /* Chips / filtros */
+    .chip { display: inline-flex; align-items: center; gap: 0.45rem; border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 999px; padding: 0.55rem 1rem; font-size: 0.82rem; color: #d1d5db; background: rgba(255, 255, 255, 0.02); transition: all 0.3s var(--ease-luxe); white-space: nowrap; }
+    .chip:hover { border-color: rgba(232,69,44, 0.5); color: #fff; }
+    .chip[aria-pressed='true'], .chip[aria-selected='true'], .chip[aria-checked='true'], .chip.is-active { border-color: var(--ember); background: rgba(232,69,44, 0.12); color: var(--ember-light); }
+    .chip:focus-visible { outline: 2px solid var(--ember-light); outline-offset: 2px; }
+    .chip:disabled { opacity: 0.3; cursor: not-allowed; text-decoration: line-through; }
+
+    /* Reveal al hacer scroll */
+    .js [data-reveal] { opacity: 0; transform: translate3d(0, 28px, 0); transition: opacity 1s var(--ease-luxe), transform 1.1s var(--ease-luxe); transition-delay: var(--d, 0ms); }
+    .js [data-reveal='fade'] { transform: none; }
+    .js [data-reveal='scale'] { transform: scale(0.96); }
+    .js [data-reveal].is-visible { opacity: 1; transform: none; }
+
+    /* Hero */
+    .hero-img { animation: kenburns 22s var(--ease-luxe) both; transform-origin: 60% 40%; }
+    @keyframes kenburns { from { transform: scale(1.14); } to { transform: scale(1.02); } }
+    .hero-line { display: block; overflow: hidden; }
+    .hero-line > span { display: inline-block; animation: lineUp 1.3s var(--ease-luxe) both; animation-delay: var(--d, 0ms); }
+    @keyframes lineUp { from { transform: translateY(110%); opacity: 0; } to { transform: none; opacity: 1; } }
+    .fade-up { animation: fadeUp 1.2s var(--ease-luxe) both; animation-delay: var(--d, 0ms); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+    .scroll-cue { animation: cue 2.2s ease-in-out infinite; }
+    @keyframes cue { 0%, 100% { transform: translateY(0); opacity: 0.4; } 50% { transform: translateY(8px); opacity: 1; } }
+
+    /* Header */
+    #site-header { transition: background-color 0.5s var(--ease-luxe), border-color 0.5s, padding 0.5s var(--ease-luxe), transform 0.5s var(--ease-luxe); }
+    #site-header.is-scrolled { background: rgba(0, 0, 0, 0.6); backdrop-filter: blur(14px) saturate(140%); -webkit-backdrop-filter: blur(14px) saturate(140%); border-color: var(--line); }
+    .nav-link { position: relative; }
+    .nav-link::after { content: ''; position: absolute; left: 0; right: 0; bottom: -6px; height: 1px; background: var(--ember); transform: scaleX(0); transform-origin: right; transition: transform 0.5s var(--ease-luxe); }
+    .nav-link:hover::after, .nav-link.is-active::after { transform: scaleX(1); transform-origin: left; }
+    .nav-link.is-active { color: #fff; }
+    .status-dot { position: relative; }
+    .status-dot::after { content: ''; position: absolute; inset: -4px; border-radius: 50%; background: currentColor; opacity: 0.4; animation: pulse 2s ease-out infinite; }
+    @keyframes pulse { from { transform: scale(0.6); opacity: 0.5; } to { transform: scale(1.8); opacity: 0; } }
+    .cart-bump { animation: bump 0.6s var(--ease-luxe); }
+    @keyframes bump { 0% { transform: scale(1); } 35% { transform: scale(1.25); } 100% { transform: scale(1); } }
+
+    /* Overlays, drawers y modales */
+    .overlay { position: fixed; inset: 0; background: rgba(5, 6, 8, 0.72); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); opacity: 0; transition: opacity 0.45s var(--ease-luxe); }
+    .is-open > .overlay { opacity: 1; }
+    .layer { position: fixed; inset: 0; visibility: hidden; pointer-events: none; }
+    .layer.is-open { visibility: visible; pointer-events: auto; }
+    .drawer-panel { transform: translateX(100%); transition: transform 0.6s var(--ease-luxe); }
+    .drawer-left .drawer-panel { transform: translateX(-100%); }
+    .is-open .drawer-panel { transform: none; }
+    .modal-panel { opacity: 0; transform: translateY(32px) scale(0.98); transition: opacity 0.5s var(--ease-luxe), transform 0.6s var(--ease-luxe); }
+    .is-open .modal-panel { opacity: 1; transform: none; }
+
+    /* Tarjetas de menú */
+    .dish-card { transition: transform 0.6s var(--ease-luxe), box-shadow 0.6s var(--ease-luxe), border-color 0.4s; }
+    .dish-card:hover { transform: translateY(-6px); box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5), 0 10px 30px rgba(232,69,44, 0.1); border-color: rgba(232,69,44, 0.35); }
+    .dish-card .dish-img { transition: transform 1.2s var(--ease-luxe), filter 0.6s; }
+    .dish-card:hover .dish-img { transform: scale(1.07); }
+    .card-enter { animation: cardIn 0.75s var(--ease-luxe) both; animation-delay: var(--d, 0ms); }
+    @keyframes cardIn { from { opacity: 0; transform: translateY(22px) scale(0.98); } to { opacity: 1; transform: none; } }
+
+    /* Galería masonry */
+    .masonry { column-gap: 1rem; columns: 1; }
+    @media (min-width: 560px) { .masonry { columns: 2; } }
+    @media (min-width: 1024px) { .masonry { columns: 3; column-gap: 1.25rem; } }
+    @media (min-width: 1920px) { .masonry { columns: 4; } }
+    .masonry > * { break-inside: avoid; margin-bottom: 1rem; }
+    @media (min-width: 1024px) { .masonry > * { margin-bottom: 1.25rem; } }
+    .zoom-tile img { transition: transform 1.4s var(--ease-luxe), filter 0.8s; filter: saturate(0.92) brightness(0.92); }
+    .zoom-tile:hover img { transform: scale(1.08); filter: saturate(1.05) brightness(1); }
+    .zoom-tile .tile-cap { opacity: 0; transform: translateY(10px); transition: all 0.6s var(--ease-luxe); }
+    .zoom-tile:hover .tile-cap, .zoom-tile:focus-within .tile-cap { opacity: 1; transform: none; }
+
+    /* Formularios */
+    .field { width: 100%; background: #0f1115; border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 0.9rem 1rem; color: #fff; font-size: 0.95rem; transition: border-color 0.3s, box-shadow 0.3s; }
+    .field::placeholder { color: #5b616e; }
+    .field:hover { border-color: rgba(255, 255, 255, 0.2); }
+    .field:focus { outline: none; border-color: var(--ember); box-shadow: 0 0 0 4px rgba(232,69,44, 0.12); }
+    .field[aria-invalid='true'] { border-color: #f87171; box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.1); }
+    .field.is-valid { border-color: rgba(52, 211, 153, 0.55); }
+    select.field { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23e8452c' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; padding-right: 2.6rem; }
+    .err-msg { min-height: 1.1rem; font-size: 0.75rem; color: #fca5a5; margin-top: 0.35rem; }
+    .option-card { transition: all 0.35s var(--ease-luxe); }
+    .option-card:hover { border-color: rgba(232,69,44, 0.45); }
+    .option-card[aria-checked='true'] { border-color: var(--ember); background: linear-gradient(160deg, rgba(232,69,44, 0.14), rgba(232,69,44, 0.02)); box-shadow: 0 10px 30px rgba(232,69,44, 0.1); }
+    .option-card[aria-checked='true'] .opt-check { opacity: 1; transform: scale(1); }
+    .option-card[aria-disabled='true'] { opacity: 0.35; cursor: not-allowed; }
+    .opt-check { opacity: 0; transform: scale(0.5); transition: all 0.35s var(--ease-luxe); }
+
+    /* Calendario */
+    .cal-day { aspect-ratio: 1; border-radius: 12px; font-size: 0.85rem; display: grid; place-items: center; transition: all 0.25s var(--ease-luxe); position: relative; }
+    .cal-day:not(:disabled):hover { background: rgba(232,69,44, 0.12); color: #fff; }
+    .cal-day:disabled { color: #3c414c; cursor: not-allowed; }
+    .cal-day.is-today::after { content: ''; position: absolute; bottom: 5px; width: 4px; height: 4px; border-radius: 50%; background: var(--ember); }
+    .cal-day[aria-pressed='true'] { background: var(--ember); color: #fff; font-weight: 700; box-shadow: 0 8px 24px rgba(232,69,44, 0.35); }
+    .cal-day[aria-pressed='true']::after { background: #fff; }
+    .cal-day:focus-visible { outline: 2px solid var(--ember-light); outline-offset: 2px; }
+
+    .step-panel { animation: stepIn 0.6s var(--ease-luxe) both; }
+    @keyframes stepIn { from { opacity: 0; transform: translateX(18px); } to { opacity: 1; transform: none; } }
+    .shake { animation: shake 0.5s; }
+    @keyframes shake { 20%, 60% { transform: translateX(-6px); } 40%, 80% { transform: translateX(6px); } }
+
+    /* Éxito */
+    .success-ring { stroke-dasharray: 166; stroke-dashoffset: 166; animation: draw 0.9s var(--ease-luxe) forwards; }
+    .success-check { stroke-dasharray: 48; stroke-dashoffset: 48; animation: draw 0.6s 0.55s var(--ease-luxe) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .spin { animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Toasts */
+    .toast { animation: toastIn 0.55s var(--ease-luxe) both; }
+    .toast.is-leaving { animation: toastOut 0.4s var(--ease-luxe) both; }
+    @keyframes toastIn { from { opacity: 0; transform: translateY(16px) scale(0.96); } to { opacity: 1; transform: none; } }
+    @keyframes toastOut { to { opacity: 0; transform: translateY(10px) scale(0.96); } }
+
+    /* Detalles (alérgenos) */
+    details > summary { list-style: none; cursor: pointer; }
+    details > summary::-webkit-details-marker { display: none; }
+    details[open] .chev { transform: rotate(180deg); }
+    .chev { transition: transform 0.4s var(--ease-luxe); }
+
+    /* Marquee */
+    .marquee-track { animation: marquee 38s linear infinite; }
+    @keyframes marquee { to { transform: translateX(-50%); } }
+
+    [data-parallax] { will-change: transform; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+      .js [data-reveal] { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+
+<body class="grain font-sans bg-ink text-white">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[200] btn btn-ember px-5 py-3">Saltar al contenido</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="site-header" class="fixed inset-x-0 top-0 z-50 border-b border-transparent">
+    <div class="mx-auto flex max-w-[1600px] items-center justify-between gap-3 px-4 py-4 sm:px-6 lg:px-10">
+      <a href="#inicio" class="group flex items-center gap-3 focus-ring rounded-lg" aria-label="Burdo San Telmo, ir al inicio">
+        <span class="neon font-neon text-[2rem] leading-none tracking-[0.08em] transition-transform duration-700 group-hover:scale-105 sm:text-[2.3rem]">BURDO</span>
+        <span class="hidden border-l border-white/15 pl-3 text-[0.6rem] font-semibold uppercase leading-tight tracking-luxe text-platinum xs:block">Parrilla<br />San Telmo</span>
+      </a>
+
+      <nav class="hidden lg:block" aria-label="Navegación principal">
+        <ul class="flex items-center gap-9 text-sm text-platinum">
+          <li><a class="nav-link transition-colors hover:text-white" href="#menu">Menú</a></li>
+          <li><a class="nav-link transition-colors hover:text-white" href="#historia">Historia</a></li>
+          <li><a class="nav-link transition-colors hover:text-white" href="#experiencia">Experiencia</a></li>
+          <li><a class="nav-link transition-colors hover:text-white" href="#reservas">Reservas</a></li>
+          <li><a class="nav-link transition-colors hover:text-white" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-2 sm:gap-3">
+        <button type="button" id="status-pill" class="hidden md:inline-flex chip press !py-2" aria-label="Estado del local" data-scroll-to="#contacto">
+          <span class="status-dot inline-block h-2 w-2 rounded-full" data-status-dot></span>
+          <span data-status-text>Consultando horario…</span>
+        </button>
+
+        <button type="button" id="cart-button" class="press relative grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/[0.03] transition-colors hover:border-ember/60 focus-ring" aria-label="Abrir pedido activo" aria-controls="cart-drawer" aria-expanded="false">
+          <i data-lucide="shopping-bag" class="h-[18px] w-[18px]"></i>
+          <span id="cart-count" class="absolute -right-1 -top-1 grid h-5 min-w-[1.25rem] scale-0 place-items-center rounded-full bg-ember px-1 text-[0.65rem] font-bold text-white transition-transform duration-500" aria-live="polite">0</span>
+        </button>
+
+        <a href="#reservas" class="btn btn-ember magnetic hidden px-6 py-3 text-sm sm:inline-flex">
+          <i data-lucide="calendar-days" class="h-4 w-4"></i> Reservar Mesa
+        </a>
+
+        <button type="button" id="nav-toggle" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-white/[0.03] lg:hidden focus-ring" aria-label="Abrir menú de navegación" aria-controls="mobile-nav" aria-expanded="false">
+          <i data-lucide="menu" class="h-5 w-5"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navegación móvil (drawer) -->
+  <div id="mobile-nav" class="layer drawer-left z-[60]" role="dialog" aria-modal="true" aria-label="Navegación" aria-hidden="true">
+    <div class="overlay" data-close></div>
+    <div class="drawer-panel absolute inset-y-0 left-0 flex w-[88%] max-w-sm flex-col border-r hairline bg-surface">
+      <div class="flex items-center justify-between border-b hairline px-6 py-5">
+        <span class="neon font-neon text-3xl tracking-[0.08em]">BURDO</span>
+        <button type="button" class="press grid h-10 w-10 place-items-center rounded-full border border-white/10 focus-ring" data-close aria-label="Cerrar navegación"><i data-lucide="x" class="h-5 w-5"></i></button>
+      </div>
+      <nav class="flex-1 overflow-y-auto px-6 py-8" aria-label="Navegación móvil">
+        <ul class="space-y-1 font-display text-3xl">
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-ember" href="#menu" data-close-nav>Menú <i data-lucide="arrow-up-right" class="h-5 w-5 text-ember/60"></i></a></li>
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-ember" href="#historia" data-close-nav>Historia <i data-lucide="arrow-up-right" class="h-5 w-5 text-ember/60"></i></a></li>
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-ember" href="#experiencia" data-close-nav>Experiencia <i data-lucide="arrow-up-right" class="h-5 w-5 text-ember/60"></i></a></li>
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-ember" href="#reservas" data-close-nav>Reservas <i data-lucide="arrow-up-right" class="h-5 w-5 text-ember/60"></i></a></li>
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-ember" href="#contacto" data-close-nav>Contacto <i data-lucide="arrow-up-right" class="h-5 w-5 text-ember/60"></i></a></li>
+        </ul>
+        <div class="divider-ember my-8"></div>
+        <div class="flex items-center gap-3 text-sm text-platinum">
+          <span class="status-dot inline-block h-2 w-2 rounded-full" data-status-dot></span>
+          <span data-status-text>Consultando horario…</span>
+        </div>
+        <p class="mt-4 text-sm leading-relaxed text-platinum">Lun – Jue 9:00 – 23:00<br />Vie – Sáb 9:00 – 00:00<br />Dom 9:00 – 22:00</p>
+      </nav>
+      <div class="space-y-3 border-t hairline p-6">
+        <a href="#reservas" class="btn btn-ember w-full py-4" data-close-nav><i data-lucide="calendar-days" class="h-4 w-4"></i> Reservar Mesa</a>
+        <a href="tel:+524492646853" class="btn btn-ghost w-full py-4"><i data-lucide="phone" class="h-4 w-4"></i> Llamar 449 264 6853</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ===================== HERO ===================== -->
+    <section id="inicio" class="relative flex min-h-[100svh] items-end overflow-hidden pb-16 pt-32 sm:items-center sm:pb-24">
+      <div class="absolute inset-0" aria-hidden="true">
+        <img class="hero-img h-full w-full object-cover" src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=2400&q=80" srcset="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=900&q=75 900w, https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1600&q=80 1600w, https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=2600&q=80 2600w" sizes="100vw" alt="" fetchpriority="high" />
+        <div class="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/10"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-ink/60"></div>
+        <div class="embers absolute inset-0"></div>
+      </div>
+
+      <div class="relative mx-auto w-full max-w-[1600px] px-4 sm:px-6 lg:px-10">
+        <div class="max-w-3xl">
+          <a href="https://www.google.com/maps/search/?api=1&query=Burdo+San+Telmo+Av.+Prol.+Zaragoza+1014+Aguascalientes" target="_blank" rel="noopener" class="fade-up inline-flex items-center gap-2.5 rounded-full border border-ember/30 bg-black/40 px-4 py-2 text-[0.7rem] font-medium uppercase tracking-[0.18em] text-ember-light backdrop-blur-md transition-colors hover:border-ember" style="--d:150ms">
+            <span class="flex text-amber-300" aria-hidden="true"><i data-lucide="star" class="h-3.5 w-3.5 fill-current"></i></span> 4.8 en Google · 2,049 opiniones
+          </a>
+          <h1 class="mt-7 font-display text-[2.7rem] leading-[1.02] tracking-tight xs:text-5xl sm:text-6xl lg:text-7xl 2xl:text-8xl">
+            <span class="hero-line"><span style="--d:250ms">Fuego lento,</span></span>
+            <span class="hero-line"><span style="--d:400ms">cortes honestos y</span></span>
+            <span class="hero-line"><span style="--d:550ms" class="italic text-gradient-ember">noches largas.</span></span>
+          </h1>
+          <p class="fade-up mt-7 max-w-xl text-base leading-relaxed text-platinum sm:text-lg" style="--d:800ms">
+            Parrilla al carbón, coctelería de autor y una terraza que se enciende al caer el sol. Cortes seleccionados, sal de grano y el tiempo exacto sobre las brasas.
+          </p>
+          <div class="fade-up mt-10 flex flex-col gap-3 xs:flex-row sm:gap-4" style="--d:950ms">
+            <a href="#menu" class="btn btn-ember magnetic px-8 py-4 text-sm"><i data-lucide="flame" class="h-4 w-4"></i> Explorar Menú Digital</a>
+            <a href="#reservas" class="btn btn-ghost magnetic px-8 py-4 text-sm"><i data-lucide="calendar-days" class="h-4 w-4"></i> Gestionar Reservación</a>
+          </div>
+          <dl class="fade-up mt-14 grid max-w-lg grid-cols-3 gap-4 border-t border-white/10 pt-8" style="--d:1100ms">
+            <div><dt class="text-[0.65rem] uppercase tracking-[0.2em] text-platinum">Calificación</dt><dd class="mt-1 font-display text-2xl sm:text-3xl">4.8★</dd></div>
+            <div><dt class="text-[0.65rem] uppercase tracking-[0.2em] text-platinum">Por persona</dt><dd class="mt-1 font-display text-2xl sm:text-3xl">$300–400</dd></div>
+            <div><dt class="text-[0.65rem] uppercase tracking-[0.2em] text-platinum">Abrimos</dt><dd class="mt-1 font-display text-2xl sm:text-3xl">9:00</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <a href="#marquee" class="scroll-cue absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-[0.6rem] uppercase tracking-luxe text-platinum sm:flex" aria-label="Desplazarse hacia abajo">
+        Descubre <i data-lucide="chevron-down" class="h-4 w-4 text-ember"></i>
+      </a>
+    </section>
+
+    <!-- Marquee -->
+    <div id="marquee" class="overflow-hidden border-y hairline bg-surface/60 py-5" aria-hidden="true">
+      <div class="marquee-track flex w-max gap-12 whitespace-nowrap font-display text-xl italic text-white/70 sm:text-2xl">
+        <span>Cortes al carbón</span><span class="text-ember">✦</span><span>Terraza jardín</span><span class="text-ember">✦</span><span>Coctelería de autor</span><span class="text-ember">✦</span><span>Partidos en pantalla gigante</span><span class="text-ember">✦</span><span>Sangría de la casa</span><span class="text-ember">✦</span>
+        <span>Cortes al carbón</span><span class="text-ember">✦</span><span>Terraza jardín</span><span class="text-ember">✦</span><span>Coctelería de autor</span><span class="text-ember">✦</span><span>Partidos en pantalla gigante</span><span class="text-ember">✦</span><span>Sangría de la casa</span><span class="text-ember">✦</span>
+      </div>
+    </div>
+
+    <!-- ===================== HISTORIA ===================== -->
+    <section id="historia" class="relative py-24 sm:py-32 lg:py-40">
+      <div class="mx-auto grid max-w-[1600px] items-center gap-16 px-4 sm:px-6 lg:grid-cols-12 lg:gap-20 lg:px-10">
+        <div class="relative lg:col-span-6" aria-hidden="true">
+          <div class="grid grid-cols-12 gap-4">
+            <figure class="col-span-7 overflow-hidden rounded-[28px] border hairline" data-reveal="scale">
+              <img data-parallax="0.06" class="h-[340px] w-full scale-110 object-cover sm:h-[520px]" loading="lazy" src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1000&q=80" alt="" />
+            </figure>
+            <div class="col-span-5 flex flex-col gap-4 pt-16 sm:pt-28">
+              <figure class="overflow-hidden rounded-[28px] border hairline" data-reveal="scale" style="--d:150ms">
+                <img data-parallax="-0.05" class="h-[160px] w-full scale-110 object-cover sm:h-[250px]" loading="lazy" src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=700&q=80" alt="" />
+              </figure>
+              <figure class="overflow-hidden rounded-[28px] border hairline" data-reveal="scale" style="--d:300ms">
+                <img data-parallax="0.04" class="h-[140px] w-full scale-110 object-cover sm:h-[200px]" loading="lazy" src="https://images.unsplash.com/photo-1615937691194-97dbd3f3dc29?auto=format&fit=crop&w=700&q=80" alt="" />
+              </figure>
+            </div>
+          </div>
+          <div class="card-luxe absolute -bottom-8 left-4 max-w-[230px] rounded-2xl p-5 shadow-ember backdrop-blur sm:left-10" data-reveal style="--d:400ms">
+            <p class="font-display text-4xl text-ember">100%</p>
+            <p class="mt-1 text-xs leading-relaxed text-platinum">Carbón de encino y mezquite. Nada de gas, nada de atajos.</p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 lg:pl-6">
+          <p class="text-xs font-semibold uppercase tracking-luxe text-ember" data-reveal>Nuestra historia</p>
+          <h2 class="mt-5 font-display text-4xl leading-[1.08] sm:text-5xl xl:text-6xl" data-reveal style="--d:100ms">
+            La parrilla como <em class="text-gradient-ember">punto de reunión</em>.
+          </h2>
+          <div class="mt-8 space-y-5 text-base leading-relaxed text-platinum sm:text-lg" data-reveal style="--d:200ms">
+            <p>Burdo nació en San Telmo con una idea clara: que comer bien no tiene que ser solemne. Una mesa larga, un buen corte al centro, algo frío en la copa y la conversación que se alarga hasta que cierran las luces.</p>
+            <p>Trabajamos con cortes de res seleccionados, los dejamos reposar el tiempo justo y los cocinamos sobre brasa viva. Lo demás —el chimichurri, las salsas, las tortillas— se hace en casa todos los días.</p>
+          </div>
+
+          <ul class="mt-12 grid gap-4 sm:grid-cols-3">
+            <li class="card-luxe rounded-2xl p-5" data-reveal style="--d:250ms">
+              <i data-lucide="beef" class="h-6 w-6 text-ember"></i>
+              <h3 class="mt-4 font-display text-lg">Cortes seleccionados</h3>
+              <p class="mt-2 text-sm leading-relaxed text-platinum">Marmoleo, maduración y proveedores de confianza.</p>
+            </li>
+            <li class="card-luxe rounded-2xl p-5" data-reveal style="--d:350ms">
+              <i data-lucide="flame" class="h-6 w-6 text-ember"></i>
+              <h3 class="mt-4 font-display text-lg">Brasa viva</h3>
+              <p class="mt-2 text-sm leading-relaxed text-platinum">Carbón natural y el término exacto que pides.</p>
+            </li>
+            <li class="card-luxe rounded-2xl p-5" data-reveal style="--d:450ms">
+              <i data-lucide="martini" class="h-6 w-6 text-ember"></i>
+              <h3 class="mt-4 font-display text-lg">Barra de autor</h3>
+              <p class="mt-2 text-sm leading-relaxed text-platinum">Sangrías, carajillos y cocteles de temporada.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== MENÚ ===================== -->
+    <section id="menu" class="relative border-t hairline bg-gradient-to-b from-surface/40 to-ink py-24 sm:py-32" aria-labelledby="menu-title">
+      <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
+        <div class="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+          <div class="max-w-2xl">
+            <p class="text-xs font-semibold uppercase tracking-luxe text-ember" data-reveal>Menú digital</p>
+            <h2 id="menu-title" class="mt-5 font-display text-4xl leading-tight sm:text-5xl xl:text-6xl" data-reveal style="--d:100ms">La carta, <em class="text-gradient-ember">a tu ritmo</em>.</h2>
+            <p class="mt-5 text-platinum sm:text-lg" data-reveal style="--d:200ms">Elige tu corte, tu término y tu copa. Ordena para recoger o directo a tu mesa.</p>
+          </div>
+          <label class="relative block w-full lg:w-80" data-reveal style="--d:250ms">
+            <span class="sr-only">Buscar en el menú</span>
+            <i data-lucide="search" class="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-platinum"></i>
+            <input id="menu-search" type="search" class="field !rounded-full !pl-11" placeholder="Buscar corte, coctel, ingrediente…" autocomplete="off" />
+          </label>
+        </div>
+
+        <div class="sticky top-[76px] z-30 -mx-4 mt-12 border-y hairline bg-ink/85 px-4 py-4 backdrop-blur-md sm:-mx-6 sm:px-6 lg:-mx-10 lg:px-10">
+          <div id="menu-tabs" class="no-scrollbar flex gap-2 overflow-x-auto" role="tablist" aria-label="Categorías del menú"></div>
+          <div class="mt-3 flex items-center gap-3">
+            <span class="hidden shrink-0 items-center gap-1.5 text-xs uppercase tracking-[0.18em] text-platinum sm:inline-flex"><i data-lucide="sliders-horizontal" class="h-3.5 w-3.5"></i> Filtros</span>
+            <div id="menu-filters" class="no-scrollbar flex gap-2 overflow-x-auto" role="group" aria-label="Filtros de restricción alimentaria"></div>
+          </div>
+        </div>
+
+        <p id="menu-results" class="mt-8 text-sm text-platinum" aria-live="polite"></p>
+        <div id="menu-grid" class="mt-6 grid gap-6 sm:grid-cols-2 xl:grid-cols-3 3xl:grid-cols-4"></div>
+        <div id="menu-empty" class="hidden py-20 text-center">
+          <i data-lucide="beef" class="mx-auto h-10 w-10 text-ember/60"></i>
+          <p class="mt-5 font-display text-2xl">Nada coincide con esa combinación.</p>
+          <p class="mt-2 text-platinum">Prueba quitando algún filtro.</p>
+          <button type="button" id="menu-reset" class="btn btn-ghost mt-8 px-6 py-3 text-sm">Restablecer filtros</button>
+        </div>
+        <p class="mt-10 text-center text-xs text-platinum/70">Precios en pesos mexicanos con IVA incluido. Pesos de cortes en crudo. Informa a tu mesero sobre cualquier alergia.</p>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCIA ===================== -->
+    <section id="experiencia" class="relative py-24 sm:py-32" aria-labelledby="exp-title">
+      <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
+        <div class="mx-auto max-w-2xl text-center">
+          <p class="text-xs font-semibold uppercase tracking-luxe text-ember" data-reveal>La experiencia</p>
+          <h2 id="exp-title" class="mt-5 font-display text-4xl leading-tight sm:text-5xl xl:text-6xl" data-reveal style="--d:100ms">Tres planes, <em class="text-gradient-ember">una sola mesa</em>.</h2>
+        </div>
+
+        <div class="mt-16 grid gap-6 md:grid-cols-3">
+          <article class="group relative min-h-[460px] overflow-hidden rounded-[28px] border hairline sm:min-h-[540px]" data-reveal style="--d:0ms">
+            <img class="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.6s] group-hover:scale-105" loading="lazy" src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?auto=format&fit=crop&w=900&q=75" alt="Comedor iluminado con luces cálidas por la noche" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-transparent"></div>
+            <div class="relative flex h-full flex-col justify-end p-7 sm:p-8">
+              <span class="inline-flex w-max items-center gap-2 rounded-full border border-ember/40 bg-black/40 px-3 py-1.5 text-[0.65rem] uppercase tracking-[0.2em] text-ember-light backdrop-blur"><i data-lucide="trees" class="h-3.5 w-3.5"></i> Al aire libre</span>
+              <h3 class="mt-4 font-display text-3xl">Terraza Jardín</h3>
+              <p class="mt-3 text-sm leading-relaxed text-platinum">Celosías con enredaderas, luces neón y calentadores para las noches frescas. El lugar favorito para cenar en grupo.</p>
+              <a href="#reservas" class="mt-6 inline-flex w-max items-center gap-2 text-sm text-ember-light transition-colors hover:text-white" data-preset-zone="terraza">Reservar en terraza <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+            </div>
+          </article>
+          <article class="group relative min-h-[460px] overflow-hidden rounded-[28px] border hairline sm:min-h-[540px] md:translate-y-10" data-reveal style="--d:150ms">
+            <img class="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.6s] group-hover:scale-105" loading="lazy" src="https://images.unsplash.com/photo-1592861956120-e524fc739696?auto=format&fit=crop&w=900&q=75" alt="Grupo de amigos compartiendo comida y bebidas" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-transparent"></div>
+            <div class="relative flex h-full flex-col justify-end p-7 sm:p-8">
+              <span class="inline-flex w-max items-center gap-2 rounded-full border border-ember/40 bg-black/40 px-3 py-1.5 text-[0.65rem] uppercase tracking-[0.2em] text-ember-light backdrop-blur"><i data-lucide="tv" class="h-3.5 w-3.5"></i> Pantalla gigante</span>
+              <h3 class="mt-4 font-display text-3xl">Noches de Partido</h3>
+              <p class="mt-3 text-sm leading-relaxed text-platinum">Futbol, NFL y peleas en pantalla gigante, con parrilladas para compartir y cubetazos de la casa.</p>
+              <a href="#menu" class="mt-6 inline-flex w-max items-center gap-2 text-sm text-ember-light transition-colors hover:text-white" data-preset-cat="especialidades">Ver parrilladas <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+            </div>
+          </article>
+          <article class="group relative min-h-[460px] overflow-hidden rounded-[28px] border hairline sm:min-h-[540px]" data-reveal style="--d:300ms">
+            <img class="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.6s] group-hover:scale-105" loading="lazy" src="https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=900&q=75" alt="Coctel oscuro con cítricos deshidratados y zarzamora" />
+            <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-transparent"></div>
+            <div class="relative flex h-full flex-col justify-end p-7 sm:p-8">
+              <span class="inline-flex w-max items-center gap-2 rounded-full border border-ember/40 bg-black/40 px-3 py-1.5 text-[0.65rem] uppercase tracking-[0.2em] text-ember-light backdrop-blur"><i data-lucide="martini" class="h-3.5 w-3.5"></i> Buenos cócteles</span>
+              <h3 class="mt-4 font-display text-3xl">Barra de Autor</h3>
+              <p class="mt-3 text-sm leading-relaxed text-platinum">Sangría en capas, carajillo espumoso y el coctel de pitaya con mezcal que todos fotografían.</p>
+              <a href="#menu" class="mt-6 inline-flex w-max items-center gap-2 text-sm text-ember-light transition-colors hover:text-white" data-preset-cat="mixologia">Ver mixología <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== RESERVAS ===================== -->
+    <section id="reservas" class="relative border-t hairline py-24 sm:py-32" aria-labelledby="res-title">
+      <div class="pointer-events-none absolute inset-x-0 top-0 h-[600px] bg-[radial-gradient(ellipse_at_top,rgba(232,69,44,0.08),transparent_60%)]" aria-hidden="true"></div>
+      <div class="relative mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-10">
+        <div class="max-w-2xl">
+          <p class="text-xs font-semibold uppercase tracking-luxe text-ember" data-reveal>Reservaciones</p>
+          <h2 id="res-title" class="mt-5 font-display text-4xl leading-tight sm:text-5xl xl:text-6xl" data-reveal style="--d:100ms">Tu mesa, <em class="text-gradient-ember">con la brasa encendida</em>.</h2>
+          <p class="mt-5 text-platinum sm:text-lg" data-reveal style="--d:200ms">Tres pasos y menos de un minuto. Para partidos importantes, reserva con anticipación.</p>
+        </div>
+
+        <div class="mt-14 grid gap-6 lg:grid-cols-12" data-reveal style="--d:250ms">
+          <div class="card-luxe rounded-[28px] p-5 xs:p-6 sm:p-10 lg:col-span-8">
+            <!-- Progreso -->
+            <ol id="res-progress" class="mb-10 grid grid-cols-3 gap-3" aria-label="Progreso de la reservación">
+              <li class="res-step-indicator" data-step-ind="1"><div class="h-1 rounded-full bg-white/10"><div class="h-full w-0 rounded-full bg-ember transition-all duration-700"></div></div><p class="mt-3 text-[0.65rem] uppercase tracking-[0.18em] text-platinum sm:text-xs"><span class="text-ember">01</span> Mesa</p></li>
+              <li class="res-step-indicator" data-step-ind="2"><div class="h-1 rounded-full bg-white/10"><div class="h-full w-0 rounded-full bg-ember transition-all duration-700"></div></div><p class="mt-3 text-[0.65rem] uppercase tracking-[0.18em] text-platinum sm:text-xs"><span class="text-ember">02</span> Horario</p></li>
+              <li class="res-step-indicator" data-step-ind="3"><div class="h-1 rounded-full bg-white/10"><div class="h-full w-0 rounded-full bg-ember transition-all duration-700"></div></div><p class="mt-3 text-[0.65rem] uppercase tracking-[0.18em] text-platinum sm:text-xs"><span class="text-ember">03</span> Tus datos</p></li>
+            </ol>
+
+            <form id="res-form" novalidate>
+              <!-- Paso 1 -->
+              <fieldset class="step-panel space-y-10" data-step="1">
+                <legend class="sr-only">Paso 1: comensales y fecha</legend>
+                <div class="flex items-start gap-4 rounded-2xl border border-ember/20 bg-ember/5 p-4">
+                  <span class="grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-ember/25 bg-ember/10"><i data-lucide="map-pin" class="h-5 w-5 text-ember"></i></span>
+                  <p class="text-sm"><span class="block font-semibold">Burdo San Telmo</span><span class="text-platinum">Av. Prol. Zaragoza 1014, Calicantos II · Estacionamiento en la zona</span></p>
+                </div>
+                <div>
+                  <div class="flex items-baseline justify-between">
+                    <h3 class="text-sm font-semibold uppercase tracking-[0.18em] text-white/90">Comensales</h3>
+                    <span class="text-xs text-platinum" id="guests-note"></span>
+                  </div>
+                  <div id="guest-chips" class="mt-4 grid gap-2" role="radiogroup" aria-label="Número de comensales" style="grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));"></div>
+                </div>
+                <div>
+                  <h3 class="text-sm font-semibold uppercase tracking-[0.18em] text-white/90">Fecha</h3>
+                  <div class="mt-4 rounded-2xl border border-white/10 bg-ink/60 p-4 sm:p-6">
+                    <div class="flex items-center justify-between">
+                      <button type="button" id="cal-prev" class="press grid h-10 w-10 place-items-center rounded-full border border-white/10 hover:border-ember/60 focus-ring disabled:opacity-30" aria-label="Mes anterior"><i data-lucide="chevron-left" class="h-4 w-4"></i></button>
+                      <p id="cal-label" class="font-display text-xl capitalize" aria-live="polite"></p>
+                      <button type="button" id="cal-next" class="press grid h-10 w-10 place-items-center rounded-full border border-white/10 hover:border-ember/60 focus-ring disabled:opacity-30" aria-label="Mes siguiente"><i data-lucide="chevron-right" class="h-4 w-4"></i></button>
+                    </div>
+                    <div class="mt-5 grid grid-cols-7 gap-1 text-center text-[0.65rem] uppercase tracking-wider text-platinum sm:gap-2" aria-hidden="true">
+                      <span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span><span>Dom</span>
+                    </div>
+                    <div id="cal-grid" class="mt-2 grid grid-cols-7 gap-1 sm:gap-2"></div>
+                    <p class="mt-4 flex items-center gap-2 text-xs text-platinum"><i data-lucide="info" class="h-3.5 w-3.5 text-ember"></i> Reservaciones con hasta 60 días de anticipación. Cerrado 25 dic y 1 ene.</p>
+                  </div>
+                  <p class="err-msg" data-err="date"></p>
+                </div>
+              </fieldset>
+
+              <!-- Paso 2 -->
+              <fieldset class="step-panel hidden space-y-10" data-step="2">
+                <legend class="sr-only">Paso 2: horario y zona</legend>
+                <div>
+                  <div class="flex flex-wrap items-baseline justify-between gap-2">
+                    <h3 class="text-sm font-semibold uppercase tracking-[0.18em] text-white/90">Turno y horario</h3>
+                    <span class="text-xs text-platinum" id="slot-date-label"></span>
+                  </div>
+                  <div id="service-tabs" class="no-scrollbar mt-4 flex gap-2 overflow-x-auto" role="tablist" aria-label="Turno"></div>
+                  <div id="slot-grid" class="mt-5 grid grid-cols-3 gap-2 xs:grid-cols-4 sm:grid-cols-5" role="radiogroup" aria-label="Horario disponible"></div>
+                  <p class="mt-4 flex items-center gap-4 text-xs text-platinum">
+                    <span class="inline-flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-ember"></span> Disponible</span>
+                    <span class="inline-flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-white/20"></span> Agotado</span>
+                  </p>
+                  <p class="err-msg" data-err="time"></p>
+                </div>
+                <div>
+                  <h3 class="text-sm font-semibold uppercase tracking-[0.18em] text-white/90">Zona preferente</h3>
+                  <div class="mt-4 grid gap-3 sm:grid-cols-3" role="radiogroup" aria-label="Zona preferente" data-radio="zone"></div>
+                  <p class="err-msg" data-err="zone"></p>
+                </div>
+              </fieldset>
+
+              <!-- Paso 3 -->
+              <fieldset class="step-panel hidden" data-step="3">
+                <legend class="sr-only">Paso 3: datos de contacto</legend>
+                <div class="grid gap-x-5 gap-y-2 sm:grid-cols-2">
+                  <div class="sm:col-span-2">
+                    <label for="res-name" class="mb-2 block text-sm text-white/90">Nombre completo</label>
+                    <input id="res-name" name="name" class="field" autocomplete="name" placeholder="Ej. Mariana López" required aria-describedby="err-name" />
+                    <p class="err-msg" id="err-name" data-err="name"></p>
+                  </div>
+                  <div>
+                    <label for="res-phone" class="mb-2 block text-sm text-white/90">Teléfono (10 dígitos)</label>
+                    <input id="res-phone" name="phone" class="field" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder="449 123 4567" required aria-describedby="err-phone" />
+                    <p class="err-msg" id="err-phone" data-err="phone"></p>
+                  </div>
+                  <div>
+                    <label for="res-email" class="mb-2 block text-sm text-white/90">Correo electrónico</label>
+                    <input id="res-email" name="email" class="field" type="email" autocomplete="email" placeholder="tu@correo.com" required aria-describedby="err-email" />
+                    <p class="err-msg" id="err-email" data-err="email"></p>
+                  </div>
+                  <div class="sm:col-span-2">
+                    <label for="res-occasion" class="mb-2 block text-sm text-white/90">Ocasión <span class="text-platinum">(opcional)</span></label>
+                    <select id="res-occasion" name="occasion" class="field">
+                      <option value="">Sin ocasión especial</option>
+                      <option>Cumpleaños</option>
+                      <option>Aniversario</option>
+                      <option>Reunión de trabajo</option>
+                      <option>Celebración familiar</option>
+                      <option>Primera cita</option>
+                    </select>
+                  </div>
+                  <div class="mt-5 sm:col-span-2">
+                    <label for="res-notes" class="mb-2 flex items-center justify-between text-sm text-white/90">Peticiones especiales o alergias críticas <span class="text-xs text-platinum" id="notes-count">0/280</span></label>
+                    <textarea id="res-notes" name="notes" rows="3" maxlength="280" class="field resize-none" placeholder="Mesa cerca de la pantalla, silla para bebé, alergia a mariscos…"></textarea>
+                  </div>
+                  <label class="mt-5 flex cursor-pointer items-start gap-3 text-sm text-platinum sm:col-span-2">
+                    <input id="res-privacy" type="checkbox" class="mt-0.5 h-5 w-5 shrink-0 accent-[#e8452c]" aria-describedby="err-privacy" />
+                    <span>Acepto el <a href="#legal" class="text-ember-light underline decoration-ember/40 underline-offset-4 hover:text-white">aviso de privacidad</a> y recibir la confirmación por correo o WhatsApp.</span>
+                  </label>
+                  <p class="err-msg sm:col-span-2" id="err-privacy" data-err="privacy"></p>
+                </div>
+              </fieldset>
+
+              <div class="mt-10 flex flex-col-reverse gap-3 border-t border-white/10 pt-8 xs:flex-row xs:items-center xs:justify-between">
+                <button type="button" id="res-back" class="btn btn-ghost invisible px-6 py-3.5 text-sm"><i data-lucide="chevron-left" class="h-4 w-4"></i> Atrás</button>
+                <button type="submit" id="res-next" class="btn btn-ember magnetic px-8 py-4 text-sm">Continuar <i data-lucide="arrow-right" class="h-4 w-4"></i></button>
+              </div>
+            </form>
+
+            <!-- Éxito de reservación -->
+            <div id="res-success" class="hidden text-center" tabindex="-1">
+              <svg class="mx-auto h-20 w-20" viewBox="0 0 56 56" aria-hidden="true"><circle class="success-ring" cx="28" cy="28" r="26" fill="none" stroke="#e8452c" stroke-width="2" /><path class="success-check" d="M17 29l7 7 15-16" fill="none" stroke="#e8452c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>
+              <p class="mt-6 text-xs uppercase tracking-luxe text-ember">Reservación confirmada</p>
+              <h3 class="mt-3 font-display text-3xl sm:text-4xl">Te esperamos, <span id="rs-name" class="italic text-gradient-ember"></span>.</h3>
+              <p class="mt-3 text-platinum">Folio <span id="rs-folio" class="font-mono font-semibold text-white"></span></p>
+              <dl id="rs-details" class="mx-auto mt-8 grid max-w-lg gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 text-left sm:grid-cols-2"></dl>
+              <div class="mx-auto mt-6 flex max-w-lg items-start gap-3 rounded-2xl border border-ember/20 bg-ember/5 p-4 text-left text-sm text-platinum">
+                <i data-lucide="clock" class="mt-0.5 h-4 w-4 shrink-0 text-ember"></i>
+                <p>Mantenemos tu mesa 15 minutos después de la hora reservada. En días de partido, la tolerancia es de 10 minutos.</p>
+              </div>
+              <div class="mt-8 flex flex-col justify-center gap-3 sm:flex-row sm:flex-wrap">
+                <a id="rs-gcal" href="#" target="_blank" rel="noopener" class="btn btn-ember px-6 py-3.5 text-sm"><i data-lucide="calendar-plus" class="h-4 w-4"></i> Google Calendar</a>
+                <button type="button" id="rs-ics" class="btn btn-ghost px-6 py-3.5 text-sm"><i data-lucide="download" class="h-4 w-4"></i> Apple / Outlook (.ics)</button>
+                <a id="rs-wa" href="#" target="_blank" rel="noopener" class="btn btn-ghost px-6 py-3.5 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Confirmar por WhatsApp</a>
+              </div>
+              <button type="button" id="rs-new" class="mt-8 text-sm text-platinum underline decoration-white/20 underline-offset-4 hover:text-white">Hacer otra reservación</button>
+            </div>
+          </div>
+
+          <!-- Resumen -->
+          <aside class="lg:col-span-4" aria-label="Resumen de la reservación">
+            <div class="card-luxe sticky top-28 overflow-hidden rounded-[28px]">
+              <div class="relative h-40 overflow-hidden">
+                <img class="h-full w-full object-cover" loading="lazy" src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=800&q=70" alt="" />
+                <div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
+              </div>
+              <div class="p-6 sm:p-8">
+                <h3 class="font-display text-2xl">Tu reservación</h3>
+                <dl id="res-summary" class="mt-6 space-y-4 text-sm"></dl>
+                <div class="divider-ember my-6"></div>
+                <p class="flex items-start gap-3 text-xs leading-relaxed text-platinum"><i data-lucide="shield-check" class="h-4 w-4 shrink-0 text-ember"></i> Sin cargo por reservar. Para grupos de más de 12 personas te contactamos para armar una parrillada especial.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALERÍA ===================== -->
+    <section id="galeria" class="relative border-t hairline py-24 sm:py-32" aria-labelledby="gal-title">
+      <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
+        <div class="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-luxe text-ember" data-reveal>Galería</p>
+            <h2 id="gal-title" class="mt-5 font-display text-4xl leading-tight sm:text-5xl xl:text-6xl" data-reveal style="--d:100ms">Brasa, humo & <em class="text-gradient-ember">buena compañía</em>.</h2>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=Burdo+San+Telmo+Aguascalientes" target="_blank" rel="noopener" class="btn btn-ghost magnetic w-max px-6 py-3.5 text-sm" data-reveal style="--d:200ms"><i data-lucide="star" class="h-4 w-4"></i> Ver opiniones en Google</a>
+        </div>
+        <div id="gallery" class="masonry mt-14"></div>
+
+        <div class="mt-16" data-reveal>
+          <p class="flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-platinum"><i data-lucide="camera" class="h-4 w-4 text-ember"></i> Momentos reales en Burdo</p>
+          <div id="ig-strip" class="mt-5 grid grid-cols-3 gap-2 sm:grid-cols-5 sm:gap-3"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="contacto" class="relative border-t hairline bg-[#080707] pt-24" aria-labelledby="footer-title">
+    <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
+      <div class="grid gap-14 pb-16 lg:grid-cols-12">
+        <div class="lg:col-span-4">
+          <h2 id="footer-title" class="font-display text-4xl leading-tight sm:text-5xl">Ven por un corte.<br /><em class="text-gradient-ember">Quédate a la sobremesa.</em></h2>
+          <p class="mt-6 max-w-sm text-platinum">Recibe cortes de temporada, partidos destacados y noches especiales de la barra antes que nadie.</p>
+          <form id="newsletter" class="mt-8 max-w-md" novalidate>
+            <label for="nl-email" class="sr-only">Correo electrónico</label>
+            <div class="flex flex-col gap-2 xs:flex-row">
+              <input id="nl-email" type="email" class="field !rounded-full" placeholder="tu@correo.com" autocomplete="email" aria-describedby="nl-msg" />
+              <button type="submit" class="btn btn-ember shrink-0 px-6 py-3.5 text-sm"><i data-lucide="send" class="h-4 w-4"></i> Suscribirme</button>
+            </div>
+            <p id="nl-msg" class="err-msg pl-4" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="grid gap-10 sm:grid-cols-2 lg:col-span-8 lg:grid-cols-3">
+          <div>
+            <h3 class="text-xs font-semibold uppercase tracking-luxe text-ember">Horario</h3>
+            <ul class="mt-6 space-y-3 text-sm" id="hours-list"></ul>
+            <p class="mt-5 inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1.5 text-xs text-platinum">
+              <span class="status-dot inline-block h-2 w-2 rounded-full" data-status-dot></span><span data-status-text></span>
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold uppercase tracking-luxe text-ember">Ubicación</h3>
+            <p class="mt-6 font-display text-lg">Burdo San Telmo</p>
+            <a class="group mt-1 inline-flex items-start gap-2 text-sm text-platinum transition-colors hover:text-white" href="https://www.google.com/maps/search/?api=1&query=Burdo+San+Telmo+Av.+Prol.+Zaragoza+1014+Aguascalientes" target="_blank" rel="noopener"><i data-lucide="map-pin" class="mt-0.5 h-4 w-4 shrink-0 text-ember"></i> Av. Prol. Zaragoza 1014, Calicantos II, 20115 Aguascalientes, Ags. <i data-lucide="arrow-up-right" class="h-3.5 w-3.5 shrink-0 opacity-0 transition-opacity group-hover:opacity-100"></i></a>
+            <ul class="mt-6 space-y-2 text-sm text-platinum">
+              <li class="flex items-center gap-2"><i data-lucide="trees" class="h-4 w-4 text-ember"></i> Asientos al aire libre</li>
+              <li class="flex items-center gap-2"><i data-lucide="wallet" class="h-4 w-4 text-ember"></i> $300 – 400 por persona</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold uppercase tracking-luxe text-ember">Contacto</h3>
+            <ul class="mt-6 space-y-3 text-sm text-platinum">
+              <li><a class="inline-flex items-center gap-2 transition-colors hover:text-white" href="tel:+524492646853"><i data-lucide="phone" class="h-4 w-4 text-ember"></i> 449 264 6853</a></li>
+              <li><a class="inline-flex items-center gap-2 transition-colors hover:text-white" href="https://wa.me/524492646853" target="_blank" rel="noopener"><i data-lucide="message-circle" class="h-4 w-4 text-ember"></i> WhatsApp</a></li>
+              <li><a class="inline-flex items-center gap-2 transition-colors hover:text-white" href="https://www.google.com/maps/dir/?api=1&destination=Burdo+San+Telmo+Av.+Prol.+Zaragoza+1014+Aguascalientes" target="_blank" rel="noopener"><i data-lucide="navigation" class="h-4 w-4 text-ember"></i> Cómo llegar</a></li>
+            </ul>
+            <div class="mt-8 flex gap-3">
+              <a href="https://www.google.com/maps/search/?api=1&query=Burdo+San+Telmo+Aguascalientes" target="_blank" rel="noopener" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 transition-colors hover:border-ember hover:text-ember focus-ring" aria-label="Burdo en Google Maps"><i data-lucide="map-pin" class="h-[18px] w-[18px]"></i></a>
+              <a href="https://wa.me/524492646853" target="_blank" rel="noopener" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 transition-colors hover:border-ember hover:text-ember focus-ring" aria-label="WhatsApp de Burdo"><i data-lucide="message-circle" class="h-[18px] w-[18px]"></i></a>
+              <a href="tel:+524492646853" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 transition-colors hover:border-ember hover:text-ember focus-ring" aria-label="Llamar a Burdo"><i data-lucide="phone" class="h-[18px] w-[18px]"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider-ember"></div>
+      <p class="select-none overflow-hidden whitespace-nowrap py-8 text-center font-neon text-[24vw] leading-none tracking-[0.06em] text-white/[0.03] lg:text-[17vw]" aria-hidden="true">BURDO</p>
+
+      <div id="legal" class="flex flex-col gap-4 border-t border-white/5 py-8 text-xs text-platinum/80 md:flex-row md:items-center md:justify-between">
+        <p>© <span id="year"></span> Burdo San Telmo, Aguascalientes. Todos los derechos reservados.</p>
+        <ul class="flex flex-wrap gap-x-6 gap-y-2">
+          <li><button type="button" class="transition-colors hover:text-white" data-legal="privacy">Aviso de privacidad</button></li>
+          <li><button type="button" class="transition-colors hover:text-white" data-legal="terms">Términos y condiciones</button></li>
+          <li><button type="button" class="transition-colors hover:text-white" data-legal="allergens">Información de alérgenos</button></li>
+        </ul>
+        <p>Sitio diseñado y desarrollado por <span class="font-semibold text-ember-light">LKM’r</span></p>
+      </div>
+    </div>
+  </footer>
+  <!-- ===================== MODAL DE PLATO ===================== -->
+  <div id="dish-modal" class="layer z-[70] grid place-items-end sm:place-items-center sm:p-6" role="dialog" aria-modal="true" aria-labelledby="dm-title" aria-hidden="true">
+    <div class="overlay" data-close></div>
+    <div class="modal-panel relative flex max-h-[94svh] w-full max-w-4xl flex-col overflow-hidden rounded-t-[28px] border hairline bg-surface sm:rounded-[28px] md:flex-row">
+      <button type="button" class="press absolute right-4 top-4 z-10 grid h-10 w-10 place-items-center rounded-full border border-white/15 bg-black/50 backdrop-blur focus-ring" data-close aria-label="Cerrar detalle"><i data-lucide="x" class="h-5 w-5"></i></button>
+      <div class="relative h-56 shrink-0 overflow-hidden xs:h-64 md:h-auto md:w-[46%]">
+        <img id="dm-img" class="absolute inset-0 h-full w-full object-cover" alt="" />
+        <div class="absolute inset-0 bg-gradient-to-t from-surface/90 via-transparent to-transparent md:bg-gradient-to-r md:from-transparent md:to-surface/30"></div>
+        <div id="dm-badges" class="absolute left-4 top-4 flex flex-wrap gap-2"></div>
+      </div>
+      <div class="flex min-h-0 flex-1 flex-col">
+        <div class="flex-1 overflow-y-auto p-6 sm:p-8">
+          <p id="dm-cat" class="text-xs uppercase tracking-luxe text-ember"></p>
+          <h3 id="dm-title" class="mt-3 pr-10 font-display text-3xl leading-tight sm:text-4xl"></h3>
+          <p id="dm-price" class="mt-3 font-display text-2xl text-ember-light"></p>
+          <p id="dm-desc" class="mt-5 leading-relaxed text-platinum"></p>
+          <div id="dm-tags" class="mt-6 flex flex-wrap gap-2"></div>
+
+          <div class="mt-8 space-y-3">
+            <details class="group rounded-2xl border border-white/10 bg-ink/40 px-5 py-4" open>
+              <summary class="flex items-center justify-between gap-4 text-sm font-semibold"><span class="inline-flex items-center gap-2"><i data-lucide="wine" class="h-4 w-4 text-ember"></i> Maridaje sugerido por la casa</span><i data-lucide="chevron-down" class="chev h-4 w-4 text-platinum"></i></summary>
+              <p id="dm-pairing" class="mt-3 text-sm leading-relaxed text-platinum"></p>
+            </details>
+            <details class="group rounded-2xl border border-white/10 bg-ink/40 px-5 py-4">
+              <summary class="flex items-center justify-between gap-4 text-sm font-semibold"><span class="inline-flex items-center gap-2"><i data-lucide="info" class="h-4 w-4 text-ember"></i> Alérgenos</span><i data-lucide="chevron-down" class="chev h-4 w-4 text-platinum"></i></summary>
+              <ul id="dm-allergens" class="mt-3 flex flex-wrap gap-2 text-xs"></ul>
+            </details>
+          </div>
+
+          <div id="dm-doneness-wrap" class="mt-6 hidden">
+            <p class="text-sm text-white/90">Término del corte</p>
+            <div id="dm-doneness" class="mt-3 flex flex-wrap gap-2" role="radiogroup" aria-label="Término del corte"></div>
+          </div>
+          <label for="dm-note" class="mt-6 block text-sm text-white/90">Nota para cocina <span class="text-platinum">(opcional)</span></label>
+          <input id="dm-note" class="field mt-2 !py-3 text-sm" maxlength="80" placeholder="Ej. sin cebolla, salsa aparte…" />
+        </div>
+
+        <div class="flex items-center gap-3 border-t hairline bg-surface p-4 sm:p-6">
+          <div class="flex items-center rounded-full border border-white/15" role="group" aria-label="Cantidad">
+            <button type="button" id="dm-minus" class="press grid h-12 w-11 place-items-center rounded-l-full hover:text-ember focus-ring" aria-label="Disminuir cantidad"><i data-lucide="minus" class="h-4 w-4"></i></button>
+            <output id="dm-qty" class="w-8 text-center font-semibold" aria-live="polite">1</output>
+            <button type="button" id="dm-plus" class="press grid h-12 w-11 place-items-center rounded-r-full hover:text-ember focus-ring" aria-label="Aumentar cantidad"><i data-lucide="plus" class="h-4 w-4"></i></button>
+          </div>
+          <button type="button" id="dm-add" class="btn btn-ember flex-1 px-4 py-4 text-sm">
+            <i data-lucide="shopping-bag" class="h-4 w-4"></i> <span>Añadir</span> <span id="dm-total" class="font-bold"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== DRAWER DE PEDIDO ===================== -->
+  <div id="cart-drawer" class="layer z-[80]" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true">
+    <div class="overlay" data-close></div>
+    <div class="drawer-panel absolute inset-y-0 right-0 flex w-full max-w-md flex-col border-l hairline bg-surface">
+      <div class="flex items-center justify-between border-b hairline px-5 py-5 sm:px-7">
+        <div>
+          <h2 id="cart-title" class="font-display text-2xl">Tu pedido</h2>
+          <p class="text-xs text-platinum" id="cart-subtitle">Order ahead o consumo en mesa</p>
+        </div>
+        <button type="button" class="press grid h-10 w-10 place-items-center rounded-full border border-white/10 focus-ring" data-close aria-label="Cerrar pedido"><i data-lucide="x" class="h-5 w-5"></i></button>
+      </div>
+
+      <!-- Vista: carrito -->
+      <div id="cart-view" class="flex min-h-0 flex-1 flex-col">
+        <div class="flex-1 overflow-y-auto px-5 py-5 sm:px-7">
+          <ul id="cart-items" class="space-y-4"></ul>
+          <div id="cart-empty" class="hidden py-16 text-center">
+            <div class="mx-auto grid h-20 w-20 place-items-center rounded-full border hairline bg-ink"><i data-lucide="flame" class="h-8 w-8 text-ember"></i></div>
+            <p class="mt-6 font-display text-2xl">Tu pedido está vacío</p>
+            <p class="mt-2 text-sm text-platinum">Empieza por un corte. Lo demás llega solo.</p>
+            <a href="#menu" class="btn btn-ember mt-8 px-6 py-3.5 text-sm" data-close-cart><i data-lucide="utensils" class="h-4 w-4"></i> Ver menú</a>
+          </div>
+
+          <div id="cart-options" class="mt-8 space-y-6">
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-[0.18em] text-white/90">Modalidad</p>
+              <div class="mt-3 grid grid-cols-2 gap-2" role="radiogroup" aria-label="Modalidad del pedido">
+                <button type="button" class="chip justify-center !py-3" role="radio" aria-checked="true" data-mode="pickup"><i data-lucide="hand-platter" class="h-4 w-4"></i> Para recoger</button>
+                <button type="button" class="chip justify-center !py-3" role="radio" aria-checked="false" data-mode="table"><i data-lucide="armchair" class="h-4 w-4"></i> En mesa</button>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label for="co-guests" class="mb-2 block text-xs text-platinum">Personas</label>
+                <select id="co-guests" class="field !py-3 text-sm"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8+</option></select>
+              </div>
+              <div data-mode-field="pickup">
+                <label for="co-time" class="mb-2 block text-xs text-platinum">Hora de recogida</label>
+                <select id="co-time" class="field !py-3 text-sm"></select>
+              </div>
+              <div data-mode-field="table" class="hidden">
+                <label for="co-table" class="mb-2 block text-xs text-platinum">No. de mesa</label>
+                <input id="co-table" class="field !py-3 text-sm" inputmode="numeric" maxlength="3" placeholder="Ej. 12" aria-describedby="err-co-table" />
+                <p class="err-msg" id="err-co-table"></p>
+              </div>
+            </div>
+            <div>
+              <label for="co-name" class="mb-2 block text-xs text-platinum">Nombre para el pedido</label>
+              <input id="co-name" class="field !py-3 text-sm" autocomplete="given-name" placeholder="¿A nombre de quién?" aria-describedby="err-co-name" />
+              <p class="err-msg" id="err-co-name"></p>
+            </div>
+            <div>
+              <p class="text-xs font-semibold uppercase tracking-[0.18em] text-white/90">Propina sugerida</p>
+              <div id="tip-options" class="mt-3 grid grid-cols-5 gap-2" role="radiogroup" aria-label="Propina">
+                <button type="button" class="chip justify-center !px-2" role="radio" aria-checked="false" data-tip="0">0%</button>
+                <button type="button" class="chip justify-center !px-2" role="radio" aria-checked="true" data-tip="10">10%</button>
+                <button type="button" class="chip justify-center !px-2" role="radio" aria-checked="false" data-tip="15">15%</button>
+                <button type="button" class="chip justify-center !px-2" role="radio" aria-checked="false" data-tip="20">20%</button>
+                <button type="button" class="chip justify-center !px-2" role="radio" aria-checked="false" data-tip="custom">Otra</button>
+              </div>
+              <div id="tip-custom-wrap" class="mt-3 hidden">
+                <label for="tip-custom" class="sr-only">Propina personalizada en pesos</label>
+                <div class="relative"><span class="absolute left-4 top-1/2 -translate-y-1/2 text-platinum">$</span><input id="tip-custom" class="field !py-3 !pl-8 text-sm" inputmode="decimal" placeholder="Monto en pesos" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="cart-footer" class="border-t hairline bg-[#120f0e] px-5 py-5 sm:px-7">
+          <dl class="space-y-2 text-sm">
+            <div class="flex justify-between text-platinum"><dt>Subtotal (sin IVA)</dt><dd id="t-sub"></dd></div>
+            <div class="flex justify-between text-platinum"><dt>IVA 16%</dt><dd id="t-tax"></dd></div>
+            <div class="flex justify-between text-platinum"><dt>Propina <span id="t-tip-label"></span></dt><dd id="t-tip"></dd></div>
+            <div class="flex items-baseline justify-between border-t border-white/10 pt-3"><dt class="font-semibold">Total</dt><dd id="t-total" class="font-display text-2xl text-ember-light"></dd></div>
+          </dl>
+          <button type="button" id="cart-submit" class="btn btn-ember mt-5 w-full py-4 text-sm"><i data-lucide="receipt-text" class="h-4 w-4"></i> Confirmar y Enviar Pedido</button>
+          <p class="mt-3 text-center text-[0.7rem] text-platinum/70">Pago en sucursal o en mesa. Sin cargos ocultos.</p>
+        </div>
+      </div>
+
+      <!-- Vista: procesando -->
+      <div id="cart-processing" class="hidden flex-1 flex-col items-center justify-center p-8 text-center">
+        <i data-lucide="loader-circle" class="spin h-12 w-12 text-ember"></i>
+        <p class="mt-6 font-display text-2xl">Encendiendo la parrilla…</p>
+        <p class="mt-2 text-sm text-platinum" id="processing-step">Validando pedido</p>
+      </div>
+
+      <!-- Vista: éxito -->
+      <div id="cart-success" class="hidden flex-1 flex-col overflow-y-auto p-6 text-center sm:p-8" tabindex="-1">
+        <svg class="mx-auto mt-6 h-20 w-20" viewBox="0 0 56 56" aria-hidden="true"><circle class="success-ring" cx="28" cy="28" r="26" fill="none" stroke="#e8452c" stroke-width="2" /><path class="success-check" d="M17 29l7 7 15-16" fill="none" stroke="#e8452c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>
+        <p class="mt-6 text-xs uppercase tracking-luxe text-ember">Pedido recibido</p>
+        <h3 class="mt-3 font-display text-3xl">¡Gracias, <span id="os-name" class="italic"></span>!</h3>
+        <p class="mt-3 text-platinum">Folio de orden</p>
+        <p id="os-folio" class="mt-1 font-mono text-2xl font-semibold tracking-wider text-ember-light"></p>
+        <div class="mt-8 rounded-2xl border border-white/10 bg-ink/50 p-5 text-left text-sm">
+          <p class="flex items-center gap-2 text-platinum"><i data-lucide="clock-3" class="h-4 w-4 text-ember"></i> <span id="os-eta"></span></p>
+          <ul id="os-items" class="mt-4 space-y-2 border-t border-white/10 pt-4"></ul>
+          <p class="mt-4 flex justify-between border-t border-white/10 pt-4 font-semibold"><span>Total</span><span id="os-total" class="text-ember-light"></span></p>
+        </div>
+        <a id="os-wa" href="#" target="_blank" rel="noopener" class="btn btn-ember mt-6 w-full py-4 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Enviar comprobante por WhatsApp</a>
+        <button type="button" id="os-new" class="btn btn-ghost mt-3 w-full py-4 text-sm">Hacer un nuevo pedido</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal legal -->
+  <div id="legal-modal" class="layer z-[90] grid place-items-center p-4" role="dialog" aria-modal="true" aria-labelledby="lg-title" aria-hidden="true">
+    <div class="overlay" data-close></div>
+    <div class="modal-panel relative max-h-[85svh] w-full max-w-xl overflow-y-auto rounded-[28px] border hairline bg-surface p-7 sm:p-10">
+      <button type="button" class="press absolute right-4 top-4 grid h-10 w-10 place-items-center rounded-full border border-white/10 focus-ring" data-close aria-label="Cerrar"><i data-lucide="x" class="h-5 w-5"></i></button>
+      <h2 id="lg-title" class="pr-10 font-display text-3xl"></h2>
+      <div id="lg-body" class="mt-6 space-y-4 text-sm leading-relaxed text-platinum"></div>
+    </div>
+  </div>
+
+  <!-- Toasts -->
+  <div id="toasts" class="pointer-events-none fixed bottom-4 left-1/2 z-[120] flex w-[calc(100%-2rem)] max-w-sm -translate-x-1/2 flex-col gap-2 sm:left-auto sm:right-6 sm:translate-x-0" aria-live="polite" aria-atomic="false"></div>
+
+  <!-- Barra móvil de acción rápida -->
+  <div id="mobile-bar" class="fixed inset-x-3 bottom-3 z-40 flex translate-y-[150%] gap-2 rounded-full border hairline bg-black/70 p-2 backdrop-blur-xl transition-transform duration-700 sm:hidden" style="padding-bottom: max(0.5rem, env(safe-area-inset-bottom));">
+    <a href="#menu" class="btn btn-ghost flex-1 !border-transparent py-3 text-sm"><i data-lucide="flame" class="h-4 w-4"></i> Menú</a>
+    <a href="#reservas" class="btn btn-ember flex-1 py-3 text-sm"><i data-lucide="calendar-days" class="h-4 w-4"></i> Reservar</a>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script>
+  (() => {
+    'use strict';
+
+    /* =========================================================
+       CONFIGURACIÓN Y DATOS
+       ========================================================= */
+    const CONFIG = {
+      phone: '524492646853',
+      timeZone: 'America/Mexico_City',
+      taxRate: 0.16,
+      maxDaysAhead: 60,
+      blockedDates: ['12-25', '01-01'],
+      storageKey: 'burdo.cart.v1',
+      hours: {
+        // 0 = domingo … 6 = sábado. Minutos desde medianoche (1440 = medianoche).
+        0: { open: 9 * 60, close: 22 * 60 },
+        1: { open: 9 * 60, close: 23 * 60 },
+        2: { open: 9 * 60, close: 23 * 60 },
+        3: { open: 9 * 60, close: 23 * 60 },
+        4: { open: 9 * 60, close: 23 * 60 },
+        5: { open: 9 * 60, close: 24 * 60 },
+        6: { open: 9 * 60, close: 24 * 60 },
+      },
+      branches: {
+        santelmo: { name: 'San Telmo', address: 'Av. Prol. Zaragoza 1014, Calicantos II, 20115 Aguascalientes, Ags.', note: 'Terraza jardín · Pantallas' },
+      },
+      zones: {
+        terraza: { name: 'Terraza Jardín', icon: 'trees', desc: 'Enredaderas, neón y calentadores.', maxGuests: 12 },
+        salon: { name: 'Salón de Pantallas', icon: 'tv', desc: 'Frente a la pantalla gigante.', maxGuests: 12 },
+        barra: { name: 'Barra de Coctelería', icon: 'martini', desc: 'Junto a la barra y la parrilla.', maxGuests: 4 },
+      },
+      doneness: ['Rojo', 'Medio rojo', 'Término medio', 'Tres cuartos', 'Bien cocido'],
+    };
+
+    const IMG = (id, w = 900) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=78`;
+
+    const CATEGORIES = [
+      { id: 'all', label: 'Todo', icon: 'sparkles' },
+      { id: 'entradas', label: 'Entradas', icon: 'leaf' },
+      { id: 'cortes', label: 'Cortes a la Parrilla', icon: 'beef' },
+      { id: 'especialidades', label: 'Especialidades de la Casa', icon: 'flame' },
+      { id: 'postres', label: 'Postres', icon: 'cake-slice' },
+      { id: 'mixologia', label: 'Coctelería de Autor', icon: 'martini' },
+    ];
+
+    const FILTERS = [
+      { id: 'veg', label: 'Vegetariano', icon: 'leaf' },
+      { id: 'gf', label: 'Sin Gluten', icon: 'wheat-off' },
+      { id: 'vegan', label: 'Vegano', icon: 'sprout' },
+      { id: 'spicy', label: 'Picante', icon: 'flame' },
+      { id: 'somm', label: 'Sommelier', icon: 'wine' },
+    ];
+
+    const MENU = [
+      { id: 'guacamole', cat: 'entradas', name: 'Guacamole de Molcajete', price: 165, img: '1600891964599-f61ba0e24092', tags: ['veg', 'vegan', 'gf', 'spicy'],
+        desc: 'Aguacate Hass, chile serrano, cebolla morada y totopos recién hechos.',
+        long: 'Aguacate Hass machacado al momento en molcajete con chile serrano, cebolla morada, cilantro, jitomate y limón. Con totopos de maíz recién fritos y salsas de la casa.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Una cerveza clara bien fría o la sangría de la casa.' },
+      { id: 'tacos-arrachera', cat: 'entradas', name: 'Tacos de Arrachera', price: 195, img: '1599974579688-8dbdd335c77f', badge: 'Best Seller', tags: ['gf', 'spicy'],
+        desc: 'Arrachera al carbón, cebolla asada, cilantro y salsa tatemada.',
+        long: 'Tres tacos de arrachera marinada y asada al carbón, sobre tortilla de maíz hecha a mano, con cebolla cambray asada, cilantro, limón y salsa tatemada de chile de árbol.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Mezcal joven con naranja y sal de gusano, o un tinto joven.' },
+      { id: 'brochetas', cat: 'entradas', name: 'Brochetas Mixtas al Carbón', price: 215, img: '1555939594-58d7cb561ad1', tags: ['gf'],
+        desc: 'Pollo, res y verduras asadas con chimichurri y salsa criolla.',
+        long: 'Brochetas de pollo marinado y res con pimiento, cebolla y calabacita, asadas sobre brasa viva. Se sirven con chimichurri de la casa y salsa criolla.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Un rosado seco mexicano.' },
+      { id: 'ensalada', cat: 'entradas', name: 'Ensalada Burdo', price: 165, img: '1540189549336-e6e99c3679fe', tags: ['veg', 'gf'],
+        desc: 'Hojas verdes, queso de cabra, betabel rostizado y vinagreta de miel.',
+        long: 'Mezcla de hojas verdes, betabel rostizado, queso de cabra, nuez garapiñada, cebolla morada y una vinagreta de miel y mostaza antigua. Ideal para acompañar cualquier corte.',
+        allergens: ['Lácteos', 'Nuez', 'Mostaza'], pairing: 'Sauvignon Blanc fresco.' },
+      { id: 'rib-eye', cat: 'cortes', name: 'Rib Eye 400 g', price: 545, img: '1529692236671-f1f6cf9683ba', badge: 'Best Seller', cut: true, tags: ['gf', 'somm'],
+        desc: 'El corte más jugoso de la casa, con marmoleo generoso y sal de grano.',
+        long: 'Rib eye de 400 g con marmoleo generoso, sazonado solo con sal de grano y pimienta, asado sobre carbón de encino. Se acompaña con papa al carbón y chimichurri.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Recomendación del sommelier: Cabernet Sauvignon de Valle de Guadalupe.' },
+      { id: 'new-york', cat: 'cortes', name: 'New York 350 g', price: 485, img: '1588168333986-5078d3ae3976', cut: true, tags: ['gf', 'somm'],
+        desc: 'Corte firme y sabroso, con su capa de grasa dorada a la brasa.',
+        long: 'New York de 350 g con su capa de grasa característica, sellado a fuego alto y terminado en zona templada de la parrilla para un interior parejo. Con guarnición a elegir.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Recomendación del sommelier: Malbec argentino.' },
+      { id: 'arrachera', cat: 'cortes', name: 'Arrachera 300 g', price: 395, img: '1558030006-450675393462', cut: true, tags: ['gf'],
+        desc: 'Marinada de la casa, cebollitas cambray, nopal y guacamole.',
+        long: 'Arrachera de 300 g en marinada de cítricos y especias, asada al carbón y servida con cebollitas cambray, nopal asado, guacamole y tortillas hechas a mano.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Syrah mexicano o una michelada de la casa.' },
+      { id: 'filete', cat: 'cortes', name: 'Filete al Vino Tinto', price: 465, img: '1432139509613-5c4255815697', cut: true, tags: ['gf', 'somm'],
+        desc: 'Medallón de filete con reducción de vino tinto y verduras asadas.',
+        long: 'Medallón de filete de res de 250 g, asado al carbón y bañado con una reducción de vino tinto y romero. Con brócoli y verduras de temporada a la parrilla.',
+        allergens: ['Sulfitos'], pairing: 'Recomendación del sommelier: Merlot con crianza.' },
+      { id: 'tomahawk', cat: 'cortes', name: 'Tomahawk 1 kg', price: 1290, img: '1594041680534-e8c8cdebd659', badge: 'Para 2–3', cut: true, tags: ['gf', 'somm'],
+        desc: 'El corte para compartir: hueso largo, brasa lenta y papas al romero.',
+        long: 'Tomahawk de aproximadamente 1 kg, cocinado lentamente sobre brasa y rebanado en la mesa. Incluye papas cambray al romero, chimichurri y salsa de la casa. Para 2 a 3 personas.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Recomendación del sommelier: una botella de Cabernet–Merlot de Valle de Guadalupe.' },
+      { id: 'parrillada', cat: 'especialidades', name: 'Parrillada Burdo para 2', price: 890, img: '1603360946369-dc9bb6258143', badge: 'Para compartir', tags: ['gf', 'somm'],
+        desc: 'Arrachera, chorizo argentino, brochetas, papas y salsas de la casa.',
+        long: 'Tabla con arrachera, chorizo argentino, brochetas de pollo, costilla y papas a la francesa, con chimichurri, guacamole, salsa tatemada y tortillas. Para 2 personas.',
+        allergens: ['Gluten (chorizo)'], pairing: 'Recomendación del sommelier: jarra de sangría de la casa.' },
+      { id: 'costillas', cat: 'especialidades', name: 'Costillas BBQ', price: 395, img: '1544025162-d76694265947', tags: ['gf'],
+        desc: 'Costilla de cerdo 8 horas, glaseado de chipotle y piloncillo.',
+        long: 'Costilla de cerdo cocinada 8 horas a baja temperatura y terminada sobre brasa con glaseado de chipotle, piloncillo y naranja. Con elote asado y ensalada de col.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Cerveza ámbar artesanal.' },
+      { id: 'pizza-arrachera', cat: 'especialidades', name: 'Pizza de Arrachera & Chimichurri', price: 275, img: '1565299624946-b28f40a0ae38', badge: 'Nuevo', tags: ['spicy'],
+        desc: 'Masa delgada, mozzarella, arrachera, cebolla morada y jalapeño.',
+        long: 'Masa delgada de fermentación lenta, salsa de jitomate, mozzarella, arrachera al carbón, cebolla morada, jalapeño y un hilo de chimichurri al salir del horno.',
+        allergens: ['Gluten', 'Lácteos'], pairing: 'Tinto joven o una cerveza clara.' },
+      { id: 'pizza-margarita', cat: 'especialidades', name: 'Pizza Margarita', price: 225, img: '1574071318508-1cdbab80d002', tags: ['veg'],
+        desc: 'Jitomate, mozzarella fresca, albahaca y aceite de oliva.',
+        long: 'Masa delgada de fermentación lenta, salsa de jitomate, mozzarella fresca, albahaca y aceite de oliva extra virgen.',
+        allergens: ['Gluten', 'Lácteos'], pairing: 'Un rosado seco o la sangría de la casa.' },
+      { id: 'hamburguesa', cat: 'especialidades', name: 'Hamburguesa Burdo', price: 245, img: '1551782450-a2132b4ba21d', tags: [],
+        desc: 'Carne de sirloin a la brasa, queso cheddar, tocino y papas.',
+        long: 'Medallón de 200 g de sirloin molido en casa, asado al carbón, con queso cheddar, tocino, cebolla caramelizada y aderezo de chipotle en pan brioche. Con papas a la francesa.',
+        allergens: ['Gluten', 'Lácteos', 'Huevo', 'Mostaza'], pairing: 'Old Fashioned Ahumado.' },
+      { id: 'brownie', cat: 'postres', name: 'Brownie Tibio & Helado', price: 135, img: '1624353365286-3f8d62daad51', badge: 'Best Seller', tags: ['veg'],
+        desc: 'Chocolate amargo, helado de vainilla y salsa de cajeta.',
+        long: 'Brownie de chocolate amargo horneado al momento, con helado de vainilla, salsa de cajeta y nuez tostada.',
+        allergens: ['Gluten', 'Lácteos', 'Huevo', 'Nuez'], pairing: 'Carajillo espumoso.' },
+      { id: 'pastel', cat: 'postres', name: 'Pastel de Chocolate', price: 125, img: '1578985545062-69928b1d9587', tags: ['veg'],
+        desc: 'Bizcocho húmedo, ganache de cacao y crema batida.',
+        long: 'Bizcocho de chocolate humedecido con jarabe de café, relleno y cubierto con ganache de cacao mexicano y crema batida.',
+        allergens: ['Gluten', 'Lácteos', 'Huevo'], pairing: 'Un espresso o un oporto.' },
+      { id: 'sangria', cat: 'mixologia', name: 'Sangría de la Casa', price: 135, img: '1497534446932-c925b458314e', badge: 'Firma de la Casa', tags: ['vegan', 'gf', 'somm'],
+        desc: 'En capas: jugo de naranja, vino tinto y frutos rojos.',
+        long: 'Nuestra sangría en capas: jugo de naranja, vino tinto, licor de naranja y frutos rojos macerados, servida en copa con hielo. También en jarra para compartir.',
+        allergens: ['Sulfitos'], pairing: 'Recomendación del sommelier: con la parrillada o los tacos de arrachera.' },
+      { id: 'pitaya-mezcal', cat: 'mixologia', name: 'Pitaya & Mezcal', price: 175, img: '1536935338788-846bb9981813', badge: 'Nuevo', tags: ['vegan', 'gf', 'spicy'],
+        desc: 'Mezcal joven, pitaya, limón y escarchado de chile y flor.',
+        long: 'Mezcal joven, pulpa de pitaya, jarabe natural y limón, con escarchado de chile, sal de gusano y flor comestible. El coctel más fotografiado de la barra.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Con el guacamole de molcajete o las brochetas.' },
+      { id: 'carajillo', cat: 'mixologia', name: 'Carajillo Espumoso', price: 165, img: '1470337458703-46ad1756a187', tags: ['vegan', 'gf'],
+        desc: 'Licor 43 y espresso batido, coronado con canela.',
+        long: 'Licor 43 y espresso doble batidos hasta lograr una espuma densa, servido en copa y coronado con una raja de canela.',
+        allergens: ['Sin alérgenos principales'], pairing: 'El cierre perfecto después de un corte.' },
+      { id: 'old-fashioned', cat: 'mixologia', name: 'Old Fashioned Ahumado', price: 185, img: '1514362545857-3bc16c4c7d1b', tags: ['vegan', 'gf', 'somm'],
+        desc: 'Bourbon, piloncillo, bitter de naranja y humo de mezquite.',
+        long: 'Bourbon, jarabe de piloncillo y bitter de naranja, ahumado al momento con madera de mezquite y servido sobre hielo de bloque.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Recomendación del sommelier: con el rib eye o el tomahawk.' },
+      { id: 'mojito', cat: 'mixologia', name: 'Mojito de Hierbabuena', price: 135, img: '1513558161293-cdaf765ed2fd', tags: ['vegan', 'gf'],
+        desc: 'Ron blanco, hierbabuena, limón y soda.',
+        long: 'Ron blanco, hierbabuena fresca, limón, azúcar de caña y soda mineral. Disponible sin alcohol por $85.',
+        allergens: ['Sin alérgenos principales'], pairing: 'Con los tacos de arrachera.' },
+    ];
+
+    const GALLERY = [
+      { id: '1529193591184-b1d58069ecdd', h: 'h-[420px]', cap: 'Directo de la brasa' },
+      { id: '1572116469696-31de0f17cc34', h: 'h-[300px]', cap: 'La barra' },
+      { id: '1600565193348-f74bd3c7ccdf', h: 'h-[380px]', cap: 'Fuego vivo' },
+      { id: '1551538827-9c037cb4f32a', h: 'h-[460px]', cap: 'Mojito al momento' },
+      { id: '1607623814075-e51df1bdc82f', h: 'h-[300px]', cap: 'Selección de cortes' },
+      { id: '1543007630-9710e4a00a20', h: 'h-[360px]', cap: 'Noches en Burdo' },
+      { id: '1600891964092-4316c288032e', h: 'h-[320px]', cap: 'Corte & papas' },
+      { id: '1513104890138-7c749659a591', h: 'h-[400px]', cap: 'Pizza al horno' },
+      { id: '1514933651103-005eec06c04b', h: 'h-[340px]', cap: 'Para quedarse' },
+    ];
+
+    const INSTAGRAM = [
+      { src: 'assets/momentos/letrero.jpg', alt: 'Letrero de neón rojo de Burdo sobre muro de ladrillo' },
+      { src: 'assets/momentos/cortes.jpg', alt: 'Cortes recién salidos de la parrilla sobre tabla de hierro' },
+      { src: 'assets/momentos/coctel-pitaya.jpg', alt: 'Coctel rosa de pitaya con flor y escarchado' },
+      { src: 'assets/momentos/sangrias.jpg', alt: 'Dos sangrías en copa bajo el papel picado' },
+      { src: 'assets/momentos/jardin.jpg', alt: 'Mesa larga en la terraza jardín iluminada de noche' },
+      { src: 'assets/momentos/carajillo.jpg', alt: 'Carajillo espumoso con raja de canela' },
+      { src: 'assets/momentos/parrillada.jpg', alt: 'Parrillada con chorizo y copas de vino rosado' },
+      { src: 'assets/momentos/navidad.jpg', alt: 'Terraza decorada con luces y copos de nieve en temporada navideña' },
+      { src: 'assets/momentos/terraza-pantalla.jpg', alt: 'Terraza con pantalla gigante y calentadores' },
+      { src: 'assets/momentos/mesa-noche.jpg', alt: 'Mesa con botanas mientras se transmite un partido' },
+    ];
+
+    const LEGAL = {
+      privacy: { title: 'Aviso de privacidad', body: [
+        'Burdo San Telmo es responsable del tratamiento de los datos personales que nos proporcionas (nombre, teléfono y correo electrónico) al reservar, ordenar o suscribirte a nuestro boletín.',
+        'Usamos tus datos únicamente para confirmar y gestionar tu reservación o pedido, enviarte recordatorios y, si lo autorizas, comunicaciones sobre eventos y promociones.',
+        'No vendemos ni compartimos tus datos con terceros. Puedes ejercer tus derechos ARCO llamando al 449 264 6853.',
+      ] },
+      terms: { title: 'Términos y condiciones', body: [
+        'Las reservaciones se mantienen 15 minutos después de la hora confirmada (10 minutos en días de partido). Después de ese tiempo la mesa puede liberarse.',
+        'Los pedidos para recoger se preparan para la hora seleccionada y se pagan en el restaurante. Los precios incluyen IVA y pueden cambiar sin previo aviso. Los pesos de los cortes son en crudo.',
+        'Las imágenes de los platillos son ilustrativas; la presentación puede variar.',
+      ] },
+      allergens: { title: 'Información de alérgenos', body: [
+        'Cada platillo de nuestra carta indica sus alérgenos principales en la ficha de detalle. En nuestra cocina se manipulan gluten, lácteos, huevo, nueces, ajonjolí, soya, pescado y mariscos.',
+        'Aunque seguimos protocolos de separación, no podemos garantizar la ausencia total de trazas. Si tienes una alergia crítica, indícalo en tu reservación o directamente a tu mesero.',
+      ] },
+    };
+
+    /* =========================================================
+       UTILIDADES
+       ========================================================= */
+    const $ = (sel, ctx = document) => ctx.querySelector(sel);
+    const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
+    const money = new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', minimumFractionDigits: 2 });
+    const fmt = (n) => money.format(Math.round(n * 100) / 100);
+    const escapeHTML = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const pad = (n) => String(n).padStart(2, '0');
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const finePointer = window.matchMedia('(pointer: fine)').matches;
+    const refreshIcons = () => window.lucide && window.lucide.createIcons();
+    const hash = (str) => { let h = 2166136261; for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; };
+    const makeFolio = (prefix) => `${prefix}-${Date.now().toString(36).slice(-4).toUpperCase()}${Math.random().toString(36).slice(2, 5).toUpperCase()}`;
+    const vibrate = (ms = 12) => { try { if (navigator.vibrate) navigator.vibrate(ms); } catch (e) { /* sin soporte */ } };
+    const toHM = (mins) => `${Math.floor(mins / 60) % 24}:${pad(mins % 60)}`;
+    const toHHMM = (mins) => `${pad(Math.floor(mins / 60))}:${pad(mins % 60)}`;
+
+    const storage = {
+      get(key, fallback) { try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; } catch (e) { return fallback; } },
+      set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch (e) { /* almacenamiento no disponible */ } },
+    };
+
+    /** Fecha y hora actuales en la zona horaria del restaurante. */
+    const mxNow = () => {
+      const parts = new Intl.DateTimeFormat('en-US', { timeZone: CONFIG.timeZone, year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', hourCycle: 'h23' })
+        .formatToParts(new Date()).reduce((acc, p) => { acc[p.type] = p.value; return acc; }, {});
+      const y = +parts.year, m = +parts.month, d = +parts.day;
+      const dow = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
+      return { y, m, d, dow, minutes: (+parts.hour % 24) * 60 + +parts.minute };
+    };
+    const dateKey = (y, m, d) => `${y}-${pad(m)}-${pad(d)}`;
+    const parseKey = (key) => { const [y, m, d] = key.split('-').map(Number); return { y, m, d, dow: new Date(Date.UTC(y, m - 1, d)).getUTCDay() }; };
+    const dayDiff = (a, b) => Math.round((Date.UTC(b.y, b.m - 1, b.d) - Date.UTC(a.y, a.m - 1, a.d)) / 86400000);
+    const longDate = (key) => { const { y, m, d } = parseKey(key); return new Intl.DateTimeFormat('es-MX', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(Date.UTC(y, m - 1, d))); };
+
+    /* =========================================================
+       TOASTS
+       ========================================================= */
+    class Toast {
+      static show(message, { icon = 'check', tone = 'ember' } = {}) {
+        const root = $('#toasts');
+        const el = document.createElement('div');
+        el.className = 'toast pointer-events-auto flex items-center gap-3 rounded-2xl border border-white/10 bg-[#16181e]/95 px-4 py-3.5 text-sm shadow-2xl backdrop-blur-xl';
+        const color = tone === 'error' ? 'text-red-300 bg-red-400/10' : 'text-ember bg-ember/10';
+        el.innerHTML = `<span class="grid h-8 w-8 shrink-0 place-items-center rounded-full ${color}"><i data-lucide="${icon}" class="h-4 w-4"></i></span><p class="flex-1">${message}</p>`;
+        root.appendChild(el);
+        refreshIcons();
+        setTimeout(() => { el.classList.add('is-leaving'); el.addEventListener('animationend', () => el.remove(), { once: true }); }, 3200);
+      }
+    }
+
+    /* =========================================================
+       CAPAS ACCESIBLES (modales, drawers): ESC, trampa de foco
+       ========================================================= */
+    class Layer {
+      static stack = [];
+      constructor(el, { onOpen, onClose, trigger } = {}) {
+        this.el = el;
+        this.onOpen = onOpen;
+        this.onClose = onClose;
+        this.trigger = trigger || null;
+        this.lastFocus = null;
+        el.addEventListener('click', (e) => { if (e.target.closest('[data-close]')) this.close(); });
+        el.addEventListener('keydown', (e) => this.trap(e));
+      }
+      get isOpen() { return this.el.classList.contains('is-open'); }
+      open(opener) {
+        if (this.isOpen) return;
+        this.lastFocus = opener || document.activeElement;
+        Layer.stack.push(this);
+        this.el.classList.add('is-open');
+        this.el.setAttribute('aria-hidden', 'false');
+        if (this.trigger) this.trigger.setAttribute('aria-expanded', 'true');
+        document.body.classList.add('is-locked');
+        if (this.onOpen) this.onOpen();
+        requestAnimationFrame(() => { const f = this.focusables()[0]; if (f) f.focus({ preventScroll: true }); });
+      }
+      close() {
+        if (!this.isOpen) return;
+        Layer.stack = Layer.stack.filter((l) => l !== this);
+        this.el.classList.remove('is-open');
+        this.el.setAttribute('aria-hidden', 'true');
+        if (this.trigger) this.trigger.setAttribute('aria-expanded', 'false');
+        if (!Layer.stack.length) document.body.classList.remove('is-locked');
+        if (this.onClose) this.onClose();
+        if (this.lastFocus && document.contains(this.lastFocus)) this.lastFocus.focus({ preventScroll: true });
+      }
+      focusables() {
+        return $$('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"]), summary', this.el)
+          .filter((n) => n.offsetParent !== null && !n.closest('.hidden'));
+      }
+      trap(e) {
+        if (e.key !== 'Tab') return;
+        const f = this.focusables();
+        if (!f.length) return;
+        const first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+      static init() {
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && Layer.stack.length) { e.preventDefault(); Layer.stack[Layer.stack.length - 1].close(); }
+        });
+      }
+    }
+
+    /* =========================================================
+       ESTADO DEL LOCAL (abierto / cerrado)
+       ========================================================= */
+    class OpeningStatus {
+      constructor() {
+        this.render();
+        this.renderHoursList();
+        setInterval(() => this.render(), 60000);
+      }
+      compute() {
+        const now = mxNow();
+        const today = CONFIG.hours[now.dow];
+        if (now.minutes >= today.open && now.minutes < today.close) {
+          const left = today.close - now.minutes;
+          return { open: true, text: left <= 45 ? `Abierto · cierra en ${left} min` : `Abierto ahora · cierra ${toHM(today.close)}` };
+        }
+        if (now.minutes < today.open) return { open: false, text: `Cerrado · abre hoy ${toHM(today.open)}` };
+        const next = CONFIG.hours[(now.dow + 1) % 7];
+        return { open: false, text: `Cerrado · abre mañana ${toHM(next.open)}` };
+      }
+      render() {
+        const s = this.compute();
+        $$('[data-status-text]').forEach((el) => { el.textContent = s.text; });
+        $$('[data-status-dot]').forEach((el) => { el.style.color = s.open ? '#34d399' : '#f87171'; el.style.backgroundColor = s.open ? '#34d399' : '#f87171'; });
+      }
+      renderHoursList() {
+        const names = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+        const today = mxNow().dow;
+        $('#hours-list').innerHTML = [1, 2, 3, 4, 5, 6, 0].map((d) => {
+          const h = CONFIG.hours[d];
+          const cur = d === today;
+          return `<li class="flex justify-between gap-4 ${cur ? 'text-white' : 'text-platinum'}"><span>${names[d]}${cur ? ' <span class="text-ember">· hoy</span>' : ''}</span><span class="tabular-nums">${toHM(h.open)} – ${toHM(h.close)}</span></li>`;
+        }).join('');
+      }
+    }
+
+    /* =========================================================
+       CARRITO (store con suscriptores + persistencia)
+       ========================================================= */
+    class CartStore {
+      constructor() {
+        const saved = storage.get(CONFIG.storageKey, []);
+        this.items = Array.isArray(saved) ? saved.filter((i) => MENU.some((m) => m.id === i.id) && i.qty > 0) : [];
+        this.listeners = new Set();
+      }
+      subscribe(fn) { this.listeners.add(fn); fn(this); return () => this.listeners.delete(fn); }
+      emit() { storage.set(CONFIG.storageKey, this.items); this.listeners.forEach((fn) => fn(this)); }
+      key(id, note) { return `${id}::${(note || '').trim().toLowerCase()}`; }
+      add(id, qty = 1, note = '') {
+        const k = this.key(id, note);
+        const line = this.items.find((i) => this.key(i.id, i.note) === k);
+        if (line) line.qty = Math.min(line.qty + qty, 50);
+        else this.items.push({ id, qty: Math.min(qty, 50), note: note.trim() });
+        this.emit();
+      }
+      setQty(index, qty) {
+        if (!this.items[index]) return;
+        if (qty <= 0) this.items.splice(index, 1);
+        else this.items[index].qty = Math.min(qty, 50);
+        this.emit();
+      }
+      remove(index) { this.items.splice(index, 1); this.emit(); }
+      clear() { this.items = []; this.emit(); }
+      get count() { return this.items.reduce((s, i) => s + i.qty, 0); }
+      get subtotal() { return this.items.reduce((s, i) => s + MENU.find((m) => m.id === i.id).price * i.qty, 0); }
+      lines() { return this.items.map((i, index) => ({ ...i, index, dish: MENU.find((m) => m.id === i.id) })); }
+    }
+
+    /* =========================================================
+       ANIMACIÓN DE VUELO AL CARRITO
+       ========================================================= */
+    const flyToCart = (sourceImg) => {
+      const target = $('#cart-button');
+      const bump = () => { target.classList.remove('cart-bump'); void target.offsetWidth; target.classList.add('cart-bump'); };
+      if (!sourceImg || prefersReducedMotion) { bump(); return; }
+      const s = sourceImg.getBoundingClientRect();
+      const t = target.getBoundingClientRect();
+      if (!s.width) { bump(); return; }
+      const size = Math.min(s.width, s.height, 160);
+      const ghost = document.createElement('img');
+      ghost.src = sourceImg.currentSrc || sourceImg.src;
+      ghost.alt = '';
+      Object.assign(ghost.style, { position: 'fixed', zIndex: 150, left: `${s.left + s.width / 2 - size / 2}px`, top: `${s.top + s.height / 2 - size / 2}px`, width: `${size}px`, height: `${size}px`, objectFit: 'cover', borderRadius: '50%', pointerEvents: 'none', boxShadow: '0 20px 50px rgba(232,69,44,.45)', border: '2px solid #e8452c' });
+      document.body.appendChild(ghost);
+      const dx = t.left + t.width / 2 - (s.left + s.width / 2);
+      const dy = t.top + t.height / 2 - (s.top + s.height / 2);
+      const anim = ghost.animate([
+        { transform: 'translate(0,0) scale(1)', opacity: 1 },
+        { transform: `translate(${dx * 0.45}px, ${dy * 0.45 - 120}px) scale(0.6)`, opacity: 1, offset: 0.45 },
+        { transform: `translate(${dx}px, ${dy}px) scale(0.12)`, opacity: 0.4 },
+      ], { duration: 900, easing: 'cubic-bezier(0.55, 0, 0.3, 1)' });
+      anim.onfinish = () => { ghost.remove(); bump(); };
+    };
+
+    /* =========================================================
+       MENÚ INTERACTIVO
+       ========================================================= */
+    class MenuController {
+      constructor(cart, dishModal) {
+        this.cart = cart;
+        this.dishModal = dishModal;
+        this.state = { cat: 'all', filters: new Set(), query: '' };
+        this.grid = $('#menu-grid');
+        this.renderTabs();
+        this.renderFilters();
+        this.render();
+        this.bind();
+      }
+      renderTabs() {
+        $('#menu-tabs').innerHTML = CATEGORIES.map((c) => `
+          <button type="button" class="chip press" role="tab" id="tab-${c.id}" aria-selected="${c.id === this.state.cat}" aria-controls="menu-grid" data-cat="${c.id}">
+            <i data-lucide="${c.icon}" class="h-4 w-4"></i>${c.label}<span class="ml-0.5 text-[0.65rem] text-platinum/70" data-count="${c.id}"></span>
+          </button>`).join('');
+      }
+      renderFilters() {
+        $('#menu-filters').innerHTML = FILTERS.map((f) => `
+          <button type="button" class="chip press !py-1.5 !text-xs" aria-pressed="false" data-filter="${f.id}"><i data-lucide="${f.icon}" class="h-3.5 w-3.5"></i>${f.label}</button>`).join('');
+      }
+      matches(d, ignoreCat = false) {
+        const s = this.state;
+        if (!ignoreCat && s.cat !== 'all' && d.cat !== s.cat) return false;
+        for (const f of s.filters) if (!d.tags.includes(f)) return false;
+        if (s.query) {
+          const hay = `${d.name} ${d.desc} ${d.long}`.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+          if (!hay.includes(s.query)) return false;
+        }
+        return true;
+      }
+      tagChip(tag) {
+        const f = FILTERS.find((x) => x.id === tag);
+        return `<span class="inline-flex items-center gap-1 rounded-full border border-white/10 bg-black/30 px-2 py-1 text-[0.65rem] text-platinum" title="${f.label}"><i data-lucide="${f.icon}" class="h-3 w-3 text-ember"></i>${f.label}</span>`;
+      }
+      card(d, i) {
+        const catLabel = CATEGORIES.find((c) => c.id === d.cat).label;
+        return `
+        <article class="dish-card card-enter card-luxe group flex flex-col overflow-hidden rounded-[24px]" style="--d:${Math.min(i, 8) * 60}ms" data-id="${d.id}">
+          <button type="button" class="relative block aspect-[4/3] overflow-hidden text-left focus-ring" data-action="details" aria-label="Ver detalles de ${escapeHTML(d.name)}">
+            <img class="dish-img h-full w-full object-cover" loading="lazy" src="${IMG(d.img, 800)}" srcset="${IMG(d.img, 500)} 500w, ${IMG(d.img, 800)} 800w, ${IMG(d.img, 1100)} 1100w" sizes="(min-width:1920px) 25vw, (min-width:1280px) 33vw, (min-width:640px) 50vw, 100vw" alt="${escapeHTML(d.name)}" />
+            <span class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></span>
+            ${d.badge ? `<span class="absolute left-4 top-4 rounded-full bg-ember px-3 py-1 text-[0.65rem] font-bold uppercase tracking-wider text-white shadow-ember">${d.badge}</span>` : ''}
+            ${d.tags.includes('somm') ? `<span class="absolute right-4 top-4 grid h-9 w-9 place-items-center rounded-full border border-ember/40 bg-black/50 backdrop-blur" title="Recomendación del sommelier"><i data-lucide="wine" class="h-4 w-4 text-ember"></i></span>` : ''}
+          </button>
+          <div class="flex flex-1 flex-col p-6">
+            <p class="text-[0.65rem] uppercase tracking-[0.2em] text-ember/80">${catLabel}</p>
+            <div class="mt-2 flex items-start justify-between gap-4">
+              <h3 class="font-display text-xl leading-snug sm:text-2xl">${escapeHTML(d.name)}</h3>
+              <p class="shrink-0 pt-1 font-display text-lg text-ember-light">${fmt(d.price)}</p>
+            </div>
+            <p class="mt-3 flex-1 text-sm leading-relaxed text-platinum">${escapeHTML(d.desc)}</p>
+            ${d.tags.filter((t) => t !== 'somm').length ? `<div class="mt-4 flex flex-wrap gap-1.5">${d.tags.filter((t) => t !== 'somm').map((t) => this.tagChip(t)).join('')}</div>` : ''}
+            <div class="mt-6 flex gap-2">
+              <button type="button" class="btn btn-ghost flex-1 px-4 py-3 text-xs" data-action="details"><i data-lucide="info" class="h-4 w-4"></i> Ver Detalles</button>
+              <button type="button" class="btn btn-ember flex-1 px-4 py-3 text-xs" data-action="add"><i data-lucide="plus" class="h-4 w-4"></i> Añadir al Pedido</button>
+            </div>
+          </div>
+        </article>`;
+      }
+      render() {
+        const list = MENU.filter((d) => this.matches(d));
+        this.grid.innerHTML = list.map((d, i) => this.card(d, i)).join('');
+        $('#menu-empty').classList.toggle('hidden', list.length > 0);
+        const active = CATEGORIES.find((c) => c.id === this.state.cat).label;
+        $('#menu-results').textContent = list.length
+          ? `${list.length} ${list.length === 1 ? 'opción' : 'opciones'} · ${active}${this.state.filters.size ? ` · ${this.state.filters.size} filtro${this.state.filters.size > 1 ? 's' : ''}` : ''}`
+          : '';
+        CATEGORIES.forEach((c) => {
+          const n = MENU.filter((d) => (c.id === 'all' || d.cat === c.id) && this.matches(d, true)).length;
+          const el = $(`[data-count="${c.id}"]`);
+          if (el) el.textContent = n;
+        });
+        refreshIcons();
+      }
+      setCategory(cat) {
+        this.state.cat = cat;
+        $$('#menu-tabs [role="tab"]').forEach((t) => t.setAttribute('aria-selected', String(t.dataset.cat === cat)));
+        const tab = $(`#tab-${cat}`);
+        if (tab) tab.scrollIntoView({ block: 'nearest', inline: 'center', behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+        this.render();
+      }
+      reset() {
+        this.state.filters.clear();
+        this.state.query = '';
+        $('#menu-search').value = '';
+        $$('#menu-filters [data-filter]').forEach((b) => b.setAttribute('aria-pressed', 'false'));
+        this.setCategory('all');
+      }
+      bind() {
+        $('#menu-tabs').addEventListener('click', (e) => { const b = e.target.closest('[data-cat]'); if (b) this.setCategory(b.dataset.cat); });
+        $('#menu-tabs').addEventListener('keydown', (e) => {
+          if (!['ArrowRight', 'ArrowLeft'].includes(e.key)) return;
+          const tabs = $$('#menu-tabs [role="tab"]');
+          const i = tabs.indexOf(document.activeElement);
+          if (i < 0) return;
+          const next = tabs[(i + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length];
+          next.focus(); this.setCategory(next.dataset.cat);
+        });
+        $('#menu-filters').addEventListener('click', (e) => {
+          const b = e.target.closest('[data-filter]');
+          if (!b) return;
+          const id = b.dataset.filter;
+          const on = !this.state.filters.has(id);
+          on ? this.state.filters.add(id) : this.state.filters.delete(id);
+          b.setAttribute('aria-pressed', String(on));
+          vibrate(8);
+          this.render();
+        });
+        let t;
+        $('#menu-search').addEventListener('input', (e) => {
+          clearTimeout(t);
+          t = setTimeout(() => { this.state.query = e.target.value.trim().normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); this.render(); }, 160);
+        });
+        $('#menu-reset').addEventListener('click', () => this.reset());
+        this.grid.addEventListener('click', (e) => {
+          const btn = e.target.closest('[data-action]');
+          if (!btn) return;
+          const card = btn.closest('[data-id]');
+          const dish = MENU.find((d) => d.id === card.dataset.id);
+          if (btn.dataset.action === 'details') this.dishModal.show(dish, btn);
+          if (btn.dataset.action === 'add' && dish.cut) { this.dishModal.show(dish, btn); return; }
+          if (btn.dataset.action === 'add') {
+            this.cart.add(dish.id, 1);
+            flyToCart($('img', card));
+            vibrate();
+            Toast.show(`<strong>${escapeHTML(dish.name)}</strong> añadido a tu pedido`, { icon: 'shopping-bag' });
+          }
+        });
+      }
+    }
+
+    /* =========================================================
+       MODAL DE DETALLE DEL PLATO
+       ========================================================= */
+    class DishModal {
+      constructor(cart) {
+        this.cart = cart;
+        this.qty = 1;
+        this.dish = null;
+        this.layer = new Layer($('#dish-modal'));
+        $('#dm-minus').addEventListener('click', () => this.setQty(this.qty - 1));
+        $('#dm-plus').addEventListener('click', () => this.setQty(this.qty + 1));
+        $('#dm-add').addEventListener('click', () => this.add());
+        $('#dm-doneness').addEventListener('click', (e) => {
+          const b = e.target.closest('[data-doneness]');
+          if (!b) return;
+          this.doneness = b.dataset.doneness;
+          $$('#dm-doneness [data-doneness]').forEach((x) => x.setAttribute('aria-checked', String(x === b)));
+          vibrate(8);
+        });
+      }
+      setQty(q) {
+        this.qty = Math.max(1, Math.min(20, q));
+        $('#dm-qty').textContent = this.qty;
+        $('#dm-total').textContent = `· ${fmt(this.dish.price * this.qty)}`;
+        $('#dm-minus').disabled = this.qty <= 1;
+      }
+      show(dish, opener) {
+        this.dish = dish;
+        const img = $('#dm-img');
+        img.src = IMG(dish.img, 1200);
+        img.alt = dish.name;
+        $('#dm-cat').textContent = CATEGORIES.find((c) => c.id === dish.cat).label;
+        $('#dm-title').textContent = dish.name;
+        $('#dm-price').textContent = fmt(dish.price);
+        $('#dm-desc').textContent = dish.long;
+        $('#dm-pairing').textContent = dish.pairing;
+        $('#dm-note').value = '';
+        $('#dm-badges').innerHTML = dish.badge ? `<span class="rounded-full bg-ember px-3 py-1 text-[0.65rem] font-bold uppercase tracking-wider text-white">${dish.badge}</span>` : '';
+        $('#dm-tags').innerHTML = dish.tags.map((t) => {
+          const f = FILTERS.find((x) => x.id === t);
+          return `<span class="chip !py-1.5 !text-xs"><i data-lucide="${f.icon}" class="h-3.5 w-3.5 text-ember"></i>${t === 'somm' ? 'Recomendación del Sommelier' : f.label}</span>`;
+        }).join('');
+        $('#dm-allergens').innerHTML = dish.allergens.map((a) => `<li class="rounded-full border border-white/10 px-3 py-1.5 text-platinum">${escapeHTML(a)}</li>`).join('');
+        const wrap = $('#dm-doneness-wrap');
+        wrap.classList.toggle('hidden', !dish.cut);
+        this.doneness = dish.cut ? 'Término medio' : null;
+        $('#dm-doneness').innerHTML = dish.cut ? CONFIG.doneness.map((d) => `<button type="button" role="radio" class="chip press !py-2 !text-xs" aria-checked="${d === this.doneness}" data-doneness="${d}">${d}</button>`).join('') : '';
+        this.setQty(1);
+        refreshIcons();
+        this.layer.open(opener);
+      }
+      add() {
+        const note = [this.doneness, $('#dm-note').value.trim()].filter(Boolean).join(' · ');
+        this.cart.add(this.dish.id, this.qty, note);
+        vibrate();
+        Toast.show(`${this.qty} × <strong>${escapeHTML(this.dish.name)}</strong> en tu pedido`, { icon: 'shopping-bag' });
+        const img = $('#dm-img');
+        flyToCart(img);
+        this.layer.close();
+      }
+    }
+
+    /* =========================================================
+       DRAWER DE PEDIDO
+       ========================================================= */
+    class CartDrawer {
+      constructor(cart) {
+        this.cart = cart;
+        this.tip = { type: 'pct', value: 10 };
+        this.mode = 'pickup';
+        this.view = 'cart';
+        this.lastOrder = null;
+        this.layer = new Layer($('#cart-drawer'), {
+          trigger: $('#cart-button'),
+          onOpen: () => this.populateTimes(),
+          onClose: () => { if (this.view === 'success') setTimeout(() => this.setView('cart'), 600); },
+        });
+        $('#cart-button').addEventListener('click', (e) => this.layer.open(e.currentTarget));
+        cart.subscribe(() => this.render());
+        this.bind();
+      }
+      bind() {
+        $('#cart-items').addEventListener('click', (e) => {
+          const b = e.target.closest('[data-line]');
+          if (!b) return;
+          const index = Number(b.dataset.line);
+          const line = this.cart.items[index];
+          if (!line) return;
+          vibrate(8);
+          if (b.dataset.op === 'inc') this.cart.setQty(index, line.qty + 1);
+          if (b.dataset.op === 'dec') this.cart.setQty(index, line.qty - 1);
+          if (b.dataset.op === 'del') { this.cart.remove(index); Toast.show('Platillo eliminado del pedido', { icon: 'trash-2' }); }
+        });
+        $('#tip-options').addEventListener('click', (e) => {
+          const b = e.target.closest('[data-tip]');
+          if (!b) return;
+          $$('#tip-options [data-tip]').forEach((x) => x.setAttribute('aria-checked', String(x === b)));
+          const custom = b.dataset.tip === 'custom';
+          $('#tip-custom-wrap').classList.toggle('hidden', !custom);
+          this.tip = custom ? { type: 'amount', value: parseFloat($('#tip-custom').value) || 0 } : { type: 'pct', value: Number(b.dataset.tip) };
+          if (custom) $('#tip-custom').focus();
+          this.renderTotals();
+        });
+        $('#tip-custom').addEventListener('input', (e) => {
+          e.target.value = e.target.value.replace(/[^\d.]/g, '').replace(/(\..*)\./g, '$1');
+          this.tip = { type: 'amount', value: Math.min(parseFloat(e.target.value) || 0, 99999) };
+          this.renderTotals();
+        });
+        $$('[data-mode]').forEach((b) => b.addEventListener('click', () => {
+          this.mode = b.dataset.mode;
+          $$('[data-mode]').forEach((x) => x.setAttribute('aria-checked', String(x === b)));
+          $$('[data-mode-field]').forEach((f) => f.classList.toggle('hidden', f.dataset.modeField !== this.mode));
+        }));
+        $('#co-table').addEventListener('input', (e) => { e.target.value = e.target.value.replace(/\D/g, ''); this.setError('co-table', ''); });
+        $('#co-name').addEventListener('input', () => this.setError('co-name', ''));
+        $('#cart-submit').addEventListener('click', () => this.submit());
+        $('#os-new').addEventListener('click', () => { this.setView('cart'); });
+        $$('[data-close-cart]').forEach((a) => a.addEventListener('click', () => this.layer.close()));
+      }
+      populateTimes() {
+        const now = mxNow();
+        const h = CONFIG.hours[now.dow];
+        const start = Math.max(now.minutes + 20, h.open + 20);
+        const first = Math.ceil(start / 15) * 15;
+        const opts = [];
+        for (let m = first; m <= h.close - 15; m += 15) opts.push(m);
+        const sel = $('#co-time');
+        const prev = sel.value;
+        sel.innerHTML = opts.length
+          ? `<option value="asap">Lo antes posible (~25 min)</option>` + opts.map((m) => `<option value="${toHHMM(m)}">Hoy ${toHM(m)}</option>`).join('')
+          : `<option value="next">Mañana a la apertura (${toHM(CONFIG.hours[(now.dow + 1) % 7].open + 20)})</option>`;
+        if ([...sel.options].some((o) => o.value === prev)) sel.value = prev;
+      }
+      tipAmount() {
+        const sub = this.cart.subtotal;
+        return this.tip.type === 'pct' ? sub * (this.tip.value / 100) : this.tip.value;
+      }
+      totals() {
+        const gross = this.cart.subtotal;
+        const net = gross / (1 + CONFIG.taxRate);
+        const tip = this.tipAmount();
+        return { net, tax: gross - net, tip, total: gross + tip };
+      }
+      render() {
+        const count = this.cart.count;
+        const badge = $('#cart-count');
+        badge.textContent = count > 99 ? '99+' : count;
+        badge.style.transform = count ? 'scale(1)' : 'scale(0)';
+        $('#cart-button').setAttribute('aria-label', `Abrir pedido activo, ${count} ${count === 1 ? 'artículo' : 'artículos'}`);
+        const empty = count === 0;
+        $('#cart-empty').classList.toggle('hidden', !empty);
+        $('#cart-options').classList.toggle('hidden', empty);
+        $('#cart-footer').classList.toggle('hidden', empty);
+        $('#cart-subtitle').textContent = empty ? 'Order ahead o consumo en mesa' : `${count} ${count === 1 ? 'artículo' : 'artículos'}`;
+        $('#cart-items').innerHTML = this.cart.lines().map((l) => `
+          <li class="flex gap-4 rounded-2xl border border-white/5 bg-ink/40 p-3">
+            <img class="h-20 w-20 shrink-0 rounded-xl object-cover" src="${IMG(l.dish.img, 200)}" alt="" loading="lazy" />
+            <div class="flex min-w-0 flex-1 flex-col">
+              <div class="flex items-start justify-between gap-2">
+                <p class="font-display text-base leading-tight">${escapeHTML(l.dish.name)}</p>
+                <button type="button" class="press -mr-1 -mt-1 grid h-8 w-8 shrink-0 place-items-center rounded-full text-platinum hover:text-red-300 focus-ring" data-line="${l.index}" data-op="del" aria-label="Eliminar ${escapeHTML(l.dish.name)}"><i data-lucide="trash-2" class="h-4 w-4"></i></button>
+              </div>
+              ${l.note ? `<p class="mt-1 truncate text-xs italic text-platinum">“${escapeHTML(l.note)}”</p>` : ''}
+              <div class="mt-auto flex items-center justify-between pt-2">
+                <div class="flex items-center rounded-full border border-white/10">
+                  <button type="button" class="press grid h-8 w-8 place-items-center rounded-l-full hover:text-ember focus-ring" data-line="${l.index}" data-op="dec" aria-label="Quitar uno"><i data-lucide="minus" class="h-3.5 w-3.5"></i></button>
+                  <span class="w-7 text-center text-sm font-semibold tabular-nums">${l.qty}</span>
+                  <button type="button" class="press grid h-8 w-8 place-items-center rounded-r-full hover:text-ember focus-ring" data-line="${l.index}" data-op="inc" aria-label="Agregar uno"><i data-lucide="plus" class="h-3.5 w-3.5"></i></button>
+                </div>
+                <p class="font-semibold tabular-nums text-ember-light">${fmt(l.dish.price * l.qty)}</p>
+              </div>
+            </div>
+          </li>`).join('');
+        this.renderTotals();
+        refreshIcons();
+      }
+      renderTotals() {
+        const t = this.totals();
+        $('#t-sub').textContent = fmt(t.net);
+        $('#t-tax').textContent = fmt(t.tax);
+        $('#t-tip').textContent = fmt(t.tip);
+        $('#t-tip-label').textContent = this.tip.type === 'pct' ? `(${this.tip.value}%)` : '(personalizada)';
+        $('#t-total').textContent = fmt(t.total);
+      }
+      setError(id, msg) {
+        const input = $(`#${id}`);
+        input.setAttribute('aria-invalid', msg ? 'true' : 'false');
+        $(`#err-${id}`).textContent = msg;
+      }
+      validate() {
+        let ok = true;
+        const name = $('#co-name').value.trim();
+        if (name.length < 2) { this.setError('co-name', 'Escribe un nombre para identificar tu pedido.'); ok = false; }
+        if (this.mode === 'table') {
+          const t = Number($('#co-table').value);
+          if (!t || t < 1 || t > 120) { this.setError('co-table', 'Indica un número de mesa válido.'); ok = false; }
+        }
+        return ok;
+      }
+      setView(v) {
+        this.view = v;
+        $('#cart-view').classList.toggle('hidden', v !== 'cart');
+        $('#cart-view').classList.toggle('flex', v === 'cart');
+        $('#cart-processing').classList.toggle('hidden', v !== 'processing');
+        $('#cart-processing').classList.toggle('flex', v === 'processing');
+        $('#cart-success').classList.toggle('hidden', v !== 'success');
+        $('#cart-success').classList.toggle('flex', v === 'success');
+      }
+      async submit() {
+        if (!this.cart.count) return;
+        if (!this.validate()) {
+          const btn = $('#cart-submit');
+          btn.classList.remove('shake'); void btn.offsetWidth; btn.classList.add('shake');
+          const firstErr = $('#cart-options [aria-invalid="true"]');
+          if (firstErr) firstErr.focus();
+          return;
+        }
+        const t = this.totals();
+        const branch = CONFIG.branches.santelmo;
+        const timeSel = $('#co-time');
+        const order = {
+          folio: makeFolio('BD'),
+          name: $('#co-name').value.trim(),
+          guests: $('#co-guests').value,
+          branch,
+          mode: this.mode,
+          table: $('#co-table').value,
+          when: timeSel.options[timeSel.selectedIndex] ? timeSel.options[timeSel.selectedIndex].text : '',
+          lines: this.cart.lines().map((l) => ({ name: l.dish.name, qty: l.qty, note: l.note, amount: l.dish.price * l.qty })),
+          totals: t,
+          tipLabel: $('#t-tip-label').textContent,
+        };
+        this.setView('processing');
+        const steps = ['Validando pedido', 'Confirmando disponibilidad en cocina', 'Generando folio'];
+        for (const s of steps) { $('#processing-step').textContent = s; await new Promise((r) => setTimeout(r, prefersReducedMotion ? 120 : 650)); }
+        this.lastOrder = order;
+        this.renderSuccess(order);
+        this.cart.clear();
+        this.setView('success');
+        vibrate([10, 40, 20]);
+        $('#cart-success').focus();
+      }
+      renderSuccess(o) {
+        $('#os-name').textContent = o.name.split(' ')[0];
+        $('#os-folio').textContent = o.folio;
+        $('#os-eta').textContent = o.mode === 'table'
+          ? `Mesa ${o.table} · ${o.guests} personas. Tu pedido llega en 15–25 min.`
+          : `Recoger en Burdo ${o.branch.name} · ${o.when}.`;
+        $('#os-items').innerHTML = o.lines.map((l) => `<li class="flex justify-between gap-3 text-platinum"><span>${l.qty} × ${escapeHTML(l.name)}</span><span class="tabular-nums">${fmt(l.amount)}</span></li>`).join('')
+          + `<li class="flex justify-between gap-3 text-platinum"><span>Propina ${escapeHTML(o.tipLabel)}</span><span class="tabular-nums">${fmt(o.totals.tip)}</span></li>`;
+        $('#os-total').textContent = fmt(o.totals.total);
+        const text = [
+          `Hola Burdo, envío mi pedido ${o.folio}`,
+          `Nombre: ${o.name}`,
+          `Personas: ${o.guests}`,
+          o.mode === 'table' ? `Mesa: ${o.table}` : `Recoger: ${o.when}`,
+          '',
+          ...o.lines.map((l) => `• ${l.qty} × ${l.name}${l.note ? ` (${l.note})` : ''} — ${fmt(l.amount)}`),
+          '',
+          `Propina: ${fmt(o.totals.tip)}`,
+          `Total: ${fmt(o.totals.total)}`,
+        ].join('\n');
+        $('#os-wa').href = `https://wa.me/${CONFIG.phone}?text=${encodeURIComponent(text)}`;
+      }
+    }
+
+    /* =========================================================
+       MOTOR DE RESERVAS
+       ========================================================= */
+    class ReservationEngine {
+      constructor() {
+        this.step = 1;
+        this.data = { branch: 'santelmo', guests: 2, date: null, service: null, time: null, zone: 'terraza' };
+        const now = mxNow();
+        this.today = { y: now.y, m: now.m, d: now.d };
+        this.view = { y: now.y, m: now.m };
+        this.form = $('#res-form');
+        this.renderOptionCards();
+        this.renderGuests();
+        this.renderCalendar();
+        this.updateSummary();
+        this.updateProgress();
+        this.bind();
+        // Preselecciona la primera fecha disponible para reducir fricción.
+        const first = this.firstAvailableDate();
+        if (first) this.selectDate(first, false);
+      }
+
+      /* ---------- Opciones ---------- */
+      optionCard(group, value, title, desc, icon, checked, disabled = false) {
+        return `
+          <button type="button" role="radio" aria-checked="${checked}" ${disabled ? 'aria-disabled="true"' : ''} data-group="${group}" data-value="${value}" class="option-card press relative flex items-start gap-4 rounded-2xl border border-white/10 bg-ink/50 p-4 text-left focus-ring">
+            <span class="grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-ember/25 bg-ember/5"><i data-lucide="${icon}" class="h-5 w-5 text-ember"></i></span>
+            <span class="min-w-0 flex-1"><span class="block font-semibold">${title}</span><span class="mt-0.5 block text-xs leading-relaxed text-platinum">${desc}</span></span>
+            <span class="opt-check absolute right-3 top-3 grid h-5 w-5 place-items-center rounded-full bg-ember text-white"><i data-lucide="check" class="h-3 w-3"></i></span>
+          </button>`;
+      }
+      renderOptionCards() {
+        this.renderZones();
+        refreshIcons();
+      }
+      renderZones() {
+        if (this.data.zone && CONFIG.zones[this.data.zone].maxGuests < this.data.guests) this.data.zone = 'terraza';
+        $('[data-radio="zone"]').innerHTML = Object.entries(CONFIG.zones).map(([k, z]) => {
+          const disabled = z.maxGuests < this.data.guests;
+          return this.optionCard('zone', k, z.name, disabled ? `Máximo ${z.maxGuests} personas` : z.desc, z.icon, this.data.zone === k, disabled);
+        }).join('');
+        refreshIcons();
+      }
+      renderGuests() {
+        const opts = [...Array(12)].map((_, i) => i + 1).concat(['12+']);
+        $('#guest-chips').innerHTML = opts.map((n) => `
+          <button type="button" role="radio" aria-checked="${this.data.guests === n}" data-guests="${n}" class="chip press justify-center !px-0 !py-3 tabular-nums" aria-label="${n === '12+' ? 'Más de 12 personas' : `${n} ${n === 1 ? 'persona' : 'personas'}`}">${n}</button>`).join('');
+        $('#guests-note').textContent = this.data.guests === '12+' ? 'Te contactaremos para coordinar tu evento' : '';
+      }
+
+      /* ---------- Calendario ---------- */
+      dateState(key) {
+        const p = parseKey(key);
+        const diff = dayDiff(this.today, p);
+        if (diff < 0) return { ok: false, reason: 'Fecha pasada' };
+        if (diff > CONFIG.maxDaysAhead) return { ok: false, reason: 'Fuera de rango' };
+        if (CONFIG.blockedDates.includes(`${pad(p.m)}-${pad(p.d)}`)) return { ok: false, reason: 'Cerrado' };
+        if (!this.servicesFor(key).some((s) => s.slots.some((sl) => sl.available))) return { ok: false, reason: 'Sin disponibilidad' };
+        return { ok: true };
+      }
+      firstAvailableDate() {
+        for (let i = 0; i <= CONFIG.maxDaysAhead; i++) {
+          const dt = new Date(Date.UTC(this.today.y, this.today.m - 1, this.today.d + i));
+          const key = dateKey(dt.getUTCFullYear(), dt.getUTCMonth() + 1, dt.getUTCDate());
+          if (this.dateState(key).ok) return key;
+        }
+        return null;
+      }
+      renderCalendar() {
+        const { y, m } = this.view;
+        $('#cal-label').textContent = new Intl.DateTimeFormat('es-MX', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(Date.UTC(y, m - 1, 1)));
+        const firstDow = (new Date(Date.UTC(y, m - 1, 1)).getUTCDay() + 6) % 7; // lunes = 0
+        const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
+        const todayKey = dateKey(this.today.y, this.today.m, this.today.d);
+        let html = '<span></span>'.repeat(firstDow);
+        for (let d = 1; d <= days; d++) {
+          const key = dateKey(y, m, d);
+          const st = this.dateState(key);
+          const label = `${longDate(key)}${st.ok ? '' : ` — ${st.reason}`}`;
+          html += `<button type="button" class="cal-day ${key === todayKey ? 'is-today' : ''}" data-date="${key}" aria-pressed="${this.data.date === key}" aria-label="${label}" ${st.ok ? '' : 'disabled'}>${d}</button>`;
+        }
+        $('#cal-grid').innerHTML = html;
+        const monthsAhead = (y - this.today.y) * 12 + (m - this.today.m);
+        $('#cal-prev').disabled = monthsAhead <= 0;
+        const limit = new Date(Date.UTC(this.today.y, this.today.m - 1, this.today.d + CONFIG.maxDaysAhead));
+        $('#cal-next').disabled = y > limit.getUTCFullYear() || (y === limit.getUTCFullYear() && m >= limit.getUTCMonth() + 1);
+      }
+      shiftMonth(delta) {
+        const dt = new Date(Date.UTC(this.view.y, this.view.m - 1 + delta, 1));
+        this.view = { y: dt.getUTCFullYear(), m: dt.getUTCMonth() + 1 };
+        this.renderCalendar();
+      }
+      selectDate(key, announce = true) {
+        this.data.date = key;
+        this.data.time = null;
+        const services = this.servicesFor(key);
+        const firstOpen = services.find((s) => s.slots.some((sl) => sl.available));
+        this.data.service = firstOpen ? firstOpen.key : services[0].key;
+        const p = parseKey(key);
+        if (p.y !== this.view.y || p.m !== this.view.m) this.view = { y: p.y, m: p.m };
+        this.renderCalendar();
+        this.setErr('date', '');
+        this.updateSummary();
+        if (announce) vibrate(8);
+      }
+
+      /* ---------- Turnos y horarios ---------- */
+      servicesFor(key) {
+        const p = parseKey(key);
+        const range = (from, to, step = 30) => { const out = []; for (let t = from; t <= to; t += step) out.push(t); return out; };
+        // La última mesa se asigna 90 minutos antes del cierre.
+        const lastSeat = CONFIG.hours[p.dow].close - 90;
+        const defs = [
+          { key: 'desayuno', label: 'Desayuno', icon: 'coffee', times: range(9 * 60, 11 * 60 + 30) },
+          { key: 'comida', label: 'Comida', icon: 'utensils', times: range(13 * 60, 18 * 60) },
+          { key: 'cena', label: 'Cena', icon: 'flame', times: range(19 * 60, lastSeat) },
+        ];
+        const todayKey = dateKey(this.today.y, this.today.m, this.today.d);
+        const nowMin = mxNow().minutes;
+        const size = this.data.guests === '12+' ? 13 : this.data.guests;
+        return defs.map((s) => ({
+          ...s,
+          slots: s.times.map((t) => {
+            const h = hash(`${key}|${toHHMM(t)}|${this.data.branch}`);
+            const soldOut = h % 6 === 0 || (size >= 7 && h % 4 === 0);
+            const past = key === todayKey && t < nowMin + 60;
+            return { time: t, available: !soldOut && !past };
+          }),
+        }));
+      }
+      renderSlots() {
+        if (!this.data.date) return;
+        const services = this.servicesFor(this.data.date);
+        if (!services.some((s) => s.key === this.data.service)) this.data.service = services[0].key;
+        $('#slot-date-label').textContent = longDate(this.data.date);
+        $('#service-tabs').innerHTML = services.map((s) => {
+          const n = s.slots.filter((x) => x.available).length;
+          return `<button type="button" role="tab" class="chip press" aria-selected="${s.key === this.data.service}" data-service="${s.key}"><i data-lucide="${s.icon}" class="h-4 w-4"></i>${s.label}<span class="text-[0.65rem] text-platinum/70">${n ? `${n} libres` : 'Lleno'}</span></button>`;
+        }).join('');
+        const svc = services.find((s) => s.key === this.data.service);
+        $('#slot-grid').innerHTML = svc.slots.map((sl) => `
+          <button type="button" role="radio" class="chip press justify-center !py-3 tabular-nums" aria-checked="${this.data.time === sl.time}" data-time="${sl.time}" ${sl.available ? '' : 'disabled'} aria-label="${toHM(sl.time)}${sl.available ? '' : ' agotado'}">${toHM(sl.time)}</button>`).join('');
+        refreshIcons();
+      }
+
+      /* ---------- Resumen y progreso ---------- */
+      updateSummary() {
+        const d = this.data;
+        const row = (icon, label, value) => `
+          <div class="flex items-start gap-3"><i data-lucide="${icon}" class="mt-0.5 h-4 w-4 shrink-0 text-ember"></i><div class="min-w-0"><dt class="text-xs uppercase tracking-[0.15em] text-platinum">${label}</dt><dd class="mt-0.5 ${value ? 'text-white' : 'text-white/30'}">${value || 'Por elegir'}</dd></div></div>`;
+        const svc = d.date && d.service ? this.servicesFor(d.date).find((s) => s.key === d.service) : null;
+        $('#res-summary').innerHTML = [
+          row('map-pin', 'Lugar', `Burdo ${CONFIG.branches[d.branch].name}`),
+          row('users', 'Comensales', d.guests === '12+' ? 'Más de 12 personas' : `${d.guests} ${d.guests === 1 ? 'persona' : 'personas'}`),
+          row('calendar-days', 'Fecha', d.date ? longDate(d.date) : ''),
+          row('clock', 'Horario', d.time != null ? `${toHM(d.time)} h${svc ? ` · ${svc.label}` : ''}` : ''),
+          row(CONFIG.zones[d.zone] ? CONFIG.zones[d.zone].icon : 'armchair', 'Zona', d.zone ? CONFIG.zones[d.zone].name : ''),
+        ].join('');
+        refreshIcons();
+      }
+      updateProgress() {
+        $$('[data-step-ind]').forEach((el) => {
+          const n = Number(el.dataset.stepInd);
+          $('.bg-ember', el).style.width = n < this.step ? '100%' : n === this.step ? '50%' : '0%';
+          el.setAttribute('aria-current', n === this.step ? 'step' : 'false');
+        });
+        $$('[data-step]').forEach((f) => f.classList.toggle('hidden', Number(f.dataset.step) !== this.step));
+        $('#res-back').classList.toggle('invisible', this.step === 1);
+        $('#res-next').innerHTML = this.step === 3
+          ? '<i data-lucide="circle-check" class="h-4 w-4"></i> Confirmar Reservación'
+          : 'Continuar <i data-lucide="arrow-right" class="h-4 w-4"></i>';
+        refreshIcons();
+      }
+      goTo(step) {
+        this.step = step;
+        if (step === 2) { this.renderSlots(); this.renderZones(); }
+        this.updateProgress();
+        const top = $('#reservas').getBoundingClientRect().top + window.scrollY + 120;
+        if (window.scrollY > top) window.scrollTo({ top, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+        const panel = $(`[data-step="${step}"]`);
+        const focusTarget = $('button:not([disabled]), input', panel);
+        if (focusTarget) focusTarget.focus({ preventScroll: true });
+      }
+
+      /* ---------- Validación ---------- */
+      setErr(key, msg) {
+        const el = $(`[data-err="${key}"]`);
+        if (el) el.textContent = msg;
+        const input = { name: '#res-name', phone: '#res-phone', email: '#res-email' }[key];
+        if (input) {
+          $(input).setAttribute('aria-invalid', msg ? 'true' : 'false');
+          $(input).classList.toggle('is-valid', !msg && $(input).value.trim() !== '');
+        }
+      }
+      validators = {
+        name: (v) => (v.trim().length < 3 ? 'Escribe tu nombre completo.' : !/^[\p{L}\s.'-]+$/u.test(v.trim()) ? 'Usa solo letras y espacios.' : ''),
+        phone: (v) => (v.replace(/\D/g, '').length !== 10 ? 'Ingresa un teléfono de 10 dígitos.' : ''),
+        email: (v) => (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()) ? 'Ingresa un correo válido.' : ''),
+      };
+      validateField(key) {
+        const v = $(`#res-${key}`).value;
+        const msg = this.validators[key](v);
+        this.setErr(key, msg);
+        return !msg;
+      }
+      validateStep() {
+        if (this.step === 1) {
+          if (!this.data.date) { this.setErr('date', 'Elige una fecha disponible.'); return false; }
+          return true;
+        }
+        if (this.step === 2) {
+          let ok = true;
+          if (this.data.time == null) { this.setErr('time', 'Selecciona un horario.'); ok = false; } else this.setErr('time', '');
+          if (!this.data.zone) { this.setErr('zone', 'Elige una zona.'); ok = false; } else this.setErr('zone', '');
+          return ok;
+        }
+        const results = ['name', 'phone', 'email'].map((k) => this.validateField(k));
+        const privacy = $('#res-privacy').checked;
+        this.setErr('privacy', privacy ? '' : 'Necesitamos tu autorización para confirmar la reservación.');
+        return results.every(Boolean) && privacy;
+      }
+
+      /* ---------- Envío ---------- */
+      async submit() {
+        const btn = $('#res-next');
+        btn.disabled = true;
+        btn.innerHTML = '<i data-lucide="loader-circle" class="spin h-4 w-4"></i> Confirmando…';
+        refreshIcons();
+        await new Promise((r) => setTimeout(r, prefersReducedMotion ? 150 : 1300));
+        const d = this.data;
+        const r = {
+          folio: makeFolio('RSV'),
+          name: $('#res-name').value.trim(),
+          phone: $('#res-phone').value.replace(/\D/g, ''),
+          email: $('#res-email').value.trim(),
+          occasion: $('#res-occasion').value,
+          notes: $('#res-notes').value.trim(),
+          branch: CONFIG.branches[d.branch],
+          zone: CONFIG.zones[d.zone].name,
+          guests: d.guests,
+          date: d.date,
+          time: d.time,
+        };
+        this.showSuccess(r);
+        btn.disabled = false;
+        vibrate([10, 40, 20]);
+      }
+      showSuccess(r) {
+        this.lastReservation = r;
+        this.form.classList.add('hidden');
+        $('#res-progress').classList.add('hidden');
+        const box = $('#res-success');
+        box.classList.remove('hidden');
+        $('#rs-name').textContent = r.name.split(' ')[0];
+        $('#rs-folio').textContent = r.folio;
+        const cell = (label, value) => `<div class="bg-surface p-4"><dt class="text-[0.65rem] uppercase tracking-[0.15em] text-platinum">${label}</dt><dd class="mt-1 text-sm text-white">${escapeHTML(value)}</dd></div>`;
+        $('#rs-details').innerHTML = [
+          cell('Fecha', longDate(r.date)),
+          cell('Hora', `${toHM(r.time)} h`),
+          cell('Comensales', r.guests === '12+' ? 'Más de 12' : String(r.guests)),
+          cell('Zona', r.zone),
+          cell('Lugar', `Burdo ${r.branch.name}`),
+          cell('Contacto', r.email),
+        ].join('');
+        const { y, m, d } = parseKey(r.date);
+        const start = `${y}${pad(m)}${pad(d)}T${toHHMM(r.time).replace(':', '')}00`;
+        const endMin = r.time + 90;
+        const end = `${y}${pad(m)}${pad(d)}T${toHHMM(endMin).replace(':', '')}00`;
+        const title = `Reservación Burdo ${r.branch.name}`;
+        const details = `Folio ${r.folio} · ${r.guests} personas · ${r.zone}${r.notes ? ` · Notas: ${r.notes}` : ''}`;
+        $('#rs-gcal').href = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${start}/${end}&ctz=${encodeURIComponent(CONFIG.timeZone)}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(r.branch.address)}`;
+        this.ics = { start, end, title, details, location: r.branch.address, uid: `${r.folio}@burdo-santelmo` };
+        const wa = [
+          `Hola Burdo, quiero confirmar mi reservación ${r.folio}`,
+          `Nombre: ${r.name}`,
+          `Fecha: ${longDate(r.date)} a las ${toHM(r.time)} h`,
+          `Personas: ${r.guests} · Zona: ${r.zone}`,
+          r.occasion ? `Ocasión: ${r.occasion}` : '',
+          r.notes ? `Notas: ${r.notes}` : '',
+        ].filter(Boolean).join('\n');
+        $('#rs-wa').href = `https://wa.me/${CONFIG.phone}?text=${encodeURIComponent(wa)}`;
+        refreshIcons();
+        box.focus({ preventScroll: true });
+        box.scrollIntoView({ block: 'center', behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+        Toast.show('Reservación confirmada. ¡Te esperamos!', { icon: 'calendar-days' });
+      }
+      downloadICS() {
+        if (!this.ics) return;
+        const esc = (s) => s.replace(/[\\;,]/g, (c) => `\\${c}`).replace(/\n/g, '\\n');
+        const stamp = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+        const ics = [
+          'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Burdo San Telmo//Reservaciones//ES', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
+          'BEGIN:VEVENT', `UID:${this.ics.uid}`, `DTSTAMP:${stamp}`,
+          `DTSTART;TZID=${CONFIG.timeZone}:${this.ics.start}`, `DTEND;TZID=${CONFIG.timeZone}:${this.ics.end}`,
+          `SUMMARY:${esc(this.ics.title)}`, `DESCRIPTION:${esc(this.ics.details)}`, `LOCATION:${esc(this.ics.location)}`,
+          'BEGIN:VALARM', 'TRIGGER:-PT2H', 'ACTION:DISPLAY', 'DESCRIPTION:Recordatorio de reservación', 'END:VALARM',
+          'END:VEVENT', 'END:VCALENDAR',
+        ].join('\r\n');
+        const url = URL.createObjectURL(new Blob([ics], { type: 'text/calendar;charset=utf-8' }));
+        const a = document.createElement('a');
+        a.href = url; a.download = 'reservacion-burdo.ics';
+        document.body.appendChild(a); a.click(); a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+      }
+      reset() {
+        this.form.reset();
+        $$('.field', this.form).forEach((f) => { f.removeAttribute('aria-invalid'); f.classList.remove('is-valid'); });
+        $$('[data-err]', this.form).forEach((e) => { e.textContent = ''; });
+        $('#notes-count').textContent = '0/280';
+        this.data = { branch: 'santelmo', guests: 2, date: null, service: null, time: null, zone: 'terraza' };
+        this.renderOptionCards(); this.renderGuests();
+        const first = this.firstAvailableDate();
+        if (first) this.selectDate(first, false); else this.renderCalendar();
+        this.step = 1;
+        $('#res-success').classList.add('hidden');
+        this.form.classList.remove('hidden');
+        $('#res-progress').classList.remove('hidden');
+        this.updateProgress();
+        this.updateSummary();
+      }
+
+      /* ---------- Eventos ---------- */
+      bind() {
+        this.form.addEventListener('click', (e) => {
+          const opt = e.target.closest('[data-group]');
+          if (opt) {
+            if (opt.getAttribute('aria-disabled') === 'true') { Toast.show('Esa zona no admite tantas personas', { icon: 'info', tone: 'error' }); return; }
+            const { group, value } = opt.dataset;
+            this.data[group] = value;
+            $$(`[data-group="${group}"]`).forEach((b) => b.setAttribute('aria-checked', String(b === opt)));
+            if (group === 'branch') { this.data.time = null; this.renderCalendar(); if (this.data.date && !this.dateState(this.data.date).ok) this.data.date = null; }
+            if (group === 'zone') this.setErr('zone', '');
+            vibrate(8);
+            this.updateSummary();
+            return;
+          }
+          const g = e.target.closest('[data-guests]');
+          if (g) {
+            const v = g.dataset.guests === '12+' ? '12+' : Number(g.dataset.guests);
+            this.data.guests = v;
+            this.data.time = null;
+            this.renderGuests();
+            this.renderZones();
+            this.renderCalendar();
+            if (this.data.date && !this.dateState(this.data.date).ok) this.data.date = null;
+            vibrate(8);
+            this.updateSummary();
+            return;
+          }
+          const day = e.target.closest('[data-date]');
+          if (day && !day.disabled) { this.selectDate(day.dataset.date); return; }
+          const svc = e.target.closest('[data-service]');
+          if (svc) { this.data.service = svc.dataset.service; this.data.time = null; this.renderSlots(); this.updateSummary(); return; }
+          const slot = e.target.closest('[data-time]');
+          if (slot && !slot.disabled) {
+            this.data.time = Number(slot.dataset.time);
+            $$('#slot-grid [data-time]').forEach((b) => b.setAttribute('aria-checked', String(b === slot)));
+            this.setErr('time', '');
+            vibrate(8);
+            this.updateSummary();
+          }
+        });
+        $('#cal-prev').addEventListener('click', () => this.shiftMonth(-1));
+        $('#cal-next').addEventListener('click', () => this.shiftMonth(1));
+        $('#res-back').addEventListener('click', () => this.goTo(Math.max(1, this.step - 1)));
+        this.form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          if (!this.validateStep()) {
+            const btn = $('#res-next');
+            btn.classList.remove('shake'); void btn.offsetWidth; btn.classList.add('shake');
+            const firstInvalid = $('[aria-invalid="true"]', this.form);
+            if (firstInvalid) firstInvalid.focus();
+            return;
+          }
+          if (this.step < 3) this.goTo(this.step + 1);
+          else this.submit();
+        });
+        ['name', 'phone', 'email'].forEach((k) => {
+          const input = $(`#res-${k}`);
+          input.addEventListener('blur', () => { if (input.value) this.validateField(k); });
+          input.addEventListener('input', () => {
+            if (k === 'phone') {
+              const digits = input.value.replace(/\D/g, '').slice(0, 10);
+              input.value = digits.replace(/^(\d{3})(\d{0,3})(\d{0,4}).*/, (_, a, b, c) => [a, b, c].filter(Boolean).join(' '));
+            }
+            if (input.getAttribute('aria-invalid') === 'true' || input.classList.contains('is-valid')) this.validateField(k);
+          });
+        });
+        $('#res-privacy').addEventListener('change', (e) => { if (e.target.checked) this.setErr('privacy', ''); });
+        $('#res-notes').addEventListener('input', (e) => { $('#notes-count').textContent = `${e.target.value.length}/280`; });
+        $('#rs-ics').addEventListener('click', () => this.downloadICS());
+        $('#rs-new').addEventListener('click', () => this.reset());
+      }
+    }
+
+    /* =========================================================
+       GALERÍA
+       ========================================================= */
+    class Gallery {
+      constructor() {
+        $('#gallery').innerHTML = GALLERY.map((g, i) => `
+          <figure class="zoom-tile group relative overflow-hidden rounded-[22px] border hairline" data-reveal style="--d:${(i % 3) * 120}ms">
+            <img class="${g.h} w-full object-cover" loading="lazy" src="${IMG(g.id, 900)}" srcset="${IMG(g.id, 500)} 500w, ${IMG(g.id, 900)} 900w" sizes="(min-width:1024px) 33vw, (min-width:560px) 50vw, 100vw" alt="${g.cap}" />
+            <figcaption class="tile-cap absolute inset-x-0 bottom-0 flex items-end justify-between bg-gradient-to-t from-black/80 to-transparent p-5 pt-16">
+              <span class="font-display text-lg italic">${g.cap}</span><i data-lucide="arrow-up-right" class="h-4 w-4 text-ember"></i>
+            </figcaption>
+          </figure>`).join('');
+        $('#ig-strip').innerHTML = INSTAGRAM.map((p, i) => `
+          <a href="https://www.google.com/maps/search/?api=1&query=Burdo+San+Telmo+Aguascalientes" target="_blank" rel="noopener" class="zoom-tile group relative aspect-square overflow-hidden rounded-2xl border hairline focus-ring ${i > 8 ? 'hidden sm:block' : ''}" aria-label="Ver más fotos en Google Maps: ${p.alt}">
+            <img class="h-full w-full object-cover" loading="lazy" src="${p.src}" alt="${p.alt}" />
+            <span class="tile-cap absolute inset-0 grid place-items-center bg-black/50"><i data-lucide="camera" class="h-6 w-6 text-white"></i></span>
+          </a>`).join('');
+      }
+    }
+
+    /* =========================================================
+       EFECTOS: header, reveal, parallax, magnético, ripple
+       ========================================================= */
+    class Effects {
+      static header() {
+        const header = $('#site-header');
+        const mobileBar = $('#mobile-bar');
+        const onScroll = () => {
+          const y = window.scrollY;
+          header.classList.toggle('is-scrolled', y > 24);
+          mobileBar.style.transform = y > window.innerHeight * 0.8 ? 'translateY(0)' : 'translateY(150%)';
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+        // Enlace activo según sección visible
+        const links = $$('#site-header .nav-link');
+        const spy = new IntersectionObserver((entries) => {
+          entries.forEach((en) => {
+            if (en.isIntersecting) links.forEach((l) => l.classList.toggle('is-active', l.getAttribute('href') === `#${en.target.id}`));
+          });
+        }, { rootMargin: '-45% 0px -50% 0px' });
+        ['menu', 'historia', 'experiencia', 'reservas', 'contacto'].forEach((id) => spy.observe(document.getElementById(id)));
+      }
+      static reveal() {
+        const io = new IntersectionObserver((entries) => {
+          entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('is-visible'); io.unobserve(en.target); } });
+        }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+        const observe = () => $$('[data-reveal]:not(.is-visible)').forEach((el) => io.observe(el));
+        observe();
+        return observe;
+      }
+      static parallax() {
+        if (prefersReducedMotion) return;
+        const items = $$('[data-parallax]');
+        let ticking = false;
+        const update = () => {
+          const vh = window.innerHeight;
+          items.forEach((el) => {
+            const r = el.parentElement.getBoundingClientRect();
+            if (r.bottom < 0 || r.top > vh) return;
+            const offset = (r.top + r.height / 2 - vh / 2) * Number(el.dataset.parallax);
+            el.style.transform = `translate3d(0, ${offset.toFixed(1)}px, 0) scale(1.1)`;
+          });
+          ticking = false;
+        };
+        window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+        update();
+      }
+      static magnetic() {
+        if (!finePointer || prefersReducedMotion) return;
+        $$('.magnetic').forEach((el) => {
+          el.addEventListener('mousemove', (e) => {
+            const r = el.getBoundingClientRect();
+            const x = (e.clientX - r.left - r.width / 2) * 0.25;
+            const y = (e.clientY - r.top - r.height / 2) * 0.35;
+            el.style.transform = `translate(${x}px, ${y}px) scale(1.04)`;
+          });
+          el.addEventListener('mouseleave', () => { el.style.transform = ''; });
+        });
+      }
+      static ripple() {
+        document.addEventListener('pointerdown', (e) => {
+          const btn = e.target.closest('.btn');
+          if (!btn || btn.disabled) return;
+          const r = btn.getBoundingClientRect();
+          const size = Math.max(r.width, r.height);
+          const span = document.createElement('span');
+          span.className = 'ripple';
+          Object.assign(span.style, { width: `${size}px`, height: `${size}px`, left: `${e.clientX - r.left - size / 2}px`, top: `${e.clientY - r.top - size / 2}px` });
+          btn.appendChild(span);
+          span.addEventListener('animationend', () => span.remove(), { once: true });
+        });
+      }
+    }
+
+    /* =========================================================
+       NEWSLETTER
+       ========================================================= */
+    class Newsletter {
+      constructor() {
+        const form = $('#newsletter');
+        const input = $('#nl-email');
+        const msg = $('#nl-msg');
+        const subs = storage.get('burdo.newsletter', []);
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const v = input.value.trim().toLowerCase();
+          if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) {
+            input.setAttribute('aria-invalid', 'true');
+            msg.className = 'err-msg pl-4';
+            msg.textContent = 'Revisa tu correo, parece incompleto.';
+            input.focus();
+            return;
+          }
+          input.setAttribute('aria-invalid', 'false');
+          if (subs.includes(v)) {
+            msg.className = 'err-msg pl-4 !text-ember-light';
+            msg.textContent = 'Ya estás en la lista. ¡Gracias por seguirnos!';
+            return;
+          }
+          const btn = $('button', form);
+          btn.disabled = true;
+          await new Promise((r) => setTimeout(r, 700));
+          subs.push(v);
+          storage.set('burdo.newsletter', subs);
+          btn.disabled = false;
+          form.reset();
+          input.classList.remove('is-valid');
+          msg.className = 'err-msg pl-4 !text-emerald-300';
+          msg.textContent = 'Listo. Te escribiremos con lo mejor de la temporada.';
+          Toast.show('Suscripción confirmada', { icon: 'mail' });
+        });
+        input.addEventListener('input', () => { if (input.getAttribute('aria-invalid') === 'true') { input.setAttribute('aria-invalid', 'false'); msg.textContent = ''; } });
+      }
+    }
+
+    /* =========================================================
+       ARRANQUE
+       ========================================================= */
+    class App {
+      static start() {
+        Layer.init();
+        const cart = new CartStore();
+        const dishModal = new DishModal(cart);
+        const menu = new MenuController(cart, dishModal);
+        new CartDrawer(cart);
+        const reservations = new ReservationEngine();
+        new OpeningStatus();
+        new Gallery();
+        new Newsletter();
+
+        // Navegación móvil
+        const nav = new Layer($('#mobile-nav'), { trigger: $('#nav-toggle') });
+        $('#nav-toggle').addEventListener('click', (e) => nav.open(e.currentTarget));
+        $$('[data-close-nav]').forEach((a) => a.addEventListener('click', () => nav.close()));
+
+        // Modales legales
+        const legal = new Layer($('#legal-modal'));
+        $$('[data-legal]').forEach((b) => b.addEventListener('click', () => {
+          const doc = LEGAL[b.dataset.legal];
+          $('#lg-title').textContent = doc.title;
+          $('#lg-body').innerHTML = doc.body.map((p) => `<p>${p}</p>`).join('');
+          legal.open(b);
+        }));
+        $$('a[href="#legal"]').forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); $('[data-legal="privacy"]').click(); }));
+
+        // Accesos directos desde la sección Experiencia
+        $$('[data-preset-cat]').forEach((a) => a.addEventListener('click', () => menu.setCategory(a.dataset.presetCat)));
+        $$('[data-preset-zone]').forEach((a) => a.addEventListener('click', () => {
+          const btn = $(`[data-group="zone"][data-value="${a.dataset.presetZone}"]`);
+          if (btn && btn.getAttribute('aria-disabled') !== 'true') btn.click();
+        }));
+        $$('[data-scroll-to]').forEach((b) => b.addEventListener('click', () => document.querySelector(b.dataset.scrollTo).scrollIntoView({ behavior: prefersReducedMotion ? 'auto' : 'smooth' })));
+
+        $('#year').textContent = new Date().getFullYear();
+
+        Effects.header();
+        const observeReveal = Effects.reveal();
+        Effects.parallax();
+        Effects.magnetic();
+        Effects.ripple();
+        observeReveal();
+        refreshIcons();
+      }
+    }
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', App.start);
+    else App.start();
+  })();
+  </script>
+</body>
+</html>
