@@ -12,9 +12,12 @@
 
 ## Notas
 
-- **Cantina Real:** menú y precios de referencia; horario según Google (9:00–2:00, en Facebook dice 9:00–23:00, por confirmar). Fotos reales de la barra en `cantina-real/assets/`.
-- **MK Abogados:** falta foto del Lic. Macías Ponce, dirección exacta de la oficina y horario de consultas (se usó L–V 9–19, S 10–14).
-- **Cafeto y Burdo:** menús y precios son de ejemplo; horarios de cierre de Burdo por confirmar.
+Regla para todos los sitios: **solo fotos reales del negocio** (nada de bancos de imágenes) y en el menú solo lo que aparece en sus fotos o publicaciones. Sin carta real no se publican precios: el carrito muestra "Precio en barra / en sucursal" y el mensaje de WhatsApp pide confirmar precios y total. Para agregar un platillo con precio, se añade a `MENU` con `price` numérico y foto real.
+
+- **Cantina Real:** menú = gringa de sabores, cerveza y tequilas de la vitrina (lo que se ve en sus fotos de Facebook). Falta la carta completa con precios. Horario según Google (9:00–2:00; en Facebook dice 9:00–23:00, por confirmar). El video `promo/cantina-real-promo-30s.mp4` todavía usa fotos de banco (nachos, ceviche, coctel) y hay que rehacerlo.
+- **MK Abogados:** falta foto del Lic. Macías Ponce, dirección de la oficina y horario de consultas (el sitio dice "con cita previa"). Confirmar el teléfono de oficina y el correo.
+- **Cafeto:** menú = enchiladas, toast con huevo y sangría (fotos de @cafetoags). Falta la carta completa con precios.
+- **Burdo:** menú = cortes, parrillada, sangría, coctel de pitaya y carajillo (fotos del negocio). Falta la carta completa con precios; horarios de cierre por confirmar.
 - **JkJ Stock:** precios = precio del proveedor + 25 % (`CONFIG.markup`), redondeado al peso. Las imágenes de producto están alojadas en `jkj-stock/assets/products/` para que no dependan de otro sitio.
 - **JkJ Stock, secciones:** los productos están en `jkj-stock/assets/catalog.js` (campo `section`). Las páginas se generan desde `jkj-stock/_plantilla.html` con `python3 jkj-stock/build.py`; una sección sin productos muestra "Próximamente".
 
