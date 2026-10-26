@@ -1,19 +1,17 @@
-# Vive Cafeto · Sitio web
+# Proyectos web · LKM’r
 
-Sitio de una sola página para **Vive Cafeto Aguascalientes** (café · restaurante · bar), con menú digital filtrable, pedidos (order ahead / en mesa) y motor de reservaciones.
+| Sitio | Carpeta | Descripción |
+|---|---|---|
+| Vive Cafeto | `cafeto/` | Café · restaurante · bar. Menú digital, pedidos y reservaciones. |
+| Burdo San Telmo | `burdo/` | Parrilla & bar. Cortes con selección de término, pedidos y reservaciones. |
+| JkJ Stock | `jkj-stock/` | Catálogo de perfumes (74 productos) con carrito y pedidos por WhatsApp (449 209 4034). |
 
-- `index.html`: todo el sitio (HTML + Tailwind CDN + JS vainilla)
-- `assets/instagram/`: fotos del feed de @cafetoags
+`index.html` en la raíz es un portafolio con enlaces a los tres sitios. Para verlos localmente: `python3 -m http.server` y abre http://localhost:8000.
 
-Para verlo localmente: `python3 -m http.server` y abre http://localhost:8000.
+## Notas
 
-Los pedidos y reservaciones se simulan en el navegador y se confirman enviando el resumen por WhatsApp (449 263 1486). Los platillos, precios y descripciones del menú son de ejemplo y deben reemplazarse por la carta real.
-
-## Burdo San Telmo
-
-`burdo/index.html`: parrilla & bar en Av. Prol. Zaragoza 1014, Aguascalientes. Misma base (menú filtrable con selección de término para cortes, pedidos y reservaciones) con identidad de brasa y neón. Fotos reales en `burdo/assets/momentos/`.
-
-Horarios de cierre, menú y precios son de ejemplo y deben confirmarse con el restaurante.
+- **Cafeto y Burdo:** menús y precios son de ejemplo; horarios de cierre de Burdo por confirmar.
+- **JkJ Stock:** precios = precio del proveedor + 25 % (`CONFIG.markup`), redondeado al peso. Las imágenes de producto están alojadas en `jkj-stock/assets/products/` para que no dependan de otro sitio.
 
 ---
 Sitios diseñados y desarrollados por **LKM’r**.
