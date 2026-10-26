@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>MK Firma de Abogados · Defensa Penal Estratégica en Aguascalientes</title>
+  <meta name="description" content="MK Firma de Abogados (MK Nacional · Bogacia): defensa penal estratégica, amparo, delitos de cuello blanco y prevención de riesgos legales. Dirigido por el Lic. Markos Tiberio Macías Ponce. Urgencias penales 24/7. Jesús María, Aguascalientes." />
+  <meta name="theme-color" content="#0b0d10" />
+  <meta property="og:title" content="MK Firma de Abogados · Inteligencia y Estrategia Jurídica" />
+  <meta property="og:description" content="Defensa penal estratégica, amparo y blindaje patrimonial. Urgencias 24/7: 449 415 9466." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/sello-mk.jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='24' fill='%230b0d10'/%3E%3Ccircle cx='24' cy='24' r='21' fill='none' stroke='%23c5a059' stroke-width='1.5'/%3E%3Ctext x='24' y='30' text-anchor='middle' font-family='Georgia,serif' font-size='16' fill='%23e8d3a3'%3EMK%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Pinyon+Script&family=Playfair+Display:ital,wght@1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            noche: '#0b0d10',
+            grafito: { DEFAULT: '#14171d', light: '#1b1f27' },
+            oro: { DEFAULT: '#c5a059', light: '#e8d3a3', deep: '#9c7c3e' },
+            acero: { DEFAULT: '#3b82f6', light: '#93c5fd' },
+            platino: '#9ca3af',
+          },
+          fontFamily: {
+            display: ['Cinzel', 'Georgia', 'serif'],
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            script: ['"Pinyon Script"', 'cursive'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          boxShadow: {
+            oro: '0 10px 30px rgba(197,160,89,0.10)',
+            'oro-lg': '0 24px 70px rgba(197,160,89,0.16)',
+            acero: '0 10px 30px rgba(59,130,246,0.15)',
+          },
+          screens: { xs: '400px', '3xl': '1920px' },
+          letterSpacing: { luxe: '0.32em' },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    :root {
+      --noche: #0b0d10;
+      --grafito: #14171d;
+      --oro: #c5a059;
+      --oro-light: #e8d3a3;
+      --acero: #3b82f6;
+      --line: rgba(197,160,89,0.2);
+      --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+      color-scheme: dark;
+    }
+    html { -webkit-text-size-adjust: 100%; scroll-padding-top: 88px; }
+    body { background: var(--noche); color: #fff; font-family: Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    body.is-locked { overflow: hidden; }
+    ::selection { background: rgba(197,160,89,0.35); color: #fff; }
+    ::-webkit-scrollbar { width: 10px; height: 8px; }
+    ::-webkit-scrollbar-track { background: var(--noche); }
+    ::-webkit-scrollbar-thumb { background: #262b35; border-radius: 99px; border: 2px solid var(--noche); }
+    .no-scrollbar { scrollbar-width: none; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+
+    /* Textura de papel notarial muy sutil */
+    .grain::after {
+      content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 100; opacity: 0.03;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    .card-luxe { background: var(--grafito); border: 1px solid var(--line); }
+    .hairline { border-color: var(--line); }
+    .text-gradient-oro { background: linear-gradient(100deg, #f4e6c3 0%, #c5a059 55%, #9c7c3e 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .divider-oro { height: 1px; background: linear-gradient(90deg, transparent, rgba(197,160,89,0.55), transparent); }
+    .eyebrow { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.32em; text-transform: uppercase; color: var(--oro); }
+    .grid-lines { background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px); background-size: 72px 72px; }
+
+    /* Botones */
+    .btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; border-radius: 999px; font-weight: 600; letter-spacing: 0.02em; transition: transform 0.45s var(--ease-luxe), background-color 0.3s, color 0.3s, box-shadow 0.45s var(--ease-luxe), border-color 0.3s; will-change: transform; -webkit-tap-highlight-color: transparent; overflow: hidden; isolation: isolate; }
+    .btn:focus-visible, .focus-ring:focus-visible { outline: 2px solid var(--oro-light); outline-offset: 3px; }
+    .btn-oro { background: linear-gradient(135deg, #e8d3a3, #c5a059 55%, #a2813f); color: #121008; box-shadow: 0 10px 30px rgba(197,160,89,0.18); }
+    .btn-oro:hover { box-shadow: 0 16px 44px rgba(197,160,89,0.34); }
+    .btn-ghost { border: 1px solid rgba(255,255,255,0.18); color: #fff; background: rgba(255,255,255,0.02); backdrop-filter: blur(8px); }
+    .btn-ghost:hover { border-color: var(--oro); color: var(--oro-light); box-shadow: 0 10px 30px rgba(197,160,89,0.1); }
+    .btn-alert { background: rgba(239,68,68,0.12); border: 1px solid rgba(248,113,113,0.45); color: #fecaca; }
+    .btn-alert:hover { background: rgba(239,68,68,0.2); box-shadow: 0 10px 30px rgba(239,68,68,0.2); }
+    .btn:disabled { opacity: 0.45; cursor: not-allowed; box-shadow: none; }
+    .ripple { position: absolute; border-radius: 50%; transform: scale(0); pointer-events: none; background: rgba(255,255,255,0.35); animation: ripple 0.65s var(--ease-luxe) forwards; z-index: -1; }
+    @keyframes ripple { to { transform: scale(4); opacity: 0; } }
+    .press { transition: transform 0.18s var(--ease-luxe); }
+    .press:active { transform: scale(0.96); }
+    .alert-dot { position: relative; }
+    .alert-dot::after { content: ''; position: absolute; inset: -5px; border-radius: 50%; background: #ef4444; animation: alertPulse 1.6s ease-out infinite; }
+    @keyframes alertPulse { from { transform: scale(0.5); opacity: 0.7; } to { transform: scale(2); opacity: 0; } }
+
+    /* Chips */
+    .chip { display: inline-flex; align-items: center; gap: 0.45rem; border: 1px solid rgba(255,255,255,0.1); border-radius: 999px; padding: 0.55rem 1rem; font-size: 0.82rem; color: #d1d5db; background: rgba(255,255,255,0.02); transition: all 0.3s var(--ease-luxe); white-space: nowrap; }
+    .chip:hover { border-color: rgba(197,160,89,0.5); color: #fff; }
+    .chip[aria-pressed='true'], .chip[aria-selected='true'], .chip[aria-checked='true'] { border-color: var(--oro); background: rgba(197,160,89,0.12); color: var(--oro-light); }
+    .chip:focus-visible { outline: 2px solid var(--oro-light); outline-offset: 2px; }
+    .chip:disabled { opacity: 0.3; cursor: not-allowed; }
+
+    /* Reveal */
+    .js [data-reveal] { opacity: 0; transform: translate3d(0, 28px, 0); transition: opacity 1s var(--ease-luxe), transform 1.1s var(--ease-luxe); transition-delay: var(--d, 0ms); }
+    .js [data-reveal='scale'] { transform: scale(0.96); }
+    .js [data-reveal].is-visible { opacity: 1; transform: none; }
+
+    /* Hero */
+    .hero-img { animation: kenburns 26s var(--ease-luxe) both; transform-origin: 50% 30%; }
+    @keyframes kenburns { from { transform: scale(1.14); } to { transform: scale(1.02); } }
+    .hero-line { display: block; overflow: hidden; padding-bottom: 0.06em; }
+    .hero-line > span { display: inline-block; animation: lineUp 1.3s var(--ease-luxe) both; animation-delay: var(--d, 0ms); }
+    @keyframes lineUp { from { transform: translateY(110%); opacity: 0; } to { transform: none; opacity: 1; } }
+    .fade-up { animation: fadeUp 1.2s var(--ease-luxe) both; animation-delay: var(--d, 0ms); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+    .seal-spin { animation: spin 60s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Header */
+    #site-header { transition: background-color 0.5s var(--ease-luxe), border-color 0.5s; }
+    #site-header.is-scrolled { background: rgba(0,0,0,0.8); backdrop-filter: blur(14px) saturate(140%); -webkit-backdrop-filter: blur(14px) saturate(140%); border-color: var(--line); }
+    .nav-link { position: relative; }
+    .nav-link::after { content: ''; position: absolute; left: 0; right: 0; bottom: -6px; height: 1px; background: var(--oro); transform: scaleX(0); transform-origin: right; transition: transform 0.5s var(--ease-luxe); }
+    .nav-link:hover::after, .nav-link.is-active::after { transform: scaleX(1); transform-origin: left; }
+    .nav-link.is-active { color: #fff; }
+
+    /* Tarjetas de práctica */
+    .area-card { transition: transform 0.6s var(--ease-luxe), border-color 0.4s, box-shadow 0.6s var(--ease-luxe); }
+    .area-card:hover { transform: translateY(-6px); border-color: rgba(197,160,89,0.45); box-shadow: 0 24px 60px rgba(197,160,89,0.08); }
+    .area-card .area-glow { opacity: 0; transition: opacity 0.6s var(--ease-luxe); }
+    .area-card:hover .area-glow { opacity: 1; }
+    .area-enter { animation: fadeUp 0.7s var(--ease-luxe) both; animation-delay: var(--d, 0ms); }
+
+    /* Overlays */
+    .overlay { position: fixed; inset: 0; z-index: 70; visibility: hidden; }
+    .overlay.is-open { visibility: visible; }
+    .overlay-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.75); backdrop-filter: blur(6px); opacity: 0; transition: opacity 0.5s var(--ease-luxe); }
+    .overlay.is-open .overlay-backdrop { opacity: 1; }
+    .drawer-panel { position: absolute; top: 0; bottom: 0; right: 0; width: min(100%, 480px); transform: translateX(105%); transition: transform 0.6s var(--ease-luxe); }
+    .drawer-left .drawer-panel { right: auto; left: 0; transform: translateX(-105%); }
+    .overlay.is-open .drawer-panel { transform: none; }
+    .modal-panel { opacity: 0; transform: translateY(24px) scale(0.98); transition: opacity 0.5s var(--ease-luxe), transform 0.6s var(--ease-luxe); }
+    .overlay.is-open .modal-panel { opacity: 1; transform: none; }
+
+    /* Formularios */
+    .field { width: 100%; border-radius: 14px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.03); padding: 0.85rem 1rem; color: #fff; font-size: 0.95rem; transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s; }
+    .field::placeholder { color: #6b7280; }
+    .field:focus { outline: none; border-color: var(--oro); box-shadow: 0 0 0 4px rgba(197,160,89,0.12); background: rgba(255,255,255,0.05); }
+    .field.is-invalid { border-color: #f87171; box-shadow: 0 0 0 4px rgba(248,113,113,0.1); }
+    .field.is-valid { border-color: rgba(59,130,246,0.55); }
+    .field-error { min-height: 1.1rem; font-size: 0.75rem; color: #fca5a5; margin-top: 0.35rem; }
+    select.field { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23c5a059' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; padding-right: 2.6rem; }
+    select.field option { background: #14171d; }
+    .step-panel { animation: fadeUp 0.6s var(--ease-luxe) both; }
+    .opt-card[aria-pressed='true'] { border-color: var(--oro); background: linear-gradient(160deg, rgba(197,160,89,0.12), rgba(197,160,89,0.02)); }
+    .date-pill[aria-pressed='true'] { border-color: var(--oro); background: rgba(197,160,89,0.14); }
+    .date-pill[aria-pressed='true'] .dp-num { color: var(--oro-light); }
+
+    /* FAQ */
+    details > summary { list-style: none; cursor: pointer; }
+    details > summary::-webkit-details-marker { display: none; }
+    details[open] .faq-icon { transform: rotate(45deg); }
+    .faq-icon { transition: transform 0.4s var(--ease-luxe); }
+
+    /* Toast */
+    #toast { transform: translate(-50%, 24px); opacity: 0; visibility: hidden; transition: transform 0.6s var(--ease-luxe), opacity 0.4s, visibility 0.6s; }
+    #toast.is-shown { transform: translate(-50%, 0); opacity: 1; visibility: visible; }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+      .js [data-reveal] { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body class="grain">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-full focus:bg-oro focus:px-5 focus:py-3 focus:text-noche">Saltar al contenido</a>
+
+  <!-- Isotipo reutilizable -->
+  <svg width="0" height="0" class="absolute" aria-hidden="true">
+    <symbol id="mk-seal" viewBox="0 0 120 120">
+      <circle cx="60" cy="60" r="57" fill="none" stroke="currentColor" stroke-width="1.6" />
+      <circle cx="60" cy="60" r="44" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.6" />
+      <path d="M60 22v58M42 34h36M42 34l-9 20h18zM78 34l-9 20h18z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+      <path d="M33 54c0 5 4 8 9 8s9-3 9-8M69 54c0 5 4 8 9 8s9-3 9-8" fill="none" stroke="currentColor" stroke-width="1.6" />
+      <path d="M48 86h24" stroke="currentColor" stroke-width="1.6" />
+      <text x="60" y="78" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-size="22" font-weight="600" fill="currentColor">MK</text>
+    </symbol>
+  </svg>
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="site-header" class="fixed inset-x-0 top-0 z-50 border-b border-transparent py-4">
+    <div class="mx-auto flex max-w-[1600px] items-center justify-between gap-4 px-4 sm:px-6 lg:px-10">
+      <a href="#inicio" class="flex shrink-0 items-center gap-3 rounded-xl focus-ring" aria-label="MK Firma de Abogados, ir al inicio">
+        <svg class="h-10 w-10 shrink-0 text-oro sm:h-11 sm:w-11" aria-hidden="true"><use href="#mk-seal" /></svg>
+        <span class="leading-none">
+          <span class="block whitespace-nowrap font-display text-[0.8rem] font-semibold tracking-[0.1em] text-white xs:text-[0.9rem] sm:text-[1.1rem] sm:tracking-[0.18em]">MK NACIONAL <span class="text-oro">|</span> BOGACIA</span>
+          <span class="mt-1.5 block whitespace-nowrap text-[0.5rem] font-medium uppercase tracking-[0.22em] text-platino sm:text-[0.55rem] sm:tracking-luxe">Bufete Jurídico de Abogados</span>
+        </span>
+      </a>
+
+      <nav class="hidden items-center gap-6 whitespace-nowrap text-sm text-platino xl:flex 2xl:gap-8" aria-label="Principal">
+        <a class="nav-link transition-colors hover:text-white" href="#areas">Áreas de Práctica</a>
+        <a class="nav-link transition-colors hover:text-white" href="#director">El Director</a>
+        <a class="nav-link transition-colors hover:text-white" href="#resultados">Casos de Éxito</a>
+        <a class="nav-link transition-colors hover:text-white" href="#urgencias">Urgencias 24/7</a>
+        <a class="nav-link transition-colors hover:text-white" href="#contacto">Contacto</a>
+      </nav>
+
+      <div class="flex items-center gap-2 sm:gap-3">
+        <a href="tel:+524494159466" class="btn btn-alert hidden whitespace-nowrap px-4 py-2.5 text-xs md:inline-flex xl:hidden 2xl:inline-flex" data-urgent-call>
+          <span class="alert-dot inline-block h-2 w-2 rounded-full bg-red-500"></span> Urgencias Penales 24/7
+        </a>
+        <a href="#consulta" class="btn btn-oro magnetic hidden whitespace-nowrap px-5 py-3 text-sm sm:inline-flex"><i data-lucide="lock" class="h-4 w-4"></i> <span class="2xl:hidden">Consulta Confidencial</span><span class="hidden 2xl:inline">Agendar Consulta Confidencial</span></a>
+        <button type="button" id="nav-open" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-black/30 xl:hidden focus-ring" aria-label="Abrir menú" aria-controls="nav-drawer" aria-expanded="false">
+          <i data-lucide="menu" class="h-5 w-5"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Drawer de navegación -->
+  <div id="nav-drawer" class="overlay drawer-left" role="dialog" aria-modal="true" aria-label="Menú de navegación" aria-hidden="true">
+    <div class="overlay-backdrop" data-close></div>
+    <div class="drawer-panel flex flex-col border-r hairline bg-noche">
+      <div class="flex items-center justify-between border-b hairline p-6">
+        <span class="flex items-center gap-3"><svg class="h-10 w-10 text-oro" aria-hidden="true"><use href="#mk-seal" /></svg><span class="font-display tracking-[0.18em]">MK | BOGACIA</span></span>
+        <button type="button" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 focus-ring" data-close aria-label="Cerrar menú"><i data-lucide="x" class="h-5 w-5"></i></button>
+      </div>
+      <nav class="flex-1 overflow-y-auto p-6" aria-label="Móvil">
+        <ul class="space-y-1 font-display text-2xl tracking-wide">
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-oro" href="#areas" data-close-nav>Áreas de Práctica <i data-lucide="arrow-up-right" class="h-5 w-5 text-oro/60"></i></a></li>
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-oro" href="#director" data-close-nav>El Director <i data-lucide="arrow-up-right" class="h-5 w-5 text-oro/60"></i></a></li>
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-oro" href="#resultados" data-close-nav>Casos de Éxito <i data-lucide="arrow-up-right" class="h-5 w-5 text-oro/60"></i></a></li>
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-oro" href="#urgencias" data-close-nav>Urgencias 24/7 <i data-lucide="arrow-up-right" class="h-5 w-5 text-oro/60"></i></a></li>
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-oro" href="#consulta" data-close-nav>Agendar Consulta <i data-lucide="arrow-up-right" class="h-5 w-5 text-oro/60"></i></a></li>
+          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-oro" href="#contacto" data-close-nav>Contacto <i data-lucide="arrow-up-right" class="h-5 w-5 text-oro/60"></i></a></li>
+        </ul>
+      </nav>
+      <div class="space-y-3 border-t hairline p-6">
+        <a href="tel:+524494159466" class="btn btn-alert w-full py-4 text-sm"><span class="alert-dot inline-block h-2 w-2 rounded-full bg-red-500"></span> Llamar a Urgencias 24/7</a>
+        <a href="#consulta" class="btn btn-oro w-full py-4 text-sm" data-close-nav><i data-lucide="lock" class="h-4 w-4"></i> Consulta Confidencial</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ===================== HERO ===================== -->
+    <section id="inicio" class="relative flex min-h-[100svh] items-end overflow-hidden pb-16 pt-32 sm:items-center sm:pb-24">
+      <div class="absolute inset-0" aria-hidden="true">
+        <img class="hero-img h-full w-full object-cover grayscale" src="https://images.unsplash.com/photo-1436450412740-6b988f486c6b?auto=format&fit=crop&w=2400&q=80" srcset="https://images.unsplash.com/photo-1436450412740-6b988f486c6b?auto=format&fit=crop&w=900&q=75 900w, https://images.unsplash.com/photo-1436450412740-6b988f486c6b?auto=format&fit=crop&w=1600&q=80 1600w, https://images.unsplash.com/photo-1436450412740-6b988f486c6b?auto=format&fit=crop&w=2600&q=80 2600w" sizes="100vw" alt="" fetchpriority="high" />
+        <div class="absolute inset-0 bg-gradient-to-r from-noche via-noche/90 to-noche/40"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-noche via-noche/30 to-noche/80"></div>
+        <div class="grid-lines absolute inset-0 opacity-60"></div>
+        <div class="absolute -right-32 top-1/3 h-[520px] w-[520px] rounded-full bg-oro/10 blur-[140px]"></div>
+      </div>
+
+      <div class="relative mx-auto grid w-full max-w-[1600px] items-center gap-12 px-4 sm:px-6 lg:grid-cols-12 lg:px-10">
+        <div class="lg:col-span-8">
+          <p class="fade-up inline-flex max-w-full items-center gap-2.5 rounded-full border border-oro/30 bg-black/40 px-4 py-2 text-[0.65rem] font-medium uppercase leading-relaxed tracking-[0.16em] text-oro-light backdrop-blur-md" style="--d:150ms">
+            <i data-lucide="shield-check" class="h-4 w-4 shrink-0"></i>
+            <span>Defensa Penal Estratégica de Alto Nivel — Dirigido por el Lic. Markos Tiberio Macías Ponce</span>
+          </p>
+          <h1 class="mt-8 font-display text-[2.15rem] font-medium leading-[1.12] tracking-wide xs:text-[2.5rem] sm:text-5xl lg:text-6xl 2xl:text-7xl">
+            <span class="hero-line"><span style="--d:250ms">Protegiendo su libertad,</span></span>
+            <span class="hero-line"><span style="--d:400ms">su patrimonio y su legado</span></span>
+            <span class="hero-line"><span style="--d:550ms" class="font-serif italic normal-case tracking-normal text-gradient-oro">con rigor jurídico absoluto.</span></span>
+          </h1>
+          <p class="fade-up mt-8 max-w-2xl text-base leading-relaxed text-platino sm:text-lg" style="--d:800ms">
+            Litigio penal estratégico en el sistema acusatorio, juicio de amparo y blindaje patrimonial para personas, familias y empresas. Desde 2002, con inteligencia jurídica, discreción total y respuesta inmediata cuando cada hora cuenta.
+          </p>
+          <div class="fade-up mt-10 flex flex-col gap-3 xs:flex-row sm:gap-4" style="--d:950ms">
+            <button type="button" class="btn btn-oro magnetic px-8 py-4 text-sm" data-open-urgent><i data-lucide="siren" class="h-4 w-4"></i> Solicitar Asesoría Urgente</button>
+            <a href="#director" class="btn btn-ghost magnetic px-8 py-4 text-sm"><i data-lucide="landmark" class="h-4 w-4"></i> Conocer el Bufete</a>
+          </div>
+          <dl class="fade-up mt-14 grid max-w-xl grid-cols-3 gap-4 border-t border-white/10 pt-8" style="--d:1100ms">
+            <div><dt class="text-[0.6rem] uppercase tracking-[0.2em] text-platino">Fundado</dt><dd class="mt-1 font-display text-2xl sm:text-3xl">2002</dd></div>
+            <div><dt class="text-[0.6rem] uppercase tracking-[0.2em] text-platino">Guardia penal</dt><dd class="mt-1 font-display text-2xl sm:text-3xl">24/7</dd></div>
+            <div><dt class="text-[0.6rem] uppercase tracking-[0.2em] text-platino">Fueros</dt><dd class="mt-1 text-sm leading-snug text-white sm:text-base">Común y<br />Federal</dd></div>
+          </dl>
+        </div>
+        <div class="hidden justify-center lg:col-span-4 lg:flex" aria-hidden="true">
+          <div class="relative grid h-80 w-80 place-items-center fade-up" style="--d:700ms">
+            <svg viewBox="0 0 200 200" class="seal-spin absolute inset-0 h-full w-full text-oro/70">
+              <defs><path id="ring" d="M100,100 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0" /></defs>
+              <text font-family="Cinzel, serif" font-size="11" letter-spacing="5" fill="currentColor"><textPath href="#ring">INTELIGENCIA JURÍDICA · ESTRATEGIA JURÍDICA · EST. 2002 ·</textPath></text>
+            </svg>
+            <svg class="h-48 w-48 text-oro drop-shadow-[0_0_30px_rgba(197,160,89,0.25)]"><use href="#mk-seal" /></svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Franja de confianza -->
+    <div class="border-y hairline bg-grafito/60">
+      <ul class="mx-auto grid max-w-[1600px] grid-cols-2 gap-px px-4 sm:px-6 md:grid-cols-4 lg:px-10">
+        <li class="flex items-center gap-3 py-6 text-sm text-platino"><i data-lucide="lock-keyhole" class="h-5 w-5 shrink-0 text-oro"></i> Secreto profesional garantizado</li>
+        <li class="flex items-center gap-3 py-6 text-sm text-platino"><i data-lucide="gavel" class="h-5 w-5 shrink-0 text-oro"></i> Litigio oral acusatorio</li>
+        <li class="flex items-center gap-3 py-6 text-sm text-platino"><i data-lucide="scroll-text" class="h-5 w-5 shrink-0 text-oro"></i> Amparo indirecto y directo</li>
+        <li class="flex items-center gap-3 py-6 text-sm text-platino"><i data-lucide="map-pin" class="h-5 w-5 shrink-0 text-oro"></i> Aguascalientes y otros estados</li>
+      </ul>
+    </div>
+
+    <!-- ===================== DIRECTOR ===================== -->
+    <section id="director" class="relative py-24 sm:py-32 lg:py-40" aria-labelledby="dir-title">
+      <div class="mx-auto grid max-w-[1600px] items-center gap-16 px-4 sm:px-6 lg:grid-cols-12 lg:gap-20 lg:px-10">
+        <div class="relative lg:col-span-5" data-reveal="scale">
+          <figure class="relative mx-auto max-w-md">
+            <div class="absolute -inset-3 rounded-[34px] border hairline" aria-hidden="true"></div>
+            <div class="relative overflow-hidden rounded-[28px] border border-oro/30 bg-gradient-to-b from-[#1b1a17] to-[#0f1013]">
+              <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1000&q=78" alt="" loading="lazy" class="aspect-[4/5] w-full object-cover opacity-50 sepia-[0.6]" />
+              <div class="absolute inset-0 bg-gradient-to-t from-noche via-noche/40 to-transparent"></div>
+              <div class="absolute inset-x-0 top-[14%] grid place-items-center">
+                <img src="assets/sello-mk.jpg" alt="Sello de MK Firma de Abogados: Inteligencia Jurídica, Estrategia Jurídica, Est. 2002" class="h-44 w-44 rounded-full border border-oro/40 object-cover object-top shadow-oro-lg sm:h-52 sm:w-52" loading="lazy" style="object-position: 50% 8%;" />
+              </div>
+              <figcaption class="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+                <p class="font-script text-4xl text-oro-light sm:text-5xl">Markos T. Macías Ponce</p>
+                <p class="mt-2 text-[0.65rem] uppercase tracking-[0.24em] text-platino">Director General · Socio Fundador</p>
+              </figcaption>
+            </div>
+          </figure>
+        </div>
+
+        <div class="lg:col-span-7">
+          <p class="eyebrow" data-reveal>Liderazgo</p>
+          <h2 id="dir-title" class="mt-5 font-display text-3xl leading-[1.15] sm:text-4xl xl:text-5xl" data-reveal style="--d:100ms">Lic. Markos Tiberio <span class="text-gradient-oro">Macías Ponce</span></h2>
+          <p class="mt-3 text-sm uppercase tracking-[0.2em] text-platino" data-reveal style="--d:150ms">Abogado penalista · Director de MK Firma de Abogados</p>
+          <div class="mt-8 space-y-5 text-base leading-relaxed text-platino sm:text-lg" data-reveal style="--d:200ms">
+            <p>Al frente del bufete desde su fundación en 2002, el licenciado Macías Ponce ha construido una práctica centrada en el derecho penal de alta complejidad: asuntos donde la libertad, el patrimonio o la reputación de una persona dependen de decisiones técnicas tomadas en horas, no en semanas.</p>
+            <p>Su método combina <strong class="font-medium text-white">estrategia procesal</strong> —leer la carpeta de investigación antes que nadie, anticipar a la fiscalía y elegir el momento exacto para cada recurso— con <strong class="font-medium text-white">inteligencia jurídica</strong>: investigación propia, análisis de pruebas y una argumentación oral firme ante el juez de control y el tribunal de enjuiciamiento.</p>
+            <p>Su compromiso es sencillo y no negociable: ética profesional, comunicación honesta con el cliente sobre riesgos reales y una defensa implacable de los derechos de cada representado.</p>
+          </div>
+          <blockquote class="mt-10 border-l-2 border-oro pl-6" data-reveal style="--d:300ms">
+            <p class="font-serif text-xl italic leading-relaxed text-white sm:text-2xl">“La mejor defensa no empieza en la audiencia; empieza en la primera llamada.”</p>
+            <footer class="mt-3 text-xs uppercase tracking-[0.2em] text-oro">— Lic. Markos Tiberio Macías Ponce</footer>
+          </blockquote>
+          <ul class="mt-10 grid gap-4 sm:grid-cols-3" data-reveal style="--d:350ms">
+            <li class="card-luxe rounded-2xl p-5"><i data-lucide="scale" class="h-6 w-6 text-oro"></i><p class="mt-4 font-display text-base tracking-wide">Penal de alta complejidad</p></li>
+            <li class="card-luxe rounded-2xl p-5"><i data-lucide="route" class="h-6 w-6 text-oro"></i><p class="mt-4 font-display text-base tracking-wide">Estrategia procesal</p></li>
+            <li class="card-luxe rounded-2xl p-5"><i data-lucide="badge-check" class="h-6 w-6 text-oro"></i><p class="mt-4 font-display text-base tracking-wide">Ética y lealtad</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ÁREAS DE PRÁCTICA ===================== -->
+    <section id="areas" class="relative border-t hairline bg-gradient-to-b from-grafito/50 to-noche py-24 sm:py-32" aria-labelledby="areas-title">
+      <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
+        <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+          <div class="max-w-2xl">
+            <p class="eyebrow" data-reveal>Áreas de práctica</p>
+            <h2 id="areas-title" class="mt-5 font-display text-3xl leading-[1.15] sm:text-4xl xl:text-5xl" data-reveal style="--d:100ms">Especialización que <span class="text-gradient-oro">se nota en la audiencia</span>.</h2>
+            <p class="mt-5 text-platino" data-reveal style="--d:200ms">Cada asunto se atiende con un protocolo de defensa propio. Ábralo para conocer cómo trabajamos su caso desde el primer día.</p>
+          </div>
+        </div>
+        <div class="mt-10 -mx-4 overflow-x-auto px-4 no-scrollbar sm:mx-0 sm:px-0" data-reveal style="--d:250ms">
+          <div id="area-tabs" class="flex w-max gap-2" role="tablist" aria-label="Filtrar áreas"></div>
+        </div>
+        <div id="area-grid" class="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3" role="tabpanel"></div>
+      </div>
+    </section>
+
+    <!-- ===================== URGENCIAS ===================== -->
+    <section id="urgencias" class="relative overflow-hidden border-t hairline py-24 sm:py-32" aria-labelledby="urg-title">
+      <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(239,68,68,0.08),transparent_55%)]" aria-hidden="true"></div>
+      <div class="relative mx-auto grid max-w-[1600px] gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-20 lg:px-10">
+        <div>
+          <p class="eyebrow !text-red-300" data-reveal><span class="alert-dot mr-3 inline-block h-2 w-2 rounded-full bg-red-500 align-middle"></span>Línea de urgencias penales 24/7</p>
+          <h2 id="urg-title" class="mt-5 font-display text-3xl leading-[1.15] sm:text-4xl xl:text-5xl" data-reveal style="--d:100ms">¿Detuvieron a un familiar? <span class="text-gradient-oro">Cada hora cuenta.</span></h2>
+          <p class="mt-6 text-base leading-relaxed text-platino sm:text-lg" data-reveal style="--d:200ms">Detenciones, órdenes de aprehensión, cateos o citatorios del Ministerio Público. Nuestro equipo de guardia responde de día y de noche, los 365 días del año.</p>
+          <div class="mt-10 flex flex-col gap-3 xs:flex-row" data-reveal style="--d:300ms">
+            <a href="tel:+524494159466" class="btn btn-alert px-7 py-4 text-sm"><i data-lucide="phone-call" class="h-4 w-4"></i> Llamar ahora · 449 415 9466</a>
+            <button type="button" class="btn btn-ghost px-7 py-4 text-sm" data-open-urgent><i data-lucide="siren" class="h-4 w-4"></i> Enviar alerta al equipo</button>
+          </div>
+        </div>
+        <div class="card-luxe rounded-[28px] p-6 sm:p-8" data-reveal="scale">
+          <p class="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-oro"><i data-lucide="shield-alert" class="h-4 w-4"></i> Mientras llegamos: sus derechos</p>
+          <ol class="mt-6 space-y-5">
+            <li class="flex gap-4"><span class="grid h-8 w-8 shrink-0 place-items-center rounded-full border border-oro/40 font-display text-sm text-oro">1</span><div><p class="font-medium">Guarde silencio</p><p class="mt-1 text-sm leading-relaxed text-platino">Tiene derecho a no declarar. Su silencio no puede usarse en su contra. No firme nada sin su abogado.</p></div></li>
+            <li class="flex gap-4"><span class="grid h-8 w-8 shrink-0 place-items-center rounded-full border border-oro/40 font-display text-sm text-oro">2</span><div><p class="font-medium">Pida a su abogado</p><p class="mt-1 text-sm leading-relaxed text-platino">Tiene derecho a una defensa adecuada desde el momento de la detención y a comunicarse con un familiar.</p></div></li>
+            <li class="flex gap-4"><span class="grid h-8 w-8 shrink-0 place-items-center rounded-full border border-oro/40 font-display text-sm text-oro">3</span><div><p class="font-medium">Anote los datos</p><p class="mt-1 text-sm leading-relaxed text-platino">Corporación, hora, lugar, nombres o números de los agentes y, si es posible, el número de carpeta de investigación.</p></div></li>
+            <li class="flex gap-4"><span class="grid h-8 w-8 shrink-0 place-items-center rounded-full border border-oro/40 font-display text-sm text-oro">4</span><div><p class="font-medium">No se resista</p><p class="mt-1 text-sm leading-relaxed text-platino">Mantenga la calma. Cualquier irregularidad la hacemos valer ante el juez de control.</p></div></li>
+          </ol>
+          <p class="mt-6 border-t hairline pt-4 text-[0.7rem] leading-relaxed text-platino/80">Información general basada en el artículo 20 constitucional y el Código Nacional de Procedimientos Penales. No sustituye la asesoría sobre su caso concreto.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESULTADOS / CREDIBILIDAD ===================== -->
+    <section id="resultados" class="relative border-t hairline bg-grafito/30 py-24 sm:py-32" aria-labelledby="res-title">
+      <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
+        <div class="mx-auto max-w-3xl text-center">
+          <p class="eyebrow" data-reveal>Credibilidad, ética y casos de éxito</p>
+          <h2 id="res-title" class="mt-5 font-display text-3xl leading-[1.15] sm:text-4xl xl:text-5xl" data-reveal style="--d:100ms">Resultados que se construyen <span class="text-gradient-oro">con método</span>.</h2>
+        </div>
+        <dl class="mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-[28px] border hairline bg-[rgba(197,160,89,0.15)] lg:grid-cols-4" data-reveal>
+          <div class="bg-noche p-6 sm:p-10"><dt class="text-[0.65rem] uppercase tracking-[0.2em] text-platino">Trayectoria</dt><dd class="mt-3 font-display text-4xl text-oro-light sm:text-5xl" data-years>+20</dd><dd class="mt-2 text-sm text-platino">años de práctica desde 2002</dd></div>
+          <div class="bg-noche p-6 sm:p-10"><dt class="text-[0.65rem] uppercase tracking-[0.2em] text-platino">Disponibilidad</dt><dd class="mt-3 font-display text-4xl text-oro-light sm:text-5xl">24/7</dd><dd class="mt-2 text-sm text-platino">guardia para urgencias penales</dd></div>
+          <div class="bg-noche p-6 sm:p-10"><dt class="text-[0.65rem] uppercase tracking-[0.2em] text-platino">Competencia</dt><dd class="mt-3 font-display text-4xl text-oro-light sm:text-5xl">2</dd><dd class="mt-2 text-sm text-platino">fueros: común y federal</dd></div>
+          <div class="bg-noche p-6 sm:p-10"><dt class="text-[0.65rem] uppercase tracking-[0.2em] text-platino">Confidencialidad</dt><dd class="mt-3 font-display text-4xl text-oro-light sm:text-5xl">100%</dd><dd class="mt-2 text-sm text-platino">bajo secreto profesional</dd></div>
+        </dl>
+
+        <div class="mt-20 grid gap-12 lg:grid-cols-2">
+          <div>
+            <h3 class="font-display text-2xl tracking-wide" data-reveal>Lo que buscamos en cada asunto</h3>
+            <p class="mt-3 text-sm text-platino" data-reveal style="--d:80ms">Tipos de resultado que perseguimos en la defensa. Por ética, no publicamos datos de clientes ni prometemos resultados: cada caso depende de sus hechos y pruebas.</p>
+            <ul class="mt-8 space-y-3">
+              <li class="card-luxe flex gap-4 rounded-2xl p-5" data-reveal style="--d:100ms"><i data-lucide="unlock" class="mt-0.5 h-5 w-5 shrink-0 text-oro"></i><div><p class="font-medium">Libertad durante el proceso</p><p class="mt-1 text-sm text-platino">Medidas cautelares distintas a la prisión preventiva cuando la ley lo permite.</p></div></li>
+              <li class="card-luxe flex gap-4 rounded-2xl p-5" data-reveal style="--d:150ms"><i data-lucide="file-x-2" class="mt-0.5 h-5 w-5 shrink-0 text-oro"></i><div><p class="font-medium">Ilegalidad de la detención</p><p class="mt-1 text-sm text-platino">Control de detención y exclusión de pruebas obtenidas violando derechos.</p></div></li>
+              <li class="card-luxe flex gap-4 rounded-2xl p-5" data-reveal style="--d:200ms"><i data-lucide="handshake" class="mt-0.5 h-5 w-5 shrink-0 text-oro"></i><div><p class="font-medium">Salidas alternas</p><p class="mt-1 text-sm text-platino">Acuerdos reparatorios y suspensión condicional del proceso cuando convienen al cliente.</p></div></li>
+              <li class="card-luxe flex gap-4 rounded-2xl p-5" data-reveal style="--d:250ms"><i data-lucide="shield" class="mt-0.5 h-5 w-5 shrink-0 text-oro"></i><div><p class="font-medium">Suspensión en amparo</p><p class="mt-1 text-sm text-platino">Frenar actos de autoridad —órdenes de aprehensión, embargos, congelamientos— mientras se resuelve el fondo.</p></div></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-display text-2xl tracking-wide" data-reveal>Principios rectores</h3>
+            <div class="mt-8 grid gap-4 sm:grid-cols-2">
+              <div class="card-luxe rounded-2xl p-6" data-reveal style="--d:100ms"><i data-lucide="lock-keyhole" class="h-6 w-6 text-oro"></i><p class="mt-4 font-display text-lg tracking-wide">Confidencialidad absoluta</p><p class="mt-2 text-sm leading-relaxed text-platino">Lo que nos confía queda protegido por el secreto profesional. Sin excepciones.</p></div>
+              <div class="card-luxe rounded-2xl p-6" data-reveal style="--d:150ms"><i data-lucide="anchor" class="h-6 w-6 text-oro"></i><p class="mt-4 font-display text-lg tracking-wide">Lealtad procesal</p><p class="mt-2 text-sm leading-relaxed text-platino">Defendemos un solo interés: el suyo. Nunca representamos a la contraparte.</p></div>
+              <div class="card-luxe rounded-2xl p-6" data-reveal style="--d:200ms"><i data-lucide="swords" class="h-6 w-6 text-oro"></i><p class="mt-4 font-display text-lg tracking-wide">Agresividad estratégica</p><p class="mt-2 text-sm leading-relaxed text-platino">Firmeza en audiencia, recursos a tiempo y presión técnica donde corresponde.</p></div>
+              <div class="card-luxe rounded-2xl p-6" data-reveal style="--d:250ms"><i data-lucide="eye" class="h-6 w-6 text-oro"></i><p class="mt-4 font-display text-lg tracking-wide">Honestidad transparente</p><p class="mt-2 text-sm leading-relaxed text-platino">Le decimos los riesgos reales, los costos y los tiempos desde la primera consulta.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proceso -->
+        <div class="mt-24">
+          <h3 class="text-center font-display text-2xl tracking-wide" data-reveal>Cómo trabajamos su caso</h3>
+          <ol class="mt-10 grid gap-4 md:grid-cols-5">
+            <li class="relative rounded-2xl border hairline p-5" data-reveal style="--d:50ms"><p class="font-display text-3xl text-oro/70">01</p><p class="mt-3 font-medium">Contacto confidencial</p><p class="mt-1 text-sm text-platino">Escuchamos los hechos y evaluamos la urgencia.</p></li>
+            <li class="relative rounded-2xl border hairline p-5" data-reveal style="--d:120ms"><p class="font-display text-3xl text-oro/70">02</p><p class="mt-3 font-medium">Diagnóstico jurídico</p><p class="mt-1 text-sm text-platino">Revisión de carpeta, documentos y riesgos.</p></li>
+            <li class="relative rounded-2xl border hairline p-5" data-reveal style="--d:190ms"><p class="font-display text-3xl text-oro/70">03</p><p class="mt-3 font-medium">Estrategia</p><p class="mt-1 text-sm text-platino">Ruta procesal, escenarios y presupuesto claro.</p></li>
+            <li class="relative rounded-2xl border hairline p-5" data-reveal style="--d:260ms"><p class="font-display text-3xl text-oro/70">04</p><p class="mt-3 font-medium">Defensa y litigio</p><p class="mt-1 text-sm text-platino">Audiencias, recursos y amparos en tiempo.</p></li>
+            <li class="relative rounded-2xl border hairline p-5" data-reveal style="--d:330ms"><p class="font-display text-3xl text-oro/70">05</p><p class="mt-3 font-medium">Seguimiento</p><p class="mt-1 text-sm text-platino">Informes periódicos hasta concluir el asunto.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONSULTA CONFIDENCIAL ===================== -->
+    <section id="consulta" class="relative border-t hairline py-24 sm:py-32" aria-labelledby="con-title">
+      <div class="mx-auto grid max-w-[1600px] gap-14 px-4 sm:px-6 lg:grid-cols-12 lg:gap-16 lg:px-10">
+        <div class="lg:col-span-4">
+          <div class="lg:sticky lg:top-32">
+            <p class="eyebrow" data-reveal>Consulta confidencial</p>
+            <h2 id="con-title" class="mt-5 font-display text-3xl leading-[1.15] sm:text-4xl" data-reveal style="--d:100ms">Agende con <span class="text-gradient-oro">total discreción</span>.</h2>
+            <p class="mt-6 text-platino" data-reveal style="--d:200ms">Elija modalidad, día y hora. Su información se envía directamente al bufete y queda bajo secreto profesional.</p>
+            <ul class="mt-10 space-y-4 text-sm text-platino" data-reveal style="--d:300ms">
+              <li class="flex gap-3"><i data-lucide="clock" class="mt-0.5 h-4 w-4 shrink-0 text-oro"></i> Consultas: lunes a viernes 9:00 – 19:00 · sábado 10:00 – 14:00</li>
+              <li class="flex gap-3"><i data-lucide="video" class="mt-0.5 h-4 w-4 shrink-0 text-oro"></i> Videoconferencia para clientes fuera de Aguascalientes</li>
+              <li class="flex gap-3"><i data-lucide="siren" class="mt-0.5 h-4 w-4 shrink-0 text-oro"></i> ¿Es una detención en curso? No agende: <a href="tel:+524494159466" class="text-white underline underline-offset-4">llame ya</a>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="lg:col-span-8">
+          <div class="card-luxe rounded-[28px] p-5 sm:p-8 lg:p-10" data-reveal="scale">
+            <div class="flex items-center gap-2 text-[0.65rem] uppercase tracking-[0.2em] text-acero-light"><i data-lucide="shield-check" class="h-4 w-4"></i> Formulario protegido · secreto profesional</div>
+            <ol class="mt-6 grid grid-cols-3 gap-2" aria-label="Pasos de la consulta">
+              <li class="bk-ind" data-ind="1"><span class="block h-1 rounded-full bg-white/10"><span class="block h-1 rounded-full bg-oro transition-all duration-700"></span></span><span class="mt-2 block text-[0.65rem] uppercase tracking-[0.18em] text-platino">Modalidad</span></li>
+              <li class="bk-ind" data-ind="2"><span class="block h-1 rounded-full bg-white/10"><span class="block h-1 rounded-full bg-oro transition-all duration-700"></span></span><span class="mt-2 block text-[0.65rem] uppercase tracking-[0.18em] text-platino">Fecha y hora</span></li>
+              <li class="bk-ind" data-ind="3"><span class="block h-1 rounded-full bg-white/10"><span class="block h-1 rounded-full bg-oro transition-all duration-700"></span></span><span class="mt-2 block text-[0.65rem] uppercase tracking-[0.18em] text-platino">Sus datos</span></li>
+            </ol>
+
+            <form id="bk-form" class="mt-8" novalidate>
+              <div class="step-panel" data-step="1">
+                <h3 class="font-display text-2xl tracking-wide">¿Cómo prefiere su consulta?</h3>
+                <div id="bk-modes" class="mt-6 grid gap-3 sm:grid-cols-3"></div>
+                <label for="bk-area" class="mt-8 block text-sm text-platino">Materia del asunto</label>
+                <select id="bk-area" class="field mt-2"></select>
+              </div>
+
+              <div class="step-panel hidden" data-step="2">
+                <h3 class="font-display text-2xl tracking-wide">Elija día y hora</h3>
+                <div class="mt-6 flex items-end justify-between gap-4">
+                  <p class="text-sm text-platino">Días hábiles <span id="bk-month" class="ml-1 text-white"></span></p>
+                  <div class="flex gap-2">
+                    <button type="button" class="press grid h-10 w-10 place-items-center rounded-full border border-white/10 hover:border-oro focus-ring disabled:opacity-30" id="bk-prev" aria-label="Días anteriores"><i data-lucide="chevron-left" class="h-4 w-4"></i></button>
+                    <button type="button" class="press grid h-10 w-10 place-items-center rounded-full border border-white/10 hover:border-oro focus-ring disabled:opacity-30" id="bk-next-days" aria-label="Más días"><i data-lucide="chevron-right" class="h-4 w-4"></i></button>
+                  </div>
+                </div>
+                <div id="bk-dates" class="mt-4 grid grid-cols-3 gap-2 xs:grid-cols-6" role="group" aria-label="Fechas disponibles"></div>
+                <p class="field-error" id="bk-err-date"></p>
+                <div id="bk-slots-wrap" class="mt-4 hidden">
+                  <p class="text-sm text-platino">Horarios disponibles</p>
+                  <div id="bk-slots" class="mt-3 grid grid-cols-3 gap-2 xs:grid-cols-4 sm:grid-cols-6" role="radiogroup" aria-label="Horarios"></div>
+                </div>
+                <p class="field-error" id="bk-err-slot"></p>
+              </div>
+
+              <div class="step-panel hidden" data-step="3">
+                <h3 class="font-display text-2xl tracking-wide">Datos estrictamente confidenciales</h3>
+                <div class="mt-6 grid gap-4 sm:grid-cols-2">
+                  <div class="sm:col-span-2">
+                    <label for="bk-name" class="text-sm text-platino">Nombre completo</label>
+                    <input id="bk-name" class="field mt-2" autocomplete="name" placeholder="Nombre y apellidos" />
+                    <p class="field-error" data-err-for="bk-name"></p>
+                  </div>
+                  <div>
+                    <label for="bk-phone" class="text-sm text-platino">Teléfono (10 dígitos)</label>
+                    <input id="bk-phone" class="field mt-2" type="tel" inputmode="numeric" autocomplete="tel" placeholder="449 123 4567" />
+                    <p class="field-error" data-err-for="bk-phone"></p>
+                  </div>
+                  <div>
+                    <label for="bk-email" class="text-sm text-platino">Correo electrónico</label>
+                    <input id="bk-email" class="field mt-2" type="email" autocomplete="email" placeholder="correo@ejemplo.com" />
+                    <p class="field-error" data-err-for="bk-email"></p>
+                  </div>
+                  <div class="sm:col-span-2">
+                    <label for="bk-summary" class="text-sm text-platino">Resumen del caso <span class="text-white/40">(bajo secreto profesional)</span></label>
+                    <textarea id="bk-summary" rows="4" maxlength="600" class="field mt-2 resize-none" placeholder="Describa brevemente la situación, fechas relevantes y si existe carpeta de investigación o expediente."></textarea>
+                    <div class="flex justify-between"><p class="field-error" data-err-for="bk-summary"></p><p class="mt-1 text-[0.7rem] text-white/40"><span id="bk-count">0</span>/600</p></div>
+                  </div>
+                </div>
+                <label class="mt-2 flex items-start gap-3 text-sm text-platino">
+                  <input id="bk-privacy" type="checkbox" class="mt-1 h-4 w-4 accent-[#c5a059]" />
+                  <span>He leído el <button type="button" class="text-white underline underline-offset-4" data-legal="privacidad">aviso de privacidad</button> y autorizo el uso de mis datos para atender mi consulta.</span>
+                </label>
+                <p class="field-error" data-err-for="bk-privacy"></p>
+              </div>
+
+              <div class="step-panel hidden text-center" data-step="4" id="bk-success" tabindex="-1">
+                <span class="mx-auto grid h-16 w-16 place-items-center rounded-full bg-acero/15 text-acero-light"><i data-lucide="shield-check" class="h-8 w-8"></i></span>
+                <p class="mt-6 eyebrow">Solicitud registrada</p>
+                <h3 class="mt-3 font-display text-2xl tracking-wide sm:text-3xl">Gracias, <span id="bk-s-name"></span>.</h3>
+                <p class="mt-3 text-platino">Folio de seguimiento <strong id="bk-s-folio" class="font-mono text-oro-light"></strong></p>
+                <p class="mx-auto mt-2 max-w-md break-all font-mono text-[0.65rem] text-platino/70">Huella SHA-256: <span id="bk-s-hash"></span></p>
+                <dl id="bk-s-summary" class="mx-auto mt-8 grid max-w-lg gap-3 text-left text-sm sm:grid-cols-2"></dl>
+                <p class="mx-auto mt-8 max-w-md text-sm text-platino">Para confirmar la cita envíe su solicitud al bufete por WhatsApp. Le responderemos a la brevedad.</p>
+                <div class="mt-6 flex flex-col justify-center gap-3 xs:flex-row">
+                  <a id="bk-s-wa" href="#" target="_blank" rel="noopener" class="btn btn-oro px-6 py-4 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Confirmar por WhatsApp</a>
+                  <a id="bk-s-mail" href="#" class="btn btn-ghost px-6 py-4 text-sm"><i data-lucide="mail" class="h-4 w-4"></i> Enviar por correo</a>
+                </div>
+                <button type="button" id="bk-new" class="mt-6 text-sm text-platino underline-offset-4 hover:text-white hover:underline">Agendar otra consulta</button>
+              </div>
+
+              <div id="bk-nav" class="mt-10 flex items-center justify-between gap-3 border-t hairline pt-6">
+                <button type="button" id="bk-back" class="btn btn-ghost px-6 py-3.5 text-sm" disabled><i data-lucide="arrow-left" class="h-4 w-4"></i> Atrás</button>
+                <p id="bk-mini" class="hidden flex-1 truncate text-center text-xs text-platino sm:block"></p>
+                <button type="button" id="bk-next" class="btn btn-oro px-6 py-3.5 text-sm">Continuar <i data-lucide="arrow-right" class="h-4 w-4"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="border-t hairline bg-grafito/30 py-24 sm:py-32" aria-labelledby="faq-title">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6">
+        <p class="eyebrow text-center" data-reveal>Preguntas frecuentes</p>
+        <h2 id="faq-title" class="mt-5 text-center font-display text-3xl sm:text-4xl" data-reveal style="--d:100ms">Antes de llamarnos</h2>
+        <div class="mt-12 divide-y divide-[rgba(197,160,89,0.2)] border-y hairline" data-reveal style="--d:200ms">
+          <details class="group py-6">
+            <summary class="flex items-center justify-between gap-6 text-left text-lg font-medium focus-ring rounded-lg">¿Qué hago si detienen a un familiar? <i data-lucide="plus" class="faq-icon h-5 w-5 shrink-0 text-oro"></i></summary>
+            <p class="mt-4 leading-relaxed text-platino">Llame de inmediato a la línea de urgencias 24/7. Pida que no declare ni firme nada sin abogado, y reúna los datos que tenga: corporación, lugar y hora de la detención. Nosotros localizamos a la persona y nos presentamos ante el Ministerio Público.</p>
+          </details>
+          <details class="group py-6">
+            <summary class="flex items-center justify-between gap-6 text-left text-lg font-medium focus-ring rounded-lg">¿La primera consulta tiene costo? <i data-lucide="plus" class="faq-icon h-5 w-5 shrink-0 text-oro"></i></summary>
+            <p class="mt-4 leading-relaxed text-platino">Le informamos el costo y las condiciones al agendar, antes de la cita. Al terminar el diagnóstico recibe una propuesta de honorarios por escrito, sin sorpresas.</p>
+          </details>
+          <details class="group py-6">
+            <summary class="flex items-center justify-between gap-6 text-left text-lg font-medium focus-ring rounded-lg">¿Atienden asuntos fuera de Aguascalientes? <i data-lucide="plus" class="faq-icon h-5 w-5 shrink-0 text-oro"></i></summary>
+            <p class="mt-4 leading-relaxed text-platino">Sí. Atendemos asuntos del fuero común y federal en Aguascalientes y, según el caso, en otras entidades del país. Las consultas pueden hacerse por videoconferencia.</p>
+          </details>
+          <details class="group py-6">
+            <summary class="flex items-center justify-between gap-6 text-left text-lg font-medium focus-ring rounded-lg">¿Lo que les cuento es confidencial? <i data-lucide="plus" class="faq-icon h-5 w-5 shrink-0 text-oro"></i></summary>
+            <p class="mt-4 leading-relaxed text-platino">Totalmente. Toda la información que nos comparte está protegida por el secreto profesional y no se comparte con terceros ni con autoridades sin su consentimiento.</p>
+          </details>
+          <details class="group py-6">
+            <summary class="flex items-center justify-between gap-6 text-left text-lg font-medium focus-ring rounded-lg">Me llegó un citatorio del Ministerio Público, ¿debo ir? <i data-lucide="plus" class="faq-icon h-5 w-5 shrink-0 text-oro"></i></summary>
+            <p class="mt-4 leading-relaxed text-platino">No acuda solo. Antes de presentarse, un abogado debe revisar en qué calidad lo citan (testigo, víctima o investigado) y prepararlo. Agende una consulta o llámenos con el citatorio en mano.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="contacto" class="border-t hairline bg-black/40 pt-20">
+    <div class="mx-auto grid max-w-[1600px] gap-12 px-4 sm:px-6 md:grid-cols-2 lg:grid-cols-12 lg:px-10">
+      <div class="lg:col-span-4">
+        <div class="flex items-center gap-4">
+          <svg class="h-16 w-16 text-oro" aria-hidden="true"><use href="#mk-seal" /></svg>
+          <div>
+            <p class="font-display text-lg tracking-[0.18em]">MK NACIONAL <span class="text-oro">|</span> BOGACIA</p>
+            <p class="font-script text-3xl text-oro-light">MK Firma de Abogados</p>
+          </div>
+        </div>
+        <p class="mt-6 max-w-sm text-sm leading-relaxed text-platino">Inteligencia jurídica · Estrategia jurídica. Bufete de defensa penal y amparo fundado en 2002 y dirigido por el Lic. Markos Tiberio Macías Ponce.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="https://www.facebook.com/search/top?q=MK%20Firma%20de%20Abogados" target="_blank" rel="noopener" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 transition-colors hover:border-oro hover:text-oro focus-ring" aria-label="Facebook de MK Firma de Abogados"><i data-lucide="facebook" class="h-[18px] w-[18px]"></i></a>
+          <a href="https://wa.me/524494159466" target="_blank" rel="noopener" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 transition-colors hover:border-oro hover:text-oro focus-ring" aria-label="WhatsApp del bufete"><i data-lucide="message-circle" class="h-[18px] w-[18px]"></i></a>
+          <a href="mailto:mk.firmadeabogados@hotmail.com" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 transition-colors hover:border-oro hover:text-oro focus-ring" aria-label="Correo del bufete"><i data-lucide="mail" class="h-[18px] w-[18px]"></i></a>
+        </div>
+      </div>
+      <div class="lg:col-span-3">
+        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-oro">Contacto directo</p>
+        <ul class="mt-5 space-y-3 text-sm text-platino">
+          <li><a class="flex items-center gap-3 hover:text-white" href="tel:+524494159466"><i data-lucide="siren" class="h-4 w-4 text-red-400"></i> Urgencias 24/7 · 449 415 9466</a></li>
+          <li><a class="flex items-center gap-3 hover:text-white" href="tel:+524499635475"><i data-lucide="phone" class="h-4 w-4 text-oro"></i> Oficina · 449 963 5475</a></li>
+          <li><a class="flex items-center gap-3 break-all hover:text-white" href="mailto:mk.firmadeabogados@hotmail.com"><i data-lucide="mail" class="h-4 w-4 shrink-0 text-oro"></i> mk.firmadeabogados@hotmail.com</a></li>
+        </ul>
+      </div>
+      <div class="lg:col-span-2">
+        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-oro">Oficina</p>
+        <address class="mt-5 space-y-2 text-sm not-italic text-platino">
+          <p>Jesús María, Aguascalientes<br />C.P. 20920, México</p>
+          <p class="text-white/50">Atención con cita previa.</p>
+          <a class="inline-flex items-center gap-2 text-white hover:text-oro" href="https://www.google.com/maps/search/?api=1&query=Jes%C3%BAs+Mar%C3%ADa+Aguascalientes+20920" target="_blank" rel="noopener"><i data-lucide="map-pin" class="h-4 w-4 text-oro"></i> Ver en el mapa</a>
+        </address>
+      </div>
+      <div class="lg:col-span-3">
+        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-oro">Horario</p>
+        <ul class="mt-5 space-y-2 text-sm text-platino">
+          <li class="flex justify-between gap-4"><span>Lunes a viernes</span><span class="text-white">9:00 – 19:00</span></li>
+          <li class="flex justify-between gap-4"><span>Sábado</span><span class="text-white">10:00 – 14:00</span></li>
+          <li class="flex justify-between gap-4"><span>Urgencias penales</span><span class="text-white">24/7</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mx-auto mt-16 max-w-[1600px] px-4 sm:px-6 lg:px-10">
+      <div class="divider-oro"></div>
+      <div class="flex flex-col gap-4 py-8 text-xs text-platino lg:flex-row lg:items-center lg:justify-between">
+        <p>© <span data-year></span> MK Firma de Abogados · MK Nacional | Bogacia.</p>
+        <div class="flex flex-wrap gap-x-5 gap-y-2">
+          <button type="button" class="hover:text-white" data-legal="privacidad">Aviso de privacidad</button>
+          <button type="button" class="hover:text-white" data-legal="secreto">Protocolo de secreto profesional</button>
+          <button type="button" class="hover:text-white" data-legal="legal">Aviso legal</button>
+          <p>Sitio diseñado y desarrollado por <span class="font-semibold text-oro-light">LKM’r</span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de urgencias -->
+  <button type="button" class="btn btn-alert fixed bottom-4 right-4 z-40 bg-[#1a0d0e]/90 px-5 py-3.5 text-sm shadow-[0_10px_40px_rgba(239,68,68,0.25)] backdrop-blur-md sm:bottom-6 sm:right-6" data-open-urgent style="margin-bottom: env(safe-area-inset-bottom);">
+    <span class="alert-dot inline-block h-2 w-2 rounded-full bg-red-500"></span> Urgencia penal 24/7
+  </button>
+
+  <!-- ===================== PANEL DE URGENCIAS ===================== -->
+  <div id="urgent-drawer" class="overlay" role="dialog" aria-modal="true" aria-labelledby="ug-title" aria-hidden="true">
+    <div class="overlay-backdrop" data-close></div>
+    <aside class="drawer-panel flex flex-col border-l border-red-500/20 bg-noche">
+      <div class="flex items-center justify-between border-b border-red-500/20 p-5 sm:p-6">
+        <div>
+          <p class="flex items-center gap-2 text-[0.6rem] uppercase tracking-luxe text-red-300"><span class="alert-dot inline-block h-2 w-2 rounded-full bg-red-500"></span> Equipo de guardia</p>
+          <h2 id="ug-title" class="mt-1 font-display text-xl tracking-wide">Urgencias Penales 24/7</h2>
+        </div>
+        <button type="button" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 focus-ring" data-close aria-label="Cerrar panel de urgencias"><i data-lucide="x" class="h-5 w-5"></i></button>
+      </div>
+      <div class="flex-1 overflow-y-auto p-5 sm:p-6">
+        <div id="ug-form-wrap">
+          <a href="tel:+524494159466" class="btn btn-alert w-full py-4 text-sm"><i data-lucide="phone-call" class="h-4 w-4"></i> Llamada inmediata · 449 415 9466</a>
+          <p class="my-6 flex items-center gap-4 text-[0.65rem] uppercase tracking-[0.2em] text-platino"><span class="h-px flex-1 bg-white/10"></span>o envíe una alerta<span class="h-px flex-1 bg-white/10"></span></p>
+          <form id="ug-form" class="space-y-4" novalidate>
+            <div>
+              <label for="ug-name" class="text-sm text-platino">Su nombre</label>
+              <input id="ug-name" class="field mt-2" autocomplete="name" placeholder="Nombre de quien solicita" />
+              <p class="field-error" data-err-for="ug-name"></p>
+            </div>
+            <div>
+              <label for="ug-phone" class="text-sm text-platino">Teléfono directo</label>
+              <input id="ug-phone" class="field mt-2" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10 dígitos" />
+              <p class="field-error" data-err-for="ug-phone"></p>
+            </div>
+            <div>
+              <p class="text-sm text-platino">Situación legal actual</p>
+              <div id="ug-types" class="mt-2 flex flex-wrap gap-2"></div>
+            </div>
+            <div>
+              <label for="ug-desc" class="text-sm text-platino">Descripción breve</label>
+              <textarea id="ug-desc" rows="3" maxlength="400" class="field mt-2 resize-none" placeholder="¿Dónde y cuándo ocurrió? ¿Qué corporación intervino?"></textarea>
+              <p class="field-error" data-err-for="ug-desc"></p>
+            </div>
+            <button type="submit" class="btn btn-oro w-full py-4 text-sm"><i data-lucide="siren" class="h-4 w-4"></i> Enviar alerta prioritaria</button>
+            <p class="text-center text-[0.7rem] text-platino/80"><i data-lucide="lock" class="mr-1 inline h-3 w-3"></i>Información protegida por secreto profesional.</p>
+          </form>
+        </div>
+        <div id="ug-done" class="hidden text-center">
+          <span class="mx-auto mt-6 grid h-16 w-16 place-items-center rounded-full bg-red-500/15 text-red-300"><i data-lucide="radio-tower" class="h-8 w-8"></i></span>
+          <p class="mt-6 text-[0.65rem] uppercase tracking-luxe text-red-300">Alerta generada</p>
+          <h3 class="mt-3 font-display text-2xl tracking-wide">Folio <span id="ug-folio" class="text-oro-light"></span></h3>
+          <ol id="ug-log" class="mx-auto mt-6 max-w-xs space-y-2 text-left text-sm text-platino"></ol>
+          <p class="mt-6 text-sm text-platino">Toque el botón para entregar la alerta al abogado de guardia por WhatsApp. Si no recibe respuesta en minutos, llame directamente.</p>
+          <a id="ug-wa" href="#" target="_blank" rel="noopener" class="btn btn-oro mt-6 w-full py-4 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Entregar alerta por WhatsApp</a>
+          <a href="tel:+524494159466" class="btn btn-alert mt-3 w-full py-4 text-sm"><i data-lucide="phone-call" class="h-4 w-4"></i> Llamar ahora</a>
+          <button type="button" id="ug-new" class="mt-5 text-xs text-platino hover:text-white">Nueva alerta</button>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ===================== MODAL DE PROTOCOLO ===================== -->
+  <div id="area-modal" class="overlay" role="dialog" aria-modal="true" aria-labelledby="am-title" aria-hidden="true">
+    <div class="overlay-backdrop" data-close></div>
+    <div class="absolute inset-0 flex items-end justify-center sm:items-center sm:p-6" data-close-self>
+      <div class="modal-panel relative max-h-[94svh] w-full max-w-3xl overflow-y-auto rounded-t-[28px] border hairline bg-grafito sm:rounded-[28px]">
+        <button type="button" class="press absolute right-4 top-4 z-10 grid h-11 w-11 place-items-center rounded-full border border-white/15 bg-black/50 focus-ring" data-close aria-label="Cerrar protocolo"><i data-lucide="x" class="h-5 w-5"></i></button>
+        <div class="relative overflow-hidden border-b hairline p-6 sm:p-10">
+          <div class="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-oro/10 blur-3xl" aria-hidden="true"></div>
+          <span id="am-icon" class="relative grid h-14 w-14 place-items-center rounded-2xl border border-oro/30 bg-oro/10 text-oro"></span>
+          <p class="relative mt-6 eyebrow">Protocolo de defensa</p>
+          <h3 id="am-title" class="relative mt-3 pr-10 font-display text-2xl tracking-wide sm:text-3xl"></h3>
+          <p id="am-intro" class="relative mt-4 leading-relaxed text-platino"></p>
+        </div>
+        <div class="grid gap-8 p-6 sm:p-10 md:grid-cols-2">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-oro">Qué atendemos</p>
+            <ul id="am-scope" class="mt-4 space-y-2.5 text-sm text-platino"></ul>
+          </div>
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-oro">Nuestro protocolo</p>
+            <ol id="am-steps" class="mt-4 space-y-4"></ol>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3 border-t hairline p-6 sm:flex-row sm:items-center sm:justify-between sm:p-10">
+          <p id="am-when" class="text-sm text-platino"></p>
+          <a href="#consulta" class="btn btn-oro shrink-0 px-6 py-3.5 text-sm" id="am-cta"><i data-lucide="lock" class="h-4 w-4"></i> Consultar mi caso</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal legal -->
+  <div id="legal-modal" class="overlay" role="dialog" aria-modal="true" aria-labelledby="lg-title" aria-hidden="true">
+    <div class="overlay-backdrop" data-close></div>
+    <div class="absolute inset-0 flex items-center justify-center p-4" data-close-self>
+      <div class="modal-panel relative max-h-[85svh] w-full max-w-2xl overflow-y-auto rounded-[28px] border hairline bg-grafito p-6 sm:p-10">
+        <button type="button" class="press absolute right-4 top-4 grid h-11 w-11 place-items-center rounded-full border border-white/15 focus-ring" data-close aria-label="Cerrar"><i data-lucide="x" class="h-5 w-5"></i></button>
+        <h2 id="lg-title" class="pr-12 font-display text-2xl tracking-wide"></h2>
+        <div id="lg-body" class="mt-6 space-y-4 text-sm leading-relaxed text-platino"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="fixed bottom-24 left-1/2 z-[95] flex max-w-[92vw] items-center gap-3 rounded-full border hairline bg-grafito/95 px-5 py-3 text-sm shadow-oro-lg backdrop-blur" role="status" aria-live="polite">
+    <i data-lucide="check-circle-2" class="h-4 w-4 shrink-0 text-acero-light"></i><span id="toast-text"></span>
+  </div>
+
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script>
+  (() => {
+    'use strict';
+
+    /* =========================================================
+       CONFIGURACIÓN Y DATOS
+       ========================================================= */
+    const CONFIG = {
+      whatsapp: '524494159466',
+      email: 'mk.firmadeabogados@hotmail.com',
+      timeZone: 'America/Mexico_City',
+      daysAhead: 30,
+      founded: 2002,
+      // 0 = domingo … 6 = sábado. null = sin consultas programadas.
+      hours: { 0: null, 1: [9, 19], 2: [9, 19], 3: [9, 19], 4: [9, 19], 5: [9, 19], 6: [10, 14] },
+      modes: [
+        { id: 'presencial', label: 'Presencial en oficina', icon: 'building-2', desc: 'Jesús María, Aguascalientes. 60 min.' },
+        { id: 'video', label: 'Videoconferencia segura', icon: 'video', desc: 'Enlace privado de un solo uso. 45 min.' },
+        { id: 'llamada', label: 'Valoración telefónica', icon: 'phone', desc: 'Diagnóstico inicial y presupuesto. 20 min.' },
+      ],
+      urgentTypes: ['Detención en curso', 'Orden de aprehensión', 'Cateo', 'Citatorio del MP', 'Investigación en mi contra', 'Otra'],
+    };
+
+    const AREAS = [
+      { id: 'penal', group: 'penal', icon: 'gavel', title: 'Derecho Penal Estratégico y Litigio Oral',
+        short: 'Defensa integral en el sistema acusatorio: desde la detención hasta la sentencia y sus recursos.',
+        intro: 'Representamos a personas investigadas, imputadas o acusadas en todas las etapas del procedimiento penal acusatorio, con una estrategia que se diseña desde la primera hora y se ejecuta con litigio oral de alto nivel.',
+        scope: ['Delitos patrimoniales, contra la salud, violencia familiar, homicidio y lesiones', 'Audiencia inicial: control de detención, imputación y vinculación a proceso', 'Medidas cautelares y revisión de prisión preventiva', 'Juicio oral, apelación y recursos', 'Asesoría jurídica a víctimas y reparación del daño'],
+        steps: [['Intervención inmediata', 'Localización, entrevista privada y acceso a la carpeta de investigación.'], ['Teoría del caso', 'Análisis de pruebas, contradicciones y nulidades.'], ['Audiencia inicial', 'Debate de la detención, la imputación y las medidas cautelares.'], ['Ruta de salida', 'Salida alterna, procedimiento abreviado o juicio oral, según convenga.']],
+        when: 'Llámenos antes de declarar o al primer contacto con la autoridad.' },
+      { id: 'cuello', group: 'empresa', icon: 'briefcase', title: 'Delitos de Cuello Blanco y Blindaje Corporativo',
+        short: 'Fraude, administración fraudulenta, delitos fiscales y defensa de directivos y empresas.',
+        intro: 'Defendemos a empresarios, directivos y personas morales frente a investigaciones por delitos económicos, cuidando al mismo tiempo la operación del negocio y la reputación de la empresa.',
+        scope: ['Fraude, abuso de confianza y administración fraudulenta', 'Delitos fiscales y defraudación', 'Operaciones con recursos de procedencia ilícita', 'Responsabilidad penal de personas morales', 'Investigaciones internas y gestión de crisis'],
+        steps: [['Contención', 'Evaluación del riesgo penal y patrimonial de la empresa y sus directivos.'], ['Auditoría jurídica', 'Revisión documental y contable con peritos independientes.'], ['Defensa coordinada', 'Estrategia penal alineada con la fiscal, mercantil y de reputación.'], ['Blindaje', 'Medidas para evitar congelamientos, embargos y nuevas contingencias.']],
+        when: 'Ideal al recibir un requerimiento, una denuncia o una auditoría.' },
+      { id: 'amparo', group: 'amparo', icon: 'shield', title: 'Juicios de Amparo y Protección Constitucional',
+        short: 'Amparo indirecto y directo contra órdenes de aprehensión, detenciones y actos de autoridad.',
+        intro: 'El amparo es la herramienta más poderosa para frenar actos de autoridad que violan derechos humanos. Lo promovemos con rapidez y precisión técnica para obtener la suspensión y la protección de la justicia federal.',
+        scope: ['Amparo contra órdenes de aprehensión y comparecencia', 'Amparo contra detenciones ilegales e incomunicación', 'Amparo contra autos de vinculación a proceso y sentencias', 'Amparo contra congelamiento de cuentas y embargos', 'Amparo en materia administrativa y fiscal'],
+        steps: [['Identificación del acto', 'Definimos la autoridad responsable y el derecho violado.'], ['Demanda y suspensión', 'Solicitamos la suspensión provisional para detener el acto.'], ['Audiencia constitucional', 'Pruebas y alegatos ante el juez de distrito.'], ['Recursos', 'Revisión o queja hasta lograr la protección definitiva.']],
+        when: 'Actúe antes de que la autoridad ejecute el acto: el tiempo es decisivo.' },
+      { id: 'penitenciario', group: 'penal', icon: 'door-open', title: 'Derecho Penitenciario y Ejecución de Sanciones',
+        short: 'Beneficios preliberacionales, libertad anticipada y defensa de derechos en reclusión.',
+        intro: 'Acompañamos a personas privadas de la libertad y a sus familias ante el juez de ejecución para obtener beneficios, corregir el cómputo de la pena y defender sus derechos dentro del centro penitenciario.',
+        scope: ['Libertad condicionada y libertad anticipada', 'Sustitución y suspensión temporal de la pena', 'Revisión del cómputo y reducción de la pena', 'Traslados y condiciones de internamiento', 'Quejas por violación de derechos en reclusión'],
+        steps: [['Revisión del expediente', 'Cómputo de la pena y requisitos para cada beneficio.'], ['Integración', 'Reunimos constancias, estudios y plan de reinserción.'], ['Audiencia de ejecución', 'Litigamos el beneficio ante el juez de ejecución.'], ['Seguimiento', 'Cumplimiento de condiciones hasta la libertad plena.']],
+        when: 'Revise el caso en cuanto la sentencia quede firme.' },
+      { id: 'prevencion', group: 'empresa', icon: 'radar', title: 'Consultoría y Prevención de Riesgos Legales',
+        short: 'Compliance penal, protocolos ante cateos y asesoría preventiva para personas y empresas.',
+        intro: 'La mejor defensa es la que no se necesita. Diseñamos programas de prevención para que usted, su familia o su empresa estén protegidos antes de que exista una denuncia.',
+        scope: ['Programas de cumplimiento (compliance) penal', 'Protocolos de actuación ante cateos y visitas de autoridad', 'Revisión jurídica de operaciones y contratos sensibles', 'Planeación patrimonial y protección de bienes', 'Capacitación a directivos y personal'],
+        steps: [['Mapa de riesgos', 'Detectamos exposiciones penales y patrimoniales.'], ['Diseño', 'Políticas, controles y protocolos a la medida.'], ['Implementación', 'Capacitación y acompañamiento al equipo.'], ['Monitoreo', 'Revisión periódica y respuesta ante incidentes.']],
+        when: 'Recomendado antes de operaciones relevantes o al detectar riesgos.' },
+      { id: 'investigacion', group: 'penal', icon: 'search', title: 'Investigación Privada y Análisis Probatorio',
+        short: 'Investigación de campo, peritos y análisis técnico de pruebas para fortalecer la defensa.',
+        intro: 'Una defensa sólida necesita hechos propios. Nuestro equipo realiza investigación independiente y coordina peritos para contrastar la versión de la fiscalía y aportar pruebas de descargo.',
+        scope: ['Investigación de campo y localización de testigos', 'Coordinación de peritos: criminalística, contable, informática', 'Análisis de videos, comunicaciones y evidencia digital', 'Revisión de la cadena de custodia', 'Preparación de testigos para audiencia'],
+        steps: [['Hipótesis', 'Definimos qué hechos necesitamos probar o desvirtuar.'], ['Recolección', 'Investigación de campo y obtención lícita de evidencia.'], ['Peritaje', 'Dictámenes técnicos independientes.'], ['Incorporación', 'Ofrecimiento y defensa de la prueba en audiencia.']],
+        when: 'Útil desde la etapa de investigación hasta el juicio oral.' },
+    ];
+
+    const AREA_TABS = [
+      { id: 'all', label: 'Todas las áreas', icon: 'layout-grid' },
+      { id: 'penal', label: 'Defensa penal', icon: 'gavel' },
+      { id: 'amparo', label: 'Amparo', icon: 'shield' },
+      { id: 'empresa', label: 'Empresas y patrimonio', icon: 'building-2' },
+    ];
+
+    const LEGAL = {
+      privacidad: { title: 'Aviso de privacidad', body: [
+        'MK Firma de Abogados, con domicilio en Jesús María, Aguascalientes, C.P. 20920, es responsable del tratamiento de los datos personales que usted nos proporciona, conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.',
+        'Sus datos (nombre, teléfono, correo y la información de su asunto) se utilizan exclusivamente para atender su consulta, darle seguimiento y, en su caso, prestarle servicios jurídicos. No se transfieren a terceros sin su consentimiento, salvo las excepciones previstas por la ley.',
+        'Este sitio no guarda sus datos en servidores propios: los formularios generan un mensaje que usted envía directamente al bufete por WhatsApp o correo electrónico.',
+        'Para ejercer sus derechos ARCO escriba a mk.firmadeabogados@hotmail.com.',
+      ] },
+      secreto: { title: 'Protocolo de secreto profesional', body: [
+        'Toda comunicación entre usted y el bufete —llamadas, mensajes, documentos y reuniones— está protegida por el secreto profesional del abogado.',
+        'Solo el abogado responsable y el personal estrictamente necesario tienen acceso a su expediente. Los documentos físicos se resguardan bajo llave y los digitales en medios protegidos.',
+        'No confirmamos ni negamos a terceros la existencia de una relación con usted. Las videoconferencias se realizan con enlaces privados de un solo uso.',
+      ] },
+      legal: { title: 'Aviso legal', body: [
+        'La información publicada en este sitio es de carácter general e informativo y no constituye asesoría jurídica para un caso concreto. El envío de un formulario no crea, por sí mismo, una relación abogado-cliente.',
+        'Los resultados de cada asunto dependen de sus hechos, pruebas y circunstancias particulares; ningún resultado anterior garantiza un resultado futuro.',
+        'MK Firma de Abogados, MK Nacional y Bogacia son denominaciones del bufete. Las imágenes del sitio son ilustrativas.',
+      ] },
+    };
+
+    /* =========================================================
+       UTILIDADES
+       ========================================================= */
+    const $ = (s, c = document) => c.querySelector(s);
+    const $$ = (s, c = document) => [...c.querySelectorAll(s)];
+    const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const icons = (root) => window.lucide && lucide.createIcons({ attrs: { 'stroke-width': 1.5 }, ...(root ? { root } : {}) });
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const pad = (n) => String(n).padStart(2, '0');
+    const fmtHour = (h) => `${pad(Math.floor(h))}:${h % 1 ? '30' : '00'}`;
+    const waLink = (text) => `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(text)}`;
+    const folio = (prefix) => `${prefix}-${new Date().getFullYear()}-${Date.now().toString(36).slice(-4).toUpperCase()}${Math.random().toString(36).slice(2, 4).toUpperCase()}`;
+    const spinner = '<svg class="h-4 w-4 animate-spin" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-opacity=".25" stroke-width="3"/><path d="M21 12a9 9 0 0 0-9-9" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>';
+
+    function nowInMexico() {
+      const parts = new Intl.DateTimeFormat('en-US', { timeZone: CONFIG.timeZone, hour12: false, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }).formatToParts(new Date());
+      const get = (t) => Number(parts.find((p) => p.type === t).value);
+      return { y: get('year'), mo: get('month'), d: get('day'), hours: (get('hour') % 24) + get('minute') / 60 };
+    }
+
+    async function sha256(text) {
+      if (!window.crypto || !crypto.subtle) return [...text].reduce((a, c) => ((a << 5) - a + c.charCodeAt(0)) | 0, 0).toString(16).padStart(8, '0');
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+      return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    const toast = (() => {
+      let t;
+      return (msg) => {
+        $('#toast-text').textContent = msg;
+        $('#toast').classList.add('is-shown');
+        clearTimeout(t);
+        t = setTimeout(() => $('#toast').classList.remove('is-shown'), 2800);
+      };
+    })();
+
+    const Validators = {
+      name: (v) => (v.trim().length < 3 ? 'Escriba su nombre completo.' : !/^[\p{L}\s.'-]+$/u.test(v.trim()) ? 'Use solo letras.' : ''),
+      phone: (v) => (v.replace(/\D/g, '').length !== 10 ? 'El teléfono debe tener 10 dígitos.' : ''),
+      email: (v) => (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()) ? 'Escriba un correo válido.' : ''),
+      text: (min) => (v) => (v.trim().length < min ? `Describa la situación (mínimo ${min} caracteres).` : ''),
+    };
+
+    function bindField(id, rule) {
+      const el = $(`#${id}`);
+      const check = () => {
+        const msg = rule(el.value);
+        $(`[data-err-for="${id}"]`).textContent = msg;
+        el.classList.toggle('is-invalid', !!msg);
+        el.classList.toggle('is-valid', !msg);
+        el.setAttribute('aria-invalid', String(!!msg));
+        return !msg;
+      };
+      el.addEventListener('input', () => el.classList.contains('is-invalid') && check());
+      el.addEventListener('blur', () => el.value && check());
+      if (el.type === 'tel') el.addEventListener('input', () => { el.value = el.value.replace(/[^\d\s]/g, '').slice(0, 14); });
+      return check;
+    }
+
+    /* =========================================================
+       OVERLAYS con trampa de foco y ESC
+       ========================================================= */
+    class Overlay {
+      static stack = [];
+      constructor(el) {
+        this.el = el;
+        el.addEventListener('click', (e) => {
+          if (e.target.closest('[data-close]') || e.target.hasAttribute('data-close-self')) this.close();
+        });
+        el.addEventListener('keydown', (e) => this.trap(e));
+      }
+      open(trigger) {
+        this.trigger = trigger || document.activeElement;
+        this.el.classList.add('is-open');
+        this.el.setAttribute('aria-hidden', 'false');
+        document.body.classList.add('is-locked');
+        Overlay.stack.push(this);
+        requestAnimationFrame(() => { const f = this.focusables()[0]; f && f.focus({ preventScroll: true }); });
+      }
+      close() {
+        if (!this.el.classList.contains('is-open')) return;
+        this.el.classList.remove('is-open');
+        this.el.setAttribute('aria-hidden', 'true');
+        Overlay.stack = Overlay.stack.filter((o) => o !== this);
+        if (!Overlay.stack.length) document.body.classList.remove('is-locked');
+        this.onClose && this.onClose();
+        this.trigger && this.trigger.focus && this.trigger.focus({ preventScroll: true });
+      }
+      focusables() {
+        return $$('a[href], button:not([disabled]), input, textarea, select, [tabindex]:not([tabindex="-1"])', this.el).filter((n) => n.offsetParent !== null);
+      }
+      trap(e) {
+        if (e.key !== 'Tab') return;
+        const f = this.focusables();
+        if (!f.length) return;
+        const first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+    }
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && Overlay.stack.length) Overlay.stack[Overlay.stack.length - 1].close();
+    });
+
+    /* =========================================================
+       HEADER
+       ========================================================= */
+    class Header {
+      constructor() {
+        this.el = $('#site-header');
+        this.nav = new Overlay($('#nav-drawer'));
+        this.nav.onClose = () => $('#nav-open').setAttribute('aria-expanded', 'false');
+        $('#nav-open').addEventListener('click', (e) => { this.nav.open(e.currentTarget); e.currentTarget.setAttribute('aria-expanded', 'true'); });
+        $$('[data-close-nav]').forEach((a) => a.addEventListener('click', () => this.nav.close()));
+        const onScroll = () => this.el.classList.toggle('is-scrolled', window.scrollY > 24);
+        onScroll();
+        window.addEventListener('scroll', onScroll, { passive: true });
+        const links = $$('#site-header .nav-link');
+        const map = new Map(links.map((l) => [l.getAttribute('href').slice(1), l]));
+        const io = new IntersectionObserver((entries) => entries.forEach((en) => {
+          if (en.isIntersecting && map.has(en.target.id)) {
+            links.forEach((l) => l.classList.remove('is-active'));
+            map.get(en.target.id).classList.add('is-active');
+          }
+        }), { rootMargin: '-45% 0px -50% 0px' });
+        map.forEach((_, id) => { const s = document.getElementById(id); s && io.observe(s); });
+      }
+    }
+
+    /* =========================================================
+       ÁREAS DE PRÁCTICA + MODAL DE PROTOCOLO
+       ========================================================= */
+    class Practice {
+      constructor() {
+        this.tab = 'all';
+        this.modal = new Overlay($('#area-modal'));
+        $('#area-tabs').innerHTML = AREA_TABS.map((t) => `<button type="button" role="tab" class="chip press" data-tab="${t.id}" aria-selected="${t.id === this.tab}"><i data-lucide="${t.icon}" class="h-4 w-4"></i>${t.label}</button>`).join('');
+        $('#area-tabs').addEventListener('click', (e) => { const b = e.target.closest('[data-tab]'); b && this.setTab(b.dataset.tab); });
+        $('#area-tabs').addEventListener('keydown', (e) => {
+          if (!['ArrowRight', 'ArrowLeft'].includes(e.key)) return;
+          const tabs = $$('[role="tab"]', $('#area-tabs'));
+          const i = tabs.indexOf(document.activeElement);
+          const next = tabs[(i + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length];
+          next.focus(); this.setTab(next.dataset.tab);
+        });
+        $('#area-grid').addEventListener('click', (e) => {
+          const b = e.target.closest('[data-protocol]');
+          b && this.open(AREAS.find((a) => a.id === b.dataset.protocol), b);
+        });
+        $('#am-cta').addEventListener('click', () => {
+          const sel = $('#bk-area');
+          if (sel && this.current) sel.value = this.current.id;
+          this.modal.close();
+        });
+        this.render();
+      }
+      setTab(id) {
+        this.tab = id;
+        $$('[data-tab]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === id)));
+        this.render();
+      }
+      render() {
+        const list = AREAS.filter((a) => this.tab === 'all' || a.group === this.tab);
+        $('#area-grid').innerHTML = list.map((a, i) => `
+          <article class="area-card area-enter card-luxe relative flex flex-col overflow-hidden rounded-[24px] p-7 sm:p-8" style="--d:${i * 70}ms">
+            <div class="area-glow pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-oro/15 blur-3xl"></div>
+            <div class="relative flex items-start justify-between">
+              <span class="grid h-14 w-14 place-items-center rounded-2xl border border-oro/30 bg-oro/10 text-oro"><i data-lucide="${a.icon}" class="h-6 w-6"></i></span>
+              <span class="font-display text-sm text-white/30">0${AREAS.indexOf(a) + 1}</span>
+            </div>
+            <h3 class="relative mt-7 font-display text-xl leading-snug tracking-wide">${esc(a.title)}</h3>
+            <p class="relative mt-3 text-sm leading-relaxed text-platino">${esc(a.short)}</p>
+            <ul class="relative mt-5 space-y-2 text-sm text-platino/90">${a.scope.slice(0, 3).map((s) => `<li class="flex gap-2"><i data-lucide="check" class="mt-0.5 h-4 w-4 shrink-0 text-oro"></i><span>${esc(s)}</span></li>`).join('')}</ul>
+            <button type="button" class="btn btn-ghost relative mt-auto self-start px-5 py-3 text-xs" data-protocol="${a.id}" style="margin-top:1.75rem"><i data-lucide="file-text" class="h-4 w-4"></i> Ver Protocolo de Defensa</button>
+          </article>`).join('');
+        icons($('#area-grid'));
+      }
+      open(a, trigger) {
+        this.current = a;
+        $('#am-icon').innerHTML = `<i data-lucide="${a.icon}" class="h-6 w-6"></i>`;
+        $('#am-title').textContent = a.title;
+        $('#am-intro').textContent = a.intro;
+        $('#am-scope').innerHTML = a.scope.map((s) => `<li class="flex gap-2"><i data-lucide="check" class="mt-0.5 h-4 w-4 shrink-0 text-oro"></i><span>${esc(s)}</span></li>`).join('');
+        $('#am-steps').innerHTML = a.steps.map(([t, d], i) => `<li class="flex gap-4"><span class="grid h-8 w-8 shrink-0 place-items-center rounded-full border border-oro/40 font-display text-xs text-oro">${i + 1}</span><div><p class="text-sm font-medium text-white">${esc(t)}</p><p class="mt-0.5 text-sm text-platino">${esc(d)}</p></div></li>`).join('');
+        $('#am-when').innerHTML = `<i data-lucide="clock" class="mr-2 inline h-4 w-4 text-oro"></i>${esc(a.when)}`;
+        icons($('#area-modal'));
+        this.modal.open(trigger);
+      }
+    }
+
+    /* =========================================================
+       URGENCIAS 24/7
+       ========================================================= */
+    class Urgent {
+      constructor() {
+        this.drawer = new Overlay($('#urgent-drawer'));
+        this.type = CONFIG.urgentTypes[0];
+        $$('[data-open-urgent]').forEach((b) => b.addEventListener('click', () => this.drawer.open(b)));
+        $('#ug-types').innerHTML = CONFIG.urgentTypes.map((t) => `<button type="button" class="chip press !py-2 !text-xs" data-ut="${esc(t)}" aria-pressed="${t === this.type}">${esc(t)}</button>`).join('');
+        $('#ug-types').addEventListener('click', (e) => {
+          const b = e.target.closest('[data-ut]');
+          if (!b) return;
+          this.type = b.dataset.ut;
+          $$('[data-ut]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        });
+        this.checks = [bindField('ug-name', Validators.name), bindField('ug-phone', Validators.phone), bindField('ug-desc', Validators.text(10))];
+        $('#ug-form').addEventListener('submit', (e) => { e.preventDefault(); this.submit(); });
+        $('#ug-new').addEventListener('click', () => this.reset());
+      }
+      submit() {
+        const ok = this.checks.map((c) => c());
+        if (ok.includes(false)) { $('#ug-form .is-invalid').focus(); return; }
+        const btn = $('#ug-form button[type="submit"]');
+        btn.disabled = true;
+        btn.innerHTML = `${spinner} Enviando alerta prioritaria…`;
+        setTimeout(() => {
+          const f = folio('URG');
+          const name = $('#ug-name').value.trim();
+          const phone = $('#ug-phone').value.trim();
+          const desc = $('#ug-desc').value.trim();
+          $('#ug-folio').textContent = f;
+          $('#ug-wa').href = waLink([`🚨 *URGENCIA PENAL ${f}*`, `Situación: ${this.type}`, `Nombre: ${name}`, `Teléfono: ${phone}`, `Detalle: ${desc}`].join('\n'));
+          $('#ug-form-wrap').classList.add('hidden');
+          $('#ug-done').classList.remove('hidden');
+          const log = $('#ug-log');
+          log.innerHTML = '';
+          const steps = ['Alerta cifrada y registrada', `Prioridad: ${this.type}`, 'Lista para el abogado de guardia'];
+          steps.forEach((s, i) => setTimeout(() => {
+            log.insertAdjacentHTML('beforeend', `<li class="area-enter flex items-center gap-2"><i data-lucide="check" class="h-4 w-4 text-acero-light"></i>${esc(s)}</li>`);
+            icons(log);
+          }, i * 350));
+          btn.disabled = false;
+          btn.innerHTML = '<i data-lucide="siren" class="h-4 w-4"></i> Enviar alerta prioritaria';
+          icons(btn);
+          $('#ug-wa').focus();
+        }, 1000);
+      }
+      reset() {
+        $('#ug-form').reset();
+        $$('#ug-form .field').forEach((f) => f.classList.remove('is-invalid', 'is-valid'));
+        $$('#ug-form .field-error').forEach((e) => (e.textContent = ''));
+        $('#ug-form-wrap').classList.remove('hidden');
+        $('#ug-done').classList.add('hidden');
+      }
+    }
+
+    /* =========================================================
+       CONSULTA CONFIDENCIAL (multipasos)
+       ========================================================= */
+    class Booking {
+      constructor() {
+        this.step = 1;
+        this.data = { mode: 'presencial', date: null, slot: null };
+        this.offset = 0;
+        this.days = this.buildDays();
+        $('#bk-modes').innerHTML = CONFIG.modes.map((m) => `
+          <button type="button" class="opt-card press flex flex-col items-start rounded-2xl border border-white/10 p-5 text-left transition-colors hover:border-oro/50 focus-ring" data-mode="${m.id}" aria-pressed="${m.id === this.data.mode}">
+            <i data-lucide="${m.icon}" class="h-6 w-6 text-oro"></i>
+            <span class="mt-4 font-medium">${m.label}</span>
+            <span class="mt-1 text-xs leading-relaxed text-platino">${m.desc}</span>
+          </button>`).join('');
+        $('#bk-modes').addEventListener('click', (e) => {
+          const b = e.target.closest('[data-mode]');
+          if (!b) return;
+          this.data.mode = b.dataset.mode;
+          $$('[data-mode]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+          this.mini();
+        });
+        $('#bk-area').innerHTML = AREAS.map((a) => `<option value="${a.id}">${esc(a.title)}</option>`).join('') + '<option value="otro">Otro / no estoy seguro</option>';
+        $('#bk-prev').addEventListener('click', () => this.shift(-1));
+        $('#bk-next-days').addEventListener('click', () => this.shift(1));
+        $('#bk-dates').addEventListener('click', (e) => {
+          const b = e.target.closest('[data-date]');
+          if (!b) return;
+          this.data.date = b.dataset.date;
+          this.data.slot = null;
+          $('#bk-err-date').textContent = '';
+          this.renderDates();
+          this.renderSlots();
+          this.mini();
+        });
+        $('#bk-slots').addEventListener('click', (e) => {
+          const b = e.target.closest('[data-slot]');
+          if (!b || b.disabled) return;
+          this.data.slot = Number(b.dataset.slot);
+          $('#bk-err-slot').textContent = '';
+          this.renderSlots();
+          this.mini();
+        });
+        this.checks = {
+          name: bindField('bk-name', Validators.name),
+          phone: bindField('bk-phone', Validators.phone),
+          email: bindField('bk-email', Validators.email),
+          summary: bindField('bk-summary', Validators.text(20)),
+        };
+        $('#bk-summary').addEventListener('input', (e) => ($('#bk-count').textContent = e.target.value.length));
+        $('#bk-privacy').addEventListener('change', () => this.checkPrivacy());
+        $('#bk-next').addEventListener('click', () => this.next());
+        $('#bk-back').addEventListener('click', () => this.go(this.step - 1));
+        $('#bk-new').addEventListener('click', () => this.restart());
+        $('#bk-form').addEventListener('submit', (e) => { e.preventDefault(); this.next(); });
+        this.renderDates();
+        this.go(1);
+      }
+      buildDays() {
+        const { y, mo, d } = nowInMexico();
+        const base = new Date(Date.UTC(y, mo - 1, d));
+        const out = [];
+        for (let i = 0; i < CONFIG.daysAhead; i++) {
+          const dt = new Date(base.getTime() + i * 864e5);
+          if (!CONFIG.hours[dt.getUTCDay()]) continue;
+          out.push({ iso: dt.toISOString().slice(0, 10), dow: dt.getUTCDay(), day: dt.getUTCDate(), month: dt.getUTCMonth(), today: i === 0 });
+        }
+        return out.filter((d) => this.slotsFor(d).some((s) => !s.disabled));
+      }
+      slotsFor(day) {
+        const [from, to] = CONFIG.hours[day.dow];
+        const { hours } = nowInMexico();
+        const out = [];
+        for (let h = from; h < to; h += 1) {
+          const seed = [...`${day.iso}${h}`].reduce((a, c) => (a * 31 + c.charCodeAt(0)) % 991, 3);
+          const taken = seed % 4 === 0;
+          const past = day.today && h <= hours + 1;
+          out.push({ h, disabled: taken || past, taken });
+        }
+        return out;
+      }
+      perPage() { return window.innerWidth < 400 ? 6 : 12; }
+      shift(dir) {
+        const pp = this.perPage();
+        this.offset = Math.max(0, Math.min(Math.max(0, this.days.length - pp), this.offset + dir * pp));
+        this.renderDates();
+      }
+      renderDates() {
+        const pp = this.perPage();
+        const dows = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
+        const months = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+        const slice = this.days.slice(this.offset, this.offset + pp);
+        $('#bk-month').textContent = slice.length ? `· ${months[slice[0].month]}${slice[0].month !== slice[slice.length - 1].month ? ` – ${months[slice[slice.length - 1].month]}` : ''}` : '';
+        $('#bk-prev').disabled = this.offset === 0;
+        $('#bk-next-days').disabled = this.offset + pp >= this.days.length;
+        $('#bk-dates').innerHTML = slice.map((d) => `
+          <button type="button" class="date-pill press flex flex-col items-center rounded-2xl border border-white/10 py-3 transition-colors hover:border-oro/50 focus-ring" data-date="${d.iso}" aria-pressed="${this.data.date === d.iso}" aria-label="${dows[d.dow]} ${d.day} de ${months[d.month]}">
+            <span class="text-[0.6rem] uppercase tracking-[0.15em] text-platino">${d.today ? 'Hoy' : dows[d.dow]}</span>
+            <span class="dp-num mt-1 font-display text-2xl">${d.day}</span>
+          </button>`).join('');
+      }
+      renderSlots() {
+        const day = this.days.find((d) => d.iso === this.data.date);
+        $('#bk-slots-wrap').classList.toggle('hidden', !day);
+        if (!day) return;
+        $('#bk-slots').innerHTML = this.slotsFor(day).map((s) => `
+          <button type="button" role="radio" class="chip press justify-center ${s.taken ? 'line-through' : ''}" data-slot="${s.h}" aria-checked="${this.data.slot === s.h}" ${s.disabled ? 'disabled' : ''} title="${s.taken ? 'Ocupado' : s.disabled ? 'No disponible' : 'Disponible'}">${fmtHour(s.h)}</button>`).join('');
+      }
+      dateText() {
+        return new Intl.DateTimeFormat('es-MX', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${this.data.date}T12:00:00Z`));
+      }
+      mini() {
+        const parts = [CONFIG.modes.find((m) => m.id === this.data.mode).label];
+        if (this.data.date) parts.push(new Intl.DateTimeFormat('es-MX', { day: 'numeric', month: 'short', timeZone: 'UTC' }).format(new Date(`${this.data.date}T12:00:00Z`)));
+        if (this.data.slot != null) parts.push(`${fmtHour(this.data.slot)} h`);
+        $('#bk-mini').textContent = parts.join(' · ');
+      }
+      checkPrivacy() {
+        const ok = $('#bk-privacy').checked;
+        $('[data-err-for="bk-privacy"]').textContent = ok ? '' : 'Es necesario aceptar el aviso de privacidad.';
+        return ok;
+      }
+      validate() {
+        if (this.step === 2) {
+          if (!this.data.date) { $('#bk-err-date').textContent = 'Elija un día.'; return false; }
+          if (this.data.slot == null) { $('#bk-err-slot').textContent = 'Elija un horario disponible.'; return false; }
+        }
+        if (this.step === 3) {
+          const ok = [...Object.values(this.checks).map((c) => c()), this.checkPrivacy()];
+          if (ok.includes(false)) { ($('#bk-form .is-invalid') || $('#bk-privacy')).focus(); return false; }
+        }
+        return true;
+      }
+      next() {
+        if (!this.validate()) return;
+        if (this.step === 3) return this.submit();
+        this.go(this.step + 1);
+      }
+      go(step) {
+        if (step < 1) return;
+        this.step = step;
+        $$('#bk-form .step-panel').forEach((p) => p.classList.toggle('hidden', Number(p.dataset.step) !== step));
+        $$('.bk-ind').forEach((li) => {
+          const n = Number(li.dataset.ind);
+          li.querySelector('span > span').style.width = n < step || step === 4 ? '100%' : n === step ? '50%' : '0%';
+          li.querySelector('span:last-child').classList.toggle('text-white', n <= step);
+        });
+        $('#bk-nav').classList.toggle('hidden', step === 4);
+        $('#bk-back').disabled = step === 1;
+        $('#bk-next').innerHTML = step === 3 ? '<i data-lucide="lock" class="h-4 w-4"></i> Enviar de forma segura' : 'Continuar <i data-lucide="arrow-right" class="h-4 w-4"></i>';
+        icons($('#bk-next'));
+        this.mini();
+      }
+      submit() {
+        const btn = $('#bk-next');
+        btn.disabled = true;
+        btn.innerHTML = `${spinner} Cifrando y enviando…`;
+        setTimeout(async () => {
+          const f = folio('MK');
+          const name = $('#bk-name').value.trim();
+          const mode = CONFIG.modes.find((m) => m.id === this.data.mode).label;
+          const area = $('#bk-area').selectedOptions[0].textContent;
+          const when = `${this.dateText()}, ${fmtHour(this.data.slot)} h`;
+          const hash = await sha256(`${f}|${name}|${when}|${Date.now()}`);
+          $('#bk-s-name').textContent = name.split(' ')[0];
+          $('#bk-s-folio').textContent = f;
+          $('#bk-s-hash').textContent = hash;
+          const rows = [['Modalidad', mode], ['Fecha y hora', when], ['Materia', area], ['Contacto', $('#bk-phone').value.trim()]];
+          $('#bk-s-summary').innerHTML = rows.map(([k, v]) => `<div class="rounded-xl border border-white/5 bg-black/20 p-3"><dt class="text-[0.6rem] uppercase tracking-[0.2em] text-platino">${k}</dt><dd class="mt-1">${esc(v)}</dd></div>`).join('');
+          const body = [
+            `Solicitud de consulta confidencial ${f}`,
+            `Nombre: ${name}`,
+            `Modalidad: ${mode}`,
+            `Fecha: ${when}`,
+            `Materia: ${area}`,
+            `Teléfono: ${$('#bk-phone').value.trim()}`,
+            `Correo: ${$('#bk-email').value.trim()}`,
+            `Resumen: ${$('#bk-summary').value.trim()}`,
+          ];
+          $('#bk-s-wa').href = waLink(`⚖️ *${body[0]}*\n${body.slice(1).join('\n')}`);
+          $('#bk-s-mail').href = `mailto:${CONFIG.email}?subject=${encodeURIComponent(body[0])}&body=${encodeURIComponent(body.join('\n'))}`;
+          btn.disabled = false;
+          this.go(4);
+          $('#bk-success').focus({ preventScroll: true });
+          $('#consulta').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
+          toast('Solicitud registrada con folio ' + f);
+        }, 1100);
+      }
+      restart() {
+        $('#bk-form').reset();
+        $$('#bk-form .field').forEach((f) => f.classList.remove('is-invalid', 'is-valid'));
+        $$('#bk-form .field-error').forEach((e) => (e.textContent = ''));
+        $('#bk-count').textContent = '0';
+        this.data = { mode: 'presencial', date: null, slot: null };
+        $$('[data-mode]').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.mode === 'presencial')));
+        this.renderDates();
+        this.renderSlots();
+        this.go(1);
+      }
+    }
+
+    /* =========================================================
+       LEGALES Y EFECTOS
+       ========================================================= */
+    function initLegal() {
+      const modal = new Overlay($('#legal-modal'));
+      $$('[data-legal]').forEach((b) => b.addEventListener('click', () => {
+        const l = LEGAL[b.dataset.legal];
+        $('#lg-title').textContent = l.title;
+        $('#lg-body').innerHTML = l.body.map((p) => `<p>${esc(p)}</p>`).join('');
+        modal.open(b);
+      }));
+    }
+
+    function initEffects() {
+      const io = new IntersectionObserver((entries) => entries.forEach((en) => {
+        if (en.isIntersecting) { en.target.classList.add('is-visible'); io.unobserve(en.target); }
+      }), { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      $$('[data-reveal]').forEach((el) => io.observe(el));
+
+      // Años de trayectoria calculados a partir del año de fundación
+      $$('[data-years]').forEach((el) => {
+        const years = new Date().getFullYear() - CONFIG.founded;
+        el.textContent = `+${years}`;
+        el.nextElementSibling.textContent = `años de práctica desde ${CONFIG.founded}`;
+      });
+
+      if (!reduceMotion && matchMedia('(pointer: fine)').matches) {
+        $$('.magnetic').forEach((b) => {
+          b.addEventListener('mousemove', (e) => {
+            const r = b.getBoundingClientRect();
+            b.style.transform = `translate(${(e.clientX - r.left - r.width / 2) * 0.18}px, ${(e.clientY - r.top - r.height / 2) * 0.28}px) scale(1.05)`;
+          });
+          b.addEventListener('mouseleave', () => (b.style.transform = ''));
+        });
+      }
+
+      document.addEventListener('pointerdown', (e) => {
+        const b = e.target.closest('.btn');
+        if (!b || b.disabled) return;
+        const r = b.getBoundingClientRect();
+        const s = Math.max(r.width, r.height);
+        const rip = document.createElement('span');
+        rip.className = 'ripple';
+        rip.style.cssText = `width:${s}px;height:${s}px;left:${e.clientX - r.left - s / 2}px;top:${e.clientY - r.top - s / 2}px`;
+        b.appendChild(rip);
+        setTimeout(() => rip.remove(), 700);
+      });
+    }
+
+    /* =========================================================
+       ARRANQUE
+       ========================================================= */
+    document.addEventListener('DOMContentLoaded', () => {
+      $$('[data-year]').forEach((n) => (n.textContent = new Date().getFullYear()));
+      new Header();
+      new Practice();
+      new Urgent();
+      new Booking();
+      initLegal();
+      initEffects();
+      icons();
+    });
+  })();
+  </script>
+</body>
+</html>
