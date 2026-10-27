@@ -47,6 +47,11 @@
   .avatar { width: 64px; height: 64px; border-radius: 50%; background: #2a2a31; display: grid; place-items: center; font-size: 30px; font-weight: 800; }
   .redpill { margin-left: auto; padding: 8px 18px; border-radius: 999px; background: rgba(248,113,113,.14); color: #f87171; font-weight: 800; font-size: 26px; }
   .conf { position: absolute; width: 18px; height: 28px; border-radius: 4px; }
+  .hl { position: absolute; top: 120px; left: 40px; right: 40px; text-align: center; font-family: Fraunces, serif; font-weight: 700; font-size: 100px; line-height: 1.02; letter-spacing: -.03em; text-shadow: 0 10px 40px rgba(0,0,0,.6); }
+  .hl em { font-weight: 700; }
+  #wipe { position: absolute; top: -200px; height: 2320px; width: 900px; background: linear-gradient(90deg, rgba(214,180,122,0), #d6b47a 30%, #f3dcae 50%, #d6b47a 70%, rgba(214,180,122,0)); transform: skewX(-16deg); opacity: 0; z-index: 30; }
+  #vignette { position: absolute; inset: 0; background: radial-gradient(ellipse 75% 60% at 50% 45%, transparent 55%, rgba(0,0,0,.6)); pointer-events: none; z-index: 25; }
+  #grain { position: absolute; inset: 0; width: 1080px; height: 1920px; opacity: .08; mix-blend-mode: overlay; z-index: 26; }
 </style>
 </head>
 <body>
@@ -56,10 +61,11 @@
   <div id="dots"></div>
   <div class="abs serif" id="wm" style="top:70px;left:0;right:0;text-align:center;font-size:44px;opacity:0">Mr <em>Key</em></div>
 
+  <div id="cam" class="abs" style="inset:0;transform-origin:50% 45%">
   <!-- S1 -->
   <div class="scene" id="s1">
-    <div class="abs serif" id="s1t1" style="top:250px;left:0;right:0;text-align:center;font-size:104px;line-height:1.05">¿Por qué tus clientes</div>
-    <div class="abs serif" id="s1t2" style="top:370px;left:0;right:0;text-align:center;font-size:118px;line-height:1.05"><em>no regresan?</em></div>
+    <div class="abs serif" id="s1t1" style="top:250px;left:0;right:0;text-align:center;font-size:118px;line-height:1.05">Vino una vez…</div>
+    <div class="abs serif" id="s1t2" style="top:370px;left:0;right:0;text-align:center;font-size:118px;line-height:1.05"><em>y nunca regresó.</em></div>
     <div id="s1grid"></div>
   </div>
 
@@ -90,7 +96,8 @@
 
   <!-- S4 -->
   <div class="scene" id="s4">
-    <div class="phone" id="ph4" style="left:250px;top:250px;width:580px;height:1180px">
+    <div class="hl">En su <em>Wallet</em>.</div>
+    <div class="phone" id="ph4" style="left:265px;top:330px;width:550px;height:1120px">
       <div class="screen">
         <div class="notch"></div>
         <div class="abs" style="top:110px;left:44px;font-size:58px;font-weight:800">Wallet</div>
@@ -101,45 +108,48 @@
     </div>
     <div class="pill" id="b1" style="left:40px;top:560px">📲 Apple Wallet</div>
     <div class="pill" id="b2" style="right:40px;top:760px">🟢 Google Wallet</div>
-    <div class="pill goldbg" id="b3" style="left:0;right:0;margin:auto;width:max-content;top:1360px">✓ Sin descargar apps</div>
+    <div class="pill goldbg" id="b3" style="left:0;right:0;margin:auto;width:max-content;top:1395px">✓ Sin descargar apps</div>
   </div>
 
   <!-- S5 -->
   <div class="scene" id="s5">
-    <div class="abs" id="poster" style="left:270px;top:200px;width:540px;padding:40px;border-radius:36px;background:#fff;color:#111;text-align:center;box-shadow:0 30px 90px rgba(0,0,0,.5)">
+    <div class="hl"><em>20</em> segundos.</div>
+    <div class="abs" id="poster" style="left:300px;top:300px;transform-origin:top center;width:540px;padding:40px;border-radius:36px;background:#fff;color:#111;text-align:center;box-shadow:0 30px 90px rgba(0,0,0,.5)">
       <div class="serif" style="font-size:44px;line-height:1.1">Barbería Don Luis</div>
       <div id="qr5" style="margin:26px auto 18px;width:360px;height:360px"></div>
       <div style="font-weight:800;font-size:28px">Escanea y obtén tu tarjeta</div>
     </div>
     <div class="abs" id="laser" style="left:290px;width:500px;height:6px;border-radius:3px;background:#22c55e;box-shadow:0 0 30px #22c55e"></div>
-    <div class="phone" id="ph5" style="left:320px;top:800px;width:440px;height:720px">
+    <div class="phone" id="ph5" style="left:330px;top:900px;width:420px;height:640px">
       <div class="screen">
         <div class="notch"></div>
         <div class="abs" id="cam5" style="inset:0;background:radial-gradient(circle at 50% 40%,#222,#000)"></div>
         <div class="card" id="card5" style="left:12px;top:80px;width:380px;transform-origin:top center"></div>
       </div>
     </div>
-    <div class="pill goldbg" id="timer5" style="right:50px;top:760px">⏱ 20 segundos</div>
+    <div class="pill goldbg" id="timer5" style="right:40px;top:860px">⏱ 20 segundos</div>
   </div>
 
   <!-- S6 -->
   <div class="scene" id="s6">
-    <div class="card" id="card6" style="left:190px;top:330px;width:700px;padding:40px;border-radius:44px"></div>
+    <div class="hl">Sello al <em>instante</em>.</div>
+    <div class="card" id="card6" style="left:190px;top:380px;width:700px;padding:40px;border-radius:44px"></div>
     <div class="abs" id="plus6" style="left:0;right:0;text-align:center;font-size:72px;font-weight:800;color:#d6b47a"></div>
-    <div class="abs" id="gift" style="left:0;right:0;text-align:center;top:1080px;font-size:200px;line-height:1">🎁</div>
-    <div class="pill goldbg" id="prize" style="left:0;right:0;margin:auto;width:max-content;top:1330px;font-size:44px">¡Premio desbloqueado!</div>
+    <div class="abs" id="gift" style="left:0;right:0;text-align:center;top:1110px;font-size:190px;line-height:1">🎁</div>
+    <div class="pill goldbg" id="prize" style="left:0;right:0;margin:auto;width:max-content;top:1340px;font-size:44px">¡Premio desbloqueado!</div>
     <div id="confetti"></div>
   </div>
 
   <!-- S7 -->
   <div class="scene" id="s7">
-    <div class="panel" id="dash" style="left:110px;top:260px;width:860px;padding:40px">
+    <div class="hl">Los traemos <em>de vuelta</em>.</div>
+    <div class="panel" id="dash" style="left:110px;top:400px;width:860px;padding:40px">
       <div style="font-size:30px;font-weight:800;letter-spacing:.2em;color:#9a9aa3">PANEL · MR KEY</div>
       <div class="serif" style="font-size:66px;margin-top:10px">Clientes <em>inactivos</em></div>
       <div id="rows7"></div>
       <div id="send7" style="margin-top:28px;padding:26px;border-radius:999px;background:#d6b47a;color:#1a1408;text-align:center;font-weight:800;font-size:38px">💬 Enviar promo</div>
     </div>
-    <div class="phone" id="ph7" style="left:250px;top:220px;width:580px;height:1180px">
+    <div class="phone" id="ph7" style="left:265px;top:330px;width:550px;height:1090px">
       <div class="screen" style="background:linear-gradient(180deg,#1e293b,#0f172a 60%,#1c1917)">
         <div class="notch"></div>
         <div class="abs" style="top:120px;left:0;right:0;text-align:center;font-size:36px;font-weight:700;color:#cbd5e1">martes 28 de octubre</div>
@@ -150,22 +160,23 @@
         </div>
       </div>
     </div>
-    <div class="pill goldbg" id="sms7" style="left:0;right:0;margin:auto;width:max-content;top:1420px">Sin SMS · $0 extra</div>
+    <div class="pill goldbg" id="sms7" style="left:0;right:0;margin:auto;width:max-content;top:1440px">Sin SMS · $0 extra</div>
   </div>
 
   <!-- S8 -->
   <div class="scene" id="s8">
-    <div class="panel" id="kpi" style="left:110px;top:260px;width:860px;padding:50px;background:linear-gradient(180deg,rgba(214,180,122,.16),#141417);border-color:rgba(214,180,122,.55)">
+    <div class="hl">Dinero <em>recuperado</em>.</div>
+    <div class="panel" id="kpi" style="left:110px;top:330px;width:860px;padding:50px;background:linear-gradient(180deg,rgba(214,180,122,.16),#141417);border-color:rgba(214,180,122,.55)">
       <div style="font-size:32px;font-weight:800;letter-spacing:.18em;color:#d6b47a">INGRESOS RECUPERADOS · 30 DÍAS</div>
       <div class="serif gold" id="money" style="font-size:190px;line-height:1.1;margin-top:10px">$0</div>
       <div style="font-size:34px;color:#9a9aa3">18 clientes inactivos regresaron <span style="font-size:24px">(ejemplo)</span></div>
     </div>
-    <div class="abs" id="eq" style="left:0;right:0;top:860px;text-align:center">
+    <div class="abs" id="eq" style="left:0;right:0;top:930px;text-align:center">
       <div style="font-size:56px;font-weight:800">2 clientes que regresan</div>
       <div class="serif" style="font-size:150px;line-height:1.1" id="eqBig">≥ <em>$339</em></div>
       <div style="font-size:40px;color:#9a9aa3">Plan desde $339 al mes</div>
     </div>
-    <div class="abs" id="stamp8" style="left:0;right:0;margin:auto;top:1260px;width:max-content;padding:20px 44px;border:8px solid #22c55e;border-radius:24px;color:#22c55e;font-size:72px;font-weight:800;letter-spacing:.06em">SE PAGA SOLO ✓</div>
+    <div class="abs" id="stamp8" style="left:0;right:0;margin:auto;top:1310px;width:max-content;padding:20px 44px;border:8px solid #22c55e;border-radius:24px;color:#22c55e;font-size:72px;font-weight:800;letter-spacing:.06em">SE PAGA SOLO ✓</div>
   </div>
 
   <!-- S9 -->
@@ -174,14 +185,18 @@
     <div class="abs serif" id="logo9" style="top:420px;left:0;right:0;text-align:center;font-size:150px;line-height:1">Mr <em>Key</em></div>
     <div class="abs serif" id="tl1" style="top:640px;left:0;right:0;text-align:center;font-size:84px;line-height:1.1">Tus clientes regresan.</div>
     <div class="abs serif" id="tl2" style="top:740px;left:0;right:0;text-align:center;font-size:84px;line-height:1.1"><em>En automático.</em></div>
-    <div class="abs" id="cta" style="left:0;right:0;margin:auto;top:940px;width:max-content;padding:34px 60px;border-radius:999px;background:#d6b47a;color:#1a1408;font-size:52px;font-weight:800;box-shadow:0 20px 80px rgba(214,180,122,.35)">Pruébalo gratis 14 días</div>
+    <div class="abs" id="cta" style="left:0;right:0;margin:auto;top:940px;width:max-content;padding:34px 60px;border-radius:999px;background:#d6b47a;color:#1a1408;font-size:52px;font-weight:800;box-shadow:0 20px 80px rgba(214,180,122,.35)">Pruébalo gratis hoy</div>
     <div class="abs" id="url" style="top:1110px;left:0;right:0;text-align:center;font-size:36px;font-weight:700;color:#d6b47a">lukoffmon.github.io/WebDesignLKM/mrkey</div>
     <div class="abs" id="nocc" style="top:1170px;left:0;right:0;text-align:center;font-size:32px;color:#9a9aa3">Sin tarjeta de crédito · Lista en 2 minutos</div>
   </div>
 
+  </div>
   <div class="abs" style="left:0;right:0;top:1400px;bottom:0;background:linear-gradient(180deg,transparent,rgba(5,5,6,.82) 35%)"></div>
   <div id="caps"></div>
-  <div class="abs" id="fade" style="inset:0;background:#000;opacity:0"></div>
+  <div id="vignette"></div>
+  <canvas id="grain" width="360" height="640"></canvas>
+  <div id="wipe"></div>
+  <div class="abs" id="fade" style="inset:0;background:#000;opacity:0;z-index:40"></div>
 </div>
 
 <script>
@@ -193,9 +208,9 @@ const eo = (x) => 1 - Math.pow(1 - x, 3);
 const eio = (x) => (x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
 const back = (x) => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
 const S = (id) => TL.scenes.find((s) => s.id === id);
-function set(el, { x = 0, y = 0, s = 1, r = 0, o = 1 } = {}) {
+function set(el, { x = 0, y = 0, s = 1, r = 0, o = 1, rx = 0, ry = 0 } = {}) {
   el = typeof el === "string" ? $(el) : el;
-  el.style.transform = `translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;
+  el.style.transform = (rx || ry ? `perspective(1800px) rotateX(${rx}deg) rotateY(${ry}deg) ` : "") + `translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;
   el.style.opacity = o;
 }
 // entrada: aparece desde abajo con rebote suave
@@ -230,6 +245,21 @@ function cardHtml(stamps, total = 8, qr = true, scale = 1) {
 }
 
 // ---------- construcción ----------
+const NOISE = [];
+{
+  const ctx = document.createElement("canvas").getContext("2d");
+  for (let k = 0; k < 4; k++) {
+    const img = ctx.createImageData(360, 640);
+    let h = 99 + k * 7919;
+    for (let i = 0; i < img.data.length; i += 4) {
+      h = (h * 1103515245 + 12345) & 0x7fffffff;
+      const v = (h >> 16) & 255;
+      img.data[i] = img.data[i + 1] = img.data[i + 2] = v;
+      img.data[i + 3] = 255;
+    }
+    NOISE.push(img);
+  }
+}
 const dots = [];
 for (let i = 0; i < 34; i++) {
   const d = document.createElement("div");
@@ -335,8 +365,38 @@ window.renderAt = function (t) {
     el.style.transform = `translateY(${(1 - enter) * 40 - exit * 60}px) scale(${1 - exit * .04})`;
     SCENES[s.id](lt, s.dur);
   }
-  const wmOn = t > S("s4").start && t < S("s9").start;
-  $("wm").style.opacity = wmOn ? .55 : 0;
+  $("wm").style.opacity = 0;
+  // titulares con golpe
+  for (const s of TL.scenes) {
+    const hl = $(s.id).querySelector(".hl");
+    if (!hl) continue;
+    const p = P(t - s.start, .1, .5);
+    hl.style.transform = `scale(${1.3 - .3 * eo(p)})`;
+    hl.style.opacity = clamp(p * 2);
+    hl.style.filter = `blur(${(1 - eo(p)) * 10}px)`;
+  }
+  // cámara: zoom lento por escena + sacudida en los impactos
+  const cur = TL.scenes.find((s) => t >= s.start && t < s.start + s.dur) || TL.scenes[TL.scenes.length - 1];
+  const zoom = 1 + .035 * eio(P(t - cur.start, 0, cur.dur));
+  let shake = 0;
+  for (const e of window.SFX) {
+    const A = { boom: 16, thud: 14, kaching: 7, stamp: 4, buzz: 6 }[e.type];
+    if (A && t >= e.t && t < e.t + .5) shake += A * Math.exp(-(t - e.t) * 12);
+  }
+  $("cam").style.transform = `translate(${Math.sin(t * 91) * shake}px,${Math.cos(t * 77) * shake}px) scale(${zoom})`;
+  // barrido dorado entre escenas
+  let w = -1;
+  TL.scenes.slice(1).forEach((s) => { const p = P(t, s.start - .26, s.start + .2); if (p > 0 && p < 1) w = p; });
+  $("wipe").style.opacity = w < 0 ? 0 : .92;
+  $("wipe").style.left = (-1100 + eio(Math.max(w, 0)) * 2300) + "px";
+  // grano de película
+  const g = $("grain").getContext("2d");
+  g.putImageData(NOISE[Math.floor(t * 30) % NOISE.length], 0, 0);
+  // el brillo late con la música después del logo
+  if (t > S("s3").start) {
+    const ph = ((t - S("s3").start) % .5) / .5;
+    $("g1").style.transform += ` scale(${1 + .1 * Math.exp(-ph * 6)})`;
+  }
   captions(t);
   $("fade").style.opacity = P(t, TL.total - .7, TL.total);
 };
@@ -383,7 +443,7 @@ const SCENES = {
     set("key", { s: back(p) * (1 + Math.sin(lt * 2) * .02), r: (1 - eo(p)) * -200, o: clamp(p * 3) });
   },
   s4(lt) {
-    pop("ph4", lt, 0, .6, 140);
+    { const e = eo(P(lt, 0, .8)); set("ph4", { y: (1 - e) * 160, s: .9 + .1 * back(P(lt, 0, .8)), o: clamp(e * 2), rx: 5, ry: -26 * (1 - eo(P(lt, 0, 1.8))) + Math.sin(lt * .7) * 7 }); }
     const c = eo(P(lt, .5, 1.2));
     set("card4", { y: (1 - c) * 900, o: c });
     pop("b1", lt, 3.4, .45); pop("b2", lt, 4.1, .45); pop("b3", lt, 6.0, .45);
@@ -392,7 +452,7 @@ const SCENES = {
   },
   s5(lt) {
     pop("poster", lt, 0, .5);
-    pop("ph5", lt, .3, .6, 300);
+    { const e = eo(P(lt, .3, .9)); set("ph5", { y: (1 - e) * 300, o: clamp(e * 2), rx: 6, ry: Math.sin(lt * .8) * 9 }); }
     const scan = P(lt, 1.0, 2.2);
     set("laser", { y: 300 + Math.sin(scan * Math.PI * 2) * 170 + 170, o: scan > 0 && scan < 1 ? 1 : 0 });
     const c = back(P(lt, 2.45, 2.95));
@@ -400,7 +460,7 @@ const SCENES = {
     pop("timer5", lt, 3.2, .45);
   },
   s6(lt) {
-    pop("card6", lt, 0, .5);
+    { const e = P(lt, 0, .5); set("card6", { y: (1 - eo(e)) * 60, s: .85 + .15 * back(e), o: clamp(e * 2.5), rx: Math.sin(lt * .9) * 6, ry: Math.cos(lt * .7) * 10 }); }
     const n = 3 + stampAt.filter((a) => lt >= a).length;
     const sts = $("card6").querySelectorAll(".st");
     sts.forEach((st, i) => {
@@ -440,7 +500,7 @@ const SCENES = {
     const press = P(lt, 3.3, 3.55);
     $("send7").style.transform = `scale(${1 - Math.sin(press * Math.PI) * .06})`;
     const ph = eo(P(lt, 3.8, 4.4));
-    set("ph7", { x: (1 - ph) * 1100, o: ph });
+    set("ph7", { x: (1 - ph) * 1100, o: ph, rx: 4, ry: -30 * (1 - ph) + Math.sin(lt * .8) * 6 });
     const nt = P(lt, 4.6, 5.1);
     set("notif", { y: (1 - back(nt)) * -260, o: clamp(nt * 3) });
     pop("sms7", lt, 7.0, .45);

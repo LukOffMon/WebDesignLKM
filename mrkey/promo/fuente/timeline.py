@@ -1,17 +1,18 @@
-import json, subprocess
+import json, math, subprocess
 script = json.load(open("script.json"))
-display = {  # texto en pantalla (subtítulos)
- "s3": "Te presentamos: Mr Key.",
- "s7": "Lo mejor: Mr Key detecta quién dejó de venir, y le manda una promo directo a su pantalla de bloqueo. Sin pagar SMS.",
- "s9": "Mr Key. Tus clientes regresan, en automático. Pruébalo gratis 14 días.",
- "s5": "Tu cliente escanea tu código QR, y en 20 segundos ya tiene su tarjeta.",
+display = {
+ "s3": "Por eso existe: Mr Key.",
+ "s5": "Escanea tu código QR, y en 20 segundos ya es tu cliente frecuente.",
+ "s7": "Y lo mejor: Mr Key detecta quién dejó de venir, y le manda una promo directo a su pantalla de bloqueo. Sin pagar SMS.",
+ "s9": "Mr Key. Tus clientes regresan… en automático. Pruébalo gratis hoy.",
 }
-extra = {"s3": 1.1, "s9": 1.8}
-t, scenes = 0.6, []
+extra = {"s3": 0.9, "s9": 2.3}
+BEAT = 0.5
+t, scenes = 1.0, []   # 2 tiempos de entrada musical
 for k, text in script:
     d = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f"vo/{k}.mp3"],capture_output=True,text=True).stdout)
-    dur = d + 0.45 + extra.get(k, 0)
-    scenes.append({"id": k, "start": round(t,3), "dur": round(dur,3), "vo": round(d,3), "voStart": round(t+0.12,3), "text": display.get(k, text)})
+    dur = math.ceil((d + 0.35 + extra.get(k, 0)) / BEAT) * BEAT   # múltiplos de un tiempo
+    scenes.append({"id": k, "start": t, "dur": dur, "vo": round(d, 3), "voStart": round(t + 0.15, 3), "text": display.get(k, text)})
     t += dur
-json.dump({"scenes": scenes, "total": round(t + 0.2, 3), "fps": 30}, open("timeline.json","w"), ensure_ascii=False, indent=1)
-print(round(t+0.2,2)); [print(s["id"], s["start"], s["dur"]) for s in scenes]
+json.dump({"scenes": scenes, "total": t + 0.5, "fps": 30, "bpm": 120}, open("timeline.json","w"), ensure_ascii=False, indent=1)
+print(t + 0.5); [print(s["id"], s["start"], s["dur"]) for s in scenes]
