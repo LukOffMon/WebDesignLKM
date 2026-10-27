@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Mr Key · Panel</title>
+  <meta name="theme-color" content="#0b0b0c" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    .poster { display: none; }
+    @media print {
+      .poster { display: flex !important; flex-direction: column; align-items: center; justify-content: center; text-align: center; height: 100vh; gap: 18px; font-family: Manrope, sans-serif; }
+      .poster h1 { font-size: 40pt; color: #000; }
+      .poster p { font-size: 16pt; color: #333; }
+      .poster .pq svg { width: 9cm; height: 9cm; }
+      body > *:not(.poster) { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <!-- ===== Acceso ===== -->
+  <section id="authView" class="hidden">
+    <header class="topbar"><div class="wrap"><a class="logo-mk" href="./">Mr <b>Key</b></a></div></header>
+    <main class="narrow stack">
+      <div class="chips" style="margin-top:12px">
+        <button class="chip on" data-auth="signup" type="button">Crear cuenta</button>
+        <button class="chip" data-auth="login" type="button">Ya tengo cuenta</button>
+      </div>
+      <form id="signupForm" class="stack">
+        <h1 style="font-size:2rem">Tu tarjeta de lealtad, <em>lista en 2 minutos</em>.</h1>
+        <p class="mute">14 días gratis. Sin tarjeta de crédito.</p>
+        <div class="card-box stack">
+          <label class="field"><span>Nombre del negocio</span><input name="name" required maxlength="60" placeholder="Ej. Barbería Don Luis" /></label>
+          <label class="field"><span>Giro</span>
+            <select name="vertical">
+              <option value="barberia">Barbería</option>
+              <option value="cafeteria">Cafetería</option>
+              <option value="belleza">Salón de belleza / uñas / spa</option>
+              <option value="restaurante">Restaurante / bar</option>
+              <option value="veterinaria">Veterinaria / estética canina</option>
+              <option value="retail">Tienda / retail</option>
+              <option value="otro">Otro</option>
+            </select>
+          </label>
+          <label class="field"><span>Correo</span><input name="email" type="email" autocomplete="email" required /></label>
+          <label class="field"><span>Contraseña (mínimo 8)</span><input name="password" type="password" autocomplete="new-password" minlength="8" required /></label>
+          <div class="alert hidden" data-err></div>
+          <button class="btn gold block" type="submit">Crear mi tarjeta gratis</button>
+        </div>
+      </form>
+      <form id="loginForm" class="stack hidden">
+        <h1 style="font-size:2rem">Bienvenido de vuelta.</h1>
+        <div class="card-box stack">
+          <label class="field"><span>Correo</span><input name="email" type="email" autocomplete="email" required /></label>
+          <label class="field"><span>Contraseña</span><input name="password" type="password" autocomplete="current-password" required /></label>
+          <div class="alert hidden" data-err></div>
+          <button class="btn gold block" type="submit">Entrar</button>
+        </div>
+        <p class="mute small center">¿Eres del personal? Entra al <a href="sellar.html">modo mostrador</a>.</p>
+      </form>
+    </main>
+  </section>
+
+  <!-- ===== Panel ===== -->
+  <section id="appView" class="hidden">
+    <header class="topbar">
+      <div class="wrap">
+        <a class="logo-mk" href="./">Mr <b>Key</b></a>
+        <div class="row">
+          <a class="btn sm gold" href="sellar.html">Sellar</a>
+          <button class="btn sm ghost" id="logoutBtn" type="button">Salir</button>
+        </div>
+      </div>
+      <nav class="wrap tabs" id="tabs">
+        <button class="tab on" data-tab="home" type="button">Inicio</button>
+        <button class="tab" data-tab="customers" type="button">Clientes</button>
+        <button class="tab" data-tab="campaigns" type="button">Campañas</button>
+        <button class="tab" data-tab="card" type="button">Mi tarjeta</button>
+        <button class="tab" data-tab="counter" type="button">Mostrador y QR</button>
+      </nav>
+    </header>
+
+    <main class="wrap" style="padding-top:24px;padding-bottom:64px">
+      <!-- Inicio -->
+      <section data-view="home" class="stack">
+        <div class="row">
+          <div class="grow">
+            <p class="eyebrow" id="trialInfo"></p>
+            <h1 style="font-size:clamp(1.8rem,5vw,2.6rem);margin-top:6px" id="bizTitle"></h1>
+          </div>
+        </div>
+        <div id="onboarding" class="card-box stack hidden">
+          <b>Pon tu programa a funcionar</b>
+          <div class="steps" id="steps"></div>
+        </div>
+        <div class="kpis" id="kpis"></div>
+        <div class="split">
+          <div class="card-box">
+            <div class="row"><b class="grow">Visitas selladas · últimos 14 días</b></div>
+            <div class="bars" id="bars"></div>
+            <div class="bar-days" id="barDays"></div>
+          </div>
+          <div class="card-box stack">
+            <b>Actividad reciente</b>
+            <div class="list" id="recent"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Clientes -->
+      <section data-view="customers" class="stack hidden">
+        <div class="row">
+          <h2 class="grow" style="font-size:1.8rem">Clientes</h2>
+          <button class="btn sm" id="winbackBtn" type="button">💬 Recuperar inactivos</button>
+        </div>
+        <div class="chips" id="custFilters">
+          <button class="chip on" data-filter="all" type="button">Todos</button>
+          <button class="chip" data-filter="inactive" type="button">Inactivos</button>
+          <button class="chip" data-filter="near" type="button">A 1 sello del premio</button>
+          <button class="chip" data-filter="rewards" type="button">Con premio</button>
+        </div>
+        <input id="custSearch" placeholder="Buscar por nombre o teléfono" />
+        <p class="mute small" id="custHint"></p>
+        <div class="list" id="custList"></div>
+      </section>
+
+      <!-- Campañas -->
+      <section data-view="campaigns" class="stack hidden">
+        <h2 style="font-size:1.8rem">Campañas a la pantalla de bloqueo</h2>
+        <p class="mute">El mensaje aparece en la tarjeta del cliente y, con Wallet activado, como notificación en su teléfono. Sin SMS ni costos extra.</p>
+        <div class="split">
+          <form id="campForm" class="card-box stack">
+            <label class="field"><span>¿A quién?</span>
+              <select name="segment" id="campSegment">
+                <option value="inactive">Clientes inactivos</option>
+                <option value="near">A 1 sello del premio</option>
+                <option value="rewards">Tienen un premio sin canjear</option>
+                <option value="all">Todos los clientes</option>
+              </select>
+            </label>
+            <label class="field"><span>Mensaje (máx. 160)</span><textarea name="message" maxlength="160" required id="campMsg"></textarea></label>
+            <div class="chips" id="templates"></div>
+            <p class="mute small" id="campCount"></p>
+            <button class="btn gold block" type="submit">Enviar campaña</button>
+          </form>
+          <div class="card-box stack">
+            <b>Historial</b>
+            <div class="list" id="campHistory"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mi tarjeta -->
+      <section data-view="card" class="hidden">
+        <div class="split">
+          <form id="cardForm" class="stack">
+            <h2 style="font-size:1.8rem">Diseña tu tarjeta</h2>
+            <div class="card-box stack">
+              <label class="field"><span>Nombre del negocio</span><input name="name" maxlength="60" required /></label>
+              <label class="field"><span>Logo (PNG o JPG, horizontal de preferencia)</span><input type="file" accept="image/*" id="logoFile" /></label>
+              <button class="btn sm ghost danger hidden" type="button" id="removeLogo">Quitar logo</button>
+              <div class="grid3">
+                <label class="field"><span>Fondo</span><input type="color" name="color_bg" /></label>
+                <label class="field"><span>Texto</span><input type="color" name="color_fg" /></label>
+                <label class="field"><span>Acento</span><input type="color" name="color_accent" /></label>
+              </div>
+            </div>
+            <div class="card-box stack">
+              <b>Programa de recompensas</b>
+              <div class="grid2">
+                <label class="field"><span>Sellos para el premio</span><input type="number" name="stamps_required" min="3" max="20" required /></label>
+                <label class="field"><span>Premio</span><input name="reward_text" maxlength="60" required /></label>
+              </div>
+              <div class="grid2">
+                <label class="field"><span>Ticket promedio (MXN)</span><input type="number" name="ticket_avg" min="1" required /></label>
+                <label class="field"><span>Inactivo después de (días)</span><input type="number" name="inactive_days" min="3" max="365" required /></label>
+              </div>
+              <label class="field"><span>Minutos mínimos entre sellos del mismo cliente (antifraude)</span><input type="number" name="stamp_cooldown_min" min="0" max="1440" required /></label>
+            </div>
+            <div class="card-box stack">
+              <b>Ubicación del local</b>
+              <p class="mute small">Sirve para las alertas por cercanía: a los clientes inactivos, el iPhone les sugiere la tarjeta en la pantalla de bloqueo cuando pasan cerca de tu local.</p>
+              <label class="field"><span>Dirección</span><input name="address" maxlength="160" placeholder="Calle, número, colonia" /></label>
+              <div class="grid2">
+                <label class="field"><span>Latitud</span><input name="lat" inputmode="decimal" /></label>
+                <label class="field"><span>Longitud</span><input name="lng" inputmode="decimal" /></label>
+              </div>
+              <button class="btn sm" type="button" id="geoBtn">📍 Usar mi ubicación actual (estando en el local)</button>
+            </div>
+            <div class="alert hidden" data-err></div>
+            <button class="btn gold block" type="submit">Guardar cambios</button>
+          </form>
+          <div class="sticky stack">
+            <p class="eyebrow">Vista previa</p>
+            <div id="cardPreview"></div>
+            <p class="mute small">Así se verá en la Wallet y en la tarjeta web de tus clientes.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mostrador y QR -->
+      <section data-view="counter" class="stack hidden">
+        <h2 style="font-size:1.8rem">Mostrador y QR</h2>
+        <div class="split">
+          <div class="stack">
+            <div class="card-box stack">
+              <b>1. QR para que tus clientes se unan</b>
+              <p class="mute small">Imprímelo y ponlo en el mostrador, el espejo o la mesa. El cliente lo escanea con su cámara y obtiene su tarjeta en segundos.</p>
+              <div class="row">
+                <input id="joinLink" readonly class="grow" style="flex:1;min-width:0" />
+                <button class="btn sm" type="button" id="copyJoin">Copiar</button>
+              </div>
+              <div class="row">
+                <button class="btn gold" type="button" onclick="window.print()">🖨️ Imprimir cartel</button>
+                <a class="btn" id="openJoin" target="_blank">Probar como cliente</a>
+              </div>
+            </div>
+            <div class="card-box stack">
+              <b>2. Acceso para tu personal</b>
+              <p class="mute small">Tu personal sella desde su celular en <b>sellar.html</b> con el código del negocio y un PIN. No ven tus clientes ni tus campañas.</p>
+              <div class="row"><span class="mute grow">Código del negocio</span><b id="slugView"></b></div>
+              <div class="row"><span class="mute grow">PIN configurado</span><b id="pinState"></b></div>
+              <form id="pinForm" class="row">
+                <input name="pin" inputmode="numeric" pattern="\d{4,8}" maxlength="8" placeholder="Nuevo PIN (4–8 dígitos)" class="grow" style="flex:1;min-width:0" required />
+                <button class="btn" type="submit">Guardar PIN</button>
+              </form>
+              <div class="row">
+                <input id="staffLink" readonly class="grow" style="flex:1;min-width:0" />
+                <button class="btn sm" type="button" id="copyStaff">Copiar</button>
+              </div>
+            </div>
+            <div class="card-box stack">
+              <b>3. Guion para el mostrador</b>
+              <p class="note">“¿Te la pongo en el celular? Así no pierdes tus sellos y te avisamos de promociones.”</p>
+              <p class="mute small">Ofrécela a cada cliente al cobrar. Los negocios que lo hacen siempre llenan su base de clientes en 2–3 semanas.</p>
+            </div>
+          </div>
+          <div class="card-box center stack">
+            <p class="eyebrow">Tu QR de alta</p>
+            <div id="joinQr" style="background:#fff;border-radius:16px;padding:16px;display:inline-block"></div>
+            <p class="mute small">Escanéalo con la cámara de tu teléfono para probar.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </section>
+
+  <!-- Cartel para imprimir -->
+  <div class="poster" id="poster">
+    <h1 id="posterName"></h1>
+    <p>Escanea y obtén tu tarjeta de lealtad en el celular</p>
+    <div class="pq" id="posterQr"></div>
+    <p id="posterReward"></p>
+    <p style="font-size:10pt;color:#888">Sin descargar apps · Tarjeta creada con Mr Key</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    const $ = (id) => document.getElementById(id);
+    let token = MK.store("mk_owner_token");
+    let state = null; // respuesta de /me
+    let custFilter = "all";
+    let pendingLogo; // undefined = sin cambios, null = quitar, string = nuevo
+
+    // ---------- Acceso ----------
+    document.querySelectorAll("[data-auth]").forEach((b) => b.addEventListener("click", () => {
+      document.querySelectorAll("[data-auth]").forEach((x) => x.classList.toggle("on", x === b));
+      $("signupForm").classList.toggle("hidden", b.dataset.auth !== "signup");
+      $("loginForm").classList.toggle("hidden", b.dataset.auth !== "login");
+    }));
+    if (location.hash === "#entrar") document.querySelector('[data-auth="login"]').click();
+
+    async function authSubmit(ev, path) {
+      ev.preventDefault();
+      const f = ev.target, btn = f.querySelector("button[type=submit]"), err = f.querySelector("[data-err]");
+      const body = Object.fromEntries(new FormData(f));
+      btn.disabled = true;
+      err.classList.add("hidden");
+      try {
+        const r = await MK.api(path, { method: "POST", body });
+        token = r.token;
+        MK.store("mk_owner_token", token);
+        await boot(path === "/signup" ? "card" : "home");
+      } catch (e) {
+        err.textContent = e.message;
+        err.classList.remove("hidden");
+      } finally {
+        btn.disabled = false;
+      }
+    }
+    $("signupForm").addEventListener("submit", (e) => authSubmit(e, "/signup"));
+    $("loginForm").addEventListener("submit", (e) => authSubmit(e, "/login"));
+    $("logoutBtn").addEventListener("click", async () => {
+      await MK.api("/logout", { method: "POST", token }).catch(() => {});
+      MK.store("mk_owner_token", null);
+      location.reload();
+    });
+
+    async function boot(tab) {
+      if (!token) {
+        $("authView").classList.remove("hidden");
+        return;
+      }
+      try {
+        state = await MK.api("/me", { token });
+      } catch (e) {
+        if (e.status === 401 || e.status === 403) {
+          MK.store("mk_owner_token", null);
+          token = null;
+          $("authView").classList.remove("hidden");
+          return;
+        }
+        return MK.toast(e.message);
+      }
+      $("authView").classList.add("hidden");
+      $("appView").classList.remove("hidden");
+      renderAll();
+      showTab(tab || location.hash.slice(1) || "home");
+    }
+
+    // ---------- Pestañas ----------
+    function showTab(name) {
+      if (!document.querySelector(`[data-view="${name}"]`)) name = "home";
+      document.querySelectorAll("[data-tab]").forEach((t) => t.classList.toggle("on", t.dataset.tab === name));
+      document.querySelectorAll("[data-view]").forEach((v) => v.classList.toggle("hidden", v.dataset.view !== name));
+      history.replaceState(null, "", `#${name}`);
+      if (name === "customers") loadCustomers();
+      if (name === "campaigns") loadCampaigns();
+      window.scrollTo(0, 0);
+    }
+    document.querySelectorAll("[data-tab]").forEach((t) => t.addEventListener("click", () => showTab(t.dataset.tab)));
+
+    function renderAll() {
+      const m = state.merchant, s = state.stats;
+      document.title = `${m.name} · Mr Key`;
+      $("bizTitle").textContent = m.name;
+      const daysLeft = Math.ceil((new Date(m.trial_ends_at) - Date.now()) / 86400000);
+      $("trialInfo").textContent = m.plan === "trial" ? (daysLeft > 0 ? `Prueba gratis · quedan ${daysLeft} días` : "Tu prueba terminó") : `Plan ${m.plan}`;
+
+      // Primeros pasos
+      const steps = [
+        { t: "Personaliza tu tarjeta (logo y colores)", done: !!m.logo_png, tab: "card" },
+        { t: "Crea el PIN de tu personal", done: m.has_staff_pin, tab: "counter" },
+        { t: "Imprime tu QR y consigue tus primeros 10 clientes", done: s.customers >= 10, tab: "counter" },
+        { t: "Sella tu primera visita", done: s.visits_30d > 0, href: "sellar.html" },
+      ];
+      $("onboarding").classList.toggle("hidden", steps.every((x) => x.done));
+      $("steps").innerHTML = steps.map((x, i) => `<div class="st${x.done ? " done" : ""}"><span class="t grow">${x.t}</span>${x.done ? "" : `<button class="btn sm" data-step="${i}" type="button">Ir</button>`}</div>`).join("");
+      $("steps").querySelectorAll("[data-step]").forEach((b) => b.addEventListener("click", () => {
+        const st = steps[b.dataset.step];
+        st.href ? (location.href = st.href) : showTab(st.tab);
+      }));
+
+      // KPIs
+      const k = (label, n, cls = "", extra = "") => `<div class="kpi ${cls}"><div class="eyebrow">${label}</div><div class="n ${cls ? "gold" : ""}">${n}</div>${extra}</div>`;
+      $("kpis").innerHTML = [
+        k("Ingresos recuperados · 30 días", MK.money(s.recovered_revenue_30d), "hl", `<p class="mute small">${s.reactivated_30d} clientes inactivos volvieron</p>`),
+        k("Clientes", s.customers, "", `<p class="mute small">+${s.new_30d} este mes</p>`),
+        k("Visitas · 30 días", s.visits_30d),
+        k("Inactivos", s.inactive, "", `<p class="mute small">más de ${m.inactive_days} días sin venir</p>`),
+        k("A 1 sello del premio", s.near_reward),
+        k("Premios canjeados · 30 días", s.redeemed_30d),
+      ].join("");
+
+      // Gráfica
+      const max = Math.max(1, ...state.daily.map((d) => d.visits));
+      $("bars").innerHTML = state.daily.map((d) => `<div style="height:${(d.visits / max) * 100}%" title="${d.day}: ${d.visits} visitas"></div>`).join("");
+      $("barDays").innerHTML = state.daily.map((d, i) => `<span>${i % 2 === 1 ? Number(d.day.slice(8)) : ""}</span>`).join("");
+
+      // Actividad
+      const label = { join: "se unió", stamp: "recibió un sello", redeem: "canjeó su premio", campaign: "Campaña enviada" };
+      $("recent").innerHTML = state.recent.length ? state.recent.map((e) => {
+        const who = e.kind === "campaign" ? `Campaña a ${e.meta?.recipients ?? 0} clientes` : `${MK.esc(e.name || "Cliente")} ${label[e.kind]}`;
+        const tag = e.meta?.reactivated ? '<span class="pill gold">recuperado</span>' : e.meta?.unlocked ? '<span class="pill ok">premio</span>' : "";
+        return `<div class="item"><div class="who"><b>${who}</b><span class="mute small">${MK.ago(e.created_at)}${e.staff_name ? ` · ${MK.esc(e.staff_name)}` : ""}</span></div>${tag}</div>`;
+      }).join("") : `<p class="mute small">Aún no hay actividad. Imprime tu QR y comparte la tarjeta.</p>`;
+
+      fillCardForm();
+      renderCounter();
+      renderTemplates();
+    }
+
+    // ---------- Clientes ----------
+    document.querySelectorAll("[data-filter]").forEach((c) => c.addEventListener("click", () => {
+      custFilter = c.dataset.filter;
+      document.querySelectorAll("[data-filter]").forEach((x) => x.classList.toggle("on", x === c));
+      loadCustomers();
+    }));
+    let searchTimer;
+    $("custSearch").addEventListener("input", () => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(loadCustomers, 300);
+    });
+    $("winbackBtn").addEventListener("click", () => {
+      showTab("campaigns");
+      $("campSegment").value = "inactive";
+      $("campMsg").value = `¡Te extrañamos en ${state.merchant.name}! Ven esta semana y recibe un sello doble.`;
+      updateCount();
+    });
+
+    async function loadCustomers() {
+      const q = encodeURIComponent($("custSearch").value);
+      $("custList").innerHTML = `<p class="mute small">Cargando…</p>`;
+      try {
+        const { customers, inactive_days } = await MK.api(`/customers?filter=${custFilter}&q=${q}`, { token });
+        const req = state.merchant.stamps_required;
+        $("custHint").textContent = custFilter === "inactive"
+          ? `Clientes con más de ${inactive_days} días sin visitarte, del más antiguo al más reciente.`
+          : `${customers.length} cliente(s)`;
+        $("custList").innerHTML = customers.length ? customers.map((c) => {
+          const inactive = c.last_visit_at && c.days_since > inactive_days;
+          const status = c.rewards_available ? `<span class="pill ok">🎁 ${c.rewards_available}</span>`
+            : inactive ? `<span class="pill bad">${c.days_since} días sin venir</span>`
+            : !c.last_visit_at ? `<span class="pill">Sin visitas</span>`
+            : `<span class="pill">${MK.ago(c.last_visit_at)}</span>`;
+          const wa = `https://wa.me/${c.phone.length === 10 ? "52" + c.phone : c.phone}`;
+          return `<div class="item">
+            <div class="who"><b>${MK.esc(c.name)}</b><span class="mute small">${c.stamps}/${req} sellos · ${c.total_visits} visitas · <a href="${wa}" target="_blank" rel="noopener">${MK.esc(c.phone)}</a>${c.marketing_opt_in ? "" : " · sin promos"}</span></div>
+            ${status}</div>`;
+        }).join("") : `<p class="mute small">No hay clientes en esta lista.</p>`;
+      } catch (e) {
+        $("custList").innerHTML = `<div class="alert">${MK.esc(e.message)}</div>`;
+      }
+    }
+
+    // ---------- Campañas ----------
+    function renderTemplates() {
+      const m = state.merchant;
+      const t = {
+        inactive: [`¡Te extrañamos en ${m.name}! Ven esta semana y recibe un sello doble.`, `Hace mucho que no te vemos 👀 Tu próximo sello va por nuestra cuenta.`],
+        near: [`¡Te falta 1 sello para tu ${m.reward_text.toLowerCase()}! Te esperamos.`],
+        rewards: [`Tienes un premio esperándote: ${m.reward_text}. ¡Ven a canjearlo!`],
+        all: [`Esta semana: 2x1 para clientes con tarjeta. Solo muestra tu tarjeta al pagar.`],
+      }[$("campSegment").value];
+      $("templates").innerHTML = t.map((x, i) => `<button class="chip" type="button" data-t="${i}">Idea ${i + 1}</button>`).join("");
+      $("templates").querySelectorAll("[data-t]").forEach((b) => b.addEventListener("click", () => {
+        $("campMsg").value = t[b.dataset.t];
+      }));
+      updateCount();
+    }
+    function updateCount() {
+      const s = state.stats;
+      const n = { inactive: s.inactive, near: s.near_reward, rewards: s.rewards_pending, all: s.customers }[$("campSegment").value];
+      $("campCount").textContent = `Hasta ${n} cliente(s) en este segmento. Solo se envía a quienes aceptaron recibir promociones (${s.opted_in} en total).`;
+    }
+    $("campSegment").addEventListener("change", renderTemplates);
+    $("campForm").addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      const f = ev.target, btn = f.querySelector("button[type=submit]");
+      btn.disabled = true;
+      try {
+        const r = await MK.api("/campaigns", { method: "POST", token, body: { segment: f.segment.value, message: f.message.value } });
+        MK.toast(r.recipients ? `Campaña enviada a ${r.recipients} cliente(s)` : "No hay clientes en ese segmento todavía");
+        f.message.value = "";
+        loadCampaigns();
+      } catch (e) {
+        MK.toast(e.message);
+      } finally {
+        btn.disabled = false;
+      }
+    });
+    async function loadCampaigns() {
+      try {
+        const { campaigns } = await MK.api("/campaigns", { token });
+        const seg = { inactive: "Inactivos", near: "A 1 sello", rewards: "Con premio", all: "Todos" };
+        $("campHistory").innerHTML = campaigns.length ? campaigns.map((c) => `<div class="item"><div class="who"><b style="white-space:normal">${MK.esc(c.message)}</b><span class="mute small">${seg[c.segment] || c.segment} · ${c.recipients} cliente(s) · ${MK.ago(c.created_at)}</span></div></div>`).join("")
+          : `<p class="mute small">Todavía no envías campañas.</p>`;
+      } catch (e) {
+        $("campHistory").innerHTML = `<div class="alert">${MK.esc(e.message)}</div>`;
+      }
+    }
+
+    // ---------- Mi tarjeta ----------
+    const cardFields = ["name", "color_bg", "color_fg", "color_accent", "stamps_required", "reward_text", "ticket_avg", "inactive_days", "stamp_cooldown_min", "address", "lat", "lng"];
+    function fillCardForm() {
+      const f = $("cardForm"), m = state.merchant;
+      cardFields.forEach((k) => (f[k].value = m[k] ?? ""));
+      pendingLogo = undefined;
+      $("removeLogo").classList.toggle("hidden", !m.logo_png);
+      previewCard();
+    }
+    function formMerchant() {
+      const f = $("cardForm");
+      const m = { ...state.merchant };
+      cardFields.forEach((k) => (m[k] = f[k].value));
+      m.stamps_required = Math.min(20, Math.max(3, Number(f.stamps_required.value) || 3));
+      if (pendingLogo !== undefined) m.logo_png = pendingLogo;
+      return m;
+    }
+    function previewCard() {
+      const m = formMerchant();
+      MK.renderCard($("cardPreview"), m, { name: "Cliente Ejemplo", serial: "EJEMPLO-MRKEY-0000000", stamps: Math.min(3, m.stamps_required - 1), rewards_available: 0 }, { qr: true });
+    }
+    $("cardForm").addEventListener("input", previewCard);
+    $("logoFile").addEventListener("change", async (ev) => {
+      const file = ev.target.files[0];
+      if (!file) return;
+      try {
+        pendingLogo = await MK.imageToPng(file, 480, 150);
+        $("removeLogo").classList.remove("hidden");
+        previewCard();
+      } catch (e) {
+        MK.toast(e.message);
+      }
+    });
+    $("removeLogo").addEventListener("click", () => {
+      pendingLogo = null;
+      $("logoFile").value = "";
+      $("removeLogo").classList.add("hidden");
+      previewCard();
+    });
+    $("geoBtn").addEventListener("click", () => {
+      if (!navigator.geolocation) return MK.toast("Tu navegador no permite obtener la ubicación.");
+      navigator.geolocation.getCurrentPosition((p) => {
+        $("cardForm").lat.value = p.coords.latitude.toFixed(6);
+        $("cardForm").lng.value = p.coords.longitude.toFixed(6);
+        MK.toast("Ubicación lista. Guarda los cambios.");
+      }, () => MK.toast("No se pudo obtener la ubicación. Revisa los permisos."), { enableHighAccuracy: true, timeout: 10000 });
+    });
+    $("cardForm").addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      const f = ev.target, btn = f.querySelector("button[type=submit]"), err = f.querySelector("[data-err]");
+      const body = {};
+      cardFields.forEach((k) => (body[k] = f[k].value));
+      ["stamps_required", "ticket_avg", "inactive_days", "stamp_cooldown_min"].forEach((k) => (body[k] = Number(body[k])));
+      if (pendingLogo !== undefined) {
+        body.logo_png = pendingLogo;
+        body.icon_png = null;
+        if (pendingLogo) {
+          const blob = await (await fetch(pendingLogo)).blob();
+          body.icon_png = await MK.imageToPng(blob, 87, 87, true);
+        }
+      }
+      btn.disabled = true;
+      err.classList.add("hidden");
+      try {
+        const r = await MK.api("/merchant", { method: "PUT", token, body });
+        state.merchant = r.merchant;
+        MK.toast("Tarjeta guardada");
+        renderAll();
+      } catch (e) {
+        err.textContent = e.message;
+        err.classList.remove("hidden");
+      } finally {
+        btn.disabled = false;
+      }
+    });
+
+    // ---------- Mostrador ----------
+    function renderCounter() {
+      const m = state.merchant;
+      const join = `${MK.BASE}unirse.html?m=${encodeURIComponent(m.slug)}`;
+      const staff = `${MK.BASE}sellar.html?m=${encodeURIComponent(m.slug)}`;
+      $("joinLink").value = join;
+      $("openJoin").href = join;
+      $("staffLink").value = staff;
+      $("slugView").textContent = m.slug;
+      $("pinState").textContent = m.has_staff_pin ? "Sí" : "No";
+      $("joinQr").innerHTML = MK.qrSvg(join, 6);
+      $("joinQr").querySelector("svg").style.cssText = "width:220px;height:220px;display:block";
+      $("posterName").textContent = m.name;
+      $("posterReward").textContent = `Junta ${m.stamps_required} sellos y gana: ${m.reward_text}`;
+      $("posterQr").innerHTML = MK.qrSvg(join, 8);
+    }
+    const copy = (id) => navigator.clipboard?.writeText($(id).value).then(() => MK.toast("Enlace copiado"), () => $(id).select());
+    $("copyJoin").addEventListener("click", () => copy("joinLink"));
+    $("copyStaff").addEventListener("click", () => copy("staffLink"));
+    $("pinForm").addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      const f = ev.target;
+      try {
+        const r = await MK.api("/merchant", { method: "PUT", token, body: { staff_pin: f.pin.value } });
+        state.merchant = r.merchant;
+        f.pin.value = "";
+        MK.toast("PIN guardado. Compártelo solo con tu personal.");
+        renderAll();
+      } catch (e) {
+        MK.toast(e.message);
+      }
+    });
+
+    boot();
+  </script>
+</body>
+</html>
