@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Mr Key · Tarjetas de lealtad en Apple Wallet y Google Wallet</title>
+  <meta name="description" content="Tarjetas de lealtad digitales para barberías, cafeterías, salones y tiendas. Sin apps, sin papel. Recupera clientes inactivos en automático." />
+  <meta name="theme-color" content="#0b0b0c" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    .hero { display: grid; gap: 40px; grid-template-columns: 1.15fr .85fr; align-items: center; padding: 56px 0 72px; }
+    @media (max-width: 860px) { .hero { grid-template-columns: 1fr; padding-top: 32px; } }
+    .hero h1 { font-size: clamp(2.5rem, 7vw, 4.4rem); }
+    .phone { max-width: 340px; margin: 0 auto; padding: 14px; border-radius: 44px; background: #1b1b20; border: 1px solid var(--line); box-shadow: 0 40px 120px rgba(214, 180, 122, .12); }
+    .phone .screen { border-radius: 32px; background: #000; padding: 22px 14px 18px; }
+    .lock-time { text-align: center; font-size: 3.2rem; font-weight: 600; letter-spacing: -.02em; }
+    .notif { display: flex; gap: 10px; align-items: flex-start; background: rgba(255, 255, 255, .12); backdrop-filter: blur(8px); border-radius: 18px; padding: 10px 12px; margin: 14px 0; font-size: .82rem; }
+    .notif .ic { width: 30px; height: 30px; border-radius: 8px; background: var(--gold); flex: none; display: grid; place-items: center; color: #1a1408; font-weight: 800; }
+    section.block { padding: 64px 0; border-top: 1px solid var(--line); }
+    .feat { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-top: 32px; }
+    .feat .card-box h3 { font-size: 1.3rem; margin: 10px 0 6px; }
+    .feat .emoji { font-size: 1.6rem; }
+    .how { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 32px; }
+    .how .n { font-family: Fraunces, Georgia, serif; font-size: 2.6rem; color: var(--gold); }
+    .plans { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); margin-top: 32px; }
+    .plan { display: flex; flex-direction: column; gap: 14px; }
+    .plan.pro { border-color: rgba(214, 180, 122, .6); background: linear-gradient(180deg, rgba(214, 180, 122, .1), var(--panel)); }
+    .plan .price { font-family: Fraunces, Georgia, serif; font-size: 2.4rem; }
+    .plan ul { margin: 0; padding-left: 18px; color: var(--mute); font-size: .92rem; display: grid; gap: 6px; }
+    .plan .btn { margin-top: auto; }
+    footer { border-top: 1px solid var(--line); padding: 32px 0 48px; color: var(--mute); font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="logo-mk" href="./">Mr <b>Key</b></a>
+      <div class="row">
+        <a class="btn sm ghost" href="panel.html#entrar">Entrar</a>
+        <a class="btn sm gold" href="panel.html">Prueba gratis</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="stack">
+        <p class="eyebrow">Fidelización digital para negocios locales</p>
+        <h1>Tus clientes <em>regresan</em>. En automático.</h1>
+        <p class="mute" style="font-size:1.1rem;max-width:560px">Tarjeta de sellos en Apple Wallet y Google Wallet con tu logo y tus colores. Sin apps que descargar, sin tarjetas de papel perdidas. Detectamos a quién dejó de venir y le mandamos un mensaje a su pantalla de bloqueo.</p>
+        <div class="row" style="margin-top:20px">
+          <a class="btn gold" href="panel.html">Crear mi tarjeta gratis</a>
+          <a class="btn" href="#como">Cómo funciona</a>
+        </div>
+        <p class="mute small">14 días gratis · Sin tarjeta de crédito · Lista en 2 minutos</p>
+      </div>
+      <div class="phone" aria-hidden="true">
+        <div class="screen">
+          <div class="lock-time">9:41</div>
+          <div class="notif"><div class="ic">★</div><div><b>Barbería Don Luis</b><br>Marco, te falta 1 sello para tu corte gratis ✂️</div></div>
+          <div id="demoCard"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="como">
+      <p class="eyebrow">Cómo funciona</p>
+      <h2 style="font-size:clamp(2rem,5vw,3rem);margin-top:10px">Tres pasos. <em>Cero fricción.</em></h2>
+      <div class="how">
+        <div class="card-box"><div class="n">1</div><h3 style="font-size:1.25rem">El cliente escanea tu QR</h3><p class="mute">Desde la cámara de su celular. Escribe su nombre y teléfono y guarda la tarjeta en su Wallet. 20 segundos.</p></div>
+        <div class="card-box"><div class="n">2</div><h3 style="font-size:1.25rem">Tú sellas al cobrar</h3><p class="mute">Tu personal escanea la tarjeta desde su celular. El sello aparece al instante en el teléfono del cliente.</p></div>
+        <div class="card-box"><div class="n">3</div><h3 style="font-size:1.25rem">Mr Key los trae de vuelta</h3><p class="mute">Ves quién dejó de venir y le mandas una promo directo a su pantalla de bloqueo, sin pagar SMS.</p></div>
+      </div>
+    </section>
+
+    <section class="block">
+      <p class="eyebrow">Todo lo que incluye</p>
+      <h2 style="font-size:clamp(2rem,5vw,3rem);margin-top:10px">Hecho para el <em>mostrador</em>, no para la oficina.</h2>
+      <div class="feat">
+        <div class="card-box"><div class="emoji">📲</div><h3>Apple Wallet y Google Wallet</h3><p class="mute">La tarjeta vive en la app que ya tienen. Si alguien no usa Wallet, también funciona como tarjeta web.</p></div>
+        <div class="card-box"><div class="emoji">⚡</div><h3>Sellado por QR</h3><p class="mute">Desde cualquier celular, sin hardware. Con protección contra sellos dobles y PIN para tu personal.</p></div>
+        <div class="card-box"><div class="emoji">💤</div><h3>Clientes inactivos</h3><p class="mute">Lista de quién lleva semanas sin venir, con su teléfono a un toque.</p></div>
+        <div class="card-box"><div class="emoji">💬</div><h3>Campañas sin SMS</h3><p class="mute">Mensajes a la tarjeta y a la pantalla de bloqueo: “te extrañamos”, “te falta 1 sello”, “2x1 hoy”.</p></div>
+        <div class="card-box"><div class="emoji">📍</div><h3>Alertas por cercanía</h3><p class="mute">A los clientes inactivos, su iPhone les sugiere tu tarjeta cuando pasan cerca de tu local.</p></div>
+        <div class="card-box"><div class="emoji">💰</div><h3>Ingresos recuperados</h3><p class="mute">Te mostramos cuánto dinero te devolvieron los clientes que volvieron gracias a Mr Key.</p></div>
+      </div>
+    </section>
+
+    <section class="block" id="precios">
+      <p class="eyebrow">Precios</p>
+      <h2 style="font-size:clamp(2rem,5vw,3rem);margin-top:10px">Se paga solo con <em>2 clientes recuperados</em> al mes.</h2>
+      <div class="plans">
+        <div class="card-box plan">
+          <div><p class="eyebrow">Emprendedor</p><div class="price">$339<span class="mute small"> /mes</span></div></div>
+          <ul><li>1 sucursal</li><li>Hasta 300 clientes activos</li><li>Tarjeta en Wallet con tu marca</li><li>Sellado por QR para tu personal</li><li>2 campañas al mes</li></ul>
+          <a class="btn block" href="panel.html">Empezar gratis</a>
+        </div>
+        <div class="card-box plan pro">
+          <div><p class="eyebrow" style="color:var(--gold)">Pro · el más elegido</p><div class="price">$749<span class="mute small"> /mes</span></div></div>
+          <ul><li>Hasta 2,000 clientes activos</li><li>Campañas ilimitadas</li><li>Alertas por cercanía</li><li>Lista de inactivos y recuperación</li><li>Métrica de ingresos recuperados</li><li>Configuración asistida incluida</li></ul>
+          <a class="btn gold block" href="panel.html">Empezar gratis</a>
+        </div>
+        <div class="card-box plan">
+          <div><p class="eyebrow">Franquicias</p><div class="price">$1,649<span class="mute small"> /mes</span></div><p class="mute small">+ $599 por sucursal adicional</p></div>
+          <ul><li>Varias sucursales, un solo programa</li><li>Panel centralizado</li><li>Roles por empleado y sucursal</li><li>Integraciones y API</li><li>Soporte prioritario</li></ul>
+          <a class="btn block" href="https://wa.me/?text=Hola%2C%20me%20interesa%20Mr%20Key%20para%20franquicias" target="_blank" rel="noopener">Hablar con ventas</a>
+        </div>
+      </div>
+      <p class="mute small" style="margin-top:16px">Precios en MXN. ¿Prefieres que lo dejemos funcionando por ti? Implementación asistida desde $1,849, pago único: diseño, configuración, capacitación y cartel impreso.</p>
+    </section>
+
+    <section class="block center stack">
+      <h2 style="font-size:clamp(2rem,5vw,3rem)">Tu tarjeta está a <em>2 minutos</em>.</h2>
+      <p class="mute">Crea tu cuenta, sube tu logo e imprime tu QR hoy mismo.</p>
+      <div><a class="btn gold" href="panel.html">Crear mi tarjeta gratis</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap row">
+      <span class="grow">© Mr Key LKM’r · Fidelización digital para negocios locales</span>
+      <a href="aviso.html">Aviso de privacidad</a>
+      <a href="sellar.html">Modo mostrador</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    MK.renderCard(document.getElementById("demoCard"),
+      { name: "Barbería Don Luis", logo_png: null, color_bg: "#1c1917", color_fg: "#fafaf9", color_accent: "#d6b47a", reward_text: "Corte gratis", stamps_required: 8 },
+      { name: "Marco", serial: "DEMO-MRKEY-TARJETA-000", stamps: 7, rewards_available: 0 }, { qr: false });
+  </script>
+</body>
+</html>
