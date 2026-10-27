@@ -1,0 +1,9 @@
+{
+  "name": "Mr Key · Sellar",
+  "short_name": "Mr Key",
+  "start_url": "sellar.html",
+  "display": "standalone",
+  "background_color": "#0b0b0c",
+  "theme_color": "#0b0b0c",
+  "icons": [{ "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+}
