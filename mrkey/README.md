@@ -25,6 +25,7 @@ Este proyecto está separado de los demás sitios del repo: todo vive dentro de 
 | `unirse.html?m=<negocio>` | Cliente | Alta en el programa |
 | `tarjeta.html?s=<serial>` | Cliente | Tarjeta con sellos, QR, premios y mensajes; se actualiza sola |
 | `aviso.html` | Todos | Aviso de privacidad base |
+| `llave-maestra.html` | Tú (admin) | Aprobar cuentas, registrar pagos, cancelar membresías |
 
 ## Arquitectura
 
@@ -33,6 +34,16 @@ Este proyecto está separado de los demás sitios del repo: todo vive dentro de 
   `https://lsvyryanshcuysowlysp.supabase.co/functions/v1/mrkey`.
 - **Base de datos:** Postgres de Supabase, tablas `mk_*` (ver `supabase/migrations`). RLS activo sin políticas: el navegador nunca toca la base directamente, todo pasa por la API.
 - **Seguridad:** contraseñas y PIN con PBKDF2; sesiones con token aleatorio (se guarda solo su hash); bloqueo de 15 min tras intentos fallidos; antifraude con minutos mínimos entre sellos del mismo cliente; el personal no ve clientes ni campañas.
+
+## Administración de cuentas (página oculta)
+
+`llave-maestra.html` no está enlazada en ningún lado y pide la clave de administrador (solo se guarda su hash en la base de datos). Ahí:
+
+- **Pendientes:** todo negocio que se registra puede usar Mr Key 12 horas. Si no lo apruebas, se borra solo (tarea `pg_cron` cada 10 min). Puedes darle 12 h más o rechazarlo.
+- **Aprobar / registrar pago:** sin pasarela de pago. Cobras por transferencia o efectivo y registras plan, meses, monto y forma de pago; la cuenta queda activa hasta esa fecha. Cada pago queda en el historial.
+- **Vencimiento:** 3 días después de vencer, la cuenta se bloquea (panel, sellado, campañas y altas nuevas). Los clientes conservan sus tarjetas.
+- **Cancelar / reactivar** membresías, notas internas, MRR y cobrado del mes.
+- **WhatsApp de contacto:** el número al que los negocios te escriben para pagar; aparece en su panel.
 
 ## Activar Apple Wallet y Google Wallet
 
@@ -60,7 +71,6 @@ supabase functions deploy mrkey --project-ref lsvyryanshcuysowlysp --no-verify-j
 
 ## Pendiente
 
-- Cobro de suscripciones (Stripe / Mercado Pago). Hoy todas las cuentas quedan en prueba de 14 días sin límite real.
-- Límites por plan (clientes activos, campañas al mes).
+- Límites por plan (clientes activos, campañas al mes). Hoy el plan solo define el precio.
 - Recuperar contraseña por correo.
 - Multi-sucursal e integraciones con POS (fase 3 del roadmap).
