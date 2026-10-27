@@ -38,109 +38,13 @@ def band_noise(n, lo, hi):
 def env(t, a=0.005, d=0.3):
     return np.minimum(1, t / a) * np.exp(-t / d)
 
-# ---------------- instrumentos ----------------
-def bass(f, dur):
-    t = tt(dur)
-    sig = sum(a * np.sin(2 * np.pi * k * f * t) for k, a in [(1, 1), (2, .45), (3, .22), (4, .08)])
-    return sig * env(t, .006, .45) * np.minimum(1, (dur - t) / .03 + .0)
+# ---------------- música (FluidSynth) ----------------
+raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", "music.wav", "-ar", str(SR), "-ac", "2", "-f", "f32le", "-"], capture_output=True, check=True).stdout
+mus = np.frombuffer(raw, dtype=np.float32).astype(np.float64).reshape(-1, 2)
+mus = mus / (np.abs(mus).max() + 1e-9) * .9
+music[: min(N, len(mus))] += mus[:N]
 
-def epiano(f, dur, vel=1):
-    t = tt(dur + .6)
-    I = 1.6 * np.exp(-t / .3)
-    sig = np.sin(2 * np.pi * f * t + I * np.sin(2 * np.pi * f * t)) * np.exp(-t / 1.4)
-    sig += .25 * np.sin(2 * np.pi * 4 * f * t) * np.exp(-t / .15)
-    rel = np.clip((dur + .6 - t) / .6, 0, 1)
-    return sig * vel * rel * (1 + .08 * np.sin(2 * np.pi * 4.5 * t))
-
-def vibes(f, dur=1.6, vel=1):
-    t = tt(dur)
-    sig = np.sin(2 * np.pi * f * t) + .25 * np.sin(2 * np.pi * 4 * f * t) * np.exp(-t / .2)
-    return sig * env(t, .003, .9) * (1 + .3 * np.sin(2 * np.pi * 5.5 * t)) * vel
-
-RIDE_F = [3150, 4410, 5270, 6830, 8100, 9450]
-def ride(vel=1):
-    t = tt(.9)
-    sig = sum(np.sin(2 * np.pi * f * t + rng.random() * 6) for f in RIDE_F) / len(RIDE_F)
-    sig = sig * np.exp(-t / .22) * .25 + band_noise(len(t), 5000, 14000) * np.exp(-t / .12) * .6
-    return sig * vel
-
-def chick():
-    t = tt(.05)
-    return band_noise(len(t), 5000, 11000) * env(t, .002, .015)
-
-def brush():
-    t = tt(.22)
-    return band_noise(len(t), 1500, 7000) * np.minimum(1, t / .02) * np.exp(-t / .07)
-
-def kick(vel=1):
-    t = tt(.35)
-    f = 58 + 40 * np.exp(-t / .03)
-    return np.sin(2 * np.pi * np.cumsum(f) / SR) * env(t, .002, .12) * vel
-
-CH = {
-    "Fmaj7": (53, [57, 60, 64, 67]), "D7": (50, [54, 60, 64, 69]), "Gm7": (43, [58, 62, 65, 69]),
-    "C7": (48, [52, 58, 62, 69]), "Bbmaj7": (46, [62, 65, 69, 72]), "Bdim7": (47, [59, 62, 65, 68]),
-    "Am7": (45, [55, 60, 64, 67]),
-}
-A = ["Fmaj7", "D7", "Gm7", "C7"]
-B = ["Bbmaj7", "Bdim7", "Am7", "D7", "Gm7", "C7", "Fmaj7", "C7"]
-
-BPM = 126
-beat = 60 / BPM
-bar = 4 * beat
-SW = 2 / 3  # swing
-
-def chord_at(i):
-    seq = A * 2 + B  # 16 compases
-    return seq[i % len(seq)]
-
-full_from = S["s3"]["start"]  # la banda completa entra con el logo
-end_hit = S["s9"]["voStart"] + S["s9"]["vo"] + .1
-start = 0.25
-nbars = int((end_hit - start) / bar) + 1
-for b in range(nbars):
-    t0 = start + b * bar
-    if t0 >= end_hit - .05: break
-    name = chord_at(b); root, voic = CH[name]
-    nroot = CH[chord_at(b + 1)][0]
-    full = t0 >= full_from - .01
-    # contrabajo caminante
-    third = voic[0] - 12 if voic[0] - 12 > root else voic[0]
-    line = [root, root + 7 if b % 2 else third, root + 12 if b % 3 == 0 else root + 7, nroot + (1 if b % 2 else -1)]
-    for k, m in enumerate(line):
-        tb = t0 + k * beat
-        if tb < end_hit:
-            while m > 52: m -= 12
-            while m < 34: m += 12
-            add(music, tb, bass(mtof(m), beat * .92), -.1, .34 if full else .28)
-    # platillo ride, charles y escobillas
-    for k in range(4):
-        tb = t0 + k * beat
-        if tb >= end_hit: break
-        add(music, tb, ride(.55 if k in (0, 2) else .65), .35, .32)
-        if k in (1, 3):
-            add(music, tb + beat * SW, ride(.35), .35, .32)
-            add(music, tb, chick(), .2, .25)
-            if full: add(music, tb, brush(), -.25, .16)
-        if full and k in (0, 2): add(music, tb, kick(), 0, .12)
-    # piano eléctrico (ritmo Charleston y variaciones)
-    if full or b % 2 == 1:
-        hits = [(0, .35), (1 + SW, .9)] if b % 2 == 0 else [(SW, .4), (2 + SW, .8)]
-        for pos, dur in hits:
-            tb = t0 + pos * beat
-            if tb >= end_hit: continue
-            for j, m in enumerate(voic):
-                add(music, tb + j * .008, epiano(mtof(m), dur, .9), -.4 + j * .25, .09 if full else .06)
-
-# golpe final + vibráfono
-for j, m in enumerate([41, 57, 60, 64, 67, 72]):
-    add(music, end_hit + j * .03, epiano(mtof(m), 2.2, 1) if m > 45 else bass(mtof(m), 2.0), -.3 + j * .12, .11 if m > 45 else .6)
-add(music, end_hit, ride(1.0), .35, .45)
-add(music, end_hit, kick(1.2), 0, .35)
-for start_s, motif in [(S["s3"]["start"] + .3, [72, 69, 65, 67, 69]), (end_hit - 2.4, [77, 76, 72, 69, 72])]:
-    for k, m in enumerate(motif):
-        add(music, start_s + k * beat * (1 if k < 4 else 1.5), vibes(mtof(m), 1.6), .3, .07)
-
+def mtof(m): return 440 * 2 ** ((m - 69) / 12)
 # ---------------- efectos ----------------
 def whoosh(d=.6):
     t = tt(d); n = len(t)
@@ -240,7 +144,6 @@ def reverb(x, secs=1.1, wet=.18):
     L = 1 << int(np.ceil(np.log2(len(x) + n)))
     out = np.stack([np.fft.irfft(np.fft.rfft(x[:, c], L) * np.fft.rfft(ir[:, c], L), L)[: len(x)] for c in range(2)], 1)
     return x + out * wet
-music = reverb(music, 1.2, .22)
 fx = reverb(fx, .8, .12)
 
 # ---------------- voz ----------------
@@ -258,12 +161,12 @@ act = np.convolve(act, np.ones(win) / win, "same")
 gate = (act > .015).astype(float)
 k = int(.35 * SR)
 gate = np.convolve(gate, np.ones(k) / k, "same")
-duck = 1 - .62 * np.clip(gate * 1.6, 0, 1)
+duck = 1 - .68 * np.clip(gate * 1.6, 0, 1)
 music *= duck[:, None]
 
 speech = gate > .5
-print('voz/musica dB', 20*np.log10(np.sqrt((voice[speech]**2).mean())/np.sqrt(((music[speech]*.55)**2).mean())))
-mix = music * .55 + fx * .9 + voice[:, None] * 1.0
+print('voz/musica dB', 20*np.log10(np.sqrt((voice[speech]**2).mean())/np.sqrt(((music[speech]*1.55)**2).mean())))
+mix = music * 1.55 + fx * .85 + voice[:, None] * 1.0
 mix[: int(TOTAL * SR)]
 fade = int(.8 * SR); end = int(TOTAL * SR)
 mix = mix[:end]
