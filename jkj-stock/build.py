@@ -1,7 +1,7 @@
 """Genera las páginas de JkJ Stock a partir de _plantilla.html.
 
-Cada sección tiene su propia carpeta (perfumes es la página principal, jkj-stock/index.html).
-Los productos viven en assets/catalog.js; una sección sin productos muestra "Próximamente".
+JkJ Stock es solo perfumería: la única sección es perfumes (jkj-stock/index.html).
+Los productos viven en assets/catalog.js.
 
 Uso:  python3 build.py
 """
@@ -21,36 +21,6 @@ SECTIONS = [
          h1='Tu firma,<br /><em class="text-bronze">en una fragancia.</em>',
          lead='Perfumes de diseñador y árabes en un solo catálogo. Arma tu pedido en segundos y confírmalo directo por WhatsApp.',
          search='Buscar perfume o marca', stat='Fragancias'),
-    dict(slug='accesorios', name='Accesorios', icon='headphones', noun='accesorio', nouns='accesorios',
-         title='JkJ Stock · Accesorios',
-         description='Accesorios de JkJ Stock: audio, grabación y fundas. Pide directo por WhatsApp.',
-         h1='Lo que acompaña<br /><em class="text-bronze">tu día.</em>',
-         lead='Audífonos, micrófonos y fundas para el día a día. Arma tu pedido y confírmalo directo por WhatsApp.',
-         search='Buscar accesorio', stat='Accesorios'),
-    dict(slug='joyeria', name='Joyería', icon='gem', noun='pieza', nouns='piezas',
-         title='JkJ Stock · Joyería',
-         description='Joyería de JkJ Stock. Pide directo por WhatsApp.',
-         h1='Detalles que<br /><em class="text-bronze">se notan.</em>',
-         lead='Pulseras, collares y dijes para regalar o regalarte. Pide directo por WhatsApp.',
-         search='Buscar pieza', stat='Piezas'),
-    dict(slug='gorras', name='Gorras', icon='crown', noun='gorra', nouns='gorras',
-         title='JkJ Stock · Gorras',
-         description='Gorras de JkJ Stock. Pide directo por WhatsApp.',
-         h1='Corona tu<br /><em class="text-bronze">outfit.</em>',
-         lead='Gorras para todos los estilos. Elige la tuya y pide directo por WhatsApp.',
-         search='Buscar gorra', stat='Gorras'),
-    dict(slug='ropa', name='Ropa', icon='shirt', noun='prenda', nouns='prendas',
-         title='JkJ Stock · Ropa',
-         description='Ropa de JkJ Stock. Pide directo por WhatsApp.',
-         h1='Estilo para<br /><em class="text-bronze">cada día.</em>',
-         lead='Playeras, sudaderas y más. Elige tus prendas y pide directo por WhatsApp.',
-         search='Buscar prenda', stat='Prendas'),
-    dict(slug='tenis', name='Tenis', icon='footprints', noun='par', nouns='pares',
-         title='JkJ Stock · Tenis',
-         description='Tenis de JkJ Stock. Pide directo por WhatsApp.',
-         h1='Cada paso,<br /><em class="text-bronze">con estilo.</em>',
-         lead='Tenis para todos los días. Elige tu par y pide directo por WhatsApp.',
-         search='Buscar tenis', stat='Pares'),
 ]
 
 
