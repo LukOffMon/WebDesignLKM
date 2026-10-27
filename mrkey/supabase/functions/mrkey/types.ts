@@ -20,6 +20,9 @@ export type Merchant = {
   plan: string;
   trial_ends_at: string;
   created_at: string;
+  status: string;
+  pending_since: string;
+  paid_until: string | null;
 };
 
 export type Customer = {

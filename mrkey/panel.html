@@ -31,7 +31,7 @@
       </div>
       <form id="signupForm" class="stack">
         <h1 style="font-size:2rem">Tu tarjeta de lealtad, <em>lista en 2 minutos</em>.</h1>
-        <p class="mute">14 días gratis. Sin tarjeta de crédito.</p>
+        <p class="mute">Pruébalo gratis hoy: tu cuenta queda activa 12 horas para que la conozcas. Sin tarjeta de crédito.</p>
         <div class="card-box stack">
           <label class="field"><span>Nombre del negocio</span><input name="name" required maxlength="60" placeholder="Ej. Barbería Don Luis" /></label>
           <label class="field"><span>Giro</span>
@@ -84,6 +84,7 @@
     </header>
 
     <main class="wrap" style="padding-top:24px;padding-bottom:64px">
+      <div id="acctBanner" class="hidden" style="margin-bottom:20px"></div>
       <!-- Inicio -->
       <section data-view="home" class="stack">
         <div class="row">
@@ -248,6 +249,17 @@
     </main>
   </section>
 
+  <!-- Membresía bloqueada -->
+  <div id="blocked" class="hidden" style="position:fixed;inset:0;z-index:45;background:rgba(11,11,12,.96);display:grid;place-items:center;padding:24px">
+    <div class="narrow stack center">
+      <div style="font-size:3rem">🔒</div>
+      <h1 style="font-size:2rem" id="blockedTitle"></h1>
+      <p class="mute" id="blockedText"></p>
+      <a class="btn gold block hidden" id="blockedWa" target="_blank" rel="noopener">Hablar por WhatsApp para renovar</a>
+      <button class="btn ghost block" type="button" onclick="document.getElementById('logoutBtn').click()">Salir</button>
+    </div>
+  </div>
+
   <!-- Cartel para imprimir -->
   <div class="poster" id="poster">
     <h1 id="posterName"></h1>
@@ -338,8 +350,7 @@
       const m = state.merchant, s = state.stats;
       document.title = `${m.name} · Mr Key`;
       $("bizTitle").textContent = m.name;
-      const daysLeft = Math.ceil((new Date(m.trial_ends_at) - Date.now()) / 86400000);
-      $("trialInfo").textContent = m.plan === "trial" ? (daysLeft > 0 ? `Prueba gratis · quedan ${daysLeft} días` : "Tu prueba terminó") : `Plan ${m.plan}`;
+      renderAccount();
 
       // Primeros pasos
       const steps = [
@@ -383,6 +394,60 @@
       renderCounter();
       renderTemplates();
     }
+
+    // ---------- Membresía ----------
+    function waLink(text) {
+      const wa = state.account.contact_whatsapp;
+      if (!wa) return null;
+      return `https://wa.me/${wa.length === 10 ? "52" + wa : wa}?text=${encodeURIComponent(text)}`;
+    }
+    function timeLeft(iso) {
+      const ms = Math.max(0, new Date(iso) - Date.now());
+      return `${Math.floor(ms / 3600000)} h ${Math.floor((ms % 3600000) / 60000)} min`;
+    }
+    function renderAccount() {
+      const a = state.account, m = state.merchant, box = $("acctBanner");
+      const fecha = (iso) => new Date(iso).toLocaleDateString("es-MX", { day: "numeric", month: "long", year: "numeric" });
+      const askText = `Hola, quiero activar Mr Key para ${m.name} (código ${m.slug}).`;
+      $("blocked").classList.add("hidden");
+      if (a.state === "pending") {
+        $("trialInfo").textContent = `Cuenta de prueba · se borra en ${timeLeft(a.deletes_at)}`;
+        const wa = waLink(askText);
+        box.className = "card-box stack";
+        box.style.borderColor = "rgba(251,191,36,.5)";
+        box.innerHTML = `<b>⏳ Tu cuenta de prueba se borra en <span id="acctLeft">${timeLeft(a.deletes_at)}</span> si no se activa.</b>
+          <p class="mute small">Para quedarte con Mr Key (y con tus clientes), paga tu plan por transferencia o en efectivo y envía tu comprobante. Te activamos el mismo día.</p>
+          <div class="row">${wa ? `<a class="btn gold sm" href="${wa}" target="_blank" rel="noopener">Activar por WhatsApp</a>` : ""}<a class="btn sm" href="./#precios" target="_blank">Ver planes</a></div>`;
+        return;
+      }
+      if (a.state === "active") {
+        const days = Math.ceil((new Date(a.paid_until) - Date.now()) / 86400000);
+        $("trialInfo").textContent = `Plan ${a.plan_name} · activo hasta el ${fecha(a.paid_until)}`;
+        if (days <= 5) {
+          const wa = waLink(`Hola, quiero renovar Mr Key para ${m.name} (código ${m.slug}).`);
+          box.className = "card-box stack";
+          box.style.borderColor = "rgba(251,191,36,.5)";
+          box.innerHTML = `<b>${days > 0 ? `Tu plan vence en ${days} día(s).` : "Tu plan venció."} Renueva para no perder el acceso.</b>
+            ${wa ? `<div><a class="btn gold sm" href="${wa}" target="_blank" rel="noopener">Renovar por WhatsApp</a></div>` : ""}`;
+        } else box.className = "hidden";
+        return;
+      }
+      // Cancelada o vencida: el panel queda bloqueado.
+      box.className = "hidden";
+      $("trialInfo").textContent = a.state === "cancelled" ? "Membresía cancelada" : "Membresía vencida";
+      $("blockedTitle").textContent = a.state === "cancelled" ? "Tu membresía está cancelada" : "Tu membresía venció";
+      $("blockedText").textContent = "Tus clientes conservan sus tarjetas y sus sellos. Renueva tu plan para volver a sellar, ver tu panel y enviar campañas.";
+      const wa = waLink(`Hola, quiero reactivar Mr Key para ${m.name} (código ${m.slug}).`);
+      $("blockedWa").classList.toggle("hidden", !wa);
+      if (wa) $("blockedWa").href = wa;
+      $("blocked").classList.remove("hidden");
+    }
+    setInterval(() => {
+      if (state?.account?.state === "pending" && $("acctLeft")) {
+        $("acctLeft").textContent = timeLeft(state.account.deletes_at);
+        $("trialInfo").textContent = `Cuenta de prueba · se borra en ${timeLeft(state.account.deletes_at)}`;
+      }
+    }, 30000);
 
     // ---------- Clientes ----------
     document.querySelectorAll("[data-filter]").forEach((c) => c.addEventListener("click", () => {
