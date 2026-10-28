@@ -7,7 +7,7 @@
 | Cantina Real Ags | `cantina-real/` | Cantina y bar en Jesús María. Menú con comanda, reservaciones y posadas (WhatsApp 449 415 9466). |
 | MK Firma de Abogados | `mk-abogados/` | Bufete penal (MK Nacional · Bogacia). Áreas de práctica, urgencias 24/7 y consultas confidenciales. |
 | Mr Key | `mrkey/` | Plataforma de tarjetas de lealtad (SaaS): panel del negocio, sellado por QR, tarjeta del cliente y API en Supabase. Ver `mrkey/README.md`. |
-| JkJ Stock | `jkj-stock/` | Tienda por secciones (perfumes, accesorios, joyería, gorras, ropa, tenis) con un solo carrito, 5 % de descuento desde $2,000 y pedidos por WhatsApp (449 209 4034). |
+| JkJ Stock | `jkj-stock/` | Perfumería (diseñador y árabes) con carrito, 5 % de descuento desde $2,000 y pedidos por WhatsApp (449 209 4034). |
 
 `index.html` en la raíz es un portafolio con enlaces a todos los sitios. Para verlos localmente: `python3 -m http.server` y abre http://localhost:8000.
 
@@ -20,7 +20,7 @@ Regla para todos los sitios: **solo fotos reales del negocio** (nada de bancos d
 - **Cafeto:** menú = enchiladas, toast con huevo y sangría (fotos de @cafetoags). Falta la carta completa con precios.
 - **Burdo:** menú = cortes, parrillada, sangría, coctel de pitaya y carajillo (fotos del negocio). Falta la carta completa con precios; horarios de cierre por confirmar.
 - **JkJ Stock:** precios = precio del proveedor + 25 % (`CONFIG.markup`), redondeado al peso. Las imágenes de producto están alojadas en `jkj-stock/assets/products/` para que no dependan de otro sitio.
-- **JkJ Stock, secciones:** los productos están en `jkj-stock/assets/catalog.js` (campo `section`). Las páginas se generan desde `jkj-stock/_plantilla.html` con `python3 jkj-stock/build.py`; una sección sin productos muestra "Próximamente".
+- **JkJ Stock, catálogo:** solo perfumes. Los productos están en `jkj-stock/assets/catalog.js`; la página se genera desde `jkj-stock/_plantilla.html` con `python3 jkj-stock/build.py`.
 
 ---
 Sitios diseñados y desarrollados por **LKM’r**.
