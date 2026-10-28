@@ -8,6 +8,7 @@
 | MK Firma de Abogados | `mk-abogados/` | Bufete penal (MK Nacional · Bogacia). Áreas de práctica, urgencias 24/7 y consultas confidenciales. |
 | Mr Key | `mrkey/` | Plataforma de tarjetas de lealtad (SaaS): panel del negocio, sellado por QR, tarjeta del cliente y API en Supabase. Ver `mrkey/README.md`. |
 | Restaurante Oaxakita | `oaxakita/` | Cocina oaxaqueña en Valle Dorado. React + Framer Motion: partículas, sonido, menú completo con precios, pedidos y reservas por WhatsApp. |
+| Texas BBQ Ags | `texas-bbq/` | Smokehouse estilo Texas en Puerto las Hadas. Horario en vivo, pedidos por WhatsApp, calculadora para grupos y Uber Eats (449 550 4456). |
 | JkJ Stock | `jkj-stock/` | Perfumería (diseñador y árabes) con carrito, 5 % de descuento desde $2,000 y pedidos por WhatsApp (449 209 4034). |
 
 `index.html` en la raíz es un portafolio con enlaces a todos los sitios. Para verlos localmente: `python3 -m http.server` y abre http://localhost:8000.
@@ -23,6 +24,7 @@ Regla para todos los sitios: **solo fotos reales del negocio** (nada de bancos d
 - **Oaxakita:** menú y precios = carta oficial en PDF (75 productos). Fotos reales: fachada, salón y carnes asadas (las tres son de baja resolución, conviene pedir originales); el resto de platillos usa arte generado (grecas + ícono), no fotos de banco. El código fuente es `oaxakita/src/Oaxakita.jsx`; después de editarlo hay que correr `npm install && npm run build` dentro de `oaxakita/` para regenerar `assets/app.js` y `assets/app.css`. WhatsApp de pedidos y reservas: 449 580 3465 (confirmado por el cliente). Por confirmar: hora de cierre.
 - **JkJ Stock:** precios = precio del proveedor + 25 % (`CONFIG.markup`), redondeado al peso. Las imágenes de producto están alojadas en `jkj-stock/assets/products/` para que no dependan de otro sitio.
 - **JkJ Stock, catálogo:** solo perfumes. Los productos están en `jkj-stock/assets/catalog.js`; la página se genera desde `jkj-stock/_plantilla.html` con `python3 jkj-stock/build.py`.
+- **Texas BBQ Ags:** menú y precios = listado de Uber Eats (brisket 300/500 g, costilla de res 500 g, costilla de cerdo 300/500 g, sándwiches de brisket y pulled pork, papas); en el sitio se marcan como "precios de referencia". Elote, salchicha y bebidas salen en sus fotos pero sin precio ("precio en sucursal"). Fotos reales: fachada, salón, costilla de res, arte del brisket y tres miniaturas recortadas de Google (baja resolución, conviene pedir originales). Historia y "12 a 15 horas" vienen de la entrevista en LJA.MX (feb. 2025). El aviso "Solo quedan N porciones" solo aparece si el negocio llena `STOCK` en el script; `REVIEWS` está vacío hasta tener reseñas textuales autorizadas (mientras, la búsqueda abre Google). Por confirmar: que 449 550 4456 tenga WhatsApp, si venden tarjetas de regalo, el tipo de leña y el número exterior (Rappi dice 232; Google, Instagram y Uber Eats dicen 229).
 
 ---
 Sitios diseñados y desarrollados por **LKM’r**.
