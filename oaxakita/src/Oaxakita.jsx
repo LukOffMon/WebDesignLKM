@@ -17,8 +17,10 @@ import React, {
 } from 'react';
 import {
   AnimatePresence,
+  LazyMotion,
   MotionConfig,
-  motion,
+  domAnimation,
+  m as motion,
   useMotionTemplate,
   useMotionValue,
   useReducedMotion,
@@ -242,24 +244,27 @@ html.is-locked, html.is-locked body { overflow: hidden; }
 .no-scrollbar { scrollbar-width: none; } .no-scrollbar::-webkit-scrollbar { display: none; }
 :focus-visible { outline: 2px solid var(--oro); outline-offset: 3px; border-radius: 8px; }
 
-.grain { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+.grain { background-image: var(--grain); }
 
 .text-oro-grad { background: linear-gradient(100deg, #f6e3a6 0%, #D4AF37 45%, #E5A93B 70%, #C85A32 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
-.glass { background: linear-gradient(160deg, rgba(255,255,255,.055), rgba(255,255,255,.015)); backdrop-filter: blur(24px) saturate(140%); -webkit-backdrop-filter: blur(24px) saturate(140%); border: 1px solid rgba(245,242,235,.08); }
+.glass { background: linear-gradient(160deg, rgba(38,32,28,.92), rgba(20,17,15,.92)); border: 1px solid rgba(245,242,235,.08); }
 .gold-edge { position: relative; }
 .gold-edge::before { content: ''; position: absolute; inset: 0; padding: 1px; border-radius: inherit; background: linear-gradient(140deg, rgba(212,175,55,.65), rgba(212,175,55,.05) 35%, rgba(229,91,43,.05) 65%, rgba(229,169,59,.5)); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none; }
 .neo { box-shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 -1px 0 rgba(0,0,0,.4) inset, 0 30px 60px -30px rgba(0,0,0,.8); }
 .hairline { border-color: var(--line); }
+.greca-band { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='16'%3E%3Cpath d='M0 13.5H5V2.5H17V9.5H11V6.5M17 13.5H28' fill='none' stroke='%23D4AF37' stroke-opacity='.45' stroke-width='1.4'/%3E%3C/svg%3E") repeat-x; }
+.dish-in { animation: dish-in .55s cubic-bezier(.22,1,.36,1) both; }
+@keyframes dish-in { from { opacity: 0; transform: translateY(18px); } }
 .divider-oro { height: 1px; background: linear-gradient(90deg, transparent, rgba(212,175,55,.55), transparent); }
 
 /* Botón líquido dorado */
 .btn-liquid { position: relative; isolation: isolate; overflow: hidden; background: linear-gradient(135deg, #f1d67f, #D4AF37 50%, #b8902a); color: #1a1208; box-shadow: 0 12px 40px -8px rgba(212,175,55,.45), 0 0 0 1px rgba(255,236,170,.4) inset; transition: box-shadow .5s var(--ease), transform .5s var(--ease); }
-.btn-liquid::before { content: ''; position: absolute; left: 50%; top: 140%; width: 320%; aspect-ratio: 1; z-index: -1; background: linear-gradient(135deg, #E55B2B, #C85A32); border-radius: 46% 48% 47% 48%; transform: translateX(-50%); transition: top .8s var(--ease); animation: liquid-spin 6s linear infinite; }
-.btn-liquid:hover::before, .btn-liquid:focus-visible::before { top: -40%; }
+.btn-liquid::before { content: ''; position: absolute; left: 50%; top: 140%; width: 320%; aspect-ratio: 1; z-index: -1; background: linear-gradient(135deg, #E55B2B, #C85A32); border-radius: 46% 48% 47% 48%; transform: translateX(-50%); transition: top .8s var(--ease); animation: liquid-spin 6s linear infinite paused; }
+.btn-liquid:hover::before, .btn-liquid:focus-visible::before { top: -40%; animation-play-state: running; }
 .btn-liquid:hover { color: #fff7ea; box-shadow: 0 18px 60px -10px rgba(229,91,43,.6), 0 0 0 1px rgba(255,200,150,.35) inset; }
 .btn-liquid > * { transition: color .4s; }
 @keyframes liquid-spin { from { transform: translateX(-50%) rotate(0deg); } to { transform: translateX(-50%) rotate(360deg); } }
-.btn-ghost { border: 1px solid rgba(245,242,235,.16); background: rgba(255,255,255,.03); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); transition: border-color .4s, color .4s, background-color .4s, box-shadow .5s var(--ease); }
+.btn-ghost { border: 1px solid rgba(245,242,235,.16); background: rgba(20,17,15,.55); transition: border-color .4s, color .4s, background-color .4s, box-shadow .5s var(--ease); }
 .btn-ghost:hover { border-color: rgba(212,175,55,.7); color: #f6e3a6; background: rgba(212,175,55,.06); box-shadow: 0 0 40px -10px rgba(212,175,55,.4); }
 
 .chip { border: 1px solid rgba(245,242,235,.1); background: rgba(255,255,255,.02); color: #cfc9be; transition: all .35s var(--ease); white-space: nowrap; }
@@ -375,6 +380,23 @@ const todayISO = () => {
   d.setMinutes(d.getMinutes() - d.getTimezoneOffset());
   return d.toISOString().slice(0, 10);
 };
+
+// Textura de grano generada una sola vez (más barata que un filtro SVG)
+function useGrainTexture() {
+  useEffect(() => {
+    const c = document.createElement('canvas');
+    c.width = c.height = 128;
+    const g = c.getContext('2d');
+    const img = g.createImageData(128, 128);
+    for (let i = 0; i < img.data.length; i += 4) {
+      const v = Math.random() * 255;
+      img.data[i] = img.data[i + 1] = img.data[i + 2] = v;
+      img.data[i + 3] = 255;
+    }
+    g.putImageData(img, 0, 0);
+    document.documentElement.style.setProperty('--grain', `url(${c.toDataURL()})`);
+  }, []);
+}
 
 const scrollToId = (id) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
@@ -683,8 +705,7 @@ function DishArt({ dish, className = '', sizes = 'card' }) {
       >
         {dish.name.charAt(0)}
       </span>
-      <Greca className="absolute inset-x-0 bottom-0 h-4 w-full" color={c1} opacity={0.55} />
-      <Greca className="absolute inset-x-0 top-0 h-4 w-full rotate-180" color={c1} opacity={0.25} />
+      <div className="greca-band absolute inset-x-0 bottom-0 h-4" />
       <div className="absolute inset-0 grid place-items-center">
         <div
           className={`relative grid place-items-center rounded-full border ${big ? 'h-32 w-32' : 'h-14 w-14 sm:h-20 sm:w-20'}`}
@@ -736,7 +757,7 @@ function EmberCanvas({ className = '', density = 1 }) {
     const rand = (a, b) => a + Math.random() * (b - a);
     const spawn = (p = {}, anywhere = false) => {
       const r = Math.random();
-      const type = p.type || (r < 0.42 ? 'ember' : r < 0.72 ? 'ash' : r < 0.86 ? 'gold' : 'smoke');
+      const type = p.type || (r < 0.45 ? 'ember' : r < 0.78 ? 'ash' : r < 0.94 ? 'gold' : 'smoke');
       const base = {
         type,
         x: p.x ?? rand(0, w),
@@ -751,19 +772,19 @@ function EmberCanvas({ className = '', density = 1 }) {
       if (type === 'ember') Object.assign(base, { size: rand(4, 11), vy: p.vy ?? rand(-0.9, -0.35), flick: rand(0.05, 0.15) });
       if (type === 'gold') Object.assign(base, { size: rand(3, 8), vy: p.vy ?? rand(-0.35, -0.1), flick: rand(0.02, 0.06) });
       if (type === 'ash') Object.assign(base, { size: rand(1, 2.6), vy: p.vy ?? rand(-0.4, -0.08), shade: Math.random() < 0.5 ? '74,48,36' : '120,110,100' });
-      if (type === 'smoke') Object.assign(base, { size: rand(90, 220), vy: rand(-0.35, -0.12), max: rand(700, 1200) });
+      if (type === 'smoke') Object.assign(base, { size: rand(70, 140), vy: rand(-0.35, -0.12), max: rand(700, 1200) });
       if (anywhere) base.life = rand(0, base.max * 0.7);
       return base;
     };
 
     const resize = () => {
-      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
       w = canvas.clientWidth;
       h = canvas.clientHeight;
       canvas.width = Math.round(w * dpr);
       canvas.height = Math.round(h * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      const target = Math.round(Math.min(260, Math.max(50, ((w * h) / 9000) * density)) * (reduce ? 0.5 : 1));
+      const target = Math.round(Math.min(110, Math.max(36, ((w * h) / 16000) * density)) * (reduce ? 0.5 : 1));
       parts = Array.from({ length: target }, () => spawn({}, true));
     };
 
@@ -791,28 +812,35 @@ function EmberCanvas({ className = '', density = 1 }) {
         p.vy = p.vy * 0.985 + (p.type === 'smoke' ? -0.003 : p.type === 'ash' ? -0.002 : -0.006);
         p.x += p.vx;
         p.y += p.vy;
+        if (p.life >= p.max || p.y < -260 || p.x < -260 || p.x > w + 260) parts[i] = spawn();
+      }
+      // Dibujo por lotes: primero humo y ceniza, luego el brillo aditivo
+      ctx.globalCompositeOperation = 'source-over';
+      for (let i = 0; i < parts.length; i += 1) {
+        const p = parts[i];
+        if (p.type !== 'smoke' && p.type !== 'ash') continue;
         const k = p.life / p.max;
         const fade = Math.min(1, k * 6) * Math.min(1, (1 - k) * 3);
         if (p.type === 'smoke') {
-          ctx.globalCompositeOperation = 'source-over';
           ctx.globalAlpha = fade * 0.9;
           const s = p.size * (1 + k * 0.8);
           ctx.drawImage(sprites.smoke, p.x - s / 2, p.y - s / 2, s, s);
-        } else if (p.type === 'ash') {
-          ctx.globalCompositeOperation = 'source-over';
+        } else {
           ctx.globalAlpha = fade * 0.75;
           ctx.fillStyle = `rgb(${p.shade})`;
-          ctx.beginPath();
-          ctx.ellipse(p.x, p.y, p.size, p.size * 0.6, p.phase * 4, 0, Math.PI * 2);
-          ctx.fill();
-        } else {
-          ctx.globalCompositeOperation = 'lighter';
-          const flicker = 0.65 + Math.sin(p.life * p.flick * 6) * 0.35;
-          ctx.globalAlpha = fade * flicker;
-          const s = p.size * (p.type === 'ember' ? 1 - k * 0.5 : 1);
-          ctx.drawImage(p.type === 'ember' ? sprites.ember : sprites.gold, p.x - s, p.y - s, s * 2, s * 2);
+          ctx.fillRect(p.x - p.size / 2, p.y - p.size / 3, p.size, p.size * 0.66);
         }
-        if (p.life >= p.max || p.y < -260 || p.x < -260 || p.x > w + 260) parts[i] = spawn();
+      }
+      ctx.globalCompositeOperation = 'lighter';
+      for (let i = 0; i < parts.length; i += 1) {
+        const p = parts[i];
+        if (p.type !== 'ember' && p.type !== 'gold') continue;
+        const k = p.life / p.max;
+        const fade = Math.min(1, k * 6) * Math.min(1, (1 - k) * 3);
+        const flicker = 0.65 + Math.sin(p.life * p.flick * 6) * 0.35;
+        ctx.globalAlpha = fade * flicker;
+        const s = p.size * (p.type === 'ember' ? 1 - k * 0.5 : 1);
+        ctx.drawImage(p.type === 'ember' ? sprites.ember : sprites.gold, p.x - s, p.y - s, s * 2, s * 2);
       }
       ctx.globalAlpha = 1;
       ctx.globalCompositeOperation = 'source-over';
@@ -1090,7 +1118,7 @@ function Preloader({ onDone }) {
   useEffect(() => {
     let loaded = 0;
     const assets = Object.values(PHOTOS);
-    const total = assets.length + 1;
+    const total = assets.length;
     const bump = () => {
       loaded += 1;
     };
@@ -1100,11 +1128,10 @@ function Preloader({ onDone }) {
       img.onerror = bump;
       img.src = src;
     });
-    (document.fonts?.ready || Promise.resolve()).then(bump, bump);
 
     const start = performance.now();
-    const minTime = reduce ? 300 : 1500;
-    const maxTime = 4500;
+    const minTime = reduce ? 200 : 700;
+    const maxTime = 2000;
     let shown = 0;
     let raf = 0;
     const tick = (now) => {
@@ -1116,7 +1143,7 @@ function Preloader({ onDone }) {
       if (target >= 1 && shown > 0.995) shown = 1;
       setPct(Math.round(shown * 100));
       if (shown >= 1) {
-        setTimeout(onDone, reduce ? 0 : 280);
+        setTimeout(onDone, reduce ? 0 : 120);
         return;
       }
       raf = requestAnimationFrame(tick);
@@ -1220,7 +1247,7 @@ function Header({ cartCount, onCart, onReserve }) {
     <>
       <header
         className={`fixed inset-x-0 top-0 z-50 border-b transition-all duration-500 ${
-          scrolled ? 'border-[rgba(212,175,55,.14)] bg-obsidiana/70 py-2.5 backdrop-blur-2xl' : 'border-transparent py-4'
+          scrolled ? 'border-[rgba(212,175,55,.14)] bg-obsidiana/[.92] py-2.5' : 'border-transparent py-4'
         }`}
       >
         <div className="mx-auto flex max-w-[1600px] 3xl:max-w-[2200px] items-center justify-between gap-3 px-4 sm:px-6 lg:px-10">
@@ -1236,7 +1263,7 @@ function Header({ cartCount, onCart, onReserve }) {
                 className={`relative rounded-full px-4 py-2 text-[13px] font-medium tracking-wide transition-colors ${active === n.id ? 'text-marfil' : 'text-ceniza hover:text-marfil'}`}
                 aria-current={active === n.id ? 'true' : undefined}
               >
-                {active === n.id && <motion.span layoutId="nav-pill" className="absolute inset-0 -z-10 rounded-full border border-[rgba(212,175,55,.25)] bg-white/[.04]" />}
+                {active === n.id && <span className="absolute inset-0 -z-10 rounded-full border border-[rgba(212,175,55,.25)] bg-white/[.04]" />}
                 {n.label}
               </a>
             ))}
@@ -1299,7 +1326,7 @@ function Header({ cartCount, onCart, onReserve }) {
       <AnimatePresence>
         {open && (
           <motion.div
-            className="fixed inset-0 z-[90] flex flex-col bg-obsidiana/95 px-6 pb-10 pt-5 backdrop-blur-2xl lg:hidden"
+            className="fixed inset-0 z-[90] flex flex-col bg-obsidiana px-6 pb-10 pt-5 lg:hidden"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -1434,9 +1461,13 @@ function Hero({ ready, onMenu, onReserve }) {
   return (
     <section id="inicio" className="relative flex min-h-[100svh] flex-col overflow-hidden pt-24">
       <div className="pointer-events-none absolute inset-0" aria-hidden="true">
-        <div className="absolute -left-40 top-1/3 h-[38rem] w-[38rem] rounded-full bg-terracota/20 blur-[140px]" />
-        <div className="absolute -right-32 -top-20 h-[30rem] w-[30rem] rounded-full bg-agave/40 blur-[140px]" />
-        <div className="absolute bottom-0 left-1/2 h-72 w-[70rem] -translate-x-1/2 rounded-[100%] bg-teotitlan/20 blur-[120px]" />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              'radial-gradient(40rem 34rem at 0% 60%, rgba(200,90,50,.16), transparent 70%), radial-gradient(34rem 30rem at 100% 0%, rgba(45,72,58,.38), transparent 70%), radial-gradient(60rem 18rem at 50% 100%, rgba(229,91,43,.16), transparent 70%)',
+          }}
+        />
       </div>
       <EmberCanvas className="absolute inset-0 h-full w-full" density={1.1} />
       <Greca className="pointer-events-none absolute inset-x-0 bottom-0 h-5 w-full" opacity={0.18} />
@@ -1483,7 +1514,7 @@ function Hero({ ready, onMenu, onReserve }) {
         </div>
       </motion.div>
 
-      <motion.div {...appear(1.35)} className="relative border-t border-white/5 bg-obsidiana/40 backdrop-blur-md">
+      <motion.div {...appear(1.35)} className="relative border-t border-white/5 bg-obsidiana/60">
         <dl className="mx-auto grid max-w-[1600px] 3xl:max-w-[2200px] grid-cols-1 gap-y-3 px-4 py-4 text-sm xs:grid-cols-3 sm:px-6 lg:px-10">
           {[
             { icon: Clock, k: 'Abre', v: 'Diario · 8:00 a.m.' },
@@ -1739,15 +1770,8 @@ function Pillars({ onFilter }) {
 function DishCard({ dish, onOpen, onQuickAdd }) {
   const meta = CAT_META[dish.cat];
   return (
-    <motion.li
-      layout
-      initial={{ opacity: 0, y: 24, scale: 0.98 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.96, transition: { duration: 0.2 } }}
-      transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-      className="group relative"
-    >
-      <div className="gold-edge relative flex h-full flex-row overflow-hidden rounded-[22px] sm:flex-col bg-[#100d0b] transition-[transform,box-shadow] duration-500 hover:-translate-y-1.5 hover:shadow-[0_30px_70px_-30px_rgba(229,91,43,.45)]">
+    <li className="dish-in group relative">
+      <div className="relative flex h-full flex-row overflow-hidden rounded-[22px] border border-[rgba(212,175,55,.14)] bg-[#100d0b] transition-[transform,border-color] duration-500 hover:-translate-y-1.5 hover:border-[rgba(212,175,55,.45)] sm:flex-col">
         <button type="button" onClick={() => onOpen(dish)} className="relative block w-28 shrink-0 overflow-hidden text-left xs:w-32 sm:aspect-[16/11] sm:w-auto" data-cursor="view" aria-label={`Ver detalle de ${dish.name}`}>
           <div className="h-full w-full transition-transform duration-[1200ms] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.06]">
             <DishArt dish={dish} />
@@ -1757,13 +1781,13 @@ function DishCard({ dish, onOpen, onQuickAdd }) {
           {dish.badges.length > 0 && (
             <span className="absolute left-3 top-3 hidden flex-wrap gap-1.5 sm:flex">
               {dish.badges.slice(0, 2).map((b) => (
-                <span key={b} className="rounded-full border border-white/10 bg-black/55 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-marfil backdrop-blur-md">
+                <span key={b} className="rounded-full border border-white/10 bg-black/70 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-marfil">
                   {b}
                 </span>
               ))}
             </span>
           )}
-          {dish.img && <span className="absolute bottom-2 right-2 hidden rounded sm:inline-full bg-black/55 px-2 py-0.5 text-[9px] uppercase tracking-widest text-ceniza backdrop-blur">Foto real</span>}
+          {dish.img && <span className="absolute bottom-2 right-2 hidden rounded sm:inline-full bg-black/55 px-2 py-0.5 text-[9px] uppercase tracking-widest text-ceniza">Foto real</span>}
         </button>
         <div className="flex min-w-0 flex-1 flex-col p-4 sm:p-5">
           <p className="text-[10px] font-semibold uppercase tracking-[0.25em]" style={{ color: meta.colors[0] }}>
@@ -1787,7 +1811,7 @@ function DishCard({ dish, onOpen, onQuickAdd }) {
           </div>
         </div>
       </div>
-    </motion.li>
+    </li>
   );
 }
 
@@ -1831,7 +1855,7 @@ function MenuSection({ filter, setFilter, onOpen, onQuickAdd }) {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Busca mole, tlayuda, tobalá…"
-                className="field glass !rounded-full !py-3.5 !pl-11 !pr-10"
+                className="field !rounded-full !py-3.5 !pl-11 !pr-10"
               />
               {query && (
                 <button type="button" onClick={() => setQuery('')} className="absolute right-3 top-1/2 grid h-7 w-7 -translate-y-1/2 place-items-center rounded-full text-ceniza hover:text-marfil" aria-label="Limpiar búsqueda">
@@ -1842,7 +1866,7 @@ function MenuSection({ filter, setFilter, onOpen, onQuickAdd }) {
           </Reveal>
         </div>
 
-        <div className="sticky top-[60px] z-30 -mx-4 mt-10 border-y border-white/[.04] bg-obsidiana/80 px-4 py-3 backdrop-blur-2xl sm:-mx-6 sm:px-6 lg:-mx-10 lg:px-10">
+        <div className="sticky top-[60px] z-30 -mx-4 mt-10 border-y border-white/[.04] bg-obsidiana/[.96] px-4 py-3 sm:-mx-6 sm:px-6 lg:-mx-10 lg:px-10">
           <div ref={chipsRef} className="no-scrollbar flex gap-2 overflow-x-auto" role="toolbar" aria-label="Filtrar el menú por categoría">
             {FILTERS.map((f) => (
               <button
@@ -1881,20 +1905,18 @@ function MenuSection({ filter, setFilter, onOpen, onQuickAdd }) {
               const meta = CAT_META[g.cat];
               const Icon = meta.icon;
               return (
-                <div key={g.cat}>
+                <div key={g.cat} style={{ contentVisibility: 'auto', containIntrinsicSize: 'auto 900px' }}>
                   <div className="mb-5 flex items-center gap-3">
                     <Icon className="h-5 w-5" style={{ color: meta.colors[0] }} strokeWidth={1.6} />
                     <h3 className="font-display text-xl text-marfil sm:text-2xl">{meta.label}</h3>
                     <span className="h-px flex-1 bg-gradient-to-r from-white/10 to-transparent" />
                     <span className="text-xs tabular-nums text-ceniza">{g.items.length}</span>
                   </div>
-                  <motion.ul layout className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5">
-                    <AnimatePresence mode="popLayout">
-                      {g.items.map((d) => (
-                        <DishCard key={d.id} dish={d} onOpen={onOpen} onQuickAdd={onQuickAdd} />
-                      ))}
-                    </AnimatePresence>
-                  </motion.ul>
+                  <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5">
+                    {g.items.map((d) => (
+                      <DishCard key={d.id} dish={d} onOpen={onOpen} onQuickAdd={onQuickAdd} />
+                    ))}
+                  </ul>
                 </div>
               );
             })}
@@ -1954,7 +1976,7 @@ function DishModal({ dish, onClose, onAdd }) {
     <AnimatePresence>
       {dish && (
         <motion.div className="fixed inset-0 z-[110] flex items-end justify-center sm:items-center sm:p-6" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-          <div className="absolute inset-0 bg-black/75 backdrop-blur-md" onClick={onClose} aria-hidden="true" />
+          <div className="absolute inset-0 bg-black/85" onClick={onClose} aria-hidden="true" />
           <motion.div
             ref={panel}
             role="dialog"
@@ -1966,7 +1988,7 @@ function DishModal({ dish, onClose, onAdd }) {
             transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
             className="gold-edge relative max-h-[92svh] w-full max-w-3xl overflow-y-auto rounded-t-[28px] bg-barro sm:rounded-[28px]"
           >
-            <button type="button" onClick={onClose} className="absolute right-4 top-4 z-10 grid h-10 w-10 place-items-center rounded-full border border-white/10 bg-black/50 text-marfil backdrop-blur" aria-label="Cerrar detalle" data-autofocus>
+            <button type="button" onClick={onClose} className="absolute right-4 top-4 z-10 grid h-10 w-10 place-items-center rounded-full border border-white/10 bg-black/50 text-marfil" aria-label="Cerrar detalle" data-autofocus>
               <X className="h-5 w-5" />
             </button>
             <div className="grid sm:grid-cols-2">
@@ -2044,13 +2066,13 @@ function Visit({ onReserve, onOrder }) {
               <div className="grid gap-3 sm:grid-cols-[1.6fr_1fr]">
                 <figure className="relative overflow-hidden rounded-[20px]">
                   <img src={PHOTOS.fachada} alt="Fachada del Restaurante Oaxakita: muros amarillos, arcos coloniales, cactus y letrero de la casa" loading="lazy" className="aspect-[4/3] h-full w-full object-cover" />
-                  <figcaption className="absolute bottom-3 left-3 rounded-full bg-black/60 px-3 py-1 text-[10px] uppercase tracking-[0.25em] text-marfil backdrop-blur">
+                  <figcaption className="absolute bottom-3 left-3 rounded-full bg-black/60 px-3 py-1 text-[10px] uppercase tracking-[0.25em] text-marfil">
                     La fachada
                   </figcaption>
                 </figure>
                 <figure className="relative hidden overflow-hidden rounded-[20px] sm:block">
                   <img src={PHOTOS.salon} alt="Salón interior del Restaurante Oaxakita con mesas de madera, sillas tejidas y lámpara de mimbre" loading="lazy" className="h-full w-full object-cover" />
-                  <figcaption className="absolute bottom-3 left-3 rounded-full bg-black/60 px-3 py-1 text-[10px] uppercase tracking-[0.25em] text-marfil backdrop-blur">
+                  <figcaption className="absolute bottom-3 left-3 rounded-full bg-black/60 px-3 py-1 text-[10px] uppercase tracking-[0.25em] text-marfil">
                     El salón
                   </figcaption>
                 </figure>
@@ -2161,7 +2183,7 @@ function CartDrawer({ open, onClose, lines, dispatch, onBrowse }) {
     <AnimatePresence>
       {open && (
         <motion.div className="fixed inset-0 z-[100]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-          <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={onClose} aria-hidden="true" />
+          <div className="absolute inset-0 bg-black/80" onClick={onClose} aria-hidden="true" />
           <motion.aside
             ref={panel}
             role="dialog"
@@ -2171,7 +2193,7 @@ function CartDrawer({ open, onClose, lines, dispatch, onBrowse }) {
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute inset-y-0 right-0 flex w-full max-w-[480px] flex-col border-l border-[rgba(212,175,55,.15)] bg-barro/95 backdrop-blur-2xl"
+            className="absolute inset-y-0 right-0 flex w-full max-w-[480px] flex-col border-l border-[rgba(212,175,55,.15)] bg-barro"
           >
             <Greca className="absolute inset-x-0 top-0 h-3 w-full" opacity={0.3} />
             <div className="flex items-center justify-between border-b border-white/5 px-5 pb-4 pt-6 sm:px-6">
@@ -2205,7 +2227,6 @@ function CartDrawer({ open, onClose, lines, dispatch, onBrowse }) {
                       {detailed.map((l) => (
                         <motion.li
                           key={l.key}
-                          layout
                           initial={{ opacity: 0, x: 30 }}
                           animate={{ opacity: 1, x: 0 }}
                           exit={{ opacity: 0, x: 30, height: 0, marginTop: 0 }}
@@ -2354,7 +2375,7 @@ function ReserveModal({ open, onClose, onSeeMap }) {
     <AnimatePresence>
       {open && (
         <motion.div className="fixed inset-0 z-[110] flex items-end justify-center sm:items-center sm:p-6" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-          <div className="absolute inset-0 bg-black/75 backdrop-blur-md" onClick={onClose} aria-hidden="true" />
+          <div className="absolute inset-0 bg-black/85" onClick={onClose} aria-hidden="true" />
           <motion.div
             ref={panel}
             role="dialog"
@@ -2366,7 +2387,7 @@ function ReserveModal({ open, onClose, onSeeMap }) {
             transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
             className="gold-edge relative max-h-[94svh] w-full max-w-4xl overflow-y-auto rounded-t-[28px] bg-barro sm:rounded-[28px]"
           >
-            <button type="button" onClick={onClose} className="absolute right-4 top-4 z-10 grid h-10 w-10 place-items-center rounded-full border border-white/10 bg-black/50 backdrop-blur" aria-label="Cerrar reserva" data-autofocus>
+            <button type="button" onClick={onClose} className="absolute right-4 top-4 z-10 grid h-10 w-10 place-items-center rounded-full border border-white/10 bg-black/50" aria-label="Cerrar reserva" data-autofocus>
               <X className="h-5 w-5" />
             </button>
             <div className="grid md:grid-cols-[1fr_1.2fr]">
@@ -2559,6 +2580,7 @@ function Experience() {
   }, [play]);
 
   useScrollLock(!ready);
+  useGrainTexture();
 
   return (
     <>
@@ -2612,10 +2634,12 @@ function Experience() {
 
 export default function Oaxakita() {
   return (
-    <MotionConfig reducedMotion="user">
-      <SoundProvider>
-        <Experience />
-      </SoundProvider>
-    </MotionConfig>
+    <LazyMotion features={domAnimation} strict>
+      <MotionConfig reducedMotion="user">
+        <SoundProvider>
+          <Experience />
+        </SoundProvider>
+      </MotionConfig>
+    </LazyMotion>
   );
 }
