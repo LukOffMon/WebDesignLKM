@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Texas BBQ Ags · Cortes ahumados estilo Texas en Aguascalientes</title>
+  <meta name="description" content="Texas BBQ Ags: brisket, costillas de res y cerdo ahumadas estilo Texas. 4.5 en Google con 197 opiniones. Jueves a domingo de 2:00 a 10:00 p.m. en Monte Coronado 229, Puerto las Hadas, Aguascalientes." />
+  <meta name="theme-color" content="#09090b" />
+  <meta property="og:title" content="Texas BBQ Ags · Puro estilo Texas, directo al plato" />
+  <meta property="og:description" content="Cortes ahumados con excelencia en calidad y servicio. Monte Coronado 229, Puerto las Hadas, Aguascalientes." />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:locale" content="es_MX" />
+  <meta property="og:image" content="assets/brisket-toro.jpg" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Texas BBQ" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/brisket-toro.jpg" />
+
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            coal: 'var(--coal)',
+            smoke: 'var(--smoke)',
+            smoke2: 'var(--smoke2)',
+            ember: { DEFAULT: '#f97316', amber: '#d97706', flash: '#fbbf24' },
+            ivory: '#fafafa',
+            ash: '#a1a1aa',
+          },
+          fontFamily: {
+            display: ['Oswald', 'Impact', 'sans-serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          },
+          screens: { xs: '400px' },
+        },
+      },
+    };
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarbecueRestaurant",
+    "name": "Texas BBQ Ags",
+    "slogan": "Puro estilo Texas, directo al plato",
+    "image": "assets/brisket-toro.jpg",
+    "telephone": "+52 449 550 4456",
+    "priceRange": "$200-300 MXN",
+    "servesCuisine": ["Barbecue", "Texas BBQ", "Carnes ahumadas"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Monte Coronado 229, Fracc. Puerto las Hadas",
+      "addressLocality": "Aguascalientes",
+      "addressRegion": "Ags.",
+      "postalCode": "20110",
+      "addressCountry": "MX"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 21.92674, "longitude": -102.31034 },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "14:00",
+      "closes": "22:00"
+    }],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "197" },
+    "sameAs": [
+      "https://www.instagram.com/texas.bbq.ags/",
+      "https://www.facebook.com/p/TEXAS-BBQ-AGS-100091455443887/",
+      "https://www.ubereats.com/mx/store/texas-bbq-ags-aguascalientes/9bR_NvOfQxyrZIJVRAXjAg"
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --coal: #09090b;
+      --smoke: #121214;
+      --smoke2: #18181b;
+      --line: rgba(249, 115, 22, 0.16);
+      --glass: rgba(24, 24, 27, 0.62);
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+      color-scheme: dark;
+    }
+    html[data-theme="oled"] {
+      --coal: #000000;
+      --smoke: #050505;
+      --smoke2: #0a0a0a;
+      --line: rgba(249, 115, 22, 0.22);
+      --glass: rgba(0, 0, 0, 0.72);
+    }
+    html { -webkit-text-size-adjust: 100%; scroll-padding-top: 96px; }
+    body { background: var(--coal); color: #fafafa; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+    body.is-locked { overflow: hidden; }
+    ::selection { background: rgba(249, 115, 22, 0.45); color: #fff; }
+    .no-scrollbar { scrollbar-width: none; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+
+    /* Humo y grano */
+    .grain::after {
+      content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 90; opacity: 0.035;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+    html[data-theme="oled"] .grain::after { opacity: 0; }
+    .smoke-bg {
+      background:
+        radial-gradient(60% 50% at 80% 10%, rgba(249,115,22,0.22), transparent 70%),
+        radial-gradient(50% 40% at 10% 90%, rgba(217,119,6,0.14), transparent 70%),
+        radial-gradient(80% 60% at 50% 120%, rgba(251,191,36,0.10), transparent 70%),
+        var(--coal);
+    }
+    html[data-theme="oled"] .smoke-bg { background: radial-gradient(60% 50% at 80% 10%, rgba(249,115,22,0.14), transparent 70%), #000; }
+
+    /* Tarjetas de vidrio sobre metal oscuro */
+    .glass {
+      position: relative;
+      background: var(--glass);
+      -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+      border-radius: 1.5rem;
+      isolation: isolate;
+    }
+    .glass::before {
+      content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px; z-index: -1;
+      background: linear-gradient(140deg, rgba(251,191,36,0.38), rgba(255,255,255,0.06) 35%, rgba(255,255,255,0.03) 65%, rgba(249,115,22,0.30));
+      -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      -webkit-mask-composite: xor; mask-composite: exclude;
+      pointer-events: none;
+    }
+    .metal { background: linear-gradient(180deg, var(--smoke2), var(--smoke)); border: 1px solid rgba(255,255,255,0.07); border-radius: 1.5rem; }
+
+    .text-fire { background: linear-gradient(100deg, #fde68a 0%, #fbbf24 25%, #f97316 60%, #d97706 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .eyebrow { font-size: .72rem; font-weight: 800; letter-spacing: .28em; text-transform: uppercase; color: #fbbf24; }
+    .h-display { font-family: Oswald, Impact, sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: -0.01em; line-height: .95; }
+
+    /* Botones con shimmer y glow de brasa */
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: .55rem; min-height: 48px; padding: .8rem 1.4rem; border-radius: 999px; font-weight: 800; font-size: .95rem; transition: transform .35s var(--ease), box-shadow .35s var(--ease), background-color .3s, border-color .3s; cursor: pointer; user-select: none; text-align: center; }
+    .btn:active { transform: scale(.97); }
+    .btn:focus-visible, a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid #fbbf24; outline-offset: 3px; }
+    .btn-fire { position: relative; overflow: hidden; color: #1c0a00; background: linear-gradient(100deg, #fbbf24, #f97316 55%, #ea580c); box-shadow: 0 8px 24px rgba(249,115,22,0.28); }
+    .btn-fire::after { content: ''; position: absolute; top: 0; left: -60%; width: 45%; height: 100%; background: linear-gradient(100deg, transparent, rgba(255,255,255,0.55), transparent); transform: skewX(-20deg); animation: shimmer 3.2s ease-in-out infinite; }
+    .btn-fire:hover { box-shadow: 0 14px 44px rgba(249,115,22,0.55), 0 0 0 4px rgba(251,191,36,0.15); transform: translateY(-2px); }
+    .btn-ghost { color: #fafafa; border: 1px solid rgba(255,255,255,0.18); background: rgba(255,255,255,0.04); }
+    .btn-ghost:hover { border-color: rgba(251,191,36,0.6); box-shadow: 0 10px 34px rgba(249,115,22,0.22); transform: translateY(-2px); }
+    .btn-sm { min-height: 44px; padding: .55rem 1rem; font-size: .85rem; }
+    @keyframes shimmer { 0% { left: -60%; } 55%, 100% { left: 130%; } }
+
+    .chip { min-height: 44px; padding: .55rem 1rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.12); background: rgba(255,255,255,0.03); font-weight: 700; font-size: .85rem; color: #d4d4d8; transition: all .25s var(--ease); }
+    .chip:hover { border-color: rgba(251,191,36,0.5); color: #fff; }
+    .chip[aria-pressed="true"], .chip[aria-checked="true"] { background: linear-gradient(100deg, #fbbf24, #f97316); border-color: transparent; color: #1c0a00; }
+
+    .field { width: 100%; min-height: 48px; border-radius: 1rem; border: 1px solid rgba(255,255,255,0.12); background: rgba(0,0,0,0.35); color: #fafafa; padding: .75rem 1rem; font-size: 1rem; }
+    .field::placeholder { color: #71717a; }
+    .field:focus { border-color: #f97316; outline: none; box-shadow: 0 0 0 3px rgba(249,115,22,0.2); }
+    label.lbl { display: block; font-size: .78rem; font-weight: 700; color: #a1a1aa; margin-bottom: .4rem; letter-spacing: .02em; }
+
+    /* Revelado por scroll */
+    .js [data-reveal] { opacity: 0; transform: translateY(26px); transition: opacity .9s var(--ease), transform .9s var(--ease); }
+    .js [data-reveal].is-in { opacity: 1; transform: none; }
+
+    /* Header de vidrio */
+    #siteHeader { transition: background-color .4s, backdrop-filter .4s, border-color .4s, top .3s; }
+    #siteHeader.is-scrolled { background: rgba(9,9,11,0.72); -webkit-backdrop-filter: blur(14px) saturate(140%); backdrop-filter: blur(14px) saturate(140%); border-color: rgba(255,255,255,0.08); }
+    html[data-theme="oled"] #siteHeader.is-scrolled { background: rgba(0,0,0,0.82); }
+
+    /* Brasas flotantes */
+    .ember-dot { position: absolute; bottom: -10px; width: 4px; height: 4px; border-radius: 50%; background: #fbbf24; box-shadow: 0 0 10px 2px rgba(249,115,22,0.8); opacity: 0; animation: rise linear infinite; }
+    @keyframes rise { 0% { transform: translate3d(0,0,0) scale(1); opacity: 0; } 10% { opacity: .9; } 100% { transform: translate3d(var(--dx), -110vh, 0) scale(.3); opacity: 0; } }
+
+    .pulse-dot { position: relative; width: 12px; height: 12px; border-radius: 50%; flex: none; }
+    .pulse-dot::after { content: ''; position: absolute; inset: 0; border-radius: 50%; background: inherit; animation: pulse 1.8s ease-out infinite; }
+    @keyframes pulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(2.8); opacity: 0; } }
+
+    /* Modales y hojas */
+    .overlay { position: fixed; inset: 0; z-index: 80; background: rgba(0,0,0,0.7); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); opacity: 0; pointer-events: none; transition: opacity .35s var(--ease); }
+    .overlay.is-open { opacity: 1; pointer-events: auto; }
+    .sheet { position: fixed; z-index: 85; left: 0; right: 0; bottom: 0; max-height: 92vh; overflow-y: auto; transform: translateY(105%); transition: transform .5s var(--ease); border-radius: 1.75rem 1.75rem 0 0; background: var(--smoke); border-top: 1px solid rgba(251,191,36,0.25); padding-bottom: env(safe-area-inset-bottom); }
+    .sheet.is-open { transform: none; }
+    .sheet { visibility: hidden; transition: transform .5s var(--ease), visibility 0s linear .5s; }
+    .sheet.is-open { visibility: visible; transition: transform .5s var(--ease), visibility 0s; }
+    @media (min-width: 768px) {
+      .sheet { left: 50%; right: auto; bottom: auto; top: 50%; width: min(560px, calc(100vw - 32px)); border-radius: 1.75rem; border: 1px solid rgba(251,191,36,0.25); transform: translate(-50%, -44%) scale(.97); opacity: 0; pointer-events: none; transition: transform .45s var(--ease), opacity .3s, visibility 0s linear .45s; }
+      .sheet.is-open { transform: translate(-50%, -50%) scale(1); opacity: 1; pointer-events: auto; transition: transform .45s var(--ease), opacity .3s, visibility 0s; }
+      .sheet.sheet-wide { width: min(720px, calc(100vw - 32px)); }
+    }
+
+    #mobileNav { transform: translateY(-8px); opacity: 0; pointer-events: none; transition: all .35s var(--ease); }
+    #mobileNav.is-open { transform: none; opacity: 1; pointer-events: auto; }
+
+    .toast { position: fixed; left: 50%; bottom: calc(96px + env(safe-area-inset-bottom)); z-index: 95; transform: translate(-50%, 20px); opacity: 0; transition: all .4s var(--ease); pointer-events: none; }
+    .toast.is-on { transform: translate(-50%, 0); opacity: 1; }
+
+    .cut-card .cut-detail { max-height: 0; opacity: 0; overflow: hidden; transition: max-height .5s var(--ease), opacity .4s; }
+    .cut-card[aria-expanded="true"] .cut-detail { max-height: 420px; opacity: 1; }
+    .cut-card[aria-expanded="true"] { border-color: rgba(251,191,36,0.55); }
+    @media (hover: hover) { .cut-card:hover .cut-detail { max-height: 420px; opacity: 1; } }
+    .meter { height: 6px; border-radius: 99px; background: rgba(255,255,255,0.08); overflow: hidden; }
+    .meter > span { display: block; height: 100%; background: linear-gradient(90deg, #d97706, #fbbf24); border-radius: inherit; }
+
+    .gift { background: radial-gradient(120% 120% at 100% 0%, rgba(251,191,36,0.35), transparent 50%), linear-gradient(135deg, #1c1917 0%, #0c0a09 60%, #431407 100%); border: 1px solid rgba(251,191,36,0.35); border-radius: 1.5rem; aspect-ratio: 1.6 / 1; }
+
+    .plate { background: radial-gradient(circle at 50% 45%, #27272a 0%, #18181b 55%, #0a0a0a 70%); border-radius: 50%; box-shadow: inset 0 0 0 10px rgba(255,255,255,0.03), inset 0 0 40px rgba(0,0,0,0.8), 0 30px 60px rgba(0,0,0,0.5); }
+    .plate-item { transition: transform .5s var(--ease), opacity .4s; }
+    .plate-item.is-empty { opacity: 0; transform: scale(.6); }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+      .js [data-reveal] { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body class="grain">
+  <a href="#contenido" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-ember focus:text-black focus:px-4 focus:py-3 focus:rounded-full font-bold">Saltar al contenido</a>
+
+  <!-- Barra de cuenta regresiva (solo cuando está cerrado) -->
+  <div id="countdownBar" class="hidden fixed top-0 inset-x-0 z-[60] bg-gradient-to-r from-[#431407] via-[#7c2d12] to-[#431407] text-[13px] sm:text-sm text-amber-100 border-b border-amber-500/30" role="status" aria-live="polite">
+    <div class="max-w-6xl mx-auto px-4 h-9 flex items-center justify-center gap-2 text-center">
+      <span aria-hidden="true">🔥</span>
+      <span>Siguiente horneada en: <strong id="countdownText" class="font-display tracking-wide text-amber-300">—</strong></span>
+      <span class="hidden sm:inline text-amber-200/70" id="countdownWhen"></span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header id="siteHeader" class="fixed inset-x-0 top-0 z-50 border-b border-transparent">
+    <div class="max-w-6xl mx-auto px-4 h-[68px] flex items-center justify-between gap-3">
+      <a href="#inicio" class="flex items-center gap-2.5 shrink-0" aria-label="Texas BBQ Ags, ir al inicio">
+        <svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true">
+          <defs>
+            <linearGradient id="flameG" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ea580c"/><stop offset=".6" stop-color="#f97316"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+          </defs>
+          <path d="M24 3c2 7 10 11 10 22a10 10 0 0 1-20 0c0-5 3-8 5-10 0 4 2 6 4 6-1-6 0-12 1-18z" fill="url(#flameG)"/>
+          <path d="M24 26c2 3 5 4 5 8a5 5 0 0 1-10 0c0-3 2-4 3-6 0 2 1 3 2 3z" fill="#fde68a"/>
+          <rect x="8" y="41" width="32" height="3" rx="1.5" fill="#fafafa" opacity=".85"/>
+        </svg>
+        <span class="leading-none">
+          <span class="block font-display font-bold text-xl tracking-wide uppercase">Texas <span class="text-ember">BBQ</span></span>
+          <span class="block text-[10px] font-extrabold tracking-[.38em] text-ash uppercase mt-0.5">Aguascalientes</span>
+        </span>
+      </a>
+      <nav aria-label="Principal" class="hidden lg:block">
+        <ul class="flex items-center gap-1 text-sm font-semibold text-zinc-300">
+          <li><a class="px-3 py-2 rounded-full hover:text-white hover:bg-white/5" href="#menu">Menú</a></li>
+          <li><a class="px-3 py-2 rounded-full hover:text-white hover:bg-white/5" href="#experiencia">Experiencia</a></li>
+          <li><a class="px-3 py-2 rounded-full hover:text-white hover:bg-white/5" href="#horarios">Horarios</a></li>
+          <li><a class="px-3 py-2 rounded-full hover:text-white hover:bg-white/5" href="#ubicacion">Ubicación</a></li>
+          <li><a class="px-3 py-2 rounded-full hover:text-white hover:bg-white/5" href="#resenas">Reseñas</a></li>
+        </ul>
+      </nav>
+      <div class="flex items-center gap-2">
+        <button id="themeToggle" type="button" class="w-11 h-11 rounded-full border border-white/10 bg-white/5 grid place-items-center hover:border-amber-400/60" aria-pressed="false" aria-label="Activar modo OLED Smoke (ultra oscuro)" title="Modo OLED Smoke">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button type="button" class="relative w-11 h-11 rounded-full border border-white/10 bg-white/5 grid place-items-center hover:border-amber-400/60" data-open="cartSheet" aria-label="Ver tu pedido">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 3H2"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg>
+          <span id="cartBadge" class="hidden absolute -top-1 -right-1 min-w-[20px] h-5 px-1 rounded-full bg-ember text-black text-[11px] font-extrabold grid place-items-center">0</span>
+        </button>
+        <button type="button" class="btn btn-fire btn-sm hidden sm:inline-flex" data-open="orderModal">Pedir Ahora</button>
+        <button id="menuToggle" type="button" class="lg:hidden w-11 h-11 rounded-full border border-white/10 bg-white/5 grid place-items-center" aria-expanded="false" aria-controls="mobileNav" aria-label="Abrir menú de navegación">
+          <svg id="menuIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav id="mobileNav" aria-label="Móvil" class="lg:hidden absolute inset-x-3 top-[72px] glass p-3 shadow-2xl">
+      <ul class="grid gap-1 text-base font-semibold">
+        <li><a class="flex items-center justify-between px-4 min-h-[52px] rounded-2xl hover:bg-white/5" href="#menu">Menú y precios <span aria-hidden="true" class="text-ember">→</span></a></li>
+        <li><a class="flex items-center justify-between px-4 min-h-[52px] rounded-2xl hover:bg-white/5" href="#experiencia">Experiencia <span aria-hidden="true" class="text-ember">→</span></a></li>
+        <li><a class="flex items-center justify-between px-4 min-h-[52px] rounded-2xl hover:bg-white/5" href="#horarios">Horarios <span aria-hidden="true" class="text-ember">→</span></a></li>
+        <li><a class="flex items-center justify-between px-4 min-h-[52px] rounded-2xl hover:bg-white/5" href="#ubicacion">Ubicación <span aria-hidden="true" class="text-ember">→</span></a></li>
+        <li><a class="flex items-center justify-between px-4 min-h-[52px] rounded-2xl hover:bg-white/5" href="#resenas">Reseñas <span aria-hidden="true" class="text-ember">→</span></a></li>
+      </ul>
+      <button type="button" class="btn btn-fire w-full mt-3" data-open="orderModal">Pedir Ahora</button>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- HERO -->
+    <section id="inicio" class="relative smoke-bg overflow-hidden pt-[110px] pb-16 sm:pt-[128px] lg:pb-24">
+      <div id="embers" class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
+      <div class="relative max-w-6xl mx-auto px-4 grid lg:grid-cols-[1.1fr_.9fr] gap-10 lg:gap-14 items-center">
+        <div data-reveal>
+          <a href="#resenas" class="inline-block rounded-full border border-amber-400/30 bg-amber-400/10 px-4 py-2 text-[13px] leading-snug font-bold text-amber-200 hover:bg-amber-400/15">
+            <span aria-hidden="true">⭐</span> 4.5 Estrellas en Google <span class="text-amber-200/60 font-semibold whitespace-nowrap">(197+ Opiniones Reales)</span>
+          </a>
+          <h1 class="h-display text-[3.1rem] xs:text-[3.6rem] sm:text-7xl lg:text-[5.4rem] mt-6">
+            Puro estilo Texas,<br /><span class="text-fire">directo al plato</span>
+          </h1>
+          <p class="mt-6 text-lg text-zinc-300 max-w-xl leading-relaxed">
+            Brisket y costillas ahumadas lento, a la manera texana: hasta <strong class="text-white">15 horas de fuego</strong> para un corte con corteza crujiente y anillo rosado. Cortes ahumados con excelencia en calidad y servicio, en Puerto las Hadas, Aguascalientes.
+          </p>
+          <div class="mt-8 flex flex-col xs:flex-row gap-3">
+            <a href="#menu" class="btn btn-fire text-base px-7">Ver Menú y Precios
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="https://www.ubereats.com/mx/store/texas-bbq-ags-aguascalientes/9bR_NvOfQxyrZIJVRAXjAg" target="_blank" rel="noopener" class="btn btn-ghost text-base px-7" data-track="ubereats-hero">Pedir por Uber Eats</a>
+          </div>
+          <dl class="mt-10 grid grid-cols-3 gap-3 max-w-lg">
+            <div class="metal px-4 py-3">
+              <dt class="text-[11px] uppercase tracking-widest text-ash font-bold">Precio</dt>
+              <dd class="font-display text-xl mt-1">$200–300</dd>
+              <dd class="text-[11px] text-ash">por persona</dd>
+            </div>
+            <div class="metal px-4 py-3">
+              <dt class="text-[11px] uppercase tracking-widest text-ash font-bold">Abrimos</dt>
+              <dd class="font-display text-xl mt-1">Jue–Dom</dd>
+              <dd class="text-[11px] text-ash">2:00–10:00 p.m.</dd>
+            </div>
+            <div class="metal px-4 py-3">
+              <dt class="text-[11px] uppercase tracking-widest text-ash font-bold">Ahora</dt>
+              <dd class="mt-1.5 flex items-center gap-2"><span id="heroDot" class="pulse-dot bg-zinc-500"></span><span id="heroStatus" class="font-display text-xl">—</span></dd>
+              <dd class="text-[11px] text-ash" id="heroStatusSub">hora de Ags.</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="relative" data-reveal>
+          <div class="absolute -inset-6 bg-[radial-gradient(closest-side,rgba(249,115,22,0.35),transparent)] blur-2xl" aria-hidden="true"></div>
+          <figure class="relative glass p-2 rotate-[1.5deg] max-w-sm mx-auto lg:max-w-none">
+            <img src="assets/brisket-toro.jpg" width="436" height="510" alt="Rebanadas de brisket ahumado con corteza negra y jugo escurriendo, arte oficial de Texas BBQ Ags" class="w-full rounded-[1.15rem] object-cover aspect-[436/510]" fetchpriority="high" />
+            <figcaption class="absolute -bottom-5 -left-3 sm:-left-6 glass px-4 py-3 rotate-[-3deg] shadow-2xl">
+              <span class="block text-[11px] font-extrabold tracking-[.2em] uppercase text-amber-300">Brisket</span>
+              <span class="block font-display text-lg">Ahumado 12–15 h</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Franja de autoridad -->
+    <section aria-label="Prueba social" class="border-y border-white/5 bg-smoke">
+      <div class="max-w-6xl mx-auto px-4 py-5 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <a href="#resenas" class="group"><span class="block font-display text-2xl text-amber-300">4.5 ★</span><span class="text-xs text-ash group-hover:text-white">197+ reseñas en Google</span></a>
+        <a href="https://www.facebook.com/p/TEXAS-BBQ-AGS-100091455443887/" target="_blank" rel="noopener" class="group"><span class="block font-display text-2xl text-amber-300">5.0 ★</span><span class="text-xs text-ash group-hover:text-white">Facebook · 2.2K+ seguidores</span></a>
+        <a href="https://www.instagram.com/texas.bbq.ags/" target="_blank" rel="noopener" class="group"><span class="block font-display text-2xl text-amber-300">3.4K+</span><span class="text-xs text-ash group-hover:text-white">@texas.bbq.ags en Instagram</span></a>
+        <a href="https://www.ubereats.com/mx/store/texas-bbq-ags-aguascalientes/9bR_NvOfQxyrZIJVRAXjAg" target="_blank" rel="noopener" class="group"><span class="block font-display text-2xl text-amber-300">Uber Eats</span><span class="text-xs text-ash group-hover:text-white">Entrega a domicilio</span></a>
+      </div>
+    </section>
+
+    <!-- MENÚ -->
+    <section id="menu" class="py-20 sm:py-24" aria-labelledby="menuTitle">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6" data-reveal>
+          <div>
+            <p class="eyebrow">El menú</p>
+            <h2 id="menuTitle" class="h-display text-5xl sm:text-6xl mt-3">Cortes del <span class="text-fire">ahumador</span></h2>
+            <p class="mt-4 text-zinc-400 max-w-xl">Lo que sale del ahumador, por peso o en sándwich. Gasto promedio de <strong class="text-white">$200 a $300 MXN por persona</strong>.</p>
+          </div>
+          <div class="metal px-5 py-4 max-w-sm text-sm text-zinc-400">
+            <p><strong class="text-amber-300">Precios de referencia</strong> publicados en Uber Eats. En sucursal pueden variar; te los confirmamos al pedir.</p>
+          </div>
+        </div>
+
+        <div class="mt-8 flex gap-2 overflow-x-auto no-scrollbar -mx-4 px-4 pb-1" role="group" aria-label="Filtrar menú">
+          <button type="button" class="chip shrink-0" data-filter="todos" aria-pressed="true">Todo</button>
+          <button type="button" class="chip shrink-0" data-filter="carnivoro" aria-pressed="false">🥩 Para carnívoros puros</button>
+          <button type="button" class="chip shrink-0" data-filter="compartir" aria-pressed="false">👥 Para compartir</button>
+          <button type="button" class="chip shrink-0" data-filter="llevar" aria-pressed="false">🥪 Rápidos de llevar</button>
+          <button type="button" class="chip shrink-0" data-filter="side" aria-pressed="false">🌽 Acompañamientos</button>
+        </div>
+
+        <div id="menuGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-5" aria-live="polite"></div>
+        <p id="menuEmpty" class="hidden mt-8 text-center text-ash">No hay platillos con ese filtro.</p>
+
+        <div class="mt-10 glass p-6 sm:p-8 grid md:grid-cols-[1fr_auto] gap-6 items-center" data-reveal>
+          <div>
+            <h3 class="font-display text-2xl uppercase">¿Ya sabes qué quieres?</h3>
+            <p class="text-zinc-400 mt-2">Agrega platillos con <strong class="text-white">+</strong> y te armamos el mensaje de WhatsApp listo para enviar, con tu pedido y dirección.</p>
+          </div>
+          <button type="button" class="btn btn-fire" data-open="cartSheet">Ver mi pedido · <span id="cartInline">0 artículos</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREA TU PLATO -->
+    <section id="combo" class="py-20 sm:py-24 bg-smoke border-y border-white/5" aria-labelledby="comboTitle">
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-start">
+        <div data-reveal>
+          <p class="eyebrow">Crea tu plato Texas</p>
+          <h2 id="comboTitle" class="h-display text-5xl sm:text-6xl mt-3">Arma tu <span class="text-fire">charola</span></h2>
+          <p class="mt-4 text-zinc-400">Tres pasos: tu carne, tu acompañamiento y tu bebida. El precio se calcula en vivo.</p>
+
+          <fieldset class="mt-8">
+            <legend class="font-display text-lg uppercase tracking-wide"><span class="text-ember">1.</span> Elige tu carne</legend>
+            <div id="stepMeat" class="mt-3 grid grid-cols-1 xs:grid-cols-2 gap-2" role="radiogroup" aria-label="Carne"></div>
+          </fieldset>
+          <fieldset class="mt-6">
+            <legend class="font-display text-lg uppercase tracking-wide"><span class="text-ember">2.</span> Elige tu acompañamiento</legend>
+            <div id="stepSide" class="mt-3 grid grid-cols-1 xs:grid-cols-2 gap-2" role="radiogroup" aria-label="Acompañamiento"></div>
+          </fieldset>
+          <fieldset class="mt-6">
+            <legend class="font-display text-lg uppercase tracking-wide"><span class="text-ember">3.</span> Elige tu bebida</legend>
+            <div id="stepDrink" class="mt-3 grid grid-cols-1 xs:grid-cols-2 gap-2" role="radiogroup" aria-label="Bebida"></div>
+          </fieldset>
+        </div>
+
+        <div class="lg:sticky lg:top-28" data-reveal>
+          <div class="glass p-6 sm:p-8">
+            <div class="plate relative mx-auto w-full max-w-[340px] aspect-square">
+              <div class="absolute inset-[14%] grid grid-cols-2 grid-rows-2 gap-3">
+                <div id="plateMeat" class="plate-item is-empty col-span-2 rounded-2xl overflow-hidden bg-zinc-800"></div>
+                <div id="plateSide" class="plate-item is-empty rounded-2xl overflow-hidden bg-zinc-800 grid place-items-center text-4xl"></div>
+                <div id="plateDrink" class="plate-item is-empty rounded-2xl overflow-hidden bg-zinc-800 grid place-items-center text-4xl"></div>
+              </div>
+            </div>
+            <ul id="comboSummary" class="mt-6 space-y-2 text-sm"></ul>
+            <div class="mt-5 pt-5 border-t border-white/10 flex items-end justify-between gap-4">
+              <div>
+                <p class="text-xs uppercase tracking-widest text-ash font-bold">Total de tu plato</p>
+                <p class="font-display text-4xl mt-1" id="comboTotal">$0</p>
+                <p class="text-xs text-ash mt-1" id="comboNote"></p>
+              </div>
+              <button type="button" id="comboAdd" class="btn btn-fire" disabled>Agregar al pedido</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA + ANATOMÍA -->
+    <section id="experiencia" class="py-20 sm:py-24" aria-labelledby="expTitle">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
+          <div data-reveal>
+            <p class="eyebrow">La experiencia</p>
+            <h2 id="expTitle" class="h-display text-5xl sm:text-6xl mt-3">Paciencia, fuego <span class="text-fire">y humo</span></h2>
+            <p class="mt-5 text-zinc-300 leading-relaxed">Texas BBQ Ags nació de dos amigos, <strong class="text-white">Miguel Alejandro y Alejandro Rodríguez</strong>, obsesionados con el ahumado tradicional texano. Aquí no hay atajos: mientras en una parrilla la carne se cocina en minutos, en el ahumador un brisket puede pasar hasta 15 horas.</p>
+            <blockquote class="mt-6 glass p-5 sm:p-6">
+              <p class="text-lg leading-relaxed">“Nuestro primer brisket fue una aventura… en vez de 12 horas, fueron 15. Pero quedó increíble.”</p>
+              <footer class="mt-3 text-sm text-ash">— Los fundadores, en entrevista con <a class="underline decoration-amber-400/50 hover:text-white" href="https://www.lja.mx/2025/02/texas-bbq-paciencia-fuego-y-el-sabor-del-ahumador-en-cada-bocado/" target="_blank" rel="noopener">LJA.MX</a> (2025)</footer>
+            </blockquote>
+          </div>
+          <div class="grid grid-cols-2 gap-3" data-reveal>
+            <img src="assets/salon.jpg" loading="lazy" width="680" height="510" alt="Salón de Texas BBQ Ags con mesas de madera, series de luces, pantallas y la bandera de Texas" class="col-span-2 rounded-3xl object-cover w-full aspect-[16/10]" />
+            <img src="assets/costilla-res.jpg" loading="lazy" width="680" height="510" alt="Costilla de res ahumada sobre papel a cuadros rojo junto a una bebida con el logo de Texas BBQ" class="rounded-3xl object-cover w-full aspect-square" />
+            <img src="assets/fachada.jpg" loading="lazy" width="680" height="306" alt="Fachada negra de Texas BBQ Ags con letrero rojo y columnas rojas" class="rounded-3xl object-cover w-full aspect-square" />
+          </div>
+        </div>
+
+        <div class="mt-20" data-reveal>
+          <p class="eyebrow">Anatomía del ahumado</p>
+          <h3 class="h-display text-4xl sm:text-5xl mt-3">Toca un corte y <span class="text-fire">descubre su técnica</span></h3>
+          <div id="anatomyGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARIDAJE -->
+    <section id="maridaje" class="py-20 sm:py-24 bg-smoke border-y border-white/5" aria-labelledby="pairTitle">
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-[.9fr_1.1fr] gap-10 items-center">
+        <div data-reveal>
+          <p class="eyebrow">Asistente de maridaje</p>
+          <h2 id="pairTitle" class="h-display text-5xl sm:text-6xl mt-3">¿Qué se te <span class="text-fire">antoja</span>?</h2>
+          <p class="mt-4 text-zinc-400">Dinos tu sabor y te sugerimos el corte y la bebida.</p>
+          <div class="mt-6 flex flex-wrap gap-2" role="radiogroup" aria-label="Sabor preferido" id="pairChips">
+            <button type="button" role="radio" class="chip" data-flavor="dulce" aria-checked="false">🍯 Dulce</button>
+            <button type="button" role="radio" class="chip" data-flavor="ahumado" aria-checked="true">🔥 Ahumado intenso</button>
+            <button type="button" role="radio" class="chip" data-flavor="picante" aria-checked="false">🌶️ Picante texano</button>
+          </div>
+        </div>
+        <div id="pairResult" class="glass p-6 sm:p-8 grid sm:grid-cols-[160px_1fr] gap-6 items-center" aria-live="polite" data-reveal></div>
+      </div>
+    </section>
+
+    <!-- CALCULADORA DE GRUPOS -->
+    <section id="grupos" class="py-20 sm:py-24" aria-labelledby="partyTitle">
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-10 items-start">
+        <div data-reveal>
+          <p class="eyebrow">Party BBQ Calculator</p>
+          <h2 id="partyTitle" class="h-display text-5xl sm:text-6xl mt-3">¿Cuánta carne <span class="text-fire">para tu grupo</span>?</h2>
+          <p class="mt-4 text-zinc-400">Reuniones, cumpleaños o la carne asada del domingo. Calcula kilos y presupuesto aproximado en segundos.</p>
+          <div class="mt-8 metal p-6">
+            <div class="flex items-center justify-between gap-4">
+              <label for="partyPeople" class="font-bold">Personas</label>
+              <div class="flex items-center gap-2">
+                <button type="button" class="w-12 h-12 rounded-full border border-white/15 text-xl font-bold hover:border-amber-400" data-step="-1" aria-label="Quitar una persona">−</button>
+                <output id="partyPeopleOut" for="partyPeople" class="font-display text-4xl w-16 text-center">6</output>
+                <button type="button" class="w-12 h-12 rounded-full border border-white/15 text-xl font-bold hover:border-amber-400" data-step="1" aria-label="Agregar una persona">+</button>
+              </div>
+            </div>
+            <input id="partyPeople" type="range" min="2" max="60" value="6" class="w-full mt-5 accent-orange-500 h-2" aria-describedby="partyHint" />
+            <div class="mt-3 flex flex-wrap gap-2">
+              <button type="button" class="chip" data-people="2">2</button>
+              <button type="button" class="chip" data-people="5">5</button>
+              <button type="button" class="chip" data-people="10">10</button>
+              <button type="button" class="chip" data-people="20">20</button>
+            </div>
+            <p class="mt-6 font-bold">Nivel de hambre</p>
+            <div class="mt-3 grid grid-cols-3 gap-2" role="radiogroup" aria-label="Nivel de hambre" id="appetite">
+              <button type="button" role="radio" class="chip" data-grams="250" aria-checked="false">Ligera</button>
+              <button type="button" role="radio" class="chip" data-grams="350" aria-checked="true">Normal</button>
+              <button type="button" role="radio" class="chip" data-grams="450" aria-checked="false">Voraz</button>
+            </div>
+            <p id="partyHint" class="mt-4 text-xs text-ash">Cálculo con <span id="partyGrams">350</span> g de carne por persona, repartidos entre brisket, costilla de res y costilla de cerdo, con precios de referencia por kilo.</p>
+          </div>
+        </div>
+        <div class="glass p-6 sm:p-8" data-reveal aria-live="polite">
+          <p class="text-xs uppercase tracking-widest text-ash font-bold">Para <span id="partyFor">6 personas</span></p>
+          <ul id="partyList" class="mt-4 divide-y divide-white/10"></ul>
+          <div class="mt-6 pt-5 border-t border-white/10 flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p class="text-xs uppercase tracking-widest text-ash font-bold">Presupuesto aproximado</p>
+              <p class="font-display text-5xl text-fire mt-1" id="partyTotal">$0</p>
+              <p class="text-xs text-ash mt-1" id="partyPer"></p>
+            </div>
+            <button type="button" id="partyWa" class="btn btn-fire">Cotizar por WhatsApp</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HORARIOS -->
+    <section id="horarios" class="py-20 sm:py-24 bg-smoke border-y border-white/5" aria-labelledby="hoursTitle">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="grid lg:grid-cols-[1fr_1.2fr] gap-10 items-start">
+          <div data-reveal>
+            <p class="eyebrow">Horarios</p>
+            <h2 id="hoursTitle" class="h-display text-5xl sm:text-6xl mt-3">El ahumador <span class="text-fire">se prende</span></h2>
+            <p class="mt-4 text-zinc-400">Jueves a domingo de 2:00 a 10:00 p.m. Lunes, martes y miércoles descansamos (y ahumamos para el fin de semana).</p>
+            <div id="statusCard" class="mt-8 metal p-6" role="status" aria-live="polite">
+              <div class="flex items-center gap-3">
+                <span id="statusDot" class="pulse-dot bg-zinc-500"></span>
+                <p id="statusTitle" class="font-display text-2xl uppercase">Revisando…</p>
+              </div>
+              <p id="statusSub" class="mt-2 text-zinc-400"></p>
+              <p class="mt-1 text-xs text-ash">Hora actual en Aguascalientes: <span id="statusClock">—</span></p>
+              <div class="mt-5 flex flex-col xs:flex-row gap-2">
+                <button type="button" class="btn btn-fire" data-open="orderModal" id="statusCta">Haz tu pedido</button>
+                <a href="tel:+524495504456" class="btn btn-ghost">Llamar</a>
+              </div>
+            </div>
+          </div>
+          <div data-reveal>
+            <ol id="daysGrid" class="grid grid-cols-1 sm:grid-cols-2 gap-3" aria-label="Horario por día"></ol>
+            <p class="mt-4 text-xs text-ash">Horario oficial publicado en Google. En días festivos puede cambiar: síguenos en <a class="underline hover:text-white" href="https://www.instagram.com/texas.bbq.ags/" target="_blank" rel="noopener">Instagram</a> para avisos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="py-20 sm:py-24" aria-labelledby="locTitle">
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-10 items-start">
+        <div data-reveal>
+          <p class="eyebrow">Ubicación</p>
+          <h2 id="locTitle" class="h-display text-5xl sm:text-6xl mt-3">Ven por tu <span class="text-fire">charola</span></h2>
+          <address class="not-italic mt-6 glass p-6">
+            <p class="text-xs uppercase tracking-widest text-ash font-bold">Dirección</p>
+            <p class="mt-2 text-lg font-semibold leading-snug" id="addressText">Monte Coronado 229, Fracc. Puerto las Hadas, C.P. 20110, Aguascalientes, Ags.</p>
+            <p class="mt-1 text-sm text-ash">Detrás del Dairy Queen de Av. Luis Donaldo Colosio.</p>
+            <div class="mt-5 grid xs:grid-cols-2 gap-2">
+              <button type="button" class="btn btn-ghost" id="copyAddress">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg>
+                Copiar dirección
+              </button>
+              <button type="button" class="btn btn-ghost" id="copyCoords">Copiar coordenadas</button>
+              <a class="btn btn-fire" href="https://www.google.com/maps/search/?api=1&query=Texas+BBQ+Ags+Monte+Coronado+229+Puerto+las+Hadas+Aguascalientes" target="_blank" rel="noopener">Abrir en Google Maps</a>
+              <a class="btn btn-ghost" href="https://waze.com/ul?q=Monte%20Coronado%20229%2C%20Puerto%20las%20Hadas%2C%20Aguascalientes&navigate=yes" target="_blank" rel="noopener">Abrir en Waze</a>
+            </div>
+          </address>
+
+          <div class="mt-4 metal p-6">
+            <p class="text-xs uppercase tracking-widest text-ash font-bold">¿Qué tan lejos estás?</p>
+            <p id="geoResult" class="mt-2 text-zinc-300" aria-live="polite">Calculamos la distancia y el tiempo aproximado en auto desde tu ubicación. Solo se usa en tu teléfono, no se guarda.</p>
+            <button type="button" id="geoBtn" class="btn btn-ghost mt-4">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+              Calcular mi distancia
+            </button>
+          </div>
+
+          <div class="mt-4 metal p-6 flex items-center justify-between gap-4">
+            <div>
+              <p class="text-xs uppercase tracking-widest text-ash font-bold">Teléfono y pedidos</p>
+              <a href="tel:+524495504456" class="block font-display text-3xl mt-1 hover:text-amber-300">449 550 4456</a>
+            </div>
+            <a href="tel:+524495504456" class="w-14 h-14 rounded-full bg-ember text-black grid place-items-center shrink-0" aria-label="Llamar al 449 550 4456">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="glass p-2 lg:sticky lg:top-28" data-reveal>
+          <div id="mapBox" class="relative rounded-[1.15rem] overflow-hidden aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5] bg-smoke2 grid place-items-center">
+            <button type="button" id="mapLoad" class="btn btn-ghost">Cargar mapa interactivo</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEÑAS Y REDES -->
+    <section id="resenas" class="py-20 sm:py-24 bg-smoke border-y border-white/5" aria-labelledby="revTitle">
+      <div class="max-w-6xl mx-auto px-4">
+        <div data-reveal>
+          <p class="eyebrow">Reseñas y comunidad</p>
+          <h2 id="revTitle" class="h-display text-5xl sm:text-6xl mt-3">Lo dice <span class="text-fire">la gente</span></h2>
+        </div>
+        <div class="mt-8 grid md:grid-cols-3 gap-4">
+          <a href="https://www.google.com/search?q=Texas+BBQ+Ags+Monte+Coronado+229+opiniones" target="_blank" rel="noopener" class="glass p-6 block hover:-translate-y-1 transition-transform" data-reveal>
+            <p class="text-xs uppercase tracking-widest text-ash font-bold">Google</p>
+            <p class="mt-2 flex items-baseline gap-2"><span class="font-display text-5xl">4.5</span><span class="text-amber-400 text-xl" aria-label="4.5 de 5 estrellas">★★★★<span class="opacity-50">★</span></span></p>
+            <p class="text-sm text-ash mt-1">197+ opiniones reales</p>
+          </a>
+          <a href="https://www.facebook.com/p/TEXAS-BBQ-AGS-100091455443887/" target="_blank" rel="noopener" class="glass p-6 block hover:-translate-y-1 transition-transform" data-reveal>
+            <p class="text-xs uppercase tracking-widest text-ash font-bold">Facebook</p>
+            <p class="mt-2 flex items-baseline gap-2"><span class="font-display text-5xl">5.0</span><span class="text-amber-400 text-xl" aria-label="5 de 5 estrellas">★★★★★</span></p>
+            <p class="text-sm text-ash mt-1">2.2K+ seguidores · TEXAS BBQ AGS</p>
+          </a>
+          <a href="https://www.instagram.com/texas.bbq.ags/" target="_blank" rel="noopener" class="glass p-6 block hover:-translate-y-1 transition-transform" data-reveal>
+            <p class="text-xs uppercase tracking-widest text-ash font-bold">Instagram</p>
+            <p class="mt-2 font-display text-5xl">3.4K+</p>
+            <p class="text-sm text-ash mt-1">@texas.bbq.ags · fotos de cada horneada</p>
+          </a>
+        </div>
+
+        <div class="mt-10 metal p-6 sm:p-8" data-reveal>
+          <h3 class="font-display text-2xl uppercase">¿Qué dicen del…?</h3>
+          <p class="text-zinc-400 mt-1">Busca en las reseñas de Google lo que opinan de un platillo o del servicio.</p>
+          <form id="reviewForm" class="mt-5 flex flex-col sm:flex-row gap-2" role="search">
+            <label for="reviewQuery" class="sr-only">Palabra clave</label>
+            <input id="reviewQuery" class="field sm:flex-1" type="search" placeholder="Ej. brisket, costilla, atención, ambiente" autocomplete="off" />
+            <button type="submit" class="btn btn-fire">Buscar en reseñas</button>
+          </form>
+          <div class="mt-4 flex flex-wrap gap-2" id="reviewChips">
+            <button type="button" class="chip" data-q="brisket">Brisket</button>
+            <button type="button" class="chip" data-q="costilla">Costillas</button>
+            <button type="button" class="chip" data-q="pulled pork">Pulled pork</button>
+            <button type="button" class="chip" data-q="atención">Atención</button>
+            <button type="button" class="chip" data-q="ambiente">Ambiente</button>
+          </div>
+          <div id="reviewList" class="mt-6 grid md:grid-cols-2 gap-4" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TARJETAS DE REGALO -->
+    <section id="regalo" class="py-20 sm:py-24" aria-labelledby="giftTitle">
+      <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-10 items-center">
+        <div data-reveal>
+          <p class="eyebrow">Regala humo</p>
+          <h2 id="giftTitle" class="h-display text-5xl sm:text-6xl mt-3">Tarjeta de <span class="text-fire">regalo</span></h2>
+          <p class="mt-4 text-zinc-400">Diseña la tarjeta para ese cumpleaños carnívoro y pídela por WhatsApp. Te confirmamos disponibilidad y forma de pago.</p>
+          <form id="giftForm" class="mt-6 grid gap-4">
+            <div>
+              <span class="lbl">Monto</span>
+              <div class="grid grid-cols-4 gap-2" role="radiogroup" aria-label="Monto" id="giftAmounts">
+                <button type="button" role="radio" class="chip" data-amount="500" aria-checked="false">$500</button>
+                <button type="button" role="radio" class="chip" data-amount="800" aria-checked="true">$800</button>
+                <button type="button" role="radio" class="chip" data-amount="1000" aria-checked="false">$1,000</button>
+                <button type="button" role="radio" class="chip" data-amount="1500" aria-checked="false">$1,500</button>
+              </div>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div><label class="lbl" for="giftTo">Para</label><input id="giftTo" class="field" maxlength="28" placeholder="Nombre de quien recibe" /></div>
+              <div><label class="lbl" for="giftFrom">De</label><input id="giftFrom" class="field" maxlength="28" placeholder="Tu nombre" /></div>
+            </div>
+            <div><label class="lbl" for="giftMsg">Mensaje</label><input id="giftMsg" class="field" maxlength="60" placeholder="¡Feliz cumpleaños! Que sea con brisket." /></div>
+            <button type="submit" class="btn btn-fire">Pedir tarjeta por WhatsApp</button>
+          </form>
+        </div>
+        <div data-reveal>
+          <div class="gift p-6 sm:p-8 flex flex-col justify-between shadow-[0_40px_80px_rgba(0,0,0,0.6)] max-w-md mx-auto w-full" aria-label="Vista previa de la tarjeta de regalo">
+            <div class="flex items-start justify-between">
+              <div>
+                <p class="font-display text-2xl uppercase leading-none">Texas <span class="text-ember">BBQ</span></p>
+                <p class="text-[10px] tracking-[.35em] uppercase text-amber-200/70 mt-1">Gift card · Ags</p>
+              </div>
+              <p class="font-display text-4xl sm:text-5xl text-fire" id="giftAmountView">$800</p>
+            </div>
+            <div>
+              <p class="text-sm text-amber-100/90 italic" id="giftMsgView">¡Feliz cumpleaños! Que sea con brisket.</p>
+              <div class="mt-3 flex justify-between text-xs uppercase tracking-widest text-amber-200/70">
+                <span>Para: <strong class="text-white normal-case tracking-normal text-sm" id="giftToView">—</strong></span>
+                <span>De: <strong class="text-white normal-case tracking-normal text-sm" id="giftFromView">—</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="relative overflow-hidden" aria-label="Pedir ahora">
+      <img src="assets/salon.jpg" alt="" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-30" />
+      <div class="absolute inset-0 bg-gradient-to-t from-[var(--coal)] via-[rgba(9,9,11,0.7)] to-[var(--coal)]" aria-hidden="true"></div>
+      <div class="relative max-w-4xl mx-auto px-4 py-24 text-center" data-reveal>
+        <h2 class="h-display text-5xl sm:text-7xl">El humo <span class="text-fire">no espera</span></h2>
+        <p class="mt-5 text-lg text-zinc-300">Pide para llevar, a domicilio o ven a la sucursal en Puerto las Hadas.</p>
+        <div class="mt-8 flex flex-col xs:flex-row gap-3 justify-center">
+          <button type="button" class="btn btn-fire text-base px-8" data-open="orderModal">Pedir Ahora</button>
+          <a href="#ubicacion" class="btn btn-ghost text-base px-8">Cómo llegar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-smoke border-t border-white/5 pb-28 sm:pb-12">
+    <div class="max-w-6xl mx-auto px-4 pt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div>
+        <p class="font-display text-2xl uppercase">Texas <span class="text-ember">BBQ</span> Ags</p>
+        <p class="mt-3 text-sm text-ash">Puro estilo Texas, directo al plato. Cortes ahumados con excelencia en calidad y servicio.</p>
+        <div class="mt-5 flex gap-2">
+          <a href="https://www.instagram.com/texas.bbq.ags/" target="_blank" rel="noopener" class="w-11 h-11 rounded-full border border-white/10 grid place-items-center hover:border-amber-400 hover:text-amber-300" aria-label="Instagram @texas.bbq.ags">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.facebook.com/p/TEXAS-BBQ-AGS-100091455443887/" target="_blank" rel="noopener" class="w-11 h-11 rounded-full border border-white/10 grid place-items-center hover:border-amber-400 hover:text-amber-300" aria-label="Facebook TEXAS BBQ AGS">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4.5 1.8-4.5 4.6V11H7v4h2.5v6h4v-6h3l.5-4h-3.5V9c0-.6.4-1 1-1z"/></svg>
+          </a>
+          <a href="https://wa.me/524495504456" target="_blank" rel="noopener" class="w-11 h-11 rounded-full border border-white/10 grid place-items-center hover:border-amber-400 hover:text-amber-300" aria-label="WhatsApp 449 550 4456">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <nav aria-label="Secciones">
+        <p class="text-xs uppercase tracking-widest text-ash font-bold">Secciones</p>
+        <ul class="mt-4 grid gap-2 text-sm">
+          <li><a class="hover:text-amber-300" href="#menu">Menú y precios</a></li>
+          <li><a class="hover:text-amber-300" href="#combo">Crea tu plato</a></li>
+          <li><a class="hover:text-amber-300" href="#grupos">Calculadora para grupos</a></li>
+          <li><a class="hover:text-amber-300" href="#horarios">Horarios</a></li>
+          <li><a class="hover:text-amber-300" href="#ubicacion">Ubicación</a></li>
+          <li><a class="hover:text-amber-300" href="#regalo">Tarjetas de regalo</a></li>
+        </ul>
+      </nav>
+      <div>
+        <p class="text-xs uppercase tracking-widest text-ash font-bold">Visítanos</p>
+        <p class="mt-4 text-sm text-zinc-300">Monte Coronado 229, Fracc. Puerto las Hadas, C.P. 20110, Aguascalientes, Ags.</p>
+        <p class="mt-3 text-sm text-zinc-300">Jueves a domingo · 2:00–10:00 p.m.<br /><span class="text-ash">Lunes a miércoles cerrado</span></p>
+        <a href="tel:+524495504456" class="mt-3 inline-block text-sm font-bold text-amber-300">449 550 4456</a>
+      </div>
+      <div>
+        <p class="text-xs uppercase tracking-widest text-ash font-bold">Pide a domicilio</p>
+        <a href="https://www.ubereats.com/mx/store/texas-bbq-ags-aguascalientes/9bR_NvOfQxyrZIJVRAXjAg" target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-3 rounded-2xl border border-white/10 bg-black px-4 py-3 hover:border-[#06c167]">
+          <span class="w-9 h-9 rounded-lg bg-[#06c167] grid place-items-center text-black font-extrabold text-sm" aria-hidden="true">UE</span>
+          <span class="leading-tight"><span class="block text-[10px] uppercase tracking-widest text-ash">Disponible en</span><span class="block font-bold">Uber Eats</span></span>
+        </a>
+        <button type="button" id="installFooter" class="mt-3 btn btn-ghost btn-sm w-full">Guardar como app</button>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto px-4 mt-12 pt-6 border-t border-white/5 text-xs text-ash grid gap-2 sm:flex sm:justify-between">
+      <p>© <span id="year">2026</span> Texas BBQ Ags. Precios de referencia sujetos a cambio sin previo aviso; se confirman al hacer tu pedido. Uber Eats, Google, Facebook, Instagram y WhatsApp son marcas de sus respectivos dueños. La ubicación que compartas solo se usa en tu dispositivo.</p>
+      <p class="shrink-0">Diseño y desarrollo: <strong class="text-white">LKM’r</strong></p>
+    </div>
+  </footer>
+
+  <!-- Botones flotantes -->
+  <div class="fixed z-40 right-4 flex flex-col gap-3 items-end" style="bottom: calc(16px + env(safe-area-inset-bottom));">
+    <a href="tel:+524495504456" class="w-14 h-14 rounded-full bg-zinc-900 border border-white/15 grid place-items-center shadow-xl hover:border-amber-400" aria-label="Llamar a Texas BBQ Ags">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="#fbbf24" aria-hidden="true"><path d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+    </a>
+    <a href="https://wa.me/524495504456?text=%C2%A1Hola%20Texas%20BBQ%20Ags!%20Quiero%20hacer%20un%20pedido." target="_blank" rel="noopener" class="w-14 h-14 rounded-full bg-[#25d366] grid place-items-center shadow-[0_10px_30px_rgba(37,211,102,0.35)]" aria-label="Escribir por WhatsApp a Texas BBQ Ags">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+    </a>
+  </div>
+  <button type="button" id="hungryBtn" class="fixed z-40 left-4 btn btn-fire btn-sm sm:min-h-[48px] sm:text-[.95rem] shadow-2xl" style="bottom: calc(16px + env(safe-area-inset-bottom));" aria-label="Modo Hambre Voraz: pedir combo rápido">
+    <span aria-hidden="true">⚡</span> Hambre Voraz
+  </button>
+
+  <!-- Aviso de instalación (PWA) -->
+  <div id="installBanner" class="hidden fixed z-[45] inset-x-3 sm:left-auto sm:right-4 sm:w-[380px] glass p-4 shadow-2xl" style="bottom: calc(88px + env(safe-area-inset-bottom));" role="dialog" aria-labelledby="installTitle">
+    <div class="flex gap-3">
+      <img src="assets/icon-192.png" alt="" width="48" height="48" class="w-12 h-12 rounded-xl" />
+      <div class="flex-1">
+        <p id="installTitle" class="font-bold">Ten Texas BBQ a un toque</p>
+        <p id="installText" class="text-sm text-ash mt-0.5">Guárdala en tu pantalla de inicio. Sin descargar nada.</p>
+      </div>
+    </div>
+    <div class="mt-3 flex gap-2 justify-end">
+      <button type="button" id="installLater" class="btn btn-ghost btn-sm">Ahora no</button>
+      <button type="button" id="installNow" class="btn btn-fire btn-sm">Agregar</button>
+    </div>
+  </div>
+
+  <!-- Overlay compartido -->
+  <div id="overlay" class="overlay" aria-hidden="true"></div>
+
+  <!-- Modal: Pedir ahora -->
+  <div id="orderModal" class="sheet p-6 sm:p-8" role="dialog" aria-modal="true" aria-labelledby="orderTitle" aria-hidden="true" inert>
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <p class="eyebrow">Pedir ahora</p>
+        <h2 id="orderTitle" class="font-display text-3xl uppercase mt-1">¿Cómo quieres tu BBQ?</h2>
+        <p class="text-sm mt-2 flex items-center gap-2"><span id="modalDot" class="pulse-dot bg-zinc-500"></span><span id="modalStatus" class="text-zinc-300">—</span></p>
+      </div>
+      <button type="button" class="w-11 h-11 rounded-full border border-white/10 grid place-items-center shrink-0" data-close aria-label="Cerrar">✕</button>
+    </div>
+    <div class="mt-6 grid gap-3">
+      <a href="tel:+524495504456" class="metal p-4 flex items-center gap-4 hover:border-amber-400/50 min-h-[72px]">
+        <span class="w-12 h-12 rounded-full bg-ember/15 text-amber-300 grid place-items-center text-xl" aria-hidden="true">📞</span>
+        <span class="flex-1"><strong class="block">Llamar al 449 550 4456</strong><span class="text-sm text-ash">Pedido para llevar o dudas</span></span>
+        <span aria-hidden="true" class="text-ember">→</span>
+      </a>
+      <button type="button" class="metal p-4 flex items-center gap-4 hover:border-amber-400/50 min-h-[72px] text-left" data-open="cartSheet">
+        <span class="w-12 h-12 rounded-full bg-[#25d366]/15 text-[#25d366] grid place-items-center text-xl" aria-hidden="true">💬</span>
+        <span class="flex-1"><strong class="block">Armar pedido por WhatsApp</strong><span class="text-sm text-ash">Elige platillos y enviamos el mensaje listo</span></span>
+        <span aria-hidden="true" class="text-ember">→</span>
+      </button>
+      <a href="https://www.ubereats.com/mx/store/texas-bbq-ags-aguascalientes/9bR_NvOfQxyrZIJVRAXjAg" target="_blank" rel="noopener" class="metal p-4 flex items-center gap-4 hover:border-amber-400/50 min-h-[72px]">
+        <span class="w-12 h-12 rounded-full bg-[#06c167]/15 text-[#06c167] grid place-items-center font-extrabold" aria-hidden="true">UE</span>
+        <span class="flex-1"><strong class="block">Abrir Uber Eats</strong><span class="text-sm text-ash">Entrega a domicilio en Aguascalientes</span></span>
+        <span aria-hidden="true" class="text-ember">→</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Hoja: carrito / pedido -->
+  <div id="cartSheet" class="sheet sheet-wide p-6 sm:p-8" role="dialog" aria-modal="true" aria-labelledby="cartTitle" aria-hidden="true" inert>
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <p class="eyebrow">One-Tap Order Builder</p>
+        <h2 id="cartTitle" class="font-display text-3xl uppercase mt-1">Tu pedido</h2>
+      </div>
+      <button type="button" class="w-11 h-11 rounded-full border border-white/10 grid place-items-center shrink-0" data-close aria-label="Cerrar">✕</button>
+    </div>
+    <ul id="cartList" class="mt-5 divide-y divide-white/10"></ul>
+    <div id="cartEmpty" class="mt-6 text-center text-ash">
+      <p>Aún no agregas nada.</p>
+      <a href="#menu" class="btn btn-ghost mt-4" data-close>Ver el menú</a>
+    </div>
+    <form id="cartForm" class="mt-6 grid gap-4">
+      <div class="flex items-end justify-between gap-4 metal px-5 py-4">
+        <div>
+          <p class="text-xs uppercase tracking-widest text-ash font-bold">Subtotal de referencia</p>
+          <p class="font-display text-3xl" id="cartTotal">$0</p>
+        </div>
+        <p class="text-xs text-ash text-right max-w-[220px]" id="cartNote">Te confirmamos el total por WhatsApp.</p>
+      </div>
+      <div class="grid grid-cols-2 gap-2" role="radiogroup" aria-label="Entrega" id="deliveryMode">
+        <button type="button" role="radio" class="chip" data-mode="recoger" aria-checked="true">🏃 Paso a recoger</button>
+        <button type="button" role="radio" class="chip" data-mode="domicilio" aria-checked="false">🛵 A domicilio</button>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div><label class="lbl" for="cName">Tu nombre</label><input id="cName" class="field" autocomplete="name" placeholder="¿A nombre de quién?" /></div>
+        <div><label class="lbl" for="cTime">¿Para qué hora?</label><input id="cTime" class="field" placeholder="Ej. 3:30 p.m. o lo antes posible" /></div>
+      </div>
+      <div id="addrWrap" class="hidden"><label class="lbl" for="cAddr">Dirección de entrega</label><textarea id="cAddr" class="field" rows="2" autocomplete="street-address" placeholder="Calle, número, colonia y referencias"></textarea></div>
+      <div><label class="lbl" for="cNotes">Notas</label><input id="cNotes" class="field" placeholder="Ej. salsa aparte, sin cebolla" /></div>
+      <button type="submit" class="btn btn-fire w-full text-base" id="cartSend">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg>
+        Enviar pedido por WhatsApp
+      </button>
+      <button type="button" class="text-sm text-ash underline justify-self-center min-h-[44px]" id="cartClear">Vaciar pedido</button>
+    </form>
+  </div>
+
+  <!-- Hoja: Hambre voraz -->
+  <div id="hungrySheet" class="sheet p-6 sm:p-8" role="dialog" aria-modal="true" aria-labelledby="hungryTitle" aria-hidden="true" inert>
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <p class="eyebrow">⚡ Modo Hambre Voraz</p>
+        <h2 id="hungryTitle" class="font-display text-3xl uppercase mt-1">Combo rápido</h2>
+      </div>
+      <button type="button" class="w-11 h-11 rounded-full border border-white/10 grid place-items-center shrink-0" data-close aria-label="Cerrar">✕</button>
+    </div>
+    <div class="mt-5 flex gap-4 items-center metal p-4">
+      <img src="assets/brisket-toro.jpg" alt="" class="w-24 h-24 rounded-2xl object-cover" loading="lazy" />
+      <div>
+        <p class="font-bold text-lg">Brisket 300 g + Papas a la francesa</p>
+        <p class="text-sm text-ash">El corte estrella con su acompañamiento</p>
+        <p class="font-display text-2xl text-amber-300 mt-1" id="hungryPrice">$598</p>
+      </div>
+    </div>
+    <div class="mt-5 grid grid-cols-2 gap-2" role="radiogroup" aria-label="Entrega" id="hungryMode">
+      <button type="button" role="radio" class="chip" data-mode="recoger" aria-checked="true">Paso a recoger</button>
+      <button type="button" role="radio" class="chip" data-mode="domicilio" aria-checked="false">A domicilio</button>
+    </div>
+    <button type="button" id="hungrySend" class="btn btn-fire w-full mt-5 text-base">Pedir por WhatsApp</button>
+    <p class="text-xs text-ash text-center mt-3">Se abre WhatsApp con el mensaje listo. Precio de referencia.</p>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast glass px-5 py-3 font-semibold text-sm flex items-center gap-2" role="status" aria-live="polite">
+    <span aria-hidden="true">✅</span><span id="toastText"></span>
+  </div>
+
+  <script>
+  (function () {
+    'use strict';
+
+    /* ============ DATOS DEL NEGOCIO ============ */
+    var BIZ = {
+      name: 'Texas BBQ Ags',
+      phone: '524495504456',
+      phoneHuman: '449 550 4456',
+      address: 'Monte Coronado 229, Fracc. Puerto las Hadas, C.P. 20110, Aguascalientes, Ags.',
+      lat: 21.92674,
+      lng: -102.31034,
+      tz: 'America/Mexico_City',
+      openDays: [0, 4, 5, 6],
+      openHour: 14,
+      closeHour: 22,
+      ubereats: 'https://www.ubereats.com/mx/store/texas-bbq-ags-aguascalientes/9bR_NvOfQxyrZIJVRAXjAg'
+    };
+
+    /* Disponibilidad del día: el negocio la actualiza aquí (número de porciones).
+       Si un corte no aparece, se muestra el aviso general de lotes limitados. */
+    var STOCK = {};
+
+    /* Reseñas textuales autorizadas por el negocio. Mientras esté vacío,
+       la búsqueda abre las reseñas reales en Google. */
+    var REVIEWS = [];
+
+    var MENU = [
+      { id: 'brisket-300', name: 'Brisket 300 g', price: 470, img: 'assets/brisket-toro.jpg', tags: ['carnivoro'], badge: 'Corte estrella', limited: true,
+        desc: 'Pecho de res ahumado 12 a 15 horas. Corteza negra de especias, anillo de humo y jugo en cada rebanada.' },
+      { id: 'brisket-500', name: 'Brisket 500 g', price: 890, img: 'assets/brisket-toro.jpg', tags: ['carnivoro', 'compartir'], limited: true,
+        desc: 'Medio kilo del corte insignia del BBQ texano. Para dos o tres personas.' },
+      { id: 'costilla-res-500', name: 'Costilla de res 500 g', price: 610, img: 'assets/costilla-res.jpg', tags: ['carnivoro', 'compartir'], badge: 'Beef rib', limited: true,
+        desc: 'Costilla de res ahumada lento hasta que la carne se separa del hueso. Servida sobre papel a cuadros.' },
+      { id: 'costilla-cerdo-300', name: 'Costilla de cerdo 300 g', price: 310, img: 'assets/charola-mixta.jpg', tags: ['carnivoro'],
+        desc: 'Costillas de cerdo ahumadas, jugosas y con corteza caramelizada.' },
+      { id: 'costilla-cerdo-500', name: 'Costilla de cerdo 500 g', price: 565, img: 'assets/charola-mixta.jpg', tags: ['carnivoro', 'compartir'],
+        desc: 'Medio kilo de costilla de cerdo ahumada para compartir en la mesa.' },
+      { id: 'sandwich-brisket', name: 'Sándwich de brisket', price: 238, img: 'assets/sandwich-brisket.jpg', tags: ['llevar'], badge: 'Estilo Texas',
+        desc: 'Pan suave relleno de brisket ahumado rebanado grueso.' },
+      { id: 'sandwich-pulled', name: 'Sándwich de pulled pork', price: 209, img: 'assets/pulled-pork.jpg', tags: ['llevar'],
+        desc: 'Cerdo ahumado deshebrado, jugoso y lleno de sabor, en pan.' },
+      { id: 'papas', name: 'Orden de papas a la francesa', price: 128, img: null, emoji: '🍟', tags: ['side', 'llevar'],
+        desc: 'Papas doradas y crujientes para acompañar tu corte.' },
+      { id: 'elote', name: 'Elote', price: null, img: 'assets/charola-mixta.jpg', tags: ['side'],
+        desc: 'El acompañamiento clásico de la charola texana. Precio en sucursal.' },
+      { id: 'salchicha', name: 'Salchicha ahumada', price: null, img: 'assets/charola-mixta.jpg', tags: ['carnivoro', 'side'],
+        desc: 'Salchicha ahumada estilo Texas, la que ves en nuestras charolas. Precio en sucursal.' }
+    ];
+    var MENU_BY_ID = {};
+    MENU.forEach(function (m) { MENU_BY_ID[m.id] = m; });
+
+    var DRINKS = [
+      { id: 'cerveza', name: 'Cerveza bien fría', price: null, emoji: '🍺' },
+      { id: 'bebida-casa', name: 'Bebida de la casa', price: null, emoji: '🥤' },
+      { id: 'sin-bebida', name: 'Sin bebida', price: 0, emoji: '🚫' }
+    ];
+
+    /* ============ UTILIDADES ============ */
+    var $ = function (s, r) { return (r || document).querySelector(s); };
+    var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+    var money = function (n) { return '$' + Math.round(n).toLocaleString('es-MX'); };
+    var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
+    var store = {
+      get: function (k, d) { try { var v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+      set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* almacenamiento no disponible */ } }
+    };
+    var waLink = function (text) { return 'https://wa.me/' + BIZ.phone + '?text=' + encodeURIComponent(text); };
+    var openWa = function (text) { window.open(waLink(text), '_blank', 'noopener'); };
+
+    var toastTimer;
+    function toast(msg) {
+      $('#toastText').textContent = msg;
+      var t = $('#toast');
+      t.classList.add('is-on');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(function () { t.classList.remove('is-on'); }, 2600);
+    }
+
+    function copyText(text) {
+      if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(text);
+      }
+      return new Promise(function (resolve, reject) {
+        var ta = document.createElement('textarea');
+        ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+        document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy') ? resolve() : reject(); } catch (e) { reject(e); }
+        document.body.removeChild(ta);
+      });
+    }
+
+    function radioGroup(container, onChange) {
+      var buttons = $$('[role="radio"]', container);
+      buttons.forEach(function (b) {
+        b.addEventListener('click', function () {
+          buttons.forEach(function (x) { x.setAttribute('aria-checked', x === b ? 'true' : 'false'); });
+          onChange(b);
+        });
+      });
+      var current = buttons.filter(function (b) { return b.getAttribute('aria-checked') === 'true'; })[0];
+      return current;
+    }
+
+    /* ============ HORARIO EN TIEMPO REAL (Aguascalientes) ============ */
+    var DAY_NAMES = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
+    var WEEK_ORDER = [1, 2, 3, 4, 5, 6, 0];
+    var fmt = new Intl.DateTimeFormat('en-US', { timeZone: BIZ.tz, weekday: 'short', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false });
+    var WD = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+
+    function nowAgs() {
+      var p = {};
+      fmt.formatToParts(new Date()).forEach(function (x) { p[x.type] = x.value; });
+      var h = parseInt(p.hour, 10) % 24;
+      return { day: WD[p.weekday], h: h, m: parseInt(p.minute, 10), s: parseInt(p.second, 10), secs: h * 3600 + parseInt(p.minute, 10) * 60 + parseInt(p.second, 10) };
+    }
+
+    function getStatus() {
+      var n = nowAgs();
+      var isOpenDay = BIZ.openDays.indexOf(n.day) !== -1;
+      var openAt = BIZ.openHour * 3600, closeAt = BIZ.closeHour * 3600;
+      if (isOpenDay && n.secs >= openAt && n.secs < closeAt) {
+        return { open: true, now: n, closesIn: closeAt - n.secs };
+      }
+      for (var k = 0; k <= 7; k++) {
+        var d = (n.day + k) % 7;
+        if (BIZ.openDays.indexOf(d) === -1) continue;
+        if (k === 0 && n.secs >= openAt) continue;
+        return { open: false, now: n, opensIn: k * 86400 + openAt - n.secs, openDay: d, daysAhead: k };
+      }
+      return { open: false, now: n, opensIn: 0, openDay: 4, daysAhead: 0 };
+    }
+
+    function whenLabel(st) {
+      if (st.daysAhead === 0) return 'hoy a las 2:00 PM';
+      if (st.daysAhead === 1) return 'mañana ' + DAY_NAMES[st.openDay] + ' a las 2:00 PM';
+      return 'el ' + DAY_NAMES[st.openDay] + ' a las 2:00 PM';
+    }
+
+    function duration(secs) {
+      var d = Math.floor(secs / 86400), h = Math.floor((secs % 86400) / 3600), m = Math.floor((secs % 3600) / 60), s = secs % 60;
+      var pad = function (x) { return (x < 10 ? '0' : '') + x; };
+      if (d > 0) return d + (d === 1 ? ' día ' : ' días ') + pad(h) + ' hrs ' + pad(m) + ' mins';
+      return pad(h) + ' hrs ' + pad(m) + ' mins ' + pad(s) + ' s';
+    }
+
+    function setDot(el, open) {
+      el.classList.remove('bg-zinc-500', 'bg-emerald-400', 'bg-amber-500');
+      el.classList.add(open ? 'bg-emerald-400' : 'bg-amber-500');
+    }
+
+    var lastKey = null;
+    function renderStatus() {
+      var st = getStatus();
+      var n = st.now;
+      var clock = (n.h % 12 || 12) + ':' + (n.m < 10 ? '0' : '') + n.m + (n.h < 12 ? ' a.m.' : ' p.m.') + ', ' + DAY_NAMES[n.day];
+      $('#statusClock').textContent = clock;
+
+      [$('#statusDot'), $('#heroDot'), $('#modalDot')].forEach(function (el) { setDot(el, st.open); });
+      if (st.open) {
+        $('#statusTitle').textContent = '🟢 ¡Abierto Ahora! Haz tu pedido';
+        $('#statusSub').textContent = 'Cerramos a las 10:00 PM · quedan ' + duration(st.closesIn).replace(/ \d+ s$/, '') + '.';
+        $('#heroStatus').textContent = 'Abierto';
+        $('#heroStatusSub').textContent = 'hasta las 10 p.m.';
+        $('#modalStatus').textContent = 'Abierto ahora · cerramos a las 10:00 PM';
+        $('#statusCta').textContent = 'Haz tu pedido';
+        $('#countdownBar').classList.add('hidden');
+      } else {
+        $('#statusTitle').textContent = '🔴 Cerrado temporalmente';
+        $('#statusSub').textContent = 'Abrimos ' + whenLabel(st) + '. Puedes dejar tu pedido listo por WhatsApp.';
+        $('#heroStatus').textContent = 'Cerrado';
+        $('#heroStatusSub').textContent = 'abrimos ' + (st.daysAhead === 0 ? 'hoy 2 p.m.' : DAY_NAMES[st.openDay]);
+        $('#modalStatus').textContent = 'Cerrado · abrimos ' + whenLabel(st);
+        $('#statusCta').textContent = 'Dejar pedido listo';
+        $('#countdownText').textContent = duration(st.opensIn);
+        $('#countdownWhen').textContent = '· abrimos ' + whenLabel(st);
+        $('#countdownBar').classList.remove('hidden');
+      }
+      if (lastKey !== st.open + '-' + n.day) {
+        $('#siteHeader').style.top = st.open ? '0px' : '36px';
+        document.documentElement.style.scrollPaddingTop = st.open ? '96px' : '132px';
+        renderDays(st);
+        lastKey = st.open + '-' + n.day;
+      }
+    }
+
+    function renderDays(st) {
+      var today = st.now.day;
+      $('#daysGrid').innerHTML = WEEK_ORDER.map(function (d) {
+        var open = BIZ.openDays.indexOf(d) !== -1;
+        var isToday = d === today;
+        return '<li class="metal px-5 py-4 flex items-center justify-between gap-3 ' + (isToday ? 'ring-2 ring-amber-400/70' : '') + '">' +
+          '<span class="flex items-center gap-3"><span class="w-2.5 h-2.5 rounded-full ' + (open ? 'bg-emerald-400' : 'bg-zinc-600') + '" aria-hidden="true"></span>' +
+          '<span class="font-display text-lg uppercase tracking-wide ' + (open ? '' : 'text-zinc-500') + '">' + DAY_NAMES[d] + '</span>' +
+          (isToday ? '<span class="text-[10px] font-extrabold uppercase tracking-widest bg-amber-400 text-black rounded-full px-2 py-0.5">Hoy</span>' : '') + '</span>' +
+          '<span class="text-sm font-semibold ' + (open ? 'text-amber-200' : 'text-zinc-500') + '">' + (open ? '2:00 – 10:00 p.m.' : 'Cerrado · descanso') + '</span></li>';
+      }).join('');
+    }
+
+    /* ============ MENÚ ============ */
+    var activeFilter = 'todos';
+    function menuCard(m) {
+      var stock = STOCK[m.id];
+      var urgency = '';
+      if (typeof stock === 'number' && stock > 0) {
+        urgency = '<span class="absolute bottom-3 left-3 right-3 text-center text-xs font-bold rounded-full bg-black/75 backdrop-blur px-3 py-1.5 text-amber-300">🔥 ¡Solo quedan ' + stock + ' porciones hoy!</span>';
+      } else if (typeof stock === 'number' && stock === 0) {
+        urgency = '<span class="absolute bottom-3 left-3 right-3 text-center text-xs font-bold rounded-full bg-black/75 backdrop-blur px-3 py-1.5 text-zinc-300">Agotado por hoy</span>';
+      } else if (m.limited) {
+        urgency = '<span class="absolute bottom-3 left-3 right-3 text-center text-[11px] font-bold rounded-full bg-black/70 backdrop-blur px-3 py-1.5 text-amber-200">🔥 Ahumado por lotes · se agota temprano</span>';
+      }
+      var visual = m.img
+        ? '<img src="' + m.img + '" alt="' + esc(m.name) + '" loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />'
+        : '<div class="w-full h-full grid place-items-center text-7xl bg-[radial-gradient(circle_at_50%_40%,rgba(249,115,22,0.28),transparent_65%)]" aria-hidden="true">' + (m.emoji || '🔥') + '</div>';
+      var soldOut = stock === 0;
+      return '<article class="group glass overflow-hidden flex flex-col" data-tags="' + m.tags.join(' ') + '">' +
+        '<div class="relative aspect-[4/3] overflow-hidden rounded-t-[1.5rem] bg-smoke2">' + visual +
+          (m.badge ? '<span class="absolute top-3 left-3 text-[11px] font-extrabold uppercase tracking-widest rounded-full bg-ember text-black px-3 py-1">' + esc(m.badge) + '</span>' : '') +
+          urgency + '</div>' +
+        '<div class="p-5 flex-1 flex flex-col">' +
+          '<div class="flex items-start justify-between gap-3"><h3 class="font-display text-xl uppercase leading-tight">' + esc(m.name) + '</h3>' +
+          '<p class="font-display text-xl shrink-0 ' + (m.price === null ? 'text-ash text-sm mt-1' : 'text-amber-300') + '">' + (m.price === null ? 'Precio en sucursal' : money(m.price)) + '</p></div>' +
+          '<p class="mt-2 text-sm text-zinc-400 flex-1">' + esc(m.desc) + '</p>' +
+          '<div class="mt-4 flex items-center gap-2">' +
+            '<button type="button" class="btn btn-fire btn-sm flex-1" data-order="' + m.id + '"' + (soldOut ? ' disabled' : '') + '>Ordenar este plato</button>' +
+            '<button type="button" class="w-11 h-11 rounded-full border border-white/15 grid place-items-center text-xl font-bold hover:border-amber-400 shrink-0" data-add="' + m.id + '" aria-label="Agregar ' + esc(m.name) + ' al pedido"' + (soldOut ? ' disabled' : '') + '>+</button>' +
+          '</div>' +
+        '</div></article>';
+    }
+
+    function renderMenu() {
+      var list = MENU.filter(function (m) { return activeFilter === 'todos' || m.tags.indexOf(activeFilter) !== -1; });
+      $('#menuGrid').innerHTML = list.map(menuCard).join('');
+      $('#menuEmpty').classList.toggle('hidden', list.length > 0);
+    }
+
+    $$('[data-filter]').forEach(function (b) {
+      b.addEventListener('click', function () {
+        activeFilter = b.getAttribute('data-filter');
+        $$('[data-filter]').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+        renderMenu();
+      });
+    });
+
+    $('#menuGrid').addEventListener('click', function (e) {
+      var add = e.target.closest('[data-add]');
+      var order = e.target.closest('[data-order]');
+      if (add) {
+        var m = MENU_BY_ID[add.getAttribute('data-add')];
+        cartAdd({ key: m.id, name: m.name, price: m.price });
+        toast(m.name + ' agregado a tu pedido');
+      } else if (order) {
+        var o = MENU_BY_ID[order.getAttribute('data-order')];
+        cartAdd({ key: o.id, name: o.name, price: o.price });
+        openPanel('cartSheet');
+      }
+    });
+
+    /* ============ CARRITO + WHATSAPP ============ */
+    var cart = store.get('tbbq-cart', []);
+    var deliveryMode = 'recoger';
+
+    function cartAdd(item) {
+      var found = cart.filter(function (c) { return c.key === item.key; })[0];
+      if (found) found.qty += 1; else cart.push({ key: item.key, name: item.name, price: item.price, qty: 1 });
+      saveCart();
+    }
+    function saveCart() { store.set('tbbq-cart', cart); renderCart(); }
+
+    function cartTotals() {
+      var total = 0, count = 0, unpriced = false;
+      cart.forEach(function (c) { count += c.qty; if (c.price === null) unpriced = true; else total += c.price * c.qty; });
+      return { total: total, count: count, unpriced: unpriced };
+    }
+
+    function renderCart() {
+      var t = cartTotals();
+      var badge = $('#cartBadge');
+      badge.textContent = t.count;
+      badge.classList.toggle('hidden', t.count === 0);
+      badge.classList.toggle('grid', t.count > 0);
+      $('#cartInline').textContent = t.count + (t.count === 1 ? ' artículo' : ' artículos');
+      $('#cartEmpty').classList.toggle('hidden', cart.length > 0);
+      $('#cartForm').classList.toggle('hidden', cart.length === 0);
+      $('#cartTotal').textContent = money(t.total);
+      $('#cartNote').textContent = t.unpriced ? 'Algunos artículos tienen precio en sucursal. Te confirmamos el total.' : 'Precios de referencia. Te confirmamos el total por WhatsApp.';
+      $('#cartList').innerHTML = cart.map(function (c, i) {
+        return '<li class="py-3 flex items-center gap-3">' +
+          '<div class="flex-1 min-w-0"><p class="font-semibold leading-tight">' + esc(c.name) + '</p>' +
+          '<p class="text-sm text-ash">' + (c.price === null ? 'Precio en sucursal' : money(c.price) + ' c/u') + '</p></div>' +
+          '<div class="flex items-center gap-1">' +
+            '<button type="button" class="w-11 h-11 rounded-full border border-white/15 font-bold" data-dec="' + i + '" aria-label="Quitar uno de ' + esc(c.name) + '">−</button>' +
+            '<span class="w-8 text-center font-display text-lg" aria-label="Cantidad">' + c.qty + '</span>' +
+            '<button type="button" class="w-11 h-11 rounded-full border border-white/15 font-bold" data-inc="' + i + '" aria-label="Agregar uno de ' + esc(c.name) + '">+</button>' +
+          '</div></li>';
+      }).join('');
+    }
+
+    $('#cartList').addEventListener('click', function (e) {
+      var inc = e.target.closest('[data-inc]'), dec = e.target.closest('[data-dec]');
+      if (inc) { cart[+inc.getAttribute('data-inc')].qty += 1; saveCart(); }
+      if (dec) {
+        var i = +dec.getAttribute('data-dec');
+        cart[i].qty -= 1;
+        if (cart[i].qty <= 0) cart.splice(i, 1);
+        saveCart();
+      }
+    });
+
+    radioGroup($('#deliveryMode'), function (b) {
+      deliveryMode = b.getAttribute('data-mode');
+      $('#addrWrap').classList.toggle('hidden', deliveryMode !== 'domicilio');
+    });
+
+    $('#cartClear').addEventListener('click', function () { cart = []; saveCart(); toast('Pedido vaciado'); });
+
+    $('#cartForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!cart.length) return;
+      var addr = $('#cAddr').value.trim();
+      if (deliveryMode === 'domicilio' && !addr) { $('#cAddr').focus(); toast('Escribe tu dirección de entrega'); return; }
+      var t = cartTotals();
+      var lines = cart.map(function (c) {
+        return '• ' + c.qty + ' × ' + c.name + ' — ' + (c.price === null ? 'precio en sucursal' : money(c.price * c.qty));
+      });
+      var msg = '¡Hola ' + BIZ.name + '! Quiero hacer un pedido:\n\n' + lines.join('\n') +
+        '\n\nSubtotal de referencia: ' + money(t.total) + (t.unpriced ? ' (+ artículos con precio en sucursal)' : '') +
+        '\nEntrega: ' + (deliveryMode === 'domicilio' ? 'A domicilio — ' + addr : 'Paso a recoger a Monte Coronado 229') +
+        ($('#cName').value.trim() ? '\nNombre: ' + $('#cName').value.trim() : '') +
+        ($('#cTime').value.trim() ? '\nHora: ' + $('#cTime').value.trim() : '') +
+        ($('#cNotes').value.trim() ? '\nNotas: ' + $('#cNotes').value.trim() : '') +
+        '\n\n¿Me confirman el total y el tiempo? ¡Gracias!';
+      openWa(msg);
+    });
+
+    /* ============ CREA TU PLATO ============ */
+    var COMBO = {
+      meat: [
+        { id: 'brisket-300' }, { id: 'costilla-cerdo-300' }, { id: 'costilla-res-500' }, { id: 'sandwich-brisket' }, { id: 'sandwich-pulled' }
+      ],
+      side: [
+        { id: 'papas' }, { id: 'elote' }, { id: 'salchicha' }, { id: 'sin-side', name: 'Sin acompañamiento', price: 0, emoji: '🚫' }
+      ]
+    };
+    var combo = { meat: null, side: null, drink: null };
+
+    function comboOptionData(group, opt) {
+      if (group === 'drink') return opt;
+      var m = MENU_BY_ID[opt.id];
+      return m ? { id: m.id, name: m.name, price: m.price, img: m.img, emoji: m.emoji } : opt;
+    }
+
+    function renderComboStep(group, container, options) {
+      container.innerHTML = options.map(function (o) {
+        var d = comboOptionData(group, o);
+        return '<button type="button" role="radio" aria-checked="false" class="chip !rounded-2xl text-left flex items-center justify-between gap-2 !min-h-[56px]" data-group="' + group + '" data-id="' + d.id + '">' +
+          '<span>' + esc(d.name) + '</span><span class="text-xs opacity-80 shrink-0">' + (d.price === null ? 'en sucursal' : d.price === 0 ? '—' : money(d.price)) + '</span></button>';
+      }).join('');
+      $$('[role="radio"]', container).forEach(function (b) {
+        b.addEventListener('click', function () {
+          $$('[role="radio"]', container).forEach(function (x) { x.setAttribute('aria-checked', x === b ? 'true' : 'false'); });
+          var id = b.getAttribute('data-id');
+          var opt = options.filter(function (x) { return x.id === id; })[0];
+          combo[group] = comboOptionData(group, opt);
+          renderPlate();
+        });
+      });
+    }
+
+    function plateFill(el, d) {
+      if (!d) { el.classList.add('is-empty'); el.innerHTML = ''; return; }
+      el.classList.remove('is-empty');
+      el.innerHTML = d.img ? '<img src="' + d.img + '" alt="" class="w-full h-full object-cover" />' : '<span aria-hidden="true">' + (d.emoji || '🔥') + '</span>';
+    }
+
+    function renderPlate() {
+      plateFill($('#plateMeat'), combo.meat);
+      plateFill($('#plateSide'), combo.side);
+      plateFill($('#plateDrink'), combo.drink);
+      var parts = [['Carne', combo.meat], ['Acompañamiento', combo.side], ['Bebida', combo.drink]];
+      var total = 0, unpriced = false;
+      $('#comboSummary').innerHTML = parts.map(function (p) {
+        var d = p[1];
+        if (d && d.price !== null) total += d.price;
+        if (d && d.price === null) unpriced = true;
+        return '<li class="flex justify-between gap-3"><span class="text-ash">' + p[0] + '</span><span class="font-semibold text-right">' +
+          (d ? esc(d.name) + ' · ' + (d.price === null ? 'en sucursal' : money(d.price)) : '<span class="text-zinc-600">Elige una opción</span>') + '</span></li>';
+      }).join('');
+      $('#comboTotal').textContent = money(total);
+      $('#comboNote').textContent = unpriced ? '+ artículos con precio en sucursal' : 'Precio de referencia';
+      $('#comboAdd').disabled = !(combo.meat && combo.side && combo.drink);
+    }
+
+    renderComboStep('meat', $('#stepMeat'), COMBO.meat);
+    renderComboStep('side', $('#stepSide'), COMBO.side);
+    renderComboStep('drink', $('#stepDrink'), DRINKS);
+
+    $('#comboAdd').addEventListener('click', function () {
+      var names = [combo.meat, combo.side, combo.drink].filter(function (d) { return d && d.price !== 0; }).map(function (d) { return d.name; });
+      var unpriced = [combo.meat, combo.side, combo.drink].some(function (d) { return d.price === null; });
+      var price = [combo.meat, combo.side, combo.drink].reduce(function (s, d) { return s + (d.price || 0); }, 0);
+      var name = 'Plato Texas: ' + names.join(' + ');
+      cartAdd({ key: 'combo:' + combo.meat.id + '|' + combo.side.id + '|' + combo.drink.id, name: name + (unpriced ? ' (parte en sucursal)' : ''), price: unpriced ? null : price });
+      toast('Tu plato Texas se agregó al pedido');
+    });
+
+    /* ============ ANATOMÍA DEL AHUMADO ============ */
+    var CUTS = [
+      { name: 'Brisket', img: 'assets/brisket-toro.jpg', time: '12 a 15 horas', heat: 'Fuego bajo y constante', tender: 95,
+        text: 'El pecho de res es el rey del BBQ texano. Fuego bajo durante toda la noche hasta que la grasa se funde y forma una corteza negra de especias. Así nació la casa: el primer brisket de los fundadores pasó de 12 a 15 horas.' },
+      { name: 'Costilla de res', img: 'assets/costilla-res.jpg', time: 'Cocción lenta de varias horas', heat: 'Humo de leña', tender: 90,
+        text: 'Corte de hueso grande con mucha grasa intramuscular. El humo lento la deja con anillo rosado y una carne que se desprende del hueso con el tenedor.' },
+      { name: 'Costilla de cerdo', img: 'assets/charola-mixta.jpg', time: 'Cocción lenta', heat: 'Humo de leña', tender: 80,
+        text: 'Costillas jugosas con corteza caramelizada. Firmes al morder y suaves por dentro, como se comen en Texas.' },
+      { name: 'Pulled pork', img: 'assets/pulled-pork.jpg', time: 'Cocción lenta hasta deshebrar', heat: 'Fuego bajo', tender: 100,
+        text: 'Cerdo ahumado tanto tiempo que se deshebra solo. Perfecto en sándwich o en charola para compartir.' }
+    ];
+
+    $('#anatomyGrid').innerHTML = CUTS.map(function (c, i) {
+      return '<button type="button" class="cut-card metal text-left overflow-hidden flex flex-col transition-colors" aria-expanded="false" aria-controls="cut-' + i + '">' +
+        '<span class="block relative aspect-[4/3] overflow-hidden"><img src="' + c.img + '" alt="" loading="lazy" class="w-full h-full object-cover" />' +
+        '<span class="absolute inset-0 bg-gradient-to-t from-black/85 to-transparent"></span>' +
+        '<span class="absolute bottom-3 left-4 font-display text-2xl uppercase">' + esc(c.name) + '</span></span>' +
+        '<span class="block p-4">' +
+          '<span class="flex items-center justify-between text-xs uppercase tracking-widest text-ash font-bold"><span>Ver técnica</span><span aria-hidden="true" class="text-ember">＋</span></span>' +
+          '<span id="cut-' + i + '" class="cut-detail block">' +
+            '<span class="block mt-3 text-sm text-zinc-300">' + esc(c.text) + '</span>' +
+            '<span class="mt-4 grid gap-2 text-sm">' +
+              '<span class="flex justify-between gap-2"><span class="text-ash">⏱ Tiempo</span><strong class="text-right">' + esc(c.time) + '</strong></span>' +
+              '<span class="flex justify-between gap-2"><span class="text-ash">🔥 Fuego</span><strong class="text-right">' + esc(c.heat) + '</strong></span>' +
+              '<span class="block"><span class="flex justify-between"><span class="text-ash">Ternura</span><strong>' + c.tender + '%</strong></span><span class="meter mt-1.5 block"><span style="width:' + c.tender + '%"></span></span></span>' +
+            '</span>' +
+          '</span>' +
+        '</span></button>';
+    }).join('');
+    $$('.cut-card').forEach(function (card) {
+      card.addEventListener('click', function () {
+        card.setAttribute('aria-expanded', card.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
+      });
+    });
+
+    /* ============ MARIDAJE ============ */
+    var PAIRS = {
+      dulce: { cut: 'costilla-cerdo-300', drink: 'Bebida de la casa bien fría', why: 'La corteza caramelizada de la costilla de cerdo y algo fresco y dulce para equilibrar el humo.' },
+      ahumado: { cut: 'brisket-300', drink: 'Cerveza clara bien fría', why: 'El brisket es puro humo y grasa fundida. Una cerveza ligera limpia el paladar entre bocado y bocado.' },
+      picante: { cut: 'sandwich-brisket', drink: 'Cerveza bien fría', why: 'El sándwich de brisket con tu salsa más picante de la barra, y una cerveza fría para apagar el fuego.' }
+    };
+    function renderPair(flavor) {
+      var p = PAIRS[flavor], m = MENU_BY_ID[p.cut];
+      $('#pairResult').innerHTML =
+        '<img src="' + m.img + '" alt="' + esc(m.name) + '" class="w-full aspect-square object-cover rounded-2xl" loading="lazy" />' +
+        '<div><p class="text-xs uppercase tracking-widest text-ash font-bold">Te recomendamos</p>' +
+        '<p class="font-display text-3xl uppercase mt-1">' + esc(m.name) + '</p>' +
+        '<p class="mt-1 text-amber-300 font-semibold">+ ' + esc(p.drink) + '</p>' +
+        '<p class="mt-3 text-zinc-400">' + esc(p.why) + '</p>' +
+        '<button type="button" class="btn btn-fire btn-sm mt-4" data-pair-add="' + m.id + '">Agregar ' + esc(m.name) + (m.price !== null ? ' · ' + money(m.price) : '') + '</button></div>';
+    }
+    var pairStart = radioGroup($('#pairChips'), function (b) { renderPair(b.getAttribute('data-flavor')); });
+    renderPair(pairStart ? pairStart.getAttribute('data-flavor') : 'ahumado');
+    $('#pairResult').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-pair-add]');
+      if (!b) return;
+      var m = MENU_BY_ID[b.getAttribute('data-pair-add')];
+      cartAdd({ key: m.id, name: m.name, price: m.price });
+      toast(m.name + ' agregado a tu pedido');
+    });
+
+    /* ============ CALCULADORA DE GRUPOS ============ */
+    var PER_GRAM = {
+      brisket: 890 / 500,
+      res: 610 / 500,
+      cerdo: 565 / 500
+    };
+    var SPLIT = { brisket: 0.45, res: 0.25, cerdo: 0.30 };
+    var party = { people: 6, grams: 350 };
+
+    function roundTo(x, step) { return Math.max(step, Math.round(x / step) * step); }
+    function kg(g) { return g >= 1000 ? (g / 1000).toLocaleString('es-MX', { maximumFractionDigits: 2 }) + ' kg' : g + ' g'; }
+
+    function calcParty() {
+      var total = party.people * party.grams;
+      var rows = [
+        { label: 'Brisket', g: roundTo(total * SPLIT.brisket, 100), rate: PER_GRAM.brisket },
+        { label: 'Costilla de res', g: roundTo(total * SPLIT.res, 100), rate: PER_GRAM.res },
+        { label: 'Costilla de cerdo', g: roundTo(total * SPLIT.cerdo, 100), rate: PER_GRAM.cerdo }
+      ];
+      var papas = Math.max(1, Math.ceil(party.people / 3));
+      var sum = 0;
+      rows.forEach(function (r) { r.cost = r.g * r.rate; sum += r.cost; });
+      sum += papas * 128;
+      return { rows: rows, papas: papas, sum: sum, total: total };
+    }
+
+    function renderParty() {
+      $('#partyPeopleOut').textContent = party.people;
+      $('#partyPeople').value = party.people;
+      $('#partyGrams').textContent = party.grams;
+      $('#partyFor').textContent = party.people + ' personas · ' + kg(party.people * party.grams) + ' de carne';
+      var r = calcParty();
+      $('#partyList').innerHTML = r.rows.map(function (x) {
+        return '<li class="py-3 flex justify-between gap-4"><span><span class="font-semibold">' + x.label + '</span><span class="block text-xs text-ash">' + money(x.rate * 1000) + ' por kg aprox.</span></span>' +
+          '<span class="text-right"><span class="font-display text-2xl">' + kg(x.g) + '</span><span class="block text-xs text-ash">' + money(x.cost) + '</span></span></li>';
+      }).join('') +
+        '<li class="py-3 flex justify-between gap-4"><span><span class="font-semibold">Papas a la francesa</span><span class="block text-xs text-ash">1 orden por cada 3 personas</span></span>' +
+        '<span class="text-right"><span class="font-display text-2xl">' + r.papas + (r.papas === 1 ? ' orden' : ' órdenes') + '</span><span class="block text-xs text-ash">' + money(r.papas * 128) + '</span></span></li>' +
+        '<li class="py-3 flex justify-between gap-4 text-sm"><span class="text-ash">Elotes, salchicha y bebidas</span><span class="text-ash">precio en sucursal</span></li>';
+      $('#partyTotal').textContent = money(r.sum);
+      $('#partyPer').textContent = '≈ ' + money(r.sum / party.people) + ' por persona · precios de referencia';
+    }
+
+    $('#partyPeople').addEventListener('input', function (e) { party.people = +e.target.value; renderParty(); });
+    $$('[data-step]').forEach(function (b) {
+      b.addEventListener('click', function () { party.people = Math.min(60, Math.max(2, party.people + +b.getAttribute('data-step'))); renderParty(); });
+    });
+    $$('[data-people]').forEach(function (b) {
+      b.addEventListener('click', function () { party.people = +b.getAttribute('data-people'); renderParty(); });
+    });
+    radioGroup($('#appetite'), function (b) { party.grams = +b.getAttribute('data-grams'); renderParty(); });
+    $('#partyWa').addEventListener('click', function () {
+      var r = calcParty();
+      var msg = '¡Hola ' + BIZ.name + '! Quiero cotizar BBQ para ' + party.people + ' personas:\n\n' +
+        r.rows.map(function (x) { return '• ' + x.label + ': ' + kg(x.g); }).join('\n') +
+        '\n• Papas a la francesa: ' + r.papas + (r.papas === 1 ? ' orden' : ' órdenes') +
+        '\n\nPresupuesto aproximado de la calculadora: ' + money(r.sum) + '\n¿Me confirman disponibilidad y precio? ¡Gracias!';
+      openWa(msg);
+    });
+
+    /* ============ UBICACIÓN ============ */
+    $('#copyAddress').addEventListener('click', function () {
+      copyText(BIZ.address).then(function () { toast('¡Dirección copiada! Pégala en tu app de mapas'); }, function () { toast('No se pudo copiar. Mantén presionada la dirección.'); });
+    });
+    $('#copyCoords').addEventListener('click', function () {
+      copyText(BIZ.lat + ', ' + BIZ.lng).then(function () { toast('¡Coordenadas copiadas! Pégalas en tu app de mapas'); }, function () { toast('No se pudo copiar'); });
+    });
+
+    function haversine(lat1, lon1, lat2, lon2) {
+      var R = 6371, toRad = Math.PI / 180;
+      var dLat = (lat2 - lat1) * toRad, dLon = (lon2 - lon1) * toRad;
+      var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.cos(lat1 * toRad) * Math.cos(lat2 * toRad) * Math.sin(dLon / 2) * Math.sin(dLon / 2);
+      return 2 * R * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    }
+
+    $('#geoBtn').addEventListener('click', function () {
+      var out = $('#geoResult');
+      if (!('geolocation' in navigator)) { out.textContent = 'Tu navegador no permite calcular la ubicación. Usa Google Maps o Waze.'; return; }
+      out.textContent = 'Buscando tu ubicación…';
+      navigator.geolocation.getCurrentPosition(function (pos) {
+        var straight = haversine(pos.coords.latitude, pos.coords.longitude, BIZ.lat, BIZ.lng);
+        var road = straight * 1.35;
+        var mins = Math.max(3, Math.round(road / 28 * 60));
+        var msg;
+        if (road < 0.4) {
+          msg = '<strong class="text-emerald-300">¡Ya casi estás aquí!</strong> Estamos a unos pasos de ti.';
+        } else if (road <= 25) {
+          msg = 'Estás a <strong class="text-white">' + road.toFixed(1) + ' km</strong>, unos <strong class="text-white">' + mins + ' min en auto</strong>. Dentro de la ciudad: puedes pasar por tu pedido o pedir a domicilio por <a class="underline" target="_blank" rel="noopener" href="' + BIZ.ubereats + '">Uber Eats</a>.';
+        } else {
+          msg = 'Estás a <strong class="text-white">' + Math.round(road) + ' km</strong> (≈ ' + (mins >= 60 ? Math.floor(mins / 60) + ' h ' + (mins % 60) + ' min' : mins + ' min') + ' en auto). Fuera de la zona urbana de Aguascalientes: vale la pena el viaje, pero llámanos antes para apartar tu brisket.';
+        }
+        out.innerHTML = msg + ' <span class="block text-xs text-ash mt-1">Estimación aproximada, sin tráfico.</span>';
+      }, function () {
+        out.textContent = 'No pudimos obtener tu ubicación. Revisa el permiso o usa Google Maps / Waze.';
+      }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
+    });
+
+    function loadMap() {
+      var box = $('#mapBox');
+      if (box.querySelector('iframe')) return;
+      box.innerHTML = '<iframe title="Mapa de Texas BBQ Ags en Monte Coronado 229" class="absolute inset-0 w-full h-full" style="border:0;filter:grayscale(.3) contrast(1.05)" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=' + encodeURIComponent('Monte Coronado 229, Puerto las Hadas, 20110 Aguascalientes, Ags.') + '&z=16&output=embed"></iframe>';
+    }
+    $('#mapLoad').addEventListener('click', loadMap);
+    if ('IntersectionObserver' in window) {
+      var mapIo = new IntersectionObserver(function (entries) {
+        if (entries[0].isIntersecting) { loadMap(); mapIo.disconnect(); }
+      }, { rootMargin: '300px' });
+      mapIo.observe($('#mapBox'));
+    }
+
+    /* ============ RESEÑAS ============ */
+    function searchReviews(q) {
+      q = (q || '').trim();
+      var list = $('#reviewList');
+      var matches = REVIEWS.filter(function (r) { return !q || r.text.toLowerCase().indexOf(q.toLowerCase()) !== -1; });
+      if (REVIEWS.length && matches.length) {
+        list.innerHTML = matches.map(function (r) {
+          return '<article class="glass p-5"><p class="text-amber-400" aria-label="' + r.stars + ' de 5 estrellas">' + '★★★★★'.slice(0, r.stars) + '</p>' +
+            '<p class="mt-2 text-zinc-200">“' + esc(r.text) + '”</p><p class="mt-2 text-sm text-ash">— ' + esc(r.author) + '</p></article>';
+        }).join('');
+        return;
+      }
+      var url = 'https://www.google.com/search?q=' + encodeURIComponent('Texas BBQ Ags Monte Coronado opiniones ' + q);
+      list.innerHTML = '<div class="md:col-span-2 glass p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">' +
+        '<p class="text-zinc-300">Abre las ' + '<strong class="text-white">197+ reseñas reales de Google</strong>' + (q ? ' filtradas por “' + esc(q) + '”' : '') + '.</p>' +
+        '<a class="btn btn-fire btn-sm shrink-0" href="' + url + '" target="_blank" rel="noopener">Ver reseñas' + (q ? ' de “' + esc(q) + '”' : '') + ' →</a></div>';
+    }
+    $('#reviewForm').addEventListener('submit', function (e) { e.preventDefault(); searchReviews($('#reviewQuery').value); });
+    $$('#reviewChips [data-q]').forEach(function (b) {
+      b.addEventListener('click', function () { $('#reviewQuery').value = b.getAttribute('data-q'); searchReviews(b.getAttribute('data-q')); });
+    });
+
+    /* ============ TARJETA DE REGALO ============ */
+    var giftAmount = 800;
+    radioGroup($('#giftAmounts'), function (b) { giftAmount = +b.getAttribute('data-amount'); $('#giftAmountView').textContent = money(giftAmount); });
+    function syncGift() {
+      $('#giftToView').textContent = $('#giftTo').value.trim() || '—';
+      $('#giftFromView').textContent = $('#giftFrom').value.trim() || '—';
+      $('#giftMsgView').textContent = $('#giftMsg').value.trim() || '¡Feliz cumpleaños! Que sea con brisket.';
+    }
+    ['#giftTo', '#giftFrom', '#giftMsg'].forEach(function (s) { $(s).addEventListener('input', syncGift); });
+    $('#giftForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!$('#giftTo').value.trim()) { $('#giftTo').focus(); toast('Escribe para quién es la tarjeta'); return; }
+      var msg = '¡Hola ' + BIZ.name + '! Me interesa una tarjeta de regalo:\n\n' +
+        '• Monto: ' + money(giftAmount) + '\n• Para: ' + $('#giftTo').value.trim() +
+        '\n• De: ' + ($('#giftFrom').value.trim() || '—') +
+        '\n• Mensaje: ' + ($('#giftMsg').value.trim() || '¡Feliz cumpleaños! Que sea con brisket.') +
+        '\n\n¿Me confirman si está disponible y cómo puedo pagarla? ¡Gracias!';
+      openWa(msg);
+    });
+
+    /* ============ HAMBRE VORAZ ============ */
+    var hungryMode = 'recoger';
+    var HUNGRY = [MENU_BY_ID['brisket-300'], MENU_BY_ID['papas']];
+    $('#hungryPrice').textContent = money(HUNGRY[0].price + HUNGRY[1].price);
+    radioGroup($('#hungryMode'), function (b) { hungryMode = b.getAttribute('data-mode'); });
+    $('#hungryBtn').addEventListener('click', function () { openPanel('hungrySheet'); });
+    $('#hungrySend').addEventListener('click', function () {
+      var msg = '¡Hola ' + BIZ.name + '! ⚡ Hambre voraz: quiero\n\n• 1 × ' + HUNGRY[0].name + ' — ' + money(HUNGRY[0].price) +
+        '\n• 1 × ' + HUNGRY[1].name + ' — ' + money(HUNGRY[1].price) +
+        '\n\nTotal de referencia: ' + money(HUNGRY[0].price + HUNGRY[1].price) +
+        '\nEntrega: ' + (hungryMode === 'domicilio' ? 'A domicilio (les paso mi dirección)' : 'Paso a recoger') + '\n¡Gracias!';
+      openWa(msg);
+    });
+
+    /* ============ PANELES / MODALES ============ */
+    var openId = null, lastFocus = null;
+    function openPanel(id) {
+      if (openId && openId !== id) closePanel(true);
+      var p = document.getElementById(id);
+      lastFocus = lastFocus || document.activeElement;
+      p.classList.add('is-open');
+      p.removeAttribute('inert');
+      p.setAttribute('aria-hidden', 'false');
+      $('#overlay').classList.add('is-open');
+      document.body.classList.add('is-locked');
+      openId = id;
+      closeMobileNav();
+      setTimeout(function () { var f = p.querySelector('button, a, input'); if (f) f.focus({ preventScroll: true }); }, 60);
+    }
+    function closePanel(keepFocusRef) {
+      if (!openId) return;
+      var p = document.getElementById(openId);
+      p.classList.remove('is-open');
+      p.setAttribute('inert', '');
+      p.setAttribute('aria-hidden', 'true');
+      $('#overlay').classList.remove('is-open');
+      document.body.classList.remove('is-locked');
+      openId = null;
+      if (!keepFocusRef && lastFocus && lastFocus.focus) { lastFocus.focus({ preventScroll: true }); lastFocus = null; }
+    }
+    document.addEventListener('click', function (e) {
+      var opener = e.target.closest('[data-open]');
+      if (opener) { e.preventDefault(); openPanel(opener.getAttribute('data-open')); return; }
+      var closer = e.target.closest('[data-close]');
+      if (closer) { closePanel(); }
+    });
+    $('#overlay').addEventListener('click', function () { closePanel(); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { closePanel(); closeMobileNav(); }
+      if (e.key === 'Tab' && openId) {
+        var p = document.getElementById(openId);
+        var f = $$('a[href], button:not([disabled]), input, textarea, select', p).filter(function (x) { return x.offsetParent !== null; });
+        if (!f.length) return;
+        var first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+    });
+
+    /* ============ NAVEGACIÓN ============ */
+    var menuToggle = $('#menuToggle');
+    function closeMobileNav() {
+      $('#mobileNav').classList.remove('is-open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.setAttribute('aria-label', 'Abrir menú de navegación');
+      $('#menuIcon').innerHTML = '<path d="M4 7h16M4 12h16M4 17h16"/>';
+    }
+    menuToggle.addEventListener('click', function () {
+      var open = !$('#mobileNav').classList.contains('is-open');
+      if (!open) { closeMobileNav(); return; }
+      $('#mobileNav').classList.add('is-open');
+      menuToggle.setAttribute('aria-expanded', 'true');
+      menuToggle.setAttribute('aria-label', 'Cerrar menú de navegación');
+      $('#menuIcon').innerHTML = '<path d="M6 6l12 12M18 6 6 18"/>';
+    });
+    $$('#mobileNav a').forEach(function (a) { a.addEventListener('click', closeMobileNav); });
+
+    var header = $('#siteHeader');
+    function onScroll() { header.classList.toggle('is-scrolled', window.scrollY > 24); }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    /* ============ MODO OLED SMOKE ============ */
+    var themeBtn = $('#themeToggle');
+    function applyTheme(t) {
+      if (t === 'oled') document.documentElement.setAttribute('data-theme', 'oled');
+      else document.documentElement.removeAttribute('data-theme');
+      themeBtn.setAttribute('aria-pressed', t === 'oled' ? 'true' : 'false');
+      themeBtn.classList.toggle('text-amber-300', t === 'oled');
+      themeBtn.classList.toggle('border-amber-400/60', t === 'oled');
+      $('meta[name="theme-color"]').setAttribute('content', t === 'oled' ? '#000000' : '#09090b');
+    }
+    applyTheme(store.get('tbbq-theme', 'smoke'));
+    themeBtn.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-theme') === 'oled' ? 'smoke' : 'oled';
+      applyTheme(next); store.set('tbbq-theme', next);
+      toast(next === 'oled' ? 'Modo OLED Smoke activado' : 'Modo Ahumado estándar');
+    });
+
+    /* ============ REVELADO + BRASAS ============ */
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      $$('[data-reveal]').forEach(function (el) { io.observe(el); });
+    } else {
+      $$('[data-reveal]').forEach(function (el) { el.classList.add('is-in'); });
+    }
+
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      var emb = $('#embers'), frag = document.createDocumentFragment();
+      for (var i = 0; i < 18; i++) {
+        var s = document.createElement('span');
+        s.className = 'ember-dot';
+        s.style.left = (Math.random() * 100) + '%';
+        s.style.setProperty('--dx', (Math.random() * 120 - 60) + 'px');
+        s.style.animationDuration = (7 + Math.random() * 9) + 's';
+        s.style.animationDelay = (Math.random() * 10) + 's';
+        var sz = 2 + Math.random() * 3;
+        s.style.width = sz + 'px'; s.style.height = sz + 'px';
+        frag.appendChild(s);
+      }
+      emb.appendChild(frag);
+    }
+
+    /* ============ PWA: GUARDAR COMO APP ============ */
+    var deferredPrompt = null;
+    var isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+    var isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    function showInstall() {
+      if (isStandalone || store.get('tbbq-install-dismissed', false)) return;
+      if (isIOS) {
+        $('#installText').innerHTML = 'En Safari toca <strong class="text-white">Compartir</strong> y luego <strong class="text-white">“Agregar a inicio”</strong>.';
+        $('#installNow').textContent = 'Entendido';
+      }
+      $('#installBanner').classList.remove('hidden');
+    }
+    window.addEventListener('beforeinstallprompt', function (e) {
+      e.preventDefault();
+      deferredPrompt = e;
+      setTimeout(showInstall, 15000);
+    });
+    if (isIOS) setTimeout(showInstall, 20000);
+    function doInstall() {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then(function () { deferredPrompt = null; });
+      } else if (isIOS) {
+        toast('Toca Compartir → “Agregar a inicio”');
+      } else if (isStandalone) {
+        toast('Ya tienes la app instalada');
+      } else {
+        toast('Usa el menú del navegador → “Instalar app” o “Agregar a inicio”');
+      }
+      $('#installBanner').classList.add('hidden');
+      store.set('tbbq-install-dismissed', true);
+    }
+    $('#installNow').addEventListener('click', doInstall);
+    $('#installFooter').addEventListener('click', doInstall);
+    $('#installLater').addEventListener('click', function () { $('#installBanner').classList.add('hidden'); store.set('tbbq-install-dismissed', true); });
+
+    /* ============ ARRANQUE ============ */
+    $('#year').textContent = new Date().getFullYear();
+    renderMenu();
+    renderCart();
+    renderPlate();
+    renderParty();
+    syncGift();
+    renderStatus();
+    setInterval(renderStatus, 1000);
+  })();
+  </script>
+</body>
+</html>
