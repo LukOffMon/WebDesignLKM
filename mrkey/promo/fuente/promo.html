@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,500;1,700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; background: #0b0b0c; }
+  body { font-family: Manrope, sans-serif; color: #f5f5f7; -webkit-font-smoothing: antialiased; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+  .abs { position: absolute; }
+  .scene { position: absolute; inset: 0; opacity: 0; }
+  .serif { font-family: Fraunces, Georgia, serif; font-weight: 500; letter-spacing: -.02em; }
+  .gold { color: #d6b47a; }
+  em { font-style: italic; color: #d6b47a; }
+  .glow { position: absolute; border-radius: 50%; filter: blur(90px); }
+  .dot { position: absolute; width: 8px; height: 8px; border-radius: 50%; background: #d6b47a; }
+
+  /* subtítulos */
+  #caps { position: absolute; left: 70px; right: 70px; top: 1560px; text-align: center; font-weight: 800; font-size: 56px; line-height: 1.22; text-shadow: 0 4px 24px rgba(0,0,0,.8); }
+  #caps span { opacity: .18; transition: none; }
+  #caps span.on { opacity: 1; }
+  #caps span.cur { color: #d6b47a; }
+
+  /* tarjeta de lealtad */
+  .card { position: absolute; width: 460px; border-radius: 30px; background: #1c1917; padding: 26px; box-shadow: 0 30px 80px rgba(0,0,0,.55), inset 0 0 0 1.5px rgba(255,255,255,.09); color: #fafaf9; }
+  .card .top { display: flex; justify-content: space-between; align-items: center; }
+  .card .brand { font-family: Fraunces, serif; font-size: 30px; line-height: 1.05; }
+  .card .lbl { font-size: 13px; font-weight: 800; letter-spacing: .18em; color: #d6b47a; }
+  .card .val { font-size: 24px; font-weight: 800; }
+  .card .stamps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 24px 0; }
+  .card .st { aspect-ratio: 1; border-radius: 50%; border: 3px dashed rgba(250,250,249,.3); display: grid; place-items: center; font-size: 34px; color: #1c1917; }
+  .card .st.on { border: none; background: #d6b47a; }
+  .card .meta { display: flex; justify-content: space-between; }
+  .card .qr { margin-top: 20px; background: #fff; border-radius: 18px; padding: 16px; display: grid; place-items: center; }
+
+  /* teléfono */
+  .phone { position: absolute; border-radius: 78px; background: #1b1b20; border: 2px solid rgba(255,255,255,.12); padding: 18px; box-shadow: 0 50px 140px rgba(0,0,0,.6), 0 0 120px rgba(214,180,122,.12); }
+  .phone .screen { width: 100%; height: 100%; border-radius: 62px; background: #000; overflow: hidden; position: relative; }
+  .phone .notch { position: absolute; top: 18px; left: 50%; width: 150px; height: 40px; margin-left: -75px; border-radius: 30px; background: #000; z-index: 5; }
+
+  .pill { position: absolute; padding: 18px 30px; border-radius: 999px; font-weight: 800; font-size: 34px; white-space: nowrap; background: #1b1b20; border: 2px solid rgba(255,255,255,.12); box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+  .pill.goldbg { background: #d6b47a; color: #1a1408; border-color: transparent; }
+  .xmark { position: absolute; width: 190px; height: 190px; border-radius: 50%; background: #ef4444; display: grid; place-items: center; font-size: 120px; color: #fff; font-weight: 800; box-shadow: 0 20px 60px rgba(239,68,68,.45); }
+  .panel { position: absolute; background: #141417; border: 2px solid rgba(255,255,255,.1); border-radius: 36px; box-shadow: 0 30px 90px rgba(0,0,0,.5); }
+  .row { display: flex; align-items: center; gap: 20px; padding: 22px 26px; border-radius: 22px; background: #1b1b20; margin-top: 16px; }
+  .avatar { width: 64px; height: 64px; border-radius: 50%; background: #2a2a31; display: grid; place-items: center; font-size: 30px; font-weight: 800; }
+  .redpill { margin-left: auto; padding: 8px 18px; border-radius: 999px; background: rgba(248,113,113,.14); color: #f87171; font-weight: 800; font-size: 26px; }
+  .conf { position: absolute; width: 18px; height: 28px; border-radius: 4px; }
+  .hl { position: absolute; top: 120px; left: 40px; right: 40px; text-align: center; font-family: Fraunces, serif; font-weight: 700; font-size: 100px; line-height: 1.02; letter-spacing: -.03em; text-shadow: 0 10px 40px rgba(0,0,0,.6); }
+  .hl em { font-weight: 700; }
+  #wipe { position: absolute; top: -200px; height: 2320px; width: 900px; background: linear-gradient(90deg, rgba(214,180,122,0), #d6b47a 30%, #f3dcae 50%, #d6b47a 70%, rgba(214,180,122,0)); transform: skewX(-16deg); opacity: 0; z-index: 30; }
+  #vignette { position: absolute; inset: 0; background: radial-gradient(ellipse 75% 60% at 50% 45%, transparent 55%, rgba(0,0,0,.6)); pointer-events: none; z-index: 25; }
+  #grain { position: absolute; inset: 0; width: 1080px; height: 1920px; opacity: .08; mix-blend-mode: overlay; z-index: 26; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="glow" id="g1" style="width:900px;height:900px;background:rgba(214,180,122,.20)"></div>
+  <div class="glow" id="g2" style="width:700px;height:700px;background:rgba(120,90,200,.13)"></div>
+  <div id="dots"></div>
+  <div class="abs serif" id="wm" style="top:70px;left:0;right:0;text-align:center;font-size:44px;opacity:0">Mr <em>Key</em></div>
+
+  <div id="cam" class="abs" style="inset:0;transform-origin:50% 45%">
+  <!-- S1 -->
+  <div class="scene" id="s1">
+    <div class="abs serif" id="s1t1" style="top:250px;left:0;right:0;text-align:center;font-size:118px;line-height:1.05">Vino una vez…</div>
+    <div class="abs serif" id="s1t2" style="top:370px;left:0;right:0;text-align:center;font-size:118px;line-height:1.05"><em>y nunca regresó.</em></div>
+    <div id="s1grid"></div>
+  </div>
+
+  <!-- S2 -->
+  <div class="scene" id="s2">
+    <div class="abs" id="paper" style="left:250px;top:300px;width:580px;height:360px;border-radius:24px;background:#efe3c8;color:#5b4a2e;padding:30px;box-shadow:0 30px 80px rgba(0,0,0,.5)">
+      <div class="serif" style="font-size:42px">Tarjeta de sellos</div>
+      <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:30px" id="paperStamps"></div>
+    </div>
+    <div class="xmark" id="x1" style="left:720px;top:230px">✕</div>
+    <div class="abs" id="lbl1" style="top:720px;left:0;right:0;text-align:center;font-size:54px;font-weight:800">Se pierden 🗑️</div>
+    <div class="abs" id="app" style="left:390px;top:880px;width:300px;height:300px;border-radius:70px;background:linear-gradient(135deg,#3b82f6,#6366f1);display:grid;place-items:center;box-shadow:0 30px 80px rgba(0,0,0,.5)">
+      <div style="font-size:150px;color:#fff;line-height:1">⬇</div>
+    </div>
+    <div class="abs" id="bar" style="left:390px;top:1210px;width:300px;height:18px;border-radius:9px;background:#2a2a31;overflow:hidden"><div id="barIn" style="height:100%;width:4%;background:#6366f1"></div></div>
+    <div class="xmark" id="x2" style="left:640px;top:820px">✕</div>
+    <div class="abs" id="lbl2" style="top:1270px;left:0;right:0;text-align:center;font-size:54px;font-weight:800">Nadie las descarga 📵</div>
+  </div>
+
+  <!-- S3 -->
+  <div class="scene" id="s3">
+    <svg class="abs" id="key" viewBox="0 0 200 200" style="left:340px;top:420px;width:400px;height:400px">
+      <defs><linearGradient id="kg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3dcae"/><stop offset=".5" stop-color="#d6b47a"/><stop offset="1" stop-color="#a8843f"/></linearGradient></defs><g transform="rotate(-35 100 100)"><circle cx="52" cy="100" r="34" fill="none" stroke="url(#kg)" stroke-width="18"/><circle cx="52" cy="100" r="9" fill="url(#kg)"/><rect x="82" y="91" width="106" height="18" rx="6" fill="url(#kg)"/><rect x="146" y="105" width="15" height="30" rx="4" fill="url(#kg)"/><rect x="168" y="105" width="15" height="22" rx="4" fill="url(#kg)"/></g></svg>
+    <div class="abs serif" id="logo" style="top:880px;left:0;right:0;text-align:center;font-size:190px;line-height:1">Mr <em>Key</em></div>
+    <div class="abs" id="shine" style="top:860px;width:160px;height:260px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg);mix-blend-mode:overlay"></div>
+    <div class="abs" id="tag" style="top:1120px;left:0;right:0;text-align:center;font-size:44px;font-weight:700;letter-spacing:.24em;color:#9a9aa3">LEALTAD DIGITAL</div>
+  </div>
+
+  <!-- S4 -->
+  <div class="scene" id="s4">
+    <div class="hl">En su <em>Wallet</em>.</div>
+    <div class="phone" id="ph4" style="left:265px;top:330px;width:550px;height:1120px">
+      <div class="screen">
+        <div class="notch"></div>
+        <div class="abs" style="top:110px;left:44px;font-size:58px;font-weight:800">Wallet</div>
+        <div class="abs" id="ghost1" style="top:240px;left:34px;width:476px;height:120px;border-radius:26px;background:#2563eb"></div>
+        <div class="abs" id="ghost2" style="top:300px;left:34px;width:476px;height:120px;border-radius:26px;background:#16a34a"></div>
+        <div class="card" id="card4" style="left:42px;top:360px;width:460px"></div>
+      </div>
+    </div>
+    <div class="pill" id="b1" style="left:40px;top:560px">📲 Apple Wallet</div>
+    <div class="pill" id="b2" style="right:40px;top:760px">🟢 Google Wallet</div>
+    <div class="pill goldbg" id="b3" style="left:0;right:0;margin:auto;width:max-content;top:1395px">✓ Sin descargar apps</div>
+  </div>
+
+  <!-- S5 -->
+  <div class="scene" id="s5">
+    <div class="hl"><em>20</em> segundos.</div>
+    <div class="abs" id="poster" style="left:300px;top:300px;transform-origin:top center;width:540px;padding:40px;border-radius:36px;background:#fff;color:#111;text-align:center;box-shadow:0 30px 90px rgba(0,0,0,.5)">
+      <div class="serif" style="font-size:44px;line-height:1.1">Barbería Don Luis</div>
+      <div id="qr5" style="margin:26px auto 18px;width:360px;height:360px"></div>
+      <div style="font-weight:800;font-size:28px">Escanea y obtén tu tarjeta</div>
+    </div>
+    <div class="abs" id="laser" style="left:290px;width:500px;height:6px;border-radius:3px;background:#22c55e;box-shadow:0 0 30px #22c55e"></div>
+    <div class="phone" id="ph5" style="left:330px;top:900px;width:420px;height:640px">
+      <div class="screen">
+        <div class="notch"></div>
+        <div class="abs" id="cam5" style="inset:0;background:radial-gradient(circle at 50% 40%,#222,#000)"></div>
+        <div class="card" id="card5" style="left:12px;top:80px;width:380px;transform-origin:top center"></div>
+      </div>
+    </div>
+    <div class="pill goldbg" id="timer5" style="right:40px;top:860px">⏱ 20 segundos</div>
+  </div>
+
+  <!-- S6 -->
+  <div class="scene" id="s6">
+    <div class="hl">Sello al <em>instante</em>.</div>
+    <div class="card" id="card6" style="left:190px;top:380px;width:700px;padding:40px;border-radius:44px"></div>
+    <div class="abs" id="plus6" style="left:0;right:0;text-align:center;font-size:72px;font-weight:800;color:#d6b47a"></div>
+    <div class="abs" id="gift" style="left:0;right:0;text-align:center;top:1110px;font-size:190px;line-height:1">🎁</div>
+    <div class="pill goldbg" id="prize" style="left:0;right:0;margin:auto;width:max-content;top:1340px;font-size:44px">¡Premio desbloqueado!</div>
+    <div id="confetti"></div>
+  </div>
+
+  <!-- S7 -->
+  <div class="scene" id="s7">
+    <div class="hl">Los traemos <em>de vuelta</em>.</div>
+    <div class="panel" id="dash" style="left:110px;top:400px;width:860px;padding:40px">
+      <div style="font-size:30px;font-weight:800;letter-spacing:.2em;color:#9a9aa3">PANEL · MR KEY</div>
+      <div class="serif" style="font-size:66px;margin-top:10px">Clientes <em>inactivos</em></div>
+      <div id="rows7"></div>
+      <div id="send7" style="margin-top:28px;padding:26px;border-radius:999px;background:#d6b47a;color:#1a1408;text-align:center;font-weight:800;font-size:38px">💬 Enviar promo</div>
+    </div>
+    <div class="phone" id="ph7" style="left:265px;top:330px;width:550px;height:1090px">
+      <div class="screen" style="background:linear-gradient(180deg,#1e293b,#0f172a 60%,#1c1917)">
+        <div class="notch"></div>
+        <div class="abs" style="top:120px;left:0;right:0;text-align:center;font-size:36px;font-weight:700;color:#cbd5e1">martes 28 de octubre</div>
+        <div class="abs" style="top:160px;left:0;right:0;text-align:center;font-size:170px;font-weight:700;letter-spacing:-.03em">9:41</div>
+        <div class="abs" id="notif" style="left:26px;right:26px;top:420px;padding:24px;border-radius:34px;background:rgba(255,255,255,.18);backdrop-filter:blur(12px);display:flex;gap:18px">
+          <div style="width:72px;height:72px;flex:none;border-radius:18px;background:#d6b47a;color:#1a1408;display:grid;place-items:center;font-size:40px;font-weight:800">✂</div>
+          <div style="font-size:28px;line-height:1.3"><b>Barbería Don Luis</b> <span style="color:#cbd5e1">· ahora</span><br>Marco, ¡te extrañamos! Esta semana tu sello es doble ✂️</div>
+        </div>
+      </div>
+    </div>
+    <div class="pill goldbg" id="sms7" style="left:0;right:0;margin:auto;width:max-content;top:1440px">Sin SMS · $0 extra</div>
+  </div>
+
+  <!-- S8 -->
+  <div class="scene" id="s8">
+    <div class="hl">Dinero <em>recuperado</em>.</div>
+    <div class="panel" id="kpi" style="left:110px;top:330px;width:860px;padding:50px;background:linear-gradient(180deg,rgba(214,180,122,.16),#141417);border-color:rgba(214,180,122,.55)">
+      <div style="font-size:32px;font-weight:800;letter-spacing:.18em;color:#d6b47a">INGRESOS RECUPERADOS · 30 DÍAS</div>
+      <div class="serif gold" id="money" style="font-size:190px;line-height:1.1;margin-top:10px">$0</div>
+      <div style="font-size:34px;color:#9a9aa3">18 clientes inactivos regresaron <span style="font-size:24px">(ejemplo)</span></div>
+    </div>
+    <div class="abs" id="eq" style="left:0;right:0;top:930px;text-align:center">
+      <div style="font-size:56px;font-weight:800">2 clientes que regresan</div>
+      <div class="serif" style="font-size:150px;line-height:1.1" id="eqBig">≥ <em>$339</em></div>
+      <div style="font-size:40px;color:#9a9aa3">Plan desde $339 al mes</div>
+    </div>
+    <div class="abs" id="stamp8" style="left:0;right:0;margin:auto;top:1310px;width:max-content;padding:20px 44px;border:8px solid #22c55e;border-radius:24px;color:#22c55e;font-size:72px;font-weight:800;letter-spacing:.06em">SE PAGA SOLO ✓</div>
+  </div>
+
+  <!-- S9 -->
+  <div class="scene" id="s9">
+    <svg class="abs" id="key9" viewBox="0 0 200 200" style="left:420px;top:180px;width:240px;height:240px"><g transform="rotate(-35 100 100)"><circle cx="52" cy="100" r="34" fill="none" stroke="#d6b47a" stroke-width="18"/><circle cx="52" cy="100" r="9" fill="#d6b47a"/><rect x="82" y="91" width="106" height="18" rx="6" fill="#d6b47a"/><rect x="146" y="105" width="15" height="30" rx="4" fill="#d6b47a"/><rect x="168" y="105" width="15" height="22" rx="4" fill="#d6b47a"/></g></svg>
+    <div class="abs serif" id="logo9" style="top:420px;left:0;right:0;text-align:center;font-size:150px;line-height:1">Mr <em>Key</em></div>
+    <div class="abs serif" id="tl1" style="top:640px;left:0;right:0;text-align:center;font-size:84px;line-height:1.1">Tus clientes regresan.</div>
+    <div class="abs serif" id="tl2" style="top:740px;left:0;right:0;text-align:center;font-size:84px;line-height:1.1"><em>En automático.</em></div>
+    <div class="abs" id="cta" style="left:0;right:0;margin:auto;top:940px;width:max-content;padding:34px 60px;border-radius:999px;background:#d6b47a;color:#1a1408;font-size:52px;font-weight:800;box-shadow:0 20px 80px rgba(214,180,122,.35)">Pruébalo gratis hoy</div>
+    <div class="abs" id="url" style="top:1110px;left:0;right:0;text-align:center;font-size:36px;font-weight:700;color:#d6b47a">lukoffmon.github.io/WebDesignLKM/mrkey</div>
+    <div class="abs" id="nocc" style="top:1170px;left:0;right:0;text-align:center;font-size:32px;color:#9a9aa3">Sin tarjeta de crédito · Lista en 2 minutos</div>
+  </div>
+
+  </div>
+  <div class="abs" style="left:0;right:0;top:1400px;bottom:0;background:linear-gradient(180deg,transparent,rgba(5,5,6,.82) 35%)"></div>
+  <div id="caps"></div>
+  <div id="vignette"></div>
+  <canvas id="grain" width="360" height="640"></canvas>
+  <div id="wipe"></div>
+  <div class="abs" id="fade" style="inset:0;background:#000;opacity:0;z-index:40"></div>
+</div>
+
+<script>
+const TL = window.TL;
+const $ = (id) => document.getElementById(id);
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const P = (t, a, b) => clamp((t - a) / (b - a));
+const eo = (x) => 1 - Math.pow(1 - x, 3);
+const eio = (x) => (x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+const back = (x) => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+const S = (id) => TL.scenes.find((s) => s.id === id);
+function set(el, { x = 0, y = 0, s = 1, r = 0, o = 1, rx = 0, ry = 0 } = {}) {
+  el = typeof el === "string" ? $(el) : el;
+  el.style.transform = (rx || ry ? `perspective(1800px) rotateX(${rx}deg) rotateY(${ry}deg) ` : "") + `translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;
+  el.style.opacity = o;
+}
+// entrada: aparece desde abajo con rebote suave
+function pop(el, lt, at, dur = .45, dy = 60) {
+  const p = P(lt, at, at + dur);
+  set(el, { y: (1 - eo(p)) * dy, s: .85 + .15 * back(p), o: clamp(p * 2.5) });
+}
+
+// ---------- QR determinista ----------
+function qrSvg(seed, size) {
+  let h = seed, cells = "";
+  const n = 25, c = size / n;
+  const rnd = () => ((h = (h * 1103515245 + 12345) & 0x7fffffff) / 0x7fffffff);
+  const finder = (x, y) => (x < 7 && y < 7) || (x > n - 8 && y < 7) || (x < 7 && y > n - 8);
+  for (let y = 0; y < n; y++) for (let x = 0; x < n; x++) {
+    let on;
+    if (finder(x, y)) {
+      const fx = x < 7 ? x : x - (n - 7), fy = y < 7 ? y : y - (n - 7);
+      on = fx === 0 || fy === 0 || fx === 6 || fy === 6 || (fx >= 2 && fx <= 4 && fy >= 2 && fy <= 4);
+    } else on = rnd() > .52;
+    if (on) cells += `<rect x="${x * c}" y="${y * c}" width="${c + .4}" height="${c + .4}"/>`;
+  }
+  return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" fill="#111">${cells}</svg>`;
+}
+function cardHtml(stamps, total = 8, qr = true, scale = 1) {
+  let st = "";
+  for (let i = 0; i < total; i++) st += `<div class="st${i < stamps ? " on" : ""}" data-i="${i}">${i < stamps ? "★" : ""}</div>`;
+  return `<div class="top"><div class="brand">Barbería<br>Don Luis ✂️</div><div style="text-align:right"><div class="lbl">PREMIOS</div><div class="val" data-rw>0</div></div></div>
+    <div class="stamps">${st}</div>
+    <div class="meta"><div><div class="lbl">RECOMPENSA</div><div class="val">Corte gratis</div></div><div style="text-align:right"><div class="lbl">SELLOS</div><div class="val" data-cnt>${stamps} de ${total}</div></div></div>
+    ${qr ? `<div class="qr">${qrSvg(7, 190 * scale)}</div>` : ""}`;
+}
+
+// ---------- construcción ----------
+const NOISE = [];
+{
+  const ctx = document.createElement("canvas").getContext("2d");
+  for (let k = 0; k < 4; k++) {
+    const img = ctx.createImageData(360, 640);
+    let h = 99 + k * 7919;
+    for (let i = 0; i < img.data.length; i += 4) {
+      h = (h * 1103515245 + 12345) & 0x7fffffff;
+      const v = (h >> 16) & 255;
+      img.data[i] = img.data[i + 1] = img.data[i + 2] = v;
+      img.data[i + 3] = 255;
+    }
+    NOISE.push(img);
+  }
+}
+const dots = [];
+for (let i = 0; i < 34; i++) {
+  const d = document.createElement("div");
+  d.className = "dot";
+  $("dots").appendChild(d);
+  dots.push({ el: d, x: (i * 263) % 1080, y: (i * 547) % 1920, sp: 20 + (i * 37) % 50, sz: .4 + ((i * 13) % 10) / 10 });
+}
+const avatars = [];
+for (let i = 0; i < 12; i++) {
+  const a = document.createElement("div");
+  const col = i % 4, row = Math.floor(i / 4);
+  a.className = "abs";
+  a.style.cssText = `left:${150 + col * 210}px;top:${700 + row * 250}px;width:150px;height:190px`;
+  a.innerHTML = `<svg viewBox="0 0 150 190" width="150" height="190"><circle cx="75" cy="55" r="42" fill="currentColor"/><path d="M8 190c0-50 30-82 67-82s67 32 67 82z" fill="currentColor"/></svg>`;
+  $("s1grid").appendChild(a);
+  avatars.push(a);
+}
+const leaveOrder = [3, 8, 0, 10, 5, 1, 11, 6, 2]; // 9 se van, quedan 3
+for (let i = 0; i < 10; i++) {
+  const s = document.createElement("div");
+  s.style.cssText = `aspect-ratio:1;border-radius:50%;border:3px dashed #b9a37a;display:grid;place-items:center;color:#b91c1c;font-size:40px;font-weight:800`;
+  if (i < 3) s.textContent = "✕";
+  $("paperStamps").appendChild(s);
+}
+$("qr5").innerHTML = qrSvg(11, 360);
+$("card4").innerHTML = cardHtml(3, 8, true);
+$("card5").innerHTML = cardHtml(0, 8, true, .85);
+$("card6").innerHTML = cardHtml(3, 8, false);
+$("card6").querySelector(".brand").style.fontSize = "52px";
+$("card6").querySelectorAll(".val").forEach((v) => (v.style.fontSize = "40px"));
+$("card6").querySelectorAll(".lbl").forEach((v) => (v.style.fontSize = "20px"));
+$("card6").querySelectorAll(".st").forEach((v) => (v.style.fontSize = "60px"));
+const rows = [["M", "Marco P.", 34], ["A", "Ana R.", 41], ["L", "Luis G.", 29]];
+$("rows7").innerHTML = rows.map(([i, n, d], k) => `<div class="row" id="r7${k}"><div class="avatar">${i}</div><div style="font-size:40px;font-weight:800">${n}</div><div class="redpill">${d} días sin venir</div></div>`).join("");
+const confetti = [];
+const cc = ["#d6b47a", "#f87171", "#60a5fa", "#4ade80", "#fbbf24", "#c084fc"];
+for (let i = 0; i < 70; i++) {
+  const c = document.createElement("div");
+  c.className = "conf";
+  c.style.background = cc[i % cc.length];
+  $("confetti").appendChild(c);
+  const ang = (i * 137.5) % 360 * Math.PI / 180, sp = 500 + (i * 71) % 700;
+  confetti.push({ el: c, vx: Math.cos(ang) * sp, vy: Math.sin(ang) * sp - 600, rot: (i * 47) % 360 });
+}
+
+// ---------- efectos de sonido (los lee el mezclador) ----------
+window.SFX = [];
+const sfx = (id, local, type, vol = 1) => window.SFX.push({ t: +(S(id).start + local).toFixed(3), type, vol });
+TL.scenes.forEach((s, i) => i > 0 && sfx(s.id, -0.12, "whoosh", .8));
+sfx("s1", 0.05, "boom", .9);
+sfx("s1", 2.0, "whoosh", .5);
+sfx("s2", 1.2, "buzz"); sfx("s2", 2.1, "whoosh", .6); sfx("s2", 3.7, "buzz");
+sfx("s3", -0.9, "riser", .9); sfx("s3", 0.25, "shimmer"); sfx("s3", 0.25, "boom", .7);
+sfx("s4", 0.5, "whoosh", .7); sfx("s4", 3.4, "pop"); sfx("s4", 4.1, "pop"); sfx("s4", 6.0, "pop");
+sfx("s5", 1.0, "scan", .5); sfx("s5", 2.2, "beep"); sfx("s5", 2.45, "pop"); sfx("s5", 3.2, "tick", .9);
+const stampAt = [1.3, 1.9, 2.5, 3.1, 3.8];
+sfx("s6", 1.1, "beep", .7); stampAt.forEach((a) => sfx("s6", a, "stamp"));
+sfx("s6", 5.0, "ding"); sfx("s6", 5.0, "confetti", .8);
+sfx("s7", 0.5, "pop", .5); sfx("s7", 0.8, "pop", .5); sfx("s7", 1.1, "pop", .5);
+sfx("s7", 3.3, "click"); sfx("s7", 3.8, "whoosh", .6); sfx("s7", 4.6, "notif"); sfx("s7", 7.0, "pop");
+sfx("s8", 0.4, "ticks", .6); sfx("s8", 2.6, "kaching"); sfx("s8", 3.3, "pop", .7); sfx("s8", 5.0, "thud");
+sfx("s9", 0.2, "shimmer", .8); sfx("s9", 2.2, "pop");
+
+// ---------- subtítulos ----------
+let capScene = null;
+function captions(t) {
+  const s = TL.scenes.find((s) => t >= s.voStart - .1 && t < s.start + s.dur);
+  const box = $("caps");
+  if (!s) { box.style.opacity = 0; return; }
+  if (capScene !== s.id) {
+    capScene = s.id;
+    box.innerHTML = s.text.split(" ").map((w) => `<span>${w}</span>`).join(" ");
+  }
+  const spans = [...box.children];
+  const lens = spans.map((x) => x.textContent.length + 1), total = lens.reduce((a, b) => a + b, 0);
+  const prog = clamp((t - s.voStart) / (s.vo * .96)) * total;
+  let acc = 0;
+  spans.forEach((sp, i) => {
+    const on = prog > acc;
+    acc += lens[i];
+    sp.className = on ? (prog <= acc ? "on cur" : "on") : "";
+  });
+  box.style.opacity = clamp((s.start + s.dur - t) / .25);
+}
+
+// ---------- render por cuadro ----------
+window.renderAt = function (t) {
+  // fondo vivo
+  set("g1", { x: 90 + Math.sin(t * .25) * 160, y: 300 + Math.cos(t * .2) * 220 });
+  set("g2", { x: 420 + Math.cos(t * .18) * 200, y: 1100 + Math.sin(t * .22) * 200 });
+  dots.forEach((d) => {
+    const y = ((d.y - t * d.sp) % 1920 + 1920) % 1920;
+    set(d.el, { x: d.x + Math.sin(t * .6 + d.y) * 14, y, s: d.sz, o: .25 + .25 * Math.sin(t + d.x) });
+  });
+
+  for (const s of TL.scenes) {
+    const el = $(s.id), lt = t - s.start;
+    const vis = lt >= -0.01 && lt < s.dur + .3;
+    el.style.display = vis ? "block" : "none";
+    if (!vis) continue;
+    const enter = eo(P(lt, 0, .35)), exit = P(lt, s.dur - .05, s.dur + .3);
+    el.style.opacity = enter * (1 - exit);
+    el.style.transform = `translateY(${(1 - enter) * 40 - exit * 60}px) scale(${1 - exit * .04})`;
+    SCENES[s.id](lt, s.dur);
+  }
+  $("wm").style.opacity = 0;
+  // titulares con golpe
+  for (const s of TL.scenes) {
+    const hl = $(s.id).querySelector(".hl");
+    if (!hl) continue;
+    const p = P(t - s.start, .1, .5);
+    hl.style.transform = `scale(${1.3 - .3 * eo(p)})`;
+    hl.style.opacity = clamp(p * 2);
+    hl.style.filter = `blur(${(1 - eo(p)) * 10}px)`;
+  }
+  // cámara: zoom lento por escena + sacudida en los impactos
+  const cur = TL.scenes.find((s) => t >= s.start && t < s.start + s.dur) || TL.scenes[TL.scenes.length - 1];
+  const zoom = 1 + .035 * eio(P(t - cur.start, 0, cur.dur));
+  let shake = 0;
+  for (const e of window.SFX) {
+    const A = { boom: 16, thud: 14, kaching: 7, stamp: 4, buzz: 6 }[e.type];
+    if (A && t >= e.t && t < e.t + .5) shake += A * Math.exp(-(t - e.t) * 12);
+  }
+  $("cam").style.transform = `translate(${Math.sin(t * 91) * shake}px,${Math.cos(t * 77) * shake}px) scale(${zoom})`;
+  // barrido dorado entre escenas
+  let w = -1;
+  TL.scenes.slice(1).forEach((s) => { const p = P(t, s.start - .26, s.start + .2); if (p > 0 && p < 1) w = p; });
+  $("wipe").style.opacity = w < 0 ? 0 : .92;
+  $("wipe").style.left = (-1100 + eio(Math.max(w, 0)) * 2300) + "px";
+  // grano de película
+  const g = $("grain").getContext("2d");
+  g.putImageData(NOISE[Math.floor(t * 30) % NOISE.length], 0, 0);
+  // el brillo late con la música después del logo
+  if (t > S("s3").start) {
+    const ph = ((t - S("s3").start) % .5) / .5;
+    $("g1").style.transform += ` scale(${1 + .1 * Math.exp(-ph * 6)})`;
+  }
+  captions(t);
+  $("fade").style.opacity = P(t, TL.total - .7, TL.total);
+};
+
+const SCENES = {
+  s1(lt) {
+    pop("s1t1", lt, .05, .5); pop("s1t2", lt, .35, .55);
+    avatars.forEach((a, i) => {
+      const k = leaveOrder.indexOf(i);
+      const appear = eo(P(lt, .3 + i * .05, .8 + i * .05));
+      let o = appear, x = 0, y = (1 - appear) * 40, s = .7 + .3 * appear;
+      a.style.color = "#e5e5ea";
+      if (k >= 0) {
+        const p = eio(P(lt, 1.6 + k * .28, 2.4 + k * .28));
+        o *= 1 - p; x = (i % 4 < 2 ? -1 : 1) * p * 260; y += -p * 120; s *= 1 - p * .3;
+        if (p > 0) a.style.color = "#6b6b75";
+      } else if (lt > 3.6) {
+        a.style.color = "#d6b47a";
+      }
+      set(a, { x, y, s, o });
+    });
+  },
+  s2(lt) {
+    const fall = eio(P(lt, 2.1, 3.0));
+    set("paper", { y: (1 - eo(P(lt, 0, .5))) * 80 + fall * 1300, r: -6 + fall * 70, s: 1 - fall * .4, o: clamp(lt * 3) });
+    pop("x1", lt, 1.2, .35, 0);
+    if (lt > 2.1) $("x1").style.opacity = 1 - P(lt, 2.1, 2.4);
+    pop("lbl1", lt, 1.3, .4);
+    pop("app", lt, 2.6, .5);
+    pop("x2", lt, 3.7, .35, 0);
+    pop("lbl2", lt, 3.8, .4);
+    $("bar").style.opacity = clamp((lt - 2.7) * 3);
+    $("barIn").style.width = 3 + 3 * P(lt, 2.8, 3.6) + "%";
+  },
+  s3(lt) {
+    const p = P(lt, 0, .9);
+    set("key", { s: back(p) * 1, r: (1 - eo(p)) * -200, o: clamp(p * 3) });
+    const q = eo(P(lt, .5, 1.2));
+    set("logo", { y: (1 - q) * 60, o: q });
+    $("logo").style.letterSpacing = `${(1 - q) * .3 - .02}em`;
+    pop("tag", lt, 1.1, .5);
+    const sh = P(lt, 1.3, 2.1);
+    set("shine", { x: -200 + sh * 1500, o: sh > 0 && sh < 1 ? 1 : 0 });
+    set("key", { s: back(p) * (1 + Math.sin(lt * 2) * .02), r: (1 - eo(p)) * -200, o: clamp(p * 3) });
+  },
+  s4(lt) {
+    { const e = eo(P(lt, 0, .8)); set("ph4", { y: (1 - e) * 160, s: .9 + .1 * back(P(lt, 0, .8)), o: clamp(e * 2), rx: 5, ry: -26 * (1 - eo(P(lt, 0, 1.8))) + Math.sin(lt * .7) * 7 }); }
+    const c = eo(P(lt, .5, 1.2));
+    set("card4", { y: (1 - c) * 900, o: c });
+    pop("b1", lt, 3.4, .45); pop("b2", lt, 4.1, .45); pop("b3", lt, 6.0, .45);
+    set("b1", { ...{ y: (1 - eo(P(lt, 3.4, 3.85))) * 60 + Math.sin(lt * 2) * 6, s: .85 + .15 * back(P(lt, 3.4, 3.85)), o: clamp(P(lt, 3.4, 3.85) * 2.5) } });
+    set("b2", { y: (1 - eo(P(lt, 4.1, 4.55))) * 60 + Math.cos(lt * 2) * 6, s: .85 + .15 * back(P(lt, 4.1, 4.55)), o: clamp(P(lt, 4.1, 4.55) * 2.5) });
+  },
+  s5(lt) {
+    pop("poster", lt, 0, .5);
+    { const e = eo(P(lt, .3, .9)); set("ph5", { y: (1 - e) * 300, o: clamp(e * 2), rx: 6, ry: Math.sin(lt * .8) * 9 }); }
+    const scan = P(lt, 1.0, 2.2);
+    set("laser", { y: 300 + Math.sin(scan * Math.PI * 2) * 170 + 170, o: scan > 0 && scan < 1 ? 1 : 0 });
+    const c = back(P(lt, 2.45, 2.95));
+    set("card5", { s: .78 * c, o: clamp(P(lt, 2.45, 2.7) * 3) });
+    pop("timer5", lt, 3.2, .45);
+  },
+  s6(lt) {
+    { const e = P(lt, 0, .5); set("card6", { y: (1 - eo(e)) * 60, s: .85 + .15 * back(e), o: clamp(e * 2.5), rx: Math.sin(lt * .9) * 6, ry: Math.cos(lt * .7) * 10 }); }
+    const n = 3 + stampAt.filter((a) => lt >= a).length;
+    const sts = $("card6").querySelectorAll(".st");
+    sts.forEach((st, i) => {
+      const on = i < n;
+      st.className = "st" + (on ? " on" : "");
+      st.textContent = on ? "★" : "";
+      const k = i - 3, a = stampAt[k];
+      const p = a !== undefined ? P(lt, a, a + .35) : 1;
+      st.style.transform = `scale(${on ? .4 + .6 * back(p) : 1})`;
+    });
+    const full = lt >= 5.0;
+    $("card6").querySelector("[data-cnt]").textContent = `${Math.min(n, 8)} de 8`;
+    $("card6").querySelector("[data-rw]").textContent = full ? "1" : "0";
+    if (full) sts.forEach((st) => (st.style.transform = `scale(${1 + Math.sin(lt * 7 + +st.dataset.i) * .04})`));
+    // "+1 sello" flotante
+    const last = stampAt.filter((a) => lt >= a).pop();
+    if (last !== undefined && lt - last < .7 && !full) {
+      $("plus6").textContent = "+1 sello";
+      set("plus6", { y: 260 - P(lt, last, last + .7) * 80, o: 1 - P(lt, last + .35, last + .7) });
+    } else $("plus6").style.opacity = 0;
+    const g = P(lt, 5.0, 5.5);
+    set("gift", { s: back(g) * (1 + Math.sin(lt * 6) * .03 * (g >= 1)), o: clamp(g * 3), r: Math.sin(lt * 5) * 6 * (g >= 1) });
+    pop("prize", lt, 5.3, .45);
+    confetti.forEach((c, i) => {
+      const tt = lt - 5.0;
+      if (tt < 0) { c.el.style.opacity = 0; return; }
+      const x = 540 + c.vx * tt, y = 1150 + c.vy * tt + 900 * tt * tt;
+      c.el.style.opacity = clamp(1.6 - tt * .6);
+      c.el.style.transform = `translate(${x}px,${y}px) rotate(${c.rot + tt * 400}deg)`;
+    });
+  },
+  s7(lt) {
+    const dashOut = eio(P(lt, 3.7, 4.2));
+    pop("dash", lt, 0, .5);
+    if (lt > 3.7) set("dash", { x: -dashOut * 1100, o: 1 - dashOut });
+    rows.forEach((_, k) => pop("r7" + k, lt, .5 + k * .3, .4, 40));
+    const press = P(lt, 3.3, 3.55);
+    $("send7").style.transform = `scale(${1 - Math.sin(press * Math.PI) * .06})`;
+    const ph = eo(P(lt, 3.8, 4.4));
+    set("ph7", { x: (1 - ph) * 1100, o: ph, rx: 4, ry: -30 * (1 - ph) + Math.sin(lt * .8) * 6 });
+    const nt = P(lt, 4.6, 5.1);
+    set("notif", { y: (1 - back(nt)) * -260, o: clamp(nt * 3) });
+    pop("sms7", lt, 7.0, .45);
+  },
+  s8(lt) {
+    pop("kpi", lt, 0, .5);
+    const v = Math.round(eio(P(lt, .4, 2.6)) * 3240);
+    $("money").textContent = "$" + v.toLocaleString("es-MX");
+    $("money").style.transform = `scale(${1 + Math.sin(P(lt, 2.6, 2.9) * Math.PI) * .08})`;
+    pop("eq", lt, 3.3, .5);
+    const st = P(lt, 5.0, 5.25);
+    set("stamp8", { s: 2.2 - 1.2 * eo(st), r: -8, o: clamp(st * 4) });
+  },
+  s9(lt) {
+    const k = P(lt, 0, .7);
+    set("key9", { s: back(k), r: (1 - eo(k)) * -180, o: clamp(k * 3) });
+    pop("logo9", lt, .25, .5);
+    pop("tl1", lt, .8, .5); pop("tl2", lt, 1.3, .5);
+    const c = P(lt, 2.2, 2.65);
+    set("cta", { s: (.85 + .15 * back(c)) * (1 + Math.sin(Math.max(0, lt - 2.7) * 4) * .025), o: clamp(c * 3), y: (1 - eo(c)) * 50 });
+    pop("url", lt, 2.8, .4); pop("nocc", lt, 3.1, .4);
+  },
+};
+window.renderAt(0);
+</script>
+</body>
+</html>

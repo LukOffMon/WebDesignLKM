@@ -47,6 +47,12 @@
       if (saved) return location.replace(`tarjeta.html?s=${encodeURIComponent(saved)}`);
       try {
         const { merchant } = await MK.api(`/public/m/${encodeURIComponent(slug)}`);
+        if (!merchant.accepting) {
+          $("loading").classList.add("hidden");
+          $("notfound").querySelector("h1").textContent = `${merchant.name} no está entregando tarjetas por ahora`;
+          $("notfound").querySelector("p").textContent = "Pregunta en el negocio cuándo vuelve a estar disponible.";
+          return $("notfound").classList.remove("hidden");
+        }
         document.title = `Tarjeta de ${merchant.name}`;
         $("mname").textContent = merchant.name;
         $("mreward").textContent = merchant.reward_text.toLowerCase();

@@ -4,6 +4,7 @@
 import postgres from "npm:postgres@3.4.5";
 import { appleConfig, buildPkpass, isInactive, pushPassUpdate } from "./apple.ts";
 import * as google from "./google.ts";
+import { accountState, contactWhatsapp, handleAdmin, isBlocked, PLANS } from "./admin.ts";
 import type { Customer, Merchant, Session } from "./types.ts";
 import {
   CORS_HEADERS,
@@ -27,10 +28,10 @@ const PUBLIC_BASE = `${Deno.env.get("SUPABASE_URL")}/functions/v1/mrkey`;
 const DAY = 86_400_000;
 
 const MERCHANT_PUBLIC_COLS = sql`id, slug, name, vertical, logo_png, icon_png, color_bg, color_fg, color_accent,
-  reward_text, stamps_required, address, lat, lng`;
+  reward_text, stamps_required, address, lat, lng, status, pending_since, paid_until`;
 const MERCHANT_COLS = sql`id, slug, name, owner_email, vertical, logo_png, icon_png, color_bg, color_fg, color_accent,
   reward_text, stamps_required, ticket_avg::float8 as ticket_avg, inactive_days, stamp_cooldown_min, lat, lng, address,
-  plan, trial_ends_at, created_at, staff_pin_hash is not null as has_staff_pin`;
+  plan, trial_ends_at, created_at, staff_pin_hash is not null as has_staff_pin, status, pending_since, paid_until, approved_at`;
 
 // deno-lint-ignore no-explicit-any
 const runtime = (globalThis as any).EdgeRuntime;
@@ -56,6 +57,18 @@ async function requireSession(req: Request, role?: "owner"): Promise<Session> {
     where token_hash = ${await sha256Hex(token)} and expires_at > now()`;
   if (!s) throw new HttpError(401, "Tu sesión expiró. Vuelve a entrar.");
   if (role === "owner" && s.role !== "owner") throw new HttpError(403, "Solo el dueño del negocio puede hacer esto.");
+  return s;
+}
+
+// Igual que requireSession, pero rechaza negocios con membresía cancelada o vencida.
+async function requireActive(req: Request, role?: "owner"): Promise<Session> {
+  const s = await requireSession(req, role);
+  const [m] = await sql`select status, pending_since, paid_until from mk_merchants where id = ${s.merchant_id}`;
+  if (m && isBlocked(m as never)) {
+    throw new HttpError(402, accountState(m as never).state === "cancelled"
+      ? "La membresía de este negocio está cancelada. Contáctanos para reactivarla."
+      : "La membresía de este negocio venció. Renueva tu plan para seguir usando Mr Key.");
+  }
   return s;
 }
 
@@ -218,6 +231,14 @@ async function dashboard(s: Session) {
   return {
     merchant: m,
     role: s.role,
+    account: {
+      ...accountState(m),
+      status: m.status,
+      plan: m.plan,
+      plan_name: PLANS[m.plan]?.name ?? null,
+      paid_until: m.paid_until,
+      contact_whatsapp: await contactWhatsapp(sql),
+    },
     stats: {
       ...stats,
       ...ev,
@@ -363,12 +384,14 @@ async function listCampaigns(s: Session) {
 async function publicMerchant(slug: string) {
   const [m] = await sql`select ${MERCHANT_PUBLIC_COLS} from mk_merchants where slug = ${slug}`;
   if (!m) throw new HttpError(404, "Este negocio no existe.");
-  return { merchant: m };
+  const { status, pending_since, paid_until, ...pub } = m;
+  return { merchant: { ...pub, accepting: !isBlocked({ status, pending_since, paid_until }) } };
 }
 
 async function join(slug: string, body: Record<string, unknown>) {
-  const [m] = await sql<Merchant[]>`select id from mk_merchants where slug = ${slug}`;
+  const [m] = await sql<Merchant[]>`select id, status, pending_since, paid_until from mk_merchants where slug = ${slug}`;
   if (!m) throw new HttpError(404, "Este negocio no existe.");
+  if (isBlocked(m)) throw new HttpError(403, "Este negocio no está entregando tarjetas por ahora.");
   const name = str(body.name, "nombre", { min: 2, max: 60 });
   const phone = normalizePhone(body.phone);
   const email = optStr(body.email, "correo", 120);
@@ -541,13 +564,14 @@ async function route(req: Request): Promise<Response> {
     return json({ ok: true });
   }
   if (r === "me" && method === "GET") return json(await dashboard(await requireSession(req)));
-  if (r === "merchant" && method === "PUT") return json(await updateMerchant(await requireSession(req, "owner"), await body()));
-  if (r === "customers" && method === "GET") return json(await listCustomers(await requireSession(req, "owner"), url));
-  if (r === "lookup" && method === "GET") return json(await lookup(await requireSession(req), url));
-  if (r === "stamp" && method === "POST") return json(await stamp(await requireSession(req), await body()));
-  if (r === "redeem" && method === "POST") return json(await redeem(await requireSession(req), await body()));
-  if (r === "campaigns" && method === "GET") return json(await listCampaigns(await requireSession(req, "owner")));
-  if (r === "campaigns" && method === "POST") return json(await campaign(await requireSession(req, "owner"), await body()));
+  if (r === "merchant" && method === "PUT") return json(await updateMerchant(await requireActive(req, "owner"), await body()));
+  if (r === "customers" && method === "GET") return json(await listCustomers(await requireActive(req, "owner"), url));
+  if (r === "lookup" && method === "GET") return json(await lookup(await requireActive(req), url));
+  if (r === "stamp" && method === "POST") return json(await stamp(await requireActive(req), await body()));
+  if (r === "redeem" && method === "POST") return json(await redeem(await requireActive(req), await body()));
+  if (r === "campaigns" && method === "GET") return json(await listCampaigns(await requireActive(req, "owner")));
+  if (r === "campaigns" && method === "POST") return json(await campaign(await requireActive(req, "owner"), await body()));
+  if (parts[1] === "admin") return handleAdmin(sql, req, parts);
 
   // Público
   if (parts[1] === "public") {
