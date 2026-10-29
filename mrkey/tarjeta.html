@@ -76,6 +76,7 @@
         MK.toast(c.rewards_available > last.card.rewards_available ? "¡Ganaste tu premio!" : "Sello agregado");
         if (navigator.vibrate) navigator.vibrate([60, 40, 60]);
       }
+      MK.applyPageTheme(m);
       MK.renderCard($("card"), m, c, { popIndex: pop });
 
       $("rewardBanner").classList.toggle("hidden", c.rewards_available < 1);

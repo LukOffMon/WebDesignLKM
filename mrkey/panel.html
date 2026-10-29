@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/styles.css" />
+  <script>try{var t=localStorage.getItem("mk_theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
   <style>
     .poster { display: none; }
     @media print {
@@ -26,7 +27,7 @@
 <body>
   <!-- ===== Acceso ===== -->
   <section id="authView" class="hidden">
-    <header class="topbar"><div class="wrap"><a class="logo-mk" href="./">Mr <b>Key</b></a></div></header>
+    <header class="topbar"><div class="wrap"><a class="logo-mk" href="./">Mr <b>Key</b></a><div data-theme-picker></div></div></header>
     <main class="narrow stack">
       <div class="chips" style="margin-top:12px">
         <button class="chip on" data-auth="signup" type="button">Crear cuenta</button>
@@ -72,7 +73,8 @@
     <header class="topbar">
       <div class="wrap">
         <a class="logo-mk" href="./">Mr <b>Key</b></a>
-        <div class="row">
+        <div class="row" style="gap:4px">
+          <div data-theme-picker></div>
           <a class="btn sm gold" href="sellar.html">Sellar</a>
           <button class="btn sm ghost" id="logoutBtn" type="button">Salir</button>
         </div>
@@ -160,20 +162,49 @@
       <!-- Mi tarjeta -->
       <section data-view="card" class="hidden">
         <div class="split">
-          <form id="cardForm" class="stack">
-            <h2 style="font-size:1.8rem">Diseña tu tarjeta</h2>
-            <div class="card-box stack">
+          <form id="cardForm" class="stack designer">
+            <div class="row">
+              <h2 class="grow" style="font-size:1.8rem">Diseña tu tarjeta</h2>
+              <button class="btn sm" type="button" id="tourBtn">Ver tutorial</button>
+            </div>
+            <div class="card-box stack" id="dzThemes">
+              <h3>1. Elige un tema</h3>
+              <p class="mute small">Cada tema trae colores, sello, fondo y letra pensados para un giro. Después puedes cambiar lo que quieras.</p>
+              <div class="theme-grid" id="themeGrid"></div>
+            </div>
+            <div class="card-box stack" id="dzBrand">
+              <h3>2. Tu marca</h3>
               <label class="field"><span>Nombre del negocio</span><input name="name" maxlength="60" required /></label>
-              <label class="field"><span>Logo (PNG o JPG, horizontal de preferencia)</span><input type="file" accept="image/*" id="logoFile" /></label>
-              <button class="btn sm ghost danger hidden" type="button" id="removeLogo">Quitar logo</button>
+              <div id="logoBox"></div>
               <div class="grid3">
                 <label class="field"><span>Fondo</span><input type="color" name="color_bg" /></label>
                 <label class="field"><span>Texto</span><input type="color" name="color_fg" /></label>
-                <label class="field"><span>Acento</span><input type="color" name="color_accent" /></label>
+                <label class="field"><span>Sellos</span><input type="color" name="color_accent" /></label>
               </div>
             </div>
-            <div class="card-box stack">
-              <b>Programa de recompensas</b>
+            <div class="card-box stack" id="dzStamp">
+              <h3>3. Tus sellos</h3>
+              <p class="small" style="font-weight:600">Ícono</p>
+              <div class="icon-grid" id="iconGrid" role="group" aria-label="Ícono del sello"></div>
+              <p class="small" style="font-weight:600">Estilo</p>
+              <div class="opt-row" data-opt="stamp" role="group" aria-label="Estilo del sello"></div>
+            </div>
+            <div class="card-box stack" id="dzLook">
+              <h3>4. Fondo y letra</h3>
+              <p class="small" style="font-weight:600">Fondo</p>
+              <div class="opt-row" data-opt="pattern" role="group" aria-label="Fondo de la tarjeta"></div>
+              <p class="small" style="font-weight:600">Letra</p>
+              <div class="opt-row" data-opt="font" role="group" aria-label="Letra de la tarjeta"></div>
+              <p class="small" style="font-weight:600">Esquinas</p>
+              <div class="opt-row" data-opt="corners" role="group" aria-label="Esquinas de la tarjeta"></div>
+            </div>
+            <div class="card-box stack" id="dzPage">
+              <h3>5. La página de tus clientes</h3>
+              <p class="mute small">Es la página donde tus clientes se registran y ven su tarjeta.</p>
+              <div class="opt-row" data-opt="page" role="group" aria-label="Estilo de la página de tus clientes"></div>
+            </div>
+            <div class="card-box stack" id="dzReward">
+              <h3>6. Tu programa de recompensas</h3>
               <div class="grid2">
                 <label class="field"><span>Sellos para el premio</span><input type="number" name="stamps_required" min="3" max="20" required /></label>
                 <label class="field"><span>Premio</span><input name="reward_text" maxlength="60" required /></label>
@@ -184,9 +215,16 @@
               </div>
               <label class="field"><span>Minutos mínimos entre sellos del mismo cliente (antifraude)</span><input type="number" name="stamp_cooldown_min" min="0" max="1440" required /></label>
             </div>
-            <div class="card-box stack">
-              <b>Ubicación del local</b>
-              <p class="mute small">Sirve para las alertas por cercanía: a los clientes inactivos, el iPhone les sugiere la tarjeta en la pantalla de bloqueo cuando pasan cerca de tu local.</p>
+            <div class="card-box stack" id="dzNear">
+              <h3>7. Recordatorio cuando pasen cerca</h3>
+              <p class="mute small">En iPhone con Apple Wallet, tu tarjeta le aparece al cliente en la pantalla de bloqueo cuando pasa cerca de tu local. Mr Key nunca ve la ubicación de tus clientes.</p>
+              <label class="field"><span>¿A quién recordarle?</span>
+                <select name="nearby">
+                  <option value="all">A todos mis clientes</option>
+                  <option value="inactive">Solo a los que dejaron de venir</option>
+                  <option value="off">A nadie</option>
+                </select>
+              </label>
               <label class="field"><span>Dirección</span><input name="address" maxlength="160" placeholder="Calle, número, colonia" /></label>
               <div class="grid2">
                 <label class="field"><span>Latitud</span><input name="lat" inputmode="decimal" /></label>
@@ -195,12 +233,13 @@
               <button class="btn sm" type="button" id="geoBtn">Usar mi ubicación actual (estando en el local)</button>
             </div>
             <div class="alert hidden" data-err></div>
-            <button class="btn gold block" type="submit">Guardar cambios</button>
+            <button class="btn gold block" type="submit" id="saveCard">Guardar mi tarjeta</button>
           </form>
-          <div class="sticky stack">
+          <div class="sticky stack" id="dzPreview">
             <p class="eyebrow">Vista previa</p>
             <div id="cardPreview"></div>
-            <p class="mute small">Así se verá en la Wallet y en la tarjeta web de tus clientes.</p>
+            <button class="btn block" type="button" id="testStamp">Probar un sello</button>
+            <p class="mute small">Así se verá en la tarjeta web de tus clientes. En Wallet se usan tus colores, tu logo y tu premio.</p>
           </div>
         </div>
       </section>
@@ -334,6 +373,7 @@
       $("appView").classList.remove("hidden");
       renderAll();
       showTab(tab || location.hash.slice(1) || "home");
+      if (tab === "card" && !MK.store("mk_tour_done") && state.account?.state !== "cancelled" && state.account?.state !== "expired") setTimeout(startTour, 400);
     }
 
     // ---------- Pestañas ----------
@@ -542,12 +582,108 @@
     }
 
     // ---------- Mi tarjeta ----------
-    const cardFields = ["name", "color_bg", "color_fg", "color_accent", "stamps_required", "reward_text", "ticket_avg", "inactive_days", "stamp_cooldown_min", "address", "lat", "lng"];
+    const cardFields = ["name", "color_bg", "color_fg", "color_accent", "stamps_required", "reward_text", "ticket_avg", "inactive_days", "stamp_cooldown_min", "address", "lat", "lng", "nearby"];
+    const designOpts = { stamp: MK.STAMP_STYLES, pattern: MK.PATTERNS, font: MK.FONTS, corners: MK.CORNERS, page: MK.PAGES };
+    let design = { ...MK.DEFAULT_DESIGN };
+    let previewStamps = 3;
+    const canUseLogo = () => state.account?.state === "active" && !!state.merchant.paid_until;
+
+    function renderLogoBox() {
+      const m = state.merchant;
+      if (!canUseLogo()) {
+        const wa = waLink(`Hola, quiero activar mi plan de Mr Key para ${m.name} (código ${m.slug}) y subir mi logo.`);
+        $("logoBox").innerHTML = `<div class="locked">
+          <span class="lock"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></svg>Tu logo se activa con tu plan</span>
+          <p class="mute small">Mientras tanto tu tarjeta muestra el nombre de tu negocio con el tema que elijas. Al activar tu plan subes tu logo y aparece en la tarjeta y en Wallet.</p>
+          <div class="row">${wa ? `<a class="btn sm gold" href="${wa}" target="_blank" rel="noopener">Activar mi plan</a>` : ""}<a class="btn sm" href="./#precios" target="_blank">Ver planes</a></div>
+        </div>`;
+        return;
+      }
+      $("logoBox").innerHTML = `<label class="field"><span>Logo (PNG o JPG, de preferencia horizontal)</span><input type="file" accept="image/*" id="logoFile" /></label>
+        <button class="btn sm ghost danger${m.logo_png ? "" : " hidden"}" type="button" id="removeLogo">Quitar logo</button>`;
+      $("logoFile").addEventListener("change", async (ev) => {
+        const file = ev.target.files[0];
+        if (!file) return;
+        try {
+          pendingLogo = await MK.imageToPng(file, 480, 150);
+          $("removeLogo").classList.remove("hidden");
+          previewCard();
+        } catch (e) {
+          MK.toast(e.message);
+        }
+      });
+      $("removeLogo").addEventListener("click", () => {
+        pendingLogo = null;
+        $("logoFile").value = "";
+        $("removeLogo").classList.add("hidden");
+        previewCard();
+      });
+    }
+
+    function renderDesigner() {
+      $("themeGrid").innerHTML = MK.THEMES.map((t) => `<button type="button" class="theme-swatch" data-theme-id="${t.id}" aria-pressed="${design.theme === t.id}">
+        <span class="mini" style="background:${t.bg};color:${t.fg}"><i style="background:${t.acc}"></i><i style="background:${t.acc}"></i><i class="off"></i></span>
+        <b>${t.name}</b></button>`).join("");
+      $("iconGrid").innerHTML = Object.entries(MK.ICONS).map(([k, v]) =>
+        `<button type="button" class="icon-opt" data-icon="${k}" aria-pressed="${design.icon === k}" aria-label="${v.label}" title="${v.label}">${MK.iconSvg(k, 26)}</button>`).join("");
+      document.querySelectorAll("[data-opt]").forEach((row) => {
+        const key = row.dataset.opt;
+        row.innerHTML = Object.entries(designOpts[key]).map(([k, v]) =>
+          `<button type="button" class="chip" data-value="${k}" aria-pressed="${design[key] === k}">${v}</button>`).join("");
+      });
+    }
+    function syncPressed() {
+      document.querySelectorAll("[data-theme-id]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.themeId === design.theme)));
+      document.querySelectorAll("[data-icon]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.icon === design.icon)));
+      document.querySelectorAll("[data-opt]").forEach((row) => row.querySelectorAll("[data-value]").forEach((b) =>
+        b.setAttribute("aria-pressed", String(b.dataset.value === design[row.dataset.opt])))); 
+    }
+    function applyTheme(id) {
+      const t = MK.THEMES.find((x) => x.id === id);
+      if (!t) return;
+      const f = $("cardForm");
+      f.color_bg.value = t.bg;
+      f.color_fg.value = t.fg;
+      f.color_accent.value = t.acc;
+      design = { theme: t.id, icon: t.icon, stamp: t.stamp, pattern: t.pattern, font: t.font, corners: t.corners, page: t.page };
+      syncPressed();
+      previewCard();
+    }
+    $("themeGrid").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-theme-id]");
+      if (b) applyTheme(b.dataset.themeId);
+    });
+    $("iconGrid").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-icon]");
+      if (!b) return;
+      design = { ...design, icon: b.dataset.icon, theme: "propio" };
+      syncPressed();
+      previewCard();
+    });
+    document.querySelectorAll("[data-opt]").forEach((row) => row.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-value]");
+      if (!b) return;
+      design = { ...design, [row.dataset.opt]: b.dataset.value, theme: "propio" };
+      syncPressed();
+      previewCard();
+    }));
+
     function fillCardForm() {
       const f = $("cardForm"), m = state.merchant;
-      cardFields.forEach((k) => (f[k].value = m[k] ?? ""));
+      cardFields.forEach((k) => (f[k].value = m[k] ?? (k === "nearby" ? "inactive" : "")));
+      design = MK.designOf(m);
       pendingLogo = undefined;
-      $("removeLogo").classList.toggle("hidden", !m.logo_png);
+      renderLogoBox();
+      renderDesigner();
+      // Tema elegido en la portada antes de crear la cuenta.
+      const picked = MK.store("mk_pick_theme");
+      if (picked) {
+        MK.store("mk_pick_theme", null);
+        applyTheme(picked);
+        const icon = MK.store("mk_pick_icon");
+        MK.store("mk_pick_icon", null);
+        if (icon && MK.ICONS[icon]) { design = { ...design, icon }; syncPressed(); }
+      }
       previewCard();
     }
     function formMerchant() {
@@ -556,45 +692,39 @@
       cardFields.forEach((k) => (m[k] = f[k].value));
       m.stamps_required = Math.min(20, Math.max(3, Number(f.stamps_required.value) || 3));
       if (pendingLogo !== undefined) m.logo_png = pendingLogo;
+      if (!canUseLogo()) m.logo_png = null;
+      m.design = design;
       return m;
     }
-    function previewCard() {
+    function previewCard(pop = -1) {
       const m = formMerchant();
-      MK.renderCard($("cardPreview"), m, { name: "Cliente Ejemplo", serial: "EJEMPLO-MRKEY-0000000", stamps: Math.min(3, m.stamps_required - 1), rewards_available: 0 }, { qr: true });
+      previewStamps = Math.min(previewStamps, m.stamps_required);
+      const full = previewStamps >= m.stamps_required;
+      MK.renderCard($("cardPreview"), m, { name: "Cliente Ejemplo", serial: "EJEMPLO-MRKEY-0000000", stamps: previewStamps, rewards_available: full ? 1 : 0 }, { qr: true, popIndex: pop });
+      $("testStamp").textContent = full ? "Volver a empezar" : "Probar un sello";
     }
-    $("cardForm").addEventListener("input", previewCard);
-    $("logoFile").addEventListener("change", async (ev) => {
-      const file = ev.target.files[0];
-      if (!file) return;
-      try {
-        pendingLogo = await MK.imageToPng(file, 480, 150);
-        $("removeLogo").classList.remove("hidden");
-        previewCard();
-      } catch (e) {
-        MK.toast(e.message);
-      }
+    $("testStamp").addEventListener("click", () => {
+      const req = formMerchant().stamps_required;
+      if (previewStamps >= req) { previewStamps = 0; return previewCard(); }
+      previewStamps += 1;
+      previewCard(previewStamps - 1);
     });
-    $("removeLogo").addEventListener("click", () => {
-      pendingLogo = null;
-      $("logoFile").value = "";
-      $("removeLogo").classList.add("hidden");
-      previewCard();
-    });
+    $("cardForm").addEventListener("input", () => previewCard());
     $("geoBtn").addEventListener("click", () => {
       if (!navigator.geolocation) return MK.toast("Tu navegador no permite obtener la ubicación.");
       navigator.geolocation.getCurrentPosition((p) => {
         $("cardForm").lat.value = p.coords.latitude.toFixed(6);
         $("cardForm").lng.value = p.coords.longitude.toFixed(6);
-        MK.toast("Ubicación lista. Guarda los cambios.");
+        MK.toast("Ubicación lista. Guarda tu tarjeta.");
       }, () => MK.toast("No se pudo obtener la ubicación. Revisa los permisos."), { enableHighAccuracy: true, timeout: 10000 });
     });
     $("cardForm").addEventListener("submit", async (ev) => {
       ev.preventDefault();
-      const f = ev.target, btn = f.querySelector("button[type=submit]"), err = f.querySelector("[data-err]");
-      const body = {};
+      const f = ev.target, btn = $("saveCard"), err = f.querySelector("[data-err]");
+      const body = { design };
       cardFields.forEach((k) => (body[k] = f[k].value));
       ["stamps_required", "ticket_avg", "inactive_days", "stamp_cooldown_min"].forEach((k) => (body[k] = Number(body[k])));
-      if (pendingLogo !== undefined) {
+      if (pendingLogo !== undefined && canUseLogo()) {
         body.logo_png = pendingLogo;
         body.icon_png = null;
         if (pendingLogo) {
@@ -616,6 +746,21 @@
         btn.disabled = false;
       }
     });
+
+    // Tutorial: recorre el editor paso a paso y muestra cómo cambia la tarjeta.
+    function startTour() {
+      showTab("card");
+      MK.tour([
+        { el: "#dzThemes", title: "Empieza con un tema", text: "Toca el que más se parezca a tu negocio. Cambia colores, sello, fondo y letra de un solo golpe; mira la vista previa.", before: () => !design.theme && applyTheme(MK.THEMES[0].id) },
+        { el: "#dzBrand", title: "Pon tu marca", text: canUseLogo() ? "Escribe el nombre, sube tu logo y ajusta los colores si quieres otro tono." : "Escribe el nombre y ajusta los colores. Tu logo se activa cuando pagas tu plan." },
+        { el: "#dzStamp", title: "Elige tu sello", text: "El ícono que tus clientes juntan en cada visita: tijeras, taza, huella… y si se ve como sello de tinta, relleno o solo el contorno." },
+        { el: "#dzLook", title: "Dale estilo", text: "Un fondo con textura, el tipo de letra y las esquinas. Pequeños detalles que hacen que tu tarjeta no se parezca a otra." },
+        { el: "#dzPreview", title: "Pruébala", text: "Toca “Probar un sello” para ver cómo se llena tu tarjeta, igual que la verá tu cliente.", before: () => { previewStamps = Math.max(previewStamps, 1); } },
+        { el: "#dzReward", title: "Define el premio", text: "Cuántos sellos se necesitan y qué gana tu cliente. Ejemplo: 8 sellos = corte gratis." },
+        { el: "#saveCard", title: "Guarda", text: "Listo. Al guardar, la tarjeta de todos tus clientes se actualiza sola." },
+      ], { onEnd: () => MK.store("mk_tour_done", "1") });
+    }
+    $("tourBtn").addEventListener("click", startTour);
 
     // ---------- Mostrador ----------
     function renderCounter() {
@@ -650,6 +795,7 @@
       }
     });
 
+    document.querySelectorAll("[data-theme-picker]").forEach(MK.mountThemePicker);
     boot();
   </script>
 </body>

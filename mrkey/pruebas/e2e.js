@@ -11,7 +11,7 @@ const merchant = {
   color_bg: '#1b2a41', color_fg: '#ffffff', color_accent: '#f4b942', reward_text: 'Corte gratis',
   stamps_required: 8, ticket_avg: 180, inactive_days: 30, stamp_cooldown_min: 30,
   address: 'Av. Universidad 123, Aguascalientes', lat: '', lng: '', plan: 'trial',
-  status: 'active', plan: 'pro', has_staff_pin: true,
+  status: 'active', plan: 'pro', paid_until: new Date(Date.now() + 40 * day).toISOString(), has_staff_pin: true, design: {}, nearby: 'inactive',
 };
 let account = { state: 'active', status: 'active', plan: 'pro', plan_name: 'Pro', paid_until: new Date(Date.now() + 40 * day).toISOString(), contact_whatsapp: '4492094034' };
 const stats = { customers: 42, new_30d: 12, visits_30d: 96, inactive: 9, near_reward: 5, redeemed_30d: 7, recovered_revenue_30d: 4860, reactivated_30d: 27, rewards_pending: 3, opted_in: 30 };
@@ -29,6 +29,7 @@ const customers = [
 ];
 let card = { serial: 'CARD-0001-XYZ', name: 'Marco Pérez', stamps: 5, rewards_available: 0, message: 'Esta semana tu sello va doble.', total_visits: 9, last_visit_at: new Date(Date.now() - day).toISOString(), updated_at: '1' };
 let stampCalls = 0;
+let lastPut = null;
 
 const json = (route, data, status = 200) => route.fulfill({ status, contentType: 'application/json', headers: { 'access-control-allow-origin': '*' }, body: JSON.stringify(data) });
 async function mockApi(page) {
@@ -44,7 +45,7 @@ async function mockApi(page) {
     if (p === '/customers') return json(route, { customers: url.searchParams.get('filter') === 'inactive' ? customers.slice(0, 1) : customers, inactive_days: 30 });
     if (p === '/campaigns' && m === 'GET') return json(route, { campaigns: [{ message: '¡Te extrañamos! Ven esta semana.', segment: 'inactive', recipients: 9, created_at: new Date(Date.now() - 2 * day).toISOString() }] });
     if (p === '/campaigns') return json(route, { recipients: 9 });
-    if (p === '/merchant') { Object.assign(merchant, JSON.parse(req.postData() || '{}')); return json(route, { merchant }); }
+    if (p === '/merchant') { lastPut = JSON.parse(req.postData() || '{}'); Object.assign(merchant, lastPut); return json(route, { merchant }); }
     if (p === '/lookup') return json(route, { customer: customers[2], stamps_required: 8, reward_text: 'Corte gratis' });
     if (p === '/stamp') {
       stampCalls++;
@@ -113,6 +114,10 @@ async function audit(page, tag) {
     check(`${T} portada: preguntas se abren`, await p.locator('#preguntas details >> nth=1').evaluate((d) => d.open));
     const ld = await p.evaluate(() => [...document.querySelectorAll('script[type="application/ld+json"]')].map((s) => JSON.parse(s.textContent).length));
     check(`${T} portada: JSON-LD válido`, ld[0] === 3);
+    await p.click('#mkThemes [data-theme-id=veterinaria]');
+    await p.click('#mkIcons [data-icon=corona]');
+    check(`${T} portada: diseña la tuya`, await p.locator('#mkCard.loyalty.font-compacta').count() === 1 && await p.locator('#mkIcons [data-icon=corona][aria-pressed=true]').count() === 1);
+    await p.locator('#disena').screenshot({ path: `${OUT}/${T}-disena.png` });
     await audit(p, `${T} portada`);
     await p.evaluate(() => scrollTo(0, 0));
     await shot(p, 'portada');
@@ -127,15 +132,45 @@ async function audit(page, tag) {
     await p.fill('#signupForm [name=name]', 'Barbería Don Luis');
     await p.fill('#signupForm [name=email]', 'luis@ejemplo.com');
     await p.fill('#signupForm [name=password]', 'secreta123');
+    await p.evaluate(() => { localStorage.setItem('mk_pick_theme', 'cafe'); localStorage.setItem('mk_pick_icon', 'corazon'); });
     await p.click('#signupForm button[type=submit]');
     await p.waitForSelector('#appView:not(.hidden)');
     check(`${T} panel: registro abre "Mi tarjeta"`, await p.locator('[data-view=card]').isVisible());
+    check(`${T} panel: aplica el tema elegido en la portada`, await p.locator('[data-theme-id=cafe][aria-pressed=true]').count() === 1 && await p.locator('[data-icon=corazon][aria-pressed=true]').count() === 1);
+    await p.waitForSelector('.tour .tour-tip');
+    check(`${T} tutorial: arranca solo al crear la cuenta`, /Paso 1 de 7/.test(await p.textContent('.tour-count')));
+    await p.waitForTimeout(500);
+    await p.screenshot({ path: `${OUT}/${T}-tutorial-paso1.png` });
+    for (let k = 0; k < 4; k++) { await p.click('.tour [data-t=next]'); await p.waitForTimeout(150); }
+    check(`${T} tutorial: avanza a la vista previa`, /Pruébala/.test(await p.textContent('#tourTitle')));
+    await p.waitForTimeout(500);
+    await p.screenshot({ path: `${OUT}/${T}-tutorial-paso5.png` });
+    await p.click('.tour [data-t=prev]');
+    check(`${T} tutorial: regresa un paso`, /Paso 4 de 7/.test(await p.textContent('.tour-count')));
+    for (let k = 0; k < 4; k++) { await p.click('.tour [data-t=next]'); await p.waitForTimeout(100); }
+    check(`${T} tutorial: termina y no vuelve a salir`, (await p.locator('.tour').count()) === 0 && (await p.evaluate(() => localStorage.getItem('mk_tour_done'))) === '1');
+    await p.click('[data-theme-id=noche]');
+    check(`${T} editor: el tema cambia la tarjeta`, await p.locator('#cardPreview.loyalty.font-maquina.pat-cuadricula').count() === 1);
+    await p.click('[data-icon=tijeras]');
+    await p.click('[data-opt=stamp] [data-value=relleno]');
+    await p.click('#testStamp');
+    check(`${T} editor: probar un sello suma uno`, (await p.locator('#cardPreview .stamp.on').count()) === 4);
+    check(`${T} editor: logo disponible con plan pagado`, await p.locator('#logoFile').count() === 1);
+    await p.selectOption('#cardForm [name=nearby]', 'all');
     await p.fill('#cardForm [name=reward_text]', 'Corte y barba gratis');
     check(`${T} panel: vista previa se actualiza`, /Corte y barba gratis/.test(await p.textContent('#cardPreview')));
     await shot(p, 'panel-tarjeta');
     await p.click('#cardForm button[type=submit]');
     await p.waitForSelector('#toast.show');
     check(`${T} panel: guardar tarjeta`, /guardada/.test(await p.textContent('#toast')));
+    check(`${T} panel: guarda diseño y recordatorio`, lastPut && lastPut.design.theme === 'propio' && lastPut.design.icon === 'tijeras' && lastPut.design.stamp === 'relleno' && lastPut.nearby === 'all');
+    await p.click('#appView .topbar [data-theme-picker] summary');
+    await p.click('#appView .topbar [data-site-theme=oscuro]');
+    check(`${T} tema de la web: oscuro`, (await p.evaluate(() => document.documentElement.dataset.theme)) === 'oscuro' && (await p.evaluate(() => getComputedStyle(document.body).backgroundColor)) === 'rgb(18, 16, 31)');
+    await p.click('[data-tab=card]');
+    await shot(p, 'panel-tarjeta-oscuro');
+    await p.click('#appView .topbar [data-theme-picker] summary');
+    await p.click('#appView .topbar [data-site-theme=auto]');
     await p.click('[data-tab=home]');
     check(`${T} panel: indicadores`, (await p.locator('.kpi').count()) === 6 && /4,860/.test(await p.textContent('#kpis')));
     check(`${T} panel: gráfica de 14 días`, (await p.locator('#bars div').count()) === 14);
@@ -158,6 +193,14 @@ async function audit(page, tag) {
     check(`${T} panel: QR de alta`, (await p.locator('#joinQr svg').count()) === 1 && /unirse\.html\?m=barberia-don-luis/.test(await p.inputValue('#joinLink')));
     await audit(p, `${T} panel mostrador`);
     await shot(p, 'panel-mostrador');
+    account = { ...account, state: 'pending', status: 'pending', deletes_at: new Date(Date.now() + 6 * 3600000).toISOString() };
+    const paid = merchant.paid_until; merchant.paid_until = null;
+    await p.evaluate(() => { location.hash = 'card'; });
+    await p.reload({ waitUntil: 'networkidle' });
+    await p.waitForSelector('#logoBox .locked');
+    check(`${T} editor: logo bloqueado hasta pagar`, await p.locator('#logoFile').count() === 0 && /Activar mi plan/.test(await p.textContent('#logoBox')));
+    await shot(p, 'panel-logo-bloqueado');
+    account = { ...account, state: 'active', status: 'active' }; merchant.paid_until = paid;
     check(`${T} panel: sin errores JS`, p.errors.length === 0, p.errors.join(' | '));
     await p.close();
 
@@ -181,6 +224,8 @@ async function audit(page, tag) {
     check(`${T} tarjeta: llega desde unirse con bienvenida`, await p.locator('#welcome').isVisible());
     check(`${T} tarjeta: 5 sellos y mensaje del negocio`, (await p.locator('#card .stamp.on').count()) === 5 && await p.locator('#msgBanner').isVisible());
     check(`${T} tarjeta: QR del cliente`, (await p.locator('#card .qr svg').count()) === 1);
+    check(`${T} tarjeta: página con los colores del negocio`, await p.evaluate(() => document.documentElement.classList.contains('page-marca')) === (merchant.design && merchant.design.page === 'marca'));
+    check(`${T} tarjeta: usa el diseño del negocio`, await p.locator('#card.loyalty.font-maquina').count() === 1);
     await audit(p, `${T} tarjeta`);
     await shot(p, 'tarjeta');
     // El negocio sella: la tarjeta se actualiza sola
@@ -231,6 +276,14 @@ async function audit(page, tag) {
     await p.waitForFunction(() => /Premio canjeado/.test(document.getElementById('sheetBody').textContent));
     check(`${T} sellar: canjear premio`, true);
     check(`${T} sellar: sin errores JS`, p.errors.length === 0, p.errors.join(' | '));
+    await p.close();
+
+    // Llave maestra (solo la pantalla de acceso)
+    p = await newPage();
+    await p.goto(BASE + 'llave-maestra.html', { waitUntil: 'networkidle' });
+    await audit(p, `${T} llave maestra`);
+    await shot(p, 'llave-maestra');
+    check(`${T} llave maestra: sin errores JS`, p.errors.length === 0, p.errors.join(' | '));
     await p.close();
 
     // Aviso

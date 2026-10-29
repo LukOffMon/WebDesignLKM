@@ -59,6 +59,7 @@
         document.title = `Tarjeta de ${merchant.name}`;
         $("mname").textContent = merchant.name;
         $("mreward").textContent = merchant.reward_text.toLowerCase();
+        MK.applyPageTheme(merchant);
         MK.renderCard($("preview"), merchant, null, { qr: false });
         $("loading").classList.add("hidden");
         $("view").classList.remove("hidden");

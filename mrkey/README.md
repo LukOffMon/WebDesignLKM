@@ -37,6 +37,19 @@ Este proyecto está separado de los demás sitios del repo: todo vive dentro de 
 - **Base de datos:** Postgres de Supabase, tablas `mk_*` (ver `supabase/migrations`). RLS activo sin políticas: el navegador nunca toca la base directamente, todo pasa por la API.
 - **Seguridad:** contraseñas y PIN con PBKDF2; sesiones con token aleatorio (se guarda solo su hash); bloqueo de 15 min tras intentos fallidos; antifraude con minutos mínimos entre sellos del mismo cliente; el personal no ve clientes ni campañas.
 
+## Diseño de la tarjeta y temas
+
+- **Temas de tarjeta:** 10 temas listos (`MK.THEMES` en `assets/app.js`) que fijan colores, ícono del sello, estilo del sello (tinta, relleno o contorno), fondo, letra y esquinas. El negocio puede cambiar cada cosa por separado; se guarda en `mk_merchants.design` (JSON validado en `supabase/functions/mrkey/design.ts`).
+- **Página del cliente:** `unirse.html` y `tarjeta.html` se ven claras, oscuras o con los colores del negocio (`design.page`).
+- **Logo solo con plan pagado:** subir logo exige una cuenta activa aprobada en la llave maestra; el servidor lo rechaza en cuentas pendientes y no lo muestra (web, Apple ni Google) si el negocio nunca ha pagado. En el panel aparece bloqueado con un botón a tu WhatsApp.
+- **Tema de la web de Mr Key:** automático, claro, oscuro o alto contraste, con el selector "Tema" del encabezado (se guarda en el navegador).
+- **Tutorial interactivo:** recorre el editor paso a paso. Arranca solo la primera vez que alguien crea su cuenta y se puede repetir con "Ver tutorial".
+- **Diseña la tuya:** sección de la portada para probar temas y sellos; el panel abre con lo que eligió el visitante.
+
+## Recordatorio por cercanía
+
+Solo funciona con **Apple Wallet** (la web no puede saber dónde está el cliente y Google Wallet no lo permite así). Si el negocio guarda la ubicación de su local, el pase incluye esas coordenadas y el iPhone sugiere la tarjeta en la pantalla de bloqueo al pasar cerca. El negocio elige en *Mi tarjeta*: a todos sus clientes, solo a los inactivos o a nadie (`mk_merchants.nearby`). Una tarea diaria de `pg_cron` llama a `api/cron/inactive` para actualizar los pases de quienes acaban de volverse inactivos.
+
 ## Administración de cuentas (página oculta)
 
 `llave-maestra.html` no está enlazada en ningún lado y pide la clave de administrador (solo se guarda su hash en la base de datos). Ahí:
@@ -64,6 +77,8 @@ Hoy la tarjeta funciona como tarjeta web. Los botones de Wallet aparecen solos a
 Revisa el estado en `…/functions/v1/mrkey/api/health`.
 
 ## Desplegar cambios del backend
+
+Antes de desplegar la función, aplica las migraciones pendientes de `supabase/migrations` (la de diseño agrega `design`, `nearby` y la tarea diaria).
 
 ```bash
 supabase functions deploy mrkey --project-ref lsvyryanshcuysowlysp --no-verify-jwt

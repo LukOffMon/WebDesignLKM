@@ -15,12 +15,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/styles.css" />
+  <script>try{var t=localStorage.getItem("mk_theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
   <header class="topbar">
     <div class="wrap">
       <a class="logo-mk" href="./">Mr <b>Key</b></a>
-      <div class="row">
+      <div class="row" style="gap:4px">
+        <div data-theme-picker></div>
         <span id="who" class="pill hidden"></span>
         <button id="logout" class="btn sm ghost hidden" type="button">Salir</button>
       </div>
@@ -275,6 +277,7 @@
       }
     }
 
+    document.querySelectorAll("[data-theme-picker]").forEach(MK.mountThemePicker);
     boot();
   </script>
 </body>
