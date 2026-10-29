@@ -26,6 +26,8 @@ Este proyecto está separado de los demás sitios del repo: todo vive dentro de 
 | `tarjeta.html?s=<serial>` | Cliente | Tarjeta con sellos, QR, premios y mensajes; se actualiza sola |
 | `aviso.html` | Todos | Aviso de privacidad base |
 
+**SEO:** solo `index.html` y `aviso.html` se indexan; panel, sellar, unirse y tarjeta llevan `noindex`. La portada tiene Open Graph (`assets/og.png`, 1200×630), datos estructurados (Organization, SoftwareApplication con los 3 planes y FAQPage) y preguntas frecuentes. Si cambian precios o preguntas, actualiza también el JSON-LD de `index.html` y `llms.txt`. `sitemap.xml` se da de alta a mano en Google Search Console, porque en GitHub Pages el `robots.txt` solo funciona en la raíz del dominio. Contacto de ventas: WhatsApp 449 209 4034.
+
 ## Arquitectura
 
 - **Frontend:** HTML, CSS y JS sin build, servido por GitHub Pages. `assets/app.js` tiene la URL de la API.
