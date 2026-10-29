@@ -4,20 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Mr Key · Sellar</title>
-  <meta name="theme-color" content="#0b0b0c" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/png" href="assets/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <link rel="manifest" href="sellar.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/styles.css" />
+  <script>try{var t=localStorage.getItem("mk_theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
   <header class="topbar">
     <div class="wrap">
       <a class="logo-mk" href="./">Mr <b>Key</b></a>
-      <div class="row">
+      <div class="row" style="gap:4px">
+        <div data-theme-picker></div>
         <span id="who" class="pill hidden"></span>
         <button id="logout" class="btn sm ghost hidden" type="button">Salir</button>
       </div>
@@ -28,7 +33,7 @@
     <!-- Acceso del personal -->
     <section id="loginView" class="hidden stack">
       <p class="eyebrow" style="margin-top:12px">Modo mostrador</p>
-      <h1 style="font-size:2rem">Sella visitas en <em>segundos</em>.</h1>
+      <h1 style="font-size:2.2rem">Sella visitas en segundos.</h1>
       <p class="mute">Entra con el código del negocio y el PIN que te dio el dueño.</p>
       <form id="loginForm" class="card-box stack">
         <label class="field"><span>Código del negocio</span><input name="slug" autocapitalize="none" autocomplete="off" required placeholder="ej. barberia-don-luis" /></label>
@@ -208,11 +213,11 @@
     function showCustomer() {
       const c = current.customer, req = current.stamps_required;
       openSheet(`
-        <p class="eyebrow">Cliente</p>
+        
         <h2 id="sheetName" style="font-size:1.7rem">${MK.esc(c.name)}</h2>
         <div class="row">
           <span class="pill gold">${c.stamps} de ${req} sellos</span>
-          ${c.rewards_available ? `<span class="pill ok">🎁 ${c.rewards_available} premio(s)</span>` : ""}
+          ${c.rewards_available ? `<span class="pill ok">${c.rewards_available} premio(s)</span>` : ""}
           <span class="pill">Última visita: ${MK.ago(c.last_visit_at)}</span>
         </div>
         <button class="btn gold block" id="doStamp" style="min-height:60px;font-size:1.1rem">+1 sello</button>
@@ -230,7 +235,7 @@
         const r = await MK.api("/stamp", { method: "POST", token, body: { code: current.customer.serial, force } });
         if (r.cooldown) {
           openSheet(`
-            <div class="big-check">⏱️</div>
+            <div class="big-check wait" aria-hidden="true">!</div>
             <h2 style="font-size:1.5rem">Ya se selló hace ${r.minutes_ago} min</h2>
             <p class="mute">Para evitar sellos dobles, confirma que es una visita nueva.</p>
             <button class="btn gold block" id="force">Sí, es otra visita</button>
@@ -242,10 +247,10 @@
         if (navigator.vibrate) navigator.vibrate([80, 50, 80]);
         const c = r.customer;
         openSheet(`
-          <div class="big-check">${r.unlocked ? "🎁" : "✅"}</div>
+          <div class="big-check" aria-hidden="true">${MK.stampSvg(0)}</div>
           <h2 style="font-size:1.6rem">${r.unlocked ? "¡Premio desbloqueado!" : "Sello agregado"}</h2>
-          <p class="mute">${MK.esc(c.name)} · ${c.stamps} de ${r.stamps_required} sellos${c.rewards_available ? ` · ${c.rewards_available} premio(s) disponible(s)` : ""}</p>
-          ${r.reactivated ? `<div class="note">🔁 Cliente recuperado: llevaba tiempo sin venir.</div>` : ""}
+          <p class="mute">${MK.esc(c.name)} lleva ${c.stamps} de ${r.stamps_required} sellos.${c.rewards_available ? ` Tiene ${c.rewards_available} premio(s) por canjear.` : ""}</p>
+          ${r.reactivated ? `<div class="note">Cliente recuperado: llevaba tiempo sin venir.</div>` : ""}
           <button class="btn gold block" id="next">Siguiente cliente</button>`);
         $("next").onclick = closeSheet;
         setTimeout(() => $("sheet").classList.contains("open") && $("next") && closeSheet(), 4000);
@@ -261,7 +266,7 @@
       try {
         const r = await MK.api("/redeem", { method: "POST", token, body: { code: current.customer.serial } });
         openSheet(`
-          <div class="big-check">🎉</div>
+          <div class="big-check" aria-hidden="true">${MK.stampSvg(3)}</div>
           <h2 style="font-size:1.6rem">Premio canjeado</h2>
           <p class="mute">Entrega: <b style="color:var(--text)">${MK.esc(current.reward_text)}</b> a ${MK.esc(r.customer.name)}.</p>
           <button class="btn gold block" id="next">Listo</button>`);
@@ -272,6 +277,7 @@
       }
     }
 
+    document.querySelectorAll("[data-theme-picker]").forEach(MK.mountThemePicker);
     boot();
   </script>
 </body>

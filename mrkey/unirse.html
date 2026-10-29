@@ -4,10 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Tu tarjeta de lealtad</title>
-  <meta name="theme-color" content="#0b0b0c" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/png" href="assets/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
@@ -26,7 +29,7 @@
         <label class="field"><span>Tu nombre</span><input name="name" autocomplete="name" required maxlength="60" placeholder="Ej. Marco Pérez" /></label>
         <label class="field"><span>Tu celular</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="10 dígitos" /></label>
         <label class="field"><span>Correo (opcional)</span><input name="email" type="email" autocomplete="email" placeholder="tu@correo.com" /></label>
-        <label class="check"><input type="checkbox" name="marketing_opt_in" checked /> Quiero recibir recordatorios y promociones de este negocio en mi tarjeta. Puedo cancelarlo cuando quiera.</label>
+        <label class="check"><input type="checkbox" name="marketing_opt_in" /> Quiero recibir recordatorios y promociones de este negocio en mi tarjeta. Puedo cancelarlo cuando quiera.</label>
         <label class="check"><input type="checkbox" name="accept_terms" required /> <span>Acepto el <a href="aviso.html" target="_blank">aviso de privacidad</a>.</span></label>
         <div id="err" class="alert hidden"></div>
         <button class="btn gold block" type="submit">Obtener mi tarjeta</button>
@@ -56,6 +59,7 @@
         document.title = `Tarjeta de ${merchant.name}`;
         $("mname").textContent = merchant.name;
         $("mreward").textContent = merchant.reward_text.toLowerCase();
+        MK.applyPageTheme(merchant);
         MK.renderCard($("preview"), merchant, null, { qr: false });
         $("loading").classList.add("hidden");
         $("view").classList.remove("hidden");

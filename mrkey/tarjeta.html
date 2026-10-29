@@ -4,17 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Mi tarjeta</title>
-  <meta name="theme-color" content="#0b0b0c" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/png" href="assets/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/styles.css" />
   <style>
     .banner { border-radius: 16px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start; }
-    .banner.reward { background: linear-gradient(135deg, #d6b47a, #b8955a); color: #1a1408; }
-    .banner.msg { background: var(--panel); border: 1px solid var(--line); }
+    .banner.reward { background: var(--mark); color: var(--text); }
+    .banner.msg { background: var(--counter); }
     .banner .ico { font-size: 1.5rem; line-height: 1; }
   </style>
 </head>
@@ -26,10 +29,10 @@
       <p class="mute">El enlace no es válido o la tarjeta fue eliminada.</p>
     </div>
     <section id="view" class="hidden stack">
-      <div id="welcome" class="note hidden">✅ ¡Listo! Esta es tu tarjeta. Guárdala en tu Wallet para tenerla siempre a la mano.</div>
-      <div id="rewardBanner" class="banner reward hidden"><div class="ico">🎁</div><div><b id="rewardTitle"></b><div class="small">Muéstrale este código al personal para canjearlo.</div></div></div>
+      <div id="welcome" class="note hidden"><b>Listo, esta es tu tarjeta.</b> Guárdala en tu Wallet para tenerla siempre a la mano.</div>
+      <div id="rewardBanner" class="banner reward hidden"><div class="ico" aria-hidden="true">★</div><div><b id="rewardTitle"></b><div class="small">Muéstrale este código al personal para canjearlo.</div></div></div>
       <div id="card"></div>
-      <div id="msgBanner" class="banner msg hidden"><div class="ico">💬</div><div><div class="small mute" id="msgFrom"></div><b id="msgText"></b></div></div>
+      <div id="msgBanner" class="banner msg hidden"><div class="ico" aria-hidden="true">✉</div><div><div class="small mute" id="msgFrom"></div><b id="msgText"></b></div></div>
 
       <div class="stack" id="walletBox">
         <a id="appleBtn" class="wallet-btn hidden" href="#">
@@ -70,9 +73,10 @@
       let pop = -1;
       if (animate && last && (c.stamps > last.card.stamps || c.rewards_available > last.card.rewards_available)) {
         pop = c.stamps > last.card.stamps ? c.stamps - 1 : -1;
-        MK.toast(c.rewards_available > last.card.rewards_available ? "🎁 ¡Ganaste tu premio!" : "⭐ ¡Sello agregado!");
+        MK.toast(c.rewards_available > last.card.rewards_available ? "¡Ganaste tu premio!" : "Sello agregado");
         if (navigator.vibrate) navigator.vibrate([60, 40, 60]);
       }
+      MK.applyPageTheme(m);
       MK.renderCard($("card"), m, c, { popIndex: pop });
 
       $("rewardBanner").classList.toggle("hidden", c.rewards_available < 1);

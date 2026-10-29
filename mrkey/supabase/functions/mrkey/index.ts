@@ -5,6 +5,7 @@ import postgres from "npm:postgres@3.4.5";
 import { appleConfig, buildPkpass, isInactive, pushPassUpdate } from "./apple.ts";
 import * as google from "./google.ts";
 import { accountState, contactWhatsapp, handleAdmin, isBlocked, PLANS } from "./admin.ts";
+import { nearbyMode, sanitizeDesign } from "./design.ts";
 import type { Customer, Merchant, Session } from "./types.ts";
 import {
   CORS_HEADERS,
@@ -28,10 +29,11 @@ const PUBLIC_BASE = `${Deno.env.get("SUPABASE_URL")}/functions/v1/mrkey`;
 const DAY = 86_400_000;
 
 const MERCHANT_PUBLIC_COLS = sql`id, slug, name, vertical, logo_png, icon_png, color_bg, color_fg, color_accent,
-  reward_text, stamps_required, address, lat, lng, status, pending_since, paid_until`;
+  reward_text, stamps_required, address, lat, lng, design, status, pending_since, paid_until`;
 const MERCHANT_COLS = sql`id, slug, name, owner_email, vertical, logo_png, icon_png, color_bg, color_fg, color_accent,
   reward_text, stamps_required, ticket_avg::float8 as ticket_avg, inactive_days, stamp_cooldown_min, lat, lng, address,
-  plan, trial_ends_at, created_at, staff_pin_hash is not null as has_staff_pin, status, pending_since, paid_until, approved_at`;
+  plan, trial_ends_at, created_at, staff_pin_hash is not null as has_staff_pin, status, pending_since, paid_until, approved_at,
+  design, nearby`;
 
 // deno-lint-ignore no-explicit-any
 const runtime = (globalThis as any).EdgeRuntime;
@@ -97,6 +99,21 @@ async function notifyWallets(m: Merchant, customers: Customer[], message?: strin
 }
 
 const logoUrl = (m: Merchant) => `${PUBLIC_BASE}/api/public/m/${m.slug}/logo.png`;
+
+// El logo propio es parte del plan pagado: subirlo exige una cuenta activa (aprobada en la llave maestra)
+// y solo se muestra a los clientes si el negocio ya pagó alguna vez.
+const hasPaid = (m: { paid_until: string | null }) => m.paid_until !== null;
+function withPaidBranding<T extends { paid_until: string | null; logo_png: string | null; icon_png?: string | null }>(m: T): T {
+  return hasPaid(m) ? m : { ...m, logo_png: null, icon_png: null };
+}
+
+// Manda la versión nueva del pase de Apple Wallet a todos los clientes del negocio que lo tienen guardado.
+async function refreshAllPasses(m: Merchant) {
+  const customers = await sql<Customer[]>`update mk_customers c set updated_at = now()
+    where c.merchant_id = ${m.id} and exists (select 1 from mk_apple_registrations r where r.serial = c.serial)
+    returning c.*`;
+  await notifyWallets(m, customers);
+}
 
 // ---------- Cuenta del comerciante ----------
 
@@ -180,7 +197,14 @@ async function updateMerchant(s: Session, body: Record<string, unknown>) {
   if ("color_bg" in body) u.color_bg = hexColor(body.color_bg, "color de fondo");
   if ("color_fg" in body) u.color_fg = hexColor(body.color_fg, "color de texto");
   if ("color_accent" in body) u.color_accent = hexColor(body.color_accent, "color de acento");
-  if ("logo_png" in body) u.logo_png = pngDataUrl(body.logo_png, "logo", 300_000);
+  if ("logo_png" in body) {
+    u.logo_png = pngDataUrl(body.logo_png, "logo", 300_000);
+    if (u.logo_png && !(m.status === "active" && hasPaid(m))) {
+      throw new HttpError(402, "Tu logo se activa cuando pagas tu plan. Mientras tanto, elige un tema y tus colores.");
+    }
+  }
+  if ("design" in body) u.design = sanitizeDesign(body.design);
+  if ("nearby" in body) u.nearby = nearbyMode(body.nearby);
   if ("icon_png" in body) u.icon_png = pngDataUrl(body.icon_png, "icono", 100_000);
   if ("address" in body) u.address = optStr(body.address, "dirección", 160);
   if ("lat" in body || "lng" in body) {
@@ -197,10 +221,14 @@ async function updateMerchant(s: Session, body: Record<string, unknown>) {
     u.staff_pin_hash = await hashSecret(pin);
   }
   if (Object.keys(u).length === 0) return { merchant: m };
+  if (u.design) u.design = sql.json(u.design as Record<string, string>);
   await sql`update mk_merchants set ${sql(u)} where id = ${m.id}`;
   const updated = await getMerchant(m.id);
   const brandingChanged = ["name", "color_bg", "logo_png", "reward_text", "stamps_required"].some((k) => k in u);
   if (brandingChanged) background(google.updateClass(updated, logoUrl(updated)));
+  if (["lat", "lng", "nearby", "name", "color_bg", "color_fg", "color_accent", "logo_png", "reward_text", "stamps_required"].some((k) => k in u)) {
+    background(refreshAllPasses(updated));
+  }
   return { merchant: updated };
 }
 
@@ -384,8 +412,8 @@ async function listCampaigns(s: Session) {
 async function publicMerchant(slug: string) {
   const [m] = await sql`select ${MERCHANT_PUBLIC_COLS} from mk_merchants where slug = ${slug}`;
   if (!m) throw new HttpError(404, "Este negocio no existe.");
-  const { status, pending_since, paid_until, ...pub } = m;
-  return { merchant: { ...pub, accepting: !isBlocked({ status, pending_since, paid_until }) } };
+  const { status, pending_since, paid_until, ...pub } = withPaidBranding(m as never) as Record<string, unknown>;
+  return { merchant: { ...pub, accepting: !isBlocked({ status, pending_since, paid_until } as never) } };
 }
 
 async function join(slug: string, body: Record<string, unknown>) {
@@ -421,7 +449,8 @@ async function publicCard(serial: string) {
     merchant: {
       slug: m.slug,
       name: m.name,
-      logo_png: m.logo_png,
+      logo_png: hasPaid(m) ? m.logo_png : null,
+      design: m.design ?? {},
       color_bg: m.color_bg,
       color_fg: m.color_fg,
       color_accent: m.color_accent,
@@ -452,7 +481,7 @@ async function pkpassResponse(serial: string, ifModifiedSince?: string | null): 
   if (ifModifiedSince && new Date(ifModifiedSince) >= lastModified) {
     return new Response(null, { status: 304, headers: CORS_HEADERS });
   }
-  const file = await buildPkpass(m, c, `${PUBLIC_BASE}/apple`);
+  const file = await buildPkpass(withPaidBranding(m), c, `${PUBLIC_BASE}/apple`);
   return new Response(file as BodyInit, {
     headers: {
       ...CORS_HEADERS,
@@ -471,8 +500,8 @@ async function googleSave(serial: string, origin: string | null) {
 }
 
 async function logoPng(slug: string): Promise<Response> {
-  const [m] = await sql`select logo_png, icon_png from mk_merchants where slug = ${slug}`;
-  const data = m?.logo_png ?? m?.icon_png;
+  const [m] = await sql`select logo_png, icon_png, paid_until from mk_merchants where slug = ${slug}`;
+  const data = m && hasPaid(m as never) ? m.logo_png ?? m.icon_png : null;
   if (!data) {
     const { DEFAULT_ICON_PNG_B64 } = await import("./assets.ts");
     return new Response(Uint8Array.from(atob(DEFAULT_ICON_PNG_B64), (ch) => ch.charCodeAt(0)), {
@@ -483,6 +512,29 @@ async function logoPng(slug: string): Promise<Response> {
   return new Response(Uint8Array.from(bin, (ch) => ch.charCodeAt(0)), {
     headers: { ...CORS_HEADERS, "Content-Type": "image/png", "Cache-Control": "public, max-age=300" },
   });
+}
+
+// ---------- Tarea diaria (pg_cron) ----------
+
+// Los clientes que se volvieron inactivos en el último día reciben su pase actualizado,
+// que ahora incluye la ubicación del local para el recordatorio por cercanía.
+async function cronInactive(req: Request) {
+  const [s] = await sql`select value from mk_settings where key = 'cron_secret'`;
+  if (!s?.value || req.headers.get("x-cron-secret") !== s.value) throw new HttpError(401, "No autorizado.");
+  if (!appleConfig().enabled) return { ok: true, refreshed: 0 };
+  const merchants = await sql<Merchant[]>`select ${MERCHANT_COLS} from mk_merchants
+    where nearby = 'inactive' and lat is not null and lng is not null and status = 'active'`;
+  let refreshed = 0;
+  for (const m of merchants) {
+    const customers = await sql<Customer[]>`update mk_customers c set updated_at = now()
+      where c.merchant_id = ${m.id}
+        and c.last_visit_at between now() - make_interval(days => ${m.inactive_days + 1}) and now() - make_interval(days => ${m.inactive_days})
+        and exists (select 1 from mk_apple_registrations r where r.serial = c.serial)
+      returning c.*`;
+    refreshed += customers.length;
+    await notifyWallets(m, customers);
+  }
+  return { ok: true, refreshed };
 }
 
 // ---------- Servicio web de PassKit (lo llama el iPhone) ----------
@@ -572,6 +624,7 @@ async function route(req: Request): Promise<Response> {
   if (r === "campaigns" && method === "GET") return json(await listCampaigns(await requireActive(req, "owner")));
   if (r === "campaigns" && method === "POST") return json(await campaign(await requireActive(req, "owner"), await body()));
   if (parts[1] === "admin") return handleAdmin(sql, req, parts);
+  if (r === "cron/inactive" && method === "POST") return json(await cronInactive(req));
 
   // Público
   if (parts[1] === "public") {

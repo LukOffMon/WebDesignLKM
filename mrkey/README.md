@@ -27,6 +27,8 @@ Este proyecto está separado de los demás sitios del repo: todo vive dentro de 
 | `aviso.html` | Todos | Aviso de privacidad base |
 | `llave-maestra.html` | Tú (admin) | Aprobar cuentas, registrar pagos, cancelar membresías |
 
+**SEO:** solo `index.html` y `aviso.html` se indexan; panel, sellar, unirse, tarjeta y llave maestra llevan `noindex`. La portada tiene Open Graph (`assets/og.png`, 1200×630), datos estructurados (Organization, SoftwareApplication con los 3 planes y FAQPage) y preguntas frecuentes. Si cambian precios o preguntas, actualiza también el JSON-LD de `index.html` y `llms.txt`. `sitemap.xml` se da de alta a mano en Google Search Console, porque en GitHub Pages el `robots.txt` solo funciona en la raíz del dominio. Contacto de ventas: WhatsApp 449 209 4034 y officiallukamon@gmail.com.
+
 ## Arquitectura
 
 - **Frontend:** HTML, CSS y JS sin build, servido por GitHub Pages. `assets/app.js` tiene la URL de la API.
@@ -34,6 +36,19 @@ Este proyecto está separado de los demás sitios del repo: todo vive dentro de 
   `https://lsvyryanshcuysowlysp.supabase.co/functions/v1/mrkey`.
 - **Base de datos:** Postgres de Supabase, tablas `mk_*` (ver `supabase/migrations`). RLS activo sin políticas: el navegador nunca toca la base directamente, todo pasa por la API.
 - **Seguridad:** contraseñas y PIN con PBKDF2; sesiones con token aleatorio (se guarda solo su hash); bloqueo de 15 min tras intentos fallidos; antifraude con minutos mínimos entre sellos del mismo cliente; el personal no ve clientes ni campañas.
+
+## Diseño de la tarjeta y temas
+
+- **Temas de tarjeta:** 10 temas listos (`MK.THEMES` en `assets/app.js`) que fijan colores, ícono del sello, estilo del sello (tinta, relleno o contorno), fondo, letra y esquinas. El negocio puede cambiar cada cosa por separado; se guarda en `mk_merchants.design` (JSON validado en `supabase/functions/mrkey/design.ts`).
+- **Página del cliente:** `unirse.html` y `tarjeta.html` se ven claras, oscuras o con los colores del negocio (`design.page`).
+- **Logo solo con plan pagado:** subir logo exige una cuenta activa aprobada en la llave maestra; el servidor lo rechaza en cuentas pendientes y no lo muestra (web, Apple ni Google) si el negocio nunca ha pagado. En el panel aparece bloqueado con un botón a tu WhatsApp.
+- **Tema de la web de Mr Key:** automático, claro, oscuro o alto contraste, con el selector "Tema" del encabezado (se guarda en el navegador).
+- **Tutorial interactivo:** recorre el editor paso a paso. Arranca solo la primera vez que alguien crea su cuenta y se puede repetir con "Ver tutorial".
+- **Diseña la tuya:** sección de la portada para probar temas y sellos; el panel abre con lo que eligió el visitante.
+
+## Recordatorio por cercanía
+
+Solo funciona con **Apple Wallet** (la web no puede saber dónde está el cliente y Google Wallet no lo permite así). Si el negocio guarda la ubicación de su local, el pase incluye esas coordenadas y el iPhone sugiere la tarjeta en la pantalla de bloqueo al pasar cerca. El negocio elige en *Mi tarjeta*: a todos sus clientes, solo a los inactivos o a nadie (`mk_merchants.nearby`). Una tarea diaria de `pg_cron` llama a `api/cron/inactive` para actualizar los pases de quienes acaban de volverse inactivos.
 
 ## Administración de cuentas (página oculta)
 
@@ -63,11 +78,24 @@ Revisa el estado en `…/functions/v1/mrkey/api/health`.
 
 ## Desplegar cambios del backend
 
+Antes de desplegar la función, aplica las migraciones pendientes de `supabase/migrations` (la de diseño agrega `design`, `nearby` y la tarea diaria).
+
 ```bash
 supabase functions deploy mrkey --project-ref lsvyryanshcuysowlysp --no-verify-jwt
 ```
 
 (`--no-verify-jwt` porque la API maneja su propia autenticación.)
+
+## Pruebas
+
+`pruebas/e2e.js` recorre todas las páginas en Chromium con la API simulada (no toca la base de datos real): portada y demo de sellos, registro y pestañas del panel, alta del cliente, tarjeta que se actualiza sola, sellado con antifraude y canje. También revisa desbordamiento horizontal, áreas táctiles y errores de JavaScript en celular y escritorio.
+
+```bash
+python3 -m http.server 8000        # desde la raíz del repo
+node mrkey/pruebas/e2e.js /tmp/capturas
+```
+
+Requiere Playwright (`npm i -D playwright`). Usa `MRKEY_URL` para probar otra dirección.
 
 ## Pendiente
 

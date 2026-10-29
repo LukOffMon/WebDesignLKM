@@ -19,6 +19,8 @@ export type Merchant = {
   address: string | null;
   plan: string;
   trial_ends_at: string;
+  design: Record<string, string> | null;
+  nearby: string;
   created_at: string;
   status: string;
   pending_since: string;
