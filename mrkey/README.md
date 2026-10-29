@@ -27,6 +27,8 @@ Este proyecto está separado de los demás sitios del repo: todo vive dentro de 
 | `aviso.html` | Todos | Aviso de privacidad base |
 | `llave-maestra.html` | Tú (admin) | Aprobar cuentas, registrar pagos, cancelar membresías |
 
+**SEO:** solo `index.html` y `aviso.html` se indexan; panel, sellar, unirse, tarjeta y llave maestra llevan `noindex`. La portada tiene Open Graph (`assets/og.png`, 1200×630), datos estructurados (Organization, SoftwareApplication con los 3 planes y FAQPage) y preguntas frecuentes. Si cambian precios o preguntas, actualiza también el JSON-LD de `index.html` y `llms.txt`. `sitemap.xml` se da de alta a mano en Google Search Console, porque en GitHub Pages el `robots.txt` solo funciona en la raíz del dominio. Contacto de ventas: WhatsApp 449 209 4034 y officiallukamon@gmail.com.
+
 ## Arquitectura
 
 - **Frontend:** HTML, CSS y JS sin build, servido por GitHub Pages. `assets/app.js` tiene la URL de la API.
@@ -68,6 +70,17 @@ supabase functions deploy mrkey --project-ref lsvyryanshcuysowlysp --no-verify-j
 ```
 
 (`--no-verify-jwt` porque la API maneja su propia autenticación.)
+
+## Pruebas
+
+`pruebas/e2e.js` recorre todas las páginas en Chromium con la API simulada (no toca la base de datos real): portada y demo de sellos, registro y pestañas del panel, alta del cliente, tarjeta que se actualiza sola, sellado con antifraude y canje. También revisa desbordamiento horizontal, áreas táctiles y errores de JavaScript en celular y escritorio.
+
+```bash
+python3 -m http.server 8000        # desde la raíz del repo
+node mrkey/pruebas/e2e.js /tmp/capturas
+```
+
+Requiere Playwright (`npm i -D playwright`). Usa `MRKEY_URL` para probar otra dirección.
 
 ## Pendiente
 

@@ -66,8 +66,29 @@
 
   const money = (n) => new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 }).format(n || 0);
 
+  // Sello de goma: aro doble y estrella, con borde irregular de tinta y un giro distinto en cada casilla.
+  function ensureInkFilter() {
+    if (document.getElementById("mk-ink")) return;
+    const defs = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    defs.setAttribute("width", "0");
+    defs.setAttribute("height", "0");
+    defs.setAttribute("aria-hidden", "true");
+    defs.style.position = "absolute";
+    defs.innerHTML = `<filter id="mk-ink" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"/></filter>`;
+    document.body.appendChild(defs);
+  }
+  function stampSvg(i) {
+    const turn = ((i * 47) % 31) - 15;
+    return `<svg viewBox="0 0 40 40" aria-hidden="true" style="transform:rotate(${turn}deg)"><g filter="url(#mk-ink)" fill="none" stroke="currentColor">
+      <circle cx="20" cy="20" r="17" stroke-width="2.6"/><circle cx="20" cy="20" r="13" stroke-width="1.1" stroke-dasharray="2 1.6"/>
+      <path d="M20 11.5l2.5 5.3 5.8.7-4.3 4 1.1 5.7L20 24.4l-5.1 2.8 1.1-5.7-4.3-4 5.8-.7z" fill="currentColor" stroke="none"/></g></svg>`;
+  }
+
   // Dibuja la tarjeta de lealtad tal como se ve en Wallet.
   function renderCard(el, m, card, { qr = true, popIndex = -1 } = {}) {
+    ensureInkFilter();
     const total = m.stamps_required;
     const stamps = card ? card.stamps : 0;
     el.className = "loyalty";
@@ -78,7 +99,7 @@
     let dots = "";
     for (let i = 0; i < total; i++) {
       const on = i < stamps;
-      dots += `<div class="stamp${on ? " on" : ""}${i === popIndex ? " pop" : ""}">${on ? "★" : ""}</div>`;
+      dots += `<div class="stamp${on ? " on" : ""}${i === popIndex ? " pop" : ""}">${on ? stampSvg(i) : ""}</div>`;
     }
     const cols = total <= 6 ? total : total <= 10 ? 5 : 6;
     el.innerHTML = `
@@ -86,7 +107,7 @@
         <div class="brand">${brand}</div>
         <div class="right"><div class="lbl">Premios</div><div class="val">${card ? card.rewards_available : 0}</div></div>
       </div>
-      <div class="stamps" style="grid-template-columns:repeat(${cols},1fr)">${dots}</div>
+      <div class="stamps" style="grid-template-columns:repeat(${cols},1fr)" role="img" aria-label="${stamps} de ${total} sellos">${dots}</div>
       <div class="meta">
         <div><div class="lbl">Recompensa</div><div class="val">${esc(m.reward_text)}</div></div>
         <div class="right"><div class="lbl">Sellos</div><div class="val">${stamps} de ${total}</div></div>
@@ -122,5 +143,5 @@
     });
   }
 
-  window.MK = { API, BASE, api, store, esc, qrSvg, toast, ago, money, renderCard, imageToPng };
+  window.MK = { API, BASE, api, store, esc, qrSvg, toast, ago, money, renderCard, imageToPng, stampSvg: (i) => (ensureInkFilter(), stampSvg(i)) };
 })();

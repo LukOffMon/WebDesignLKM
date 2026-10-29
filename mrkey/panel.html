@@ -4,15 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Mr Key · Panel</title>
-  <meta name="theme-color" content="#0b0b0c" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/png" href="assets/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/styles.css" />
   <style>
     .poster { display: none; }
     @media print {
-      .poster { display: flex !important; flex-direction: column; align-items: center; justify-content: center; text-align: center; height: 100vh; gap: 18px; font-family: Manrope, sans-serif; }
+      .poster { display: flex !important; flex-direction: column; align-items: center; justify-content: center; text-align: center; height: 100vh; gap: 18px; font-family: Archivo, sans-serif; }
       .poster h1 { font-size: 40pt; color: #000; }
       .poster p { font-size: 16pt; color: #333; }
       .poster .pq svg { width: 9cm; height: 9cm; }
@@ -30,7 +33,7 @@
         <button class="chip" data-auth="login" type="button">Ya tengo cuenta</button>
       </div>
       <form id="signupForm" class="stack">
-        <h1 style="font-size:2rem">Tu tarjeta de lealtad, <em>lista en 2 minutos</em>.</h1>
+        <h1 style="font-size:2.2rem">Tu tarjeta de lealtad, lista en 2 minutos.</h1>
         <p class="mute">Pruébalo gratis hoy: tu cuenta queda activa 12 horas para que la conozcas. Sin tarjeta de crédito.</p>
         <div class="card-box stack">
           <label class="field"><span>Nombre del negocio</span><input name="name" required maxlength="60" placeholder="Ej. Barbería Don Luis" /></label>
@@ -52,7 +55,7 @@
         </div>
       </form>
       <form id="loginForm" class="stack hidden">
-        <h1 style="font-size:2rem">Bienvenido de vuelta.</h1>
+        <h1 style="font-size:2.2rem">Qué bueno verte de nuevo.</h1>
         <div class="card-box stack">
           <label class="field"><span>Correo</span><input name="email" type="email" autocomplete="email" required /></label>
           <label class="field"><span>Contraseña</span><input name="password" type="password" autocomplete="current-password" required /></label>
@@ -100,7 +103,7 @@
         <div class="kpis" id="kpis"></div>
         <div class="split">
           <div class="card-box">
-            <div class="row"><b class="grow">Visitas selladas · últimos 14 días</b></div>
+            <div class="row"><b class="grow">Visitas selladas en los últimos 14 días</b></div>
             <div class="bars" id="bars"></div>
             <div class="bar-days" id="barDays"></div>
           </div>
@@ -115,7 +118,7 @@
       <section data-view="customers" class="stack hidden">
         <div class="row">
           <h2 class="grow" style="font-size:1.8rem">Clientes</h2>
-          <button class="btn sm" id="winbackBtn" type="button">💬 Recuperar inactivos</button>
+          <button class="btn sm" id="winbackBtn" type="button">Recuperar inactivos</button>
         </div>
         <div class="chips" id="custFilters">
           <button class="chip on" data-filter="all" type="button">Todos</button>
@@ -189,7 +192,7 @@
                 <label class="field"><span>Latitud</span><input name="lat" inputmode="decimal" /></label>
                 <label class="field"><span>Longitud</span><input name="lng" inputmode="decimal" /></label>
               </div>
-              <button class="btn sm" type="button" id="geoBtn">📍 Usar mi ubicación actual (estando en el local)</button>
+              <button class="btn sm" type="button" id="geoBtn">Usar mi ubicación actual (estando en el local)</button>
             </div>
             <div class="alert hidden" data-err></div>
             <button class="btn gold block" type="submit">Guardar cambios</button>
@@ -215,7 +218,7 @@
                 <button class="btn sm" type="button" id="copyJoin">Copiar</button>
               </div>
               <div class="row">
-                <button class="btn gold" type="button" onclick="window.print()">🖨️ Imprimir cartel</button>
+                <button class="btn gold" type="button" onclick="window.print()">Imprimir cartel</button>
                 <a class="btn" id="openJoin" target="_blank">Probar como cliente</a>
               </div>
             </div>
@@ -241,7 +244,7 @@
           </div>
           <div class="card-box center stack">
             <p class="eyebrow">Tu QR de alta</p>
-            <div id="joinQr" style="background:#fff;border-radius:16px;padding:16px;display:inline-block"></div>
+            <div id="joinQr" style="background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:16px;display:inline-block"></div>
             <p class="mute small">Escanéalo con la cámara de tu teléfono para probar.</p>
           </div>
         </div>
@@ -250,9 +253,8 @@
   </section>
 
   <!-- Membresía bloqueada -->
-  <div id="blocked" class="hidden" style="position:fixed;inset:0;z-index:45;background:rgba(11,11,12,.96);display:grid;place-items:center;padding:24px">
+  <div id="blocked" class="hidden" style="position:fixed;inset:0;z-index:45;background:var(--paper);display:grid;place-items:center;padding:24px">
     <div class="narrow stack center">
-      <div style="font-size:3rem">🔒</div>
       <h1 style="font-size:2rem" id="blockedTitle"></h1>
       <p class="mute" id="blockedText"></p>
       <a class="btn gold block hidden" id="blockedWa" target="_blank" rel="noopener">Hablar por WhatsApp para renovar</a>
@@ -266,7 +268,7 @@
     <p>Escanea y obtén tu tarjeta de lealtad en el celular</p>
     <div class="pq" id="posterQr"></div>
     <p id="posterReward"></p>
-    <p style="font-size:10pt;color:#888">Sin descargar apps · Tarjeta creada con Mr Key</p>
+    <p style="font-size:10pt;color:#888">Sin descargar apps. Tarjeta creada con Mr Key.</p>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
@@ -369,12 +371,12 @@
       // KPIs
       const k = (label, n, cls = "", extra = "") => `<div class="kpi ${cls}"><div class="eyebrow">${label}</div><div class="n ${cls ? "gold" : ""}">${n}</div>${extra}</div>`;
       $("kpis").innerHTML = [
-        k("Ingresos recuperados · 30 días", MK.money(s.recovered_revenue_30d), "hl", `<p class="mute small">${s.reactivated_30d} clientes inactivos volvieron</p>`),
+        k("Ingresos recuperados en 30 días", MK.money(s.recovered_revenue_30d), "hl", `<p class="mute small">${s.reactivated_30d} clientes inactivos volvieron</p>`),
         k("Clientes", s.customers, "", `<p class="mute small">+${s.new_30d} este mes</p>`),
-        k("Visitas · 30 días", s.visits_30d),
+        k("Visitas en 30 días", s.visits_30d),
         k("Inactivos", s.inactive, "", `<p class="mute small">más de ${m.inactive_days} días sin venir</p>`),
         k("A 1 sello del premio", s.near_reward),
-        k("Premios canjeados · 30 días", s.redeemed_30d),
+        k("Premios canjeados en 30 días", s.redeemed_30d),
       ].join("");
 
       // Gráfica
@@ -411,22 +413,22 @@
       const askText = `Hola, quiero activar Mr Key para ${m.name} (código ${m.slug}).`;
       $("blocked").classList.add("hidden");
       if (a.state === "pending") {
-        $("trialInfo").textContent = `Cuenta de prueba · se borra en ${timeLeft(a.deletes_at)}`;
+        $("trialInfo").textContent = `Cuenta de prueba: se borra en ${timeLeft(a.deletes_at)}`;
         const wa = waLink(askText);
         box.className = "card-box stack";
-        box.style.borderColor = "rgba(251,191,36,.5)";
-        box.innerHTML = `<b>⏳ Tu cuenta de prueba se borra en <span id="acctLeft">${timeLeft(a.deletes_at)}</span> si no se activa.</b>
+        box.style.borderColor = "var(--warn)";
+        box.innerHTML = `<b>Tu cuenta de prueba se borra en <span id="acctLeft">${timeLeft(a.deletes_at)}</span> si no se activa.</b>
           <p class="mute small">Para quedarte con Mr Key (y con tus clientes), paga tu plan por transferencia o en efectivo y envía tu comprobante. Te activamos el mismo día.</p>
           <div class="row">${wa ? `<a class="btn gold sm" href="${wa}" target="_blank" rel="noopener">Activar por WhatsApp</a>` : ""}<a class="btn sm" href="./#precios" target="_blank">Ver planes</a></div>`;
         return;
       }
       if (a.state === "active") {
         const days = Math.ceil((new Date(a.paid_until) - Date.now()) / 86400000);
-        $("trialInfo").textContent = `Plan ${a.plan_name} · activo hasta el ${fecha(a.paid_until)}`;
+        $("trialInfo").textContent = `Plan ${a.plan_name}, activo hasta el ${fecha(a.paid_until)}`;
         if (days <= 5) {
           const wa = waLink(`Hola, quiero renovar Mr Key para ${m.name} (código ${m.slug}).`);
           box.className = "card-box stack";
-          box.style.borderColor = "rgba(251,191,36,.5)";
+          box.style.borderColor = "var(--warn)";
           box.innerHTML = `<b>${days > 0 ? `Tu plan vence en ${days} día(s).` : "Tu plan venció."} Renueva para no perder el acceso.</b>
             ${wa ? `<div><a class="btn gold sm" href="${wa}" target="_blank" rel="noopener">Renovar por WhatsApp</a></div>` : ""}`;
         } else box.className = "hidden";
@@ -445,7 +447,7 @@
     setInterval(() => {
       if (state?.account?.state === "pending" && $("acctLeft")) {
         $("acctLeft").textContent = timeLeft(state.account.deletes_at);
-        $("trialInfo").textContent = `Cuenta de prueba · se borra en ${timeLeft(state.account.deletes_at)}`;
+        $("trialInfo").textContent = `Cuenta de prueba: se borra en ${timeLeft(state.account.deletes_at)}`;
       }
     }, 30000);
 
@@ -478,7 +480,7 @@
           : `${customers.length} cliente(s)`;
         $("custList").innerHTML = customers.length ? customers.map((c) => {
           const inactive = c.last_visit_at && c.days_since > inactive_days;
-          const status = c.rewards_available ? `<span class="pill ok">🎁 ${c.rewards_available}</span>`
+          const status = c.rewards_available ? `<span class="pill ok">${c.rewards_available} premio(s)</span>`
             : inactive ? `<span class="pill bad">${c.days_since} días sin venir</span>`
             : !c.last_visit_at ? `<span class="pill">Sin visitas</span>`
             : `<span class="pill">${MK.ago(c.last_visit_at)}</span>`;
