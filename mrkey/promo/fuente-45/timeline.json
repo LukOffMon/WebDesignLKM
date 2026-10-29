@@ -1,0 +1,79 @@
+{
+ "scenes": [
+  {
+   "id": "s1",
+   "start": 0.6,
+   "dur": 3.733,
+   "vo": 3.48,
+   "voStart": 0.68,
+   "text": "¿Cuántos clientes vinieron una vez… y no volvieron?"
+  },
+  {
+   "id": "s2",
+   "start": 4.333,
+   "dur": 4.765,
+   "vo": 4.512,
+   "voStart": 4.413,
+   "text": "La tarjeta de papel se pierde. Y nadie quiere otra app."
+  },
+  {
+   "id": "s3",
+   "start": 9.098,
+   "dur": 2.825,
+   "vo": 1.872,
+   "voStart": 9.178,
+   "text": "Conoce Mr Key."
+  },
+  {
+   "id": "s4",
+   "start": 11.923,
+   "dur": 6.301,
+   "vo": 6.048,
+   "voStart": 12.003,
+   "text": "Tu tarjeta de sellos, en el celular de tu cliente. Escanea el QR, y listo."
+  },
+  {
+   "id": "s5",
+   "start": 18.224,
+   "dur": 4.789,
+   "vo": 4.536,
+   "voStart": 18.304,
+   "text": "Cobras, sellas desde tu teléfono… y el sello aparece al instante."
+  },
+  {
+   "id": "s6",
+   "start": 23.013,
+   "dur": 4.309,
+   "vo": 4.056,
+   "voStart": 23.093,
+   "text": "Hazla tuya: diez temas, tu sello, tus colores."
+  },
+  {
+   "id": "s7",
+   "start": 27.322,
+   "dur": 6.493,
+   "vo": 6.24,
+   "voStart": 27.402,
+   "text": "Te dice quién dejó de venir, y le mandas una promo a su tarjeta. Sin pagar SMS."
+  },
+  {
+   "id": "s8",
+   "start": 33.815,
+   "dur": 3.589,
+   "vo": 3.336,
+   "voStart": 33.895,
+   "text": "Con dos clientes que regresen, se paga solo."
+  },
+  {
+   "id": "s9",
+   "start": 37.404,
+   "dur": 7.596,
+   "vo": 5.64,
+   "voStart": 37.484,
+   "text": "Mr Key. La tarjeta que nadie pierde. Pruébala gratis hoy."
+  }
+ ],
+ "total": 45.0,
+ "fps": 30,
+ "bpm": 124
+}

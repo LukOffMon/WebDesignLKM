@@ -1,0 +1,9 @@
+# Archivos generados al producir el video
+vo/
+prev/
+*.wav
+*.f32
+*.mid
+*.mp4
+render.log
+sfx.json

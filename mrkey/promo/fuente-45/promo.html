@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8" />
+<title>Mr Key · video 45 s</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../../assets/styles.css" />
+<style>
+  html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #fff; }
+  #stage { position: absolute; inset: 0; overflow: hidden; background: var(--paper); transform-origin: 50% 50%; }
+  .scene { position: absolute; inset: 0; opacity: 0; }
+  .abs { position: absolute; }
+  .center { left: 0; right: 0; text-align: center; }
+  .dots { position: absolute; inset: -200px; background-image: radial-gradient(rgba(25, 21, 48, .07) 2.4px, transparent 2.6px); background-size: 34px 34px; }
+  .grain { position: absolute; inset: 0; pointer-events: none; opacity: .09; mix-blend-mode: multiply; z-index: 50; }
+  .vignette { position: absolute; inset: 0; pointer-events: none; z-index: 49; background: radial-gradient(ellipse at 50% 45%, transparent 55%, rgba(25, 21, 48, .12) 100%); }
+
+  .h { font-weight: 800; font-variation-settings: "wdth" 125; letter-spacing: -.04em; line-height: .95; color: var(--text); }
+  .h .ln { display: block; overflow: hidden; padding: .04em .08em .1em; margin: -.04em -.08em -.1em; }
+  .h .ln > span { display: inline-block; will-change: transform; }
+  .sub { font-weight: 600; font-size: 46px; color: var(--mute); line-height: 1.25; }
+  .ink { color: var(--ink); }
+  .mark { background: linear-gradient(transparent 58%, var(--mark) 58%, var(--mark) 92%, transparent 92%); background-size: var(--mk, 0%) 100%; background-repeat: no-repeat; }
+
+  /* Tarjetas grandes */
+  .card-wrap { position: absolute; left: 50%; width: 820px; margin-left: -410px; will-change: transform; }
+  .card-wrap .loyalty { padding: 40px; border-radius: 40px; box-shadow: 0 50px 90px -30px rgba(25, 21, 48, .55); }
+  .card-wrap .loyalty .brand { font-size: 46px; }
+  .card-wrap .loyalty .lbl { font-size: 24px; }
+  .card-wrap .loyalty .val { font-size: 36px; }
+  .card-wrap .loyalty .stamps { gap: 22px; margin: 36px 0; }
+  .card-wrap .loyalty .top { min-height: 80px; }
+  .card-wrap .loyalty.corners-rectas { border-radius: 12px; }
+
+  /* Tarjeta de papel */
+  .paper { position: absolute; width: 640px; height: 380px; left: 220px; top: 760px; background: #e9dcc3; border-radius: 10px;
+    box-shadow: 0 30px 60px -20px rgba(60, 40, 10, .45); padding: 36px; font-family: Georgia, serif; color: #5b4630; }
+  .paper h4 { margin: 0; font-size: 44px; }
+  .paper .row8 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 30px; }
+  .paper .row8 i { aspect-ratio: 1; border-radius: 50%; border: 3px dashed rgba(91, 70, 48, .45); display: grid; place-items: center; font-style: normal; font-size: 46px; color: #9b2c2c; }
+  .stain { position: absolute; border-radius: 50%; background: rgba(120, 80, 30, .22); filter: blur(4px); }
+
+  /* Teléfono */
+  .phone { position: absolute; width: 560px; height: 1140px; left: 50%; margin-left: -280px; border-radius: 86px; background: #15121f; padding: 22px;
+    box-shadow: 0 60px 120px -30px rgba(25, 21, 48, .6), inset 0 0 0 3px #2c2840; will-change: transform; }
+  .phone .screen { position: absolute; inset: 22px; border-radius: 66px; overflow: hidden; background: #fff; }
+  .phone .notch { position: absolute; top: 34px; left: 50%; width: 170px; height: 46px; margin-left: -85px; border-radius: 30px; background: #000; z-index: 5; }
+  .phone .screen .pad { position: absolute; inset: 120px 30px 40px; }
+  .phone .loyalty { padding: 24px; border-radius: 26px; }
+  .phone .loyalty .brand { font-size: 28px; }
+  .phone .loyalty .stamps { gap: 12px; margin: 20px 0; }
+  .phone .loyalty .lbl { font-size: 15px; }
+  .phone .loyalty .val { font-size: 22px; }
+  .phone .loyalty .qr svg { width: 220px; height: 220px; }
+
+  .appstore { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; }
+  .appstore .ic { width: 190px; height: 190px; border-radius: 46px; margin: 0 auto 26px; background: linear-gradient(135deg, #9aa0b4, #c9ccd8); }
+  .appstore b { display: block; font-size: 40px; }
+  .appstore .bar { margin: 36px auto 0; width: 380px; height: 22px; border-radius: 11px; background: #e4e4ec; overflow: hidden; }
+  .appstore .bar i { display: block; height: 100%; width: 0; background: #9aa0b4; }
+  .appstore .dl { margin-top: 26px; font-size: 32px; color: #8d899f; font-weight: 600; }
+
+  .big-stamp { position: absolute; color: var(--ink); will-change: transform, opacity; }
+  .big-stamp svg { width: 100%; height: 100%; display: block; }
+  .stamp-word { position: absolute; border: 10px solid var(--bad); color: var(--bad); font-weight: 800; font-variation-settings: "wdth" 125; font-size: 120px;
+    padding: 6px 34px; border-radius: 22px; letter-spacing: -.02em; filter: url(#mk-ink); will-change: transform, opacity; }
+
+  .logo-big { position: absolute; left: 0; right: 0; top: 760px; text-align: center; }
+  .logo-big .ring { width: 300px; height: 300px; margin: 0 auto 40px; border-radius: 50%; border: 52px solid var(--ink); box-shadow: inset 0 0 0 32px #fff, inset 0 0 0 140px var(--ink); filter: url(#mk-ink); }
+  .logo-big .word { font-weight: 800; font-variation-settings: "wdth" 125; font-size: 170px; letter-spacing: -.05em; line-height: 1; }
+  .splash { position: absolute; left: 50%; top: 910px; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; border: 6px solid var(--ink); opacity: 0; }
+
+  .qr-poster { position: absolute; width: 420px; padding: 34px; background: #fff; border-radius: 30px; box-shadow: 0 30px 70px -24px rgba(25, 21, 48, .45); text-align: center; }
+  .qr-poster b { display: block; font-size: 38px; font-variation-settings: "wdth" 115; margin-bottom: 18px; }
+  .qr-poster svg { width: 100%; height: auto; display: block; }
+  .cam { position: absolute; inset: 0; background: radial-gradient(circle at 50% 45%, #3a3550, #0d0b1a 75%); }
+  .camqr { position: absolute; left: 50%; top: 42%; width: 300px; margin: -150px 0 0 -150px; padding: 18px; background: #fff; border-radius: 12px; filter: blur(1.5px); opacity: .85; transform: rotate(-6deg); }
+  .camqr svg { width: 100%; height: auto; display: block; }
+  .camframe { position: absolute; left: 50%; top: 42%; width: 380px; height: 380px; margin: -190px 0 0 -190px; border: 8px solid #fff; border-radius: 40px; }
+  .scanline { position: absolute; left: 30px; right: 30px; height: 6px; border-radius: 3px; background: var(--ink); box-shadow: 0 0 30px 8px rgba(59, 35, 181, .45); }
+
+  .chipline { position: absolute; left: 0; right: 0; display: flex; justify-content: center; gap: 18px; }
+  .chipline span { font-size: 40px; font-weight: 700; padding: 16px 30px; border-radius: 999px; background: var(--counter); color: var(--text); }
+  .chipline span.on { background: var(--ink); color: #fff; }
+
+  .reward-strip { position: absolute; left: 130px; right: 130px; background: var(--mark); border-radius: 26px; padding: 30px; text-align: center; font-weight: 800; font-size: 54px; font-variation-settings: "wdth" 115; }
+  .confetti i { position: absolute; width: 22px; height: 34px; border-radius: 4px; }
+
+  .theme-name { position: absolute; left: 0; right: 0; text-align: center; font-weight: 700; font-size: 44px; color: var(--mute); }
+
+  .dash { position: absolute; left: 80px; right: 80px; background: #fff; border-radius: 40px; padding: 36px 40px; box-shadow: 0 40px 90px -30px rgba(25, 21, 48, .4); }
+  .dash .t { font-size: 34px; color: var(--mute); font-weight: 600; }
+  .dash .who { display: flex; align-items: center; justify-content: space-between; padding: 26px 0; border-bottom: 2px solid var(--line); font-size: 40px; font-weight: 700; }
+  .dash .who:last-child { border-bottom: 0; }
+  .dash .pill { font-size: 30px; padding: 10px 22px; }
+  .send { position: absolute; left: 80px; right: 80px; min-height: 120px; border-radius: 26px; font-size: 46px; }
+  .lock { position: absolute; inset: 0; background: linear-gradient(160deg, #241a5e, #3b23b5 60%, #6a4fe0); }
+  .lock .time { position: absolute; top: 170px; left: 0; right: 0; text-align: center; color: #fff; font-size: 150px; font-weight: 600; letter-spacing: -.02em; }
+  .lock .date { position: absolute; top: 140px; left: 0; right: 0; text-align: center; color: rgba(255, 255, 255, .8); font-size: 30px; font-weight: 600; }
+  .notif { position: absolute; left: 26px; right: 26px; top: 430px; background: rgba(255, 255, 255, .92); border-radius: 34px; padding: 26px; display: flex; gap: 20px; align-items: flex-start; font-size: 27px; line-height: 1.3; color: #191530; }
+  .notif .ico { width: 70px; height: 70px; border-radius: 18px; background: #1b2a41; color: #f4b942; display: grid; place-items: center; flex: none; }
+  .sms { position: absolute; font-weight: 800; font-size: 58px; color: var(--bad); font-variation-settings: "wdth" 115; }
+  .sms s { text-decoration-thickness: 8px; }
+
+  .money { position: absolute; left: 80px; right: 80px; background: var(--ink); color: #fff; border-radius: 48px; padding: 56px 60px; }
+  .money .lbl { font-size: 40px; opacity: .85; font-weight: 600; }
+  .money .n { font-size: 210px; font-weight: 800; font-variation-settings: "wdth" 115; letter-spacing: -.04em; line-height: 1; margin-top: 18px; font-variant-numeric: tabular-nums; }
+  .eq { position: absolute; left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 30px; font-weight: 800; font-variation-settings: "wdth" 125; font-size: 92px; letter-spacing: -.03em; }
+  .eq .p { width: 120px; height: 120px; border-radius: 50%; background: var(--counter); display: grid; place-items: center; }
+  .eq .p svg { width: 70px; height: 70px; color: var(--ink); }
+
+  .end-card { position: absolute; left: 0; right: 0; text-align: center; }
+  .cta { display: inline-flex; align-items: center; justify-content: center; min-height: 130px; padding: 0 70px; border-radius: 30px; background: var(--ink); color: #fff; font-weight: 800;
+    font-size: 58px; font-variation-settings: "wdth" 115; box-shadow: 0 10px 0 var(--ink-press); }
+  .wa { margin-top: 44px; font-size: 44px; font-weight: 700; color: var(--text); display: inline-flex; align-items: center; gap: 18px; }
+  .wa svg { width: 54px; height: 54px; color: #1f9d55; }
+  .flash { position: absolute; inset: 0; background: var(--ink); opacity: 0; z-index: 40; pointer-events: none; }
+  .wipe { position: absolute; inset: 0; background: var(--ink); z-index: 45; clip-path: circle(0% at 50% 50%); pointer-events: none; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="dots" id="dots"></div>
+
+  <!-- s1: el problema -->
+  <section class="scene" id="sc-s1">
+    <div class="h abs center" id="s1h" style="top:330px;font-size:118px">
+      <span class="ln"><span>¿Cuántos</span></span><span class="ln"><span>clientes vinieron</span></span><span class="ln"><span class="ink">una vez…</span></span>
+    </div>
+    <div class="card-wrap" id="s1card" style="top:930px"></div>
+    <div class="h abs center" id="s1h2" style="top:1730px;font-size:96px"><span class="ln"><span>y no volvieron?</span></span></div>
+  </section>
+
+  <!-- s2: papel y apps -->
+  <section class="scene" id="sc-s2">
+    <div class="h abs center" id="s2h" style="top:300px;font-size:104px"><span class="ln"><span>La tarjeta de papel</span></span><span class="ln"><span class="ink">se pierde.</span></span></div>
+    <div class="paper" id="s2paper"><h4>Barbería Don Luis</h4><div class="row8"><i>✓</i><i>✓</i><i>✓</i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="stain" style="width:180px;height:120px;left:380px;top:200px"></div><div class="stain" style="width:90px;height:70px;left:60px;top:250px"></div></div>
+    <div class="phone" id="s2phone" style="top:620px"><div class="notch"></div><div class="screen">
+      <div class="appstore"><div class="ic"></div><b>OtraApp de Puntos</b><span class="mute" style="font-size:30px">248 MB · Requiere registro</span>
+        <div class="bar"><i id="s2bar"></i></div><div class="dl" id="s2dl">Descargando…</div></div></div></div>
+    <div class="stamp-word" id="s2no" style="left:340px;top:1080px">NO</div>
+    <div class="h abs center" id="s2h2" style="top:1730px;font-size:72px"><span class="ln"><span>Y nadie quiere otra app.</span></span></div>
+  </section>
+
+  <!-- s3: logo -->
+  <section class="scene" id="sc-s3">
+    <div class="splash" id="sp1"></div><div class="splash" id="sp2"></div><div class="splash" id="sp3"></div>
+    <div class="h abs center" id="s3pre" style="top:520px;font-size:84px;color:var(--mute)"><span class="ln"><span>Conoce</span></span></div>
+    <div class="logo-big" id="s3logo"><div class="ring"></div><div class="word">Mr <span class="ink">Key</span></div></div>
+    <p class="sub abs center" id="s3sub" style="top:1420px">Tarjetas de lealtad digitales<br>para negocios locales</p>
+  </section>
+
+  <!-- s4: QR y tarjeta en el celular -->
+  <section class="scene" id="sc-s4">
+    <div class="h abs center" id="s4h" style="top:150px;font-size:92px"><span class="ln"><span>En el celular</span></span><span class="ln"><span class="ink">de tu cliente.</span></span></div>
+    <div class="qr-poster" id="s4poster" style="left:330px;top:620px"><b>Escanea y obtén<br>tu tarjeta</b><div id="s4qr"></div></div>
+    <div class="phone" id="s4phone" style="top:620px"><div class="notch"></div><div class="screen" id="s4screen">
+      <div class="cam" id="s4cam"><div class="camqr" id="s4camqr"></div><div class="camframe"></div></div><div class="pad"><div id="s4card"></div></div>
+      <div class="scanline" id="s4scan" style="top:300px"></div></div></div>
+    <div class="chipline" id="s4chips" style="top:1800px"><span>Sin descargar nada</span></div>
+  </section>
+
+  <!-- s5: sellar -->
+  <section class="scene" id="sc-s5">
+    <div class="h abs center" id="s5h" style="top:260px;font-size:110px"><span class="ln"><span>Cobras.</span></span><span class="ln"><span>Sellas.</span></span><span class="ln"><span class="ink">Al instante.</span></span></div>
+    <div class="card-wrap" id="s5card" style="top:760px"></div>
+    <div class="reward-strip" id="s5reward" style="top:1600px">¡Premio desbloqueado!</div>
+    <div class="confetti abs" id="s5conf" style="inset:0"></div>
+  </section>
+
+  <!-- s6: temas -->
+  <section class="scene" id="sc-s6">
+    <div class="h abs center" id="s6h" style="top:220px;font-size:118px"><span class="ln"><span>Hazla</span></span><span class="ln"><span class="ink mark" id="s6mark">tuya.</span></span></div>
+    <div class="card-wrap" id="s6card" style="top:720px"></div>
+    <div class="theme-name" id="s6name" style="top:1500px"></div>
+    <div class="chipline" id="s6chips" style="top:1610px"><span>10 temas</span><span>Tu sello</span><span>Tus colores</span></div>
+  </section>
+
+  <!-- s7: inactivos y campañas -->
+  <section class="scene" id="sc-s7">
+    <div class="h abs center" id="s7h" style="top:150px;font-size:88px"><span class="ln"><span>Sabes quién</span></span><span class="ln"><span class="ink">dejó de venir.</span></span></div>
+    <div class="dash" id="s7dash" style="top:470px">
+      <div class="t">Clientes inactivos</div>
+      <div class="who"><span>Jorge Ramírez</span><span class="pill bad">41 días sin venir</span></div>
+      <div class="who"><span>Ana Torres</span><span class="pill bad">33 días sin venir</span></div>
+      <div class="who"><span>Luis Medina</span><span class="pill bad">29 días sin venir</span></div>
+    </div>
+    <button class="btn gold send" id="s7send" style="top:1130px">Enviar promo</button>
+    <div class="phone" id="s7phone" style="top:520px"><div class="notch"></div><div class="screen"><div class="lock">
+      <div class="date">martes 4 de noviembre</div><div class="time">9:41</div>
+      <div class="notif" id="s7notif"><div class="ico"><svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6.5" r="2.8"/><circle cx="6" cy="17.5" r="2.8"/><path d="M20 4.5L8.3 15.5M14.4 13.6L20 19.5M8.3 8.5l3.4 3.2"/></svg></div>
+        <div><b>Barbería Don Luis</b><br>Jorge, te extrañamos. Ven esta semana y tu sello va doble.</div></div></div></div></div>
+    <div class="sms" id="s7sms" style="left:0;right:0;text-align:center;top:1720px"><s>SMS</s> Sin pagar mensajes</div>
+  </section>
+
+  <!-- s8: se paga solo -->
+  <section class="scene" id="sc-s8">
+    <div class="money" id="s8money" style="top:330px"><div class="lbl">Ingresos recuperados</div><div class="n" id="s8n">$0</div><div class="lbl" style="margin-top:16px" id="s8sub">clientes que volvieron</div></div>
+    <div class="eq" id="s8eq" style="top:1100px">
+      <span class="p"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/></svg></span>
+      <span class="p"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z"/></svg></span>
+      <span>=</span><span class="ink">se paga solo</span>
+    </div>
+    <p class="sub abs center" id="s8sub2" style="top:1340px">Con 2 clientes que regresen al mes.</p>
+  </section>
+
+  <!-- s9: cierre -->
+  <section class="scene" id="sc-s9">
+    <div class="card-wrap" id="s9card" style="top:150px;width:640px;margin-left:-320px"></div>
+    <div class="end-card" id="s9end" style="top:1010px">
+      <div class="logo-mk" style="font-size:110px;justify-content:center;display:flex">Mr <b>Key</b></div>
+      <div class="h" style="font-size:78px;margin-top:40px"><span class="ln"><span>La tarjeta de sellos</span></span><span class="ln"><span class="ink">que nadie pierde.</span></span></div>
+      <div style="margin-top:60px"><span class="cta" id="s9cta">Pruébala gratis hoy</span></div>
+      <div class="wa" id="s9wa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.4 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4z"/></svg>WhatsApp 449 209 4034</div>
+    </div>
+  </section>
+
+  <div class="flash" id="flash"></div>
+  <div class="wipe" id="wipe"></div>
+  <div class="vignette"></div>
+  <svg class="grain" width="1080" height="1920" aria-hidden="true"><filter id="gr"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" seed="3"/><feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .9 0"/></filter><rect width="100%" height="100%" filter="url(#gr)"/></svg>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+<script src="../../assets/app.js"></script>
+<script>
+const TL = window.TL;
+const S = Object.fromEntries(TL.scenes.map((s) => [s.id, s]));
+const $ = (id) => document.getElementById(id);
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const seg = (t, a, d) => clamp((t - a) / d);
+const outExpo = (x) => (x >= 1 ? 1 : 1 - Math.pow(2, -10 * x));
+const outBack = (x, s = 1.7) => 1 + (s + 1) * Math.pow(x - 1, 3) + s * Math.pow(x - 1, 2);
+const inOut = (x) => (x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+const outCubic = (x) => 1 - Math.pow(1 - x, 3);
+const lerp = (a, b, x) => a + (b - a) * x;
+
+// Tarjeta de demostración; solo se vuelve a dibujar cuando cambia algo.
+const cache = new Map();
+function card(host, theme, stamps, opts = {}) {
+  // renderCard reemplaza las clases del elemento, así que dibuja dentro de un hijo.
+  let el = host.firstElementChild;
+  if (!el) { el = document.createElement("div"); host.appendChild(el); }
+  const t = typeof theme === "string" ? MK.THEMES.find((x) => x.id === theme) : theme;
+  const key = JSON.stringify([t.id, stamps, opts]);
+  if (cache.get(el) === key) return;
+  cache.set(el, key);
+  const m = { name: opts.name || "Barbería Don Luis", logo_png: null, color_bg: t.bg, color_fg: t.fg, color_accent: t.acc, reward_text: opts.reward || "Corte gratis",
+    stamps_required: 8, design: { icon: t.icon, stamp: t.stamp, pattern: t.pattern, font: t.font, corners: t.corners } };
+  MK.renderCard(el, m, { name: opts.client || "Marco", serial: "MRKEY-DEMO-TARJETA-0001", stamps: Math.min(stamps, 8), rewards_available: stamps >= 8 ? 1 : 0 },
+    { qr: !!opts.qr, popIndex: opts.pop ?? -1 });
+}
+
+// Titulares: cada línea sube desde abajo, escalonada.
+function lines(el, lt, delay = 0, stagger = .09, dur = .55, out = null) {
+  el.querySelectorAll(".ln > span").forEach((s, i) => {
+    const p = outExpo(seg(lt, delay + i * stagger, dur));
+    let y = (1 - p) * 110;
+    if (out !== null) y -= outCubic(seg(lt, out + i * .05, .35)) * 110;
+    s.style.transform = `translateY(${y}%)`;
+  });
+}
+function show(el, o, tf = "") { el.style.opacity = o; el.style.transform = tf; }
+
+// Entrada y salida de cada escena (corte con barrido rápido).
+function sceneAlpha(id, t) {
+  const s = S[id], lt = t - s.start;
+  if (lt < -0.25 || lt > s.dur + 0.25) return null;
+  return lt;
+}
+
+const SFX = [];
+const sfx = (t, type, vol = 1) => SFX.push({ t: +t.toFixed(3), type, vol });
+
+// ---------- efectos de sonido (fijos, se leen desde mix.py) ----------
+(() => {
+  const s1 = S.s1.start, s2 = S.s2.start, s3 = S.s3.start, s4 = S.s4.start, s5 = S.s5.start, s6 = S.s6.start, s7 = S.s7.start, s8 = S.s8.start, s9 = S.s9.start;
+  sfx(s1 - .4, "riser", .6); sfx(s1 + .05, "thud", .8); sfx(s1 + .9, "whoosh", .5);
+  sfx(s1 + 1.6, "stamp", .9);
+  sfx(s2 - .15, "whoosh"); sfx(s2 + 1.4, "whoosh", .6); sfx(s2 + 2.5, "pop", .7); sfx(s2 + 3.25, "stamp", 1.3); sfx(s2 + 3.25, "buzz", .8);
+  sfx(s3 - .9, "riser"); sfx(s3 + .55, "boom"); sfx(s3 + .55, "stamp", 1.4); sfx(s3 + .6, "shimmer");
+  sfx(s4 - .15, "whoosh"); sfx(s4 + 1.5, "scan"); sfx(s4 + 2.7, "beep"); sfx(s4 + 3.0, "pop"); sfx(s4 + 3.1, "notif", .7);
+  sfx(s5 - .15, "whoosh");
+  for (let k = 0; k < 8; k++) sfx(s5 + 1.0 + k * .38, "stamp", k === 7 ? 1.3 : .9);
+  sfx(s5 + 1.0 + 7 * .38 + .1, "ding"); sfx(s5 + 1.0 + 7 * .38 + .12, "confetti");
+  sfx(s6 - .15, "whoosh");
+  for (let k = 0; k < 6; k++) sfx(s6 + .9 + k * .5, "whoosh", .35);
+  sfx(s6 + 1.2, "click", .8);
+  sfx(s7 - .15, "whoosh"); sfx(s7 + 1.2, "pop", .6); sfx(s7 + 2.6, "click"); sfx(s7 + 2.75, "whoosh", .6); sfx(s7 + 3.4, "notif"); sfx(s7 + 4.7, "buzz", .5);
+  sfx(s8 - .15, "whoosh"); sfx(s8 + .45, "ticks"); sfx(s8 + 2.65, "kaching"); sfx(s8 + 2.9, "thud", .6);
+  sfx(s9 - .2, "whoosh"); sfx(s9 + .35, "stamp", 1.2); sfx(s9 + 1.2, "shimmer", .7); sfx(s9 + 2.2, "pop", .6);
+})();
+window.SFX = SFX;
+
+// Confeti determinista
+const CONF = Array.from({ length: 70 }, (_, i) => {
+  const r = (n) => { const x = Math.sin(i * 127.1 + n * 311.7) * 43758.5453; return x - Math.floor(x); };
+  return { x: 540 + (r(1) - .5) * 300, vx: (r(2) - .5) * 1700, vy: -900 - r(3) * 1400, rot: r(4) * 720, c: ["#ffe14d", "#3b23b5", "#f4b942", "#ff5ca8", "#1f8a5b"][i % 5] };
+});
+$("s5conf").innerHTML = CONF.map(() => "<i></i>").join("");
+$("s4qr").innerHTML = MK.qrSvg("https://mrkey.mx/unirse?m=barberia-don-luis", 6);
+$("s4camqr").innerHTML = $("s4qr").innerHTML;
+
+function renderAt(t) {
+  // Cámara: deriva lenta y un pequeño golpe en cada sello grande.
+  const drift = Math.sin(t * .35) * 8;
+  $("dots").style.transform = `translate(${drift}px, ${-t * 14 % 34}px)`;
+  let kick = 0;
+  for (const e of SFX) if (e.type === "stamp" && t >= e.t && t < e.t + .25) kick = Math.max(kick, (1 - (t - e.t) / .25) * .012 * e.vol);
+  $("stage").style.transform = `scale(${1 + kick}) rotate(${kick * 20}deg)`;
+
+  for (const s of TL.scenes) {
+    const el = $(`sc-${s.id}`), lt = t - s.start;
+    const vis = lt >= -0.02 && lt < s.dur + 0.02;
+    if (!vis) { el.style.opacity = 0; continue; }
+    const inP = outExpo(seg(lt, 0, .35)), outP = s.id === "s9" ? 0 : inOut(seg(lt, s.dur - .28, .28));
+    el.style.opacity = 1;
+    el.style.transform = `translateX(${(1 - inP) * 140 - outP * 160}px) scale(${1 + outP * .04})`;
+    el.style.filter = (inP < 1 || outP > 0) ? `blur(${(1 - inP) * 10 + outP * 14}px)` : "none";
+    SCENES[s.id](lt, s);
+  }
+
+  // Destello del logo
+  const f = t - (S.s3.start + .55);
+  $("flash").style.opacity = f >= 0 && f < .35 ? (1 - f / .35) * .9 : 0;
+  // Barrido de tinta antes del cierre
+  const w = t - (S.s9.start - .35);
+  const wp = w < 0 ? 0 : w < .35 ? inOut(w / .35) : w < .7 ? 1 - inOut((w - .35) / .35) : 0;
+  $("wipe").style.clipPath = `circle(${wp * 120}% at 50% 60%)`;
+}
+
+const SCENES = {
+  s1(lt) {
+    lines($("s1h"), lt, .05, .12);
+    const c = $("s1card");
+    card(c, "barberia", lt > 1.6 ? 1 : 0, { pop: lt > 1.6 && lt < 2.2 ? 0 : -1 });
+    const p = outBack(seg(lt, .6, .7), 1.3);
+    const shake = lt > 2.4 ? Math.sin(lt * 34) * 4 * clamp((lt - 2.4) * 3) : 0;
+    show(c, clamp(p * 1.5), `translateY(${(1 - p) * 300}px) rotate(${-3 + shake * .3}deg) translateX(${shake}px)`);
+    // casillas vacías que "tiemblan": nadie regresa
+    c.querySelectorAll(".stamp:not(.on)").forEach((d, i) => { d.style.opacity = lt > 2.3 ? .35 + .35 * Math.sin(lt * 6 + i) : 1; });
+    lines($("s1h2"), lt, 2.25);
+  },
+  s2(lt, s) {
+    lines($("s2h"), lt, .05, .1, .55, 2.0);
+    // la tarjeta de papel cae y se pierde
+    const pp = $("s2paper");
+    const fall = inOut(seg(lt, 1.1, 1.0));
+    const inn = outBack(seg(lt, .15, .6));
+    show(pp, 1 - fall * .9, `translate(${fall * 420}px, ${(1 - inn) * 200 + fall * 1100}px) rotate(${-8 + fall * 70}deg) scale(${.9 + inn * .1})`);
+    // aparece la app que nadie quiere
+    const ph = $("s2phone");
+    const pin = outExpo(seg(lt, 2.0, .6));
+    show(ph, pin, `translateY(${(1 - pin) * 500}px) scale(.82)`);
+    $("s2bar").style.width = `${clamp((lt - 2.3) / 1.5) * 34}%`;
+    const no = $("s2no"), np = seg(lt, 3.25, .22);
+    show(no, lt >= 3.25 ? 1 : 0, `rotate(-14deg) scale(${lt >= 3.25 ? lerp(2.4, 1, outExpo(np)) : 2.4})`);
+    lines($("s2h2"), lt, 3.0);
+    $("s2h").style.opacity = lt > 2.3 ? 0 : 1;
+  },
+  s3(lt) {
+    const pre = $("s3pre");
+    lines(pre, lt, .05);
+    pre.style.opacity = 1 - seg(lt, .45, .15);
+    const lg = $("s3logo"), p = seg(lt, .4, .17);
+    const sc = lt < .4 ? 3 : lerp(3, 1, outExpo(p)) + (lt > .57 ? Math.sin((lt - .57) * 30) * .03 * Math.exp(-(lt - .57) * 6) : 0);
+    show(lg, lt < .4 ? 0 : clamp(p * 2), `scale(${sc}) rotate(${lt < .57 ? -10 * (1 - p) : 0}deg)`);
+    ["sp1", "sp2", "sp3"].forEach((id, i) => {
+      const q = seg(lt, .55 + i * .08, .9);
+      const e = $(id);
+      e.style.opacity = q > 0 && q < 1 ? (1 - q) * .35 : 0;
+      e.style.transform = `scale(${1 + outExpo(q) * (70 + i * 30)})`;
+      e.style.borderWidth = `${Math.max(.5, 6 - q * 5)}px`;
+    });
+    const sub = $("s3sub"), sp = outExpo(seg(lt, 1.0, .5));
+    show(sub, sp, `translateY(${(1 - sp) * 40}px)`);
+  },
+  s4(lt) {
+    lines($("s4h"), lt, .05, .1);
+    const poster = $("s4poster"), phone = $("s4phone");
+    const a = outExpo(seg(lt, .2, .6));
+    const slide = inOut(seg(lt, 3.0, .7));
+    show(poster, a * (1 - slide), `translate(${-slide * 600}px, ${(1 - a) * 200}px) rotate(${-4 + slide * -20}deg)`);
+    // el celular se acerca al QR, lo escanea y recibe la tarjeta
+    const pin = outExpo(seg(lt, .9, .7));
+    const toCenter = inOut(seg(lt, 3.0, .7));
+    show(phone, pin, `translate(${lerp(260, 0, toCenter)}px, ${(1 - pin) * 900 + lerp(120, 40, toCenter)}px) rotate(${lerp(8, 0, toCenter)}deg) scale(${lerp(.62, .9, toCenter)})`);
+    const scan = $("s4scan"), sp = seg(lt, 1.5, 1.1);
+    scan.style.opacity = sp > 0 && sp < 1 ? 1 : 0;
+    scan.style.top = `${200 + Math.sin(sp * Math.PI * 2) * 300 + 300}px`;
+    const cam = $("s4cam");
+    cam.style.opacity = 1 - seg(lt, 2.9, .3);
+    $("s4camqr").style.transform = `rotate(-6deg) scale(${1 + seg(lt, 1.2, 1.6) * .15})`;
+    const c = $("s4card");
+    card(c, "barberia", 0, { qr: true });
+    const cp = outBack(seg(lt, 3.0, .6));
+    show(c, clamp(cp * 2), `translateY(${(1 - cp) * 600}px)`);
+    const ch = $("s4chips"), chp = outBack(seg(lt, 3.6, .5));
+    show(ch, clamp(chp), `translateY(${(1 - chp) * 60}px) scale(${.8 + chp * .2})`);
+  },
+  s5(lt) {
+    lines($("s5h"), lt, .05, .14);
+    const c = $("s5card");
+    const n = clamp(Math.floor((lt - 1.0) / .38) + 1, 0, 8);
+    const pop = lt > 1.0 ? Math.min(7, Math.floor((lt - 1.0) / .38)) : -1;
+    card(c, "barberia", n, { pop: (lt - 1.0 - pop * .38) < .3 ? pop : -1 });
+    const p = outExpo(seg(lt, .3, .6));
+    show(c, p, `translateY(${(1 - p) * 400}px) scale(${.92 + p * .08})`);
+    const done = 1.0 + 7 * .38 + .1;
+    const r = $("s5reward"), rp = outBack(seg(lt, done, .45), 2);
+    show(r, clamp(rp * 2), `scale(${lt < done ? .3 : rp}) rotate(${(1 - rp) * -6}deg)`);
+    const cf = lt - done;
+    $("s5conf").querySelectorAll("i").forEach((e, i) => {
+      const k = CONF[i];
+      if (cf < 0 || cf > 2.2) { e.style.opacity = 0; return; }
+      e.style.opacity = 1 - clamp((cf - 1.6) / .6);
+      e.style.background = k.c;
+      e.style.transform = `translate(${k.x + k.vx * cf}px, ${1180 + k.vy * cf + 1400 * cf * cf}px) rotate(${k.rot + cf * 600}deg)`;
+    });
+  },
+  s6(lt) {
+    lines($("s6h"), lt, .05, .12);
+    $("s6mark").style.setProperty("--mk", `${outExpo(seg(lt, .7, .5)) * 100}%`);
+    const order = ["barberia", "cafe", "salon", "veterinaria", "noche", "mar", "realeza", "tinta"];
+    const idx = clamp(Math.floor((lt - .9) / .5), 0, order.length - 1);
+    const local = lt - .9 - idx * .5;
+    const c = $("s6card");
+    const th = MK.THEMES.find((x) => x.id === order[idx]);
+    card(c, th, 5, { reward: "Tu premio", name: "Tu negocio", client: "Cliente" });
+    const swing = lt < .9 ? 0 : clamp(1 - local / .22);
+    const p = outExpo(seg(lt, .3, .6));
+    show(c, p, `translateY(${(1 - p) * 300}px) rotateY(${swing * 35}deg) scale(${1 - swing * .06})`);
+    $("s6name").textContent = th.name;
+    $("s6name").style.opacity = lt > .9 ? 1 : 0;
+    const chips = $("s6chips").querySelectorAll("span");
+    chips.forEach((e, i) => { const q = outBack(seg(lt, 1.4 + i * .25, .4)); show(e, clamp(q), `translateY(${(1 - q) * 50}px) scale(${.7 + .3 * q})`); });
+  },
+  s7(lt, s) {
+    lines($("s7h"), lt, .05, .1);
+    const d = $("s7dash"), dp = outExpo(seg(lt, .4, .6));
+    const away = inOut(seg(lt, 2.8, .5));
+    show(d, dp * (1 - away), `translateY(${(1 - dp) * 300 - away * 200}px) scale(${1 - away * .1})`);
+    d.querySelectorAll(".who").forEach((w, i) => { const q = outExpo(seg(lt, .8 + i * .15, .4)); show(w, q, `translateX(${(1 - q) * 80}px)`); });
+    const b = $("s7send"), bp = outBack(seg(lt, 1.6, .4));
+    const press = lt > 2.6 && lt < 2.8 ? .94 : 1;
+    show(b, clamp(bp) * (1 - away), `scale(${(.8 + .2 * bp) * press})`);
+    const ph = $("s7phone"), pp = outExpo(seg(lt, 2.9, .6));
+    show(ph, pp, `translateY(${(1 - pp) * 1000}px) scale(.88)`);
+    const n = $("s7notif"), np = outBack(seg(lt, 3.4, .45));
+    show(n, clamp(np * 2), `translateY(${(1 - np) * -160}px) scale(${.9 + .1 * np})`);
+    const sms = $("s7sms"), sp = outBack(seg(lt, 4.6, .4));
+    show(sms, clamp(sp), `scale(${.6 + .4 * sp})`);
+  },
+  s8(lt) {
+    const m = $("s8money"), mp = outExpo(seg(lt, .1, .5));
+    show(m, mp, `translateY(${(1 - mp) * 300}px)`);
+    const k = outCubic(seg(lt, .45, 2.2));
+    $("s8n").textContent = MK.money(Math.round(4860 * k / 10) * 10);
+    $("s8sub").textContent = `${Math.round(27 * k)} clientes que volvieron`;
+    const eq = $("s8eq");
+    eq.querySelectorAll(":scope > *").forEach((e, i) => { const q = outBack(seg(lt, 1.2 + i * .18, .4)); show(e, clamp(q), `translateY(${(1 - q) * 60}px) scale(${.7 + .3 * q})`); });
+    const s2 = $("s8sub2"), q = outExpo(seg(lt, 2.0, .5));
+    show(s2, q, `translateY(${(1 - q) * 30}px)`);
+  },
+  s9(lt, s) {
+    const c = $("s9card");
+    const n = lt < .35 ? 7 : 8;
+    card(c, "tinta", n, { pop: lt >= .35 && lt < .9 ? 7 : -1, name: "Mr Key", reward: "Tu premio", client: "Tú" });
+    const cp = outExpo(seg(lt, 0, .6));
+    show(c, cp, `translateY(${(1 - cp) * -200 + Math.sin(lt * 1.5) * 8}px) rotate(${-2 + Math.sin(lt) * .6}deg)`);
+    const e = $("s9end");
+    e.querySelectorAll(".logo-mk, .h, #s9cta, #s9wa").forEach((x, i) => {
+      const q = outExpo(seg(lt, .5 + i * .2, .6));
+      x.style.opacity = q;
+      x.style.transform = `translateY(${(1 - q) * 60}px)`;
+    });
+    lines(e.querySelector(".h"), lt, .7, .12);
+    const pulse = lt > 2.2 ? 1 + Math.sin((lt - 2.2) * 5) * .02 : 1;
+    $("s9cta").style.transform += ` scale(${pulse})`;
+  },
+};
+window.renderAt = renderAt;
+renderAt(0);
+</script>
+</body>
+</html>
