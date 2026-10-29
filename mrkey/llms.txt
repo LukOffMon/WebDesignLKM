@@ -1,0 +1,27 @@
+# Mr Key
+
+> Tarjetas de lealtad digitales para negocios locales en México (barberías, cafeterías, salones de belleza, veterinarias y tiendas). La tarjeta de sellos vive en Apple Wallet, Google Wallet o como tarjeta web, sin que el cliente descargue ninguna app.
+
+## Cómo funciona
+
+- El cliente escanea el QR del mostrador, escribe su nombre y celular y guarda su tarjeta.
+- El personal sella desde su celular escaneando la tarjeta, con código del negocio y PIN.
+- Al juntar los sellos se desbloquea el premio (por ejemplo, 8 sellos = corte gratis).
+- El dueño ve clientes, visitas, clientes inactivos e ingresos recuperados.
+- Campañas sin SMS a la tarjeta y a la pantalla de bloqueo, solo para clientes que aceptaron promociones.
+- Alertas por cercanía en Apple Wallet para clientes inactivos; Mr Key no recibe la ubicación del cliente.
+
+## Precios (MXN, mensuales)
+
+- Emprendedor: $339. 1 sucursal, hasta 300 clientes activos, 2 campañas al mes.
+- Pro: $749. Hasta 2,000 clientes activos, campañas ilimitadas, alertas por cercanía, métrica de ingresos recuperados, configuración asistida.
+- Franquicias: $1,649 + $599 por sucursal adicional. Varias sucursales, panel centralizado, roles, integraciones y API.
+- Implementación asistida desde $1,849, pago único.
+- 14 días gratis, sin tarjeta de crédito.
+
+## Contacto
+
+- WhatsApp del fundador: +52 449 209 4034
+- Correo: officiallukamon@gmail.com
+- Sitio: https://lukoffmon.github.io/WebDesignLKM/mrkey/
+- Aviso de privacidad: https://lukoffmon.github.io/WebDesignLKM/mrkey/aviso.html
