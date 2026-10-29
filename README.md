@@ -28,3 +28,6 @@ Regla para todos los sitios: **solo fotos reales del negocio** (nada de bancos d
 
 ---
 Sitios diseñados y desarrollados por **LKM’r**.
+
+**Dueño y fundador:** Luka Lara  
+**Contacto:** 449 209 4034 ([WhatsApp](https://wa.me/524492094034))
