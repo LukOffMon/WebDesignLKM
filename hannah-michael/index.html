@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Hannah &amp; Michael Aguascalientes · Brunch, desayunos y café en Colosio</title>
+  <meta name="description" content="Hannah & Michael Aguascalientes: chilaquiles, bagels, waffles, hot cakes, omelettes y café de especialidad. Blvd. Luis Donaldo Colosio 507, Jardines de la Concepción. Pide en Uber Eats o Rappi, o ven a desayunar." />
+  <meta name="theme-color" content="#FBF3E6" />
+  <link rel="canonical" href="https://lukoffmon.github.io/WebDesignLKM/hannah-michael/" />
+  <meta property="og:title" content="Hannah & Michael · Buenos días, con amor" />
+  <meta property="og:description" content="Brunch, desayunos y café en Blvd. Colosio 507, Aguascalientes. Chilaquiles Hannah, bagels, waffles y hot cakes." />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:locale" content="es_MX" />
+  <meta property="og:url" content="https://lukoffmon.github.io/WebDesignLKM/hannah-michael/" />
+  <meta property="og:image" content="https://lukoffmon.github.io/WebDesignLKM/hannah-michael/assets/og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
+
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,400..800,50..100;1,9..144,400..800,50..100&family=DM+Sans:opsz,wght@9..40,400..800&family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Hannah & Michael Aguascalientes",
+    "image": "https://lukoffmon.github.io/WebDesignLKM/hannah-michael/assets/og.jpg",
+    "url": "https://lukoffmon.github.io/WebDesignLKM/hannah-michael/",
+    "servesCuisine": ["Brunch", "Desayunos", "Cocina mexicana", "Café"],
+    "priceRange": "$$",
+    "acceptsReservations": "True",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Blvd. Luis Donaldo Colosio Murrieta 507, Jardines de la Concepción I",
+      "addressLocality": "Aguascalientes",
+      "addressRegion": "Ags.",
+      "postalCode": "20120",
+      "addressCountry": "MX"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:30", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "08:30", "closes": "22:00" }
+    ],
+    "sameAs": ["https://www.facebook.com/p/Hannah-and-Michael-Aguascalientes-61558061837541/"],
+    "hasMenu": "https://lukoffmon.github.io/WebDesignLKM/hannah-michael/#menu"
+  }
+  </script>
+
+  <style>
+    :root {
+      --cream: #FBF3E6;
+      --paper: #FFFAF2;
+      --ink: #2B1B12;
+      --ink-soft: #6B5446;
+      --maple: #C2651A;
+      --maple-deep: #8F4210;
+      --butter: #F6C453;
+      --berry: #D63E5C;
+      --blush: #F7D3CF;
+      --sage: #7F9B62;
+      --blue: #33467F;
+      --line: rgba(43, 27, 18, .14);
+      --radius: 28px;
+      --ease: cubic-bezier(.22, 1, .36, 1);
+      --display: "Fraunces", Georgia, serif;
+      --sans: "DM Sans", system-ui, sans-serif;
+      --script: "Caveat", cursive;
+      color-scheme: light;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; overflow-x: clip; }
+    html.lenis, html.lenis body { height: auto; }
+    .lenis.lenis-smooth { scroll-behavior: auto !important; }
+    body {
+      margin: 0; background: var(--cream); color: var(--ink);
+      font-family: var(--sans); font-size: 17px; line-height: 1.55;
+      -webkit-font-smoothing: antialiased; overflow-x: clip;
+    }
+    img, svg { display: block; max-width: 100%; }
+    a { color: inherit; }
+    button { font: inherit; color: inherit; cursor: pointer; }
+    ::selection { background: var(--butter); color: var(--ink); }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    :focus-visible { outline: 3px solid var(--maple); outline-offset: 3px; border-radius: 8px; }
+
+    /* grain */
+    body::after {
+      content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 90; opacity: .07; mix-blend-mode: multiply;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    .wrap { width: min(1240px, 100% - 32px); margin-inline: auto; }
+    .eyebrow { font-size: .72rem; font-weight: 800; letter-spacing: .26em; text-transform: uppercase; color: var(--maple); }
+    .script { font-family: var(--script); font-weight: 700; color: var(--berry); }
+    .display { font-family: var(--display); font-variation-settings: "SOFT" 100, "opsz" 144; font-weight: 600; letter-spacing: -.035em; line-height: .92; }
+    .display em { font-style: italic; font-weight: 500; color: var(--maple); }
+
+    /* ---------- loader ---------- */
+    .loader {
+      position: fixed; inset: 0; z-index: 200; background: var(--ink); color: var(--cream);
+      display: grid; place-items: center; overflow: hidden;
+    }
+    .loader__inner { text-align: center; }
+    .loader__mono { width: 150px; height: 150px; margin: 0 auto 18px; }
+    .loader__mono path, .loader__mono circle { fill: none; stroke: var(--butter); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+    .loader__count { font-family: var(--display); font-size: clamp(3rem, 12vw, 7rem); font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }
+    .loader__msg { font-family: var(--script); font-size: 1.6rem; color: var(--butter); margin-top: 6px; }
+    .loader__curtain { position: absolute; inset: auto 0 0; height: 0; background: var(--maple); }
+    html:not(.js) .loader { display: none; }
+
+    /* ---------- cursor ---------- */
+    .cursor { position: fixed; left: 0; top: 0; z-index: 150; pointer-events: none; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: var(--ink); mix-blend-mode: multiply; transition: width .35s var(--ease), height .35s var(--ease), margin .35s var(--ease), background .3s; display: grid; place-items: center; }
+    .cursor span { font-size: .65rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--cream); opacity: 0; transition: opacity .2s; }
+    .cursor.is-big { width: 84px; height: 84px; margin: -42px 0 0 -42px; background: var(--maple); mix-blend-mode: normal; }
+    .cursor.is-big span { opacity: 1; }
+    @media (hover: none), (pointer: coarse) { .cursor { display: none; } }
+
+    /* ---------- nav ---------- */
+    .nav { position: fixed; inset: 14px 0 auto; z-index: 100; pointer-events: none; }
+    .nav__bar {
+      pointer-events: auto; display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      width: min(1240px, 100% - 24px); margin-inline: auto; padding: 10px 10px 10px 18px;
+      background: rgba(255, 250, 242, .78); backdrop-filter: blur(14px) saturate(1.4); -webkit-backdrop-filter: blur(14px) saturate(1.4);
+      border: 1px solid var(--line); border-radius: 999px; transition: transform .5s var(--ease), box-shadow .4s;
+    }
+    .nav.is-hidden .nav__bar { transform: translateY(-140%); }
+    .nav.is-scrolled .nav__bar { box-shadow: 0 12px 40px -18px rgba(43,27,18,.35); }
+    .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--display); font-weight: 600; font-size: 1.15rem; letter-spacing: -.02em; white-space: nowrap; }
+    .brand svg { width: 34px; height: 34px; }
+    .brand em { font-style: italic; color: var(--maple); font-weight: 500; }
+    .nav__links { display: flex; gap: 4px; list-style: none; margin: 0; padding: 0; }
+    .nav__links a { display: block; padding: 8px 14px; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .92rem; transition: background .25s; }
+    .nav__links a:hover { background: rgba(43,27,18,.07); }
+    .nav__right { display: flex; align-items: center; gap: 8px; }
+    .status { display: inline-flex; align-items: center; gap: 8px; font-size: .78rem; font-weight: 700; padding: 8px 12px; border-radius: 999px; background: rgba(127,155,98,.16); color: #46602d; white-space: nowrap; }
+    .status i { width: 8px; height: 8px; border-radius: 50%; background: currentColor; box-shadow: 0 0 0 0 currentColor; animation: ping 1.8s infinite; }
+    .status.is-closed { background: rgba(214,62,92,.12); color: var(--berry); }
+    @keyframes ping { 0% { box-shadow: 0 0 0 0 rgba(127,155,98,.6); } 100% { box-shadow: 0 0 0 10px rgba(127,155,98,0); } }
+    .menu-toggle { display: none; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--paper); place-items: center; }
+    .menu-toggle span, .menu-toggle span::before { display: block; width: 18px; height: 2px; background: var(--ink); position: relative; transition: transform .4s var(--ease); }
+    .menu-toggle span::before { content: ""; position: absolute; top: 6px; }
+    .menu-toggle span { transform: translateY(-3px); }
+    .menu-toggle[aria-expanded="true"] span { transform: rotate(45deg); }
+    .menu-toggle[aria-expanded="true"] span::before { top: 0; transform: rotate(90deg); }
+    .menu-toggle { position: relative; z-index: 101; }
+    .cart-btn { position: relative; }
+    .cart-btn b { position: absolute; top: -4px; right: -4px; min-width: 20px; height: 20px; padding: 0 5px; border-radius: 999px; background: var(--berry); color: #fff; font-size: .7rem; display: grid; place-items: center; transform: scale(0); transition: transform .4s var(--ease); }
+    .cart-btn.has-items b { transform: scale(1); }
+
+    .btn {
+      --bg: var(--ink); --fg: var(--cream);
+      position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 10px; overflow: hidden; isolation: isolate;
+      padding: 14px 22px; border-radius: 999px; border: 0; background: var(--bg); color: var(--fg);
+      font-weight: 700; font-size: .95rem; text-decoration: none; white-space: nowrap; transition: transform .4s var(--ease);
+    }
+    .btn::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--maple); border-radius: inherit; transform: translateY(101%); transition: transform .5s var(--ease); }
+    .btn:hover::before { transform: translateY(0); }
+    .btn svg { width: 18px; height: 18px; }
+    .btn--light { --bg: var(--paper); --fg: var(--ink); border: 1px solid var(--line); }
+    .btn--light:hover { color: var(--cream); }
+    .btn--butter { --bg: var(--butter); --fg: var(--ink); }
+    .btn--sm { padding: 10px 16px; font-size: .85rem; }
+    .btn--icon { padding: 0; width: 44px; height: 44px; }
+
+    .drawer-nav { position: fixed; inset: 0; z-index: 99; background: var(--ink); color: var(--cream); display: flex; flex-direction: column; justify-content: center; padding: 96px 24px 32px; clip-path: circle(0 at calc(100% - 46px) 40px); transition: clip-path .8s var(--ease); visibility: hidden; }
+    .drawer-nav.is-open { clip-path: circle(150% at calc(100% - 46px) 40px); visibility: visible; }
+    .drawer-nav a { font-family: var(--display); font-size: clamp(2.4rem, 11vw, 4rem); line-height: 1.1; text-decoration: none; font-weight: 600; letter-spacing: -.03em; }
+    .drawer-nav a em { color: var(--butter); }
+    .drawer-nav p { color: rgba(251,243,230,.6); margin-top: 32px; font-size: .9rem; }
+
+    @media (max-width: 960px) {
+      .nav__links { display: none; }
+      .menu-toggle { display: grid; }
+    }
+    @media (max-width: 560px) {
+      .nav .status, .nav .btn--order { display: none; }
+    }
+
+    /* ---------- hero ---------- */
+    .hero { position: relative; min-height: 100svh; display: grid; place-items: center; padding: 120px 0 80px; overflow: hidden; }
+    .hero__sun { position: absolute; width: min(78vw, 820px); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 40% 38%, #FFE29A 0%, var(--butter) 42%, rgba(246,196,83,0) 70%); filter: blur(10px); opacity: .75; z-index: 0; }
+    .hero__content { position: relative; z-index: 3; text-align: center; padding-inline: 16px; }
+    .hero__kicker { display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px; border-radius: 999px; background: var(--paper); border: 1px solid var(--line); font-size: .8rem; font-weight: 700; margin-bottom: 26px; }
+    .hero__kicker svg { width: 16px; height: 16px; color: var(--berry); }
+    .hero h1 { margin: 0; font-size: clamp(3.6rem, min(21vw, 23vh), 13.5rem); }
+    .hero h1 .line { display: block; overflow: hidden; padding-bottom: .08em; }
+    .hero h1 .line > span { display: inline-block; }
+    .hero h1 .char { display: inline-block; will-change: transform; }
+    .hero__script { font-family: var(--script); font-size: clamp(1.7rem, 4vw, 2.8rem); color: var(--berry); transform: rotate(-4deg); margin: 6px 0 22px; }
+    .hero__lead { max-width: 560px; margin: 0 auto 32px; font-size: clamp(1rem, 1.6vw, 1.15rem); color: var(--ink-soft); }
+    .hero__cta { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+    .hero__badge { position: absolute; z-index: 4; right: clamp(16px, 7vw, 120px); bottom: clamp(24px, 9vh, 110px); width: clamp(110px, 13vw, 150px); aspect-ratio: 1; }
+    .hero__badge svg { width: 100%; height: 100%; }
+    .hero__badge .rot { transform-origin: 50% 50%; animation: spin 18s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .hero__scroll { position: absolute; left: 50%; bottom: 22px; translate: -50% 0; z-index: 4; font-size: .7rem; font-weight: 800; letter-spacing: .25em; text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 10px; color: var(--ink-soft); }
+    .hero__scroll i { width: 1px; height: 46px; background: linear-gradient(var(--ink) 50%, transparent 50%); background-size: 1px 200%; animation: drip 1.8s infinite var(--ease); }
+    @keyframes drip { from { background-position: 0 100%; } to { background-position: 0 -100%; } }
+    .float { position: absolute; z-index: 2; pointer-events: none; }
+    .float > svg { width: 100%; height: 100%; filter: drop-shadow(0 18px 18px rgba(43,27,18,.16)); }
+    @media (max-width: 700px) {
+      .hero__badge { display: none; } .float.hide-sm { display: none; }
+      .hero { padding-top: 150px; }
+      .float { width: 62px !important; }
+      .float.sm-tl { left: 4% !important; top: 9% !important; }
+      .float.sm-tr { right: 5% !important; left: auto !important; top: 10% !important; }
+      .float.sm-bl { left: 5% !important; top: auto !important; bottom: 6% !important; }
+      .float.sm-br { right: 6% !important; left: auto !important; top: auto !important; bottom: 7% !important; }
+      .float.sm-bc { left: 44% !important; top: auto !important; bottom: 3% !important; width: 44px !important; }
+      .hero__scroll { display: none; }
+    }
+    @media (max-height: 980px) and (min-width: 701px) { .hero__scroll { display: none; } }
+
+    /* ---------- marquee ---------- */
+    .marquee { background: var(--ink); color: var(--cream); padding: 22px 0; overflow: hidden; transform: rotate(-2deg) scale(1.04); margin: 10px 0 0; position: relative; z-index: 5; }
+    .marquee--alt { background: var(--butter); color: var(--ink); transform: rotate(1.5deg) scale(1.04); }
+    .marquee__track { display: flex; width: max-content; }
+    .marquee__track span { display: inline-flex; align-items: center; gap: 28px; padding-right: 28px; font-family: var(--display); font-size: clamp(1.8rem, 4.4vw, 3.4rem); font-weight: 600; letter-spacing: -.02em; white-space: nowrap; }
+    .marquee__track span em { font-style: italic; color: var(--butter); font-weight: 500; }
+    .marquee--alt .marquee__track span em { color: var(--berry); }
+    .marquee__track svg { width: .8em; height: .8em; }
+
+    section { position: relative; }
+    .sec-head { display: grid; gap: 14px; margin-bottom: 48px; }
+    .sec-head h2 { margin: 0; font-size: clamp(2.6rem, 7.4vw, 6.2rem); }
+    .sec-head p { margin: 0; max-width: 560px; color: var(--ink-soft); }
+
+    /* reveal words */
+    .split .w { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: .1em; margin-bottom: -.1em; }
+    .split .w > span { display: inline-block; will-change: transform; }
+
+    /* ---------- intro / manifesto ---------- */
+    .intro { padding: clamp(110px, 16vw, 200px) 0 clamp(80px, 10vw, 140px); }
+    .manifesto { font-family: var(--display); font-variation-settings: "SOFT" 100; font-weight: 500; font-size: clamp(1.9rem, 4.6vw, 4rem); line-height: 1.12; letter-spacing: -.025em; max-width: 1100px; margin: 0; }
+    .manifesto .mw { opacity: .14; transition: opacity .2s; }
+    .manifesto .chip-inline { display: inline-grid; place-items: center; vertical-align: middle; width: 1.25em; height: 1.25em; margin: 0 .08em; border-radius: 999px; background: var(--butter); }
+    .manifesto .chip-inline svg { width: 78%; height: 78%; }
+    .intro__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 72px; }
+    .stat { padding: 28px; border-radius: var(--radius); background: var(--paper); border: 1px solid var(--line); }
+    .stat b { display: block; font-family: var(--display); font-size: clamp(2.6rem, 5vw, 4rem); line-height: 1; font-weight: 600; letter-spacing: -.03em; }
+    .stat span { color: var(--ink-soft); font-size: .92rem; }
+    @media (max-width: 760px) { .intro__grid { grid-template-columns: 1fr; } }
+
+    /* ---------- plate build (pinned) ---------- */
+    .build { height: 100svh; background: var(--paper); overflow: hidden; border-block: 1px solid var(--line); }
+    .build__inner { position: relative; height: 100%; display: grid; grid-template-columns: 1fr 1.1fr; align-items: center; gap: 24px; }
+    .build__steps { position: relative; height: 13em; font-size: clamp(1rem, 1.4vw, 1.1rem); }
+    .build__step { position: absolute; inset: 0 0 auto; }
+    .build__step .num { font-family: var(--script); font-size: 2rem; color: var(--berry); }
+    .build__step h3 { font-family: var(--display); font-variation-settings: "SOFT" 100; font-size: clamp(2.4rem, 5.6vw, 5rem); line-height: .95; font-weight: 600; letter-spacing: -.035em; margin: 4px 0 14px; }
+    .build__step h3 em { color: var(--maple); font-weight: 500; }
+    .build__step p { margin: 0; max-width: 430px; color: var(--ink-soft); }
+    .build__stage { position: relative; aspect-ratio: 1; width: min(100%, 620px); justify-self: center; }
+    .build__stage > * { position: absolute; }
+    .build__progress { position: absolute; left: 0; bottom: 8vh; display: flex; gap: 8px; }
+    .build__progress i { width: 36px; height: 4px; border-radius: 4px; background: var(--line); overflow: hidden; position: relative; }
+    .build__progress i::after { content: ""; position: absolute; inset: 0; background: var(--maple); transform: scaleX(var(--p, 0)); transform-origin: left; }
+    @media (max-width: 860px) {
+      .build__inner { grid-template-columns: 1fr; grid-template-rows: auto 1fr; padding-top: 96px; gap: 0; }
+      .build__steps { height: 10.5em; }
+      .build__stage { width: min(88vw, 420px); align-self: start; }
+      .build__progress { display: none; }
+    }
+
+    /* ---------- el lugar (fotos reales) ---------- */
+    .place { padding: clamp(110px, 14vw, 180px) 0 0; }
+    .place__head { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: end; margin-bottom: 48px; }
+    .place__head p { margin: 0; color: var(--ink-soft); max-width: 460px; }
+    .place__grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
+    .ph { position: relative; margin: 0; border-radius: 30px; overflow: hidden; background: var(--blush); }
+    .ph img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.18); will-change: transform; }
+    .ph figcaption { position: absolute; left: 14px; bottom: 14px; padding: 8px 14px; border-radius: 999px; background: rgba(255,250,242,.92); font-weight: 700; font-size: .82rem; backdrop-filter: blur(6px); }
+    .ph figcaption b { font-family: var(--script); font-size: 1.15rem; color: var(--berry); font-weight: 700; margin-right: 4px; }
+    .ph--salon { grid-column: 1 / 7; grid-row: span 2; aspect-ratio: 3 / 4; }
+    .ph--fachada { grid-column: 7 / 13; aspect-ratio: 4 / 3; }
+    .ph--mesa { grid-column: 7 / 10; aspect-ratio: 4 / 5; }
+    .ph--terraza { grid-column: 10 / 13; aspect-ratio: 4 / 5; }
+    .ph--chil { grid-column: 1 / 7; aspect-ratio: 4 / 3; }
+    .ph--ench { grid-column: 7 / 13; aspect-ratio: 4 / 3; }
+    .place__grid .ph--salon { aspect-ratio: auto; }
+    @media (max-width: 860px) {
+      .place__head { grid-template-columns: 1fr; }
+      .place__grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .ph { border-radius: 22px; }
+      .ph--salon, .ph--fachada, .ph--chil, .ph--ench { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 4 / 3; }
+      .ph--mesa, .ph--terraza { grid-column: auto; aspect-ratio: 4 / 5 !important; }
+      .place__grid .ph--salon { aspect-ratio: 4 / 5; }
+    }
+    .dish__art img, .item__art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: inherit; transition: transform .8s var(--ease); }
+    .dish:hover .dish__art img, .item:hover .item__art img { transform: scale(1.08); }
+    .item__art { position: relative; overflow: hidden; }
+    .dish__art { overflow: hidden; }
+    .dish__art .sticker { position: absolute; right: 12px; bottom: 12px; width: 64px; height: 64px; border-radius: 50%; background: var(--paper); display: grid; place-items: center; box-shadow: 0 10px 24px -10px rgba(43,27,18,.5); }
+    .dish__art .sticker svg { width: 74%; height: 74%; }
+    .dish__real { position: absolute; left: 14px; bottom: 14px; padding: 5px 10px; border-radius: 999px; background: rgba(255,250,242,.92); font-size: .68rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+    .vphoto { margin: -34px -34px 26px; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 34px 34px 0 0; position: relative; }
+    .vphoto img { width: 100%; height: 100%; object-fit: cover; }
+    .vphoto span { position: absolute; right: 14px; top: 14px; padding: 6px 12px; border-radius: 999px; background: var(--ink); color: var(--cream); font-size: .75rem; font-weight: 700; }
+
+    /* ---------- favorites horizontal ---------- */
+    .favs { padding: clamp(100px, 12vw, 160px) 0 0; overflow: hidden; }
+    .favs__pin { height: 100svh; display: flex; flex-direction: column; justify-content: center; }
+    .favs__track { display: flex; gap: 22px; padding-inline: max(16px, (100vw - 1240px) / 2); width: max-content; will-change: transform; }
+    .dish {
+      position: relative; flex: 0 0 auto; width: clamp(280px, 30vw, 380px); border-radius: 34px; padding: 18px 18px 22px;
+      background: var(--bg, var(--blush)); border: 1px solid rgba(43,27,18,.08); overflow: hidden;
+      transition: transform .6s var(--ease);
+    }
+    .dish:hover { transform: translateY(-8px) rotate(-1deg); }
+    .dish__art { aspect-ratio: 1.1; border-radius: 24px; display: grid; place-items: center; position: relative; background: rgba(255,255,255,.38); }
+    .dish__art svg { width: 78%; height: 78%; transition: transform .8s var(--ease); }
+    .dish:hover .dish__art svg { transform: scale(1.07) rotate(6deg); }
+    .dish__rank { position: absolute; left: 14px; top: 14px; padding: 6px 10px; border-radius: 999px; background: var(--ink); color: var(--cream); font-size: .7rem; font-weight: 800; letter-spacing: .08em; }
+    .dish h3 { font-family: var(--display); font-size: 1.85rem; line-height: 1; letter-spacing: -.025em; margin: 18px 0 6px; font-weight: 600; }
+    .dish p { margin: 0; font-size: .92rem; color: var(--ink-soft); min-height: 2.9em; }
+    .dish__foot { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; }
+    .price { font-family: var(--display); font-weight: 600; font-size: 1.5rem; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+    .price small { font-family: var(--sans); font-size: .7rem; font-weight: 700; color: var(--ink-soft); letter-spacing: .04em; margin-left: 4px; }
+    .add { width: 46px; height: 46px; border-radius: 50%; border: 0; background: var(--ink); color: var(--cream); display: grid; place-items: center; transition: transform .4s var(--ease), background .3s; }
+    .add:hover { transform: rotate(90deg) scale(1.08); background: var(--maple); }
+    .add svg { width: 20px; height: 20px; }
+    .add.is-added { background: var(--sage); }
+    .favs__hint { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 40px; }
+    @media (max-width: 760px) { .favs__hint { flex-direction: column; align-items: start; } }
+    .favs__bar { width: min(1240px, 100% - 32px); margin: 36px auto 0; height: 3px; background: var(--line); border-radius: 3px; overflow: hidden; }
+    .favs__bar i { display: block; height: 100%; width: 100%; background: var(--maple); transform: scaleX(0); transform-origin: left; }
+    @media (max-width: 860px) {
+      .favs__pin { height: auto; }
+      .favs__track { overflow-x: auto; width: auto; scroll-snap-type: x mandatory; padding-bottom: 16px; scrollbar-width: none; }
+      .favs__track::-webkit-scrollbar { display: none; }
+      .dish { scroll-snap-align: center; width: 78vw; }
+      .favs__bar { display: none; }
+    }
+
+    /* ---------- menu ---------- */
+    .menu { padding: clamp(110px, 14vw, 180px) 0; }
+    .menu__tabs { display: flex; gap: 8px; overflow-x: auto; padding: 6px; margin: 0 -6px 30px; scrollbar-width: none; position: sticky; top: 84px; z-index: 6; }
+    .menu__tabs::-webkit-scrollbar { display: none; }
+    .tab { position: relative; flex: 0 0 auto; padding: 12px 18px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); font-weight: 700; font-size: .92rem; transition: color .3s; z-index: 0; }
+    .tab[aria-selected="true"] { color: var(--cream); border-color: var(--ink); }
+    .tab__pill { position: absolute; inset: 0; border-radius: inherit; background: var(--ink); z-index: -1; }
+    .menu__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; min-height: 420px; align-content: start; }
+    .item {
+      display: grid; grid-template-columns: 92px 1fr auto; gap: 18px; align-items: center; padding: 14px 18px 14px 14px;
+      border-radius: 24px; background: var(--paper); border: 1px solid var(--line); transition: border-color .3s, transform .5s var(--ease), box-shadow .5s var(--ease);
+    }
+    .item:hover { border-color: rgba(43,27,18,.35); transform: translateY(-3px); box-shadow: 0 20px 40px -26px rgba(43,27,18,.45); }
+    .item__art { width: 92px; height: 92px; border-radius: 18px; display: grid; place-items: center; background: var(--bg, var(--blush)); }
+    .item__art svg { width: 76%; height: 76%; transition: transform .6s var(--ease); }
+    .item:hover .item__art svg { transform: rotate(-10deg) scale(1.1); }
+    .item h3 { margin: 0; font-family: var(--display); font-size: 1.32rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.1; }
+    .item p { margin: 4px 0 0; font-size: .86rem; color: var(--ink-soft); }
+    .item .price { font-size: 1.2rem; display: block; margin-top: 6px; }
+    .item .price.na { font-family: var(--sans); font-size: .78rem; font-weight: 700; color: var(--maple-deep); letter-spacing: .02em; }
+    .tag { display: inline-block; font-size: .64rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; padding: 3px 8px; border-radius: 999px; background: var(--butter); margin-left: 6px; vertical-align: middle; }
+    .menu__note { margin-top: 28px; font-size: .82rem; color: var(--ink-soft); display: flex; gap: 10px; align-items: start; }
+    .menu__note svg { flex: 0 0 18px; height: 18px; margin-top: 2px; color: var(--maple); }
+    @media (max-width: 860px) { .menu__grid { grid-template-columns: 1fr; } .item { grid-template-columns: 72px 1fr auto; gap: 14px; } .item__art { width: 72px; height: 72px; } .menu__tabs { top: 76px; } }
+
+    /* ---------- mood quiz ---------- */
+    .mood { padding: clamp(100px, 12vw, 160px) 0; background: var(--ink); color: var(--cream); border-radius: 48px 48px 0 0; overflow: hidden; }
+    .mood .eyebrow { color: var(--butter); }
+    .mood .display em { color: var(--butter); }
+    .mood .sec-head p { color: rgba(251,243,230,.65); }
+    .mood__box { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: stretch; }
+    .mood__q { padding: 34px; border-radius: 36px; background: rgba(251,243,230,.06); border: 1px solid rgba(251,243,230,.12); min-height: 380px; display: flex; flex-direction: column; }
+    .mood__steps { display: flex; gap: 6px; margin-bottom: 26px; }
+    .mood__steps i { flex: 1; height: 4px; border-radius: 4px; background: rgba(251,243,230,.15); transition: background .4s; }
+    .mood__steps i.on { background: var(--butter); }
+    .mood__q h3 { font-family: var(--display); font-weight: 600; font-size: clamp(1.8rem, 3.4vw, 2.8rem); line-height: 1.02; letter-spacing: -.03em; margin: 0 0 26px; }
+    .mood__opts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: auto; }
+    .opt { padding: 20px 18px; border-radius: 22px; border: 1px solid rgba(251,243,230,.18); background: transparent; color: var(--cream); text-align: left; font-weight: 700; display: flex; align-items: center; gap: 12px; transition: background .3s, border-color .3s, transform .4s var(--ease); }
+    .opt:hover { background: rgba(251,243,230,.1); border-color: var(--butter); transform: translateY(-3px); }
+    .opt span { font-size: 1.7rem; line-height: 1; }
+    .mood__result { position: relative; border-radius: 36px; background: var(--butter); color: var(--ink); padding: 34px; display: flex; flex-direction: column; overflow: hidden; min-height: 380px; }
+    .mood__result .art { position: absolute; right: -50px; bottom: -50px; width: 52%; aspect-ratio: 1; opacity: .95; z-index: 0; pointer-events: none; }
+    .mood__result > *:not(.art) { position: relative; z-index: 1; }
+    .mood__result .btn--light { --bg: var(--paper); }
+    .mood__result h4 { font-family: var(--display); font-size: clamp(2.2rem, 4.4vw, 3.6rem); line-height: .95; margin: 8px 0 12px; letter-spacing: -.035em; font-weight: 600; max-width: 62%; }
+    .mood__result p { max-width: 52%; margin: 0 0 20px; color: #4d3726; }
+    .mood__result .row { display: flex; gap: 10px; flex-wrap: wrap; position: relative; margin-top: auto; }
+    @media (max-width: 860px) { .mood__box { grid-template-columns: 1fr; } .mood__result p, .mood__result h4 { max-width: 100%; } .mood__result .art { width: 42%; right: -24px; bottom: -24px; opacity: .3; } }
+
+    /* ---------- experience ---------- */
+    .exp { padding: clamp(100px, 12vw, 160px) 0; background: var(--ink); color: var(--cream); }
+    .exp .sec-head p { color: rgba(251,243,230,.65); }
+    .exp .display em { color: var(--butter); }
+    .exp__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .feat { padding: 28px 24px; border-radius: 30px; background: rgba(251,243,230,.06); border: 1px solid rgba(251,243,230,.12); transition: background .4s, transform .6s var(--ease); }
+    .feat:hover { background: rgba(246,196,83,.12); transform: translateY(-6px); }
+    .feat svg { width: 46px; height: 46px; color: var(--butter); margin-bottom: 40px; }
+    .feat h3 { font-family: var(--display); font-size: 1.55rem; font-weight: 600; letter-spacing: -.02em; margin: 0 0 6px; }
+    .feat p { margin: 0; color: rgba(251,243,230,.65); font-size: .92rem; }
+    @media (max-width: 960px) { .exp__grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 560px) { .exp__grid { grid-template-columns: 1fr; } }
+
+    /* ---------- order ---------- */
+    .order { padding: clamp(110px, 14vw, 180px) 0; }
+    .order__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .ocard { position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 300px; padding: 30px; border-radius: 34px; text-decoration: none; color: var(--ink); transition: transform .6s var(--ease); }
+    .ocard:hover { transform: translateY(-8px); }
+    .ocard h3 { font-family: var(--display); font-size: clamp(2rem, 3.4vw, 2.8rem); line-height: .95; letter-spacing: -.03em; font-weight: 600; margin: 0; }
+    .ocard p { margin: 10px 0 0; font-size: .95rem; opacity: .8; }
+    .ocard .go { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: .9rem; }
+    .ocard .go svg { width: 34px; height: 34px; padding: 8px; border-radius: 50%; background: currentColor; transition: transform .5s var(--ease); }
+    .ocard .go svg path { stroke: var(--paper); }
+    .ocard:hover .go svg { transform: rotate(-45deg); }
+    .ocard > div { position: relative; z-index: 1; }
+    .ocard__deco { position: absolute; right: -24px; bottom: -24px; width: 150px; height: 150px; opacity: .9; transition: transform .8s var(--ease); }
+    .ocard:hover .ocard__deco { transform: rotate(20deg) scale(1.1); }
+    @media (max-width: 860px) { .order__grid { grid-template-columns: 1fr; } .ocard { min-height: 220px; } .ocard__deco { width: 104px; height: 104px; right: -14px; bottom: -14px; } }
+
+    /* ---------- visit ---------- */
+    .visit { padding: 0 0 clamp(110px, 14vw, 180px); }
+    .visit__grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 16px; }
+    .vcard { padding: 34px; border-radius: 34px; background: var(--paper); border: 1px solid var(--line); }
+    .vcard h3 { font-family: var(--display); font-weight: 600; font-size: 2rem; letter-spacing: -.03em; margin: 0 0 18px; }
+    .hours { list-style: none; margin: 0 0 24px; padding: 0; }
+    .hours li { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px dashed var(--line); font-variant-numeric: tabular-nums; }
+    .hours li.today { font-weight: 800; color: var(--maple-deep); }
+    .hours li.today span:first-child::after { content: " · hoy"; font-family: var(--script); font-size: 1.2rem; color: var(--berry); }
+    .addr { font-size: 1.05rem; margin: 0 0 22px; }
+    .map { border-radius: 34px; overflow: hidden; border: 1px solid var(--line); min-height: 460px; position: relative; background: var(--blush); }
+    .map iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; filter: saturate(.7) sepia(.15); }
+    .map__pin { position: absolute; left: 18px; bottom: 18px; z-index: 2; display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn-row { display: flex; flex-wrap: wrap; gap: 10px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+    .chips span { padding: 7px 12px; border-radius: 999px; font-size: .8rem; font-weight: 700; background: var(--cream); border: 1px solid var(--line); }
+    @media (max-width: 860px) { .visit__grid { grid-template-columns: 1fr; } .map { min-height: 340px; } }
+
+    /* ---------- footer ---------- */
+    .foot { background: var(--maple); color: var(--cream); padding: 80px 0 28px; overflow: hidden; border-radius: 48px 48px 0 0; }
+    .foot__top { display: flex; justify-content: space-between; gap: 32px; flex-wrap: wrap; }
+    .foot__top h2 { margin: 0; font-size: clamp(2.4rem, 6vw, 5rem); max-width: 760px; }
+    .foot__top h2 em { color: var(--butter) !important; }
+    .foot__links { display: grid; grid-template-columns: repeat(2, auto); gap: 6px 40px; align-content: start; }
+    .foot__links a { text-decoration: none; font-weight: 600; opacity: .85; }
+    .foot__links a:hover { opacity: 1; text-decoration: underline; }
+    .foot__word { font-family: var(--display); font-variation-settings: "SOFT" 100; font-weight: 700; font-size: clamp(2.6rem, 11.4vw, 12.5rem); line-height: .9; letter-spacing: -.06em; margin: 70px 0 30px; white-space: nowrap; text-align: center; }
+    .foot__word em { font-style: italic; font-weight: 500; color: var(--butter); }
+    .foot__word .char { display: inline-block; }
+    .foot__bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: .8rem; opacity: .75; border-top: 1px solid rgba(251,243,230,.25); padding-top: 22px; }
+
+    /* ---------- cart drawer ---------- */
+    .cart { position: fixed; inset: 0; z-index: 120; pointer-events: none; }
+    .cart__scrim { position: absolute; inset: 0; background: rgba(43,27,18,.45); opacity: 0; transition: opacity .5s; }
+    .cart__panel { position: absolute; right: 12px; top: 12px; bottom: 12px; width: min(440px, calc(100% - 24px)); background: var(--paper); border-radius: 32px; padding: 26px; display: flex; flex-direction: column; transform: translateX(110%); transition: transform .7s var(--ease); box-shadow: 0 30px 80px -30px rgba(43,27,18,.6); }
+    .cart.is-open { pointer-events: auto; }
+    .cart.is-open .cart__scrim { opacity: 1; }
+    .cart.is-open .cart__panel { transform: none; }
+    .cart__head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+    .cart__head h2 { font-family: var(--display); font-size: 2rem; margin: 0; letter-spacing: -.03em; font-weight: 600; }
+    .cart__list { flex: 1; overflow: auto; list-style: none; margin: 0; padding: 0; }
+    .cart__list li { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; padding: 14px 0; border-bottom: 1px dashed var(--line); }
+    .cart__list b { font-weight: 700; }
+    .cart__list small { color: var(--ink-soft); }
+    .qty { display: inline-flex; align-items: center; gap: 8px; }
+    .qty button { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line); background: var(--cream); font-weight: 800; line-height: 1; }
+    .cart__empty { text-align: center; color: var(--ink-soft); padding: 40px 0; }
+    .cart__empty svg { width: 120px; margin: 0 auto 12px; }
+    .cart__total { display: flex; justify-content: space-between; align-items: baseline; padding: 16px 0 6px; font-weight: 700; }
+    .cart__total .price { font-size: 1.8rem; }
+    .cart__note { font-size: .78rem; color: var(--ink-soft); margin: 0 0 14px; }
+    .cart__actions { display: grid; gap: 8px; }
+    .cart__actions .btn { width: 100%; }
+
+    .toast { position: fixed; left: 50%; bottom: 24px; z-index: 130; translate: -50% 0; padding: 12px 18px; border-radius: 999px; background: var(--ink); color: var(--cream); font-weight: 700; font-size: .9rem; display: flex; align-items: center; gap: 10px; transform: translateY(160%); transition: transform .6s var(--ease); white-space: nowrap; }
+    .toast.is-on { transform: none; }
+    .toast svg { width: 18px; height: 18px; color: var(--butter); }
+
+    .fly { position: fixed; z-index: 140; width: 46px; height: 46px; pointer-events: none; }
+
+    .progress { position: fixed; left: 0; top: 0; height: 3px; width: 100%; z-index: 110; background: var(--maple); transform-origin: left; transform: scaleX(0); }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+      .manifesto .mw { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-egg" viewBox="0 0 120 120">
+      <path d="M58 10c18-2 28 12 40 16 14 5 16 24 10 36-6 13 4 26-10 38-13 11-28 6-42 10-16 4-34-4-40-20-6-14 6-24 2-38C14 36 22 20 34 16c9-3 14-5 24-6z" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <circle cx="60" cy="60" r="22" fill="#F6B42C" stroke="#2B1B12" stroke-width="3"/>
+      <ellipse cx="52" cy="52" rx="7" ry="5" fill="#FFE29A" transform="rotate(-30 52 52)"/>
+    </symbol>
+    <symbol id="i-straw" viewBox="0 0 120 120">
+      <path d="M60 108C34 92 18 70 22 50c3-16 18-24 38-22 20-2 35 6 38 22 4 20-12 42-38 58z" fill="#D63E5C" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M40 30c6-12 14-14 20-6 6-8 14-6 20 6-6 6-14 8-20 4-6 4-14 2-20-4z" fill="#7F9B62" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M60 24V10" stroke="#2B1B12" stroke-width="3" stroke-linecap="round"/>
+      <g fill="#FFE29A"><ellipse cx="42" cy="54" rx="2" ry="3"/><ellipse cx="58" cy="50" rx="2" ry="3"/><ellipse cx="76" cy="54" rx="2" ry="3"/><ellipse cx="48" cy="70" rx="2" ry="3"/><ellipse cx="66" cy="68" rx="2" ry="3"/><ellipse cx="80" cy="70" rx="2" ry="3"/><ellipse cx="56" cy="86" rx="2" ry="3"/><ellipse cx="70" cy="84" rx="2" ry="3"/></g>
+      <path d="M36 50c2-6 6-9 10-10" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".6" fill="none"/>
+    </symbol>
+    <symbol id="i-blue" viewBox="0 0 120 120">
+      <circle cx="60" cy="62" r="42" fill="#33467F" stroke="#2B1B12" stroke-width="3"/>
+      <path d="M60 30l5 9 10-3-3 10 9 5-9 5 3 10-10-3-5 9-5-9-10 3 3-10-9-5 9-5-3-10 10 3z" fill="#22305C" stroke="#2B1B12" stroke-width="2.5" stroke-linejoin="round" transform="translate(0 -4) scale(1) "/>
+      <path d="M32 70c2 10 10 18 20 20" stroke="#8FA4E0" stroke-width="4" stroke-linecap="round" fill="none" opacity=".7"/>
+    </symbol>
+    <symbol id="i-bean" viewBox="0 0 120 120">
+      <ellipse cx="60" cy="60" rx="34" ry="46" fill="#6B3A1E" stroke="#2B1B12" stroke-width="3" transform="rotate(28 60 60)"/>
+      <path d="M44 22c22 16 10 52 32 76" stroke="#2B1B12" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M40 46c-2 10 0 18 4 24" stroke="#B87A50" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </symbol>
+    <symbol id="i-drop" viewBox="0 0 120 120">
+      <path d="M60 10C76 38 92 56 92 76a32 32 0 0 1-64 0c0-20 16-38 32-66z" fill="#C2651A" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M44 74c0 10 6 18 14 20" stroke="#F6C453" stroke-width="5" stroke-linecap="round" fill="none"/>
+    </symbol>
+    <symbol id="i-leaf" viewBox="0 0 120 120">
+      <path d="M20 100C20 50 50 18 102 16c2 52-30 84-82 84z" fill="#7F9B62" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M20 100L86 34M44 76l-2-18M56 64l18 2M62 58l-2-16" stroke="#2B1B12" stroke-width="3" stroke-linecap="round" fill="none"/>
+    </symbol>
+    <symbol id="i-orange" viewBox="0 0 120 120">
+      <circle cx="60" cy="60" r="46" fill="#F39A2B" stroke="#2B1B12" stroke-width="3"/>
+      <circle cx="60" cy="60" r="38" fill="#FFC86B" stroke="#2B1B12" stroke-width="2"/>
+      <g stroke="#F39A2B" stroke-width="4" stroke-linecap="round"><path d="M60 26v68M26 60h68M36 36l48 48M84 36L36 84"/></g>
+      <circle cx="60" cy="60" r="6" fill="#FFF3D6" stroke="#2B1B12" stroke-width="2"/>
+    </symbol>
+    <symbol id="i-avocado" viewBox="0 0 120 120">
+      <path d="M60 8c16 0 22 18 30 36 10 22 14 34 6 52-8 16-26 20-36 20s-28-4-36-20c-8-18-4-30 6-52 8-18 14-36 30-36z" fill="#4E6B34" stroke="#2B1B12" stroke-width="3"/>
+      <path d="M60 18c11 0 16 14 22 28 8 18 11 28 5 42-6 12-19 16-27 16s-21-4-27-16c-6-14-3-24 5-42 6-14 11-28 22-28z" fill="#D7E39A"/>
+      <circle cx="60" cy="76" r="18" fill="#8A4B22" stroke="#2B1B12" stroke-width="3"/>
+      <ellipse cx="54" cy="70" rx="5" ry="3.5" fill="#B87A50" transform="rotate(-30 54 70)"/>
+    </symbol>
+    <symbol id="i-chile" viewBox="0 0 120 120">
+      <path d="M30 30c8-4 18 0 22 8 10 22 26 40 52 60 4 4 0 10-6 8C58 98 26 70 22 46c-1-8 2-13 8-16z" fill="#D63E5C" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M30 30c-2-8 2-16 10-20M24 36c6-6 16-6 22 0" stroke="#2B1B12" stroke-width="3" stroke-linecap="round" fill="#7F9B62"/>
+      <path d="M36 50c6 14 16 26 30 36" stroke="#fff" stroke-width="3.5" stroke-linecap="round" opacity=".5" fill="none"/>
+    </symbol>
+    <symbol id="i-heart" viewBox="0 0 120 120">
+      <path d="M60 104C24 80 8 60 12 40c4-18 24-26 38-16 4 3 8 7 10 12 2-5 6-9 10-12 14-10 34-2 38 16 4 20-12 40-48 64z" fill="#D63E5C" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M28 44c2-8 8-12 14-12" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".6" fill="none"/>
+    </symbol>
+    <symbol id="i-pancakes" viewBox="0 0 160 160">
+      <ellipse cx="80" cy="130" rx="70" ry="14" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <g stroke="#2B1B12" stroke-width="3">
+        <path d="M18 112c0-8 28-14 62-14s62 6 62 14v8c0 8-28 14-62 14s-62-6-62-14z" fill="#E7A34A"/>
+        <path d="M20 90c0-8 27-14 60-14s60 6 60 14v8c0 8-27 14-60 14s-60-6-60-14z" fill="#EFB45E"/>
+        <path d="M22 68c0-8 26-14 58-14s58 6 58 14v8c0 8-26 14-58 14s-58-6-58-14z" fill="#E7A34A"/>
+        <ellipse cx="80" cy="66" rx="58" ry="13" fill="#F7C877"/>
+      </g>
+      <path d="M48 64c10 8 54 8 64 0 4 6-2 12-2 18 0 4 4 6 4 12-2 6-8 2-8-4 0-4-2-8-8-6-8 2-30 2-40-2-4 2-4 8-6 14-2 4-8 4-6-4 2-8-2-12 2-28z" fill="#C2651A" stroke="#2B1B12" stroke-width="2.5" stroke-linejoin="round"/>
+      <rect x="66" y="46" width="28" height="18" rx="4" fill="#FFE8A3" stroke="#2B1B12" stroke-width="3" transform="rotate(-8 80 55)"/>
+      <circle cx="104" cy="52" r="7" fill="#33467F" stroke="#2B1B12" stroke-width="2.5"/>
+      <circle cx="54" cy="54" r="6" fill="#33467F" stroke="#2B1B12" stroke-width="2.5"/>
+    </symbol>
+    <symbol id="i-waffle" viewBox="0 0 120 120">
+      <rect x="12" y="12" width="96" height="96" rx="22" fill="#EFB45E" stroke="#2B1B12" stroke-width="3"/>
+      <g fill="#C98632" stroke="#2B1B12" stroke-width="2">
+        <rect x="24" y="24" width="18" height="18" rx="4"/><rect x="51" y="24" width="18" height="18" rx="4"/><rect x="78" y="24" width="18" height="18" rx="4"/>
+        <rect x="24" y="51" width="18" height="18" rx="4"/><rect x="51" y="51" width="18" height="18" rx="4"/><rect x="78" y="51" width="18" height="18" rx="4"/>
+        <rect x="24" y="78" width="18" height="18" rx="4"/><rect x="51" y="78" width="18" height="18" rx="4"/><rect x="78" y="78" width="18" height="18" rx="4"/>
+      </g>
+      <path d="M40 50c8-14 34-14 42 0 6 10-6 12-8 22-2 6-8 4-8-2 0-6-6-6-8 0-2 10-10 10-10 2 0-6-4-8-8-4-6 4-8-6 0-18z" fill="#FFFDF7" stroke="#2B1B12" stroke-width="2.5" stroke-linejoin="round"/>
+      <use href="#i-straw" x="54" y="26" width="30" height="30"/>
+    </symbol>
+    <symbol id="i-bagel" viewBox="0 0 120 120">
+      <circle cx="60" cy="60" r="48" fill="#D9913F" stroke="#2B1B12" stroke-width="3"/>
+      <path d="M22 50c10-24 66-28 78 2" stroke="#F0B867" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <circle cx="60" cy="60" r="15" fill="#FBF3E6" stroke="#2B1B12" stroke-width="3"/>
+      <g fill="#FFF6DC" stroke="#2B1B12" stroke-width="1.2"><ellipse cx="36" cy="40" rx="3" ry="1.8" transform="rotate(30 36 40)"/><ellipse cx="52" cy="28" rx="3" ry="1.8"/><ellipse cx="72" cy="30" rx="3" ry="1.8" transform="rotate(-30 72 30)"/><ellipse cx="86" cy="46" rx="3" ry="1.8" transform="rotate(60 86 46)"/><ellipse cx="88" cy="70" rx="3" ry="1.8"/><ellipse cx="74" cy="88" rx="3" ry="1.8" transform="rotate(40 74 88)"/><ellipse cx="48" cy="90" rx="3" ry="1.8"/><ellipse cx="30" cy="72" rx="3" ry="1.8" transform="rotate(-40 30 72)"/><ellipse cx="62" cy="36" rx="3" ry="1.8" transform="rotate(10 62 36)"/></g>
+    </symbol>
+    <symbol id="i-cup" viewBox="0 0 120 120">
+      <ellipse cx="56" cy="102" rx="46" ry="10" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <path d="M20 40h72v26c0 20-16 34-36 34S20 86 20 66z" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M92 50h6c8 0 12 6 12 12s-4 12-12 12h-8" fill="none" stroke="#2B1B12" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="56" cy="40" rx="36" ry="9" fill="#8F4210" stroke="#2B1B12" stroke-width="3"/>
+      <path d="M56 46c-6-4-12-6-12-10 0-3 4-5 7-3 2 1 4 3 5 4 1-1 3-3 5-4 3-2 7 0 7 3 0 4-6 6-12 10z" fill="#F6E1C3"/>
+      <path d="M44 22c-4-6 4-8 0-14M58 20c-4-6 4-8 0-14M72 22c-4-6 4-8 0-14" stroke="#2B1B12" stroke-width="2.5" stroke-linecap="round" fill="none" opacity=".5"/>
+      <path d="M28 62c2 12 8 20 16 24" stroke="#D63E5C" stroke-width="5" stroke-linecap="round" fill="none"/>
+    </symbol>
+    <symbol id="i-plate" viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="94" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <circle cx="100" cy="100" r="72" fill="none" stroke="#2B1B12" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round"/>
+      <circle cx="100" cy="100" r="64" fill="#FBF3E6"/>
+    </symbol>
+    <symbol id="i-chilaquiles" viewBox="0 0 160 160">
+      <ellipse cx="80" cy="96" rx="72" ry="52" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <path d="M22 92c4-30 30-44 58-44s54 14 58 44c-10 22-34 30-58 30s-48-8-58-30z" fill="#6E9A45" stroke="#2B1B12" stroke-width="3"/>
+      <g fill="#F2C259" stroke="#2B1B12" stroke-width="2.5" stroke-linejoin="round">
+        <path d="M30 86l22-18 6 26z"/><path d="M56 62l26 6-16 22z"/><path d="M92 58l22 12-24 14z"/><path d="M110 82l20 14-26 6z"/><path d="M44 100l24-4-8 22z"/><path d="M78 96l22 6-18 16z"/>
+      </g>
+      <path d="M36 80c14-6 22 4 36-2s22 6 36 0 18 4 24 8" stroke="#FFFDF7" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M72 70c10-10 30-8 34 4 4 14-12 20-24 18-12-2-18-12-10-22z" fill="#FFFDF7" stroke="#2B1B12" stroke-width="2.5"/>
+      <circle cx="88" cy="78" r="9" fill="#F6B42C" stroke="#2B1B12" stroke-width="2.5"/>
+      <g fill="#FBF3E6" stroke="#2B1B12" stroke-width="1.5"><path d="M50 104h6v6h-6z"/><path d="M98 102h6v6h-6z"/><path d="M118 92h5v5h-5z"/></g>
+      <g fill="#D63E5C"><circle cx="64" cy="104" r="3"/><circle cx="112" cy="104" r="3"/><circle cx="40" cy="74" r="3"/></g>
+    </symbol>
+    <symbol id="i-mollete" viewBox="0 0 160 160">
+      <ellipse cx="80" cy="120" rx="72" ry="18" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <g stroke="#2B1B12" stroke-width="3" stroke-linejoin="round">
+        <path d="M14 90c0-22 16-34 34-34s30 12 30 34c0 12-12 16-32 16S14 102 14 90z" fill="#D9913F"/>
+        <path d="M82 90c0-22 16-34 34-34s30 12 30 34c0 12-12 16-32 16S82 102 82 90z" fill="#D9913F"/>
+        <path d="M20 84c4-14 14-20 26-20s22 6 26 20c-8 6-44 6-52 0z" fill="#6B3A1E"/>
+        <path d="M88 84c4-14 14-20 26-20s22 6 26 20c-8 6-44 6-52 0z" fill="#6B3A1E"/>
+        <path d="M22 80c6-10 14-12 24-12 12 0 18 4 24 12-6 4-10-2-16 2s-10-2-16 2-12-4-16-4z" fill="#FFE29A"/>
+        <path d="M90 80c6-10 14-12 24-12 12 0 18 4 24 12-6 4-10-2-16 2s-10-2-16 2-12-4-16-4z" fill="#FFE29A"/>
+      </g>
+      <g stroke="#2B1B12" stroke-width="1.5"><rect x="34" y="66" width="7" height="7" fill="#D63E5C"/><rect x="50" y="70" width="6" height="6" fill="#7F9B62"/><rect x="104" y="66" width="7" height="7" fill="#D63E5C"/><rect x="120" y="72" width="6" height="6" fill="#7F9B62"/><rect x="112" y="76" width="6" height="6" fill="#FFFDF7"/></g>
+    </symbol>
+    <symbol id="i-croque" viewBox="0 0 160 160">
+      <ellipse cx="80" cy="128" rx="70" ry="14" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <g stroke="#2B1B12" stroke-width="3" stroke-linejoin="round">
+        <path d="M24 108l6-30h100l6 30c0 8-28 12-56 12s-56-4-56-12z" fill="#E7A34A"/>
+        <path d="M26 86h108v8H26z" fill="#E88C9C"/>
+        <path d="M24 74c0-18 18-30 56-30s56 12 56 30c0 8-26 12-56 12s-56-4-56-12z" fill="#F0B867"/>
+        <path d="M30 70c4-12 22-18 50-18s46 6 50 18c-14 6-86 6-100 0z" fill="#FFE29A"/>
+        <path d="M58 56c6-16 38-16 44 0 6 12-8 18-22 18s-28-6-22-18z" fill="#FFFDF7"/>
+        <circle cx="80" cy="60" r="10" fill="#F6B42C"/>
+      </g>
+      <g fill="#7F9B62"><circle cx="66" cy="68" r="2"/><circle cx="96" cy="66" r="2"/><circle cx="74" cy="50" r="2"/></g>
+    </symbol>
+    <symbol id="i-enchiladas" viewBox="0 0 160 160">
+      <ellipse cx="80" cy="92" rx="72" ry="52" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <g stroke="#2B1B12" stroke-width="3" stroke-linejoin="round">
+        <rect x="24" y="52" width="112" height="22" rx="11" fill="#F2D9A6" transform="rotate(-8 80 63)"/>
+        <rect x="22" y="78" width="116" height="22" rx="11" fill="#F2D9A6" transform="rotate(-4 80 89)"/>
+        <rect x="26" y="104" width="108" height="22" rx="11" fill="#F2D9A6"/>
+        <path d="M24 70c20-10 40 10 60 0s34-10 54 0c-2 26-16 46-58 46S24 96 24 70z" fill="#6E9A45" opacity=".9"/>
+      </g>
+      <path d="M30 76c16 6 30-6 48 0s30-4 48 2M34 98c16 4 30-4 46 0s28 0 42 2" stroke="#FFFDF7" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <g fill="#FBF3E6" stroke="#2B1B12" stroke-width="1.2"><rect x="50" y="84" width="6" height="6"/><rect x="90" y="80" width="6" height="6"/><rect x="72" y="100" width="6" height="6"/></g>
+      <g stroke="#D63E5C" stroke-width="3" fill="none"><ellipse cx="62" cy="74" rx="8" ry="4"/><ellipse cx="104" cy="96" rx="8" ry="4"/></g>
+    </symbol>
+    <symbol id="i-torta" viewBox="0 0 160 160">
+      <ellipse cx="80" cy="128" rx="70" ry="12" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <g stroke="#2B1B12" stroke-width="3" stroke-linejoin="round">
+        <path d="M18 110c0-10 26-16 62-16s62 6 62 16-26 14-62 14-62-4-62-14z" fill="#D9913F"/>
+        <path d="M20 96c10-6 24 4 34-2s22 4 32-2 24 4 34-2 20 2 22 6c-4 8-30 10-62 10s-56-2-60-10z" fill="#6E9A45"/>
+        <path d="M22 88l12-10 10 12 12-12 10 12 12-12 10 12 12-12 10 12 12-12 12 10c-4 8-30 10-62 10S26 96 22 88z" fill="#F2C259"/>
+        <path d="M18 78c0-30 28-46 62-46s62 16 62 46c0 6-28 8-62 8s-62-2-62-8z" fill="#E7A34A"/>
+      </g>
+      <path d="M50 44c10-6 20-8 30-8M44 56l20-8M74 50l22-6M100 56l14-6" stroke="#FFE29A" stroke-width="4" stroke-linecap="round" fill="none"/>
+    </symbol>
+    <symbol id="i-juice" viewBox="0 0 120 120">
+      <path d="M30 20h60l-8 88H38z" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M33 44h54l-5.8 61H38.8z" fill="#F39A2B"/>
+      <path d="M33 44h54" stroke="#2B1B12" stroke-width="3"/>
+      <path d="M30 20h60l-8 88H38z" fill="none" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M72 6l-8 50" stroke="#D63E5C" stroke-width="5" stroke-linecap="round"/>
+      <use href="#i-orange" x="70" y="10" width="40" height="40"/>
+      <path d="M42 54v40" stroke="#FFC86B" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-latte" viewBox="0 0 120 120">
+      <path d="M28 22h56l-6 84H34z" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M30.5 52h51l-1.6 26h-47.8z" fill="#8F4210"/>
+      <path d="M32.3 78h47.4l-1.9 28H34.2z" fill="#E9C9A0"/>
+      <path d="M29.2 36h53.6l-1.3 16h-51z" fill="#F6E1C3"/>
+      <path d="M28 22h56l-6 84H34z" fill="none" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M84 40h6c6 0 10 6 10 12s-4 12-10 12h-8" fill="none" stroke="#2B1B12" stroke-width="3" stroke-linecap="round"/>
+      <use href="#i-bean" x="4" y="84" width="30" height="30"/>
+    </symbol>
+    <symbol id="i-omelette" viewBox="0 0 160 160">
+      <ellipse cx="80" cy="110" rx="72" ry="30" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <path d="M20 104c0-34 28-58 60-58s60 24 60 58c-10 8-30 10-60 10s-50-2-60-10z" fill="#F6C453" stroke="#2B1B12" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M34 92c6-20 24-34 46-34" stroke="#FFE29A" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <g fill="#7F9B62"><circle cx="70" cy="76" r="3"/><circle cx="96" cy="70" r="3"/><circle cx="110" cy="88" r="3"/><circle cx="58" cy="96" r="3"/><circle cx="84" cy="94" r="3"/></g>
+      <g fill="#D63E5C"><circle cx="78" cy="84" r="3"/><circle cx="102" cy="84" r="3"/><circle cx="64" cy="84" r="2.5"/></g>
+      <use href="#i-leaf" x="112" y="96" width="30" height="30"/>
+    </symbol>
+    <symbol id="i-huevos" viewBox="0 0 160 160">
+      <ellipse cx="80" cy="90" rx="72" ry="56" fill="#FFFDF7" stroke="#2B1B12" stroke-width="3"/>
+      <use href="#i-egg" x="18" y="40" width="70" height="70"/>
+      <use href="#i-egg" x="70" y="50" width="66" height="66"/>
+      <path d="M40 116c10 4 24 6 40 4" stroke="#6B3A1E" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <use href="#i-avocado" x="100" y="100" width="34" height="34"/>
+    </symbol>
+    <symbol id="i-sparkle" viewBox="0 0 120 120">
+      <path d="M60 6c4 30 24 50 54 54-30 4-50 24-54 54-4-30-24-50-54-54 30-4 50-24 54-54z" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6zM9 8V6a3 3 0 0 1 6 0v2" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2" fill="none"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3" stroke="currentColor" stroke-width="2" fill="none"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8.5a.5.5 0 0 1 .5-.5z" fill="currentColor"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 1c-1-.5-2-1.5-2.5-2.5l1-1-1-2z" fill="currentColor"/></symbol>
+    <symbol id="i-kids" viewBox="0 0 48 48"><circle cx="17" cy="11" r="5" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="33" cy="15" r="4" fill="none" stroke="currentColor" stroke-width="3"/><path d="M8 40V26a9 9 0 0 1 18 0v14M27 40V30a6 6 0 0 1 12 0v10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></symbol>
+    <symbol id="i-car" viewBox="0 0 48 48"><path d="M6 30l4-12a4 4 0 0 1 4-3h20a4 4 0 0 1 4 3l4 12v8H6z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><circle cx="14" cy="32" r="3" fill="currentColor"/><circle cx="34" cy="32" r="3" fill="currentColor"/><path d="M6 38v4M42 38v4M11 24h26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 48 48"><circle cx="24" cy="24" r="8" fill="none" stroke="currentColor" stroke-width="3"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M10 10l4 4M34 34l4 4M38 10l-4 4M14 34l-4 4" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></symbol>
+    <symbol id="i-moped" viewBox="0 0 48 48"><circle cx="12" cy="34" r="6" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="37" cy="34" r="6" fill="none" stroke="currentColor" stroke-width="3"/><path d="M18 34h13l4-14h-6M29 20v-6h-6M20 26h-12" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/></symbol>
+    <symbol id="logo" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="30" fill="#2B1B12"/>
+      <path d="M32 50C18 41 12 33 14 25c1.6-7 9.6-10 15-6 1.4 1 2.4 2.4 3 4 .6-1.6 1.6-3 3-4 5.4-4 13.4-1 15 6 2 8-4 16-18 25z" fill="#F6C453"/>
+      <text x="32" y="37" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-style="italic" font-weight="700" font-size="15" fill="#2B1B12">H&amp;M</text>
+    </symbol>
+  </defs>
+</svg>
+
+<a class="sr-only" href="#main">Saltar al contenido</a>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <svg class="loader__mono" viewBox="0 0 120 120">
+      <circle cx="60" cy="60" r="54"/>
+      <path d="M60 94C34 78 22 64 26 48c3-13 18-18 28-11 2.6 1.8 4.6 4.4 6 7.4 1.4-3 3.4-5.6 6-7.4 10-7 25-2 28 11 4 16-8 30-34 46z"/>
+    </svg>
+    <div class="loader__count"><span id="loaderCount">0</span>%</div>
+    <div class="loader__msg">calentando la plancha…</div>
+  </div>
+  <div class="loader__curtain"></div>
+</div>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span></span></div>
+
+<header class="nav" id="nav">
+  <div class="nav__bar">
+    <a class="brand" href="#top" aria-label="Hannah & Michael, inicio">
+      <svg aria-hidden="true"><use href="#logo"/></svg>
+      <span>Hannah <em>&amp;</em> Michael</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="#lugar">El lugar</a></li>
+      <li><a href="#favoritos">Favoritos</a></li>
+      <li><a href="#menu">Menú</a></li>
+      <li><a href="#antojo">¿Qué pido?</a></li>
+      <li><a href="#visitanos">Visítanos</a></li>
+    </ul>
+    <div class="nav__right">
+      <span class="status" id="status"><i></i><span>Consultando horario…</span></span>
+      <a class="btn btn--sm btn--order" href="#pedir" data-magnetic>Pedir ahora</a>
+      <button class="btn btn--light btn--icon cart-btn" id="cartBtn" aria-label="Abrir tu pedido" data-magnetic>
+        <svg aria-hidden="true"><use href="#i-bag"/></svg><b id="cartCount">0</b>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<nav class="drawer-nav" id="drawerNav" aria-label="Navegación móvil">
+  <a href="#lugar">El <em>lugar</em></a>
+  <a href="#favoritos">Favoritos</a>
+  <a href="#menu">El <em>menú</em></a>
+  <a href="#antojo">¿Qué pido?</a>
+  <a href="#pedir">Pedir</a>
+  <a href="#visitanos">Visítanos</a>
+  <p>Blvd. Luis Donaldo Colosio 507 · Jardines de la Concepción · Aguascalientes</p>
+</nav>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="top" aria-label="Bienvenida">
+    <div class="hero__sun" aria-hidden="true"></div>
+
+    <div class="float sm-tl" data-depth="1.2" style="width:clamp(90px,11vw,170px);left:6%;top:16%"><svg><use href="#i-egg"/></svg></div>
+    <div class="float sm-bl" data-depth="0.6" style="width:clamp(70px,8vw,120px);left:18%;top:64%"><svg><use href="#i-straw"/></svg></div>
+    <div class="float hide-sm" data-depth="1.6" style="width:clamp(110px,13vw,200px);left:4%;top:44%"><svg viewBox="0 0 160 160"><use href="#i-pancakes"/></svg></div>
+    <div class="float hide-sm" data-depth="0.9" style="width:clamp(44px,4.4vw,64px);left:30%;top:20%"><svg><use href="#i-blue"/></svg></div>
+    <div class="float sm-tr" data-depth="1.4" style="width:clamp(80px,10vw,150px);right:7%;top:14%"><svg><use href="#i-cup"/></svg></div>
+    <div class="float hide-sm" data-depth="0.7" style="width:clamp(60px,6vw,90px);right:24%;top:24%"><svg><use href="#i-bean"/></svg></div>
+    <div class="float sm-br" data-depth="1.1" style="width:clamp(80px,9vw,140px);right:5%;top:52%"><svg><use href="#i-waffle"/></svg></div>
+    <div class="float hide-sm" data-depth="0.5" style="width:clamp(50px,5vw,74px);right:30%;top:74%"><svg><use href="#i-drop"/></svg></div>
+    <div class="float hide-sm" data-depth="0.8" style="width:clamp(60px,7vw,110px);left:36%;top:80%"><svg><use href="#i-avocado"/></svg></div>
+    <div class="float hide-sm" data-depth="1.3" style="width:clamp(54px,5.4vw,84px);left:62%;top:12%"><svg><use href="#i-orange"/></svg></div>
+    <div class="float hide-sm" data-depth="0.4" style="width:clamp(40px,4vw,60px);left:12%;top:8%"><svg><use href="#i-leaf"/></svg></div>
+    <div class="float sm-bc" data-depth="1" style="width:clamp(40px,4vw,60px);right:16%;top:84%"><svg><use href="#i-heart"/></svg></div>
+
+    <div class="hero__content">
+      <span class="hero__kicker"><svg aria-hidden="true"><use href="#i-heart"/></svg> Brunch · Desayunos · Café en Colosio, Aguascalientes</span>
+      <h1 class="display" id="heroTitle">
+        <span class="line"><span>Buenos</span></span>
+        <span class="line"><span><em>días.</em></span></span>
+      </h1>
+      <p class="hero__script">se dicen con amor y con café</p>
+      <p class="hero__lead">Chilaquiles que crujen, bagels, waffles, hot cakes y café recién hecho en Hannah &amp; Michael, sobre Blvd. Colosio. Ven a la mesa o pide a domicilio.</p>
+      <div class="hero__cta">
+        <a class="btn" href="#menu" data-magnetic data-cursor="Menú">Ver el menú <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--light" href="#pedir" data-magnetic>Pedir a domicilio</a>
+      </div>
+    </div>
+
+    <div class="hero__badge" aria-hidden="true">
+      <svg viewBox="0 0 200 200">
+        <defs><path id="circ" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
+        <circle cx="100" cy="100" r="98" fill="#2B1B12"/>
+        <g class="rot"><text font-family="DM Sans, sans-serif" font-size="17" font-weight="800" letter-spacing="5.4" fill="#FBF3E6"><textPath href="#circ">BRUNCH · CAFÉ · DESAYUNOS · AGS ·</textPath></text></g>
+        <use href="#i-egg" x="62" y="62" width="76" height="76"/>
+      </svg>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">Baja<i></i></div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track" data-marquee="1">
+      <span>Chilaquiles <svg><use href="#i-sparkle" style="color:#F6C453"/></svg> <em>Bagels</em> <svg><use href="#i-sparkle" style="color:#F6C453"/></svg> Waffles <svg><use href="#i-sparkle" style="color:#F6C453"/></svg> <em>Hot cakes</em> <svg><use href="#i-sparkle" style="color:#F6C453"/></svg> Molletes <svg><use href="#i-sparkle" style="color:#F6C453"/></svg> <em>Café</em> <svg><use href="#i-sparkle" style="color:#F6C453"/></svg></span>
+    </div>
+  </div>
+
+  <!-- INTRO -->
+  <section class="intro" aria-labelledby="introTitle">
+    <div class="wrap">
+      <p class="eyebrow" style="margin-bottom:28px">Hannah &amp; Michael · Aguascalientes</p>
+      <h2 class="sr-only" id="introTitle">Nuestra manera de desayunar</h2>
+      <p class="manifesto" id="manifesto">Creemos que los buenos días <span class="chip-inline" aria-hidden="true"><svg><use href="#i-egg"/></svg></span> se comparten. Por eso aquí el café llega caliente <span class="chip-inline" aria-hidden="true" style="background:#F7D3CF"><svg><use href="#i-cup"/></svg></span>, los chilaquiles crujen y siempre hay lugar para uno más en la mesa <span class="chip-inline" aria-hidden="true" style="background:#D7E39A"><svg><use href="#i-heart"/></svg></span>. Dos nombres, una cocina y un brunch que se antoja todo el día.</p>
+
+      <div class="intro__grid">
+        <div class="stat"><b><span data-count="4.6" data-decimals="1">4.6</span>★</b><span>en Uber Eats, con 20 reseñas</span></div>
+        <div class="stat"><b><span data-count="8.5" data-time="1">8:30</span></b><span>abrimos todos los días, desayuno y comida</span></div>
+        <div class="stat"><b><span data-count="3">3</span></b><span>formas de disfrutarlo: en la mesa, Uber Eats o Rappi</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUILD -->
+  <section class="build" id="build" aria-labelledby="buildTitle">
+    <h2 class="sr-only" id="buildTitle">Cómo se arma un buen brunch</h2>
+    <div class="wrap build__inner">
+      <div class="build__steps">
+        <div class="build__step"><span class="num">uno</span><h3>Primero, <em>el plato.</em></h3><p>Una mesa bonita, buena luz y tiempo para platicar. Así empiezan los buenos días.</p></div>
+        <div class="build__step"><span class="num">dos</span><h3>Algo <em>dulce.</em></h3><p>Hot cakes con miel maple y mantequilla, waffles dorados y fruta fresca encima.</p></div>
+        <div class="build__step"><span class="num">tres</span><h3>Algo <em>salado.</em></h3><p>Huevos a tu gusto, chilaquiles bañados en salsa y aguacate para acompañar.</p></div>
+        <div class="build__step"><span class="num">cuatro</span><h3>Un buen <em>café.</em></h3><p>Capuchino, latte o un jugo de naranja. Hasta que la plática ya no quiera terminar.</p></div>
+        <div class="build__step"><span class="num">y siempre</span><h3>Alguien <em>con quién.</em></h3><p>Hannah &amp; Michael: un brunch para compartir con tu pareja, tu familia o tu mejor amiga.</p></div>
+      </div>
+      <div class="build__stage" id="stage" aria-hidden="true">
+        <svg viewBox="0 0 200 200" style="inset:4%;width:92%;height:92%" data-b="plate"><use href="#i-plate"/></svg>
+        <svg viewBox="0 0 160 160" style="left:22%;top:16%;width:46%;height:46%" data-b="pancakes"><use href="#i-pancakes"/></svg>
+        <svg viewBox="0 0 120 120" style="left:58%;top:16%;width:12%;height:12%" data-b="berry"><use href="#i-straw"/></svg>
+        <svg viewBox="0 0 120 120" style="left:18%;top:20%;width:8%;height:8%" data-b="berry"><use href="#i-blue"/></svg>
+        <svg viewBox="0 0 120 120" style="left:64%;top:32%;width:7%;height:7%" data-b="berry"><use href="#i-blue"/></svg>
+        <svg viewBox="0 0 120 120" style="left:24%;top:52%;width:30%;height:30%" data-b="egg"><use href="#i-egg"/></svg>
+        <svg viewBox="0 0 120 120" style="left:52%;top:54%;width:22%;height:22%" data-b="egg"><use href="#i-avocado"/></svg>
+        <svg viewBox="0 0 120 120" style="left:48%;top:44%;width:9%;height:9%" data-b="egg"><use href="#i-leaf"/></svg>
+        <svg viewBox="0 0 120 120" style="left:68%;top:58%;width:30%;height:30%" data-b="cup"><use href="#i-cup"/></svg>
+        <svg viewBox="0 0 120 120" style="left:4%;top:66%;width:14%;height:14%" data-b="heart"><use href="#i-heart"/></svg>
+        <svg viewBox="0 0 120 120" style="left:80%;top:8%;width:12%;height:12%" data-b="heart"><use href="#i-heart"/></svg>
+        <svg viewBox="0 0 120 120" style="left:2%;top:4%;width:9%;height:9%;color:#F6C453" data-b="heart"><use href="#i-sparkle"/></svg>
+      </div>
+      <div class="build__progress" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </section>
+
+  <!-- EL LUGAR -->
+  <section class="place" id="lugar" aria-labelledby="placeTitle">
+    <div class="wrap">
+      <div class="place__head">
+        <div class="sec-head" style="margin:0">
+          <p class="eyebrow">El lugar</p>
+          <h2 class="display split" id="placeTitle">Un rincón con <em>love story.</em></h2>
+        </div>
+        <p>Techo de madera, plantas por todas partes, lámparas tejidas y una terraza al aire libre sobre Blvd. Colosio. Ven por el café y quédate a la sobremesa.</p>
+      </div>
+      <div class="place__grid">
+        <figure class="ph ph--salon" data-cursor="Ven"><img src="assets/salon.jpg" alt="Salón de Hannah & Michael con techo de madera, plantas, lámparas tejidas y sillas azules" loading="lazy" width="780" height="1040" /><figcaption><b>el</b> salón</figcaption></figure>
+        <figure class="ph ph--fachada"><img src="assets/fachada.jpg" alt="Fachada de Hannah & Michael en Blvd. Colosio con letrero, plantas y bancas de madera" loading="lazy" width="780" height="585" /><figcaption><b>la</b> entrada</figcaption></figure>
+        <figure class="ph ph--mesa"><img src="assets/mesa.jpg" alt="Mesa con Croque Madame, waffles con salsa y chilaquiles vistos desde arriba" loading="lazy" width="720" height="889" /><figcaption><b>la</b> mesa</figcaption></figure>
+        <figure class="ph ph--terraza"><img src="assets/terraza.jpg" alt="Terraza con piso de madera, mesas, palmeras y cielo azul" loading="lazy" width="780" height="886" /><figcaption><b>la</b> terraza</figcaption></figure>
+        <figure class="ph ph--chil"><img src="assets/chilaquiles.jpg" alt="Chilaquiles con carne deshebrada, crema, queso y cebolla morada junto a un capuchino" loading="lazy" width="780" height="585" /><figcaption><b>chilaquiles</b> y capuchino</figcaption></figure>
+        <figure class="ph ph--ench"><img src="assets/enchiladas.jpg" alt="Enchiladas bañadas en salsa con crema, queso y cebolla morada" loading="lazy" width="780" height="585" /><figcaption><b>las</b> enchiladas</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAVORITES -->
+  <section class="favs" id="favoritos" aria-labelledby="favTitle">
+    <div class="favs__pin" id="favPin">
+      <div class="wrap favs__hint">
+        <div class="sec-head" style="margin:0">
+          <p class="eyebrow">Los más pedidos</p>
+          <h2 class="display split" id="favTitle">Los <em>favoritos</em> de la casa</h2>
+        </div>
+        <p style="max-width:300px;color:var(--ink-soft);margin:0">Los platillos que más gustan en Uber Eats. Agrégalos a tu pedido con un toque.</p>
+      </div>
+      <div class="favs__track" id="favTrack"></div>
+      <div class="favs__bar" aria-hidden="true"><i id="favBar"></i></div>
+    </div>
+  </section>
+
+  <div class="marquee marquee--alt" aria-hidden="true" style="margin-top:clamp(80px,10vw,140px)">
+    <div class="marquee__track" data-marquee="-1">
+      <span>Pide en Uber Eats <svg><use href="#i-heart"/></svg> <em>o en Rappi</em> <svg><use href="#i-heart"/></svg> Ven a desayunar <svg><use href="#i-heart"/></svg> <em>Blvd. Colosio 507</em> <svg><use href="#i-heart"/></svg></span>
+    </div>
+  </div>
+
+  <!-- MENU -->
+  <section class="menu" id="menu" aria-labelledby="menuTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">La carta</p>
+        <h2 class="display split" id="menuTitle">Todo lo que <em>se antoja.</em></h2>
+        <p>Elige una sección, agrega tus platillos y arma tu pedido. Al final te llevamos a Uber Eats o Rappi para pagarlo.</p>
+      </div>
+      <div class="menu__tabs" role="tablist" aria-label="Secciones del menú" id="tabs"></div>
+      <div class="menu__grid" id="menuGrid" role="tabpanel" aria-live="polite"></div>
+      <p class="menu__note"><svg aria-hidden="true"><use href="#i-info"/></svg><span>Los precios son de referencia, tomados de la tienda de Hannah &amp; Michael Aguascalientes en Uber Eats, y pueden cambiar. Los platillos sin precio se cotizan en sucursal.</span></p>
+    </div>
+  </section>
+
+  <!-- MOOD QUIZ -->
+  <section class="mood" id="antojo" aria-labelledby="moodTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">¿No sabes qué pedir?</p>
+        <h2 class="display split" id="moodTitle">Dinos tu <em>antojo.</em></h2>
+        <p>Tres preguntas y te recomendamos tu platillo.</p>
+      </div>
+      <div class="mood__box">
+        <div class="mood__q" id="moodQ">
+          <div class="mood__steps"><i class="on"></i><i></i><i></i></div>
+          <h3 id="moodQuestion">¿Hoy amaneciste dulce o salado?</h3>
+          <div class="mood__opts" id="moodOpts"></div>
+        </div>
+        <div class="mood__result" id="moodResult" aria-live="polite">
+          <p class="eyebrow" style="color:var(--maple-deep)">Tu brunch ideal</p>
+          <h4 id="moodName">Responde y lo descubrimos</h4>
+          <p id="moodText">Prometemos no juzgar si eliges los dos.</p>
+          <div class="row" id="moodRow"></div>
+          <svg class="art" id="moodArt" viewBox="0 0 160 160"><use href="#i-pancakes"/></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="exp" aria-labelledby="expTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow" style="color:var(--butter)">La experiencia</p>
+        <h2 class="display split" id="expTitle">Hecho para <em>quedarse.</em></h2>
+      </div>
+      <div class="exp__grid">
+        <article class="feat"><svg aria-hidden="true"><use href="#i-sun"/></svg><h3>Desde temprano</h3><p>Abrimos a las 8:30. Desayuno, brunch y comida en un mismo lugar.</p></article>
+        <article class="feat"><svg aria-hidden="true"><use href="#i-kids"/></svg><h3>Área para niños</h3><p>Los peques juegan mientras tú terminas el café con calma.</p></article>
+        <article class="feat"><svg aria-hidden="true"><use href="#i-car"/></svg><h3>Valet parking</h3><p>Llegas sobre Blvd. Colosio y nosotros nos encargamos del coche.</p></article>
+        <article class="feat"><svg aria-hidden="true"><use href="#i-moped"/></svg><h3>A domicilio</h3><p>¿Brunch en pijama? Pide por Uber Eats o Rappi.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER -->
+  <section class="order" id="pedir" aria-labelledby="orderTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Pedir</p>
+        <h2 class="display split" id="orderTitle">¿Mesa o <em>a domicilio?</em></h2>
+      </div>
+      <div class="order__grid">
+        <a class="ocard" style="background:#F7D3CF" id="ueLink" href="#" target="_blank" rel="noopener" data-cursor="Pedir">
+          <svg class="ocard__deco" viewBox="0 0 160 160" aria-hidden="true"><use href="#i-chilaquiles"/></svg>
+          <div><p class="eyebrow" style="color:var(--berry)">A domicilio</p><h3>Uber Eats</h3><p>Hannah &amp; Michael Aguascalientes · 4.6★</p></div>
+          <span class="go">Abrir tienda <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+        </a>
+        <a class="ocard" style="background:#F6C453" id="rappiLink" href="#" target="_blank" rel="noopener" data-cursor="Pedir">
+          <svg class="ocard__deco" viewBox="0 0 120 120" aria-hidden="true"><use href="#i-bagel"/></svg>
+          <div><p class="eyebrow" style="color:var(--maple-deep)">A domicilio</p><h3>Rappi</h3><p>Pide desde la app con tu cuenta de Rappi.</p></div>
+          <span class="go">Abrir tienda <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+        </a>
+        <a class="ocard" style="background:#D7E39A" href="#visitanos" data-cursor="Ir">
+          <svg class="ocard__deco" viewBox="0 0 120 120" aria-hidden="true"><use href="#i-cup"/></svg>
+          <div><p class="eyebrow" style="color:#46602d">En la mesa</p><h3>Ven a desayunar</h3><p>Blvd. Colosio 507, Jardines de la Concepción.</p></div>
+          <span class="go">Cómo llegar <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIT -->
+  <section class="visit" id="visitanos" aria-labelledby="visitTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Visítanos</p>
+        <h2 class="display split" id="visitTitle">Te guardamos <em>la mesa.</em></h2>
+      </div>
+      <div class="visit__grid">
+        <div class="vcard">
+          <figure class="vphoto"><img src="assets/fachada.jpg" alt="Fachada de Hannah & Michael con su letrero sobre Blvd. Colosio" loading="lazy" width="780" height="585" /><span>Busca este letrero</span></figure>
+          <h3>Horario</h3>
+          <ul class="hours" id="hours"></ul>
+          <p class="addr"><strong>Blvd. Luis Donaldo Colosio Murrieta 507</strong><br />Jardines de la Concepción I, 20120 Aguascalientes, Ags.</p>
+          <div class="btn-row" id="visitBtns">
+            <a class="btn" id="dirLink" href="#" target="_blank" rel="noopener" data-magnetic><svg aria-hidden="true"><use href="#i-pin"/></svg> Cómo llegar</a>
+            <a class="btn btn--light" id="fbLink" href="#" target="_blank" rel="noopener" data-magnetic><svg aria-hidden="true"><use href="#i-fb"/></svg> Facebook</a>
+          </div>
+          <div class="chips"><span>Terraza</span><span>Área infantil</span><span>Valet parking</span><span>Para llevar</span><span>Uber Eats</span><span>Rappi</span></div>
+        </div>
+        <div class="map" id="map">
+          <iframe title="Mapa de Hannah & Michael en Blvd. Colosio 507, Aguascalientes" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-src="https://www.google.com/maps?q=Hannah+%26+Michael,+Blvd.+Luis+Donaldo+Colosio+Murrieta+507,+Jardines+de+la+Concepci%C3%B3n,+Aguascalientes&amp;z=16&amp;output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__top">
+      <h2 class="display">Nos vemos <em>mañana</em> en el desayuno.</h2>
+      <div class="foot__links">
+        <a href="#favoritos">Favoritos</a><a href="#" data-link="ue" target="_blank" rel="noopener">Uber Eats</a>
+        <a href="#menu">Menú</a><a href="#" data-link="rappi" target="_blank" rel="noopener">Rappi</a>
+        <a href="#antojo">¿Qué pido?</a><a href="#" data-link="fb" target="_blank" rel="noopener">Facebook</a>
+        <a href="#visitanos">Visítanos</a><a href="#" data-link="google" target="_blank" rel="noopener">Google</a>
+      </div>
+    </div>
+    <p class="foot__word" id="footWord" aria-hidden="true">Hannah <em>&amp;</em> Michael</p>
+    <div class="foot__bottom">
+      <span>© <span id="year">2026</span> Hannah &amp; Michael Aguascalientes</span>
+      <span>Sitio diseñado por <strong>LKM’r</strong></span>
+    </div>
+  </div>
+</footer>
+
+<!-- CART -->
+<div class="cart" id="cart" aria-hidden="true">
+  <div class="cart__scrim" data-close></div>
+  <aside class="cart__panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+    <div class="cart__head">
+      <h2 id="cartTitle">Tu pedido</h2>
+      <button class="btn btn--light btn--icon" data-close aria-label="Cerrar"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+    <ul class="cart__list" id="cartList"></ul>
+    <div id="cartFoot">
+      <div class="cart__total"><span>Total estimado</span><span class="price" id="cartTotal">$0</span></div>
+      <p class="cart__note" id="cartNote">Precios de referencia de Uber Eats. El total final lo confirma la app al pagar.</p>
+      <div class="cart__actions" id="cartActions"></div>
+    </div>
+  </aside>
+</div>
+
+<div class="toast" id="toast" role="status"><svg aria-hidden="true"><use href="#i-check"/></svg><span></span></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  /* ================= CONFIG =================
+     Datos del negocio. Si el cliente confirma un WhatsApp o teléfono, se escriben aquí
+     (formato 52 + 10 dígitos, p. ej. '524490000000') y los botones aparecen solos. */
+  var CONFIG = {
+    name: 'Hannah & Michael Aguascalientes',
+    whatsapp: null,
+    phone: null,
+    links: {
+      ue: 'https://www.ubereats.com/mx/store/hannah-&-michael-aguascalientes-aguascalientes/Ngk0QvD9R62LHL9b1gUTXA',
+      rappi: 'https://www.rappi.com.mx/restaurantes/1930253851-hannah-and-michael-valtierra-blvrd-',
+      fb: 'https://www.facebook.com/p/Hannah-and-Michael-Aguascalientes-61558061837541/',
+      google: 'https://share.google/G1cFjf9asuCnQZ0YX',
+      directions: 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent('Hannah & Michael, Blvd. Luis Donaldo Colosio Murrieta 507, Jardines de la Concepción, 20120 Aguascalientes, Ags.')
+    },
+    // Horario según la página de Facebook del negocio (0 = domingo). Formato 24 h.
+    hours: { 0: ['08:30', '22:00'], 1: ['08:30', '23:00'], 2: ['08:30', '23:00'], 3: ['08:30', '23:00'], 4: ['08:30', '23:00'], 5: ['08:30', '23:00'], 6: ['08:30', '23:00'] },
+    tz: 'America/Mexico_City'
+  };
+
+  /* ================= MENÚ =================
+     price: número = precio de referencia en Uber Eats (Hannah & Michael Aguascalientes).
+     price: null   = se cotiza en sucursal. */
+  var CATS = [
+    { id: 'chilaquiles', name: 'Chilaquiles' },
+    { id: 'huevos', name: 'Huevos & Omelettes' },
+    { id: 'dulce', name: 'Waffles & Hot cakes' },
+    { id: 'bagels', name: 'Bagels & Mexicanos' },
+    { id: 'bebidas', name: 'Café & Jugos' }
+  ];
+  var MENU = [
+    { id: 'chil-hannah', cat: 'chilaquiles', name: 'Chilaquiles Hannah', desc: 'En salsa verde, con tocino y milanesa de pollo. El de la casa.', price: 210, art: 'i-chilaquiles', bg: '#D7E39A', fav: 4 },
+    { id: 'chil-suizos', cat: 'chilaquiles', name: 'Chilaquiles Suizos', desc: 'Bañados en salsa suiza. El más pedido en Uber Eats.', price: 175, art: 'i-chilaquiles', bg: '#F7D3CF', fav: 1, tag: 'N.º 1' },
+    { id: 'torta-chil', cat: 'chilaquiles', name: 'Torta de chilaquiles', desc: 'El clásico de la mañana entre pan.', price: 95, art: 'i-torta', bg: '#FFE29A' },
+    { id: 'huevos-gusto', cat: 'huevos', name: 'Huevos al gusto', desc: 'Como más te gusten: estrellados, revueltos o con tus favoritos.', price: 137, art: 'i-huevos', bg: '#FFE29A', fav: 8 },
+    { id: 'omelette', cat: 'huevos', name: 'Omelette', desc: 'Esponjoso, con relleno a elegir.', price: null, art: 'i-omelette', bg: '#D7E39A' },
+    { id: 'croque', cat: 'huevos', name: 'Croque Madame', desc: 'Pan gratinado con salsa bechamel, huevo estrellado y espárragos.', price: 182, art: 'i-croque', bg: '#F7D3CF', fav: 7, photo: 'assets/croque.jpg' },
+    { id: 'hotcakes', cat: 'dulce', name: 'Hot cakes', desc: 'Servidos con miel maple y mantequilla.', price: null, art: 'i-pancakes', bg: '#FFE29A' },
+    { id: 'waffles', cat: 'dulce', name: 'Waffles', desc: 'Dorados por fuera, suaves por dentro.', price: null, art: 'i-waffle', bg: '#F7D3CF' },
+    { id: 'bagel-hannah', cat: 'bagels', name: 'Bagel Hannah', desc: 'El bagel de la casa.', price: 199, art: 'i-bagel', bg: '#FFE29A', fav: 5 },
+    { id: 'bagel-americano', cat: 'bagels', name: 'Bagel Americano', desc: 'El segundo más pedido en Uber Eats.', price: 175, art: 'i-bagel', bg: '#D7E39A', fav: 2, tag: 'N.º 2' },
+    { id: 'molletes', cat: 'bagels', name: 'Molletes', desc: 'Pan, frijoles, queso gratinado y pico de gallo.', price: 113, art: 'i-mollete', bg: '#F7D3CF', fav: 3, tag: 'N.º 3' },
+    { id: 'molletitos', cat: 'bagels', name: 'Molletitos', desc: 'La versión chiquita, perfecta para compartir.', price: 89, art: 'i-mollete', bg: '#FFE29A' },
+    { id: 'enchiladas', cat: 'bagels', name: 'Enchiladas Suizas', desc: 'Bañadas en salsa, con crema, queso y cebolla morada.', price: 189, art: 'i-enchiladas', bg: '#D7E39A', fav: 6, photo: 'assets/enchiladas.jpg' },
+    { id: 'capuchino', cat: 'bebidas', name: 'Capuchino', desc: 'Espresso con leche espumada.', price: 82, art: 'i-cup', bg: '#F7D3CF' },
+    { id: 'latte', cat: 'bebidas', name: 'Latte', desc: 'Suave y cremoso.', price: 82, art: 'i-latte', bg: '#FFE29A' },
+    { id: 'jugo', cat: 'bebidas', name: 'Jugo de naranja', desc: 'Recién exprimido.', price: 46, art: 'i-juice', bg: '#D7E39A' }
+  ];
+  var byId = {}; MENU.forEach(function (m) { byId[m.id] = m; });
+  var VB = { 'i-chilaquiles': '0 0 160 160', 'i-mollete': '0 0 160 160', 'i-croque': '0 0 160 160', 'i-enchiladas': '0 0 160 160', 'i-torta': '0 0 160 160', 'i-pancakes': '0 0 160 160', 'i-omelette': '0 0 160 160', 'i-huevos': '0 0 160 160' };
+  var art = function (id) { return '<svg viewBox="' + (VB[id] || '0 0 120 120') + '" aria-hidden="true"><use href="#' + id + '"/></svg>'; };
+  var money = function (n) { return '$' + n.toLocaleString('es-MX'); };
+  var $ = function (s, c) { return (c || document).querySelector(s); };
+  var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
+
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasGsap = typeof window.gsap !== 'undefined' && typeof window.ScrollTrigger !== 'undefined';
+  if (hasGsap) gsap.registerPlugin(ScrollTrigger);
+  var animate = hasGsap && !reduce;
+
+  /* ---------- links ---------- */
+  $('#ueLink').href = CONFIG.links.ue;
+  $('#rappiLink').href = CONFIG.links.rappi;
+  $('#fbLink').href = CONFIG.links.fb;
+  $('#dirLink').href = CONFIG.links.directions;
+  $$('[data-link]').forEach(function (a) { a.href = CONFIG.links[a.getAttribute('data-link')]; });
+  $('#year').textContent = new Date().getFullYear();
+  if (CONFIG.phone) {
+    var call = document.createElement('a');
+    call.className = 'btn btn--light'; call.href = 'tel:+' + CONFIG.phone;
+    call.innerHTML = '<svg aria-hidden="true"><use href="#i-phone"/></svg> Llamar';
+    $('#visitBtns').appendChild(call);
+  }
+
+  /* ---------- horario en vivo ---------- */
+  var DAYS = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+  var toMin = function (t) { var p = t.split(':'); return +p[0] * 60 + +p[1]; };
+  var fmt = function (t) { var m = toMin(t), h = Math.floor(m / 60), mm = m % 60, ap = h >= 12 ? 'p.m.' : 'a.m.'; h = h % 12 || 12; return h + ':' + String(mm).padStart(2, '0') + ' ' + ap; };
+  function nowLocal() {
+    try {
+      var parts = new Intl.DateTimeFormat('en-US', { timeZone: CONFIG.tz, weekday: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).formatToParts(new Date());
+      var o = {}; parts.forEach(function (p) { o[p.type] = p.value; });
+      return { day: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(o.weekday), min: (+o.hour % 24) * 60 + +o.minute };
+    } catch (e) { var d = new Date(); return { day: d.getDay(), min: d.getHours() * 60 + d.getMinutes() }; }
+  }
+  function renderHours() {
+    var n = nowLocal(), order = [1, 2, 3, 4, 5, 6, 0];
+    $('#hours').innerHTML = order.map(function (d) {
+      var h = CONFIG.hours[d];
+      return '<li class="' + (d === n.day ? 'today' : '') + '"><span>' + DAYS[d] + '</span><span>' + (h ? fmt(h[0]) + ' – ' + fmt(h[1]) : 'Cerrado') + '</span></li>';
+    }).join('');
+    var h = CONFIG.hours[n.day], st = $('#status'), label = st.querySelector('span');
+    var open = h && n.min >= toMin(h[0]) && n.min < toMin(h[1]);
+    st.classList.toggle('is-closed', !open);
+    if (open) {
+      var left = toMin(h[1]) - n.min;
+      label.textContent = left <= 60 ? 'Cierra en ' + left + ' min' : 'Abierto · hasta ' + fmt(h[1]);
+    } else if (h && n.min < toMin(h[0])) {
+      label.textContent = 'Abrimos hoy ' + fmt(h[0]);
+    } else {
+      var nd = (n.day + 1) % 7; label.textContent = 'Cerrado · abre ' + fmt(CONFIG.hours[nd][0]);
+    }
+  }
+  renderHours(); setInterval(renderHours, 60000);
+
+  /* ---------- favoritos ---------- */
+  var favs = MENU.filter(function (m) { return m.fav; }).sort(function (a, b) { return a.fav - b.fav; });
+  $('#favTrack').innerHTML = favs.map(function (m) {
+    return '<article class="dish" style="--bg:' + m.bg + '" data-cursor="Agregar">' +
+      '<div class="dish__art">' + (m.photo ? '<img src="' + m.photo + '" alt="' + m.name + ' de Hannah & Michael" loading="lazy" /><span class="dish__real">Foto real</span><span class="sticker">' + art(m.art) + '</span>' : art(m.art)) + (m.tag ? '<span class="dish__rank">' + m.tag + ' más pedido</span>' : '') + '</div>' +
+      '<h3>' + m.name + '</h3><p>' + m.desc + '</p>' +
+      '<div class="dish__foot"><span class="price">' + (m.price ? money(m.price) + '<small>MXN</small>' : '') + '</span>' +
+      '<button class="add" data-add="' + m.id + '" aria-label="Agregar ' + m.name + ' al pedido"><svg aria-hidden="true"><use href="#i-plus"/></svg></button></div></article>';
+  }).join('');
+
+  /* ---------- menú con pestañas ---------- */
+  var tabs = $('#tabs'), grid = $('#menuGrid'), currentCat = CATS[0].id;
+  tabs.innerHTML = CATS.map(function (c, i) {
+    return '<button class="tab" role="tab" id="tab-' + c.id + '" aria-selected="' + (i === 0) + '" data-cat="' + c.id + '">' + (i === 0 ? '<span class="tab__pill"></span>' : '') + c.name + '</button>';
+  }).join('');
+  function renderMenu(cat) {
+    grid.setAttribute('aria-labelledby', 'tab-' + cat);
+    grid.innerHTML = MENU.filter(function (m) { return m.cat === cat; }).map(function (m) {
+      return '<article class="item">' +
+        '<div class="item__art" style="--bg:' + m.bg + '">' + (m.photo ? '<img src="' + m.photo + '" alt="' + m.name + '" loading="lazy" />' : art(m.art)) + '</div>' +
+        '<div><h3>' + m.name + (m.tag ? '<span class="tag">' + m.tag + '</span>' : '') + '</h3><p>' + m.desc + '</p>' +
+        (m.price ? '<span class="price">' + money(m.price) + '</span>' : '<span class="price na">Precio en sucursal</span>') + '</div>' +
+        '<button class="add" data-add="' + m.id + '" aria-label="Agregar ' + m.name + ' al pedido"><svg aria-hidden="true"><use href="#i-plus"/></svg></button>' +
+        '</article>';
+    }).join('');
+    if (animate) gsap.from(grid.children, { y: 40, opacity: 0, rotate: function (i) { return i % 2 ? 1.5 : -1.5; }, duration: .8, stagger: .07, ease: 'expo.out', clearProps: 'all' });
+  }
+  renderMenu(currentCat);
+  tabs.addEventListener('click', function (e) {
+    var b = e.target.closest('.tab'); if (!b || b.dataset.cat === currentCat) return;
+    var pill = $('.tab__pill', tabs), from = pill.getBoundingClientRect();
+    $$('.tab', tabs).forEach(function (t) { t.setAttribute('aria-selected', t === b); });
+    b.insertBefore(pill, b.firstChild);
+    if (animate) {
+      var to = pill.getBoundingClientRect();
+      gsap.fromTo(pill, { x: from.left - to.left, width: from.width }, { x: 0, width: to.width, duration: .6, ease: 'expo.out', clearProps: 'all' });
+    }
+    currentCat = b.dataset.cat; renderMenu(currentCat);
+    b.scrollIntoView({ block: 'nearest', inline: 'center', behavior: reduce ? 'auto' : 'smooth' });
+  });
+
+  /* ---------- carrito ---------- */
+  var cart = {};
+  try { cart = JSON.parse(localStorage.getItem('hm-cart') || '{}') || {}; } catch (e) { cart = {}; }
+  Object.keys(cart).forEach(function (k) { if (!byId[k]) delete cart[k]; });
+  var save = function () { try { localStorage.setItem('hm-cart', JSON.stringify(cart)); } catch (e) {} };
+  function orderText() {
+    var lines = Object.keys(cart).map(function (k) { var m = byId[k]; return '• ' + cart[k] + ' × ' + m.name + (m.price ? ' (' + money(m.price * cart[k]) + ')' : ''); });
+    return 'Hola, Hannah & Michael. Quiero pedir:\n' + lines.join('\n');
+  }
+  function renderCart() {
+    var keys = Object.keys(cart), count = 0, total = 0, unpriced = 0;
+    keys.forEach(function (k) { count += cart[k]; if (byId[k].price) total += byId[k].price * cart[k]; else unpriced++; });
+    $('#cartCount').textContent = count;
+    $('#cartBtn').classList.toggle('has-items', count > 0);
+    $('#cartFoot').style.display = count ? '' : 'none';
+    $('#cartList').innerHTML = count ? keys.map(function (k) {
+      var m = byId[k];
+      return '<li><div><b>' + m.name + '</b><br /><small>' + (m.price ? money(m.price) + ' c/u' : 'Precio en sucursal') + '</small></div>' +
+        '<div class="qty"><button data-dec="' + k + '" aria-label="Quitar uno de ' + m.name + '">−</button><span>' + cart[k] + '</span><button data-inc="' + k + '" aria-label="Agregar uno de ' + m.name + '">+</button></div></li>';
+    }).join('') : '<li class="cart__empty" style="display:block;border:0"><svg viewBox="0 0 200 200" aria-hidden="true"><use href="#i-plate"/></svg>Tu plato está vacío.<br />Agrega algo rico del menú.</li>';
+    $('#cartTotal').textContent = total ? money(total) : 'Por cotizar';
+    $('#cartNote').textContent = (unpriced ? 'Incluye ' + unpriced + ' platillo(s) con precio en sucursal. ' : '') + 'Precios de referencia de Uber Eats. El total final lo confirma la app al pagar.';
+    var acts = '';
+    if (CONFIG.whatsapp) acts += '<a class="btn" style="--bg:#25D366;--fg:#06361a" target="_blank" rel="noopener" href="https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(orderText()) + '"><svg aria-hidden="true"><use href="#i-wa"/></svg> Enviar por WhatsApp</a>';
+    acts += '<a class="btn" target="_blank" rel="noopener" href="' + CONFIG.links.ue + '">Terminar en Uber Eats <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>';
+    acts += '<a class="btn btn--butter" target="_blank" rel="noopener" href="' + CONFIG.links.rappi + '">Terminar en Rappi <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>';
+    acts += '<button class="btn btn--light" id="copyOrder"><svg aria-hidden="true"><use href="#i-copy"/></svg> Copiar mi lista</button>';
+    $('#cartActions').innerHTML = acts;
+    save();
+  }
+  renderCart();
+
+  var toastT;
+  function toast(msg) {
+    var t = $('#toast'); t.querySelector('span').textContent = msg; t.classList.add('is-on');
+    clearTimeout(toastT); toastT = setTimeout(function () { t.classList.remove('is-on'); }, 2200);
+  }
+  function flyToCart(fromEl, id) {
+    if (!animate) return;
+    var a = fromEl.getBoundingClientRect(), b = $('#cartBtn').getBoundingClientRect();
+    var f = document.createElement('div'); f.className = 'fly'; f.innerHTML = art(byId[id].art); document.body.appendChild(f);
+    gsap.set(f, { left: a.left, top: a.top });
+    var dx = b.left - a.left, dy = b.top - a.top;
+    gsap.timeline({ onComplete: function () { f.remove(); gsap.fromTo('#cartBtn', { scale: 1.25 }, { scale: 1, duration: .6, ease: 'elastic.out(1,.4)' }); } })
+      .to(f, { x: dx * .5, y: dy * .5 - 120, rotate: 180, scale: 1.4, duration: .35, ease: 'power2.out' })
+      .to(f, { x: dx, y: dy, rotate: 360, scale: .4, duration: .4, ease: 'power2.in' });
+  }
+  function add(id, el) {
+    cart[id] = (cart[id] || 0) + 1; renderCart();
+    if (el) { flyToCart(el, id); el.classList.add('is-added'); el.innerHTML = '<svg aria-hidden="true"><use href="#i-check"/></svg>'; setTimeout(function () { el.classList.remove('is-added'); el.innerHTML = '<svg aria-hidden="true"><use href="#i-plus"/></svg>'; }, 1200); }
+    toast(byId[id].name + ' agregado a tu pedido');
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('[data-add]'); if (a) { add(a.dataset.add, a); return; }
+    var inc = e.target.closest('[data-inc]'); if (inc) { cart[inc.dataset.inc]++; renderCart(); return; }
+    var dec = e.target.closest('[data-dec]'); if (dec) { var k = dec.dataset.dec; if (--cart[k] <= 0) delete cart[k]; renderCart(); return; }
+    if (e.target.closest('#copyOrder')) {
+      var txt = orderText();
+      (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { toast('Lista copiada. Pégala en la app al pedir'); }, function () { window.prompt('Copia tu pedido:', txt); });
+    }
+  });
+
+  var cartEl = $('#cart'), lastFocus;
+  function openCart() { lastFocus = document.activeElement; cartEl.classList.add('is-open'); cartEl.setAttribute('aria-hidden', 'false'); if (lenis) lenis.stop(); setTimeout(function () { $('[data-close].btn', cartEl).focus(); }, 50); }
+  function closeCart() { cartEl.classList.remove('is-open'); cartEl.setAttribute('aria-hidden', 'true'); if (lenis) lenis.start(); if (lastFocus) lastFocus.focus(); }
+  $('#cartBtn').addEventListener('click', openCart);
+  $$('[data-close]', cartEl).forEach(function (b) { b.addEventListener('click', closeCart); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { if (cartEl.classList.contains('is-open')) closeCart(); if (drawer.classList.contains('is-open')) toggleDrawer(false); } });
+
+  /* ---------- menú móvil ---------- */
+  var drawer = $('#drawerNav'), toggle = $('#menuToggle');
+  function toggleDrawer(force) {
+    var open = typeof force === 'boolean' ? force : !drawer.classList.contains('is-open');
+    drawer.classList.toggle('is-open', open); toggle.setAttribute('aria-expanded', open);
+    toggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+    if (animate && open) gsap.from($$('a', drawer), { y: 60, opacity: 0, duration: .8, stagger: .06, ease: 'expo.out', delay: .15 });
+  }
+  toggle.addEventListener('click', function () { toggleDrawer(); });
+  $$('a', drawer).forEach(function (a) { a.addEventListener('click', function () { toggleDrawer(false); }); });
+
+  /* ---------- quiz de antojo ---------- */
+  var Q = [
+    { q: '¿Hoy amaneciste dulce o salado?', o: [['🥞', 'Dulce', 'dulce'], ['🍳', 'Salado', 'salado']] },
+    { q: { dulce: '¿Con fruta o con mucha miel maple?', salado: '¿Con o sin picante?' }, o: { dulce: [['🍓', 'Con fruta', 'fruta'], ['🍯', 'Miel maple', 'maple']], salado: [['🌶️', '¡Que pique!', 'pica'], ['🧀', 'Sin picante', 'nopica']] } },
+    { q: '¿Qué tanta hambre traes?', o: [['🦁', 'Muchísima', 'mucha'], ['🐦', 'Algo ligero', 'ligero']] }
+  ];
+  var RESULTS = {
+    'dulce-fruta-mucha': ['waffles', 'Waffles con fruta. Y un latte, porque te lo mereces.'],
+    'dulce-fruta-ligero': ['latte', 'Un latte y algo dulce para compartir. Ligero, pero con estilo.'],
+    'dulce-maple-mucha': ['hotcakes', 'Hot cakes con miel maple y mantequilla. Un clásico que no falla.'],
+    'dulce-maple-ligero': ['capuchino', 'Un capuchino y unos hot cakes a la mitad con alguien especial.'],
+    'salado-pica-mucha': ['chil-hannah', 'Salsa verde, tocino y milanesa de pollo. Para quien viene en serio.'],
+    'salado-pica-ligero': ['chil-suizos', 'Los Chilaquiles Suizos, el N.º 1 en Uber Eats. Por algo será.'],
+    'salado-nopica-mucha': ['croque', 'Gratinado, con huevo encima. Croque Madame, sin miedo.'],
+    'salado-nopica-ligero': ['bagel-americano', 'El Bagel Americano: el segundo más pedido y perfecto para empezar.']
+  };
+  var answers = [], step = 0;
+  function renderQ() {
+    var item = Q[step], key = answers[0];
+    var q = typeof item.q === 'string' ? item.q : item.q[key];
+    var o = Array.isArray(item.o) ? item.o : item.o[key];
+    $('#moodQuestion').textContent = q;
+    $('#moodOpts').innerHTML = o.map(function (x) { return '<button class="opt" data-ans="' + x[2] + '"><span aria-hidden="true">' + x[0] + '</span>' + x[1] + '</button>'; }).join('');
+    $$('.mood__steps i').forEach(function (s, i) { s.classList.toggle('on', i <= step); });
+    if (animate) gsap.from(['#moodQuestion', $$('#moodOpts .opt')], { y: 24, opacity: 0, duration: .6, stagger: .06, ease: 'expo.out' });
+  }
+  function showResult() {
+    var r = RESULTS[answers.join('-')], m = byId[r[0]];
+    $('#moodName').textContent = m.name;
+    $('#moodText').textContent = r[1] + (m.price ? ' ' + money(m.price) + '.' : '');
+    $('#moodArt').setAttribute('viewBox', VB[m.art] || '0 0 120 120');
+    $('#moodArt').innerHTML = '<use href="#' + m.art + '"/>';
+    $('#moodRow').innerHTML = '<button class="btn" data-add="' + m.id + '"><svg aria-hidden="true"><use href="#i-plus"/></svg> Agregar al pedido</button><button class="btn btn--light" id="moodAgain">Otra vez</button>';
+    $('#moodQuestion').textContent = '¡Listo! Ya sabemos qué se te antoja.';
+    $('#moodOpts').innerHTML = '';
+    if (animate) {
+      gsap.fromTo('#moodResult', { scale: .94, rotate: -2 }, { scale: 1, rotate: 0, duration: 1, ease: 'elastic.out(1,.5)' });
+      gsap.fromTo('#moodArt', { y: 120, rotate: -40, opacity: 0 }, { y: 0, rotate: 0, opacity: .95, duration: 1, ease: 'expo.out' });
+      gsap.from(['#moodName', '#moodText', '#moodRow'], { y: 30, opacity: 0, duration: .7, stagger: .08, ease: 'expo.out' });
+    }
+  }
+  $('#moodQ').addEventListener('click', function (e) {
+    var b = e.target.closest('[data-ans]'); if (!b) return;
+    answers[step] = b.dataset.ans; step++;
+    if (step < Q.length) renderQ(); else showResult();
+  });
+  $('#moodResult').addEventListener('click', function (e) { if (e.target.closest('#moodAgain')) { answers = []; step = 0; renderQ(); } });
+  renderQ();
+
+  /* ---------- mapa diferido ---------- */
+  var mapFrame = $('#map iframe');
+  var loadMap = function () { if (!mapFrame.src) mapFrame.src = mapFrame.dataset.src; };
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (en) { if (en[0].isIntersecting) { loadMap(); io.disconnect(); } }, { rootMargin: '600px' });
+    io.observe(mapFrame);
+  } else loadMap();
+
+  /* ================= ANIMACIONES ================= */
+  var lenis = null;
+  if (!animate) {
+    var ld = $('#loader'); if (ld) ld.remove();
+    $$('.marquee__track').forEach(function (t) { t.innerHTML += t.innerHTML; });
+    $$('.manifesto .mw').forEach(function (w) { w.style.opacity = 1; });
+    return;
+  }
+
+  // Desplazamiento suave
+  if (typeof window.Lenis !== 'undefined') {
+    lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add(function (t) { lenis.raf(t * 1000); });
+    gsap.ticker.lagSmoothing(0);
+    $$('a[href^="#"]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        var id = a.getAttribute('href'); if (id.length < 2) return;
+        var t = document.querySelector(id); if (!t) return;
+        e.preventDefault(); lenis.scrollTo(t, { offset: id === '#top' ? 0 : -20, duration: 1.4 });
+      });
+    });
+  }
+
+  // Divide texto en letras / palabras
+  function splitChars(el) {
+    $$('.line > span', el).forEach(function (s) {
+      var em = s.querySelector('em'), target = em || s, txt = target.textContent;
+      target.innerHTML = txt.split('').map(function (c) { return '<span class="char">' + (c === ' ' ? '&nbsp;' : c) + '</span>'; }).join('');
+    });
+    return $$('.char', el);
+  }
+  function splitWords(el) {
+    var walk = function (node) {
+      Array.prototype.slice.call(node.childNodes).forEach(function (n) {
+        if (n.nodeType === 3) {
+          var frag = document.createDocumentFragment();
+          n.textContent.split(/(\s+)/).forEach(function (p) {
+            if (!p) return;
+            if (/^\s+$/.test(p)) { frag.appendChild(document.createTextNode(p)); return; }
+            var w = document.createElement('span'); w.className = 'w'; w.innerHTML = '<span></span>'; w.firstChild.textContent = p; frag.appendChild(w);
+          });
+          n.replaceWith(frag);
+        } else if (n.nodeType === 1 && !n.classList.contains('chip-inline')) walk(n);
+      });
+    };
+    walk(el); return $$('.w > span', el);
+  }
+
+  // Cursor
+  var cursor = $('#cursor');
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    var cx = gsap.quickTo(cursor, 'x', { duration: .25, ease: 'power3' }), cy = gsap.quickTo(cursor, 'y', { duration: .25, ease: 'power3' });
+    window.addEventListener('pointermove', function (e) { cx(e.clientX); cy(e.clientY); });
+    document.addEventListener('pointerover', function (e) {
+      var t = e.target.closest('[data-cursor]');
+      cursor.classList.toggle('is-big', !!t); cursor.firstChild.textContent = t ? t.dataset.cursor : '';
+    });
+    // botones magnéticos
+    $$('[data-magnetic]').forEach(function (b) {
+      var mx = gsap.quickTo(b, 'x', { duration: .5, ease: 'elastic.out(1,.4)' }), my = gsap.quickTo(b, 'y', { duration: .5, ease: 'elastic.out(1,.4)' });
+      b.addEventListener('pointermove', function (e) { var r = b.getBoundingClientRect(); mx((e.clientX - r.left - r.width / 2) * .3); my((e.clientY - r.top - r.height / 2) * .4); });
+      b.addEventListener('pointerleave', function () { mx(0); my(0); });
+    });
+  } else cursor.remove();
+
+  // Barra de progreso y nav
+  gsap.to('#progress', { scaleX: 1, ease: 'none', scrollTrigger: { start: 0, end: 'max', scrub: true } });
+  var nav = $('#nav');
+  ScrollTrigger.create({ start: 0, end: 'max', onUpdate: function (s) {
+    nav.classList.toggle('is-scrolled', s.scroll() > 40);
+    nav.classList.toggle('is-hidden', s.direction === 1 && s.scroll() > 600 && !drawer.classList.contains('is-open'));
+  } });
+
+  // Marquesinas que responden a la velocidad del scroll
+  $$('.marquee__track').forEach(function (t) {
+    t.innerHTML += t.innerHTML;
+    var dir = +t.dataset.marquee, w = t.scrollWidth / 2, x = 0, speed = 1.1;
+    gsap.ticker.add(function () {
+      var v = lenis ? lenis.velocity : 0;
+      x -= (speed + Math.min(Math.abs(v) * .35, 12)) * dir * (v < 0 ? -1 : 1);
+      if (x <= -w) x += w; if (x > 0) x -= w;
+      t.style.transform = 'translate3d(' + x + 'px,0,0)';
+    });
+  });
+
+  // Hero
+  var chars = splitChars($('#heroTitle'));
+  var floats = $$('.hero .float');
+  gsap.set(chars, { yPercent: 120, rotate: 8 });
+  gsap.set(floats, { scale: 0, rotate: -60 });
+  gsap.set(['.hero__kicker', '.hero__script', '.hero__lead', '.hero__cta', '.hero__badge', '.hero__scroll'], { opacity: 0, y: 30 });
+  gsap.set('.hero__sun', { scale: .3, opacity: 0 });
+
+  function heroIn() {
+    var tl = gsap.timeline({ defaults: { ease: 'expo.out' } });
+    tl.to('.hero__sun', { scale: 1, opacity: .75, duration: 2 }, 0)
+      .to('.hero__kicker', { opacity: 1, y: 0, duration: 1 }, .1)
+      .to(chars, { yPercent: 0, rotate: 0, duration: 1.3, stagger: .045 }, .15)
+      .to(floats, { scale: 1, rotate: 0, duration: 1.4, stagger: { each: .06, from: 'random' }, ease: 'elastic.out(1,.55)' }, .3)
+      .to(['.hero__script', '.hero__lead', '.hero__cta'], { opacity: 1, y: 0, duration: 1, stagger: .1 }, .6)
+      .to(['.hero__badge', '.hero__scroll'], { opacity: 1, y: 0, duration: 1 }, .9);
+    // flotación continua
+    floats.forEach(function (f, i) {
+      var svg = f.firstElementChild;
+      gsap.to(svg, { y: gsap.utils.random(-18, 18), rotate: gsap.utils.random(-14, 14), duration: gsap.utils.random(2.6, 4.2), repeat: -1, yoyo: true, ease: 'sine.inOut', delay: i * .1 });
+    });
+  }
+
+  // parallax con el mouse
+  var px = floats.map(function (f) { return { x: gsap.quickTo(f, 'x', { duration: 1.2, ease: 'power3' }), y: gsap.quickTo(f, 'y', { duration: 1.2, ease: 'power3' }), d: +f.dataset.depth }; });
+  $('.hero').addEventListener('pointermove', function (e) {
+    var nx = e.clientX / innerWidth - .5, ny = e.clientY / innerHeight - .5;
+    px.forEach(function (p) { p.x(-nx * 60 * p.d); p.y(-ny * 50 * p.d); });
+  });
+  // al hacer scroll, los ingredientes salen volando y el titular se aleja
+  floats.forEach(function (f) {
+    var d = +f.dataset.depth, r = f.getBoundingClientRect(), left = r.left + r.width / 2 < innerWidth / 2;
+    gsap.to(f, { yPercent: -160 * d, xPercent: (left ? -1 : 1) * 60 * d, rotate: (left ? -1 : 1) * 90, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+  });
+  gsap.to('.hero__content', { yPercent: 30, scale: .9, opacity: 0, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+  gsap.to('.hero__sun', { scale: 1.6, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+
+  // Loader
+  var count = { v: 0 }, lc = $('#loaderCount');
+  var mono = $$('.loader__mono path, .loader__mono circle');
+  mono.forEach(function (p) { var L = p.getTotalLength(); gsap.set(p, { strokeDasharray: L, strokeDashoffset: L }); });
+  if (lenis) lenis.stop();
+  gsap.timeline({ onComplete: function () { $('#loader').remove(); if (lenis) lenis.start(); ScrollTrigger.refresh(); } })
+    .to(mono, { strokeDashoffset: 0, duration: 1.4, ease: 'power2.inOut', stagger: .15 }, 0)
+    .to(count, { v: 100, duration: 1.6, ease: 'power2.inOut', onUpdate: function () { lc.textContent = Math.round(count.v); } }, 0)
+    .to('.loader__curtain', { height: '100%', duration: .7, ease: 'expo.inOut' }, 1.65)
+    .to('.loader', { yPercent: -100, duration: .9, ease: 'expo.inOut' }, 2.2)
+    .add(heroIn, 2.45);
+
+  // Manifiesto palabra por palabra
+  var mWords = splitWords($('#manifesto'));
+  mWords.forEach(function (w) { w.parentNode.classList.add('mw'); });
+  gsap.to($$('#manifesto .mw'), { opacity: 1, stagger: .1, ease: 'none', scrollTrigger: { trigger: '#manifesto', start: 'top 80%', end: 'bottom 45%', scrub: true } });
+  gsap.from('.chip-inline', { scale: 0, rotate: -90, duration: 1, ease: 'elastic.out(1,.5)', stagger: .2, scrollTrigger: { trigger: '#manifesto', start: 'top 70%' } });
+
+  // Contadores
+  $$('[data-count]').forEach(function (el) {
+    var end = +el.dataset.count, dec = +(el.dataset.decimals || 0), isTime = el.dataset.time, o = { v: 0 };
+    gsap.to(o, { v: end, duration: 2, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 90%' }, onUpdate: function () {
+      if (isTime) { var h = Math.floor(o.v), m = Math.round((o.v - h) * 60 / 30) * 30; if (m === 60) { h++; m = 0; } el.textContent = h + ':' + String(m).padStart(2, '0'); }
+      else el.textContent = o.v.toFixed(dec);
+    } });
+  });
+  gsap.from('.stat', { y: 60, opacity: 0, duration: 1, stagger: .12, ease: 'expo.out', scrollTrigger: { trigger: '.intro__grid', start: 'top 85%' } });
+
+  // Títulos de sección palabra por palabra
+  $$('.split').forEach(function (h) {
+    var w = splitWords(h);
+    gsap.from(w, { yPercent: 110, rotate: 6, duration: 1.1, stagger: .06, ease: 'expo.out', scrollTrigger: { trigger: h, start: 'top 85%' } });
+  });
+
+  // Plato que se arma (sección fija)
+  var steps = $$('.build__step'), bars = $$('.build__progress i');
+  var B = function (k) { return $$('[data-b="' + k + '"]'); };
+  gsap.set(steps.slice(1), { autoAlpha: 0, y: 60 });
+  gsap.set(B('plate'), { scale: .2, rotate: -180, opacity: 0 });
+  gsap.set(B('pancakes'), { y: -500, rotate: -30, opacity: 0 });
+  gsap.set(B('berry'), { y: -400, scale: 0 });
+  gsap.set(B('egg'), { x: -400, rotate: -200, opacity: 0 });
+  gsap.set(B('cup'), { x: 400, rotate: 60, opacity: 0 });
+  gsap.set(B('heart'), { scale: 0 });
+  var btl = gsap.timeline({ defaults: { ease: 'power3.out' }, scrollTrigger: {
+    trigger: '#build', start: 'top top', end: '+=' + (innerHeight * 3.4), pin: true, scrub: 1, anticipatePin: 1,
+    onUpdate: function (s) { var p = s.progress * 5; bars.forEach(function (b, i) { b.style.setProperty('--p', Math.max(0, Math.min(1, p - i))); }); }
+  } });
+  var swap = function (i, at) {
+    btl.to(steps[i - 1], { autoAlpha: 0, y: -60, duration: .4 }, at).to(steps[i], { autoAlpha: 1, y: 0, duration: .5 }, at + .2);
+  };
+  btl.to(B('plate'), { scale: 1, rotate: 0, opacity: 1, duration: 1 }, 0)
+    .add(function () {}, 1);
+  swap(1, 1.1);
+  btl.to(B('pancakes'), { y: 0, rotate: 0, opacity: 1, duration: 1, ease: 'bounce.out' }, 1.2)
+     .to(B('berry'), { y: 0, scale: 1, duration: .8, stagger: .12, ease: 'back.out(2)' }, 1.7);
+  swap(2, 2.6);
+  btl.to(B('egg'), { x: 0, rotate: 0, opacity: 1, duration: 1, stagger: .15 }, 2.7);
+  swap(3, 3.8);
+  btl.to(B('cup'), { x: 0, rotate: 0, opacity: 1, duration: 1 }, 3.9);
+  swap(4, 5);
+  btl.to(B('heart'), { scale: 1, duration: .8, stagger: .12, ease: 'elastic.out(1,.4)' }, 5.1)
+     .to('#stage', { rotate: 6, scale: 1.04, duration: 1 }, 5.1)
+     .to({}, { duration: .6 });
+
+  // Favoritos en horizontal (escritorio)
+  var mm = gsap.matchMedia();
+  mm.add('(min-width: 861px)', function () {
+    var track = $('#favTrack');
+    var dist = function () { return Math.max(0, track.scrollWidth - innerWidth); };
+    var t = gsap.to(track, { x: function () { return -dist(); }, ease: 'none', scrollTrigger: {
+      trigger: '#favPin', start: 'top top', end: function () { return '+=' + dist(); }, pin: true, scrub: 1, invalidateOnRefresh: true,
+      onUpdate: function (s) { gsap.set('#favBar', { scaleX: s.progress }); }
+    } });
+    $$('.dish', track).forEach(function (d, i) {
+      gsap.from(d.querySelector('.dish__art svg'), { rotate: -45, scale: .6, ease: 'none', scrollTrigger: { trigger: d, containerAnimation: t, start: 'left right', end: 'center center', scrub: true } });
+    });
+    return function () { gsap.set(track, { clearProps: 'all' }); };
+  });
+  mm.add('(max-width: 860px)', function () {
+    gsap.from('.dish', { y: 80, opacity: 0, duration: 1, stagger: .1, ease: 'expo.out', scrollTrigger: { trigger: '#favTrack', start: 'top 85%' } });
+  });
+
+  // Galería del lugar: revelado con máscara y parallax interno
+  $$('.ph').forEach(function (f) {
+    var img = f.querySelector('img');
+    gsap.fromTo(f, { clipPath: 'inset(16% 12% 16% 12% round 30px)' }, { clipPath: 'inset(0% 0% 0% 0% round 30px)', ease: 'none', scrollTrigger: { trigger: f, start: 'top 95%', end: 'top 45%', scrub: true } });
+    gsap.fromTo(img, { yPercent: -7 }, { yPercent: 7, ease: 'none', scrollTrigger: { trigger: f, start: 'top bottom', end: 'bottom top', scrub: true } });
+  });
+  gsap.from('.ph figcaption', { y: 30, opacity: 0, duration: .9, stagger: .08, ease: 'expo.out', scrollTrigger: { trigger: '.place__grid', start: 'top 70%' } });
+
+  // Tarjetas y bloques
+  gsap.from('.feat', { y: 80, opacity: 0, rotate: function (i) { return (i % 2 ? 4 : -4); }, duration: 1.1, stagger: .1, ease: 'expo.out', scrollTrigger: { trigger: '.exp__grid', start: 'top 85%' } });
+  gsap.from('.ocard', { y: 120, opacity: 0, rotate: function (i) { return [-5, 3, -2][i]; }, duration: 1.2, stagger: .12, ease: 'expo.out', scrollTrigger: { trigger: '.order__grid', start: 'top 85%' } });
+  gsap.from(['.vcard', '.map'], { y: 80, opacity: 0, duration: 1.1, stagger: .12, ease: 'expo.out', scrollTrigger: { trigger: '.visit__grid', start: 'top 85%' } });
+  gsap.from('.hours li', { x: -30, opacity: 0, duration: .7, stagger: .05, ease: 'expo.out', scrollTrigger: { trigger: '.hours', start: 'top 85%' } });
+  gsap.from('.mood__box > *', { y: 80, opacity: 0, duration: 1.1, stagger: .12, ease: 'expo.out', scrollTrigger: { trigger: '.mood__box', start: 'top 85%' } });
+
+  // Palabra gigante del pie
+  var fw = $('#footWord'), fwHtml = fw.innerHTML;
+  fw.innerHTML = fwHtml.replace(/(<em>.*?<\/em>)|([^<\s])|(\s)/g, function (m, em, ch, sp) {
+    if (em) return '<em class="char">&amp;</em>';
+    if (sp) return '<span class="char">&nbsp;</span>';
+    return '<span class="char">' + ch + '</span>';
+  });
+  gsap.from($$('.char', fw), { yPercent: 100, rotate: function (i) { return i % 2 ? 12 : -12; }, opacity: 0, duration: 1.2, stagger: .04, ease: 'expo.out', scrollTrigger: { trigger: fw, start: 'top 95%' } });
+
+  window.addEventListener('load', function () { ScrollTrigger.refresh(); });
+})();
+</script>
+
+</body>
+</html>
