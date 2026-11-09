@@ -279,14 +279,15 @@
     .ph--fachada { grid-column: 7 / 13; aspect-ratio: 4 / 3; }
     .ph--mesa { grid-column: 7 / 10; aspect-ratio: 4 / 5; }
     .ph--terraza { grid-column: 10 / 13; aspect-ratio: 4 / 5; }
-    .ph--chil { grid-column: 1 / 7; aspect-ratio: 4 / 3; }
-    .ph--ench { grid-column: 7 / 13; aspect-ratio: 4 / 3; }
+    .ph--chil { grid-column: 1 / 5; aspect-ratio: 4 / 3; }
+    .ph--brunch { grid-column: 5 / 9; aspect-ratio: 4 / 3; }
+    .ph--ench { grid-column: 9 / 13; aspect-ratio: 4 / 3; }
     .place__grid .ph--salon { aspect-ratio: auto; }
     @media (max-width: 860px) {
       .place__head { grid-template-columns: 1fr; }
       .place__grid { grid-template-columns: 1fr 1fr; gap: 10px; }
       .ph { border-radius: 22px; }
-      .ph--salon, .ph--fachada, .ph--chil, .ph--ench { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 4 / 3; }
+      .ph--salon, .ph--fachada, .ph--chil, .ph--ench, .ph--brunch { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 4 / 3; }
       .ph--mesa, .ph--terraza { grid-column: auto; aspect-ratio: 4 / 5 !important; }
       .place__grid .ph--salon { aspect-ratio: 4 / 5; }
     }
@@ -856,6 +857,7 @@
         <figure class="ph ph--mesa"><img src="assets/mesa.jpg" alt="Mesa con Croque Madame, waffles con salsa y chilaquiles vistos desde arriba" loading="lazy" width="720" height="889" /><figcaption><b>la</b> mesa</figcaption></figure>
         <figure class="ph ph--terraza"><img src="assets/terraza.jpg" alt="Terraza con piso de madera, mesas, palmeras y cielo azul" loading="lazy" width="780" height="886" /><figcaption><b>la</b> terraza</figcaption></figure>
         <figure class="ph ph--chil"><img src="assets/chilaquiles.jpg" alt="Chilaquiles con carne deshebrada, crema, queso y cebolla morada junto a un capuchino" loading="lazy" width="780" height="585" /><figcaption><b>chilaquiles</b> y capuchino</figcaption></figure>
+        <figure class="ph ph--brunch"><img src="assets/brunch.jpg" alt="Mesa de brunch con chilaquiles rojos y verdes, hot cakes con fruta, bagel con tocino, jugo de naranja y café" loading="lazy" width="500" height="400" /><figcaption><b>el</b> brunch</figcaption></figure>
         <figure class="ph ph--ench"><img src="assets/enchiladas.jpg" alt="Enchiladas bañadas en salsa con crema, queso y cebolla morada" loading="lazy" width="780" height="585" /><figcaption><b>las</b> enchiladas</figcaption></figure>
       </div>
     </div>
@@ -1072,7 +1074,7 @@
     { id: 'huevos-gusto', cat: 'huevos', name: 'Huevos al gusto', desc: 'Como más te gusten: estrellados, revueltos o con tus favoritos.', price: 137, art: 'i-huevos', bg: '#FFE29A', fav: 8 },
     { id: 'omelette', cat: 'huevos', name: 'Omelette', desc: 'Esponjoso, con relleno a elegir.', price: null, art: 'i-omelette', bg: '#D7E39A' },
     { id: 'croque', cat: 'huevos', name: 'Croque Madame', desc: 'Pan gratinado con salsa bechamel, huevo estrellado y espárragos.', price: 182, art: 'i-croque', bg: '#F7D3CF', fav: 7, photo: 'assets/croque.jpg' },
-    { id: 'hotcakes', cat: 'dulce', name: 'Hot cakes', desc: 'Servidos con miel maple y mantequilla.', price: null, art: 'i-pancakes', bg: '#FFE29A' },
+    { id: 'hotcakes', cat: 'dulce', name: 'Hot cakes', desc: 'Con fruta, mantequilla y miel maple.', price: null, art: 'i-pancakes', bg: '#FFE29A', photo: 'assets/hotcakes.jpg' },
     { id: 'waffles', cat: 'dulce', name: 'Waffles', desc: 'Dorados por fuera, suaves por dentro.', price: null, art: 'i-waffle', bg: '#F7D3CF' },
     { id: 'bagel-hannah', cat: 'bagels', name: 'Bagel Hannah', desc: 'El bagel de la casa.', price: 199, art: 'i-bagel', bg: '#FFE29A', fav: 5 },
     { id: 'bagel-americano', cat: 'bagels', name: 'Bagel Americano', desc: 'El segundo más pedido en Uber Eats.', price: 175, art: 'i-bagel', bg: '#D7E39A', fav: 2, tag: 'N.º 2' },
