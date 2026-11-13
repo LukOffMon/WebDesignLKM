@@ -1,0 +1,86 @@
+[
+ {
+  "id": "s1",
+  "start": 0.35,
+  "end": 4.6,
+  "text": "Este cliente vino una vez… y nunca regresó.",
+  "dur": 2.47
+ },
+ {
+  "id": "s2",
+  "start": 3.2,
+  "end": 9.4,
+  "text": "No fue tu servicio. Se le olvidó. Y tu tarjeta de papel, terminó en la basura.",
+  "dur": 4.71
+ },
+ {
+  "id": "s3",
+  "start": 8.29,
+  "end": 14.4,
+  "text": "Con Mr Key, tu tarjeta de sellos vive en su celular. Sin descargar ninguna app.",
+  "dur": 5.16
+ },
+ {
+  "id": "s4",
+  "start": 13.84,
+  "end": 20.4,
+  "text": "Cada visita, un sello. Al completar, su premio. Y tu equipo confirma la entrega.",
+  "dur": 5.16
+ },
+ {
+  "id": "s5",
+  "start": 19.37,
+  "end": 26.4,
+  "text": "¿Dejó de venir? Mr Key le manda un mensaje directo a su pantalla de bloqueo… y regresa.",
+  "dur": 5.58
+ },
+ {
+  "id": "s6",
+  "start": 25.34,
+  "end": 29.8,
+  "text": "Clientes que regresan. En automático.",
+  "dur": 2.44
+ },
+ {
+  "id": "s7",
+  "start": 30.4,
+  "end": 35.2,
+  "text": "Ponlo a funcionar hoy. Paso uno: crea tu cuenta gratis y elige tu giro.",
+  "dur": 4.66
+ },
+ {
+  "id": "s8",
+  "start": 35.44,
+  "end": 40.0,
+  "text": "Paso dos: sube tu logo, tus colores y tu premio.",
+  "dur": 2.94
+ },
+ {
+  "id": "s9",
+  "start": 38.77,
+  "end": 45.4,
+  "text": "Paso tres: imprime tu código QR para el mostrador, y crea el PIN de tu equipo.",
+  "dur": 5.35
+ },
+ {
+  "id": "s10",
+  "start": 44.49,
+  "end": 52.0,
+  "text": "Paso cuatro: tu cliente escanea y guarda su tarjeta. Tú escaneas la suya y le das su sello.",
+  "dur": 5.75
+ },
+ {
+  "id": "s11",
+  "start": 50.62,
+  "end": 56.8,
+  "text": "En tu panel ves premios por entregar, clientes inactivos y el dinero que recuperaste.",
+  "dur": 4.75
+ },
+ {
+  "id": "s12",
+  "start": 55.75,
+  "end": 60.0,
+  "text": "Mr Key. Pruébalo gratis catorce días.",
+  "dur": 2.88
+ }
+]

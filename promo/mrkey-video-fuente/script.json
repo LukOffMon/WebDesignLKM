@@ -1,0 +1,14 @@
+[
+ {"id":"s1","start":0.3,"end":4.6,"text":"Este cliente vino una vez… y nunca regresó."},
+ {"id":"s2","start":4.8,"end":9.4,"text":"No fue tu servicio. Se le olvidó. Y tu tarjeta de papel, terminó en la basura."},
+ {"id":"s3","start":9.6,"end":14.4,"text":"Con Mr Key, tu tarjeta de sellos vive en su celular. Sin descargar ninguna app."},
+ {"id":"s4","start":14.6,"end":20.4,"text":"Cada visita, un sello. Al completar, su premio. Y tu equipo confirma la entrega."},
+ {"id":"s5","start":20.6,"end":26.4,"text":"¿Dejó de venir? Mr Key le manda un mensaje directo a su pantalla de bloqueo… y regresa."},
+ {"id":"s6","start":26.6,"end":29.8,"text":"Clientes que regresan. En automático."},
+ {"id":"s7","start":30.2,"end":35.2,"text":"Ponlo a funcionar hoy. Paso uno: crea tu cuenta gratis y elige tu giro."},
+ {"id":"s8","start":35.4,"end":40.0,"text":"Paso dos: sube tu logo, tus colores y tu premio."},
+ {"id":"s9","start":40.2,"end":45.4,"text":"Paso tres: imprime tu código QR para el mostrador, y crea el PIN de tu equipo."},
+ {"id":"s10","start":45.6,"end":52.0,"text":"Paso cuatro: tu cliente escanea y guarda su tarjeta. Tú escaneas la suya y le das su sello."},
+ {"id":"s11","start":52.2,"end":56.8,"text":"En tu panel ves premios por entregar, clientes inactivos y el dinero que recuperaste."},
+ {"id":"s12","start":57.0,"end":60.0,"text":"Mr Key. Pruébalo gratis catorce días."}
+]

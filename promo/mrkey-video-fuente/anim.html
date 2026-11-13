@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8" />
+<title>Mr Key · video</title>
+<style>
+  @font-face { font-family: Fraunces; font-weight: 500; src: url(fonts/fraunces-latin-500-normal.woff2); }
+  @font-face { font-family: Fraunces; font-weight: 500; font-style: italic; src: url(fonts/fraunces-latin-500-italic.woff2); }
+  @font-face { font-family: Manrope; font-weight: 500; src: url(fonts/manrope-latin-500-normal.woff2); }
+  @font-face { font-family: Manrope; font-weight: 700; src: url(fonts/manrope-latin-700-normal.woff2); }
+  @font-face { font-family: Manrope; font-weight: 800; src: url(fonts/manrope-latin-800-normal.woff2); }
+  :root { --gold: #d6b47a; --ink: #1a1408; --bg: #0b0b0c; --panel: #17171b; --mute: #a1a1aa; --ok: #4ade80; --bad: #f87171; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); }
+  body { font-family: Manrope, sans-serif; color: #fff; -webkit-font-smoothing: antialiased; }
+  #stage { position: absolute; inset: 0; overflow: hidden; background: radial-gradient(1200px 900px at 50% 30%, #1f1a12 0%, #0b0b0c 60%); }
+  .abs { position: absolute; will-change: transform, opacity; transform-origin: 50% 50%; }
+  .scene { position: absolute; inset: 0; opacity: 0; }
+  .serif { font-family: Fraunces, Georgia, serif; font-weight: 500; }
+  em { font-style: italic; color: var(--gold); }
+  .big { font-family: Fraunces, Georgia, serif; font-size: 112px; line-height: 1.02; letter-spacing: -.02em; text-align: center; }
+  .chip { display: inline-flex; align-items: center; gap: 12px; padding: 18px 30px; border-radius: 999px; font-weight: 800; font-size: 40px; background: #26262c; border: 2px solid rgba(255,255,255,.12); white-space: nowrap; }
+  .chip.gold { background: var(--gold); color: var(--ink); border-color: transparent; }
+  .chip.bad { background: rgba(248,113,113,.15); color: var(--bad); border-color: rgba(248,113,113,.4); }
+  .chip.ok { background: rgba(74,222,128,.15); color: var(--ok); border-color: rgba(74,222,128,.45); }
+  /* Teléfono */
+  .phone { width: 560px; height: 1100px; border-radius: 76px; background: #1d1d22; padding: 22px; box-shadow: 0 60px 140px rgba(0,0,0,.6), 0 0 0 3px #2c2c33, 0 0 120px rgba(214,180,122,.12); }
+  .phone .screen { width: 100%; height: 100%; border-radius: 58px; background: #0b0b0c; overflow: hidden; position: relative; }
+  .phone .notch { position: absolute; top: 20px; left: 50%; width: 170px; height: 46px; margin-left: -85px; border-radius: 30px; background: #000; z-index: 5; }
+  /* Tarjeta de lealtad */
+  .lcard { position: absolute; left: 30px; right: 30px; border-radius: 34px; padding: 30px; background: var(--cbg, #1c1917); color: var(--cfg, #fafaf9); box-shadow: 0 30px 70px rgba(0,0,0,.5), inset 0 0 0 2px rgba(255,255,255,.08); }
+  .lcard .row { display: flex; justify-content: space-between; align-items: center; }
+  .lcard .brand { font-family: Fraunces, serif; font-size: 40px; line-height: 1.05; }
+  .lcard .lbl { font-size: 18px; font-weight: 800; letter-spacing: .16em; color: var(--cacc, #d6b47a); }
+  .lcard .val { font-weight: 800; font-size: 32px; }
+  .lcard .stamps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin: 28px 0; }
+  .lcard .st { aspect-ratio: 1; border-radius: 50%; border: 4px dashed rgba(255,255,255,.3); display: grid; place-items: center; font-size: 44px; color: var(--cbg, #1c1917); }
+  .lcard .st.on { border: none; background: var(--cacc, #d6b47a); }
+  .lcard .qr { background: #fff; border-radius: 22px; padding: 20px; display: grid; place-items: center; margin-top: 20px; }
+  .lcard .qr svg { width: 250px; height: 250px; }
+  /* Subtítulos */
+  #cap { position: absolute; left: 60px; right: 60px; top: 1540px; text-align: center; font-weight: 800; font-size: 58px; line-height: 1.22; letter-spacing: -.01em; text-shadow: 0 4px 24px rgba(0,0,0,.8); }
+  #cap span { opacity: .28; transition: none; }
+  #cap span.on { opacity: 1; }
+  #cap span.now { color: var(--gold); }
+  #top { position: absolute; top: 70px; left: 0; right: 0; display: flex; justify-content: center; }
+  .stepbar { display: flex; gap: 14px; }
+  .stepbar i { width: 90px; height: 12px; border-radius: 8px; background: rgba(255,255,255,.15); overflow: hidden; position: relative; }
+  .stepbar i b { position: absolute; inset: 0; background: var(--gold); transform-origin: left; }
+  .steptitle { text-align: center; }
+  .steptitle .n { font-weight: 800; font-size: 34px; letter-spacing: .3em; color: var(--gold); }
+  .steptitle .t { font-family: Fraunces, serif; font-size: 84px; line-height: 1.05; margin-top: 10px; }
+  .field { background: #141418; border: 2px solid #2b2b31; border-radius: 22px; padding: 18px 22px; }
+  .field .l { font-size: 20px; font-weight: 800; color: var(--mute); }
+  .field .v { font-size: 32px; font-weight: 700; margin-top: 6px; min-height: 42px; }
+  .btn { border-radius: 999px; background: var(--gold); color: var(--ink); font-weight: 800; font-size: 32px; text-align: center; padding: 26px; }
+  .finger { font-size: 120px; filter: drop-shadow(0 10px 20px rgba(0,0,0,.6)); }
+  .confetti i { position: absolute; width: 18px; height: 30px; border-radius: 4px; }
+  .kpi { background: #17171b; border: 2px solid rgba(255,255,255,.1); border-radius: 34px; padding: 30px 34px; }
+  .kpi .l { font-size: 24px; font-weight: 800; letter-spacing: .14em; color: var(--mute); }
+  .kpi .n { font-family: Fraunces, serif; font-size: 96px; line-height: 1.1; margin-top: 8px; }
+  .kpi.hl { border-color: rgba(214,180,122,.7); background: linear-gradient(180deg, rgba(214,180,122,.18), #17171b); }
+  .kpi.hl .n { color: var(--gold); }
+  .bars { display: flex; align-items: flex-end; gap: 12px; height: 220px; }
+  .bars i { flex: 1; background: var(--gold); border-radius: 10px 10px 4px 4px; transform-origin: bottom; }
+  .dot { position: absolute; border-radius: 50%; background: var(--gold); }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="particles"></div>
+
+  <!-- ===== Escena 1: el cliente que no regresa ===== -->
+  <div class="scene" id="sc1">
+    <div class="abs" id="shop" style="left:190px;top:330px;width:700px;height:860px"></div>
+    <div class="abs" id="m1" style="left:0;top:640px;width:300px;height:560px"></div>
+    <div class="abs chip gold" id="c1a" style="left:120px;top:1260px">1 visita</div>
+    <div class="abs chip bad" id="c1b" style="left:560px;top:1260px">0 regresos</div>
+  </div>
+
+  <!-- ===== Escena 2: tarjeta de papel a la basura ===== -->
+  <div class="scene" id="sc2">
+    <div class="abs big" id="t2" style="left:0;right:0;top:250px">Se le <em>olvidó</em>.</div>
+    <div class="abs" id="paper" style="left:240px;top:520px;width:600px;height:360px;border-radius:24px;background:#efe6d2;color:#3b2f1e;padding:34px;box-shadow:0 30px 60px rgba(0,0,0,.5)">
+      <div style="font-family:Fraunces,serif;font-size:44px">Barbería Don Luis</div>
+      <div style="font-size:24px;font-weight:700;opacity:.7;margin-top:6px">Tarjeta de sellos</div>
+      <div id="paperDots" style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:30px"></div>
+    </div>
+    <div class="abs" id="trash" style="left:390px;top:1020px;width:300px;height:380px"></div>
+  </div>
+
+  <!-- ===== Escena 3: Mr Key llega ===== -->
+  <div class="scene" id="sc3">
+    <div class="abs" id="key3" style="left:40px;top:430px;width:400px;height:720px"></div>
+    <div class="abs phone" id="ph3" style="left:470px;top:260px"><div class="screen"><div class="notch"></div><div id="card3" class="lcard" style="top:150px"></div>
+      <div style="position:absolute;left:30px;right:30px;bottom:60px;display:grid;gap:16px">
+        <div style="border-radius:20px;background:#000;border:2px solid #333;padding:22px;text-align:center;font-weight:800;font-size:28px">Añadir a Apple Wallet</div>
+        <div style="border-radius:20px;background:#000;border:2px solid #333;padding:22px;text-align:center;font-weight:800;font-size:28px">Guardar en Google Wallet</div>
+      </div></div></div>
+    <div class="abs chip" id="c3a" style="left:60px;top:1250px">Apple Wallet</div>
+    <div class="abs chip" id="c3b" style="left:330px;top:1250px">Google Wallet</div>
+    <div class="abs chip ok" id="c3c" style="left:720px;top:1250px">Sin apps</div>
+  </div>
+
+  <!-- ===== Escena 4: sellos, premio y entrega confirmada ===== -->
+  <div class="scene" id="sc4">
+    <div class="abs phone" id="ph4" style="left:260px;top:200px"><div class="screen"><div class="notch"></div><div id="card4" class="lcard" style="top:150px"></div>
+      <div class="abs" id="confirm4" style="left:24px;right:24px;bottom:24px;border-radius:40px;background:#1c1c21;border:2px solid #333;padding:34px">
+        <div style="font-size:20px;font-weight:800;letter-spacing:.24em;color:var(--mute)">CONFIRMAR ENTREGA</div>
+        <div class="serif" style="font-size:44px;line-height:1.1;margin:12px 0 22px">¿Ya le diste su premio a Marco?</div>
+        <div id="btn4" class="btn" style="background:var(--ok);color:#052e16">✓ Sí, ya se lo entregué</div>
+      </div>
+    </div></div>
+    <div class="abs" id="plus4" style="left:760px;top:420px;font-weight:800;font-size:80px;color:var(--gold)">+1</div>
+    <div class="abs confetti" id="conf4" style="left:540px;top:700px;width:0;height:0"></div>
+    <div class="abs chip gold" id="gift4" style="left:290px;top:1350px;font-size:48px">🎁 ¡Ganó su premio!</div>
+    <div class="abs chip ok" id="ok4" style="left:250px;top:1350px;font-size:44px">✓ Entregado · 3:42 p.m. · Ana</div>
+    <div class="abs finger" id="fing4" style="left:600px;top:1180px">👆</div>
+  </div>
+
+  <!-- ===== Escena 5: inactivo, notificación y regreso ===== -->
+  <div class="scene" id="sc5">
+    <div class="abs" id="m5" style="left:60px;top:560px;width:300px;height:560px"></div>
+    <div class="abs" id="cal5" style="left:60px;top:300px;width:300px;border-radius:28px;background:#fff;color:#111;overflow:hidden;text-align:center;box-shadow:0 20px 50px rgba(0,0,0,.5)">
+      <div style="background:var(--bad);color:#fff;font-weight:800;font-size:28px;padding:10px">DÍAS SIN VENIR</div>
+      <div id="days5" class="serif" style="font-size:120px;line-height:1.1;padding:6px 0 14px">1</div>
+    </div>
+    <div class="abs" id="zz5" style="left:300px;top:520px;font-size:70px;font-weight:800;color:var(--mute)">z<span style="font-size:50px">z</span><span style="font-size:36px">z</span></div>
+    <div class="abs phone" id="ph5" style="left:440px;top:260px;transform-origin:50% 0"><div class="screen" style="background:linear-gradient(160deg,#3a2d4f,#101018 60%)"><div class="notch"></div>
+      <div style="text-align:center;margin-top:150px;font-size:130px;font-weight:600;letter-spacing:-.03em">9:41</div>
+      <div style="text-align:center;font-size:28px;font-weight:700;opacity:.8">martes 18 de noviembre</div>
+      <div class="abs" id="notif5" style="left:24px;right:24px;top:440px;border-radius:34px;background:rgba(255,255,255,.18);padding:24px;display:flex;gap:18px">
+        <div style="width:64px;height:64px;border-radius:16px;background:var(--gold);flex:none;display:grid;place-items:center;color:var(--ink);font-weight:800;font-size:34px">★</div>
+        <div><div style="font-weight:800;font-size:28px">Barbería Don Luis</div><div style="font-size:27px;line-height:1.3;opacity:.92;margin-top:4px">Marco, te extrañamos 💈 Ven esta semana y tu sello es doble.</div></div>
+      </div>
+    </div></div>
+    <div class="abs" id="key5" style="left:820px;top:1060px;width:220px;height:400px"></div>
+    <div class="abs" id="money5" style="left:0;right:0;top:1220px;text-align:center"><span class="serif" id="moneyN" style="font-size:150px;color:var(--gold)">+$0</span><div style="font-weight:800;font-size:40px;color:var(--mute);margin-top:-10px">recuperados</div></div>
+  </div>
+
+  <!-- ===== Escena 6: logo + transición ===== -->
+  <div class="scene" id="sc6">
+    <div class="abs" id="key6" style="left:340px;top:220px;width:400px;height:720px"></div>
+    <div class="abs serif" id="logo6" style="left:0;right:0;top:930px;text-align:center;font-size:200px;letter-spacing:-.03em">Mr <em>Key</em></div>
+    <div class="abs" id="tag6" style="left:0;right:0;top:1180px;text-align:center;font-weight:800;font-size:54px;color:var(--mute)">Clientes que regresan. <span style="color:#fff">En automático.</span></div>
+    <div class="abs" id="band6" style="left:-60px;right:-60px;top:760px;height:420px;background:var(--gold);color:var(--ink);display:grid;place-items:center;text-align:center;transform-origin:0 50%">
+      <div><div style="font-weight:800;font-size:40px;letter-spacing:.32em">AHORA</div><div class="serif" style="font-size:118px;line-height:1">Cómo empezar</div><div style="font-weight:800;font-size:46px;margin-top:10px">⏱ en 2 minutos</div></div>
+    </div>
+  </div>
+
+  <!-- ===== Escena 7: paso 1 cuenta ===== -->
+  <div class="scene" id="sc7">
+    <div class="abs steptitle" style="left:0;right:0;top:150px" id="h7"><div class="n">PASO 1</div><div class="t">Crea tu cuenta <em>gratis</em></div></div>
+    <div class="abs phone" id="ph7" style="left:260px;top:440px;height:1040px"><div class="screen"><div class="notch"></div>
+      <div style="position:absolute;left:30px;right:30px;top:110px;display:grid;gap:18px">
+        <div class="serif" style="font-size:42px">Tu tarjeta, <em>lista en 2 minutos</em></div>
+        <div class="field"><div class="l">NOMBRE DEL NEGOCIO</div><div class="v" id="type7"></div></div>
+        <div class="field"><div class="l">GIRO</div><div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:10px" id="giro7">
+          <span class="chip" style="font-size:24px;padding:10px 18px">Barbería</span><span class="chip" style="font-size:24px;padding:10px 18px">Cafetería</span><span class="chip" style="font-size:24px;padding:10px 18px">Salón</span><span class="chip" style="font-size:24px;padding:10px 18px">Veterinaria</span></div></div>
+        <div id="sug7" style="border-radius:20px;background:rgba(214,180,122,.14);color:#f1dfbd;padding:18px 20px;font-size:26px;font-weight:700">✨ Sugerido: 8 sellos = Corte gratis</div>
+        <div class="btn" id="btn7">Crear mi tarjeta gratis</div>
+      </div>
+    </div></div>
+    <div class="abs finger" id="fing7" style="left:560px;top:1000px">👆</div>
+  </div>
+
+  <!-- ===== Escena 8: paso 2 marca ===== -->
+  <div class="scene" id="sc8">
+    <div class="abs steptitle" style="left:0;right:0;top:150px"><div class="n">PASO 2</div><div class="t">Logo, colores y <em>premio</em></div></div>
+    <div class="abs" id="card8wrap" style="left:120px;top:470px;width:840px;height:620px"><div id="card8" class="lcard" style="top:0;left:0;right:0;padding:44px"></div></div>
+    <div class="abs" id="pal8" style="left:0;right:0;top:1180px;display:flex;justify-content:center;gap:26px"></div>
+  </div>
+
+  <!-- ===== Escena 9: paso 3 QR y PIN ===== -->
+  <div class="scene" id="sc9">
+    <div class="abs steptitle" style="left:0;right:0;top:150px"><div class="n">PASO 3</div><div class="t">QR en el mostrador</div></div>
+    <div class="abs" id="poster9" style="left:110px;top:430px;width:480px;height:720px;background:#fff;color:#111;border-radius:28px;padding:36px;text-align:center;box-shadow:0 40px 80px rgba(0,0,0,.55)">
+      <div class="serif" style="font-size:46px;line-height:1.05">Barbería Don Luis</div>
+      <div style="font-weight:800;font-size:24px;margin:12px 0 20px">Junta 8 sellos y gana: Corte gratis</div>
+      <div id="qr9" style="border:8px solid #1c1917;border-radius:26px;padding:16px;display:inline-block"></div>
+      <div style="font-size:22px;color:#555;margin-top:18px;font-weight:700">Escanea con tu cámara · sin apps</div>
+    </div>
+    <div class="abs" id="stand9" style="left:80px;top:1150px;width:540px;height:40px;border-radius:14px;background:#5b4630"></div>
+    <div class="abs" id="pin9" style="left:640px;top:520px;width:360px;border-radius:40px;background:#17171b;border:2px solid #2b2b31;padding:34px;text-align:center">
+      <div style="font-weight:800;font-size:24px;letter-spacing:.2em;color:var(--mute)">PIN DEL EQUIPO</div>
+      <div id="pindots" style="display:flex;justify-content:center;gap:22px;margin:30px 0"></div>
+      <div id="pinok" class="chip ok" style="font-size:30px;padding:12px 22px">✓ Guardado</div>
+    </div>
+  </div>
+
+  <!-- ===== Escena 10: paso 4 a sellar ===== -->
+  <div class="scene" id="sc10">
+    <div class="abs steptitle" style="left:0;right:0;top:150px"><div class="n">PASO 4</div><div class="t">Escanea y <em>sella</em></div></div>
+    <div class="abs phone" id="phA" style="left:120px;top:430px;width:400px;height:790px;border-radius:58px;padding:16px"><div class="screen" style="border-radius:44px"><div class="notch" style="width:120px;margin-left:-60px;height:34px"></div>
+      <div id="card10" class="lcard" style="top:100px;left:18px;right:18px;padding:22px"></div>
+      <div id="scanA" class="abs" style="left:0;right:0;top:0;bottom:0;background:#000;display:grid;place-items:center"><div style="width:240px;height:240px;border:6px solid var(--gold);border-radius:24px"></div><div id="beamA" class="abs" style="left:60px;right:60px;height:6px;background:var(--gold);box-shadow:0 0 30px var(--gold);top:200px"></div></div>
+      <div id="toastA" class="abs" style="left:40px;right:40px;bottom:60px;border-radius:999px;background:#fff;color:#111;font-weight:800;font-size:26px;text-align:center;padding:16px">⭐ ¡Sello agregado!</div>
+    </div></div>
+    <div class="abs phone" id="phB" style="left:580px;top:430px;width:400px;height:790px;border-radius:58px;padding:16px"><div class="screen" style="border-radius:44px"><div class="notch" style="width:120px;margin-left:-60px;height:34px"></div>
+      <div style="position:absolute;left:0;right:0;top:70px;text-align:center;font-weight:800;font-size:24px;color:var(--mute)">MOSTRADOR · Ana</div>
+      <div class="abs" style="left:30px;right:30px;top:130px;height:360px;border-radius:30px;background:#000;display:grid;place-items:center"><div style="width:200px;height:200px;border:6px solid var(--gold);border-radius:22px"></div><div id="beamB" class="abs" style="left:60px;right:60px;height:6px;background:var(--gold);box-shadow:0 0 30px var(--gold);top:100px"></div></div>
+      <div id="sheetB" class="abs" style="left:0;right:0;bottom:0;border-radius:40px 40px 0 0;background:#1c1c21;border-top:2px solid #333;padding:30px 24px">
+        <div style="font-size:18px;font-weight:800;letter-spacing:.24em;color:var(--mute)">CLIENTE</div>
+        <div class="serif" style="font-size:44px;margin:6px 0 16px">Marco</div>
+        <div id="btnB" class="btn" style="font-size:34px;padding:28px">+1 sello</div>
+      </div>
+    </div></div>
+    <div class="abs" id="m10" style="left:-10px;top:1010px;width:230px;height:430px"></div>
+    <div class="abs finger" id="fing10" style="left:760px;top:1150px;font-size:100px">👆</div>
+    <div class="abs chip" id="lbA" style="left:200px;top:1260px;font-size:30px;padding:12px 22px">Tu cliente</div>
+    <div class="abs chip" id="lbB" style="left:660px;top:1260px;font-size:30px;padding:12px 22px">Tu equipo</div>
+  </div>
+
+  <!-- ===== Escena 11: panel ===== -->
+  <div class="scene" id="sc11">
+    <div class="abs steptitle" style="left:0;right:0;top:150px"><div class="n">TU PANEL</div><div class="t">Todo, <em>a la vista</em></div></div>
+    <div class="abs kpi" id="k1" style="left:70px;top:430px;width:455px"><div class="l">🎁 POR ENTREGAR</div><div class="n" id="k1n">0</div></div>
+    <div class="abs kpi" id="k2" style="left:555px;top:430px;width:455px"><div class="l">💤 INACTIVOS</div><div class="n" id="k2n">0</div></div>
+    <div class="abs kpi hl" id="k3" style="left:70px;top:720px;width:940px"><div class="l">INGRESOS RECUPERADOS · 30 DÍAS</div><div class="n" id="k3n">$0</div></div>
+    <div class="abs kpi" id="k4" style="left:70px;top:1010px;width:940px"><div class="l">VISITAS · ÚLTIMOS 14 DÍAS</div><div class="bars" id="bars11" style="margin-top:24px"></div></div>
+  </div>
+
+  <!-- ===== Escena 12: llamada a la acción ===== -->
+  <div class="scene" id="sc12">
+    <div class="abs" id="key12" style="left:340px;top:170px;width:400px;height:720px"></div>
+    <div class="abs serif" id="logo12" style="left:0;right:0;top:860px;text-align:center;font-size:170px;letter-spacing:-.03em">Mr <em>Key</em></div>
+    <div class="abs" id="cta12" style="left:140px;right:140px;top:1100px"><div class="btn" style="font-size:52px;padding:34px">Pruébalo gratis · 14 días</div></div>
+    <div class="abs" id="url12" style="left:0;right:0;top:1290px;text-align:center;font-weight:800;font-size:34px;color:var(--mute)">Sin tarjeta de crédito · WhatsApp 449 209 4034</div>
+  </div>
+
+  <div id="top"><div class="stepbar" id="stepbar"><i><b></b></i><i><b></b></i><i><b></b></i><i><b></b></i></div></div>
+  <div id="cap"></div>
+  <div id="flash" class="abs" style="inset:0;background:#fff;opacity:0;pointer-events:none"></div>
+</div>
+
+<script src="node_modules/qrcode-generator/qrcode.js"></script>
+<script>
+const TIMING = __TIMING__;
+const FPS = 30, DURATION = 60;
+const $ = (id) => document.getElementById(id);
+
+// ---------- utilidades de animación ----------
+const E = {
+  out: (t) => 1 - Math.pow(1 - t, 3),
+  in: (t) => t * t * t,
+  io: (t) => (t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2),
+  back: (t) => { const c1 = 1.9, c3 = c1 + 1; return 1 + c3 * Math.pow(t - 1, 3) + c1 * Math.pow(t - 1, 2); },
+  lin: (t) => t,
+};
+const clamp = (v, a = 0, b = 1) => Math.max(a, Math.min(b, v));
+// Interpola entre fotogramas clave [[tiempo, valor], ...]
+function k(t, frames, ease = E.out) {
+  if (t <= frames[0][0]) return frames[0][1];
+  for (let i = 1; i < frames.length; i++) {
+    const [t1, v1] = frames[i], [t0, v0] = frames[i - 1];
+    if (t <= t1) return v0 + (v1 - v0) * ease((t - t0) / (t1 - t0 || 1));
+  }
+  return frames[frames.length - 1][1];
+}
+// Aparece con rebote en t0 (y opcionalmente desaparece en t1)
+function pop(t, t0, t1 = Infinity, d = .45) {
+  const a = clamp((t - t0) / d), b = clamp((t - t1) / .3);
+  return { s: (.4 + .6 * E.back(a)) * (1 - .2 * b), o: clamp(a * 3) * (1 - b) };
+}
+function set(el, { x = 0, y = 0, s = 1, r = 0, o = 1, sx, sy } = {}) {
+  if (typeof el === "string") el = $(el);
+  el.style.transform = `translate(${x}px,${y}px) rotate(${r}deg) scale(${sx ?? s},${sy ?? s})`;
+  el.style.opacity = o;
+}
+const wobble = (t, f = 1, a = 1) => Math.sin(t * Math.PI * 2 * f) * a;
+
+// ---------- personajes ----------
+function marcoSVG() {
+  return `<svg viewBox="0 0 300 560" width="100%" height="100%">
+    <g class="legs"><rect class="legL" x="105" y="380" width="40" height="160" rx="20" fill="#1e293b"/><rect class="legR" x="155" y="380" width="40" height="160" rx="20" fill="#1e293b"/>
+      <ellipse cx="125" cy="540" rx="34" ry="14" fill="#111"/><ellipse cx="175" cy="540" rx="34" ry="14" fill="#111"/></g>
+    <rect x="70" y="210" width="160" height="200" rx="60" fill="#2563eb"/>
+    <path d="M110 215 L150 260 L190 215" fill="none" stroke="#1d4ed8" stroke-width="10" stroke-linecap="round"/>
+    <rect class="armL" x="40" y="230" width="40" height="150" rx="20" fill="#2563eb" style="transform-origin:60px 245px"/>
+    <rect class="armR" x="220" y="230" width="40" height="150" rx="20" fill="#2563eb" style="transform-origin:240px 245px"/>
+    <circle cx="150" cy="130" r="92" fill="#e9b88a"/>
+    <path class="hair" d="M62 118 C60 50 110 28 152 30 C200 30 246 56 238 120 C220 92 190 80 150 82 C112 82 80 94 62 118Z" fill="#2b1d14"/>
+    <ellipse cx="60" cy="135" rx="14" ry="20" fill="#e0a87a"/><ellipse cx="240" cy="135" rx="14" ry="20" fill="#e0a87a"/>
+    <g class="eyes"><ellipse class="eye" cx="118" cy="138" rx="10" ry="13" fill="#1b1b1b"/><ellipse class="eye" cx="182" cy="138" rx="10" ry="13" fill="#1b1b1b"/></g>
+    <path class="brow" d="M100 112 Q118 104 134 112 M166 112 Q182 104 200 112" stroke="#2b1d14" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path class="mouth" d="M120 178 Q150 202 180 178" stroke="#7a3b2e" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <ellipse cx="100" cy="168" rx="14" ry="8" fill="#f28b82" opacity=".35"/><ellipse cx="200" cy="168" rx="14" ry="8" fill="#f28b82" opacity=".35"/>
+  </svg>`;
+}
+const MOUTH = { happy: "M120 178 Q150 206 180 178", sad: "M122 192 Q150 172 178 192", flat: "M126 186 L174 186", wow: "M138 182 Q150 210 162 182 Q150 172 138 182" };
+function marcoPose(el, { t = 0, walk = 0, mood = "happy", blink = true, wave = 0 } = {}) {
+  const svg = el.querySelector("svg");
+  svg.querySelector(".mouth").setAttribute("d", MOUTH[mood]);
+  const b = blink && (t % 3.1) < .12 ? .1 : 1;
+  svg.querySelectorAll(".eye").forEach((e) => (e.style.transform = `scaleY(${b})`, e.style.transformOrigin = `${e.getAttribute("cx")}px 138px`));
+  const sw = walk ? Math.sin(t * 12) * 18 * walk : 0;
+  svg.querySelector(".legL").style.transform = `translateY(${Math.max(0, sw) * -.6}px)`;
+  svg.querySelector(".legR").style.transform = `translateY(${Math.max(0, -sw) * -.6}px)`;
+  svg.querySelector(".armL").style.transform = `rotate(${sw}deg)`;
+  svg.querySelector(".armR").style.transform = `rotate(${wave ? -150 + Math.sin(t * 14) * 20 : -sw}deg)`;
+}
+
+function keySVG() {
+  return `<svg viewBox="0 0 400 720" width="100%" height="100%">
+    <defs><linearGradient id="gk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d9a4"/><stop offset=".55" stop-color="#d6b47a"/><stop offset="1" stop-color="#a9844a"/></linearGradient></defs>
+    <g class="body">
+      <rect x="172" y="330" width="56" height="330" rx="22" fill="url(#gk)"/>
+      <rect x="228" y="520" width="70" height="40" rx="12" fill="url(#gk)"/><rect x="228" y="600" width="52" height="40" rx="12" fill="url(#gk)"/>
+      <circle cx="200" cy="240" r="150" fill="url(#gk)"/>
+      <circle cx="200" cy="240" r="150" fill="none" stroke="#8a6a35" stroke-width="6" opacity=".35"/>
+      <g class="eyes"><ellipse class="eye" cx="150" cy="225" rx="24" ry="30" fill="#fff"/><ellipse class="eye" cx="250" cy="225" rx="24" ry="30" fill="#fff"/>
+        <circle class="pupil" cx="154" cy="232" r="12" fill="#1a1408"/><circle class="pupil" cx="254" cy="232" r="12" fill="#1a1408"/></g>
+      <path d="M150 300 C175 312 225 312 250 300" stroke="#1a1408" stroke-width="10" fill="none" stroke-linecap="round" class="smile"/>
+      <path d="M160 285 C178 270 196 278 200 288 C204 278 222 270 240 285 C222 282 210 292 200 294 C190 292 178 282 160 285Z" fill="#3b2a12"/>
+      <ellipse cx="128" cy="275" rx="20" ry="11" fill="#f28b82" opacity=".35"/><ellipse cx="272" cy="275" rx="20" ry="11" fill="#f28b82" opacity=".35"/>
+      <g class="hat" style="transform-origin:200px 100px"><rect x="100" y="78" width="200" height="26" rx="13" fill="#111"/><rect x="138" y="-10" width="124" height="96" rx="14" fill="#111"/><rect x="138" y="58" width="124" height="18" fill="#d6b47a"/></g>
+      <rect class="armW" x="30" y="300" width="34" height="120" rx="17" fill="url(#gk)" style="transform-origin:60px 300px"/>
+      <rect class="armW2" x="336" y="300" width="34" height="120" rx="17" fill="url(#gk)" style="transform-origin:340px 300px"/>
+    </g>
+  </svg>`;
+}
+function keyPose(el, { t = 0, wave = 0, hat = 0, wink = false, look = 0 } = {}) {
+  const svg = el.querySelector("svg");
+  const b = (t % 2.7) < .12 ? .1 : 1;
+  svg.querySelectorAll(".eye").forEach((e, i) => { const w = wink && i === 1 ? .12 : b; e.style.transformOrigin = `${e.getAttribute("cx")}px 225px`; e.style.transform = `scaleY(${w})`; });
+  svg.querySelectorAll(".pupil").forEach((p, i) => { p.style.transform = `translateX(${look * 8}px)`; p.style.opacity = wink && i === 1 ? 0 : (b < 1 ? 0 : 1); });
+  svg.querySelector(".hat").style.transform = `translateY(${-hat * 50}px) rotate(${-hat * 14}deg)`;
+  svg.querySelector(".armW").style.transform = `rotate(${wave ? 120 + Math.sin(t * 14) * 22 : 20}deg)`;
+  svg.querySelector(".armW2").style.transform = `rotate(-20deg)`;
+}
+
+// ---------- tarjeta ----------
+const BRAND = { name: "Barbería Don Luis", bg: "#1c1917", fg: "#fafaf9", acc: "#d6b47a" };
+function drawCard(el, { stamps = 0, total = 8, pop = -1, popP = 1, rewards = 0, qr = false, brand = BRAND, reward = "Corte gratis", logo = null } = {}) {
+  el.style.setProperty("--cbg", brand.bg); el.style.setProperty("--cfg", brand.fg); el.style.setProperty("--cacc", brand.acc);
+  let dots = "";
+  for (let i = 0; i < total; i++) {
+    const on = i < stamps;
+    const sc = i === pop ? .3 + .7 * E.back(clamp(popP)) : 1;
+    dots += `<div class="st${on ? " on" : ""}" style="transform:scale(${on ? sc : 1})">${on ? "★" : ""}</div>`;
+  }
+  el.innerHTML = `<div class="row"><div class="brand">${logo || brand.name}</div><div style="text-align:right"><div class="lbl">PREMIOS</div><div class="val">${rewards}</div></div></div>
+    <div class="stamps">${dots}</div>
+    <div class="row"><div><div class="lbl">RECOMPENSA</div><div class="val">${reward}</div></div><div style="text-align:right"><div class="lbl">SELLOS</div><div class="val">${stamps} de ${total}</div></div></div>
+    ${qr ? `<div class="qr">${QR_SVG}</div>` : ""}`;
+}
+const qrObj = qrcode(0, "M"); qrObj.addData("https://lukoffmon.github.io/WebDesignLKM/mrkey/unirse.html?m=barberia-don-luis"); qrObj.make();
+const QR_SVG = qrObj.createSvgTag({ cellSize: 6, margin: 0, scalable: true });
+
+// ---------- montaje inicial ----------
+$("m1").innerHTML = marcoSVG(); $("m5").innerHTML = marcoSVG(); $("m10").innerHTML = marcoSVG();
+["key3", "key5", "key6", "key12"].forEach((id) => ($(id).innerHTML = keySVG()));
+$("shop").innerHTML = `<svg viewBox="0 0 700 860" width="100%" height="100%">
+  <rect x="20" y="160" width="660" height="700" rx="18" fill="#2a2420"/>
+  <rect x="0" y="120" width="700" height="70" rx="14" fill="#3b302a"/>
+  <g>${Array.from({ length: 10 }, (_, i) => `<path d="M${i * 70} 190 h70 v60 q-35 30 -70 0z" fill="${i % 2 ? "#f5f5f4" : "#b91c1c"}"/>`).join("")}</g>
+  <rect x="140" y="20" width="420" height="100" rx="20" fill="#111"/>
+  <text x="350" y="88" text-anchor="middle" font-family="Fraunces" font-size="54" fill="#d6b47a">Barbería Don Luis</text>
+  <rect x="250" y="420" width="200" height="440" rx="12" fill="#151210"/><rect x="270" y="440" width="160" height="200" rx="8" fill="#d6b47a" opacity=".25"/>
+  <circle cx="420" cy="660" r="10" fill="#d6b47a"/>
+  <rect x="60" y="320" width="150" height="240" rx="10" fill="#d6b47a" opacity=".18"/><rect x="490" y="320" width="150" height="240" rx="10" fill="#d6b47a" opacity=".18"/>
+  <rect x="610" y="430" width="34" height="200" rx="17" fill="#fff"/><g clip-path="url(#pole)"></g>
+  ${Array.from({ length: 6 }, (_, i) => `<rect x="610" y="${440 + i * 32}" width="34" height="12" fill="${i % 2 ? "#1d4ed8" : "#b91c1c"}" transform="skewY(-25)" transform-origin="627 ${446 + i * 32}"/>`).join("")}
+</svg>`;
+$("trash").innerHTML = `<svg viewBox="0 0 300 380" width="100%" height="100%"><rect x="20" y="20" width="260" height="40" rx="14" fill="#52525b"/><rect x="120" y="0" width="60" height="30" rx="10" fill="#52525b"/><path d="M40 70 h220 l-24 300 h-172z" fill="#3f3f46"/>${[90, 150, 210].map((x) => `<rect x="${x - 8}" y="110" width="16" height="220" rx="8" fill="#27272a"/>`).join("")}</svg>`;
+$("paperDots").innerHTML = Array.from({ length: 8 }, (_, i) => `<div style="aspect-ratio:1;border-radius:50%;border:4px dashed #b8a98a;display:grid;place-items:center;color:#b91c1c;font-size:46px;font-weight:800">${i === 0 ? "✓" : ""}</div>`).join("");
+$("pindots").innerHTML = Array.from({ length: 4 }, () => `<i style="width:46px;height:46px;border-radius:50%;border:4px solid #52525b;display:block"></i>`).join("");
+$("qr9").innerHTML = QR_SVG; $("qr9").querySelector("svg").style.cssText = "width:330px;height:330px;display:block";
+const PALS = [["#1c1917", "#fafaf9", "#d6b47a"], ["#0f172a", "#f8fafc", "#38bdf8"], ["#7f1d1d", "#fef2f2", "#fca5a5"], ["#14532d", "#f0fdf4", "#86efac"]];
+$("pal8").innerHTML = PALS.map((p) => `<div style="width:120px;height:120px;border-radius:28px;background:${p[0]};border:4px solid rgba(255,255,255,.15);position:relative"><i style="position:absolute;right:14px;bottom:14px;width:36px;height:36px;border-radius:50%;background:${p[2]}"></i></div>`).join("");
+$("bars11").innerHTML = [3, 5, 4, 7, 6, 9, 5, 8, 10, 7, 11, 9, 12, 14].map((v) => `<i data-v="${v}" style="height:${(v / 14) * 100}%"></i>`).join("");
+// confeti
+const CONF = Array.from({ length: 46 }, (_, i) => ({ a: (i / 46) * Math.PI * 2 + (i % 3) * .3, v: 380 + (i * 53) % 360, c: ["#d6b47a", "#4ade80", "#f87171", "#60a5fa", "#fafaf9"][i % 5], r: (i * 37) % 360 }));
+$("conf4").innerHTML = CONF.map((c) => `<i style="background:${c.c}"></i>`).join("");
+// partículas de fondo
+const PARTS = Array.from({ length: 26 }, (_, i) => ({ x: (i * 397) % 1080, y: (i * 733) % 1920, r: 3 + (i % 4) * 2, sp: 12 + (i % 5) * 8 }));
+$("particles").innerHTML = PARTS.map((p) => `<i class="dot" style="width:${p.r * 2}px;height:${p.r * 2}px;opacity:.18"></i>`).join("");
+
+// ---------- escenas ----------
+const T = Object.fromEntries(TIMING.map((s) => [s.id, s]));
+const sceneStart = (i) => TIMING[i].start;
+const sceneEnd = (i) => (i + 1 < TIMING.length ? TIMING[i + 1].start - .22 : DURATION);
+const SFX = []; // [{t, type}] para mezclar el audio
+const sfx = (sid, lt, type) => SFX.push({ t: +(T[sid].start + lt).toFixed(3), type });
+
+const R = {
+  s1(t) {
+    set("shop", { y: k(t, [[0, 60], [.5, 0]]), o: k(t, [[0, 0], [.4, 1]]) });
+    const m = $("m1");
+    let x, o = 1, mood = "happy", walk = 0;
+    if (t < 1.05) { x = k(t, [[0, -320], [1.05, 390]], E.lin); walk = 1; }
+    else if (t < 1.6) { x = 390; o = k(t, [[1.05, 1], [1.2, 0], [1.45, 0], [1.6, 1]], E.lin); }
+    else { x = k(t, [[1.6, 390], [2.9, 1150]], E.in); walk = 1; mood = "flat"; }
+    set(m, { x, y: walk ? -Math.abs(Math.sin(t * 12)) * 12 : 0, o });
+    marcoPose(m, { t, walk, mood });
+    set("c1a", pop(t, .7));
+    set("c1b", pop(t, 2.0));
+  },
+  s2(t, D) {
+    set("t2", { ...pop(t, .2), y: 0 });
+    const crumple = clamp((t - 2.7) / .55);
+    const fall = clamp((t - 3.25) / .55);
+    const p = $("paper");
+    p.style.borderRadius = `${24 + crumple * 160}px`;
+    set(p, { x: wobble(t, .5, 8), y: k(t, [[0, -500], [.7, 0]], E.back) + E.in(fall) * 560, r: k(t, [[0, -18], [.7, -4]]) + crumple * 200 + fall * 160, sx: 1 - crumple * .72, sy: 1 - crumple * .55 - fall * .1, o: 1 - clamp((fall - .85) / .15) });
+    set("trash", { y: k(t, [[1.6, 300], [2.2, 0]], E.back), o: k(t, [[1.6, 0], [1.9, 1]]), r: fall > .95 ? wobble(t, 4, 4 * (1 - clamp((t - 3.8) / .5))) : 0 });
+  },
+  s3(t) {
+    const key = $("key3");
+    set(key, { y: k(t, [[0, -900], [.75, 0]], E.back), r: wobble(t, .6, 3) });
+    keyPose(key, { t, wave: t > 1.0 && t < 2.6, hat: k(t, [[.75, 0], [.95, 1], [1.3, 0]], E.io), look: 1 });
+    set("ph3", { y: k(t, [[.7, 1400], [1.5, 0]], E.out), r: k(t, [[.7, 8], [1.5, 0]]) });
+    drawCard($("card3"), { stamps: 0, qr: true });
+    set("c3a", pop(t, 2.3)); set("c3b", pop(t, 2.75)); set("c3c", pop(t, 3.2));
+  },
+  s4(t) {
+    set("ph4", { y: k(t, [[0, 80], [.4, 0]]), o: k(t, [[0, 0], [.3, 1]]) });
+    const step = .34, t0 = .25;
+    const n = clamp(Math.floor((t - t0) / step) + 1, 0, 8);
+    const lastP = (t - t0 - (n - 1) * step) / .3;
+    const full = t > t0 + 8 * step + .1;
+    drawCard($("card4"), { stamps: full ? (t > 3.4 ? 0 : 8) : n, pop: n - 1, popP: lastP, rewards: full ? 1 : 0, qr: false });
+    set("plus4", { y: -clamp(lastP) * 80, o: n > 0 && !full ? 1 - clamp(lastP) : 0 });
+    // premio
+    const g = t - (t0 + 8 * step + .1);
+    $("conf4").querySelectorAll("i").forEach((el, i) => {
+      const c = CONF[i], p = clamp(g / 1.4);
+      set(el, { x: Math.cos(c.a) * c.v * E.out(p), y: Math.sin(c.a) * c.v * E.out(p) + 500 * p * p, r: c.r + p * 600, o: g > 0 ? 1 - clamp((p - .7) / .3) : 0 });
+    });
+    const conf = $("confirm4");
+    set(conf, { y: k(t, [[3.55, 700], [4.0, 0]], E.out), o: t > 3.5 ? 1 : 0 });
+    const tap = 4.55;
+    const pressed = t > tap;
+    $("btn4").textContent = pressed ? "✓ ¡Entregado!" : "✓ Sí, ya se lo entregué";
+    set("btn4", { s: t > tap - .08 && t < tap + .12 ? .94 : 1 });
+    set("fing4", { x: k(t, [[3.9, 200], [4.4, 0]]), y: k(t, [[3.9, 300], [4.4, 0], [4.5, 20], [4.62, 0]]), o: t > 3.9 && t < 5.1 ? 1 : 0 });
+    set("gift4", { ...pop(t, t0 + 8 * step + .15, 3.6) });
+    set("ok4", pop(t, tap + .1));
+  },
+  s5(t) {
+    const m = $("m5");
+    const back = t > 3.75;
+    const day = Math.round(k(t, [[.2, 1], [1.5, 21]], E.io));
+    $("days5").textContent = day;
+    set("cal5", { ...pop(t, .05), o: back ? 1 - clamp((t - 3.75) / .3) : 1 });
+    set("zz5", { y: -wobble(t, .8, 10) - 10, o: t > .4 && t < 2.9 ? .9 : 0 });
+    set(m, { x: back ? k(t, [[3.75, 0], [5.6, 120]], E.lin) : 0, y: back ? -Math.abs(Math.sin(t * 12)) * 10 : 0, s: 1 });
+    marcoPose(m, { t, mood: t < 2.75 ? "sad" : t < 3.75 ? "wow" : "happy", walk: back ? 1 : 0, blink: t > 2.7 });
+    set("ph5", { y: k(t, [[1.0, 1400], [1.7, 0]], E.out), o: back ? 1 - clamp((t - 3.7) / .35) : 1 });
+    set("notif5", { y: k(t, [[2.1, -260], [2.55, 0]], E.back), o: k(t, [[2.1, 0], [2.3, 1]]) });
+    const key = $("key5");
+    set(key, { y: k(t, [[2.5, 500], [2.95, 0]], E.back), o: back ? 1 - clamp((t - 3.7) / .3) : 1 });
+    keyPose(key, { t, wink: t > 3.0 && t < 3.6, look: -1 });
+    const money = Math.round(k(t, [[4.0, 0], [5.0, 180]], E.out));
+    $("moneyN").textContent = `+$${money}`;
+    set("money5", { ...pop(t, 3.95) });
+  },
+  s6(t, D) {
+    const key = $("key6");
+    set(key, { y: k(t, [[0, -900], [.7, 0]], E.back) + wobble(t, .7, 8), s: 1 });
+    keyPose(key, { t, hat: k(t, [[1.6, 0], [1.85, 1], [2.3, 0]], E.io), wink: t > 1.7 && t < 2.2, wave: t > .9 && t < 1.6 });
+    const hide = 1 - clamp((t - (D - 1.8)) / .3);
+    set("logo6", { ...pop(t, .45), o: pop(t, .45).o * hide });
+    set("tag6", { ...pop(t, 1.0), s: 1, o: pop(t, 1.0).o * hide });
+    // banda "Cómo empezar"
+    const bandIn = clamp((t - (D - 1.75)) / .35);
+    set("band6", { sx: E.out(bandIn), o: bandIn > 0 ? 1 : 0 });
+  },
+  s7(t) {
+    set("h7", pop(t, 0));
+    set("ph7", { y: k(t, [[0, 900], [.6, 0]]) });
+    const name = "Barbería Don Luis";
+    const typed = Math.floor(clamp((t - .7) / 1.2) * name.length);
+    $("type7").innerHTML = name.slice(0, typed) + (t > .6 && t < 2.2 && (t * 2) % 1 < .6 ? '<span style="color:var(--gold)">|</span>' : "");
+    const chips = $("giro7").children;
+    const sel = t > 2.35;
+    chips[0].className = sel ? "chip gold" : "chip";
+    chips[0].style.transform = `scale(${t > 2.3 && t < 2.45 ? .9 : 1})`;
+    set("sug7", { ...pop(t, 2.6), s: 1 });
+    set("btn7", { s: t > 3.85 && t < 4.0 ? .94 : 1 });
+    set("fing7", { x: k(t, [[1.9, 300], [2.25, -310], [3.4, -310], [3.75, 0]]), y: k(t, [[1.9, 300], [2.25, -240], [2.32, -225], [2.42, -240], [3.4, -240], [3.75, 0], [3.85, 18], [3.98, 0]]), o: t > 1.9 && t < 4.5 ? 1 : 0 });
+  },
+  s8(t) {
+    const idx = t < .8 ? 0 : t < 1.5 ? 1 : t < 2.2 ? 2 : 0;
+    const p = PALS[idx];
+    const name = "Corte gratis";
+    const typed = Math.max(1, Math.floor(clamp((t - .3) / 1.6) * name.length));
+    drawCard($("card8"), { stamps: 3, brand: { name: "", bg: p[0], fg: p[1], acc: p[2] }, reward: name.slice(0, typed), logo: `<span style="font-family:Fraunces;font-size:48px;display:inline-flex;align-items:center;gap:12px;transform:scale(${t > .25 ? E.back(clamp((t - .25) / .4)) : 0})">✂️ DON LUIS</span>` });
+    set("card8wrap", { y: k(t, [[0, 120], [.5, 0]]), o: k(t, [[0, 0], [.3, 1]]), r: wobble(t, .4, 1.2) });
+    [...$("pal8").children].forEach((el, i) => {
+      el.style.borderColor = i === idx ? "#fff" : "rgba(255,255,255,.15)";
+      el.style.transform = `scale(${i === idx ? 1.12 : 1}) translateY(${(1 - E.back(clamp((t - .2 - i * .08) / .4))) * 200}px)`;
+    });
+    if (t >= 0) {}
+  },
+  s9(t) {
+    set("poster9", { y: k(t, [[0, -900], [.6, 0]], E.back), r: k(t, [[0, -10], [.6, -2]]) });
+    set("stand9", { o: k(t, [[.4, 0], [.6, 1]]) });
+    set("pin9", { x: k(t, [[2.0, 500], [2.5, 0]], E.out), o: t > 2.0 ? 1 : 0 });
+    [...$("pindots").children].forEach((el, i) => {
+      const on = t > 2.8 + i * .32;
+      el.style.background = on ? "#d6b47a" : "transparent";
+      el.style.borderColor = on ? "#d6b47a" : "#52525b";
+      el.style.transform = `scale(${on ? E.back(clamp((t - 2.8 - i * .32) / .25)) * .3 + .7 + .3 : 1})`;
+    });
+    set("pinok", { ...pop(t, 4.2), s: pop(t, 4.2).s });
+  },
+  s10(t) {
+    set("phA", { y: k(t, [[0, 900], [.5, 0]]) });
+    set("phB", { y: k(t, [[.15, 900], [.65, 0]]) });
+    set("m10", { x: k(t, [[0, -300], [.6, 0]]), o: 1 });
+    marcoPose($("m10"), { t, mood: t > 2.0 ? "happy" : "flat" });
+    const scanned = t > 1.9;
+    set("scanA", { o: scanned ? 1 - clamp((t - 1.9) / .25) : 1 });
+    set("beamA", { y: Math.sin(t * 5) * 90 });
+    drawCard($("card10"), { stamps: t > 4.35 ? 1 : 0, pop: 0, popP: (t - 4.35) / .35, qr: true });
+    $("card10").querySelectorAll(".qr svg").forEach((s) => (s.style.width = s.style.height = "150px"));
+    $("card10").querySelectorAll(".brand").forEach((s) => (s.style.fontSize = "28px"));
+    $("card10").querySelectorAll(".val").forEach((s) => (s.style.fontSize = "22px"));
+    $("card10").querySelectorAll(".stamps").forEach((s) => (s.style.cssText = "gap:10px;margin:16px 0"));
+    $("card10").querySelectorAll(".st").forEach((s) => (s.style.fontSize = "26px"));
+    set("toastA", { ...pop(t, 4.45, 5.6) });
+    set("beamB", { y: Math.sin(t * 5) * 70 + 70 });
+    set("sheetB", { y: k(t, [[2.7, 420], [3.1, 0]]) });
+    set("btnB", { s: t > 4.12 && t < 4.3 ? .92 : 1 });
+    $("btnB").textContent = t > 4.2 ? "✓ Sello agregado" : "+1 sello";
+    $("btnB").style.background = t > 4.2 ? "#4ade80" : "";
+    set("fing10", { x: k(t, [[3.3, 300], [3.9, 0]]), y: k(t, [[3.3, 300], [3.9, 0], [4.05, 0], [4.15, 18], [4.3, 0]]), o: t > 3.3 && t < 5.2 ? 1 : 0 });
+    set("lbA", pop(t, .7)); set("lbB", pop(t, .9));
+  },
+  s11(t) {
+    set("k1", pop(t, .1)); set("k2", pop(t, .3)); set("k3", pop(t, .55)); set("k4", pop(t, .8));
+    $("k1n").textContent = Math.round(k(t, [[.3, 0], [1.3, 3]]));
+    $("k2n").textContent = Math.round(k(t, [[.5, 0], [1.6, 12]]));
+    $("k3n").textContent = "$" + Math.round(k(t, [[.8, 0], [2.6, 5400]], E.out)).toLocaleString("es-MX");
+    [...$("bars11").children].forEach((b, i) => (b.style.transform = `scaleY(${E.back(clamp((t - 1.0 - i * .06) / .4))})`));
+  },
+  s12(t) {
+    const key = $("key12");
+    set(key, { y: k(t, [[0, -900], [.7, 0]], E.back) + wobble(t, .7, 8) });
+    keyPose(key, { t, wave: t > .8, hat: k(t, [[2.2, 0], [2.45, 1], [2.9, 0]], E.io), wink: t > 3.4 && t < 3.8 });
+    set("logo12", pop(t, .3));
+    set("cta12", { ...pop(t, .8), s: pop(t, .8).s * (1 + Math.max(0, Math.sin((t - 1.4) * 4)) * .03) });
+    set("url12", pop(t, 1.2));
+  },
+};
+
+// Efectos de sonido sincronizados (tiempos locales de cada escena)
+sfx("s1", .7, "pop"); sfx("s1", 2.0, "error"); sfx("s1", 0, "whoosh");
+sfx("s2", .3, "whoosh"); sfx("s2", 2.7, "crumple"); sfx("s2", 3.75, "thud");
+sfx("s3", .55, "boing"); sfx("s3", 1.0, "whoosh"); sfx("s3", 2.3, "pop"); sfx("s3", 2.75, "pop"); sfx("s3", 3.2, "pop");
+for (let i = 0; i < 8; i++) sfx("s4", .25 + i * .34, "stamp");
+sfx("s4", .25 + 8 * .34 + .1, "reward"); sfx("s4", 4.55, "click"); sfx("s4", 4.65, "success");
+sfx("s5", 2.1, "notif"); sfx("s5", 3.95, "cash");
+sfx("s6", 0, "boing"); sfx("s6", .45, "pop");
+sfx("s7", 0, "whoosh"); sfx("s7", 2.35, "click"); sfx("s7", 3.9, "click");
+sfx("s8", 0, "whoosh"); sfx("s8", .8, "pop"); sfx("s8", 1.5, "pop"); sfx("s8", 2.2, "pop");
+sfx("s9", .3, "thud"); for (let i = 0; i < 4; i++) sfx("s9", 2.8 + i * .32, "click"); sfx("s9", 4.2, "success");
+sfx("s10", 1.85, "beep"); sfx("s10", 4.15, "click"); sfx("s10", 4.35, "stamp"); sfx("s10", 4.45, "success");
+sfx("s11", .1, "pop"); sfx("s11", .3, "pop"); sfx("s11", .55, "pop"); sfx("s11", 2.6, "cash");
+sfx("s12", 0, "boing"); sfx("s12", .8, "reward");
+window.SFX = SFX;
+window.RISER_AT = T.s6.start + (sceneEnd(5) - T.s6.start) - 1.75;
+
+// ---------- subtítulos ----------
+const CAPS = TIMING.map((s) => {
+  const words = s.text.split(" ");
+  const total = s.text.length;
+  let acc = 0;
+  return { ...s, words: words.map((w) => { const at = acc / total; acc += w.length + 1; return { w, at }; }) };
+});
+function captions(t) {
+  const c = CAPS.find((s) => t >= s.start - .05 && t <= s.start + s.dur + .35);
+  const el = $("cap");
+  if (!c) { el.style.opacity = 0; return; }
+  const p = (t - c.start) / c.dur;
+  // Muestra la frase en bloques de ~6 palabras para que se lea grande.
+  const chunk = 6;
+  let cur = c.words.findIndex((w, i) => i === c.words.length - 1 || c.words[i + 1].at > p);
+  const startIdx = Math.floor(Math.max(0, cur) / chunk) * chunk;
+  const ws = c.words.slice(startIdx, startIdx + chunk);
+  el.innerHTML = ws.map((w, i) => { const gi = startIdx + i; return `<span class="${gi <= cur ? "on" : ""}${gi === cur ? " now" : ""}">${w.w}</span>`; }).join(" ");
+  el.style.opacity = 1;
+}
+
+// ---------- reloj ----------
+function seek(t) {
+  TIMING.forEach((s, i) => {
+    const a = sceneStart(i) - .22, b = sceneEnd(i);
+    const sc = $(`sc${i + 1}`);
+    const vis = t >= a && t < b + .22;
+    if (!vis) { sc.style.opacity = 0; sc.style.visibility = "hidden"; return; }
+    sc.style.visibility = "visible";
+    const fin = clamp((t - a) / .22), fout = 1 - clamp((t - b) / .22);
+    sc.style.opacity = Math.min(fin, i === TIMING.length - 1 ? 1 : fout);
+    sc.style.transform = `scale(${1 + (1 - fin) * .04 - (1 - fout) * .03})`;
+    R[s.id](t - s.start, b - s.start);
+  });
+  // barra de pasos (parte 2)
+  const p2 = ["s7", "s8", "s9", "s10"];
+  const inP2 = t >= T.s7.start - .2 && t < T.s11.start - .2;
+  $("top").style.opacity = inP2 ? 1 : 0;
+  [...$("stepbar").children].forEach((el, i) => {
+    const s = T[p2[i]], e = i < 3 ? T[p2[i + 1]].start : T.s11.start;
+    el.querySelector("b").style.transform = `scaleX(${clamp((t - s.start) / (e - s.start))})`;
+  });
+  // flash en el cambio de parte
+  $("flash").style.opacity = Math.max(0, .5 - Math.abs(t - (T.s7.start - .22)) * 2.5) * 1;
+  // partículas
+  $("particles").querySelectorAll("i").forEach((el, i) => {
+    const p = PARTS[i];
+    el.style.transform = `translate(${p.x + Math.sin(t * .5 + i) * 30}px, ${((p.y - t * p.sp) % 1920 + 1920) % 1920}px)`;
+  });
+  captions(t);
+}
+window.seek = seek;
+window.ready = document.fonts.ready.then(() => true);
+seek(0);
+</script>
+</body>
+</html>
