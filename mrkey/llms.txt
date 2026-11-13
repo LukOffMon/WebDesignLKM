@@ -6,8 +6,9 @@
 
 - El cliente escanea el QR del mostrador, escribe su nombre y celular y guarda su tarjeta.
 - El personal sella desde su celular escaneando la tarjeta, con código del negocio y PIN.
-- Al juntar los sellos se desbloquea el premio (por ejemplo, 8 sellos = corte gratis).
-- El dueño ve clientes, visitas, clientes inactivos e ingresos recuperados.
+- Al juntar los sellos se desbloquea el premio (por ejemplo, 8 sellos = corte gratis). El premio queda pendiente hasta que el personal confirma que ya se entregó; el dueño ve premios por entregar y entregados, con fecha, hora y quién lo registró.
+- El personal puede deshacer un sello o una entrega por error, buscar clientes por celular y dar de alta clientes desde el mostrador.
+- El dueño ve clientes, visitas, clientes inactivos e ingresos recuperados, la ficha e historial de cada cliente, y puede ajustar sellos (por ejemplo, al migrar tarjetas de papel) y exportar su lista.
 - Campañas sin SMS a la tarjeta y a la pantalla de bloqueo, solo para clientes que aceptaron promociones.
 - Alertas por cercanía en Apple Wallet para clientes inactivos; Mr Key no recibe la ubicación del cliente.
 

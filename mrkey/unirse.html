@@ -23,17 +23,27 @@
     <section id="view" class="hidden stack">
       <p class="eyebrow center" style="margin-top:8px">Tarjeta de lealtad</p>
       <h1 class="center" style="font-size:2rem">Únete a <em id="mname"></em></h1>
-      <p class="center mute">Junta sellos en cada visita y gana <b id="mreward" style="color:var(--text)"></b>. Sin descargar ninguna app.</p>
+      <p class="center mute">Junta <b id="mstamps" style="color:var(--text)"></b> sellos y gana <b id="mreward" style="color:var(--text)"></b>. Sin descargar ninguna app.</p>
       <div id="preview" style="margin:20px 0 8px"></div>
       <form id="form" class="card-box stack" novalidate>
         <label class="field"><span>Tu nombre</span><input name="name" autocomplete="name" required maxlength="60" placeholder="Ej. Marco Pérez" /></label>
-        <label class="field"><span>Tu celular</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="10 dígitos" /></label>
+        <label class="field"><span>Tu celular</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel-national" required placeholder="10 dígitos" maxlength="16" /></label>
+        <p class="mute small" style="margin-top:4px">Con tu celular recuperas tu tarjeta si cambias de teléfono.</p>
         <label class="field"><span>Correo (opcional)</span><input name="email" type="email" autocomplete="email" placeholder="tu@correo.com" /></label>
         <label class="check"><input type="checkbox" name="marketing_opt_in" /> Quiero recibir recordatorios y promociones de este negocio en mi tarjeta. Puedo cancelarlo cuando quiera.</label>
         <label class="check"><input type="checkbox" name="accept_terms" required /> <span>Acepto el <a href="aviso.html" target="_blank">aviso de privacidad</a>.</span></label>
-        <div id="err" class="alert hidden"></div>
+        <div id="err" class="alert hidden" role="alert"></div>
         <button class="btn gold block" type="submit">Obtener mi tarjeta</button>
       </form>
+      <div class="card-box small stack">
+        <b>¿Cómo funciona?</b>
+        <div class="steps">
+          <div class="st"><span class="t">Muestra tu tarjeta al pagar y suma un sello por visita.</span></div>
+          <div class="st"><span class="t">Al juntar tus sellos, tu premio aparece en la tarjeta.</span></div>
+          <div class="st"><span class="t">Pídeselo al personal. Queda guardado hasta que lo recibes.</span></div>
+        </div>
+      </div>
+      <p class="center mute small">¿Ya tenías tarjeta? Escribe el mismo celular y la recuperas con todos tus sellos.</p>
       <p class="center mute small">Tarjeta digital creada con <a href="./">Mr Key</a></p>
     </section>
   </main>
@@ -53,6 +63,7 @@
         document.title = `Tarjeta de ${merchant.name}`;
         $("mname").textContent = merchant.name;
         $("mreward").textContent = merchant.reward_text.toLowerCase();
+        $("mstamps").textContent = merchant.stamps_required;
         MK.renderCard($("preview"), merchant, null, { qr: false });
         $("loading").classList.add("hidden");
         $("view").classList.remove("hidden");
@@ -70,6 +81,16 @@
       const f = ev.target;
       const btn = f.querySelector("button");
       $("err").classList.add("hidden");
+      if (f.name.value.trim().length < 2) {
+        $("err").textContent = "Escribe tu nombre.";
+        f.name.focus();
+        return $("err").classList.remove("hidden");
+      }
+      if (f.phone.value.replace(/\D/g, "").length < 10) {
+        $("err").textContent = "Escribe tu celular a 10 dígitos.";
+        f.phone.focus();
+        return $("err").classList.remove("hidden");
+      }
       if (!f.accept_terms.checked) {
         $("err").textContent = "Acepta el aviso de privacidad para continuar.";
         return $("err").classList.remove("hidden");
@@ -77,7 +98,7 @@
       btn.disabled = true;
       btn.textContent = "Creando tu tarjeta…";
       try {
-        const { serial } = await MK.api(`/public/m/${encodeURIComponent(slug)}/join`, {
+        const { serial, existing } = await MK.api(`/public/m/${encodeURIComponent(slug)}/join`, {
           method: "POST",
           body: {
             name: f.name.value,
@@ -88,7 +109,7 @@
           },
         });
         MK.store(`mk_card_${slug}`, serial);
-        location.replace(`tarjeta.html?s=${encodeURIComponent(serial)}&nueva=1`);
+        location.replace(`tarjeta.html?s=${encodeURIComponent(serial)}&${existing ? "existente" : "nueva"}=1`);
       } catch (e) {
         $("err").textContent = e.message;
         $("err").classList.remove("hidden");

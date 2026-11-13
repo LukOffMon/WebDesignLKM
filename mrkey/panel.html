@@ -15,30 +15,45 @@
   <style>
     .poster { display: none; }
     @media print {
-      .poster { display: flex !important; flex-direction: column; align-items: center; justify-content: center; text-align: center; height: 100vh; gap: 18px; font-family: Manrope, sans-serif; }
-      .poster h1 { font-size: 40pt; color: #000; }
-      .poster p { font-size: 16pt; color: #333; }
-      .poster .pq svg { width: 9cm; height: 9cm; }
+      @page { margin: 0; }
+      .poster { display: flex !important; flex-direction: column; align-items: center; justify-content: center; text-align: center; height: 100vh; gap: 16px; font-family: Manrope, sans-serif; padding: 1.5cm; }
+      .poster .logo img { max-height: 3cm; max-width: 12cm; }
+      .poster h1 { font-size: 38pt; color: #000; font-family: Fraunces, Georgia, serif; }
+      .poster .lead { font-size: 18pt; color: #222; font-weight: 800; }
+      .poster p { font-size: 14pt; color: #333; }
+      .poster .pq { padding: 18px; border: 6px solid var(--pc, #111); border-radius: 28px; }
+      .poster .pq svg { width: 9cm; height: 9cm; display: block; }
+      .poster ol { text-align: left; font-size: 13pt; color: #333; margin: 0; padding-left: 22px; }
       body > *:not(.poster) { display: none !important; }
     }
+    .bars div span { position: absolute; top: -18px; left: 0; right: 0; text-align: center; font-size: .65rem; color: var(--mute); }
+    .detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .detail-grid .kpi { padding: 12px; }
+    .detail-grid .kpi .n { font-size: 1.5rem; }
+    .lock { border-radius: 28px; background: linear-gradient(160deg, #2a2a33, #0e0e12); padding: 22px 14px; }
+    .lock .time { text-align: center; font-size: 2.6rem; font-weight: 600; letter-spacing: -.02em; }
+    .lock .notif { display: flex; gap: 10px; background: rgba(255, 255, 255, .14); border-radius: 16px; padding: 10px 12px; margin-top: 14px; font-size: .82rem; }
+    .lock .notif .ic { width: 28px; height: 28px; border-radius: 7px; flex: none; display: grid; place-items: center; font-weight: 800; }
+    .contrast-warn { font-size: .82rem; color: var(--warn); }
+    textarea.note-area { min-height: 72px; }
   </style>
 </head>
 <body>
   <!-- ===== Acceso ===== -->
   <section id="authView" class="hidden">
-    <header class="topbar"><div class="wrap"><a class="logo-mk" href="./">Mr <b>Key</b></a></div></header>
+    <header class="topbar"><div class="wrap"><a class="logo-mk" href="./">Mr <b>Key</b></a><a class="btn sm ghost" href="sellar.html">Soy del personal</a></div></header>
     <main class="narrow stack">
-      <div class="chips" style="margin-top:12px">
-        <button class="chip on" data-auth="signup" type="button">Crear cuenta</button>
-        <button class="chip" data-auth="login" type="button">Ya tengo cuenta</button>
+      <div class="seg" style="margin-top:12px" role="tablist">
+        <button class="on" data-auth="signup" type="button" role="tab">Crear cuenta</button>
+        <button data-auth="login" type="button" role="tab">Ya tengo cuenta</button>
       </div>
       <form id="signupForm" class="stack">
         <h1 style="font-size:2rem">Tu tarjeta de lealtad, <em>lista en 2 minutos</em>.</h1>
-        <p class="mute">14 días gratis. Sin tarjeta de crédito.</p>
+        <p class="mute">14 días gratis. Sin tarjeta de crédito. Te sugerimos un programa según tu giro y lo cambias cuando quieras.</p>
         <div class="card-box stack">
-          <label class="field"><span>Nombre del negocio</span><input name="name" required maxlength="60" placeholder="Ej. Barbería Don Luis" /></label>
+          <label class="field"><span>Nombre del negocio</span><input name="name" required maxlength="60" placeholder="Ej. Barbería Don Luis" autocomplete="organization" /></label>
           <label class="field"><span>Giro</span>
-            <select name="vertical">
+            <select name="vertical" id="verticalSel">
               <option value="barberia">Barbería</option>
               <option value="cafeteria">Cafetería</option>
               <option value="belleza">Salón de belleza / uñas / spa</option>
@@ -48,10 +63,12 @@
               <option value="otro">Otro</option>
             </select>
           </label>
+          <p class="note small" id="presetHint"></p>
           <label class="field"><span>Correo</span><input name="email" type="email" autocomplete="email" required /></label>
-          <label class="field"><span>Contraseña (mínimo 8)</span><input name="password" type="password" autocomplete="new-password" minlength="8" required /></label>
-          <div class="alert hidden" data-err></div>
+          <label class="field"><span>Contraseña (mínimo 8 caracteres)</span><input name="password" type="password" autocomplete="new-password" minlength="8" required /></label>
+          <div class="alert hidden" data-err role="alert"></div>
           <button class="btn gold block" type="submit">Crear mi tarjeta gratis</button>
+          <p class="mute small center">Al crear tu cuenta aceptas el <a href="aviso.html">aviso de privacidad</a>.</p>
         </div>
       </form>
       <form id="loginForm" class="stack hidden">
@@ -59,8 +76,9 @@
         <div class="card-box stack">
           <label class="field"><span>Correo</span><input name="email" type="email" autocomplete="email" required /></label>
           <label class="field"><span>Contraseña</span><input name="password" type="password" autocomplete="current-password" required /></label>
-          <div class="alert hidden" data-err></div>
+          <div class="alert hidden" data-err role="alert"></div>
           <button class="btn gold block" type="submit">Entrar</button>
+          <p class="mute small center">¿Olvidaste tu contraseña? <a href="https://wa.me/524492094034?text=Hola%2C%20olvid%C3%A9%20mi%20contrase%C3%B1a%20de%20Mr%20Key" target="_blank" rel="noopener">Escríbenos por WhatsApp</a> y te ayudamos.</p>
         </div>
         <p class="mute small center">¿Eres del personal? Entra al <a href="sellar.html">modo mostrador</a>.</p>
       </form>
@@ -73,37 +91,42 @@
       <div class="wrap">
         <a class="logo-mk" href="./">Mr <b>Key</b></a>
         <div class="row">
-          <a class="btn sm gold" href="sellar.html">Sellar</a>
-          <button class="btn sm ghost" id="logoutBtn" type="button">Salir</button>
+          <a class="btn sm gold" href="sellar.html">📷 Mostrador</a>
         </div>
       </div>
-      <nav class="wrap tabs" id="tabs">
+      <nav class="wrap tabs" id="tabs" aria-label="Secciones del panel">
         <button class="tab on" data-tab="home" type="button">Inicio</button>
+        <button class="tab" data-tab="rewards" type="button">Premios<span class="badge hidden" id="rewardsBadge"></span></button>
         <button class="tab" data-tab="customers" type="button">Clientes</button>
         <button class="tab" data-tab="campaigns" type="button">Campañas</button>
         <button class="tab" data-tab="card" type="button">Mi tarjeta</button>
-        <button class="tab" data-tab="counter" type="button">Mostrador y QR</button>
+        <button class="tab" data-tab="counter" type="button">QR y personal</button>
+        <button class="tab" data-tab="account" type="button">Cuenta</button>
       </nav>
     </header>
 
     <main class="wrap" style="padding-top:24px;padding-bottom:64px">
       <!-- Inicio -->
       <section data-view="home" class="stack">
-        <div class="row">
-          <div class="grow">
-            <p class="eyebrow" id="trialInfo"></p>
-            <h1 style="font-size:clamp(1.8rem,5vw,2.6rem);margin-top:6px" id="bizTitle"></h1>
-          </div>
+        <div>
+          <p class="eyebrow" id="trialInfo"></p>
+          <h1 style="font-size:clamp(1.8rem,5vw,2.6rem);margin-top:6px" id="bizTitle"></h1>
         </div>
+        <div id="trialBanner" class="banner-trial hidden"></div>
         <div id="onboarding" class="card-box stack hidden">
-          <b>Pon tu programa a funcionar</b>
+          <div class="row"><b class="grow">Pon tu programa a funcionar</b><span class="mute small" id="onbCount"></span></div>
           <div class="steps" id="steps"></div>
         </div>
+        <div class="stack" id="todoWrap">
+          <p class="eyebrow">Para hoy</p>
+          <div class="actions" id="todo"></div>
+        </div>
+        <p class="eyebrow" style="margin-top:20px">Tus números</p>
         <div class="kpis" id="kpis"></div>
         <div class="split">
           <div class="card-box">
-            <div class="row"><b class="grow">Visitas selladas · últimos 14 días</b></div>
-            <div class="bars" id="bars"></div>
+            <div class="row"><b class="grow">Visitas selladas · últimos 14 días</b><span class="mute small" id="barsTotal"></span></div>
+            <div class="bars" id="bars" style="margin-top:26px"></div>
             <div class="bar-days" id="barDays"></div>
           </div>
           <div class="card-box stack">
@@ -113,45 +136,73 @@
         </div>
       </section>
 
+      <!-- Premios -->
+      <section data-view="rewards" class="stack hidden">
+        <div class="row">
+          <h2 class="grow" style="font-size:1.8rem">Premios</h2>
+          <div class="seg" id="rewardSeg">
+            <button class="on" data-rs="pending" type="button">Por entregar</button>
+            <button data-rs="delivered" type="button">Entregados</button>
+          </div>
+        </div>
+        <p class="mute" id="rewardsHint">Cuando un cliente junta sus sellos, su premio aparece aquí como <b>pendiente</b>. Queda así hasta que tú o tu personal confirman que <b>ya se lo entregaron</b>. Así nunca se entrega un premio dos veces ni se queda alguien sin el suyo.</p>
+        <div class="list" id="rewardList"></div>
+      </section>
+
       <!-- Clientes -->
       <section data-view="customers" class="stack hidden">
         <div class="row">
           <h2 class="grow" style="font-size:1.8rem">Clientes</h2>
-          <button class="btn sm" id="winbackBtn" type="button">💬 Recuperar inactivos</button>
+          <button class="btn sm" id="addCustBtn" type="button">＋ Agregar</button>
+          <button class="btn sm" id="exportBtn" type="button">⬇︎ Exportar</button>
         </div>
         <div class="chips" id="custFilters">
           <button class="chip on" data-filter="all" type="button">Todos</button>
-          <button class="chip" data-filter="inactive" type="button">Inactivos</button>
-          <button class="chip" data-filter="near" type="button">A 1 sello del premio</button>
-          <button class="chip" data-filter="rewards" type="button">Con premio</button>
+          <button class="chip" data-filter="rewards" type="button">🎁 Con premio</button>
+          <button class="chip" data-filter="near" type="button">A 1 sello</button>
+          <button class="chip" data-filter="inactive" type="button">💤 Inactivos</button>
+          <button class="chip" data-filter="new" type="button">Nuevos (30 días)</button>
+          <button class="chip" data-filter="loyal" type="button">⭐ Frecuentes (5+)</button>
         </div>
-        <input id="custSearch" placeholder="Buscar por nombre o teléfono" />
-        <p class="mute small" id="custHint"></p>
+        <input id="custSearch" type="search" placeholder="Buscar por nombre o teléfono" aria-label="Buscar clientes" />
+        <div class="row"><p class="mute small grow" id="custHint"></p><button class="btn sm hidden" id="custCampaign" type="button">💬 Enviar mensaje a esta lista</button></div>
         <div class="list" id="custList"></div>
       </section>
 
       <!-- Campañas -->
       <section data-view="campaigns" class="stack hidden">
-        <h2 style="font-size:1.8rem">Campañas a la pantalla de bloqueo</h2>
-        <p class="mute">El mensaje aparece en la tarjeta del cliente y, con Wallet activado, como notificación en su teléfono. Sin SMS ni costos extra.</p>
+        <h2 style="font-size:1.8rem">Campañas</h2>
+        <p class="mute">Tu mensaje aparece en la tarjeta del cliente y, si la guardó en Wallet, como notificación en su pantalla de bloqueo. Sin SMS ni costos extra. Solo llega a quienes aceptaron recibir promociones.</p>
         <div class="split">
           <form id="campForm" class="card-box stack">
-            <label class="field"><span>¿A quién?</span>
+            <label class="field"><span>1. ¿A quién se lo mandas?</span>
               <select name="segment" id="campSegment">
-                <option value="inactive">Clientes inactivos</option>
+                <option value="inactive">💤 Clientes inactivos (para que regresen)</option>
                 <option value="near">A 1 sello del premio</option>
-                <option value="rewards">Tienen un premio sin canjear</option>
+                <option value="rewards">🎁 Tienen un premio sin canjear</option>
+                <option value="new">Clientes nuevos (últimos 30 días)</option>
+                <option value="loyal">⭐ Clientes frecuentes (5+ visitas)</option>
                 <option value="all">Todos los clientes</option>
               </select>
             </label>
-            <label class="field"><span>Mensaje (máx. 160)</span><textarea name="message" maxlength="160" required id="campMsg"></textarea></label>
-            <div class="chips" id="templates"></div>
-            <p class="mute small" id="campCount"></p>
-            <button class="btn gold block" type="submit">Enviar campaña</button>
+            <p class="small" id="campCount"></p>
+            <label class="field"><span>2. Escribe tu mensaje</span><textarea name="message" maxlength="160" required id="campMsg" placeholder="Ej. ¡Te extrañamos! Ven esta semana y recibe un sello doble."></textarea></label>
+            <div class="row"><span class="mute small grow">Ideas:</span><span class="mute small" id="campChars">0/160</span></div>
+            <div class="chips" id="templates" style="flex-wrap:wrap"></div>
+            <button class="btn gold block" type="submit" id="campSend">Enviar campaña</button>
           </form>
-          <div class="card-box stack">
-            <b>Historial</b>
-            <div class="list" id="campHistory"></div>
+          <div class="stack">
+            <div class="card-box stack">
+              <b>Así se verá</b>
+              <div class="lock" aria-hidden="true">
+                <div class="time" id="lockTime">9:41</div>
+                <div class="notif"><div class="ic" id="lockIc">★</div><div><b id="lockName"></b><br><span id="lockMsg" class="mute"></span></div></div>
+              </div>
+            </div>
+            <div class="card-box stack">
+              <b>Historial</b>
+              <div class="list" id="campHistory"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -162,14 +213,17 @@
           <form id="cardForm" class="stack">
             <h2 style="font-size:1.8rem">Diseña tu tarjeta</h2>
             <div class="card-box stack">
+              <b>Marca</b>
               <label class="field"><span>Nombre del negocio</span><input name="name" maxlength="60" required /></label>
-              <label class="field"><span>Logo (PNG o JPG, horizontal de preferencia)</span><input type="file" accept="image/*" id="logoFile" /></label>
+              <label class="field"><span>Logo (PNG o JPG, de preferencia horizontal y con fondo transparente)</span><input type="file" accept="image/*" id="logoFile" /></label>
               <button class="btn sm ghost danger hidden" type="button" id="removeLogo">Quitar logo</button>
+              <div class="stack"><span class="mute small" style="font-weight:700">Combinaciones listas</span><div class="palette" id="palette"></div></div>
               <div class="grid3">
                 <label class="field"><span>Fondo</span><input type="color" name="color_bg" /></label>
                 <label class="field"><span>Texto</span><input type="color" name="color_fg" /></label>
-                <label class="field"><span>Acento</span><input type="color" name="color_accent" /></label>
+                <label class="field"><span>Acento (sellos)</span><input type="color" name="color_accent" /></label>
               </div>
+              <p class="contrast-warn hidden" id="contrastWarn">⚠️ El texto casi no se distingue del fondo. Elige colores con más contraste.</p>
             </div>
             <div class="card-box stack">
               <b>Programa de recompensas</b>
@@ -177,15 +231,21 @@
                 <label class="field"><span>Sellos para el premio</span><input type="number" name="stamps_required" min="3" max="20" required /></label>
                 <label class="field"><span>Premio</span><input name="reward_text" maxlength="60" required /></label>
               </div>
+              <div class="chips" id="rewardIdeas" style="flex-wrap:wrap"></div>
+              <p class="mute small">Tip: entre 6 y 10 sellos funciona mejor. Si es muy difícil de llenar, la gente se desanima.</p>
+            </div>
+            <div class="card-box stack">
+              <b>Reglas y métricas</b>
               <div class="grid2">
                 <label class="field"><span>Ticket promedio (MXN)</span><input type="number" name="ticket_avg" min="1" required /></label>
                 <label class="field"><span>Inactivo después de (días)</span><input type="number" name="inactive_days" min="3" max="365" required /></label>
               </div>
               <label class="field"><span>Minutos mínimos entre sellos del mismo cliente (antifraude)</span><input type="number" name="stamp_cooldown_min" min="0" max="1440" required /></label>
+              <p class="mute small">El ticket promedio sirve para calcular cuánto dinero te devuelven los clientes recuperados. Si alguien intenta sellar dos veces seguidas, el mostrador pide confirmación.</p>
             </div>
             <div class="card-box stack">
               <b>Ubicación del local</b>
-              <p class="mute small">Sirve para las alertas por cercanía: a los clientes inactivos, el iPhone les sugiere la tarjeta en la pantalla de bloqueo cuando pasan cerca de tu local.</p>
+              <p class="mute small">Sirve para las alertas por cercanía: a los clientes inactivos, el iPhone les sugiere la tarjeta cuando pasan cerca de tu local. También aparece un botón “Cómo llegar” en la tarjeta.</p>
               <label class="field"><span>Dirección</span><input name="address" maxlength="160" placeholder="Calle, número, colonia" /></label>
               <div class="grid2">
                 <label class="field"><span>Latitud</span><input name="lat" inputmode="decimal" /></label>
@@ -193,52 +253,58 @@
               </div>
               <button class="btn sm" type="button" id="geoBtn">📍 Usar mi ubicación actual (estando en el local)</button>
             </div>
-            <div class="alert hidden" data-err></div>
+            <div class="alert hidden" data-err role="alert"></div>
             <button class="btn gold block" type="submit">Guardar cambios</button>
           </form>
           <div class="sticky stack">
             <p class="eyebrow">Vista previa</p>
             <div id="cardPreview"></div>
-            <p class="mute small">Así se verá en la Wallet y en la tarjeta web de tus clientes.</p>
+            <p class="mute small">Así se verá en la Wallet y en la tarjeta web de tus clientes. Los cambios se guardan hasta que tocas “Guardar cambios”.</p>
           </div>
         </div>
       </section>
 
       <!-- Mostrador y QR -->
       <section data-view="counter" class="stack hidden">
-        <h2 style="font-size:1.8rem">Mostrador y QR</h2>
+        <h2 style="font-size:1.8rem">QR y personal</h2>
         <div class="split">
           <div class="stack">
             <div class="card-box stack">
               <b>1. QR para que tus clientes se unan</b>
               <p class="mute small">Imprímelo y ponlo en el mostrador, el espejo o la mesa. El cliente lo escanea con su cámara y obtiene su tarjeta en segundos.</p>
               <div class="row">
-                <input id="joinLink" readonly class="grow" style="flex:1;min-width:0" />
+                <input id="joinLink" readonly class="grow" style="flex:1;min-width:0" aria-label="Enlace de alta" />
                 <button class="btn sm" type="button" id="copyJoin">Copiar</button>
               </div>
               <div class="row">
-                <button class="btn gold" type="button" onclick="window.print()">🖨️ Imprimir cartel</button>
-                <a class="btn" id="openJoin" target="_blank">Probar como cliente</a>
+                <button class="btn gold" type="button" id="printBtn">🖨️ Imprimir cartel</button>
+                <a class="btn" id="openJoin" target="_blank" rel="noopener">Probar como cliente</a>
+                <a class="btn" id="shareJoin" target="_blank" rel="noopener">Compartir por WhatsApp</a>
               </div>
             </div>
             <div class="card-box stack">
               <b>2. Acceso para tu personal</b>
-              <p class="mute small">Tu personal sella desde su celular en <b>sellar.html</b> con el código del negocio y un PIN. No ven tus clientes ni tus campañas.</p>
+              <p class="mute small">Tu personal sella y entrega premios desde su celular en el modo mostrador, con el código del negocio y un PIN. No ve tus métricas, tu lista de clientes ni tus campañas.</p>
               <div class="row"><span class="mute grow">Código del negocio</span><b id="slugView"></b></div>
-              <div class="row"><span class="mute grow">PIN configurado</span><b id="pinState"></b></div>
+              <div class="row"><span class="mute grow">PIN del personal</span><b id="pinState"></b></div>
               <form id="pinForm" class="row">
-                <input name="pin" inputmode="numeric" pattern="\d{4,8}" maxlength="8" placeholder="Nuevo PIN (4–8 dígitos)" class="grow" style="flex:1;min-width:0" required />
+                <input name="pin" inputmode="numeric" pattern="\d{4,8}" maxlength="8" placeholder="Nuevo PIN (4–8 dígitos)" class="grow" style="flex:1;min-width:0" required aria-label="Nuevo PIN" />
                 <button class="btn" type="submit">Guardar PIN</button>
               </form>
               <div class="row">
-                <input id="staffLink" readonly class="grow" style="flex:1;min-width:0" />
+                <input id="staffLink" readonly class="grow" style="flex:1;min-width:0" aria-label="Enlace del mostrador" />
                 <button class="btn sm" type="button" id="copyStaff">Copiar</button>
               </div>
+              <p class="mute small">Tip: en el celular del mostrador, abre el enlace y elige “Agregar a pantalla de inicio”. Queda como una app.</p>
             </div>
             <div class="card-box stack">
-              <b>3. Guion para el mostrador</b>
-              <p class="note">“¿Te la pongo en el celular? Así no pierdes tus sellos y te avisamos de promociones.”</p>
-              <p class="mute small">Ofrécela a cada cliente al cobrar. Los negocios que lo hacen siempre llenan su base de clientes en 2–3 semanas.</p>
+              <b>3. Cómo se usa en el mostrador</b>
+              <div class="steps">
+                <div class="st"><span class="t">Al cobrar, pregunta: “¿Te la pongo en el celular? Así no pierdes tus sellos.”</span></div>
+                <div class="st"><span class="t">Escanea la tarjeta del cliente y toca <b>+1 sello</b>.</span></div>
+                <div class="st"><span class="t">Si junta los sellos, el mostrador te pregunta si le entregas su premio. Confírmalo <b>solo cuando ya se lo diste</b>.</span></div>
+                <div class="st"><span class="t">¿Te equivocaste? Toca “Deshacer” en los siguientes 15 minutos.</span></div>
+              </div>
             </div>
           </div>
           <div class="card-box center stack">
@@ -248,15 +314,51 @@
           </div>
         </div>
       </section>
+
+      <!-- Cuenta -->
+      <section data-view="account" class="stack hidden">
+        <h2 style="font-size:1.8rem">Cuenta</h2>
+        <div class="split">
+          <div class="stack">
+            <div class="card-box stack">
+              <b>Tu plan</b>
+              <div class="row"><span class="mute grow">Plan actual</span><b id="planName"></b></div>
+              <div class="row"><span class="mute grow">Correo</span><b id="ownerEmail" style="word-break:break-all;text-align:right"></b></div>
+              <div class="row"><span class="mute grow">Cliente desde</span><b id="since"></b></div>
+              <a class="btn gold" target="_blank" rel="noopener" id="payBtn">Activar mi plan por WhatsApp</a>
+              <p class="mute small">Emprendedor $339 · Pro $749 · Franquicias $1,649 al mes (MXN). <a href="./#precios">Ver qué incluye cada uno</a>.</p>
+            </div>
+            <form class="card-box stack" id="pwForm">
+              <b>Cambiar contraseña</b>
+              <label class="field"><span>Contraseña actual</span><input type="password" name="current" autocomplete="current-password" required /></label>
+              <label class="field"><span>Contraseña nueva (mínimo 8)</span><input type="password" name="password" minlength="8" autocomplete="new-password" required /></label>
+              <div class="alert hidden" data-err role="alert"></div>
+              <button class="btn" type="submit">Guardar contraseña</button>
+            </form>
+          </div>
+          <div class="card-box stack">
+            <b>¿Necesitas ayuda?</b>
+            <p class="mute small">Te atiende directo el fundador. Te ayudamos a configurar tu tarjeta, imprimir tu cartel o capacitar a tu personal.</p>
+            <a class="btn" href="https://wa.me/524492094034?text=Hola%2C%20necesito%20ayuda%20con%20Mr%20Key" target="_blank" rel="noopener">WhatsApp 449 209 4034</a>
+            <a class="btn" href="mailto:officiallukamon@gmail.com">officiallukamon@gmail.com</a>
+            <button class="btn ghost danger" id="logoutBtn" type="button">Cerrar sesión</button>
+          </div>
+        </div>
+      </section>
     </main>
   </section>
 
   <!-- Cartel para imprimir -->
   <div class="poster" id="poster">
+    <div class="logo" id="posterLogo"></div>
     <h1 id="posterName"></h1>
-    <p>Escanea y obtén tu tarjeta de lealtad en el celular</p>
+    <p class="lead" id="posterReward"></p>
     <div class="pq" id="posterQr"></div>
-    <p id="posterReward"></p>
+    <ol>
+      <li>Abre la cámara de tu celular y apunta al código.</li>
+      <li>Escribe tu nombre y celular.</li>
+      <li>Guarda tu tarjeta y muéstrala al pagar para sumar sellos.</li>
+    </ol>
     <p style="font-size:10pt;color:#888">Sin descargar apps · Tarjeta creada con Mr Key</p>
   </div>
 
@@ -264,10 +366,27 @@
   <script src="assets/app.js"></script>
   <script>
     const $ = (id) => document.getElementById(id);
+    const q = MK.q;
     let token = MK.store("mk_owner_token");
     let state = null; // respuesta de /me
-    let custFilter = "all";
+    let custFilter = "all", rewardStatus = "pending", lastCustomers = [], audience = null;
     let pendingLogo; // undefined = sin cambios, null = quitar, string = nuevo
+    const SUPPORT = "524492094034";
+
+    const PRESETS = {
+      barberia: { reward: "Corte gratis", stamps: 8, ideas: ["Corte gratis", "Arreglo de barba gratis", "50% en tu siguiente corte"] },
+      cafeteria: { reward: "Café gratis", stamps: 10, ideas: ["Café gratis", "Bebida de temporada gratis", "Pan dulce gratis"] },
+      belleza: { reward: "Servicio gratis", stamps: 6, ideas: ["Manicure gratis", "Tratamiento capilar gratis", "20% de descuento"] },
+      veterinaria: { reward: "Baño gratis para tu mascota", stamps: 6, ideas: ["Baño gratis para tu mascota", "Desparasitación gratis", "Corte de uñas gratis"] },
+      retail: { reward: "10% de descuento", stamps: 5, ideas: ["10% de descuento", "$100 de regalo", "Envío gratis"] },
+      restaurante: { reward: "Postre gratis", stamps: 8, ideas: ["Postre gratis", "Bebida gratis", "Entrada gratis"] },
+      otro: { reward: "Producto gratis", stamps: 8, ideas: ["Producto gratis", "Servicio gratis", "10% de descuento"] },
+    };
+    const PALETTES = [
+      ["#111111", "#ffffff", "#d6b47a"], ["#1c1917", "#fafaf9", "#f59e0b"], ["#0f172a", "#f8fafc", "#38bdf8"],
+      ["#14532d", "#f0fdf4", "#86efac"], ["#7f1d1d", "#fef2f2", "#fca5a5"], ["#fdf2f8", "#831843", "#db2777"],
+      ["#fffbeb", "#1c1917", "#b45309"], ["#312e81", "#eef2ff", "#a5b4fc"],
+    ];
 
     // ---------- Acceso ----------
     document.querySelectorAll("[data-auth]").forEach((b) => b.addEventListener("click", () => {
@@ -276,6 +395,12 @@
       $("loginForm").classList.toggle("hidden", b.dataset.auth !== "login");
     }));
     if (location.hash === "#entrar") document.querySelector('[data-auth="login"]').click();
+    const presetHint = () => {
+      const p = PRESETS[$("verticalSel").value];
+      $("presetHint").textContent = `Programa sugerido: ${p.stamps} sellos = ${p.reward}. Lo puedes cambiar después.`;
+    };
+    $("verticalSel").addEventListener("change", presetHint);
+    presetHint();
 
     async function authSubmit(ev, path) {
       ev.preventDefault();
@@ -288,6 +413,7 @@
         token = r.token;
         MK.store("mk_owner_token", token);
         await boot(path === "/signup" ? "card" : "home");
+        if (path === "/signup") MK.toast("¡Cuenta creada! Ahora sube tu logo y elige tus colores.");
       } catch (e) {
         err.textContent = e.message;
         err.classList.remove("hidden");
@@ -298,10 +424,16 @@
     $("signupForm").addEventListener("submit", (e) => authSubmit(e, "/signup"));
     $("loginForm").addEventListener("submit", (e) => authSubmit(e, "/login"));
     $("logoutBtn").addEventListener("click", async () => {
+      if (!(await MK.confirm({ title: "¿Cerrar sesión?", text: "Tendrás que volver a escribir tu correo y contraseña.", ok: "Cerrar sesión" }))) return;
       await MK.api("/logout", { method: "POST", token }).catch(() => {});
       MK.store("mk_owner_token", null);
-      location.reload();
+      location.href = "panel.html";
     });
+
+    async function refreshState() {
+      state = await MK.api("/me", { token });
+      renderAll();
+    }
 
     async function boot(tab) {
       if (!token) {
@@ -310,6 +442,7 @@
       }
       try {
         state = await MK.api("/me", { token });
+        if (state.role !== "owner") throw Object.assign(new Error("Sesión de personal"), { status: 403 });
       } catch (e) {
         if (e.status === 401 || e.status === 403) {
           MK.store("mk_owner_token", null);
@@ -317,6 +450,7 @@
           $("authView").classList.remove("hidden");
           return;
         }
+        $("authView").classList.remove("hidden");
         return MK.toast(e.message);
       }
       $("authView").classList.add("hidden");
@@ -328,11 +462,16 @@
     // ---------- Pestañas ----------
     function showTab(name) {
       if (!document.querySelector(`[data-view="${name}"]`)) name = "home";
-      document.querySelectorAll("[data-tab]").forEach((t) => t.classList.toggle("on", t.dataset.tab === name));
+      document.querySelectorAll("[data-tab]").forEach((t) => {
+        t.classList.toggle("on", t.dataset.tab === name);
+        if (t.dataset.tab === name) t.scrollIntoView({ block: "nearest", inline: "nearest" });
+      });
       document.querySelectorAll("[data-view]").forEach((v) => v.classList.toggle("hidden", v.dataset.view !== name));
       history.replaceState(null, "", `#${name}`);
       if (name === "customers") loadCustomers();
       if (name === "campaigns") loadCampaigns();
+      if (name === "rewards") loadRewards();
+      if (name === "home") refreshState().catch(() => {});
       window.scrollTo(0, 0);
     }
     document.querySelectorAll("[data-tab]").forEach((t) => t.addEventListener("click", () => showTab(t.dataset.tab)));
@@ -342,7 +481,15 @@
       document.title = `${m.name} · Mr Key`;
       $("bizTitle").textContent = m.name;
       const daysLeft = Math.ceil((new Date(m.trial_ends_at) - Date.now()) / 86400000);
-      $("trialInfo").textContent = m.plan === "trial" ? (daysLeft > 0 ? `Prueba gratis · quedan ${daysLeft} días` : "Tu prueba terminó") : `Plan ${m.plan}`;
+      const trial = m.plan === "trial";
+      $("trialInfo").textContent = trial ? (daysLeft > 0 ? `Prueba gratis · quedan ${MK.plural(daysLeft, "día", "días")}` : "Tu prueba terminó") : `Plan ${m.plan}`;
+      const payMsg = `Hola, quiero activar mi plan de Mr Key para ${m.name} (${m.slug}).`;
+      $("trialBanner").classList.toggle("hidden", !(trial && daysLeft <= 4));
+      $("trialBanner").innerHTML = `<span class="grow">${daysLeft > 0 ? `⏳ Te ${daysLeft === 1 ? "queda 1 día" : `quedan ${daysLeft} días`} de prueba.` : "⏳ Tu prueba gratis terminó."} Activa tu plan para seguir sin interrupciones.</span><a class="btn sm gold" target="_blank" rel="noopener" href="${MK.waLink(SUPPORT, payMsg)}">Activar plan</a>`;
+
+      // Badge de premios pendientes
+      $("rewardsBadge").textContent = s.rewards_pending;
+      $("rewardsBadge").classList.toggle("hidden", !s.rewards_pending);
 
       // Primeros pasos
       const steps = [
@@ -351,40 +498,133 @@
         { t: "Imprime tu QR y consigue tus primeros 10 clientes", done: s.customers >= 10, tab: "counter" },
         { t: "Sella tu primera visita", done: s.visits_30d > 0, href: "sellar.html" },
       ];
-      $("onboarding").classList.toggle("hidden", steps.every((x) => x.done));
+      const doneN = steps.filter((x) => x.done).length;
+      $("onboarding").classList.toggle("hidden", doneN === steps.length);
+      $("onbCount").textContent = `${doneN} de ${steps.length}`;
       $("steps").innerHTML = steps.map((x, i) => `<div class="st${x.done ? " done" : ""}"><span class="t grow">${x.t}</span>${x.done ? "" : `<button class="btn sm" data-step="${i}" type="button">Ir</button>`}</div>`).join("");
       $("steps").querySelectorAll("[data-step]").forEach((b) => b.addEventListener("click", () => {
         const st = steps[b.dataset.step];
         st.href ? (location.href = st.href) : showTab(st.tab);
       }));
 
+      // Para hoy: acciones concretas
+      const todo = [];
+      if (s.rewards_pending) todo.push({ ic: "🎁", t: `${MK.plural(s.rewards_pending, "premio por entregar", "premios por entregar")}`, d: s.oldest_pending_days > 0 ? `El más antiguo espera desde hace ${MK.plural(s.oldest_pending_days, "día", "días")}` : "Confírmalos al entregarlos", go: () => showTab("rewards"), urgent: true });
+      if (s.near_reward) todo.push({ ic: "🔥", t: `${MK.plural(s.near_reward, "cliente está", "clientes están")} a 1 sello`, d: "Mándales un recordatorio", go: () => startCampaign("near") });
+      if (s.inactive) todo.push({ ic: "💤", t: `${MK.plural(s.inactive, "cliente inactivo", "clientes inactivos")}`, d: `Más de ${m.inactive_days} días sin venir. Invítalos a regresar`, go: () => startCampaign("inactive") });
+      if (!s.customers) todo.push({ ic: "🖨️", t: "Imprime tu QR", d: "Ponlo en el mostrador para conseguir tus primeros clientes", go: () => showTab("counter") });
+      $("todoWrap").classList.toggle("hidden", !todo.length);
+      $("todo").innerHTML = todo.map((x, i) => `<button class="action${x.urgent ? " urgent" : ""}" data-todo="${i}" type="button"><span class="ic">${x.ic}</span><span><b>${x.t}</b><span class="mute small">${x.d}</span></span><span class="go">→</span></button>`).join("");
+      $("todo").querySelectorAll("[data-todo]").forEach((b) => (b.onclick = todo[b.dataset.todo].go));
+
       // KPIs
-      const k = (label, n, cls = "", extra = "") => `<div class="kpi ${cls}"><div class="eyebrow">${label}</div><div class="n ${cls ? "gold" : ""}">${n}</div>${extra}</div>`;
+      const k = (label, n, help, extra = "", cls = "") => `<div class="kpi ${cls}"><div class="eyebrow">${label}<span class="help" title="${MK.esc(help)}" aria-label="${MK.esc(help)}">?</span></div><div class="n ${cls ? "gold" : ""}">${n}</div>${extra ? `<p class="mute small sub">${extra}</p>` : ""}</div>`;
+      const retention = s.customers ? Math.round((s.returning / s.customers) * 100) : 0;
       $("kpis").innerHTML = [
-        k("Ingresos recuperados · 30 días", MK.money(s.recovered_revenue_30d), "hl", `<p class="mute small">${s.reactivated_30d} clientes inactivos volvieron</p>`),
-        k("Clientes", s.customers, "", `<p class="mute small">+${s.new_30d} este mes</p>`),
-        k("Visitas · 30 días", s.visits_30d),
-        k("Inactivos", s.inactive, "", `<p class="mute small">más de ${m.inactive_days} días sin venir</p>`),
-        k("A 1 sello del premio", s.near_reward),
-        k("Premios canjeados · 30 días", s.redeemed_30d),
+        k("Ingresos recuperados · 30 días", MK.money(s.recovered_revenue_30d), `Clientes inactivos que volvieron × tu ticket promedio (${MK.money(m.ticket_avg)}).`, `${MK.plural(s.reactivated_30d, "cliente inactivo volvió", "clientes inactivos volvieron")}`, "hl"),
+        k("Clientes", s.customers, "Personas con tu tarjeta.", `+${s.new_30d} en los últimos 30 días`),
+        k("Visitas · 30 días", s.visits_30d, "Sellos registrados en los últimos 30 días.", `${s.visits_today} hoy`),
+        k("Regresan", `${retention}%`, "Clientes que han venido 2 veces o más.", `${s.returning} de ${s.customers}`),
+        k("Premios entregados · 30 días", s.redeemed_30d, "Premios confirmados como entregados.", s.rewards_pending ? `${s.rewards_pending} por entregar` : "Ninguno pendiente"),
+        k("Aceptan promociones", s.opted_in, "Clientes que reciben tus campañas.", s.customers ? `${Math.round((s.opted_in / s.customers) * 100)}% de tus clientes` : ""),
       ].join("");
 
       // Gráfica
       const max = Math.max(1, ...state.daily.map((d) => d.visits));
-      $("bars").innerHTML = state.daily.map((d) => `<div style="height:${(d.visits / max) * 100}%" title="${d.day}: ${d.visits} visitas"></div>`).join("");
-      $("barDays").innerHTML = state.daily.map((d, i) => `<span>${i % 2 === 1 ? Number(d.day.slice(8)) : ""}</span>`).join("");
+      const total = state.daily.reduce((a, d) => a + d.visits, 0);
+      $("barsTotal").textContent = `${total} en total`;
+      const dayName = new Intl.DateTimeFormat("es-MX", { weekday: "short", day: "numeric", month: "short" });
+      $("bars").innerHTML = state.daily.map((d) => `<div style="height:${(d.visits / max) * 100}%" title="${dayName.format(new Date(d.day + "T12:00"))}: ${MK.plural(d.visits, "visita", "visitas")}">${d.visits ? `<span>${d.visits}</span>` : ""}</div>`).join("");
+      $("barDays").innerHTML = state.daily.map((d, i) => `<span>${i % 2 === 1 || i === 13 ? Number(d.day.slice(8)) : ""}</span>`).join("");
 
       // Actividad
-      const label = { join: "se unió", stamp: "recibió un sello", redeem: "canjeó su premio", campaign: "Campaña enviada" };
-      $("recent").innerHTML = state.recent.length ? state.recent.map((e) => {
-        const who = e.kind === "campaign" ? `Campaña a ${e.meta?.recipients ?? 0} clientes` : `${MK.esc(e.name || "Cliente")} ${label[e.kind]}`;
-        const tag = e.meta?.reactivated ? '<span class="pill gold">recuperado</span>' : e.meta?.unlocked ? '<span class="pill ok">premio</span>' : "";
-        return `<div class="item"><div class="who"><b>${who}</b><span class="mute small">${MK.ago(e.created_at)}${e.staff_name ? ` · ${MK.esc(e.staff_name)}` : ""}</span></div>${tag}</div>`;
-      }).join("") : `<p class="mute small">Aún no hay actividad. Imprime tu QR y comparte la tarjeta.</p>`;
+      $("recent").innerHTML = state.recent.length ? state.recent.map(activityItem).join("") : `<div class="empty"><span class="ic">✨</span>Aún no hay actividad. Imprime tu QR y comparte la tarjeta.</div>`;
+      $("recent").querySelectorAll("[data-cid]").forEach((b) => (b.onclick = () => openCustomer(b.dataset.cid)));
 
       fillCardForm();
       renderCounter();
       renderTemplates();
+      renderAccount();
+    }
+
+    function eventText(e) {
+      const n = MK.esc(e.name || "Cliente");
+      switch (e.kind) {
+        case "join": return { ic: "👋", t: `${n} se unió${e.meta?.via === "counter" ? " (alta en mostrador)" : ""}` };
+        case "stamp": return { ic: e.meta?.unlocked ? "🎁" : "⭐", t: `${n} ${e.meta?.count > 1 ? `recibió ${e.meta.count} sellos` : "recibió un sello"}${e.meta?.unlocked ? " y ganó su premio" : ""}` };
+        case "redeem": return { ic: "✅", t: `Se entregó el premio a ${n}` };
+        case "undo_stamp": return { ic: "↩︎", t: `Se deshizo un sello de ${n}` };
+        case "undo_redeem": return { ic: "↩︎", t: `Se deshizo la entrega de premio a ${n}` };
+        case "adjust": return { ic: "✏️", t: `Sellos de ${n} ajustados: ${e.meta?.from} → ${e.meta?.to}` };
+        case "campaign": return { ic: "💬", t: `Campaña enviada a ${MK.plural(e.meta?.recipients ?? 0, "cliente", "clientes")}` };
+        default: return { ic: "•", t: n };
+      }
+    }
+    function activityItem(e) {
+      const { ic, t } = eventText(e);
+      const tag = e.meta?.undone ? '<span class="pill">deshecho</span>' : e.meta?.reactivated ? '<span class="pill gold">recuperado</span>' : "";
+      const attrs = e.customer_id ? `class="item click" data-cid="${e.customer_id}" role="button" tabindex="0"` : `class="item"`;
+      return `<div ${attrs}><span aria-hidden="true">${ic}</span><div class="who"><b style="white-space:normal">${t}</b><span class="mute small">${MK.ago(e.created_at)}${e.staff_name ? ` · ${MK.esc(e.staff_name)}` : ""}</span></div>${tag}</div>`;
+    }
+
+    // ---------- Premios ----------
+    document.querySelectorAll("[data-rs]").forEach((b) => b.addEventListener("click", () => {
+      rewardStatus = b.dataset.rs;
+      document.querySelectorAll("[data-rs]").forEach((x) => x.classList.toggle("on", x === b));
+      loadRewards();
+    }));
+    async function loadRewards() {
+      $("rewardList").innerHTML = `<p class="mute small">Cargando…</p>`;
+      try {
+        const { rewards } = await MK.api(`/rewards?status=${rewardStatus}`, { token });
+        if (!rewards.length) {
+          $("rewardList").innerHTML = rewardStatus === "pending"
+            ? `<div class="empty"><span class="ic">🎉</span>No hay premios pendientes. Todos los premios ganados ya se entregaron.</div>`
+            : `<div class="empty"><span class="ic">🎁</span>Todavía no se entrega ningún premio.</div>`;
+          return;
+        }
+        $("rewardList").innerHTML = rewards.map((r) => rewardStatus === "pending" ? `
+          <div class="item" style="flex-wrap:wrap">
+            <div class="who" style="min-width:180px"><b class="click" data-cid="${r.customer_id}" style="cursor:pointer">${MK.esc(r.name)}</b><span class="mute small">${MK.esc(r.reward_text)} · ganado ${MK.fmtDate(r.earned_at)} · ${r.days_waiting ? `esperando ${MK.plural(r.days_waiting, "día", "días")}` : "hoy"}</span></div>
+            ${r.days_waiting >= 14 ? '<span class="pill warn">hace mucho</span>' : ""}
+            <a class="btn sm ghost" href="${MK.waLink(r.phone, `¡Hola ${r.name.split(" ")[0]}! Tienes un premio esperándote en ${state.merchant.name}: ${r.reward_text}. ¡Ven a recogerlo!`)}" target="_blank" rel="noopener" aria-label="Recordar por WhatsApp">WhatsApp</a>
+            <button class="btn sm gold" data-deliver="${r.id}" data-name="${MK.esc(r.name)}" data-text="${MK.esc(r.reward_text)}" type="button">Marcar entregado</button>
+          </div>` : `
+          <div class="item" style="flex-wrap:wrap">
+            <div class="who" style="min-width:180px"><b class="click" data-cid="${r.customer_id}" style="cursor:pointer">${MK.esc(r.name)}</b><span class="mute small">${MK.esc(r.reward_text)} · entregado ${MK.fmtDateTime(r.delivered_at)}${r.delivered_by ? ` por ${MK.esc(r.delivered_by)}` : ""}</span></div>
+            <span class="pill ok">✓ entregado</span>
+            ${Date.now() - new Date(r.delivered_at) < 7 * 86400000 ? `<button class="btn sm ghost" data-undo="${r.id}" data-name="${MK.esc(r.name)}" type="button">Deshacer</button>` : ""}
+          </div>`).join("");
+        $("rewardList").querySelectorAll("[data-cid]").forEach((b) => (b.onclick = () => openCustomer(b.dataset.cid)));
+        $("rewardList").querySelectorAll("[data-deliver]").forEach((b) => (b.onclick = () => deliverReward(b.dataset.deliver, b.dataset.name, b.dataset.text, loadRewards)));
+        $("rewardList").querySelectorAll("[data-undo]").forEach((b) => (b.onclick = () => undoDelivery(b.dataset.undo, b.dataset.name, loadRewards)));
+      } catch (e) {
+        $("rewardList").innerHTML = `<div class="alert">${MK.esc(e.message)}</div>`;
+      }
+    }
+    async function deliverReward(id, name, text, after) {
+      const ok = await MK.confirm({ icon: "🎁", title: `¿Ya se le entregó su premio a ${MK.esc(name)}?`, text: `<b style="color:var(--text)">${MK.esc(text)}</b><br>Confírmalo solo si el cliente ya lo recibió. Quedará registrado con la fecha y la hora.`, ok: "✓ Sí, ya se lo entregamos", cancel: "Todavía no" });
+      if (!ok) return;
+      try {
+        await MK.api("/rewards/deliver", { method: "POST", token, body: { reward_id: id } });
+        MK.toast("Premio marcado como entregado");
+        await refreshState();
+        after?.();
+      } catch (e) {
+        MK.toast(e.message);
+      }
+    }
+    async function undoDelivery(id, name, after) {
+      const ok = await MK.confirm({ icon: "↩︎", title: "¿Deshacer la entrega?", text: `El premio de ${MK.esc(name)} volverá a quedar pendiente.`, ok: "Sí, deshacer", danger: true });
+      if (!ok) return;
+      try {
+        await MK.api("/rewards/undo", { method: "POST", token, body: { reward_id: id } });
+        MK.toast("El premio volvió a pendiente");
+        await refreshState();
+        after?.();
+      } catch (e) {
+        MK.toast(e.message);
+      }
     }
 
     // ---------- Clientes ----------
@@ -398,79 +638,279 @@
       clearTimeout(searchTimer);
       searchTimer = setTimeout(loadCustomers, 300);
     });
-    $("winbackBtn").addEventListener("click", () => {
-      showTab("campaigns");
-      $("campSegment").value = "inactive";
-      $("campMsg").value = `¡Te extrañamos en ${state.merchant.name}! Ven esta semana y recibe un sello doble.`;
-      updateCount();
-    });
+    $("custCampaign").addEventListener("click", () => startCampaign(custFilter));
 
     async function loadCustomers() {
-      const q = encodeURIComponent($("custSearch").value);
+      const qs = encodeURIComponent($("custSearch").value);
       $("custList").innerHTML = `<p class="mute small">Cargando…</p>`;
       try {
-        const { customers, inactive_days } = await MK.api(`/customers?filter=${custFilter}&q=${q}`, { token });
+        const { customers, inactive_days } = await MK.api(`/customers?filter=${custFilter}&q=${qs}`, { token });
+        lastCustomers = customers;
         const req = state.merchant.stamps_required;
-        $("custHint").textContent = custFilter === "inactive"
-          ? `Clientes con más de ${inactive_days} días sin visitarte, del más antiguo al más reciente.`
-          : `${customers.length} cliente(s)`;
+        const hints = {
+          inactive: `Más de ${inactive_days} días sin visitarte, del que lleva más tiempo al más reciente.`,
+          near: "Les falta 1 sello para su premio: un recordatorio los trae de vuelta.",
+          rewards: "Ganaron su premio y todavía no se les entrega.",
+          new: "Se unieron en los últimos 30 días.",
+          loyal: "Tus mejores clientes, ordenados por visitas.",
+        };
+        $("custHint").textContent = `${MK.plural(customers.length, "cliente", "clientes")}${hints[custFilter] ? ` · ${hints[custFilter]}` : ""}`;
+        $("custCampaign").classList.toggle("hidden", custFilter === "all" || !customers.length || !!$("custSearch").value);
         $("custList").innerHTML = customers.length ? customers.map((c) => {
           const inactive = c.last_visit_at && c.days_since > inactive_days;
-          const status = c.rewards_available ? `<span class="pill ok">🎁 ${c.rewards_available}</span>`
+          const status = c.rewards_available ? `<span class="pill ok">🎁 ${c.rewards_available} por entregar</span>`
             : inactive ? `<span class="pill bad">${c.days_since} días sin venir</span>`
             : !c.last_visit_at ? `<span class="pill">Sin visitas</span>`
             : `<span class="pill">${MK.ago(c.last_visit_at)}</span>`;
-          const wa = `https://wa.me/${c.phone.length === 10 ? "52" + c.phone : c.phone}`;
-          return `<div class="item">
-            <div class="who"><b>${MK.esc(c.name)}</b><span class="mute small">${c.stamps}/${req} sellos · ${c.total_visits} visitas · <a href="${wa}" target="_blank" rel="noopener">${MK.esc(c.phone)}</a>${c.marketing_opt_in ? "" : " · sin promos"}</span></div>
+          return `<div class="item click" data-cid="${c.id}" role="button" tabindex="0">
+            <div class="who"><b>${MK.esc(c.name)}</b><span class="mute small">${c.stamps}/${req} sellos · ${MK.plural(c.total_visits, "visita", "visitas")} · ${MK.esc(MK.phoneFmt(c.phone))}${c.marketing_opt_in ? "" : " · sin promos"}</span></div>
             ${status}</div>`;
-        }).join("") : `<p class="mute small">No hay clientes en esta lista.</p>`;
+        }).join("") : `<div class="empty"><span class="ic">👥</span>${$("custSearch").value ? "Nadie coincide con tu búsqueda." : "No hay clientes en esta lista."}</div>`;
+        $("custList").querySelectorAll("[data-cid]").forEach((b) => {
+          b.onclick = () => openCustomer(b.dataset.cid);
+          b.onkeydown = (e) => e.key === "Enter" && openCustomer(b.dataset.cid);
+        });
       } catch (e) {
         $("custList").innerHTML = `<div class="alert">${MK.esc(e.message)}</div>`;
       }
     }
 
-    // ---------- Campañas ----------
-    function renderTemplates() {
+    $("exportBtn").addEventListener("click", () => {
+      if (!lastCustomers.length) return MK.toast("No hay clientes para exportar en esta lista.");
+      const cell = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
+      const rows = [["Nombre", "Celular", "Correo", "Sellos", "Premios por entregar", "Premios canjeados", "Visitas", "Última visita", "Alta", "Acepta promociones", "Nota"]]
+        .concat(lastCustomers.map((c) => [c.name, c.phone, c.email, c.stamps, c.rewards_available, c.rewards_redeemed, c.total_visits, c.last_visit_at ? MK.fmtDate(c.last_visit_at) : "", MK.fmtDate(c.created_at), c.marketing_opt_in ? "Sí" : "No", c.note]));
+      const csv = "﻿" + rows.map((r) => r.map(cell).join(",")).join("\n");
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+      a.download = `clientes-${state.merchant.slug}-${new Date().toISOString().slice(0, 10)}.csv`;
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    });
+
+    $("addCustBtn").addEventListener("click", () => {
+      MK.openSheet(`
+        <p class="eyebrow">Cliente nuevo</p>
+        <h2 style="font-size:1.5rem">Agregar cliente</h2>
+        <p class="mute small">Útil para pasar a tus clientes de tarjetas de papel. Después puedes ajustar sus sellos.</p>
+        <form id="newCust" class="stack">
+          <label class="field"><span>Nombre</span><input name="name" required maxlength="60" /></label>
+          <label class="field"><span>Celular</span><input name="phone" type="tel" inputmode="tel" required placeholder="10 dígitos" /></label>
+          <label class="field"><span>Correo (opcional)</span><input name="email" type="email" /></label>
+          <label class="check"><input type="checkbox" name="opt" /> Aceptó recibir promociones</label>
+          <div class="alert hidden" data-err role="alert"></div>
+          <button class="btn gold block" type="submit">Agregar</button>
+        </form>`);
+      const f = q("#newCust");
+      f.onsubmit = async (ev) => {
+        ev.preventDefault();
+        const err = f.querySelector("[data-err]");
+        try {
+          const r = await MK.api("/customers", { method: "POST", token, body: { name: f.name.value, phone: f.phone.value, email: f.email.value, marketing_opt_in: f.opt.checked } });
+          MK.toast(r.existing ? "Ese celular ya estaba registrado" : "Cliente agregado");
+          refreshState().catch(() => {});
+          openCustomer(r.customer.id);
+          loadCustomers();
+        } catch (e) {
+          err.textContent = e.message;
+          err.classList.remove("hidden");
+        }
+      };
+    });
+
+    // ---------- Ficha del cliente ----------
+    async function openCustomer(id) {
+      MK.openSheet(`<p class="mute">Cargando…</p>`);
+      try {
+        const d = await MK.api(`/customers/${id}`, { token });
+        renderCustomer(d);
+      } catch (e) {
+        MK.openSheet(`<div class="alert">${MK.esc(e.message)}</div>`);
+      }
+    }
+
+    function renderCustomer({ customer: c, events, rewards }) {
       const m = state.merchant;
-      const t = {
-        inactive: [`¡Te extrañamos en ${m.name}! Ven esta semana y recibe un sello doble.`, `Hace mucho que no te vemos 👀 Tu próximo sello va por nuestra cuenta.`],
-        near: [`¡Te falta 1 sello para tu ${m.reward_text.toLowerCase()}! Te esperamos.`],
-        rewards: [`Tienes un premio esperándote: ${m.reward_text}. ¡Ven a canjearlo!`],
-        all: [`Esta semana: 2x1 para clientes con tarjeta. Solo muestra tu tarjeta al pagar.`],
-      }[$("campSegment").value];
-      $("templates").innerHTML = t.map((x, i) => `<button class="chip" type="button" data-t="${i}">Idea ${i + 1}</button>`).join("");
+      const pending = rewards.filter((r) => !r.delivered_at);
+      const delivered = rewards.filter((r) => r.delivered_at);
+      const url = MK.cardUrl(c.serial);
+      const wa = MK.waLink(c.phone, `¡Hola ${c.name.split(" ")[0]}! Esta es tu tarjeta de ${m.name}: ${url}`);
+      let dots = "";
+      for (let i = 0; i < m.stamps_required; i++) dots += `<span class="${i < c.stamps ? "on" : ""}"></span>`;
+      MK.openSheet(`
+        <p class="eyebrow">Cliente desde ${MK.fmtDate(c.created_at)}</p>
+        <h2 style="font-size:1.7rem">${MK.esc(c.name)}</h2>
+        <div class="row small"><a href="${MK.waLink(c.phone)}" target="_blank" rel="noopener">${MK.esc(MK.phoneFmt(c.phone))}</a>${c.email ? `<span class="mute">· ${MK.esc(c.email)}</span>` : ""}</div>
+        <div class="detail-grid">
+          <div class="kpi"><div class="eyebrow">Sellos</div><div class="n">${c.stamps}/${m.stamps_required}</div></div>
+          <div class="kpi"><div class="eyebrow">Visitas</div><div class="n">${c.total_visits}</div></div>
+          <div class="kpi"><div class="eyebrow">Premios</div><div class="n">${c.rewards_redeemed}</div></div>
+        </div>
+        <div class="mini-stamps">${dots}</div>
+        <p class="mute small">Última visita: ${c.last_visit_at ? `${MK.fmtDateTime(c.last_visit_at)} (${MK.ago(c.last_visit_at)})` : "todavía no viene"}</p>
+        ${pending.length ? `<div class="reward-box stack">
+          <div class="t">🎁 ${pending.length > 1 ? `${pending.length} premios por entregar` : "1 premio por entregar"}</div>
+          ${pending.map((r) => `<div class="row"><span class="grow small">${MK.esc(r.reward_text)} · ganado ${MK.fmtDate(r.earned_at)}</span><button class="btn sm gold" data-deliver="${r.id}" data-text="${MK.esc(r.reward_text)}" type="button">Marcar entregado</button></div>`).join("")}
+        </div>` : ""}
+        <div class="row">
+          <a class="btn sm" href="${url}" target="_blank" rel="noopener">Ver su tarjeta</a>
+          <a class="btn sm" href="${wa}" target="_blank" rel="noopener">Enviar tarjeta por WhatsApp</a>
+          <button class="btn sm" id="adjBtn" type="button">✏️ Ajustar sellos</button>
+        </div>
+        <label class="field"><span>Nota privada (solo tú la ves)</span><textarea class="note-area" id="cNote" maxlength="500" placeholder="Ej. Le gusta el corte con degradado. Cumpleaños: 12 de mayo.">${MK.esc(c.note || "")}</textarea></label>
+        <label class="switch"><input type="checkbox" id="cOpt" ${c.marketing_opt_in ? "checked" : ""} /> <span class="small">Recibe promociones y campañas</span></label>
+        <details><summary class="small" style="cursor:pointer;font-weight:800;min-height:44px;display:flex;align-items:center">Editar nombre y datos</summary>
+          <form id="cEdit" class="stack" style="margin-top:8px">
+            <label class="field"><span>Nombre</span><input name="name" value="${MK.esc(c.name)}" maxlength="60" required /></label>
+            <label class="field"><span>Celular</span><input name="phone" type="tel" value="${MK.esc(c.phone)}" required /></label>
+            <label class="field"><span>Correo</span><input name="email" type="email" value="${MK.esc(c.email || "")}" /></label>
+            <button class="btn sm" type="submit">Guardar datos</button>
+          </form>
+        </details>
+        <div><b>Historial</b>
+          <div class="timeline" style="margin-top:6px">${events.length ? events.map((e) => {
+            const { ic, t } = eventText({ ...e, name: c.name.split(" ")[0] });
+            return `<div class="ev${e.meta?.undone ? " undone" : ""}"><span class="ic">${ic}</span><div class="tx"><b class="small">${t}</b><div class="mute small">${MK.fmtDateTime(e.created_at)}${e.staff_name ? ` · ${MK.esc(e.staff_name)}` : ""}${e.meta?.undone ? " · deshecho" : ""}</div></div></div>`;
+          }).join("") : `<p class="mute small">Sin movimientos.</p>`}</div>
+        </div>
+        ${delivered.length ? `<p class="mute small">Último premio entregado: ${MK.esc(delivered[0].reward_text)} el ${MK.fmtDateTime(delivered[0].delivered_at)}${delivered[0].delivered_by ? ` por ${MK.esc(delivered[0].delivered_by)}` : ""}.</p>` : ""}
+        <button class="btn ghost danger block" id="cDel" type="button">Eliminar cliente</button>`, { label: `Cliente ${c.name}` });
+
+      const reopen = () => openCustomer(c.id);
+      document.querySelectorAll(".sheet [data-deliver]").forEach((b) => (b.onclick = () => deliverReward(b.dataset.deliver, c.name, b.dataset.text, () => { reopen(); if (!$("rewardList").closest(".hidden")) loadRewards(); })));
+      let noteTimer;
+      q("#cNote").oninput = () => {
+        clearTimeout(noteTimer);
+        noteTimer = setTimeout(() => patch({ note: q("#cNote")?.value ?? "" }, "Nota guardada"), 800);
+      };
+      q("#cOpt").onchange = (e) => patch({ marketing_opt_in: e.target.checked }, e.target.checked ? "Recibirá promociones" : "Ya no recibirá promociones");
+      q("#cEdit").onsubmit = async (ev) => {
+        ev.preventDefault();
+        const f = ev.target;
+        if (await patch({ name: f.name.value, phone: f.phone.value, email: f.email.value }, "Datos guardados")) { reopen(); loadCustomers(); }
+      };
+      q("#adjBtn").onclick = () => adjust(c);
+      q("#cDel").onclick = async () => {
+        const ok = await MK.confirm({ icon: "🗑️", title: `¿Eliminar a ${MK.esc(c.name)}?`, text: "Se borran su tarjeta, sellos, premios e historial. No se puede deshacer. Úsalo cuando el cliente pida que borres sus datos.", ok: "Sí, eliminar", danger: true });
+        if (!ok) return;
+        try {
+          await MK.api(`/customers/${c.id}`, { method: "DELETE", token });
+          MK.toast("Cliente eliminado");
+          loadCustomers();
+          refreshState().catch(() => {});
+        } catch (e) {
+          MK.toast(e.message);
+        }
+      };
+      async function patch(body, msg) {
+        try {
+          await MK.api(`/customers/${c.id}`, { method: "PATCH", token, body });
+          MK.toast(msg);
+          return true;
+        } catch (e) {
+          MK.toast(e.message);
+          return false;
+        }
+      }
+    }
+
+    function adjust(c) {
+      const req = state.merchant.stamps_required;
+      let btns = "";
+      for (let i = 0; i < req; i++) btns += `<button class="btn${i === c.stamps ? " gold" : ""}" data-s="${i}" type="button">${i}</button>`;
+      MK.openSheet(`
+        <p class="eyebrow">Ajustar sellos</p>
+        <h2 style="font-size:1.5rem">¿Cuántos sellos debe tener ${MK.esc(c.name.split(" ")[0])}?</h2>
+        <p class="mute small">Úsalo para pasar sellos de una tarjeta de papel o corregir un error. Hoy tiene ${c.stamps}. Para dar un premio, usa “+1 sello” en el mostrador.</p>
+        <div class="kbd-row">${btns}</div>
+        <label class="field"><span>Motivo (opcional)</span><input id="adjReason" maxlength="120" placeholder="Ej. Tarjeta de papel" /></label>
+        <button class="btn ghost block" id="adjBack" type="button">Volver</button>`);
+      document.querySelectorAll(".sheet [data-s]").forEach((b) => (b.onclick = async () => {
+        try {
+          await MK.api(`/customers/${c.id}/adjust`, { method: "POST", token, body: { stamps: Number(b.dataset.s), reason: q("#adjReason").value } });
+          MK.toast("Sellos ajustados");
+          openCustomer(c.id);
+          loadCustomers();
+        } catch (e) {
+          MK.toast(e.message);
+        }
+      }));
+      q("#adjBack").onclick = () => openCustomer(c.id);
+    }
+
+    // ---------- Campañas ----------
+    const TEMPLATES = (m) => ({
+      inactive: [`¡Te extrañamos en ${m.name}! Ven esta semana y recibe un sello doble.`, `Hace mucho que no te vemos 👀 Tu próximo sello va por nuestra cuenta.`, `Vuelve a ${m.name} antes del domingo y te regalamos un sello extra.`],
+      near: [`¡Te falta 1 sello para tu ${m.reward_text.toLowerCase()}! Te esperamos.`, `Estás a nada de tu premio 🎁 Una visita más y es tuyo.`],
+      rewards: [`Tienes un premio esperándote: ${m.reward_text}. ¡Ven a canjearlo!`, `No olvides tu premio 🎁 ${m.reward_text}. Te esperamos en ${m.name}.`],
+      new: [`¡Gracias por unirte a ${m.name}! En tu segunda visita te damos un sello doble.`],
+      loyal: [`Eres de nuestros mejores clientes ⭐ Esta semana tienes un regalo sorpresa en tu visita.`],
+      all: [`Esta semana: 2x1 para clientes con tarjeta. Solo muéstrala al pagar.`, `¡Hoy sellos dobles en ${m.name}! Te esperamos.`],
+    });
+    function startCampaign(segment) {
+      showTab("campaigns");
+      if (![...$("campSegment").options].some((o) => o.value === segment)) segment = "all";
+      $("campSegment").value = segment;
+      renderTemplates();
+      $("campMsg").value = TEMPLATES(state.merchant)[segment][0];
+      updatePreview();
+      $("campMsg").focus();
+    }
+    function renderTemplates() {
+      const t = TEMPLATES(state.merchant)[$("campSegment").value];
+      $("templates").innerHTML = t.map((x, i) => `<button class="chip sm" type="button" data-t="${i}" title="${MK.esc(x)}">${MK.esc(x.length > 34 ? x.slice(0, 32) + "…" : x)}</button>`).join("");
       $("templates").querySelectorAll("[data-t]").forEach((b) => b.addEventListener("click", () => {
         $("campMsg").value = t[b.dataset.t];
+        updatePreview();
       }));
       updateCount();
     }
     function updateCount() {
-      const s = state.stats;
-      const n = { inactive: s.inactive, near: s.near_reward, rewards: s.rewards_pending, all: s.customers }[$("campSegment").value];
-      $("campCount").textContent = `Hasta ${n} cliente(s) en este segmento. Solo se envía a quienes aceptaron recibir promociones (${s.opted_in} en total).`;
+      const seg = $("campSegment").value;
+      if (!audience) return ($("campCount").textContent = "");
+      const n = audience[seg] ?? 0;
+      $("campCount").innerHTML = n
+        ? `📨 Le llegará a <b>${MK.plural(n, "cliente", "clientes")}</b> (solo cuentan quienes aceptaron promociones).`
+        : `<span style="color:var(--warn)">Nadie en este grupo acepta promociones todavía, así que el mensaje no le llegaría a nadie.</span>`;
+      $("campSend").disabled = !n;
     }
+    function updatePreview() {
+      const m = state.merchant;
+      $("lockName").textContent = m.name;
+      $("lockMsg").textContent = $("campMsg").value || "Tu mensaje aparecerá aquí.";
+      $("lockIc").style.cssText = `background:${m.color_accent};color:${m.color_bg}`;
+      $("campChars").textContent = `${$("campMsg").value.length}/160`;
+    }
+    $("campMsg").addEventListener("input", updatePreview);
     $("campSegment").addEventListener("change", renderTemplates);
     $("campForm").addEventListener("submit", async (ev) => {
       ev.preventDefault();
-      const f = ev.target, btn = f.querySelector("button[type=submit]");
+      const f = ev.target, btn = $("campSend");
+      const n = audience?.[f.segment.value] ?? 0;
+      const ok = await MK.confirm({ icon: "💬", title: `¿Enviar a ${MK.plural(n, "cliente", "clientes")}?`, text: `“${MK.esc(f.message.value)}”`, ok: "Enviar ahora" });
+      if (!ok) return;
       btn.disabled = true;
       try {
         const r = await MK.api("/campaigns", { method: "POST", token, body: { segment: f.segment.value, message: f.message.value } });
-        MK.toast(r.recipients ? `Campaña enviada a ${r.recipients} cliente(s)` : "No hay clientes en ese segmento todavía");
+        MK.toast(r.recipients ? `Campaña enviada a ${MK.plural(r.recipients, "cliente", "clientes")}` : "No hay clientes en ese grupo todavía");
         f.message.value = "";
+        updatePreview();
         loadCampaigns();
       } catch (e) {
         MK.toast(e.message);
       } finally {
         btn.disabled = false;
+        updateCount();
       }
     });
     async function loadCampaigns() {
+      updatePreview();
       try {
-        const { campaigns } = await MK.api("/campaigns", { token });
-        const seg = { inactive: "Inactivos", near: "A 1 sello", rewards: "Con premio", all: "Todos" };
-        $("campHistory").innerHTML = campaigns.length ? campaigns.map((c) => `<div class="item"><div class="who"><b style="white-space:normal">${MK.esc(c.message)}</b><span class="mute small">${seg[c.segment] || c.segment} · ${c.recipients} cliente(s) · ${MK.ago(c.created_at)}</span></div></div>`).join("")
+        const r = await MK.api("/campaigns", { token });
+        audience = r.audience;
+        updateCount();
+        const seg = { inactive: "Inactivos", near: "A 1 sello", rewards: "Con premio", new: "Nuevos", loyal: "Frecuentes", all: "Todos" };
+        $("campHistory").innerHTML = r.campaigns.length ? r.campaigns.map((c) => `<div class="item"><div class="who"><b style="white-space:normal">${MK.esc(c.message)}</b><span class="mute small">${seg[c.segment] || c.segment} · ${MK.plural(c.recipients, "cliente", "clientes")} · ${MK.ago(c.created_at)}</span></div></div>`).join("")
           : `<p class="mute small">Todavía no envías campañas.</p>`;
       } catch (e) {
         $("campHistory").innerHTML = `<div class="alert">${MK.esc(e.message)}</div>`;
@@ -479,11 +919,22 @@
 
     // ---------- Mi tarjeta ----------
     const cardFields = ["name", "color_bg", "color_fg", "color_accent", "stamps_required", "reward_text", "ticket_avg", "inactive_days", "stamp_cooldown_min", "address", "lat", "lng"];
+    let cardDirty = false;
     function fillCardForm() {
+      if (cardDirty) return;
       const f = $("cardForm"), m = state.merchant;
       cardFields.forEach((k) => (f[k].value = m[k] ?? ""));
       pendingLogo = undefined;
       $("removeLogo").classList.toggle("hidden", !m.logo_png);
+      const ideas = (PRESETS[m.vertical] || PRESETS.otro).ideas;
+      $("rewardIdeas").innerHTML = ideas.map((x) => `<button class="chip sm" type="button" data-idea="${MK.esc(x)}">${MK.esc(x)}</button>`).join("");
+      $("rewardIdeas").querySelectorAll("[data-idea]").forEach((b) => (b.onclick = () => { f.reward_text.value = b.dataset.idea; onCardInput(); }));
+      $("palette").innerHTML = PALETTES.map((p, i) => `<button type="button" data-pal="${i}" style="background:${p[0]}" aria-label="Combinación ${i + 1}"><i style="background:${p[2]}"></i></button>`).join("");
+      $("palette").querySelectorAll("[data-pal]").forEach((b) => (b.onclick = () => {
+        const p = PALETTES[b.dataset.pal];
+        [f.color_bg.value, f.color_fg.value, f.color_accent.value] = p;
+        onCardInput();
+      }));
       previewCard();
     }
     function formMerchant() {
@@ -497,15 +948,21 @@
     function previewCard() {
       const m = formMerchant();
       MK.renderCard($("cardPreview"), m, { name: "Cliente Ejemplo", serial: "EJEMPLO-MRKEY-0000000", stamps: Math.min(3, m.stamps_required - 1), rewards_available: 0 }, { qr: true });
+      $("contrastWarn").classList.toggle("hidden", MK.contrast(m.color_bg, m.color_fg) >= 3);
     }
-    $("cardForm").addEventListener("input", previewCard);
+    function onCardInput() {
+      cardDirty = true;
+      previewCard();
+    }
+    $("cardForm").addEventListener("input", onCardInput);
+    window.addEventListener("beforeunload", (e) => { if (cardDirty) e.preventDefault(); });
     $("logoFile").addEventListener("change", async (ev) => {
       const file = ev.target.files[0];
       if (!file) return;
       try {
         pendingLogo = await MK.imageToPng(file, 480, 150);
         $("removeLogo").classList.remove("hidden");
-        previewCard();
+        onCardInput();
       } catch (e) {
         MK.toast(e.message);
       }
@@ -514,13 +971,14 @@
       pendingLogo = null;
       $("logoFile").value = "";
       $("removeLogo").classList.add("hidden");
-      previewCard();
+      onCardInput();
     });
     $("geoBtn").addEventListener("click", () => {
       if (!navigator.geolocation) return MK.toast("Tu navegador no permite obtener la ubicación.");
       navigator.geolocation.getCurrentPosition((p) => {
         $("cardForm").lat.value = p.coords.latitude.toFixed(6);
         $("cardForm").lng.value = p.coords.longitude.toFixed(6);
+        cardDirty = true;
         MK.toast("Ubicación lista. Guarda los cambios.");
       }, () => MK.toast("No se pudo obtener la ubicación. Revisa los permisos."), { enableHighAccuracy: true, timeout: 10000 });
     });
@@ -530,6 +988,10 @@
       const body = {};
       cardFields.forEach((k) => (body[k] = f[k].value));
       ["stamps_required", "ticket_avg", "inactive_days", "stamp_cooldown_min"].forEach((k) => (body[k] = Number(body[k])));
+      if (Number(body.stamps_required) !== state.merchant.stamps_required && state.stats.customers) {
+        const ok = await MK.confirm({ title: "¿Cambiar los sellos para el premio?", text: `Pasará de ${state.merchant.stamps_required} a ${body.stamps_required} sellos para todos tus clientes. Los sellos que ya juntaron se conservan.`, ok: "Sí, cambiar" });
+        if (!ok) return;
+      }
       if (pendingLogo !== undefined) {
         body.logo_png = pendingLogo;
         body.icon_png = null;
@@ -543,7 +1005,8 @@
       try {
         const r = await MK.api("/merchant", { method: "PUT", token, body });
         state.merchant = r.merchant;
-        MK.toast("Tarjeta guardada");
+        cardDirty = false;
+        MK.toast("Tarjeta guardada. Tus clientes ya la ven así.");
         renderAll();
       } catch (e) {
         err.textContent = e.message;
@@ -560,18 +1023,21 @@
       const staff = `${MK.BASE}sellar.html?m=${encodeURIComponent(m.slug)}`;
       $("joinLink").value = join;
       $("openJoin").href = join;
+      $("shareJoin").href = `https://wa.me/?text=${encodeURIComponent(`Obtén tu tarjeta de lealtad de ${m.name} y gana ${m.reward_text.toLowerCase()}: ${join}`)}`;
       $("staffLink").value = staff;
       $("slugView").textContent = m.slug;
-      $("pinState").textContent = m.has_staff_pin ? "Sí" : "No";
+      $("pinState").innerHTML = m.has_staff_pin ? '<span class="pill ok">Configurado</span>' : '<span class="pill warn">Falta crearlo</span>';
       $("joinQr").innerHTML = MK.qrSvg(join, 6);
       $("joinQr").querySelector("svg").style.cssText = "width:220px;height:220px;display:block";
       $("posterName").textContent = m.name;
+      $("posterLogo").innerHTML = m.logo_png ? `<img src="${m.logo_png}" alt="">` : "";
       $("posterReward").textContent = `Junta ${m.stamps_required} sellos y gana: ${m.reward_text}`;
       $("posterQr").innerHTML = MK.qrSvg(join, 8);
+      $("poster").style.setProperty("--pc", m.color_bg);
     }
-    const copy = (id) => navigator.clipboard?.writeText($(id).value).then(() => MK.toast("Enlace copiado"), () => $(id).select());
-    $("copyJoin").addEventListener("click", () => copy("joinLink"));
-    $("copyStaff").addEventListener("click", () => copy("staffLink"));
+    $("printBtn").addEventListener("click", () => window.print());
+    $("copyJoin").addEventListener("click", () => MK.copyText($("joinLink").value, "Enlace copiado"));
+    $("copyStaff").addEventListener("click", () => MK.copyText($("staffLink").value, "Enlace copiado"));
     $("pinForm").addEventListener("submit", async (ev) => {
       ev.preventDefault();
       const f = ev.target;
@@ -583,6 +1049,30 @@
         renderAll();
       } catch (e) {
         MK.toast(e.message);
+      }
+    });
+
+    // ---------- Cuenta ----------
+    function renderAccount() {
+      const m = state.merchant;
+      const names = { trial: "Prueba gratis", emprendedor: "Emprendedor", pro: "Pro", franquicias: "Franquicias" };
+      $("planName").textContent = names[m.plan] || m.plan;
+      $("ownerEmail").textContent = m.owner_email;
+      $("since").textContent = MK.fmtDate(m.created_at);
+      $("payBtn").href = MK.waLink(SUPPORT, `Hola, quiero activar mi plan de Mr Key para ${m.name} (${m.slug}).`);
+      $("payBtn").classList.toggle("hidden", m.plan !== "trial");
+    }
+    $("pwForm").addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      const f = ev.target, err = f.querySelector("[data-err]");
+      err.classList.add("hidden");
+      try {
+        await MK.api("/password", { method: "PUT", token, body: { current: f.current.value, password: f.password.value } });
+        f.reset();
+        MK.toast("Contraseña actualizada");
+      } catch (e) {
+        err.textContent = e.message;
+        err.classList.remove("hidden");
       }
     });
 
