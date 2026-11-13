@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Mr Key · Sellar</title>
+  <title>Mr Key · Mostrador</title>
   <meta name="theme-color" content="#0b0b0c" />
   <meta name="robots" content="noindex" />
   <link rel="icon" type="image/png" href="assets/icon-192.png" />
@@ -15,6 +15,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    .today-head { display: flex; align-items: center; gap: 10px; }
+    .scanner.paused video { filter: blur(6px) brightness(.5); }
+    .cust-head { display: flex; gap: 12px; align-items: flex-start; }
+    .cust-head .avatar { width: 52px; height: 52px; border-radius: 50%; flex: none; display: grid; place-items: center; background: var(--panel-2); font-family: Fraunces, Georgia, serif; font-size: 1.4rem; color: var(--gold); }
+    .qr-box { background: #fff; border-radius: 16px; padding: 14px; display: grid; place-items: center; }
+    .qr-box svg { width: 200px; height: 200px; display: block; }
+    .stamp-more { display: flex; gap: 8px; justify-content: center; }
+  </style>
 </head>
 <body>
   <header class="topbar">
@@ -22,6 +31,7 @@
       <a class="logo-mk" href="./">Mr <b>Key</b></a>
       <div class="row">
         <span id="who" class="pill hidden"></span>
+        <a id="toPanel" class="btn sm ghost hidden" href="panel.html">Panel</a>
         <button id="logout" class="btn sm ghost hidden" type="button">Salir</button>
       </div>
     </div>
@@ -31,67 +41,79 @@
     <!-- Acceso del personal -->
     <section id="loginView" class="hidden stack">
       <p class="eyebrow" style="margin-top:12px">Modo mostrador</p>
-      <h1 style="font-size:2rem">Sella visitas en <em>segundos</em>.</h1>
-      <p class="mute">Entra con el código del negocio y el PIN que te dio el dueño.</p>
+      <h1 style="font-size:2rem">Sella visitas y entrega premios en <em>segundos</em>.</h1>
+      <p class="mute">Entra con el código del negocio y el PIN que te dio el dueño. Funciona en cualquier celular, sin instalar nada.</p>
       <form id="loginForm" class="card-box stack">
-        <label class="field"><span>Código del negocio</span><input name="slug" autocapitalize="none" autocomplete="off" required placeholder="ej. barberia-don-luis" /></label>
-        <label class="field"><span>PIN del personal</span><input name="pin" type="password" inputmode="numeric" pattern="\d*" maxlength="8" required placeholder="••••" /></label>
-        <label class="field"><span>Tu nombre</span><input name="staff_name" maxlength="40" placeholder="Para saber quién selló" /></label>
-        <div id="loginErr" class="alert hidden"></div>
-        <button class="btn gold block" type="submit">Entrar</button>
+        <label class="field"><span>Código del negocio</span><input name="slug" autocapitalize="none" autocomplete="off" spellcheck="false" required placeholder="ej. barberia-don-luis" /></label>
+        <label class="field"><span>PIN del personal</span><input name="pin" type="password" inputmode="numeric" pattern="\d*" maxlength="8" required placeholder="••••" autocomplete="off" /></label>
+        <label class="field"><span>Tu nombre</span><input name="staff_name" maxlength="40" placeholder="Así sabremos quién selló y quién entregó premios" autocomplete="given-name" /></label>
+        <div id="loginErr" class="alert hidden" role="alert"></div>
+        <button class="btn gold block" type="submit">Entrar al mostrador</button>
       </form>
       <p class="mute small center">¿Eres el dueño? Si ya iniciaste sesión en el <a href="panel.html">panel</a>, entras directo.</p>
     </section>
 
     <!-- Escáner -->
     <section id="scanView" class="hidden stack">
-      <div class="row" style="margin-top:4px"><h2 class="grow" style="font-size:1.5rem" id="bizName">Escanear tarjeta</h2></div>
+      <div class="row" style="margin-top:4px">
+        <div class="grow">
+          <h1 style="font-size:1.5rem" id="bizName">Escanear tarjeta</h1>
+          <p class="mute small" id="todayLine"></p>
+        </div>
+      </div>
       <div class="scanner" id="scanner">
         <video id="video" playsinline muted></video>
         <div class="frame"></div>
-        <div class="msg" id="scanMsg">Apunta al código QR de la tarjeta</div>
+        <div class="msg" id="scanMsg">Apunta al código QR de la tarjeta del cliente</div>
       </div>
-      <button id="startCam" class="btn gold block hidden" type="button">Activar cámara</button>
-      <form id="manualForm" class="row">
-        <input class="grow" name="code" placeholder="Teléfono del cliente o código" autocomplete="off" style="flex:1;min-width:0" />
+      <button id="startCam" class="btn gold block hidden" type="button">📷 Activar cámara</button>
+      <form id="manualForm" class="row" autocomplete="off">
+        <input class="grow" name="code" placeholder="Celular del cliente (10 dígitos)" inputmode="tel" style="flex:1;min-width:0" aria-label="Celular del cliente o código de tarjeta" />
         <button class="btn" type="submit">Buscar</button>
       </form>
-      <p class="mute small center">Si el cliente no trae su tarjeta, búscalo por su número de celular.</p>
+      <button class="btn block" id="newCustomer" type="button">＋ Dar de alta a un cliente aquí</button>
+      <p class="mute small center">¿No trae su celular? Búscalo por su número. ¿Es nuevo y no quiere escanear el QR? Dalo de alta tú.</p>
+
+      <div class="card-box stack" id="todayBox">
+        <div class="today-head"><b class="grow">Movimientos de hoy</b><button class="btn sm ghost" id="refreshToday" type="button" aria-label="Actualizar">↻</button></div>
+        <div class="list" id="todayList"><p class="mute small">Cargando…</p></div>
+      </div>
     </section>
   </main>
 
-  <div class="backdrop" id="backdrop"></div>
-  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetName">
-    <div id="sheetBody" class="stack"></div>
-  </div>
-
   <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
   <script src="assets/app.js"></script>
   <script>
     const $ = (id) => document.getElementById(id);
     const params = new URLSearchParams(location.search);
     let token = MK.store("mk_staff_token") || MK.store("mk_owner_token");
-    let stream = null, scanning = false, busy = false, current = null;
+    let me = null;            // respuesta de /me
+    let stream = null, scanning = false, busy = false;
+    let autoCloseTimer = null;
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d", { willReadFrequently: true });
     const detector = "BarcodeDetector" in window ? new BarcodeDetector({ formats: ["qr_code"] }) : null;
+    const reward = () => me.merchant.reward_text;
 
     async function boot() {
       if (!token) return showLogin();
       try {
-        const me = await MK.api("/me", { token });
+        me = await MK.api("/me", { token });
         $("bizName").textContent = me.merchant.name;
-        $("who").textContent = me.role === "owner" ? "Dueño" : "Personal";
+        $("who").textContent = me.role === "owner" ? "Dueño" : (me.staff_name || "Personal");
         $("who").classList.remove("hidden");
         $("logout").classList.remove("hidden");
+        $("toPanel").classList.toggle("hidden", me.role !== "owner");
         $("loginView").classList.add("hidden");
         $("scanView").classList.remove("hidden");
         startCamera();
+        loadToday();
       } catch (e) {
-        if (e.status === 401) {
+        if (e.status === 401 || e.status === 403) {
           MK.store(MK.store("mk_staff_token") ? "mk_staff_token" : "mk_owner_token", null);
-          token = null;
-          return showLogin();
+          token = MK.store("mk_staff_token") || MK.store("mk_owner_token");
+          return token ? boot() : showLogin();
         }
         MK.toast(e.message);
       }
@@ -100,7 +122,10 @@
     function showLogin() {
       $("loginView").classList.remove("hidden");
       $("scanView").classList.add("hidden");
-      if (params.get("m")) $("loginForm").slug.value = params.get("m");
+      const f = $("loginForm");
+      f.slug.value = params.get("m") || MK.store("mk_last_slug") || "";
+      f.staff_name.value = MK.store("mk_staff_name") || "";
+      (f.slug.value ? f.pin : f.slug).focus();
     }
 
     $("loginForm").addEventListener("submit", async (ev) => {
@@ -109,9 +134,13 @@
       btn.disabled = true;
       $("loginErr").classList.add("hidden");
       try {
-        const r = await MK.api("/staff-login", { method: "POST", body: { slug: f.slug.value.trim(), pin: f.pin.value, staff_name: f.staff_name.value } });
+        const slug = f.slug.value.trim().toLowerCase();
+        const r = await MK.api("/staff-login", { method: "POST", body: { slug, pin: f.pin.value, staff_name: f.staff_name.value } });
         MK.store("mk_staff_token", r.token);
+        MK.store("mk_last_slug", slug);
+        MK.store("mk_staff_name", f.staff_name.value.trim());
         token = r.token;
+        f.pin.value = "";
         boot();
       } catch (e) {
         $("loginErr").textContent = e.message;
@@ -122,6 +151,7 @@
     });
 
     $("logout").addEventListener("click", async () => {
+      stopCamera();
       if (MK.store("mk_staff_token")) {
         await MK.api("/logout", { method: "POST", token }).catch(() => {});
         MK.store("mk_staff_token", null);
@@ -131,6 +161,7 @@
 
     // ----- Cámara -----
     async function startCamera() {
+      if (stream) return;
       if (!navigator.mediaDevices?.getUserMedia) {
         $("scanMsg").textContent = "Este navegador no permite usar la cámara. Busca por teléfono.";
         return;
@@ -143,11 +174,23 @@
         scanning = true;
         requestAnimationFrame(tick);
       } catch (e) {
+        stream = null;
         $("scanMsg").textContent = "Permite el acceso a la cámara para escanear.";
         $("startCam").classList.remove("hidden");
       }
     }
+    function stopCamera() {
+      scanning = false;
+      stream?.getTracks().forEach((t) => t.stop());
+      stream = null;
+    }
     $("startCam").addEventListener("click", startCamera);
+    // Ahorra batería: apaga la cámara cuando la app pasa a segundo plano.
+    document.addEventListener("visibilitychange", () => {
+      if (!me) return;
+      if (document.visibilityState === "hidden") stopCamera();
+      else { startCamera(); loadToday(); }
+    });
 
     let lastScan = 0;
     async function tick() {
@@ -176,104 +219,308 @@
     $("manualForm").addEventListener("submit", (ev) => {
       ev.preventDefault();
       const code = ev.target.code.value.trim();
-      if (code) handleCode(code);
+      if (code) handleCode(code, true);
     });
 
-    async function handleCode(code) {
+    function setBusy(v) {
+      busy = v;
+      $("scanner").classList.toggle("paused", v);
+    }
+
+    async function handleCode(code, manual = false) {
       if (busy) return;
-      busy = true;
+      setBusy(true);
       if (navigator.vibrate) navigator.vibrate(40);
       try {
         const r = await MK.api(`/lookup?code=${encodeURIComponent(code)}`, { token });
-        current = r;
-        showCustomer();
+        showCustomer(r.customer);
       } catch (e) {
+        const digits = code.replace(/\D/g, "");
+        if (manual && e.status === 404 && digits.length >= 10) {
+          return showNotFound(digits);
+        }
         MK.toast(e.message);
-        setTimeout(() => (busy = false), 1500);
+        setTimeout(() => setBusy(false), 1500);
       }
     }
 
-    // ----- Hoja de acciones -----
-    function openSheet(html) {
-      $("sheetBody").innerHTML = html;
-      $("sheet").classList.add("open");
-      $("backdrop").classList.add("open");
+    function sheet(html, opts = {}) {
+      clearTimeout(autoCloseTimer);
+      return MK.openSheet(html, { onClose: done, ...opts });
     }
-    function closeSheet() {
-      $("sheet").classList.remove("open");
-      $("backdrop").classList.remove("open");
-      current = null;
+    function done() {
+      clearTimeout(autoCloseTimer);
       $("manualForm").code.value = "";
-      setTimeout(() => (busy = false), 600);
+      loadToday();
+      setTimeout(() => setBusy(false), 500);
     }
-    $("backdrop").addEventListener("click", closeSheet);
+    const q = MK.q;
 
-    function showCustomer() {
-      const c = current.customer, req = current.stamps_required;
-      openSheet(`
-        <p class="eyebrow">Cliente</p>
-        <h2 id="sheetName" style="font-size:1.7rem">${MK.esc(c.name)}</h2>
-        <div class="row">
-          <span class="pill gold">${c.stamps} de ${req} sellos</span>
-          ${c.rewards_available ? `<span class="pill ok">🎁 ${c.rewards_available} premio(s)</span>` : ""}
-          <span class="pill">Última visita: ${MK.ago(c.last_visit_at)}</span>
+    function miniStamps(c) {
+      let h = "";
+      for (let i = 0; i < c.stamps_required; i++) h += `<span class="${i < c.stamps ? "on" : ""}"></span>`;
+      return `<div class="mini-stamps" aria-label="${c.stamps} de ${c.stamps_required} sellos">${h}</div>`;
+    }
+
+    // ----- Ficha del cliente -----
+    function showCustomer(c) {
+      const left = c.stamps_required - c.stamps;
+      const pending = c.pending_rewards || [];
+      sheet(`
+        <div class="cust-head">
+          <div class="avatar" aria-hidden="true">${MK.esc(c.name.trim()[0] || "?").toUpperCase()}</div>
+          <div class="grow">
+            <p class="eyebrow">Cliente</p>
+            <h2 style="font-size:1.6rem">${MK.esc(c.name)}</h2>
+            <p class="mute small">${MK.plural(c.total_visits, "visita", "visitas")} · última ${MK.ago(c.last_visit_at)}${c.rewards_redeemed ? ` · ${MK.plural(c.rewards_redeemed, "premio canjeado", "premios canjeados")}` : ""}</p>
+          </div>
         </div>
-        <button class="btn gold block" id="doStamp" style="min-height:60px;font-size:1.1rem">+1 sello</button>
-        ${c.rewards_available ? `<button class="btn block" id="doRedeem">Canjear premio: ${MK.esc(current.reward_text)}</button>` : ""}
-        <button class="btn ghost block" id="cancel">Cancelar</button>`);
-      $("doStamp").onclick = () => doStamp(false);
-      if ($("doRedeem")) $("doRedeem").onclick = doRedeem;
-      $("cancel").onclick = closeSheet;
+        ${pending.length ? `
+          <div class="reward-box stack">
+            <div class="t">🎁 ${pending.length > 1 ? `Tiene ${pending.length} premios por entregar` : "Tiene un premio por entregar"}</div>
+            <p class="small">${MK.esc(pending[0].reward_text)} · lo ganó ${MK.ago(pending[0].earned_at)}</p>
+            <button class="btn gold block" id="doDeliver" type="button">Entregar premio ahora</button>
+          </div>` : ""}
+        <div class="stack">
+          <div class="row"><b class="grow">${c.stamps} de ${c.stamps_required} sellos</b><span class="mute small">${left === 1 ? "¡le falta 1!" : `faltan ${left}`}</span></div>
+          ${miniStamps(c)}
+        </div>
+        <button class="btn gold block xl" id="doStamp" type="button">+1 sello</button>
+        <div class="stamp-more">
+          <span class="mute small" style="align-self:center">¿Promo de sello doble?</span>
+          <button class="chip sm" data-count="2" type="button">+2</button>
+          <button class="chip sm" data-count="3" type="button">+3</button>
+        </div>
+        ${c.undo ? `<button class="btn ghost block" id="undoStamp" type="button">↩︎ Deshacer último sello (${MK.ago(c.undo.created_at)})</button>` : ""}
+        <button class="btn ghost block" id="cancel" type="button">Cancelar</button>`, { label: `Cliente ${c.name}` });
+      q("#doStamp").onclick = () => doStamp(c, 1, false);
+      sheetAll("[data-count]").forEach((b) => (b.onclick = () => doStamp(c, Number(b.dataset.count), false)));
+      if (q("#doDeliver")) q("#doDeliver").onclick = () => confirmDeliver(c);
+      if (q("#undoStamp")) q("#undoStamp").onclick = () => undoStamp(c.undo.event_id, c.name);
+      q("#cancel").onclick = () => MK.closeSheet();
     }
+    const sheetAll = (sel) => [...(document.querySelector(".sheet")?.querySelectorAll(sel) || [])];
 
-    async function doStamp(force) {
-      const btn = $("doStamp");
-      if (btn) btn.disabled = true;
+    async function doStamp(c, count, force) {
+      sheetAll("button").forEach((b) => (b.disabled = true));
       try {
-        const r = await MK.api("/stamp", { method: "POST", token, body: { code: current.customer.serial, force } });
+        const r = await MK.api("/stamp", { method: "POST", token, body: { code: c.serial, count, force } });
         if (r.cooldown) {
-          openSheet(`
+          sheet(`
             <div class="big-check">⏱️</div>
             <h2 style="font-size:1.5rem">Ya se selló hace ${r.minutes_ago} min</h2>
-            <p class="mute">Para evitar sellos dobles, confirma que es una visita nueva.</p>
-            <button class="btn gold block" id="force">Sí, es otra visita</button>
-            <button class="btn ghost block" id="cancel">Cancelar</button>`);
-          $("force").onclick = () => doStamp(true);
-          $("cancel").onclick = closeSheet;
+            <p class="mute">Para evitar sellos dobles, confirma que ${MK.esc(c.name.split(" ")[0])} hizo otra compra o visita.</p>
+            <button class="btn gold block" id="force" type="button">Sí, es otra visita</button>
+            <button class="btn ghost block" id="cancel" type="button">No, cancelar</button>`);
+          q("#force").onclick = () => doStamp(c, count, true);
+          q("#cancel").onclick = () => MK.closeSheet();
           return;
         }
-        if (navigator.vibrate) navigator.vibrate([80, 50, 80]);
-        const c = r.customer;
-        openSheet(`
-          <div class="big-check">${r.unlocked ? "🎁" : "✅"}</div>
-          <h2 style="font-size:1.6rem">${r.unlocked ? "¡Premio desbloqueado!" : "Sello agregado"}</h2>
-          <p class="mute">${MK.esc(c.name)} · ${c.stamps} de ${r.stamps_required} sellos${c.rewards_available ? ` · ${c.rewards_available} premio(s) disponible(s)` : ""}</p>
-          ${r.reactivated ? `<div class="note">🔁 Cliente recuperado: llevaba tiempo sin venir.</div>` : ""}
-          <button class="btn gold block" id="next">Siguiente cliente</button>`);
-        $("next").onclick = closeSheet;
-        setTimeout(() => $("sheet").classList.contains("open") && $("next") && closeSheet(), 4000);
+        if (navigator.vibrate) navigator.vibrate(r.unlocked ? [80, 50, 80, 50, 160] : [80, 50, 80]);
+        if (r.unlocked) return showUnlocked(r);
+        showStamped(r, count);
       } catch (e) {
         MK.toast(e.message);
-        if (btn) btn.disabled = false;
+        sheetAll("button").forEach((b) => (b.disabled = false));
       }
     }
 
-    async function doRedeem() {
-      const btn = $("doRedeem");
-      btn.disabled = true;
+    function showStamped(r, count) {
+      const c = r.customer, left = c.stamps_required - c.stamps;
+      sheet(`
+        <div class="big-check">✅</div>
+        <h2 style="font-size:1.6rem">${count > 1 ? `${count} sellos agregados` : "Sello agregado"}</h2>
+        <p class="mute">${MK.esc(c.name)} lleva <b style="color:var(--text)">${c.stamps} de ${c.stamps_required}</b>. ${left === 1 ? "¡Le falta 1 para su premio!" : `Le faltan ${left} para su premio.`}</p>
+        ${miniStamps(c)}
+        ${r.reactivated ? `<div class="note">🔁 Cliente recuperado: llevaba tiempo sin venir. ¡Bien!</div>` : ""}
+        ${c.pending_rewards?.length ? `<div class="reward-box"><div class="t">🎁 Además tiene un premio sin entregar</div><button class="btn gold block" id="doDeliver" type="button" style="margin-top:10px">Entregar premio ahora</button></div>` : ""}
+        <button class="btn gold block" id="next" type="button">Siguiente cliente</button>
+        <button class="btn ghost block" id="undo" type="button">↩︎ Deshacer (fue un error)</button>
+        <div class="countdown" style="--dur:6s" aria-hidden="true"><i></i></div>`);
+      q("#next").onclick = () => MK.closeSheet();
+      q("#undo").onclick = () => undoStamp(r.event_id, c.name);
+      if (q("#doDeliver")) q("#doDeliver").onclick = () => confirmDeliver(c);
+      // Se cierra solo para atender rápido al siguiente, salvo que haya un premio pendiente.
+      if (!c.pending_rewards?.length) autoCloseTimer = setTimeout(() => MK.closeSheet(), 6000);
+      else q(".countdown").remove();
+    }
+
+    // Premio recién ganado: NO se cierra solo. Hay que decidir si se entrega ahora o después.
+    function showUnlocked(r) {
+      const c = r.customer;
+      sheet(`
+        <div class="big-check">🎁</div>
+        <h2 style="font-size:1.7rem">¡${MK.esc(c.name.split(" ")[0])} ganó su premio!</h2>
+        <div class="reward-box"><div class="t">${MK.esc(r.reward_text)}</div><p class="small mute" style="margin-top:4px">${r.unlocked_count > 1 ? `Ganó ${r.unlocked_count} premios con estos sellos.` : "Su tarjeta vuelve a empezar en 0 sellos."}</p></div>
+        <p><b>¿Se lo entregas ahora?</b></p>
+        <button class="btn gold block xl" id="now" type="button">Sí, entregar ahora</button>
+        <button class="btn block" id="later" type="button">Lo usará en otra visita</button>
+        <p class="mute small center">Si lo deja para después, el premio queda guardado en su tarjeta como pendiente.</p>
+        <button class="btn ghost block" id="undo" type="button">↩︎ Deshacer sello (fue un error)</button>`, { locked: true });
+      q("#now").onclick = () => confirmDeliver(c);
+      q("#later").onclick = () => {
+        MK.toast("Premio guardado como pendiente");
+        MK.closeSheet(true);
+      };
+      q("#undo").onclick = () => undoStamp(r.event_id, c.name);
+    }
+
+    // Paso de confirmación: el personal confirma que el premio SÍ se entregó.
+    function confirmDeliver(c) {
+      const p = c.pending_rewards?.[0];
+      const text = p ? p.reward_text : reward();
+      sheet(`
+        <p class="eyebrow">Confirmar entrega</p>
+        <h2 style="font-size:1.6rem">¿Ya le diste su premio a ${MK.esc(c.name.split(" ")[0])}?</h2>
+        <div class="reward-box"><div class="t">🎁 ${MK.esc(text)}</div>${p ? `<p class="small mute" style="margin-top:4px">Lo ganó ${MK.ago(p.earned_at)}</p>` : ""}</div>
+        <p class="mute small">Confírmalo solo cuando el cliente ya recibió su premio. Quedará registrado con tu nombre y la hora.</p>
+        <button class="btn ok block xl" id="yes" type="button">✓ Sí, ya se lo entregué</button>
+        <button class="btn ghost block" id="no" type="button">Todavía no</button>`, { locked: true });
+      q("#yes").onclick = () => deliver(c, p?.id);
+      q("#no").onclick = () => {
+        MK.toast("El premio sigue pendiente");
+        MK.closeSheet(true);
+      };
+    }
+
+    async function deliver(c, rewardId) {
+      sheetAll("button").forEach((b) => (b.disabled = true));
       try {
-        const r = await MK.api("/redeem", { method: "POST", token, body: { code: current.customer.serial } });
-        openSheet(`
+        const r = await MK.api("/rewards/deliver", { method: "POST", token, body: rewardId ? { reward_id: rewardId } : { code: c.serial } });
+        if (navigator.vibrate) navigator.vibrate([60, 40, 120]);
+        const left = r.customer.pending_rewards?.length || 0;
+        sheet(`
           <div class="big-check">🎉</div>
-          <h2 style="font-size:1.6rem">Premio canjeado</h2>
-          <p class="mute">Entrega: <b style="color:var(--text)">${MK.esc(current.reward_text)}</b> a ${MK.esc(r.customer.name)}.</p>
-          <button class="btn gold block" id="next">Listo</button>`);
-        $("next").onclick = closeSheet;
+          <h2 style="font-size:1.6rem">Premio entregado</h2>
+          <div class="ok-box"><b>${MK.esc(r.reward.reward_text)}</b> para ${MK.esc(r.customer.name)}<br><span class="small">Registrado a las ${MK.fmtTime(r.reward.delivered_at)}${r.reward.delivered_by ? ` por ${MK.esc(r.reward.delivered_by)}` : ""}</span></div>
+          ${left ? `<div class="note">Todavía tiene ${MK.plural(left, "premio pendiente", "premios pendientes")}.</div>` : ""}
+          <button class="btn gold block" id="ok" type="button">Listo</button>
+          ${left ? `<button class="btn block" id="another" type="button">Entregar otro premio</button>` : ""}
+          <button class="btn ghost block" id="undo" type="button">↩︎ Deshacer entrega (fue un error)</button>`, { locked: true });
+        q("#ok").onclick = () => MK.closeSheet(true);
+        if (q("#another")) q("#another").onclick = () => confirmDeliver(r.customer);
+        q("#undo").onclick = () => undoDeliver(r.reward.id);
       } catch (e) {
         MK.toast(e.message);
-        btn.disabled = false;
+        if (e.status === 409) return MK.closeSheet(true);
+        sheetAll("button").forEach((b) => (b.disabled = false));
       }
     }
+
+    async function undoDeliver(rewardId) {
+      try {
+        const r = await MK.api("/rewards/undo", { method: "POST", token, body: { reward_id: rewardId } });
+        MK.toast("Entrega deshecha: el premio vuelve a estar pendiente");
+        showCustomer(r.customer);
+      } catch (e) {
+        MK.toast(e.message);
+      }
+    }
+
+    async function undoStamp(eventId, name) {
+      const ok = await MK.confirm({ icon: "↩︎", title: "¿Deshacer el sello?", text: `Se le quitará el último sello a ${MK.esc(name)}. Si con ese sello había ganado un premio, también se quita.`, ok: "Sí, deshacer", danger: true });
+      if (!ok) return setBusy(false);
+      setBusy(true);
+      try {
+        const r = await MK.api("/stamp/undo", { method: "POST", token, body: { event_id: eventId } });
+        MK.toast("Sello deshecho");
+        showCustomer(r.customer);
+      } catch (e) {
+        MK.toast(e.message);
+        setBusy(false);
+      }
+    }
+
+    // ----- Alta en el mostrador -----
+    function showNotFound(phone) {
+      sheet(`
+        <div class="big-check">🔎</div>
+        <h2 style="font-size:1.5rem">No hay tarjeta con ese número</h2>
+        <p class="mute">${MK.esc(MK.phoneFmt(phone))} todavía no está registrado en ${MK.esc(me.merchant.name)}.</p>
+        <button class="btn gold block" id="create" type="button">Darlo de alta ahora</button>
+        <button class="btn ghost block" id="cancel" type="button">Cancelar</button>`);
+      q("#create").onclick = () => showNewCustomer(phone);
+      q("#cancel").onclick = () => MK.closeSheet();
+    }
+
+    $("newCustomer").addEventListener("click", () => {
+      if (busy && !MK.sheetOpen()) return;
+      setBusy(true);
+      showNewCustomer("");
+    });
+
+    function showNewCustomer(phone) {
+      sheet(`
+        <p class="eyebrow">Cliente nuevo</p>
+        <h2 style="font-size:1.5rem">Dar de alta en el mostrador</h2>
+        <form id="newForm" class="stack" novalidate>
+          <label class="field"><span>Nombre</span><input name="name" required maxlength="60" autocomplete="off" placeholder="Ej. Marco Pérez" /></label>
+          <label class="field"><span>Celular</span><input name="phone" type="tel" inputmode="tel" required placeholder="10 dígitos" value="${MK.esc(phone)}" /></label>
+          <label class="check"><input type="checkbox" name="opt" /> El cliente acepta recibir promociones en su tarjeta.</label>
+          <p class="mute small">Al darlo de alta, el cliente acepta el <a href="aviso.html" target="_blank">aviso de privacidad</a>. Pregúntale antes.</p>
+          <div class="alert hidden" id="newErr" role="alert"></div>
+          <button class="btn gold block" type="submit">Crear tarjeta</button>
+        </form>`);
+      const f = q("#newForm");
+      setTimeout(() => f.name.focus(), 350);
+      f.onsubmit = async (ev) => {
+        ev.preventDefault();
+        const btn = f.querySelector("button");
+        q("#newErr").classList.add("hidden");
+        if (f.name.value.trim().length < 2 || f.phone.value.replace(/\D/g, "").length < 10) {
+          q("#newErr").textContent = "Escribe el nombre y un celular de 10 dígitos.";
+          return q("#newErr").classList.remove("hidden");
+        }
+        btn.disabled = true;
+        try {
+          const r = await MK.api("/customers", { method: "POST", token, body: { name: f.name.value, phone: f.phone.value, marketing_opt_in: f.opt.checked } });
+          showCreated(r, f.phone.value.replace(/\D/g, ""));
+        } catch (e) {
+          q("#newErr").textContent = e.message;
+          q("#newErr").classList.remove("hidden");
+          btn.disabled = false;
+        }
+      };
+    }
+
+    function showCreated(r, phone) {
+      const c = r.customer, url = MK.cardUrl(c.serial);
+      const msg = `¡Hola ${c.name.split(" ")[0]}! Esta es tu tarjeta de lealtad de ${me.merchant.name}. Guárdala para juntar tus sellos: ${url}`;
+      sheet(`
+        <div class="big-check">${r.existing ? "👋" : "🎉"}</div>
+        <h2 style="font-size:1.5rem">${r.existing ? "Ya tenía tarjeta" : "Tarjeta creada"}</h2>
+        <p class="mute">${r.existing ? `${MK.esc(c.name)} ya estaba registrado con ese número.` : `Que ${MK.esc(c.name.split(" ")[0])} escanee este código con la cámara de su celular para guardar su tarjeta, o envíasela por WhatsApp.`}</p>
+        <div class="qr-box">${MK.qrSvg(url, 4)}</div>
+        <a class="btn block" href="${MK.waLink(phone, msg)}" target="_blank" rel="noopener" id="wa">Enviar por WhatsApp</a>
+        <button class="btn gold block" id="stampNow" type="button">+1 sello por esta visita</button>
+        <button class="btn ghost block" id="close" type="button">Listo</button>`);
+      q("#stampNow").onclick = () => doStamp(c, 1, false);
+      q("#close").onclick = () => MK.closeSheet();
+    }
+
+    // ----- Movimientos de hoy -----
+    async function loadToday() {
+      if (!token || !me) return;
+      try {
+        const { events } = await MK.api("/today", { token });
+        const stamps = events.filter((e) => e.kind === "stamp" && !e.meta?.undone).length;
+        const delivered = events.filter((e) => e.kind === "redeem" && !e.meta?.undone).length;
+        $("todayLine").textContent = `Hoy: ${MK.plural(stamps, "sello", "sellos")} · ${MK.plural(delivered, "premio entregado", "premios entregados")}`;
+        $("todayList").innerHTML = events.length ? events.slice(0, 15).map((e) => {
+          const undone = e.meta?.undone;
+          const what = e.kind === "stamp"
+            ? `${e.meta?.count > 1 ? `+${e.meta.count} sellos` : "+1 sello"}${e.meta?.unlocked ? " · 🎁 ganó premio" : ""}`
+            : e.kind === "redeem" ? `🎁 Premio entregado` : "Nuevo cliente";
+          return `<button class="item click" type="button" data-serial="${MK.esc(e.serial)}" style="width:100%;font:inherit;color:inherit;text-align:left">
+            <div class="who"><b>${MK.esc(e.name)}</b><span class="mute small">${what} · ${MK.fmtTime(e.created_at)}${e.staff_name ? ` · ${MK.esc(e.staff_name)}` : ""}</span></div>
+            ${undone ? '<span class="pill">deshecho</span>' : ""}</button>`;
+        }).join("") : `<p class="mute small">Todavía no hay movimientos hoy.</p>`;
+        $("todayList").querySelectorAll("[data-serial]").forEach((b) => (b.onclick = () => handleCode(b.dataset.serial)));
+      } catch (_) {
+        $("todayList").innerHTML = `<p class="mute small">No se pudo cargar. Revisa tu conexión.</p>`;
+      }
+    }
+    $("refreshToday").addEventListener("click", loadToday);
 
     boot();
   </script>

@@ -90,7 +90,7 @@ export function buildPassJson(m: Merchant, c: Customer, webServiceURL: string) {
     labelColor: hexToRgb(m.color_accent),
     storeCard: {
       headerFields: [
-        { key: "rewards", label: "PREMIOS", value: c.rewards_available, changeMessage: "🎁 Tienes %@ premio(s) listo(s) para canjear" },
+        { key: "rewards", label: "PREMIOS", value: c.rewards_available, changeMessage: "🎁 Premios por canjear: %@" },
       ],
       primaryFields: [
         { key: "stamps", label: "SELLOS", value: `${c.stamps} de ${m.stamps_required}`, changeMessage: "Ahora llevas %@ sellos" },
@@ -101,6 +101,7 @@ export function buildPassJson(m: Merchant, c: Customer, webServiceURL: string) {
       ],
       backFields: [
         { key: "promo", label: `Mensaje de ${m.name}`, value: c.last_message ?? "Aquí verás promociones exclusivas.", changeMessage: "%@" },
+        { key: "redeemed", label: "Premios canjeados", value: c.rewards_redeemed },
         { key: "how", label: "Cómo funciona", value: `Muestra este código al pagar y suma un sello por visita. Al juntar ${m.stamps_required} sellos ganas: ${m.reward_text}.` },
         ...(m.address ? [{ key: "address", label: "Dirección", value: m.address }] : []),
         { key: "powered", label: "Tarjeta creada con Mr Key", value: "¿Tienes un negocio? Crea tu tarjeta de lealtad en Wallet con Mr Key." },

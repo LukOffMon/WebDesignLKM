@@ -17,8 +17,13 @@
   <style>
     .banner { border-radius: 16px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start; }
     .banner.reward { background: linear-gradient(135deg, #d6b47a, #b8955a); color: #1a1408; }
+    .banner.done { background: rgba(74, 222, 128, .12); border: 1px solid rgba(74, 222, 128, .35); color: #bbf7d0; }
     .banner.msg { background: var(--panel); border: 1px solid var(--line); }
     .banner .ico { font-size: 1.5rem; line-height: 1; }
+    .celebrate { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; background: rgba(0, 0, 0, .7); padding: 24px; animation: fade .3s; }
+    .celebrate .box { background: var(--panel); border: 1px solid var(--line); border-radius: 24px; padding: 28px 22px; text-align: center; max-width: 360px; width: 100%; }
+    .celebrate .big { font-size: 4rem; line-height: 1; animation: pop .7s cubic-bezier(.22, 1, .36, 1); }
+    @keyframes fade { from { opacity: 0; } }
   </style>
 </head>
 <body>
@@ -26,12 +31,17 @@
     <div id="loading" class="center mute" style="padding:80px 0">Cargando tu tarjeta…</div>
     <div id="notfound" class="hidden center stack" style="padding:80px 0">
       <h1>Tarjeta no encontrada</h1>
-      <p class="mute">El enlace no es válido o la tarjeta fue eliminada.</p>
+      <p class="mute">El enlace no es válido o la tarjeta fue eliminada. Pide al negocio que te ayude a recuperarla con tu número de celular.</p>
     </div>
     <section id="view" class="hidden stack">
-      <div id="welcome" class="note hidden">✅ ¡Listo! Esta es tu tarjeta. Guárdala en tu Wallet para tenerla siempre a la mano.</div>
-      <div id="rewardBanner" class="banner reward hidden"><div class="ico">🎁</div><div><b id="rewardTitle"></b><div class="small">Muéstrale este código al personal para canjearlo.</div></div></div>
+      <div id="welcome" class="note hidden"></div>
+      <div id="rewardBanner" class="banner reward hidden" role="status"><div class="ico">🎁</div><div><b id="rewardTitle"></b><div class="small">Muéstrale este código al personal para que te lo entreguen. Queda guardado aquí hasta que lo recibas.</div></div></div>
+      <div id="doneBanner" class="banner done hidden" role="status"><div class="ico">✅</div><div><b id="doneTitle"></b><div class="small" id="doneSub"></div></div></div>
       <div id="card"></div>
+      <div class="stack">
+        <div class="row"><b class="grow" id="remaining"></b><span class="mute small" id="pct"></span></div>
+        <div class="progress" aria-hidden="true"><i id="bar" style="width:0"></i></div>
+      </div>
       <div id="msgBanner" class="banner msg hidden"><div class="ico">💬</div><div><div class="small mute" id="msgFrom"></div><b id="msgText"></b></div></div>
 
       <div class="stack" id="walletBox">
@@ -46,16 +56,30 @@
         <div id="homeHint" class="card-box small hidden">
           <b>Guárdala en tu teléfono</b>
           <p class="mute" id="homeHintText" style="margin-top:6px"></p>
+          <button class="btn sm" id="copyLink" type="button" style="margin-top:10px">Copiar el enlace de mi tarjeta</button>
         </div>
       </div>
 
       <div class="card-box small stack">
-        <div class="row"><span class="mute grow">Visitas totales</span><b id="visits"></b></div>
+        <div class="row"><span class="mute grow">Visitas</span><b id="visits"></b></div>
+        <div class="row"><span class="mute grow">Premios canjeados</span><b id="redeemed"></b></div>
         <div class="row"><span class="mute grow">Última visita</span><b id="lastVisit"></b></div>
         <div class="row" id="addrRow"><span class="mute grow">Dirección</span><b id="addr" style="text-align:right"></b></div>
+        <a class="btn sm hidden" id="mapsBtn" target="_blank" rel="noopener">📍 Cómo llegar</a>
       </div>
+
+      <div class="card-box small stack" id="historyBox">
+        <b>Tu actividad</b>
+        <div class="timeline" id="history"></div>
+      </div>
+
+      <div class="card-box small stack">
+        <label class="switch"><input type="checkbox" id="optIn" /> <span>Recibir promociones y recordatorios de <span id="optName"></span></span></label>
+        <p class="mute small">Te llegan solo en esta tarjeta (y en Wallet si la guardaste). Nunca por SMS.</p>
+      </div>
+
       <p class="center mute small">Muestra el código al pagar para sumar tu sello. Esta página se actualiza sola.</p>
-      <p class="center mute small">Tarjeta creada con <a href="./">Mr Key</a></p>
+      <p class="center mute small"><a href="aviso.html">Aviso de privacidad</a> · Tarjeta creada con <a href="./">Mr Key</a></p>
     </section>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
@@ -66,29 +90,79 @@
     const $ = (id) => document.getElementById(id);
     let last = null;
 
+    function celebrate(icon, title, text) {
+      const el = document.createElement("div");
+      el.className = "celebrate";
+      el.setAttribute("role", "alertdialog");
+      el.innerHTML = `<div class="box stack"><div class="big">${icon}</div><h2 style="font-size:1.6rem">${title}</h2><p class="mute">${text}</p><button class="btn gold block" type="button">¡Genial!</button></div>`;
+      document.body.appendChild(el);
+      const close = () => el.remove();
+      el.querySelector("button").onclick = close;
+      el.onclick = (e) => e.target === el && close();
+      setTimeout(close, 8000);
+    }
+
     function render(data, animate) {
       const { merchant: m, card: c, wallet } = data;
       document.title = `${m.name} · Mi tarjeta`;
       MK.store(`mk_card_${m.slug}`, c.serial);
       let pop = -1;
-      if (animate && last && (c.stamps > last.card.stamps || c.rewards_available > last.card.rewards_available)) {
-        pop = c.stamps > last.card.stamps ? c.stamps - 1 : -1;
-        MK.toast(c.rewards_available > last.card.rewards_available ? "🎁 ¡Ganaste tu premio!" : "⭐ ¡Sello agregado!");
-        if (navigator.vibrate) navigator.vibrate([60, 40, 60]);
+      if (animate && last) {
+        const gotReward = c.rewards_available > last.card.rewards_available;
+        const delivered = c.rewards_redeemed > last.card.rewards_redeemed;
+        const stamped = c.total_visits > last.card.total_visits;
+        if (stamped && !gotReward) pop = c.stamps - 1;
+        if (navigator.vibrate && (stamped || delivered)) navigator.vibrate([60, 40, 60]);
+        if (gotReward) celebrate("🎁", "¡Ganaste tu premio!", `${MK.esc(m.reward_text)}. Pídeselo al personal; queda guardado aquí hasta que lo recibas.`);
+        else if (delivered) celebrate("🎉", "¡Disfruta tu premio!", `Se registró la entrega de: ${MK.esc(c.last_delivered?.reward_text || m.reward_text)}. Tu tarjeta sigue sumando sellos.`);
+        else if (stamped) MK.toast("⭐ ¡Sello agregado!");
       }
       MK.renderCard($("card"), m, c, { popIndex: pop });
+
+      const left = m.stamps_required - c.stamps;
+      $("remaining").textContent = MK.remainingText(m, c);
+      $("pct").textContent = `${c.stamps}/${m.stamps_required}`;
+      $("bar").style.width = `${(c.stamps / m.stamps_required) * 100}%`;
+      $("bar").style.background = m.color_accent;
 
       $("rewardBanner").classList.toggle("hidden", c.rewards_available < 1);
       $("rewardTitle").textContent = c.rewards_available > 1
         ? `Tienes ${c.rewards_available} premios: ${m.reward_text}`
         : `¡Tienes un premio! ${m.reward_text}`;
+      const ld = c.last_delivered;
+      const recentDelivery = ld && Date.now() - new Date(ld.delivered_at).getTime() < 2 * 86400000 && c.rewards_available < 1;
+      $("doneBanner").classList.toggle("hidden", !recentDelivery);
+      if (recentDelivery) {
+        $("doneTitle").textContent = `Premio entregado: ${ld.reward_text}`;
+        $("doneSub").textContent = `Registrado el ${MK.fmtDateTime(ld.delivered_at)} · ¡Gracias por tu preferencia!`;
+      }
       $("msgBanner").classList.toggle("hidden", !c.message);
       $("msgFrom").textContent = `Mensaje de ${m.name}`;
       $("msgText").textContent = c.message || "";
       $("visits").textContent = c.total_visits;
+      $("redeemed").textContent = c.rewards_redeemed ?? 0;
       $("lastVisit").textContent = MK.ago(c.last_visit_at);
       $("addrRow").classList.toggle("hidden", !m.address);
       $("addr").textContent = m.address || "";
+      const hasMap = m.lat != null && m.lng != null;
+      $("mapsBtn").classList.toggle("hidden", !hasMap && !m.address);
+      $("mapsBtn").href = hasMap
+        ? `https://www.google.com/maps/search/?api=1&query=${m.lat},${m.lng}`
+        : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${m.name} ${m.address || ""}`)}`;
+
+      const icons = { join: "👋", stamp: "⭐", redeem: "🎉", adjust: "✏️" };
+      const hist = (c.history || []).map((h) => {
+        let t = "";
+        if (h.kind === "join") t = "Te uniste al programa";
+        if (h.kind === "stamp") t = `${h.count > 1 ? `+${h.count} sellos` : "+1 sello"}${h.unlocked ? " · ¡ganaste un premio!" : ""}`;
+        if (h.kind === "redeem") t = `Recibiste tu premio${h.reward_text ? `: ${h.reward_text}` : ""}`;
+        if (h.kind === "adjust") t = "El negocio actualizó tus sellos";
+        return `<div class="ev"><span class="ic">${h.kind === "stamp" && h.unlocked ? "🎁" : icons[h.kind]}</span><div class="tx"><b>${MK.esc(t)}</b><div class="mute">${MK.fmtDateTime(h.created_at)}</div></div></div>`;
+      }).join("");
+      $("historyBox").classList.toggle("hidden", !hist);
+      $("history").innerHTML = hist;
+      $("optIn").checked = !!c.marketing_opt_in;
+      $("optName").textContent = m.name;
 
       const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
       const isAndroid = /Android/.test(navigator.userAgent);
@@ -96,9 +170,10 @@
       $("appleBtn").href = `${MK.API}/public/card/${encodeURIComponent(c.serial)}/pass.pkpass`;
       $("googleBtn").classList.toggle("hidden", !wallet.google || isIOS);
       const noWallet = (!wallet.apple || isAndroid) && (!wallet.google || isIOS);
-      $("homeHint").classList.toggle("hidden", !noWallet);
+      const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+      $("homeHint").classList.toggle("hidden", !noWallet || standalone);
       $("homeHintText").textContent = isIOS
-        ? "Toca el botón Compartir de Safari y elige “Agregar a pantalla de inicio”. Tu tarjeta quedará como un ícono más."
+        ? "Toca el botón Compartir de Safari (□↑) y elige “Agregar a pantalla de inicio”. Tu tarjeta quedará como un ícono más."
         : "Abre el menú del navegador (⋮) y elige “Agregar a la pantalla principal”. Tu tarjeta quedará como un ícono más.";
       last = data;
     }
@@ -120,6 +195,18 @@
         btn.disabled = false;
       }
     });
+    $("copyLink").addEventListener("click", () => MK.copyText(MK.cardUrl(serial), "Enlace copiado. Guárdalo en tus notas o en un chat contigo."));
+    $("optIn").addEventListener("change", async (e) => {
+      const on = e.target.checked;
+      try {
+        await MK.api(`/public/card/${encodeURIComponent(serial)}/prefs`, { method: "POST", body: { marketing_opt_in: on } });
+        MK.toast(on ? "Recibirás promociones" : "Listo, ya no recibirás promociones");
+        if (last) last.card.marketing_opt_in = on;
+      } catch (err) {
+        e.target.checked = !on;
+        MK.toast(err.message);
+      }
+    });
 
     (async () => {
       if (!serial) {
@@ -130,8 +217,14 @@
         await load(false);
         $("loading").classList.add("hidden");
         $("view").classList.remove("hidden");
-        if (params.get("nueva")) $("welcome").classList.remove("hidden");
-        // Se actualiza sola mientras está abierta (al sellar, el cliente ve el sello al instante).
+        if (params.get("nueva") || params.get("existente")) {
+          $("welcome").textContent = params.get("existente")
+            ? "👋 Ya tenías una tarjeta con ese número. Aquí está, con todos tus sellos."
+            : "✅ ¡Listo! Esta es tu tarjeta. Guárdala en tu Wallet o en tu pantalla de inicio para tenerla siempre a la mano.";
+          $("welcome").classList.remove("hidden");
+          history.replaceState(null, "", `tarjeta.html?s=${encodeURIComponent(serial)}`);
+        }
+        // Se actualiza sola mientras está abierta (al sellar o entregar un premio, el cliente lo ve al instante).
         setInterval(() => document.visibilityState === "visible" && load(true).catch(() => {}), 5000);
         document.addEventListener("visibilitychange", () => document.visibilityState === "visible" && load(true).catch(() => {}));
       } catch (e) {

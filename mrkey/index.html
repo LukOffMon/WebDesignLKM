@@ -36,7 +36,7 @@
       "@type": "ContactPoint",
       "telephone": "+52-449-209-4034",
       "contactType": "sales",
-        "email": "officiallukamon@gmail.com",
+      "email": "officiallukamon@gmail.com",
       "areaServed": "MX",
       "availableLanguage": "es"
     }
@@ -118,6 +118,30 @@
       },
       {
         "@type": "Question",
+        "name": "¿Cómo sé si ya se le entregó un premio a un cliente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cada premio ganado queda como pendiente hasta que tu personal confirma en el mostrador que ya se lo entregó. En tu panel ves los premios por entregar y los entregados, con fecha, hora y quién lo registró. Si alguien se equivoca, puede deshacerlo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué pasa si mi cliente no trae su celular o no quiere escanear el QR?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tu personal lo busca por su número de celular para sellar, o lo da de alta en el mostrador y le envía su tarjeta por WhatsApp."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ya tengo tarjetas de papel, ¿pierden sus sellos mis clientes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Das de alta a tus clientes y les pasas los sellos que traían desde la ficha de cada cliente."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "¿Cómo evito sellos falsos?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -176,6 +200,8 @@
     .faq summary::after { content: "+"; font-family: Fraunces, Georgia, serif; font-size: 1.6rem; color: var(--gold); line-height: 1; transition: transform .2s; }
     .faq details[open] summary::after { transform: rotate(45deg); }
     .faq details p { padding: 0 20px 18px; color: var(--mute); }
+    .demo-grid { display: grid; gap: 32px; grid-template-columns: 1fr 380px; align-items: center; }
+    @media (max-width: 860px) { .demo-grid { grid-template-columns: 1fr; } }
     footer a { display: inline-flex; align-items: center; min-height: 44px; }
     footer { border-top: 1px solid var(--line); padding: 32px 0 48px; color: var(--mute); font-size: .85rem; }
   </style>
@@ -217,8 +243,25 @@
       <h2 style="font-size:clamp(2rem,5vw,3rem);margin-top:10px">Tres pasos. <em>Cero fricción.</em></h2>
       <div class="how">
         <div class="card-box"><div class="n">1</div><h3 style="font-size:1.25rem">El cliente escanea tu QR</h3><p class="mute">Desde la cámara de su celular. Escribe su nombre y teléfono y guarda la tarjeta en su Wallet. 20 segundos.</p></div>
-        <div class="card-box"><div class="n">2</div><h3 style="font-size:1.25rem">Tú sellas al cobrar</h3><p class="mute">Tu personal escanea la tarjeta desde su celular. El sello aparece al instante en el teléfono del cliente.</p></div>
+        <div class="card-box"><div class="n">2</div><h3 style="font-size:1.25rem">Tú sellas al cobrar</h3><p class="mute">Tu personal escanea la tarjeta desde su celular. El sello aparece al instante en el teléfono del cliente. Al completar, confirma la entrega del premio.</p></div>
         <div class="card-box"><div class="n">3</div><h3 style="font-size:1.25rem">Mr Key los trae de vuelta</h3><p class="mute">Ves quién dejó de venir y le mandas una promo directo a su pantalla de bloqueo, sin pagar SMS.</p></div>
+      </div>
+    </section>
+
+
+    <section class="block" id="demo">
+      <div class="demo-grid">
+        <div class="stack">
+          <p class="eyebrow">Pruébalo aquí</p>
+          <h2 style="font-size:clamp(2rem,5vw,3rem);margin-top:10px">Así se siente <em>en el mostrador</em>.</h2>
+          <p class="mute">Toca “+1 sello” como lo haría tu personal. Al llegar a 8, el premio se desbloquea y el mostrador te pide confirmar que ya se entregó.</p>
+          <div class="row" style="margin-top:12px">
+            <button class="btn gold" id="demoStamp" type="button">+1 sello</button>
+            <button class="btn ghost" id="demoReset" type="button">Reiniciar</button>
+          </div>
+          <div id="demoStatus" class="note" aria-live="polite">Marco lleva 5 de 8 sellos.</div>
+        </div>
+        <div><div id="demoCard2"></div></div>
       </div>
     </section>
 
@@ -227,8 +270,10 @@
       <h2 style="font-size:clamp(2rem,5vw,3rem);margin-top:10px">Hecho para el <em>mostrador</em>, no para la oficina.</h2>
       <div class="feat">
         <div class="card-box"><div class="emoji">📲</div><h3>Apple Wallet y Google Wallet</h3><p class="mute">La tarjeta vive en la app que ya tienen. Si alguien no usa Wallet, también funciona como tarjeta web.</p></div>
-        <div class="card-box"><div class="emoji">⚡</div><h3>Sellado por QR</h3><p class="mute">Desde cualquier celular, sin hardware. Con protección contra sellos dobles y PIN para tu personal.</p></div>
-        <div class="card-box"><div class="emoji">💤</div><h3>Clientes inactivos</h3><p class="mute">Lista de quién lleva semanas sin venir, con su teléfono a un toque.</p></div>
+        <div class="card-box"><div class="emoji">⚡</div><h3>Sellado por QR</h3><p class="mute">Desde cualquier celular, sin hardware. Con protección contra sellos dobles, PIN para tu personal y botón de deshacer si alguien se equivoca.</p></div>
+        <div class="card-box"><div class="emoji">🎁</div><h3>Premios con entrega confirmada</h3><p class="mute">Cuando alguien gana, el premio queda pendiente hasta que tu personal confirma “ya se lo entregué”. Sabes quién lo entregó y cuándo. Nada de premios dobles ni olvidados.</p></div>
+        <div class="card-box"><div class="emoji">💤</div><h3>Clientes inactivos</h3><p class="mute">Lista de quién lleva semanas sin venir, con su historial, notas y WhatsApp a un toque.</p></div>
+        <div class="card-box"><div class="emoji">🧾</div><h3>Adiós tarjetas de papel</h3><p class="mute">Da de alta a tus clientes desde el mostrador, pásales los sellos que ya traían y exporta tu lista cuando quieras.</p></div>
         <div class="card-box"><div class="emoji">💬</div><h3>Campañas sin SMS</h3><p class="mute">Mensajes a la tarjeta y a la pantalla de bloqueo: “te extrañamos”, “te falta 1 sello”, “2x1 hoy”.</p></div>
         <div class="card-box"><div class="emoji">📍</div><h3>Alertas por cercanía</h3><p class="mute">A los clientes inactivos, su iPhone les sugiere tu tarjeta cuando pasan cerca de tu local.</p></div>
         <div class="card-box"><div class="emoji">💰</div><h3>Ingresos recuperados</h3><p class="mute">Te mostramos cuánto dinero te devolvieron los clientes que volvieron gracias a Mr Key.</p></div>
@@ -265,6 +310,9 @@
         <details><summary>¿Mis clientes tienen que descargar una app?</summary><p>No. La tarjeta se guarda en Apple Wallet o Google Wallet, que ya vienen en su celular. Si alguien no usa Wallet, funciona como tarjeta web desde el navegador.</p></details>
         <details><summary>¿Qué necesito para empezar?</summary><p>Un celular y tu logo. Creas tu cuenta, eliges tus colores y el premio, e imprimes tu QR para el mostrador. Queda lista en unos 2 minutos.</p></details>
         <details><summary>¿Para qué tipo de negocio sirve?</summary><p>Para negocios con clientes que regresan: barberías, cafeterías, salones de belleza, veterinarias y tiendas. Según tu giro te sugerimos un programa, por ejemplo 8 sellos = corte gratis en una barbería.</p></details>
+        <details><summary>¿Cómo sé si ya se le entregó un premio a un cliente?</summary><p>Cada premio ganado queda como pendiente hasta que tu personal confirma en el mostrador que ya se lo entregó. En tu panel ves los premios por entregar y los entregados, con fecha, hora y quién lo registró. Si alguien se equivoca, puede deshacerlo.</p></details>
+        <details><summary>¿Qué pasa si mi cliente no trae su celular o no quiere escanear el QR?</summary><p>Tu personal lo busca por su número de celular para sellar, o lo da de alta en el mostrador y le envía su tarjeta por WhatsApp.</p></details>
+        <details><summary>Ya tengo tarjetas de papel, ¿pierden sus sellos mis clientes?</summary><p>No. Das de alta a tus clientes y les pasas los sellos que traían desde la ficha de cada cliente.</p></details>
         <details><summary>¿Cómo evito sellos falsos?</summary><p>Solo tu personal puede sellar, con el código del negocio y un PIN. Además, Mr Key exige un tiempo mínimo entre sellos del mismo cliente para evitar sellos dobles.</p></details>
         <details><summary>¿Mis clientes reciben SMS o spam?</summary><p>No usamos SMS. Las campañas llegan a la tarjeta y a la pantalla de bloqueo, y solo a los clientes que aceptaron recibir promociones. Pueden cancelarlo cuando quieran.</p></details>
         <details><summary>¿Qué pasa al terminar los 14 días gratis?</summary><p>No pedimos tarjeta de crédito para la prueba, así que no hay cargos automáticos. Al terminar eliges el plan que más te convenga.</p></details>
@@ -295,6 +343,39 @@
     MK.renderCard(document.getElementById("demoCard"),
       { name: "Barbería Don Luis", logo_png: null, color_bg: "#1c1917", color_fg: "#fafaf9", color_accent: "#d6b47a", reward_text: "Corte gratis", stamps_required: 8 },
       { name: "Marco", serial: "DEMO-MRKEY-TARJETA-000", stamps: 7, rewards_available: 0 }, { qr: false });
+
+    // Demo interactiva del mostrador
+    const demoM = { name: "Barbería Don Luis", logo_png: null, color_bg: "#1c1917", color_fg: "#fafaf9", color_accent: "#d6b47a", reward_text: "Corte gratis", stamps_required: 8 };
+    const demo = { name: "Marco", serial: "DEMO-MRKEY-TARJETA-000", stamps: 5, rewards_available: 0 };
+    const status = document.getElementById("demoStatus");
+    const draw = (pop = -1) => MK.renderCard(document.getElementById("demoCard2"), demoM, demo, { qr: false, popIndex: pop });
+    draw();
+    document.getElementById("demoStamp").addEventListener("click", async () => {
+      demo.stamps += 1;
+      if (demo.stamps < 8) {
+        draw(demo.stamps - 1);
+        status.textContent = demo.stamps === 7 ? "¡A Marco le falta 1 sello! Mr Key puede mandarle un recordatorio a su pantalla de bloqueo." : `Sello agregado. Marco lleva ${demo.stamps} de 8.`;
+        return;
+      }
+      demo.stamps = 0;
+      demo.rewards_available = 1;
+      draw();
+      status.textContent = "🎁 Marco ganó su corte gratis. Queda pendiente hasta que lo entregues.";
+      const ok = await MK.confirm({ icon: "🎁", title: "¿Ya le diste su corte gratis a Marco?", text: "Así lo ve tu personal. Confírmalo solo cuando ya lo recibió: queda registrado con su nombre y la hora.", ok: "✓ Sí, ya se lo entregué", cancel: "Lo usará en otra visita" });
+      if (ok) {
+        demo.rewards_available = 0;
+        draw();
+        status.textContent = "🎉 Premio entregado y registrado. En el panel ves quién lo entregó y cuándo.";
+      } else {
+        status.textContent = "El premio queda guardado en la tarjeta de Marco y en tu lista de “Premios por entregar”.";
+      }
+    });
+    document.getElementById("demoReset").addEventListener("click", () => {
+      demo.stamps = 5;
+      demo.rewards_available = 0;
+      draw();
+      status.textContent = "Marco lleva 5 de 8 sellos.";
+    });
   </script>
 </body>
 </html>
