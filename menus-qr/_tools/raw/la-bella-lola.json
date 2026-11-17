@@ -1,0 +1,343 @@
+{
+ "id": 1923701658,
+ "brandName": "La Bella Lola",
+ "name": "La Bella Lola - Aguascalientes Centro",
+ "address": "Zaragoza 611, Zona Centro, 20000 Aguascalientes, Ags., Mexico",
+ "schedule": "08:00:00 - 17:00:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -102.2927583,
+  21.8875656
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/456-1723829277178.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/1212-1723829278945.jpg",
+ "schedules": [
+  {
+   "open_time": "08:00:00",
+   "close_time": "17:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923701658-la-bella-lola",
+ "menu": [
+  {
+   "name": "Rappi Promo",
+   "products": [
+    {
+     "name": "Quesadillas",
+     "desc": "Quesadillas de jamón acompañadas por pico de gallo y ensalada fresca de la casa.",
+     "price": 65,
+     "img": "c84bc428-039b-41a6-8fb8-5bfae2ab3545_a.png"
+    }
+   ]
+  },
+  {
+   "name": "Las Bebidas",
+   "products": [
+    {
+     "name": "Licuado",
+     "desc": "Licuado con fresas y frambuesas.",
+     "price": 50,
+     "img": "00608c59-a13e-471a-9316-43a5c244a261.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Molletes",
+   "products": [
+    {
+     "name": "Huevos Rancheros",
+     "desc": "Huevos Rancheros con dos huevos estrellados sobre tortillas, frijoles refritos, salsa ranchera y cubos de aguacate.",
+     "price": 98,
+     "img": "d41bc5b1-f3ce-4acc-88ce-de173235dee2.jpeg"
+    },
+    {
+     "name": "Huevos Divorciados",
+     "desc": "Huevos Divorciados con dos huevos fritos, uno con salsa roja y otro con salsa verde.",
+     "price": 102,
+     "img": "64d651f3d77e48a5b507c72b4f05f2a1.png"
+    }
+   ]
+  },
+  {
+   "name": "Cafeteria",
+   "products": [
+    {
+     "name": "Malteadas",
+     "desc": "Malteadas con diversos sabores, cubiertas con crema batida.",
+     "price": 75,
+     "img": "3dd45ea9-63bb-4d58-be36-6a9fd699e764.png"
+    },
+    {
+     "name": "Club Sandwich",
+     "desc": "Pan Ligeramente Tostado Jamon, Tocino, Lechuga Tomate Y Papa A La Francesa",
+     "price": 75,
+     "img": "027b90df-e261-49ad-b9a1-d57850ec75e9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Combos",
+   "products": [
+    {
+     "name": "Combo Desayuno",
+     "desc": "1 plato de huevo divorciados, plato de fruta y refresco",
+     "price": 91,
+     "img": "ce3b6750-9dde-4798-836d-7a82bded795d_a.png"
+    },
+    {
+     "name": "Combo Buebito + Enchiladas",
+     "desc": "1 plato de huevos rancheros, 1 plato de enchiladas verdes",
+     "price": 130,
+     "img": ""
+    },
+    {
+     "name": "Combo Verde Chilaquiles + Enchiladas",
+     "desc": "Combo con 1 plato de chilaquiles verdes y 1 plato de enchiladas verdes con queso, crema, cebolla morada y cilantro.",
+     "price": 80.5,
+     "img": ""
+    },
+    {
+     "name": "Combo Comida",
+     "desc": "2 platos del guisado del dia, con dos guarniciones + ensalada y salsa",
+     "price": 115.5,
+     "img": "2c6b4d22-eafb-4ce1-8da3-f091099da50c_a.png"
+    }
+   ]
+  },
+  {
+   "name": "Comida",
+   "products": [
+    {
+     "name": "Mole Con Pollo",
+     "desc": "Mole Con Pollo deshebrado, acompañado de arroz y ensalada.",
+     "price": 137,
+     "img": "e2644e17af2840eb82126d471e8ac565.png"
+    },
+    {
+     "name": "Tacos Dorados De Papa",
+     "desc": "Tacos Dorados de Papa con arroz y lechuga.",
+     "price": 95,
+     "img": "26672571-b9ef-42f2-b3e4-0190b5c84fc2.jpeg"
+    },
+    {
+     "name": "Combo2 Platos De Guisado Del Dia",
+     "desc": "Dos platos de guisado del día, acompañados de frijoles y ensalada.",
+     "price": 165,
+     "img": "821e2a8929bd4c0d85c6e6db8b955dbb.png"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada De La Casa",
+     "desc": "Espinaca Baby, Pasta De Tornillo, Salami, Aceituna Negra, Jitomate Cherry, Y Bolitas De Acceso Crema",
+     "price": 117,
+     "img": "3a7fe21e58674a6a90faba40719d84f1.png"
+    },
+    {
+     "name": "Sandwich Vegetariano",
+     "desc": "Lechuga, Cebolla, Pepino, Zanahoria, Aguacate, Germen De Soya",
+     "price": 72,
+     "img": "9fa509e4-0b03-4e21-a9c9-da019aaa89d1.jpeg"
+    },
+    {
+     "name": "Sandwich De Pollo",
+     "desc": "Sandwich de pollo deshebrado con lechuga, queso y aderezo verde.",
+     "price": 72,
+     "img": "1d76b1a0-5255-4b7b-8223-e79c3c31ab41.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Cheesecake Frambuesa",
+     "desc": "Cheesecake Con Coulis De Frambuesa.",
+     "price": 55,
+     "img": "384acbc5-7ae6-4542-99c3-ca0c8d758915.jpeg"
+    },
+    {
+     "name": "Rebanada De Pastel",
+     "desc": "Rebanada de pastel de chocolate con relleno de crema y cubierta de chocolate.",
+     "price": 55,
+     "img": "650567c0-ad53-40aa-b7ea-530499a8aa06.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Molletes",
+     "desc": "Molletes tradicionales con frijoles, queso y pico de gallo, 2 pzas.",
+     "price": 74,
+     "img": "a6c24850-21df-4357-b063-1e0c478762f3_a.png"
+    },
+    {
+     "name": "Pan",
+     "desc": "Pan dulce surtido.",
+     "price": 20,
+     "img": "995631fc-1425-45cf-93b7-4bc24f48ba89.jpeg"
+    },
+    {
+     "name": "Fruta",
+     "desc": "Fruta con papaya, melón, plátano, piña y mango, acompañada de granola y miel.",
+     "price": 61,
+     "img": "68b9a242-e679-40c0-b69b-54417687716f.jpeg"
+    },
+    {
+     "name": "Hot Cakes",
+     "desc": "3 Hot Cakes con mantequilla y jarabe.",
+     "price": 75,
+     "img": "105a6fa4-d0d9-4dbf-94f4-fcd6c832d2cc_a.png"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Naturales",
+     "desc": "Chilaquiles Naturales con preparación a elegir, salsa verde, crema, queso y cebolla, acompañados por frijoles.",
+     "price": 75,
+     "img": "f165c6bc-a8b3-4a13-90c7-11f235d36c6a.jpeg"
+    },
+    {
+     "name": "Gratinados",
+     "desc": "Chilaquiles gratinados en preparación a elegir acompañados de frijoles y ensalada de la casa.",
+     "price": 85,
+     "img": "53a4668b-6fe9-487a-a9f2-33dd131672ff_a.png"
+    },
+    {
+     "name": "Bella Lola",
+     "desc": "Chilaquiles hechos con mole de la casa, huevo estrellado, espolvoreados, ajonjolí aparte y frijoles.",
+     "price": 90,
+     "img": "6e74dc95-e189-49f8-b1e3-1812743beceb_a.png"
+    },
+    {
+     "name": "Chilaquiles Divorciados",
+     "desc": "Chilaquiles con salsa verde, salsa roja, huevo estrellado y frijoles.",
+     "price": 63,
+     "img": "f11420f6-0cda-49bb-a18f-71fe9d0e4f4d.jpeg"
+    },
+    {
+     "name": "Enchipotlados",
+     "desc": "Chilaquiles con salsa de chile chipotle, huevo estrellado y frijoles.",
+     "price": 90,
+     "img": "75f06f2f-9cf3-461d-a1e6-c9fe4b6e6559.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Clásicos",
+   "products": [
+    {
+     "name": "Enchiladas",
+     "desc": "Enchiladas con preparación a elegir, rellenas de queso acompañadas por frijoles y ensalada fresca de la casa.",
+     "price": 75,
+     "img": "d329d553-d548-4550-80d8-fd615eef7509_a.png"
+    },
+    {
+     "name": "Carne Asada",
+     "desc": "Carne asada con cebollitas, chiles toreados, acompañadas por chilaquiles de preparación a elegir y frijoles.",
+     "price": 142,
+     "img": "8da58d66-6ad1-4157-be65-ba19061af1d2_a.png"
+    },
+    {
+     "name": "Quesadillas",
+     "desc": "Quesadillas de jamón acompañadas por pico de gallo y ensalada fresca de la casa.",
+     "price": 65,
+     "img": "c84bc428-039b-41a6-8fb8-5bfae2ab3545_a.png"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "Enmoladas de queso acompañadas por frijoles y ensalada fresca de la casa.",
+     "price": 80,
+     "img": "dfb40405-c848-4683-98a8-d4232018c49d.jpeg"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "Enfrijoladas con crema de frijol, chile rojo y rellenas de queso.",
+     "price": 85,
+     "img": "35208fc3-0c5c-4de3-97b9-d1eadd693ced_a.png"
+    },
+    {
+     "name": "Enfrijoladas Veracruzanas",
+     "desc": "Enfrijoladas rellenas de huevo a la mexicana bañadas con crema de frijol.",
+     "price": 85,
+     "img": "a954156b-9057-43af-9de1-0851d43b86f3_a.png"
+    }
+   ]
+  },
+  {
+   "name": "Huevos al Gusto",
+   "products": [
+    {
+     "name": "Rancheros",
+     "desc": "Huevos estrellados bañados en salsa ranchera.",
+     "price": 98,
+     "img": "fadc7d10-6074-41fe-a98f-ed6062c9ed48_a.png"
+    },
+    {
+     "name": "Divorciados",
+     "desc": "Huevos estrellados bañados en salsa roja y salsa verde, acompañados de frijoles refritos y cebolla picada.",
+     "price": 115,
+     "img": "1f43913c-f743-45a8-97cb-0ae1b391b989_a.png"
+    },
+    {
+     "name": "Revueltos",
+     "desc": "Huevos revueltos con jamón y preparación a elegir.",
+     "price": 115,
+     "img": "4f6c5264-bcf1-4640-bfbc-e1caa44eb4cc.jpeg"
+    },
+    {
+     "name": "Motuleños",
+     "desc": "Huevos estrellados sobre tortilla de maíz dorada con jamón, frijoles y salsa roja.",
+     "price": 128,
+     "img": "84ec8d93-88ed-4f4c-9a1f-975844ecb583.jpeg"
+    },
+    {
+     "name": "Bella Lola",
+     "desc": "Huevos estrellados sobre tortilla de maíz dorada, bañados en mole de la casa.",
+     "price": 128,
+     "img": "6e74dc95-e189-49f8-b1e3-1812743beceb_a1.png"
+    },
+    {
+     "name": "Bañados",
+     "desc": "Huevos revueltos bañados con salsa verde y espolvoreados en queso.",
+     "price": 98,
+     "img": "1c61913d-f66c-4dc5-9af3-5626a49dcad8.jpeg"
+    },
+    {
+     "name": "Toluqueños",
+     "desc": "Huevos estrellados sobre una tortilla dorada con frijoles, bañados en salsa a elegir, rajas y cubitos de queso.",
+     "price": 115,
+     "img": "6df3a233-e524-4300-bd53-9dd1da871269.jpeg"
+    },
+    {
+     "name": "Migas Norteñas",
+     "desc": "Huevos revueltos con cebollita y tortilla de maíz frita.",
+     "price": 98,
+     "img": "ed94c958-7b79-4df1-9b50-371eb0cf2067.jpeg"
+    },
+    {
+     "name": "Cazuelita Lola",
+     "desc": "Huevos ahogados en salsa roja con chorizo y rajas.",
+     "price": 128,
+     "img": "983b0da2-58c2-458d-a270-8861160c29ce_a.png"
+    },
+    {
+     "name": "Omelet",
+     "desc": "Omelet con preparación a elegir.",
+     "price": 128,
+     "img": "f2670fab-458f-43fe-9934-4269d1fa42ed_a.png"
+    }
+   ]
+  }
+ ]
+}

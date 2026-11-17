@@ -1,0 +1,662 @@
+{
+ "id": 1930246253,
+ "brandName": "Patio Santo Domingo Colosio",
+ "name": "Patio Santo Domingo Colosio - Fracc Jardines de la Concepcion I",
+ "address": "Boulevard Luis Donaldo Colosio Murrieta 201",
+ "schedule": "08:00:00 - 14:00:00",
+ "categories": "Desayunos y Brunch · Mexicana",
+ "location": [
+  -102.310454142344,
+  21.924270457342
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/3914e704-0663-433c-8c91-11f12f5eb150-1782840072708.jpg?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/7302d7f2-1ff7-451d-ad7c-db8cab1cc4dd-1782840406704.jpg",
+ "schedules": [
+  {
+   "open_time": "08:00:00",
+   "close_time": "14:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930246253-patio-santo-domingo-colosio",
+ "menu": [
+  {
+   "name": "Las Bañadas",
+   "products": [
+    {
+     "name": "Enchiladas verdes",
+     "desc": "Tortilla de maiz rellenas de pollo bañadas con salsa verde, crema y gratinadas con queso cheddar.",
+     "price": 204,
+     "img": "724c622d03eb43f3a90d0e19933c6fdd.png"
+    },
+    {
+     "name": "Enchiladas suizas",
+     "desc": "Tortilla de maiz rellenas de pollo bañadas con salsa cremosa de poblano, crema y gratinadas con queso cheddar.",
+     "price": 244,
+     "img": "469cdf81b1804024822d390aae81b80d.png"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "Tortilla de maiz rellenas de queso bañadas con frijoles, crema y gratinadas con queso cheddar.",
+     "price": 219,
+     "img": "4714618ad89b4eb5b569dd7653f06565.png"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "Tortilla de maiz rellenas de pollo bañadas con el mole de la casa, crema y gratinadas con queso.",
+     "price": 239,
+     "img": "6af9a0d2d44942c2b7ec0dc8ea032fc3.png"
+    },
+    {
+     "name": "Enjitomatadas",
+     "desc": "Tortilla de maiz panela bañadas salsa de jitomate, crema y gratinadas con queso.",
+     "price": 204,
+     "img": "37e8fd040eca4a728c958447c6b433d2.png"
+    }
+   ]
+  },
+  {
+   "name": "FRÍAS",
+   "products": [
+    {
+     "name": "Chocolate con leche",
+     "desc": "Bebida fría de chocolate con leche.",
+     "price": 78,
+     "img": "37bcd1ab20af4c9580fe9782c9f014f8.png"
+    },
+    {
+     "name": "Malteada",
+     "desc": "Malteada de chocolate o vainilla, con crema batida y jarabe de chocolate.",
+     "price": 120,
+     "img": "90b5a05141b14da3a4103c99a14ec58c.png"
+    },
+    {
+     "name": "Vaso de leche",
+     "desc": "Vaso de leche de vaca.",
+     "price": 62,
+     "img": "9d131adc6aa74632837bdc24094cdb97.png"
+    },
+    {
+     "name": "Vaso de leche de almendra",
+     "desc": "Vaso de leche de almendra fría.",
+     "price": 83,
+     "img": "e32e95ab392d4fc49d58991e0228683e.png"
+    },
+    {
+     "name": "Refresco",
+     "desc": "Refresco carbonatado con hielo.",
+     "price": 64,
+     "img": "5c465f05c7de45fcb2e5dee894a47322.png"
+    },
+    {
+     "name": "Agua embotellada",
+     "desc": "Agua purificada en botella de vidrio con tapa plateada.",
+     "price": 56,
+     "img": "65c4baaaddc842c7a8fb94bd6d99055d.png"
+    },
+    {
+     "name": "Agua mineral",
+     "desc": "Agua mineral, fría y con gas.",
+     "price": 64,
+     "img": "a0eb388773a34b0287b006ece2200013.png"
+    },
+    {
+     "name": "Té helado",
+     "desc": "Té con hielo.",
+     "price": 71,
+     "img": "d35b783229d1465296cd8d96517a1274.png"
+    },
+    {
+     "name": "Agua de sabor",
+     "desc": "Agua de sabor con saborizantes naturales y hielo.",
+     "price": 71,
+     "img": "66da9ffa52974defbcb8e868fbb34928.png"
+    },
+    {
+     "name": "Naranjada",
+     "desc": "Naranjada con hielos.",
+     "price": 71,
+     "img": "0067ea5a60494e67843e1a919e3e280b.png"
+    },
+    {
+     "name": "Limonada",
+     "desc": "Limonada con hielo y rodajas de limón.",
+     "price": 78,
+     "img": "b472c7866820484cb2c713f49e6aa38e.png"
+    }
+   ]
+  },
+  {
+   "name": "Almuerzos Combinados",
+   "products": [
+    {
+     "name": "Elige 3 guisados, los servimos acompañados con deliciosos frijoles refritos. Incluyen café americano de cortesia y puedes elegir entre tortilla o bolillo según tu preferencia. Solicitalo a tu mesero.",
+     "desc": "Elige 3 guisados, servidos con frijoles refritos. Incluyen café americano de cortesía y puedes elegir entre tortilla o bolillo.",
+     "price": 281,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Sopes",
+   "products": [
+    {
+     "name": "Sope natural",
+     "desc": "Sope con frijol refrito, crema, queso sierra y lechuga.",
+     "price": 154,
+     "img": "3c1708e8c8c746d19b3e95d9b2d575bc.png"
+    },
+    {
+     "name": "Sope norteño",
+     "desc": "Sope con frijol refrito, crema, queso sierra, lechuga y asado norteño.",
+     "price": 196,
+     "img": "c205c2d9b39a46cc9d753a5b1eb03ec8.png"
+    },
+    {
+     "name": "Sope pibil",
+     "desc": "Sope con frijol refrito, crema, queso sierra, lechuga y cochinita pibil.",
+     "price": 190,
+     "img": "b803ef01e73141d08cf13349894dbfdd.png"
+    },
+    {
+     "name": "Sope de chicharrón",
+     "desc": "Sope con frijol refrito, crema, queso sierra, lechuga y chicharrón prensado en salsa verde.",
+     "price": 182,
+     "img": "3ffb203d1f6749b8a9c353a666b99dfb.png"
+    },
+    {
+     "name": "Sope de deshebrada",
+     "desc": "Sope con frijol refrito, crema, queso sierra, lechuga y deshebrada de res.",
+     "price": 210,
+     "img": "b36a01fccbb448faa126450906ca099d.png"
+    },
+    {
+     "name": "Sope de papas con chorizo",
+     "desc": "Sope con frijol refrito, crema, queso sierra, lechuga y guisado de papas con chorizo.",
+     "price": 168,
+     "img": "a974bf269dc1444ebb061d22f87420df.png"
+    },
+    {
+     "name": "Sope combinado",
+     "desc": "ELIGE A TU GUSTO ENTRE LAS OPCIONES ANTERIORES",
+     "price": 210,
+     "img": "cb0e756b0614427685f2203d53337d87.png"
+    }
+   ]
+  },
+  {
+   "name": "Barra de Licuados & Wellness",
+   "products": [
+    {
+     "name": "El Santo Fuerte",
+     "desc": "Licuado con plátano, leche de almendra, un scoop de Whey Protein y canela espolvoreada.",
+     "price": 204,
+     "img": "5a8a73bc89fe412790023de8a67634fd.png"
+    },
+    {
+     "name": "Amanecer en el Patio",
+     "desc": "Papaya, fresa natural licuada con jugo de naranja fresco. Ligero y digestivo.",
+     "price": 120,
+     "img": "b357ef1449384f079e4bce10d1748149.png"
+    },
+    {
+     "name": "Berry Power (Vegano)",
+     "desc": "Fresa, cremosa leche de coco y un scoop de Proteína Vegana.",
+     "price": 212,
+     "img": "ffe64a1abbbf43c2967e09e222e91bf4.png"
+    }
+   ]
+  },
+  {
+   "name": "APAPACHOS CALIENTITOS",
+   "products": [
+    {
+     "name": "Café de olla",
+     "desc": "Café tradicional mexicano con piloncillo y canela.",
+     "price": 69,
+     "img": "d2fdfbb27cc74d80b4c0f836203f549e.png"
+    },
+    {
+     "name": "Café americano",
+     "desc": "Café expreso diluido con agua caliente.",
+     "price": 64,
+     "img": "775daf309aee499a99110111f4db227e.png"
+    },
+    {
+     "name": "Capuccino",
+     "desc": "Café expreso con leche vaporizada y espuma de leche.",
+     "price": 87,
+     "img": "680b045f42bc4300bd513b7abc523653.png"
+    },
+    {
+     "name": "Latte",
+     "desc": "Café expreso con leche vaporizada.",
+     "price": 99,
+     "img": "1d36c2430b7b4add9520e8e2497b32cc.png"
+    },
+    {
+     "name": "Café expreso",
+     "desc": "Café concentrado obtenido por presión.",
+     "price": 76,
+     "img": "b1f0704b09e44eec9ca50dc6f8baabf9.png"
+    },
+    {
+     "name": "Café lechero",
+     "desc": "Café lechero con espuma, preparado tradicionalmente.",
+     "price": 121,
+     "img": "f7476043c7324a118b238fff2c187266.png"
+    },
+    {
+     "name": "Té",
+     "desc": "Té caliente con infusión de hojas.",
+     "price": 64,
+     "img": "77345cf4cdad4e58a1d5a3a8e9af9fa1.png"
+    },
+    {
+     "name": "Champurrado",
+     "desc": "Bebida caliente a base de maíz, piloncillo y canela.",
+     "price": 69,
+     "img": "25636428957f4a0c8e3b98506d1ead0e.png"
+    },
+    {
+     "name": "Atole de guayaba",
+     "desc": "Bebida caliente a base de maíz con sabor a guayaba.",
+     "price": 83,
+     "img": "10ce6ef64f1b4a18aec3d3c1a90a1b4c.png"
+    },
+    {
+     "name": "Chocolate caliente",
+     "desc": "Chocolate caliente, bebida a base de cacao con espuma.",
+     "price": 78,
+     "img": "c88d8656f4a5495084a3bc71690872b2.png"
+    },
+    {
+     "name": "Leche deslactosada",
+     "desc": "Leche deslactosada para tu bebida.",
+     "price": 14,
+     "img": "33b101c8777a455fbea60b5de32e3be3.png"
+    },
+    {
+     "name": "Leche de almendra",
+     "desc": "Leche de almendra para tu bebida.",
+     "price": 35,
+     "img": "6cf0e6848f834bda8fa3030e30869c84.png"
+    },
+    {
+     "name": "Leche de coco",
+     "desc": "Leche de coco para tu bebida.",
+     "price": 35,
+     "img": "5854488671b64b9e977315697a76ec35.png"
+    }
+   ]
+  },
+  {
+   "name": "Huevos",
+   "products": [
+    {
+     "name": "Estrellados clásicos",
+     "desc": "(2 huevos)",
+     "price": 168,
+     "img": ""
+    },
+    {
+     "name": "Estrellados con tocino",
+     "desc": "Huevos estrellados con tocino (2 piezas).",
+     "price": 196,
+     "img": "e2668e05790d44afb23ffd95d797f1ab.png"
+    },
+    {
+     "name": "Rancheros",
+     "desc": "Rancheros con 2 huevos fritos, sobre tortillas, salsa roja y pico de gallo.",
+     "price": 196,
+     "img": "e0f3a21c7a3f47b2a9b7300c8602cc4e.png"
+    },
+    {
+     "name": "Montados",
+     "desc": "Montados con 2 huevos, frijoles negros, salsa verde y queso rallado sobre tortilla.",
+     "price": 219,
+     "img": "8d60a93d923d49319732ed19ac3d921d.png"
+    },
+    {
+     "name": "Montados con salsa de mole",
+     "desc": "Montados con salsa de mole, 2 huevos fritos sobre tortillas y ajonjolí.",
+     "price": 230,
+     "img": "14db05821f2a4b21b6589cf4a6c94072.png"
+    },
+    {
+     "name": "Divorciados",
+     "desc": "Divorciados: 2 huevos sobre tortilla, con salsa roja y salsa verde.",
+     "price": 203,
+     "img": "47f1d7688b9e4dda9def2c499d1c617d.png"
+    },
+    {
+     "name": "Revueltos naturales",
+     "desc": "Revueltos naturales. Contiene 2 huevos.",
+     "price": 168,
+     "img": "c37cbb8f14e24422bdcb327eef3f568f.png"
+    },
+    {
+     "name": "A la mexicana",
+     "desc": "Dos huevos fritos a la mexicana con tomate, cebolla y cilantro, y tortillas.",
+     "price": 186,
+     "img": "3badc6eb2224448bb718604f475d5d26.png"
+    },
+    {
+     "name": "Olmeca",
+     "desc": "(2 huevos)",
+     "price": 252,
+     "img": ""
+    },
+    {
+     "name": "Zacatecanos",
+     "desc": "(2 huevos)",
+     "price": 239,
+     "img": "8dc2abae662f4a86af252dcf0d39be6b.png"
+    },
+    {
+     "name": "Con machaca",
+     "desc": "Machaca con 2 huevos fritos.",
+     "price": 247,
+     "img": "4f72991fae144005857402eddf1c66d1.png"
+    },
+    {
+     "name": "Omelette con queso",
+     "desc": "Omelette relleno de queso.",
+     "price": 210,
+     "img": "bda03de4127740148c72323208587f0f.png"
+    },
+    {
+     "name": "Omelette bañado",
+     "desc": "Relleno de jamón de pavo y queso panela, bañados con tu salsa a elección (Chipotle, poblana o enfrijolada o mole de la casa) (+$14).",
+     "price": 238,
+     "img": "ad8640384b1a415cb8191f78342bf275.png"
+    },
+    {
+     "name": "Omelette de chilaquiles",
+     "desc": "Relleno de chilaquiles y crema, servidos con frijoles refritos y queso sierra. Elige tus chilaquiles entre verde, roja, chipotle, ranchera, poblano, jitomate y mole de la casa (+$14).",
+     "price": 238,
+     "img": "86e93f941fe946c888f40c6cbf0b5852.png"
+    }
+   ]
+  },
+  {
+   "name": "BEBIDAS ESPECIALES",
+   "products": [
+    {
+     "name": "Matcha",
+     "desc": "Bebida de matcha con espuma.",
+     "price": 120,
+     "img": "a5628612b9744da99cdc8ab064a3456a.png"
+    },
+    {
+     "name": "Chai",
+     "desc": "Chai con leche.",
+     "price": 120,
+     "img": "83d79de9224f429e84544f77a62e28b1.png"
+    },
+    {
+     "name": "Taro",
+     "desc": "Bebida de taro con hielo.",
+     "price": 120,
+     "img": "06675df827f443cc9df7a5a9765f1204.png"
+    }
+   ]
+  },
+  {
+   "name": "Fruta de Temporada",
+   "products": [
+    {
+     "name": "Fruta sencilla",
+     "desc": "Fruta sencilla: Porción de fruta de temporada con piña, melón, uvas, fresas y arándanos.",
+     "price": 97,
+     "img": "8096a283fe4645e18ea0256f02c50d07.png"
+    },
+    {
+     "name": "Fruta, yogurth miel y granola",
+     "desc": "Fruta fresca servida con yogurth cremoso, miel y granola crujiente.",
+     "price": 134,
+     "img": "ca31523da07a4075b0cdbd6e4aeddbae.png"
+    },
+    {
+     "name": "Fruta, queso cottage, miel y granola",
+     "desc": "Fruta fresca acompañada de queso cottage suave, miel y granola crujiente.",
+     "price": 154,
+     "img": "cd4dde4d726f46cd85ae77f46162061e.png"
+    }
+   ]
+  },
+  {
+   "name": "Tamales",
+   "products": [
+    {
+     "name": "Santo Domingo",
+     "desc": "Tamal Santo Domingo cubierto con chile poblano.",
+     "price": 207,
+     "img": "8ed35c508abe493797952024f2fc59fe.png"
+    },
+    {
+     "name": "Amor de mole",
+     "desc": "Tamal relleno de pollo bañado con el mole de la casa, crema y cebolla encurtida.",
+     "price": 207,
+     "img": "c519a8b6e57149edb8beb3ea8facb4c5.png"
+    }
+   ]
+  },
+  {
+   "name": "Menú Light",
+   "products": [
+    {
+     "name": "Omelette de claras",
+     "desc": "(3)",
+     "price": 228,
+     "img": "cfc57c5639194bc0b4f6b4614ab64b13.png"
+    },
+    {
+     "name": "Revueltas con cebolla, tomate y chile serrano servido con frijoles refritos y queso sierra.",
+     "desc": "Revueltas de huevo con cebolla, tomate y chile serrano, servidas con frijoles refritos y queso sierra.",
+     "price": 228,
+     "img": "98cf13cea429445bb98fa1e02d7ff42c.png"
+    },
+    {
+     "name": "Crepas de espinaca",
+     "desc": "Crepas de espinaca con huevo al gusto, champiñones, queso panela o jamón.",
+     "price": 228,
+     "img": "d80011822231418393acb40e7f39624a.png"
+    },
+    {
+     "name": "Waffles con avena y amaranto",
+     "desc": "Waffles elaborados con avena y amaranto.",
+     "price": 156,
+     "img": "4f3bfcd7a5064f71bf6b7d8e7a9adb17.png"
+    }
+   ]
+  },
+  {
+   "name": "Dulce Antojo",
+   "products": [
+    {
+     "name": "Crepa dulce",
+     "desc": "Crepa dulce con masa suave, relleno dulce y azúcar glass.",
+     "price": 155,
+     "img": "046b6c193d484cbea0f79d9254a8ddf5.png"
+    },
+    {
+     "name": "Hot cakes",
+     "desc": "Hot cakes con mantequilla.",
+     "price": 140,
+     "img": "0dfc01f126e346acab009828d945139c.png"
+    },
+    {
+     "name": "Concha con nata",
+     "desc": "Concha tradicional rellena de nata fresca.",
+     "price": 92,
+     "img": "bf797282fc3b48078ccb06031fb8e8fa.png"
+    },
+    {
+     "name": "Bisquet con mermelada casera y mantequilla",
+     "desc": "Bisquet tierno acompañado de mermelada casera y mantequilla.",
+     "price": 112,
+     "img": "7f4be6464041452885c19eaf1984a689.png"
+    },
+    {
+     "name": "Orden de nata",
+     "desc": "Porción de nata cremosa.",
+     "price": 78,
+     "img": "48993f9217304f6c8b6669ddace47f10.png"
+    },
+    {
+     "name": "Orden de mermelada y mantequilla",
+     "desc": "Porción de mermelada y mantequilla.",
+     "price": 21,
+     "img": "a487944b951a4acaab00df355bff41ad.png"
+    }
+   ]
+  },
+  {
+   "name": "Molletes",
+   "products": [
+    {
+     "name": "Molletes clásicos",
+     "desc": "Nuestro bolillo artesanal con frijoles refritos gratinados con queso cheddar y pico de gallo.",
+     "price": 168,
+     "img": "479a597e4ee743579a72fd56a0fe3e81.png"
+    },
+    {
+     "name": "Molletes norteños",
+     "desc": "Nuestro bolillo artesanal con frijoles refritos gratinados con queso cheddar, asado norteño, aguacate y cebolla encurtida.",
+     "price": 223,
+     "img": "6e088204160e4d0eb12d0cd5ee789070.png"
+    },
+    {
+     "name": "Molletes pibil",
+     "desc": "Nuestro bolillo artesanal con frijoles refritos gratinados con queso cheddar, cochinita pibil, aguacate y cebolla encurtida.",
+     "price": 216,
+     "img": "f7361ed74abc4b739e805b242c5b8222.png"
+    },
+    {
+     "name": "Molletes divorciados",
+     "desc": "Nuestro bolillo artesanal con frijoles refritos gratinados con queso cheddar, huevos estrellados 2x con salsa verde y roja.",
+     "price": 196,
+     "img": "de93948788174e2ebc72e07c155b943b.png"
+    },
+    {
+     "name": "Molletes de chicharrón",
+     "desc": "Nuestro bolillo artesanal con frijoles refritos gratinados con queso cheddar, chicharrón prensado en salsa verde aguacate y cebolla encurtida.",
+     "price": 210,
+     "img": "6f1006da196c4c178a389b1d8f96da54.png"
+    }
+   ]
+  },
+  {
+   "name": "JUGOS",
+   "products": [
+    {
+     "name": "Jugo de naranja",
+     "desc": "Jugo recién exprimido de naranja.",
+     "price": 93,
+     "img": "9f0ee1e881eb479eb9e57243d39e58e7.png"
+    },
+    {
+     "name": "Jugo de zanahoria",
+     "desc": "Jugo natural de zanahoria, con espuma.",
+     "price": 83,
+     "img": "11958ad91d2241bcbc941b5686d2dff8.png"
+    },
+    {
+     "name": "Jugo mixto",
+     "desc": "Jugo mixto de frutas y/o verduras.",
+     "price": 93,
+     "img": "86f4ee39857f49a196fa4b27dbbab912.png"
+    },
+    {
+     "name": "Jugo de toronja",
+     "desc": "Jugo fresco de toronja.",
+     "price": 97,
+     "img": "b054f6e640144814aa88e8b3d54cabb6.png"
+    },
+    {
+     "name": "Jugo verde",
+     "desc": "Jugo verde, mezcla de jugos con vegetales.",
+     "price": 93,
+     "img": "6d9d57a7739d4be4bf2a8d6789aaafde.png"
+    }
+   ]
+  },
+  {
+   "name": "PREPÁRALOS A TU GUSTO",
+   "products": [
+    {
+     "name": "Leche deslactosada",
+     "desc": "Leche de vaca con lactosa eliminada.",
+     "price": 14,
+     "img": "88c7bbfcf49f495f9c5fbccc1ef6da1b.png"
+    },
+    {
+     "name": "Leche de almendra o coco",
+     "desc": "Bebida vegetal a base de almendras o coco.",
+     "price": 35,
+     "img": "7123819e92df4829a5371eee53b3f2a8.png"
+    },
+    {
+     "name": "Jugo de naranja o toronja",
+     "desc": "Jugo fresco de naranja o toronja.",
+     "price": 28,
+     "img": "c11ea2fbe5ed42daa174759afce3c0d4.png"
+    },
+    {
+     "name": "Scoop Whey Protein",
+     "desc": "Suero de leche - Vainilla",
+     "price": 78,
+     "img": ""
+    },
+    {
+     "name": "Scoop Proteína Vegana",
+     "desc": "Scoop de Proteína Vegana sabor Vainilla, en polvo.",
+     "price": 85,
+     "img": "7201098eaa6947d79f3996b36b5b4deb.png"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Orden completa",
+     "desc": "Chilaquiles con salsa roja, pollo deshebrado, queso, crema y cebolla.",
+     "price": 201,
+     "img": "25c2eda3934d40c88c970d2c62b778e8.png"
+    },
+    {
+     "name": "Extras",
+     "desc": "Anade Extras A Tus Chilaquiles: Huevo, Pollo, Guisado O Arrachera.",
+     "price": 118,
+     "img": ""
+    },
+    {
+     "name": "Media orden",
+     "desc": "Media orden de chilaquiles con salsa roja, pollo deshebrado, queso y crema.",
+     "price": 158,
+     "img": "6d0dd4ecf7374f6ea6e0647eff473ecd.png"
+    },
+    {
+     "name": "Chilaquiles Santo Domingo",
+     "desc": "Chilaquiles Santo Domingo rojos con un huevo al gusto y guisado a escoger.",
+     "price": 261,
+     "img": "d41bc558dce64fc681bd3af23b4d8b88.png"
+    }
+   ]
+  },
+  {
+   "name": "Menu Light",
+   "products": [
+    {
+     "name": "Claras A La Mexicana",
+     "desc": "Claras revueltas a la mexicana con tomate, cebolla y chile jalapeño.",
+     "price": 228,
+     "img": "00afa539-65e9-4770-b257-13aeb6295177.png"
+    }
+   ]
+  }
+ ]
+}

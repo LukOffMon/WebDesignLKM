@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menú · Fokus</title>
+<meta name="description" content="Menú digital de Fokus (Veracruz, Ver.): 72 platillos con precios, fotos y pedido por WhatsApp.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0f1412">
+<link rel="canonical" href="https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LKM&#x27;r Company">
+<meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Menú digital de Fokus · Veracruz, Ver.">
+<meta property="og:description" content="Tacos, carnes por kilo y alambres. 72 platillos con foto y precio; arma tu pedido y mándalo por WhatsApp.">
+<meta property="og:url" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/">
+<meta property="og:image" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/og.jpg">
+<meta property="og:image:secure_url" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Menú digital de Fokus">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Menú digital de Fokus">
+<meta name="twitter:description" content="Tacos, carnes por kilo y alambres">
+<meta name="twitter:image" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23f2b134'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%231a1a1a' font-family='Georgia'%3EF%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Manrope:wght@400;600;700;800&display=swap&family=Space+Grotesk:wght@600;700">
+<link rel="stylesheet" href="../assets/menu.css">
+<style>:root{--bg:#0f1412;--fg:#eef3ec;--acc:#f2b134;--card:#18201c;--on-acc:#1a1a1a;--ft:'Bricolage Grotesque';--fb:'Manrope';--tw:700;color-scheme:dark}</style>
+</head>
+<body>
+<style id="lkmr-intro-css">
+#lkmr-intro{position:fixed;inset:0;z-index:2147483000;display:grid;place-items:center;background:#08080a;color:#f3efe6;overflow:hidden;
+  font-family:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:opacity .55s ease,transform .7s cubic-bezier(.7,0,.2,1)}
+#lkmr-intro.out{opacity:0;transform:translateY(-6%);pointer-events:none}
+#lkmr-intro .glow{position:absolute;width:140vmax;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(214,180,122,.22),transparent 55%);animation:lk-pulse 3s ease-out both}
+#lkmr-intro .grid{position:absolute;inset:-20%;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:48px 48px;
+  mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);-webkit-mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);animation:lk-grid 3s linear both}
+#lkmr-intro .box{position:relative;text-align:center;padding:0 24px}
+#lkmr-intro .k{font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:#d6b47a;opacity:0;animation:lk-up .6s .15s ease-out forwards}
+#lkmr-intro .logo{font-weight:700;font-size:clamp(64px,17vw,148px);line-height:1;letter-spacing:-.03em;margin:14px 0 6px;display:flex;justify-content:center}
+#lkmr-intro .logo span{display:inline-block;opacity:0;transform:translateY(60%) rotate(8deg);filter:blur(8px);animation:lk-letter .7s cubic-bezier(.2,.9,.2,1) forwards;animation-delay:calc(.35s + var(--i)*.09s)}
+#lkmr-intro .logo span:last-child{color:#d6b47a}
+#lkmr-intro .bar{height:2px;width:min(320px,60vw);margin:10px auto 16px;background:linear-gradient(90deg,transparent,#d6b47a,transparent);transform:scaleX(0);animation:lk-bar .9s 1s cubic-bezier(.6,0,.2,1) forwards}
+#lkmr-intro .tag{font-size:clamp(13px,3.4vw,16px);color:#bdb7ab;opacity:0;animation:lk-up .6s 1.35s ease-out forwards}
+#lkmr-intro .sub{margin-top:22px;font-size:clamp(14px,3.8vw,18px);font-weight:600;opacity:0;animation:lk-up .6s 1.75s ease-out forwards}
+#lkmr-intro .sub b{color:#d6b47a;font-weight:700}
+#lkmr-intro .load{position:absolute;left:0;bottom:0;height:3px;width:100%;background:#d6b47a;transform-origin:left;transform:scaleX(0);animation:lk-load 3s linear forwards}
+#lkmr-intro .skip{position:absolute;right:16px;bottom:18px;font:600 12px/1 system-ui,sans-serif;letter-spacing:.08em;color:#8d887e;background:none;border:1px solid #2c2b2f;border-radius:999px;padding:8px 12px;cursor:pointer}
+@keyframes lk-letter{to{opacity:1;transform:none;filter:none}}
+@keyframes lk-up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes lk-bar{to{transform:scaleX(1)}}
+@keyframes lk-load{to{transform:scaleX(1)}}
+@keyframes lk-pulse{from{transform:scale(.4);opacity:0}40%{opacity:1}to{transform:scale(1.1);opacity:.7}}
+@keyframes lk-grid{from{transform:scale(1.15)}to{transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){#lkmr-intro *{animation-duration:.01s!important;animation-delay:0s!important}#lkmr-intro .load{animation:lk-load 3s linear forwards!important}}
+html.lkmr-lock,html.lkmr-lock body{overflow:hidden}
+</style>
+<div id="lkmr-intro" role="dialog" aria-label="LKM&#x27;r presenta" aria-live="polite">
+  <div class="glow"></div><div class="grid"></div>
+  <div class="box">
+    <div class="k">Desarrollado por</div>
+    <div class="logo" aria-label="LKM&#x27;r"><span style="--i:0">L</span><span style="--i:1">K</span><span style="--i:2">M</span><span style="--i:3">&#x27;</span><span style="--i:4">r</span></div>
+    <div class="bar"></div>
+    <div class="tag">Sitios web, menús digitales y automatización para negocios</div>
+    <div class="sub">presenta el menú digital de <b>Fokus</b></div>
+  </div>
+  <div class="load"></div>
+  <button class="skip" type="button">Saltar ›</button>
+</div>
+<script>
+(function(){var el=document.getElementById('lkmr-intro');if(!el)return;var d=document.documentElement;d.classList.add('lkmr-lock');
+var done=false;function end(){if(done)return;done=true;el.classList.add('out');d.classList.remove('lkmr-lock');setTimeout(function(){el.remove();},700);}
+setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener('keydown',function(ev){if(ev.key==='Escape')end();});})();
+</script>
+
+<div class="demo"><b>Muestra</b> preparada por LKM'r para Fokus · precios de referencia tomados de Rappi (17 nov. 2026), se ajustan a los de salón.</div>
+<header class="hero"><div class="wrap">
+  <p class="kicker">Menú digital · Lomas del Vergel</p>
+  <h1>Fokus</h1>
+  <p class="lema">Tacos, carnes por kilo y alambres</p>
+  <div class="meta">
+    <span class="pill" id="status"></span>
+    <a class="pill" href="https://www.google.com/maps/search/?api=1&query=Fokus+Andador+Gardenias+86,+Lomas+del+Vergel,+Veracruz,+Ver." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Veracruz, Ver.</a>
+    <a class="pill" href="tel:+522294621655"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>229 462 1655</a>
+    <button class="pill" id="share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>Compartir</button>
+  </div>
+</div></header>
+<div class="bar"><div class="wrap">
+  <div class="search"><label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Buscar en 72 platillos…" autocomplete="off" aria-label="Buscar platillo"></label></div>
+  <nav class="chips" id="chips" aria-label="Categorías"></nav>
+</div></div>
+<main class="wrap"><div id="list"></div><p class="empty" id="empty">No encontramos ese platillo. Prueba con otra palabra.</p></main>
+<section class="lkmr" aria-labelledby="lkmr-t"><div class="wrap"><div class="lkmr-card">
+  <p class="lkmr-k">Desarrollado por</p>
+  <h2 id="lkmr-t">LKM&#x27;r Company</h2>
+  <p class="lkmr-p">Este menú digital lo diseñó y desarrolló LKM&#x27;r. Sitios web, menús digitales y automatización para negocios. ¿Tienes un negocio? Hacemos el tuyo.</p>
+  <ul class="lkmr-s"><li>Menús digitales con QR</li><li>Sitios web y landing pages</li><li>Redes sociales y contenido</li><li>Chatbots de WhatsApp</li><li>Google Maps para negocios</li></ul>
+  <div class="lkmr-a">
+    <a class="lkmr-b lkmr-main" href="https://wa.me/524492094034?text=Hola%20LKM%27r%2C%20vi%20un%20men%C3%BA%20digital%20que%20hicieron%20y%20quiero%20uno%20para%20mi%20negocio." target="_blank" rel="noopener">Escríbenos por WhatsApp →</a>
+    <a class="lkmr-b" href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Conoce LKM&#x27;r</a>
+    <a class="lkmr-b" href="https://lukoffmon.github.io/WebDesignLKM/" target="_blank" rel="noopener">Ver más proyectos</a>
+  </div>
+  <p class="lkmr-c">Jesús María, Aguascalientes</p>
+</div></div></section>
+<footer><div class="wrap">
+  <span>Fokus · Andador Gardenias 86, Lomas del Vergel, Veracruz, Ver.</span>
+  <span>Los precios mostrados son de referencia y pueden cambiar. Confírmalos con tu mesero.</span>
+  <span>Menú digital diseñado y desarrollado por <a href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">LKM&#x27;r Company</a> · <a href="https://wa.me/524492094034?text=Hola%20LKM%27r%2C%20vi%20un%20men%C3%BA%20digital%20que%20hicieron%20y%20quiero%20uno%20para%20mi%20negocio." target="_blank" rel="noopener">Escríbenos por WhatsApp</a></span>
+</div></footer>
+<button class="cartbar" id="cartbar" type="button"><span><span class="count" id="barcount">0</span>Ver mi pedido</span><span id="bartotal">$0</span></button>
+<dialog id="cart" aria-labelledby="carttitle"><div class="sheet">
+  <header><h2 id="carttitle">Tu pedido</h2><button class="x" id="close" type="button" aria-label="Cerrar">×</button></header>
+  <div class="lines" id="lines"></div>
+  <div class="total"><span>Total aprox.</span><span id="total">$0</span></div>
+  <div class="two"><label class="field">Nombre<input id="who" autocomplete="name"></label><label class="field">Mesa o para llevar<input id="mesa" placeholder="Ej. mesa 4"></label></div>
+  <label class="field">Notas<textarea id="notas" rows="2" placeholder="Sin cebolla, salsa aparte…"></textarea></label>
+  <a class="send" id="send" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c.7.3 1.3.5 1.7.6a4.2 4.2 0 0 0 1.9.1 3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.8L.2 23.8l6.1-1.6A11.8 11.8 0 0 0 12 23.6 11.8 11.8 0 0 0 20.4 3.6z"/></svg>Enviar pedido por WhatsApp</a>
+  <p class="note">Se abre WhatsApp con tu pedido listo; el restaurante confirma total y tiempo.</p>
+</div></dialog>
+<div class="toast" id="toast" role="status"></div>
+<script>window.MENU={"nombre":"Fokus","whatsapp":"2294621655","horario":"14:00:00 - 23:00:00","cats":[{"name":"Tortas","items":[{"name":"Torta de bisteck","desc":"Torta de bisteck, elaborada con mayonesa, aguacate, tomate, frijol y queso.","price":148,"img":"img/b4bc75608295.webp"},{"name":"Torta de costilla","desc":"Torta de costilla, elaborada con mayonesa, aguacate, tomate, frijol y queso.","price":148,"img":"img/d72dc1fa97d0.webp"},{"name":"Torta de chistorra","desc":"Torta de chistorra , elaborada con mayonesa, aguacate, tomate, frijol y queso.","price":148,"img":"img/07f6c38854ef.webp"},{"name":"Torta de chorizo","desc":"Torta de chorizo, elaborada con mayonesa, aguacate, tomate, frijol y queso.","price":148,"img":"img/e9e3640874f2.webp"},{"name":"Torta de pastor","desc":"Torta de pastor, elaborada con mayonesa, aguacate, tomate, frijol y queso.","price":135,"img":"img/2bee3bf9d9e0.webp"},{"name":"Torta de arrachera","desc":"Torta de arrachera, elaborada con mayonesa, aguacate, tomate, frijol y queso.","price":162,"img":"img/a0f983f0bfc2.webp"},{"name":"Torta de chuleta de puerco","desc":"Torta de chuleta de puerco, elaborada con mayonesa, aguacate, tomate, frijol y queso.","price":135,"img":"img/b55759c57b05.webp"}]},{"name":"Tacos","items":[{"name":"Taco de pastor","desc":"Tortilla de maíz rellena de pastor acompañada de cebolla, cilantro, salsas verde, roja y piña.","price":37,"img":"img/cf272c101ea9.webp"},{"name":"Taco de costilla","desc":"Tortilla de maíz rellena de costilla acompañada de cebolla, cilantro, salsas verde y roja.","price":56,"img":"img/4908769b3482.webp"},{"name":"Taco de bisteck","desc":"Tortilla de maíz rellena de bisteck acompañada de cebolla, cilantro, salsas verde y roja.","price":54,"img":"img/33e29f649d3a.webp"},{"name":"Taco de chistorra","desc":"Tortilla de maíz rellena de chistorra acompañada de cebolla, cilantro, salsas verde y roja.","price":59,"img":"img/533da0d087b4.webp"},{"name":"Taco de chuleta","desc":"Tortilla de maíz rellena de chuleta de puerco acompañada de cebolla, cilantro, salsas verde y roja.","price":37,"img":"img/5e283d8b2064.webp"},{"name":"Taco de chorizo","desc":"Tortilla de maíz rellena de chorizo acompañada de cebolla, cilantro, salsas verde y roja.","price":54,"img":"img/350af30a149a.webp"},{"name":"Taco de arrachera","desc":"Tortilla de maíz rellena de arrachera acompañada de cebolla, cilantro, salsas verde y roja.","price":74,"img":"img/920fd0eb9c10.webp"},{"name":"Taco de pastor con queso","desc":"Tortilla de maíz rellena de pastor con queso acompañada de cebolla, cilantro, salsas verde, roja y piña.","price":50,"img":"img/057b8ee2f2dc.webp"},{"name":"Taco de chuleta con queso","desc":"Tortilla de maíz rellena de chuleta de puerco acompañada de cebolla, cilantro, salsas verde y roja.","price":50,"img":"img/0cd243cfea6b.webp"},{"name":"Taco de bisteck con queso","desc":"Tortilla de maíz rellena de bisteck con queso acompañada de cebolla, cilantro, salsas verde y roja.","price":67,"img":"img/385915e8139b.webp"},{"name":"Taco de costilla con queso","desc":"Tortilla de maíz rellena de costilla con queso acompañada de cebolla, cilantro, salsas verde y roja.","price":71,"img":"img/ed53b793da18.webp"},{"name":"Taco de chorizo con queso","desc":"Tortilla de maíz rellena de chorizo con queso acompañada de cebolla, cilantro, salsas verde y roja.","price":71,"img":"img/91ccd4267637.webp"},{"name":"Taco de chistorra con queso","desc":"Tortilla de maíz rellena de chistorra con queso acompañada de cebolla, cilantro, salsas verde y roja.","price":71,"img":"img/76f45a606561.webp"},{"name":"Taco de arrachera con queso","desc":"Tortilla de maíz rellena de arrachera con queso acompañado de cebolla, cilantro, salsas verde y roja.","price":87,"img":"img/1a05130f8e24.webp"}]},{"name":"Quesos","items":[{"name":"Queso natural","desc":"Queso natural tipo gouda fundido y gratinado, con tortillas de harina.","price":175,"img":"img/e37e327cbcbf.webp"},{"name":"Con rajas","desc":"Queso gouda fundido con rajas y tortillas de harina.","price":243,"img":"img/9ba6a96215fc.webp"},{"name":"Queso con champiñones","desc":"Queso gouda fundido con champiñones y tortillas de harina.","price":216,"img":"img/9629d901b678.webp"},{"name":"Queso con chorizo","desc":"Queso gouda fundido con chorizo y tortillas de harina.","price":216,"img":"img/a5ea48e08ef1.webp"},{"name":"Queso con chistorra","desc":"Queso gouda fundido con chistorra, acompañado de tortillas de harina.","price":243,"img":"img/956bf3abed09.webp"}]},{"name":"Carnes","items":[{"name":"Carne asada","desc":"Acompañada con papas a la francesa, guacamole, cebollas cambray, chile toreado, tortillas, salsa verde y limones.","price":216,"img":"img/53eed7545526.webp"},{"name":"Carne asada con queso","desc":"Acompañada con papas a la francesa, guacamole, cebollas cambray, chile toreado, tortillas, salsa verde y limones.","price":256,"img":"img/7491c6c55884.webp"},{"name":"Arrachera al carbón","price":283,"img":"img/be3b9ef8770e.webp"},{"name":"Arrachera al carbón con queso","price":324,"img":"img/ac003043382d.webp"},{"name":"Parrillada especial","desc":"Platillo con pastor, arrachera, chuleta, bisteck, papas a la francesa, guacamole, cebollitas cambray, chile toreado, tortillas, salsa verde, roja, cebolla y cilantro, limones.","price":526,"img":"img/b7b23911fe2a.webp"},{"name":"Pastor 1 kg","desc":"Acompañado de cebolla, cilantro, salsa verde, roja, tortillas de maíz y piña.","price":310,"img":"img/f8466121cd9c.webp"},{"name":"Pastor 1/2 kg","desc":"Carne al pastor 1/2 kg con cebolla, cilantro, salsa verde, tortillas de maíz y piña.","price":189,"img":"img/f8466121cd9c.webp"},{"name":"Pastor con Queso 1 kg","desc":"Acompañado de cebolla, cilantro, salsa verde, roja, tortillas de maíz y piña.","price":418,"img":"img/914da3cbfbeb.webp"},{"name":"Pastor con Queso 1/2 kg","desc":"Acompañado de cebolla, cilantro, salsa verde, tortillas de maiz y piña.","price":243,"img":"img/914da3cbfbeb.webp"},{"name":"Chuleta 1 kg","desc":"Acompañado de cebolla, cilantro, salsa verde, roja y tortillas de maiz.","price":310,"img":"img/e1e090aec832.webp"},{"name":"Chuleta 1/2 kg","desc":"Acompañado de cebolla, cilantro, salsa verde, tortillas de maíz.","price":189,"img":"img/e1e090aec832.webp"},{"name":"Chuleta con Queso 1 kg","desc":"Acompañado de cebolla, cilantro, salsa verde, roja y tortillas de maiz.","price":418,"img":"img/5d2e1f218b3c.webp"},{"name":"Chuleta con queso 1/2 kg","desc":"Acompañado de cebolla, cilantro, salsa verde, tortillas de maíz.","price":243,"img":"img/5d2e1f218b3c.webp"},{"name":"Bisteck 1 kg","desc":"Acompañado de guacamole, cebollitas cambray, papas a la francesa, chile toreado, tortillas, cebolla, cilantro, limones, salsa verde y salsa roja.","price":550,"img":"img/0259bb4a183d.webp"},{"name":"Bisteck 1/2 kg","desc":"Acompañado de guacamole, cebollitas cambray, papas a la francesa, chile toreado, tortillas, cebolla, cilantro, limones y salsa verde.","price":310,"img":"img/0259bb4a183d.webp"},{"name":"Bisteck con queso 1 kg","desc":"Acompañado de guacamole, cebollitas cambray, papas a la francesa, chile toreado, tortillas, cebolla, cilantro, limones, salsa verde y salsa roja.","price":667,"img":"img/d186a1149198.webp"},{"name":"Bisteck con queso 1/2 kg","desc":"Acompañado de guacamole, cebollitas cambray, papas a la francesa, chile toreado, tortillas, cebolla, cilantro, limones y salsa verde.","price":364,"img":"img/6ccf37e97c51.webp"},{"name":"Costilla 1 kg","price":550,"img":"img/b3268e3465e2.webp"},{"name":"Costilla 1/2 kg","price":310,"img":"img/afdf49d0f853.webp"},{"name":"Costilla con Queso 1 kg","price":667,"img":"img/5d3fe0a1f78e.webp"},{"name":"Costilla con queso 1/2 kg","price":364,"img":"img/5d3fe0a1f78e.webp"},{"name":"Arrachera 1 kg","price":675,"img":"img/3ed313836267.webp"},{"name":"Arrachera 1/2 kg","price":398,"img":"img/3ed313836267.webp"},{"name":"Arrachera con Queso 1 kg","price":783,"img":"img/c12e0df17406.webp"},{"name":"Arrachera con queso 1/2 kg","price":438,"img":"img/c12e0df17406.webp"},{"name":"Agujas de res 1 kg","desc":"Acompañado de guacamole, cebollitas cambray, papas a la francesa, chile toreado, tortillas, limones, salsa verde y salsa roja.","price":445,"img":"img/b5d29e447872.webp"},{"name":"Agujas de res 1/2 kg","desc":"Acompañado de guacamole, cebollitas cambray, papas a la francesa, chile toreado, tortillas, limones, salsa verde.","price":283,"img":"img/b5d29e447872.webp"}]},{"name":"Alambres","items":[{"name":"Alambre de pastor","desc":"Alambre de pastor con 350 gr de carne, tocino, pimientos morrón y cebolla.","price":216,"img":"img/fc6acee7c60b.webp"},{"name":"Alambre de pastor con queso","desc":"Pastor 450 gr con tocino, morrón y cebolla.","price":270,"img":"img/e2672b86d91a.webp"},{"name":"Alambre de arrachera","desc":"Arrachera 350 gr con tocino, morrón, cebolla. Incluye tortillas.","price":256,"img":"img/8a9494ae8e8d.webp"},{"name":"Alambre de arrachera con queso","desc":"Arrachera con queso, tocino, morrón y cebolla. Incluye tortillas.","price":297,"img":"img/c16824032bb5.webp"},{"name":"Trenzas largas","desc":"Platillo con Pastor y Bisteck, morrón y queso gratinado, 300 gr.","price":216,"img":"img/48eb0c20fce2.webp"}]},{"name":"Otras Delicias","items":[{"name":"Gringa","desc":"Tortilla de harina con carne al pastor, queso y salsa a elegir. salsa verde o roja","price":121,"img":"img/d6638db3a9f1.webp"},{"name":"Cebollitas cambray","desc":"Cebollas cambray cocinadas a la parrilla hasta obtener un asado tierno y caramelizado.","price":108,"img":"img/6ab02348aef1.webp"},{"name":"Sincronizada","desc":"Tortilla de harina con jamón y queso.","price":81,"img":"img/21850c6fc962.webp"},{"name":"Quesadilla","desc":"Quesadilla con tortilla de harina y queso derretido.","price":54,"img":"img/ba4aa1786ea4.webp"},{"name":"Orden de papa","desc":"Orden de papas a la francesa fritas.","price":135,"img":"img/1e70adc84650.webp"},{"name":"Guacamole","desc":"Guacamole con totopos de maíz.","price":128,"img":"img/783fb7f8c5fb.webp"}]},{"name":"Acompañamientos","items":[{"name":"Extra de Salsa Verde","desc":"bolsa de salsa verde","price":15,"img":"img/9d00db095a39.webp"},{"name":"Extra de Tortilla de Maíz 500 g","desc":"Medio kilo de tortilla de maíz.","price":30,"img":"img/0068f26561fd.webp"},{"name":"Extra de Salsa Roja","desc":"Extra de Salsa Roja con chiles.","price":15,"img":"img/fbed89041a5d.webp"},{"name":"Extra de bolsa de limón","desc":"Extra de bolsa con limones verdes.","price":15,"img":"img/f61ffadfdddb.webp"},{"name":"Extra de Bolsa de Cebolla y Cilantro","desc":"Extra de cebolla y cilantro picados.","price":15,"img":"img/d5119e5f8b3e.webp"}]},{"name":"Bebidas","items":[{"name":"Horchata 1 l","desc":"Agua de horchata, 1 l.","price":87,"img":"img/a16296399e65.webp"},{"name":"Jamaica 1 l","desc":"Agua de jamaica 1 l, con rodaja de lima.","price":87,"img":"img/d500f3e4942b.webp"},{"name":"Maracuyá 1 l","desc":"Agua de maracuyá 1 l","price":87,"img":"img/3a67699b598f.webp"}]}]};</script>
+<script src="../assets/menu.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+{
+ "id": 1923242946,
+ "brandName": "Las Costillas de Sancho",
+ "name": "Las Costillas de Sancho - Fracc Prados de Villasunción",
+ "address": "jose maria chavez locales 8 28 y 29 zona a pilar blanco aguascalientes",
+ "schedule": "13:00:00 - 23:15:00",
+ "categories": "Carnes y BBQ · Internacional · Fine Dining y Gourmet",
+ "location": [
+  -102.292805,
+  21.850526
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/las-costillas-de-sancho-logo1-1599841811565-1599848672659.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/las-costillas-de-sancho-home1-1599841813094-1599848675789.png",
+ "schedules": [
+  {
+   "open_time": "13:00:00",
+   "close_time": "23:15:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923242946-las-costillas-de-sancho",
+ "menu": [
+  {
+   "name": "Ensaladas ",
+   "products": [
+    {
+     "name": "Ensalada Malandante",
+     "desc": "Ensalada de lechugas, nueces, arándanos, semillas, aceitunas, queso de cabra y aderezo de tamarindo agridulce picante.",
+     "price": 280,
+     "img": "bf1975fa-91de-48fb-a02d-60092508f64a.png"
+    },
+    {
+     "name": "Ensalada Zarzamora y Queso",
+     "desc": "Ensalada de espinacas, lechuga, queso de cabra, nuez caramelizada, con vinagreta de zarzamora.",
+     "price": 280,
+     "img": "b5b5a3b7-e64a-4eee-808d-257f9ab0ac70.png"
+    },
+    {
+     "name": "Ensalada de Alcachofa Rostizada",
+     "desc": "Combinación de lechugas con aderezo cítrico, alcachofas rostizadas y espárragos.",
+     "price": 320,
+     "img": "39386403-b78c-4645-956b-6f45bb7bcabc.png"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Chistorra",
+     "desc": "Chistorra 200 gr, con guarnición de chiles toreados y cebolla, en salsa española de tomate.",
+     "price": 240,
+     "img": "b9996e34-822c-4c84-a464-e6faacfac11a.png"
+    },
+    {
+     "name": "Queso Fundido",
+     "desc": "Queso fundido con receta de la casa, gratinado, acompañado de totopos y proteína a elección.",
+     "price": 260,
+     "img": "60b64cba-eb26-4d38-8ccd-26ebbd18e147.jpeg"
+    },
+    {
+     "name": "Empanada Argentina",
+     "desc": "Empanada con relleno a elección. Incluye salsas para acompañar.",
+     "price": 100,
+     "img": "68b6d6d2-4d02-4e94-b68c-ea970d0b6263.png"
+    },
+    {
+     "name": "Cecina de Res Frita",
+     "desc": "Cecina de Res Frita con sal de grano, acompañada de pico de gallo.",
+     "price": 435,
+     "img": "dbf390b7-6322-4601-b034-941b6fbcb1a5.png"
+    },
+    {
+     "name": "Papas a la Francesa",
+     "desc": "Papas muy a la francesa, bien doradas 400 grs.",
+     "price": 125,
+     "img": "f0a2e6c1-5329-4780-92de-b6d82548e581.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Sopas Y Pastas",
+   "products": [
+    {
+     "name": "Sopa Azteca",
+     "desc": "Caldillo de tomate con chipotle, tirita de tortilla, queso adobera, chile ancho frito aguacate y crema, un imperdible de Costillas de Sancho.",
+     "price": 205,
+     "img": "236ab01e-4ec2-43f3-a236-47ccf1051982.png"
+    },
+    {
+     "name": "Crema de Pimiento Rojo",
+     "desc": "Crema de Pimiento Rojo elaborada con pimiento rostizado, crema láctea y queso adobera, servida con crutones.",
+     "price": 205,
+     "img": "9257ff73-ca5f-406a-a188-c1bf8350768d.png"
+    },
+    {
+     "name": "Spaguetti o Fetuccini",
+     "desc": "Spaguetti o Feruccini cocido al dente. Puedes elegir entre nuestras recetas, como la de salsa de carne con queso rallado.",
+     "price": 285,
+     "img": "cfaf8434-9b93-400f-9d30-7f35b80f7507.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Pastel de Almendras",
+     "desc": "Pastel de Almendras, elaborado a base de almendra.",
+     "price": 225,
+     "img": "80e2eaf9-5410-4d11-8338-6062bc55f337.png"
+    },
+    {
+     "name": "Mostachón de de Frutos Rojos",
+     "desc": "Deliciosa combinación de base de galleta con merengue, cubierta de crema chantilly hecha en casa y cubierto de frutos rojos.",
+     "price": 225,
+     "img": "6d0abc6d-9c74-455a-a34c-393b83dcb475.png"
+    },
+    {
+     "name": "Pastel de Zanahoria",
+     "desc": "Tradicional pastel a base de zanahoria y especias y su cubierta de queso crema, delicioso.",
+     "price": 225,
+     "img": "450dd94c-7e7f-4251-92b2-3445554c5f58.png"
+    }
+   ]
+  },
+  {
+   "name": "Cortes Calidad Angus De Importacion",
+   "products": [
+    {
+     "name": "Top Sirloin",
+     "desc": "Top Sirloin. Lomo bajo de res con capa de grasa y marcas de parrilla.",
+     "price": 685,
+     "img": "4184b794-e68f-45ff-8223-2acef66e8d76.png"
+    },
+    {
+     "name": "Vacio Argentino",
+     "desc": "Vacio Argentino, corte de carne importado con muy poca grasa.",
+     "price": 820,
+     "img": "b5eb434d-2b2e-48d0-ac67-4fba12c8cf65.png"
+    }
+   ]
+  },
+  {
+   "name": "Platos Fuertes",
+   "products": [
+    {
+     "name": "Arrachera Marinada",
+     "desc": "Arrachera marinada de 350 gr con acompañamiento a elección. Incluye salsa y chiles.",
+     "price": 685,
+     "img": "3a90a278-c96f-4e4c-ab24-482f2f1584ee.png"
+    },
+    {
+     "name": "Costillas Tradicional",
+     "desc": "Costillas de cerdo Tradicional de 600 gr, bañadas en salsa roja y con acompañamiento a elección.",
+     "price": 710,
+     "img": "c548466c-2a05-401a-91e8-fc3dc07bc51d.png"
+    },
+    {
+     "name": "Costilla Mediana",
+     "desc": "Costillar de cerdo 400 gr con salsas variadas, acompañamiento a elección.",
+     "price": 590,
+     "img": "fde49552-92ee-4fe5-be44-ada6d8673b8e.png"
+    },
+    {
+     "name": "Salmón a Las Brasas",
+     "desc": "Salmón a las brasas 300 gr, acompañado de ensalada de lechuga y mix de verduras.",
+     "price": 450,
+     "img": "60e8d153-f28a-4bc4-9528-53f8afa09b5f.png"
+    },
+    {
+     "name": "Pechuga de Pollo",
+     "desc": "Pechuga de pollo 400 gr con receta de la casa, acompañada de ensalada verde mixta con aderezo vinagreta.",
+     "price": 355,
+     "img": "c4569566-c9c5-49a7-b6de-a2649d6c3e4b.png"
+    },
+    {
+     "name": "Rib Eye",
+     "desc": "Rib eye 400 gr, con acompañamiento a elección.",
+     "price": 710,
+     "img": "a2f999ab-4a09-41c8-a0b6-7192782dca2f.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos Sancho",
+   "products": [
+    {
+     "name": "Camarón al queso",
+     "desc": "Tacos de camarón con queso y pimiento, servidos en tortilla. Peso: 80 gr.",
+     "price": 100,
+     "img": "829a2901-579b-4b45-8e79-2bb53647d7b9.png"
+    },
+    {
+     "name": "Chicharrón prensado",
+     "desc": "Tacos de chicharrón prensado guisado en salsa verde y tortilla de maíz en preparación a elección.",
+     "price": 95,
+     "img": "873b27ea-c2d2-4308-908e-e6d999f04d85.png"
+    },
+    {
+     "name": "Marlin a las Brasas",
+     "desc": "Tacos de marlín preparado en salsa semi-picante 80 gr.",
+     "price": 100,
+     "img": "d531e94a-84aa-477d-bea5-24122a70ed7a.jpeg"
+    }
+   ]
+  }
+ ]
+}

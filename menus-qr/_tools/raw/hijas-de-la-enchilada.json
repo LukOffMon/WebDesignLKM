@@ -1,0 +1,556 @@
+{
+ "id": 1923203654,
+ "brandName": "Hijas de la Enchilada",
+ "name": "Hijas de la Enchilada - Delicias",
+ "address": "Av Diana 783 Local 4 Colonia delicias 62330   Cuernavaca ",
+ "schedule": "09:05:00 - 16:45:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -99.195003,
+  18.937523
+ ],
+ "city": "Cuernavaca",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/4454-1697756836535.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/33-1697756838363.jpg",
+ "schedules": [
+  {
+   "open_time": "09:05:00",
+   "close_time": "16:45:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923203654-hijas-de-la-enchilada",
+ "menu": [
+  {
+   "name": "Enchiladas",
+   "products": [
+    {
+     "name": "Clásicas Verdes O Rojas",
+     "desc": "Rellenas de pollo bañadas en salsa verde o roja, crema, queso cincho, lechuga, cebolla morada y cilantro.",
+     "price": 150,
+     "img": "fe4168d2-3c37-4e42-bf2d-b561036bab69.png"
+    },
+    {
+     "name": "Suizas Verdes O Rojas",
+     "desc": "Rellenas de pollo, bañadas en salsa cremosa, gratinadas con manchego, cebolla morada y toque de cilantro.",
+     "price": 155,
+     "img": "d2348ea7-7927-4804-b6ad-7cfbf63462aa.png"
+    },
+    {
+     "name": "Huastecas",
+     "desc": "Con tortilla de maiz azul rellenas de longaniza bañadas en salsa roja ranchera, gratinadas con manchego, cebolla morada.",
+     "price": 150,
+     "img": "4aae8634-362e-4c58-af82-2c70ff3dd742.png"
+    },
+    {
+     "name": "Pastorcillas",
+     "desc": "Rellenas de pastor de lango bañadas en salsa de piña habanero, queso manchego, gratinadas con cebolla encurtida, hongo.",
+     "price": 160,
+     "img": "8c757200-1317-46e5-ad5c-1db09e7e9504.jpeg"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "Rellenas de pollo bañadas en mole almendrado, crema, queso cincho, ajonjolí tostado y cebolla morada.",
+     "price": 155,
+     "img": "40e54943-532d-4fb2-83b2-9552ab4d6a27.png"
+    },
+    {
+     "name": "Poblantias",
+     "desc": "Rellenas de pollo, bañadas en salsa cremosa de chile poblano, queso cincho, granos de elote, cebolla morada y cilantro picado",
+     "price": 155,
+     "img": "7d67f46f-8806-43f4-b990-b32185df9d01.jpeg"
+    },
+    {
+     "name": "Las De Ceci",
+     "desc": "Rellenas de cecina bañadas en salsa roja ranchera, crema, queso cincho, trocitos de chicharron, cebolla morada y cilantro.",
+     "price": 165,
+     "img": "74995a1e-d80d-46d2-b2f9-abbd45151c94.png"
+    },
+    {
+     "name": "De Barbachas",
+     "desc": "Con tortilla de maiz azul rellenas de barbacoa, bañadas en salsa morita, con cebolla morada, cilantro y crema.",
+     "price": 160,
+     "img": "69409db4-9727-4031-b9ac-af74625ff118.png"
+    },
+    {
+     "name": "Mineras",
+     "desc": "Rellenas de queso oaxaca, bañadas en salsa guajillo, crema, queso cincho, cebolla morada y verdura salteada.",
+     "price": 150,
+     "img": "535e53bb-f217-47e7-9ce5-00bde1b5ae58.png"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "Rellenas de queso oaxaca, bañadas en salsa de frijol, queso cincho, crema, trocitos de longaniza, cebolla morada.",
+     "price": 150,
+     "img": "5bbef38f-c43f-48f8-b0f8-f59f8dd07048.jpeg"
+    },
+    {
+     "name": "Doña Pibil",
+     "desc": "Rellenas de cochinita pibil, bañadas en salsa de frijol, crema, queso cincho y cebolla encurtida con habanero.",
+     "price": 160,
+     "img": "bfe2ef55-ea61-40fd-a4ba-d8a1b205040c.png"
+    },
+    {
+     "name": "Paquete De 65",
+     "desc": "Paquete De 65",
+     "price": 65,
+     "img": "c66b3a42-14ab-4744-a18c-30f22925b060.png"
+    },
+    {
+     "name": "Enchiladas Chistorra",
+     "desc": "Enchiladas rellenas de chistorra, cubiertas con salsa roja y queso fresco, acompañadas de cilantro y limón.",
+     "price": 185,
+     "img": "85297838-8836-42fb-a0c5-9f2a1d18b2cf.png"
+    }
+   ]
+  },
+  {
+   "name": "Paquetes De Desayunos",
+   "products": [
+    {
+     "name": "Guayabo",
+     "desc": "Chilaquiles con la salsa de tu elección con aguacatito 2 piezas de molletes acompañados de frijoles refritos.",
+     "price": 245,
+     "img": "a8275e58-85c9-41b4-a8f9-472951940586.jpeg"
+    },
+    {
+     "name": "Norteño",
+     "desc": "Bistec a la mexicana acompañado de chilaquiles verdes, frijoles y queso de rancho.",
+     "price": 255,
+     "img": "c17b2884-99f7-49ca-a9c9-a40aa59732f7.png"
+    },
+    {
+     "name": "Especial Huevitos Ahogados",
+     "desc": "Ahogados en salsa de frijol, bañado en cama de tortilla frita, crema, queso doble crema, chile toreado, longaniza y aguacate",
+     "price": 255,
+     "img": "1c8ab1bb-dfd6-4ad5-8eed-2293eea5c49b.png"
+    },
+    {
+     "name": "Buevitos Al Gusto",
+     "desc": "Divorciados, rancheros, con longaniza, con nopales, a la mexicana, estrellados, omelette relleno de champiñones con espinaca.",
+     "price": 235,
+     "img": "7f250764-7aab-46ee-b9b5-665dd79ee093.png"
+    },
+    {
+     "name": "Enchiladas",
+     "desc": "Verdes, rojas o enfrijoladas, tres piezas rellenas de pollo, crema, queso de cincho, lechuga, cebolla y cilantro.",
+     "price": 240,
+     "img": "f84846f5-2b5d-4c58-a8a5-4ad7935161cc.png"
+    },
+    {
+     "name": "Aporreado",
+     "desc": "Huevitos con cecina acompañados de chilaquiles morita, gratinados, con chiles toreados. acompañado de jugo y café.",
+     "price": 240,
+     "img": "4c368f26-a45b-4135-b635-269f8e8af0e7.png"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles con salsa verde, pollo y huevo estrellado. Elige entre pollo, huevo o longaniza como proteína.",
+     "price": 240,
+     "img": "374cd4c4-3c49-4328-8e9d-da39229a883d.png"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades De Pan Francés",
+   "products": [
+    {
+     "name": "Nutella Lovers",
+     "desc": "Relleno de nutella, con trozos de galleta oreo y helado de vainilla.",
+     "price": 195,
+     "img": "00e7d613-64fd-4245-b579-f6e92db594d4.png"
+    },
+    {
+     "name": "Pan Francés Teikirisi",
+     "desc": "Acompañado de miel de maple, crema batida y frutos rojos.",
+     "price": 185,
+     "img": "007d856d-efe6-44b9-9699-931c5511548e.png"
+    },
+    {
+     "name": "Pan Francés Naye Banana",
+     "desc": "Pan de masa madre con trocitos de plátano, bañado en macho frito nuez caramelizada y cajeta.",
+     "price": 185,
+     "img": "2fa7d2fb-315f-4830-94b6-6dd74fc0ddd0.png"
+    },
+    {
+     "name": "Bowl De Frutos Rojos",
+     "desc": "Bowl de frutos rojos con granola casera yogurt natural y miel.",
+     "price": 125,
+     "img": "6359d7bf-884c-4794-b106-4bcbdcfb195d.png"
+    }
+   ]
+  },
+  {
+   "name": "Entraditas",
+   "products": [
+    {
+     "name": "Paquete De 65",
+     "desc": "Paquete De 65",
+     "price": 65,
+     "img": "c66b3a42-14ab-4744-a18c-30f22925b060.png"
+    },
+    {
+     "name": "Consomé De Pollo",
+     "desc": "Bowl de caldo de pollito con verduras, arroz y pollo desmenuzado.",
+     "price": 115,
+     "img": "6af96365-72d8-4861-97f3-a0df3b69518f.jpeg"
+    },
+    {
+     "name": "Consomé Morita",
+     "desc": "Bowl de caldo de pollo picoso con garbanzo, arroz y pollo desmenuzado.",
+     "price": 115,
+     "img": "fabf3a43-5488-409b-9855-48f16f5199bd.png"
+    }
+   ]
+  },
+  {
+   "name": "Aguas Frescas",
+   "products": [
+    {
+     "name": "Jamaica Con Guayaba",
+     "desc": "Jamaica con guayaba",
+     "price": 60,
+     "img": "4cd8264d-6d97-4f85-ae4a-249fd4704fc1.png"
+    },
+    {
+     "name": "Limonada Rosa Con Menta",
+     "desc": "Limonada rosa con menta",
+     "price": 60,
+     "img": "a83cd5d4-aac7-4f91-b1ca-1641ce63e5f8.jpeg"
+    },
+    {
+     "name": "Horchata Con Coco Natural",
+     "desc": "Horchata con coco natural",
+     "price": 60,
+     "img": "69c848ae-25c6-4ee4-b775-5bcc915cc371.png"
+    },
+    {
+     "name": "Limonada/ Naranjada",
+     "desc": "Limonada/ naranjada",
+     "price": 70,
+     "img": "8115075b-c592-4fa9-91c3-2a8ba3a90ccd.png"
+    },
+    {
+     "name": "Leche Con Chocolate",
+     "desc": "Leche con chocolate",
+     "price": 65,
+     "img": "4ebf6cb4-4e8e-4ed6-b094-5ebda462cc60.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Clásicas",
+   "products": [
+    {
+     "name": "Café De Olla",
+     "desc": "Café de olla tradicional con canela, servido en jarro de barro.",
+     "price": 60,
+     "img": "6d796aad-8eb2-47d2-b0e7-e81a2bd40b73.jpeg"
+    },
+    {
+     "name": "Café Americano",
+     "desc": "Café americano",
+     "price": 60,
+     "img": "0392debe-d83f-4362-856e-e4da41ab190c.jpg"
+    },
+    {
+     "name": "Té Con Fruta Natural",
+     "desc": "Con fruta natural",
+     "price": 60,
+     "img": "81c46230-e254-4290-a502-999601618efe.png"
+    }
+   ]
+  },
+  {
+   "name": "Especiales",
+   "products": [
+    {
+     "name": "Malteada Clásica",
+     "desc": "Chocolate, vainilla o fresa",
+     "price": 100,
+     "img": "03ab07bd-aa0a-482c-b055-7766abf280c2.png"
+    },
+    {
+     "name": "Malteada Combinada",
+     "desc": "Malteada combinada",
+     "price": 100,
+     "img": "412c7d6e-22f6-4624-8229-0bace080f61e.png"
+    }
+   ]
+  },
+  {
+   "name": "Jugos",
+   "products": [
+    {
+     "name": "Jugo Fresuka",
+     "desc": "Plátano con fresa",
+     "price": 68,
+     "img": "6dd7c2c5-61a7-4974-921f-c84ebfa6319b.png"
+    },
+    {
+     "name": "Jugo Verde",
+     "desc": "Naranja, piña, apio y perejil",
+     "price": 68,
+     "img": "ab9ec3f2-17c6-4e4e-a607-a395733b48e1.jpeg"
+    },
+    {
+     "name": "Jugo Guaba",
+     "desc": "Papaya, naranja y guayaba",
+     "price": 68,
+     "img": "1a4b14b7-e057-4f43-8b25-84f6f1d33b29.png"
+    },
+    {
+     "name": "Jugo Benefit",
+     "desc": "Limón, fresa, manzana, naranja",
+     "price": 68,
+     "img": "86d295ba-69cc-4b3f-8aa4-3bdd3e97ef53.png"
+    },
+    {
+     "name": "Jugo Chico",
+     "desc": "Jugo chico",
+     "price": 38,
+     "img": "654409e8-6893-4ab4-9a28-b472c74d21f4.jpeg"
+    },
+    {
+     "name": "Jugo Naranja",
+     "desc": "Jugo naranja",
+     "price": 68,
+     "img": "b3dde155-c666-4170-a83a-535c0cc4e1b3.png"
+    }
+   ]
+  },
+  {
+   "name": "Lo Favorito",
+   "products": [
+    {
+     "name": "Chilaquiles Ramiro",
+     "desc": "Chilaquiles tradicionales en salsa verde, crema, queso de rancho, cilantro, cebolla picada, arrachera y queso de crema.",
+     "price": 185,
+     "img": "9b55a714-f969-4c07-b3d0-90d1d8262fbb.png"
+    },
+    {
+     "name": "Chilaquiles Josefo",
+     "desc": "Chilaquiles tradicionales con salsa de morita, crema, queso cincho, barbacoa de res, cilantro y cebolla caramelizada.",
+     "price": 185,
+     "img": "8a2293a6-42e0-45ff-88c7-9a7a06932dde.png"
+    },
+    {
+     "name": "Torta Juana",
+     "desc": "Rellena de chilaquiles en salsa guajillo, crema, queso de rancho, milanesa de pollo y chiles toreados.",
+     "price": 150,
+     "img": "85b4ecb9-854a-41f7-ad1e-5816ca68570e.png"
+    },
+    {
+     "name": "Sopes (3 Pzas)",
+     "desc": "Canasta de maíz, frijoles refritos, lechuga, guiso a elegir, cebolla curtida y aguacate.",
+     "price": 160,
+     "img": "fa6295ac-57e5-4db4-aafe-dbe259a87d91.png"
+    },
+    {
+     "name": "Sopes De Nopal (2 Pzas)",
+     "desc": "Dos sopes de nopal asado con frijoles refritos, lechuga, guiso a elegir, cebolla curtida y aguacate.",
+     "price": 155,
+     "img": "d4705fb4-e39b-4d05-9d9b-18ae4c3d417f.jpeg"
+    },
+    {
+     "name": "Guacamoyes",
+     "desc": "Molletes rellenos de milanesa de pollo, gratinados con manchego con toque de guacamole.",
+     "price": 170,
+     "img": "6bca20d5-5c6d-4922-b570-0364a4d573f5.png"
+    },
+    {
+     "name": "¿por Qué No?",
+     "desc": "Molletes rellenos de chilaquiles suizos con cochinita pibil, gratinados con manchego.",
+     "price": 170,
+     "img": "ebfe1906-f405-4a0e-87cb-3d8494c50829.png"
+    },
+    {
+     "name": "Molleyes",
+     "desc": "Rellenos de la proteína de tu preferencia, gratinados con dos quesos manchego y acompañados de pico de gallo.",
+     "price": 165,
+     "img": "e9d298e5-8df7-480d-8593-155e91102d05.png"
+    }
+   ]
+  },
+  {
+   "name": "Naked Mojitos",
+   "products": [
+    {
+     "name": "Fresa/mango Naked Mojito",
+     "desc": "Mojitos frappeados sin alcohol",
+     "price": 99,
+     "img": "279ef588-72d7-4a01-a1d6-e0e283c3a3ca.png"
+    },
+    {
+     "name": "Naranja/grosella Naked Mojito",
+     "desc": "Mojitos frappeados sin alcohol",
+     "price": 99,
+     "img": "34ceb862-430c-4ceb-a338-535536d0712a.png"
+    }
+   ]
+  },
+  {
+   "name": "Opción Gourmet",
+   "products": [
+    {
+     "name": "Papá Enchilada",
+     "desc": "Rellenas de arrachera, bañadas en salsa guajillo, crema, queso oaxaca gratinado, trocitos de chicharron y pico de gallo.",
+     "price": 185,
+     "img": "184b006e-bb90-49a7-8dfe-5b97a8e195a6.png"
+    },
+    {
+     "name": "Banana Mole",
+     "desc": "Rellenas de plátano macho con queso philadelphia, bañadas en mole almendrado, crema, queso y cebolla morada.",
+     "price": 180,
+     "img": "713355cd-d3fc-4811-8c21-e2022576ee25.png"
+    }
+   ]
+  },
+  {
+   "name": "Pa' Los Niños",
+   "products": [
+    {
+     "name": "Chilaquiritos",
+     "desc": "Chilaquiritos con salsa verde o roja, acompañados de pollo o huevo. No picantes.",
+     "price": 80,
+     "img": "e55d77b5-9f9c-465f-bd08-37ac78a35320.png"
+    },
+    {
+     "name": "Buevitos Con Jamón",
+     "desc": "Huevos fritos acompañados de cubos de jamón.",
+     "price": 75,
+     "img": "fe401f58-9656-4fec-b688-8fb1f2e28589.png"
+    },
+    {
+     "name": "Molletitos",
+     "desc": "4 Piezas",
+     "price": 80,
+     "img": "1ac6d2a9-11ce-4b6c-8b35-af93ce761edf.png"
+    },
+    {
+     "name": "Enchilatitas",
+     "desc": "Tres enchilatitas con tortillas hechas a mano, rellenas de queso o pollo, bañadas en salsa de frijol o roja. No picante.",
+     "price": 90,
+     "img": "73ca4ee5-af01-4021-84f5-899d46797927.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Flan De Queso",
+     "desc": "Flan de queso con queso Philadelphia, cubierto con caramelo.",
+     "price": 85,
+     "img": "3204bcbf-ff71-4b91-a2f2-b37d7947f13d.jpeg"
+    },
+    {
+     "name": "Budin De La Casa",
+     "desc": "Hecho en casa, con helado de vainilla y toque de cajeta.",
+     "price": 90,
+     "img": "5581a89d-b8bd-4df5-9382-771a04ea5498.png"
+    }
+   ]
+  },
+  {
+   "name": "Smoothies",
+   "products": [
+    {
+     "name": "Tropical Smoothie",
+     "desc": "Mango, piña, fresa y yogurt",
+     "price": 90,
+     "img": "4589f20e-c09c-4097-b31f-5f0a399bd46d.png"
+    },
+    {
+     "name": "Vida Mía Smoothie",
+     "desc": "Naranja, espinaca, jengibre y kiwi",
+     "price": 90,
+     "img": "987e360b-05e3-410c-8502-53463846b37a.png"
+    },
+    {
+     "name": "Súperberry Smoothie",
+     "desc": "Frutos rojos, plátano, yogurt, leche y canela",
+     "price": 95,
+     "img": "5327bb98-0560-48fc-be19-e1423711f3ec.png"
+    }
+   ]
+  },
+  {
+   "name": "Extras",
+   "products": [
+    {
+     "name": "Buevito",
+     "desc": "Buevito",
+     "price": 30,
+     "img": "741f17d1-0caf-4756-b552-2b350c989738.png"
+    },
+    {
+     "name": "Aguacate",
+     "desc": "Rebanadas de aguacate fresco, ideal como acompañamiento.",
+     "price": 30,
+     "img": "74222985-3b35-44bc-92cc-8eb1d0d4a995.jpeg"
+    },
+    {
+     "name": "Cecina",
+     "desc": "Cecina de res en trozos, ideal para acompañar con tortillas y salsa.",
+     "price": 50,
+     "img": "a9e7a828-b4a4-46c1-932f-102de2c14841.png"
+    },
+    {
+     "name": "Arrachera",
+     "desc": "Arrachera acompañada de cebollitas, guacamole, salsa y tortillas.",
+     "price": 55,
+     "img": "2ff0f6dd-7eb3-43da-9b41-f557ba932ce4.jpeg"
+    },
+    {
+     "name": "Longaniza",
+     "desc": "Rodajas de longaniza servidas en un plato, acompañadas de perejil picado.",
+     "price": 45,
+     "img": "7fe23dbf-1e15-4db5-a719-b07868f65f0f.png"
+    },
+    {
+     "name": "Barbacoa",
+     "desc": "Barbacoa de carne deshebrada, acompañada de cebolla, cilantro y limón.",
+     "price": 55,
+     "img": "e9adb60d-6632-43e7-a3c8-a565f3fbc8b5.png"
+    },
+    {
+     "name": "Cochinita Pibil",
+     "desc": "Cochinita Pibil: cerdo marinado en achiote y cocido lentamente, acompañado de cebolla morada encurtida.",
+     "price": 55,
+     "img": "7cea16ba-51e1-4e29-97a9-7a17a843dceb.jpeg"
+    },
+    {
+     "name": "Pan Con Mantequilla",
+     "desc": "Pan con mantequilla",
+     "price": 35,
+     "img": "5dd3b0bf-d8f6-4230-aa97-6e39fde05f7b.png"
+    },
+    {
+     "name": "Crema",
+     "desc": "Crema suave y espesa, ideal para acompañar platillos o como base de sopas.",
+     "price": 20,
+     "img": "390629c6-cca8-41b1-bdb1-b286bf5fb2f0.png"
+    },
+    {
+     "name": "Queso",
+     "desc": "Queso rallado ideal para gratinar o acompañar tus platillos favoritos.",
+     "price": 30,
+     "img": "ae9c790a-97c7-4d7f-9f51-4d85203f6830.jpeg"
+    },
+    {
+     "name": "Paquete De 65",
+     "desc": "Paquete De 65",
+     "price": 65,
+     "img": "c66b3a42-14ab-4744-a18c-30f22925b060.png"
+    },
+    {
+     "name": "Cambio Café Olla",
+     "desc": "Cambio café olla",
+     "price": 10,
+     "img": "8581e91b-b7cc-4637-bec6-881a5b55b34b.png"
+    }
+   ]
+  }
+ ]
+}

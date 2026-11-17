@@ -32,7 +32,7 @@ IMG_CDN = "https://images.rappi.com.mx/products/{}?e=webp&d=360x360&q=68"
 
 # Categorías que no son parte de la carta del restaurante (promos de Rappi o marcas virtuales).
 DROP_CATS = {
-    "*": ["promociones", "combos by coca cola", "extras", "rappi- promo", "promos", "combos y promociones", "ordenes extra",
+    "*": ["articulos", "articulos destacados", "por menos de $100", "rappi combos", "popular", "promociones", "combos by coca cola", "extras", "rappi- promo", "rappi promo", "promos", "super promos", "combos y promociones", "ordenes extra",
           "extra proteinas", "extras desayunos"],
     "china-poblana": ["pizza tradicional", "pizza gourmet", "papas para compartir", "boneless", "hamburguesas",
                       "solo wings", "combos", "otros"],
@@ -40,6 +40,7 @@ DROP_CATS = {
     "los-agustines": ["promo desayuno chilaquiles"],
 }
 RENAME_CATS = {
+    "Main": "Lo más pedido", "Mexican": "Comida mexicana", "BEBIDAAS": "Bebidas", "Menu": "Menú",
     "Platos Fuer": "Platos Fuertes", "Lonches y Hmaburguesas": "Lonches y hamburguesas", "Rappi- Promo": "Promociones",
     "Postres / Frappe": "Postres y frappés", "Burguers": "Burgers", "Francés": "Pan francés", "Pa Los Bukitos": "Para los niños",
     "Ensalada": "Ensaladas", "Sopa": "Sopas",
@@ -56,7 +57,7 @@ RENAME_BY_SLUG = {
                  "Arroz Y Noodles": "Arroz y noodles", "Empanizados & Fritos": "Empanizados y fritos"},
 }
 SMALL = {"de", "del", "la", "las", "el", "los", "y", "con", "a", "al", "en", "o", "para", "por", "sin"}
-DRINK = re.compile(r"bebid|^caf[eé]|cerve|vino|licor|refresco|coctelería|alcohol|cava|michelad", re.I)
+DRINK = re.compile(r"bebid|^caf[eé]s?$|^caf[eé] |cerve|vino|licor|refresco|coctelería|alcohol|cava|michelad|^\d+\s*ml$|aguas|jugos|smoothie|frapp|mojito", re.I)
 FOOD_KEYS = ["cazuela", "taco", "tostada", "filete", "camar", "coctel", "cóctel", "sopa", "caldo", "enchilad", "chilaquil",
              "torta", "ensalad", "hamburg", "pizza", "quesadill", "mojarra", "ceviche", "aguachile", "agua chile", "pulpo",
              "salm", "arroz", "crepa", "hot cake", "omelet", "huevo", "pastel", "pay ", "flan", "café", "jugo", "arrachera",
@@ -181,6 +182,13 @@ ICON_SEARCH = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke
 
 
 EMP = CFG.get("empresa", {})
+CONTACTO = {
+    "whatsapp_oficial": ("WhatsApp oficial", "El propio negocio publica este número como WhatsApp."),
+    "numero_propio": ("Número propio", "Lo publica el negocio en su web o redes para esta sucursal."),
+    "directorio": ("Directorio", "Varios directorios lo dan para esta misma sucursal; confirma si responde."),
+    "solo_telefono": ("Solo teléfono", "No publica WhatsApp: llama primero y pregunta por qué medio enviarlo."),
+}
+PUEDE_WA = {"whatsapp_oficial", "numero_propio", "directorio"}
 
 
 def empresa_contacto():
@@ -262,10 +270,14 @@ def promo_block(r):
 </div></div></section>"""
 
 
+# Tipografías de Google que solo existen en un grosor: se piden sin eje de peso (si no, Google rechaza toda la hoja).
+SINGLE_WEIGHT = {"Alfa Slab One", "DM Serif Display", "Bebas Neue", "Abril Fatface", "Lobster", "Pacifico", "Anton"}
+
+
 def font_link(t):
     fams = []
     for f, w in ((t["titulo"], "600;700"), (t["texto"], "400;600;700;800")):
-        q = f.replace(" ", "+") + ":wght@" + w
+        q = f.replace(" ", "+") + ("" if f in SINGLE_WEIGHT else ":wght@" + w)
         if q not in fams:
             fams.append(q)
     return "https://fonts.googleapis.com/css2?" + "&".join("family=" + f for f in fams) + "&display=swap"
@@ -291,7 +303,7 @@ def og_html(r, cats, out_dir):
 *{{box-sizing:border-box;margin:0}} body{{width:1200px;height:630px;background:{t['bg']};color:{t['fg']};font-family:'{t['texto']}',sans-serif;overflow:hidden;position:relative}}
 .l{{position:absolute;left:64px;top:56px;bottom:56px;width:560px;display:flex;flex-direction:column}}
 .k{{font:700 20px/1 'Space Grotesk',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:{t['acc']}}}
-h1{{font:700 76px/1 '{t['titulo']}',Georgia,serif;margin-top:22px;letter-spacing:-.01em}}
+h1{{font:{400 if t['titulo'] in SINGLE_WEIGHT else 700} 76px/1 '{t['titulo']}',Georgia,serif;margin-top:22px;letter-spacing:-.01em}}
 .lema{{font-size:26px;line-height:1.3;opacity:.75;margin-top:20px}}
 .chip{{margin-top:auto;display:inline-flex;align-self:flex-start;gap:10px;background:{t['acc']};color:{on_acc};font-weight:800;font-size:24px;padding:14px 22px;border-radius:999px}}
 .by{{margin-top:22px;font:600 20px/1 'Space Grotesk',sans-serif;opacity:.6}} .by b{{opacity:1}}
@@ -346,7 +358,7 @@ def render_menu(r, cats, url):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{font_link(t)}&family=Space+Grotesk:wght@600;700">
 <link rel="stylesheet" href="../assets/menu.css">
-<style>:root{{--bg:{t['bg']};--fg:{t['fg']};--acc:{t['acc']};--card:{t['card']};--on-acc:{on_acc};--ft:'{t['titulo']}';--fb:'{t['texto']}';color-scheme:{'dark' if luminance(t['bg']) < .2 else 'light'}}}</style>
+<style>:root{{--bg:{t['bg']};--fg:{t['fg']};--acc:{t['acc']};--card:{t['card']};--on-acc:{on_acc};--ft:'{t['titulo']}';--fb:'{t['texto']}';--tw:{400 if t['titulo'] in SINGLE_WEIGHT else 700};color-scheme:{'dark' if luminance(t['bg']) < .2 else 'light'}}}</style>
 </head>
 <body>
 {intro_block(f"presenta el menú digital de <b>{e(r['nombre'])}</b>")}
@@ -494,6 +506,7 @@ def render_panel(rows):
   <div class="body">
     <img class="qr" src="{r['slug']}/qr.png" alt="QR del menú de {e(r['nombre'])}" width="132" height="132" loading="lazy">
     <div class="info">
+      <span class="tier t-{r.get('contacto', 'solo_telefono')}">{CONTACTO[r.get('contacto', 'solo_telefono')][0]}</span>
       <a class="phone" href="tel:+52{wa}">{fmt_tel(wa)}</a>{alt}
       <div class="conf">{e(r['confianza'])}</div>
       <div class="addr">{e(r['direccion'])}</div>
@@ -501,8 +514,7 @@ def render_panel(rows):
     </div>
   </div>
   <div class="actions">
-    <a class="btn wa" href="https://wa.me/52{wa}?text={e(quote(msg))}" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
-    <a class="btn" href="tel:+52{wa}">Llamar</a>
+    {f'<a class="btn wa" href="https://wa.me/52{wa}?text={e(quote(msg))}" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a><a class="btn" href="tel:+52{wa}">Llamar</a>' if r.get('contacto') in PUEDE_WA else f'<a class="btn call" href="tel:+52{wa}">Llamar primero</a><a class="btn" href="https://wa.me/52{wa}?text={e(quote(msg))}" target="_blank" rel="noopener">Probar WhatsApp</a>'}
     <a class="btn" href="{r['slug']}/" target="_blank" rel="noopener">Ver menú</a>
     <button class="btn copy" type="button">Copiar mensaje</button>
     <a class="btn" href="{r['slug']}/tarjeta-mesa.png" download>Tarjeta de mesa</a>
@@ -551,9 +563,14 @@ h1 {{ font:700 clamp(30px, 6vw, 48px)/1.05 'Space Grotesk', sans-serif; margin:1
 .actions {{ display:flex; flex-wrap:wrap; gap:8px; }}
 .btn {{ border:1px solid var(--line); background:transparent; color:var(--fg); padding:9px 12px; border-radius:10px; font:600 13.5px Inter, sans-serif; text-decoration:none; cursor:pointer; }}
 .btn.wa {{ background:#1fa855; border-color:#1fa855; color:#fff; }}
+.btn.call {{ background:var(--gold); border-color:var(--gold); color:#141210; }}
+.tier {{ justify-self:start; font:700 11px/1 Inter, sans-serif; letter-spacing:.06em; text-transform:uppercase; padding:5px 8px; border-radius:999px; }}
+.t-whatsapp_oficial {{ background:#1fa855; color:#fff; }} .t-numero_propio {{ background:#2f7de1; color:#fff; }}
+.t-directorio {{ background:#8a6d1d; color:#fff; }} .t-solo_telefono {{ background:#5c5f66; color:#fff; }}
 .btn:hover {{ border-color:var(--soft); }}
 details summary {{ cursor:pointer; color:var(--soft); font-size:14px; }}
 .msg {{ white-space:pre-wrap; font:400 14px/1.55 Inter, sans-serif; background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:14px; margin:10px 0 0; }}
+.sec {{ font:700 24px/1.1 'Space Grotesk', sans-serif; margin:28px 0 14px; }}
 .how {{ border:1px solid var(--line); border-radius:16px; padding:16px 18px; margin:0 0 20px; background:var(--card); }}
 .how ol {{ margin:8px 0 0; padding-left:20px; color:var(--soft); }}
 .toast {{ position:fixed; left:50%; bottom:20px; transform:translate(-50%, 200%); background:var(--fg); color:var(--bg); padding:10px 16px; border-radius:999px; font-weight:700; transition:transform .3s; }}
@@ -571,10 +588,13 @@ details summary {{ cursor:pointer; color:var(--soft); font-size:14px; }}
 <main class="wrap">
   <div class="how"><b>Antes de enviar</b><ol>
     <li>Abre su menú y revisa que cargue bien en tu celular.</li>
-    <li>Los números con confianza "Media" confírmalos con una llamada antes de mandar el mensaje.</li>
+    <li>El botón verde solo sale en los marcados <b>WhatsApp oficial</b>, <b>Número propio</b> o <b>Directorio</b>. En los de <b>Solo teléfono</b> llama primero y pregunta por qué medio mandarles la propuesta.</li>
     <li>Cuando acepten: pídeles su carta de salón (foto o PDF) y su logo, y cambia el aviso de "Muestra" por su información real.</li>
   </ol></div>
-  <div class="grid">{''.join(cards)}</div>
+  <h2 class="sec">Aguascalientes y Jesús María</h2>
+  <div class="grid">{''.join(cd for cd, (r, *_ ) in zip(cards, rows) if r.get("region") == "ags")}</div>
+  <h2 class="sec">Resto del país</h2>
+  <div class="grid">{''.join(cd for cd, (r, *_ ) in zip(cards, rows) if r.get("region") != "ags")}</div>
 </main>
 <div class="toast" id="toast" role="status">Mensaje copiado</div>
 <script>
@@ -625,12 +645,18 @@ def update_portfolio(rows):
             f'        <div class="body"><p class="tag" style="color:{r['tema']['acc'] if luminance(r['tema']['acc']) > .12 else '#d6b47a'}">{e(r['ciudad'])}</p>'
             f'<p class="name">{e(r['nombre'])}</p><p class="desc">{e(r['lema'])}. {n} platillos con foto, buscador y pedido por WhatsApp.</p>'
             f'<p class="go">Ver menú →</p></div>\n      </a>')
+    ags = [cd for cd, (r, *_ ) in zip(cards, rows) if r.get("region") == "ags"]
+    nac = [cd for cd, (r, *_ ) in zip(cards, rows) if r.get("region") != "ags"]
+    n_ciud = len({r["ciudad"] for r, *_ in rows if r.get("region") != "ags"})
     block = ("<!-- MENUS-QR:START (lo genera menus-qr/_tools/build.py) -->\n"
              '    <section class="qr-sec" id="menus-qr">\n'
              '      <p class="eyebrow">Menús QR</p>\n'
              '      <h2>Menús digitales con QR para restaurantes.</h2>\n'
-             f'      <p class="qr-lead">{len(rows)} muestras en {len({r["ciudad"] for r, *_ in rows})} ciudades del país: carta con fotos, buscador, categorías y pedido directo por WhatsApp. Se imprime el QR para mesas y mostrador.</p>\n'
-             '      <div class="grid">\n' + "\n".join(cards) + "\n      </div>\n    </section>\n"
+             f'      <p class="qr-lead">{len(rows)} muestras: carta con fotos, buscador, categorías y pedido directo por WhatsApp. Se imprime el QR para mesas y mostrador.</p>\n'
+             f'      <h3 class="qr-sub" id="menus-qr-ags">Aguascalientes y Jesús María <span>{len(ags)}</span></h3>\n'
+             '      <div class="grid">\n' + "\n".join(ags) + "\n      </div>\n"
+             f'      <h3 class="qr-sub">Resto del país <span>{len(nac)} · {n_ciud} ciudades</span></h3>\n'
+             '      <div class="grid">\n' + "\n".join(nac) + "\n      </div>\n    </section>\n"
              "    <!-- MENUS-QR:END -->")
     src = page.read_text(encoding="utf-8")
     if "<!-- MENUS-QR:START" in src:
@@ -661,6 +687,17 @@ def update_portfolio(rows):
         src = re.sub(r"<!-- LKMR-INTRO:START.*?<!-- LKMR-INTRO:END -->", lambda m: intro, src, flags=re.S)
     else:
         src = src.replace("<body>", "<body>\n" + intro, 1)
+    qlink = ("<!-- LKMR-QRLINK:START -->\n"
+             f'    <a class="qr-jump" href="#menus-qr">Ver los {len(rows)} menús QR para restaurantes ↓</a>\n'
+             "    <!-- LKMR-QRLINK:END -->")
+    if "<!-- LKMR-QRLINK:START" in src:
+        src = re.sub(r"<!-- LKMR-QRLINK:START.*?<!-- LKMR-QRLINK:END -->", lambda m: qlink, src, flags=re.S)
+    else:
+        src = re.sub(r"(<h1>.*?</h1>)", lambda m: m.group(1) + "\n    " + qlink, src, count=1, flags=re.S)
+    if ".qr-sub" not in src:
+        src = src.replace("  </style>", "    .qr-sub { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: 1.6rem; margin: 48px 0 0; display: flex; align-items: baseline; gap: 12px; }\n    .qr-sub span { font-family: Manrope, sans-serif; font-size: .8rem; font-weight: 800; color: #141210; background: #d6b47a; padding: 4px 10px; border-radius: 999px; }\n  </style>", 1)
+    if ".qr-jump" not in src:
+        src = src.replace("  </style>", "    .qr-jump { display: inline-flex; margin-top: 22px; padding: 12px 18px; border-radius: 999px; background: #d6b47a; color: #141210; font-weight: 800; text-decoration: none; }\n    html { scroll-behavior: smooth; }\n  </style>", 1)
     if ".qr-sec {" not in src:
         src = src.replace("  </style>", css + "  </style>", 1)
     page.write_text(src, encoding="utf-8")
@@ -729,10 +766,10 @@ h1{{font:500 78px/1 Fraunces,serif;margin-top:22px;letter-spacing:-.02em}} h1 em
     md = ["# Prospectos · Menú digital y QR", "",
           f"Menús tomados de Rappi el {CFG['fecha_menu']}. Oferta: {money(CFG['oferta']['instalacion'])} de instalación + "
           f"{money(CFG['oferta']['mensualidad'])} al mes.", "",
-          "| # | Restaurante | Ciudad | Teléfono | Confianza | Menú | QR |", "|---|---|---|---|---|---|---|"]
+          "| # | Restaurante | Ciudad | Teléfono | Contacto | Menú | QR |", "|---|---|---|---|---|---|---|"]
     for i, (r, url, cats, msg) in enumerate(rows, 1):
         wa = r.get("whatsapp") or r["tel"]
-        md.append(f"| {i} | {r['nombre']} | {r['ciudad']} | [{fmt_tel(wa)}](https://wa.me/52{wa}) | {r['confianza'].split(':')[0]} | "
+        md.append(f"| {i} | {r['nombre']} | {r['ciudad']} | [{fmt_tel(wa)}](https://wa.me/52{wa}) | {CONTACTO[r.get('contacto', 'solo_telefono')][0]} | "
                   f"[{r['slug']}/]({url}) | [qr.png]({url}qr.png) |")
     md += ["", "## Mensajes", ""]
     for i, (r, url, cats, msg) in enumerate(rows, 1):

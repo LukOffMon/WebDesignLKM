@@ -1,0 +1,629 @@
+{
+ "id": 1923612531,
+ "brandName": "Tacos Brasero",
+ "name": "Tacos Brasero - Allende",
+ "address": "Salida a Celaya #45, Zona Centro, 37754 San Miguel de Allende, Gto., Mexico",
+ "schedule": "13:00:00 - 23:59:00",
+ "categories": "Tacos · Mexicana",
+ "location": [
+  -100.749516025092,
+  20.903729877111
+ ],
+ "city": "San Miguel de Allende",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/elbrasero-1721778326203.jpg?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mxxtacosbraasero-1677693660468.jpg",
+ "schedules": [
+  {
+   "open_time": "13:00:00",
+   "close_time": "23:59:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923612531-tacos-brasero",
+ "menu": [
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco campechano",
+     "desc": "Taco campechano con 2 tortillas de maíz, combinación de carnes, cebolla y cilantro.",
+     "price": 35,
+     "img": "5401c493-564c-4e50-922c-14b09f7b7659.png"
+    },
+    {
+     "name": "Taco arrachera",
+     "desc": "Taco con 2 tortillas de maíz y carne arrachera.",
+     "price": 66,
+     "img": "028dd661-d2b1-4d25-80fc-1775c0134070.png"
+    },
+    {
+     "name": "Taco costilla",
+     "desc": "Taco con 2 tortillas de maíz y costilla.",
+     "price": 44,
+     "img": "cf2a0df5-5d4c-4e5e-b2c3-e249c737efb5.png"
+    },
+    {
+     "name": "Taco pastor",
+     "desc": "Taco con 2 tortillas de maíz y carne al pastor.",
+     "price": 20,
+     "img": "e07dd2ab-4c0f-482a-8c3e-685d1f4008a7.png"
+    },
+    {
+     "name": "Taco de chorizo",
+     "desc": "Taco con 2 tortillas de maíz y chorizo.",
+     "price": 35,
+     "img": "211aeee6-81c7-4fdf-a5c7-7d2067b05454.jpeg"
+    },
+    {
+     "name": "Taco de pollo",
+     "desc": "Taco con 2 tortillas de maíz y pollo.",
+     "price": 35,
+     "img": "e9b5300c-8005-4b29-9265-49f8f6c4633f.png"
+    },
+    {
+     "name": "Taco de bistec",
+     "desc": "Taco con 2 tortillas de maíz y carne bistec.",
+     "price": 35,
+     "img": "07d7c2d6-74f0-4386-86ef-18f66f0592b9.png"
+    },
+    {
+     "name": "Taco de chuleta",
+     "desc": "Taco con 2 tortillas de maíz y chuleta.",
+     "price": 35,
+     "img": "89c1dbbc-8006-4dab-9f2b-10c986afafbb.png"
+    }
+   ]
+  },
+  {
+   "name": "Orden de Tacos",
+   "products": [
+    {
+     "name": "4 Tacos combinados",
+     "desc": "4 Tacos en tortilla de maíz con combinaciones a elegir, acompañados de queso y una papa asada.",
+     "price": 170,
+     "img": "0a69db16-5336-4240-844f-cec538dea9b7.png"
+    },
+    {
+     "name": "4 Tacos de arrachera",
+     "desc": "4 Tacos en tortillas de maíz, con carne arrachera y papa entera asada.",
+     "price": 235,
+     "img": "672fad0e-17a7-4444-b718-733a6e548ed3.png"
+    },
+    {
+     "name": "4 Tacos de chorizo",
+     "desc": "4 Tacos en tortilla de maíz con chorizo. Incluye salsas y limón.",
+     "price": 155,
+     "img": "888e236c-9845-445d-8964-7ce5f217c8b4.png"
+    },
+    {
+     "name": "4 Tacos de bistec",
+     "desc": "4 Tacos en tortillas de maíz, con carne bistec y papa entera asada.",
+     "price": 155,
+     "img": "672fad0e-17a7-4444-b718-733a6e548ed3.png"
+    },
+    {
+     "name": "4 Tacos de pollo",
+     "desc": "4 Tacos en tortillas de maíz, con pollo y papa entera asada.",
+     "price": 155,
+     "img": "e9b5300c-8005-4b29-9265-49f8f6c4633f.png"
+    },
+    {
+     "name": "4 Tacos de chuleta",
+     "desc": "4 Tacos en tortillas de maíz, con chuleta y papa entera asada.",
+     "price": 155,
+     "img": "672fad0e-17a7-4444-b718-733a6e548ed3.png"
+    },
+    {
+     "name": "4 Tacos de costilla",
+     "desc": "4 Tacos en tortillas de maíz, con costilla y papa entera asada.",
+     "price": 160,
+     "img": "4112e6f7-5d82-4eb3-ab6c-eb925c92c3d0.png"
+    },
+    {
+     "name": "4 Tacos de pastor",
+     "desc": "4 Tacos en tortillas de maíz, con carne pastor y papa entera asada.",
+     "price": 155,
+     "img": "35d6f5e9-62a9-4b97-a7fc-8c2a6360e139.png"
+    }
+   ]
+  },
+  {
+   "name": "Carne Al Pastor",
+   "products": [
+    {
+     "name": "1Kg de carne al pastor",
+     "desc": "1Kg de carne al pastor incluye salsa, limones, tortillas, verduras .",
+     "price": 525,
+     "img": "fd2b7b6b-ff50-441b-a7f2-e763d8799e69.jpeg"
+    },
+    {
+     "name": "Medio kilo de pastor",
+     "desc": "Medio kg de carne al pastor incluye salsa, limones, tortillas, verduras .",
+     "price": 300,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Volcancitos",
+   "products": [
+    {
+     "name": "Volcán de arrachera",
+     "desc": "Volcán de arrachera en tortilla de maíz dorada, con queso derretido y carne de arrachera.",
+     "price": 70,
+     "img": "af785aa0-d05a-4f79-8c00-c4d401b74bca.png"
+    },
+    {
+     "name": "Volcán de costilla",
+     "desc": "Volcán en tortilla de maíz, dorada con queso y costilla.",
+     "price": 63,
+     "img": "7cc15a92-7fff-4b5a-b090-500092e64c8f.jpeg"
+    },
+    {
+     "name": "Volcán de pator",
+     "desc": "Volcán en tortilla de maíz, dorada con queso y carne al pastor.",
+     "price": 58,
+     "img": "27e3b495-78d5-478a-ada9-294ebae041d2.jpeg"
+    },
+    {
+     "name": "Volcán de bistec",
+     "desc": "Volcán en tortilla de maíz, dorada con queso y carne bistec.",
+     "price": 58,
+     "img": "7f304266-8a96-4f46-ac21-9d2625fe1683.png"
+    },
+    {
+     "name": "Volcán de chorizo",
+     "desc": "Volcán en tortilla de maíz, dorada con queso y chorizo.",
+     "price": 58,
+     "img": "db5fbaa9-59a3-464b-b161-2385fe2ef0cf.png"
+    },
+    {
+     "name": "Volcán de pollo",
+     "desc": "Volcán en tortilla de maíz, dorada con queso y pollo.",
+     "price": 58,
+     "img": "545a610d-687f-4011-869a-b361f3aa45c5.jpeg"
+    },
+    {
+     "name": "Volcán de chuleta",
+     "desc": "Volcán en tortilla de maíz, dorada con queso y carne chuleta.",
+     "price": 58,
+     "img": "1ca8bc96-9ca0-401a-b7c2-34293afb5a0a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta de arrachera",
+     "desc": "Torta con queso, lechuga, jitomate, cebolla, mayonesa, aguacate y carne arrachera.",
+     "price": 137,
+     "img": "c09dadf7-a5d1-4d7d-b405-0c9237ee3659.png"
+    },
+    {
+     "name": "Torta de costilla",
+     "desc": "Torta con queso, lechuga, jitomate, cebolla, mayonesa, aguacate y costilla.",
+     "price": 120,
+     "img": "78cdd1ba-d094-49e1-8cb4-572ea20fc4bf.png"
+    },
+    {
+     "name": "Torta de pastor",
+     "desc": "Torta con queso, lechuga, jitomate, cebolla, mayonesa, aguacate y carne al pastor.",
+     "price": 112,
+     "img": "78cdd1ba-d094-49e1-8cb4-572ea20fc4bf.png"
+    },
+    {
+     "name": "Torta bistec",
+     "desc": "Torta con queso, lechuga, jitomate, cebolla, mayonesa, aguacate y carne bistec.",
+     "price": 112,
+     "img": "78cdd1ba-d094-49e1-8cb4-572ea20fc4bf.png"
+    },
+    {
+     "name": "Torta de chorizo",
+     "desc": "Torta con queso, lechuga, jitomate, cebolla, mayonesa, aguacate y chorizo.",
+     "price": 112,
+     "img": "78cdd1ba-d094-49e1-8cb4-572ea20fc4bf.png"
+    },
+    {
+     "name": "Torta de pollo",
+     "desc": "Torta con queso, lechuga, jitomate, cebolla, mayonesa, aguacate y pollo",
+     "price": 112,
+     "img": "78cdd1ba-d094-49e1-8cb4-572ea20fc4bf.png"
+    },
+    {
+     "name": "Torta de chuleta",
+     "desc": "Torta con queso, lechuga, jitomate, cebolla, mayonesa, aguacate y carne chuleta.",
+     "price": 112,
+     "img": "78cdd1ba-d094-49e1-8cb4-572ea20fc4bf.png"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla de arrachera",
+     "desc": "Quesadilla con 2 tortillas de maíz y carne arrachera.",
+     "price": 83,
+     "img": "1ef554a9-9fc1-4fe5-b889-e3d36f12beff.jpeg"
+    },
+    {
+     "name": "Quesadilla de costilla",
+     "desc": "Quesadilla con 2 tortillas de maíz y costilla.",
+     "price": 63,
+     "img": "1ef554a9-9fc1-4fe5-b889-e3d36f12beff.jpeg"
+    },
+    {
+     "name": "Quesadilla mixta",
+     "desc": "Quesadilla con 2 tortillas de maíz, arrachera y costilla.",
+     "price": 60,
+     "img": "1ef554a9-9fc1-4fe5-b889-e3d36f12beff.jpeg"
+    },
+    {
+     "name": "Quesadilla de pastor",
+     "desc": "Quesadilla de pastor con carne al pastor entre dos tortillas de maíz. Incluye salsas y piña como acompañamiento.",
+     "price": 60,
+     "img": "b8549e32-47fc-4327-972e-9b369578f0e4.jpeg"
+    },
+    {
+     "name": "Quesadilla de bistec",
+     "desc": "Quesadilla con 2 tortillas de maíz y carne bistec.",
+     "price": 60,
+     "img": "1ef554a9-9fc1-4fe5-b889-e3d36f12beff.jpeg"
+    },
+    {
+     "name": "Quesadilla de pollo",
+     "desc": "Quesadilla con 2 tortillas de maíz y pollo.",
+     "price": 60,
+     "img": "735cf27f-4ae6-4471-9fdf-bbb9d732473b.jpeg"
+    },
+    {
+     "name": "Quesadilla de champiñón",
+     "desc": "Quesadilla con 2 tortillas de maíz y champiñón.",
+     "price": 60,
+     "img": "c15e9865-1846-4a02-9452-607794547d12.jpeg"
+    },
+    {
+     "name": "Quesadilla",
+     "desc": "Quesadilla sencilla con 2 tortillas de maíz.",
+     "price": 56,
+     "img": "f301cf84-0f1e-4711-b264-defafb59bad1.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Gringas",
+   "products": [
+    {
+     "name": "Gringa de arrachera ",
+     "desc": "Gringa en tortilla de harina, con queso y carne arrachera.",
+     "price": 117,
+     "img": "3ce8b0fd-8d96-4c7b-baaf-232087422af0.png"
+    },
+    {
+     "name": "Gringa de pastor",
+     "desc": "Gringa en tortilla de harina, con queso y carne al pastor.",
+     "price": 83,
+     "img": "a57c6361-f339-4a05-80c9-471a576f018f.jpeg"
+    },
+    {
+     "name": "Gringa de pollo",
+     "desc": "Gringa en tortilla de harina, con queso y pollo.",
+     "price": 83,
+     "img": "f3306840-d140-4ca1-b456-9ace1466760f.jpeg"
+    },
+    {
+     "name": "Gringa de bistec",
+     "desc": "Gringa en tortilla de harina, con queso y carne bistec.",
+     "price": 83,
+     "img": "3497a268-5089-47cc-b6c3-071aa3a6de56.jpeg"
+    },
+    {
+     "name": "Gringa de champiñones",
+     "desc": "Gringa en tortilla de harina, con queso y champiñones.",
+     "price": 83,
+     "img": "f3306840-d140-4ca1-b456-9ace1466760f.jpeg"
+    },
+    {
+     "name": "Gringa de costilla ",
+     "desc": "Gringa en tortilla de harina, con queso y costilla.",
+     "price": 83,
+     "img": "4ff14a70-a61d-41d5-996b-29fb1e38047b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesos",
+   "products": [
+    {
+     "name": "Queso con costilla",
+     "desc": "Queso fundido, con carne costilla.",
+     "price": 145,
+     "img": "f9145189-eee2-41c5-9426-8080bfb94f24.jpeg"
+    },
+    {
+     "name": "Queso con arrachera",
+     "desc": "Queso fundido, con carne arrachera.",
+     "price": 150,
+     "img": "0f0a2409-2bb9-4f9e-808e-10100e968457.png"
+    },
+    {
+     "name": "Queso con pastor",
+     "desc": "Queso fundido, con carne al pastor.",
+     "price": 125,
+     "img": "5a0467ab-89fb-4cad-84b2-c15e4b2610e1.jpeg"
+    },
+    {
+     "name": "Queso con bistec",
+     "desc": "Queso fundido, con carne bistec.",
+     "price": 125,
+     "img": "5beb0941-a3ce-4d8d-ae33-8f5b651254c3.png"
+    },
+    {
+     "name": "Queso con chorizo",
+     "desc": "Queso fundido, con chorizo.",
+     "price": 125,
+     "img": "9f8fd836-5105-40c3-b19a-5056635aaa08.jpeg"
+    },
+    {
+     "name": "Queso con pollo",
+     "desc": "Queso fundido, con pollo.",
+     "price": 125,
+     "img": "b002594e-712c-4e49-b1f6-663be9ee4faa.jpeg"
+    },
+    {
+     "name": "Queso con champiñ+on",
+     "desc": "Queso fundido, con champiñón.",
+     "price": 125,
+     "img": "dc445859-b86d-4326-bbbe-9ade8701f51c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Coca Cola Original 355ml Lata",
+     "desc": "Coca Cola Original 355ml Lata",
+     "price": 48,
+     "img": "ca80c345-9e2a-443b-a9a8-67c41bdf38af.png"
+    },
+    {
+     "name": "Coca Cola Light 355ml Lata",
+     "desc": "Refresco ligero en lata, ideal para acompañar tus comidas.",
+     "price": 48,
+     "img": "565abc92-7402-4892-9957-a953525a17d4.jpeg"
+    },
+    {
+     "name": "Agua de horchata 1/2lt",
+     "desc": "Agua natural, con sabor a horchata,  1/2lt",
+     "price": 50,
+     "img": "f310ec54-e659-44f2-9c1d-8b1e209b4202.jpeg"
+    },
+    {
+     "name": "Agua de jamaica 1/2lt",
+     "desc": "Agua natural, con sabor a jamaica,  1/2lt",
+     "price": 50,
+     "img": "6195179d-4fed-4225-b19d-6a4c2a645ea8.jpeg"
+    },
+    {
+     "name": "Agua de horchata 1lt",
+     "desc": "Agua de horchata litro",
+     "price": 90,
+     "img": ""
+    },
+    {
+     "name": "Agua de jamaica litro",
+     "desc": "Agua de jamaica litro",
+     "price": 90,
+     "img": ""
+    },
+    {
+     "name": "Coca-cola original 600 ml",
+     "desc": "Refrescos",
+     "price": 50,
+     "img": "b8cbbcdf-3efb-4d35-99a3-5b71bf48b573.jpeg"
+    },
+    {
+     "name": "Sprite 600 ml",
+     "desc": "Refrescos",
+     "price": 50,
+     "img": "20c45eac-b1cc-4d03-a012-f9a50562ae42.jpg"
+    },
+    {
+     "name": "Fanta naranja 600 ml",
+     "desc": "Refrescos",
+     "price": 50,
+     "img": "b55cfaa9-fbf6-488a-8b7c-43f3d3e43bd7.jpeg"
+    },
+    {
+     "name": "Manzanita sol 600 ml",
+     "desc": "Refrescos",
+     "price": 50,
+     "img": "48cc8b9a-f4ce-472b-90bf-a84353c64dfa.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Alambres",
+   "products": [
+    {
+     "name": "Alambre de arrachera",
+     "desc": "Alambre en tortilla de maíz, con carne arrachera, cebolla, poblano, tocino y queso.",
+     "price": 220,
+     "img": "601d8606-d328-495c-ae63-2875efef2629.jpeg"
+    },
+    {
+     "name": "Alambre de costilla",
+     "desc": "Alambre en tortilla de maíz, con costilla, cebolla, poblano, tocino y queso.",
+     "price": 190,
+     "img": "df216a40-49f7-4d41-b078-2d728b61953c.jpeg"
+    },
+    {
+     "name": "Alambre mixto",
+     "desc": "Alambre en tortilla de maíz, con cebolla, poblano, tocino, queso y 2 proteínas a elección.",
+     "price": 170,
+     "img": "0f2960a4-feee-4590-8190-d946ef173dfe.jpeg"
+    },
+    {
+     "name": "Alambre de pastor",
+     "desc": "Alambre en tortilla de maíz, con carne al pastor, cebolla, poblano, tocino y queso.",
+     "price": 170,
+     "img": "535e5308-4c5e-4719-a873-d9bc25644741.png"
+    },
+    {
+     "name": "Alambre de bistec",
+     "desc": "Alambre en tortilla de maíz, con carne bistec, cebolla, poblano, tocino y queso.",
+     "price": 170,
+     "img": "af3b043b-d3fa-4863-b508-4b19a0018df5.jpeg"
+    },
+    {
+     "name": "Alambre de pollo",
+     "desc": "Alambre en tortilla de maíz, con pollo, cebolla, poblano, tocino y queso.",
+     "price": 170,
+     "img": "d0fe061b-7a07-420f-8573-1deb7fdac9ea.png"
+    },
+    {
+     "name": "Alambre vegetariano",
+     "desc": "Alambre en tortilla de maíz, con champiñones, cebolla, poblano, tocino y queso.",
+     "price": 170,
+     "img": "f74a4c09-2310-417e-a36e-d7b6cf809670.png"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Bracero especial",
+     "desc": "Bistec, pastor y champiñones queso gratinado , papa mantequilla, nopales con tortilla de maíz.",
+     "price": 255,
+     "img": "e4fa6e1a-286f-4d10-9324-21419d6a6d97.png"
+    },
+    {
+     "name": "Tablita",
+     "desc": "Pollo, pastor, poblano, champiñón y 5 tortillas de harina.",
+     "price": 224,
+     "img": "7580c67f-3ad9-48ed-92e8-40ee0aa4827d.png"
+    },
+    {
+     "name": "Tablón",
+     "desc": "Pollo, bistec, cebolla, champiñón y tortillas de harina.",
+     "price": 224,
+     "img": "bc598fa0-ab7d-40ab-a6b1-ba9d2372103f.png"
+    },
+    {
+     "name": "Hawaiana",
+     "desc": "5 Tortillas de harina, bistec, pastor, chuleta, tocino y piña.",
+     "price": 224,
+     "img": "f45c8931-8ad1-44a4-832e-b1f9238f90dc.png"
+    },
+    {
+     "name": "Mixe",
+     "desc": "Chuleta con bistec, pastor, poblano, cebolla, tocino, queso, aguacate y 10 tortillas de maíz.",
+     "price": 224,
+     "img": "a07844a5-552d-4883-b950-0e237275140c.png"
+    },
+    {
+     "name": "Brasa",
+     "desc": "con bistec, pastor, queso y jamón en tortillas de harina.",
+     "price": 224,
+     "img": "07f25171-78bd-42b3-a357-1aee9716fda4.png"
+    },
+    {
+     "name": "No que no",
+     "desc": "Pastor, chuleta, tocino, cebolla, poblano, queso y tortillas de harina.",
+     "price": 224,
+     "img": "8bca9b1f-83ba-4706-ba58-17d00be334dc.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Papas Asadas",
+   "products": [
+    {
+     "name": "Papa arrachera",
+     "desc": "Papa asada con carne arrachera.",
+     "price": 180,
+     "img": "75f81bd9-948d-46ff-85d0-47c74210bcee.png"
+    },
+    {
+     "name": "Papa con bistec",
+     "desc": "Papa asada con carne bistec.",
+     "price": 145,
+     "img": "d6f37935-1880-4755-9b8b-f1373a4e7477.png"
+    },
+    {
+     "name": "Papa asada costilla",
+     "desc": "Papa asada con costilla.",
+     "price": 160,
+     "img": "0cc02bd3-471b-468f-b6b8-f481ac829ad1.jpeg"
+    },
+    {
+     "name": "Papa mixta",
+     "desc": "Papa asada mixta con arrachera y costilla.",
+     "price": 145,
+     "img": "156c9c26-c249-4ce7-83c4-093edd360e58.jpeg"
+    },
+    {
+     "name": "Papa con pollo",
+     "desc": "Papa asada con pollo.",
+     "price": 145,
+     "img": "0414ea9a-0db5-4c61-95e4-4d0275858c63.jpeg"
+    },
+    {
+     "name": "Papa con champiñones",
+     "desc": "Papa asada con champiñones.",
+     "price": 145,
+     "img": "b2833637-fd3f-4ea7-8790-2a9c8534dc80.png"
+    },
+    {
+     "name": "Papa con queso",
+     "desc": "Papa asada con queso derretido y perejil fresco.",
+     "price": 119,
+     "img": "6a55fe64-af4c-4e27-804a-739858a52234.jpeg"
+    },
+    {
+     "name": "Papa asada mantequilla",
+     "desc": "Papa asada a la mantequilla.",
+     "price": 74,
+     "img": "c99de10c-83aa-4a58-be48-27a0f6a46734.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Hamburguesas",
+   "products": [
+    {
+     "name": "Hamburguesa",
+     "desc": "Hamburguesa con carne de arrachera pan, lechuga, jitomate, mayonesa, cebolla, aguacate y catsup",
+     "price": 161,
+     "img": "ebe061cc-c0e2-4ad1-8e1f-e3698a498d74.png"
+    }
+   ]
+  },
+  {
+   "name": "Carnes",
+   "products": [
+    {
+     "name": "Arrachera asada",
+     "desc": "Arrachera asada 200 gr, con champiñón, nopales, y papa con mantequilla.",
+     "price": 270,
+     "img": "e709194c-01ce-43dc-a4f5-8ed2af78033e.jpeg"
+    },
+    {
+     "name": "Costilla asada",
+     "desc": "Costilla asada 200 gr, con champiñón, nopales, y papa con mantequilla.",
+     "price": 246,
+     "img": "0936183f-b626-4135-a0cf-57801e761446.jpeg"
+    },
+    {
+     "name": "Pechuga asada",
+     "desc": "Pechuga asada 200 gr, con champiñón, nopales, y papa con mantequilla.",
+     "price": 240,
+     "img": "b846b250-9c2b-4f65-9dca-02458d438c70.jpeg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,875 @@
+{
+ "id": 1930269609,
+ "brandName": "El Pescador Sinaloense Ags",
+ "name": "El Pescador Sinaloense Ags - Fracc Bosques del Prado Norte",
+ "address": "Sierra del Laurel #202 Esq. con San Julián, Bosques del Prado Norte.  Cp: 20127, Aguascalientes, Ags.",
+ "schedule": "11:00:00 - 19:55:00",
+ "categories": "Pescados y Mariscos",
+ "location": [
+  -102.307964045404,
+  21.916570806225
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/c419b5a8-8723-45df-a3d0-375142fe3bbb-1749491820748.jpeg?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/8ef30476-80f4-440b-9636-d2867133f4a6-1749863822850.png",
+ "schedules": [
+  {
+   "open_time": "11:00:00",
+   "close_time": "19:55:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930269609-el-pescador-sinaloense-ags",
+ "menu": [
+  {
+   "name": "caldos y sopas",
+   "products": [
+    {
+     "name": "Estofado de pescado",
+     "desc": "Estofado de pescado con verduras como zanahorias y pimientos. Ideal para los amantes del mar.",
+     "price": 401,
+     "img": "d444ab87-5996-4c2c-8a97-8d71dd72c0c1.png"
+    },
+    {
+     "name": "Caldo Mixto 200grs",
+     "desc": "Camarón, pulpo y jaiba.",
+     "price": 350,
+     "img": "27b2d31a-347a-490e-80df-bafd8395c84d.png"
+    },
+    {
+     "name": "Caldo el Pescador Especial",
+     "desc": "350 grs camarón con cabeza, medallón de mojarra, jaiba, caracol, trozos de pescado, camarón pelado,chocolata, calamar y mejillón.",
+     "price": 375,
+     "img": "ae78c32f-bf0b-4826-a5d1-3477affa6ed6.png"
+    },
+    {
+     "name": "Caldo Botanero (50 Grs Marisco, 300 ml",
+     "desc": "Pulpo, camarón y pescado.",
+     "price": 130,
+     "img": "2bab69b5-c95a-43e7-84a5-41596c0f34e7.png"
+    },
+    {
+     "name": "Caldo de Pescado Especial 180 Grs",
+     "desc": "Filete de pescado sin espinas.",
+     "price": 274,
+     "img": "c4fcda47-4adb-44d9-9e98-d5c9b582cb18.png"
+    },
+    {
+     "name": "Caldo de Pescado 300 Grs",
+     "desc": "Caldo de pescado con trozos y espinas, 300 gramos.",
+     "price": 338,
+     "img": "f281f207-7005-45d3-97cf-e2ad1fedbe67.png"
+    },
+    {
+     "name": "Caldo de Camarón 180 Grs",
+     "desc": "Caldo con camarones pelados y con cabeza, 180 gramos.",
+     "price": 318,
+     "img": "f5a2538d-607a-49cc-aee4-e5f41091174a.png"
+    }
+   ]
+  },
+  {
+   "name": "chicharrones",
+   "products": [
+    {
+     "name": "Chicharron de mojarra",
+     "desc": "800 Grs trozos doraditos marinados y empanizados",
+     "price": 388,
+     "img": "040e6cd9-eb68-4232-bbb1-a4d0ff228bf1.png"
+    },
+    {
+     "name": "Chicharron de Pescado",
+     "desc": "250 grs trozos de filete marinados y empanizados",
+     "price": 356,
+     "img": "c82d02fd-bc1e-42fc-ad89-6c467f43e3b6.png"
+    },
+    {
+     "name": "Chicharrón de pulpo gratinado",
+     "desc": "Chicharrón de pulpo gratinado con queso.",
+     "price": 388,
+     "img": "115c6290-28b2-4c91-84e1-1eaf996b96a0.png"
+    },
+    {
+     "name": "Chicharrón de Camarón 250 Grs",
+     "desc": "Camarón marinado y empanizado.",
+     "price": 350,
+     "img": "e52872ef-217f-4d42-a4c4-dd3ba4440490.png"
+    }
+   ]
+  },
+  {
+   "name": "empanadas",
+   "products": [
+    {
+     "name": "Empanada de marlin",
+     "desc": "Empanada de marlin, 1 pieza.",
+     "price": 121,
+     "img": "09b5261e-3acc-4684-9408-5c83303a37b6.png"
+    }
+   ]
+  },
+  {
+   "name": "filete de pescado",
+   "products": [
+    {
+     "name": "Filete de pescado empanizado",
+     "desc": "Filete de pescado empanizado acompañado de arroz y ensalada fresca.",
+     "price": 375,
+     "img": "7d338233-8875-40b3-9ef2-5ce4aae488fe.png"
+    },
+    {
+     "name": "Filete a la diabla",
+     "desc": "Filete bañado en salsa a la diabla. Acompañado de papas a la francesa, ensalada y arroz.",
+     "price": 375,
+     "img": "dad719e7-f29a-41ce-a6d3-024179d60a7a.png"
+    },
+    {
+     "name": "Filete a la Veracruzana",
+     "desc": "Filete a la Veracruzana con aceitunas.",
+     "price": 375,
+     "img": "959981e3-9837-46d6-9ec9-b0224bf6071f.png"
+    },
+    {
+     "name": "Filete al Chipotle 260 grs",
+     "desc": "Filete a la crema con chipotle acompañado de papas, arroz y ensalada. Todos nuestros filetes son de pescado róbalo.",
+     "price": 375,
+     "img": "dfbd4f34-ad1a-4812-ab29-51149354dcfe.png"
+    },
+    {
+     "name": "Filete Al Mojo de Ajo",
+     "desc": "Filete de pescado con ajo dorado en mantequilla, acompañado de papas fritas, ensalada y arroz.",
+     "price": 375,
+     "img": "85659b4c-060c-4b6d-bcd2-451893afc0a1.png"
+    },
+    {
+     "name": "Filete Al Coco Crujiente 260 Grs",
+     "desc": "Empanizado al coco acompañado con su crema de coco y fruta en almíbar.",
+     "price": 362,
+     "img": "c5c0f0fc-f10f-418d-9de5-9a2d33470c2e.png"
+    },
+    {
+     "name": "Filete Gratinado 260 Grs",
+     "desc": "Filete de 260 gramos a la plancha con queso gratinado.",
+     "price": 401,
+     "img": "50591d84-f43e-436f-87cb-f9562a04ff70.png"
+    },
+    {
+     "name": "Filete Al Ajillo 260 Grs",
+     "desc": "Filete de 260 gramos al ajillo con hojuelas de ajo y chile guajillo, acompañado de arroz, ensalada y papas fritas.",
+     "price": 381,
+     "img": "e26e918d-6a87-4f48-bac1-94ad9adb8c6d.png"
+    },
+    {
+     "name": "Filete a la Plancha 260 Grs",
+     "desc": "Filete de pescado a la plancha de 260 gramos, acompañado de ensalada, papas fritas y arroz. Hecho en aceite de olivo.",
+     "price": 375,
+     "img": "cf8270dd-9ff2-4315-b01b-eb2ea0bad26d.png"
+    }
+   ]
+  },
+  {
+   "name": "platillos de camaron frio",
+   "products": [
+    {
+     "name": "Camaron natural para picar",
+     "desc": "280 Grs",
+     "price": 394,
+     "img": "489957b8-3255-4395-8637-0952bdc51055.png"
+    }
+   ]
+  },
+  {
+   "name": "aguachiles",
+   "products": [
+    {
+     "name": "Aguachile Tricolor",
+     "desc": "Camaron aguachile cebolla juliana pepino callo de hacha bañado en salsa bandera",
+     "price": 547,
+     "img": "bc70b3a8-5e2e-4e1b-8dd4-6cf4682ab451.png"
+    },
+    {
+     "name": "Aguachile Al Tequila",
+     "desc": "Camaron aguachile natural cebolla juliana pepino con un toque de tequila rojo verde o negro pidelo al gusto",
+     "price": 375,
+     "img": "b09be763-4356-4c9a-a485-344ef78af669.png"
+    },
+    {
+     "name": "Aguachile especial",
+     "desc": "Camaron aguachile cebolla juliana pepino trocitos de mango y camaron natural para pelar",
+     "price": 394,
+     "img": "84f8a9ff-876d-4dcf-9b69-22a63dd1fc27.png"
+    },
+    {
+     "name": "Aguachile negro",
+     "desc": "Camaron aguachile cebolla juliana pepino y salsa negra de la casa",
+     "price": 356,
+     "img": "270ba021-71e6-4075-bb43-a4d2646560da.png"
+    },
+    {
+     "name": "Aguachile Verde",
+     "desc": "200 grs camarón aguachile, cebolla juliana, pepino y salsa verde de la casa",
+     "price": 356,
+     "img": "f2be195b-4498-4a01-a8dc-ebaf65d39b8f.png"
+    },
+    {
+     "name": "Aguachile Rojo 200grs",
+     "desc": "Aguachile rojo de 200 gramos con camarones frescos y rodajas de jitomate.",
+     "price": 356,
+     "img": "f90195fe-3adc-4c33-aa63-eaeebb6dbead.png"
+    }
+   ]
+  },
+  {
+   "name": "pulpos platillos calientes",
+   "products": [
+    {
+     "name": "Pulpo a Las Brasas",
+     "desc": "Pulpo a las brasas, 350 gramos.",
+     "price": 699,
+     "img": "81203f8c-55f4-47ab-a16f-dcc3ac1c3b34.png"
+    },
+    {
+     "name": "Pulpo Al Ajillo",
+     "desc": "200 grs a la plancha con ajo doradito y trocitos de chile guajillo.",
+     "price": 407,
+     "img": "39733ae0-fa9b-45d3-9436-92814bcb7f9a.png"
+    },
+    {
+     "name": "Pulpo a la Plancha 200 Grs",
+     "desc": "Pulpo a la plancha de 200 gramos con aceite de olivo, acompañado de arroz, ensalada mixta y papas fritas.",
+     "price": 385,
+     "img": "4d9ff047-78a0-455f-9cc6-06ddfbd31fe8.png"
+    },
+    {
+     "name": "Pulpo Al Mojo de Ajo 200 Grs",
+     "desc": "A la plancha con ajo y mantequilla doradito.",
+     "price": 407,
+     "img": "12320dbc-0e09-467c-898d-2f7b7b09220f.png"
+    }
+   ]
+  },
+  {
+   "name": "molcajetes calientes",
+   "products": [
+    {
+     "name": "Molcajete Cielo Mar y Tierra",
+     "desc": "300 grs arrachera camaron pechuga de pollo morron verde y rojo parmesano y salsa de la casa",
+     "price": 426,
+     "img": "c616413a-8e4d-4be4-be3a-2efe40f79ddf.png"
+    },
+    {
+     "name": "Molcajete Especial",
+     "desc": "350grs tenaza de jaiba, medallones de mojarra, arrachera, pulpo a las brazas, camarón con cabezay ostiones fantasía.",
+     "price": 528,
+     "img": "7f95f843-adb9-4070-a20d-8ce3cefdbee7.png"
+    },
+    {
+     "name": "Molcajete Gratinado",
+     "desc": "300 grs camarones, chile poblano y queso gratinado.",
+     "price": 417,
+     "img": "caaea0cf-5167-4f6b-995e-19417bdbf6d5.png"
+    }
+   ]
+  },
+  {
+   "name": "salmon",
+   "products": [
+    {
+     "name": "Salmón al carbon",
+     "desc": "280 Grs doradito a las brazas sin grasa",
+     "price": 426,
+     "img": "b5360ec3-d5c7-4ca7-8ea9-639afd5e2f60.png"
+    },
+    {
+     "name": "Salmón a la Crema de Quesos",
+     "desc": "280 grs bañado en crema de queso con champiñones.",
+     "price": 502,
+     "img": "bb374d16-8d4a-4d9e-8710-9ee712982001.png"
+    },
+    {
+     "name": "Salmón a Las Hierbas Finas 280 Grs",
+     "desc": "Salmón de 280 g con costra de hierbas finas.",
+     "price": 432,
+     "img": "ab741f12-3d5b-47ee-b375-51ad059ccecf.png"
+    }
+   ]
+  },
+  {
+   "name": "pescado zarandeado al carbon",
+   "products": [
+    {
+     "name": "Zarandeado tradicional",
+     "desc": "1Kg 2 personas cubierto de cebolla a la mantequilla acompañado de chiles toreados",
+     "price": 629,
+     "img": "5e61880b-8b4b-44e5-a90a-d02612adbaea.png"
+    },
+    {
+     "name": "Pescado Zarandeado Especial",
+     "desc": "1kg 2 personas cubierto de queso fundido trozos de tocino en una cama de salsa diabla y camarones",
+     "price": 769,
+     "img": "c4ead4a7-c2a9-470f-b143-48110b3e389e.png"
+    },
+    {
+     "name": "Zarandeado Mar y Tierra 2 Prs 1kg",
+     "desc": "Cubierto de queso fundido, carne arrachera, camarones y trozos de tocino acompañado de chiles toreados.",
+     "price": 788,
+     "img": "cd0e17b3-df95-41c7-afaa-329d9a412831.png"
+    }
+   ]
+  },
+  {
+   "name": "tostadas especiales",
+   "products": [
+    {
+     "name": "Tostada Especial",
+     "desc": "Trozos de salmón, camarón aguachile, camarón cocido, pulpo y cebolla",
+     "price": 377,
+     "img": "877d2922-4504-414b-8645-37471bc3b294.png"
+    },
+    {
+     "name": "Tostada Tropical",
+     "desc": "Camarón cocido, camarón aguachile, pulpo, atún, mango, pepino, cebolla, bañada en salsa de la casa.",
+     "price": 280,
+     "img": "7bf6f2d2-f2f3-490f-8c1f-7a3e8afbacdc.png"
+    },
+    {
+     "name": "Tostada el pescador",
+     "desc": "220 Grs callo de hacha camaron cocido, pulpo camaron aguachile ceviche mixto banada en salsa de la casa",
+     "price": 286,
+     "img": "d37d6243-0195-49f5-955b-6680ce46364d.png"
+    },
+    {
+     "name": "Tostada embarazada",
+     "desc": "200Grs carne de jaiba camaron cocido camaron para pelar acompañado de aderezo chipotle de la casa",
+     "price": 331,
+     "img": "df87ff53-8567-4bca-a9bb-13ac618bdd3e.png"
+    },
+    {
+     "name": "Tostada de Pulpo 90 Grs",
+     "desc": "Tostada con pulpo, cebolla y aguacate, 90 gramos.",
+     "price": 197,
+     "img": "5fdadf4e-2a23-4ec9-888d-d6bd65c96513.png"
+    },
+    {
+     "name": "Tostada Pura Vida 250 Grs",
+     "desc": "Callo de hacha, camarón cocido, camarón natural aguachile y pulpo en salsa de la casa.",
+     "price": 401,
+     "img": "38fefe5b-2769-4e35-a9f2-267f699bec17.png"
+    }
+   ]
+  },
+  {
+   "name": "molcajetes frios",
+   "products": [
+    {
+     "name": "Molcajete Mango",
+     "desc": "Molcajete con 250 g de camarón cocido, aguachile y para pelar, acompañado de mango, cebolla, pepino y salsa de mango de la casa.",
+     "price": 439,
+     "img": "2b8e3768-4a90-43db-9a2b-2a6ca94172e9.png"
+    },
+    {
+     "name": "Torre en molcajete",
+     "desc": "300 Grs ceviche mixto camaron cocido camaron aguachile pulpo callo de hacha",
+     "price": 557,
+     "img": "0ed04b01-99df-46f9-8dab-0c8da47d8f9b.png"
+    },
+    {
+     "name": "Molcajete el pescador",
+     "desc": "250 Grs camarones cocidos camarones aguachiles pulpo callo de pescado y camarones para pelar banados con salsa pescador",
+     "price": 470,
+     "img": "de7aa4bf-3a07-4a5d-9481-6b9e6a7213c0.png"
+    },
+    {
+     "name": "Molcajete Aguachile Especial (200 grs)",
+     "desc": "Molcajete Aguachile Especial (200 grs) con camarones cocidos y aguachiles, pepino, cebolla morada y salsa al gusto (verde, negra o roja).",
+     "price": 388,
+     "img": "7cf3234b-6458-4b1b-8a43-4ca5ca60c4f2.png"
+    },
+    {
+     "name": "Molcajete Mitotero",
+     "desc": "200 grs ceviche de camarón, ceviche de pescado,pulpo y camarón cocido, bañados en salsanegra de la casa.",
+     "price": 375,
+     "img": "c0dcd5f9-ed2f-4b38-a372-6a2ccf888408.png"
+    },
+    {
+     "name": "Molcajete Sinaloense",
+     "desc": "250 grs camarones aguachiles, pulpo, camarón parapelar, callo de hacha, salsa de la casa.",
+     "price": 489,
+     "img": "5dad1acd-c40b-4fe7-95fa-c0e41bca8035.png"
+    }
+   ]
+  },
+  {
+   "name": "ceviches",
+   "products": [
+    {
+     "name": "Ceviche de camaron",
+     "desc": "Ceviche de camarón de 280 gramos con tomate, pepino y aguacate.",
+     "price": 324,
+     "img": "4544a511-2a34-49a3-bc9d-d13722b801d0.png"
+    },
+    {
+     "name": "Ceviche Mixto 280grs",
+     "desc": "Ceviche Mixto 280grs con camarón, pescado, tomate, cebolla, pepino y aguacate en láminas.",
+     "price": 324,
+     "img": "cb427348-4518-4c1a-96e4-7fe25b808c93.png"
+    },
+    {
+     "name": "Ceviche al chile de árbol 280 grs",
+     "desc": "Camarón cocido, camarón aguachile, cebolla morada, pepino, salsa de árbol.",
+     "price": 362,
+     "img": "ae94127a-ced0-4315-ba8c-2f4e241e8d2a.png"
+    },
+    {
+     "name": "Ceviche mitotero 280 grs",
+     "desc": "Camarón cocido, pulpo, ceviche de camarón y pescado bañado en salsa mitotera.",
+     "price": 356,
+     "img": "ad25b57a-ba0a-4242-aa45-be26c6d41291.png"
+    },
+    {
+     "name": "Ceviche Pescado 280grs",
+     "desc": "Ceviche de pescado de 280 gramos con aguacate, pepino y jitomate.",
+     "price": 318,
+     "img": "1e924f1e-3eff-4956-96db-9c3ee3061c54.png"
+    }
+   ]
+  },
+  {
+   "name": "mojarras pescado frito",
+   "products": [
+    {
+     "name": "Mojarra rellena de mariscos",
+     "desc": "800Grs gal vapor empapelada con camarones y pulpo",
+     "price": 420,
+     "img": "90f85f48-b3e2-4081-851c-42611d38140e.png"
+    },
+    {
+     "name": "Mojarra Frita",
+     "desc": "800 grs doradita",
+     "price": 362,
+     "img": "c153b38e-6f33-487b-a697-e938a249853f.png"
+    },
+    {
+     "name": "Mojarra al ajillo",
+     "desc": "Frita con ajo doradita y trocitos de chile guajillo.",
+     "price": 381,
+     "img": "bfc3856e-5786-4246-825d-6c84f66604f6.png"
+    },
+    {
+     "name": "Mojarra a la Plancha 800 Grs",
+     "desc": "Mojarra a la plancha de 800 gramos, abierta sin espinazo y cocinada con aceite de olivo. Se acompaña con guarnición de papas fritas, ensalada y arroz.",
+     "price": 362,
+     "img": "046ee7ee-50f0-49f0-817d-86080d80a6b4.png"
+    },
+    {
+     "name": "Mojarra Al Mojo de Ajo 800 Grs",
+     "desc": "Mojarra Al Mojo de Ajo de 800 Grs, frita y bañada con ajo dorado.",
+     "price": 381,
+     "img": "0bee289c-8735-4394-8789-e5090ace1bcd.png"
+    }
+   ]
+  },
+  {
+   "name": "especialidades en su concha",
+   "products": [
+    {
+     "name": "Orden de Almeja Chocolata Natural",
+     "desc": "12 piezas de almeja chocolata natural servidas con rodajas de limón.",
+     "price": 458,
+     "img": "994a49da-38ab-4db7-8b35-0fa459ca1ee3.png"
+    },
+    {
+     "name": "Orden de ostion fresco",
+     "desc": "12 Piezas",
+     "price": 498,
+     "img": "d96d3dbd-e396-416e-b821-b46888972d40.png"
+    },
+    {
+     "name": "Ostiones rockefeler",
+     "desc": "Ostiones rockefeler: 6 piezas gratinadas con queso y espinacas, servidas sobre lechuga fresca.",
+     "price": 445,
+     "img": "f78df018-95f7-4486-b809-1f85d3a980f5.png"
+    },
+    {
+     "name": "Callos de hacha",
+     "desc": "Callos de hacha de 200 gr, disponibles solo por temporada.",
+     "price": 566,
+     "img": "1b1222fe-6b5b-453b-9dd1-9d80b6175f9c.png"
+    },
+    {
+     "name": "Mariscada el Pescador Especial Fria",
+     "desc": "400grs 1 persona camarones aguachile ceviche de camaron, camaron natural, ceviche de pescado, camarones cocidos pulpo y caracol",
+     "price": 572,
+     "img": "9fa83ff3-5aab-4630-afb8-4ae948dc1758.png"
+    },
+    {
+     "name": "Ostión Fresco (1 Pieza)",
+     "desc": "Ostión fresco (1 pieza)",
+     "price": 58,
+     "img": "7eea1a23-40f9-4b3b-aec9-a7f2fe3aa8e8.png"
+    },
+    {
+     "name": "Almeja Chocolata Natural (1 Pieza) (sólo",
+     "desc": "Almeja chocolata natural, servida con rodajas de limón. Disponible solo por temporada.",
+     "price": 64,
+     "img": "b247a3a2-df4a-4e69-be9f-fcbfb5d20351.png"
+    }
+   ]
+  },
+  {
+   "name": "Torres",
+   "products": [
+    {
+     "name": "Torre a las rocas",
+     "desc": "400 Grs ceviche mixto camaron cocido camaron aguachile atun camarones roca y pulpo banados en salsa especial",
+     "price": 483,
+     "img": "19c29d76-43b5-4452-bc54-1b435214a5a5.png"
+    },
+    {
+     "name": "Torre el Pescador",
+     "desc": "400 grs callo de hacha, camarón cocido, camarón aguachile, pulpo, ceviche mixto y cebolla juliana.",
+     "price": 528,
+     "img": "5b1f18a7-2b74-44bd-989f-03ffacc0a246.png"
+    }
+   ]
+  },
+  {
+   "name": "platillos de camaron caliente",
+   "products": [
+    {
+     "name": "Camarones a la Diabla",
+     "desc": "250 grs banados con nuestra receta de salsa a la diabla",
+     "price": 401,
+     "img": "9780ffd6-b153-4c39-95db-fc1eb09cdf21.png"
+    },
+    {
+     "name": "Camarones Rellenos de Queso",
+     "desc": "Camarones rellenos de queso envueltos en tocino, cubiertos con salsa.",
+     "price": 420,
+     "img": "9c245b64-a06c-4ec0-af8d-7da7046ef840.png"
+    },
+    {
+     "name": "Camarones Cucaracha",
+     "desc": "250Grs camarones doraditos muy crujientes marinados en salsa cítrica",
+     "price": 346,
+     "img": "b4b15d5a-9ba6-42c0-bf85-9672043f3850.png"
+    },
+    {
+     "name": "Camarones Hawaii",
+     "desc": "Camarones Hawaii con trozos de piña, chiles morrones rojos y verdes, con un toque picosito y agridulce.",
+     "price": 378,
+     "img": "a0ba59a9-1a0b-45f6-ab8b-9a843fe75a8f.png"
+    },
+    {
+     "name": "Camarones Empanizados",
+     "desc": "Camarones empanizados, 180 gramos.",
+     "price": 356,
+     "img": "a19d80e8-9770-4830-a97e-e7f0d964e704.png"
+    },
+    {
+     "name": "Camarones Al Mojo de Ajo",
+     "desc": "Camarones Al Mojo de Ajo de 250 grs con ajo doradito. Incluye arroz, papas a la francesa y ensalada.",
+     "price": 401,
+     "img": "8bebaaa3-14f4-48d1-ae7d-71248c757e11.png"
+    },
+    {
+     "name": "Camarón Natural para Picar 280grs",
+     "desc": "Camarón natural para picar 280grs",
+     "price": 394,
+     "img": "4de9a405-9f67-4334-8976-fbce8fe73f00.png"
+    },
+    {
+     "name": "Camarones a la Crema de Chipotle 180 Grs",
+     "desc": "Camarones guisados a la mantequilla bañados en crema de chipotle.",
+     "price": 356,
+     "img": "d826445e-9f5d-48a9-863b-e85983feca5d.png"
+    },
+    {
+     "name": "Camarones Rellenos de Salmón 300 Grs",
+     "desc": "Envueltos en tocino y un toque de diabla.",
+     "price": 445,
+     "img": "076dc79d-9347-4637-8bc1-78a623772775.png"
+    },
+    {
+     "name": "Camarones a la Mantequilla 250 Grs",
+     "desc": "Camarones a la mantequilla de 250 gramos, acompañados de papas fritas, ensalada y arroz.",
+     "price": 401,
+     "img": "3cbaa18a-5c8c-4e2d-bfde-6ef95fc609a3.png"
+    }
+   ]
+  },
+  {
+   "name": "cocteles",
+   "products": [
+    {
+     "name": "Coctel el Pescador 175 Grs",
+     "desc": "Contiene salsa catsup de la casa cebolla cilantro y aguacate",
+     "price": 350,
+     "img": "a5682e56-d6c3-426c-8b73-a303fe9381aa.png"
+    },
+    {
+     "name": "Cóctel de Camarón O Pulpo 80 Grs",
+     "desc": "Cóctel de camarón o pulpo con 80 gramos, incluye tomate y cebolla.",
+     "price": 223,
+     "img": "067b4517-2a60-49fc-99d6-2d2487280402.png"
+    },
+    {
+     "name": "Cóctel de Ostión 80 Grs",
+     "desc": "Cóctel de ostión de 80 gramos con aguacate y cilantro. Ideal como entrada fresca.",
+     "price": 223,
+     "img": "1d4c5eba-1fa1-40d1-9fe6-51dce82956bc.jpeg"
+    },
+    {
+     "name": "Cóctel Campechano 80 Grs",
+     "desc": "Cóctel de mariscos mixtos con 80 gramos de ingredientes.",
+     "price": 223,
+     "img": "6fc6f6f6-2336-4449-b8dc-090f9dfa6d97.png"
+    },
+    {
+     "name": "Cóctel Vuelve a la Vida 80 Grs",
+     "desc": "Cóctel de mariscos con camarones, jitomate, cebolla y pepino. 80 gramos.",
+     "price": 223,
+     "img": "5be98a0c-1202-4a7e-9495-205498f48365.png"
+    },
+    {
+     "name": "Cóctel Mitotero 80 Grs",
+     "desc": "Cóctel de proteínas de 80 gramos listo para servir.",
+     "price": 216,
+     "img": "c9619ce4-f345-43a8-9ca2-2c92080f7bd6.jpeg"
+    },
+    {
+     "name": "Cóctel Camarón, Pulpo y Callo 80 Grs",
+     "desc": "Cóctel camarón, pulpo y callo 80 grs",
+     "price": 274,
+     "img": "9064cafe-c811-4023-8ed9-377f2c2b6fb7.png"
+    },
+    {
+     "name": "Cóctel Al Chile de Árbol 175 Grs",
+     "desc": "Caldo de camarón, camarón cocido, camarón aguachile, pulpo, chile de árbol.",
+     "price": 343,
+     "img": "417b5806-fb8d-428a-823b-7e3eb3bee0cc.png"
+    },
+    {
+     "name": "Cóctel Sinaloense 175 Grs",
+     "desc": "Cóctel de camarón estilo Sinaloa con jugo de limón, cebolla, jitomate, clamato y chile, en porción de 175 gramos.",
+     "price": 350,
+     "img": "28ecf3d6-241a-4da1-b89b-d6085b451c09.jpeg"
+    },
+    {
+     "name": "Estilo Tradicional 175 Grs",
+     "desc": "Contiene salsa catsup de la casa, cebolla, cilantro y aguacate.",
+     "price": 350,
+     "img": "800eaaa1-e1f2-429e-8940-7bc668877ef7.png"
+    }
+   ]
+  },
+  {
+   "name": "tostadas entradas",
+   "products": [
+    {
+     "name": "Tostada de Ceviche de Pescado 120 Grs",
+     "desc": "Tostada con ceviche de pescado, cebolla, jitomate y aguacate. 120 gramos.",
+     "price": 131,
+     "img": "1fe06d6b-0dd8-4b28-a939-254ff14b96f0.png"
+    },
+    {
+     "name": "Tostada de Ceviche de Camarón 120 Grs",
+     "desc": "Tostada con ceviche de camarón, 120 gramos, con aguacate.",
+     "price": 140,
+     "img": "1552ff57-0377-422d-940e-57ab9e9d5dba.png"
+    },
+    {
+     "name": "Tostada de Camarón Cocido 90 Grs",
+     "desc": "Tostada con camarón cocido, aguacate y cebolla. 90 gramos.",
+     "price": 191,
+     "img": "243a1dbb-4e42-46b1-ad2d-ffdd33bd0d28.png"
+    },
+    {
+     "name": "Tostada mitotera",
+     "desc": "200 Grs ceviche de camaron ceviche de pescado pulpo camaron cocido banado en salsa mitotera",
+     "price": 252,
+     "img": "78eca90a-c11c-471d-b122-50bc036f1182.png"
+    },
+    {
+     "name": "Tostada de atun",
+     "desc": "Tostada con 150 g de atún, aguacate y aderezo.",
+     "price": 213,
+     "img": "6f8935ca-d5e2-402b-a5d5-3805a4002e24.png"
+    },
+    {
+     "name": "Tostada de Carne de Jaiba 100 Grs",
+     "desc": "Tostada con 100 gramos de carne de jaiba, servida sobre una base crujiente de tortilla, acompañada de rodajas de aguacate.",
+     "price": 229,
+     "img": "59d4e36b-4e29-4a67-a53c-38c35faefd1b.png"
+    },
+    {
+     "name": "Tostada Al Mango 90 Grs",
+     "desc": "Tostada con mango, pepino y camarones sobre una base crujiente de 90 gramos.",
+     "price": 209,
+     "img": "3dfcdc3b-437a-4235-99c5-e81a2cf4ec84.png"
+    }
+   ]
+  },
+  {
+   "name": "mariscada caliente",
+   "products": [
+    {
+     "name": "Mariscada de el pescador especial",
+     "desc": "400 Grs camaron empanizado relleno mantequilla taco gobernador o marlin camaron al coco chicharron de pescado frito y torito con de arroz y guarnicion",
+     "price": 458,
+     "img": "f401e2db-e315-474e-93da-cede8fa0f062.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Orden de Tacos el Pescador",
+     "desc": "Orden de 3 tacos con relleno de pescado.",
+     "price": 394,
+     "img": "e450f46f-994c-438a-a2f3-7b2e8a8209c8.png"
+    },
+    {
+     "name": "Orden de Tacos Gobernador",
+     "desc": "Orden de 3 tacos gobernador con camarones y queso.",
+     "price": 350,
+     "img": "25a985be-add4-4b41-813b-535c04642e24.png"
+    },
+    {
+     "name": "Tacos mixtos de arrachera",
+     "desc": "Tacos mixtos de arrachera con 200 gramos de carne.",
+     "price": 324,
+     "img": "147696c7-e24a-4d03-bda5-8f43753d0255.png"
+    },
+    {
+     "name": "Tacos de Marlín orden 3 piezas",
+     "desc": "Tacos de Marlín orden 3 piezas acompañados de papas a la francesa y ensalada.",
+     "price": 349,
+     "img": "03e3bc27-93b3-4031-8d4c-37d4e0ecf230.png"
+    }
+   ]
+  },
+  {
+   "name": "Filete Zarandeado",
+   "products": [
+    {
+     "name": "Filete con Camarones Zarandeados",
+     "desc": "Filete de 350 grs con camarones zarandeados, acompañado de cebolla, arroz, papas fritas y ensalada.",
+     "price": 477,
+     "img": "7a6b57ac-8cea-4599-b0d4-b43f9ec11c96.png"
+    },
+    {
+     "name": "Filete Zarandeado Mar y Tierra 350 grs",
+     "desc": "Cubierto de queso fundido, carne arrachera, trozos de tocino, chiles toreados y camarones.",
+     "price": 544,
+     "img": "817e1452-4eef-45e4-98b3-4eb74376cf0e.png"
+    },
+    {
+     "name": "Filete Zarandeado 350 grs",
+     "desc": "Filete Zarandeado 350 grs acompañado de papas, arroz y ensalada.",
+     "price": 419,
+     "img": "078c5c81-f736-4b58-ad3d-06f01c2d7b31.png"
+    },
+    {
+     "name": "Filete Zarandeado Especial 350 Grs",
+     "desc": "A las brazas cubierto de queso fundido con exquisitos camarones y trozos de tocino conuna cama de salsa diabla.",
+     "price": 483,
+     "img": "2ded34b0-b812-40ed-bd2c-856503445cf8.png"
+    }
+   ]
+  },
+  {
+   "name": "Huachinangos",
+   "products": [
+    {
+     "name": "Huchinango Frito",
+     "desc": "700 grs doradito en aceite.",
+     "price": 578,
+     "img": "9a21ebaa-2720-4a43-84b7-cab83bec307a.png"
+    }
+   ]
+  },
+  {
+   "name": "Carnes",
+   "products": [
+    {
+     "name": "Fajitas Mixtas",
+     "desc": "Fajitas mixtas con 200 g de arrachera, pollo y camarón, acompañadas de un mix de pimientos.",
+     "price": 331,
+     "img": "fb16199e-2eff-41f7-9b74-0a3300ce60e8.png"
+    },
+    {
+     "name": "Arrachera 200grs",
+     "desc": "Arrachera 200grs acompañada de fettuccini, espárragos y arroz.",
+     "price": 350,
+     "img": "e04c0832-fdd3-4dc1-91e2-4e508d8a7d87.png"
+    },
+    {
+     "name": "Mixtos de Arrachera 200 Grs",
+     "desc": "Quesadillas de harina rellenas de arrachera encebollada, servidas con guacamole y chile.",
+     "price": 324,
+     "img": "ac6e8c9a-fb86-4191-bdfa-df9f38646401.png"
+    },
+    {
+     "name": "Fajitas de Arrachera (200 Grs)",
+     "desc": "Fajitas de arrachera de 200 gramos con mix de pimientos y cebolla. Incluye guacamole.",
+     "price": 312,
+     "img": "91b15538-2a24-41a9-80f8-1acd1de420e8.png"
+    }
+   ]
+  },
+  {
+   "name": "Ramen",
+   "products": [
+    {
+     "name": "Shoyu Tonkotsu",
+     "desc": "Ramen congelado con fideos de trigo, Pork Belly, naruto, alga wakame, cebollín y fondo tonkotsu con salsa de soya.",
+     "price": 95,
+     "img": "073cbb5b-6598-4858-a0a7-75757833e911.png"
+    },
+    {
+     "name": "Miso Picante",
+     "desc": "Fideos de trigo con carne de cerdo sazonada, elote dulce, cebollín y vegetales en caldo miso picante.",
+     "price": 95,
+     "img": "54300ab0-2202-4ab9-b648-5f99ea0a96a7.png"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada de atún 280grs",
+     "desc": "Lechuga italiana, jitomate cherry, zanahoria, plumal de cebolla morada, aguacate y medallón de atún. Bañado con aderezo tropical de mango.",
+     "price": 400,
+     "img": "e975faca-5754-40ff-b00f-eb3c6091b625.png"
+    },
+    {
+     "name": "Ensalada Topo (Topolobampo)",
+     "desc": "Lechuga italiana, arándano, hojuela de almendra, pluma de cebolla morada, supremas de mandarinas, perlas de philadelphia. Bañado con aderezo de mango.",
+     "price": 400,
+     "img": "b8c5aff5-f6a7-489d-8192-b8a9514a3058.png"
+    },
+    {
+     "name": "Ensalada de salmón",
+     "desc": "Lechuga italiana, fresa, mango, zanahoria, aguacate, pluma de cebolla morada, cherry, nuez caramelizada, lonja de salmón sazonado con aceite de oliva.",
+     "price": 400,
+     "img": "f6aa0668-7d14-4ba7-ba50-3384b7666c4c.png"
+    },
+    {
+     "name": "Tiradito de atún",
+     "desc": "Finas laminas de atún, serrano, aguacate. Marinado con salsa especial de la casa.",
+     "price": 375,
+     "img": "07041624-6b8e-4107-a4a7-e1fa52c05bd3.png"
+    },
+    {
+     "name": "Tiradito de salmón 280grs",
+     "desc": "Finas laminas de salmón, serrano, aguacate marinado en una salsa especial de la casa.",
+     "price": 425,
+     "img": "af542f0c-11a1-4656-8c31-9a5ccc9c14c0.png"
+    }
+   ]
+  }
+ ]
+}

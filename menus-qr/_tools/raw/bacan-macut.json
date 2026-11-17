@@ -1,0 +1,867 @@
+{
+ "id": 1930489383,
+ "brandName": "Bacán Macut",
+ "name": "Bacán Macut - Badillo",
+ "address": "Bacan Macut,  Avenida 20 de Noviembre 532,  Badillo,  91045 Xalapa de Enríquez, Ver,  México",
+ "schedule": "09:00:00 - 17:00:00",
+ "categories": "Mexicana",
+ "location": [
+  -96.90251,
+  19.52512
+ ],
+ "city": "Xalapa de Enríquez",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/35d9ae47-870e-471d-b45d-ac7b25051ec7-1791855549378.jpeg?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/9cf7a629-04d2-4f16-aed5-4aad30f2a646-1791855550028.jpeg",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "17:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930489383-bacan-macut",
+ "menu": [
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Huevos con machaca",
+     "desc": "Huevos revueltos de 180gr con machaca, cecina o camarón, acompañados de frijol guisado y tortillas de maíz o harina.",
+     "price": 260,
+     "img": "205a9da3-85af-4304-8fa0-b80343007437_a.png"
+    },
+    {
+     "name": "Chile huevillo",
+     "desc": "120gr. Huevos revueltos en salsa martajada, acompañados con frijoles refritos y tortillas.",
+     "price": 250,
+     "img": "0d9069c2-9ef2-487d-b765-bf5194bd888c.jpeg"
+    },
+    {
+     "name": "Huevos con frijoles",
+     "desc": "120gr. Huevos revueltos con frijoles, acompañados con plátano frito, totopos, queso huasteco y tortillas.",
+     "price": 170,
+     "img": "0d9069c2-9ef2-487d-b765-bf5194bd888c_a46.png"
+    },
+    {
+     "name": "Motuleños",
+     "desc": "120gr. Huevos estrellados sobre tortilla frita, bañados en salsa de tomate, con chícharos, jamón y plátano frito, acompañados con frijoles guisados.",
+     "price": 188,
+     "img": "7176a276-3ac4-4975-afd0-440b43ea1f3f.jpeg"
+    },
+    {
+     "name": "Omelette",
+     "desc": "180gr. Clásico omelette de huevo, relleno de: jamón - tocino - chorizo huasteco - queso de hebra - espinaca - champiñón, acompañado de frijoles guisados y tortillas.",
+     "price": 200,
+     "img": "1fd8ecba81d942b5a438f903b3d69cba.png"
+    },
+    {
+     "name": "Rancheros",
+     "desc": "120gr. Huevos estrellados con base de tortilla bañados en salsa campechana, acompañados con frijoles guisados.",
+     "price": 190,
+     "img": "7176a276-3ac4-4975-afd0-440b43ea1f3f_a62.png"
+    },
+    {
+     "name": "Divorciados",
+     "desc": "120gr. Huevos estrellados, bañados en salsa verde (picosita) y roja, acompañados de frijoles guisados y tortillas.",
+     "price": 190,
+     "img": "de24f5be-888c-49ab-9168-19cd0a676601_a16.png"
+    },
+    {
+     "name": "Al gusto",
+     "desc": "180gr. Huevos revueltos con: jamón - tocino - chorizo huasteco - salsa campechana - a la mexicana, acompañados de frijoles guisados y tortillas.",
+     "price": 185,
+     "img": "1709a53ea6054332b01da66e3a81ed4c.png"
+    },
+    {
+     "name": "Estrellados o revueltos natural",
+     "desc": "120gr. Acompañados con pico de gallo, frijoles guisados y tortillas.",
+     "price": 130,
+     "img": "7176a276-3ac4-4975-afd0-440b43ea1f3f_a61.png"
+    }
+   ]
+  },
+  {
+   "name": "Tostadas",
+   "products": [
+    {
+     "name": "Tostada",
+     "desc": "1pz. Tostada untada de frijol acompañada con lechuga, cebolla encurtida, tomate, aguacate, queso y crema: con carne deshebrada de res o pollo.",
+     "price": 95,
+     "img": "25e823925231469599e90b46b2329b17.png"
+    },
+    {
+     "name": "Con pata de res",
+     "desc": "Tostada con pata de res.",
+     "price": 120,
+     "img": "2c5eba82-dd26-455a-b0aa-3c2cb0248e80_a4.png"
+    }
+   ]
+  },
+  {
+   "name": "Picadas",
+   "products": [
+    {
+     "name": "Picada gigante preparada",
+     "desc": "1pz. Con: chicharrón o costilla en salsa roja - cecina- chile huevillo o al gusto - pollo desmenuzado - chorizo huasteco.",
+     "price": 230,
+     "img": "4631286a35d948c8957b7819854e898e.png"
+    },
+    {
+     "name": "Picada sencilla",
+     "desc": "Picada sencilla: 1 pieza de masa untada con manteca, cebolla, queso, frijoles refritos, lechuga y crema. Se acompaña de salsa de tomate, chile verde, mole, chiltepín, campechana, chile color y chile seco.",
+     "price": 25,
+     "img": "d882a5be-34ec-419f-9472-023b75979703.jpeg"
+    },
+    {
+     "name": "Picada preparada",
+     "desc": "1pz. Picada sencilla con carne deshebrada de res - pollo - chorizo huasteco - huevo revuelto - queso de hebra.",
+     "price": 40,
+     "img": "50cee1c47ac84df1a116405f07ab49c8.png"
+    }
+   ]
+  },
+  {
+   "name": "Caldos",
+   "products": [
+    {
+     "name": "Mondongo Orden 500gr.",
+     "desc": "Orden de mondongo (500gr).",
+     "price": 230,
+     "img": "7ee921d8-d8b9-4d8c-a9bd-8b3dd763381a_a2.png"
+    },
+    {
+     "name": "Mondongo 1/2 orden 380gr.",
+     "desc": "Media orden de mondongo (380gr).",
+     "price": 180,
+     "img": "7ee921d8-d8b9-4d8c-a9bd-8b3dd763381a_a1.png"
+    },
+    {
+     "name": "Chileatole Orden 500gr.",
+     "desc": "Chileatole en porción de 500 gramos.",
+     "price": 290,
+     "img": "f1dc856857d24bba863da4c6cc0ffe08.png"
+    },
+    {
+     "name": "Chileatole 1/2 orden 300gr.",
+     "desc": "Media orden de chileatole (300gr).",
+     "price": 190,
+     "img": "a1e395c94b9f43a29fa0bc32326fa389.png"
+    },
+    {
+     "name": "Pozole rojo Orden 500gr.",
+     "desc": "Orden de pozole rojo de 500gr con maíz cacahuazintle, carne, repollo y rábano.",
+     "price": 220,
+     "img": "12c013be140348d59af652cdb2c395d4.png"
+    },
+    {
+     "name": "Pozole rojo 1/2 orden 300gr.",
+     "desc": "Media orden de pozole rojo (300gr).",
+     "price": 160,
+     "img": "12c013be140348d59af652cdb2c395d4.png"
+    },
+    {
+     "name": "Huatape de camarón",
+     "desc": "300gr. Caldo rojo de camarón espeso, con camarón fresco coctelero. Acompañado de tortillas.",
+     "price": 190,
+     "img": "9bb0f75182114f9788f6d23dff826e2f.png"
+    },
+    {
+     "name": "Sopa del día",
+     "desc": "Sopa del día.",
+     "price": 100,
+     "img": "061bc5fc-2a67-4727-a0de-05128935bb7c_a3.png"
+    },
+    {
+     "name": "Sopa del día Con pollo",
+     "desc": "Sopa del día con pollo, brotes de soya, cebollín y cilantro.",
+     "price": 120,
+     "img": "5483904a-6915-4b34-8a8c-d0abb0d60a68.png"
+    }
+   ]
+  },
+  {
+   "name": "Enchiladas",
+   "products": [
+    {
+     "name": "Enchiladas Sencillas 5pz.",
+     "desc": "Cinco enchiladas de pollo deshebrado con salsa roja y queso gratinado.",
+     "price": 90,
+     "img": "3cfa7725-c8f5-40f1-b34f-64353832eab8.jpg"
+    },
+    {
+     "name": "Enchiladas Sencillas 3pz.",
+     "desc": "Tortilla a mano bañada en nuestras salsas: tomate - frijol - chile verde (picosita) - campechana - chiltepín mole; espolvoreadas con queso. Acompañadas con frijoles guisados.",
+     "price": 50,
+     "img": "c036b895714047428117a345591f7e33.png"
+    },
+    {
+     "name": "ENCHILADAS CON CECINA",
+     "desc": "Cecina 150gr. o Chuleta de cerdo 300gr.",
+     "price": 290,
+     "img": "4f211d70-f656-4805-a77c-39a7ce0956c9_a6.png"
+    },
+    {
+     "name": "ENCHILADAS CON ARRACHERA",
+     "desc": "Arrachera 200gr.",
+     "price": 400,
+     "img": "ac8cce07-4df1-489a-874c-962832b0c067.jpeg"
+    },
+    {
+     "name": "ENCHILADAS CON TORTA DE HUEVA",
+     "desc": "Torta de hueva de lisa de Tamiahua 240gr.",
+     "price": 270,
+     "img": ""
+    },
+    {
+     "name": "ENCHILADAS CON CAMARONES",
+     "desc": "Camarones al gusto 160gr.",
+     "price": 290,
+     "img": "c1113c8a-2292-41ba-b525-21b8cd353043.jpeg"
+    },
+    {
+     "name": "ENCHILADAS CON FILETE DE ROBALO",
+     "desc": "Filete de robalo al gusto o lomo de 200gr, acompañado de papas rostizadas y ensalada.",
+     "price": 390,
+     "img": "27252884-aada-4b2a-976e-77005b12aa8c_a13.png"
+    },
+    {
+     "name": "ENCHILADAS CON HUEVO",
+     "desc": "Huevo al gusto 120gr.",
+     "price": 200,
+     "img": "1e256e20-1d7a-4944-bbba-912bd354f72d_a19.png"
+    },
+    {
+     "name": "ENCHILADAS CN POLLO FRITO O DESMENUZADO",
+     "desc": "Pieza de pollo frito o desmenuzado 180gr.",
+     "price": 210,
+     "img": "3c752ec3-f5cb-4606-9caf-97796fe64133_a23.png"
+    },
+    {
+     "name": "ENCHILADAS CON QUESO DE HEBRA",
+     "desc": "Queso de hebra 100gr.",
+     "price": 200,
+     "img": "9ad50e4d93c64b8aba97ddffa6a0bcec.png"
+    },
+    {
+     "name": "ENCHILADAS CON CHORIZO",
+     "desc": "Chorizo Huasteco 150gr.",
+     "price": 260,
+     "img": "60946dd6-6e0c-41e5-8ab1-1fe0662527ae.png"
+    },
+    {
+     "name": "Enchiladas de baile con cecina",
+     "desc": "Enchiladas de baile con cecina. Tortillas bañadas en salsa de chile color sofrita al sartén, cubiertas con queso desmoronado. Acompañadas de ensalada con lechuga, tomate y limón.",
+     "price": 330,
+     "img": "39c6386b-9225-4a5f-b3a0-b00eee891114.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bocoles",
+   "products": [
+    {
+     "name": "Bocoles Sencillos 5pz.",
+     "desc": "Bocoles de masa hechos a mano con manteca de cerdo mezclados con: asientos de chicharrón - manteca de cerdo - frijol con cilantro - manteca de res - nata -olivo, acompañados de frijoles guisados.",
+     "price": 130,
+     "img": "a776ae4d45d34b9da9e7cfec69a5901f.png"
+    },
+    {
+     "name": "Bocoles Sencillos 3pz.",
+     "desc": "Tres bocoles sencillos de masa.",
+     "price": 90,
+     "img": "c4562254c24e467c95becd7510fab32b.png"
+    },
+    {
+     "name": "Bocoles Rellenos 5pz.",
+     "desc": "Nuestros bocoles sencillos hechos a mano rellenos de: pollo - chorizo huasteco - queso - jamón huevo - nata, acompañados de frijoles guisados.",
+     "price": 200,
+     "img": "bb931a14dffb4ea684562a83afffde25.png"
+    },
+    {
+     "name": "Bocoles Rellenos 3pz.",
+     "desc": "Bocoles rellenos. Incluye 3 piezas.",
+     "price": 140,
+     "img": "04a6cf4a-8af1-4369-a0f2-fa6ca50a0464.png"
+    }
+   ]
+  },
+  {
+   "name": "Molotes",
+   "products": [
+    {
+     "name": "Molotes",
+     "desc": "3pz. Rellenos: Queso de hebra - carne deshebrada de res o pollo - acompañados con lechuga, queso, tomate, aguacate y crema.",
+     "price": 120,
+     "img": "2d35905713e04e2d95f2494370cb20ef.png"
+    }
+   ]
+  },
+  {
+   "name": "Platillos",
+   "products": [
+    {
+     "name": "Platillo huasteco",
+     "desc": "2pz de bocoles rellenos, 2pz de enchiladas, 120gr. de cecina, pz de estrujada, acompañado de frijoles guisados.",
+     "price": 340,
+     "img": "cb1c0f4e4e3a4beb9eb939a66f267375.png"
+    },
+    {
+     "name": "Tamal ranchero de puerco",
+     "desc": "200gr. Tamal de masa con carne de cerdo y salsa de chile color.",
+     "price": 45,
+     "img": "9fc5300a-caa1-4036-9e6b-ad5a59d90153_a1.png"
+    },
+    {
+     "name": "Tamal de calabaza con camarón y pipián",
+     "desc": "200gr. Tamal de masa con pasta de calabaza de Castilla, camarón seco molido, pipián, cilantro, con o sin chile. Con ingredientes de la Huasteca.",
+     "price": 50,
+     "img": "d6f788b5737742968894ffcfd25f1b7d.png"
+    },
+    {
+     "name": "Tamal de frijol con costilla de cerdo",
+     "desc": "200gr. Tamal de masa con pasta de frijol de vaina, cilantro, pipián y costilla de cerdo. Con ingredientes de la Huasteca.",
+     "price": 55,
+     "img": "4f28751f-f480-46ee-b4a8-576720a6d433_a1.png"
+    },
+    {
+     "name": "Pique (tamal dulce)",
+     "desc": "100gr. Masa mezclada con asientos de chicharrón y piloncillo.",
+     "price": 40,
+     "img": "ae8a800c23b04b9a8911fe773124583d.png"
+    },
+    {
+     "name": "Machuco",
+     "desc": "300gr. Plátano hembra machacado sazonado con poca manteca, cebolla y asientos de chicharrón.",
+     "price": 45,
+     "img": "bc8c350f63f040cb8e17f21482f3dff1.png"
+    }
+   ]
+  },
+  {
+   "name": "Complementos",
+   "products": [
+    {
+     "name": "Aceite de olivo",
+     "desc": "Aceite de olivo.",
+     "price": 20,
+     "img": ""
+    },
+    {
+     "name": "Frijoles refritos",
+     "desc": "Frijoles refritos.",
+     "price": 45,
+     "img": "b6dcb3ee-f6a7-482c-be23-c75c49a39abc_a16.png"
+    },
+    {
+     "name": "Chiles toreados",
+     "desc": "Chiles serranos asados a la parrilla.",
+     "price": 15,
+     "img": "e791d7c4-a030-4cc3-a30d-f0e8bf1e643e_a13.png"
+    },
+    {
+     "name": "Orden de queso",
+     "desc": "Orden de queso: Porción de queso fundido con aceite condimentado rojizo.",
+     "price": 25,
+     "img": "aeadb278-247e-4241-9caa-ec49fbc8f2e8.jpeg"
+    },
+    {
+     "name": "Vegetales al vapor",
+     "desc": "Selección de vegetales al vapor con brócoli, zanahoria y ejotes.",
+     "price": 45,
+     "img": "0d57379c8c9444ec965b97f15d50b779.png"
+    },
+    {
+     "name": "Orden de tocino",
+     "desc": "Porción de tocino en tiras.",
+     "price": 50,
+     "img": "c83d9c40-301f-45aa-b2ce-1a668e5cc98e_a14.png"
+    },
+    {
+     "name": "Ramekin de frijoles",
+     "desc": "Ramekin de frijoles refritos.",
+     "price": 20,
+     "img": "4ed8b53b5e7542899747cc21d8ac84b9.png"
+    },
+    {
+     "name": "Tortilla de harina",
+     "desc": "Tortilla de harina redonda y delgada.",
+     "price": 15,
+     "img": "cb074e11-c00a-486c-864e-16811f192c67_a10.png"
+    },
+    {
+     "name": "Compota de totopos",
+     "desc": "Compota de totopos crujientes.",
+     "price": 15,
+     "img": "cebbf2d7-c5e7-4db3-b740-9d89a492ae16_a8.png"
+    },
+    {
+     "name": "Ext. baguette",
+     "desc": "Porción de pan baguette tostado, con corteza dorada.",
+     "price": 15,
+     "img": "6478feec-388c-4d94-b535-08d2c8edd5c9_a.png"
+    },
+    {
+     "name": "Orden queso de hebra",
+     "desc": "Porción de queso de hebra (quesillo).",
+     "price": 40,
+     "img": "e905f8ef-7f71-41d5-b2f5-239dff2c12dd.png"
+    },
+    {
+     "name": "1/2 queso de hebra",
+     "desc": "Media porción de queso de hebra. Presentado en su forma trenzada.",
+     "price": 30,
+     "img": "e905f8ef-7f71-41d5-b2f5-239dff2c12dd.png"
+    },
+    {
+     "name": "Ext. de pata",
+     "desc": "Ext. de pata: porción de pata de res cocida.",
+     "price": 55,
+     "img": "8c060389-ddb5-40a8-a66a-ad97bf60e471.png"
+    },
+    {
+     "name": "Ext. pipián grande",
+     "desc": "Extra de salsa pipián verde en porción grande.",
+     "price": 30,
+     "img": "c92bcf1d3eff4b45aca816d731c2a8b9.png"
+    },
+    {
+     "name": "Extra tortillas",
+     "desc": "Tortillas de maíz adicionales para acompañar.",
+     "price": 20,
+     "img": "38147a4c-5576-4008-a5ae-93adbff4f2fc_a1.png"
+    },
+    {
+     "name": "Vaso salsa macha",
+     "desc": "Salsa macha picante con trozos de chiles y semillas.",
+     "price": 80,
+     "img": "4ca2393b4b874d68a25b35fa77ed0c62.png"
+    },
+    {
+     "name": "Totopo ramekin",
+     "desc": "Totopos servidos en ramekin.",
+     "price": 5,
+     "img": "cebbf2d7-c5e7-4db3-b740-9d89a492ae16_a7.png"
+    },
+    {
+     "name": "Ext. un huevo",
+     "desc": "Huevo cocido adicional.",
+     "price": 25,
+     "img": "03978b64-7545-4b7b-bb9f-1c8688cfb7e3_a7.png"
+    },
+    {
+     "name": "1/2 de frijoles",
+     "desc": "Media porción de frijoles refritos.",
+     "price": 20,
+     "img": "b6dcb3ee-f6a7-482c-be23-c75c49a39abc_a17.png"
+    },
+    {
+     "name": "Orden de aguacate",
+     "desc": "Orden de aguacate. Porción en rebanadas.",
+     "price": 35,
+     "img": "8079a285-5cc4-4c37-90fd-aba72e74ae7a_a30.png"
+    },
+    {
+     "name": "Orden de arroz",
+     "desc": "Orden de arroz blanco.",
+     "price": 25,
+     "img": "ee28eba5-20e9-437c-b0d2-6691ff043dda.png"
+    },
+    {
+     "name": "Orden de frijoles",
+     "desc": "Orden de frijoles refritos.",
+     "price": 30,
+     "img": "01ebb143-bacc-41c1-b8bb-6f88bacc7460.jpeg"
+    },
+    {
+     "name": "Orden de guacamole",
+     "desc": "Porción de guacamole con cebolla, tomate y cilantro.",
+     "price": 65,
+     "img": "89b97205-df2e-4578-ac5e-95aadc99d462_a30.png"
+    },
+    {
+     "name": "Borona de chicharrón",
+     "desc": "Porción de chicharrón crujiente.",
+     "price": 20,
+     "img": "4631286a35d948c8957b7819854e898e.png"
+    },
+    {
+     "name": "Ext. pollo desmenuzado",
+     "desc": "Porción de pollo desmenuzado.",
+     "price": 60,
+     "img": "7242bf6991254fccb6d8407d42ad81ff.png"
+    },
+    {
+     "name": "Ramekin media crema",
+     "desc": "Ramekin con media crema de tono claro.",
+     "price": 10,
+     "img": "2f7df8c3f631436f84dfa2419233da46.png"
+    },
+    {
+     "name": "Vaso de leche",
+     "desc": "Vaso de leche.",
+     "price": 40,
+     "img": "9fd89dc8-ec25-415b-b53a-7850abdeb7ff_a5.png"
+    }
+   ]
+  },
+  {
+   "name": "Del mar",
+   "products": [
+    {
+     "name": "LOMO DE ROBALO",
+     "desc": "Lomo de robalo (200g) a la veracruzana con aceitunas, chiles en rajas y almendras fileteadas. Puedes elegirlo también en crema de cilantro. Acompañado de arroz y pan.",
+     "price": 385,
+     "img": "3b4ec1c5-3f2a-4a15-ad3f-2d34d5062722_a16.png"
+    },
+    {
+     "name": "Filete de robalo al gusto",
+     "desc": "200gr. Robalo fresco, frito - a la plancha - al mojo de ajo - empanizado - sazonado con chile seco - enchipotlado - al chiltepín - mantequilla. Acompañado de arroz y ensalada.",
+     "price": 350,
+     "img": "8ba8cd20-468e-4f86-8f69-f0ac873751fd_a9.png"
+    },
+    {
+     "name": "TORTA DE HUEVA CON ENSALADA Y ARROZ",
+     "desc": "Torta de hueva de lisa de la laguna de Tamiahua, 300 gramos.",
+     "price": 220,
+     "img": "f0cadb6cea64434e906ab55b601a99c4.png"
+    },
+    {
+     "name": "Salmón",
+     "desc": "180gr. Sazonado con especias, acompañado de arroz y ensalada de cebolla encurtida, aguacate y chile jalapeño.",
+     "price": 390,
+     "img": "9039f36a-14a4-4921-be4d-e6f7199ebd23_a11.png"
+    },
+    {
+     "name": "Camarones al coco",
+     "desc": "290gr. Acompañados de arroz y aderezo de tamarindo.",
+     "price": 390,
+     "img": "eee5a0d2-fc23-40ad-8a95-841a401940b5_a7.png"
+    },
+    {
+     "name": "Camarones al gusto",
+     "desc": "160gr. Frito- a la plancha - al mojo de ajo - empanizados - sazonado con chile seco - enchipotlados - al chiltepín - mantequilla. Acompañados de arroz y ensalada.",
+     "price": 350,
+     "img": "4f53ba10-424b-4a4a-aa10-ff310a233e18.jpeg"
+    },
+    {
+     "name": "COCTEL CHICO",
+     "desc": "Coctel pequeño de camarón, pulpo o jaiba, con aguacate y cilantro.",
+     "price": 110,
+     "img": "6a5ee865-0819-4aa8-aa86-46d1563e8cae.jpeg"
+    },
+    {
+     "name": "COCTEL GRANDE",
+     "desc": "Coctel GRANDE de camarón, pulpo o jaiba. Preparado con aguacate y cilantro.",
+     "price": 190,
+     "img": "6a5ee865-0819-4aa8-aa86-46d1563e8cae.jpeg"
+    },
+    {
+     "name": "COCTEL JUMBO",
+     "desc": "Coctel de camarón, pulpo o jaiba en tamaño JUMBO.",
+     "price": 210,
+     "img": "5f1cd269-124b-4123-b95a-83de810e94f0_a20.png"
+    }
+   ]
+  },
+  {
+   "name": "¡De la huasteca a tu mesa!",
+   "products": [
+    {
+     "name": "ESTRUJADAS Sencilla",
+     "desc": "120gr. Tradicional tortilla gorda a mano, estrujada, untada con manteca de cerdo y sal, bañada con salsa: chile verde (picosita) - tomate - chiltepín - salsa campechana - frijol -mole natural, espolvoreado con queso. Acompañados de frijoles guisados.",
+     "price": 120,
+     "img": "a2dd3ec0fd94401e894ae98e1b520c8f.png"
+    },
+    {
+     "name": "ESTRUJADA CON CECINA",
+     "desc": "Cecina 150gr o Chuleta 300gr, acompañada con limón en gajos.",
+     "price": 380,
+     "img": "68254d6d-e429-4b0b-bd9c-32ae83febaa1_a7.png"
+    },
+    {
+     "name": "ESTRUJADA CON ARRACHERA",
+     "desc": "Arrachera 200gr.",
+     "price": 400,
+     "img": "ac8cce07-4df1-489a-874c-962832b0c067.jpeg"
+    },
+    {
+     "name": "ESTRUJADA CON TOTA DE HUEV A",
+     "desc": "Torta de hueva de lisa de Tamiahua 240gr.",
+     "price": 300,
+     "img": "94ad9e83a307404aa1d26f3553eeb4d4.png"
+    },
+    {
+     "name": "ETSRUJADA CON CAMARONES",
+     "desc": "Acompañada: Camarones al gusto, 160gr.",
+     "price": 380,
+     "img": "66c30d15-8b05-414f-9178-eb9f309d39a9.jpeg"
+    },
+    {
+     "name": "ETSRUJADA CON FILETE DE ROBALO",
+     "desc": "Filete de robalo al gusto o lomo 200gr.",
+     "price": 400,
+     "img": "27252884-aada-4b2a-976e-77005b12aa8c_a14.png"
+    },
+    {
+     "name": "ESTRUJADA CON HUEVO AL GUSTO",
+     "desc": "Huevo al gusto de 120gr. Preparado como omelette.",
+     "price": 210,
+     "img": "1e256e20-1d7a-4944-bbba-912bd354f72d_a21.png"
+    },
+    {
+     "name": "ESTRUJADA CON POLLO FRITO O DESMENUZADO",
+     "desc": "Pieza de pollo frito o desmenuzado 180gr.",
+     "price": 260,
+     "img": "3c752ec3-f5cb-4606-9caf-97796fe64133.jpeg"
+    },
+    {
+     "name": "ESTRUJADA CON CHORIZO",
+     "desc": "Chorizo huasteco 150gr.",
+     "price": 280,
+     "img": "60946dd6-6e0c-41e5-8ab1-1fe0662527ae.png"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles sencillos",
+     "desc": "Salsa de tomate - campechana - verdes (picosita) - divorciados. Con queso huasteco, crema, aguacate, rodajas de cebolla morada, acompañados de frijoles guisados.",
+     "price": 180,
+     "img": "03949658-95bc-46a8-99ed-bb4c36b9e029_a79.png"
+    },
+    {
+     "name": "Chilaquiles preparados",
+     "desc": "Chilaquiles sencillos con pollo deshebrado - huevo revuelto - huevo estrellado, acompañados de frijoles guisados.",
+     "price": 220,
+     "img": "03949658-95bc-46a8-99ed-bb4c36b9e029_a81.png"
+    },
+    {
+     "name": "CHILAQUILES CON CECINA",
+     "desc": "Chilaquiles con cecina.",
+     "price": 280,
+     "img": ""
+    },
+    {
+     "name": "CHILAQUILES ESPECIALES CON CECINA",
+     "desc": "Chilaquiles de mole o frijol, sazonado con chile seco acompañado de cecina en cubos.",
+     "price": 290,
+     "img": "a6b0e01a-a4e4-40a9-b185-fc61583cbb5f_a95.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Nieves del güero güero en copa",
+     "desc": "Sabores disponibles: Fresa, mamey, guanábana, chocolate, limón y coco.",
+     "price": 80,
+     "img": "aa8772bc-8c3f-4335-8ab3-37e45a16854d.jpeg"
+    },
+    {
+     "name": "Champola",
+     "desc": "Champola con sabores a elegir: fresa, mamey, guanábana, chocolate o coco.",
+     "price": 90,
+     "img": "33d99a91696042849b344f1e01bf74b1.png"
+    },
+    {
+     "name": "Natilla de vainilla",
+     "desc": "Natilla de vainilla de 160gr, espolvoreada con canela y coco rallado.",
+     "price": 65,
+     "img": "caceeab5-63d4-4bd0-9242-40d8b302810e_a.png"
+    },
+    {
+     "name": "Flan napolitano",
+     "desc": "Flan napolitano de 120gr. con cobertura de caramelo.",
+     "price": 65,
+     "img": "566cec30-fbf2-4bf8-97cd-19558342294c_a8.png"
+    },
+    {
+     "name": "Plátanos fritos",
+     "desc": "190gr. Acompañados de queso y crema.",
+     "price": 70,
+     "img": "6f87d2a3-3026-447e-8483-4d34309c538a_a22.png"
+    },
+    {
+     "name": "Pan dulce",
+     "desc": "Pan dulce con cubierta de azúcar.",
+     "price": 20,
+     "img": "cb03bfdb-4977-4bbf-9a58-e60cf11c8a75.png"
+    }
+   ]
+  },
+  {
+   "name": "Menú infantil",
+   "products": [
+    {
+     "name": "Nuggets de pollo con papas",
+     "desc": "Nuggets de pollo de la casa dorados, acompañados de papas a la francesa.",
+     "price": 190,
+     "img": "b3f958bc-ff19-487e-a8e9-4cdd42366ae1_a31.png"
+    },
+    {
+     "name": "Nuggets de pollo",
+     "desc": "Nuggets de pollo, porción de 200 gramos.",
+     "price": 120,
+     "img": "b3f958bc-ff19-487e-a8e9-4cdd42366ae1_a30.png"
+    },
+    {
+     "name": "Orden de papas a la francesa",
+     "desc": "200gr.",
+     "price": 140,
+     "img": "0a1e81d7-0688-40d1-a638-a38149864980_a27.png"
+    },
+    {
+     "name": "Hot cakes minis",
+     "desc": "Hot cakes minis, tres piezas. Acompañados de mantequilla, mermelada, lechera, miel de maple o miel de abeja.",
+     "price": 100,
+     "img": "eeeb81a7-3a8c-4cab-8696-f852db6fe502_a62.png"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Kicha nenek (buen día)",
+     "desc": "120gr. Mix de lechugas acompañadas de manzana, queso de cabra, nuez, arándanos y jitomate.",
+     "price": 180,
+     "img": "dfe749dbc32141d6becff66923497e1a.png"
+    },
+    {
+     "name": "Bakambe (semillas)",
+     "desc": "120gr. Mix de lechugas con pera, ajonjolí, pepino, zanahoria, queso de cabra y pepita de calabaza.",
+     "price": 180,
+     "img": "9d5c654545314ed08f87ae97c26ca24f.png"
+    },
+    {
+     "name": "ensalada con pollo",
+     "desc": "Bakambe CON POLLO con semillas de sésamo, pimientos y cebollín. Porción de 100gr.",
+     "price": 220,
+     "img": "6da3a5d7-ada5-4120-93f3-6e327f523cdc_a.png"
+    },
+    {
+     "name": "ENSALADA CON CECINA",
+     "desc": "Bakambe (semillas) con cecina de res, 100gr.",
+     "price": 250,
+     "img": "06be94d7-d9d7-43d3-bf4c-4c76409a0e4a.png"
+    },
+    {
+     "name": "ENSALADA CON ARRACHERA",
+     "desc": "Bakambe (semillas) con arrachera, 100gr. Lleva ajonjolí negro, ajonjolí blanco y cebollín.",
+     "price": 300,
+     "img": "afba5137-0f63-4a46-81cb-b4caf42b2cc0.png"
+    }
+   ]
+  },
+  {
+   "name": "De nuestra casa",
+   "products": [
+    {
+     "name": "Queso asado",
+     "desc": "150gr. Cuadritos de queso asadero, acompañado de salsa macha y tortilla.",
+     "price": 140,
+     "img": "d22b0f85-9a19-47e2-b28b-04de36ddbb2d_a5.png"
+    },
+    {
+     "name": "Costilla de cerdo Platillo",
+     "desc": "Costilla de cerdo de 300gr, bañada en salsa.",
+     "price": 290,
+     "img": "3a06930a-918e-44a0-9e11-e8ae51d4aba7.jpeg"
+    },
+    {
+     "name": "COSTILLA EN SALSA TACO",
+     "desc": "Taco de costilla de cerdo de 80gr.",
+     "price": 120,
+     "img": "8c25a587-da2d-4376-8122-67c61463ec4c.jpeg"
+    },
+    {
+     "name": "Chicharrón en salsa Platillo",
+     "desc": "Chicharrón en salsa roja (300gr.) acompañado de arroz blanco.",
+     "price": 320,
+     "img": "f6eecac31df54881a3a3fa18512e65d9.png"
+    },
+    {
+     "name": "Chicharrón en salsa Taco",
+     "desc": "Chicharrón en salsa Taco de 80gr.",
+     "price": 110,
+     "img": "4631286a35d948c8957b7819854e898e.png"
+    },
+    {
+     "name": "Pollo frito",
+     "desc": "150gr. Pieza de pollo frito con arroz, ensalada y tortillas.",
+     "price": 135,
+     "img": "3c752ec3-f5cb-4606-9caf-97796fe64133_a22.png"
+    },
+    {
+     "name": "Pollo con mole",
+     "desc": "180gr. Pierna y muslo acompañado de arroz, frijol guisado y tortillas.",
+     "price": 200,
+     "img": "917e582116bb46a48da7dadbb42e790f.png"
+    },
+    {
+     "name": "Cecina de res",
+     "desc": "140gr. Acompañada con arroz, ensalada, frijoles guisados y tortillas.",
+     "price": 260,
+     "img": "68254d6d-e429-4b0b-bd9c-32ae83febaa1_a6.png"
+    },
+    {
+     "name": "Chiles rellenos En caldo o seco 3pz",
+     "desc": "Tres piezas de chiles rellenos, servidos en caldo o secos.",
+     "price": 220,
+     "img": "5cc600c50a194cb7bf277d467eb27627.png"
+    },
+    {
+     "name": "Chiles rellenos 1pz en seco con frijoles",
+     "desc": "Chile relleno (1 pieza) en seco con carne molida y queso, acompañado de frijoles.",
+     "price": 80,
+     "img": "2133675cafdf4257af54eb1383c87f85.png"
+    },
+    {
+     "name": "Arrachera",
+     "desc": "200gr. Jugosa arrachera acompañada de guacamole, frijoles refritos, chiles toreados y tortillas.",
+     "price": 390,
+     "img": "ac8cce07-4df1-489a-874c-962832b0c067.jpeg"
+    },
+    {
+     "name": "Chuleta de cerdo",
+     "desc": "300gr. Jugosa chuleta fresca frita acompañada con arroz, ensalada, frijoles guisados y tortillas.",
+     "price": 290,
+     "img": "001a21a1-81e4-49eb-bf85-bd51175cc2ca_a8.png"
+    },
+    {
+     "name": "Orden de chorizo huasteco",
+     "desc": "150gr. Acompañado de frijoles guisados y tortillas.",
+     "price": 210,
+     "img": "75d797faf6314e2398b0b34fed39604a.png"
+    },
+    {
+     "name": "Fetuccini acompañado de camarones",
+     "desc": "200gr. Pasta con camarones a la mantequilla, al mojo de ajo o al chile seco.",
+     "price": 320,
+     "img": "0c8ca5e1a0b6499eb5168d6ada0cfcbb.png"
+    },
+    {
+     "name": "Fetuccini Con salmón",
+     "desc": "Fetuccini con camarones y salmón.",
+     "price": 390,
+     "img": "ee283dc4f27c4c23a30e1aa5234f5d2b.png"
+    },
+    {
+     "name": "Fetuccini Con arrachera",
+     "desc": "Fetuccini con camarones y arrachera.",
+     "price": 400,
+     "img": "cb185d1e660d4c56b70bd25fe6d6cdaa.png"
+    },
+    {
+     "name": "Fetuccini Con pollo",
+     "desc": "Fetuccini con camarones y pollo.",
+     "price": 300,
+     "img": "2100eb8a-1b54-4cdd-96d7-156c23069506.jpeg"
+    }
+   ]
+  }
+ ]
+}
