@@ -1,0 +1,234 @@
+{
+ "id": 1923595575,
+ "brandName": "Birria Tatemada El Laberinto Matriz",
+ "name": "Birria Tatemada El Laberinto Matriz - Aguascalientes Centro",
+ "address": "Mercado Juarez, Pzla. Juarez 9, Zona Centro, 20000 Aguascalientes, Ags., México",
+ "schedule": "09:00:00 - 15:00:00",
+ "categories": "Barbacoa y Birria · Mexicana",
+ "location": [
+  -102.298563256373,
+  21.883782207769
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/lacabra009l-1779118704156.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1778265376211.jpg",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "15:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923595575-birria-tatemada-el-laberinto-matriz",
+ "menu": [
+  {
+   "name": "Consomé",
+   "products": [
+    {
+     "name": "Litro Preparado",
+     "desc": "Litro de consomé preparado.",
+     "price": 68,
+     "img": "dd821b0a418c4b37a6ed74f1b7e4d3b1.png"
+    },
+    {
+     "name": "Medio Litro Preparado",
+     "desc": "Medio litro de consomé preparado con trozos de carne, papa, zanahoria y hierbas.",
+     "price": 34,
+     "img": "6f62b176-0ba0-49f5-a10d-6a2748f5adb1.jpeg"
+    },
+    {
+     "name": "Medio Litro Natural",
+     "desc": "Medio litro de consomé natural.",
+     "price": 27,
+     "img": "f5ae098b9bc94729b316ee054a28abe8.png"
+    },
+    {
+     "name": "Litro Natural",
+     "desc": "Litro Natural: Consomé natural.",
+     "price": 54,
+     "img": "8f6b212b586e4280ae32e5c1acd5945f.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortillas Salsas",
+   "products": [
+    {
+     "name": "Medio Kilo Tortillas",
+     "desc": "Medio kilo de tortillas.",
+     "price": 20,
+     "img": "8f4df38c-9748-448a-85eb-f78bc2626c44_a.png"
+    },
+    {
+     "name": "Frasco Morita",
+     "desc": "Frasco de salsa macha de chile morita.",
+     "price": 162,
+     "img": "37d9d5422f6246bc8f20bb024a92953b.png"
+    },
+    {
+     "name": "Kilo de Tortillas",
+     "desc": "Tortillas. Cantidad de 1 kilogramo.",
+     "price": 41,
+     "img": "bc8eaf83-c6fc-4936-907d-9f83f28ab83b_a.png"
+    },
+    {
+     "name": "Salsa Chile Morita",
+     "desc": "Salsa macha de chile morita con trozos de chile.",
+     "price": 20,
+     "img": "94b1f29b-8034-4d44-a82e-777dba9e22f4_a.png"
+    },
+    {
+     "name": "Salsa Chile Árbol",
+     "desc": "Salsa macha de chile de árbol.",
+     "price": 20,
+     "img": "e768c17d-8b9f-4f41-941b-f7531bc90342_a.png"
+    },
+    {
+     "name": "Frasco Árbol",
+     "desc": "Frasco de salsa macha de chile de árbol.",
+     "price": 162,
+     "img": "789a809c-543e-4fca-af4c-eed294987ede_a2.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Del Valle Durazno 413 ml",
+     "desc": "Néctar Del Valle sabor durazno de 413 ml.",
+     "price": 41,
+     "img": "d3167b5c-a268-4b84-ad79-a9eedec7d7d4.png"
+    },
+    {
+     "name": "Del Valle Mango 413 ml",
+     "desc": "Néctar Del Valle sabor mango de 413 ml.",
+     "price": 41,
+     "img": "3bcc4887-200a-4d1d-8d30-da8bdfff816c.jpeg"
+    },
+    {
+     "name": "Del Valle Manzana 413 ml",
+     "desc": "Jugo Del Valle de manzana de 413 ml. Hecho con 100% puro jugo de manzana, sin conservadores.",
+     "price": 41,
+     "img": "87e5a450-15d9-447b-afaa-bdcfa871ed3f.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Platos Refresco",
+   "products": [
+    {
+     "name": "Plato Chico",
+     "desc": "Plato chico de birria con refresco y consomé.",
+     "price": 149,
+     "img": "fd5c25d8-ae29-42c6-b472-e191b740b741_a.png"
+    },
+    {
+     "name": "Plato Mediano",
+     "desc": "Plato mediano de birria con refresco y consomé.",
+     "price": 176,
+     "img": "8016589e-8fe6-4efd-8214-78de6a05df98.jpeg"
+    },
+    {
+     "name": "Plato Grande",
+     "desc": "Plato grande de birria con refresco y consomé.",
+     "price": 189,
+     "img": "26b49b0d5031411dbec6e4a5cd2ed9f2.png"
+    }
+   ]
+  },
+  {
+   "name": "Platos sin",
+   "products": [
+    {
+     "name": "Plato Chico",
+     "desc": "Plato Chico de birria con cebolla y cilantro, sin refresco.",
+     "price": 135,
+     "img": "9432fade7f75427eaf36959195065c2d.png"
+    },
+    {
+     "name": "Plato Mediano",
+     "desc": "Plato Mediano de birria, sin refresco. Incluye cebolla, cilantro, limones y tortillas de maíz.",
+     "price": 162,
+     "img": "168ec027-a51c-47cd-9302-c5100a1d7df1_a.png"
+    },
+    {
+     "name": "Plato Grande",
+     "desc": "Plato Grande de birria con cebolla, cilantro y consomé. No incluye refresco.",
+     "price": 176,
+     "img": "fa46dbd0e637481f8d97f01075aeacf3.png"
+    }
+   ]
+  },
+  {
+   "name": "Birria Peso",
+   "products": [
+    {
+     "name": "Kilo de Birria",
+     "desc": "Kilo completo de birria de carne deshebrada.",
+     "price": 878,
+     "img": "e929e383-b179-4ba4-be8c-c739253717c5_a.png"
+    },
+    {
+     "name": "Cuarto Kilo Birria",
+     "desc": "Un cuarto de kilo de birria, acompañada de cebolla, cilantro y limón.",
+     "price": 223,
+     "img": "9ca05871-2976-4dd5-b083-960634fae8d2.jpeg"
+    },
+    {
+     "name": "Medio Kilo Birria",
+     "desc": "Medio kilo de birria deshebrada.",
+     "price": 439,
+     "img": "5285e5910775430fa27df265db3cfdf2.png"
+    },
+    {
+     "name": "Tres Cuartos Birria",
+     "desc": "Tres cuartos de kilo de birria.",
+     "price": 659,
+     "img": "c18c848a-7637-475c-9093-19e9e6b8273c_a.png"
+    },
+    {
+     "name": "Kilo de Macho",
+     "desc": "Kilo completo de macho.",
+     "price": 878,
+     "img": "92767168118a4e4a9d10be00b16005c0.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco de Birria",
+     "desc": "Taco tradicional de birria.",
+     "price": 34,
+     "img": "b50c13b1-b7b9-4376-914f-502921600472_a.png"
+    },
+    {
+     "name": "Quesabirria",
+     "desc": "Taco de birria con queso.",
+     "price": 54,
+     "img": "1dd58e71-e60d-4464-a1bc-c809af025147.jpeg"
+    },
+    {
+     "name": "Taco de Macho",
+     "desc": "Taco preparado con macho.",
+     "price": 41,
+     "img": "84a08272-c9c7-4eb8-9be9-4314eb36d2c9_a.png"
+    },
+    {
+     "name": "Bolillo con Queso",
+     "desc": "Bolillo de birria con queso.",
+     "price": 108,
+     "img": "b98a6085-43db-4e76-9450-14aafaeae8a7.jpeg"
+    },
+    {
+     "name": "Bolillo de Birria",
+     "desc": "Bolillo relleno de birria, lechuga, aguacate y salsa.",
+     "price": 95,
+     "img": "3eac3476-dcf7-4835-8583-8a7d3707986e_a.png"
+    }
+   ]
+  }
+ ]
+}

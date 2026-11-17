@@ -1,0 +1,323 @@
+{
+ "id": 1923214169,
+ "brandName": "Lonches Lisboa",
+ "name": "Lonches Lisboa - del Fresno",
+ "address": "Calle Fresno 2001 Esquina Con Calle Naranjo, Col. Del Fresno C.P. 44900 Guadalajara, Jal.   Guadalajara ",
+ "schedule": "09:00:00 - 22:45:00",
+ "categories": "Tortas y Sandwiches · Mexicana",
+ "location": [
+  -103.371017,
+  20.657594725607
+ ],
+ "city": "Guadalajara",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/loncheslisboalogo1-1760319360922.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/homelisboa1-1760319362803.png",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "22:45:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923214169-lonches-lisboa",
+ "menu": [
+  {
+   "name": "Combos",
+   "products": [
+    {
+     "name": "Combo Hamburguesa Queso Amarillo",
+     "desc": "Papas, bebida a elegir y hamburguesa con carne 100% de res, pan artesanal y queso amarillo, elaborada en nuestra parrilla con un chimichurri de la casa, verduras, catsup , aderezos",
+     "price": 220,
+     "img": "34d2cacc-2572-444b-9c43-d399dc72c17a.jpeg"
+    },
+    {
+     "name": "Combo Hamburguesa Queso Mozzarella",
+     "desc": "Papas, bebida a elegir y hamburguesa con carne 100% de res, con un pan artesanal y queso mozzarella, elaborada en nuestra parrilla con un chimichurri de la casa, verduras, catsup , aderezos",
+     "price": 220,
+     "img": "2f8d0541-d9de-45d9-a88a-6ef36bc6bec9.jpeg"
+    },
+    {
+     "name": "Combo Lonche de Pierna",
+     "desc": "Papas, bebida a elegir y lonche (18 cms) caliente de pierna fileteada y adobada con salsa especial de la casa, acompañada con crema, frijol, cebolla, jitomate y para dar un toque picosito una rica salsa de chile de árbol, con la receta 100% original desde 1972, su sabor te hará volver!",
+     "price": 213,
+     "img": "cf86bb6e-0f17-4256-9752-6fa712a2bcf3.jpeg"
+    },
+    {
+     "name": "Combo Lonche Mixto",
+     "desc": "Papas, bebida a elegir y lonche (18 cms) caliente, lo mejor de dos ingredientes, pierna fileteada y adobada con la salsa especial de la casa y exquisita panela a la plancha  acompañada con salsa de la casa con crema, frijol, cebolla, jitomate y para dar un toque picosito una rica salsa de chile de árbol, con la receta 100% original desde 1972, su sabor te hará volver!",
+     "price": 236,
+     "img": "9ef44161-dcf8-441c-85a2-4afc5751feb9.jpeg"
+    },
+    {
+     "name": "Combo Lonche Milanesa de Res",
+     "desc": "Papas, bebida a elegir y lonche  (18 cms) caliente de Milanesa de Res, acompañado con crema, frijol, cebolla, jitomate y para dar un toque picosito una rica salsa de chile de árbol, con la receta 100% original desde 1972, su sabor te hará volver!",
+     "price": 236,
+     "img": "7b091903-d6d6-4e3a-baae-fb301751b360.jpeg"
+    },
+    {
+     "name": "Combo Lonche de Pollo Empanizado",
+     "desc": "Papas y bebida a elegir, lonche (18 cms) caliente con milanesa de pollo, con frijolitos y crema, aderezo ranch, lechuga crujiente, salas de la casa, jitomate, cebolla y rico chile jalapeño o de arbol.",
+     "price": 236,
+     "img": "7b091903-d6d6-4e3a-baae-fb301751b360.jpeg"
+    },
+    {
+     "name": "Combo Lonche de Asada",
+     "desc": "Papas y bebida a elegir, lonche (18 cms) caliente con un jugoso bistec a la plancha con frijolitos, aderezo ranch, lechuga crujiente, salsa de la casa, jitomate, cebolla y rcico chile jalapeño o de arbol",
+     "price": 236,
+     "img": "25d885d1-af25-42e6-b861-f99503e3dc6c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Molletes dulces",
+     "desc": "Bolillo calentado a la plancha cubierto de mantequilla, azucal acompañados de cajeta o mermelada de fresa.",
+     "price": 80,
+     "img": "d842b6ae-b2b3-4ba2-810f-4d2dffed8222.png"
+    },
+    {
+     "name": "Molletes Salados",
+     "desc": "Bolillo calentado a la plancha. Con una cama de frijoles, queso fundido enzima con pico de gallo",
+     "price": 93,
+     "img": "89539e85-3436-4cf0-aac9-e551dee6ec60.jpeg"
+    },
+    {
+     "name": "Chilaquiles Rojos",
+     "desc": "Ricas tortilllas doradas con salasa de chile mirasol sazonados de una manera que vas a querer comerlos todos coronados con crema, cebolla y queso cotija con frijolescalientitos.",
+     "price": 107,
+     "img": "1e272eda-67fa-409b-b270-78058a951682.jpeg"
+    },
+    {
+     "name": "Chilaquiles con Pollo",
+     "desc": "Ricas tortilllas doradas con salasa de chile mirasol sazonados de una manera que vas a querer comerlos todos coronados con crema, cebolla y queso cotija con frijolescalientitos.",
+     "price": 140,
+     "img": "b151214e-ca2b-48d2-98e6-fb40815dcb2c.jpeg"
+    },
+    {
+     "name": "Huevos al Gusto",
+     "desc": "Huevos cocinados según el antojo de cada uno, a la mexicana, con jamón , con chorizo, rancheros, revueltos, con tocino, salchicha, estrellados acompañados de dos guarniciones del día (chilaquiles y frijol)",
+     "price": 113,
+     "img": "c5c0d6c6-748e-45bf-a7cf-e8e9c4759f0c.jpeg"
+    },
+    {
+     "name": "Omellet",
+     "desc": "Omelette cocinados según el antojo de cada uno, a la mexicana, con jamón , con chorizo, rancheros, revueltos, con tocino, salchicha, con queso, con queso y champiñon, con panela acompañados de dos guarniciones del día (chilaquiles y frijol).",
+     "price": 133,
+     "img": "dabfb8ed-5b57-4e79-86f7-89d125b56c4d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Papas a la Francesa",
+     "desc": "Exquisitas papas delgadas doraditas por fuera y blanditas por dentro sazonadas con pimienta limón y sal.",
+     "price": 67,
+     "img": "7ba84497-6164-4c62-958f-cff526bdbe53.jpeg"
+    },
+    {
+     "name": "Lonche de Pierna",
+     "desc": "Lonche caliente de pierna fileteada adobada, crema, frijol, cebolla, jitomate y salsa de chile de árbol",
+     "price": 113,
+     "img": "b1233113-3ef2-468d-a893-f3ec348983e3.png"
+    },
+    {
+     "name": "Lonche de Panela",
+     "desc": "Lonche caliente de panela asada, crema, frijol, cebolla, jitomate y salsa de chile de árbol",
+     "price": 113,
+     "img": "d1ec1a81-f4b9-4f24-95b4-6acba858a4cc.png"
+    },
+    {
+     "name": "Hamburguesa Queso Mozzarella",
+     "desc": "Hamburguesa con carne  100% de res,  con un pan artesanal y queso mozzarella, elaborada en nuestra parrilla con un chimichurri de la casa, verduras, catsup , aderezos",
+     "price": 127,
+     "img": "65cc09aa-5b9f-4fc1-8852-f0fdd09beac3.png"
+    },
+    {
+     "name": "Hamburguesas Sencillas con Queso Amarillo",
+     "desc": "Hamburguesa de carne molida de res, crema, mostaza, ketchup, jitomate, jalapeño y lechuga",
+     "price": 127,
+     "img": "8713036b-a117-49f4-857c-04994c3dbf49.png"
+    },
+    {
+     "name": "Hamburguesa de Pollo Empanizado",
+     "desc": "Hamburguesa de pollo empanizado, aderezada con crema, mostaza y catsup, acompañada de vegetales como jitomate, cebolla, lechuga y jalapelo. montada sobre un delicioso pan de chipotle artesanal.",
+     "price": 127,
+     "img": "5841ad20-1ed1-46e9-881a-0815ba5c23c8.png"
+    },
+    {
+     "name": "Lonche de Milanesa de Pollo",
+     "desc": "Lonche caliente con milanesa de pollo con frijolitos, crema, lechuga, aderezo ranch, jitomate, cebolla, chiles jalapeños y salsa de chile de árbol",
+     "price": 140,
+     "img": "7fc6e90b-f59e-41df-9a82-950e3d7de173.png"
+    },
+    {
+     "name": "Lonche de Asada",
+     "desc": "Lonche caliente con bistec a la plancha, frijolitos, crema, lechuga, aderezo ranch,  jitomate, cebolla, chiles jalapeños y salsa de chile de árbol",
+     "price": 140,
+     "img": "9f9313db-678b-4729-90f9-89951d8f462d.png"
+    },
+    {
+     "name": "Lonche Mixto",
+     "desc": "Lonche caliente de pierna fileteada adobada, panela, crema, frijol, cebolla, jitomate y salsa de chile de árbol",
+     "price": 140,
+     "img": "e9b834de-2ede-4cfb-9ca8-b21b9619e2af.png"
+    },
+    {
+     "name": "Lonche de Milanesa de Res",
+     "desc": "Lonche caliente con milanesa de res con frijolitos, crema, lechuga, aderezo ranch, jitomate, cebolla, chiles jalapeños y salsa de chile de árbol",
+     "price": 140,
+     "img": "63d8e1a0-1bfa-4adc-9cf0-4445cd197ab4.png"
+    }
+   ]
+  },
+  {
+   "name": "Comida",
+   "products": [
+    {
+     "name": "Chamorro",
+     "desc": "Chamorro en adobo",
+     "price": 160,
+     "img": "3d31c271-ef70-438f-afe4-98d5dfb7159a.jpeg"
+    },
+    {
+     "name": "Filete de Pollo Empanizado",
+     "desc": "Filete de pollo empanizado , acompañado de pasta spaguetti, frijolitos del dia y verduras cocidas al vapor.",
+     "price": 160,
+     "img": "fb898e3e-b542-4029-ad50-2a38ce99ded0.jpeg"
+    },
+    {
+     "name": "Filete de Pollo a la Plancha",
+     "desc": "Filete de pollo cocinado a la plancha, sazonado con chimichurri , acompañado de pasta spaguetti, frijolitos del dia y verduras cocidas al vapor.",
+     "price": 160,
+     "img": "a29f8bc8-f8db-490a-9725-3501f9c69ea9.jpeg"
+    },
+    {
+     "name": "Carne Asada",
+     "desc": "Bistec de res sazonado con chimichurri, , acompañado de frijolitos del dia, papas a la francesa y verduras cocidas al vapor.",
+     "price": 160,
+     "img": "9737741d-b636-485a-8498-2920ac948047.jpeg"
+    },
+    {
+     "name": "Milanesa de Res",
+     "desc": "Milanesa de res empanizada, acompañado de pasta spaguetti, frijolitos del dia y verduras cocidas al vapor.",
+     "price": 160,
+     "img": "d2f47ebd-6ad8-4e6d-900d-8bd98216494a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Cena",
+   "products": [
+    {
+     "name": "Flautas",
+     "desc": "Taco dorado de maiz con tortilla especial, más grande que un taco dorado, rellenos de frijol, papa, pierna, requeson o rajitas de chile poblano con lechuga fresca, salsa y queso cotija (3 pzas)",
+     "price": 100,
+     "img": "acc634df-60d6-4d36-9bd5-2c86cc7527d6.jpeg"
+    },
+    {
+     "name": "Enchiladas",
+     "desc": "Tortilla especial de maiz adobada en salsa de chile mirasol y otros condimentos con relleno de frijol, papa, pierna, requeson o rajitas de chile poblano con lechuga fresca, salsa y queso cotija (4 pzas)",
+     "price": 107,
+     "img": "982548ea-1394-4ba7-9369-54701d5aa6ba.jpeg"
+    },
+    {
+     "name": "Tacos Dorados",
+     "desc": "Tacos de tortilla de maiz frita de frijol, papa, pierna, requeson o rajitas de chile poblano con lechuga fresca, salsa y queso cotija (4 pzas)",
+     "price": 107,
+     "img": "2331bed9-ea66-4e52-a877-573baab90ad1.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Complementos",
+   "products": [
+    {
+     "name": "Orden de Quesadillas ( 2pz)",
+     "desc": "Ricas quesadillas con tortilla de maiz y queso adobera. ( 2 unidades).",
+     "price": 60,
+     "img": "4910b018-eff1-498b-a66c-c5eeafb20a2e.jpeg"
+    },
+    {
+     "name": "Orden de Tacos de Frijol (3pz)",
+     "desc": "Elaborados con tortilla de maiz y frijoles fritos (3 unidades)",
+     "price": 47,
+     "img": "0835c460-5abe-491d-9005-eeeed5358588.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Brownie de Chocolate",
+     "desc": "Panecito casero de chocolate crujiente por fuera, pero suave por dentro",
+     "price": 80,
+     "img": "a2583453-f7d1-4a58-8d7f-923162fca01b.png"
+    },
+    {
+     "name": "Jericalla",
+     "desc": "Postre típico de Jalisco elaborado con leche entera, vainilla y canela. Con la superficie quemadita con ese especial sabor",
+     "price": 64,
+     "img": "f64d65ec-f35c-43c7-98e3-e9d89b9c2fe3.png"
+    },
+    {
+     "name": "Flan Napolitano",
+     "desc": "Delicioso postre de leche con vainilla, queso crema, leche evaporada y leche condensada",
+     "price": 67,
+     "img": "d547de57-981f-4658-88e9-80a993c17525.png"
+    },
+    {
+     "name": "Flan de Elote",
+     "desc": "Delicioso postre de leche con vainilla, queso crema, leche evaporada y leche condensada. Con un toque de elote que le dará un sabor aún más especial",
+     "price": 67,
+     "img": "7991b1f9-a57e-43fe-861a-0b36d95efa9d.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Agua fresca 500 ml",
+     "desc": "Agua fresca 100 natural. sabores como jamaica, horchata, tamarindo, limón.",
+     "price": 51,
+     "img": "36921d64-cc5f-4d3b-a4f7-eaf1bd942166.png"
+    },
+    {
+     "name": "Café de Olla 355 ml",
+     "desc": "Café de Olla 355 ml",
+     "price": 51,
+     "img": "6250fb29-036f-46dc-9f50-e41ef13e614a.png"
+    },
+    {
+     "name": "Coca-cola original 450 ml",
+     "desc": "Refrescos",
+     "price": 57,
+     "img": "2c41bd8d-0a38-4bc6-8439-bf2f093d1aeb.jpeg"
+    },
+    {
+     "name": "Coca-Cola Light 500 ml",
+     "desc": "Refrescos",
+     "price": 57,
+     "img": "16d975c8-2423-42b1-bffd-fea509d8b7f1.jpeg"
+    },
+    {
+     "name": "Fanta Naranja 500 ml",
+     "desc": "Refresco",
+     "price": 57,
+     "img": "0e5ef382-114e-4d58-b542-5491174c80de.png"
+    },
+    {
+     "name": "Sprite 600 ml",
+     "desc": "Refrescos",
+     "price": 57,
+     "img": "20c45eac-b1cc-4d03-a012-f9a50562ae42.jpg"
+    }
+   ]
+  }
+ ]
+}

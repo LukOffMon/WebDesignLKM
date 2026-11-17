@@ -1,0 +1,500 @@
+{
+ "id": 1930088670,
+ "brandName": "Tus Chilaquiles",
+ "name": "Tus Chilaquiles - Villaseñor",
+ "address": "C. Andrés Terán 797, Villaseñor, 44600 Guadalajara, Jalisco, México",
+ "schedule": "08:00:00 - 14:00:00",
+ "categories": "Chilaquiles y Enchiladas · Mexicana · Desayunos y Brunch",
+ "location": [
+  -103.3680996,
+  20.6890889
+ ],
+ "city": "Guadalajara",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-1688571306098.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1688571308309.png",
+ "schedules": [
+  {
+   "open_time": "08:00:00",
+   "close_time": "14:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930088670-tus-chilaquiles",
+ "menu": [
+  {
+   "name": "Combos",
+   "products": [
+    {
+     "name": "Combo Infantil",
+     "desc": "Hotcake en forma de león + Jugo de carton + Juguete Sorpresa (Puede llegar desacomodado por el transporte)",
+     "price": 215,
+     "img": "c4dc3d17-36d9-489f-b814-176b23d720fc.png"
+    },
+    {
+     "name": "Combo Chorihuevo + Jugo de naranja natural",
+     "desc": "Birote con frijol refrito, huevo revuelto y chorizo + Jugo natural de naranja, tamaño a elegir.",
+     "price": 112.5,
+     "img": "87205e44-9b3b-4b75-9eab-d06d1d977ab9.jpeg"
+    },
+    {
+     "name": "Combo Quesabirrias + Coca-cola",
+     "desc": "3 quesabirrias doraditas, rellenas de birria y queso, acompañadas de consomé, cebolla, cilantro y limón. Incluye Coca-Cola.",
+     "price": 113.5,
+     "img": "249becdd-9fb6-4a18-bd0c-1fd44dc3a52a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles divorciados",
+     "desc": "75Gr de totopos con salsa verde y roja, frijol, birote, chile y crema a parte.",
+     "price": 86.25,
+     "img": "45f5e171-8ff2-42be-94f8-444005cc5821.png"
+    },
+    {
+     "name": "Chilaquiles motuleños",
+     "desc": "Totopos con salsa roja un toque chipotle, frijol, birote, chile, crema, chicharos y jamón a parte.",
+     "price": 171,
+     "img": "2a27aa15-770e-4255-8e63-424baa85de7f.png"
+    },
+    {
+     "name": "Chilaquiles capeados",
+     "desc": "Totopos capeados con 2 piezas de huevo con salsa a elección, queso, frijol, birote, chile y crema a parte.",
+     "price": 163,
+     "img": "2114557813-1688571056772.jpeg"
+    },
+    {
+     "name": "Chilaquiles verdes",
+     "desc": "Totopos con salsa verde, frijol, birote, chile y crema a parte..",
+     "price": 46,
+     "img": "2114557815-1690221141358.jpg"
+    },
+    {
+     "name": "Chilaquiles rojos",
+     "desc": "75Gr de totopos con salsa roja, frijol, birote, chile y crema a parte.",
+     "price": 86.25,
+     "img": "49572765-2626-46fa-ae52-855dcb10e6bd-1697480320499.png"
+    },
+    {
+     "name": "Chilaquiles poblanos",
+     "desc": "Totopos con salsa de chiles poblanos, frijol, birote, chile y crema a parte.",
+     "price": 148,
+     "img": "8f2f4300-29be-450c-b5df-f26005d21410.png"
+    },
+    {
+     "name": "Chilaquiles chipotle",
+     "desc": "Totopos con salsa chipotle, panela, chile toreado, frijol y birote a parte.",
+     "price": 158,
+     "img": "2114557819-1688571056773.jpeg"
+    },
+    {
+     "name": "Chilaquiles enmolados",
+     "desc": "Totopos 75gr, salsa de mole poblano almendrado aparte, queso, crema y cebolla",
+     "price": 191,
+     "img": "58f63033-747a-4925-88bc-c12487388bde.png"
+    },
+    {
+     "name": "Chilaquiles gratinados",
+     "desc": "Totopo de maíz con  crema, cebolla, frijol, birote, queso fundido y salsa a elegir.",
+     "price": 118.5,
+     "img": "2114557817-1690221146647.jpg"
+    },
+    {
+     "name": "Birriaquiles",
+     "desc": "75gr de totopos con salsa sabor birria, carne de birria, cebolla, cilantro y frijoles aparte.",
+     "price": 284,
+     "img": "c239f658-3ce0-4be8-8d2d-e702d210698a.png"
+    },
+    {
+     "name": "Chilaquiles habanero",
+     "desc": "75Gr de totopo, frijol, birote y salsa habanera cremosa (picante), queso crema, aguacate y cebolla aparte.",
+     "price": 172,
+     "img": "d9855d45-ae34-4da8-9389-6df60e0f58da-1697480480448.png"
+    }
+   ]
+  },
+  {
+   "name": "Huevos",
+   "products": [
+    {
+     "name": "Huevos Norteños",
+     "desc": "2 huevos revueltos con chorizo y salsa martajada, acompañados de frijoles y birote.",
+     "price": 135,
+     "img": "f5d7e29d-c198-4a28-8d1e-b5b79de13dc9.png"
+    },
+    {
+     "name": "Huevos rancheros",
+     "desc": "Montados sobre tortilla ligeramente dorada cubierta con frijoles acompañados de salsa de la casa aparte.",
+     "price": 102,
+     "img": "2114557799-1688571063569.jpeg"
+    },
+    {
+     "name": "Huevos clásicos",
+     "desc": "2 Huevos a elegir con doble de frijol y birote .",
+     "price": 108,
+     "img": "5badcc3b-c889-4f3b-9929-b9f60a70dc00.png"
+    },
+    {
+     "name": "Huevos divorciados",
+     "desc": "2 Tortillas doradas con 2 huevos salsa roja, verde, frijoles y queso.",
+     "price": 102,
+     "img": "gp_breakfast_otra_huevos_divorciados_n.jpg"
+    },
+    {
+     "name": "Huevos carnes frias",
+     "desc": "2 Huevos con una porción de jamón y salchicha acompañados de birote y frijoles.",
+     "price": 127,
+     "img": "2114557801-1690221152012.jpg"
+    },
+    {
+     "name": "Huevos motuleños",
+     "desc": "Montados sobre tortilla ligeramente dorada cubierta con frijoles de la casa, salsa de jitomate, chipotle bocados de jamón y chicharos.",
+     "price": 135,
+     "img": "2114557806-1690221146612.jpg"
+    },
+    {
+     "name": "Huevos a la mexicana",
+     "desc": "2 Huevos revueltos con salsa a la mexicana acompañados de frijoles y birote.",
+     "price": 117,
+     "img": "873974f7-fa02-43e7-8b21-a7288157b439.png"
+    }
+   ]
+  },
+  {
+   "name": "Omelettes",
+   "products": [
+    {
+     "name": "Omelette Habanero",
+     "desc": "Omelette relleno de queso, bañado en salsa especial habanera, acompañada de frijol y birote",
+     "price": 177,
+     "img": "ff5fe3d6-92d6-4e53-9ee3-47550fa712b9.png"
+    },
+    {
+     "name": "Omelette clásico",
+     "desc": "Omelette relleno con queso bañado en salsa a elegir acompañado de frijol y birote .",
+     "price": 143,
+     "img": "2114557809-1688571053753.jpeg"
+    },
+    {
+     "name": "Omelette Vegetariano",
+     "desc": "Omelette relleno de panela, pimientos morrones y zanahoria, acompañado de frijol y birote",
+     "price": 165,
+     "img": "ee736271-2b39-45f8-8c94-66529cb9470a.png"
+    },
+    {
+     "name": "Omelette Poblano",
+     "desc": "Omelette relleno de queso, bañado en salsa especial poblana (verde), acompañada de frijol y birote",
+     "price": 154,
+     "img": "e128df7b-f41a-4415-be66-68e3a46b037f.png"
+    },
+    {
+     "name": "Omelette de Espinacas",
+     "desc": "Omelette relleno de queso y espinacas, bañado en salsa verde, acompañada de frijol y birote",
+     "price": 163,
+     "img": "ee736271-2b39-45f8-8c94-66529cb9470a.png"
+    },
+    {
+     "name": "Omelette mexicano",
+     "desc": "Omelette relleno con queso salsa mexicana y chorizo acompañados de salsa picante, frijol y birote .",
+     "price": 189,
+     "img": "2114557808-1688571053755.jpeg"
+    },
+    {
+     "name": "Omelette carnes frias",
+     "desc": "Omelette relleno con queso, jamón, salchicha de pavo, salsa roja, frijol y birote aparte.",
+     "price": 177,
+     "img": "f200e22c-c81f-431d-b8d9-3ca174ebebb0-1722437342568.png"
+    },
+    {
+     "name": "Omelette chilaquil",
+     "desc": "Omelette relleno con queso y chilaquiles a elegir, acompañados de frijol y birote.",
+     "price": 197,
+     "img": "d4bd128d-c730-4886-8c7b-38098e97f962-1689621015821.png"
+    },
+    {
+     "name": "Omelette fungi",
+     "desc": "Omelette relleno con queso champiñones y cebolla blanca guisada, acompañados de frijol y birote.",
+     "price": 173,
+     "img": "2114557811-1688571053753.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Menús Infantiles",
+   "products": [
+    {
+     "name": "Hotcakes de la selva",
+     "desc": "1 Hotcake y 1 mini hotcake adornado en forma de león.",
+     "price": 99,
+     "img": "f6ef6694-0638-42d4-8ace-473d0c6fcf81-1713463533111.png"
+    }
+   ]
+  },
+  {
+   "name": "Molletes",
+   "products": [
+    {
+     "name": "Mollete dulce",
+     "desc": "Mitad de birote con complemento a elegir.",
+     "price": 29.25,
+     "img": "2114557858-1690221152012.jpg"
+    },
+    {
+     "name": "Mollechila",
+     "desc": "Mitad de birote con frijol y chilaquiles a elegir.",
+     "price": 77,
+     "img": "44eb40b0-3aed-46c9-9145-16ae52979455-1722437475233.png"
+    },
+    {
+     "name": "Mollete mexicano",
+     "desc": "Mitad de birote con frijol, queso espolvoreado, salsa mexicana y chorizo.",
+     "price": 85,
+     "img": "874932fa-b6c4-45d7-b7a0-6c6d15c03fe4-1713463606847.png"
+    },
+    {
+     "name": "Mollete con gratin",
+     "desc": "Mitad de birote con frijol y queso gratinado.",
+     "price": 78,
+     "img": "gp_mexican_otra_molletes_n.jpg"
+    },
+    {
+     "name": "Mollete con frijol",
+     "desc": "Mitad de birote con frijol .",
+     "price": 41,
+     "img": "6559b218-d726-480e-b4a8-ef4e280a0795.png"
+    }
+   ]
+  },
+  {
+   "name": "Lonches",
+   "products": [
+    {
+     "name": "Lonche de Pierna",
+     "desc": "A la plancha, con pierna, cebolla, jitomate, crema y chiles jalapeños.",
+     "price": 121,
+     "img": "8712e1a4-2931-43ab-ad24-83366dd965c9.png"
+    },
+    {
+     "name": "Birria Lonche",
+     "desc": "Birote Fleyma con frijoles, birria, cebolla, cilantro y consome.",
+     "price": 163,
+     "img": "0a456635-73b0-4624-8195-7c3674bcc037.png"
+    },
+    {
+     "name": "Lonche de huevo",
+     "desc": "2 Huevos fritos con frijoles refritos y queso.",
+     "price": 92,
+     "img": "2114557864-1690221152017.jpg"
+    },
+    {
+     "name": "Chorihuevo",
+     "desc": "Birote con frijol refrito, huevo revuelto y chorizo.",
+     "price": 105,
+     "img": "2114557862-1690221155112.jpg"
+    },
+    {
+     "name": "Lonche de chilaquiles",
+     "desc": "Birote con chilaquiles a elegir, cebolla y queso.",
+     "price": 54.75,
+     "img": "29c9fa51-b957-42a0-b181-4d67ab898260.png"
+    },
+    {
+     "name": "Lonche de jamón",
+     "desc": "A la plancha con 3 rebanadas de jamón, jitomate, cebolla, chile, espínacas y crema.",
+     "price": 105,
+     "img": "2114557865-1690221155114.jpg"
+    },
+    {
+     "name": "Lonche sencillo",
+     "desc": "Birote con relleno a elegir.",
+     "price": 43,
+     "img": "gp_mexican_otra_lonche_de_jamon_n.jpg"
+    },
+    {
+     "name": "Lonche ranchero",
+     "desc": "Relleno con frijoles, chorizo, queso gratinado bañado en salsa picante ranchera.",
+     "price": 120,
+     "img": "458120df-6387-4aa9-9e23-0466be56b254-1722437553332.png"
+    },
+    {
+     "name": "Lonche de panela",
+     "desc": "Birote a la plancha con crema, panela, espinacas, chile jalapeño, jitomate y cebolla.",
+     "price": 104,
+     "img": "ac5647ef-74f0-4bf7-bf22-487d751f8e7c-1723223032372.png"
+    }
+   ]
+  },
+  {
+   "name": "Mas Platillos",
+   "products": [
+    {
+     "name": "Enchiladas sin gratín",
+     "desc": "Enchilada a elegir con pollo, 3 pz.",
+     "price": 89,
+     "img": "01ec358d-c529-47dc-8c32-2c7674570ffd-1713463951869.png"
+    },
+    {
+     "name": "Quesadillas",
+     "desc": "Tortilla de maíz con queso, 3 pz.",
+     "price": 69,
+     "img": "2114557866-1690221141352.jpg"
+    },
+    {
+     "name": "Enchiladas gratinadas",
+     "desc": "Enchilada gratinada a elegir con pollo, 3 pz.",
+     "price": 130,
+     "img": "7ddb8edd-a82b-4c59-a324-98d36bb6298d-1713463898627.png"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "Enfrijolada rellena con queso adobera, 3 pz.",
+     "price": 92,
+     "img": "2114557868-1688571060477.jpeg"
+    },
+    {
+     "name": "Quesabirrias",
+     "desc": "3 piezas de quesadillas con birria cebolla y cilantro",
+     "price": 184,
+     "img": "187fb65b-1c4d-4e05-8f84-d85f49d32bb8.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Plato de fruta",
+     "desc": "300 Gramos de fruta de temporada",
+     "price": 105,
+     "img": "d504ef2b-ba19-4e56-a05b-4d1ee8014417.png"
+    },
+    {
+     "name": "Orden de hot cakes 3 piezas",
+     "desc": "3 Hot cakes con porción de fruta de temporada y miel de maple. .",
+     "price": 84,
+     "img": "1707822b-4cf6-4857-9dc2-de6ba523ac9a-1689621769023.png"
+    },
+    {
+     "name": "Hot cake (1pza)",
+     "desc": "Hot cake con miel de maple, 1 pz.",
+     "price": 45,
+     "img": "gp_breakfast_otra_hotcakes_n.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Frias",
+   "products": [
+    {
+     "name": "Licuado",
+     "desc": "Licuado de fruta de temporada a base de leche",
+     "price": 59,
+     "img": ""
+    },
+    {
+     "name": "Jugo de naranja natural",
+     "desc": "Jugo natural de naranja, tamaño a elegir.",
+     "price": 39,
+     "img": "aec42fb0-2fc1-40e2-b803-1ddb09a024de.png"
+    },
+    {
+     "name": "Refresco",
+     "desc": "Refresco a elección",
+     "price": 45,
+     "img": ""
+    },
+    {
+     "name": "Jugo mixto zanahoria y naranja",
+     "desc": "Jugo de zanahoria con naranja tamaño a elegir",
+     "price": 39,
+     "img": "d5d27651-64c4-4eee-84c6-83687274065d-1713464214685.png"
+    },
+    {
+     "name": "Jugo verde",
+     "desc": "Naranja, piña, perejil y apio, tamaño a elegir.",
+     "price": 39,
+     "img": "2114557832-1690221146634.jpg"
+    },
+    {
+     "name": "Naranjada 450 ml",
+     "desc": "Naranjada de la casa, 450 ml.",
+     "price": 59,
+     "img": "2114557836-1690221141352.jpg"
+    },
+    {
+     "name": "Vaso de leche 450 ml",
+     "desc": "Vaso de leche frío, 450 ml.",
+     "price": 57,
+     "img": "a3ed5f8e-b70c-45ca-8104-5b9908fc7664.png"
+    },
+    {
+     "name": "Agua de sabor",
+     "desc": "Agua de sabor 500ml.",
+     "price": 41,
+     "img": "2114607303-1690221146613.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Calientes",
+   "products": [
+    {
+     "name": "Chai Latte Manzana Canela",
+     "desc": "Chai latte manzana Canela",
+     "price": 120,
+     "img": "135144b2-6fb8-4a16-832f-a5976b4063e2.png"
+    },
+    {
+     "name": "Americano 300 ml",
+     "desc": "Americano, 300 ml.",
+     "price": 47.7,
+     "img": "2114557845-1690221152009.jpg"
+    },
+    {
+     "name": "Matcha Latte",
+     "desc": "Matcha Latte Caliente",
+     "price": 120,
+     "img": "164a96a0-51e7-4c79-9f6f-16e28626a51a.png"
+    },
+    {
+     "name": "Taro 16oz",
+     "desc": "Taro latte caliente",
+     "price": 120,
+     "img": "f87912ca-e4c1-48a1-bdc8-153d4099ca91.png"
+    },
+    {
+     "name": "Capuccino 300 ml",
+     "desc": "Capuccino de la casa con sabor a elegir, 300 ml.",
+     "price": 93,
+     "img": "2114557846-1690221141356.jpg"
+    },
+    {
+     "name": "Chocolate en leche 300 ml",
+     "desc": "Chocolate con leche, 300 ml.",
+     "price": 67,
+     "img": "2114557847-1688571698673.jpeg"
+    },
+    {
+     "name": "Chococafe 450 ml",
+     "desc": "Choco café caliente .",
+     "price": 64,
+     "img": "2114557829-1688570583489.jpeg"
+    },
+    {
+     "name": "Café de olla 300 ml",
+     "desc": "Café de olla, 300 ml.",
+     "price": 43.2,
+     "img": "2114557849-1690221146612.jpg"
+    },
+    {
+     "name": "Americano 300 ml",
+     "desc": "Americano , 300 ml. .",
+     "price": 47.7,
+     "img": "cc76a39f-3865-4368-aa9f-0c5ffe3606cf.png"
+    }
+   ]
+  }
+ ]
+}

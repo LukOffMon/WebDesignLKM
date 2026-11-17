@@ -266,6 +266,42 @@
       .build__progress { display: none; }
     }
 
+    /* ---------- el lugar (fotos reales) ---------- */
+    .place { padding: clamp(110px, 14vw, 180px) 0 0; }
+    .place__head { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: end; margin-bottom: 48px; }
+    .place__head p { margin: 0; color: var(--ink-soft); max-width: 460px; }
+    .place__grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
+    .ph { position: relative; margin: 0; border-radius: 30px; overflow: hidden; background: var(--blush); }
+    .ph img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.18); will-change: transform; }
+    .ph figcaption { position: absolute; left: 14px; bottom: 14px; padding: 8px 14px; border-radius: 999px; background: rgba(255,250,242,.92); font-weight: 700; font-size: .82rem; backdrop-filter: blur(6px); }
+    .ph figcaption b { font-family: var(--script); font-size: 1.15rem; color: var(--berry); font-weight: 700; margin-right: 4px; }
+    .ph--salon { grid-column: 1 / 7; grid-row: span 2; aspect-ratio: 3 / 4; }
+    .ph--fachada { grid-column: 7 / 13; aspect-ratio: 4 / 3; }
+    .ph--mesa { grid-column: 7 / 10; aspect-ratio: 4 / 5; }
+    .ph--terraza { grid-column: 10 / 13; aspect-ratio: 4 / 5; }
+    .ph--chil { grid-column: 1 / 5; aspect-ratio: 4 / 3; }
+    .ph--brunch { grid-column: 5 / 9; aspect-ratio: 4 / 3; }
+    .ph--ench { grid-column: 9 / 13; aspect-ratio: 4 / 3; }
+    .place__grid .ph--salon { aspect-ratio: auto; }
+    @media (max-width: 860px) {
+      .place__head { grid-template-columns: 1fr; }
+      .place__grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .ph { border-radius: 22px; }
+      .ph--salon, .ph--fachada, .ph--chil, .ph--ench, .ph--brunch { grid-column: 1 / -1; grid-row: auto; aspect-ratio: 4 / 3; }
+      .ph--mesa, .ph--terraza { grid-column: auto; aspect-ratio: 4 / 5 !important; }
+      .place__grid .ph--salon { aspect-ratio: 4 / 5; }
+    }
+    .dish__art img, .item__art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: inherit; transition: transform .8s var(--ease); }
+    .dish:hover .dish__art img, .item:hover .item__art img { transform: scale(1.08); }
+    .item__art { position: relative; overflow: hidden; }
+    .dish__art { overflow: hidden; }
+    .dish__art .sticker { position: absolute; right: 12px; bottom: 12px; width: 64px; height: 64px; border-radius: 50%; background: var(--paper); display: grid; place-items: center; box-shadow: 0 10px 24px -10px rgba(43,27,18,.5); }
+    .dish__art .sticker svg { width: 74%; height: 74%; }
+    .dish__real { position: absolute; left: 14px; bottom: 14px; padding: 5px 10px; border-radius: 999px; background: rgba(255,250,242,.92); font-size: .68rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+    .vphoto { margin: -34px -34px 26px; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 34px 34px 0 0; position: relative; }
+    .vphoto img { width: 100%; height: 100%; object-fit: cover; }
+    .vphoto span { position: absolute; right: 14px; top: 14px; padding: 6px 12px; border-radius: 999px; background: var(--ink); color: var(--cream); font-size: .75rem; font-weight: 700; }
+
     /* ---------- favorites horizontal ---------- */
     .favs { padding: clamp(100px, 12vw, 160px) 0 0; overflow: hidden; }
     .favs__pin { height: 100svh; display: flex; flex-direction: column; justify-content: center; }
@@ -685,6 +721,7 @@
       <span>Hannah <em>&amp;</em> Michael</span>
     </a>
     <ul class="nav__links">
+      <li><a href="#lugar">El lugar</a></li>
       <li><a href="#favoritos">Favoritos</a></li>
       <li><a href="#menu">Menú</a></li>
       <li><a href="#antojo">¿Qué pido?</a></li>
@@ -702,6 +739,7 @@
 </header>
 
 <nav class="drawer-nav" id="drawerNav" aria-label="Navegación móvil">
+  <a href="#lugar">El <em>lugar</em></a>
   <a href="#favoritos">Favoritos</a>
   <a href="#menu">El <em>menú</em></a>
   <a href="#antojo">¿Qué pido?</a>
@@ -800,6 +838,28 @@
         <svg viewBox="0 0 120 120" style="left:2%;top:4%;width:9%;height:9%;color:#F6C453" data-b="heart"><use href="#i-sparkle"/></svg>
       </div>
       <div class="build__progress" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </section>
+
+  <!-- EL LUGAR -->
+  <section class="place" id="lugar" aria-labelledby="placeTitle">
+    <div class="wrap">
+      <div class="place__head">
+        <div class="sec-head" style="margin:0">
+          <p class="eyebrow">El lugar</p>
+          <h2 class="display split" id="placeTitle">Un rincón con <em>love story.</em></h2>
+        </div>
+        <p>Techo de madera, plantas por todas partes, lámparas tejidas y una terraza al aire libre sobre Blvd. Colosio. Ven por el café y quédate a la sobremesa.</p>
+      </div>
+      <div class="place__grid">
+        <figure class="ph ph--salon" data-cursor="Ven"><img src="assets/salon.jpg" alt="Salón de Hannah & Michael con techo de madera, plantas, lámparas tejidas y sillas azules" loading="lazy" width="780" height="1040" /><figcaption><b>el</b> salón</figcaption></figure>
+        <figure class="ph ph--fachada"><img src="assets/fachada.jpg" alt="Fachada de Hannah & Michael en Blvd. Colosio con letrero, plantas y bancas de madera" loading="lazy" width="780" height="585" /><figcaption><b>la</b> entrada</figcaption></figure>
+        <figure class="ph ph--mesa"><img src="assets/mesa.jpg" alt="Mesa con Croque Madame, waffles con salsa y chilaquiles vistos desde arriba" loading="lazy" width="720" height="889" /><figcaption><b>la</b> mesa</figcaption></figure>
+        <figure class="ph ph--terraza"><img src="assets/terraza.jpg" alt="Terraza con piso de madera, mesas, palmeras y cielo azul" loading="lazy" width="780" height="886" /><figcaption><b>la</b> terraza</figcaption></figure>
+        <figure class="ph ph--chil"><img src="assets/chilaquiles.jpg" alt="Chilaquiles con carne deshebrada, crema, queso y cebolla morada junto a un capuchino" loading="lazy" width="780" height="585" /><figcaption><b>chilaquiles</b> y capuchino</figcaption></figure>
+        <figure class="ph ph--brunch"><img src="assets/brunch.jpg" alt="Mesa de brunch con chilaquiles rojos y verdes, hot cakes con fruta, bagel con tocino, jugo de naranja y café" loading="lazy" width="500" height="400" /><figcaption><b>el</b> brunch</figcaption></figure>
+        <figure class="ph ph--ench"><img src="assets/enchiladas.jpg" alt="Enchiladas bañadas en salsa con crema, queso y cebolla morada" loading="lazy" width="780" height="585" /><figcaption><b>las</b> enchiladas</figcaption></figure>
+      </div>
     </div>
   </section>
 
@@ -915,6 +975,7 @@
       </div>
       <div class="visit__grid">
         <div class="vcard">
+          <figure class="vphoto"><img src="assets/fachada.jpg" alt="Fachada de Hannah & Michael con su letrero sobre Blvd. Colosio" loading="lazy" width="780" height="585" /><span>Busca este letrero</span></figure>
           <h3>Horario</h3>
           <ul class="hours" id="hours"></ul>
           <p class="addr"><strong>Blvd. Luis Donaldo Colosio Murrieta 507</strong><br />Jardines de la Concepción I, 20120 Aguascalientes, Ags.</p>
@@ -922,7 +983,7 @@
             <a class="btn" id="dirLink" href="#" target="_blank" rel="noopener" data-magnetic><svg aria-hidden="true"><use href="#i-pin"/></svg> Cómo llegar</a>
             <a class="btn btn--light" id="fbLink" href="#" target="_blank" rel="noopener" data-magnetic><svg aria-hidden="true"><use href="#i-fb"/></svg> Facebook</a>
           </div>
-          <div class="chips"><span>Área infantil</span><span>Valet parking</span><span>Para llevar</span><span>Uber Eats</span><span>Rappi</span></div>
+          <div class="chips"><span>Terraza</span><span>Área infantil</span><span>Valet parking</span><span>Para llevar</span><span>Uber Eats</span><span>Rappi</span></div>
         </div>
         <div class="map" id="map">
           <iframe title="Mapa de Hannah & Michael en Blvd. Colosio 507, Aguascalientes" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-src="https://www.google.com/maps?q=Hannah+%26+Michael,+Blvd.+Luis+Donaldo+Colosio+Murrieta+507,+Jardines+de+la+Concepci%C3%B3n,+Aguascalientes&amp;z=16&amp;output=embed"></iframe>
@@ -1012,14 +1073,14 @@
     { id: 'torta-chil', cat: 'chilaquiles', name: 'Torta de chilaquiles', desc: 'El clásico de la mañana entre pan.', price: 95, art: 'i-torta', bg: '#FFE29A' },
     { id: 'huevos-gusto', cat: 'huevos', name: 'Huevos al gusto', desc: 'Como más te gusten: estrellados, revueltos o con tus favoritos.', price: 137, art: 'i-huevos', bg: '#FFE29A', fav: 8 },
     { id: 'omelette', cat: 'huevos', name: 'Omelette', desc: 'Esponjoso, con relleno a elegir.', price: null, art: 'i-omelette', bg: '#D7E39A' },
-    { id: 'croque', cat: 'huevos', name: 'Croque Madame', desc: 'Sándwich gratinado coronado con huevo.', price: 182, art: 'i-croque', bg: '#F7D3CF', fav: 7 },
-    { id: 'hotcakes', cat: 'dulce', name: 'Hot cakes', desc: 'Servidos con miel maple y mantequilla.', price: null, art: 'i-pancakes', bg: '#FFE29A' },
+    { id: 'croque', cat: 'huevos', name: 'Croque Madame', desc: 'Pan gratinado con salsa bechamel, huevo estrellado y espárragos.', price: 182, art: 'i-croque', bg: '#F7D3CF', fav: 7, photo: 'assets/croque.jpg' },
+    { id: 'hotcakes', cat: 'dulce', name: 'Hot cakes', desc: 'Con fruta, mantequilla y miel maple.', price: null, art: 'i-pancakes', bg: '#FFE29A', photo: 'assets/hotcakes.jpg' },
     { id: 'waffles', cat: 'dulce', name: 'Waffles', desc: 'Dorados por fuera, suaves por dentro.', price: null, art: 'i-waffle', bg: '#F7D3CF' },
     { id: 'bagel-hannah', cat: 'bagels', name: 'Bagel Hannah', desc: 'El bagel de la casa.', price: 199, art: 'i-bagel', bg: '#FFE29A', fav: 5 },
     { id: 'bagel-americano', cat: 'bagels', name: 'Bagel Americano', desc: 'El segundo más pedido en Uber Eats.', price: 175, art: 'i-bagel', bg: '#D7E39A', fav: 2, tag: 'N.º 2' },
     { id: 'molletes', cat: 'bagels', name: 'Molletes', desc: 'Pan, frijoles, queso gratinado y pico de gallo.', price: 113, art: 'i-mollete', bg: '#F7D3CF', fav: 3, tag: 'N.º 3' },
     { id: 'molletitos', cat: 'bagels', name: 'Molletitos', desc: 'La versión chiquita, perfecta para compartir.', price: 89, art: 'i-mollete', bg: '#FFE29A' },
-    { id: 'enchiladas', cat: 'bagels', name: 'Enchiladas Suizas', desc: 'En salsa verde con crema y queso gratinado.', price: 189, art: 'i-enchiladas', bg: '#D7E39A', fav: 6 },
+    { id: 'enchiladas', cat: 'bagels', name: 'Enchiladas Suizas', desc: 'Bañadas en salsa, con crema, queso y cebolla morada.', price: 189, art: 'i-enchiladas', bg: '#D7E39A', fav: 6, photo: 'assets/enchiladas.jpg' },
     { id: 'capuchino', cat: 'bebidas', name: 'Capuchino', desc: 'Espresso con leche espumada.', price: 82, art: 'i-cup', bg: '#F7D3CF' },
     { id: 'latte', cat: 'bebidas', name: 'Latte', desc: 'Suave y cremoso.', price: 82, art: 'i-latte', bg: '#FFE29A' },
     { id: 'jugo', cat: 'bebidas', name: 'Jugo de naranja', desc: 'Recién exprimido.', price: 46, art: 'i-juice', bg: '#D7E39A' }
@@ -1085,7 +1146,7 @@
   var favs = MENU.filter(function (m) { return m.fav; }).sort(function (a, b) { return a.fav - b.fav; });
   $('#favTrack').innerHTML = favs.map(function (m) {
     return '<article class="dish" style="--bg:' + m.bg + '" data-cursor="Agregar">' +
-      '<div class="dish__art">' + art(m.art) + (m.tag ? '<span class="dish__rank">' + m.tag + ' más pedido</span>' : '') + '</div>' +
+      '<div class="dish__art">' + (m.photo ? '<img src="' + m.photo + '" alt="' + m.name + ' de Hannah & Michael" loading="lazy" /><span class="dish__real">Foto real</span><span class="sticker">' + art(m.art) + '</span>' : art(m.art)) + (m.tag ? '<span class="dish__rank">' + m.tag + ' más pedido</span>' : '') + '</div>' +
       '<h3>' + m.name + '</h3><p>' + m.desc + '</p>' +
       '<div class="dish__foot"><span class="price">' + (m.price ? money(m.price) + '<small>MXN</small>' : '') + '</span>' +
       '<button class="add" data-add="' + m.id + '" aria-label="Agregar ' + m.name + ' al pedido"><svg aria-hidden="true"><use href="#i-plus"/></svg></button></div></article>';
@@ -1100,7 +1161,7 @@
     grid.setAttribute('aria-labelledby', 'tab-' + cat);
     grid.innerHTML = MENU.filter(function (m) { return m.cat === cat; }).map(function (m) {
       return '<article class="item">' +
-        '<div class="item__art" style="--bg:' + m.bg + '">' + art(m.art) + '</div>' +
+        '<div class="item__art" style="--bg:' + m.bg + '">' + (m.photo ? '<img src="' + m.photo + '" alt="' + m.name + '" loading="lazy" />' : art(m.art)) + '</div>' +
         '<div><h3>' + m.name + (m.tag ? '<span class="tag">' + m.tag + '</span>' : '') + '</h3><p>' + m.desc + '</p>' +
         (m.price ? '<span class="price">' + money(m.price) + '</span>' : '<span class="price na">Precio en sucursal</span>') + '</div>' +
         '<button class="add" data-add="' + m.id + '" aria-label="Agregar ' + m.name + ' al pedido"><svg aria-hidden="true"><use href="#i-plus"/></svg></button>' +
@@ -1464,6 +1525,14 @@
   mm.add('(max-width: 860px)', function () {
     gsap.from('.dish', { y: 80, opacity: 0, duration: 1, stagger: .1, ease: 'expo.out', scrollTrigger: { trigger: '#favTrack', start: 'top 85%' } });
   });
+
+  // Galería del lugar: revelado con máscara y parallax interno
+  $$('.ph').forEach(function (f) {
+    var img = f.querySelector('img');
+    gsap.fromTo(f, { clipPath: 'inset(16% 12% 16% 12% round 30px)' }, { clipPath: 'inset(0% 0% 0% 0% round 30px)', ease: 'none', scrollTrigger: { trigger: f, start: 'top 95%', end: 'top 45%', scrub: true } });
+    gsap.fromTo(img, { yPercent: -7 }, { yPercent: 7, ease: 'none', scrollTrigger: { trigger: f, start: 'top bottom', end: 'bottom top', scrub: true } });
+  });
+  gsap.from('.ph figcaption', { y: 30, opacity: 0, duration: .9, stagger: .08, ease: 'expo.out', scrollTrigger: { trigger: '.place__grid', start: 'top 70%' } });
 
   // Tarjetas y bloques
   gsap.from('.feat', { y: 80, opacity: 0, rotate: function (i) { return (i % 2 ? 4 : -4); }, duration: 1.1, stagger: .1, ease: 'expo.out', scrollTrigger: { trigger: '.exp__grid', start: 'top 85%' } });

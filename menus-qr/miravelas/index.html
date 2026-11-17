@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menú · Miravelas</title>
+<meta name="description" content="Menú digital de Miravelas (Aguascalientes, Ags.): 58 platillos con precios, fotos y pedido por WhatsApp.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#fbf6ee">
+<link rel="canonical" href="https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LKM&#x27;r Company">
+<meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Menú digital de Miravelas · Aguascalientes, Ags.">
+<meta property="og:description" content="Restaurante y café: desayunos y chilaquiles. 58 platillos con foto y precio; arma tu pedido y mándalo por WhatsApp.">
+<meta property="og:url" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/">
+<meta property="og:image" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/og.jpg">
+<meta property="og:image:secure_url" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Menú digital de Miravelas">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Menú digital de Miravelas">
+<meta name="twitter:description" content="Restaurante y café: desayunos y chilaquiles">
+<meta name="twitter:image" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%239a6b3f'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23ffffff' font-family='Georgia'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Work+Sans:wght@400;600;700;800&display=swap&family=Space+Grotesk:wght@600;700">
+<link rel="stylesheet" href="../assets/menu.css">
+<style>:root{--bg:#fbf6ee;--fg:#2a1d14;--acc:#9a6b3f;--card:#ffffff;--acc-btn:#9a6b3f;--on-acc:#ffffff;--acc-ink:#94673c;--ft:'Playfair Display';--fb:'Work Sans';--tw:700;color-scheme:light}</style>
+</head>
+<body>
+<style id="lkmr-intro-css">
+#lkmr-intro{position:fixed;inset:0;z-index:2147483000;display:grid;place-items:center;background:#08080a;color:#f3efe6;overflow:hidden;
+  font-family:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:opacity .55s ease,transform .7s cubic-bezier(.7,0,.2,1)}
+#lkmr-intro.out{opacity:0;transform:translateY(-6%);pointer-events:none}
+#lkmr-intro .glow{position:absolute;width:140vmax;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(214,180,122,.22),transparent 55%);animation:lk-pulse 3s ease-out both}
+#lkmr-intro .grid{position:absolute;inset:-20%;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:48px 48px;
+  mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);-webkit-mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);animation:lk-grid 3s linear both}
+#lkmr-intro .box{position:relative;text-align:center;padding:0 24px}
+#lkmr-intro .k{font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:#d6b47a;opacity:0;animation:lk-up .6s .15s ease-out forwards}
+#lkmr-intro .logo{font-weight:700;font-size:clamp(64px,17vw,148px);line-height:1;letter-spacing:-.03em;margin:14px 0 6px;display:flex;justify-content:center}
+#lkmr-intro .logo span{display:inline-block;opacity:0;transform:translateY(60%) rotate(8deg);filter:blur(8px);animation:lk-letter .7s cubic-bezier(.2,.9,.2,1) forwards;animation-delay:calc(.35s + var(--i)*.09s)}
+#lkmr-intro .logo span:last-child{color:#d6b47a}
+#lkmr-intro .bar{height:2px;width:min(320px,60vw);margin:10px auto 16px;background:linear-gradient(90deg,transparent,#d6b47a,transparent);transform:scaleX(0);animation:lk-bar .9s 1s cubic-bezier(.6,0,.2,1) forwards}
+#lkmr-intro .tag{font-size:clamp(13px,3.4vw,16px);color:#bdb7ab;opacity:0;animation:lk-up .6s 1.35s ease-out forwards}
+#lkmr-intro .sub{margin-top:22px;font-size:clamp(14px,3.8vw,18px);font-weight:600;opacity:0;animation:lk-up .6s 1.75s ease-out forwards}
+#lkmr-intro .sub b{color:#d6b47a;font-weight:700}
+#lkmr-intro .load{position:absolute;left:0;bottom:0;height:3px;width:100%;background:#d6b47a;transform-origin:left;transform:scaleX(0);animation:lk-load 3s linear forwards}
+#lkmr-intro .skip{position:absolute;right:16px;bottom:18px;font:600 12px/1 system-ui,sans-serif;letter-spacing:.08em;color:#8d887e;background:none;border:1px solid #2c2b2f;border-radius:999px;padding:8px 12px;cursor:pointer}
+@keyframes lk-letter{to{opacity:1;transform:none;filter:none}}
+@keyframes lk-up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes lk-bar{to{transform:scaleX(1)}}
+@keyframes lk-load{to{transform:scaleX(1)}}
+@keyframes lk-pulse{from{transform:scale(.4);opacity:0}40%{opacity:1}to{transform:scale(1.1);opacity:.7}}
+@keyframes lk-grid{from{transform:scale(1.15)}to{transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){#lkmr-intro *{animation-duration:.01s!important;animation-delay:0s!important}#lkmr-intro .load{animation:lk-load 3s linear forwards!important}}
+html.lkmr-lock,html.lkmr-lock body{overflow:hidden}
+</style>
+<div id="lkmr-intro" role="dialog" aria-label="LKM&#x27;r presenta" aria-live="polite">
+  <div class="glow"></div><div class="grid"></div>
+  <div class="box">
+    <div class="k">Desarrollado por</div>
+    <div class="logo" aria-label="LKM&#x27;r"><span style="--i:0">L</span><span style="--i:1">K</span><span style="--i:2">M</span><span style="--i:3">&#x27;</span><span style="--i:4">r</span></div>
+    <div class="bar"></div>
+    <div class="tag">Sitios web, menús digitales y automatización para negocios</div>
+    <div class="sub">presenta el menú digital de <b>Miravelas</b></div>
+  </div>
+  <div class="load"></div>
+  <button class="skip" type="button">Saltar ›</button>
+</div>
+<script>
+(function(){var el=document.getElementById('lkmr-intro');if(!el)return;var d=document.documentElement;d.classList.add('lkmr-lock');
+var done=false;function end(){if(done)return;done=true;el.classList.add('out');d.classList.remove('lkmr-lock');setTimeout(function(){el.remove();},700);}
+setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener('keydown',function(ev){if(ev.key==='Escape')end();});})();
+</script>
+
+<div class="demo"><b>Muestra</b> de LKM'r · precios de referencia</div>
+<header class="hero"><div class="wrap">
+  <p class="kicker">Menú digital · Trojes de Oriente</p>
+  <h1>Miravelas</h1>
+  <p class="lema">Restaurante y café: desayunos y chilaquiles</p>
+  <p class="info"><span class="status" id="status"></span><span>Aguascalientes, Ags.</span></p>
+  <nav class="acts" aria-label="Contacto">
+    <a class="act" href="tel:+524493777616"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>Llamar</span></a>
+    <a class="act" href="https://www.google.com/maps/search/?api=1&query=Miravelas+Ignacio+Zaragoza+801-A+esq.+Silos,+Valle+de+las+Trojes,+Aguascalientes" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Cómo llegar</span></a>
+    <button class="act" id="share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span>Compartir</span></button>
+  </nav>
+</div></header>
+<div class="bar"><div class="wrap bar-in">
+  <button class="sbtn" id="sbtn" type="button" aria-label="Buscar platillo" aria-expanded="false" aria-controls="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+  <nav class="chips" id="chips" aria-label="Categorías"></nav>
+  <div class="search" id="search" hidden><label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" enterkeyhint="search" placeholder="Buscar en 58 platillos…" autocomplete="off" aria-label="Buscar platillo"></label><button class="qx" id="qx" type="button">Cerrar</button></div>
+</div></div>
+<main class="wrap"><p class="qinfo" id="qinfo" role="status"></p><div id="list"></div><p class="empty" id="empty">No encontramos ese platillo. Prueba con otra palabra.</p></main>
+<section class="lkmr" aria-labelledby="lkmr-t"><div class="wrap"><div class="lkmr-card">
+  <p class="lkmr-k">Desarrollado por</p>
+  <h2 id="lkmr-t">LKM&#x27;r Company</h2>
+  <p class="lkmr-p">Este menú digital lo diseñó y desarrolló LKM&#x27;r. Sitios web, menús digitales y automatización para negocios. ¿Tienes un negocio? Hacemos el tuyo.</p>
+  <ul class="lkmr-s"><li>Menús digitales con QR</li><li>Sitios web y landing pages</li><li>Redes sociales y contenido</li><li>Chatbots de WhatsApp</li><li>Google Maps para negocios</li></ul>
+  <div class="lkmr-a">
+    <a class="lkmr-b lkmr-main" href="https://wa.me/524492094034?text=Hola%20LKM%27r%2C%20vi%20un%20men%C3%BA%20digital%20que%20hicieron%20y%20quiero%20uno%20para%20mi%20negocio." target="_blank" rel="noopener">Escríbenos por WhatsApp →</a>
+    <a class="lkmr-b" href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Conoce LKM&#x27;r</a>
+    <a class="lkmr-b" href="https://lukoffmon.github.io/WebDesignLKM/" target="_blank" rel="noopener">Ver más proyectos</a>
+  </div>
+  <p class="lkmr-c">Jesús María, Aguascalientes</p>
+</div></div></section>
+<footer><div class="wrap">
+  <span><b>Muestra</b> preparada por LKM'r para Miravelas. Precios de referencia tomados de Rappi (17 nov. 2026); se ajustan a los de salón.</span>
+  <span>Miravelas · Ignacio Zaragoza 801-A esq. Silos, Valle de las Trojes, Aguascalientes · <a href="tel:+524493777616">449 377 7616</a></span>
+  <span>Los precios mostrados son de referencia y pueden cambiar. Confírmalos con tu mesero.</span>
+  <span>Menú digital diseñado y desarrollado por <a href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">LKM&#x27;r Company</a> · <a href="https://wa.me/524492094034?text=Hola%20LKM%27r%2C%20vi%20un%20men%C3%BA%20digital%20que%20hicieron%20y%20quiero%20uno%20para%20mi%20negocio." target="_blank" rel="noopener">Escríbenos por WhatsApp</a></span>
+</div></footer>
+<button class="cartbar" id="cartbar" type="button" aria-hidden="true" tabindex="-1"><span><span class="count" id="barcount">0</span>Ver mi pedido</span><span id="bartotal">$0</span></button>
+<dialog id="dish" class="dish" aria-labelledby="dname"><div class="sheet">
+  <button class="x" id="dclose" type="button" aria-label="Cerrar">×</button>
+  <div class="dimg"><img id="dimg" alt=""></div>
+  <div class="dbody">
+    <p class="dcat" id="dcat"></p>
+    <h2 id="dname"></h2>
+    <p class="ddesc" id="ddesc"></p>
+    <div class="drow"><span class="price" id="dprice"></span><span id="dstep"></span></div>
+    <button class="dadd" id="dadd" type="button">Agregar</button>
+  </div>
+</div></dialog>
+<dialog id="cart" aria-labelledby="carttitle"><div class="sheet">
+  <header><h2 id="carttitle">Tu pedido</h2><button class="x" id="close" type="button" aria-label="Cerrar">×</button></header>
+  <div class="lines" id="lines"></div>
+  <div class="total"><span>Total aprox.</span><span id="total">$0</span></div>
+  <div class="two"><label class="field">Nombre<input id="who" autocomplete="name" enterkeyhint="next"></label><label class="field">Mesa o para llevar<input id="mesa" placeholder="Ej. mesa 4" enterkeyhint="next"></label></div>
+  <label class="field">Notas<textarea id="notas" rows="2" placeholder="Sin cebolla, salsa aparte…"></textarea></label>
+  <a class="send" id="send" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c.7.3 1.3.5 1.7.6a4.2 4.2 0 0 0 1.9.1 3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.8L.2 23.8l6.1-1.6A11.8 11.8 0 0 0 12 23.6 11.8 11.8 0 0 0 20.4 3.6z"/></svg>Enviar pedido por WhatsApp</a>
+  <p class="note">Se abre WhatsApp con tu pedido listo; el restaurante confirma total y tiempo.</p>
+</div></dialog>
+<div class="toast" id="toast" role="status"></div>
+<script>window.MENU={"nombre":"Miravelas","whatsapp":"4493777616","horario":"09:00:00 - 13:30:00","cats":[{"name":"Omelettes","items":[{"name":"Omelette Italiano","price":234,"img":"img/3c83cb6257e7.webp"},{"name":"Omelette de Salmón","price":271,"img":"img/3ead91b69e70.webp"},{"name":"Omelette de la Milpa","price":241,"img":"img/f15a32c2a90b.webp"},{"name":"Omelette de Clara","price":241,"img":"img/61ed74bb2267.webp"}]},{"name":"Desayunos","items":[{"name":"Huevos con Chilorio","desc":"2 huevos revueltos con chilorio, acompañados de chilaquiles verdes con queso, crema, cilantro, cebolla y frijoles.","price":227,"img":"img/0b3b1146edf3.webp"},{"name":"Huevos Divorciados","desc":"2 huevos estrellados, montados en asada de res, bañados en salsa picosa con guarnición de papa en gajo.","price":256,"img":"img/5b0fdcca9e75.webp"},{"name":"Huevos Ahogados","desc":"2 huevos estrellados montados sobre una cama de papas en rodaja fina, bañados en una salsa de chile cascabel y hoja santa, con un ligero toque de queso de la región.","price":212,"img":"img/40ec3283ff8c.webp"},{"name":"Huevos Yucatecos","desc":"huevos fritos sobre tostada con frijol y queso, bañados en salsa de tomate, 2 piezas de huevo.","price":241,"img":"img/9b0aea87a21b.webp"},{"name":"Huevos Cazuela","desc":"2 huevos estrellados sobre tortilla y frijol, en salsa de adobo. Acompañado de salteado de papas y chorizo, 100 gr.","price":212,"img":"img/55281d9f5d67.webp"},{"name":"Desayuno Eiffel","desc":"Pan francés, acompañado de dos piezas de huevo revuelto y tocino frito.","price":241,"img":"img/b505b6e82c4a.webp"},{"name":"Machaca Sonorense","desc":"machaca sonorense 65 gr, revuelta con huevo y salteado de verduras de temporada, acompañada de frijol.","price":285,"img":"img/cef5bf625465.webp"},{"name":"Enchiladas Suizas","desc":"4 Enchiladas suizas de maíz con relleno a elegir, bañadas con salsa cremosa al gratín y crema, 65 gr.","price":227,"img":"img/58aca4112c1e.webp"},{"name":"Croqué Miravelas","desc":"Sándwich relleno de jamón de pavo, queso mozzarella al gratín, aderezo de la casa, huevo frito y ensalada de temporada.","price":256,"img":"img/ce306daa662a.webp"},{"name":"Huevos Rancheros","desc":"2 huevos fritos sobre dobladitas de frijol, bañadas con salsa asada, 3 pzas.","price":219,"img":"img/42b2fb01d182.webp"},{"name":"Huevos Habaneros","desc":"2 huevos fritos montados en quesadilla, bañados en salsa de chile habanero.","price":249,"img":"img/dfd605829a17.webp"},{"name":"Huevos al Patrón","desc":"2 huevos fritos sobre chicharrón en salsa de la casa y frijol.","price":227,"img":"img/7655abd5c0d7.webp"}]},{"name":"Chilaquiles","items":[{"name":"Chilaquiles Verdes o Rojos","desc":"Chilaquiles hechos con totopos de tortilla de maíz, salsa y proteína elegir, crema, queso.","price":211,"img":"img/4c8bef4459a8.webp"},{"name":"Chilaquiles Rancheros","desc":"Chilaquiles hechos con totopos de tortilla de maíz, salsa roja casera, proteína a elegir, crema y queso.","price":241,"img":"img/4c8bef4459a8.webp"},{"name":"Chilaquiles Habaneros","desc":"Chilaquiles hechos con totopos de tortilla de maíz, salsa de habanero casera, proteína a elegir, crema y queso.","price":241,"img":"img/f8d92564324c.webp"},{"name":"Chilaquiles Suizos","desc":"Chilaquiles hechos con totopos de tortilla de maíz, salsa verde casera, proteína a elegir, crema y queso al gratín.","price":271,"img":"img/acee15c10db8.webp"},{"name":"Chilaquiles Suizos con Arrachera","desc":"Chilaquiles hechos con totopos de tortilla de maíz, salsa verde casera, crema y queso al gratín, acompañados de 165 g de arrachera.","price":307,"img":"img/76b5f175cd6b.webp"}]},{"name":"Panaderia","items":[{"name":"Concha rellena de nata","desc":"Concha grande rellena de nata artesanal","price":90,"img":"img/af6a28ded497.webp"}]},{"name":"Entradas","items":[{"name":"Bisquets","desc":"Bisquets dorados a la plancha con mantequilla, acompañados de mermelada, 3 pzas.","price":139,"img":"img/b051c76b4d89.webp"},{"name":"Hot Cakes","desc":"Hot cakes con mantequilla, frutos rojos y miel maple, 3 pzas.","price":219,"img":"img/0238b7e122a4.webp"},{"name":"Cheese Pancakes","desc":"Hot cakes con queso crema, mantequilla, miel maple y frutos rojos, 3 pzas.","price":256,"img":"img/5c7fffd6c447.webp"},{"name":"Pan Francés","desc":"Pan francés acompañados de frutos rojos y miel de maple, 3 pzas.","price":256,"img":"img/c9e1de7d0c72.webp"},{"name":"Plato de Fruta","desc":"Papaya 90 g, melón 90 g y piña 90 g, acompañados de yogur giego 90 g y granola 35 g.","price":124,"img":"img/569368609364.webp"}]},{"name":"Brunch","items":[{"name":"Enfrijoladas","desc":"Enfrijoladas hechas con tortilla de maíz rellenas de proteina a elegir, bañadas en crema de frijol, chorizo y crema, 4 pzas.","price":226,"img":"img/818d0cfbf48b.webp"},{"name":"Burritos de Machaca","desc":"Burritos hechos con tortilla de harina, machaca sonorense 38 gr, 2 piezas de huevo, verduras de temporada y frijol, acompañado de papas rostizadas 100 gr.","price":281,"img":"img/e224355c38e9.webp"},{"name":"Club Sándwich","desc":"Sándwich con relleno de pollo 65 gr, tocino, jamón y queso, guarnición de papas fritas.","price":265,"img":"img/69cbb5c15814.webp"},{"name":"Molletes","price":117,"img":"img/583a5225b761.webp"},{"name":"Machaca con Chilaquiles","desc":"Totopos con salsa verde, crema, queso, cilantro, cebolla, frijol, acompañado de machaca 38 g y pico de gallo.","price":321,"img":"img/c99ec535d95d.webp"},{"name":"Avocherry","desc":"Pan de masa madre, queso mozzarella 10 gr, cherrys salteados en albahaca 30 gr, guarnición de ensalada 60 gr con vinagreta de limón.","price":255,"img":"img/4c03cab9a3bc.webp"},{"name":"1/2 Orden de Molletes","desc":"Media orden de molletes con frijoles, queso derretido y pico de gallo sobre pan.","price":96,"img":"img/9e88505b5e42.webp"}]},{"name":"Bebidas frías","items":[{"name":"Cold brew mineral de maracuyá","desc":"Cold brew con jarabe de maracuya y agua mineral (500ml)","price":82,"img":"img/685347c854ec.webp"},{"name":"Chai Frío 350 ml","desc":"Bebida fría a base leche a elegir y té chai, 350 ml.","price":95,"img":"img/ae8ce1b06ca4.webp"},{"name":"Frappé Matcha 400 ml","desc":"Frappé hecho a base de leche a elegir, matcha, hielo, crema batida y canela, 400 ml.","price":117,"img":"img/457711d2709c.webp"},{"name":"Frappé Chai 400 ml","desc":"Frappé hecho a base de leche a elegir, chai, hielo, crema batida y canela, 400 ml.","price":117,"img":"img/2434157a4b55.webp"},{"name":"Latte Frío 350 ml","desc":"Bebida preparada con café de grano y leche a elegir, 350 ml.","price":95,"img":"img/d868613e7124.webp"},{"name":"Jugo de Naranja 250 ml","desc":"Bebida fría a base de jugo de naranja, 250 ml.","price":44,"img":"img/0d545d077a61.webp"},{"name":"Jugo Verde 250 ml","desc":"Bebida fría a base de jugo verde, 250 ml.","price":44,"img":"img/d3cef901d813.webp"},{"name":"Coca Cola Original 355 ml","price":59,"img":"img/cd4438dffaab.webp"},{"name":"Botellin de agua 500 ml","price":27,"img":"img/9a6406e81865.webp"},{"name":"Chocomilk 350 ml","desc":"Bebida fría a base de leche a elegir y chocolate, 350 ml.","price":73,"img":"img/a1c21959a0d8.webp"},{"name":"Limonada 600 ml","desc":"Bebida hecha a base de agua a elegir, con jugo de limón, 600 ml.","price":88,"img":"img/c59631ea8162.webp"},{"name":"Limonada Blueberry 600 ml","desc":"Bebida hecha a base de agua a elegir, jugo de limón y moras, 600 ml.","price":95,"img":"img/9d31576ae87d.webp"},{"name":"Rusa 600 ml","desc":"Bebida hecha a base de agua a elegir, jugo de limón y sal, 600 ml.","price":87,"img":"img/e7cf23503d6e.webp"},{"name":"Naranjada 600 ml","desc":"Bebida hecha a base de agua a elegir, jugo de naranja, 600 ml.","price":88,"img":"img/7f94cf14e0b3.webp"},{"name":"Frappé de Café 400 ml","desc":"Frappé hecho a base de leche a elegir, capuchino, hielo, crema batida y canela, 400 ml.","price":103,"img":"img/5e664779e8da.webp"}]},{"name":"Bebidas calientes","items":[{"name":"Café Americano Barista 250 ml","desc":"Café americano preparado por barista, 250 ml.","price":59,"img":"img/e8945417f9c7.webp"},{"name":"Latte 250 ml","desc":"Bebida caliente a base de café espresso y leche a elegir, 250 ml.","price":81,"img":"img/e11b6c3a01c7.webp"},{"name":"Capuchino 250 ml","desc":"Bebida caliente a base de café espresso, leche a elegir y espuma de leche, 250 ml.","price":81,"img":"img/a257ef0c3aa1.webp"},{"name":"Chai Latte 350 ml","desc":"Bebida caliente a base de té chai y leche a elegir, 250 ml.","price":95,"img":"img/a257ef0c3aa1.webp"},{"name":"Matcha Latte 350 ml","desc":"Bebida caliente a base de té matcha y leche a elegir, 250 ml.","price":95,"img":"img/1c23a4bd3e50.webp"},{"name":"Tisana 400 ml","desc":"Infusión de hierbas y especias, con sabor del día, 400 ml.","price":73,"img":"img/a2012e95a3bb.webp"},{"name":"Chocolate Caliente 350 ml","desc":"Bebida caliente a base de leche a elegir y chocolate artesanal, 350 ml.","price":81,"img":"img/948218c23d7a.webp"},{"name":"Latte de Sabor","desc":"Latte con café, leche y saborizante. Ideal para disfrutar caliente.","price":78,"img":"img/220928161e18.webp"}]},{"name":"Bebidas Fruas","items":[{"name":"Frappe con Sabor","desc":"Base capuchino - incluye crema batida y canela, jarabe de sabor a elegir.","price":96,"img":"img/7a572abad281.webp"}]}]};</script>
+<script src="../assets/menu.js" defer></script>
+</body>
+</html>

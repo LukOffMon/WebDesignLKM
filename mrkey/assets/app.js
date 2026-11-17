@@ -1,17 +1,6 @@
 // Mr Key: utilidades compartidas por todas las páginas.
 (function () {
-  const PROD_API = "https://lsvyryanshcuysowlysp.supabase.co/functions/v1/mrkey/api";
-  // En desarrollo local (localhost) se puede apuntar a otra API con ?api=… (se recuerda en este navegador).
-  const API = (() => {
-    if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) return PROD_API;
-    try {
-      const q = new URLSearchParams(location.search).get("api");
-      if (q) localStorage.setItem("mk_api", q);
-      return localStorage.getItem("mk_api") || PROD_API;
-    } catch (_) {
-      return PROD_API;
-    }
-  })();
+  const API = "https://lsvyryanshcuysowlysp.supabase.co/functions/v1/mrkey/api";
   const BASE = new URL(".", location.href.replace(/[?#].*$/, "")).href;
 
   function store(key, value) {
@@ -72,118 +61,86 @@
     if (s < 3600) return `hace ${Math.floor(s / 60)} min`;
     if (s < 86400) return `hace ${Math.floor(s / 3600)} h`;
     const d = Math.floor(s / 86400);
-    if (d === 1) return "ayer";
-    if (d < 60) return `hace ${d} días`;
-    const mo = Math.floor(d / 30);
-    return mo < 12 ? `hace ${mo} meses` : `hace ${Math.floor(d / 365)} año(s)`;
-  }
-
-  const dateFmt = new Intl.DateTimeFormat("es-MX", { day: "numeric", month: "short", year: "numeric" });
-  const timeFmt = new Intl.DateTimeFormat("es-MX", { hour: "numeric", minute: "2-digit" });
-  const dateTimeFmt = new Intl.DateTimeFormat("es-MX", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
-  const fmtDate = (iso) => (iso ? dateFmt.format(new Date(iso)) : "—");
-  const fmtTime = (iso) => (iso ? timeFmt.format(new Date(iso)) : "—");
-  const fmtDateTime = (iso) => (iso ? dateTimeFmt.format(new Date(iso)) : "—");
-
-  // 4491234567 -> 449 123 4567
-  function phoneFmt(p) {
-    const d = String(p ?? "").replace(/\D/g, "");
-    if (d.length === 10) return `${d.slice(0, 3)} ${d.slice(3, 6)} ${d.slice(6)}`;
-    if (d.length === 12 && d.startsWith("52")) return `+52 ${d.slice(2, 5)} ${d.slice(5, 8)} ${d.slice(8)}`;
-    return d;
-  }
-  function waLink(phone, text) {
-    const d = String(phone ?? "").replace(/\D/g, "");
-    const full = d.length === 10 ? "52" + d : d;
-    return `https://wa.me/${full}${text ? `?text=${encodeURIComponent(text)}` : ""}`;
-  }
-  const cardUrl = (serial) => `${BASE}tarjeta.html?s=${encodeURIComponent(serial)}`;
-  const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
-
-  // Hoja inferior reutilizable (en escritorio se ve como ventana centrada).
-  let sheetEl, backdropEl, sheetOnClose = null;
-  function ensureSheet() {
-    if (sheetEl) return;
-    backdropEl = document.createElement("div");
-    backdropEl.className = "backdrop";
-    sheetEl = document.createElement("div");
-    sheetEl.className = "sheet";
-    sheetEl.setAttribute("role", "dialog");
-    sheetEl.setAttribute("aria-modal", "true");
-    sheetEl.tabIndex = -1;
-    document.body.append(backdropEl, sheetEl);
-    backdropEl.addEventListener("click", () => closeSheet());
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && sheetEl.classList.contains("open") && !sheetEl.dataset.locked) closeSheet();
-    });
-  }
-  function openSheet(html, { onClose = null, locked = false, label = "" } = {}) {
-    ensureSheet();
-    sheetEl.innerHTML = `${locked ? "" : '<button class="sheet-x" type="button" aria-label="Cerrar">×</button>'}<div class="stack sheet-body">${html}</div>`;
-    sheetEl.dataset.locked = locked ? "1" : "";
-    backdropEl.dataset.locked = locked ? "1" : "";
-    if (label) sheetEl.setAttribute("aria-label", label);
-    sheetEl.querySelector(".sheet-x")?.addEventListener("click", () => closeSheet());
-    sheetOnClose = onClose;
-    sheetEl.scrollTop = 0;
-    requestAnimationFrame(() => {
-      sheetEl.classList.add("open");
-      backdropEl.classList.add("open");
-      sheetEl.focus({ preventScroll: true });
-    });
-    return sheetEl;
-  }
-  function closeSheet(force = false) {
-    if (!sheetEl || !sheetEl.classList.contains("open")) return;
-    if (!force && sheetEl.dataset.locked) return;
-    sheetEl.classList.remove("open");
-    backdropEl.classList.remove("open");
-    const cb = sheetOnClose;
-    sheetOnClose = null;
-    if (cb) cb();
-  }
-  const sheetOpen = () => !!sheetEl && sheetEl.classList.contains("open");
-  const q = (sel) => sheetEl?.querySelector(sel);
-
-  // Confirmación con botones grandes; devuelve true/false.
-  function confirm({ title, text = "", ok = "Confirmar", cancel = "Cancelar", danger = false, icon = "" }) {
-    return new Promise((resolve) => {
-      let done = false;
-      const finish = (v) => {
-        if (done) return;
-        done = true;
-        resolve(v);
-      };
-      openSheet(`
-        ${icon ? `<div class="big-check">${icon}</div>` : ""}
-        <h2 style="font-size:1.5rem">${title}</h2>
-        ${text ? `<p class="mute">${text}</p>` : ""}
-        <button class="btn ${danger ? "danger-solid" : "gold"} block" data-ok type="button">${ok}</button>
-        <button class="btn ghost block" data-cancel type="button">${cancel}</button>`, { onClose: () => finish(false) });
-      q("[data-ok]").onclick = () => {
-        finish(true);
-        closeSheet();
-      };
-      q("[data-cancel]").onclick = () => closeSheet();
-    });
-  }
-
-  async function copyText(text, okMsg = "Copiado") {
-    try {
-      await navigator.clipboard.writeText(text);
-      toast(okMsg);
-    } catch (_) {
-      window.prompt("Copia este texto:", text);
-    }
+    return d === 1 ? "ayer" : `hace ${d} días`;
   }
 
   const money = (n) => new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN", maximumFractionDigits: 0 }).format(n || 0);
 
-  // Dibuja la tarjeta de lealtad tal como se ve en Wallet.
+  // Sello de goma: aro doble y estrella, con borde irregular de tinta y un giro distinto en cada casilla.
+  function ensureInkFilter() {
+    if (document.getElementById("mk-ink")) return;
+    const defs = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    defs.setAttribute("width", "0");
+    defs.setAttribute("height", "0");
+    defs.setAttribute("aria-hidden", "true");
+    defs.style.position = "absolute";
+    defs.innerHTML = `<filter id="mk-ink" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6"/></filter>`;
+    document.body.appendChild(defs);
+  }
+
+  // Íconos del sello (24×24, trazo). Mismos nombres que acepta la API en design.icon.
+  const ICONS = {
+    estrella: { label: "Estrella", d: '<path d="M12 2.8l2.8 5.8 6.3.8-4.6 4.4 1.2 6.3L12 17l-5.7 3.1 1.2-6.3L2.9 9.4l6.3-.8z" fill="currentColor"/>' },
+    tijeras: { label: "Tijeras", d: '<circle cx="6" cy="6.5" r="2.8"/><circle cx="6" cy="17.5" r="2.8"/><path d="M20 4.5L8.3 15.5M14.4 13.6L20 19.5M8.3 8.5l3.4 3.2"/>' },
+    taza: { label: "Taza", d: '<path d="M4 9h12v4.5A5.5 5.5 0 0 1 10.5 19h-1A5.5 5.5 0 0 1 4 13.5z"/><path d="M16 10.5h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8 3.5c0 1.2 1.2 1.6 1.2 3M11.6 3.5c0 1.2 1.2 1.6 1.2 3"/>' },
+    huella: { label: "Huella", d: '<circle cx="6.5" cy="10" r="1.9" fill="currentColor"/><circle cx="10" cy="5.8" r="1.9" fill="currentColor"/><circle cx="14.5" cy="5.8" r="1.9" fill="currentColor"/><circle cx="18" cy="10" r="1.9" fill="currentColor"/><path d="M8 17.2c0-3 2-5.7 4.3-5.7s4.3 2.7 4.3 5.7c0 1.8-1.4 2.6-3 2.2-.9-.2-1.7-.2-2.6 0-1.6.4-3-.4-3-2.2z" fill="currentColor"/>' },
+    corazon: { label: "Corazón", d: '<path d="M12 20s-8-5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 9c0 6-8 11-8 11z" fill="currentColor"/>' },
+    bolsa: { label: "Bolsa", d: '<path d="M5 8.5h14l-1.2 11.5H6.2z"/><path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"/>' },
+    gota: { label: "Gota", d: '<path d="M12 3s6 6.6 6 11a6 6 0 0 1-12 0c0-4.4 6-11 6-11z" fill="currentColor"/>' },
+    rayo: { label: "Rayo", d: '<path d="M13.5 2.5L5 13.5h6l-1 8 8.5-11h-6z" fill="currentColor"/>' },
+    corona: { label: "Corona", d: '<path d="M3.5 8l4.3 4 4.2-6.5 4.2 6.5 4.3-4-1.8 10.5H5.3z" fill="currentColor"/>' },
+    flor: { label: "Flor", d: '<circle cx="12" cy="7" r="3.3"/><circle cx="12" cy="17" r="3.3"/><circle cx="7" cy="12" r="3.3"/><circle cx="17" cy="12" r="3.3"/><circle cx="12" cy="12" r="2" fill="currentColor"/>' },
+  };
+  const STAMP_STYLES = { tinta: "Sello de tinta", relleno: "Relleno", contorno: "Contorno" };
+  const PATTERNS = { liso: "Liso", puntos: "Puntos", rayas: "Rayas", cuadricula: "Cuadrícula", ondas: "Ondas" };
+  const FONTS = { moderna: "Moderna", compacta: "Compacta", clasica: "Clásica", maquina: "Máquina" };
+  const CORNERS = { redondas: "Redondas", rectas: "Rectas" };
+  const PAGES = { claro: "Clara", oscuro: "Oscura", marca: "Con tus colores" };
+
+  // Temas listos para usar: colores y estilo pensados para cada giro.
+  const THEMES = [
+    { id: "barberia", name: "Barbería clásica", bg: "#1b2a41", fg: "#ffffff", acc: "#f4b942", icon: "tijeras", stamp: "tinta", pattern: "rayas", font: "moderna", corners: "redondas", page: "oscuro" },
+    { id: "cafe", name: "Café de grano", bg: "#3e2a1f", fg: "#f6ead8", acc: "#e3a857", icon: "taza", stamp: "tinta", pattern: "liso", font: "clasica", corners: "redondas", page: "marca" },
+    { id: "salon", name: "Salón rosa", bg: "#f8dbe3", fg: "#4a1d2c", acc: "#c2185b", icon: "flor", stamp: "relleno", pattern: "puntos", font: "clasica", corners: "redondas", page: "claro" },
+    { id: "veterinaria", name: "Veterinaria", bg: "#dff3ea", fg: "#12392b", acc: "#1f8a5b", icon: "huella", stamp: "relleno", pattern: "cuadricula", font: "compacta", corners: "redondas", page: "claro" },
+    { id: "tienda", name: "Tienda de barrio", bg: "#ffffff", fg: "#191530", acc: "#e4572e", icon: "bolsa", stamp: "relleno", pattern: "liso", font: "compacta", corners: "rectas", page: "claro" },
+    { id: "kraft", name: "Papel kraft", bg: "#c9a77c", fg: "#2b1d0e", acc: "#7a2e14", icon: "estrella", stamp: "tinta", pattern: "liso", font: "maquina", corners: "rectas", page: "marca" },
+    { id: "mar", name: "Mar", bg: "#0f4c5c", fg: "#ffffff", acc: "#7fe0d2", icon: "gota", stamp: "contorno", pattern: "ondas", font: "moderna", corners: "redondas", page: "marca" },
+    { id: "noche", name: "Noche", bg: "#0d0d12", fg: "#f2f2f7", acc: "#ff5ca8", icon: "rayo", stamp: "contorno", pattern: "cuadricula", font: "maquina", corners: "redondas", page: "oscuro" },
+    { id: "realeza", name: "Realeza", bg: "#2a0f3d", fg: "#f8e9ff", acc: "#e9c46a", icon: "corona", stamp: "tinta", pattern: "rayas", font: "clasica", corners: "redondas", page: "oscuro" },
+    { id: "tinta", name: "Tinta Mr Key", bg: "#3b23b5", fg: "#ffffff", acc: "#ffe14d", icon: "estrella", stamp: "tinta", pattern: "puntos", font: "moderna", corners: "redondas", page: "claro" },
+  ];
+  const DEFAULT_DESIGN = { icon: "estrella", stamp: "tinta", pattern: "liso", font: "moderna", corners: "redondas", page: "claro" };
+  const designOf = (m) => ({ ...DEFAULT_DESIGN, ...(m && m.design ? m.design : {}) });
+
+  function iconSvg(name, size = 24) {
+    const ic = ICONS[name] || ICONS.estrella;
+    return `<svg viewBox="0 0 24 24" width="${size}" height="${size}" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ic.d}</svg>`;
+  }
+  function stampSvg(i, design = DEFAULT_DESIGN) {
+    const d = { ...DEFAULT_DESIGN, ...design };
+    const ic = (ICONS[d.icon] || ICONS.estrella).d;
+    const turn = d.stamp === "tinta" ? ((i * 47) % 31) - 15 : 0;
+    const inner = `<g transform="translate(10.4 10.4) scale(.8)" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${ic}</g>`;
+    if (d.stamp === "relleno") {
+      return `<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="currentColor"/><g style="color:var(--c-bg)" stroke="currentColor">${inner}</g></svg>`;
+    }
+    if (d.stamp === "contorno") {
+      return `<svg viewBox="0 0 40 40" aria-hidden="true" stroke="currentColor"><circle cx="20" cy="20" r="17" fill="none" stroke-width="2.2"/>${inner}</svg>`;
+    }
+    return `<svg viewBox="0 0 40 40" aria-hidden="true" style="transform:rotate(${turn}deg)"><g filter="url(#mk-ink)" stroke="currentColor">
+      <circle cx="20" cy="20" r="17" fill="none" stroke-width="2.6"/><circle cx="20" cy="20" r="13" fill="none" stroke-width="1.1" stroke-dasharray="2 1.6"/>${inner}</g></svg>`;
+  }
+
+  // Dibuja la tarjeta de lealtad tal como se ve en Wallet, con el diseño del negocio.
   function renderCard(el, m, card, { qr = true, popIndex = -1 } = {}) {
+    ensureInkFilter();
+    const d = designOf(m);
     const total = m.stamps_required;
     const stamps = card ? card.stamps : 0;
-    el.className = "loyalty";
+    el.className = `loyalty pat-${d.pattern} font-${d.font} corners-${d.corners}`;
     el.style.setProperty("--c-bg", m.color_bg);
     el.style.setProperty("--c-fg", m.color_fg);
     el.style.setProperty("--c-acc", m.color_accent);
@@ -191,7 +148,7 @@
     let dots = "";
     for (let i = 0; i < total; i++) {
       const on = i < stamps;
-      dots += `<div class="stamp${on ? " on" : ""}${i === popIndex ? " pop" : ""}">${on ? "★" : ""}</div>`;
+      dots += `<div class="stamp${on ? " on" : ""}${i === popIndex ? " pop" : ""}">${on ? stampSvg(i, d) : ""}</div>`;
     }
     const cols = total <= 6 ? total : total <= 10 ? 5 : 6;
     el.innerHTML = `
@@ -199,13 +156,111 @@
         <div class="brand">${brand}</div>
         <div class="right"><div class="lbl">Premios</div><div class="val">${card ? card.rewards_available : 0}</div></div>
       </div>
-      <div class="stamps" style="grid-template-columns:repeat(${cols},1fr)">${dots}</div>
+      <div class="stamps" style="grid-template-columns:repeat(${cols},1fr)" role="img" aria-label="${stamps} de ${total} sellos">${dots}</div>
       <div class="meta">
         <div><div class="lbl">Recompensa</div><div class="val">${esc(m.reward_text)}</div></div>
         <div class="right"><div class="lbl">Sellos</div><div class="val">${stamps} de ${total}</div></div>
       </div>
-      ${card ? `<div class="meta" style="margin-top:10px"><div><div class="lbl">Cliente</div><div class="val">${esc(card.name.split(" ")[0])}</div></div>${card.rewards_available ? `<div class="right"><div class="lbl">Estado</div><div class="val">🎁 Premio listo</div></div>` : ""}</div>` : ""}
+      ${card ? `<div class="meta" style="margin-top:10px"><div><div class="lbl">Cliente</div><div class="val">${esc(card.name.split(" ")[0])}</div></div></div>` : ""}
       ${qr && card ? `<div class="qr">${qrSvg("MK:" + card.serial)}<div class="code">${esc(card.serial.slice(0, 8).toUpperCase())}</div></div>` : ""}`;
+  }
+
+  // Páginas del cliente (unirse y tarjeta): toman los colores del negocio.
+  function applyPageTheme(m) {
+    const d = designOf(m);
+    const root = document.documentElement;
+    root.dataset.theme = d.page === "oscuro" ? "oscuro" : "claro";
+    root.classList.toggle("page-marca", d.page === "marca");
+    if (d.page === "marca") {
+      root.style.setProperty("--brand-bg", m.color_bg);
+      root.style.setProperty("--brand-fg", m.color_fg);
+      root.style.setProperty("--brand-acc", m.color_accent);
+    }
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = d.page === "marca" ? m.color_bg : d.page === "oscuro" ? "#12101f" : "#ffffff";
+  }
+
+  // Tema de la web de Mr Key (automático, claro, oscuro o alto contraste), guardado en este navegador.
+  const SITE_THEMES = { auto: "Automático", claro: "Claro", oscuro: "Oscuro", contraste: "Alto contraste" };
+  function setSiteTheme(t) {
+    if (!SITE_THEMES[t]) t = "auto";
+    store("mk_theme", t === "auto" ? null : t);
+    if (t === "auto") delete document.documentElement.dataset.theme;
+    else document.documentElement.dataset.theme = t;
+    document.querySelectorAll("[data-site-theme]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.siteTheme === t)));
+  }
+  function mountThemePicker(el) {
+    if (!el) return;
+    const current = store("mk_theme") || "auto";
+    el.innerHTML = `<details class="theme-picker"><summary aria-label="Cambiar tema de la página"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17a8.5 8.5 0 0 0 0-17z" fill="currentColor"/></svg><span>Tema</span></summary>
+      <div class="theme-menu" role="group" aria-label="Tema de la página">${Object.entries(SITE_THEMES).map(([k, v]) =>
+        `<button type="button" data-site-theme="${k}" aria-pressed="${k === current}">${v}</button>`).join("")}</div></details>`;
+    el.querySelectorAll("[data-site-theme]").forEach((b) => b.addEventListener("click", () => {
+      setSiteTheme(b.dataset.siteTheme);
+      b.closest("details").open = false;
+    }));
+  }
+
+  // Recorrido guiado: resalta un elemento a la vez con una explicación y botones para avanzar.
+  function tour(steps, { onEnd } = {}) {
+    let i = 0;
+    const layer = document.createElement("div");
+    layer.className = "tour";
+    layer.innerHTML = `<div class="tour-spot"></div><div class="tour-tip" role="dialog" aria-modal="true" aria-labelledby="tourTitle">
+      <p class="tour-count"></p><h3 id="tourTitle"></h3><p class="tour-text"></p>
+      <div class="tour-actions"><button type="button" class="btn sm ghost" data-t="skip">Saltar</button><span class="grow"></span>
+      <button type="button" class="btn sm" data-t="prev">Atrás</button><button type="button" class="btn sm gold" data-t="next">Siguiente</button></div></div>`;
+    document.body.appendChild(layer);
+    const spot = layer.querySelector(".tour-spot"), tip = layer.querySelector(".tour-tip");
+    const end = () => {
+      layer.remove();
+      removeEventListener("resize", place);
+      removeEventListener("keydown", onKey);
+      onEnd && onEnd();
+    };
+    function place() {
+      const s = steps[i], target = document.querySelector(s.el);
+      if (!target) return;
+      const r = target.getBoundingClientRect(), pad = 8;
+      Object.assign(spot.style, { top: `${r.top - pad}px`, left: `${r.left - pad}px`, width: `${r.width + pad * 2}px`, height: `${r.height + pad * 2}px` });
+      // En celular la explicación va fija abajo para no tapar lo que se resalta.
+      if (innerWidth < 640) {
+        Object.assign(tip.style, { top: "auto", bottom: "12px", left: "12px" });
+        return;
+      }
+      tip.style.bottom = "auto";
+      const below = r.bottom + 16 + tip.offsetHeight < innerHeight || r.top < tip.offsetHeight + 24;
+      const top = below ? Math.min(r.bottom + 16, innerHeight - tip.offsetHeight - 12) : r.top - tip.offsetHeight - 16;
+      const left = Math.min(Math.max(12, r.left), innerWidth - tip.offsetWidth - 12);
+      Object.assign(tip.style, { top: `${Math.max(12, top)}px`, left: `${left}px` });
+    }
+    function show() {
+      const s = steps[i], target = document.querySelector(s.el);
+      if (s.before) s.before();
+      layer.querySelector(".tour-count").textContent = `Paso ${i + 1} de ${steps.length}`;
+      layer.querySelector("#tourTitle").textContent = s.title;
+      layer.querySelector(".tour-text").textContent = s.text;
+      layer.querySelector('[data-t="prev"]').disabled = i === 0;
+      layer.querySelector('[data-t="next"]').textContent = i === steps.length - 1 ? "Terminar" : "Siguiente";
+      if (target) target.scrollIntoView({ block: innerWidth < 640 ? "start" : "center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+      setTimeout(place, 350);
+      place();
+      layer.querySelector('[data-t="next"]').focus({ preventScroll: true });
+    }
+    const onKey = (e) => {
+      if (e.key === "Escape") end();
+      if (e.key === "ArrowRight") layer.querySelector('[data-t="next"]').click();
+      if (e.key === "ArrowLeft" && i > 0) layer.querySelector('[data-t="prev"]').click();
+    };
+    layer.addEventListener("click", (e) => {
+      const t = e.target.closest("[data-t]")?.dataset.t;
+      if (t === "skip") end();
+      if (t === "prev" && i > 0) { i--; show(); }
+      if (t === "next") { if (i === steps.length - 1) end(); else { i++; show(); } }
+    });
+    addEventListener("resize", place);
+    addEventListener("keydown", onKey);
+    show();
   }
 
   // Convierte una imagen subida en PNG redimensionado (para el logo y el icono del pase).
@@ -235,29 +290,10 @@
     });
   }
 
-  // Texto con lo que falta para el premio.
-  function remainingText(m, card) {
-    const left = m.stamps_required - (card?.stamps ?? 0);
-    return left === 1 ? `Te falta 1 sello para: ${m.reward_text}` : `Te faltan ${left} sellos para: ${m.reward_text}`;
-  }
-
-  // Contraste WCAG entre dos colores #rrggbb (1 a 21).
-  function contrast(a, b) {
-    const lum = (hex) => {
-      const n = parseInt(String(hex).slice(1), 16);
-      const ch = [(n >> 16) & 255, (n >> 8) & 255, n & 255].map((v) => {
-        v /= 255;
-        return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4;
-      });
-      return 0.2126 * ch[0] + 0.7152 * ch[1] + 0.0722 * ch[2];
-    };
-    const [x, y] = [lum(a), lum(b)].sort((p, r) => r - p);
-    return (x + 0.05) / (y + 0.05);
-  }
-
   window.MK = {
     API, BASE, api, store, esc, qrSvg, toast, ago, money, renderCard, imageToPng,
-    fmtDate, fmtTime, fmtDateTime, phoneFmt, waLink, cardUrl, plural, remainingText, contrast,
-    openSheet, closeSheet, sheetOpen, q, confirm, copyText,
+    stampSvg: (i, d) => (ensureInkFilter(), stampSvg(i, d)), iconSvg,
+    ICONS, STAMP_STYLES, PATTERNS, FONTS, CORNERS, PAGES, THEMES, DEFAULT_DESIGN, designOf,
+    applyPageTheme, SITE_THEMES, setSiteTheme, mountThemePicker, tour,
   };
 })();

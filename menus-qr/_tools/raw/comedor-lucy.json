@@ -1,0 +1,305 @@
+{
+ "id": 1923557992,
+ "brandName": "Comedor Lucy.",
+ "name": "Comedor Lucy. - San Luis Potosí Centro",
+ "address": "Calle Mier y Terán & Calle Pasaje Alhóndiga",
+ "schedule": "09:30:00 - 17:00:00",
+ "categories": "Mexicana",
+ "location": [
+  -100.976112,
+  22.155249
+ ],
+ "city": "San Luis Potosí",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/0d04617c-1f47-4b07-899e-23f3cce85f52-1788987006796.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/9d8ee898-b244-42d5-8d3a-ad1ec50f1fd6-1788987219640.jpeg",
+ "schedules": [
+  {
+   "open_time": "09:30:00",
+   "close_time": "17:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923557992-comedor-lucy",
+ "menu": [
+  {
+   "name": "Especiales Mexicanos",
+   "products": [
+    {
+     "name": "Enchiladas potosinas",
+     "desc": "Tradicionales enchiladas potosinas 6 piezas acompañadas de ensalada, frijoles, crema, queso, tostada de guacamole, consomé y agua de sabor",
+     "price": 140,
+     "img": "aa4d51e8-30e6-4d88-a913-f837165252a5.png"
+    }
+   ]
+  },
+  {
+   "name": "Combos",
+   "products": [
+    {
+     "name": "Combo 2 sopes y agua del día",
+     "desc": "Dos sopes con guisado a elegir y un agua de litro del día",
+     "price": 125,
+     "img": "46d5b6a2-5ce2-4695-9930-eb9bc549d5b4.png"
+    },
+    {
+     "name": "Combo en Pareja",
+     "desc": "2 Milanesas de pollo,  2 refrescos .",
+     "price": 333,
+     "img": "8b2e80ae-8985-4490-81aa-46be7ab8eb41.png"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Chilaquiles 3x2",
+     "desc": "Chilaquiles de totopos con crema, queso, salsa roja, frijoles refritos y acompañamiento a elegir.",
+     "price": 280.8,
+     "img": "5c165196-bdcb-4726-a016-21729b575389.png"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles de totopos con crema, queso, salsa roja, frijoles refritos y acompañamiento a elegir.",
+     "price": 104,
+     "img": "ac406b15-8658-40ca-a991-ac043038125b.png"
+    },
+    {
+     "name": "Huevos con jamón",
+     "desc": "Huevos con jamón y acompañamiento a elegir.",
+     "price": 130,
+     "img": "4ccceba4-819b-4675-b655-055e5ac7e93f.png"
+    },
+    {
+     "name": "Huevos a la mexicana",
+     "desc": "Huevos a la mexicana con acompañamiento a elegir.",
+     "price": 130,
+     "img": "18b068bd-5d42-411d-9e9d-469cf3cea86f.png"
+    },
+    {
+     "name": "Huevos con chorizo",
+     "desc": "Huevos con chorizo y acompañamiento a elegir.",
+     "price": 130,
+     "img": "17f00877-b3ef-4220-b714-2e4dcb8d1d43.png"
+    },
+    {
+     "name": "Huevos rancheros",
+     "desc": "Huevos rancheros estrellados en salsa roja con frijoles refritos y acompañamiento a elegir.",
+     "price": 130,
+     "img": "51354821-a643-4a3b-aff6-69d3ffc8e9c5.png"
+    }
+   ]
+  },
+  {
+   "name": "Caldos",
+   "products": [
+    {
+     "name": "Menudo",
+     "desc": "Menudo rojo con tortillas, salsa, limón y cebolla.",
+     "price": 150,
+     "img": "ca51860f-875f-4d92-9f49-60c28a57457e.png"
+    },
+    {
+     "name": "Caldo de res",
+     "desc": "Caldo de res, con verduras, arroz y tortillas",
+     "price": 120,
+     "img": "e92cdab1-8d0a-455a-92be-b61e9b1573f1.png"
+    },
+    {
+     "name": "Caldo de pollo",
+     "desc": "Caldo de pollo con verduras arroz y tortillas",
+     "price": 112,
+     "img": "37ec0db6-241c-4415-9f90-afdc1f38988d.png"
+    },
+    {
+     "name": "Pozole",
+     "desc": "Caldo hecho a base de granos de maíz con carne de puerco y acompañamientos",
+     "price": 150,
+     "img": "e879db74-8cc6-4559-990c-81f10abe4e95.png"
+    },
+    {
+     "name": "Caldo de espinazo",
+     "desc": "Caldo de espinazo con verduras, arroz y tortillas",
+     "price": 150,
+     "img": "b99ac41f-3d54-4f2b-b32a-eaff93966ca0.png"
+    }
+   ]
+  },
+  {
+   "name": "Platos Fuertes",
+   "products": [
+    {
+     "name": "Pollo en salsa,",
+     "desc": "Arroz y frijoles, tortillas",
+     "price": 125,
+     "img": "d0bcb13d-5610-41d0-9bfe-005dee3dbaf8.png"
+    },
+    {
+     "name": "Costilla de puerco en salsa",
+     "desc": "Arroz, frijoles y tortillas",
+     "price": 125,
+     "img": "639df8dd-7aa6-46db-8338-6abed02f4cd6.png"
+    },
+    {
+     "name": "Milanesa de res",
+     "desc": "Milanesa de res, acompañada de arroz, frijoles, papas, ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 150,
+     "img": "b059bf09-4efa-4d18-afc9-1ce85f70be47.png"
+    },
+    {
+     "name": "Mole de puerco",
+     "desc": "Arroz y frijoles, tortillas",
+     "price": 125,
+     "img": "41412e55-9c33-4709-b55a-2f958eae4707.png"
+    },
+    {
+     "name": "Milanesa de pollo",
+     "desc": "Milanesa de pollo, acompañada de arroz, frijoles, papas y ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 90,
+     "img": "fcabaa92-4d20-4541-aa92-cdc408d0d702.png"
+    },
+    {
+     "name": "Pollo frito",
+     "desc": "Pollo frito, acompañado de arroz, frijoles, papas y ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 150,
+     "img": "63d82f5d-7af1-4a87-ba1a-443aaeee4689.png"
+    },
+    {
+     "name": "Bistec ranchero",
+     "desc": "Bistec ranchero, acompañado de arroz, frijoles, papas y ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 150,
+     "img": "2281eb8f-9622-409a-8a37-3f2a8af13075.png"
+    },
+    {
+     "name": "Bistec a la mexicana",
+     "desc": "Bistec a la mexicana, acompañado de arroz, frijoles, papas y ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 150,
+     "img": "c7ea150c-eb35-4906-a2e0-9a44b9116836.png"
+    },
+    {
+     "name": "Portuguesa",
+     "desc": "Bistec de pollo relleno de jamón y queso. acompañado de arroz, frijoles, papas y ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 150,
+     "img": "18c284be-c8f6-4e24-888c-4119a3b230aa.png"
+    },
+    {
+     "name": "Holandesa",
+     "desc": "Bistec a la plancha a elegir con queso fundido. acompañado de arroz, frijoles, papas y ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 150,
+     "img": "3618d02a-62e2-439f-b351-8c1dd0345723.png"
+    },
+    {
+     "name": "Chiles rellenos",
+     "desc": "Chiles poblanos capeados y bañados en salsa roja, rellenos de queso asadero, arroz, frijoles, papas y ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 150,
+     "img": "8206bd53-f2b5-41fa-8480-01b35f348f00.png"
+    },
+    {
+     "name": "Pollo a la plancha",
+     "desc": "Pollo a la plancha, acompañado de arroz, frijoles, papas y ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 90,
+     "img": "9678bdc6-b349-4a10-b3f0-c8c3ab38555a.png"
+    },
+    {
+     "name": "Carne asada",
+     "desc": "Carne asada, acompañada de arroz, frijoles, papas y ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 120,
+     "img": "354f73ea-8959-441d-ad4d-d71bda3c1b9f.png"
+    },
+    {
+     "name": "Filete de pescado",
+     "desc": "Filete de pescado, acompañado de arroz, frijoles, papas y ensalada de lechuga, tomate, tortillas, zanahoria y pepino.",
+     "price": 120,
+     "img": "1c2188bf-bacc-474e-985b-1521c8815514.png"
+    }
+   ]
+  },
+  {
+   "name": "Mariscos",
+   "products": [
+    {
+     "name": "Vuelve a la Vida",
+     "desc": "Camarón, pulpito y ostión en salsa coctelera con cebolla, cilantro y jitomate",
+     "price": 200,
+     "img": "ba8c7400-5687-486c-9e81-825cf94ddd23.png"
+    },
+    {
+     "name": "Caldo de Pescado",
+     "desc": "Caldo rojo con zanahoria y papa con pescado de mero .",
+     "price": 130,
+     "img": "b2c05a86-f7d9-4a15-aae7-68f74261fe70.png"
+    },
+    {
+     "name": "Mojarra Frita",
+     "desc": "Peso 1/2 kilo aprox. acompañado con arroz papas y ensalada de pepino consomé de pescado y agua de sabor .",
+     "price": 200,
+     "img": "957f0ba4-ff21-40b5-8043-cb6507e23cf4.png"
+    }
+   ]
+  },
+  {
+   "name": "Éspecialidades de la Casa",
+   "products": [
+    {
+     "name": "Tampiqueña",
+     "desc": "Especialidad de la casa, bistec res, bistec de pollo, enchiladas, chiles güeros, cebolla, nopales, tostada de chorizo, arroz, frijoles, crema y mas .",
+     "price": 280,
+     "img": "bc3cdccc-b589-46b2-a186-0fe33df01923.png"
+    },
+    {
+     "name": "Mole de pollo",
+     "desc": "Delicioso mole dulce, arroz y frijoles .",
+     "price": 125,
+     "img": "a7a87f74-9423-481e-afb3-cd429278512d.png"
+    },
+    {
+     "name": "Mole de puerco",
+     "desc": "Delicioso mole de puerco dulce acompañado con arroz y frijoles .",
+     "price": 125,
+     "img": "41412e55-9c33-4709-b55a-2f958eae4707.png"
+    },
+    {
+     "name": "Enchiladas comedor lucy",
+     "desc": "Ricas enchiladas 100 potosinas y caseras, frijoles, guacamole, crema y queso, pico de gallo. .",
+     "price": 150,
+     "img": "ec453720-83e7-4a70-ac28-9fe841d24dcc.png"
+    }
+   ]
+  },
+  {
+   "name": "Otras Delicias",
+   "products": [
+    {
+     "name": "Gorditas",
+     "desc": "Gorditas de maíz con guiso a elegir.",
+     "price": 12.8,
+     "img": "87a849ee-79ce-4f64-b541-46763ce33413.png"
+    },
+    {
+     "name": "Enchiladas potosinas",
+     "desc": "6 Enchiladas doradas, acompañadas con frijoles, ensalada, huacamole, crema y queso",
+     "price": 125,
+     "img": "5f5e3dc8-35a7-4037-9690-5b33f119621a.png"
+    },
+    {
+     "name": "Sope",
+     "desc": "Sope con base de maíz, cubierta con frijoles, cebolla, cilantro, crema y queso.",
+     "price": 40,
+     "img": "7d7fe8b6-9a7b-478c-8ee3-c8c19382ea1e.png"
+    },
+    {
+     "name": "Huarache",
+     "desc": "Huarache con guiso a elegir.",
+     "price": 75,
+     "img": "e9f909c5-c550-46c1-9920-3c0528d01fde.png"
+    },
+    {
+     "name": "Machete",
+     "desc": "Quesadilla de maíz 45 cm aprox, queso asadero y 2 guisos a elegir.",
+     "price": 120,
+     "img": "e8d8e9f9-fc2d-4b6e-ba92-322a089a46e7.png"
+    }
+   ]
+  }
+ ]
+}

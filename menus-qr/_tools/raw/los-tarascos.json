@@ -1,0 +1,1188 @@
+{
+ "id": 1930407314,
+ "brandName": "Taqueria Los Tarascos",
+ "name": "Taqueria Los Tarascos - Fracc Villas Playa Diamante",
+ "address": "Costera de las Palmas 68, Granjas del Marqués, 39890 Acapulco de Juárez, Gro., México",
+ "schedule": "16:00:00 - 22:00:00",
+ "categories": "Tacos · Mexicana",
+ "location": [
+  -99.8070147,
+  16.7845176
+ ],
+ "city": "Acapulco de Juárez",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-1768600503174.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1768600504554.jpg",
+ "schedules": [
+  {
+   "open_time": "16:00:00",
+   "close_time": "22:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930407314-taqueria-los-tarascos",
+ "menu": [
+  {
+   "name": "500 ML",
+   "products": [
+    {
+     "name": "AGUA FRESADA 500 ML",
+     "desc": "AGUA FRESADA 500 ML",
+     "price": 137,
+     "img": "426f42b6-696f-45d2-aa2e-630ebbd79e75.jpeg"
+    },
+    {
+     "name": "AGUA HORCHATA 500 ML",
+     "desc": "AGUA HORCHATA 500 ML",
+     "price": 94,
+     "img": "cec5938d-0aa5-4e7d-a187-1d8a717b21f3.jpeg"
+    },
+    {
+     "name": "AGUA HORCHATA FRESA 500 ML",
+     "desc": "AGUA HORCHATA FRESA 500 ML",
+     "price": 111,
+     "img": "07f6063a-4e43-4dd1-bf30-fee233b85ff5_a5.png"
+    },
+    {
+     "name": "AGUA JAMAICA 500 ML",
+     "desc": "AGUA JAMAICA 500 ML",
+     "price": 94,
+     "img": "cec5938d-0aa5-4e7d-a187-1d8a717b21f3.jpeg"
+    },
+    {
+     "name": "AGUA MARACUYA 500 ML",
+     "desc": "AGUA MARACUYA 500 ML",
+     "price": 94,
+     "img": "fe96969b6fa8412abb9147603409d324.png"
+    },
+    {
+     "name": "AGUA NARANJADA 500 ML",
+     "desc": "AGUA NARANJADA 500 ML",
+     "price": 81,
+     "img": "3fd86213-c03f-42a4-9a21-c6de2138347b.jpeg"
+    },
+    {
+     "name": "AGUA PEPINO C/ LIMON C/CHIA 500 ML",
+     "desc": "AGUA PEPINO C/ LIMON C/CHIA 500 ML",
+     "price": 94,
+     "img": "cec5938d-0aa5-4e7d-a187-1d8a717b21f3.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "950 ML",
+   "products": [
+    {
+     "name": "AGUA FRESADA 950 ML",
+     "desc": "AGUA FRESADA 950 ML",
+     "price": 246,
+     "img": "426f42b6-696f-45d2-aa2e-630ebbd79e75.jpeg"
+    },
+    {
+     "name": "AGUA HORCHATA 950 ML",
+     "desc": "AGUA HORCHATA 950 ML",
+     "price": 177,
+     "img": "cec5938d-0aa5-4e7d-a187-1d8a717b21f3.jpeg"
+    },
+    {
+     "name": "AGUA HORCHATA FRESA 950 ML",
+     "desc": "AGUA HORCHATA FRESA 950 ML",
+     "price": 210,
+     "img": "07f6063a-4e43-4dd1-bf30-fee233b85ff5_a4.png"
+    },
+    {
+     "name": "AGUA JAMAICA 950 ML",
+     "desc": "AGUA JAMAICA 950 ML",
+     "price": 177,
+     "img": "cec5938d-0aa5-4e7d-a187-1d8a717b21f3.jpeg"
+    },
+    {
+     "name": "AGUA LIMONADA 950 ML",
+     "desc": "AGUA LIMONADA 950 ML",
+     "price": 210,
+     "img": "3fd86213-c03f-42a4-9a21-c6de2138347b.jpeg"
+    },
+    {
+     "name": "AGUA MARACUYA 950 ML",
+     "desc": "AGUA MARACUYA 950 ML",
+     "price": 177,
+     "img": "3f5393c3-fd0a-417b-bd4a-da61bf07b393.jpeg"
+    },
+    {
+     "name": "AGUA NARANJADA 950 ML",
+     "desc": "AGUA NARANJADA 950 ML",
+     "price": 160,
+     "img": "3fd86213-c03f-42a4-9a21-c6de2138347b.jpeg"
+    },
+    {
+     "name": "AGUA PEPINO C/LIMON C/CHIA 950 ML",
+     "desc": "AGUA PEPINO C/LIMON C/CHIA 950 ML",
+     "price": 177,
+     "img": "cec5938d-0aa5-4e7d-a187-1d8a717b21f3.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "ALAMBRES",
+   "products": [
+    {
+     "name": "ALAMBRE ARRACHERA",
+     "desc": "Alambre de arrachera con pimiento verde, cebolla y queso gratinado.",
+     "price": 560,
+     "img": "ce52e980-b4d9-4113-b75d-530628825137.jpeg"
+    },
+    {
+     "name": "ALAMBRE BISTEC",
+     "desc": "Alambre con bistec, queso fundido y pimientos verdes.",
+     "price": 438,
+     "img": "577e0119-aa5b-488e-b792-929158ebb436.jpeg"
+    },
+    {
+     "name": "ALAMBRE CHULETA",
+     "desc": "ALAMBRE CHULETA con pimientos y queso fundido.",
+     "price": 391,
+     "img": "54258f31-e06a-49df-820b-e9447ecbd809.jpeg"
+    },
+    {
+     "name": "ALAMBRE COSTILLA",
+     "desc": "Alambre de costilla con pimientos, cebolla y queso fundido.",
+     "price": 545,
+     "img": "7acb2c3d-8367-4319-aaa5-f6d9a2286a9e.jpeg"
+    },
+    {
+     "name": "ALAMBRE LENGUA",
+     "desc": "ALAMBRE LENGUA",
+     "price": 522,
+     "img": "6db1f9e6-7a69-4a9c-ad26-e13c3b75b5d9.jpeg"
+    },
+    {
+     "name": "ALAMBRE PASTOR",
+     "desc": "Alambre Pastor con pimiento morrón, elote, queso gratinado y aguacate.",
+     "price": 407,
+     "img": "74279522-b8bc-4aa6-9ad8-a5a57c59486b.jpeg"
+    },
+    {
+     "name": "ALAMBRE PICAÑA",
+     "desc": "ALAMBRE PICAÑA",
+     "price": 582,
+     "img": "f101e9bc-5a47-4aed-bce4-35b45bfec8a8.jpeg"
+    },
+    {
+     "name": "ALAMBRE POLLO",
+     "desc": "Alambre de pollo con pimiento verde, tomate, cebolla y queso gratinado.",
+     "price": 376,
+     "img": "89255d50-5ebf-4019-88dd-c4398ebf9006.jpeg"
+    },
+    {
+     "name": "ALAMBRE SIRLOIN",
+     "desc": "ALAMBRE SIRLOIN",
+     "price": 378,
+     "img": "2fc5e621-ced6-4d0a-8617-70424965e4ff_a50.png"
+    },
+    {
+     "name": "ALAMBRE SUADERO",
+     "desc": "Alambre de suadero con queso derretido, pimiento verde y tomate.",
+     "price": 445,
+     "img": "c97b72aa-b103-4f24-97fc-b7f8793c0b34.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "CAFES",
+   "products": [
+    {
+     "name": "CAFE AMERICANO",
+     "desc": "CAFE AMERICANO",
+     "price": 66,
+     "img": "851f009f-e5f0-4e59-97b6-76746f0580ae.jpeg"
+    },
+    {
+     "name": "CAFE CAPUCHINO",
+     "desc": "CAFE CAPUCHINO",
+     "price": 110,
+     "img": "a02b8be4-ec94-4af0-b0e4-4c726a551daa_a11.png"
+    },
+    {
+     "name": "CAFE EXPRESSO",
+     "desc": "CAFE EXPRESSO",
+     "price": 89,
+     "img": "a02b8be4-ec94-4af0-b0e4-4c726a551daa_a10.png"
+    },
+    {
+     "name": "CAFE EXPRESSO CORTADO",
+     "desc": "CAFE EXPRESSO CORTADO",
+     "price": 65,
+     "img": "4e477255-bbdd-4fe4-9f2f-dcd4fe07be44_a49.png"
+    },
+    {
+     "name": "CAFE LATTE",
+     "desc": "CAFE LATTE",
+     "price": 110,
+     "img": "a02b8be4-ec94-4af0-b0e4-4c726a551daa_a9.png"
+    },
+    {
+     "name": "CAFE LUNGO",
+     "desc": "CAFE LUNGO",
+     "price": 95,
+     "img": "976add5e-db92-45ac-be1e-e9d60a417866_a30.png"
+    },
+    {
+     "name": "CHOCOLATE CALIENTE",
+     "desc": "CHOCOLATE CALIENTE",
+     "price": 111,
+     "img": "b8ff3e5c-e730-4043-b846-eb3e9c090fa6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "PASTOR",
+   "products": [
+    {
+     "name": "1\\4 KG PASTOR C\\QUESO",
+     "desc": "1\\4 KG PASTOR C\\QUESO",
+     "price": 343,
+     "img": "ea14f550ae3a4a1b9f3b1bb1b94a1074.png"
+    },
+    {
+     "name": "1KG PASTOR",
+     "desc": "1 kg de pastor picado.",
+     "price": 1148,
+     "img": "a1f49886-567b-4a03-91bb-07f6cd4dd3b5.jpeg"
+    },
+    {
+     "name": "1KG PASTOR C/QUESO",
+     "desc": "1 kg de carne al pastor con queso.",
+     "price": 955,
+     "img": "a1f49886-567b-4a03-91bb-07f6cd4dd3b5.jpeg"
+    },
+    {
+     "name": "ORDEN PASTOR",
+     "desc": "Orden de carne al pastor con cebolla picada y cilantro.",
+     "price": 422,
+     "img": "01639f4a09164b12b1cbfbc91a9d4bce.png"
+    },
+    {
+     "name": "ORDEN PASTOR C/QUESO",
+     "desc": "ORDEN PASTOR C/QUESO",
+     "price": 472,
+     "img": "49cecb49cc6344ad80fac3e8dda5bd8e.png"
+    }
+   ]
+  },
+  {
+   "name": "BISTEC",
+   "products": [
+    {
+     "name": "1KG BISTEC",
+     "desc": "1KG BISTEC",
+     "price": 805,
+     "img": "5af07191-103e-4800-989c-76585b1cb145.jpeg"
+    },
+    {
+     "name": "1KG BISTEC C/QUESO",
+     "desc": "1KG BISTEC C/QUESO",
+     "price": 955,
+     "img": "5af07191-103e-4800-989c-76585b1cb145.jpeg"
+    },
+    {
+     "name": "ORDEN BISTEC",
+     "desc": "Orden Bistec con salsa y cebolla salteada.",
+     "price": 368,
+     "img": "317b1776-4d13-4d5d-ad45-cd236d3b596c_a74.png"
+    },
+    {
+     "name": "ORDEN BISTEC C/QUESO",
+     "desc": "ORDEN BISTEC C/QUESO",
+     "price": 418,
+     "img": "698b1a54-8371-4a0f-b1f1-d5982dd0c6a3_a16.png"
+    }
+   ]
+  },
+  {
+   "name": "CHORIZO",
+   "products": [
+    {
+     "name": "ORDEN CHORIZO",
+     "desc": "ORDEN CHORIZO",
+     "price": 330,
+     "img": "2e00d3ea-8b47-428b-a518-44bb51b20889.jpeg"
+    },
+    {
+     "name": "ORDEN CHORIZO C/QUESO",
+     "desc": "ORDEN CHORIZO C/QUESO",
+     "price": 380,
+     "img": "0ac57ddff83e4133b4ab18119c1a1164.png"
+    },
+    {
+     "name": "ORDEN CHORIZO C/QUESO",
+     "desc": "ORDEN CHORIZO C/QUESO",
+     "price": 288,
+     "img": "b3d395c7dae44320a0f3d86f7074a6e7.png"
+    }
+   ]
+  },
+  {
+   "name": "COSTILLA",
+   "products": [
+    {
+     "name": "1KG COSTILLA",
+     "desc": "1KG COSTILLA picada.",
+     "price": 805,
+     "img": "0a2b765c-e3b7-482a-a21d-b2a244d9ee54.jpeg"
+    },
+    {
+     "name": "1KG COSTILLA C/QUESO",
+     "desc": "1KG COSTILLA C/QUESO",
+     "price": 1098,
+     "img": "0a2b765c-e3b7-482a-a21d-b2a244d9ee54.jpeg"
+    },
+    {
+     "name": "ORDEN COSTILLA",
+     "desc": "ORDEN COSTILLA",
+     "price": 530,
+     "img": "de8149a5-92cf-4c46-8c34-7ecedd89eded.jpeg"
+    },
+    {
+     "name": "ORDEN COSTILLA C/QUESO",
+     "desc": "Costilla en trozos con queso fundido.",
+     "price": 580,
+     "img": "a2f68998-96ee-404a-aa5e-25b920570596_a250.png"
+    }
+   ]
+  },
+  {
+   "name": "ARRACHERA",
+   "products": [
+    {
+     "name": "1KG ARRACHERA",
+     "desc": "1KG de arrachera picada.",
+     "price": 1800,
+     "img": "27aae6e0-ab2c-4455-b2cb-f2a419d89762.jpeg"
+    },
+    {
+     "name": "1KG ARRACHERA C/QUESO",
+     "desc": "1KG ARRACHERA C/QUESO",
+     "price": 1950,
+     "img": "27aae6e0-ab2c-4455-b2cb-f2a419d89762.jpeg"
+    },
+    {
+     "name": "ORDEN ARRACHERA",
+     "desc": "Arrachera asada con marcas de parrilla, cortada en rebanadas.",
+     "price": 668,
+     "img": "8dafb549349a4468ac2cc0afc6c4c10e.png"
+    },
+    {
+     "name": "ORDEN ARRACHERA C/QUESO",
+     "desc": "Arrachera con queso derretido.",
+     "price": 718,
+     "img": "532a95e3c35d45549b8d33619846bc12.png"
+    }
+   ]
+  },
+  {
+   "name": "CHULETA",
+   "products": [
+    {
+     "name": "ORDEN CHULETA",
+     "desc": "Orden de chuleta con 4 rebanadas.",
+     "price": 330,
+     "img": "9d337372-0152-42e7-968b-d85288336246_a42.png"
+    },
+    {
+     "name": "ORDEN CHULETA C/QUESO",
+     "desc": "Orden de chuleta con queso fundido.",
+     "price": 380,
+     "img": "8cb6bdf44d0c40be895c06fced016424.png"
+    }
+   ]
+  },
+  {
+   "name": "POLLO",
+   "products": [
+    {
+     "name": "ORDEN POLLO",
+     "desc": "ORDEN POLLO, frito y empanizado.",
+     "price": 322,
+     "img": "cb20034a194a4948b5d392c2b505c54b.png"
+    },
+    {
+     "name": "ORDEN POLLO C/QUESO",
+     "desc": "Orden de pollo con queso fundido.",
+     "price": 372,
+     "img": "75c1a068-b3e0-48a8-a475-6587abdf1b04_a7.png"
+    }
+   ]
+  },
+  {
+   "name": "COMPLEMENTOS",
+   "products": [
+    {
+     "name": "AGUACATE",
+     "desc": "AGUACATE",
+     "price": 152,
+     "img": "f8abafb6-2f05-4e77-88c3-4b5beeaa6e37.jpeg"
+    },
+    {
+     "name": "CEBOLLA CAMBRAY",
+     "desc": "CEBOLLA CAMBRAY",
+     "price": 101,
+     "img": "7fa5df9d-21b6-41f4-bf02-e3d4a9d48f5b.jpeg"
+    },
+    {
+     "name": "CHAMPIÑONES",
+     "desc": "CHAMPIÑONES salteados con rebanadas de tomate.",
+     "price": 152,
+     "img": "17b50413-3e46-4fb0-bdec-785a24a6adc9.jpeg"
+    },
+    {
+     "name": "CHILES TOREADOS",
+     "desc": "Chiles toreados verdes enteros.",
+     "price": 75,
+     "img": "707e1724-c83d-4f6c-a06b-a4967b2165f7.jpeg"
+    },
+    {
+     "name": "FRIJOLES CHARROS",
+     "desc": "Frijoles charros con tocino y chorizo.",
+     "price": 91,
+     "img": "ba6e71cf-5384-4d4c-92e9-15ef2c409ee9.jpeg"
+    },
+    {
+     "name": "NOPALES",
+     "desc": "Nopales picados.",
+     "price": 92,
+     "img": "804f7816-39ac-44c4-ad44-b8d0a2f173c5.jpeg"
+    },
+    {
+     "name": "TORTILLA HARINA (3PZA)",
+     "desc": "TORTILLA HARINA (3PZA)",
+     "price": 60,
+     "img": "ab9e2c5f-c211-46fa-a635-17ca89f44762.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "ESPECIALIDADES",
+   "products": [
+    {
+     "name": "ARRACHERA ESPECIAL",
+     "desc": "Arrachera con queso derretido y aguacate.",
+     "price": 751,
+     "img": "7a8cca59-9494-4a32-9a2a-5b34e2a59c23.jpeg"
+    },
+    {
+     "name": "BISTEC A LA MEXICANA",
+     "desc": "BISTEC A LA MEXICANA",
+     "price": 430,
+     "img": "bb1d8bb1-c8c6-4c07-b70c-560feebd5f95.jpeg"
+    },
+    {
+     "name": "BISTEC AL QUESO",
+     "desc": "Bistec en trozos cubierto con queso fundido.",
+     "price": 393,
+     "img": "4c284cbc-3cb8-4993-9ea6-9e0e29b5dba7.jpeg"
+    },
+    {
+     "name": "BISTEC C/CHORIZO",
+     "desc": "Bistec y chorizo con chile jalapeño asado, cebolla asada y nopales.",
+     "price": 430,
+     "img": "abed9901-8924-461d-830c-b860249bba29.jpeg"
+    },
+    {
+     "name": "CHULETA SUIZA",
+     "desc": "CHULETA SUIZA",
+     "price": 382,
+     "img": "fbd9ed43-0fa1-45fe-909f-13af193469e9.jpeg"
+    },
+    {
+     "name": "DIS JOKY",
+     "desc": "DIS JOKY",
+     "price": 393,
+     "img": "25c42f24-e2c8-4ca8-8a05-2138f961d2f6.jpeg"
+    },
+    {
+     "name": "ESP EL TARASCO ORDEN 325 GRS",
+     "desc": "Especialidad 'El Tarasco' de 325 grs con carne, cebolla, queso derretido y chile jalapeño asado.",
+     "price": 408,
+     "img": "0aeced25-f3d9-4a32-9183-377817f92568.jpeg"
+    },
+    {
+     "name": "ESP GALLITO ORDEN 325 GRS",
+     "desc": "ESP GALLITO ORDEN 325 GRS",
+     "price": 393,
+     "img": "587db4e2-5e10-4336-afa6-ce369446e111.jpeg"
+    },
+    {
+     "name": "FORTACHON",
+     "desc": "Platillo con tiras de carne, cebolla y queso fundido.",
+     "price": 407,
+     "img": "f63b37b1-ebed-4160-9a71-c56a73c70535.jpeg"
+    },
+    {
+     "name": "GRINGA ESPECIAL",
+     "desc": "GRINGA ESPECIAL",
+     "price": 399,
+     "img": "4ce48e1a-d824-42d0-b74d-55fa0501e59b.jpeg"
+    },
+    {
+     "name": "HAWAIANO",
+     "desc": "HAWAIANO con queso fundido, jamón y piña.",
+     "price": 298,
+     "img": "59fe8a5d-e0c9-41cc-bd9c-195b767f9e3d.jpeg"
+    },
+    {
+     "name": "MARINERO",
+     "desc": "MARINERO",
+     "price": 332,
+     "img": "a69909fb-c92b-498d-acaa-fc8061155312.jpeg"
+    },
+    {
+     "name": "MIXTO",
+     "desc": "Mixto de dos tipos de carne con queso fundido.",
+     "price": 516,
+     "img": "17448a3c-ba36-4f90-9c70-24ef74abf6d7.jpeg"
+    },
+    {
+     "name": "MIXTO C/QUESO",
+     "desc": "MIXTO C/QUESO",
+     "price": 566,
+     "img": "17448a3c-ba36-4f90-9c70-24ef74abf6d7.jpeg"
+    },
+    {
+     "name": "MIXTO PREMIUM",
+     "desc": "MIXTO PREMIUM",
+     "price": 531,
+     "img": "871e1393b7dc4a80aa39014040160980.png"
+    },
+    {
+     "name": "PLATO RANCHERO",
+     "desc": "PLATO RANCHERO con huevo estrellado, queso derretido, papas, chorizo y pimientos verdes.",
+     "price": 352,
+     "img": "308663df-bc81-4976-afb4-b228dcfba56d.jpeg"
+    },
+    {
+     "name": "QUE ME NOTAS",
+     "desc": "QUE ME NOTAS con totopos, carne, queso derretido, pimientos verdes y amarillos, salsa roja y pepperoni.",
+     "price": 378,
+     "img": "ceb19878-2f53-4cae-9a66-36fa4de16a51.jpeg"
+    },
+    {
+     "name": "VEGETARIANO",
+     "desc": "Con pimientos verdes, cebolla, trozos de tomate y queso fundido.",
+     "price": 321,
+     "img": "1ad88e99-9699-4b26-99f6-eb247f53cc4c.jpeg"
+    },
+    {
+     "name": "ZARAPE",
+     "desc": "ZARAPE",
+     "price": 393,
+     "img": "b43b2d63-afe6-4795-aa58-b4705373b28a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "REPOSTERIA",
+   "products": [
+    {
+     "name": "CISNE NEGRO",
+     "desc": "CISNE NEGRO",
+     "price": 146,
+     "img": "efa4940b-f1eb-41bd-bb8b-8eed317903ae.jpeg"
+    },
+    {
+     "name": "FLAN NAPOLITANO",
+     "desc": "FLAN NAPOLITANO, rebanada con salsa de caramelo.",
+     "price": 115,
+     "img": "930bd583-65ba-4a8a-9b87-12d278b8eb53.jpeg"
+    },
+    {
+     "name": "PASTEL DE CHOCOLATE",
+     "desc": "Pastel de chocolate con múltiples capas.",
+     "price": 146,
+     "img": "ec3c1937-202b-42c5-b54b-ab9816230f25.jpeg"
+    },
+    {
+     "name": "TARATA DE QUESO",
+     "desc": "TARATA DE QUESO",
+     "price": 104,
+     "img": "76b94ead-e1ae-4e6e-889c-93ddbdb31f1f_a3.png"
+    }
+   ]
+  },
+  {
+   "name": "VOLCANES",
+   "products": [
+    {
+     "name": "VOLCAN ARRACHERA",
+     "desc": "VOLCAN ARRACHERA con queso derretido sobre tortilla crujiente.",
+     "price": 147,
+     "img": "1ea5fae8-0e62-437e-b22a-473723549c0b.jpeg"
+    },
+    {
+     "name": "VOLCAN BISTEC",
+     "desc": "Volcán con bistec y queso.",
+     "price": 368,
+     "img": "707355b7-15ad-4e45-b120-39b07ebb4347.jpeg"
+    },
+    {
+     "name": "VOLCAN CHORIZO",
+     "desc": "VOLCAN CHORIZO",
+     "price": 106,
+     "img": "2b67e101-b328-4a7a-ad8e-cfd644d4e86c.jpeg"
+    },
+    {
+     "name": "VOLCAN COSTILLA",
+     "desc": "Volcán Costilla con queso, cebolla y cilantro.",
+     "price": 147,
+     "img": "243963bc321449658a516121276b038b.png"
+    },
+    {
+     "name": "VOLCAN MIXTO",
+     "desc": "Volcán mixto con queso gratinado sobre tortilla.",
+     "price": 147,
+     "img": "e1893fbf-c36f-4655-aff9-01f119a9e799.jpeg"
+    },
+    {
+     "name": "VOLCAN PASTOR",
+     "desc": "Volcán de pastor con tortilla tostada y salsa blanca.",
+     "price": 106,
+     "img": "5c197bbc-bd24-4413-a1c5-878190e22078.jpeg"
+    },
+    {
+     "name": "VOLCAN PICAÑA",
+     "desc": "Volcán con picaña, queso, cebolla y cilantro.",
+     "price": 152,
+     "img": "325e154f4049480da2aa9b424142f75f.png"
+    },
+    {
+     "name": "VOLCAN SIRLOIN",
+     "desc": "VOLCAN SIRLOIN",
+     "price": 110,
+     "img": "ab547c0171e749a99abf70fdaaaf618a.png"
+    }
+   ]
+  },
+  {
+   "name": "FUNDIDOS",
+   "products": [
+    {
+     "name": "QUESO FUNDIDO CHAMPIÑONES",
+     "desc": "Queso fundido con champiñones rebanados.",
+     "price": 368,
+     "img": "b27d7c64-f920-4b12-8fc1-6f04031946f7_a48.png"
+    },
+    {
+     "name": "QUESO FUNDIDO CHORIZO",
+     "desc": "QUESO FUNDIDO CHORIZO",
+     "price": 362,
+     "img": "a4c833cc01c04c58a12630fd72361c51.png"
+    },
+    {
+     "name": "QUESO FUNDIDO MIXTO",
+     "desc": "Queso fundido mixto con champiñones y chorizo.",
+     "price": 384,
+     "img": "63ac1afc-d467-4674-ae9d-efe71f4f1e78.jpeg"
+    },
+    {
+     "name": "QUESO FUNDIDO NATURAL",
+     "desc": "QUESO FUNDIDO NATURAL",
+     "price": 322,
+     "img": "634ef131-023e-415e-bd79-22a6de338136_a58.png"
+    }
+   ]
+  },
+  {
+   "name": "KETOTACO",
+   "products": [
+    {
+     "name": "KETOTACO ARRACHERA",
+     "desc": "KETOTACO ARRACHERA",
+     "price": 444,
+     "img": "e68f8c68-9d6a-424d-961a-781a359fe223.jpeg"
+    },
+    {
+     "name": "KETOTACO BISTEC",
+     "desc": "KETOTACO BISTEC",
+     "price": 338,
+     "img": "4b846e9c-046d-4656-9a66-015de02e7453.jpeg"
+    },
+    {
+     "name": "KETOTACO CHORIZO",
+     "desc": "KETOTACO CHORIZO",
+     "price": 330,
+     "img": "4f368543-6b79-4d15-ad56-83624cdec90f_a144.png"
+    },
+    {
+     "name": "KETOTACO COSTILLA",
+     "desc": "KETOTACO COSTILLA",
+     "price": 407,
+     "img": "ddfac4f93a034aa8b7130f942d36fb05.png"
+    },
+    {
+     "name": "KETOTACO PASTOR",
+     "desc": "Tres ketotacos enrollados rellenos de carne al pastor.",
+     "price": 330,
+     "img": "276db030-7337-4f82-b8ce-e02506b87b46.jpeg"
+    },
+    {
+     "name": "KETOTACO PICAÑA",
+     "desc": "KETOTACO PICAÑA",
+     "price": 454,
+     "img": "cc9088ddf70a4c3aabf1b4bd2e82c75b.png"
+    },
+    {
+     "name": "KETOTACO SIRLOIN",
+     "desc": "KETOTACO SIRLOIN",
+     "price": 323,
+     "img": "a63ae2d4b0094084ba13e2cc7cb6f2d6.png"
+    }
+   ]
+  },
+  {
+   "name": "CHICHARRONES",
+   "products": [
+    {
+     "name": "CHICHARRON DE QUESO NATURAL",
+     "desc": "CHICHARRON DE QUESO NATURAL",
+     "price": 290,
+     "img": "2db966d0-1112-4996-9f9f-006709fbded9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "GRINGAS Y SINCRONIZADAS",
+   "products": [
+    {
+     "name": "GRIGA CHORIZO",
+     "desc": "GRIGA CHORIZO",
+     "price": 332,
+     "img": "9b588214-cae2-415e-b0f6-55b3df0bbede.jpeg"
+    },
+    {
+     "name": "GRINGA ARRACHERA",
+     "desc": "GRINGA ARRACHERA con tortillas de harina, queso y cebolla asada.",
+     "price": 408,
+     "img": "afc795b1-1d13-401c-9767-9273d3272d44.jpeg"
+    },
+    {
+     "name": "GRINGA BISTEC",
+     "desc": "Gringa con carne de bistec y queso en tortilla de harina.",
+     "price": 362,
+     "img": "a05bc238-4e3f-47cb-ad0e-630ca81ceeba.jpeg"
+    },
+    {
+     "name": "GRINGA COSTILLA",
+     "desc": "Gringa de costilla con queso fundido en tortilla de harina.",
+     "price": 382,
+     "img": "b890cae7-6768-4b7e-8186-21e28a51e479_a21.png"
+    },
+    {
+     "name": "GRINGA PASTOR",
+     "desc": "Gringa Pastor con carne al pastor, queso y tortilla de harina.",
+     "price": 336,
+     "img": "a88ec892-706a-43eb-9fcf-d1eff9db5313.jpeg"
+    },
+    {
+     "name": "GRINGA PICAÑNA",
+     "desc": "GRINGA PICAÑNA",
+     "price": 485,
+     "img": "62cc462294d34f979af40672fb701b3e.png"
+    },
+    {
+     "name": "GRINGA SIRLOIN",
+     "desc": "Gringa de sirloin con queso fundido.",
+     "price": 342,
+     "img": "6543729b-f531-4b2b-9de2-74bfa98a1515_a196.png"
+    }
+   ]
+  },
+  {
+   "name": "QUESATACOS",
+   "products": [
+    {
+     "name": "QUESATACO ARRACHERA",
+     "desc": "QUESATACO ARRACHERA",
+     "price": 669,
+     "img": "a6cee982-ab61-42ed-9b90-3478a9fcaa6a.jpeg"
+    },
+    {
+     "name": "QUESATACO BISTEC",
+     "desc": "QUESATACO BISTEC",
+     "price": 547,
+     "img": "43c41139-78f9-4c46-b498-cd89d96b0d31_a87.png"
+    },
+    {
+     "name": "QUESATACO COSTILLA",
+     "desc": "QUESATACO COSTILLA",
+     "price": 637,
+     "img": "a7752391-c76f-4531-a267-54d87b9c3206.jpeg"
+    },
+    {
+     "name": "QUESATACO MIXTO",
+     "desc": "QUESATACO MIXTO con queso fundido, trozos de carne y vegetales.",
+     "price": 547,
+     "img": "85b425af-2976-4b24-8b7b-86f633e39f8e_a20.png"
+    },
+    {
+     "name": "QUESATACO MIXTO PREMIUM",
+     "desc": "QUESATACO MIXTO con pollo, carne, queso fundido y pimiento verde.",
+     "price": 549,
+     "img": "85b425af-2976-4b24-8b7b-86f633e39f8e_a19.png"
+    },
+    {
+     "name": "QUESATACO PASTOR",
+     "desc": "QUESATACO PASTOR",
+     "price": 522,
+     "img": "b06c1604-c620-4292-842c-d5aaa396adcd.jpeg"
+    },
+    {
+     "name": "QUESATACO PICAÑANA",
+     "desc": "QUESATACO PICAÑANA",
+     "price": 720,
+     "img": "1dbfcece-0fec-47e0-b21e-2c817eb81d81_a25.png"
+    },
+    {
+     "name": "QUESATACO SIRLOIN",
+     "desc": "QUESATACO SIRLOIN",
+     "price": 500,
+     "img": "5d57d7cf-740b-4f16-b193-be5cf5a51c13.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "REFRESCOS",
+   "products": [
+    {
+     "name": "AGUA CIEL 600ML",
+     "desc": "AGUA CIEL 600ML",
+     "price": 57,
+     "img": "99254ffe-2df3-47d5-be26-97006fc31d39.jpeg"
+    },
+    {
+     "name": "AGUA TAXCO 355ML",
+     "desc": "AGUA TAXCO 355ML",
+     "price": 55,
+     "img": "99254ffe-2df3-47d5-be26-97006fc31d39.jpeg"
+    },
+    {
+     "name": "REFRESCO COCA COLA 355ML",
+     "desc": "REFRESCO COCA COLA 355ML",
+     "price": 65,
+     "img": "5340cbb1-560f-45ff-b6f6-79bd4c624585.jpeg"
+    },
+    {
+     "name": "REFRESCO COCA COLA LIGHT 355ML",
+     "desc": "REFRESCO COCA COLA LIGHT 355ML",
+     "price": 65,
+     "img": "148d1a5b-42bc-405e-845e-351b1601b49b.png"
+    },
+    {
+     "name": "REFRESCO COCA COLA VIDRIO 355ML",
+     "desc": "REFRESCO COCA COLA VIDRIO 355ML",
+     "price": 65,
+     "img": "fd380e72-2794-4952-8c76-156c023ea2cb.png"
+    },
+    {
+     "name": "REFRESCO COCA COLA ZERO 355ML",
+     "desc": "REFRESCO COCA COLA ZERO 355ML",
+     "price": 65,
+     "img": "72b480b3-b2e0-4020-a33e-aa61d8fc9c17.jpeg"
+    },
+    {
+     "name": "REFRESCO FANTA NARANJA 355ML",
+     "desc": "REFRESCO FANTA NARANJA 355ML",
+     "price": 65,
+     "img": "eabe7a45-18fb-4cbb-b538-fdd3bcfb7bbf_a25.png"
+    },
+    {
+     "name": "REFRESCO FANTA SIN AZÚCAR 355 ML",
+     "desc": "REFRESCO FANTA SIN AZÚCAR 355 ML",
+     "price": 65,
+     "img": "50053c0e-7d81-4091-9c13-7283699e9b13.jpeg"
+    },
+    {
+     "name": "REFRESCO FRESCA 355ML",
+     "desc": "REFRESCO FRESCA 355ML",
+     "price": 65,
+     "img": "4899dbec-3baa-4d42-8dcd-fdac09d9a46d.png"
+    },
+    {
+     "name": "REFRESCO FRESCA SIN AZÚCAR 355 ML",
+     "desc": "REFRESCO FRESCA SIN AZÚCAR 355 ML",
+     "price": 65,
+     "img": "017c6aa4-65d9-4c3f-b762-02bed1f66249.png"
+    },
+    {
+     "name": "REFRESCO MUNDET SIN AZÚCAR 355 ML",
+     "desc": "REFRESCO MUNDET SIN AZÚCAR 355 ML",
+     "price": 65,
+     "img": "f2c62c2ed2cf4fbbaf35b4cffb57709f.png"
+    },
+    {
+     "name": "REFRESCO SIDRAL 355ML",
+     "desc": "REFRESCO SIDRAL 355ML",
+     "price": 65,
+     "img": "bcc282c9-40f0-4453-a8ca-27700a9cc5b7.jpeg"
+    },
+    {
+     "name": "REFRESCO SPRITE 355ML",
+     "desc": "REFRESCO SPRITE 355ML",
+     "price": 65,
+     "img": "a1bd70f8-68b4-45e6-a99d-065ce1ee5817.jpeg"
+    },
+    {
+     "name": "REFRESCO SPRITE SIN AZÚCAR 355 ML",
+     "desc": "REFRESCO SPRITE SIN AZÚCAR 355 ML",
+     "price": 65,
+     "img": "7d8240ab-f722-45cf-83fb-fa4cb3b9171a_a17.png"
+    },
+    {
+     "name": "REFRESCO YOLI 355ML",
+     "desc": "REFRESCO YOLI 355ML",
+     "price": 65,
+     "img": "ff7cae38-1268-44b4-8451-dc1425e97396.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "HARINA",
+   "products": [
+    {
+     "name": "T. HARINA ARRACHERA",
+     "desc": "T. HARINA ARRACHERA. Con carne de arrachera en tortilla de harina.",
+     "price": 147,
+     "img": "087d8306-77c3-4b4d-b97e-39952b3d40ca.jpeg"
+    },
+    {
+     "name": "T. HARINA ARRACHERA C/ QUESO",
+     "desc": "T. HARINA ARRACHERA C/ QUESO",
+     "price": 159,
+     "img": "087d8306-77c3-4b4d-b97e-39952b3d40ca.jpeg"
+    },
+    {
+     "name": "T. HARINA BISTEC",
+     "desc": "Tortilla de harina con bistec.",
+     "price": 117,
+     "img": "d8b4ef36-724a-4b92-aeff-6464f4286fc0.jpeg"
+    },
+    {
+     "name": "T. HARINA BISTEC C/QUESO",
+     "desc": "T. HARINA BISTEC C/QUESO",
+     "price": 129,
+     "img": "d8b4ef36-724a-4b92-aeff-6464f4286fc0.jpeg"
+    },
+    {
+     "name": "T. HARINA CHAMPIÑON",
+     "desc": "Wrap de tortilla de harina con champiñón.",
+     "price": 86,
+     "img": "915db006-1e8a-4dbc-9b94-a705e500e95d.jpeg"
+    },
+    {
+     "name": "T. HARINA CHAMPIÑON C/QUESO",
+     "desc": "T. HARINA CHAMPIÑON C/QUESO",
+     "price": 98,
+     "img": "915db006-1e8a-4dbc-9b94-a705e500e95d.jpeg"
+    },
+    {
+     "name": "T. HARINA CHORIZO",
+     "desc": "T. HARINA CHORIZO. Envuelto en tortilla de harina.",
+     "price": 91,
+     "img": "2993608a-3228-425a-8adf-3c58347f4656.jpeg"
+    },
+    {
+     "name": "T. HARINA CHORIZO C/ QUESO",
+     "desc": "T. HARINA CHORIZO C/ QUESO",
+     "price": 103,
+     "img": "2993608a-3228-425a-8adf-3c58347f4656.jpeg"
+    },
+    {
+     "name": "T. HARINA CHULETA",
+     "desc": "Taco de chuleta en tortilla de harina.",
+     "price": 91,
+     "img": "5d1e4885-6647-4749-b636-b0e1b2a066f9.jpeg"
+    },
+    {
+     "name": "T. HARINA CHULETA C/QUESO",
+     "desc": "T. HARINA CHULETA C/QUESO",
+     "price": 103,
+     "img": "5d1e4885-6647-4749-b636-b0e1b2a066f9.jpeg"
+    },
+    {
+     "name": "T. HARINA COSTILLA",
+     "desc": "T. HARINA COSTILLA",
+     "price": 121,
+     "img": "7c95f01d-9a37-4509-b0bb-66b67fa1b9ff.jpeg"
+    },
+    {
+     "name": "T. HARINA COSTILLA C/QUESO",
+     "desc": "T. HARINA COSTILLA C/QUESO",
+     "price": 133,
+     "img": "7c95f01d-9a37-4509-b0bb-66b67fa1b9ff.jpeg"
+    },
+    {
+     "name": "T. HARINA PASTOR",
+     "desc": "T. HARINA PASTOR",
+     "price": 91,
+     "img": "321fe2a8-778a-402f-ae55-88dbf28e2ee1.jpeg"
+    },
+    {
+     "name": "T. HARINA PASTOR C/ QUESO",
+     "desc": "T. HARINA PASTOR C/ QUESO",
+     "price": 103,
+     "img": "321fe2a8-778a-402f-ae55-88dbf28e2ee1.jpeg"
+    },
+    {
+     "name": "T. HARINA PICAÑA",
+     "desc": "T. HARINA PICAÑA",
+     "price": 163,
+     "img": ""
+    },
+    {
+     "name": "T. HARINA PICAÑA C\\QUESO",
+     "desc": "T. HARINA PICAÑA C\\QUESO",
+     "price": 175,
+     "img": ""
+    },
+    {
+     "name": "T. HARINA POLLO",
+     "desc": "Tortilla de harina rellena de pollo.",
+     "price": 91,
+     "img": "c804e49f-fdf4-49ac-846e-2d227118b46f.jpeg"
+    },
+    {
+     "name": "T. HARINA POLLO C/ QUESO",
+     "desc": "T. HARINA POLLO C/ QUESO enrollada.",
+     "price": 103,
+     "img": "c804e49f-fdf4-49ac-846e-2d227118b46f.jpeg"
+    },
+    {
+     "name": "T. HARINA SIRLOIN",
+     "desc": "T. HARINA SIRLOIN",
+     "price": 106,
+     "img": ""
+    },
+    {
+     "name": "T. HARINA SIRLOIN C\\QUESO",
+     "desc": "Tortilla de harina con sirloin en cubos y queso.",
+     "price": 136,
+     "img": "407eccb2c4a6443aa757b8140ff760e1.png"
+    }
+   ]
+  },
+  {
+   "name": "MAIZ",
+   "products": [
+    {
+     "name": "ORDEN TACOS  PASTOR (5PZA)",
+     "desc": "ORDEN TACOS  PASTOR (5PZA)",
+     "price": 213,
+     "img": "261b3008-633f-4246-bb9a-539013ee0671.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS  PASTOR C/ QUESO (5PZA)",
+     "desc": "ORDEN TACOS  PASTOR C/ QUESO (5PZA)",
+     "price": 249,
+     "img": "261b3008-633f-4246-bb9a-539013ee0671.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS BISTEC (5PZA)",
+     "desc": "ORDEN TACOS BISTEC (5PZA)",
+     "price": 352,
+     "img": "6dd98d3c-3169-4f57-a77b-5048274939b4.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS BISTEC C/QUESO (5PZA)",
+     "desc": "ORDEN TACOS BISTEC C/QUESO (5PZA)",
+     "price": 388,
+     "img": "6dd98d3c-3169-4f57-a77b-5048274939b4.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS CHORIZO (5PZA)",
+     "desc": "ORDEN TACOS CHORIZO (5PZA)",
+     "price": 286,
+     "img": "3cec8488-b402-4d0b-a798-acf04f81cddf.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS CHORIZO C/QUESO (5PZA)",
+     "desc": "ORDEN TACOS CHORIZO C/QUESO (5PZA)",
+     "price": 322,
+     "img": "3cec8488-b402-4d0b-a798-acf04f81cddf.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS CHULETA (5PZA)",
+     "desc": "ORDEN TACOS CHULETA (5PZA)",
+     "price": 286,
+     "img": "7f7406a6-7dd0-41e6-a1e0-69b4836eaf35.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS CHULETA C/QUESO (5PZA)",
+     "desc": "ORDEN TACOS CHULETA C/QUESO (5PZA)",
+     "price": 322,
+     "img": "7f7406a6-7dd0-41e6-a1e0-69b4836eaf35.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS COSTILLA (5PZA)",
+     "desc": "ORDEN TACOS COSTILLA (5PZA)",
+     "price": 413,
+     "img": "35390a20-ed1a-46bc-8b38-f981abfde994.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS COSTILLA C/QUESO (5PZA)",
+     "desc": "ORDEN TACOS COSTILLA C/QUESO (5PZA)",
+     "price": 449,
+     "img": "35390a20-ed1a-46bc-8b38-f981abfde994.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS POLLO (5PZA)",
+     "desc": "Orden de 5 tacos de pollo con tortillas de maíz.",
+     "price": 362,
+     "img": "ec624bb5-2a69-41ed-a4d5-56e378797315.jpeg"
+    },
+    {
+     "name": "ORDEN TACOS POLLO C/QUESO (5PZA)",
+     "desc": "ORDEN TACOS POLLO C/QUESO (5PZA)",
+     "price": 398,
+     "img": "ec624bb5-2a69-41ed-a4d5-56e378797315.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "LEONILAS",
+   "products": [
+    {
+     "name": "LEONILAS PZA",
+     "desc": "LEONILAS PZA",
+     "price": 61,
+     "img": "d2a2e889-8eee-471b-95f9-4c7999de974b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "MAIZ POR PIEZA",
+   "products": [
+    {
+     "name": "T. ARRACHERA C/ QUESO PZA",
+     "desc": "T. ARRACHERA C/ QUESO PZA",
+     "price": 144,
+     "img": "ba88a440-cc0a-44bd-8516-0b0febdc3881.jpeg"
+    },
+    {
+     "name": "T. ARRACHERA PZA",
+     "desc": "T. ARRACHERA PZA",
+     "price": 132,
+     "img": ""
+    },
+    {
+     "name": "T. SIRLOIN C\\QUESO PZA",
+     "desc": "T. SIRLOIN C\\QUESO PZA",
+     "price": 136,
+     "img": ""
+    },
+    {
+     "name": "T. SIRLOIN PZA",
+     "desc": "T. SIRLOIN PZA",
+     "price": 106,
+     "img": ""
+    }
+   ]
+  }
+ ]
+}

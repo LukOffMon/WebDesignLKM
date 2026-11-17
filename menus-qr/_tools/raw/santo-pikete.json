@@ -1,0 +1,703 @@
+{
+ "id": 1930163140,
+ "brandName": "Santo Pikete",
+ "name": "Santo Pikete - Atasta",
+ "address": "Boulevard Adolfo Ruiz Cortines 2105, Cuadrante II, Atasta de Serra, 86100 Villahermosa, Tab., Mexico",
+ "schedule": "07:45:00 - 23:15:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -92.948713,
+  17.988763
+ ],
+ "city": "Villahermosa",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/5dc0a711-5082-4c6d-ad20-d5886df528dc-1706675623691.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/06-1706711387939.jpg",
+ "schedules": [
+  {
+   "open_time": "07:45:00",
+   "close_time": "23:15:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930163140-santo-pikete",
+ "menu": [
+  {
+   "name": "Especialidades Bebidas Frias",
+   "products": [
+    {
+     "name": "Chocolatoso Frappe",
+     "desc": "Rica Combinacion De Cafe Con Chocolate Oaxaca Decorado Con Crema Batida.",
+     "price": 193,
+     "img": "8a3f7e96-0199-4d3d-8faa-ffda676c7fb7.png"
+    }
+   ]
+  },
+  {
+   "name": "Bowls",
+   "products": [
+    {
+     "name": "Arma Tu Bowl",
+     "desc": "Arma Tu Bowl Con Una Base, Una Proteina Y Extras A Eleccion",
+     "price": 132,
+     "img": "ca24715f-91c9-40a4-9238-97a035e214ae.png"
+    }
+   ]
+  },
+  {
+   "name": "Entraditas",
+   "products": [
+    {
+     "name": "Quesadillota Especial",
+     "desc": "Con Fajitas De Arrachera, Chorizo Y Pimientos Y Queso Manchego, Acompanada De Guacamole, Pico De Gallo,...",
+     "price": 441,
+     "img": "27f0cdc4-2909-4b43-bce1-a031a7d1d78d.png"
+    },
+    {
+     "name": "Quesadilla",
+     "desc": "Mexicanisima Quesadilla De Champinon O Chorizo Y Queso Manchego Acompanada De: Guacamole, Pico De Gallo Y...",
+     "price": 441,
+     "img": "13ad7d1f-7c32-4295-8638-5334cf6ca195.png"
+    }
+   ]
+  },
+  {
+   "name": "Mexicanisimos Frios",
+   "products": [
+    {
+     "name": "Te Manzana Canela Frio",
+     "desc": "Te Negro, Manzana Y Canela.",
+     "price": 165,
+     "img": "9c7c6360-c4eb-473d-ad93-ce457c08eadb.png"
+    },
+    {
+     "name": "Te Lavanda Frio",
+     "desc": "Lavanda, Manzanilla Y Cascara De Limon.",
+     "price": 165,
+     "img": "480810d0-082f-410d-9b85-3f9201dd288b.png"
+    },
+    {
+     "name": "Kaffetada",
+     "desc": "Refrescante Soda De Cafe Con Un Toque De Limon Y Sus Sabores A Elegir.",
+     "price": 70,
+     "img": "b75a408a-caa9-4381-b261-72d152002031.png"
+    },
+    {
+     "name": "Te Manzanilla Frio",
+     "desc": "Manzanilla, Savila, Oregano Y Lavanda.",
+     "price": 165,
+     "img": "406862e4-1354-4bb7-8aa9-bbae243bc0bc.png"
+    },
+    {
+     "name": "Imexicanissimo!",
+     "desc": "Cappuccino Frappe De Espresso Con Miel De Maguey.",
+     "price": 193,
+     "img": "ff6c192c-ff01-4de5-8901-009ad2dfec6d.png"
+    },
+    {
+     "name": "Kaffelada",
+     "desc": "Nuestra Malteada Con Cafe Con Sabor: Vainilla O Chocolate",
+     "price": 193,
+     "img": "a2cc5e4a-e334-4cec-b744-2da6ab373529.png"
+    },
+    {
+     "name": "Chokolatoso Frio",
+     "desc": "Rica Combinacion De Cafe Con Chocolate Oaxaca Decorado Con Crema Batida.",
+     "price": 193,
+     "img": "cc33595f-de13-436f-a8b6-a11a632db92f.png"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades Calientes",
+   "products": [
+    {
+     "name": "Latte Con Crema Irlandesa",
+     "desc": "Latte con un toque de crema irlandesa, ideal para disfrutar caliente.",
+     "price": 165,
+     "img": "0bab668a-04ca-4d91-b75e-bf5ddabcc875.png"
+    }
+   ]
+  },
+  {
+   "name": "Omelettes",
+   "products": [
+    {
+     "name": "Omelette Poblanito",
+     "desc": "Tradicional Omelette Con Rajas Poblanas, Queso Manchego. Acompanados De Ensalada Rustica, Pan Dorado",
+     "price": 331,
+     "img": "9761f663-71cc-457d-b8a1-e75af5337430.png"
+    }
+   ]
+  },
+  {
+   "name": "Clasicas Calientes",
+   "products": [
+    {
+     "name": "Huevos Revueltos Al Gusto",
+     "desc": "Huevos revueltos al gusto con jamón, chorizo o a la mexicana, acompañados de frijoles, queso, totopos y pan dorado.",
+     "price": 276,
+     "img": "b7ae5e21-0975-4d2f-bfc9-4e2d98dafce9.png"
+    },
+    {
+     "name": "Kajetisimo",
+     "desc": "Latte con cajeta, ideal para los amantes del dulce.",
+     "price": 165,
+     "img": "6895e01b-96b0-4332-8ed6-7523f1bf8ce6.png"
+    },
+    {
+     "name": "Espresso Sabrorizado",
+     "desc": "Cremoso Espresso Saborizado 90 Mililitros.",
+     "price": 100,
+     "img": "b585fa62-a668-47e7-a357-d28e6ecb1c4c.png"
+    },
+    {
+     "name": "Cappuccino Con Crema Irlandesa",
+     "desc": "Tradicional Cappuccino Con Crema Irlandesa",
+     "price": 165,
+     "img": "a5521c4a-a158-4987-b08e-e8ece7ee9e32.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Crepas Frutos Rojos",
+     "desc": "Crepas rellenas de fresas y arándanos, cubiertas con chocolate.",
+     "price": 349,
+     "img": "3d46c2ae-2932-4709-afcd-b69ceaaaf0da.png"
+    },
+    {
+     "name": "Crepas Tradicional",
+     "desc": "Crepas con mermelada de zarzamora y chocolate.",
+     "price": 276,
+     "img": "84604b09-0f39-4350-ba61-f02fcf22134b.png"
+    },
+    {
+     "name": "Crepas Avellana",
+     "desc": "Cremosa Mezcla De Platano, Amaranto, Crema De Avellana Y Queso Crema, Con Una Bola De Helado De Vainilla. 2 Piezas.",
+     "price": 349,
+     "img": "95cd7e91-e154-4051-b026-dccf6e0760cd.png"
+    }
+   ]
+  },
+  {
+   "name": "SANTOS DESAYUNOS",
+   "products": [
+    {
+     "name": "Chilaquiles",
+     "desc": "Crocantes totopos bañados en salsa (roja o verde) con \ncrema, cebolla y queso, acompañados de frijol.",
+     "price": 180,
+     "img": "b0df0ecb-3672-4c8c-8a1a-8a7557242e4e.png"
+    },
+    {
+     "name": "HUEVOS AL GUSTO",
+     "desc": "Tradicionales revueltos de su preferencia acompañados\ncon una pequeña porción de chilaquiles, frijol y queso.",
+     "price": 135,
+     "img": "6f8f2ad2-bf19-4ecc-9326-4ba81be5a884.png"
+    },
+    {
+     "name": "ENCHILADAS (4PZ)",
+     "desc": "Jugosas tortillas rellenas a su preferencia, bañadas en\nsalsa (roja o verde), con crema y cebolla, gratinadas con\nqueso, acompañadas de frijol.",
+     "price": 180,
+     "img": "65bb9ce5-190c-4cc6-bf7c-b8b17ecacd81.png"
+    },
+    {
+     "name": "ENFRIJOLADAS (4P2Z)",
+     "desc": "Ricas tortillas rellenas a su preferencia, bañadas en salsa\nde frijol, acompañhadas de rajas poblanas, queso, chorizo y\ncrema.",
+     "price": 180,
+     "img": "cd8c9408-6f29-4103-9c7b-0d13012f7bbc.png"
+    },
+    {
+     "name": "TACOS DORADOS (5PZ)",
+     "desc": "Crujientes tortillas rellenas con pollo, con crema, lechuga,\ntomate, cebolla y queso.",
+     "price": 180,
+     "img": "963983aa-fbb1-404c-bb9c-e16262e6f016.png"
+    },
+    {
+     "name": "HUEVOS DIVORCIADOS",
+     "desc": "Ricos estrellados bañados en salsa roja y verde, montados\nen tortilla, acompañados con queso, crema, frijol y totopos.",
+     "price": 150,
+     "img": "88a22208-fa68-4150-8ebe-cbc3d8f2f91a.png"
+    },
+    {
+     "name": "HUEVOS MONTULEÑOS",
+     "desc": "Deliciosa base de tortilla frita con frijol y huevos estrellados bañados en salsa (roja o verde), con jamón, cilantro,\nqueso, cebolla y crema, acompañados de platanitos fritos.",
+     "price": 160,
+     "img": "0ab88de6-cea6-4a08-a81a-d5c96d9972db.png"
+    },
+    {
+     "name": "OMELETTE",
+     "desc": "Tortilla de huevo rellena a elección (jamón o rajas) con queso, acompañada de chilaquiles y frijoles.",
+     "price": 170,
+     "img": "aaabdcb6-2167-4874-a475-dda199076457.jpeg"
+    },
+    {
+     "name": "OMELETTE VEGETARIANO",
+     "desc": "Nutritiva tortilla de clara de huevo, rellena de queso\npanela, champiñones salteados y espinaca, acompañado\ncon ensalada rústica y pan tostado.",
+     "price": 170,
+     "img": "5e1ae5eb-e80b-483e-b24e-eda7c7b039d4.jpeg"
+    },
+    {
+     "name": "WAFFLES",
+     "desc": "Crujiente masa horneada, con miel de abeja o crema de\navellana, azúcar glass, arándano, acompañada de mermelada.",
+     "price": 135,
+     "img": "3f1b59fc-4ac6-4bc9-99e7-cb297fcbd564.png"
+    },
+    {
+     "name": "PLATO DE FRUTAS",
+     "desc": "Saludable mix de melón, manzana, piha y plátano con\nyogurt natural, miel de abeja y granola.",
+     "price": 135,
+     "img": "b07d8de7-b964-4dec-8892-2c917a736efc.png"
+    }
+   ]
+  },
+  {
+   "name": "GLORIOSAS ENTRADAS",
+   "products": [
+    {
+     "name": "CREPAS",
+     "desc": "Tradicional crepa rellena de su preferencia con\nqueso, acompanada de aderezo chipotle.",
+     "price": 170,
+     "img": "ba13fcc0-a53f-42fc-a485-206a9fc04241.png"
+    },
+    {
+     "name": "MOLLETES",
+     "desc": "Pan de la casa untado con frijol y queso gratinado,\ncon la proteína de su preferencia.",
+     "price": 180,
+     "img": "2f25f9b8-6506-4193-8afd-a08b15cf166f.png"
+    },
+    {
+     "name": "SANTAS PAPAS",
+     "desc": "Sabrosas papas francesas gratinas con queso,\ntocino y el aderezo de su preferencia.",
+     "price": 170,
+     "img": "34ad05e4-22e4-422f-b0cc-0bada7190e53.png"
+    },
+    {
+     "name": "DEDOS DE QUESO",
+     "desc": "Ricos tequeños fritos al estilo venezolano rellenos\nde queso, acompañados con el aderezo de su preferencia (5 unidades).",
+     "price": 180,
+     "img": "95bf7700-c95d-4462-8215-cbee84fc026b.png"
+    },
+    {
+     "name": "BANDEJA SANTO PIKETE",
+     "desc": "Deliciosos boneless, alitas, tacos de arrachera,\ntequeños y papas a la francesa.",
+     "price": 600,
+     "img": "39970cda-8911-45b7-9afc-3423b58d9be3.png"
+    },
+    {
+     "name": "QUESO A LA PLANCHIA",
+     "desc": "Queso artesanal de la casa acompanado de rajas\npoblanas, base de espinaca y tortilla de harina, con\nel aderezo de su preferencia.",
+     "price": 180,
+     "img": "83c43deb-c3d5-42eb-bcdf-5122f3c2aa8f.png"
+    },
+    {
+     "name": "QUESADIOSAS",
+     "desc": "Ricas tortillas de trigo con el relleno de su preferencia, un mix de pimientos y queso. Acompanado\nde guacamole, pico de gallo y jalapeños.",
+     "price": 230,
+     "img": "843f88ff-1dff-4c68-8915-56125ab9cd26.png"
+    },
+    {
+     "name": "SANTOS NACHOS",
+     "desc": "Deliciosos totopos fritos con queso fundido, frijol,\ncrema, pico de gallo, guacamole y la proteína de su\npreferencia.",
+     "price": 325,
+     "img": "7a68967d-d658-4baf-b217-f89aa6fe2ee0.png"
+    }
+   ]
+  },
+  {
+   "name": "BENDITAS ENSALADAS",
+   "products": [
+    {
+     "name": "LA SANTA",
+     "desc": "Mix de lechuga, espinaca, tomate cherry,\nelote, queso panela y crotones.",
+     "price": 150,
+     "img": "79c0f77b-f8cc-4eef-806b-12ca9e3d8359.png"
+    },
+    {
+     "name": "PIKETE",
+     "desc": "Mix de lechuga, espinaca, queso ceniza,\nfresa, arándano, almendras, topping de\nfresa y crotones.",
+     "price": 170,
+     "img": "9af4ef5d-caea-40fc-b3d0-90b36b767c65.png"
+    },
+    {
+     "name": "ESPECIAL",
+     "desc": "Mix de lechuga, espinaca, tomate cherry,\njamón serrano, queso ceniza y crotones.",
+     "price": 160,
+     "img": "59cbc0af-b267-45cf-b1ed-d60a27ee7ea6.png"
+    }
+   ]
+  },
+  {
+   "name": "SANTOS PRINCIPALES",
+   "products": [
+    {
+     "name": "COSTILLA BBQ",
+     "desc": "Suculenta pieza bañada en salsa BBQ acompañado de papas a la francesa y elote.",
+     "price": 315,
+     "img": "49276d22-6079-464e-bdbe-2365d3706cdf.png"
+    },
+    {
+     "name": "ARRACHERA A LA PLANCHA",
+     "desc": "160gr jugoso corte acompañado de ensalada\nrústica, frijol y pure.",
+     "price": 264,
+     "img": "2f9fafa6-f847-4656-a240-f3c1ba6e4a6f.png"
+    },
+    {
+     "name": "CORTE DEL DÍA",
+     "desc": "Sustancioso corte  (350 gr)  con papas a la francesa\ny elote.",
+     "price": 530,
+     "img": "2cf01b9f-df9d-4436-9e8b-290e74c425d1.png"
+    },
+    {
+     "name": "SANTOS TACOS",
+     "desc": "Ricas tortillas con el relleno de su preferencia,\ncebolla y cilantro. Acompañadas de guacamole,\npico de gallo y jalapeños. (orden de 4 tacos)",
+     "price": 220,
+     "img": "0f77d75d-31b9-49a2-ab64-3f34ad8e11a9.png"
+    },
+    {
+     "name": "PASTA",
+     "desc": "Al dente, con el tipo y salsa de su preferencia.",
+     "price": 235,
+     "img": "bca7feda-961a-46ef-962c-795546a9aad0.png"
+    },
+    {
+     "name": "PECHUGA PIKETE",
+     "desc": "160gr de crujiente pechuga de pollo crispy bañada\ncon la salsa pomodoro de la casa, gratinada con\nqueso y pesto, acompañada de puré y ensalada\nrustica.",
+     "price": 290,
+     "img": "f1a7c13a-b152-43a0-8d7f-ac932e131cf0.png"
+    },
+    {
+     "name": "PARRILLA PEKETE",
+     "desc": "Deliciosa combinación de arrachera, pollo, chistorra y papas a la francesa. Acompañada de\nguacamole, pico de gallo y jalapeños.",
+     "price": 325,
+     "img": "3eb966c6-1057-4130-b8fe-7226bfc8ef42.png"
+    },
+    {
+     "name": "PARRILLA PEKETE (2 PERSONAS)",
+     "desc": "Deliciosa combinación de arrachera, pollo, chistorra y papas a la francesa. Acompañada de guacamole, pico de gallo y jalapeños.",
+     "price": 520,
+     "img": "688e83e6-9cf4-483e-8805-0383bbeb5c87.jpeg"
+    },
+    {
+     "name": "PECHUGA A LA PLANCHA",
+     "desc": "Rico corte(200 gr)  acompañado de ensalada rustica, frijol\ny puré.",
+     "price": 230,
+     "img": "5854dbe7-1fb6-469b-b993-0ad129c6d916.png"
+    }
+   ]
+  },
+  {
+   "name": "SAN-WICHES",
+   "products": [
+    {
+     "name": "SAN ARRACHERO",
+     "desc": "Fresco pan de la casa de su preferencia\ncon fajitas de arrachera salteadas con\ncebolla, guacamole, queso, lechuga,\ntomate y aderezo de su preferencia.",
+     "price": 250,
+     "img": "eab83fb8-fd07-409c-93a7-a064d6aece03.png"
+    },
+    {
+     "name": "SAN CLÁSICO",
+     "desc": "Pan de la casa con jamón de pavo, queso, lechuga y tomate.",
+     "price": 200,
+     "img": "3b3e4457-ee18-4fc0-b68a-ae2b37306fad.png"
+    },
+    {
+     "name": "SAN NORTEÑO",
+     "desc": "Fresco pan de la casa de su preferencia\ncon fajitas de pollo crispy salteadas en\nsalsa bbq de la casa, con queso, aderezo\nde su preferencia, lechuga / tomate.",
+     "price": 220,
+     "img": "bb9273b3-0d87-4623-9d6e-fd2d5c2ca4cd.png"
+    },
+    {
+     "name": "SAN EUROPEO",
+     "desc": "Pan de la casa con salami, queso ceniza, jamón serrano, aceitunas y aderezo a elección.",
+     "price": 230,
+     "img": "396a82ec-d060-4b78-83f0-ece589f1e57d.png"
+    },
+    {
+     "name": "SAN LIGERO",
+     "desc": "Fresco pan de la casa de su preferencia\ncon pechuga de pollo a la plancha,\nqueso panela, espinaca, aguacate, Jitomate\ncon aderezo de su preferencia.",
+     "price": 220,
+     "img": "17c46494-9aa5-4b83-a600-d0449777c6a9.png"
+    }
+   ]
+  },
+  {
+   "name": "BOTANAS CELESTIALES",
+   "products": [
+    {
+     "name": "HAMBURGUESA VENEZOLANA",
+     "desc": "180gr de rica carne, rodaja de queso artesanal venezolana, papas fritas rayadas, repollo, tocino y mayonesa de la casa.",
+     "price": 260,
+     "img": "7dab721e-6d13-4ae2-8736-7b295b85e634.jpg"
+    },
+    {
+     "name": "SANTAS ALITAS*",
+     "desc": "Jugosas alitas bañadas en la salsa de su\npreferencia.",
+     "price": 200,
+     "img": "b58fd0b1-f3e8-4b5e-bd6d-f8bed46196ba.png"
+    },
+    {
+     "name": "SANTO HOT DOG”",
+     "desc": "Fresco pan de la casa relleno de jugosa salchicha de res, repollo, papas fritas rayadas y queso de bola rayado.",
+     "price": 210,
+     "img": "528022d1-1a4c-472e-9e46-886438944b48.png"
+    },
+    {
+     "name": "TENDERS",
+     "desc": "Tenders de pechuga de pollo empanizada, acompañados de papas fritas y aderezo a elección.",
+     "price": 235,
+     "img": "f66af4fc-d316-4529-b900-a63a7822704c.png"
+    },
+    {
+     "name": "HAMBURGUESA EVA",
+     "desc": "180gr de crujiente pollo crispy bañado\nen salsa búfalo ranch, queso americano,\nlechuga, tomate, tocino y mayonesa de la casa.",
+     "price": 250,
+     "img": "2b988c42-bce4-4f3d-95bd-43d96a3c48f1.png"
+    },
+    {
+     "name": "HAMBURGUESA MX",
+     "desc": "180gr de rica carne con queso americano,\ntocino, guacamole, cebolla caramelizada,\nlechuga/tomate, jalapeños y mayonesa de la casa.",
+     "price": 250,
+     "img": "a72036dd-289b-456e-940c-7b023df393b3.png"
+    },
+    {
+     "name": "HAMBURGUESA ARGENTINA",
+     "desc": "180gr de rica carne, chorizo argentino,\ntocino, queso gouda, lechuga/tomate\ncebolla morada, chimichurri y mayonesa de la\ncasa.",
+     "price": 260,
+     "img": "ce9bf572-f58a-4fdb-8066-3581b4fb503a.png"
+    },
+    {
+     "name": "BONELESS",
+     "desc": "Jugosos trocitos de pollo empanizados\nbañados en salsa de su preferencia,\ny aderezo de su preferencia.",
+     "price": 200,
+     "img": "3e5a6e70-d7a1-4509-8b3a-ef7b5a8d3b1f.jpg"
+    },
+    {
+     "name": "HAMBURGUESA ADÁN",
+     "desc": "180gr de rica carne con queso americano,\nlechuga, tomate, tocino y mayonesa de la casa.",
+     "price": 220,
+     "img": "7dab721e-6d13-4ae2-8736-7b295b85e634.jpg"
+    },
+    {
+     "name": "BURRITO",
+     "desc": "Fresca tortilla de trigo con el relleno de su preferencia, con guacamole, frijol,\nqueso, pico de gallo y crema.",
+     "price": 230,
+     "img": "704349a0-99f7-4f32-9d06-d8309cbb6712.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "ANGELES TRAVIESOS",
+   "products": [
+    {
+     "name": "MINI HOT DOG",
+     "desc": "Rico pan con salchicha, mayonesa de la casa y salsa de queso, acompañada de\npapas a la francesa.",
+     "price": 135,
+     "img": "93fe8aa3-7549-4aaf-adb2-3065af172756.png"
+    },
+    {
+     "name": "NUGGETS",
+     "desc": "Ricos trozitos de pollo crispy, acompañados de papas a la francesa.",
+     "price": 170,
+     "img": "e8e22015-598c-4f82-88d7-30732bae1016.png"
+    },
+    {
+     "name": "SINCRONIZADAS INFANTIL",
+     "desc": "Tradicional quesadilla en tortilla de\nharina, con jamón y queso, acompañado\nde guacamole y pico de gallo.",
+     "price": 135,
+     "img": "b764234e-243e-4f2d-9006-e64a3ed7792a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "PLACERES CULPOSOS",
+   "products": [
+    {
+     "name": "PAN DE TEMPORADA",
+     "desc": "Variedad de panes de temporada: concha, rol de canela, cheesecake y pan de muerto. Sujeto a disponibilidad.",
+     "price": 80,
+     "img": "a69e124a-52bf-435f-a7d2-363ebb144826.png"
+    },
+    {
+     "name": "PAN FRANCÉS",
+     "desc": "Rebanadas de pan francés bañadas con la\nmezcla dulce de la casa y acompañadas con helado de vainilla, topping de chocolate, frutos rojos y azúcar glass.",
+     "price": 135,
+     "img": "2343377b-a1ef-4564-81b9-72ec05f2dcb2.png"
+    },
+    {
+     "name": "DEDOS BENDITOS",
+     "desc": "Ricos tequeños fritos al estilo venezolano\nrellenos de crema de avellana (5 piezas).",
+     "price": 160,
+     "img": "2c4bf9fa-439f-4057-b366-faf9362fb1da.png"
+    },
+    {
+     "name": "CHURROS",
+     "desc": "Crujiente mezcla de la casa, salteadas\nen azúcar y untados a su elección (lechera, cajeta o crema de avellana).",
+     "price": 115,
+     "img": "7a5316b0-9fbd-4421-be66-3c2fef4415c0.png"
+    },
+    {
+     "name": "BROWNIE CON HELADO",
+     "desc": "Esponjoso brownie con helado de vainilla,\ntopping de chocolate y nuez.",
+     "price": 115,
+     "img": "e733be66-8e34-4a4a-a10e-0311e16b7dae.png"
+    },
+    {
+     "name": "CREPAS DULCES",
+     "desc": "Tradicional crepas con queso crema, helado\nde vainilla y el relleno de su preferencia\n(cajeta, crema de avellana, frutos rojos o\nmermelada).",
+     "price": 180,
+     "img": "993ca9d3-ce34-4ca9-af73-9d31d9b6560f.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "SAGRADAS BEBIDAS",
+   "products": [
+    {
+     "name": "TISANA",
+     "desc": "Natural combinación de frutos deshidratados\nen infusión a base de agua.",
+     "price": 70,
+     "img": "bf089e22-580f-421f-b594-ef698f7a0fa3.png"
+    },
+    {
+     "name": "CAPUCCINO SAGRADO",
+     "desc": "Exquisito cappuccino con un toque de\nlicor de café con la leche de su preferencia.",
+     "price": 70,
+     "img": "9ae3435d-b3a7-4bf5-9d6f-445169f2d32b.png"
+    },
+    {
+     "name": "TE",
+     "desc": "Elige entre la variedad de nuestros té",
+     "price": 60,
+     "img": "9b7d0e8b-f968-4e45-a026-2395a89d4bb4.png"
+    },
+    {
+     "name": "SAN IRLANDES",
+     "desc": "Cremoso cappuccino con un toque de\ncrema irlandesa y leche de su preferencia .",
+     "price": 70,
+     "img": "8c1c8d36-5589-4ebf-b2fb-099cac9b60d7.jpg"
+    },
+    {
+     "name": "CAJELUYA",
+     "desc": "Dulce combinación de cappuccino,\ncajeta y leche de su preferencia.",
+     "price": 70,
+     "img": "f92acb62-c2cb-4246-8b54-9815e6b9ccaa.png"
+    },
+    {
+     "name": "MOKADIOSA",
+     "desc": "Deliciosa combinación de café con\nchocolate oscuro y leche de su preferencia.",
+     "price": 70,
+     "img": "9874e907-e9d9-477a-83c7-94f10685e9c9.png"
+    },
+    {
+     "name": "AMERICANO SAGRADO",
+     "desc": "Rico americano con un toque de licor\nde café.",
+     "price": 60,
+     "img": "0392debe-d83f-4362-856e-e4da41ab190c.jpg"
+    },
+    {
+     "name": "SANTA AFFOGATA",
+     "desc": "Café espresso con bola de helado de vainilla.",
+     "price": 70,
+     "img": "fbc235b7-cb9a-4714-9398-6bc81488431d.png"
+    },
+    {
+     "name": "LATTE",
+     "desc": "Latte con opciones de sabor: Clásico, Vainilla, Almendra, Rompope, Caramelo, Amaretto o Canela.",
+     "price": 65,
+     "img": "90b1eeda-1604-4b6f-8997-4748e47a5ba9.jpg"
+    },
+    {
+     "name": "CHOCOLATE PIKETE",
+     "desc": "CHOCOLATE PIKETE",
+     "price": 60,
+     "img": "ddb0fbff-99db-4a7b-b849-79a151dbab54.png"
+    },
+    {
+     "name": "REFRESCOS",
+     "desc": "Coca cola/Coca light/Coca sin azúcar/Mirinda/\nManzanita/7up.",
+     "price": 40,
+     "img": "40d76f5a-3cd0-4d6d-a3c1-f14dcd37b353.jpeg"
+    },
+    {
+     "name": "SANTO DE OLLA",
+     "desc": "Tradicional mezcla de café con jarabe\nde piloncillo y canela.",
+     "price": 60,
+     "img": "8b141063-0bb0-46af-aab6-bbc89f3fc012.png"
+    },
+    {
+     "name": "ESPRESSO",
+     "desc": "Elige el expresso en la versión que prefieras.",
+     "price": 45,
+     "img": "19940f75-3af6-426f-8608-5e0c3098d2a8.jpg"
+    },
+    {
+     "name": "CHAI",
+     "desc": "Mezcla de jarabe de té negro chai con\nleche de su preferencia.",
+     "price": 70,
+     "img": "7b63bd7a-0250-48ce-a188-6d8999ce85fc.jpg"
+    },
+    {
+     "name": "CAPUCCINO",
+     "desc": "Elige el sabor de tu preferencia",
+     "price": 65,
+     "img": "8c1c8d36-5589-4ebf-b2fb-099cac9b60d7.jpg"
+    },
+    {
+     "name": "AMERICANO",
+     "desc": "AMERIGANO",
+     "price": 50,
+     "img": "0392debe-d83f-4362-856e-e4da41ab190c.jpg"
+    }
+   ]
+  },
+  {
+   "name": "DIOSES FRIOS",
+   "products": [
+    {
+     "name": "Santa Prote",
+     "desc": "Mix de proteina, platano, fresa y leche",
+     "price": 109,
+     "img": "1659cbe9-fab2-4282-a1c8-c1e42ee087a8.png"
+    },
+    {
+     "name": "Malteadiosa",
+     "desc": "Rica combinacion de malteada con un toque de café",
+     "price": 92,
+     "img": "d49249e7-64e9-4b5f-a456-bef462bf1525.png"
+    },
+    {
+     "name": "San Karajillo",
+     "desc": "Tradicional combinación de espresso de la casa con licor 43",
+     "price": 109,
+     "img": "dcadcda1-0913-4cb1-995c-1a192afb5bb3.png"
+    },
+    {
+     "name": "Pikehelado",
+     "desc": "Espresso con bola de helado y un toque de licor de café",
+     "price": 92,
+     "img": "b6a53a59-9297-4095-8608-b60fdc7c0c08.png"
+    },
+    {
+     "name": "Mokadiosa Frappe",
+     "desc": "Delicioso frappe combinando café con chocolate, decorado con crema batida",
+     "price": 92,
+     "img": "701e4840-c403-4fb9-b349-dd461680a70c.png"
+    },
+    {
+     "name": "Cajeluya Frappe",
+     "desc": "Dulce frappe combinando café, cajeta y leche, decorado con crema batida",
+     "price": 92,
+     "img": "f9212f61-83c3-4fce-82d2-8448ec3c990d.png"
+    },
+    {
+     "name": "SAN PINOLE",
+     "desc": "Exquisito frappé a base de pinole con café,\nleche y licor de café",
+     "price": 80,
+     "img": "1c0cef98-f458-49c1-9ec4-6ea259c96fcf.png"
+    }
+   ]
+  }
+ ]
+}

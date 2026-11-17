@@ -19,7 +19,12 @@ export type Merchant = {
   address: string | null;
   plan: string;
   trial_ends_at: string;
+  design: Record<string, string> | null;
+  nearby: string;
   created_at: string;
+  status: string;
+  pending_since: string;
+  paid_until: string | null;
 };
 
 export type Customer = {
@@ -38,7 +43,6 @@ export type Customer = {
   last_visit_at: string | null;
   last_message: string | null;
   last_message_at: string | null;
-  note?: string | null;
   updated_at: string;
   created_at: string;
 };

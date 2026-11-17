@@ -1,0 +1,323 @@
+{
+ "id": 1923201597,
+ "brandName": "Cinco de Mayo Meson",
+ "name": "Cinco de Mayo Meson - Aguascalientes Centro",
+ "address": "5 de Mayo 540 A, Zona Centro, 20000 Aguascalientes, Ags., México",
+ "schedule": "07:45:00 - 14:30:00",
+ "categories": "Chilaquiles y Enchiladas · Desayunos y Brunch",
+ "location": [
+  -102.297074953967,
+  21.886781789021
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/cinco-de-mayo-logo1-1568159247246.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mxxcincodemayomeeson-1677098742222.jpg",
+ "schedules": [
+  {
+   "open_time": "07:45:00",
+   "close_time": "14:30:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923201597-cinco-de-mayo-meson",
+ "menu": [
+  {
+   "name": "Coxinitla To Go",
+   "products": [
+    {
+     "name": "Litro Coxinitla",
+     "desc": "1 Kilo De Coxinitla 1/4 Cebolla Rosada Curada En Limon Con Habanero",
+     "price": 360,
+     "img": "a30c49e8-85d1-468c-9107-6589c2fdee56.png"
+    },
+    {
+     "name": "Paquete Coxinitla",
+     "desc": "1 Kilo De Coxinitla 1/2 Litro De Frijoles 1/2 Salsa 1/4 Cebolla Rosada Curada En Limon Con Habanero",
+     "price": 360,
+     "img": "be808dc9-580e-46a2-9d75-04b80e25140c.png"
+    }
+   ]
+  },
+  {
+   "name": "Plato Fuerte",
+   "products": [
+    {
+     "name": "Pechuga de pollo",
+     "desc": "Filete de pollo acompañado de verduras asadas",
+     "price": 130.5,
+     "img": "a37c5b66-f993-4c45-91e6-a7d26ae8d7f2.png"
+    },
+    {
+     "name": "Arrachera",
+     "desc": "Arrachera marinnada acompañada de verduras asadas y guacamole",
+     "price": 123.75,
+     "img": "58969edd-4cd7-40f3-8d94-8c7c5c71d67f.png"
+    },
+    {
+     "name": "Ensalada de pollo",
+     "desc": "Lechuga con pepino, pimientos, jitomate y pollo a la plancha con queso panela",
+     "price": 103.5,
+     "img": "c3e7048f-ed5a-4afd-8c08-b504236e2126.png"
+    },
+    {
+     "name": "Pasta cinco de mayo",
+     "desc": "Spaguetti salteado al limon con verduras asadas y pollo",
+     "price": 103.5,
+     "img": "5b0bee44-77bb-47da-b83c-28a73b88a915.png"
+    }
+   ]
+  },
+  {
+   "name": "Desayuno",
+   "products": [
+    {
+     "name": "Chilaquiles Huevo Al Gusto",
+     "desc": "Chilaquilescon  totopo de maíz amarillo bañados en la salsa de tu preferencia, con un topping huevo al gusto, decorado con queso y crema",
+     "price": 130.5,
+     "img": "d6a05b4a-a275-4d67-853e-53bd582bbbdb.png"
+    },
+    {
+     "name": "Molletes",
+     "desc": "Molletes: bolillo con jamón, frijoles y costra de queso acompañado de pico de gallo.",
+     "price": 94.5,
+     "img": "b29067d3-315b-42ae-984b-9cd68adbb27c.jpeg"
+    },
+    {
+     "name": "Hot Cakes",
+     "desc": "Los clásicos Hot Cakes espolvoreados con azúcar glass acompañados de fruta de temporada.",
+     "price": 108,
+     "img": "30148efe-6d12-4c9f-9918-bb96431124e9.jpeg"
+    },
+    {
+     "name": "Avena de la Casa",
+     "desc": "Avena con granola, yogurt y trocitos fruta y miel.",
+     "price": 67.5,
+     "img": "3eb20c79-6401-404b-b3e5-f8e8f2a865f1.png"
+    },
+    {
+     "name": "Chilaquiles Cochinita Pibil",
+     "desc": "Chilaquiles con totopos de maíz amarillo bañados en la salsa de tu preferencia, con un topping de chochinita pibili, decorado con queso y crema",
+     "price": 135,
+     "img": "c021f0dd-1543-4ae1-a06e-93b1039b4968.jpeg"
+    },
+    {
+     "name": "Chilaquiles Queso Panela",
+     "desc": "Chilaquiles con totopos de maíz amarillo bañados en la salsa de tu preferencia, con un topping de queso panela, decorado con queso y crema.",
+     "price": 135,
+     "img": "ddc8e4a9-c26f-4ab3-8d30-ac1c6602fa33.jpeg"
+    },
+    {
+     "name": "Chilaquiles Arrachera",
+     "desc": "Chilaquiles con  totopo de maíz amarillo bañados en la salsa de tu preferencia, con un topping de arrachera, decorado con queso y crema.",
+     "price": 148.5,
+     "img": "2386d71c-b1ab-41c5-8fe9-09720a1087bd.png"
+    },
+    {
+     "name": "Chilaquiles Sencillos",
+     "desc": "Chilaquiles totopo de maíz amarillo bañados en la salsa de tu preferencia, decorado con queso y crema.",
+     "price": 105,
+     "img": "4f66fbfb-2c59-458b-92bd-6ae36cd5f735.jpeg"
+    },
+    {
+     "name": "Chilaquiles Chicharrón Prensado",
+     "desc": "Chilaquiles totopo de maíz amarillo bañados en la salsa de tu preferencia, con un topping de nuestro delicioso chicharron prensado, decorado con queso y crema.",
+     "price": 144,
+     "img": "e7994094-a1fa-4220-855e-33b8776556ce.jpeg"
+    },
+    {
+     "name": "Chilaquiles Pollo",
+     "desc": "Chilaquiles con  totopo de maíz amarillo bañados en la salsa de tu preferencia, con un topping de pollo desmenuzado, decorado con queso y crema.",
+     "price": 144,
+     "img": "c5f9b004-382c-446f-95de-f310dd783af9.jpeg"
+    },
+    {
+     "name": "Huevos Revueltos",
+     "desc": "Huevos acompañados de frijoles, incluye un ingrediente.",
+     "price": 112.5,
+     "img": "cc211bed-1c81-4fd1-99c7-23abd1fbd0c1.jpeg"
+    },
+    {
+     "name": "Huevos Estrellados",
+     "desc": "Huevos estrellados 2 unidades, acompañados de frijoles.",
+     "price": 108,
+     "img": "4d3d3a33-010a-4b2d-aedf-b3d0df1ce774.jpeg"
+    },
+    {
+     "name": "Huevos Divorciados",
+     "desc": "Huevos estrellados sobre una tortilla frita 2 unidades, bañados en salsa verde y salsa roja acompañados de frijoles.",
+     "price": 117,
+     "img": "6b773f93-b841-4556-a451-803b2488ae54.jpeg"
+    },
+    {
+     "name": "Huevos Rancheros",
+     "desc": "Huevos rancheros estrellados sobre una tortilla frita con jamón y queso bañados en salsa de rancho acompañados de frijoles.",
+     "price": 117,
+     "img": "1a8e64b0-665e-46e6-9a38-cef12ad4bcc8.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Lonchería",
+   "products": [
+    {
+     "name": "Sándwich de Jamón",
+     "desc": "Sándwich de jamón: Pan de caja con jamón queso, lechuga, jitomate, cebolla, mayonesa y aguacate.",
+     "price": 94.5,
+     "img": "7a412619-6e8e-4b04-9dad-9e27f8a304b9.jpeg"
+    },
+    {
+     "name": "Sandwich de Pollo",
+     "desc": "Sándwich de pollo: pan de caja con queso derretido, pechuga de pollo, lechuga, jitomate, cebolla, mayonesa y aguacate.",
+     "price": 94.5,
+     "img": "76206a65-1ae6-4516-9143-8085cac3c064.jpeg"
+    },
+    {
+     "name": "Sandwich Lennon",
+     "desc": "Sandwich lennon: Pan de caja aderezado con mayonesa, jamón, un huevo estrellado, tocino, jitomate, champiñones y calabaza asada.",
+     "price": 117,
+     "img": "65fe2f86-d013-4dc7-99e1-2142121a452e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Cochinita",
+     "desc": "Torta: Bolillo con cochinita, frijol, cochinita, queso y cebolla morada.",
+     "price": 108,
+     "img": "72aec710-be45-4ce4-9ab4-27e422259f71.jpeg"
+    },
+    {
+     "name": "Monchis Adobada",
+     "desc": "Monchis adobada: bolillo con adobada queso derretido, jitomate, cebolla, mayonesa y aguacate.",
+     "price": 108,
+     "img": "ef71db1e-1fa6-4d70-afd9-022ed447dbe7.jpeg"
+    },
+    {
+     "name": "Norteña Arrachera",
+     "desc": "Norteña arrachera: bolillo con arrachera, cebolla asada, frijol, queso derretido, mayonesa y aguacate.",
+     "price": 108,
+     "img": "dc11b1d7-79f9-46af-9b1b-52b13ca5f233.jpeg"
+    },
+    {
+     "name": "Pepito bistec",
+     "desc": "Pepito bistec: bolillo con bistec queso derretido, jitomate, cebolla, mayonesa y aguacate.",
+     "price": 108,
+     "img": "0a2dc624-3f8e-456f-b378-c562024b9eb2.png"
+    },
+    {
+     "name": "de la Casa Jamón",
+     "desc": "Torta de la casa: Bolillo con jamón, queso derretido, jitomate, cebolla y aguacate.",
+     "price": 94.5,
+     "img": "81d33b74-7793-4863-942d-c3a33688f6bf.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Taquería",
+   "products": [
+    {
+     "name": "Quesadilla de maíz y guisado",
+     "desc": "Quesadilla de maíz hecha a mano y queso, con un guisado.",
+     "price": 40.5,
+     "img": "c13804f0-caea-4a99-8de3-5e8e6f2b669c.png"
+    },
+    {
+     "name": "Taco",
+     "desc": "Taco de tortilla de maíz con pollo deshebrado y cebolla morada.",
+     "price": 22.5,
+     "img": "37b83485-78f4-45e2-aea2-237c3189264e.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Fresas con Crema",
+     "desc": "Fresas frescas servidas con crema blanca.",
+     "price": 67.5,
+     "img": "58d17c7d-a017-4818-b35f-c71611d732c4.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Agua Fresca",
+     "desc": "Agua fresca: 500ml de agua fresca del día.",
+     "price": 27,
+     "img": "b3cbe56b-9ea4-4f54-bef5-93deb60c2687.jpeg"
+    },
+    {
+     "name": "Café Americano",
+     "desc": "Café americano",
+     "price": 40.5,
+     "img": "a6c65183-d59b-40d2-a529-76f3f069500b.png"
+    },
+    {
+     "name": "Café de Olla",
+     "desc": "Café de olla tradicional.",
+     "price": 40.5,
+     "img": "2e226975-e76a-40f5-b6ea-004f6a315dec.png"
+    },
+    {
+     "name": "Café Helado",
+     "desc": "Café helado con crema batida y jarabe de chocolate.",
+     "price": 45,
+     "img": "3ed0be01-1ba7-4620-8297-5af0ad0189cc.jpg"
+    },
+    {
+     "name": "Café con Leche",
+     "desc": "Café con leche.",
+     "price": 45,
+     "img": "88cd5297-c5d5-4232-9bc3-4b55eda64107.png"
+    },
+    {
+     "name": "Chocolate Caliente",
+     "desc": "Chocolate caliente: 340 mil tradicional chocolate caliente como el de la abuela.",
+     "price": 49.5,
+     "img": "7f450227-e5c0-437a-bba7-faec81633d96.jpeg"
+    },
+    {
+     "name": "Chocolate Frío",
+     "desc": "Chocolate frío",
+     "price": 49.5,
+     "img": "3b523d59-3979-4181-833f-73973c9aebcd.jpeg"
+    },
+    {
+     "name": "Licuado",
+     "desc": "Licuado de frutas frescas.",
+     "price": 49.5,
+     "img": "deec7a40-fdd5-49c2-8eae-14d5f6a7daec.jpeg"
+    },
+    {
+     "name": "Malteada",
+     "desc": "Malteada con crema batida y cereza.",
+     "price": 72,
+     "img": "7c6752f2-98ea-400c-9e3d-3f2d5dcddc6f.jpeg"
+    },
+    {
+     "name": "Frappuccino",
+     "desc": "Frappuccino",
+     "price": 72,
+     "img": "7de167b7-52e2-4f7c-9635-f7c580bf04e4.jpeg"
+    },
+    {
+     "name": "Coca-Cola Original 600 ml",
+     "desc": "Refrescos",
+     "price": 27,
+     "img": "b8cbbcdf-3efb-4d35-99a3-5b71bf48b573.jpeg"
+    },
+    {
+     "name": "Coca-Cola Light 600 ml",
+     "desc": "Refrescos",
+     "price": 27,
+     "img": "b8cbbcdf-3efb-4d35-99a3-5b71bf48b573.jpeg"
+    }
+   ]
+  }
+ ]
+}

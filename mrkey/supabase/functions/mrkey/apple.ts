@@ -90,7 +90,7 @@ export function buildPassJson(m: Merchant, c: Customer, webServiceURL: string) {
     labelColor: hexToRgb(m.color_accent),
     storeCard: {
       headerFields: [
-        { key: "rewards", label: "PREMIOS", value: c.rewards_available, changeMessage: "🎁 Premios por canjear: %@" },
+        { key: "rewards", label: "PREMIOS", value: c.rewards_available, changeMessage: "🎁 Tienes %@ premio(s) listo(s) para canjear" },
       ],
       primaryFields: [
         { key: "stamps", label: "SELLOS", value: `${c.stamps} de ${m.stamps_required}`, changeMessage: "Ahora llevas %@ sellos" },
@@ -101,7 +101,6 @@ export function buildPassJson(m: Merchant, c: Customer, webServiceURL: string) {
       ],
       backFields: [
         { key: "promo", label: `Mensaje de ${m.name}`, value: c.last_message ?? "Aquí verás promociones exclusivas.", changeMessage: "%@" },
-        { key: "redeemed", label: "Premios canjeados", value: c.rewards_redeemed },
         { key: "how", label: "Cómo funciona", value: `Muestra este código al pagar y suma un sello por visita. Al juntar ${m.stamps_required} sellos ganas: ${m.reward_text}.` },
         ...(m.address ? [{ key: "address", label: "Dirección", value: m.address }] : []),
         { key: "powered", label: "Tarjeta creada con Mr Key", value: "¿Tienes un negocio? Crea tu tarjeta de lealtad en Wallet con Mr Key." },
@@ -109,15 +108,20 @@ export function buildPassJson(m: Merchant, c: Customer, webServiceURL: string) {
     },
     barcodes: [{ format: "PKBarcodeFormatQR", message: `MK:${c.serial}`, messageEncoding: "iso-8859-1", altText: c.serial.slice(0, 8).toUpperCase() }],
   };
-  // Geofencing condicional: el local solo se incluye en pases de clientes inactivos,
-  // así el iPhone sugiere la tarjeta en la pantalla de bloqueo cuando pasan cerca.
-  if (m.lat != null && m.lng != null && isInactive(c, m)) {
+  // Recordatorio por cercanía: con la ubicación del local en el pase, el iPhone sugiere la tarjeta
+  // en la pantalla de bloqueo cuando el cliente pasa cerca. El negocio elige si va para todos
+  // sus clientes o solo para los inactivos.
+  const nearby = m.nearby ?? "inactive";
+  const inactive = isInactive(c, m);
+  if (m.lat != null && m.lng != null && (nearby === "all" || (nearby === "inactive" && inactive))) {
     pass.locations = [{
       latitude: m.lat,
       longitude: m.lng,
       relevantText: remaining <= 1
         ? `${firstName(c.name)}, te falta 1 sello para tu ${m.reward_text}`
-        : `${firstName(c.name)}, te extrañamos en ${m.name}. Llevas ${c.stamps} sellos.`,
+        : inactive
+          ? `${firstName(c.name)}, te extrañamos en ${m.name}. Llevas ${c.stamps} sellos.`
+          : `Estás cerca de ${m.name}. Llevas ${c.stamps} de ${m.stamps_required} sellos.`,
     }];
   }
   return pass;

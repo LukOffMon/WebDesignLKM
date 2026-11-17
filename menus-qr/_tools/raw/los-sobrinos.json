@@ -1,0 +1,315 @@
+{
+ "id": 1923209241,
+ "brandName": "Taquería Los Sobrinos",
+ "name": "Taquería Los Sobrinos - Fraccionamiento Tellería",
+ "address": "Av. Rafael Buelna 14, Tellería, 82149 Mazatlán, Sin., México",
+ "schedule": "17:00:00 - 23:00:00",
+ "categories": "Tacos · Mexicana",
+ "location": [
+  -106.4446635,
+  23.2392254
+ ],
+ "city": "Mazatlán",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/rwewer-1738259270255.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/4302002000054790860-1738259271770.jpg",
+ "schedules": [
+  {
+   "open_time": "17:00:00",
+   "close_time": "23:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923209241-taqueria-los-sobrinos",
+ "menu": [
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Frijoles Charros",
+     "desc": "Orden de frijoles charros naturales.",
+     "price": 39,
+     "img": "b6dcb3ee-f6a7-482c-be23-c75c49a39abc.jpeg"
+    },
+    {
+     "name": "Frijoles con Carne y Queso",
+     "desc": "Orden de frijoles charros con carne asada y queso.",
+     "price": 64,
+     "img": "5420df51-4677-405a-8f7d-1bcd61f21d89.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Los Tacos",
+   "products": [
+    {
+     "name": "Taco Al Pastor",
+     "desc": "Taco de tortilla de maíz con carne al pastor, cebolla y chile. Incluye rodajas de cebolla morada.",
+     "price": 32,
+     "img": "c31db42f-38f1-4f17-a185-7dc07e9bf72d.png"
+    },
+    {
+     "name": "Taco de Chorizo",
+     "desc": "Taco de chorizo en tortilla de maíz, acompañado de cebolla y cilantro.",
+     "price": 40,
+     "img": "4b6a979c-8a05-46e9-8c39-73bbbfc40330.jpeg"
+    },
+    {
+     "name": "Taco de Asada",
+     "desc": "Taco de tortilla de maíz con carne asada, lechuga, jitomate y cebolla morada.",
+     "price": 48,
+     "img": "9127e192-04c1-4d33-bbf4-8de387c1028f.jpg"
+    },
+    {
+     "name": "Taco Mixto",
+     "desc": "Taco Mixto con tortilla de maíz y dos proteínas a elegir.",
+     "price": 48,
+     "img": "158cb802-5158-4dd4-90ea-11315f152a61.jpeg"
+    },
+    {
+     "name": "Taco de Tripa",
+     "desc": "Taco de tortilla de maíz relleno de tripa. Acompañado de opciones como cebolla, cilantro y limón.",
+     "price": 49,
+     "img": "9e3b9447-0526-4719-b21d-a6ee20183c2c.jpeg"
+    },
+    {
+     "name": "Taco de Camarón",
+     "desc": "Taco de camarón en tortilla de maíz con camarones a la plancha, aguacate, col y rodajas de limón.",
+     "price": 50,
+     "img": "beef5985-4962-4aa3-9b58-5a42e7ed129e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Las Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla Al Pastor",
+     "desc": "Quesadilla de queso y carne al pastor, elígela de maíz o harina.",
+     "price": 79,
+     "img": "414ba2eb-7fe4-4d2c-aa11-aed6ae555f03.jpeg"
+    },
+    {
+     "name": "Quesadilla de Asada",
+     "desc": "Quesadilla de queso y carne asada, elígela de maíz o harina.",
+     "price": 89,
+     "img": "52290b4d-3da6-4aa8-b7cc-9df023ce17b2.jpeg"
+    },
+    {
+     "name": "Quesadilla Mixta",
+     "desc": "Quesadilla de queso con dos proteínas a elegir, servida en tortilla de maíz o harina. Incluye salsa para acompañar.",
+     "price": 89,
+     "img": "52290b4d-3da6-4aa8-b7cc-9df023ce17b2.jpeg"
+    },
+    {
+     "name": "Quesadilla Campechana",
+     "desc": "Quesadilla de queso y 3 proteínas: asada, pastor y chorizo, elígela de maíz o harina.",
+     "price": 89,
+     "img": "52290b4d-3da6-4aa8-b7cc-9df023ce17b2.jpeg"
+    },
+    {
+     "name": "Quesadilla de Camarón",
+     "desc": "Quesadilla de queso y camarón en tortilla de 20 cm. Elige tus ingredientes adicionales.",
+     "price": 92,
+     "img": "df02ffae-bafd-45a8-bafc-2f20b33e3d55.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Los Vampiros",
+   "products": [
+    {
+     "name": "Vampiro de Pastor",
+     "desc": "Tortilla dorada de maíz con queso derretido y carne al pastor",
+     "price": 69,
+     "img": "682891ac-4d9f-4821-b8da-74a4e60d4490.jpeg"
+    },
+    {
+     "name": "Vampiro de Asada",
+     "desc": "Tortilla dorada de maíz con queso derretido y carne asada en trozos.",
+     "price": 75,
+     "img": "547b290b-c0b0-4096-8cf1-e9e5bf45e457.jpeg"
+    },
+    {
+     "name": "Vampiro Mixto",
+     "desc": "Tortilla dorada de maíz con queso derretido, aceitunas, aguacate y cebolla. Incluye 2 proteínas a elegir.",
+     "price": 75,
+     "img": "a6ef06dc-892b-438c-a5af-286a49378f9f.jpeg"
+    },
+    {
+     "name": "Vampiro Campechano",
+     "desc": "Tortilla dorada de maíz con queso derretido y 3 proteínas: asada, pastor y chorizo.",
+     "price": 75,
+     "img": "a6ef06dc-892b-438c-a5af-286a49378f9f.jpeg"
+    },
+    {
+     "name": "Vampiro de Tripa",
+     "desc": "Tortilla dorada de maíz con queso derretido y tripa doradita.",
+     "price": 79,
+     "img": "5a8f0236-3da5-483a-bbf1-2cb0f29e7ea5.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Taco Macho",
+   "products": [
+    {
+     "name": "Taco Macho Al Pastor",
+     "desc": "Taco de poblano asado, queso derretido, carne al pastor; servido sobre 2 tortillas de maíz.",
+     "price": 99,
+     "img": "2ad6b3be-093a-46b4-a433-c840c1cd9bd8.jpeg"
+    },
+    {
+     "name": "Taco Macho de Asada",
+     "desc": "Taco de poblano asado, queso derretido, carne asada; servido sobre 2 tortillas de maíz.",
+     "price": 99,
+     "img": "96d2eaec-b3df-477a-9afd-11288d979e18.jpeg"
+    },
+    {
+     "name": "Taco Macho Mixto",
+     "desc": "Taco de poblano asado, queso derretido y 2 proteínas a elegir, servido en 2 tortillas de maíz.",
+     "price": 99,
+     "img": "a8afe884-59a2-45c7-8d54-8b77be209c37.jpeg"
+    },
+    {
+     "name": "Taco Macho Campechano",
+     "desc": "Taco de poblano asado, queso derretido y 3 proteínas: asada, pastor y chorizo, servido en 2 tortillas de maíz.",
+     "price": 109,
+     "img": "a8afe884-59a2-45c7-8d54-8b77be209c37.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Los Alambres",
+   "products": [
+    {
+     "name": "Alambre Al Pastor",
+     "desc": "Carne al pastor mezclada con poblano, cebolla y tocino. acompañado de tortillas de maíz.",
+     "price": 165,
+     "img": "ba213ed6-7f56-4d56-b890-3f2f097667f6.jpeg"
+    },
+    {
+     "name": "Alambre Mixto",
+     "desc": "2 proteínas a elegir mezcladas con poblano, cebolla y tocino. acompañado de tortillas de maíz.",
+     "price": 175,
+     "img": "ba213ed6-7f56-4d56-b890-3f2f097667f6.jpeg"
+    },
+    {
+     "name": "Alambre de Asada",
+     "desc": "Carne asada mezclada poblano, cebolla y tocino, servido con tortillas de maíz.",
+     "price": 175,
+     "img": "f1c6f075-b66f-44b0-8a3e-63647a417166.jpeg"
+    },
+    {
+     "name": "Alambre Campechano",
+     "desc": "3 proteínas: asada, pastor y chorizo mezcladas con poblano, cebolla y tocino. acompañado de tortillas de maíz.",
+     "price": 179,
+     "img": "80fb2785-8d57-4998-b106-504790c8df51.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Las Chorreadas",
+   "products": [
+    {
+     "name": "Chorreada de Tripa",
+     "desc": "Gordita de maíz con asientos de cerdo, queso derretido y tripa doradita.",
+     "price": 109,
+     "img": "0a5d666d-8de3-4e98-8833-d08d813b3e68.jpeg"
+    },
+    {
+     "name": "Chorreada Mixta",
+     "desc": "Gordita de maíz con asientos de cerdo, queso derretido y opción de 2 proteínas a elegir.",
+     "price": 109,
+     "img": "0a5d666d-8de3-4e98-8833-d08d813b3e68.jpeg"
+    },
+    {
+     "name": "Chorreada Al Pastor",
+     "desc": "Gordita de maíz con asientos de cerdo y queso derretido con carne al pastor.",
+     "price": 99,
+     "img": "99ef291d-9ae6-491f-9eb6-81db8137e9ee.jpeg"
+    },
+    {
+     "name": "Chorreada de Asada",
+     "desc": "Gordita de maíz con asientos de cerdo y queso derretido con carne asada.",
+     "price": 109,
+     "img": "0a5d666d-8de3-4e98-8833-d08d813b3e68.jpeg"
+    },
+    {
+     "name": "Gordita de Camarón",
+     "desc": "Gordita de maíz con asientos, queso y camarón de 18 cm.",
+     "price": 141,
+     "img": "790ebbd1-1d57-4c9b-9841-1811c9277eff.jpeg"
+    },
+    {
+     "name": "Chorreada Campechana",
+     "desc": "Gordita de maíz con asientos de cerdo, queso derretido y 3 proteínas: carne asada, pastor y chorizo.",
+     "price": 109,
+     "img": "2ad6b3be-093a-46b4-a433-c840c1cd9bd8.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Las Tortas",
+   "products": [
+    {
+     "name": "Torta Campechana",
+     "desc": "Pan telera con 3 proteínas: asada, pastor y chorizo, lechuga, tomate, cebolla y aguacate.",
+     "price": 119,
+     "img": "a99d4765-5126-4615-846d-5998e7408c4b.jpeg"
+    },
+    {
+     "name": "Torta de Asada",
+     "desc": "Pan telera con carne asada, lechuga, tomate, cebolla y aguacate.",
+     "price": 115,
+     "img": "0e561e70-06ef-4aa8-bd17-e2175843e7e3.jpeg"
+    },
+    {
+     "name": "Torta de Pastor",
+     "desc": "Torta de Pastor con pan telera, carne al pastor, lechuga, tomate, cebolla, aguacate y queso.",
+     "price": 109,
+     "img": "e48d99a2-fed8-4700-8c16-0df5bf2ab746.jpeg"
+    },
+    {
+     "name": "Torta Mixta",
+     "desc": "Torta Mixta con pan telera, 2 proteínas a elegir, lechuga, tomate, cebolla y aguacate.",
+     "price": 119,
+     "img": "a99d4765-5126-4615-846d-5998e7408c4b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Por Kilo",
+   "products": [
+    {
+     "name": "1/2 Kilo de Pastor",
+     "desc": "Acompañado de 10 tortillas de maíz, verduras y salsas, excelente para compartir.",
+     "price": 299,
+     "img": "fcc9c8e7-ad26-4673-ab05-298c0d7bc17d.jpeg"
+    },
+    {
+     "name": "Kilo de Pastor",
+     "desc": "Acompañado de 25 tortillas de maíz, verduras y salsas, excelente para compartir.",
+     "price": 499,
+     "img": "fcc9c8e7-ad26-4673-ab05-298c0d7bc17d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Agua Jamaica Grande 1 l",
+     "desc": "Agua fresca de jamaica 1 litro.",
+     "price": 59,
+     "img": "ebcf908e-5814-4efd-aeaf-5c096d5fd3ee.jpeg"
+    },
+    {
+     "name": "Agua de Horchata Grande 1 l",
+     "desc": "Agua fresca de horchata 1 litro.",
+     "price": 59,
+     "img": "ebcf908e-5814-4efd-aeaf-5c096d5fd3ee.jpeg"
+    }
+   ]
+  }
+ ]
+}

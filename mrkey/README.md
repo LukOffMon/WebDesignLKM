@@ -9,8 +9,8 @@ Este proyecto está separado de los demás sitios del repo: todo vive dentro de 
 1. **El negocio crea su cuenta** en `panel.html`: nombre, giro, logo y colores. Según el giro se sugiere un programa (barbería: 8 sellos = corte gratis).
 2. **Imprime su QR de alta** (pestaña *Mostrador y QR*) y lo pone en el mostrador.
 3. **El cliente escanea el QR** con la cámara (`unirse.html`), escribe nombre y celular, y obtiene su tarjeta (`tarjeta.html`) con su propio código QR. Puede guardarla en Wallet o en la pantalla de inicio.
-4. **El personal sella** desde su celular en `sellar.html` con el código del negocio y un PIN. Escanea el QR de la tarjeta (o busca al cliente por su celular) y toca **+1 sello** (o +2/+3 para promociones de sello doble). El sello aparece al instante en el teléfono del cliente. Si el cliente es nuevo y no quiere escanear, el personal lo da de alta ahí mismo y le manda su tarjeta por WhatsApp.
-5. **Al juntar los sellos** se desbloquea el premio y el mostrador pregunta si se entrega ahora. El premio queda **pendiente** hasta que el personal confirma “Sí, ya se lo entregué”; se registra quién lo entregó y a qué hora. Si lo deja para otra visita, el premio sigue en su tarjeta y en *Premios → Por entregar* del panel. Un sello o una entrega por error se pueden **deshacer** en los primeros 15 minutos (el dueño puede deshacer entregas hasta 7 días después).
+4. **El personal sella** desde su celular en `sellar.html` con el código del negocio y un PIN. Escanea el QR de la tarjeta (o busca al cliente por su celular) y toca **+1 sello**. El sello aparece al instante en el teléfono del cliente.
+5. **Al juntar los sellos** se desbloquea el premio. El personal lo canjea desde la misma pantalla.
 6. **El dueño ve sus métricas** en el panel: clientes, visitas, clientes inactivos (más de N días sin venir) e **ingresos recuperados** (inactivos que volvieron × ticket promedio).
 7. **Campañas sin SMS:** el dueño escribe un mensaje para un segmento (inactivos, a 1 sello del premio, con premio sin canjear, o todos). Llega a la tarjeta y, con Wallet activado, como notificación en la pantalla de bloqueo. Solo se envía a quienes aceptaron recibir promociones.
 8. **Alertas por cercanía:** si el negocio guarda la ubicación del local, los pases de Apple Wallet de clientes **inactivos** incluyen esa ubicación, y el iPhone les sugiere la tarjeta cuando pasan cerca. Mr Key nunca recibe la ubicación del cliente.
@@ -20,25 +20,45 @@ Este proyecto está separado de los demás sitios del repo: todo vive dentro de 
 | Página | Para quién | Qué hace |
 |---|---|---|
 | `index.html` | Comerciantes | Landing con precios y registro |
-| `panel.html` | Dueño | Pendientes del día, métricas, premios por entregar y entregados, ficha de cada cliente (historial, nota, ajuste de sellos, eliminar), campañas, diseño de la tarjeta, QR, PIN y cuenta |
-| `sellar.html` | Personal | Escáner para sellar, entregar premios con confirmación, deshacer errores, dar de alta clientes y ver los movimientos del día (se puede instalar como app) |
+| `panel.html` | Dueño | Métricas, clientes, campañas, diseño de la tarjeta, QR y PIN |
+| `sellar.html` | Personal | Escáner para sellar y canjear premios (se puede instalar como app) |
 | `unirse.html?m=<negocio>` | Cliente | Alta en el programa |
-| `tarjeta.html?s=<serial>` | Cliente | Tarjeta con sellos, progreso, premios pendientes y entregados, actividad, mensajes y opción de dejar de recibir promociones; se actualiza sola |
+| `tarjeta.html?s=<serial>` | Cliente | Tarjeta con sellos, QR, premios y mensajes; se actualiza sola |
 | `aviso.html` | Todos | Aviso de privacidad base |
+| `llave-maestra.html` | Tú (admin) | Aprobar cuentas, registrar pagos, cancelar membresías |
 
-**SEO:** solo `index.html` y `aviso.html` se indexan; panel, sellar, unirse y tarjeta llevan `noindex`. La portada tiene Open Graph (`assets/og.png`, 1200×630), datos estructurados (Organization, SoftwareApplication con los 3 planes y FAQPage) y preguntas frecuentes. Si cambian precios o preguntas, actualiza también el JSON-LD de `index.html` y `llms.txt`. `sitemap.xml` se da de alta a mano en Google Search Console, porque en GitHub Pages el `robots.txt` solo funciona en la raíz del dominio. Contacto de ventas: WhatsApp 449 209 4034 y officiallukamon@gmail.com.
+**SEO:** solo `index.html` y `aviso.html` se indexan; panel, sellar, unirse, tarjeta y llave maestra llevan `noindex`. La portada tiene Open Graph (`assets/og.png`, 1200×630), datos estructurados (Organization, SoftwareApplication con los 3 planes y FAQPage) y preguntas frecuentes. Si cambian precios o preguntas, actualiza también el JSON-LD de `index.html` y `llms.txt`. `sitemap.xml` se da de alta a mano en Google Search Console, porque en GitHub Pages el `robots.txt` solo funciona en la raíz del dominio. Contacto de ventas: WhatsApp 449 209 4034 y officiallukamon@gmail.com.
 
 ## Arquitectura
 
 - **Frontend:** HTML, CSS y JS sin build, servido por GitHub Pages. `assets/app.js` tiene la URL de la API.
 - **API:** una Edge Function de Supabase (`supabase/functions/mrkey`) en Deno, publicada en
   `https://lsvyryanshcuysowlysp.supabase.co/functions/v1/mrkey`.
-- **Base de datos:** Postgres de Supabase, tablas `mk_*` (ver `supabase/migrations`). Cada premio ganado es una fila en `mk_rewards` (pendiente mientras `delivered_at` sea nulo); `mk_customers.rewards_available` es solo el contador. RLS activo sin políticas: el navegador nunca toca la base directamente, todo pasa por la API.
-- **Seguridad:** contraseñas y PIN con PBKDF2; sesiones con token aleatorio (se guarda solo su hash); bloqueo de 15 min tras intentos fallidos; antifraude con minutos mínimos entre sellos del mismo cliente; el personal no ve métricas, lista de clientes ni campañas (`/me` le regresa solo lo necesario para sellar).
+- **Base de datos:** Postgres de Supabase, tablas `mk_*` (ver `supabase/migrations`). RLS activo sin políticas: el navegador nunca toca la base directamente, todo pasa por la API.
+- **Seguridad:** contraseñas y PIN con PBKDF2; sesiones con token aleatorio (se guarda solo su hash); bloqueo de 15 min tras intentos fallidos; antifraude con minutos mínimos entre sellos del mismo cliente; el personal no ve clientes ni campañas.
 
-## Probar en local
+## Diseño de la tarjeta y temas
 
-Con Postgres y Deno instalados: crea una base, aplica las migraciones en orden y corre `SUPABASE_DB_URL=postgres://… SUPABASE_URL=http://localhost:8000 deno run -A supabase/functions/mrkey/index.ts`. Sirve la carpeta con cualquier servidor estático y abre `http://localhost:8080/panel.html?api=http://localhost:8000/functions/v1/mrkey/api` (el parámetro `api` solo funciona en `localhost`).
+- **Temas de tarjeta:** 10 temas listos (`MK.THEMES` en `assets/app.js`) que fijan colores, ícono del sello, estilo del sello (tinta, relleno o contorno), fondo, letra y esquinas. El negocio puede cambiar cada cosa por separado; se guarda en `mk_merchants.design` (JSON validado en `supabase/functions/mrkey/design.ts`).
+- **Página del cliente:** `unirse.html` y `tarjeta.html` se ven claras, oscuras o con los colores del negocio (`design.page`).
+- **Logo solo con plan pagado:** subir logo exige una cuenta activa aprobada en la llave maestra; el servidor lo rechaza en cuentas pendientes y no lo muestra (web, Apple ni Google) si el negocio nunca ha pagado. En el panel aparece bloqueado con un botón a tu WhatsApp.
+- **Tema de la web de Mr Key:** automático, claro, oscuro o alto contraste, con el selector "Tema" del encabezado (se guarda en el navegador).
+- **Tutorial interactivo:** recorre el editor paso a paso. Arranca solo la primera vez que alguien crea su cuenta y se puede repetir con "Ver tutorial".
+- **Diseña la tuya:** sección de la portada para probar temas y sellos; el panel abre con lo que eligió el visitante.
+
+## Recordatorio por cercanía
+
+Solo funciona con **Apple Wallet** (la web no puede saber dónde está el cliente y Google Wallet no lo permite así). Si el negocio guarda la ubicación de su local, el pase incluye esas coordenadas y el iPhone sugiere la tarjeta en la pantalla de bloqueo al pasar cerca. El negocio elige en *Mi tarjeta*: a todos sus clientes, solo a los inactivos o a nadie (`mk_merchants.nearby`). Una tarea diaria de `pg_cron` llama a `api/cron/inactive` para actualizar los pases de quienes acaban de volverse inactivos.
+
+## Administración de cuentas (página oculta)
+
+`llave-maestra.html` no está enlazada en ningún lado y pide la clave de administrador (solo se guarda su hash en la base de datos). Ahí:
+
+- **Pendientes:** todo negocio que se registra puede usar Mr Key 12 horas. Si no lo apruebas, se borra solo (tarea `pg_cron` cada 10 min). Puedes darle 12 h más o rechazarlo.
+- **Aprobar / registrar pago:** sin pasarela de pago. Cobras por transferencia o efectivo y registras plan, meses, monto y forma de pago; la cuenta queda activa hasta esa fecha. Cada pago queda en el historial.
+- **Vencimiento:** 3 días después de vencer, la cuenta se bloquea (panel, sellado, campañas y altas nuevas). Los clientes conservan sus tarjetas.
+- **Cancelar / reactivar** membresías, notas internas, MRR y cobrado del mes.
+- **WhatsApp de contacto:** el número al que los negocios te escriben para pagar; aparece en su panel.
 
 ## Activar Apple Wallet y Google Wallet
 
@@ -58,7 +78,7 @@ Revisa el estado en `…/functions/v1/mrkey/api/health`.
 
 ## Desplegar cambios del backend
 
-Primero aplica las migraciones pendientes de `supabase/migrations` (SQL Editor de Supabase o `supabase db push`) y después despliega la función:
+Antes de desplegar la función, aplica las migraciones pendientes de `supabase/migrations` (la de diseño agrega `design`, `nearby` y la tarea diaria).
 
 ```bash
 supabase functions deploy mrkey --project-ref lsvyryanshcuysowlysp --no-verify-jwt
@@ -66,10 +86,19 @@ supabase functions deploy mrkey --project-ref lsvyryanshcuysowlysp --no-verify-j
 
 (`--no-verify-jwt` porque la API maneja su propia autenticación.)
 
+## Pruebas
+
+`pruebas/e2e.js` recorre todas las páginas en Chromium con la API simulada (no toca la base de datos real): portada y demo de sellos, registro y pestañas del panel, alta del cliente, tarjeta que se actualiza sola, sellado con antifraude y canje. También revisa desbordamiento horizontal, áreas táctiles y errores de JavaScript en celular y escritorio.
+
+```bash
+python3 -m http.server 8000        # desde la raíz del repo
+node mrkey/pruebas/e2e.js /tmp/capturas
+```
+
+Requiere Playwright (`npm i -D playwright`). Usa `MRKEY_URL` para probar otra dirección.
+
 ## Pendiente
 
-- Cobro de suscripciones (Stripe / Mercado Pago). Hoy todas las cuentas quedan en prueba de 14 días sin límite real.
-- Límites por plan (clientes activos, campañas al mes).
+- Límites por plan (clientes activos, campañas al mes). Hoy el plan solo define el precio.
 - Recuperar contraseña por correo.
-- Recordatorios automáticos (p. ej. mensaje a los 7 días de un premio sin canjear).
 - Multi-sucursal e integraciones con POS (fase 3 del roadmap).

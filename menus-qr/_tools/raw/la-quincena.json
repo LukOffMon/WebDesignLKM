@@ -1,0 +1,487 @@
+{
+ "id": 1923220951,
+ "brandName": "La Quincena",
+ "name": "La Quincena - Barrio La Estación",
+ "address": "Madero 811, Barrio De La Estación",
+ "schedule": "08:00:00 - 15:45:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -102.28217,
+  21.884983
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/la-quincena-logo1-1584824513519.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/formewrfsgxato-home-1591290626123.png",
+ "schedules": [
+  {
+   "open_time": "08:00:00",
+   "close_time": "15:45:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923220951-la-quincena",
+ "menu": [
+  {
+   "name": "Todo el Día",
+   "products": [
+    {
+     "name": "Chilaquiles bruja",
+     "desc": "Chilaquiles con salsa de jitomate, crema, acompañados de huevo, frijoles, crema, cebolla y aguacate",
+     "price": 155,
+     "img": "26c172ca-1aae-4347-9349-93bc1883f090.png"
+    },
+    {
+     "name": "Chilaquiles habanero",
+     "desc": "Chilaquiles con salsa habanera, acompañados de huevo, frijoles, crema, cebolla morada y aguacate.",
+     "price": 155,
+     "img": "6c380118-1d11-48dc-9c9c-1c9454b26cc9.png"
+    },
+    {
+     "name": "Chilaquiles mole",
+     "desc": "Chilaquiles con mole de la abuela, acompañados de huevo, frijoles, crema, cebolla y aguacate",
+     "price": 180,
+     "img": "501ce08b-ffa0-4574-8d25-552d91f813ff.png"
+    },
+    {
+     "name": "Chingadera",
+     "desc": "Torta de chilaquiles \"bruja\", habanero o mole, acompañada de frijoles, crema, cebolla y aguacate.",
+     "price": 135,
+     "img": "399bca17-2d95-4d29-905f-b96a278c586a.png"
+    },
+    {
+     "name": "Chambitas",
+     "desc": "Huevos revuelto con tortilla acompañados de frijoles, cebolla morada y aguacate.",
+     "price": 115,
+     "img": "6c96c6ea-9cf5-486e-8b86-5dca1a5c15a3.png"
+    },
+    {
+     "name": "Orden de huevos",
+     "desc": "2 Huevos acompañados de frijoles, pico de gallo y aguacate",
+     "price": 110,
+     "img": "7895a844-cb14-4ce1-a822-47fd2bbfb1d9.png"
+    },
+    {
+     "name": "Huevos bañados",
+     "desc": "2 Huevos con salsa de bruja, habanero o mole; acompañados de frijoles, pico de gallo y aguacate",
+     "price": 120,
+     "img": "65398c87-12f0-4508-9902-5d5b718cf4bf.png"
+    },
+    {
+     "name": "Torta de albañil",
+     "desc": "Bolillo con crema, jamón o cuerito y chile jalapeño",
+     "price": 80,
+     "img": "0f9cd4cc-1ce1-48ff-8f46-433a9be79b54.png"
+    },
+    {
+     "name": "Torta de albañil mixta",
+     "desc": "Bolillo con crema, jamón, cuerito y chile jalapeño",
+     "price": 90,
+     "img": "bc50d9a6-05fe-4d9d-878d-7260a9d93c47.png"
+    },
+    {
+     "name": "Bruja",
+     "desc": "Torta con carne de cerdo de el curro, frijoles la chinita, salsa de jitomate, crema, cebolla morada, aguacate y crema",
+     "price": 160,
+     "img": "94ff9efc-5b8d-4ab6-a46d-410cbd58170b.png"
+    },
+    {
+     "name": "Bruja del mar",
+     "desc": "Lo mismo que la de arriba pero con camarones sazonados en chile de árbol.",
+     "price": 160,
+     "img": "888eb59f-1e0f-47b3-a072-bddb038f8a4f.png"
+    },
+    {
+     "name": "Bruja Maya",
+     "desc": "Torta de cochinita pibil con aguacate y cebolla encurtida.",
+     "price": 165,
+     "img": "3274eac9-d0c5-4cb6-9f8a-d632ee89e8ea.png"
+    },
+    {
+     "name": "Torta yucateca",
+     "desc": "Bolillo con frijoles, cochinita pibil y cebolla morada con habanero",
+     "price": 145,
+     "img": "9a8915bb-6995-4085-b3aa-05a40e56ff02.png"
+    },
+    {
+     "name": "Torta de huevo",
+     "desc": "Bolillo con mayonesa, huevo revuelto con jamón, chorizo o frijoles.",
+     "price": 110,
+     "img": "ed0c45d2-cadb-45e3-93ea-fc71d571ebdb.png"
+    },
+    {
+     "name": "Torta de huevo bañada",
+     "desc": "Lo mismo que la de arriba pero bañada por dentro en \"bruja\", habanero o mole.",
+     "price": 115,
+     "img": "b85e26b7-a04a-474d-b8ce-f903eca6c373.png"
+    },
+    {
+     "name": "Molletes",
+     "desc": "2 Molletes a la plancha, acompañados de pico de gallo",
+     "price": 110,
+     "img": "9ff82b61-791a-4bc4-ac3c-d59b72c268b9.png"
+    },
+    {
+     "name": "Molletes con chorizo",
+     "desc": "Molletes con chorizo, queso gratinado y frijoles, acompañados de pico de gallo.",
+     "price": 120,
+     "img": "d022b37c-b40c-48e3-a29c-0a2d6f373b36.png"
+    },
+    {
+     "name": "Sopes pinis",
+     "desc": "3 Sopes con frijoles la chinita, jamón, carne o chorizo, lechuga, queso, crema y salsa de jitomate",
+     "price": 125,
+     "img": "0d7e97bc-61c5-4273-a6c6-5188f3d94180.png"
+    },
+    {
+     "name": "Quesadillas",
+     "desc": "2 Quesadillas con jamón, acompañadas de frijoles picositos, aguacate y pico de gallo",
+     "price": 100,
+     "img": "89bc0cce-d4b7-47dd-ba0e-e10e58b232bf.jpeg"
+    },
+    {
+     "name": "Guacamaya",
+     "desc": "Torta importada de Guanajuato, contiene aguacate, duro de chicharrón, pico de gallo, crema y salsa de jitomate",
+     "price": 120,
+     "img": "e53b9f6f-25c0-4d11-ad81-d99b491c4651.png"
+    },
+    {
+     "name": "Tacos de carne",
+     "desc": "2 Tacos de carne de cerdo, acompañados de salsa de jitomate, pico de gallo y aguacate",
+     "price": 130,
+     "img": "b5e7f5bd-aeff-4f82-a505-e86085256b88.png"
+    },
+    {
+     "name": "Tacos yucatecos",
+     "desc": "2 Tacos de cochinita pibil, acompañados de salsa habanera, cebolla morada y aguacate",
+     "price": 140,
+     "img": "975d450a-9489-43f5-bfec-36edfab28323.png"
+    }
+   ]
+  },
+  {
+   "name": "Comida",
+   "products": [
+    {
+     "name": "Las tres tortitas",
+     "desc": "3 Tortas en bolillo con brujita, guacamayita, albañilito, cochinita pibil, frijolitos, choricito, carnita o huevito",
+     "price": 170,
+     "img": "d635fd0e-8bbb-4c48-8841-2ac163a75e90.png"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "4 Enfrijoladas rellenas de queso, bañadas en frijoles la chinita, acompañadas de crema, cebolla morada y aguacate",
+     "price": 125,
+     "img": "b105ee24-fad4-422e-9376-f168008c9dca.png"
+    },
+    {
+     "name": "Enmolladas de la abuela",
+     "desc": "4 Enmoladas rellenas de queso, acompañadas de crema, queso y cebolla morada",
+     "price": 160,
+     "img": "ba1ac100-ff4d-4d9c-a460-d9168936795f.png"
+    },
+    {
+     "name": "Enchiladas josefina",
+     "desc": "5 Enchiladas estilo potosinas rellenas de chile poblano, queso, huevo, frijoles, crema, queso, cebolla y aguacate",
+     "price": 135,
+     "img": "80e05b1d-ff45-4a47-8395-24e44a213e6a.png"
+    },
+    {
+     "name": "Quesadillas camarón",
+     "desc": "2 Quesadillas sazonadas con chile de árbol, acompañadas de ensalada de con y aguacate",
+     "price": 155,
+     "img": "cc5cd7a0-f5d1-4d13-aa54-60ecfdede0a6.png"
+    },
+    {
+     "name": "Tacos la quincena",
+     "desc": "4 Tacos dorados rellenos de chingo de papa, chile serrano, queso, lechuga, cueritos, cebolla morada, aguacate, crema y salsa habanera",
+     "price": 150,
+     "img": "a1496b5c-d31c-4b0f-a83f-2abd92437438.png"
+    },
+    {
+     "name": "El aguinaldo",
+     "desc": "Mollete pequeño con chorizo, brujita, sope, 2 enchiladas estilo potosinas y guacamole",
+     "price": 200,
+     "img": "a8262381-f2fe-4eea-8777-75a0b3f879ad.png"
+    },
+    {
+     "name": "Embrujadas",
+     "desc": "3 Tacos rellenos de frijoles, carne, salsa bruja de jitomate, crema, acompañados de crema, cebolla morada y aguacate",
+     "price": 165,
+     "img": "57ec3f2a-3078-4f97-9467-78bfb4f0445f.png"
+    }
+   ]
+  },
+  {
+   "name": "Botanas",
+   "products": [
+    {
+     "name": "Duro de Feria",
+     "desc": "Botana duro de harina con cueritos, zanahorias curtidas en vinagre de habanero, lechuga, crema, aguacate y chile jalapeño",
+     "price": 90,
+     "img": "a0c6458c-32e1-4c24-93ca-b422104bb9c3.png"
+    },
+    {
+     "name": "Tostaditas veggie",
+     "desc": "3 Tostadas con pepinos preparados.",
+     "price": 80,
+     "img": "61ec937e-9803-45f4-bd31-003a648346dc.png"
+    },
+    {
+     "name": "Papas la Quincena",
+     "desc": "Papas fritas preparadas con cueritos y zanahorias curtidas en vinagre de habanero",
+     "price": 85,
+     "img": "d2a5aee3-6621-48ba-8a8d-65acf353fb5d.png"
+    },
+    {
+     "name": "Papas Veggie",
+     "desc": "Papas fritas con pepinos preparados",
+     "price": 85,
+     "img": "6da9ca41-a54b-4d91-b623-e8ce9544de9d.png"
+    },
+    {
+     "name": "Duro veggie",
+     "desc": "Botana duro de harina con pepinos preparados, lechuga, aguacate y chile jalapeño",
+     "price": 90,
+     "img": "bdf9d8ad-0842-4c60-81eb-c14853933e50.jpeg"
+    },
+    {
+     "name": "Tostaditas de cueritos",
+     "desc": "3 tostaditas con cueritos, aguacate y salsa.",
+     "price": 80,
+     "img": "23dd39fd-d17c-4210-a0ef-7418f2d06a59.png"
+    },
+    {
+     "name": "Totopos con Guacamole",
+     "desc": "Totopos crujientes acompañados de guacamole.",
+     "price": 95,
+     "img": "c4fcf8ac-99ae-49f6-a966-f4db5ee132a1.png"
+    },
+    {
+     "name": "Aguacate preparado con cueritos",
+     "desc": "Aguacate con cueritos y totopos.",
+     "price": 105,
+     "img": "9bac8b1e-37ff-4a22-83a4-76cc6ec703cc.png"
+    },
+    {
+     "name": "Aguacate preparado con pepinos.",
+     "desc": "Aguacate preparado con pepinos y totopos.",
+     "price": 105,
+     "img": "05260684-7eb3-4fcb-9d69-7cab77c9dd0b.png"
+    },
+    {
+     "name": "Mariquitas",
+     "desc": "Dos flautas rellenas de carne, pídelas \"bruja\" o habanero, acompañadas de crema, queso, cebolla morada y aguacate.",
+     "price": 100,
+     "img": "40614918-744d-4fe3-b497-cd407aae650e.png"
+    },
+    {
+     "name": "Totopos con frijoles",
+     "desc": "Totopos de maíz tostados cubiertos con dip cremoso de frijoles rojos y queso Cheddar rallado.",
+     "price": 95,
+     "img": "f74af250-d838-4744-8a41-521264b9a2c2.jpeg"
+    },
+    {
+     "name": "Totopos mixtos",
+     "desc": "Totopos con guacamole y frijoles",
+     "price": 95,
+     "img": "d5119905-8049-4a51-bd15-ea76ec9be1f9.png"
+    },
+    {
+     "name": "Carne Seca",
+     "desc": "Carne seca de res servida en taza, acompañada de rodajas de limón.",
+     "price": 90,
+     "img": "3ea7a7d9-f2fe-4d6c-9ab9-98e34eaf5f26.png"
+    }
+   ]
+  },
+  {
+   "name": "Pa´que No Te Falte",
+   "products": [
+    {
+     "name": "Jarra de salsa de habanero",
+     "desc": "Salsa hecha a base de habanero, ideal para untar, en presentación de 250 ml.",
+     "price": 80,
+     "img": "40a56ed6-aaed-4b8f-a6dc-47bc57495995.jpeg"
+    },
+    {
+     "name": "Litro de salsa bruja",
+     "desc": "Vinagreta picante y especiada con base de vinagre, cebolla, chiles, ajo y hierbas de olor, en presentación de un litro.",
+     "price": 190,
+     "img": "317c5ccd-27e0-4c7b-a4d6-3e32336a3316.jpeg"
+    },
+    {
+     "name": "Litro de salsa de habanero",
+     "desc": "Litro de salsa habanera (pica un chingo).",
+     "price": 190,
+     "img": "0c46d55a-5acb-4810-a471-4d1e234dc617.jpeg"
+    },
+    {
+     "name": "Jarra de \"bruja\"",
+     "desc": "Jarra de 250 Mililitros para complementar tu pedido.",
+     "price": 80,
+     "img": "d86fc786-671e-4b5d-8977-6bc44385b111.jpeg"
+    },
+    {
+     "name": "Porción de chorizo",
+     "desc": "Rodajas de chorizo curado con pimentón ahumado, ideal para acompañar.",
+     "price": 85,
+     "img": "c467c61b-6647-4e38-b4e1-ad856e62af67.jpeg"
+    },
+    {
+     "name": "Porción de Carne",
+     "desc": "Porción de carne cocinada en cubos.",
+     "price": 85,
+     "img": "de004ea5-e04c-4711-b314-4e91e2b10b83.jpeg"
+    },
+    {
+     "name": "Porción de Cochinita",
+     "desc": "Carne de cerdo marinada en achiote y naranja agria, cocida lentamente y acompañada con cebolla morada.",
+     "price": 90,
+     "img": "133d0c16-df8a-4a9b-bdc4-310a7ff762f0.jpeg"
+    },
+    {
+     "name": "Aguacate completo",
+     "desc": "Un aguacate entero para acompañar cualquier plato.",
+     "price": 70,
+     "img": "c18a5d94-fff9-469a-b029-083f5d8052ef.jpeg"
+    },
+    {
+     "name": "Frijoles",
+     "desc": "Legumbres cocidas lentamente en caldo sazonado, servidas como acompañamiento extra.",
+     "price": 80,
+     "img": "36ebdce2-e542-48b2-af76-2d5c1254ef44.jpeg"
+    },
+    {
+     "name": "Jamón",
+     "desc": "Lonchas de carne de cerdo curada y sazonada, ideal para bocadillos o como ingrediente principal.",
+     "price": 50,
+     "img": "2a523bae-2f1d-4900-8a90-33b8e6081027.jpeg"
+    },
+    {
+     "name": "Totopos",
+     "desc": "Chips de tortilla elaborados con maíz blanco molido en piedra, aceite vegetal y sal.",
+     "price": 45,
+     "img": "41c21421-4797-45ef-9111-931b68299660.jpeg"
+    },
+    {
+     "name": "Huevo extra",
+     "desc": "Una unidad de huevo fresco para añadir como ingrediente adicional a tu plato.",
+     "price": 30,
+     "img": "4cc18245-ca86-40b4-b083-2e9a9f4cc75e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Conchita",
+     "desc": "Rellena de cajeta o nutella.",
+     "price": 60,
+     "img": "8da1782f-e9ed-4b56-9b67-0840643d6f77.png"
+    },
+    {
+     "name": "Bolillo con cajeta",
+     "desc": "Bolillo con cajeta",
+     "price": 80,
+     "img": "4f319bb2-9009-4a96-883b-c8f07f9b9e5c.png"
+    },
+    {
+     "name": "Muffin de zanahoria",
+     "desc": "Muffin de zanahoria con betún de queso crema.",
+     "price": 80,
+     "img": "a85afdd6-4b5f-48a9-ad0e-ad9b73d115da.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Remedios de \"me lo dijo adela\"",
+     "desc": "Bebida caliente a base de té chai especiado y un shot de espresso.",
+     "price": 95,
+     "img": "8b79ef15-1355-4b00-9ae5-5592db5a5d07.jpeg"
+    },
+    {
+     "name": "Te chai",
+     "desc": "Té chai, una mezcla de especias y té negro ideal para cualquier momento del día.",
+     "price": 90,
+     "img": "2cb2665c-4f32-4381-993a-355d9c56d525.jpeg"
+    },
+    {
+     "name": "Agua del día",
+     "desc": "Agua fresca del día, sabor variable.",
+     "price": 65,
+     "img": "5b57650e-0bd1-4acd-9803-df1eb3f48ddb.png"
+    },
+    {
+     "name": "Chaparrita",
+     "desc": "Bebida gaseosa industrial con variedad de sabores frutales.",
+     "price": 50,
+     "img": "a848d49b-f091-4bc0-a2a9-e65f8a2ca18a.jpeg"
+    },
+    {
+     "name": "Curandero",
+     "desc": "Bebida de pepino, jengibre y agua de coco",
+     "price": 80,
+     "img": "895e96cb-067c-4716-b7a7-398da5821c53.png"
+    },
+    {
+     "name": "Chata",
+     "desc": "Agua de horchata con espresso.",
+     "price": 90,
+     "img": "b2f838e2-0c75-4e6e-bd89-af7d92d73913.png"
+    },
+    {
+     "name": "Rusa",
+     "desc": "Agua mineral con limon, sal y miguelito.",
+     "price": 60,
+     "img": "48a64c47-cdc6-48e1-8a83-cdafabee294c.jpeg"
+    },
+    {
+     "name": "Clamato preparado",
+     "desc": "Clamato preparado.",
+     "price": 85,
+     "img": "822f97a3-beeb-43dc-87ab-45890443322c.jpeg"
+    },
+    {
+     "name": "Choco de choco",
+     "desc": "Helado de crema con base de cacao y trozos de chocolate oscuro.",
+     "price": 70,
+     "img": "de984e26-fe4c-4c81-b4c8-03aa96241e95.jpeg"
+    },
+    {
+     "name": "Choco de vainilla",
+     "desc": "Bebida caliente de chocolate con leche y extracto natural de vainilla.",
+     "price": 70,
+     "img": "c9cfbeba-d936-465b-ac04-cbc1c7ed57d7.jpeg"
+    },
+    {
+     "name": "Boing",
+     "desc": "Néctar de mango Boing, 355 ml.",
+     "price": 60,
+     "img": "3fe5f981-5126-4958-a7e2-c755387eb0bd.jpg"
+    },
+    {
+     "name": "Café de olla",
+     "desc": "Café de olla tradicional preparado con especias aromáticas.",
+     "price": 70,
+     "img": "bd15a40a-4293-4882-a96c-1e5d8b111346.png"
+    },
+    {
+     "name": "Café americano",
+     "desc": "Preparado a base de un shot de espresso y agua caliente.",
+     "price": 75,
+     "img": "1ca4b27b-48d5-4fe9-b627-2eefcf637bf2.jpeg"
+    },
+    {
+     "name": "Café con leche",
+     "desc": "Café con leche espumosa, servido caliente.",
+     "price": 85,
+     "img": "5f257adf-b398-4871-832f-f80a1567659c.png"
+    }
+   ]
+  }
+ ]
+}

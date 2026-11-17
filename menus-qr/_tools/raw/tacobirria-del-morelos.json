@@ -1,0 +1,301 @@
+{
+ "id": 1930209729,
+ "brandName": "Tacobirria Del Morelos",
+ "name": "Tacobirria Del Morelos - Fraccionamiento Morelos I",
+ "address": "Calle 1813 229, Morelos I, Aguascalientes, Ags., México",
+ "schedule": "09:00:00 - 14:15:00",
+ "categories": "Barbacoa y Birria · Mexicana · Desayunos y Brunch",
+ "location": [
+  -102.2670565,
+  21.8576079
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/11-1724454403197.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/2-1724454405088.jpg",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "14:15:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930209729-tacobirria-del-morelos",
+ "menu": [
+  {
+   "name": "Combos by Coca Cola",
+   "products": [
+    {
+     "name": "Combo 2",
+     "desc": "2 quesabirrias de harina 1 indio un consome y una coca",
+     "price": 215.05,
+     "img": "2e81441ee4a0402088ac4ced8d15077f.png"
+    },
+    {
+     "name": "Combo 3",
+     "desc": "1 torta de birria 1 volcan 2 tacos sencillos 2 consomes 1 refresco 1 cafe de olla",
+     "price": 221.85,
+     "img": "4f368543-6b79-4d15-ad56-83624cdec90f.jpeg"
+    },
+    {
+     "name": "Combo 2 o 3 personas",
+     "desc": "8 tacos de birria mas 2 consomes 1 refresco 400ml",
+     "price": 302,
+     "img": "1b862f4a-fb32-4aef-b1d3-989c6ee0369b.png"
+    },
+    {
+     "name": "Combo 1",
+     "desc": "2 tacos sencillos 1 taco de birria con queso, consome y una coca",
+     "price": 113.05,
+     "img": "4f368543-6b79-4d15-ad56-83624cdec90f_a35.png"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles Y Birriamen",
+   "products": [
+    {
+     "name": "Chilaquilea Con Huevo",
+     "desc": "Chilaquilea Con Huevo. Chilaquiles con una porción de huevo frito y cebollín picado.",
+     "price": 128,
+     "img": "9976ea0c-7f1e-432e-bb36-262d11e05245.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Birriamen",
+   "products": [
+    {
+     "name": "Birriamen con Huevo",
+     "desc": "Ramen preparado con consomé, verdura de temporada y una porción de carne y huevo cocido.",
+     "price": 223,
+     "img": "3ee174d3-e673-4806-be61-b68e08e160aa_a.png"
+    },
+    {
+     "name": "Birriamen",
+     "desc": "Ramen preparado con verdura de temporada, caldo de birria y una porción de carne.",
+     "price": 215,
+     "img": "41b96374-0e14-4e1a-88fe-0cd334e4b3de.png"
+    }
+   ]
+  },
+  {
+   "name": "Kilos de Sabor",
+   "products": [
+    {
+     "name": "1Kg de Birria",
+     "desc": "Birria con salsa roja, cebolla y cilantro, 1 kg.",
+     "price": 921,
+     "img": "a6caa335-eca2-447d-8b1d-e8bd46d33cfd_a.png"
+    },
+    {
+     "name": "1/2 de Birria",
+     "desc": "Birria con salsa roja, cebolla y cilantro, 1/2 kg.",
+     "price": 538,
+     "img": "2deb2aee-bfc1-41ea-b9c2-a903497336c3_a.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta de birria sencilla",
+     "desc": "Torta de birria con cebolla morada, bañada en consomé rojo.",
+     "price": 91.8,
+     "img": "706e7764-10b1-4604-b7be-6ee60957b4d5_a24.png"
+    },
+    {
+     "name": "Torta De Birria Con Queso",
+     "desc": "Torta mexicana rellena de birria y queso derretido.",
+     "price": 123,
+     "img": "96bf93da-6dc5-4b7d-ada8-b15ec7b324dc.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Torta de Chilaquiles Rojos",
+     "desc": "Torta acompañada de chilaquiles rojos, cebolla, queso, crema, cilantro, frijoles, huevo y café de olla, 8 oz.",
+     "price": 93,
+     "img": "21c13f25-b447-46d2-a7d5-34769a6fddcc_a.png"
+    },
+    {
+     "name": "Chilaquiles Verdes, Sencillos.",
+     "desc": "Chilaquiles sencillos con totopos bañados en salsa verde, crema, queso, cebolla, frijoles, bolillo y café de olla, 8 oz.",
+     "price": 140,
+     "img": "920e1e8b-b902-4c9f-b225-2c872f72da4d_a.png"
+    },
+    {
+     "name": "Chilaquiles Verdes con Huevo.",
+     "desc": "Chilaquiles con totopos bañados en salsa verde, 2 huevos, crema, queso, cebolla, frijoles, bolillo y café de olla, 8 pz.",
+     "price": 128,
+     "img": "410be880-01fa-46df-be35-4c55865bfa55_a.png"
+    },
+    {
+     "name": "Chilaquiles Rojos, con Huevo.",
+     "desc": "Chilaquiles con totopos bañados en salsa roja, 2 huevos, crema, queso, cebolla, frijoles, bolillo y café de olla, 8 oz.",
+     "price": 128,
+     "img": "1acae88b-6a61-43e5-8bc5-c9065b331bfc.png"
+    },
+    {
+     "name": "Torta de Chilaquiles Verdes",
+     "desc": "Torta acompañada de chilaquiles verdes, cebolla, queso, crema, cilantro, frijoles, huevo y café de olla, 8 oz.",
+     "price": 93,
+     "img": "cc900c48-6d7f-4a29-a376-95853b37daee.png"
+    },
+    {
+     "name": "Chilaquiles Rojos, Sencillos",
+     "desc": "Chilaquiles sencillos con totopos bañados en salsa rojos, crema, queso, cebolla, frijoles, bolillo y café de olla, 8 oz.",
+     "price": 110,
+     "img": "6f6495e0-02d5-4114-8ce7-20174ac066d7_a.png"
+    },
+    {
+     "name": "Birriaquiles",
+     "desc": "Totopos bañados en salsa de birria y una porción de birria, 2 huevos, aguacate, chile serrano, crema queso, cebolla, frijoles, bolillo y café de olla, 8 oz.",
+     "price": 216,
+     "img": "8f9a4d8b-f102-48a2-9ff7-28c391479611_a.png"
+    },
+    {
+     "name": "Chilaquiles Divorciados",
+     "desc": "Chilaquiles con totopos bañados en salsa verde y roja, 2 huevos, crema, queso, cebolla, frijoles, bolillo y café de olla, 8 oz.",
+     "price": 128,
+     "img": "0f53a8f9-eab2-4f27-88d3-0f1e0826ab12.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacobirria",
+   "products": [
+    {
+     "name": "Taco de Machito",
+     "desc": "Taco de Machito en tortilla de maíz roja, con cebolla y cilantro. 1 pieza.",
+     "price": 38,
+     "img": "2d5d09be-e64f-407d-955b-50ea075c68ef.jpeg"
+    },
+    {
+     "name": "Taco Blando con Birria",
+     "desc": "Taco blando con tortilla de maíz y birria, 1 pza.",
+     "price": 30.6,
+     "img": "2d5d09be-e64f-407d-955b-50ea075c68ef.jpeg"
+    },
+    {
+     "name": "Taco Dorado con Queso",
+     "desc": "Taco dorado con tortilla de maíz y queso, acompañado de carne y salsa roja. 1 pza.",
+     "price": 36.55,
+     "img": "2d5d09be-e64f-407d-955b-50ea075c68ef.jpeg"
+    },
+    {
+     "name": "Taco Blando con Queso",
+     "desc": "Taco blando con tortilla de maíz y queso, 1 pza.",
+     "price": 36.55,
+     "img": "2d5d09be-e64f-407d-955b-50ea075c68ef.jpeg"
+    },
+    {
+     "name": "Taco Dorado con Birria",
+     "desc": "Taco dorado con birria en tortilla de maíz, con cebolla y cilantro.",
+     "price": 30.6,
+     "img": "2d5d09be-e64f-407d-955b-50ea075c68ef.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesabirrias de Harina",
+   "products": [
+    {
+     "name": "Quesabirria",
+     "desc": "Quesadilla con tortilla de maíz y birria.",
+     "price": 65.45,
+     "img": "89afaa2e-74bf-4949-9ddc-bcc039c4931f.png"
+    },
+    {
+     "name": "Quesabirria doble",
+     "desc": "Quesabirria doble con dos tortillas de harina, mucho queso y carne, cebolla, cilantro y salsa.",
+     "price": 110,
+     "img": "c46d8e09-76b3-4aff-b100-8bb9d5cdcb06.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortabirria",
+   "products": [
+    {
+     "name": "Tortabirria con Queso",
+     "desc": "Tortabirria con Queso, porción personal.",
+     "price": 123,
+     "img": "a99d4765-5126-4615-846d-5998e7408c4b.jpeg"
+    },
+    {
+     "name": "Tortabirria con Chilaquiles",
+     "desc": "Torta de birria con chilaquiles, frijoles, crema, queso y cebolla. Porción personal.",
+     "price": 138,
+     "img": "dbddeaf9-2797-4a07-9a38-476fa63975f1_a57.png"
+    },
+    {
+     "name": "Tortabirria",
+     "desc": "Tortabirria. Torta con birria, salsa y hojas verdes en pan bolillo, porción personal.",
+     "price": 108,
+     "img": "a99d4765-5126-4615-846d-5998e7408c4b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Consomé",
+   "products": [
+    {
+     "name": "Litro de Consomé",
+     "desc": "Consomé de la casa, 1 l.",
+     "price": 75,
+     "img": "57eb8f15-31e8-4192-a183-01a6f64466cf.png"
+    },
+    {
+     "name": "Vaso de Consomé",
+     "desc": "Vaso de consomé con cebolla y cilantro. Porción personal.",
+     "price": 15,
+     "img": "57eb8f15-31e8-4192-a183-01a6f64466cf.png"
+    },
+    {
+     "name": "Medio de Consomé",
+     "desc": "Consomé medio con cebolla y cilantro.",
+     "price": 31,
+     "img": "57eb8f15-31e8-4192-a183-01a6f64466cf.png"
+    }
+   ]
+  },
+  {
+   "name": "Café de Olla",
+   "products": [
+    {
+     "name": "Café de Olla Medio Litro",
+     "desc": "Café de olla de la casa, 500 ml.",
+     "price": 28,
+     "img": "1c835c83-ef85-4cb3-827d-7dd8ca11cef2.png"
+    },
+    {
+     "name": "Café de Olla 8 Oz",
+     "desc": "Café de olla, 8 oz.",
+     "price": 15,
+     "img": "1fd8f88e-2cd4-4a71-b16e-0b4ee57b2c5d.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Agua del dia 1 litro",
+     "desc": "Un litro de agua natural casera",
+     "price": 69,
+     "img": "3dc3448e-5c31-4900-8ea1-c6f06f4bc1d0.png"
+    },
+    {
+     "name": "Coca-Cola Original 400 ml",
+     "desc": "Coca-Cola Original de 400 ml con sello de exceso de azúcares.",
+     "price": 47,
+     "img": "bd7f12e9-ca6f-456d-8c9c-05d8970e9906.jpeg"
+    }
+   ]
+  }
+ ]
+}
