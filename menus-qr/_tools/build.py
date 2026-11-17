@@ -320,6 +320,7 @@ def mensaje(r, url, cats):
             if it.get("img") and it["price"] and len(top) < 3 and cat_rank(c["name"]) in (1, 4):
                 top.append(it["name"])
     platillos = ", ".join(top[:-1]) + " y " + top[-1] if len(top) > 1 else (top[0] if top else "sus platillos")
+    platillos = r.get("estrella") or platillos
     return (f"Hola, buen día. ¿Hablo con {r['nombre']}?\n\n"
             f"Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, "
             f"una muestra de su menú con QR, ya con su carta ({platillos}, entre otros):\n"

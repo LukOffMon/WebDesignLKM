@@ -26,7 +26,7 @@ Teléfono: 33 3121 4476. Alta: dos directorios distintos lo dan para Av. Guadalu
 ```
 Hola, buen día. ¿Hablo con Mariscos Save?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Ceviche Especial de Robalo, Cóctel save especial y Mariscada Save, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (zarandeados, cóctel Save y ceviche de robalo, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-save/
 
 Su carta es enorme (más de 150 platillos entre tostadas, zarandeados, cortes y filetes), así que el buscador y las categorías ayudan mucho a que la mesa pida rápido.
@@ -48,7 +48,7 @@ Teléfono: 999 921 1452. Alta: el mismo número aparece en Tripadvisor, CoverMan
 ```
 Hola, buen día. ¿Hablo con Matilda Salón Mexicano?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Quesadilla de Chicharrón Prensado, Sope de Papa con Chorizo y Quesadilla de Papa con Chorizo, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (cochinita pibil, chamorro pibil y rib eye flameado con mezcal, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/matilda/
 
 Tienen mucho turista en el Centro y una carta que va del desayuno al rib eye flameado con mezcal; un menú web carga al instante y se puede traducir.
@@ -70,7 +70,7 @@ Teléfono: 81 2914 0587. Media: lo publica AAA para Vasconcelos 150; otras sucur
 ```
 Hola, buen día. ¿Hablo con Hanaichi?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Edamames Preparados, Tako Sunomono y Edamames, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Aburi Roll, sashimi de toro y teppanyaki, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/hanaichi/
 
 Con 15 nigiris, 18 rollos de autor y sashimis de toro, las fotos venden solas; en un PDF se pierden.
@@ -92,7 +92,7 @@ Teléfono: 477 714 0059 (otro: 477 763 4400). Alta para 477 714 0059 (Wanderlog,
 ```
 Hola, buen día. ¿Hablo con El Acuario Mariscos?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Agua Chile de Camarón, Tostada de Ceviche y Tostada de Camarón, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (aguachile de camarón, cazuela de mariscos y mojarras, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-acuario/
 
 Abren de 13:30 a 19:00, así que cada pedido para llevar cuenta: el menú arma la orden y la manda lista por WhatsApp.
@@ -114,7 +114,7 @@ Teléfono: 222 246 7330 (otro: 221 660 0945). Media: 222 246 7330 en Tripadvisor
 ```
 Hola, buen día. ¿Hablo con Antigua Fonda de la China Poblana?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Pellizcaditas, Chalupitas Poblanas y Mole Poblano, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (mole poblano, chalupitas y cemitas, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/china-poblana/
 
 Más de 100 platillos (moles, chalupas, cemitas) y mucho turista: un menú digital con fotos ayuda a decidir sin tener que explicar cada platillo.
@@ -136,7 +136,7 @@ Teléfono: 442 179 2679. Media: Tripadvisor y un directorio lo dan para Madero 2
 ```
 Hola, buen día. ¿Hablo con Mi Alma Restaurante?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Molletes, Tostadas de Pollo y Quesadillas de Queso, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (flautas, enchiladas y molletes, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-alma/
 
 Su carta de desayunos es de las que más se piden con prisa; con el QR en la mesa la gente ordena sin esperar la carta.
@@ -158,7 +158,7 @@ Teléfono: 951 501 0016. Alta: Tripadvisor, OpenTable y el hotel publican el mis
 ```
 Hola, buen día. ¿Hablo con Cocina Azul?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Consomé de pollo, Ensalada azul y Arroz Negro, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (omelette en mole coloradito, arroz negro y ensalada azul, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-azul/
 
 Al estar dentro del hotel, el mismo QR sirve en mesas y en habitaciones: el huésped ve la carta desde su celular.
@@ -180,7 +180,7 @@ Teléfono: 444 281 7486. Media: Gastroranking y Visita San Luis Potosí lo dan, 
 ```
 Hola, buen día. ¿Hablo con Los Agustines?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Dedos de Queso (4 Pzas), Orden de Cueritos y Pico de Gallo, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (enchiladas potosinas, cecina y parrillada huasteca, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-agustines/
 
 Las enchiladas potosinas son lo que todos buscan; en el menú quedan arriba, con foto y precio claro.
@@ -202,7 +202,7 @@ Teléfono: 664 688 1808 (otro: 664 638 1155). Alta: 664 688 1808 en varios direc
 ```
 Hola, buen día. ¿Hablo con Restaurant Las Playas?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Tostada Especial Cachoreada, Tostada Especial las Playas y Tostada de Aguachile Verde, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (tostadas de ceviche, tacos de camarón y cócteles, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-playas/
 
 Abren desde las 6:30 y atienden a mucha gente que cruza de San Diego; un menú web se abre en cualquier celular, sin app.
@@ -224,7 +224,7 @@ Teléfono: 443 317 8822. Alta: Tripadvisor, su Facebook (reservaciones) y Moreco
 ```
 Hola, buen día. ¿Hablo con La Casona de las Rosas?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Uchepos Dulces, Enchiladas Placeras y Corundas, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (enchiladas placeras, uchepos y corundas, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/casona-de-las-rosas/
 
 Enchiladas morelianas, sopa tarasca y una carta de 80 platillos: con categorías y fotos el turista decide rápido.
@@ -246,7 +246,7 @@ Teléfono: 55 1906 8115 (otro: 55 1906 8115). Alta: 55 5574 6625 en Yelp y direc
 ```
 Hola, buen día. ¿Hablo con La Chicha?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Mix de Dips de la Casa, Tostaditas de Tinga de Zanahoria (4) y Fish And Chips, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (tacos de cochinita, paninis y su coctelería, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-chicha/
 
 En la Roma la mitad de las mesas son extranjeros; un menú web con fotos y versión en inglés les ahorra pedir que les traduzcan la carta.
@@ -268,7 +268,7 @@ Teléfono: 229 125 6566 (otro: 229 283 8701). Alta: 229 125 6566 en Yelp, Restau
 ```
 Hola, buen día. ¿Hablo con Restaurante El Maná?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Gordita sencilla, Panucho veracruzano y Orden de 2 empanadas, entre otros):
+Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (arroz a la tumbada, picadas y panuchos, entre otros):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mana/
 
 Arroz a la tumbada, desayunos y mariscos todo el día: con el QR en la mesa, el comensal ve fotos y precios sin esperar la carta.
