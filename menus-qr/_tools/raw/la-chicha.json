@@ -1,0 +1,361 @@
+{
+ "id": 1923223914,
+ "brandName": "La Chicha",
+ "name": "La Chicha - Roma Norte",
+ "address": "Orizaba 171, Roma Nte., Cuauhtémoc, 06700 Ciudad De México, Cdmx",
+ "schedule": "11:00:00 - 22:00:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -99.158957,
+  19.414523
+ ],
+ "city": "Cuauhtémoc",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/la-chicha-logo1-1587670638539.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/la-chicha-home1-1587670639900_hq.jpeg",
+ "schedules": [
+  {
+   "open_time": "11:00:00",
+   "close_time": "22:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923223914-la-chicha",
+ "menu": [
+  {
+   "name": "Platos Fuertes",
+   "products": [
+    {
+     "name": "Hamburguesa de Frijol Negro con Hongos",
+     "desc": "Hamburguesa de frijol negro con hongos, germen de betabel, crema de nuez de la india y pepinillo.",
+     "price": 150,
+     "img": "124c2c4b-0bfb-4364-9fea-dffff5563fb9.jpeg"
+    },
+    {
+     "name": "Hamburguesa de Res, Tocino y Piña",
+     "desc": "Hamburguesa de res, tocino y piña con queso, pepinillos y cebolla adobada, acompañado de papas fritas.",
+     "price": 195,
+     "img": "9267faf5-1af6-448e-838e-29d8f7d2a0f3.jpeg"
+    },
+    {
+     "name": "Carnitas de Setas Estilo Tampiqueña",
+     "desc": "Con arroz, frijoles, guacamole y ensalada de nopales.",
+     "price": 190,
+     "img": ""
+    },
+    {
+     "name": "Arrachera de Res Estilo Tampiqueña",
+     "desc": "Con frijoles, guacamole, enchiladas de mole, cebolla asada y chiles toreados.",
+     "price": 230,
+     "img": "06e67ae3-2746-4d81-a603-3469673d7f30.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Entre Panes",
+   "products": [
+    {
+     "name": "Panini con Jamón Serrano Español",
+     "desc": "Jamón serrano de 18 meses, mermelada de higo, láminas de manzana, arúgula y queso de cabra.",
+     "price": 180,
+     "img": "2d381bf0-dda3-494d-b839-d19e73046ae4.jpeg"
+    },
+    {
+     "name": "Panini de Cochinita Pibil",
+     "desc": "Frijoles refritos, cebollitas xnipec y un toque de mayonesa de habanero.",
+     "price": 140,
+     "img": "a88b1b4e-1ff9-462f-ae72-180801f1f85a.jpeg"
+    },
+    {
+     "name": "Baguette con Arrachera",
+     "desc": "Arrachera marinada gratinada con queso, mermelada de cebolla y chiles toreados.",
+     "price": 175,
+     "img": "8a856911-bada-4fda-a9b0-594e57c40b2b.png"
+    }
+   ]
+  },
+  {
+   "name": "de la Cava",
+   "products": [
+    {
+     "name": "Vino Tinto Proyecto 125",
+     "desc": "Varietales de temporada / valle de guadalupe, méxico / bodega aborigen.",
+     "price": 410,
+     "img": ""
+    },
+    {
+     "name": "Acrata Tinto",
+     "desc": "Base tempranillo / 11 meses en barrica / antonio de la minas, baja california / bodega aborigen.",
+     "price": 855,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Coctelería",
+   "products": [
+    {
+     "name": "Mucha Muchacha",
+     "desc": "Vino tinto + vermut rojo + jugo de arándano + frutos rojos.",
+     "price": 125,
+     "img": ""
+    },
+    {
+     "name": "Chicha Tónica",
+     "desc": "Con ginebra tanqueray + agua tónica + romero + pepino + limón amarillo+ toronja.",
+     "price": 140,
+     "img": ""
+    },
+    {
+     "name": "Margarita Clásica",
+     "desc": "Shakeado con tequila tradicional o mezcal de la casa + controy + limón + sal de citricos.",
+     "price": 110,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada de Pera y Manzana",
+     "desc": "Mix de lechugas y arúgula, con nuez, queso de cabra y aderezo de jamaica.",
+     "price": 130,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58.png"
+    },
+    {
+     "name": "Ensalada de la Casa",
+     "desc": "Mezcla de lechugas, con queso feta, cebolla morada, jitomate cherry, aguacate, nuez marañón, huevo cocido y vinagreta de miel y ajonjolí.",
+     "price": 120,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58.png"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Mix de Dips de la Casa",
+     "desc": "300 G de hummus (garbanzo y tahini), sikil pak (de origen yucateco, hecho a base de pepita de calabaza) y babaganoush (berenjena tatemada).",
+     "price": 125,
+     "img": "b4cfc27d-d364-4d0b-95d8-742c03aafbfa.jpeg"
+    },
+    {
+     "name": "Tostaditas de Tinga de Zanahoria (4)",
+     "desc": "Con lechuga, crema de rancho, queso cotija y aguacate. pregunte por la opción vegana.",
+     "price": 95,
+     "img": "2be0210f-a1cc-4f57-a8fa-fd24a20e27f7.jpeg"
+    },
+    {
+     "name": "Fish And Chips",
+     "desc": "150 Gr, de pescado de baja california en témpura, con de papas fritas y salsa tartara.",
+     "price": 180,
+     "img": "33ab94a4-6d10-4767-9fb1-bbf283ddb525.jpeg"
+    },
+    {
+     "name": "Guacamole",
+     "desc": "Preparado al modo tradicional acompañado de totopos y pan pita horneado, terminado con fruta de temporada y queso cotija.",
+     "price": 105,
+     "img": "2290fd3f-219b-4e68-8715-947151ae03a9.jpeg"
+    },
+    {
+     "name": "Patatas Bravas",
+     "desc": "Con nuestra versión de salsa brava española y polvo de chiles. 400 gr.",
+     "price": 96,
+     "img": "fddb4b65-79d5-4fc0-9c70-ca8c3414e798.jpeg"
+    },
+    {
+     "name": "Aceitunas Marinadas",
+     "desc": "Mezcla de gordal, manzanilla y kalamata, marinadas con semilla de cilantro, chile árbol, limón amarillo y salsas de la casa.",
+     "price": 95,
+     "img": ""
+    },
+    {
+     "name": "Doraditas de Flores de Jamaica (3)",
+     "desc": "Tortillas azules rellenas y partidas a la mitad con crema y queso, servidas sobre guacamole y salsa de chile rallado.",
+     "price": 98,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Sopas",
+   "products": [
+    {
+     "name": "Sopa Tarasca",
+     "desc": "La sopa tradicional michoacana a base de frijol, servida con totopos, queso panela, aguacate y crema. pregunte por la opción vegana.",
+     "price": 115,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Trio de Hot Cakes con Compota de Frutos",
+     "desc": "3 Pzas de hot cakes acompañados de miel de agave con vainilla y mantequilla.",
+     "price": 130,
+     "img": "5063c1a7-a8f0-444d-aa60-74c6c95169dd.jpeg"
+    },
+    {
+     "name": "Tostada de Aguacate con Aceite de Pepita",
+     "desc": "2 Huevos pochados sobre tosta de pan artesanal y aceite de pepita de calabaza.",
+     "price": 120,
+     "img": "a6977077-644c-4fbc-99ae-67bf3ad214e6.jpeg"
+    },
+    {
+     "name": "Chilaquiles de Frijol con Cochinita Pibi",
+     "desc": "Tortillas de maíz azul criollo, crema, queso cotija, aguacate y cebolla servidos en una cama de frijoles refritos con salsa xnipec.",
+     "price": 130,
+     "img": "65228f41-2567-40c6-ab7a-cba76c7e19bb.jpeg"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "200 grs de totopo de maíz bañados en salsa verde, servidos con una base de frijoles refritos .",
+     "price": 120,
+     "img": "deab4ff7-1dcf-4730-856a-4561445a8411.jpeg"
+    },
+    {
+     "name": "Molletes Tradicionales",
+     "desc": "2 pzas de pan baguettin servidos con frijoles refritos, gratinados con mezcla de quesos y terminados con pico de gallo .",
+     "price": 95,
+     "img": "48bb54d5-10b7-4cab-8f10-5f5f2629d9f4.jpeg"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "4 pzas de tortilla de maiz pochadas y rellenas de platano macho, pollo, tasajo o huevo y bañadas con salsa de frijol .",
+     "price": 130,
+     "img": "78a9665b-0b19-4453-baff-2cb3857ba7ad.jpeg"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "4 pzas de tortilla de maiz pochadas y rellenas de platano macho, pollo, tasajo o huevo y bañadas con mole de milpa alta .",
+     "price": 140,
+     "img": "af627398-74d1-452f-b0f9-c0098f657395.jpeg"
+    },
+    {
+     "name": "Enchiladas Suizas",
+     "desc": "4 pzas de tortilla pochadas y rellenas de platano macho, pollo, tasajo o huevo y  bañadas en salsa verde cremosa gratinadas.",
+     "price": 140,
+     "img": "5f5db122-08f1-4878-9e8b-1918c0a7d909.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Carnitas de Setas (3)",
+     "desc": "Estilo michoacán, servida con pico de gallo.",
+     "price": 120,
+     "img": "d5260f57-255e-4644-acf6-7ea07d7d8d1d.jpeg"
+    },
+    {
+     "name": "Camarón (3)",
+     "desc": "Tortilla de harina, mayonesa de chile habanero, col agria y pepino con cilantro.",
+     "price": 175,
+     "img": "0b031a54-8eb7-4d14-bf35-a3d47b264c63.jpeg"
+    },
+    {
+     "name": "Arrachera con Costra de Queso",
+     "desc": "Servido con pico de gallo y guacamole. 150 gr.",
+     "price": 165,
+     "img": "020443d2-b6a8-4df3-ab1d-1a5025d5be6f.jpeg"
+    },
+    {
+     "name": "Cochinita Pibil (3)",
+     "desc": "Con frijoles refritos y salsa xnipec.",
+     "price": 130,
+     "img": "21291c7d-6f9f-46ff-a49f-5e1db5660221.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Calientes",
+   "products": [
+    {
+     "name": "Chai Artesanal",
+     "desc": "Utilizamos hierbas y 7 especias 100% naturales para su elaboración, se prepara con leche de coco y se endulza ligeramente.",
+     "price": 55,
+     "img": "af98f853-70c5-4099-a479-2e44212078ce.jpeg"
+    },
+    {
+     "name": "Tascalate",
+     "desc": "Bebida a base de maíz, cacao, achiote y canela.",
+     "price": 50,
+     "img": ""
+    },
+    {
+     "name": "Chocolate Chiapaneco",
+     "desc": "Chocolate con leche o agua",
+     "price": 50,
+     "img": "cfb1eb9a-f831-4650-9005-33a0d6fec931.jpeg"
+    },
+    {
+     "name": "Espresso",
+     "desc": "Café espresso",
+     "price": 30,
+     "img": "4c4d6c53-b74b-4e49-b966-f6d4248f4b0a.png"
+    },
+    {
+     "name": "Capuchino",
+     "desc": "Café capuchino",
+     "price": 55,
+     "img": "19601105-b9bb-4b7c-b1c2-9818bf616f9e.jpeg"
+    },
+    {
+     "name": "Moka",
+     "desc": "Chocolate chiapaneco con 2 onzas de espresso.",
+     "price": 60,
+     "img": "5800330b-7906-41ff-a11f-f7f6e4df07e3.jpeg"
+    },
+    {
+     "name": "Espresso Americano",
+     "desc": "Café.",
+     "price": 37,
+     "img": "d2f159e7-7279-4e53-8772-57503a96c984.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Kombucha 355 ml",
+     "desc": "Bebida orgánica, probiótica, elaborada a base de té.",
+     "price": 70,
+     "img": "7d391d86-8928-4ecb-937e-66bbb5943181.jpeg"
+    },
+    {
+     "name": "Sodas Artesanales",
+     "desc": "Sabores.",
+     "price": 55,
+     "img": "d8c61bba-1a95-4dc1-860a-124859019671.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Cervezas",
+   "products": [
+    {
+     "name": "Tuna Lager Monstruo de Agua",
+     "desc": "Cerveza lager suave y ligera con notas de jugo de tuna .",
+     "price": 135,
+     "img": ""
+    },
+    {
+     "name": "Colima Paramo 355 ml",
+     "desc": "Cerveza",
+     "price": 115,
+     "img": "4b80d40e-aff7-4138-a947-cbf41ff2ef54.png"
+    },
+    {
+     "name": "Lágrimas Negras 355 ml",
+     "desc": "Cerveza",
+     "price": 115,
+     "img": "c883780d-da29-484e-9264-121eafc9a6ff.png"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,658 @@
+{
+ "id": 1930395638,
+ "brandName": "el Tapatio Restaurante Bar",
+ "name": "el Tapatio Restaurante Bar - Guanajuato Centro",
+ "address": "Calle Pedro Lascurain de Retana 20, Zona Centro, Guanajuato, Gto., México",
+ "schedule": "09:00:00 - 18:00:00",
+ "categories": "Mexicana",
+ "location": [
+  -101.253592,
+  21.0169953
+ ],
+ "city": "Guanajuato",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-1772295312976.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1772295314458.jpg",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "18:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930395638-el-tapatio-restaurante-bar",
+ "menu": [
+  {
+   "name": "Botanas",
+   "products": [
+    {
+     "name": "Choriqueso",
+     "desc": "Chorizo dorado mezclado con queso fundido. Ideal para compartir.",
+     "price": 132,
+     "img": "b34749da-8101-43b0-b10c-f7fabadb9f84.jpeg"
+    },
+    {
+     "name": "Queso Fundido Natural",
+     "desc": "Queso derretido servido caliente, ideal para acompañar con tortillas. Decorado con hierbas frescas.",
+     "price": 121,
+     "img": "db9cf8d4-58ee-45e9-ab5d-eb40552a6b9a.jpeg"
+    },
+    {
+     "name": "Papas a la Francesa",
+     "desc": "Papas a la Francesa crujientes, ideales como acompañamiento.",
+     "price": 84,
+     "img": "682bcd0f-69cd-4fbf-8070-dd3186e10fe9.jpeg"
+    },
+    {
+     "name": "Guacamole con Totopos",
+     "desc": "Guacamole fresco con trozos de jitomate y cilantro, acompañado de totopos crujientes.",
+     "price": 99,
+     "img": "6d922b79-ad3b-470f-a203-a0e3276efd17.jpeg"
+    },
+    {
+     "name": "Guacamole con Chicharrón",
+     "desc": "Guacamole fresco servido con trozos de chicharrón crujiente.",
+     "price": 117,
+     "img": "4d849da1-beda-44fa-9b91-30e64660f797.jpeg"
+    },
+    {
+     "name": "Frijoles con Totopos y Queso",
+     "desc": "Frijoles refritos gratinados con queso fundido y servidos con totopos.",
+     "price": 66,
+     "img": "3e817c78-79f0-4dc8-84fd-83e16dd13abd.jpeg"
+    },
+    {
+     "name": "Cecina Seca con Guacamole",
+     "desc": "Cecina dorada acompañada de guacamole fresco y totopos.",
+     "price": 220,
+     "img": "48d4401b-35d3-4fe0-ab84-b233e991b447.jpeg"
+    },
+    {
+     "name": "Champiñones Gratinados",
+     "desc": "Champiñones salteados al ajillo o a la mexicana, cubiertos con queso fundido.",
+     "price": 132,
+     "img": "3883627d-8dfb-4339-9094-f502c2c492c6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Molcajete ranchero (porción 2 personas)",
+     "desc": "Selección de carnes asadas servidas en molcajete tradicional, ideal para dos personas, acompañado de guarniciones y salsas de la casa.",
+     "price": 720,
+     "img": "aed5ddd8-7d91-4a76-b4cb-f3027370abbf.jpeg"
+    },
+    {
+     "name": "Molcajete de mariscos",
+     "desc": "Camarones, pulpo y filete de pescado salteados con pimiento y cebolla, bañados en salsa especial con chile güero y queso asadero fundido.",
+     "price": 402,
+     "img": "e89987bc-c45f-47ea-b783-8fab08cbb7ef.jpeg"
+    },
+    {
+     "name": "Molcajete mar y tierra",
+     "desc": "Combinación de pescado, camarones, arrachera y pollo, gratinados con queso asadero y acompañados de vegetales salteados.",
+     "price": 540,
+     "img": "e039a23b-7ffd-42e6-8b14-b67b415c459d.jpeg"
+    },
+    {
+     "name": "Cecina seca minera",
+     "desc": "Cecina asada servida con enchiladas rojas, frijoles refritos, guacamole fresco y ensalada tradicional.",
+     "price": 341,
+     "img": "ebbd5709-b55d-455e-a76d-f4a7c1bc2d63.png"
+    },
+    {
+     "name": "Cecina seca sencilla",
+     "desc": "Cecina seca acompañada de frijoles refritos, guacamole, cebollitas, rabanitos y chiles asados.",
+     "price": 280,
+     "img": "15facd67-db34-4caa-ab59-86b3b1b5bccc.png"
+    }
+   ]
+  },
+  {
+   "name": " Molcajete de Mariscos",
+   "products": [
+    {
+     "name": "Molcajete de Mariscos",
+     "desc": "Camarones, pulpo y filete de pescado cocinados en salsa especial con pimiento, cebolla, chile güero y queso asadero fundido, servido en molcajete caliente.",
+     "price": 385,
+     "img": "e89987bc-c45f-47ea-b783-8fab08cbb7ef.jpeg"
+    }
+   ]
+  },
+  {
+   "name": " Molcajete mar y Tierra",
+   "products": [
+    {
+     "name": "Molcajete Mar y Tierra",
+     "desc": "Combinación premium de camarones, pescado, arrachera y pollo, gratinados con queso asadero y acompañados de vegetales salteados.",
+     "price": 517,
+     "img": "e039a23b-7ffd-42e6-8b14-b67b415c459d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tostadas",
+   "products": [
+    {
+     "name": "Tostadas de Ceviche",
+     "desc": "Tostadas crujientes con ceviche de camarón, jitomate, cebolla, aguacate y rábanos, marinado en limón.",
+     "price": 83,
+     "img": "4566c7d9-64a3-4bbf-ac45-a95c1a2cbbd3.jpeg"
+    },
+    {
+     "name": "Tostadas de Camarón",
+     "desc": "Tostada crujiente con camarón fresco, guacamole y pico de gallo.",
+     "price": 57,
+     "img": "f434dbbd-7324-4625-a41d-566069f3e6b9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada de Camarón",
+     "desc": "Camarón fresco con aguacate, maíz, cebolla morada, jitomate cherry y aderezo especial.",
+     "price": 176,
+     "img": "b7347807-72cd-4397-bb3b-17f63295a5c1.jpeg"
+    },
+    {
+     "name": "Ensalada de Pollo",
+     "desc": "Ensalada de pollo con lechuga, maíz, chícharos y aderezo cremoso.",
+     "price": 127,
+     "img": "84c144ac-a671-4636-b67f-13b24fcb9d87.jpeg"
+    },
+    {
+     "name": "Ensalada de Atún",
+     "desc": "Ensalada de atún con pasta, vegetales frescos y aderezo suave.",
+     "price": 121,
+     "img": "b5b5d260-446f-4e90-b7a6-86879931d6f8.jpeg"
+    },
+    {
+     "name": "Ensalada Verde",
+     "desc": "Ensalada de lechuga, jitomate, cebolla y pepino. Ideal para una opción ligera.",
+     "price": 79,
+     "img": "f1e9c5bd-f141-44ca-a2ed-5cc32d03c792.jpeg"
+    },
+    {
+     "name": "Ensalada César con Pollo",
+     "desc": "Lechuga romana con pollo a la plancha, queso parmesano, crotones y aderezo César.",
+     "price": 207,
+     "img": "f1d7e82d-1146-480d-a479-4a45a6b0260f.jpeg"
+    },
+    {
+     "name": "Ensalada César sin Tocino",
+     "desc": "Ensalada César sin tocino con lechuga fresca, parmesano, crotones y aderezo especial. Incluye pollo a la parrilla.",
+     "price": 167,
+     "img": "3cd3e55a-681e-4379-aed6-6a4f23247ec0.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Carnes especiales",
+   "products": [
+    {
+     "name": "Puntas de arrachera",
+     "desc": "Jugosas puntas de arrachera acompañadas de frijoles, guacamole, tocino, jamón, jitomate y cebolla asada.",
+     "price": 437,
+     "img": "233fe9c0-c338-4a77-a40d-861be7efd60a.jpeg"
+    },
+    {
+     "name": "Arrachera gratinada (250 g)",
+     "desc": "Arrachera asada cubierta con queso asadero fundido, acompañada de chorizo, frijoles, chiles toreados y guacamole.",
+     "price": 437,
+     "img": "3a83e6ab-304f-4a31-b196-0a76c10196a6.jpeg"
+    },
+    {
+     "name": "Arrachera norteña (250 g)",
+     "desc": "Arrachera al carbón servida con frijoles, totopos, chorizo y chiles toreados.",
+     "price": 414,
+     "img": "3ee25420-d595-49b0-9178-889e04a6cfe6.jpeg"
+    },
+    {
+     "name": "Tampiqueña de arrachera (250 g)",
+     "desc": "Arrachera acompañada de arroz rojo, frijoles, guacamole y enchiladas rojas.",
+     "price": 460,
+     "img": "ef140e68-66a0-4a83-9364-b7e80f21668e.jpeg"
+    },
+    {
+     "name": "Fajitas de arrachera (250 g)",
+     "desc": "Tiras de arrachera salteadas con cebolla y chile poblano, servidas con frijoles y guacamole.",
+     "price": 448,
+     "img": "cde2aa8f-6601-4f56-b751-d6b958ee492a.jpeg"
+    },
+    {
+     "name": "Puntas de filete de res (200 g)",
+     "desc": "Filete de res en trozos acompañado de frijoles, guacamole, tocino, jamón, jitomate y cebolla.",
+     "price": 414,
+     "img": "fc8456b4-c6a2-4133-bde8-96e023de2f14.jpeg"
+    },
+    {
+     "name": "Filete de res a la plancha (200 g)",
+     "desc": "Corte suave de res asado al punto, servido con papas, arroz y ensalada.",
+     "price": 345,
+     "img": "9174ec3e-d119-4caa-b5fd-325a0fa0dd60.jpeg"
+    },
+    {
+     "name": "Milanesa de filete de res (200 g)",
+     "desc": "Carne empanizada crujiente, acompañada de papas a la francesa, arroz y ensalada.",
+     "price": 368,
+     "img": "74e6cb1e-53e7-402d-8450-dc7f6548957d.jpeg"
+    },
+    {
+     "name": "Filete de res ranchero",
+     "desc": "Filete bañado en salsa tradicional con jitomate, chile y cebolla, acompañado de frijoles y guarnición.",
+     "price": 333,
+     "img": "49269ece-02c5-476a-ae00-f3dcf688c906.png"
+    },
+    {
+     "name": "Fajitas de pollo (180 g)",
+     "desc": "Tiras de pollo salteadas con cebolla y chile poblano, acompañadas de frijoles y guacamole.",
+     "price": 287,
+     "img": "8e4f7b53-840c-41eb-bc3c-75e1c946a9dc.jpeg"
+    },
+    {
+     "name": "Tampiqueña de filete de pollo (180 g)",
+     "desc": "Filete de pollo servido con arroz, ensalada, guacamole y enchiladas rojas.",
+     "price": 304,
+     "img": "52a39b59-ada4-407d-8936-729cf4b404d9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pastas",
+   "products": [
+    {
+     "name": "Spaghetti Alfredo",
+     "desc": "Spaghetti en salsa Alfredo cremosa con queso y crema, acompañado de trozos de pollo. Ideal para los amantes de la pasta.",
+     "price": 127,
+     "img": "c5f463f5-cac8-40a9-8a28-1b33d38f5cbf.jpeg"
+    },
+    {
+     "name": "Spaghetti Carbonara",
+     "desc": "Pasta cremosa con tocino dorado, ajo y huevo, preparada al estilo tradicional.",
+     "price": 127,
+     "img": "a2cc7226-4ee0-45ea-959e-06fd79816a4b.jpeg"
+    },
+    {
+     "name": "Spaghetti a la Mexicana",
+     "desc": "Spaghetti salteado con jitomate, cebolla y chile, acompañado de crema y perejil.",
+     "price": 127,
+     "img": "4560f4e2-031d-4e55-9e9f-bfc9a7d23a15.jpeg"
+    },
+    {
+     "name": "Spaghetti al Burro",
+     "desc": "Spaghetti con mantequilla derretida y queso. Ideal para los amantes de la pasta sencilla.",
+     "price": 127,
+     "img": "27b28e4a-0925-42d8-8f71-e10d72d5937a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos especiales",
+   "products": [
+    {
+     "name": "Tacos de arrachera (orden de 4)",
+     "desc": "Tacos de arrachera asada, servidos con guacamole fresco, cebolla y cilantro. Orden de 4.",
+     "price": 333,
+     "img": "8ea5eeaa-8170-4580-8ae8-021c12e5e806.jpeg"
+    },
+    {
+     "name": "Tacos de bistec de res asado (orden de 4)",
+     "desc": "Orden de 4 tacos de bistec de res asado, servidos en tortillas, con cebolla y cilantro.",
+     "price": 177,
+     "img": "fcbedd9f-ef57-4698-b0eb-4a6ff652a4fa.jpeg"
+    },
+    {
+     "name": "Tacos de chorizo (orden de 4)",
+     "desc": "Tacos de chorizo dorado en tortillas calientes, acompañados de cebolla y cilantro. Orden de 4.",
+     "price": 177,
+     "img": "dfd964aa-c37b-4f8b-ba87-3f688989a28c.jpeg"
+    },
+    {
+     "name": "Tacos de guisado",
+     "desc": "Tacos de guisado con papas y chorizo, servidos en tortillas de maíz. Incluyen limones para acompañar.",
+     "price": 169,
+     "img": "f040abac-3565-4d6f-8990-889bc2b2d494.jpeg"
+    },
+    {
+     "name": "Pollo a la mexicana (orden de 4)",
+     "desc": "Cuatro porciones de pollo tierno salteado con jitomate fresco, cebolla y chile serrano, preparado al estilo tradicional mexicano",
+     "price": 169,
+     "img": "ed7a7b7b-cda0-4d48-9122-233aae0740b6.jpeg"
+    },
+    {
+     "name": "Quesadillas de arrachera (4 pzas)",
+     "desc": "Quesadillas doradas rellenas de arrachera y queso fundido. Incluyen 4 piezas.",
+     "price": 356,
+     "img": "a80b16bb-1a61-46c1-9755-173bfa079cac.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos",
+   "products": [
+    {
+     "name": "Torta de choriqueso",
+     "desc": "Torta de chorizo con queso, frijoles, aguacate y crema en pan artesanal.",
+     "price": 66,
+     "img": "48c01d3d-45d5-4c4a-b67a-b50056066727.jpeg"
+    },
+    {
+     "name": "Torta combinada",
+     "desc": "Mezcla de carnes y queso fundido con vegetales frescos en pan.",
+     "price": 103,
+     "img": "b3f2274f-4b5a-4b76-9bca-402f44a1e276.jpeg"
+    },
+    {
+     "name": "Chimichanga (3 piezas)",
+     "desc": "Tortilla rellena frita y crujiente, servida con guarnición y salsa especial.",
+     "price": 109,
+     "img": "090f9a1a-b931-401c-a32c-d1754c4fab90.jpeg"
+    },
+    {
+     "name": "Chiles rellenos de queso (2 piezas)",
+     "desc": "Chile poblano relleno de queso, acompañado de arroz y salsa.",
+     "price": 177,
+     "img": "2290f8a5-fd91-43ec-8c11-9877901577f2.jpeg"
+    },
+    {
+     "name": "Enchiladas suizas de pollo (4 piezas)",
+     "desc": "Rellenas de pollo o queso, bañadas en salsa verde cremosa y gratinadas.",
+     "price": 177,
+     "img": "201524c2-a47d-4a54-8690-5906a937ce40.jpeg"
+    },
+    {
+     "name": "Enchiladas verdes de pollo (4)",
+     "desc": "Enchiladas rellenas de pollo bañadas en salsa verde, cubiertas con queso y crema, acompañadas de frijoles.",
+     "price": 177,
+     "img": "600e1544-0e5f-494d-94b8-d0906db34b6a.jpeg"
+    },
+    {
+     "name": "Enmoladas de pollo con arroz (4 piezas)",
+     "desc": "Tortillas rellenas de pollo bañadas en mole tradicional, acompañadas de arroz. Incluye 4 piezas.",
+     "price": 213,
+     "img": "59daa382-8975-41f3-be68-124c06b661c6.jpeg"
+    },
+    {
+     "name": "Entomatadas de queso (4 piezas)",
+     "desc": "Tortillas rellenas de queso, bañadas en salsa de jitomate natural, decoradas con crema y queso fresco. Incluye 4 piezas.",
+     "price": 177,
+     "img": "8a2fe26d-ef6d-4e63-8aa6-e0ee4634e78e.jpeg"
+    },
+    {
+     "name": "Enfrijoladas de queso y crema (4 piezas)",
+     "desc": "Cuatro tortillas suaves bañadas en una cremosa salsa de frijol casera, rellenas de queso fresco y coronadas con crema y queso espolvoreado",
+     "price": 138,
+     "img": "3fe08c2f-65ce-4760-ba06-d4812f4e3a64.jpeg"
+    },
+    {
+     "name": "Molletes con frijoles y queso gratinado (2 pzas.)",
+     "desc": "Pan dorado con frijoles refritos y queso gratinado, acompañado de pico de gallo.",
+     "price": 72,
+     "img": "61c63759-ce4c-4827-9755-2486957e20be.jpeg"
+    },
+    {
+     "name": "Hamburguesa de arrachera (120 g)",
+     "desc": "Carne de arrachera con queso, tocino y vegetales frescos en pan suave.",
+     "price": 169,
+     "img": "01cab0c9-fbd1-42d1-a848-1ff5a2f4da9f.jpeg"
+    },
+    {
+     "name": "Hamburguesa de arrachera hawaiana",
+     "desc": "Hamburguesa de arrachera con jamón, piña asada, queso fundido y lechuga en pan con ajonjolí.",
+     "price": 186,
+     "img": "34730da8-1587-4b46-93f4-b4525d145b73.jpeg"
+    },
+    {
+     "name": "Hamburguesa de res(120 g)",
+     "desc": "Carne jugosa con queso, lechuga y jitomate, acompañada de papas.",
+     "price": 118,
+     "img": "4905b82d-23f0-4dcb-9931-0131e8647878.jpeg"
+    },
+    {
+     "name": "Hamburguesa hawaiana de res (120 g)",
+     "desc": "Hamburguesa de res de 120 g con jamón, piña asada, queso fundido y lechuga en pan suave.",
+     "price": 138,
+     "img": "e3706d14-5646-4ffc-aed4-d2db561e5581.jpeg"
+    },
+    {
+     "name": "Club sandwich",
+     "desc": "Club sandwich con pan tostado, pollo, jamón, queso, lechuga y tomate, acompañado de papas a la francesa.",
+     "price": 134,
+     "img": "a69680df-65c5-4ae3-b21c-96cea7282b6e.jpeg"
+    },
+    {
+     "name": "Sandwich",
+     "desc": "Sandwich con pan suave, jamón, queso, lechuga y rodajas de tomate fresco.",
+     "price": 55,
+     "img": "c42acd97-453e-46b8-98bb-5cae9249cf13.jpeg"
+    },
+    {
+     "name": "Torta de guisado",
+     "desc": "Torta de guisado con pan relleno de guiso casero del día.",
+     "price": 57,
+     "img": "69771e2e-9e37-4e3c-9848-13fe65062507.jpeg"
+    },
+    {
+     "name": "Burritos de guisado con frijoles (3 piezas)",
+     "desc": "Tres burritos rellenos de guisado tradicional y frijoles negros en tortillas grandes.",
+     "price": 106,
+     "img": "4a985f3e-4585-44fb-9138-384a28815676.jpeg"
+    },
+    {
+     "name": "Quesadillas naturales con guacamole (4 piezas)",
+     "desc": "Quesadillas de queso fundido acompañadas de guacamole fresco.",
+     "price": 142,
+     "img": "d64ee53a-fc65-4247-9b86-c9411b920b25.jpeg"
+    },
+    {
+     "name": "Quesadillas con guisado (4 piezas)",
+     "desc": "Quesadillas rellenas de guiso casero y queso fundido.",
+     "price": 186,
+     "img": "5c7f21cf-bcd8-4787-a821-caf01f4bb492.jpeg"
+    },
+    {
+     "name": "Tacos dorados de pollo (4 pzas.)",
+     "desc": "Tacos crujientes rellenos de pollo deshebrado con ensalada y crema.",
+     "price": 162,
+     "img": "cc9c82f0-76e9-44cf-92ce-c29d0ac5604a.jpeg"
+    },
+    {
+     "name": "Flautas de pollo (4 pzas.)",
+     "desc": "Tortillas enrolladas y fritas rellenas de pollo, servidas con lechuga, queso, crema y salsa.",
+     "price": 162,
+     "img": "f44977f4-f0f2-4e87-a09a-fd3920d8d1d1.jpeg"
+    },
+    {
+     "name": "Sincronizada de jamón y queso amarillo",
+     "desc": "Dos tortillas doradas rellenas de jamón y queso amarillo fundido.",
+     "price": 60,
+     "img": "1337c379-8ef5-40e3-8eea-4189ea537940.jpeg"
+    },
+    {
+     "name": "Torta de milanesa de res",
+     "desc": "Torta de milanesa de res con pan crujiente, frijoles, lechuga, jitomate y milanesa dorada.",
+     "price": 80,
+     "img": "5fe30412-e54a-408f-a03a-a7b083367175.jpeg"
+    },
+    {
+     "name": "Burritos de camarón guisado y chimichurri (4 pzas.)",
+     "desc": "Cuatro burritos rellenos de camarón guisado, vegetales y salsa chimichurri.",
+     "price": 253,
+     "img": "aa225c88-7bba-4024-b2a5-d650e7c4a92d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Típicos de Guanajuato",
+   "products": [
+    {
+     "name": "Enchiladas mineras sencillas de queso y crema",
+     "desc": "Cuatro enchiladas rellenas de queso fresco, bañadas en salsa roja tradicional, acompañadas de papas y zanahorias fritas.",
+     "price": 177,
+     "img": "0ee7ffc1-d7d4-43c1-b48c-84ffb90b0644.jpeg"
+    },
+    {
+     "name": "Enchiladas mineras de pollo guisado a la mexicana",
+     "desc": "Enchiladas rellenas de pollo guisado a la mexicana, cubiertas con salsa roja, queso, crema y aguacate. Acompañadas de jitomate cherry y cilantro.",
+     "price": 243,
+     "img": "73cd1e76-7504-4c15-a84c-39c3d1848ed6.jpeg"
+    },
+    {
+     "name": "Enchiladas mineras de queso",
+     "desc": "Enchiladas mineras rellenas de queso, acompañadas de cecina asada y frijoles refritos. Incluye 1/2 orden de cecina seca.",
+     "price": 289,
+     "img": "e6d0c005-f053-43df-a7fb-7b40587d008f.jpeg"
+    },
+    {
+     "name": "Pozole verde con pollo",
+     "desc": "Caldo tradicional con maíz cacahuazintle y carne de pollo o cerdo, acompañado de lechuga, rábano y tostadas.",
+     "price": 155,
+     "img": "c07143b8-5ecb-4b07-b2db-f0ad7f9a4f1d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Carnes",
+   "products": [
+    {
+     "name": "Bistec encebollado (160 g)",
+     "desc": "Bistec jugoso salteado con abundante cebolla caramelizada, acompañado de frijoles y quesadilla.",
+     "price": 207,
+     "img": "6f649964-1373-4958-b8e7-1acebd84aefa.jpeg"
+    },
+    {
+     "name": "Bistec de res ranchero (160 g)",
+     "desc": "Carne de res cocinada en salsa ranchera, servida con frijoles y totopos.",
+     "price": 184,
+     "img": "c7348fa4-2df4-45f6-b687-a0c59ce85030.jpeg"
+    },
+    {
+     "name": "Bistec de res plancha (160 g)",
+     "desc": "Bistec de res a la plancha de 160 g, acompañado de arroz y ensalada.",
+     "price": 189,
+     "img": "9b1b0dbf-7f70-4fd3-8db4-09d50b90b270.jpeg"
+    },
+    {
+     "name": "Bistec de pollo a la plancha (160 g)",
+     "desc": "Pechuga de pollo asada, servida con papas, arroz y ensalada.",
+     "price": 184,
+     "img": "2a2223e1-33a5-4490-b7e8-62e39280036e.jpeg"
+    },
+    {
+     "name": "Bistec de res a la mexicana (160 g)",
+     "desc": "Jugoso bistec de res (160 g) salteado al momento con jitomate fresco, cebolla y chile serrano, preparado al estilo tradicional mexicano",
+     "price": 189,
+     "img": "6f57edde-9028-4f76-94a8-7ef0b31c4f2f.jpeg"
+    },
+    {
+     "name": "Milanesa de bistec de res (60 g)",
+     "desc": "Milanesa de bistec de res de 60 g, empanizada y crujiente, acompañada de papas, arroz y ensalada fresca.",
+     "price": 207,
+     "img": "ba85168f-4332-47e8-bca9-43a574bb45a1.jpeg"
+    },
+    {
+     "name": "Pollo frito",
+     "desc": "Pollo dorado y crujiente, servido con papas, arroz y ensalada.",
+     "price": 184,
+     "img": "8c05a332-fea9-4189-b579-011561cdff7d.jpeg"
+    },
+    {
+     "name": "Pollo con mole rojo",
+     "desc": "Pieza de pollo bañada en mole rojo tradicional, acompañada de arroz. Ideal para los amantes de los sabores auténticos.",
+     "price": 239,
+     "img": "0242c881-45d4-4d8f-bd91-f6e02dbf132f.png"
+    },
+    {
+     "name": "Guisado de comida corrida del día (100 g)",
+     "desc": "Guisado del día de 100 g, preparado con carne y especias. Incluye laurel y cebolla de verdeo.",
+     "price": 115,
+     "img": "c748120f-3629-4079-a7b4-9fad68a1af55.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Camarones",
+   "products": [
+    {
+     "name": "Camarones Enchilados",
+     "desc": "Camarones salteados en salsa roja picosita de la casa, llenos de sabor y servidos con arroz y ensalada fresca.",
+     "price": 275,
+     "img": "91382011-a794-4341-8fa9-17ac05324d7d.jpeg"
+    },
+    {
+     "name": "Camarones al Ajillo",
+     "desc": "Camarones dorados en mantequilla con ajo tostado, jugosos y aromáticos, acompañados de guarnición.",
+     "price": 275,
+     "img": "ada64b47-adae-4a9b-b7e0-3394e0d26f0b.jpeg"
+    },
+    {
+     "name": "Camarones Empanizados",
+     "desc": "Camarones cubiertos con empanizado crujiente y dorados a la perfección, servidos con arroz y ensalada.",
+     "price": 286,
+     "img": "fe4baa54-49da-4da5-aa75-6f6497d76761.jpeg"
+    },
+    {
+     "name": "Camarones a la Mantequilla",
+     "desc": "Camarones salteados en mantequilla con hierbas frescas, servidos en un plato.",
+     "price": 275,
+     "img": "ea4bd8bc-3ccf-476a-852a-8139aad2745f.jpeg"
+    },
+    {
+     "name": "Burritos de Camarón Guisado",
+     "desc": "Cuatro tortillas rellenas de camarón guisado con chile poblano y cebolla, acompañadas de salsa chimichurri.",
+     "price": 242,
+     "img": "7ebf10d1-d621-4b72-bb39-6a522f65bd3e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pescado",
+   "products": [
+    {
+     "name": "Filete Empanizado",
+     "desc": "Filete fresco cubierto con empanizado crujiente, servido con papas a la francesa, arroz y ensalada.",
+     "price": 209,
+     "img": "8f4cebf1-7172-4d5f-8e8a-1d29228423dd.jpeg"
+    },
+    {
+     "name": "Filete al Mojo de Ajo",
+     "desc": "Filete salteado en mantequilla con abundante ajo dorado, lleno de aroma y sabor.",
+     "price": 198,
+     "img": "4a6d8c99-c1e9-439c-b21c-8d0dd5b211d1.jpeg"
+    },
+    {
+     "name": "Filete al Ajillo",
+     "desc": "Filete preparado en salsa ligera de ajo con toque especiado, acompañado de arroz y ensalada.",
+     "price": 198,
+     "img": "4c3c10d0-4b80-4e66-a9f1-cb0572dadf83.jpeg"
+    },
+    {
+     "name": "Filete al Ajillo con Champiñones",
+     "desc": "Filete salteado con ajo y champiñones frescos, servido con guarnición tradicional.",
+     "price": 231,
+     "img": "631a3ebe-286d-456f-a82e-f72a1e8b71bf.jpeg"
+    },
+    {
+     "name": "Filete a la Veracruzana",
+     "desc": "Filete bañado en salsa tradicional estilo Veracruz con jitomate y especias, servido con arroz.",
+     "price": 237,
+     "img": "906dc33c-978c-46d2-8a4f-adf594ae3c16.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Cocteles",
+   "products": [
+    {
+     "name": "Coctel de Camarón Grande",
+     "desc": "Camarón fresco servido en copa con salsa especial de la casa, jitomate, cebolla y cilantro.",
+     "price": 154,
+     "img": "e4093c55-ed6e-454e-8ca9-1aecc2f407d2.jpeg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,398 @@
+{
+ "id": 1930277690,
+ "brandName": "Fonda Carmelita Pech",
+ "name": "Fonda Carmelita Pech - Ejidal",
+ "address": "Calle 75 Bis Nte. 10, Ejidal, 77712 Playa del Carmen, Q.R., México",
+ "schedule": "07:15:00 - 22:00:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -87.087964644775,
+  20.630675177582
+ ],
+ "city": "Playa del Carmen",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logooo-1784156401212.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/bjka-1784156402691.jpg",
+ "schedules": [
+  {
+   "open_time": "07:15:00",
+   "close_time": "22:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930277690-fonda-carmelita-pech",
+ "menu": [
+  {
+   "name": "Combos",
+   "products": [
+    {
+     "name": "Torta campechana + vallefrut ",
+     "desc": "Torta campechana + vallefrut naranja de 600ml",
+     "price": 150,
+     "img": "035cc413-6638-4323-94e9-890f567bb553.png"
+    },
+    {
+     "name": "Torta de Milanesa + Jugo de Naranja",
+     "desc": "Torta de milanesa con lechuga, jitomate, cebolla y aguacate, más un delicioso y refrescante jugo de naranja de 500ml",
+     "price": 170,
+     "img": "ddadc5ab-7309-469b-b782-2f0dea5c7684.png"
+    },
+    {
+     "name": "3 Tacos campechanos+ valle frut",
+     "desc": "3 Tacos campechanos+ valle frut 600ml",
+     "price": 150,
+     "img": "ffa73ea0-2773-4f74-af32-ed691dfe4dbf.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Tacos de milanesa orden",
+     "desc": "3 Piezas: preparados con doble tortillas, pechuga de pollo empanizada, frijoles y arroz.",
+     "price": 100,
+     "img": "cbbe3340-d426-4a1a-8195-c179a56b1e07.png"
+    },
+    {
+     "name": "Tacos de carne molida orden",
+     "desc": "3 Piezas: elaborados con guisado de molida de puerco y tortillas de maíz y frijoles.",
+     "price": 90,
+     "img": "97397d87-a271-4355-8acc-f1d8160f3b79.jpeg"
+    },
+    {
+     "name": "Tacos campechanos Orden",
+     "desc": "3 Piezas: preparados con doble tortillas, bistec de puerco, chorizo cebolla y cilantro.",
+     "price": 100,
+     "img": "53b60313-8233-4329-b1c6-df120d8965c4.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Agua fresca del día 1000ml",
+     "desc": "Agua fresca preparadas al día (con azúcar) en botella de 1 litro.",
+     "price": 98,
+     "img": "2eb113eb-a74e-4030-a523-7b0daeedbf20.png"
+    },
+    {
+     "name": "Coca cola 500ml NRP",
+     "desc": "Refresco coca cola 500ml Pet",
+     "price": 52,
+     "img": "a58591ab-eb23-48b7-9130-c9b80270fa09.png"
+    },
+    {
+     "name": "Jugo de naranja 500 ml",
+     "desc": "Jugo natural de naranja envasado al día sin conservadores ni azúcar.",
+     "price": 52,
+     "img": "f94923dc-3bda-4213-b242-15336ae929ed.png"
+    },
+    {
+     "name": "Fuze tea negro Frutos rojos 600ml",
+     "desc": "Te Frio botella 600ml pet",
+     "price": 54,
+     "img": "98086410-e063-4ad4-8f1d-f4cc62db5237.png"
+    },
+    {
+     "name": "Valle frut naranja 600ml",
+     "desc": "Valle frut citrus punch 600ML",
+     "price": 54,
+     "img": "feb1f1eb-ce8e-43eb-af7e-cc7dfe815995.png"
+    },
+    {
+     "name": "Fuze tea negro Limón 600ml",
+     "desc": "Te Frio botella 600ml pet",
+     "price": 54,
+     "img": "e32a7838-be55-4849-a5fe-5effadd0261a.png"
+    },
+    {
+     "name": "Peñafiel Toronja Lata 355ml",
+     "desc": "Refresco sabor toronja lata 355ml",
+     "price": 54,
+     "img": "26c0c983-01a3-463c-a075-1388ad97a1a4.png"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos Yucatecos",
+   "products": [
+    {
+     "name": "Tacos dorados de salchicha",
+     "desc": "Taco dorado (5 piezas) con salchicha, incluye lechuga, queso, crema, cebolla y tomate.",
+     "price": 125,
+     "img": "75ae6e68-fba3-4235-b211-afb35b30cc89.png"
+    },
+    {
+     "name": "Polcan de asada",
+     "desc": "Polcan estilo Yucatán con pepita molida, cebollina y frijoles blancos, Relleno con asada de puerco.",
+     "price": 50,
+     "img": "225cfa7d-f4ea-42b0-af56-f9a348e1c57e.png"
+    },
+    {
+     "name": "Empanada",
+     "desc": "Empanada estilo Yucatán de masa de maíz , puede ser de queso Oaxaca, queso de bola, carne molida, pollo, asada, frijol o chicharrón( Puede ser mixta sí agrega ingrediente con costo extra)",
+     "price": 35,
+     "img": "d0239aaa-1630-4401-aaa9-bfffb08dc1c7.jpeg"
+    },
+    {
+     "name": "Quesadillas de harina",
+     "desc": "Quesadillas orden de 3 piezas con queso oaxaca y los siguientes ingredientes a elegir: champiñones, jamón o chorizo.",
+     "price": 100,
+     "img": "1e3e3e00-d4a7-4043-a325-9c369c29a6dc.png"
+    },
+    {
+     "name": "Papas a la francesa",
+     "desc": "Papas a la francesa acompañadas de salsa.",
+     "price": 110,
+     "img": "6dc2ea2f-0375-4793-91a4-b55305704ae3.png"
+    },
+    {
+     "name": "Platanitos orden",
+     "desc": "Orden de platanitos fritos, preparados con queso, crema y lechera.",
+     "price": 110,
+     "img": "be5888b3-2fc2-454b-86f3-4639e68e41c2.jpeg"
+    },
+    {
+     "name": "Gordita de chicharrón",
+     "desc": "Gordita con chicharrón, queso, lechuga y crema.",
+     "price": 45,
+     "img": "dae8ea4c-dd37-4d20-9e20-f672cfea987a.jpeg"
+    },
+    {
+     "name": "Sopes",
+     "desc": "Sope de carne molida, pollo, asada o chicharrón.",
+     "price": 28,
+     "img": "1f5f2fe0-122e-4f23-84db-6bcb34316549.jpeg"
+    },
+    {
+     "name": "Salbutes",
+     "desc": "Salbute de carne molida, pollo, asada o huevo duro (hervidos).",
+     "price": 35,
+     "img": "3fac0190-fce6-496a-9787-49ccb1a7d0c8.jpeg"
+    },
+    {
+     "name": "Panuchos",
+     "desc": "Panucho de carne molida, pollo, asada o huevo duro (hervidos).",
+     "price": 35,
+     "img": "18b392b2-1a05-4372-8254-d5ca3ad2894e.jpeg"
+    },
+    {
+     "name": "Polcanes",
+     "desc": "Polcanes clásicos con frijol blanco, pepita molida y cebollin.",
+     "price": 28,
+     "img": "e50baf62-f960-4cd1-ae76-a4a9e2fa997b.png"
+    },
+    {
+     "name": "Tacos dorados de pollo",
+     "desc": "Orden de 5 piezas de tacos dorados con pollo, preparados con lechuga, queso y crema.",
+     "price": 125,
+     "img": "5f3bdeb8-04e1-4609-8049-f8ef779dbd78.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Huevos motuleños",
+     "desc": "Huevos montados en 3 piezas de tostadas con salsa de la casa, cebolla, chícharos, queso, jamón y plátano.",
+     "price": 140,
+     "img": "7f1ffd58-3416-498c-9ce2-1c86199fe884.jpeg"
+    },
+    {
+     "name": "Huevos rancheros",
+     "desc": "Huevos rancheros 3 piezas, montados en tostadas, con frijol, jamón y salsa de la casa; incluye guarniciones.",
+     "price": 140,
+     "img": "e3ea4143-4f99-4716-bd5b-b0bed105eca2.png"
+    },
+    {
+     "name": "Hot Cakes",
+     "desc": "Hot cakes 3 piezas con fruta, miel y lechera.",
+     "price": 105,
+     "img": "739012b8-fec5-4d60-96d6-3af5e426c0d3.jpeg"
+    },
+    {
+     "name": "Club sandwich",
+     "desc": "Sándwich con tomate, lechuga, jamón, pollo y queso amarillo; incluye papas francesa.",
+     "price": 165,
+     "img": "8ef70e2c-43a0-40cf-b727-570c06a10ca2.png"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles con salsa de la casa, puede ser roja o verde, de pollo o asada, incluye un huevo estrellado.",
+     "price": 156,
+     "img": "8d17fbeb-55f9-4601-bccf-dba62aad6ca1.jpeg"
+    },
+    {
+     "name": "Enchiladas",
+     "desc": "Enchiladas con pollo 5 piezas, con salsa de la casa, puede ser mole, rojas o verdes; con queso, crema y cebolla.",
+     "price": 150,
+     "img": "cfa61dfe-f9db-4283-923a-bf73688bbd75.png"
+    },
+    {
+     "name": "Milanesas de Pollo",
+     "desc": "Milanesa de pechuga de pollo, con ensalada, arroz y frijoles.",
+     "price": 169,
+     "img": "e459d7ce-d11d-4b20-aeca-5043a5096831.jpeg"
+    },
+    {
+     "name": "Huevos Al Gusto",
+     "desc": "Huevos revueltos al gusto: a la mexicana, con jamón, chorizo, longaniza, con salchicha, con chaya o estrellados; incluye guarniciones.",
+     "price": 110,
+     "img": "8a9b8f81-4cfa-4714-ab14-602a0e2c1d37.png"
+    },
+    {
+     "name": "Omelette",
+     "desc": "Huevos estilo omelette, con queso oaxaca e ingrediente a elegir: jamon, champiñon o chaya. incluye frijol, arroz y platanito.",
+     "price": 140,
+     "img": "c05439ee-2f63-4938-a14c-7e3fd760c146.png"
+    }
+   ]
+  },
+  {
+   "name": "A la Plancha",
+   "products": [
+    {
+     "name": "Chuletas de Cerdo Ahumadas",
+     "desc": "2 piezas de rica chuleta de cerdo ahumada con guarniciones como arroz, frijoles y ensalada.",
+     "price": 195,
+     "img": "583e75d3-a4d9-4e67-9f56-bf955b85ff9c.png"
+    },
+    {
+     "name": "Bisteces de Cerdo Encebollado",
+     "desc": "Bistec de cerdo encebollado, con arroz, frijoles y ensalada.",
+     "price": 160,
+     "img": "b5d19645-e535-4c55-9601-735fea6c5754.png"
+    },
+    {
+     "name": "Chuletas",
+     "desc": "Deliciosa chuleta fresca de cerdo 2 piezas, a la plancha, incluye guarniciones.",
+     "price": 160,
+     "img": "4fd7c00f-f525-48f2-b2cc-6a6599138693.jpeg"
+    },
+    {
+     "name": "Pechuga asada",
+     "desc": "Pechuga de pollo a la plancha, con ensalada, arroz y frijoles.",
+     "price": 182,
+     "img": "3649849b-b6f9-4665-a082-6d8595b30771.png"
+    },
+    {
+     "name": "Arracheras",
+     "desc": "Arrachera norteñita a la plancha, incluye guarniciones.",
+     "price": 220,
+     "img": "e7d00969-37ef-421a-ad8b-f3b05a572da6.jpeg"
+    },
+    {
+     "name": "Bisteces de res",
+     "desc": "Bisteces de res a la plancha con cebolla, acompañados de arroz, frijoles, plátano frito, aguacate y jitomate.",
+     "price": 210,
+     "img": "a75c1576-a278-41fc-8837-88929b8f1b79.png"
+    },
+    {
+     "name": "Fajitas de Pollo",
+     "desc": "Tiras de pechuga de pollo, con pimientos, cebolla y sazonador de la casa, incluye guarniciones.",
+     "price": 195,
+     "img": "dba69412-922a-4d3e-8dfa-85b01cdddbe4.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta de pollo",
+     "desc": "Elaborado con telera y pollo desmenuzado, con verduras, mayonesa y frijol.",
+     "price": 90,
+     "img": "b2485f92-8a86-4f50-b8da-a8861fed6f51.jpeg"
+    },
+    {
+     "name": "Torta especiale",
+     "desc": "Preparado con telera; y milanesa, salchicha, jamón, queso y chorizo; con verduras, mayonesa y frijol.",
+     "price": 130,
+     "img": "41492aa8-44f6-4328-a5aa-a17071c8a0c5.png"
+    },
+    {
+     "name": "Torta económica",
+     "desc": "Torta con jamón y queso.",
+     "price": 60,
+     "img": "40e6f84f-3639-43e8-8ed4-f451022ad512.jpeg"
+    },
+    {
+     "name": "Torta de milanesa",
+     "desc": "Elaborado con telera, pechuga de pollo empanizada, mayonesa, frijol y verduras.",
+     "price": 125,
+     "img": "5b9cc620-5f57-4694-8e8f-44c2f9185432.jpeg"
+    },
+    {
+     "name": "Torta de asada",
+     "desc": "Preparado con telera y bistec de puerco asado al carbón, con verduras, mayonesa y frijol.",
+     "price": 100,
+     "img": "69b8136c-9d99-4516-823a-99cfa279d132.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Comidas Del Día Martes",
+   "products": [
+    {
+     "name": "Mole",
+     "desc": "Orden de guisado de mole con pierna y muslo de pollo, acompañado con arroz.",
+     "price": 130,
+     "img": "3a9dabfe-5a73-483a-afea-0a254bd4bb01.png"
+    },
+    {
+     "name": "Puntas a la mexicana",
+     "desc": "Orden de bistec de puerco fileteado en salsa mexicana de la casa, incluye guarniciones.",
+     "price": 130,
+     "img": "df220790-16a4-4092-8835-bcaee1f29c99.png"
+    },
+    {
+     "name": "Chiles rellenos",
+     "desc": "Orden de 2 piezas de chiles rellenos, 1 picadillo y 1 queso, incluye guarniciones.",
+     "price": 145,
+     "img": "cf6c06de-21a9-42fa-ac32-2c8329f6a02b.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Flan Clásico",
+     "desc": "Rebanada de flan clásico con caramelo.",
+     "price": 52,
+     "img": "4877a3b2-8fba-432a-989b-bfc343cb6627.png"
+    },
+    {
+     "name": "Flan de Vainilla",
+     "desc": "Delicioso flan sabor vainilla , en presentación individual; en vaso de 10 onzas.",
+     "price": 40,
+     "img": "604d26d2-4354-48d1-8231-261cbe02238d.png"
+    }
+   ]
+  },
+  {
+   "name": "Licuados",
+   "products": [
+    {
+     "name": "Licuado de leche 1 litro",
+     "desc": "Deliciosos licuados de leche con fruta o ingrediente a elegir; en vaso de 1 litro, desde 1 ingrediente o con extra de ingrediente.",
+     "price": 85,
+     "img": "3d69f241-4c5c-492d-bd5d-bd5506d8cde0.png"
+    }
+   ]
+  },
+  {
+   "name": "Martes de chiles Rellenos",
+   "products": [
+    {
+     "name": "Chiles rellenos",
+     "desc": "Orden de 2 piezas de chiles rellenos, capeados (1 pieza de picadillo, 1 pieza de queso) incluye guarniciones.",
+     "price": 145,
+     "img": "e72096d6-ee73-40c4-8757-175aadbc42b0.png"
+    }
+   ]
+  }
+ ]
+}
