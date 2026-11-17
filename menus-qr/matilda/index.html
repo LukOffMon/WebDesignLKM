@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Work+Sans:wght@400;600;700;800&display=swap&family=Space+Grotesk:wght@600;700">
 <link rel="stylesheet" href="../assets/menu.css">
-<style>:root{--bg:#f6efe4;--fg:#2b1d14;--acc:#b5452f;--card:#ffffff;--on-acc:#ffffff;--ft:'Playfair Display';--fb:'Work Sans';--tw:700;color-scheme:light}</style>
+<style>:root{--bg:#f6efe4;--fg:#2b1d14;--acc:#b5452f;--card:#ffffff;--acc-btn:#b5452f;--on-acc:#ffffff;--acc-ink:#b5452f;--ft:'Playfair Display';--fb:'Work Sans';--tw:700;color-scheme:light}</style>
 </head>
 <body>
 <style id="lkmr-intro-css">
@@ -76,23 +76,24 @@ var done=false;function end(){if(done)return;done=true;el.classList.add('out');d
 setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener('keydown',function(ev){if(ev.key==='Escape')end();});})();
 </script>
 
-<div class="demo"><b>Muestra</b> preparada por LKM'r para Matilda Salón Mexicano · precios de referencia tomados de Rappi (17 nov. 2026), se ajustan a los de salón.</div>
+<div class="demo"><b>Muestra</b> de LKM'r · precios de referencia</div>
 <header class="hero"><div class="wrap">
   <p class="kicker">Menú digital · Centro</p>
   <h1>Matilda Salón Mexicano</h1>
   <p class="lema">Cocina mexicana y yucateca en el Centro de Mérida</p>
-  <div class="meta">
-    <span class="pill" id="status"></span>
-    <a class="pill" href="https://www.google.com/maps/search/?api=1&query=Matilda+Salón+Mexicano+Calle+63+No.+516+x+62+y+64,+Centro,+Mérida,+Yuc." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Mérida, Yuc.</a>
-    <a class="pill" href="tel:+529999211452"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>999 921 1452</a>
-    <button class="pill" id="share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>Compartir</button>
-  </div>
+  <p class="info"><span class="status" id="status"></span><span>Mérida, Yuc.</span></p>
+  <nav class="acts" aria-label="Contacto">
+    <a class="act" href="tel:+529999211452"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>Llamar</span></a>
+    <a class="act" href="https://www.google.com/maps/search/?api=1&query=Matilda+Salón+Mexicano+Calle+63+No.+516+x+62+y+64,+Centro,+Mérida,+Yuc." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Cómo llegar</span></a>
+    <button class="act" id="share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg><span>Compartir</span></button>
+  </nav>
 </div></header>
-<div class="bar"><div class="wrap">
-  <div class="search"><label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Buscar en 86 platillos…" autocomplete="off" aria-label="Buscar platillo"></label></div>
+<div class="bar"><div class="wrap bar-in">
+  <button class="sbtn" id="sbtn" type="button" aria-label="Buscar platillo" aria-expanded="false" aria-controls="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
   <nav class="chips" id="chips" aria-label="Categorías"></nav>
+  <div class="search" id="search" hidden><label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" enterkeyhint="search" placeholder="Buscar en 86 platillos…" autocomplete="off" aria-label="Buscar platillo"></label><button class="qx" id="qx" type="button">Cerrar</button></div>
 </div></div>
-<main class="wrap"><div id="list"></div><p class="empty" id="empty">No encontramos ese platillo. Prueba con otra palabra.</p></main>
+<main class="wrap"><p class="qinfo" id="qinfo" role="status"></p><div id="list"></div><p class="empty" id="empty">No encontramos ese platillo. Prueba con otra palabra.</p></main>
 <section class="lkmr" aria-labelledby="lkmr-t"><div class="wrap"><div class="lkmr-card">
   <p class="lkmr-k">Desarrollado por</p>
   <h2 id="lkmr-t">LKM&#x27;r Company</h2>
@@ -106,16 +107,28 @@ setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener(
   <p class="lkmr-c">Jesús María, Aguascalientes</p>
 </div></div></section>
 <footer><div class="wrap">
-  <span>Matilda Salón Mexicano · Calle 63 No. 516 x 62 y 64, Centro, Mérida, Yuc.</span>
+  <span><b>Muestra</b> preparada por LKM'r para Matilda Salón Mexicano. Precios de referencia tomados de Rappi (17 nov. 2026); se ajustan a los de salón.</span>
+  <span>Matilda Salón Mexicano · Calle 63 No. 516 x 62 y 64, Centro, Mérida, Yuc. · <a href="tel:+529999211452">999 921 1452</a></span>
   <span>Los precios mostrados son de referencia y pueden cambiar. Confírmalos con tu mesero.</span>
   <span>Menú digital diseñado y desarrollado por <a href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">LKM&#x27;r Company</a> · <a href="https://wa.me/524492094034?text=Hola%20LKM%27r%2C%20vi%20un%20men%C3%BA%20digital%20que%20hicieron%20y%20quiero%20uno%20para%20mi%20negocio." target="_blank" rel="noopener">Escríbenos por WhatsApp</a></span>
 </div></footer>
-<button class="cartbar" id="cartbar" type="button"><span><span class="count" id="barcount">0</span>Ver mi pedido</span><span id="bartotal">$0</span></button>
+<button class="cartbar" id="cartbar" type="button" aria-hidden="true" tabindex="-1"><span><span class="count" id="barcount">0</span>Ver mi pedido</span><span id="bartotal">$0</span></button>
+<dialog id="dish" class="dish" aria-labelledby="dname"><div class="sheet">
+  <button class="x" id="dclose" type="button" aria-label="Cerrar">×</button>
+  <div class="dimg"><img id="dimg" alt=""></div>
+  <div class="dbody">
+    <p class="dcat" id="dcat"></p>
+    <h2 id="dname"></h2>
+    <p class="ddesc" id="ddesc"></p>
+    <div class="drow"><span class="price" id="dprice"></span><span id="dstep"></span></div>
+    <button class="dadd" id="dadd" type="button">Agregar</button>
+  </div>
+</div></dialog>
 <dialog id="cart" aria-labelledby="carttitle"><div class="sheet">
   <header><h2 id="carttitle">Tu pedido</h2><button class="x" id="close" type="button" aria-label="Cerrar">×</button></header>
   <div class="lines" id="lines"></div>
   <div class="total"><span>Total aprox.</span><span id="total">$0</span></div>
-  <div class="two"><label class="field">Nombre<input id="who" autocomplete="name"></label><label class="field">Mesa o para llevar<input id="mesa" placeholder="Ej. mesa 4"></label></div>
+  <div class="two"><label class="field">Nombre<input id="who" autocomplete="name" enterkeyhint="next"></label><label class="field">Mesa o para llevar<input id="mesa" placeholder="Ej. mesa 4" enterkeyhint="next"></label></div>
   <label class="field">Notas<textarea id="notas" rows="2" placeholder="Sin cebolla, salsa aparte…"></textarea></label>
   <a class="send" id="send" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c.7.3 1.3.5 1.7.6a4.2 4.2 0 0 0 1.9.1 3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.8L.2 23.8l6.1-1.6A11.8 11.8 0 0 0 12 23.6 11.8 11.8 0 0 0 20.4 3.6z"/></svg>Enviar pedido por WhatsApp</a>
   <p class="note">Se abre WhatsApp con tu pedido listo; el restaurante confirma total y tiempo.</p>
