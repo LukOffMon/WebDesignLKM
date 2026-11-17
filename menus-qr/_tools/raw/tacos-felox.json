@@ -1,0 +1,310 @@
+{
+ "id": 1930087566,
+ "brandName": "Taqueria Tacos Felox",
+ "name": "Taqueria Tacos Felox - Barrio San Marcos",
+ "address": "Av. Convención de 1914 Pte. 510, Barrio de San Marcos, 20070 Aguascalientes, Ags., México",
+ "schedule": "09:00:00 - 17:40:00",
+ "categories": "Tacos · Antojitos y Garnachas",
+ "location": [
+  -102.3126,
+  21.87943
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/123-1688234845922.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/98765-1688234846953.jpg",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "17:40:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930087566-taqueria-tacos-felox",
+ "menu": [
+  {
+   "name": "Platos",
+   "products": [
+    {
+     "name": "Plato con Pastor",
+     "desc": "Plato con 250g de Carne, Cebolla frita, Chille asado y Tortillas, salsas al gusto",
+     "price": 156,
+     "img": "d3d2b1d4-3c39-4e47-9bec-eea72afe5dee.jpeg"
+    },
+    {
+     "name": "Plato con Chorizo",
+     "desc": "Plato con 250g de Carne, Cebolla frita, Chille asado y Tortillas, salsas al gusto",
+     "price": 156,
+     "img": "63b6ea41-f60f-4797-93a5-4981cea28cda.jpeg"
+    },
+    {
+     "name": "Plato con Bistec",
+     "desc": "Plato con 250g de Carne, Cebolla frita, Chille asado y Tortillas, salsas al gusto",
+     "price": 156,
+     "img": "953306c1-ec37-4c67-8986-369b4183d2e3.jpeg"
+    },
+    {
+     "name": "Plato con Chochinita",
+     "desc": "Plato con 250g de Carne, Cebolla frita, Chille asado y Tortillas, salsas al gusto",
+     "price": 170,
+     "img": "6c00b9f2-0599-42b6-9faa-01c811a578f8.jpeg"
+    },
+    {
+     "name": "Plato con Arrachera ",
+     "desc": "Plato con 250g de Carne, Cebolla frita, Chille asado y Tortillas, salsas al gusto",
+     "price": 170,
+     "img": "6c623174-bcc9-4d31-b117-04955ec331ab.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesadilla De Maiz",
+   "products": [
+    {
+     "name": "Hidrocalida (Arrachera)",
+     "desc": "Quesadilla de maíz rellena con arrachera (corte de carne de res).",
+     "price": 169,
+     "img": "b77e2896-444f-4d8a-85ba-0335aac874fb.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco de Bistec",
+     "desc": "Tortilla de maíz grande con bistec de res cebolla asada y chiles asados acompañados de salsa verde y roja, rodajas de  pepinos y limones.",
+     "price": 33,
+     "img": "gp_mexican_taco_bistec_n.jpg"
+    },
+    {
+     "name": "Taco de Chorizo",
+     "desc": "Tortilla de maíz grande con chorizo, cilantro, cebolla asada y chiles asados, 1 pz.",
+     "price": 33,
+     "img": "c09c76a6-70c4-4aa6-9929-702999a72277.png"
+    },
+    {
+     "name": "Taco de Cochinita",
+     "desc": "Tortilla de maíz grande con cochinita pibil, cilantro, cebolla por y chiles asados, 1 pz.",
+     "price": 32,
+     "img": "482e3c42-3034-4b71-a7a4-2712b7280bf0-1688583340001.png"
+    },
+    {
+     "name": "Taco de Pastor",
+     "desc": "Tortilla de maíz grande con carne al pastor, cilantro, cebolla, piña y chiles asados, 1 pz.",
+     "price": 32,
+     "img": "eaa10a8f-9b63-4c3d-ac55-f569150b5bba-1711396821996.png"
+    },
+    {
+     "name": "Taco Arrachera",
+     "desc": "Taco con Carne de Arrachera, con Cebolla Frita y chiles asados",
+     "price": 39,
+     "img": "5741d609-ca33-4c8d-9707-bf45f6881984.png"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas Maíz",
+   "products": [
+    {
+     "name": "Quesadilla Sencilla solo queso ",
+     "desc": "Tortilla de maíz rellena con queso asadero fundido, 1 pz.",
+     "price": 32,
+     "img": "aa95348a-2a41-4f61-a74a-6f392ff763cd-1710366249409.png"
+    },
+    {
+     "name": "Quesadilla de Maíz con Chorizo",
+     "desc": "Tortilla de maíz grande rellena con chorizo, cilantro y cebolla, 1 pz.",
+     "price": 65,
+     "img": "f1b74661-2a08-42dd-a2fe-ed3db9db5215-1710366146326.png"
+    },
+    {
+     "name": "Quesadilla de Maíz con Cochinita",
+     "desc": "Tortilla de maíz grande rellena con cochinita pibil, cilantro y cebolla, 1 pz.",
+     "price": 85,
+     "img": "6caafcd9-49f8-425c-aa99-be6c8a92134a-1710366534996.png"
+    },
+    {
+     "name": "Quesadilla de Maíz con Bistec",
+     "desc": "Tortilla de maíz grande con bistec de res, cilantro y cebolla, 1 pz.",
+     "price": 65,
+     "img": "74d0df5d-207a-4684-926a-88a132c78dbc-1710366372744.png"
+    },
+    {
+     "name": "Quesadilla de Maíz con Pastor",
+     "desc": "Tortilla de maíz grande con pastor, piña, cilantro y cebolla, 1 pz.",
+     "price": 65,
+     "img": "2a736afe-ccd5-4921-a355-fa330b1ae41d-1710366402104.png"
+    },
+    {
+     "name": "Quesadilla Hidrocálida 24 cm",
+     "desc": "Quesadilla Hidrocálida 24 cm, con carne de tu elección. (Pastor, Bistec, Chorizo), acompañada de Cebolla, Carnes y aguacate, Salsa a tu elección, Roja, verde y limón, Chiles y pepinos",
+     "price": 130,
+     "img": "37796bff-9500-44b2-9b4b-a33973ac7d1a.jpeg"
+    },
+    {
+     "name": "Quesadilla de Maíz Doble solo Queso",
+     "desc": "Tortilla de maíz grande rellena con queso asadero fundido, 1 pz.",
+     "price": 45,
+     "img": "33583a59-4723-4a2e-9cec-fa46cb1a77ea.jpeg"
+    },
+    {
+     "name": "Quesadilla de Arrachera ",
+     "desc": "Quesadilla de Maíz con Cebolla frita y chiles asados",
+     "price": 85,
+     "img": "b4c4e73f-3494-4860-b5ef-ae09f27c854d.jpeg"
+    },
+    {
+     "name": "Hidrocálida 24 cm",
+     "desc": "Quesadilla Hidrocálida 24 cm, Arrachera, acompañada de Cebolla, Carnes y aguacate, Salsa a tu elección, Roja, verde y limón, Chiles y pepinos",
+     "price": 156,
+     "img": "f0b18790-17ee-4104-8f77-4aa359ade135.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas Harina",
+   "products": [
+    {
+     "name": "Quesadilla de Harina con Bistec",
+     "desc": "Tortilla de harina grande rellena con bistec de res, cilantro y cebolla asada, 1 pz.",
+     "price": 104,
+     "img": "2f92cb4c-61cc-4393-83a4-d3f35158c58e.png"
+    },
+    {
+     "name": "Quesadilla de Harina con Chorizo",
+     "desc": "Tortilla de harina grande rellena con chorizo, cilantro y cebolla asada 1 pz.",
+     "price": 104,
+     "img": "11db6cdd-d601-4136-bfe0-74c6e04943f8.png"
+    },
+    {
+     "name": "Quesadilla de Harina con Cochinita",
+     "desc": "Tortilla de harina grande rellena con cochinita, cilantro y cebolla morada con habanero 1 pz.",
+     "price": 130,
+     "img": "e7070b37-8040-4a39-903d-1d686c390b7e-1710361023478.png"
+    },
+    {
+     "name": "Quesadilla de Harina con Pastor",
+     "desc": "Tortilla de harina grande rellena con pastor, piña, cilantro y cebolla asada , 1 pz.",
+     "price": 104,
+     "img": "3db95a32-50c1-4855-a613-7850d936c779-1710359706006.png"
+    },
+    {
+     "name": "Quesadilla de Harina con Queso",
+     "desc": "Tortilla de harina grande con queso asadero fundido, 1 pz.",
+     "price": 65,
+     "img": "6c9817d2-da0a-4a33-b26e-1c518b690f67-1710360160412.png"
+    },
+    {
+     "name": "Quesadilla Arrachera de Harina",
+     "desc": "Quesadilla Arrachera, con Cebolla frita y chiles asados",
+     "price": 130,
+     "img": "18799541-772c-4846-8bc4-52c18076b30f.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Volcanes",
+   "products": [
+    {
+     "name": "Volcán de Chorizo",
+     "desc": "Tostada de maíz grande cubierta con chorizo y queso fundido, 1 pz.",
+     "price": 52,
+     "img": "cd79b63e-0198-4dcb-b42c-48801fb7195d-1688583827340.png"
+    },
+    {
+     "name": "Volcán de Bistec",
+     "desc": "Tostada de maíz grande cubierta con bistec y queso fundido, 1 pz.",
+     "price": 52,
+     "img": "b75f3412-812a-4bc0-b51f-d41e2b97dfe7-1688583893921.png"
+    },
+    {
+     "name": "Volcán de Pastor",
+     "desc": "Tostada de maíz grande cubierta con pastor, piña y queso fundido, 1 pz.",
+     "price": 52,
+     "img": "993fdb1f-3490-4600-8dc8-e083f21ed835-1688583921128.png"
+    },
+    {
+     "name": "Volcán de Cochinita",
+     "desc": "Tostada de maíz grande cubierta con cochinita piibil y queso fundido, 1 pz.",
+     "price": 65,
+     "img": "f250ce2f-5f60-40d2-8a06-2f564577463b-1710366592922.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta de Chorizo",
+     "desc": "Bolillo grande con chorizo, acompañada de salsa verde, roja, chiles asados y cebolla asada , 1 pz.",
+     "price": 78,
+     "img": "2114546536-1688234966785.jpg"
+    },
+    {
+     "name": "Torta de Cochinita",
+     "desc": "Bolillo grande con cochinita pibil, acompañada de salsa verde, roja, cebolla morada y chiles asados 1 pza. .",
+     "price": 91,
+     "img": "54c59c9a-4155-4557-b789-de043da8c7ef-1710367048446.png"
+    },
+    {
+     "name": "Torta de Bistec",
+     "desc": "Bolillo grande con bistec de res, acompañada de salsa verde, roja, cebolla asada y chiles asados  1 pz.",
+     "price": 78,
+     "img": "0227ba55-3fc9-417c-9f06-73262a9871b0-1710367487498.png"
+    },
+    {
+     "name": "Torta de Pastor",
+     "desc": "Bolillo grande con pastor acompañado de piña, salsa verde, roja, cebolla asada y chiles asados 1 pz.",
+     "price": 78,
+     "img": "d9cd70d3-fa7d-4b4c-993b-3610f0cd192c-1688584026165.png"
+    },
+    {
+     "name": "Torta Especial ",
+     "desc": "Bistec, Pastor, Chorizo, Cebolla, Frita, Salsas, y limón",
+     "price": 117,
+     "img": "7567436d-5e89-4521-9e98-c2c91c701b1e.jpeg"
+    },
+    {
+     "name": "Torta de Arrachera",
+     "desc": "Torta con carne de arrachera, cebolla frita y queso fundido.",
+     "price": 104,
+     "img": "eaecc860-f9f5-465d-8bbe-b8cb482bfa29.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "EXTRAS",
+   "products": [
+    {
+     "name": "Extra de Guacamole",
+     "desc": "Extra de Guacamole, porción personal  x plato",
+     "price": 40,
+     "img": "f5b67e4b-5877-4c18-8cbb-72e325c91b61.jpeg"
+    },
+    {
+     "name": "Extra de Queso",
+     "desc": "Porción adicional de queso personal para acompañar tu plato.",
+     "price": 26,
+     "img": "8f43823b-f9df-4ef2-ba09-4d1c71c530e8.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Frías",
+   "products": [
+    {
+     "name": "Pepsi 500 ml",
+     "desc": "Refrescos",
+     "price": 35,
+     "img": "977090427-1595954580751.jpg"
+    },
+    {
+     "name": "Agua de Sabor 1 l",
+     "desc": "Agua natural de horchata, 1 l.",
+     "price": 59,
+     "img": "gp_mexican_otra_agua_de_horchata_n.jpg"
+    }
+   ]
+  }
+ ]
+}

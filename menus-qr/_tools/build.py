@@ -32,7 +32,7 @@ IMG_CDN = "https://images.rappi.com.mx/products/{}?e=webp&d=360x360&q=68"
 
 # Categorías que no son parte de la carta del restaurante (promos de Rappi o marcas virtuales).
 DROP_CATS = {
-    "*": ["promociones", "combos by coca cola", "extras", "rappi- promo", "rappi promo", "promos", "super promos", "combos y promociones", "ordenes extra",
+    "*": ["articulos", "articulos destacados", "por menos de $100", "rappi combos", "popular", "promociones", "combos by coca cola", "extras", "rappi- promo", "rappi promo", "promos", "super promos", "combos y promociones", "ordenes extra",
           "extra proteinas", "extras desayunos"],
     "china-poblana": ["pizza tradicional", "pizza gourmet", "papas para compartir", "boneless", "hamburguesas",
                       "solo wings", "combos", "otros"],
@@ -40,6 +40,7 @@ DROP_CATS = {
     "los-agustines": ["promo desayuno chilaquiles"],
 }
 RENAME_CATS = {
+    "Main": "Lo más pedido", "Mexican": "Comida mexicana", "BEBIDAAS": "Bebidas", "Menu": "Menú",
     "Platos Fuer": "Platos Fuertes", "Lonches y Hmaburguesas": "Lonches y hamburguesas", "Rappi- Promo": "Promociones",
     "Postres / Frappe": "Postres y frappés", "Burguers": "Burgers", "Francés": "Pan francés", "Pa Los Bukitos": "Para los niños",
     "Ensalada": "Ensaladas", "Sopa": "Sopas",
@@ -569,6 +570,7 @@ h1 {{ font:700 clamp(30px, 6vw, 48px)/1.05 'Space Grotesk', sans-serif; margin:1
 .btn:hover {{ border-color:var(--soft); }}
 details summary {{ cursor:pointer; color:var(--soft); font-size:14px; }}
 .msg {{ white-space:pre-wrap; font:400 14px/1.55 Inter, sans-serif; background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:14px; margin:10px 0 0; }}
+.sec {{ font:700 24px/1.1 'Space Grotesk', sans-serif; margin:28px 0 14px; }}
 .how {{ border:1px solid var(--line); border-radius:16px; padding:16px 18px; margin:0 0 20px; background:var(--card); }}
 .how ol {{ margin:8px 0 0; padding-left:20px; color:var(--soft); }}
 .toast {{ position:fixed; left:50%; bottom:20px; transform:translate(-50%, 200%); background:var(--fg); color:var(--bg); padding:10px 16px; border-radius:999px; font-weight:700; transition:transform .3s; }}
@@ -589,7 +591,10 @@ details summary {{ cursor:pointer; color:var(--soft); font-size:14px; }}
     <li>El botón verde solo sale en los marcados <b>WhatsApp oficial</b>, <b>Número propio</b> o <b>Directorio</b>. En los de <b>Solo teléfono</b> llama primero y pregunta por qué medio mandarles la propuesta.</li>
     <li>Cuando acepten: pídeles su carta de salón (foto o PDF) y su logo, y cambia el aviso de "Muestra" por su información real.</li>
   </ol></div>
-  <div class="grid">{''.join(cards)}</div>
+  <h2 class="sec">Aguascalientes y Jesús María</h2>
+  <div class="grid">{''.join(cd for cd, (r, *_ ) in zip(cards, rows) if r.get("region") == "ags")}</div>
+  <h2 class="sec">Resto del país</h2>
+  <div class="grid">{''.join(cd for cd, (r, *_ ) in zip(cards, rows) if r.get("region") != "ags")}</div>
 </main>
 <div class="toast" id="toast" role="status">Mensaje copiado</div>
 <script>
@@ -640,12 +645,18 @@ def update_portfolio(rows):
             f'        <div class="body"><p class="tag" style="color:{r['tema']['acc'] if luminance(r['tema']['acc']) > .12 else '#d6b47a'}">{e(r['ciudad'])}</p>'
             f'<p class="name">{e(r['nombre'])}</p><p class="desc">{e(r['lema'])}. {n} platillos con foto, buscador y pedido por WhatsApp.</p>'
             f'<p class="go">Ver menú →</p></div>\n      </a>')
+    ags = [cd for cd, (r, *_ ) in zip(cards, rows) if r.get("region") == "ags"]
+    nac = [cd for cd, (r, *_ ) in zip(cards, rows) if r.get("region") != "ags"]
+    n_ciud = len({r["ciudad"] for r, *_ in rows if r.get("region") != "ags"})
     block = ("<!-- MENUS-QR:START (lo genera menus-qr/_tools/build.py) -->\n"
              '    <section class="qr-sec" id="menus-qr">\n'
              '      <p class="eyebrow">Menús QR</p>\n'
              '      <h2>Menús digitales con QR para restaurantes.</h2>\n'
-             f'      <p class="qr-lead">{len(rows)} muestras en {len({r["ciudad"] for r, *_ in rows})} ciudades del país: carta con fotos, buscador, categorías y pedido directo por WhatsApp. Se imprime el QR para mesas y mostrador.</p>\n'
-             '      <div class="grid">\n' + "\n".join(cards) + "\n      </div>\n    </section>\n"
+             f'      <p class="qr-lead">{len(rows)} muestras: carta con fotos, buscador, categorías y pedido directo por WhatsApp. Se imprime el QR para mesas y mostrador.</p>\n'
+             f'      <h3 class="qr-sub" id="menus-qr-ags">Aguascalientes y Jesús María <span>{len(ags)}</span></h3>\n'
+             '      <div class="grid">\n' + "\n".join(ags) + "\n      </div>\n"
+             f'      <h3 class="qr-sub">Resto del país <span>{len(nac)} · {n_ciud} ciudades</span></h3>\n'
+             '      <div class="grid">\n' + "\n".join(nac) + "\n      </div>\n    </section>\n"
              "    <!-- MENUS-QR:END -->")
     src = page.read_text(encoding="utf-8")
     if "<!-- MENUS-QR:START" in src:
@@ -683,6 +694,8 @@ def update_portfolio(rows):
         src = re.sub(r"<!-- LKMR-QRLINK:START.*?<!-- LKMR-QRLINK:END -->", lambda m: qlink, src, flags=re.S)
     else:
         src = re.sub(r"(<h1>.*?</h1>)", lambda m: m.group(1) + "\n    " + qlink, src, count=1, flags=re.S)
+    if ".qr-sub" not in src:
+        src = src.replace("  </style>", "    .qr-sub { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: 1.6rem; margin: 48px 0 0; display: flex; align-items: baseline; gap: 12px; }\n    .qr-sub span { font-family: Manrope, sans-serif; font-size: .8rem; font-weight: 800; color: #141210; background: #d6b47a; padding: 4px 10px; border-radius: 999px; }\n  </style>", 1)
     if ".qr-jump" not in src:
         src = src.replace("  </style>", "    .qr-jump { display: inline-flex; margin-top: 22px; padding: 12px 18px; border-radius: 999px; background: #d6b47a; color: #141210; font-weight: 800; text-decoration: none; }\n    html { scroll-behavior: smooth; }\n  </style>", 1)
     if ".qr-sec {" not in src:

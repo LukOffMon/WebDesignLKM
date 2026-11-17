@@ -1,0 +1,570 @@
+{
+ "id": 1306711424,
+ "brandName": "Tres Cielos",
+ "name": "Tres Cielos - Fracc Trojes de Oriente II",
+ "address": "Calle Silos 1004, Fracc Trojes de Oriente II, Aguascalientes, Ags, México",
+ "schedule": "08:30:00 - 16:30:00",
+ "categories": "Mexicana",
+ "location": [
+  -102.301489977207,
+  21.928734779777
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/eed4ebcf-66d2-4407-b959-19e0652d91a0-1737838180763.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/414a1901-1aa6-4509-96ba-2c79b519a6a1-1737837984012.jpeg",
+ "schedules": [
+  {
+   "open_time": "08:30:00",
+   "close_time": "16:30:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1306711424-tres-cielos",
+ "menu": [
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Huevos al gusto",
+     "desc": "Huevos al gusto: 2 piezas revueltos o estrellados con frijoles refritos. Incluye salsas roja y verde, totopos y queso fresco.",
+     "price": 161,
+     "img": "d82c198d-61e1-48bf-87de-f6386e68bdb4.png"
+    },
+    {
+     "name": "Omelet",
+     "desc": "Omelet con 2 toppings a elegir, acompañados de frijoles de la casa.",
+     "price": 184,
+     "img": "47f67ede-2b70-427b-853b-f53228f399d8.png"
+    },
+    {
+     "name": "Huevos ahogados",
+     "desc": "2 Huevos montados sobre tortilla, cama de frijoles, jamón de pavo y salsa de tu elección.",
+     "price": 196,
+     "img": "bdc1d691-2880-4828-9789-0f75e70c4168.png"
+    },
+    {
+     "name": "Pochados 3cielos",
+     "desc": "2 Huevos pochados sobre 2 sopes, frijoles, chorizo, espinacas, guacamole queso fresco, salsa a elegir.",
+     "price": 207,
+     "img": "c1910cd9-306a-4fee-8056-79c89a645026.png"
+    },
+    {
+     "name": "Pochados chipotle",
+     "desc": "2 Huevos pochados sobre pan tostado, frijoles, jamón, bañados en salsa de chipotle y un toque de tocino.",
+     "price": 207,
+     "img": "8c0d4080-9840-49c2-a021-8a49aabf9efe.png"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles gratinados con guarnición de frijoles, cebolla morada y huevo estrellado.",
+     "price": 180,
+     "img": "5313112a-2045-4cde-af93-904db6069deb.png"
+    },
+    {
+     "name": "Molletes",
+     "desc": "2 Piezas con frijoles, gratinados y guarnicion de guacamole o pico de gallo.",
+     "price": 160,
+     "img": "28458949-46f6-4d6c-926b-f6129cfaa59d.png"
+    },
+    {
+     "name": "Pan francés",
+     "desc": "Pan brioche hecho en casa, con un toque de canela, guarnición de  frutos rojos y miel maple.",
+     "price": 207,
+     "img": "64cfa85f-afb9-40ca-bf95-b367d8055682.png"
+    },
+    {
+     "name": "Hot Cakes",
+     "desc": "3 Pzas con compota de frutos rojos mousse de queso crema y crumble de nuez",
+     "price": 185,
+     "img": "c469967a-2271-4d5f-ac96-69686b089c9e.png"
+    },
+    {
+     "name": "Plato de Fruta",
+     "desc": "Fruta de temporada, acompañado de granola, miel y yogurt natural.",
+     "price": 127,
+     "img": "34b8361b-6007-4a2b-b2d9-2741920cf6e4.png"
+    }
+   ]
+  },
+  {
+   "name": "Sándwiches",
+   "products": [
+    {
+     "name": "Mañanero",
+     "desc": "Pan brioche, huevo estrellado, arúgula, jitomate, aguacate, queso panela y mermelada de tocino. acompañado de papas chips.",
+     "price": 240,
+     "img": "99c73abd-06f1-41b3-bea1-284a4480c9b9.png"
+    },
+    {
+     "name": "Italiano",
+     "desc": "Pan brioche, pollo a la plancha, espinacas, champiñones, queso de cabra y pesto de tomate. acompañado de papas chips.",
+     "price": 240,
+     "img": "dc5c985f-0357-44f8-baae-585884f24a60.png"
+    },
+    {
+     "name": "Club 3 cielos",
+     "desc": "Pan brioche, jamón de pavo, queso suizo, jitomate, pepinillos, cebolla, aguacate, tocino, bañado en salsa de queso, acompañado de papas chips.",
+     "price": 240,
+     "img": "27869c69-0c4a-470f-b700-d6d2a93251ed.png"
+    },
+    {
+     "name": "Crunchy",
+     "desc": "Pan brioche hecho en casa, queso crema, pera, pollo empanizado, mermelada de tocino y arúgula.",
+     "price": 240,
+     "img": "3265374b-f5ed-47ac-ad79-6e6b4b7b6fa5.png"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Enchiladas suizas",
+     "desc": "4Pz bañadas en salsa de la casa, gratinadas, rellenas de pollo, cebolla morada y aderezo chipotle.",
+     "price": 225,
+     "img": "6498ecb2-c144-4e1b-96c2-53f409505946.png"
+    },
+    {
+     "name": "Empoblanadas",
+     "desc": "4Pz bañadas en salsa poblana, gratinadas, rellenas de chicharrón prensado con rajas, elote y crema.",
+     "price": 225,
+     "img": "21bb03e7-d007-4261-8511-acd1c152d74d.png"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "4Pz bañadas en salsa de frijol, rellenas de chorizo, con queso fresco, aguacate y crema.",
+     "price": 225,
+     "img": "718116ff-6fad-4c09-a110-6ec5bbd78e60.png"
+    },
+    {
+     "name": "Enchiladas pibil",
+     "desc": "4Pz bañadas en salsa roja, gratinadas, rellenas de cochinita pibil, con cebolla habanera y crema .",
+     "price": 225,
+     "img": "0e7b16bb-779f-4b25-8d15-2ab6a52a4554.png"
+    },
+    {
+     "name": "Costras pibil",
+     "desc": "3 Tacos de cochinita con frijoles, costra de queso adobado, lechuga y cebolla habanera.",
+     "price": 225,
+     "img": "211b8265-fc19-4ad3-ab9c-67519d9a1186.png"
+    },
+    {
+     "name": "Tacos de arrachera",
+     "desc": "3 Tacos de arrachera con costra de queso adobado, guacamole y cebolla caramelizada, acompañados de salsa martajada.",
+     "price": 259,
+     "img": "2c5bf500-f349-4e21-857c-1bc307239a16.png"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "3 Crepas rellenas de pollo, bañadas en nuestro mole, con crema, queso fresco, lechuga y cebolla morada",
+     "price": 225,
+     "img": "097790bc-3e39-4582-b2c8-5e4b0d39c2d1.png"
+    }
+   ]
+  },
+  {
+   "name": "Burgers",
+   "products": [
+    {
+     "name": "Burger clásica",
+     "desc": "Carne de res 120 g. queso cheddar, lechuga, cebolla, jitomate y guarnición de papas sazonadas.",
+     "price": 225,
+     "img": "5318d6eb-d47a-442f-9351-2a9e7fbc4b71.png"
+    },
+    {
+     "name": "Burger mexa",
+     "desc": "Carne de res 120g. aros de cebolla empanizado, guacamole, queso suizo, chile frito, lechuga, jitomate y guarnición de papas sazonadas.",
+     "price": 240,
+     "img": "1cc65af0-c877-43e1-9dd4-39890e49e738.png"
+    },
+    {
+     "name": "Burger bufalo",
+     "desc": "Pechuga empanizada 120g. salsa búfalo, aderezo ranch, queso suizo, pepinillos, ensalada de col y guarnición de papas sazonadas.",
+     "price": 240,
+     "img": "62a45b5d-7287-47b2-affe-47f30c5c9ae1.png"
+    },
+    {
+     "name": "Burger ahumada",
+     "desc": "Carne de res 120 g. huevo estrellado, tocino, queso suizo, cebolla caramelizada, aguacate, salsa bbq al mezcal y guarnición de papas sazonadas. .",
+     "price": 240,
+     "img": "208c7d96-00bb-4581-95ee-144f65b78266.png"
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "120Gr de carne de res, costra de queso adobado, mermelada de tocino, arúgula y jitomate",
+     "price": 240,
+     "img": "e45b1f5a-21f3-4d41-b717-e5aeb806b18a.png"
+    },
+    {
+     "name": "Burger veggie",
+     "desc": "Portobello relleno de pimientos, pesto de tomate, queso mozzarella, lechuga, jitomate y cebolla",
+     "price": 240,
+     "img": "65b137f2-6a01-49d3-ac05-320083c71f91.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pepitos",
+   "products": [
+    {
+     "name": "Pepito fajita",
+     "desc": "Pepito de arrachera, pimientos, queso chihuahua, cebolla caramelizada, lechuga, guacamole, acompañado de papas sazonadas.",
+     "price": 240,
+     "img": "ab823256-dd64-4383-8cef-240616fe6bc2.png"
+    },
+    {
+     "name": "Pepito ranchero",
+     "desc": "Pepito de pollo a la plancha, queso suizo, germen de alfalfa, aderezo ranch, tocino, aguacate, jitomate, cebolla morada, acompañado de papas zazonadas.",
+     "price": 240,
+     "img": "37df8c65-1176-419c-b4cd-75a5df552c40.png"
+    },
+    {
+     "name": "Pepito kan",
+     "desc": "Pepito de cochinita pibil, jamón de pavo, queso cheddar, jalapeños, aguacate y lechuga acompañado de papas sazonadas .",
+     "price": 240,
+     "img": "7f146b6f-db61-45a5-9652-de641764e7dc.png"
+    },
+    {
+     "name": "Pepito choripan",
+     "desc": "Pepito de chorizo, queso, piña asada, cebolla caramelizada, chimichurri argentino, jitomate, aguacate y lechuga acompañado de papas sazonadas.",
+     "price": 240,
+     "img": "29a35554-51b3-494e-838c-a8338c9e8ebe.png"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Chaska de arrachera",
+     "desc": "Elote preparado con arrachera, chilito, queso fresco y limón.",
+     "price": 160,
+     "img": "4b2f2649-8404-4d0f-84d7-20b659f7d583.png"
+    },
+    {
+     "name": "Papas 3cielos",
+     "desc": "Papas caseras sazonadas, bañadas en salsa de 3 quesos y bacon bits .",
+     "price": 160,
+     "img": "385f1f70-1f1b-46cb-afaf-d56594ba5b2f.png"
+    },
+    {
+     "name": "Trio de chimichangas",
+     "desc": "3 Pz. rellenas de chicharrón, choriqueso, cochinita pibil con guarnición de guacamole y crema.",
+     "price": 160,
+     "img": "32fd06cd-734d-46b3-b969-c5634a2dd898.png"
+    },
+    {
+     "name": "Sampler de hamburguesas",
+     "desc": "3 Mini hamburguesas para degustar: 1 yucateca, 1 campesina y 1 clásica.",
+     "price": 160,
+     "img": "63d8e450-e3c4-4921-8b94-ce8669b4d54d.png"
+    },
+    {
+     "name": "Papas sencillas",
+     "desc": "Porción de 180g de papas preparadas y sazonadas, perfectas como acompañamiento para cualquier platillo.",
+     "price": 114,
+     "img": "2252f2f0-5bd7-4a2d-824d-3a37def57712.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada tres cielos",
+     "desc": "Mix de lechugas, espinacas, fresas, arándano, almendra tostada, queso de cabra, ajonjolí tostado y vinagreta de guajillo.",
+     "price": 225,
+     "img": "eed96f43-af87-4494-981c-5b324f1b9816.png"
+    },
+    {
+     "name": "Ensalada local",
+     "desc": "Mix de lechugas, arúgula, frutos secos, croutones, pollo a la plancha, queso parmesano y vinagreta de guayaba al vino tinto",
+     "price": 225,
+     "img": "406d260c-ffef-4f59-b7d9-d741340950df.png"
+    },
+    {
+     "name": "Ensalada mezcalina",
+     "desc": "Mix de lechugas, germen de alfalfa, pico de gallo, zanahoria, tortilla chips, arrachera, aderezo de cilantro y salsa bbq",
+     "price": 225,
+     "img": "7a49b8a8-a1fa-46d8-a1b8-9cfe6fa71cb6.png"
+    },
+    {
+     "name": "Ensalada bufalo",
+     "desc": "Mix de lechugas, pimientos, zanahoria, manchego adobado, tortilla chips, pollo empanizado, salsa búfalo y aderezo ranch",
+     "price": 225,
+     "img": "5ee7e440-c331-4d73-a0d1-fe8bf909a779.png"
+    }
+   ]
+  },
+  {
+   "name": "Pastas",
+   "products": [
+    {
+     "name": "Pasta del campo",
+     "desc": "Espaguetti o fusili en salsa pesto de tomate y cilantro, pollo a la plancha, hongos al ajillo y costras de parmesano.",
+     "price": 240,
+     "img": "adaf5419-5d8b-4a45-8eee-f53765ff9f50.png"
+    },
+    {
+     "name": "Pasta bolognesa",
+     "desc": "Espaguetti o fusili en salsa ragú, albóndigas de res, tocino y parmesano",
+     "price": 240,
+     "img": "bd17dd91-bd70-4bb7-bd5a-39ffec31d932.png"
+    },
+    {
+     "name": "Pasta poblana",
+     "desc": "Espaguetti o fusili en salsa poblana, pollo a la plancha, queso parmesano, rajas y elote.",
+     "price": 240,
+     "img": "387a71b2-997d-4724-bfac-3646ff7dbd2d.png"
+    },
+    {
+     "name": "Pasta nortena",
+     "desc": "Pasta a elección con salsa cremosa de chipotle, arrachera y chimichurri argentino",
+     "price": 240,
+     "img": "e41519dc-d88d-4b2f-aa10-b6377b6e25ef.png"
+    },
+    {
+     "name": "Pasta spicy",
+     "desc": "Espaguetti o fusili en salsa cremosa con un toque habanero, tocino, pollo empanizado y cebolla crujiente",
+     "price": 240,
+     "img": "3d67ca4a-fabc-4ca0-954f-fea5866436c1.png"
+    }
+   ]
+  },
+  {
+   "name": "Pizza",
+   "products": [
+    {
+     "name": "Pizza pepperoni",
+     "desc": "Queso mozzarella, salsa de tomate, peperonni.",
+     "price": 289,
+     "img": "e75bab63-2636-4515-b7bb-ab07c36998f9.jpeg"
+    },
+    {
+     "name": "Pizza margarita",
+     "desc": "Pizza mediana (13\") salsa de tomate, mozzarella, tomates cherry y albahaca fresca.",
+     "price": 289,
+     "img": "f33d714f-b68e-48a9-9dff-c0bed2509f7a.png"
+    },
+    {
+     "name": "Pizza maya",
+     "desc": "Pizza mediana (13\") salsa de tomate, mozzarella, cochinita pibil y cebolla habanera.",
+     "price": 289,
+     "img": "633d5f43-de83-4a37-8116-f58e8ba277ab.png"
+    },
+    {
+     "name": "Pizza 5 quesos",
+     "desc": "Pizza mediana (13\") salsa de tomate, mozzarella, queso adobado, queso de cabra, queso crema y queso chihuahua.",
+     "price": 289,
+     "img": "b3c6f1f4-0e05-49ae-aa21-e3e2d5dcb6f8.png"
+    },
+    {
+     "name": "Pizza buffalove",
+     "desc": "Pizza mediana (13\") salsa de tomate, mozzarella, pimientos, pollo empanizado, salsa búfalo y salsa de queso.",
+     "price": 289,
+     "img": "5d1ebc8e-f2f2-43d4-a6b3-fb4f0b73b0dc.png"
+    },
+    {
+     "name": "Pizza campestre",
+     "desc": "Pizza con mozzarella, salsa de tomate, hongos al ajillo y pesto de tomate.",
+     "price": 289,
+     "img": "41412ec1-67f6-4dcd-9617-f0a9a547604c.png"
+    },
+    {
+     "name": "Pizza española",
+     "desc": "Pizza con mozzarella, salsa de tomate, jamón serrano y arúgula.",
+     "price": 289,
+     "img": "17da0803-96f6-4a80-99b7-03c2eb782ce3.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Pan dulce",
+     "desc": "Pan dulce con variedad de roles de canela, rebanadas de panqué y un cuernito. Incluye uno con azúcar glass.",
+     "price": 40,
+     "img": "656db9a1-8da1-41fe-801c-3e0bef39ff1c_a.png"
+    },
+    {
+     "name": "Cheesecake local",
+     "desc": "Cheesecake de guayaba con almendras tostadas y crema de avellana.",
+     "price": 144,
+     "img": "6ffb312b-9a9d-4e4b-bb4f-9cf0e50df6eb.png"
+    },
+    {
+     "name": "Churro bowl",
+     "desc": "Churro bowl con helado de rompope, crumble de nuez y salsa de cajeta.",
+     "price": 144,
+     "img": "0b63bc6e-f0c0-4975-b1f6-7c2e740a79ce.png"
+    },
+    {
+     "name": "Tarta del cielo",
+     "desc": "Créme brulé de chocolate, peras al vino y mousse de queso crema",
+     "price": 144,
+     "img": "a43c73a5-fcbc-4b12-a4de-9a1dac5c0e09.png"
+    },
+    {
+     "name": "Francesita",
+     "desc": "Crepa frita rellena de crema de mazapán, con frutos rojos y helado de chocolate",
+     "price": 144,
+     "img": "c7fe74ac-a4ef-47c1-b113-61bfec89888d.png"
+    }
+   ]
+  },
+  {
+   "name": "Menú Infantil",
+   "products": [
+    {
+     "name": "Tenders de pollo con papas",
+     "desc": "Tenders de pollo empanizados acompañados de papas fritas.",
+     "price": 160,
+     "img": "8609f4ab-48a6-4f11-82b5-fd676259a38d.png"
+    },
+    {
+     "name": "Mini burger con papas",
+     "desc": "Mini burger con queso, lechuga, jitomate y cebolla morada, acompañada de papas en cubos.",
+     "price": 160,
+     "img": "c79b695c-454a-4f2b-8492-05330d5642b0.png"
+    },
+    {
+     "name": "Spaguetti bolognesa",
+     "desc": "Espagueti con salsa boloñesa y queso rallado.",
+     "price": 160,
+     "img": "bd17dd91-bd70-4bb7-bd5a-39ffec31d932.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Frías",
+   "products": [
+    {
+     "name": "Jugo de naranja",
+     "desc": "Jugo de naranja natural, 475 ml.",
+     "price": 79,
+     "img": "b3c75f01-afe0-47d3-8fed-5568859170f0.png"
+    },
+    {
+     "name": "Jugo tropical",
+     "desc": "Naranja, papaya y mango",
+     "price": 95,
+     "img": "27fcbc49-bd52-47ab-8c1d-e9bb1b0b4b3f.png"
+    },
+    {
+     "name": "Jugo del bosque",
+     "desc": "Jugo de naranja y frutos rojos.",
+     "price": 95,
+     "img": "682753d5-d0b7-4f62-b205-572faf8dfeff.png"
+    },
+    {
+     "name": "Jugo verde",
+     "desc": "Jugo de naranja, perejil, apio, nopal y pina 475 ml",
+     "price": 95,
+     "img": "f38f20ad-a85f-4465-8729-d568300291a8_a.png"
+    },
+    {
+     "name": "Jugo antioxidante",
+     "desc": "Jugo de naranja, betabel y pina 475 ml",
+     "price": 95,
+     "img": "a346f343-dc99-40a6-b567-b94be8246c9f.png"
+    },
+    {
+     "name": "Jugo inmunologico",
+     "desc": "Jugo de naranja, guayaba y fresa 475 ml",
+     "price": 95,
+     "img": "8a4f77d6-d8be-4e05-83f4-0908f3ce9b0c.png"
+    },
+    {
+     "name": "Licuados",
+     "desc": "Licuado a elección, 475 ml.",
+     "price": 95,
+     "img": "46d99769-fc18-45ad-ae5c-675482a4db06.png"
+    },
+    {
+     "name": "Smoothies",
+     "desc": "Smoothie de sabor a elección 475 ml",
+     "price": 119,
+     "img": "1eaa6791-6b57-48d8-9d96-2794907e19a6.png"
+    },
+    {
+     "name": "Frappés",
+     "desc": "Frappé de sabor a elección de 475 ml, con crema batida y jarabe.",
+     "price": 112,
+     "img": "b75abc8e-b607-46dc-9a0f-af32b7b69ba3.png"
+    },
+    {
+     "name": "Limonada",
+     "desc": "Limonada mineral 475ml.",
+     "price": 79,
+     "img": "64390125-2d81-490e-8100-c2cc441c0a36.png"
+    },
+    {
+     "name": "Naranjada",
+     "desc": "Naranjada mineral 475ml.",
+     "price": 79,
+     "img": "eb15cc8d-90d7-47e7-98ea-ddeb13aae5dd.png"
+    },
+    {
+     "name": "Refresco",
+     "desc": "Lata 355ml.",
+     "price": 79,
+     "img": "40d76f5a-3cd0-4d6d-a3c1-f14dcd37b353_a.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Calientes",
+   "products": [
+    {
+     "name": "Americano",
+     "desc": "Café de chiapas 355 ml.",
+     "price": 72,
+     "img": "b68a196a-1c0c-40f9-b602-5003bf5ee6ae.png"
+    },
+    {
+     "name": "Café de Olla",
+     "desc": "Café de chiapas con nuestra mezcla de especias. 375ml",
+     "price": 82,
+     "img": "90cae045-0a9b-4906-9924-d05eb7143744.png"
+    },
+    {
+     "name": "Capuchino",
+     "desc": "Café de chiapas con leche espumada y canela 355ml.",
+     "price": 94,
+     "img": "d8d6235d-3ad2-4799-942b-2b49a6ad7852.png"
+    },
+    {
+     "name": "Latte",
+     "desc": "Café de chiapas con leche espumada 355ml.",
+     "price": 94,
+     "img": "fc821014-2590-4a88-ab6c-74793590da6d.png"
+    },
+    {
+     "name": "Chocolate caliente",
+     "desc": "Chocolate de morelia con leche espumada 355ml.",
+     "price": 94,
+     "img": "823fd17a-c2d6-4ac4-b193-78f80561c4db.png"
+    },
+    {
+     "name": "Chai latte",
+     "desc": "Té de mezcla de especias, con leche espumada y canela 355ml.",
+     "price": 112,
+     "img": "f5bc7758-e9f9-4da5-81a4-eaa1ab0fda2f.png"
+    },
+    {
+     "name": "Matcha latte",
+     "desc": "Té verde con leche espumada 355ml.",
+     "price": 112,
+     "img": "c4ea9997-8290-4b7f-be65-44e7b13ea8dd.png"
+    },
+    {
+     "name": "Dirty chai",
+     "desc": "Chai latte + espresso",
+     "price": 119,
+     "img": "2aa41f70-00b7-4254-8f9b-57594c2eaaae.png"
+    }
+   ]
+  }
+ ]
+}

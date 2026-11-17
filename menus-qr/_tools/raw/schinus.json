@@ -1,0 +1,193 @@
+{
+ "id": 1930219787,
+ "brandName": "Schinus Restaurant",
+ "name": "Schinus Restaurant - Fracc Bosques del Prado Norte",
+ "address": "Sierra Fría 409, Bosques del Prado Nte., 20127 Aguascalientes, Ags., Mexico",
+ "schedule": "09:00:00 - 16:00:00",
+ "categories": "Mexicana",
+ "location": [
+  -102.3075552,
+  21.9181303
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/58fd75b3-d898-4def-93c7-e15838cefe80.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/d34c53ea-5a98-4f9b-b4ec-08c49fcd9776.png",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "16:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930219787-schinus-restaurant",
+ "menu": [
+  {
+   "name": "Combos",
+   "products": [
+    {
+     "name": "Combo Schinus 1",
+     "desc": "2 Burritos de machaca y 2 bebidas a disponibilidad.",
+     "price": 332,
+     "img": "5cc1bc33-3c69-4dd2-8222-3512b3567b5e.png"
+    },
+    {
+     "name": "Combo Schinus 2",
+     "desc": "2 Burritos de marlín y 2 bebidas a disponibilidad.",
+     "price": 353,
+     "img": "d3356357-da99-4b27-ab4a-cda22cae6de5.png"
+    },
+    {
+     "name": "Combo Schinus 3",
+     "desc": "2 Burritos de arrachera y 2 bebidas a disponibilidad.",
+     "price": 378,
+     "img": "9604f43b-cfe3-42e8-8aa2-08b820222ee0.png"
+    },
+    {
+     "name": "Combo Schinus 4",
+     "desc": "2 Burritos de camarón, 2 bebidas a disponibilidad y 2 brownies de chocolate.",
+     "price": 499,
+     "img": "367281dd-a784-451a-b077-c75abaf8cc4c.png"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Hot Cakes Naturales",
+     "desc": "3 Hot cakes con fruta de temporada, miel maple y mantequilla.",
+     "price": 86,
+     "img": "1df60bb8-a887-4b45-bb59-98473b51c5ca.png"
+    },
+    {
+     "name": "Roles de Canela",
+     "desc": "Rol de canela glaseado con mantequilla, queso crema y vainilla.",
+     "price": 29,
+     "img": "4b0a4350-3ca0-48b8-9463-58c01b00d2ca.png"
+    },
+    {
+     "name": "Machaca Ranchera",
+     "desc": "Carne de res deshebrada con cebolla, jitomate y chile poblano, acompañado de frijoles refritos, 2 quesadillas naturales y salsa de la casa.",
+     "price": 136,
+     "img": "3b647fb7-6d7b-487b-8558-b75d95bcf74d.png"
+    },
+    {
+     "name": "Tinga de Pollo",
+     "desc": "Carne de pollo desmenuzada con cebolla, salsa de jitomate y chile chipotle, acompañado de frijoles refritos y 2 quesadillas naturales.",
+     "price": 148,
+     "img": "bd79483a-45a3-4c27-9b4e-263161200eea.png"
+    },
+    {
+     "name": "Chicharrón Prensado",
+     "desc": "Chicharrón prensado con salsa verde, acompañado de frijoles refritos y 2 quesadillas naturales.",
+     "price": 159,
+     "img": "ac8b5616-db3d-4b90-9ace-c9caa7cb8a54.png"
+    }
+   ]
+  },
+  {
+   "name": "Burritos y Snacks",
+   "products": [
+    {
+     "name": "Burrito de Machaca Ranchera",
+     "desc": "Tortilla de harina con carne deshebrada de res, chile poblano, cebolla blanca, frijoles refritos, queso manchego y mayonesa, acompañado de ensalada de col, aderezo de chipotle y jalapeño.",
+     "price": 142,
+     "img": "2491b639-bc23-42e3-a80f-ff4f686abb48.png"
+    },
+    {
+     "name": "Burrito de Marlin en Escabeche",
+     "desc": "Tortilla de harina con marlín en escabeche, frijoles refritos, queso manchego y mayonesa, acompañada de ensalada de col, aderezo de chipotle y jalapeño.",
+     "price": 153,
+     "img": "ebc6fbaf-8ad8-4bb6-aa61-d430598d6b47.png"
+    },
+    {
+     "name": "Burrito de Arrachera",
+     "desc": "Tortilla de harina con arrachera guisada, pimientos marrones, cebolla morada, frijoles refritos, queso manchego y mayonesa, acompañado de ensalada de col, aderezo de chipotle y jalapeño.",
+     "price": 164,
+     "img": "ec7b72a4-a9ef-4ac3-8b25-90b3db42c99b.png"
+    },
+    {
+     "name": "Burrito de Camarón",
+     "desc": "Tortilla de harina con camarones guisados con pimientos marrones, cebolla morada, frijoles refritos, queso manchego y mayonesa, acompañado de ensalada de col, aderezo de chipotle y jalapeño.",
+     "price": 174,
+     "img": "1921daf4-d5cc-493a-a5f6-0d2805e58462.png"
+    },
+    {
+     "name": "Chicharron de Pescado",
+     "desc": "Pescado frito 330 gr con ensalada de col, puré de papa, aderezo de chipotle y jalapeño.",
+     "price": 174,
+     "img": "a4ebf3db-49d0-490e-9c41-010717bf669a.png"
+    },
+    {
+     "name": "Palomitas de Camarón Frito",
+     "desc": "Camarón 330 gr con ensalada de col, puré de papa, aderezo de chipotle y jalapeño.",
+     "price": 253,
+     "img": "5ae922e8-9462-42dd-9ad6-70efa9dac305.png"
+    }
+   ]
+  },
+  {
+   "name": "Ceviches",
+   "products": [
+    {
+     "name": "Ceviche de Pescado",
+     "desc": "Pescado cocido con pepino, jícama, cebolla morada, zanahoria, condimentos, salsa macha y tostadas, 280 gr.",
+     "price": 174,
+     "img": "2d3d5e7e-eecc-4f3e-8cf1-c149300ee6d8.png"
+    },
+    {
+     "name": "Ceviche de Camarón",
+     "desc": "Camaron cocido con pepino, jícama, cebolla morada, zanahoria, condimentos, salsa macha y tostadas, 280 gr.",
+     "price": 262,
+     "img": "a59f6987-81a1-4888-b1e6-3b1d8892197f.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Brownie de Chocolate",
+     "desc": "Brownie glaseado con cobertura de chocolate, 1 pz.",
+     "price": 52,
+     "img": "6fb4d088-bbde-4a63-b599-618a572610f1.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Pepsi 355 ml",
+     "desc": "Refrescos",
+     "price": 32,
+     "img": "973c7cce-6014-40b2-a4ac-f2433e9889ae.jpeg"
+    },
+    {
+     "name": "Manzanita Sol 355 ml",
+     "desc": "Refrescos",
+     "price": 32,
+     "img": "12b27b3e-8dd6-4fc1-a024-9b80994c95e3.jpeg"
+    },
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Refrescos",
+     "price": 40,
+     "img": "9f5f3e98-9811-4cc1-91b1-a44389ea210b.jpg"
+    },
+    {
+     "name": "7Up Original 355 ml",
+     "desc": "Refrescos",
+     "price": 32,
+     "img": "3f588e64-aada-4d69-a43d-df81f4b3c8a2.jpeg"
+    },
+    {
+     "name": "Mirinda Naranja 355 ml",
+     "desc": "Refrescos",
+     "price": 32,
+     "img": "fade27a4-c23a-4f87-9ad5-ef0abeeaa4fe.jpeg"
+    }
+   ]
+  }
+ ]
+}

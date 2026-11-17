@@ -1,0 +1,188 @@
+{
+ "id": 1923804996,
+ "brandName": "La Casa Del No Sé Qué",
+ "name": "La Casa Del No Sé Qué - Aguascalientes Centro",
+ "address": "Calle Gral. Ignacio Zaragoza 106, Zona Centro, 20000 Aguascalientes, Ags., Mexico",
+ "schedule": "09:45:00 - 20:45:00",
+ "categories": "Chilaquiles y Enchiladas · Mexicana · Desayunos y Brunch",
+ "location": [
+  -102.2901488,
+  21.8821002
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/hoem-1651000803459.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/2112137593-1651000805605.jpg",
+ "schedules": [
+  {
+   "open_time": "09:45:00",
+   "close_time": "20:45:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923804996-la-casa-del-no-se-que",
+ "menu": [
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Hotcake con Huevo",
+     "desc": "Hotcake con huevo, tocineta y miel maple, 3 piezas.",
+     "price": 145,
+     "img": "ebe1cf17-1c0e-4735-96db-f64ab573cd60.png"
+    },
+    {
+     "name": "Hotcake Sencillo",
+     "desc": "Hotcake con de miel, maple y mermelada de fresa, 3 piezas.",
+     "price": 100,
+     "img": "23e5437d-7862-410b-b796-020ca8c19ac9.png"
+    },
+    {
+     "name": "Molletes con Chilaquiles",
+     "desc": "Huevos con chicharrón en salsa roja, acompañados de frijoles y totopos.",
+     "price": 140,
+     "img": "8b16ff78-3ad8-4e7c-b68c-c56904467c75.png"
+    },
+    {
+     "name": "Chilaquiles de Pollo",
+     "desc": "Chilaquiles con salsa a elegir, acompañados de cebolla morada y queso fresco.",
+     "price": 140,
+     "img": "68996dab-6fe6-48b9-9cb4-b40e8d4c996a.png"
+    },
+    {
+     "name": "Chilaquiles Sencillos",
+     "desc": "Chilaquiles con huevo, acompañados de frijoles refritos y salsa a elegir. Incluye crema y queso.",
+     "price": 90,
+     "img": "f6902c54-1560-419a-8107-2405aeb4ca08.png"
+    },
+    {
+     "name": "Botero",
+     "desc": "Molletes sencillos con pico de gallo y salsa de molcajete. Incluyen frijoles y queso gratinado sobre pan.",
+     "price": 190,
+     "img": "c1e4d387-c254-4b2c-8d9f-3be94ea30579.png"
+    },
+    {
+     "name": "Huevos al Gusto",
+     "desc": "Baguette con lechuga, espinaca, jitomate, mayonesa, aderezo y proteína de 150 g a elegir. Incluye pepinillos.",
+     "price": 145,
+     "img": "9f10fb7b-800b-41d5-bade-193ed27eabdb.png"
+    },
+    {
+     "name": "Chilaquiles con Huevo",
+     "desc": "Latte con base de café espresso y leche vaporizada. Sabor a elegir.",
+     "price": 135,
+     "img": "9288bcc7-c6cb-4046-8313-9f15bf94300e.png"
+    },
+    {
+     "name": "Molletes Sencillos",
+     "desc": "Helado de queso con zarzamora, presentado en copa individual. 160 g.",
+     "price": 85,
+     "img": "d0c30b18-dfa2-41cb-8d3b-acd9ee489fdb.png"
+    },
+    {
+     "name": "Chilaquiles con Arrachera",
+     "desc": "Chilaquiles con pollo, salsa a elegir, cebolla morada y queso fresco.",
+     "price": 165,
+     "img": "f64cc674-1315-4677-9b86-5fc6d76d65d2.png"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada No Se Qué",
+     "desc": "Ensalada con mezcla de lechugas de temporada, espinaca, jitomate, pimientos, mezcla de nueces, semillas garapiñadas, manzana, aderezo y proteína a elegir.",
+     "price": 120,
+     "img": "9c8d9b5c-3d43-40f8-866c-a58f5c3e045f.png"
+    },
+    {
+     "name": "Ensalada Verde",
+     "desc": "Ensalada con mezcla de lechugas de temporada, espinaca, jitomate, pimientos, champiñones  y aderezo a elegir.",
+     "price": 100,
+     "img": "c9e7e7bc-e58c-4343-ab19-a5a4efbbe31d.png"
+    }
+   ]
+  },
+  {
+   "name": "Baguettes",
+   "products": [
+    {
+     "name": "Baguette No Se Qué",
+     "desc": "Baguette con arrachera de 150 gr, lechuga, espinaca, pico de gallo y guacamole.",
+     "price": 120,
+     "img": "eecf2dc1-e8e9-4044-b673-6e28b4431752.png"
+    },
+    {
+     "name": "Pepito de Arrachera",
+     "desc": "Molletes con chilaquiles en salsa roja o verde, acompañados de crema y queso.",
+     "price": 135,
+     "img": "1ca150fc-d982-488f-96c2-2564ea8f363f.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Calientes",
+   "products": [
+    {
+     "name": "Café Americano",
+     "desc": "Café americano 355 ml.",
+     "price": 55,
+     "img": "5486da92-bf7c-4c13-a5b2-44e5003cc56b.png"
+    },
+    {
+     "name": "Café de Olla",
+     "desc": "Café de olla.",
+     "price": 55,
+     "img": "d16c221b-db21-4025-a30e-fb602b8451e3.png"
+    },
+    {
+     "name": "Capuchino",
+     "desc": "Capuchino con base y sabor a elegir.",
+     "price": 75,
+     "img": "9cf04124-65ff-4cb6-915d-3a7b35280b92.png"
+    },
+    {
+     "name": "Latte",
+     "desc": "Huevos con frijoles, chilaquiles y opción de preparación e ingrediente adicional a elegir.",
+     "price": 75,
+     "img": "9eb6a095-5bf4-4d42-b5e6-4c620102a01a.png"
+    },
+    {
+     "name": "Chocolate Oaxaqueño",
+     "desc": "Chocolate oaxaqueño y base a elegir.",
+     "price": 75,
+     "img": "561ba02a-1dc7-42b8-870a-afc818226da1.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Frías",
+   "products": [
+    {
+     "name": "La Fiesta del Maíz",
+     "desc": "Bebida con chocolate, pinole, piloncillo, almendra y base a elegir.",
+     "price": 95,
+     "img": "76dc5259-a8bf-4a83-8263-87f127f92003.png"
+    },
+    {
+     "name": "Frapuccino",
+     "desc": "Frapuccino con base y sabor a elegir.",
+     "price": 100,
+     "img": "abdd8fa8-5638-48c7-9089-b0c67c95bf1a.png"
+    },
+    {
+     "name": "Chocomenta",
+     "desc": "Chocomenta con base a elegir.",
+     "price": 95,
+     "img": "a68db3e3-5fcb-487d-a26b-2ad47420bba0.png"
+    },
+    {
+     "name": "La Fiesta del Mazapán",
+     "desc": "Bebida con mazapán y base a elegir.",
+     "price": 95,
+     "img": "c9a4272d-6f9f-4135-ae42-29773d86f057.png"
+    }
+   ]
+  }
+ ]
+}

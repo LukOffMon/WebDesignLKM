@@ -1,0 +1,427 @@
+{
+ "id": 1923223011,
+ "brandName": "Restaurante de la Tierra",
+ "name": "Restaurante de la Tierra - Santa Elena 2A Sección",
+ "address": "Av. Las Américas 1602, Jardines de Santa Elena, Aguascalientes, Ags., México",
+ "schedule": "08:30:00 - 15:00:00",
+ "categories": "Chilaquiles y Enchiladas · Desayunos y Brunch",
+ "location": [
+  -102.3031856,
+  21.8646526
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-1770325186002.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1770325187483.jpg",
+ "schedules": [
+  {
+   "open_time": "08:30:00",
+   "close_time": "15:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923223011-restaurante-de-la-tierra",
+ "menu": [
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Café Americano",
+     "desc": "Café puro molido y tostado.",
+     "price": 58,
+     "img": "a0ff5a94-d77a-41d8-9a0d-8876abaf72d2.png"
+    },
+    {
+     "name": "Licuados",
+     "desc": "Bebida preparada con leche.",
+     "price": 58,
+     "img": "72e43b7e-4a3b-446a-a9ad-55e07045fc83.png"
+    },
+    {
+     "name": "Licuado energético plátano",
+     "desc": "Licuado preparado con plátano, manzana y avena. elige la fruta",
+     "price": 71,
+     "img": "7f33ff32-04da-42dd-b05a-60f4a44a8682.png"
+    },
+    {
+     "name": "Café de Olla",
+     "desc": "Café molido preparado con piloncillo, canela, chocolate y especias.",
+     "price": 58,
+     "img": "6641055c-cae4-46b7-b517-c691f51457cc.png"
+    },
+    {
+     "name": "Latte",
+     "desc": "Cremoso latte, una mezcla perfecta de café espresso y leche caliente.",
+     "price": 84,
+     "img": "7477830c-7075-4c6e-a79f-a7d86f45a7cf.jpeg"
+    },
+    {
+     "name": "Capuchino",
+     "desc": "Bebida de café con leche y espuma.",
+     "price": 84,
+     "img": "8151a7cf-d070-4192-ac18-7c1552707922.png"
+    },
+    {
+     "name": "Frapuchino",
+     "desc": "Bebida fría preparada a base de café.",
+     "price": 97,
+     "img": "ef9d791d-6e5f-4cdd-bea0-db92648ea1ed.png"
+    },
+    {
+     "name": "Jugo Verde",
+     "desc": "Jugo nutrutivo verde.",
+     "price": 58,
+     "img": "7a1625ca-37d0-434f-aafc-3ab0e3e3e672.png"
+    },
+    {
+     "name": "Smoothie de Frutos Rojos",
+     "desc": "Fresas, moras, cereza y yogurt natural de 300 ml.",
+     "price": 91,
+     "img": "d2b03c96-ff6e-4831-b633-3b25d3bceefd.png"
+    },
+    {
+     "name": "Café frío sabor del día",
+     "desc": "Café frío preparado con sabor del dia.",
+     "price": 84,
+     "img": "6b03b855-bade-470d-a852-3339e504774a.png"
+    },
+    {
+     "name": "Té Caliente",
+     "desc": "Infusión caliente. Elige el sabor",
+     "price": 32,
+     "img": "ec41ff82-61a3-4476-af42-540b6e891135.png"
+    },
+    {
+     "name": "Chocomilk",
+     "desc": "Bebida caliente con sabor a elegir.",
+     "price": 45,
+     "img": "28fff15e-9b2d-498a-afce-e20dbab7d609.png"
+    },
+    {
+     "name": "Malteada",
+     "desc": "Bebida fria con sabor a elegir",
+     "price": 84,
+     "img": "b013c515-e5cd-4667-a026-e9d78f15458f.png"
+    },
+    {
+     "name": "Agua fresca",
+     "desc": "Bebida preparada con fruta natural. elige el sabor, tamaño a elegir",
+     "price": 45,
+     "img": "c1917315-54ae-4847-9a85-b77f6dc77ce8.png"
+    },
+    {
+     "name": "Jugo de Naranja",
+     "desc": "Jugo de naranja preparado al momento.",
+     "price": 58,
+     "img": "7498d9a9-bae6-4a17-a53d-1c3633ab1b65.png"
+    },
+    {
+     "name": "Licuado energético frutos rojos",
+     "desc": "Licuado preparado con frutos rojos, avena, chía y nuez.",
+     "price": 71,
+     "img": "9d1a1585-418d-41a2-8fd3-4344ffebba0d.png"
+    },
+    {
+     "name": "Smoothie de Antioxidante",
+     "desc": "Frutos rojos yogurt natural y limon de 300 ml.",
+     "price": 97,
+     "img": "719105d2-a5d9-4ea0-8185-53ff3e00f032.png"
+    },
+    {
+     "name": "Limonada o Naranjada",
+     "desc": "Limonada o naranjada. Elige entre agua mineral o natural. Elige la preparación",
+     "price": 89,
+     "img": "44ac2f72-fcbc-40f7-a8af-7638be360051.png"
+    },
+    {
+     "name": "Piñada",
+     "desc": "Jugo de pina, crema de coco, hielo frappe",
+     "price": 110,
+     "img": "28a91b81-5d74-43aa-a5a9-c90c9a173cac.png"
+    },
+    {
+     "name": "Smoothie de Avena Saludable",
+     "desc": "Avena, manzana y yogurt natural.",
+     "price": 97,
+     "img": "f44e0025-9e20-47e4-b812-28a3d9ea5834.png"
+    },
+    {
+     "name": "Smoothie de Mango",
+     "desc": "Mango y yogurt natural de 300 ml.",
+     "price": 84,
+     "img": "d18b8e55-3b8e-4d62-82b2-dff6ff1992f7.png"
+    },
+    {
+     "name": "Smoothie de Fresa",
+     "desc": "Fresas y yogurt natural de 300 ml.",
+     "price": 84,
+     "img": "4ff92c51-68c3-4fc4-89bc-fd2c20ed26fa.png"
+    },
+    {
+     "name": "Smoothie de Coco",
+     "desc": "Crema de coco y vainilla de 300 ml.",
+     "price": 91,
+     "img": "5c8e29dd-0934-430d-987e-62fe61565db3.png"
+    }
+   ]
+  },
+  {
+   "name": "Para comenzar",
+   "products": [
+    {
+     "name": "Concha rellena",
+     "desc": "Deliciosa concha con crema batida y fresas.",
+     "price": 97,
+     "img": "865376dd-cf7f-42f1-ba14-4c44214be63b.png"
+    },
+    {
+     "name": "Concha con nata",
+     "desc": "Deliciosa concha rellena con nata y nuez",
+     "price": 97,
+     "img": "36aef745-99d8-4af7-9dfa-2388514bb8b3.png"
+    },
+    {
+     "name": "Concha Helada",
+     "desc": "Concha rellena de nieve a elegir, acompañada de crema batida. Selecciona tu sabor favorito.",
+     "price": 97,
+     "img": "c864870c-d683-4da2-b061-4ce70915aabe.png"
+    },
+    {
+     "name": "Concha rellena de cajeta",
+     "desc": "Concha rellena de cajeta con fresa y nuez.",
+     "price": 110,
+     "img": "7f2597d9-4260-4f6e-aaeb-4375e28a0c1e.png"
+    },
+    {
+     "name": "Waffles",
+     "desc": "Waffles preparados al momento. elige tu favorito",
+     "price": 117,
+     "img": "e0f3b4bc-b17e-4bcf-86f4-eb2e5e8a680d.png"
+    },
+    {
+     "name": "Manzana canela french",
+     "desc": "Pan francés bañado con salsa de manzana y canela, acompañado de una bola de nieve de vainilla.",
+     "price": 169,
+     "img": "3347a062-8160-43fa-82e9-8e149a8dbd41.jpeg"
+    },
+    {
+     "name": "Pan francés",
+     "desc": "Clasico pan frances con frutos rojos y mermelada de fresas",
+     "price": 123,
+     "img": "826d7f2e-8509-48c6-be40-377026d75b8c.png"
+    },
+    {
+     "name": "Tazón de frutas",
+     "desc": "Tazón de frutas con fresas, kiwi, piña, sandía, melón y arándanos.",
+     "price": 123,
+     "img": "845dc392-3093-4022-a147-8aeb71241f15.png"
+    },
+    {
+     "name": "Montecristo",
+     "desc": "Sandwich con mermelada relleno de jamón y quesos, bañado en mezcla de pan frances",
+     "price": 127,
+     "img": "fcb54d04-03f8-429b-8c31-bae94c00928c.png"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Croissant de espinacas y champiñones",
+     "desc": "Croissant preparado con espinacas y champiñones acompañado de una ensalada de la casa",
+     "price": 115,
+     "img": "dd49b571-672a-411f-9249-9a137b2b7566.png"
+    },
+    {
+     "name": "Quequitas",
+     "desc": "Quequitas de maíz rellenas de queso. Elige la cantidad.",
+     "price": 19,
+     "img": "92eb6b36-3a8d-4b68-b66e-89cc0f30bc19.png"
+    },
+    {
+     "name": "Platito infantil",
+     "desc": "Huevo revuelto con jamón, acompañado de frijoles refritos y queso asadero.",
+     "price": 65,
+     "img": "28c2f552-87ed-4b39-b3c8-713cc70ed121.png"
+    },
+    {
+     "name": "Chilaquiles con chicharrón de la ramos",
+     "desc": "Totopos de maíz bañados en salsa a elegir, con queso asadero, cebolla y aguacate",
+     "price": 253,
+     "img": "a5292598-a7fe-4528-826f-92e3feed57fd.png"
+    },
+    {
+     "name": "Birriaquiles",
+     "desc": "Chilaquiles con salsa de birria, carne de borrego, cebolla, crema y cilantro.",
+     "price": 240,
+     "img": "d843e16a-4fed-476c-a518-f5c53f956380.png"
+    },
+    {
+     "name": "Chilaquiles con cochinita pibil",
+     "desc": "Totopos de maíz bañados en salsa a elegir, con queso asadero, cebolla y aguacate",
+     "price": 253,
+     "img": "2299fc87-c602-458b-a33d-cee395c49509.png"
+    },
+    {
+     "name": "Chilaquiles enmolados",
+     "desc": "Totopos de maíz bañados en mole dulce, con cebolla morada y queso fresco. elige tu proteína",
+     "price": 240,
+     "img": "c57b6e5d-d1eb-4e16-8ff7-a0b689ca9ca1.png"
+    },
+    {
+     "name": "Chilaquiles con arrachera",
+     "desc": "Totopos de maíz bañados en salsa a elegir, con queso asadero, cebolla y aguacate",
+     "price": 253,
+     "img": "ddb64611-82a0-445e-bdde-f7685c4d03d6.jpeg"
+    },
+    {
+     "name": "Chilaquiles con pollo",
+     "desc": "Totopos de maíz bañados en salsa a elegir, con queso asadero, cebolla y aguacate",
+     "price": 214,
+     "img": "b665092f-638c-4dba-9bea-2ce428d72d90.jpeg"
+    },
+    {
+     "name": "Chilaquiles sencillos",
+     "desc": "Totopos de maíz con salsa a elegir, queso, cebolla, aguacate y cilantro.",
+     "price": 130,
+     "img": "03142f86-6c3f-49d5-9f10-f5735d79d041.jpeg"
+    },
+    {
+     "name": "Omelette jamón",
+     "desc": "Tortilla de huevo con jamón y queso, acompañada de frijoles refritos y chilaquiles al gusto",
+     "price": 214,
+     "img": "470dc6ed-540a-4ae5-be31-c207d4bdb5b7.png"
+    },
+    {
+     "name": "Huevos aterrados",
+     "desc": "Huevos estrellados cubiertos de tierra de tocino, acompañados de frijoles refritos y chilaquiles al gusto",
+     "price": 240,
+     "img": "cdd5bd37-7736-471d-a844-4b5ab4ffa1c9.png"
+    },
+    {
+     "name": "Huevos rancheros",
+     "desc": "Huevos estrellados sobre tortilla con jamón, bañados en salsa ranchera, acompañados de frijoles refritos y chilaquiles al gusto",
+     "price": 214,
+     "img": "b2c49d71-5549-44eb-a4ac-939497d8a597.png"
+    },
+    {
+     "name": "Croissant jamón y queso amarillo",
+     "desc": "Croissant relleno de jamón y queso amarillo. Ideal para un desayuno o merienda.",
+     "price": 115,
+     "img": "c0dcf391-0f79-4f46-a894-721fdbfdfafc.png"
+    },
+    {
+     "name": "Desayuno de la tierra",
+     "desc": "Huevos estrellados o revueltos, acompañados de frijoles refritos, chilaquiles al gusto con un corte de arrachera.",
+     "price": 279,
+     "img": "e66ac572-5cf4-432d-b09a-b20095fa31a7.png"
+    },
+    {
+     "name": "Omelette paola",
+     "desc": "Tortilla de huevo con queso, cubierta con salsa verde, acompañada de frijoles refritos y chilaquiles al gusto",
+     "price": 214,
+     "img": "370ccc81-5c2c-4b8f-a0d6-ab2f2e04b996.png"
+    },
+    {
+     "name": "Divorciados",
+     "desc": "Dos huevos estrellados cubiertos con salsa roja y salsa verde, acompañados de frijoles refritos y chilaquiles al gusto",
+     "price": 240,
+     "img": "3a63886e-50fc-4add-ac28-09834c0eb816.png"
+    },
+    {
+     "name": "Huevos al gusto",
+     "desc": "Huevos preparados al gusto, acompañados de frijoles refritos y chilaquiles al gusto.. elije",
+     "price": 214,
+     "img": "0029d829-90ff-4f8b-8814-9a51d0745622.png"
+    },
+    {
+     "name": "Omelette del monte",
+     "desc": "Tortilla de huevo con espinaca, champiñones y queso de cabra, acompañada de frijoles refritos y chilaquiles al gusto",
+     "price": 214,
+     "img": "a5ce5855-10dc-4b0d-b287-012a210a09a2.png"
+    },
+    {
+     "name": "Croissant de huevo estrellado y jamón",
+     "desc": "Croissant preparado con huevo estrellado y jamón acompañado de una ensalada de la casa",
+     "price": 115,
+     "img": "af1569d8-4939-425f-9047-9c8d5e9f2aaf.png"
+    },
+    {
+     "name": "Chilaquiles con huevo",
+     "desc": "Totopos de maíz bañados en salsa a elegir, con queso, cebolla y aguacate",
+     "price": 205,
+     "img": "67a0ab8b-0810-4d2d-b26f-6a958ce6ec32.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Enchiladas",
+   "products": [
+    {
+     "name": "Enchiladas suizas",
+     "desc": "Tortillas de maíz bañadas en salsa poblana, gratinadas con queso asadero.",
+     "price": 214,
+     "img": "9555b51d-4ac3-434e-bf37-f0d022129bb0.png"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "Tortillas de maíz bañadas en una salsa de frijoles, acompañadas aguacate, cebolla, crema y queso",
+     "price": 214,
+     "img": "75ac0755-e964-4c07-b98e-7c9fba8ede3d.jpeg"
+    },
+    {
+     "name": "Tierra mía",
+     "desc": "Enchiladas de maíz bañadas en una crema de chipotle, rellenas de arrachera",
+     "price": 279,
+     "img": "7f4ea53d-819a-4706-9186-6b12424f95a7.png"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "Tortillas de maíz bañadas en mole dulce, con topping de cebolla morada curtida. elige tu proteína",
+     "price": 240,
+     "img": "9a6af224-fc98-4593-9fc6-9f8ae2482a72.png"
+    }
+   ]
+  },
+  {
+   "name": "Molletes",
+   "products": [
+    {
+     "name": "Molletes",
+     "desc": "Bolillo tostado con frijoles refritos y queso asadero gratinado, acompañados de salsa pico de gallo. elige la proteína",
+     "price": 91,
+     "img": "032ee691-97f2-4b60-8350-d2705807d606.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos y Tortas",
+   "products": [
+    {
+     "name": "Tacos de arrachera",
+     "desc": "Tacos de maíz servidos con arrachera, acompañados de guacamole. elige la presentación, elige la cantidad",
+     "price": 58,
+     "img": "bf8afb39-44b1-411e-b9eb-5155df1419d1.png"
+    },
+    {
+     "name": "Tacos de camarón",
+     "desc": "Tacos de maíz con camarón salteado, preparados con adobo de la casa.",
+     "price": 89,
+     "img": "78794200-0f41-4f20-84e2-9390455f9e9a.png"
+    },
+    {
+     "name": "Torta de camarón",
+     "desc": "Torta ahogada de camarón salteado con salsa morita y una costra de queso (sin picante)",
+     "price": 180,
+     "img": "fc01f702-802c-47aa-827b-52be5516b868.png"
+    },
+    {
+     "name": "Torta de arrachera",
+     "desc": "Bolillo crujiente con fajitas de arrachera, jalapeños y pimientos. Ideal para disfrutar con vegetales frescos.",
+     "price": 180,
+     "img": "379432d6-8b15-4773-bb6d-c48bdaed98a4.jpeg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,794 @@
+{
+ "id": 1930313209,
+ "brandName": "Casa Tulipan Centro",
+ "name": "Casa Tulipan Centro - Aguascalientes Centro",
+ "address": "Mariano Matamoros Nte. 216, Zona Centro, 20000 Aguascalientes, Ags., México",
+ "schedule": "09:30:00 - 22:15:00",
+ "categories": "Smoothies y Jugos · Desayunos y Brunch",
+ "location": [
+  -102.3000152,
+  21.8808618
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/8749e44398bd0d7e62670cc1b930962e-1759272244461.jpg?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/1930313209_1759176892647.png",
+ "schedules": [
+  {
+   "open_time": "09:30:00",
+   "close_time": "22:15:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930313209-casa-tulipan-centro",
+ "menu": [
+  {
+   "name": "CAFÉ",
+   "products": [
+    {
+     "name": "Americano",
+     "desc": "Espresso con agua",
+     "price": 53,
+     "img": "a61580f3-8ee2-497b-8304-557385ae1749.png"
+    },
+    {
+     "name": "Expresso",
+     "desc": "Expresso sencillo",
+     "price": 40,
+     "img": "4c4d6c53-b74b-4e49-b966-f6d4248f4b0a.png"
+    },
+    {
+     "name": "EXPRESSO",
+     "desc": "Concentrado de café preparado con extracción de alta presión para una bebida intensa y pequeña porción.",
+     "price": 45,
+     "img": "4c4d6c53-b74b-4e49-b966-f6d4248f4b0a.png"
+    },
+    {
+     "name": "EXPRESSO DOBLE",
+     "desc": "Dos tomas concentradas de café recién extraído.",
+     "price": 48,
+     "img": "050c75b7-badc-4652-8a3a-ceb2277fdbbe.jpeg"
+    },
+    {
+     "name": "CORTADO",
+     "desc": "Bebida a base de café espresso con una pequeña porción de leche tibia para reducir su intensidad.",
+     "price": 40,
+     "img": "f2884a14-a116-4da9-884f-5393594a9085.jpg"
+    },
+    {
+     "name": "Latte",
+     "desc": "Bebida caliente preparada con un shot de espresso y leche vaporizada con una fina capa de espuma.",
+     "price": 80,
+     "img": "bb996272-8bf4-460d-8694-19ff4bb5b673.jpeg"
+    },
+    {
+     "name": "Latte de sabor",
+     "desc": "Latte con leche cremada y sabor a elección.",
+     "price": 85,
+     "img": "de5c7636-70c8-4a44-a97b-79a178dfe519.jpeg"
+    },
+    {
+     "name": "LATTE BAILEYS",
+     "desc": "Bebida caliente tipo café con leche con un toque de sabor a Baileys.",
+     "price": 90,
+     "img": "cdb34d78-6441-45f7-a223-67f51c6fcf47.jpeg"
+    },
+    {
+     "name": "Capuchino natural",
+     "desc": "Bebida caliente a base de espresso con leche texturizada y una capa de espuma de leche.",
+     "price": 80,
+     "img": "608436c6-667e-4d8b-93f9-de65556dc250.jpeg"
+    },
+    {
+     "name": "Capuchino de sabor",
+     "desc": "Bebida caliente a base de café espresso, leche vaporizada y espuma, con jarabe de sabor a elección.",
+     "price": 80,
+     "img": "1b470433-e0aa-4b74-a192-8961ea517f59.jpeg"
+    },
+    {
+     "name": "CAPUCHINO BAILEYS",
+     "desc": "Bebida caliente a base de espresso, leche espumada y un toque de crema de licor Baileys.",
+     "price": 90,
+     "img": "f3b5e51f-c2f2-41d3-9535-47016b1c60e0.jpeg"
+    },
+    {
+     "name": "Capuchino vienés",
+     "desc": "Café espresso con leche espumada, cubierto con crema batida y un toque de chocolate amargo",
+     "price": 90,
+     "img": "e361a9e7-3161-44e1-82a7-29cde3c5ffb1.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "NATURAL Y MINERAL",
+   "products": [
+    {
+     "name": "Coca cola",
+     "desc": "Coca-cola original",
+     "price": 55,
+     "img": "97c68193-1eb3-4462-953f-01b9435447e8.jpeg"
+    },
+    {
+     "name": "Sprite",
+     "desc": "Sprite lima limon",
+     "price": 55,
+     "img": "79143500-048f-4a73-aba1-3ab5032dbeab.jpeg"
+    },
+    {
+     "name": "Coca cola sin azucar",
+     "desc": "Coca cola sin azúcar",
+     "price": 50,
+     "img": "f21ebb3d-66f8-4a7e-95d9-37f5f4e796f3.jpeg"
+    },
+    {
+     "name": "AGUA NATURAL",
+     "desc": "Bebida refrescante sin gas, embotellada y lista para consumir, del pasillo de productos naturales.",
+     "price": 15,
+     "img": "9dba6683-5c37-4447-bbcc-b464f210a2b6.jpeg"
+    },
+    {
+     "name": "Coca cola light",
+     "desc": "Coca-cola light",
+     "price": 55,
+     "img": "8ff3a2a0-0963-4424-a040-058034015fba.jpeg"
+    },
+    {
+     "name": "AGUA MINERAL",
+     "desc": "Bebida embotellada de origen natural con minerales.",
+     "price": 55,
+     "img": "6b8a2220-acdd-441e-b87a-0abb25ec9078.jpeg"
+    },
+    {
+     "name": "AGUA MINERAL PERRIER",
+     "desc": "Agua mineral natural Perrier con intensas burbujas, ideal para refrescarse.",
+     "price": 55,
+     "img": "5809f18c-788e-4a9a-ba9e-f00c4363a8a6.jpeg"
+    },
+    {
+     "name": "JUGO DE NARANJA",
+     "desc": "Bebida fría a base de zumo natural de naranja.",
+     "price": 45,
+     "img": "7f360ba7-b01a-4e68-be1f-7d5da4de02f1.jpeg"
+    },
+    {
+     "name": "JUGO DE ARANDANO",
+     "desc": "Bebida de jugo natural a base de arándanos, proveniente del corredor de productos naturales y minerales.",
+     "price": 45,
+     "img": "974b9081-7e8a-4175-95b4-a0685aab1172.jpeg"
+    },
+    {
+     "name": "NARANJADA NATURAL O MINERAL",
+     "desc": "Bebida refrescante de naranja preparada con agua natural o mineral.",
+     "price": 55,
+     "img": "21a4fcf9-658f-4104-835d-5bdbfc121167.jpeg"
+    },
+    {
+     "name": "Rusa",
+     "desc": "Bebida refrescante a base de agua mineral natural con un toque de sal y limón.",
+     "price": 55,
+     "img": "b89e3566-716e-42a2-972d-650783124f69.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "MALTEADAS",
+   "products": [
+    {
+     "name": "MALTEADA CHOCOLATE",
+     "desc": "Bebida fría tipo malteada con el clásico y dulce sabor a chocolate.",
+     "price": 85,
+     "img": "9338cfcc-c78f-45da-8079-52afa7352c17.jpeg"
+    },
+    {
+     "name": "MALTEADA OREO",
+     "desc": "Bebida fría tipo malteada de leche con sabor y trozos de galleta de chocolate Oreo, perteneciente a la sección de bebidas preparadas.",
+     "price": 95,
+     "img": "cb206abf-b3b8-4fb3-9cbd-411635189b13.jpeg"
+    },
+    {
+     "name": "MALTEADA CHOCOLATE",
+     "desc": "Bebida fría tipo malteada con sabor a chocolate.",
+     "price": 85,
+     "img": "54e65590-b38c-43ff-9389-92fe0f49512d.jpeg"
+    },
+    {
+     "name": "MALTEADA OREO",
+     "desc": "Bebida fría tipo batido espeso (milkshake) con sabor y trozos de galleta Oreo.",
+     "price": 95,
+     "img": "e110bd91-3040-40d2-9b8f-97f7d4f73ad7.jpeg"
+    },
+    {
+     "name": "MALTEADA VAINILLA",
+     "desc": "Batido cremoso de leche, helado y sabor a vainilla, servido frío.",
+     "price": 85,
+     "img": "59280ba8-3ffe-472d-b460-614a0ef4d4f9.jpeg"
+    },
+    {
+     "name": "MALTEADA VAINILLA",
+     "desc": "Batido cremoso a base de leche y helado, con el clásico y refrescante sabor a vainilla.",
+     "price": 85,
+     "img": "70e23c02-cdcd-46c9-956b-966d47c08ef1.jpeg"
+    },
+    {
+     "name": "MALTEADA CAFÉ",
+     "desc": "Malteada fría con sabor a café, elaborada a base de leche y helado.",
+     "price": 95,
+     "img": "7679fd18-15c1-440a-bcc8-6500d6461c78.jpeg"
+    },
+    {
+     "name": "MALTEADA FERRERO",
+     "desc": "Malteada fría con sabor y notas de chocolate, inspirada en el bombón Ferrero.",
+     "price": 95,
+     "img": "692db328-bf54-412f-aaec-786b4eb0873b.jpeg"
+    },
+    {
+     "name": "MALTEADA CAJETA",
+     "desc": "Malteada fría y cremosa con el distintivo sabor a cajeta.",
+     "price": 90,
+     "img": "0fd822f4-b65a-40bd-8ffa-4652e76f9387.jpeg"
+    },
+    {
+     "name": "MALTEADA CAFÉ",
+     "desc": "Batido frío a base de leche y helado con sabor a café, clasificado dentro de la sección de malteadas.",
+     "price": 90,
+     "img": "4c2f7cb2-2399-414d-9e8b-b0c33e8776ca.jpeg"
+    },
+    {
+     "name": "MALTEADA FRESA",
+     "desc": "Bebida fría tipo malteada con sabor a fresa.",
+     "price": 85,
+     "img": "44dd2878-3b09-49a8-9449-be50a66361d3.jpeg"
+    },
+    {
+     "name": "MALTEADA FERRERO",
+     "desc": "Malteada fría con sabor a Ferrero, una bebida de la categoría batidos.",
+     "price": 95,
+     "img": "bb465560-67a1-472a-9ee7-0aeb82ed9bd5.jpeg"
+    },
+    {
+     "name": "MALTEADA CAJETA",
+     "desc": "Bebida fría tipo batido preparada con sabor a cajeta.",
+     "price": 90,
+     "img": "33085439-4ea9-4c34-91f5-1f0ea1722e00.jpeg"
+    },
+    {
+     "name": "Malteada",
+     "desc": "Bebida con leche y helado",
+     "price": 90,
+     "img": "a2337f31-3a6b-42c6-8806-b89a20ab0d61.jpeg"
+    },
+    {
+     "name": "Malteada de ferrero",
+     "desc": "Leche, helado y ferreros",
+     "price": 95,
+     "img": "9564d160-c68b-451f-8ce3-b6c001a23fab.jpeg"
+    },
+    {
+     "name": "Malteada de cafe",
+     "desc": "Bebida de leche con helado, un shot de cafe.",
+     "price": 95,
+     "img": "3b3049d7-dd12-49e8-a4ba-64c3b304dcb9.jpeg"
+    },
+    {
+     "name": "Malteada de cajeta",
+     "desc": "Leche, helado y cajeta",
+     "price": 95,
+     "img": "81107646-3a7c-41e5-9cb9-ca6383cffd89.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pastas",
+   "products": [
+    {
+     "name": "Bolognesa",
+     "desc": "Espagueti con salsa bolognesa de pomodoro, carne molida y queso parmesano.",
+     "price": 145,
+     "img": "8211b109-a62a-4da7-9c44-7e694bb3159a.png"
+    },
+    {
+     "name": "Pasta de salmon",
+     "desc": "Pasta con salmón, crema, vino blanco y albahaca.",
+     "price": 155,
+     "img": "99f55823-d2ef-4ace-9121-05dd06da8649.jpeg"
+    },
+    {
+     "name": "Al pesto con pollo",
+     "desc": "Pasta con pollo a la parrilla, pesto y queso parmesano.",
+     "price": 145,
+     "img": "4704426c-6a77-4e58-9f44-3862ad429dc8.jpeg"
+    },
+    {
+     "name": "Pasta mar y tierra",
+     "desc": "Pasta con jamón serrano, camarones, salsa pomodoro y queso parmesano.",
+     "price": 135,
+     "img": "a62b5109-bf40-48e5-9874-0b39365b4211.jpeg"
+    },
+    {
+     "name": "Pasta pomodoro",
+     "desc": "Pasta con salsa de tomate, albahaca y queso parmesano.",
+     "price": 130,
+     "img": "2dd70335-6fdf-4f2d-aba8-110028c7990f.png"
+    },
+    {
+     "name": "Pasta trufa con champiñones",
+     "desc": "Pasta con salsa de trufa, champiñones y láminas de parmesano.",
+     "price": 155,
+     "img": "7da5964a-95d6-49fe-a6ae-ffc2a7503d04.jpeg"
+    },
+    {
+     "name": "Pasta alfredo",
+     "desc": "Pasta con salsa alfredo, crema, jamón de pavo y champiñones, decorada con queso rallado.",
+     "price": 135,
+     "img": "68e46344-e827-417a-8fcd-e8c71a493bd4.png"
+    },
+    {
+     "name": "3 Quesos",
+     "desc": "Parmesano, provolone, queso manchego y salsa blanca",
+     "price": 135,
+     "img": "08e9d6c0-ee4c-4d28-bbbb-d042d60e6b50.png"
+    }
+   ]
+  },
+  {
+   "name": "Tabla De Quesos Y Carnes Frias",
+   "products": [
+    {
+     "name": "Tabla de quesos y carnes frias",
+     "desc": "Deliciosa mezcla de carnes frias y quesos para compartir.",
+     "price": 228,
+     "img": "9be1c165-0d5f-4e6f-b88f-372a258b84ed.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada clásica",
+     "desc": "Lechuga, jitomate, pepino, pimientos, aceitunas negras, pollo o pechuga de pavo.",
+     "price": 145,
+     "img": "ddef0307-854f-4d1e-97bf-803d67aad30b.png"
+    },
+    {
+     "name": "Ensalada de la casa",
+     "desc": "Lechuga, espinacas, jitomate, jamon serrano, costra de parmesano y vinagreta de pesto.",
+     "price": 155,
+     "img": "7b272c49-b93e-4f0f-b533-ba08113e2f19.jpeg"
+    },
+    {
+     "name": "Ensalada tropical",
+     "desc": "Lechuga, espinacas, mango, kiwi y queso parmesano.",
+     "price": 145,
+     "img": "a8d80a67-d874-4a60-8f47-942b2535e79e.png"
+    },
+    {
+     "name": "Ensalada otono",
+     "desc": "Espinaca, uva, fresa, pera, queso de cabra y vinagreta de frutos rojos.",
+     "price": 145,
+     "img": "bea07d8f-7b9d-4821-a9cf-500687532e2d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Papas",
+   "products": [
+    {
+     "name": "Francesa",
+     "desc": "Papas a la francesa doradas y crujientes.",
+     "price": 110,
+     "img": "56ee8d5e-9325-4398-8743-13cdb787ede2.png"
+    },
+    {
+     "name": "Gajo",
+     "desc": "Papas gajo acompañadas de queso amarillo.",
+     "price": 110,
+     "img": "34174748-9ddd-4cd7-af4e-c45e5abfc76d.png"
+    },
+    {
+     "name": "Papas arrachera",
+     "desc": "Papas a la francesa o gajo acompanadas de guacamole, pico de gallo, queso amarillo y arrachera.",
+     "price": 190,
+     "img": "7b2f465f-e063-4d9a-96e6-0c69b5059b9a.png"
+    },
+    {
+     "name": "Papas bbq",
+     "desc": "Papas a la francesa o gajo acompanadas de queso amarillo, tocino, champinones y salsa bbq.",
+     "price": 175,
+     "img": "c4c17d28-d753-4c83-a499-38f9fc773243.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Crepas Saladas",
+   "products": [
+    {
+     "name": "Crepa de salami con queso provolone",
+     "desc": "Salami, queso provolone y manchego.",
+     "price": 125,
+     "img": "c6a1416b-9b9c-4737-90dd-304e21d8acac.png"
+    },
+    {
+     "name": "Crepa de jamón de pavo y queso crema",
+     "desc": "Jamón de pavo, queso crema y queso manchego.",
+     "price": 125,
+     "img": "c6a1416b-9b9c-4737-90dd-304e21d8acac.png"
+    },
+    {
+     "name": "Crepa 3 quesos",
+     "desc": "Manchego, provolone y parmesano.",
+     "price": 105,
+     "img": "c6a1416b-9b9c-4737-90dd-304e21d8acac.png"
+    },
+    {
+     "name": "Crepa de jamón serrano y pimientos",
+     "desc": "Jamón serrano, pimientos y queso manchego.",
+     "price": 125,
+     "img": "c6a1416b-9b9c-4737-90dd-304e21d8acac.png"
+    },
+    {
+     "name": "Vegetariana",
+     "desc": "Champinones, calabaza, pimientos, espinacas y jitomate, cubierta de queso manchego.",
+     "price": 115,
+     "img": "c6a1416b-9b9c-4737-90dd-304e21d8acac.png"
+    }
+   ]
+  },
+  {
+   "name": "Sandwich",
+   "products": [
+    {
+     "name": "Club sandwich",
+     "desc": "Club sandwich con pollo, tocino, jamón de pavo, lechuga y ensalada rusa. Acompañado de salsa.",
+     "price": 170,
+     "img": "2c016a1e-d92a-45a4-b8a1-fd44bee8a09e.png"
+    },
+    {
+     "name": "Sandwich",
+     "desc": "Pan de caja, queso manchego, pimientos, jitomate, pepino y lechuga.",
+     "price": 135,
+     "img": "a5af465e-0a9b-455a-81de-a99a93519e2d.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Pan de elote",
+     "desc": "Casero pan de elote",
+     "price": 60,
+     "img": "aff7bc31-46d9-43cf-a767-596b9b47a779.png"
+    },
+    {
+     "name": "Pay de manzana",
+     "desc": "Rebanada de pay de manzana con relleno jugoso y corteza dorada.",
+     "price": 75,
+     "img": "9796386c-b80b-417d-809d-7466b6087a29.png"
+    },
+    {
+     "name": "Cheesecake",
+     "desc": "Cheesecake con cobertura de fresa y crema batida.",
+     "price": 85,
+     "img": "28b4fe65-b858-4073-ab6e-4465e0a9a574.png"
+    },
+    {
+     "name": "Pastel baileys",
+     "desc": "Pastel con sabor a Baileys, decorado con crema batida y cacao en polvo.",
+     "price": 85,
+     "img": "bf71f99e-55ea-4765-aade-b8b05d86cd73.png"
+    },
+    {
+     "name": "Galletas surtidas",
+     "desc": "Galletas surtidas de nuez y mantequilla. Incluye 10 piezas.",
+     "price": 45,
+     "img": "3ee7b496-8b7f-4167-b1a1-6916b915f624.png"
+    },
+    {
+     "name": "Pastel de chocolate",
+     "desc": "Pastel de chocolate con capas de crema y cobertura de chocolate.",
+     "price": 85,
+     "img": "889af240-0441-45a1-a2d8-2be157af106f.png"
+    },
+    {
+     "name": "Helado doble",
+     "desc": "Helado doble con sabores de chocolate y vainilla, decorado con chocolate líquido.",
+     "price": 70,
+     "img": "7f74e69a-c859-44e7-b9f8-aa0d047202a0.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Hamburguesas",
+   "products": [
+    {
+     "name": "Buffalo con pollo",
+     "desc": "Pechuga a la plancha bañada en salsa buffalo, cebolla, pepinillos, jitomate y lechuga, incluye papas.",
+     "price": 175,
+     "img": "4691f663-fffa-4e84-8f79-5021645bc41b.png"
+    },
+    {
+     "name": "Hamburguesa de camarón",
+     "desc": "Cebolla morada, pepinillos, jitomate y lechuga y camarones, incluye papas.",
+     "price": 175,
+     "img": "93c25dc4-02a8-4697-a640-cf6be13fb599.png"
+    },
+    {
+     "name": "Hamburguesa de la casa",
+     "desc": "Acompañada de cebolla morada, tocino, pepinillos, jitomate y lechuga, incluye papas.",
+     "price": 175,
+     "img": "e1ca50ae-c964-453a-93d2-2ec69b76ba0e.png"
+    },
+    {
+     "name": "Portobello",
+     "desc": "Portobello, queso provolone, germen, espinaca, cebolla morada caramelizada, jitomate y pepino, incluye papas.",
+     "price": 140,
+     "img": "f798520b-ba56-4714-b1a8-c91150711cc3.png"
+    },
+    {
+     "name": "Trio de mini burguer",
+     "desc": "Mini hamburguesas de res, pollo y salmon, con espinacas, germen, pepino, tocino y aderezo ranch.",
+     "price": 165,
+     "img": "1ceb3f36-7b3a-4384-9149-cffd812cf68c.png"
+    }
+   ]
+  },
+  {
+   "name": "Bisquets",
+   "products": [
+    {
+     "name": "Bisque dulce",
+     "desc": "Crema o mantequilla endulzada para untar, perfecta para acompañar tus bisquets.",
+     "price": 70,
+     "img": "3ec1ae92-2b45-4c1d-98ff-b4956fd12750.jpeg"
+    },
+    {
+     "name": "Bisquet salado",
+     "desc": "Bisquet con peperoni, lechuga, aguacate y aceituna negra.",
+     "price": 100,
+     "img": "f7ac07ad-4205-4c94-a4ae-56c46c785626.png"
+    }
+   ]
+  },
+  {
+   "name": "Baguette",
+   "products": [
+    {
+     "name": "Roast Beef",
+     "desc": "Pan Integral Con Champinones O Chipotle Costra De Queso Manchego, Lechuga, Jitomate, Pepino, Pimiento, Aceituna Negra, Queso Manchego Y Aderezo Al Gusto.",
+     "price": 162,
+     "img": "3b0f32bf-4f29-46a7-8e1c-71bae7fa94fe.jpeg"
+    },
+    {
+     "name": "Jamon serrano",
+     "desc": "Pan integral con champinones o chipotle costra de queso manchego, lechuga, jitomate, pepino, pimiento, aceituna negra, queso manchego y aderezo al gusto.",
+     "price": 145,
+     "img": "8f2c160a-dfc1-4808-bbaa-674960a3b111.png"
+    },
+    {
+     "name": "Selva negra",
+     "desc": "Pan integral con champinones o chipotle costra de queso manchego, lechuga, jitomate, pepino, pimiento, aceituna negra, queso manchego y aderezo al gusto.",
+     "price": 145,
+     "img": "aef9ef88-a187-4ac4-90a1-4f24ff6a70f3.png"
+    },
+    {
+     "name": "Peperoni",
+     "desc": "Pan integral con champiñones, lechuga, jitomate, pepino, pimiento, aceituna negra, queso manchego y aderezo al gusto.",
+     "price": 162,
+     "img": "cdb73a9d-ad06-4989-98c6-d31a85f1ae7d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Crepas Dulces",
+   "products": [
+    {
+     "name": "2 Ingredientes",
+     "desc": "Ingredientes a elegir",
+     "price": 100,
+     "img": "f0f6c478-7f5f-4f78-9a19-0dbdc128c096.png"
+    },
+    {
+     "name": "1 Ingrediente",
+     "desc": "1 ingrediente a elegir para tu postre.",
+     "price": 85,
+     "img": "4bfb7725-2703-400f-8702-06bc10dc9295.png"
+    },
+    {
+     "name": "3 Ingredientes",
+     "desc": "Crepa dulce con elección de 3 ingredientes. Imagen muestra fresas, manzana y kiwi, con helado y crema batida.",
+     "price": 130,
+     "img": "2e6b3f4b-333d-4adc-87b9-605a142eea67.png"
+    }
+   ]
+  },
+  {
+   "name": "Tapas",
+   "products": [
+    {
+     "name": "4 Tapas",
+     "desc": "Tapas con delicioso pan de finas hiervas, queso crema y jamón serrano.",
+     "price": 100,
+     "img": "4971664f-a558-472a-be25-3dbaa1c457d4.jpeg"
+    },
+    {
+     "name": "Tapas mixtas",
+     "desc": "Deliciosas tapas, con pan de finas hiervas, queso crema, van mixtas: jamón serrano, champiñones, selva negra, salami y aderezo al gusto.",
+     "price": 190,
+     "img": "4bfc59f3-f2a2-492d-9bcb-10fc1dd72a44.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Ice cream soda vainilla",
+     "desc": "Coca y helado de vainilla",
+     "price": 95,
+     "img": "de01b8b2-f862-4fd1-a7ab-fcbbf6429e1c.jpeg"
+    },
+    {
+     "name": "Chai manzana canela",
+     "desc": "Bebida caliente de chai con notas de manzana y canela, preparada con leche.",
+     "price": 85,
+     "img": "a28415a9-b0cd-446b-9dce-2a2f62c01e11.jpeg"
+    },
+    {
+     "name": "Ice cream soda limon",
+     "desc": "Helado de limón y sprite",
+     "price": 95,
+     "img": "a4df7d84-adc1-4222-9111-6c9b800383e7.jpeg"
+    },
+    {
+     "name": "Velvet frio o caliente",
+     "desc": "Bebida con leche sabor vainilla con un toque de chocolate blanco.",
+     "price": 80,
+     "img": "62ebd4e1-97d1-4013-81a0-6ad2f50231aa.jpeg"
+    },
+    {
+     "name": "Dirty chai",
+     "desc": "Chai combinado con leche y un shot de café espresso.",
+     "price": 95,
+     "img": "a2e8d877-273c-436b-b5a1-1ca8dc78fc97.jpeg"
+    },
+    {
+     "name": "Te helado",
+     "desc": "Infusion frio",
+     "price": 35,
+     "img": "e9cdcd85-617a-406e-bb54-46c807f6da8e.jpeg"
+    },
+    {
+     "name": "Smoothie",
+     "desc": "Smoothie de sabor frutal",
+     "price": 95,
+     "img": "a0b28683-66c5-4032-9330-ef6290da9996.jpeg"
+    },
+    {
+     "name": "Tisana fria o caliente",
+     "desc": "Infusión de hierbas con fruta seca, preparada para servirse a la temperatura de su elección: fría o caliente.",
+     "price": 85,
+     "img": "450e3fdd-5d68-4f25-91e4-5d9875e6cf80.jpeg"
+    },
+    {
+     "name": "Malteada",
+     "desc": "Bebida con leche y helado",
+     "price": 90,
+     "img": "a2337f31-3a6b-42c6-8806-b89a20ab0d61.jpeg"
+    },
+    {
+     "name": "Mojito frappe",
+     "desc": "Vino blanco, agua mineral, y fruta.",
+     "price": 95,
+     "img": "0200f1a2-8962-42c0-93df-97ab3b979d66.jpeg"
+    },
+    {
+     "name": "Malteada de cafe",
+     "desc": "Bebida de leche con helado, un shot de cafe.",
+     "price": 95,
+     "img": "3b3049d7-dd12-49e8-a4ba-64c3b304dcb9.jpeg"
+    },
+    {
+     "name": "Malteada de ferrero",
+     "desc": "Leche, helado y ferreros",
+     "price": 95,
+     "img": "9564d160-c68b-451f-8ce3-b6c001a23fab.jpeg"
+    },
+    {
+     "name": "Te chai original",
+     "desc": "Bebida caliente a base de infusión de té con especias, preparada con leche.",
+     "price": 85,
+     "img": "67ca6f9a-78c0-4401-9de9-e2b1c72fdb88.jpeg"
+    },
+    {
+     "name": "Malteada de cajeta",
+     "desc": "Leche, helado y cajeta",
+     "price": 95,
+     "img": "81107646-3a7c-41e5-9cb9-ca6383cffd89.jpeg"
+    },
+    {
+     "name": "Chocolate caliente o frio",
+     "desc": "Preparado con Chocolate Abuelita y servido espumoso, puedes elegir esta bebida caliente o fría.",
+     "price": 80,
+     "img": "54c585bc-a537-494f-880d-394d2ef772a6.jpeg"
+    },
+    {
+     "name": "Soda italiana",
+     "desc": "Fruta, jarabe y agua mineral.",
+     "price": 70,
+     "img": "049a814a-3124-4cb8-834c-2b944212f8f1.jpeg"
+    },
+    {
+     "name": "Te",
+     "desc": "Infusión preparada con hojas secas en agua caliente o con hielo para una bebida refrescante.",
+     "price": 35,
+     "img": "e4609352-1924-422b-b299-73904dff36f5.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Enchiladas verdes de pollo",
+     "desc": "Enchiladas verdes rellenas de pollo.",
+     "price": 135,
+     "img": "baa6a7c4-3bd2-459f-99d8-2b839db467bd.jpeg"
+    },
+    {
+     "name": "Omelette al gusto",
+     "desc": "Incluye queso manchego, frijoles y pan",
+     "price": 110,
+     "img": "750f8ed2-f15d-4f06-867f-c86f8ba78f70.jpeg"
+    },
+    {
+     "name": "Chilaquiles sencillos",
+     "desc": "Totopos de maíz con salsa, crema y queso desmoronado. Incluye pan.",
+     "price": 105,
+     "img": "03bc801c-4920-47f3-b319-8fc7bd9e9b77.jpeg"
+    },
+    {
+     "name": "Chilaquiles pibil",
+     "desc": "Chilaquiles, con cochinita, frijoles, pan, queso y crema.",
+     "price": 165,
+     "img": "c3d1ee6f-782d-49ad-bdc0-fa06cf34eb25.jpeg"
+    },
+    {
+     "name": "Molletes 4pz",
+     "desc": "Pan, frijoles, queso manchego y pico de gallo",
+     "price": 95,
+     "img": "f11568c4-e456-47cf-90cd-5b98545867a4.jpeg"
+    },
+    {
+     "name": "Fajitas de pollo",
+     "desc": "Fajitas de pollo con pechuga, pimientos, cebolla y salsas negras. Incluye moras visibles.",
+     "price": 145,
+     "img": "b618ec37-c4e3-420f-bd46-5f405a55fd8c.jpeg"
+    },
+    {
+     "name": "Enfrijoladas de pollo",
+     "desc": "Tortillas de maíz bañadas en salsa de frijol con un relleno abundante de pollo deshebrado.",
+     "price": 140,
+     "img": "c95657c0-4d0e-440b-8eaa-f336715758e6.jpeg"
+    },
+    {
+     "name": "Waffle 2 ingredientes",
+     "desc": "Dos piezas de Waffle para el desayuno, servidas con la elección de dos ingredientes adicionales.",
+     "price": 135,
+     "img": "2ed88a56-b350-43cd-8549-65ad0c90b25a.jpeg"
+    },
+    {
+     "name": "Pan frances",
+     "desc": "Acompañado de fresas, helado, miel de mapple, canela, azúcar y mermelada de la casa.",
+     "price": 110,
+     "img": "222d8a70-ee35-49d3-831e-aaa5d3e80c17.jpeg"
+    },
+    {
+     "name": "Huevos al gusto",
+     "desc": "Huevos preparados al gusto, acompañados de frijoles y pan.",
+     "price": 105,
+     "img": "5115ae27-21e6-4e8e-b0ed-f5e9d0ec5060.jpeg"
+    }
+   ]
+  }
+ ]
+}

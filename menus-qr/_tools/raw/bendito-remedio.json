@@ -1,0 +1,270 @@
+{
+ "id": 1923249414,
+ "brandName": "Bendito Remedio",
+ "name": "Bendito Remedio - Fraccionamiento Las Américas",
+ "address": "av de la convencion de 1914 sur 315 las americas 20230 aguascalientes ags mexico",
+ "schedule": "09:00:00 - 16:00:00",
+ "categories": "Barbacoa y Birria · Tacos",
+ "location": [
+  -102.2976621,
+  21.8661627
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/fbdaefee-296c-49ac-90b3-e1eceebf31c7-1663593142894.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/benditoremediocover-1782325048082.png",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "16:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923249414-bendito-remedio",
+ "menu": [
+  {
+   "name": "Paquetes con descuento",
+   "products": [
+    {
+     "name": "5 Tacos dorados de birria de res+consomé",
+     "desc": "5 Tacos dorados de birria de res+ consomé",
+     "price": 199,
+     "img": "071bbae9-1c31-4cbe-a27d-a35868db3770.jpeg"
+    },
+    {
+     "name": "Birriamen + bebida",
+     "desc": "Ramen cocido acompañado de birria, cebolla picada, cilantro, chile serrano y salsa a elegir + agua de sabor",
+     "price": 179.2,
+     "img": "6d2fdbfa-73d1-403a-acf4-798f1dc438b2_a.png"
+    },
+    {
+     "name": "5 Tacos dorados + bebida",
+     "desc": "5 Tacos dorados con birria de res + agua de sabor a elegir",
+     "price": 195.3,
+     "img": "5d03f054-d979-4225-902e-c3fc51695048_a.png"
+    }
+   ]
+  },
+  {
+   "name": "Comparte con tu mascota",
+   "products": [
+    {
+     "name": "5 tacos + paws",
+     "desc": "Llévate 5 tacos de birria de res y para que tu mascota te acompañe, lleva un producto deshidratado totalmente natural",
+     "price": 240,
+     "img": ""
+    },
+    {
+     "name": "birriamen + paws",
+     "desc": "Llévate un birriamen y para que tu mascota lleva 1 producto deshidratado totalmente natural",
+     "price": 210,
+     "img": ""
+    },
+    {
+     "name": "birriaquiles + paws",
+     "desc": "Llévate unos birriaquiles y para que tu mascota te acompañe, producto deshidratado de tu elección totalmente natural",
+     "price": 230,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Tacos ",
+   "products": [
+    {
+     "name": "Taco Dorado Ahogado",
+     "desc": "Taco duro de birria,  ahogado en nuestra salsa morita o chipotle.",
+     "price": 42,
+     "img": "5e1d1476-a528-4282-9133-88ea96da807d.jpeg"
+    },
+    {
+     "name": "Taco Dorado",
+     "desc": "Taco duro de birria con cebolla picada, cilantro, chile serrano y salsa roja a elegir.",
+     "price": 35,
+     "img": "5e1d1476-a528-4282-9133-88ea96da807d_a.png"
+    },
+    {
+     "name": "Taco Blando",
+     "desc": "Taco blando de birria con cebolla picada, cilantro, chile serrano y salsa a elegir.",
+     "price": 35,
+     "img": "bb38e53f-8589-4d99-9d64-fc1c76059c82.jpeg"
+    },
+    {
+     "name": "Taco Blando Ahogado",
+     "desc": "Taco blando de birria,  ahogado en nuestra salsa morita o chipotle.",
+     "price": 42,
+     "img": "bb38e53f-8589-4d99-9d64-fc1c76059c82_a.png"
+    },
+    {
+     "name": "el Rinconero",
+     "desc": "Taco de chile güero, relleno de birria y queso.",
+     "price": 47,
+     "img": "4fa3b45a-eb69-4d61-821f-b1f017798363.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta birria",
+     "desc": "Torta de birria con cebolla picada, cilantro, chile serrano y salsa a elegir.",
+     "price": 105,
+     "img": "ae3f27fe-6335-4b74-8829-2dc49e2e5863_a.png"
+    },
+    {
+     "name": "Torta Birria Ahogada",
+     "desc": "Torta de birria  ahogada en nuestra salsa morita o chipotle.",
+     "price": 130,
+     "img": "371c5e37-5ecd-44d2-a49a-bca8179dc501.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla birria",
+     "desc": "Quesadilla de birria con tortilla de harina, cebolla picada, cilantro, chile serrano y salsa a elegir.",
+     "price": 86,
+     "img": "dc6f1668-d4ec-4da9-b5fe-a2743490ac6e.png"
+    },
+    {
+     "name": "Quesadilla Birria Ahogada",
+     "desc": "Quesadilla de birria con tortilla de harina grande, ahogada en nuestra salsa morita o chipotle.",
+     "price": 111,
+     "img": "61ee7575-42b0-4e8c-9501-9ed8ed40a23a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Burritos ",
+   "products": [
+    {
+     "name": "Burro de Birria Ahogado",
+     "desc": "Burrito relleno de frijoles charros y birria; cubierto con una costra de queso y ahogado en nuestra salsa morita o chipotle.",
+     "price": 163,
+     "img": "fa61afa8-98c5-4a81-9497-f181443db57b.jpeg"
+    },
+    {
+     "name": "Burro de birria",
+     "desc": "Burrito relleno de frijoles charros y birria; cubierto de una costra de queso.",
+     "price": 138,
+     "img": "d198df7d-990b-49aa-8ac2-1f237eef77e0.png"
+    }
+   ]
+  },
+  {
+   "name": "Birriaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles sencillos",
+     "desc": "Chilaquiles sencillos bañados en la salsa de tu elección. Con queso, crema y frijoles. Puedes agregar huevo.",
+     "price": 135,
+     "img": "6e5e7fe0-c646-4035-b0c8-1aced3c49e81.png"
+    },
+    {
+     "name": "Birriaquiles",
+     "desc": "Birriaquiles con salsa a elegir, acompañados de queso, crema y huevo estrellado.",
+     "price": 165,
+     "img": "9c38257b-05a0-4944-afa6-ecad85cf6867.png"
+    }
+   ]
+  },
+  {
+   "name": "Remedios",
+   "products": [
+    {
+     "name": "Birriamen",
+     "desc": "Ramen cocido acompañado de birria, cebolla picada, cilantro, chile serrano y salsa a elegir.",
+     "price": 145,
+     "img": "69dfb1e0-d673-4b8b-b75c-ebca294cf8de.png"
+    },
+    {
+     "name": "1/2 Birriamen",
+     "desc": "1/2 Birriamen con fideos, carne de birria deshebrada, cebolla y cilantro.",
+     "price": 85,
+     "img": "846c1963-bd82-4992-b295-e97a5f4a7384.png"
+    },
+    {
+     "name": "Consomé de birria",
+     "desc": "Consomé de birria con cebolla y cilantro picados.",
+     "price": 45,
+     "img": "58e51c5a-1f4b-4be5-bcfb-4255789bfd34.png"
+    }
+   ]
+  },
+  {
+   "name": "Mollete",
+   "products": [
+    {
+     "name": "El whitexican",
+     "desc": "Mollete con frijoles puercos, costra de queso y nuestro ingrediente estrella... birria.",
+     "price": 99,
+     "img": "90526f74-3ff3-4571-adad-c65b681af57b.png"
+    }
+   ]
+  },
+  {
+   "name": "Postre",
+   "products": [
+    {
+     "name": "Churro Bites",
+     "desc": "8 Churro Bites rellenos, con opciones de chocolate, cajeta y crema blanca.",
+     "price": 99,
+     "img": "1af53ec6-72f0-47a8-8511-ef5952f8dd91.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas ",
+   "products": [
+    {
+     "name": "Refresco",
+     "desc": "Refresco, como Coca-Cola (450 ml), Sprite (400 ml) y Fanta (400 ml).",
+     "price": 62,
+     "img": "5a7789ad-6f76-401d-becb-c9abda53f95f.png"
+    },
+    {
+     "name": "Agua Fresca",
+     "desc": "Agua Fresca del sabor de tu elección, servida con hielo.",
+     "price": 49,
+     "img": "97112b00-2fa0-4030-a218-e9dbb0db4a5a.png"
+    }
+   ]
+  },
+  {
+   "name": "Cervezas",
+   "products": [
+    {
+     "name": "Stella Artois 355 ml",
+     "desc": "Stella Artois 355 ml. Cerveza Lager importada de Bélgica.",
+     "price": 62,
+     "img": "017d34a9-5b14-4980-93ed-8d7883efa9ba_a1.png"
+    },
+    {
+     "name": "Modelo Especial Lata 355 ml",
+     "desc": "Modelo Especial en lata de 355 ml, con 4.5% Alc. Vol.",
+     "price": 57,
+     "img": "1867fb46-2d64-4023-960a-21c8d2095b9a.jpeg"
+    },
+    {
+     "name": "Michelob Ultra 330 ml",
+     "desc": "Cerveza Michelob Ultra de 330 ml, Superior Light Beer.",
+     "price": 62,
+     "img": "0a3b1400-323c-480b-bfbc-3eb502d4522e.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Churro Bites Rellenos",
+     "desc": "8 piezas de Churro Bites Rellenos de tu sabor favorito, cubiertos de azúcar.",
+     "price": 109,
+     "img": "91753b3b-fb52-46fd-a7ee-1612d26d42e2_a.png"
+    }
+   ]
+  }
+ ]
+}

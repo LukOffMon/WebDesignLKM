@@ -1,0 +1,418 @@
+{
+ "id": 1306718364,
+ "brandName": "Ragazzi",
+ "name": "Ragazzi - Fracc Trojes de Oriente 1ra Seccion",
+ "address": "Blvd Luis Donaldo Colosio Murrieta 602, Plaza Arcos Campestre Local 7, Villas de San Nicolás, CP 20115 Aguascalientes, Ags",
+ "schedule": "14:00:00 - 21:00:00",
+ "categories": "Italiana · Fine Dining y Gourmet",
+ "location": [
+  -102.300693,
+  21.925383
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-edit-1615475579478.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mxragazzii-1669412004535.jpg",
+ "schedules": [
+  {
+   "open_time": "14:00:00",
+   "close_time": "21:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1306718364-ragazzi",
+ "menu": [
+  {
+   "name": "BEBIDAS",
+   "products": [
+    {
+     "name": "JARRA LIMONADA",
+     "desc": "JARRA LIMONADA",
+     "price": 264,
+     "img": "4c9b16ca-3a5b-4e3b-aef0-4816e4b6da66_a.png"
+    },
+    {
+     "name": "LIMONADA",
+     "desc": "LIMONADA",
+     "price": 68,
+     "img": "88270920-dcb9-41a9-b10c-179c3647192f_a2.png"
+    },
+    {
+     "name": "NARANJADA",
+     "desc": "NARANJADA",
+     "price": 68,
+     "img": "88270920-dcb9-41a9-b10c-179c3647192f_a.png"
+    },
+    {
+     "name": "PIÑADA",
+     "desc": "Bebida fría de piña.",
+     "price": 120,
+     "img": "88270920-dcb9-41a9-b10c-179c3647192f_a1.png"
+    },
+    {
+     "name": "FRAPPE FRUTOS ROJOS",
+     "desc": "Bebida fría a base de frutos rojos. Ideal para refrescarte.",
+     "price": 165,
+     "img": "d763690c-b81f-4c4a-a713-7bad40318278_a.png"
+    }
+   ]
+  },
+  {
+   "name": "CAFE",
+   "products": [
+    {
+     "name": "AMERICANO CASA",
+     "desc": "AMERICANO CASA",
+     "price": 72,
+     "img": "aee71713-834a-46bc-9a03-9d4441f0ebf1_a.png"
+    },
+    {
+     "name": "CAPUCHINO O LATTE",
+     "desc": "Capuchino o Latte con leche vaporizada, arte latte y un toque de cacao.",
+     "price": 95,
+     "img": "5f47489f-efb6-411b-bc59-89adbd880b40.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "ENSALADAS",
+   "products": [
+    {
+     "name": "CESAR AUGUSTOS",
+     "desc": "Ensalada César con pechuga de pollo, crutones y aderezo cremoso.",
+     "price": 285,
+     "img": "e981e213-8360-488c-843d-42dec90280ab_a212.png"
+    },
+    {
+     "name": "ENSALADA CAPRESSE",
+     "desc": "Ensalada fresca con mozzarella, tomates cherry y albahaca, aderezada con aceite de oliva.",
+     "price": 275,
+     "img": "14541d2427484a9bbea55543163d9ae6.png"
+    },
+    {
+     "name": "ENSALADA MONA LISA",
+     "desc": "ENSALADA MONA LISA con mezcla de lechugas, jitomate deshidratado, aguacate, cebolla, almendras y aderezo.",
+     "price": 275,
+     "img": "2c7c827a-3087-4e72-9b9f-69308a9ab558_a136.png"
+    },
+    {
+     "name": "INSALATA BEATRICE",
+     "desc": "Ensalada Beatrice con pollo a la parrilla, aguacate y nueces, todo sobre una cama de espinacas.",
+     "price": 285,
+     "img": "9943f533db824391bac27884f15c494e.png"
+    },
+    {
+     "name": "INSALATA DA VINCI",
+     "desc": "INSALATA DA VINCI con mezcla de lechugas, tomates cherry, aguacate, cebolla, almendras y aderezo balsámico.",
+     "price": 285,
+     "img": "2c7c827a-3087-4e72-9b9f-69308a9ab558_a134.png"
+    },
+    {
+     "name": "INSALATA DOLCE",
+     "desc": "INSALATA DOLCE. Ensalada dulce con frutas frescas, nueces y un toque de miel.",
+     "price": 206,
+     "img": "1eaa57dfcf2f4ac4ac888426fd828b6d.png"
+    },
+    {
+     "name": "INSALATA MEDITERRANEA",
+     "desc": "INSALATA MEDITERRANEA con lechuga, tomate cherry, pepino, cebolla morada, aceitunas, queso feta y pimientos asados.",
+     "price": 275,
+     "img": "4e8feea2-65f2-4aca-9d50-f40f95619dcf_a26.png"
+    }
+   ]
+  },
+  {
+   "name": "ENTRADAS",
+   "products": [
+    {
+     "name": "CALAMARES FRITOS",
+     "desc": "Calamares fritos con limón y salsa.",
+     "price": 278,
+     "img": "6df58932-c2fa-41a8-9001-49d6b6272923_a.png"
+    },
+    {
+     "name": "CARPACCIO DI MANZO (RES)",
+     "desc": "Carpaccio de res con láminas de champiñones, queso y hojas verdes. Incluye aderezo.",
+     "price": 310,
+     "img": "c95b9159-0cd4-4794-b524-630de9021481.png"
+    },
+    {
+     "name": "CARPACCIO DI SALMONE",
+     "desc": "Carpaccio de salmón fresco sobre una cama de lechugas mixtas, acompañado de rodajas de limón.",
+     "price": 330,
+     "img": "7fce771e-2b5b-4ada-9256-f5584ce850d2_a.png"
+    },
+    {
+     "name": "COZZE - MEJILLONES",
+     "desc": "COZZE - MEJILLONES",
+     "price": 265,
+     "img": "2088c61d-23f5-44db-bbc0-c833d39ba337_a.png"
+    },
+    {
+     "name": "FUNGHI AL AJILLO",
+     "desc": "Champiñones al ajillo con perejil.",
+     "price": 240,
+     "img": "4fc7b61b-a69c-4f22-ab05-d32196cb5fea_a.png"
+    },
+    {
+     "name": "PAPAS FRITAS",
+     "desc": "Papas fritas cortadas en bastones.",
+     "price": 275,
+     "img": "660b8df5-417c-4fb5-8d9b-c5bf1b62fa44_a.png"
+    },
+    {
+     "name": "PATATE ALL AMERICANA",
+     "desc": "PATATE ALL AMERICANA. Platillo frito acompañado de limón y salsa para dipear.",
+     "price": 275,
+     "img": ""
+    },
+    {
+     "name": "PROVOLONE",
+     "desc": "Queso provolone gratinado con especias, servido en cazuela de barro.",
+     "price": 250,
+     "img": "ed402e90-9ce1-416c-b1c2-5335a4628aa7_a.png"
+    },
+    {
+     "name": "TABLA DE QUESOS Y CARNES FRIAS",
+     "desc": "Selección de quesos y carnes frías con uvas, fresas y moras.",
+     "price": 590,
+     "img": "ca8df8d1-d458-4f90-860f-36365c48618a_a.png"
+    }
+   ]
+  },
+  {
+   "name": "PANINIS",
+   "products": [
+    {
+     "name": "PANINI EMILIANA",
+     "desc": "Panini con vegetales asados, queso derretido y albahaca.",
+     "price": 228,
+     "img": "8d9ae323-cb35-4ebb-a224-1cf6a440aa55.png"
+    },
+    {
+     "name": "PANINI LIGERO",
+     "desc": "Panini ligero prensado con jamón, salami y lechuga.",
+     "price": 216,
+     "img": "afc88fd2-d1b5-479a-af1d-698e541c0591_a20.png"
+    },
+    {
+     "name": "PANINI NORUEGO",
+     "desc": "Panini noruego con salmón ahumado, crema de queso y eneldo.",
+     "price": 280,
+     "img": "6346ae5868d84653ac534b2750ee47f6.png"
+    },
+    {
+     "name": "PANINI ORTA",
+     "desc": "PANINI ORTA con vegetales asados (cebolla morada, calabacita, pimiento, tomate), queso derretido y pesto.",
+     "price": 265,
+     "img": "8d9ae323-cb35-4ebb-a224-1cf6a440aa55.png"
+    },
+    {
+     "name": "PANINI ROAS BEEF",
+     "desc": "Panini con marcas de parrilla, relleno de carne asada, quesos derretidos y aderezos.",
+     "price": 228,
+     "img": "14af4509af2a4f8f825f429efbfb193c.png"
+    },
+    {
+     "name": "PANINI SUBMARINO ITALIANO",
+     "desc": "PANINI SUBMARINO ITALIANO con vegetales asados: tomate, calabacita, cebolla morada y pimiento. Lleva queso derretido, pesto y albahaca en pan tostado.",
+     "price": 216,
+     "img": "8d9ae323-cb35-4ebb-a224-1cf6a440aa55.png"
+    }
+   ]
+  },
+  {
+   "name": "PASTA",
+   "products": [
+    {
+     "name": "FETUCCINE BOLOÑESA",
+     "desc": "Fetuccini servido con una rica salsa boloñesa de carne.",
+     "price": 235,
+     "img": "4d7a5e72-6e40-4861-851d-b05566c61a99.jpeg"
+    },
+    {
+     "name": "FETUCCINI ALFREDO",
+     "desc": "Fetuccini con salsa Alfredo de crema, espolvoreado con perejil y pimienta.",
+     "price": 240,
+     "img": "7c272929-e021-4349-adbf-4ada87a6a514_a123.png"
+    },
+    {
+     "name": "FETUCCINI BOSCAIOLA",
+     "desc": "Fettuccini Boscaiola con champiñones y salsa cremosa, decorado con perejil y pimienta negra.",
+     "price": 260,
+     "img": "7c272929-e021-4349-adbf-4ada87a6a514_a122.png"
+    },
+    {
+     "name": "LASAGNA",
+     "desc": "Capas de pasta intercaladas con carne, salsa y queso gratinado.",
+     "price": 285,
+     "img": "0e9a51a7-1ce6-4f1e-823a-406bae807af4_a28.png"
+    },
+    {
+     "name": "PENNE 4 FORMAGGI",
+     "desc": "Penne 4 Formaggi. Pasta penne en salsa de cuatro quesos, espolvoreada con pimienta.",
+     "price": 275,
+     "img": "93bec9cf-4228-42f1-ac40-457355668324.jpeg"
+    },
+    {
+     "name": "PENNE ARRABIATA",
+     "desc": "Penne en salsa picante de tomate, ajo y guindilla.",
+     "price": 225,
+     "img": "93bec9cf-4228-42f1-ac40-457355668324.jpeg"
+    },
+    {
+     "name": "PESTO",
+     "desc": "Salsa italiana a base de albahaca, piñones y aceite de oliva.",
+     "price": 240,
+     "img": ""
+    },
+    {
+     "name": "POMODORO",
+     "desc": "Pasta al pomodoro, servida con salsa de tomate natural y albahaca fresca.",
+     "price": 216,
+     "img": "ccd93d7f-c4be-4364-9104-260639940734_a24.png"
+    },
+    {
+     "name": "SP AUGUSTOS",
+     "desc": "SP AUGUSTOS, pasta penne y fusilli con salsa roja, verde y crema.",
+     "price": 330,
+     "img": "f083adb13c3b4de1952b2f392433f102.png"
+    },
+    {
+     "name": "SPAGHETTI GAMBERI E ARUGULA",
+     "desc": "Espaguetis al dente con camarones salteados y rúcula, aderezados con aceite de oliva y limón.",
+     "price": 315,
+     "img": "c1b23d080d7a407db4a6f4c7c7ecc0a7.png"
+    },
+    {
+     "name": "TAGLIATELLE AL TARTUFO",
+     "desc": "Tagliatelle en una cremosa salsa de trufa.",
+     "price": 380,
+     "img": "e2bd99c5ae314b05a95d0b02deda9f4d.png"
+    }
+   ]
+  },
+  {
+   "name": "PIZZA",
+   "products": [
+    {
+     "name": "PIZZA 4 QUESOS",
+     "desc": "PIZZA 4 QUESOS",
+     "price": 326,
+     "img": "1cb3555f-223f-4b87-881a-0dbf81607217_a.png"
+    },
+    {
+     "name": "PIZZA 4 STAGIONI",
+     "desc": "PIZZA 4 STAGIONI",
+     "price": 295,
+     "img": "0783b4c4-eb5f-4745-bcf2-527e2ad5ee87_a4.png"
+    },
+    {
+     "name": "PIZZA CAMPESTRE",
+     "desc": "PIZZA CAMPESTRE",
+     "price": 345,
+     "img": "0783b4c4-eb5f-4745-bcf2-527e2ad5ee87_a2.png"
+    },
+    {
+     "name": "PIZZA HAWAIANA",
+     "desc": "Pizza Hawaiana con piña, jamón y queso sobre una base de salsa de tomate.",
+     "price": 265,
+     "img": "30c44019-45c4-4818-b13d-147bcf267441.jpeg"
+    },
+    {
+     "name": "PIZZA MARGHERITA",
+     "desc": "Pizza Margherita con base de tomate y queso mozzarella.",
+     "price": 265,
+     "img": "0783b4c4-eb5f-4745-bcf2-527e2ad5ee87_a.png"
+    },
+    {
+     "name": "PIZZA MARTINO",
+     "desc": "Pizza con pepperoni, queso y salsa de tomate.",
+     "price": 328,
+     "img": "0783b4c4-eb5f-4745-bcf2-527e2ad5ee87_a5.png"
+    },
+    {
+     "name": "PIZZA NORDIKA",
+     "desc": "PIZZA NORDIKA con salsa de tomate, pepperoni y queso fundido.",
+     "price": 391,
+     "img": "0783b4c4-eb5f-4745-bcf2-527e2ad5ee87_a3.png"
+    },
+    {
+     "name": "PIZZA PARMA",
+     "desc": "Pizza con pepperoni y queso fundido.",
+     "price": 290,
+     "img": "0783b4c4-eb5f-4745-bcf2-527e2ad5ee87_a6.png"
+    },
+    {
+     "name": "PIZZA PEPERONI",
+     "desc": "Pizza Peperoni con salsa de tomate, queso derretido y base crujiente.",
+     "price": 265,
+     "img": "0783b4c4-eb5f-4745-bcf2-527e2ad5ee87_a7.png"
+    },
+    {
+     "name": "PIZZA PROSCIUTO",
+     "desc": "Pizza con pepperoni y queso sobre base de salsa de tomate.",
+     "price": 265,
+     "img": "0783b4c4-eb5f-4745-bcf2-527e2ad5ee87_a1.png"
+    },
+    {
+     "name": "PIZZA PROSCIUTO E FUNGHI",
+     "desc": "Pizza con prosciutto y champiñones, cubierta de queso y salsa de tomate.",
+     "price": 265,
+     "img": "0783b4c4-eb5f-4745-bcf2-527e2ad5ee87_a8.png"
+    },
+    {
+     "name": "PIZZA RAGAZZI",
+     "desc": "SALAMI, JOMON, SALCHICHA ITALIANA, PIMIENTO, CEBOLLA, ACEITUNA NEGRA Y CHILE JALAPEÑO",
+     "price": 314,
+     "img": "0783b4c4-eb5f-4745-bcf2-527e2ad5ee87.png"
+    },
+    {
+     "name": "PIZZA VEGETARIANA",
+     "desc": "Pizza vegetariana con calabacita, jitomates cherry y queso.",
+     "price": 265,
+     "img": "402f700a-d9cb-4c0e-8fe2-52102bd9a179_a1.png"
+    }
+   ]
+  },
+  {
+   "name": "PLATO FUERTE",
+   "products": [
+    {
+     "name": "PETTI DI POLLO ALLA ROMANA",
+     "desc": "Pechuga de pollo a la romana, con guarnición de verduras asadas y gajo de limón.",
+     "price": 414,
+     "img": "ec6427bd-b816-4cd1-a286-3353ad9aeb67_a.png"
+    },
+    {
+     "name": "RIB EYE 450 GR",
+     "desc": "Rib eye de 450 gramos.",
+     "price": 636,
+     "img": "f315a40d-1e76-479b-857e-32dd05a30be4_a.png"
+    },
+    {
+     "name": "SALMON A LAS FINAS HIERBAS",
+     "desc": "Salmón con finas hierbas, acompañado de espárragos y jitomates cherry.",
+     "price": 475,
+     "img": "3da00cac-c903-4c31-bf99-85dd88241e04_a.png"
+    }
+   ]
+  },
+  {
+   "name": "POSTRE",
+   "products": [
+    {
+     "name": "PASTEL CHOCOLATE",
+     "desc": "Rebanada de pastel de chocolate decorada con fresas y flores comestibles.",
+     "price": 210,
+     "img": "c4e61038-b709-413d-bdef-5176bf852cca_a.png"
+    },
+    {
+     "name": "TIRAMISU",
+     "desc": "TIRAMISU con fresas, moras y cacao en polvo.",
+     "price": 210,
+     "img": "b664dd20-a858-4bcc-a2bf-c36d0bad98b8_a.png"
+    }
+   ]
+  }
+ ]
+}

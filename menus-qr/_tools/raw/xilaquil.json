@@ -1,0 +1,270 @@
+{
+ "id": 1306713762,
+ "brandName": "Xilaquil",
+ "name": "Xilaquil - Fracc Jardines de la Concepcion II",
+ "address": "Av. Independencia #1820, Int. 1, Col. Jardines de la Concepción, Primera Sección, CP 20120, Aguascalientes, Aguascalientes, México",
+ "schedule": "08:20:00 - 14:00:00",
+ "categories": "Chilaquiles y Enchiladas · Desayunos y Brunch",
+ "location": [
+  -102.298103,
+  21.921022
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/1306713762-1551464655.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mxxilaquil-1671630260812.jpg",
+ "schedules": [
+  {
+   "open_time": "08:20:00",
+   "close_time": "14:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1306713762-xilaquil",
+ "menu": [
+  {
+   "name": "Enchiladas ",
+   "products": [
+    {
+     "name": "Enfrijoladas",
+     "desc": "Rellenas de pollo o queso, bañadas en nuestra salsa de frijol.",
+     "price": 120.15,
+     "img": "dcb746c5-fe84-4823-9504-c267d388c4c8.png"
+    },
+    {
+     "name": "Enxiladas",
+     "desc": "Rellenas de pierna de cerdo, bañadas en salsa verde cremosa (van gratinadas).",
+     "price": 165,
+     "img": "489c789a-f920-400b-987d-2998d1f11cb3.jpeg"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "Rellenas De Pollo O Queso, Banadas En Nuestra Salsa De Fridol",
+     "price": 113,
+     "img": "6dcc90c9-faf0-4963-a813-581a145f53d2.png"
+    },
+    {
+     "name": "Verdes Mex",
+     "desc": "Rellenas de queso o pollo,bañadas en salsa verde con receta ancestral.",
+     "price": 164,
+     "img": "489c789a-f920-400b-987d-2998d1f11cb3.jpeg"
+    },
+    {
+     "name": "Hidrocalidas",
+     "desc": "Cuatro enchiladas rellenas de pollo banadas en mole rojo con un toque de guayaba .",
+     "price": 170,
+     "img": "7d43da2e-223a-4835-94c8-938f75484ab4.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Huevos",
+   "products": [
+    {
+     "name": "Huevos Rancheros",
+     "desc": "Dos huevos estrellados sobre tortilla y frijoles bañados en salsa a elección acompañados de pico de gallo.",
+     "price": 96.9,
+     "img": "bea4be52-83a9-437d-9fde-46e6a7dc8ec2.jpeg"
+    },
+    {
+     "name": "Huevos Revueltos",
+     "desc": "Huevos revueltos acompañados de frijoles refritos.",
+     "price": 86.8,
+     "img": "2bc3f895-8829-41c9-9084-6c57e538c496.png"
+    },
+    {
+     "name": "Huevos Ligeros",
+     "desc": "Deliciosos huevos estrellados en base de nopal asado acompañado con frijolitos refritos .",
+     "price": 132,
+     "img": "c132477a-fc99-4e37-9004-a1188a2b84c6.png"
+    },
+    {
+     "name": "Omelette Al Gusto",
+     "desc": "Omelette acompañado de frijoles refritos.",
+     "price": 86.8,
+     "img": "696460bc-1a25-4b59-8eae-2841e6c54893.png"
+    },
+    {
+     "name": "Huevos Divorciados",
+     "desc": "Acompañados de frijoles refritos.",
+     "price": 116,
+     "img": "87e1602e-5654-4905-9870-9f62d9d0daaf.png"
+    }
+   ]
+  },
+  {
+   "name": "Promociones",
+   "products": [
+    {
+     "name": "Combo Enxiladas + Refresco Gratis",
+     "desc": "Enchiladas con salsa, crema y cebolla morada. Incluye refresco gratis.",
+     "price": 213,
+     "img": "933a2cf7-acd2-4e00-9011-d2b119b62b4a.png"
+    },
+    {
+     "name": "Concha Rellena + Café Americano",
+     "desc": "Concha rellena + café americano",
+     "price": 160,
+     "img": "03367ab0-b66c-4b10-8815-e4bf2e5717aa.png"
+    },
+    {
+     "name": "Combo Xilaquil",
+     "desc": "2 Chilaquiles medianos, 2 jugos sencillos a elegir.",
+     "price": 296,
+     "img": "03367ab0-b66c-4b10-8815-e4bf2e5717aa.png"
+    },
+    {
+     "name": "3 X 2 Chilaquiles Medianos",
+     "desc": "Promoción 3x2 en chilaquiles medianos con salsa, crema, queso, cebolla y cilantro.",
+     "price": 270,
+     "img": "ec4213a8-1a12-4819-b245-8480c76b4797.png"
+    },
+    {
+     "name": "Chilaquiles Medianos + Refresco Gratis",
+     "desc": "Chilaquiles medianos acompañados de un refresco gratis.",
+     "price": 107.75,
+     "img": "03367ab0-b66c-4b10-8815-e4bf2e5717aa.png"
+    },
+    {
+     "name": "Chilaquiles Medianos Sencillos + Agua Del Dia Gratis",
+     "desc": "Chilaquiles medianos sencillos acompañados de agua del día gratis.",
+     "price": 186,
+     "img": "03367ab0-b66c-4b10-8815-e4bf2e5717aa.png"
+    }
+   ]
+  },
+  {
+   "name": "Antojería",
+   "products": [
+    {
+     "name": "la Teco",
+     "desc": "Torta de chilaquiles con cebolla morada y queso.",
+     "price": 105,
+     "img": "6bfc62a2-e46a-457e-b4b8-db0f36737ee4.png"
+    },
+    {
+     "name": "Molletes",
+     "desc": "Dos molletes acompañados de frijoles gratinados con queso manchego y acompañados de pico de gallo.",
+     "price": 105,
+     "img": "294bae78-be3a-4f8a-be2f-84285a6fe439.png"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles Grandes",
+     "desc": "Chilaquiles sencillos acompañados de crema, queso fresco, cebolla y cilantro.",
+     "price": 99.2,
+     "img": "928e9afc-2088-4813-8f39-5cada575a87a.png"
+    },
+    {
+     "name": "Chilaquiles Medianos",
+     "desc": "Chilaquiles sencillos acompañados de crema, queso fresco, cebolla y cilantro.",
+     "price": 92.25,
+     "img": "ec4213a8-1a12-4819-b245-8480c76b4797.png"
+    },
+    {
+     "name": "Chilaquiles Chicos",
+     "desc": "Totopos bañados en tu salsa favorita con crema, queso fresco, cilantro y cebolla morada.",
+     "price": 84.5,
+     "img": "9dd57418-44b4-4a27-a7af-ced681f91eba.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Panadería/Postrecitos ",
+   "products": [
+    {
+     "name": "Conchas Rellenas",
+     "desc": "Conchas dulces con opción de elegir el relleno.",
+     "price": 90,
+     "img": "4b5aafbc-501e-4972-a861-3b659d0ecdfd.png"
+    },
+    {
+     "name": "Bolillo",
+     "desc": "Bolillo cortado para acompañar nuestros platillos .",
+     "price": 20,
+     "img": "a085c0ca-99e2-4f23-a254-762016513042.jpeg"
+    },
+    {
+     "name": "Conchas",
+     "desc": "Concha de vainilla con cobertura crujiente. Ideal para acompañar con café o leche.",
+     "price": 36,
+     "img": "2424bf64-2511-436d-8812-c7dcd6dc719a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Jugo Sencillo",
+     "desc": "Elige el sabor de tu jugo sencillo.",
+     "price": 65,
+     "img": "ba510958-c880-45d6-8483-a19b92bcd871.png"
+    },
+    {
+     "name": "Chocolate",
+     "desc": "Chocolate caliente con malvaviscos.",
+     "price": 65,
+     "img": "447a8ee9-5242-4691-a08f-90cf519ce4c4.png"
+    },
+    {
+     "name": "Café",
+     "desc": "Café americano.",
+     "price": 68,
+     "img": "59896207-3fff-4f6f-bcac-f0e12dbc4be6.png"
+    },
+    {
+     "name": "Matcha Latte",
+     "desc": "Matcha latte.",
+     "price": 93,
+     "img": "957720da-27ab-48e2-b61b-aca4fa49ed7c.png"
+    },
+    {
+     "name": "Agua Del Día",
+     "desc": "Agua del día con hielo. Sabor y color pueden variar.",
+     "price": 48,
+     "img": "b391886b-26ad-453a-8c0b-bd2ee5fe2b48.png"
+    },
+    {
+     "name": "Tropical",
+     "desc": "Plátano, fresa y naranja.",
+     "price": 73,
+     "img": "f5e90bf8-2b7c-4592-9e83-54d05d03cc7d.jpeg"
+    },
+    {
+     "name": "Vida",
+     "desc": "Piña,apio,perejil y toronja.",
+     "price": 73,
+     "img": "5680c674-5412-4d50-ba19-98a7794441dd.png"
+    },
+    {
+     "name": "Agua Mineral",
+     "desc": "Agua mineral de 355ml.",
+     "price": 48,
+     "img": "e053872d-d256-4215-91a5-31c99177a946.jpg"
+    },
+    {
+     "name": "Coca-Cola Original 330 ml",
+     "desc": "Refrescos",
+     "price": 48,
+     "img": "dfeb866f-3047-487c-a811-50d12b933e87.jpeg"
+    },
+    {
+     "name": "Moradito",
+     "desc": "Frutos del bosque, naranja y miel.",
+     "price": 76,
+     "img": "25db062e-fa17-44d5-8868-1dae3214ae60.png"
+    },
+    {
+     "name": "Vita C",
+     "desc": "Naranja, guayaba, miel, piña, limón y jengibre.",
+     "price": 73,
+     "img": "cbbef01e-1bb1-4a66-8f32-669bf2936ce7.png"
+    }
+   ]
+  }
+ ]
+}
