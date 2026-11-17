@@ -1,0 +1,331 @@
+{
+ "id": 1923228595,
+ "brandName": "Pachita Restaurante",
+ "name": "Pachita Restaurante - Zona Club Deportivo",
+ "address": "Blvd. Jorge Vértiz Campero 172, Club Loyola, 37287 León, Gto., México",
+ "schedule": "08:00:00 - 17:15:00",
+ "categories": "Mexicana · Chilaquiles y Enchiladas · Desayunos y Brunch",
+ "location": [
+  -101.630301,
+  21.122469
+ ],
+ "city": "León",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/pachita-logo1-1590692522535.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/ad0d0d9e-4410-44ef-90ca-9404fa7f11cc-1787173164905.png",
+ "schedules": [
+  {
+   "open_time": "08:00:00",
+   "close_time": "17:15:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923228595-pachita-restaurante",
+ "menu": [
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Chilaquiles",
+     "desc": "Tradicionales chilaquiles mexicanos con salsa a elegir: roja o verde.",
+     "price": 118.2,
+     "img": "d665bb23-1fc3-4469-8502-d3baeb573847.png"
+    },
+    {
+     "name": "Chilaquiles con huevo o pollo",
+     "desc": "Chilaquiles con opción de huevo o pollo, acompañados de cebolla y queso.",
+     "price": 130.2,
+     "img": "789a9a94-14e0-4a85-8f90-3b1f70ebb2c0.png"
+    },
+    {
+     "name": "Chile relleno de queso",
+     "desc": "1 Pza de chile poblano capeado relleno de queso 90 grs. bañado en salsa de jitomate acompañado de ensalada y arroz",
+     "price": 157.8,
+     "img": "2d589b04-a137-4d66-a500-48e7bf8f710f.png"
+    },
+    {
+     "name": "Huevos rancheros",
+     "desc": "Huevos estrellados montados sobre una tortilla, bañados con salsa ranchera, acompañados de frijoles refritos.",
+     "price": 118.2,
+     "img": "3c11b03f-bd20-4360-a8a9-db1640ffc75f.png"
+    },
+    {
+     "name": "Huevos divorciados",
+     "desc": "Huevos divorciados acompañados de frijoles.",
+     "price": 118.2,
+     "img": "0a663841-39e8-4145-8d26-2ed7e40a905d.png"
+    },
+    {
+     "name": "Huevos a la mexicana",
+     "desc": "Huevos a la mexicana acompañados de frijoles.",
+     "price": 101.4,
+     "img": "3f80224d-4448-4994-a153-6a4716b8fa1d.png"
+    },
+    {
+     "name": "Omelette vegetariano",
+     "desc": "Claras de huevo con espinacas, champiñones, cebolla y queso panela con una guarnición de ensalada.",
+     "price": 145.8,
+     "img": "f5636582-1038-4074-a0fb-ba9d46cf65b0.png"
+    },
+    {
+     "name": "Tamal de queso con guisado",
+     "desc": "Tamal oaxaqueño con guisado a elegir:",
+     "price": 130.2,
+     "img": "6ea358b4-79cc-4885-b118-10b8e144478c.png"
+    },
+    {
+     "name": "Hot cakes",
+     "desc": "3 piezas de hot cakes servidos con fresas y un trozo de mantequilla.",
+     "price": 78,
+     "img": "d8992926-1809-4fa1-aebe-c8637122bd38.png"
+    },
+    {
+     "name": "Chilaquiles en salsa de chicharron",
+     "desc": "Delicios chilaquiles en salsa de chicharrón acompañados de crema, queso fresco, cilantro y frijoles refritos.",
+     "price": 145.8,
+     "img": "581b6519-101c-4c93-9342-8373bdd938ad.png"
+    },
+    {
+     "name": "Chilaquiles arcoíris",
+     "desc": "Disfruta de 3 chilaquiles en un mismo platillo; rojo, verde y mole acompañados de cebolla morada, cilantro, frijoles refritos y queso fresco.",
+     "price": 173.4,
+     "img": "4794aebc-1aca-4fd8-a00b-e08cf5b29692.png"
+    },
+    {
+     "name": "Huevos encamisados",
+     "desc": "Huevos dentro de una tortilla recién hecha, bañados de una deliciosa salsa ranchera con crema y queso fresco acompañados de frijoles refritos.",
+     "price": 153.6,
+     "img": "e90b7739-061e-40ea-8c5c-554e5ca51bb8.png"
+    },
+    {
+     "name": "Chilaquiles divorciados",
+     "desc": "Ricos chilaquiles verdes y rojos con huevo estrellado o revuelto y 50 grs. polo desmenuzado separados por frijoles refritos, 20 grs. de chorizo y queso fresco.",
+     "price": 173.4,
+     "img": "0859de68-1d12-4c33-86fd-7b6c679e067c.png"
+    },
+    {
+     "name": "Enchiladas suizas",
+     "desc": "4 Pza. deliciosas enchiladas rellenas de pollo 80 grs. desmenuzado bañadas en salsa verde con un toque de crema y queso asadero gratinado.",
+     "price": 177,
+     "img": "0ce4a717-88eb-4d1e-9da7-0659e4e800f5.png"
+    },
+    {
+     "name": "Ensalada suprema",
+     "desc": "Fajitas de pollo a la plancha sobre lechuga italiana y romana. adicionada con jitomate, rábano, cebolla morada, aceitunas negras, cubitos de queso panela con deliciosa vinagreta de la casa al gusto.",
+     "price": 145.8,
+     "img": "9abf2792-2ade-44d2-8bdc-18f0bfda04bc.png"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Sope campirano",
+     "desc": "Una pieza de sope recién hecho con una cama de frijol, huevo estrellado, chicharrón acompañado de lechuga, pico de gallo, queso y crema.",
+     "price": 161.4,
+     "img": "cf5ba715-847c-4196-aa56-dc6c605d78e6.png"
+    },
+    {
+     "name": "Molletes arrieros",
+     "desc": "2 Piezas. con una cama de frijol, queso asadero gratinado, con 80 grs. bistec, chorizo o mixtos acompañados de pico de gallo.",
+     "price": 133.8,
+     "img": "267b901f-3d70-4940-85b5-9342a3dc2b2e.png"
+    },
+    {
+     "name": "Concha con nata",
+     "desc": "Concha rellena de nata, disponible en vainilla o chocolate.",
+     "price": 51,
+     "img": "f743ee12-47c4-4c45-bd01-aada12f19e85.png"
+    },
+    {
+     "name": "Fruta de temporada",
+     "desc": "Fruta de temporada. acompañada de yogurth y granola o queso cottage.",
+     "price": 75,
+     "img": "b91ef4cd-ae30-41c7-b3d3-4d740e749297.png"
+    },
+    {
+     "name": "Pan de elote con cajeta",
+     "desc": "1 Pan de elote con con cajeta y 1 bola de helado",
+     "price": 67.2,
+     "img": "a0273599-7007-4ebe-85c3-4b305711092e.png"
+    },
+    {
+     "name": "Ensalada mañanera",
+     "desc": "Ensalada de lechuga acompañada de fresas, mazana, pimiento, germen de alfalfa, con 50 grs de nuez surtida y delicioso aderezo de frambuesa.",
+     "price": 130.2,
+     "img": "d2c2d28b-076e-47fa-ae8e-369bfe5d139f.png"
+    }
+   ]
+  },
+  {
+   "name": "Comidas",
+   "products": [
+    {
+     "name": "Sopa azteca",
+     "desc": "Tradicional sopa de tortilla, con queso fresco, aguacate y crema.",
+     "price": 114,
+     "img": "0d280b0a-cf19-4167-9ffa-45c83ae7727d.png"
+    },
+    {
+     "name": "Milanesa de res",
+     "desc": "Milanesa de res acompañada de papas fritas, ensalada de lechuga, jitomate, cebolla y aguacate.",
+     "price": 181.2,
+     "img": "9511815b-7888-4d12-9b09-bbcbf9a7ecc9.png"
+    },
+    {
+     "name": "Cecina botanera",
+     "desc": "Cecina acompañada de guacamole y queso",
+     "price": 240.6,
+     "img": "26d6740b-2597-4272-8db4-e69ac4732e99.png"
+    },
+    {
+     "name": "Carne asada",
+     "desc": "220 Grs. de carne asada acompañada de frijoles, guacamole y 2 quesadillas recién hechas.",
+     "price": 189,
+     "img": "ff7b27c1-05cd-44e8-83cc-581e3a0528a8.png"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "Rellenas de pollo 80 grs. bañadas en mole",
+     "price": 181.2,
+     "img": "d78cf61b-037d-492a-9d12-0a434b29bee1.png"
+    },
+    {
+     "name": "Especial pachita",
+     "desc": "Elegir de 2 a 3 guisados: carne de puerco en salsa roja, chicharrón en salsa roja, pollo con mole, bistec en salsa ranchera, carne de puerco en salsa pasilla, chicharrón en salsa verde acompañados de frijoles refritos.",
+     "price": 177,
+     "img": "9822890b-49aa-4e66-9745-dd4ffa5a890f.png"
+    }
+   ]
+  },
+  {
+   "name": "Menú Infantil",
+   "products": [
+    {
+     "name": "Molletes",
+     "desc": "2 molletes con pico de gallo.",
+     "price": 78,
+     "img": "b8c5499c-359e-4f16-9594-e7c706543363.png"
+    },
+    {
+     "name": "Hamburguesa con papas",
+     "desc": "Hamburguesa con papas fritas.",
+     "price": 85.8,
+     "img": "7f3ca463-1d77-4e2c-a812-ed40ecbd1abc.png"
+    },
+    {
+     "name": "Huevos con jamón",
+     "desc": "Huevos revueltos con jamón, acompañados de frijoles refritos y totopos.",
+     "price": 101.4,
+     "img": "98042a85-ac1d-4634-bf22-530464d2ac1b.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Jugo natural de zanahoria",
+     "desc": "Jugo 100 natural de zanahoria.",
+     "price": 66,
+     "img": "78b2f2ab-5473-4129-a149-40286c52fb81.png"
+    },
+    {
+     "name": "Jugo natural verde",
+     "desc": "Jugo 100 natural verde.",
+     "price": 72,
+     "img": "2515122f-9fbd-45a1-a6a2-b9a91fad7fd4.png"
+    },
+    {
+     "name": "Fanta 355 ml",
+     "desc": "Refrescos",
+     "price": 64,
+     "img": "888f1a10-26bb-477d-8cbe-ddddc39d3375.png"
+    },
+    {
+     "name": "Manzanita 355 ml",
+     "desc": "Refrescos",
+     "price": 64,
+     "img": "18fe35ff-b92e-4802-8862-f6a43a4c976d.png"
+    },
+    {
+     "name": "Sprite 355 ml",
+     "desc": "Refrescos",
+     "price": 64,
+     "img": "021fda9d-5b92-44ff-8add-f2ce48e2f3d1.png"
+    },
+    {
+     "name": "Coca-cola light 355 ml",
+     "desc": "Refrescos",
+     "price": 64,
+     "img": "99f093a7-708b-4599-a7dd-05903ff70d61.png"
+    },
+    {
+     "name": "Jugo natural de naranja",
+     "desc": "Jugo 100 natural de naranja.",
+     "price": 66,
+     "img": "dc305d68-d216-46cd-9a91-ae3b04e9c3a2.png"
+    },
+    {
+     "name": "Agua embotellada",
+     "desc": "Agua embotellada 600 ml.",
+     "price": 46,
+     "img": "1d42a091-a474-4cf0-99ee-c2c72285c6e1.png"
+    },
+    {
+     "name": "Coca-cola original 355 ml",
+     "desc": "Refrescos",
+     "price": 64,
+     "img": "5a40b8f4-b66c-4bbc-a288-677888fee3d8.png"
+    },
+    {
+     "name": "Malteada de chocolate",
+     "desc": "Malteada de chocolate.",
+     "price": 98,
+     "img": "cfa7b60e-56ed-4021-91ae-23aba1b1d5bf.png"
+    },
+    {
+     "name": "Malteada de vainilla",
+     "desc": "Malteada de vainilla.",
+     "price": 98,
+     "img": "e6bb8c8d-af3f-42c1-bd70-24b0859f407b.png"
+    },
+    {
+     "name": "Malteada de fresa",
+     "desc": "Malteada de fresa.",
+     "price": 98,
+     "img": "82cfcd98-dac4-45ad-b002-e11e24897601.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Calientes",
+   "products": [
+    {
+     "name": "Café americano",
+     "desc": "Café americano.",
+     "price": 51,
+     "img": "128b21a3-4b28-4f88-adb3-e798c8f5be96.png"
+    },
+    {
+     "name": "Café de olla",
+     "desc": "Café de olla con canela y piloncillo.",
+     "price": 51,
+     "img": "8849785c-eccd-42e8-b5cd-4d48eec2a8b1.png"
+    },
+    {
+     "name": "Chocolate caliente espumoso",
+     "desc": "Chocolate caliente espumoso.",
+     "price": 43.2,
+     "img": "498397b8-f4fa-42fc-9822-88f97a1fe4fd.png"
+    },
+    {
+     "name": "Café descafeinado",
+     "desc": "Café descafeinado.",
+     "price": 51,
+     "img": "00d7d802-3562-4348-9fce-53a5e3faba12.png"
+    }
+   ]
+  }
+ ]
+}

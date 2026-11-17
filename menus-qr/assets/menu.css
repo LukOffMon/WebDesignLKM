@@ -32,7 +32,7 @@ a { color: inherit; }
   pointer-events: none;
 }
 .kicker { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--acc); font-weight: 700; margin: 0 0 10px; }
-h1 { font: 700 clamp(34px, 8vw, 64px)/1.02 var(--ft), Georgia, serif; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+h1 { font: var(--tw, 700) clamp(34px, 8vw, 64px)/1.02 var(--ft), Georgia, serif; margin: 0; letter-spacing: -.01em; text-wrap: balance; }
 .lema { margin: 12px 0 0; color: var(--soft); font-size: 17px; max-width: 46ch; }
 .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; position: relative; z-index: 1; }
 .pill {
@@ -67,7 +67,7 @@ h1 { font: 700 clamp(34px, 8vw, 64px)/1.02 var(--ft), Georgia, serif; margin: 0;
 
 main { padding: 8px 0 140px; }
 .cat { padding-top: 26px; }
-.cat h2 { font: 700 clamp(24px, 5vw, 32px)/1.1 var(--ft), Georgia, serif; margin: 0 0 4px; }
+.cat h2 { font: var(--tw, 700) clamp(24px, 5vw, 32px)/1.1 var(--ft), Georgia, serif; margin: 0 0 4px; }
 .cat .n { color: var(--soft); font-size: 13px; margin: 0 0 14px; }
 .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
 .item {
@@ -110,7 +110,7 @@ dialog::backdrop { background: rgba(0,0,0,.5); }
 @media (min-width: 640px) { dialog { margin: auto; border-radius: 22px; } }
 .sheet { padding: 20px 18px 22px; display: grid; gap: 14px; }
 .sheet header { display: flex; align-items: center; justify-content: space-between; }
-.sheet h2 { font: 700 26px/1.1 var(--ft), Georgia, serif; margin: 0; }
+.sheet h2 { font: var(--tw, 700) 26px/1.1 var(--ft), Georgia, serif; margin: 0; }
 .x { border: 0; background: var(--chip); width: 38px; height: 38px; border-radius: 50%; font-size: 20px; }
 .lines { display: grid; gap: 10px; max-height: 38dvh; overflow: auto; }
 .line { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: center; padding-bottom: 10px; border-bottom: 1px solid var(--line); }

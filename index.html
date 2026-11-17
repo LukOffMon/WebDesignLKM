@@ -38,11 +38,13 @@
     .qr-lead { color: var(--mute); max-width: 60ch; line-height: 1.6; margin: 14px 0 0; }
     .qr-sec .grid { margin-top: 32px; }
     .qr-card .thumb { aspect-ratio: 16/9; }
+    .qr-jump { display: inline-flex; margin-top: 22px; padding: 12px 18px; border-radius: 999px; background: #d6b47a; color: #141210; font-weight: 800; text-decoration: none; }
+    html { scroll-behavior: smooth; }
   </style>
   <!-- LKMR-OG:START (lo genera menus-qr/_tools/build.py) -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Portafolio de LKM&#x27;r Company" />
-  <meta property="og:description" content="Sitios web y 36 menús digitales con QR para restaurantes de todo México." />
+  <meta property="og:description" content="Sitios web y 57 menús digitales con QR para restaurantes de todo México." />
   <meta property="og:url" content="https://lukoffmon.github.io/WebDesignLKM/" />
   <meta property="og:image" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/og-portafolio.jpg" />
   <meta property="og:image:width" content="1200" />
@@ -100,6 +102,9 @@ setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener(
   <main>
     <p class="eyebrow">Portafolio</p>
     <h1>Proyectos web de <em>LKM’r</em>.</h1>
+    <!-- LKMR-QRLINK:START -->
+    <a class="qr-jump" href="#menus-qr">Ver los 57 menús QR para restaurantes ↓</a>
+    <!-- LKMR-QRLINK:END -->
     <div class="grid">
       <a class="card" href="kijaw/">
         <div class="thumb" style="background-image:url('kijaw/assets/og.jpg')"></div>
@@ -161,7 +166,7 @@ setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener(
     <section class="qr-sec" id="menus-qr">
       <p class="eyebrow">Menús QR</p>
       <h2>Menús digitales con QR para restaurantes.</h2>
-      <p class="qr-lead">36 muestras en 35 ciudades del país: carta con fotos, buscador, categorías y pedido directo por WhatsApp. Se imprime el QR para mesas y mostrador.</p>
+      <p class="qr-lead">57 muestras en 37 ciudades del país: carta con fotos, buscador, categorías y pedido directo por WhatsApp. Se imprime el QR para mesas y mostrador.</p>
       <div class="grid">
       <a class="card qr-card" href="menus-qr/mariscos-save/">
         <div class="thumb" style="background-image:url('menus-qr/mariscos-save/img/c21919e395f3.webp')"></div>
@@ -174,10 +179,6 @@ setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener(
       <a class="card qr-card" href="menus-qr/hanaichi/">
         <div class="thumb" style="background-image:url('menus-qr/hanaichi/img/64352ee9f03d.webp')"></div>
         <div class="body"><p class="tag" style="color:#c8102e">San Pedro Garza García, N.L.</p><p class="name">Hanaichi</p><p class="desc">Sushi, sashimi y teppanyaki. 87 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/el-acuario/">
-        <div class="thumb" style="background-image:url('menus-qr/el-acuario/img/2991718e43e5.webp')"></div>
-        <div class="body"><p class="tag" style="color:#0d7f8c">León, Gto.</p><p class="name">El Acuario Mariscos</p><p class="desc">Cazuelas, mojarras, filetes y camarones. 87 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
       </a>
       <a class="card qr-card" href="menus-qr/china-poblana/">
         <div class="thumb" style="background-image:url('menus-qr/china-poblana/img/d78b743ab534.webp')"></div>
@@ -279,10 +280,6 @@ setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener(
         <div class="thumb" style="background-image:url('menus-qr/sabor-a-mi/img/c70b666e632c.webp')"></div>
         <div class="body"><p class="tag" style="color:#cc3d2b">Mazatlán, Sin.</p><p class="name">Cenaduría Sabor a Mí</p><p class="desc">Cenaduría mazatleca: asado, tacos dorados y más. 35 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
       </a>
-      <a class="card qr-card" href="menus-qr/molcajetes-de-villa/">
-        <div class="thumb" style="background-image:url('menus-qr/molcajetes-de-villa/img/b8a4cac94559.webp')"></div>
-        <div class="body"><p class="tag" style="color:#c0441f">Villa de Álvarez, Col.</p><p class="name">Los Molcajetes de Villa</p><p class="desc">Desayunos, guisos caseros y panadería. 72 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
       <a class="card qr-card" href="menus-qr/la-fionela/">
         <div class="thumb" style="background-image:url('menus-qr/la-fionela/img/beb6592204d9.webp')"></div>
         <div class="body"><p class="tag" style="color:#b0654a">Saltillo, Coah.</p><p class="name">La Fionela</p><p class="desc">Desayunos y comida casera. 42 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
@@ -299,13 +296,105 @@ setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener(
         <div class="thumb" style="background-image:url('menus-qr/taqueria-san-juan/img/72a88de6e29f.webp')"></div>
         <div class="body"><p class="tag" style="color:#f05a28">Culiacán, Sin.</p><p class="name">Taquería San Juan</p><p class="desc">Tacos, vampiros, chilakas y changuirongos. 64 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
       </a>
-      <a class="card qr-card" href="menus-qr/tolk/">
-        <div class="thumb" style="background-image:url('menus-qr/tolk/img/68b85a53df73.webp')"></div>
-        <div class="body"><p class="tag" style="color:#d9a441">Villahermosa, Tab.</p><p class="name">Tolk Restaurant</p><p class="desc">Desayunos, cocina mexicana y burgers. 68 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
       <a class="card qr-card" href="menus-qr/okane-sushi/">
         <div class="thumb" style="background-image:url('menus-qr/okane-sushi/img/049260e6a7e0.webp')"></div>
         <div class="body"><p class="tag" style="color:#e8453c">Durango, Dgo.</p><p class="name">Okane Sushi</p><p class="desc">Sushi, ramen y especialidades. 74 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/taqueria-mixe/">
+        <div class="thumb" style="background-image:url('menus-qr/taqueria-mixe/img/40d3a04d0d71.webp')"></div>
+        <div class="body"><p class="tag" style="color:#ff6b2c">Mérida, Yuc.</p><p class="name">Taquería Mixe</p><p class="desc">Tacos al pastor, gringas y alambres hasta las 2 a.m.. 119 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/fokus/">
+        <div class="thumb" style="background-image:url('menus-qr/fokus/img/b4bc75608295.webp')"></div>
+        <div class="body"><p class="tag" style="color:#f2b134">Veracruz, Ver.</p><p class="name">Fokus</p><p class="desc">Tacos, carnes por kilo y alambres. 72 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/panama-culiacan/">
+        <div class="thumb" style="background-image:url('menus-qr/panama-culiacan/img/7568b2f72667.webp')"></div>
+        <div class="body"><p class="tag" style="color:#c8102e">Culiacán, Sin.</p><p class="name">Restaurante Panamá</p><p class="desc">Restaurante y pastelería: desayunos, comida mexicana y panaboxes. 166 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/comedor-lucy/">
+        <div class="thumb" style="background-image:url('menus-qr/comedor-lucy/img/7fbcbd631999.webp')"></div>
+        <div class="body"><p class="tag" style="color:#c0392b">San Luis Potosí, S.L.P.</p><p class="name">Comedor Lucy</p><p class="desc">Comida casera potosina en el Mercado Hidalgo. 39 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/el-brasero/">
+        <div class="thumb" style="background-image:url('menus-qr/el-brasero/img/24b5376672fb.webp')"></div>
+        <div class="body"><p class="tag" style="color:#f0642b">San Miguel de Allende, Gto.</p><p class="name">Taquería El Brasero</p><p class="desc">Tacos al pastor, volcancitos y carnes asadas. 89 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/el-morelense/">
+        <div class="thumb" style="background-image:url('menus-qr/el-morelense/img/d601f96a233c.webp')"></div>
+        <div class="body"><p class="tag" style="color:#e94b35">Cuernavaca, Mor.</p><p class="name">El Morelense</p><p class="desc">Alambres, costras, volcanes y taquitos. 91 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/chano-y-chon/">
+        <div class="thumb" style="background-image:url('menus-qr/chano-y-chon/img/24a7f29726cc.webp')"></div>
+        <div class="body"><p class="tag" style="color:#f5a524">Campeche, Camp.</p><p class="name">Chano y Chon</p><p class="desc">Tacos, faroladas, pizzas y especialidades de noche. 87 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/la-argentina/">
+        <div class="thumb" style="background-image:url('menus-qr/la-argentina/img/a05a22aef8cb.webp')"></div>
+        <div class="body"><p class="tag" style="color:#4aa3df">Cuernavaca, Mor.</p><p class="name">Taquería La Argentina</p><p class="desc">Tacos al pastor, carne estilo Iguala y alambres. 143 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/rincon-huasteco/">
+        <div class="thumb" style="background-image:url('menus-qr/rincon-huasteco/img/e3ae20c3d79c.webp')"></div>
+        <div class="body"><p class="tag" style="color:#6e8b3d">Pachuca, Hgo.</p><p class="name">El Rincón Huasteco</p><p class="desc">Cocina huasteca: cecina, carne enchilada y plato huasteco. 42 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/crujys/">
+        <div class="thumb" style="background-image:url('menus-qr/crujys/img/9433c9446fd5.webp')"></div>
+        <div class="body"><p class="tag" style="color:#e0702b">Guadalajara, Jal.</p><p class="name">Lonches Crujys</p><p class="desc">Lonches, chilaquiles y desayunos. 88 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/hakuna/">
+        <div class="thumb" style="background-image:url('menus-qr/hakuna/img/f729699fc5fd.webp')"></div>
+        <div class="body"><p class="tag" style="color:#2fbf71">Chihuahua, Chih.</p><p class="name">Hakuna Bolas de Arroz</p><p class="desc">Bolas de arroz, pokes y nuggets. 40 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/los-sobrinos/">
+        <div class="thumb" style="background-image:url('menus-qr/los-sobrinos/img/dedcd50dd41e.webp')"></div>
+        <div class="body"><p class="tag" style="color:#ff5a3c">Mazatlán, Sin.</p><p class="name">Taquería Los Sobrinos</p><p class="desc">Tacos, vampiros, chorreadas y taco macho. 40 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/rincon-guerrerense/">
+        <div class="thumb" style="background-image:url('menus-qr/rincon-guerrerense/img/351971ad289f.webp')"></div>
+        <div class="body"><p class="tag" style="color:#2f7d4f">Querétaro, Qro.</p><p class="name">Rincón Guerrerense</p><p class="desc">Pozole guerrerense, antojitos y desayunos. 50 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/hijas-de-la-enchilada/">
+        <div class="thumb" style="background-image:url('menus-qr/hijas-de-la-enchilada/img/48e9f616b255.webp')"></div>
+        <div class="body"><p class="tag" style="color:#d9472b">Cuernavaca, Mor.</p><p class="name">Hijas de la Enchilada</p><p class="desc">Enchiladas de 15 formas, desayunos y pan francés. 63 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/lisboa/">
+        <div class="thumb" style="background-image:url('menus-qr/lisboa/img/eb0eab617e9c.webp')"></div>
+        <div class="body"><p class="tag" style="color:#b53a24">Guadalajara, Jal.</p><p class="name">Lonchería Lisboa</p><p class="desc">Lonches de pierna y combos tapatíos. 43 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/tus-chilaquiles/">
+        <div class="thumb" style="background-image:url('menus-qr/tus-chilaquiles/img/9e03bdee7fcc.webp')"></div>
+        <div class="body"><p class="tag" style="color:#2e8b57">Guadalajara, Jal.</p><p class="name">Tus Chilaquiles</p><p class="desc">Chilaquiles de mil formas, omelettes y desayunos. 69 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/los-tarascos/">
+        <div class="thumb" style="background-image:url('menus-qr/los-tarascos/img/ceb1cb633965.webp')"></div>
+        <div class="body"><p class="tag" style="color:#ff8a1f">Acapulco, Gro.</p><p class="name">Taquería Los Tarascos</p><p class="desc">Tacos por orden y por kilo, volcanes y alambres. 173 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/pachita/">
+        <div class="thumb" style="background-image:url('menus-qr/pachita/img/b4e9cc2c6d9b.webp')"></div>
+        <div class="body"><p class="tag" style="color:#b5552b">León, Gto.</p><p class="name">Pachita Restaurante</p><p class="desc">Desayunos y comida mexicana. 46 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/cocina-tres16/">
+        <div class="thumb" style="background-image:url('menus-qr/cocina-tres16/img/27de7eb72932.webp')"></div>
+        <div class="body"><p class="tag" style="color:#9a6b3f">Guadalajara, Jal.</p><p class="name">Cocina Tres16</p><p class="desc">Desayunos, cortes y cocina de autor. 122 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/izy/">
+        <div class="thumb" style="background-image:url('menus-qr/izy/img/a30308a46298.webp')"></div>
+        <div class="body"><p class="tag" style="color:#2f7a5b">Metepec, Edo. Méx.</p><p class="name">Restaurante Izy</p><p class="desc">Desayunos, panadería, comidas y cenas. 122 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/bacan-macut/">
+        <div class="thumb" style="background-image:url('menus-qr/bacan-macut/img/f6f9a400a332.webp')"></div>
+        <div class="body"><p class="tag" style="color:#c8622d">Xalapa, Ver.</p><p class="name">Bacán Macut</p><p class="desc">Cocina veracruzana y huasteca: bocoles, picadas y enchiladas. 127 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/danubio-lagunero/">
+        <div class="thumb" style="background-image:url('menus-qr/danubio-lagunero/img/1376d958c075.webp')"></div>
+        <div class="body"><p class="tag" style="color:#b23b2a">Torreón, Coah.</p><p class="name">El Danubio Lagunero</p><p class="desc">Menudo, pozole, chiles rellenos y comida lagunera. 63 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/tomate-taqueria/">
+        <div class="thumb" style="background-image:url('menus-qr/tomate-taqueria/img/66ddd6a49bfd.webp')"></div>
+        <div class="body"><p class="tag" style="color:#e5372f">Guadalajara, Jal.</p><p class="name">Tomate Taquería</p><p class="desc">Tacos de arrachera, pastor y quesatacos en la Americana. 62 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
+      </a>
+      <a class="card qr-card" href="menus-qr/santo-pikete/">
+        <div class="thumb" style="background-image:url('menus-qr/santo-pikete/img/186f0858bb4c.webp')"></div>
+        <div class="body"><p class="tag" style="color:#d4a24c">Villahermosa, Tab.</p><p class="name">Santo Pikete</p><p class="desc">Café, desayunos y cocina mexicana. 98 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
       </a>
       </div>
     </section>
