@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menú · Mi Alma Restaurante</title>
+<meta name="description" content="Menú digital de Mi Alma Restaurante (Querétaro, Qro.): 46 platillos con precios, fotos y pedido por WhatsApp.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#f3f1e8">
+<meta property="og:title" content="Menú · Mi Alma Restaurante">
+<meta property="og:description" content="Desayunos y comida casera en el Centro">
+<meta property="og:url" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-alma/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%235f7f3a'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23ffffff' font-family='Georgia'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Outfit:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="../assets/menu.css">
+<style>:root{--bg:#f3f1e8;--fg:#203024;--acc:#5f7f3a;--card:#ffffff;--on-acc:#ffffff;--ft:'Fraunces';--fb:'Outfit';color-scheme:light}</style>
+</head>
+<body>
+<div class="demo"><b>Muestra</b> preparada por LKM'r para Mi Alma Restaurante · precios de referencia tomados de Rappi (17 nov. 2026), se ajustan a los de salón.</div>
+<header class="hero"><div class="wrap">
+  <p class="kicker">Menú digital · Centro</p>
+  <h1>Mi Alma Restaurante</h1>
+  <p class="lema">Desayunos y comida casera en el Centro</p>
+  <div class="meta">
+    <span class="pill" id="status"></span>
+    <a class="pill" href="https://www.google.com/maps/search/?api=1&query=Mi+Alma+Restaurante+Francisco+I.+Madero,+Centro,+Querétaro,+Qro." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Querétaro, Qro.</a>
+    <a class="pill" href="tel:+524421792679"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>442 179 2679</a>
+    <button class="pill" id="share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>Compartir</button>
+  </div>
+</div></header>
+<div class="bar"><div class="wrap">
+  <div class="search"><label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Buscar en 46 platillos…" autocomplete="off" aria-label="Buscar platillo"></label></div>
+  <nav class="chips" id="chips" aria-label="Categorías"></nav>
+</div></div>
+<main class="wrap"><div id="list"></div><p class="empty" id="empty">No encontramos ese platillo. Prueba con otra palabra.</p></main>
+<footer><div class="wrap">
+  <span>Mi Alma Restaurante · Francisco I. Madero, Centro, Querétaro, Qro.</span>
+  <span>Los precios mostrados son de referencia y pueden cambiar. Confírmalos con tu mesero.</span>
+  <span>Menú digital hecho por <a href="../">LKM'r</a>.</span>
+</div></footer>
+<button class="cartbar" id="cartbar" type="button"><span><span class="count" id="barcount">0</span>Ver mi pedido</span><span id="bartotal">$0</span></button>
+<dialog id="cart" aria-labelledby="carttitle"><div class="sheet">
+  <header><h2 id="carttitle">Tu pedido</h2><button class="x" id="close" type="button" aria-label="Cerrar">×</button></header>
+  <div class="lines" id="lines"></div>
+  <div class="total"><span>Total aprox.</span><span id="total">$0</span></div>
+  <div class="two"><label class="field">Nombre<input id="who" autocomplete="name"></label><label class="field">Mesa o para llevar<input id="mesa" placeholder="Ej. mesa 4"></label></div>
+  <label class="field">Notas<textarea id="notas" rows="2" placeholder="Sin cebolla, salsa aparte…"></textarea></label>
+  <a class="send" id="send" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c.7.3 1.3.5 1.7.6a4.2 4.2 0 0 0 1.9.1 3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.8L.2 23.8l6.1-1.6A11.8 11.8 0 0 0 12 23.6 11.8 11.8 0 0 0 20.4 3.6z"/></svg>Enviar pedido por WhatsApp</a>
+  <p class="note">Se abre WhatsApp con tu pedido listo; el restaurante confirma total y tiempo.</p>
+</div></dialog>
+<div class="toast" id="toast" role="status"></div>
+<script>window.MENU={"nombre":"Mi Alma Restaurante","whatsapp":"4421792679","horario":"09:00:00 - 17:00:00","cats":[{"name":"Desayunos","items":[{"name":"Huevos al Gusto","desc":"Acompañados con frijolitos, un bolillo o tortillas","price":35,"img":"img/6aa4d6acae28.webp"},{"name":"Sincronizadas","desc":"Orden de dos sincronizadas","price":80,"img":"img/69aaf244c035.webp"}]},{"name":"Antojitos","items":[{"name":"Molletes","desc":"2 piezas","price":50,"img":"img/f788af0f1c21.webp"},{"name":"Tostadas de Pollo","desc":"3 piezas","price":50,"img":"img/c442ccb55389.webp"},{"name":"Quesadillas de Queso","desc":"3 piezas.","price":40,"img":"img/9666f72f16fd.webp"}]},{"name":"Sopas","items":[{"name":"Sopa de Fideo","price":40,"img":"img/61a2d2462011.webp"},{"name":"Arroz del dia","desc":"Puede ser blanco o rojo"},{"name":"Orden de Frijoles Refritos","desc":"Frijoles negros refritos al estilo de la casa","img":"img/246876a27ee8.webp"}]},{"name":"Ensaladas","items":[{"name":"Julieta","desc":"Lechuga, pepino, jitomate, atún y mayonesa","price":65,"img":"img/d87e3c89d951.webp"},{"name":"Florentina","desc":"Lechuga, durazno, queso panela, nuez, coco rallado y pollo a la plancha","price":95,"img":"img/c4cba6eb743c.webp"},{"name":"Mi Alma","desc":"Lechuga, pepino, jitomate, queso panela, zanahoria y ajonjolí garapiñado","price":50,"img":"img/73e03be55a88.webp"}]},{"name":"Fiesta Mexicana","items":[{"name":"Flautas de la Casa","desc":"Orden de 4 flautas ahogadas verdes, rojas o chipotle. Acompañadas de frijoles, lechuga, queso, crema, cebolla y jitomate","price":80,"img":"img/b5095bbce882.webp"},{"name":"Flautas","desc":"Orden de 4 flautas acompañadas de frijoles, lechuga, queso, crema, cebolla y jitomate","price":80,"img":"img/31395c129f40.webp"},{"name":"Sopes de la Casa","desc":"Orden de 3 sopes de la casa acompañados de frijoles, lechuga, queso y crema","price":40,"img":"img/1bcd7bd934e3.webp"},{"name":"Combo Arrachera + Coca-Cola","desc":"200 Gramos de arrachera acompañada de arroz, frijoles y 1 Coca-Cola Sin Azúcar de 600 ml.","price":145}]},{"name":"Enchiladas","items":[{"name":"Chilaquiles","desc":"Acompañados de frijoles, lechuga, queso, crema y cebolla","price":85,"img":"img/fa4793f895a5.webp"},{"name":"Enchiladas","desc":"Acompañado con frijoles, lechuga, queso, crema y cebolla","price":80,"img":"img/7eff1b5dfbe6.webp"},{"name":"Enfrijoladas","desc":"Acompañado de queso, crema y cebolla","price":80,"img":"img/a5a72c6ba4ea.webp"},{"name":"Enmoladas","desc":"Acompañadas de, queso, crema y cebolla","price":85,"img":"img/ceada47b9b2f.webp"},{"name":"Entomatadas","desc":"Acompañadas de frijoles, lechuga, queso, crema y cebolla","price":80,"img":"img/4bb8ca7f017c.webp"}]},{"name":"Tortas","items":[{"name":"Torta de Chilaquiles con Bistec","price":65,"img":"img/54c1b745655f.webp"},{"name":"Torta de Pollo","price":65,"img":"img/a951bffdce90.webp"},{"name":"Torta de Bistec","desc":"Bistec, lechuga, jitomate mayonesa","price":65,"img":"img/9f78992cbc6f.webp"},{"name":"Torta de Jamón","desc":"acompañada de jamón, queso, lechuga, jitomate y mayonesa","price":40,"img":"img/fe5381688507.webp"},{"name":"Torta con Queso","desc":"Queso, lechuga, y mayonesa","price":40,"img":"img/544551b3e3d0.webp"}]},{"name":"A La Plancha","items":[{"name":"Alambre","desc":"Acompañado con frijoles y tortillas","price":90,"img":"img/7178088c611d.webp"},{"name":"Pollo a la Plancha","price":90,"img":"img/c7b99873f3fe.webp"},{"name":"Arrachera","price":205,"img":"img/5640a12294e4.webp"},{"name":"Bistec a la Plancha","desc":"Acompañado con arroz y ensalada","price":90,"img":"img/5640a12294e4.webp"}]},{"name":"Combos","items":[{"name":"Combo 1","desc":"Chocolate caliente con pan dulce.","price":33,"img":"img/4d4cbaa0c128.webp"},{"name":"Combo 2","desc":"Café de olla o americano o te y con pan.","price":25}]},{"name":"Postres","items":[{"name":"Cóctel de Fruta","price":30,"img":"img/51b7b7cf2c2b.webp"},{"name":"Plátano Macho Frito","price":45,"img":"img/c64c817f0efe.webp"},{"name":"Helado","desc":"Chocolate, vainilla, fresa o limón","price":40,"img":"img/b2de08bd058d.webp"}]},{"name":"Bebidas","items":[{"name":"Jugo de naranja","desc":"500ml de jugo","price":35,"img":"img/8db7b1c0e134.webp"},{"name":"Café de Olla","price":17,"img":"img/30ab8ef9c839.webp"},{"name":"Limonada","desc":"Limonada de 350 ml.","price":35,"img":"img/13d108272be3.webp"},{"name":"Agua Ciel","desc":"Agua ciel de 600 ml.","price":15,"img":"img/b4ef094e6061.webp"},{"name":"Refresco","desc":"Refresco de 355 ml.","price":18,"img":"img/3e4f8d8b624e.webp"},{"name":"Jarra de Agua","desc":"Jarra de agua de 1 lt. con frutas de temporada.","price":38,"img":"img/ed4bf67dc2c9.webp"},{"name":"Naranjada","desc":"Naranjada de 350 ml.","price":35,"img":"img/9317582ef24e.webp"},{"name":"Malteada","desc":"Fresa, vainilla o chocolate","price":40,"img":"img/5b8e1decfd9b.webp"},{"name":"Chocolate Caliente","price":25,"img":"img/b7c68ada65c7.webp"},{"name":"Té","desc":"Manzanilla, hierbabuena o limón","price":15,"img":"img/800ae838959c.webp"},{"name":"Café Americano","price":17,"img":"img/30ab8ef9c839.webp"},{"name":"Agua del Día","desc":"Agua del día con frutas de temporada 500ml","price":20,"img":"img/404ccebd02ec.webp"}]}]};</script>
+<script src="../assets/menu.js" defer></script>
+</body>
+</html>

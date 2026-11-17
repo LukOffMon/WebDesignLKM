@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prospectos Menú QR</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600;700&display=swap">
+<style>
+:root { --bg:#0c0d10; --fg:#ecebe6; --soft:#9a9a95; --card:#15171c; --line:#262931; --gold:#d8b14a; color-scheme: dark; }
+:root[data-theme="light"] { --bg:#f6f4ee; --fg:#1b1c1f; --soft:#66665f; --card:#fff; --line:#e3e0d6; --gold:#9a7412; color-scheme: light; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#f6f4ee; --fg:#1b1c1f; --soft:#66665f; --card:#fff; --line:#e3e0d6; --gold:#9a7412; color-scheme: light; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:400 15px/1.5 Inter, system-ui, sans-serif; }
+.wrap { width:min(1180px, 100% - 32px); margin-inline:auto; }
+header.top { padding:40px 0 24px; }
+.kick { font:700 12px/1 'Space Grotesk', sans-serif; letter-spacing:.22em; text-transform:uppercase; color:var(--gold); }
+h1 { font:700 clamp(30px, 6vw, 48px)/1.05 'Space Grotesk', sans-serif; margin:12px 0 10px; }
+.lead { color:var(--soft); max-width:70ch; margin:0; }
+.sum { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+.sum span { border:1px solid var(--line); background:var(--card); padding:8px 12px; border-radius:12px; font-size:14px; }
+.sum b { color:var(--gold); }
+.grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fill, minmax(min(100%, 520px), 1fr)); padding-bottom:60px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:18px; display:grid; gap:14px; border-top:4px solid var(--a); }
+.card.is-done { opacity:.55; }
+.card header { display:flex; gap:12px; align-items:flex-start; }
+.num { font:700 13px/1 'Space Grotesk'; color:var(--soft); padding-top:6px; }
+.card h2 { font:700 21px/1.15 'Space Grotesk', sans-serif; margin:0; }
+.card header p { margin:2px 0 0; color:var(--soft); font-size:14px; }
+.done { margin-left:auto; display:flex; gap:6px; align-items:center; font-size:13px; color:var(--soft); white-space:nowrap; cursor:pointer; }
+.body { display:flex; gap:16px; align-items:flex-start; }
+.qr { width:132px; height:132px; border-radius:12px; background:#fff; flex:none; }
+.info { display:grid; gap:6px; min-width:0; }
+.phone { font:700 24px/1.1 'Space Grotesk', sans-serif; color:var(--fg); text-decoration:none; }
+.alt, .addr, .stats { font-size:13.5px; color:var(--soft); }
+.alt a, .stats a { color:inherit; }
+.conf { font-size:13px; border-left:3px solid var(--gold); padding-left:8px; }
+.actions { display:flex; flex-wrap:wrap; gap:8px; }
+.btn { border:1px solid var(--line); background:transparent; color:var(--fg); padding:9px 12px; border-radius:10px; font:600 13.5px Inter, sans-serif; text-decoration:none; cursor:pointer; }
+.btn.wa { background:#1fa855; border-color:#1fa855; color:#fff; }
+.btn:hover { border-color:var(--soft); }
+details summary { cursor:pointer; color:var(--soft); font-size:14px; }
+.msg { white-space:pre-wrap; font:400 14px/1.55 Inter, sans-serif; background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:14px; margin:10px 0 0; }
+.how { border:1px solid var(--line); border-radius:16px; padding:16px 18px; margin:0 0 20px; background:var(--card); }
+.how ol { margin:8px 0 0; padding-left:20px; color:var(--soft); }
+.toast { position:fixed; left:50%; bottom:20px; transform:translate(-50%, 200%); background:var(--fg); color:var(--bg); padding:10px 16px; border-radius:999px; font-weight:700; transition:transform .3s; }
+.toast.show { transform:translate(-50%, 0); }
+@media (max-width:520px) { .body { flex-direction:column; } .done { font-size:12px; } }
+</style>
+</head>
+<body>
+<header class="top wrap">
+  <div class="kick">Maletín · Menús digitales y QR</div>
+  <h1>12 restaurantes listos para contactar</h1>
+  <p class="lead">Cada uno tiene su menú digital publicado, su QR y una tarjeta de mesa lista para imprimir. El botón verde abre WhatsApp con la propuesta ya escrita; si el número es fijo y no tiene WhatsApp, usa Llamar o copia el mensaje para Instagram o Facebook.</p>
+  <div class="sum"><span>Oferta: <b>$1,800</b> instalación + <b>$390</b>/mes</span><span>Menús tomados de Rappi el 17 nov. 2026</span><span id="prog">0 de 12 contactados</span></div>
+</header>
+<main class="wrap">
+  <div class="how"><b>Antes de enviar</b><ol>
+    <li>Abre su menú y revisa que cargue bien en tu celular.</li>
+    <li>Los números con confianza "Media" confírmalos con una llamada antes de mandar el mensaje.</li>
+    <li>Cuando acepten: pídeles su carta de salón (foto o PDF) y su logo, y cambia el aviso de "Muestra" por su información real.</li>
+  </ol></div>
+  <div class="grid">
+<article class="card" data-slug="mariscos-save" style="--a:#ff7a45">
+  <header>
+    <span class="num">01</span>
+    <div><h2>Mariscos Save</h2><p>Guadalajara, Jal. · Chapalita</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="mariscos-save/qr.png" alt="QR del menú de Mariscos Save" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+523331214476">33 3121 4476</a>
+      <div class="conf">Alta: dos directorios distintos lo dan para Av. Guadalupe 721.</div>
+      <div class="addr">Av. Guadalupe 721, Chapalita, Guadalajara, Jal.</div>
+      <div class="stats">131 platillos · 14 categorías · <a href="https://www.rappi.com.mx/restaurantes/1923222556-mariscos-save" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/523331214476?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20Mariscos%20Save%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Ceviche%20Especial%20de%20Robalo%2C%20C%C3%B3ctel%20save%20especial%20y%20Mariscada%20Save%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-save/%0A%0ASu%20carta%20es%20enorme%20%28m%C3%A1s%20de%20150%20platillos%20entre%20tostadas%2C%20zarandeados%2C%20cortes%20y%20filetes%29%2C%20as%C3%AD%20que%20el%20buscador%20y%20las%20categor%C3%ADas%20ayudan%20mucho%20a%20que%20la%20mesa%20pida%20r%C3%A1pido.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-save/qr.png%0A%0ALo%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n%20%28los%20de%20Rappi%20traen%20comisi%C3%B3n%29%20y%20fotos%20propias%20de%20los%20zarandeados.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+523331214476">Llamar</a>
+    <a class="btn" href="mariscos-save/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="mariscos-save/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="mariscos-save/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con Mariscos Save?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Ceviche Especial de Robalo, Cóctel save especial y Mariscada Save, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-save/
+
+Su carta es enorme (más de 150 platillos entre tostadas, zarandeados, cortes y filetes), así que el buscador y las categorías ayudan mucho a que la mesa pida rápido.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-save/qr.png
+
+Lo dejo con sus precios de salón (los de Rappi traen comisión) y fotos propias de los zarandeados. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="matilda" style="--a:#b5452f">
+  <header>
+    <span class="num">02</span>
+    <div><h2>Matilda Salón Mexicano</h2><p>Mérida, Yuc. · Centro</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="matilda/qr.png" alt="QR del menú de Matilda Salón Mexicano" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+529999211452">999 921 1452</a>
+      <div class="conf">Alta: el mismo número aparece en Tripadvisor, CoverManager y directorios.</div>
+      <div class="addr">Calle 63 No. 516 x 62 y 64, Centro, Mérida, Yuc.</div>
+      <div class="stats">86 platillos · 22 categorías · <a href="https://www.rappi.com.mx/restaurantes/1930113401-matilda-salon-mexicano" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/529999211452?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20Matilda%20Sal%C3%B3n%20Mexicano%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Quesadilla%20de%20Chicharr%C3%B3n%20Prensado%2C%20Sope%20de%20Papa%20con%20Chorizo%20y%20Quesadilla%20de%20Papa%20con%20Chorizo%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/matilda/%0A%0ATienen%20mucho%20turista%20en%20el%20Centro%20y%20una%20carta%20que%20va%20del%20desayuno%20al%20rib%20eye%20flameado%20con%20mezcal%3B%20un%20men%C3%BA%20web%20carga%20al%20instante%20y%20se%20puede%20traducir.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/matilda/qr.png%0A%0APuedo%20sumar%20versi%C3%B3n%20en%20ingl%C3%A9s%20y%20un%20bot%C3%B3n%20directo%20a%20su%20reservaci%C3%B3n%20en%20CoverManager.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+529999211452">Llamar</a>
+    <a class="btn" href="matilda/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="matilda/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="matilda/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con Matilda Salón Mexicano?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Quesadilla de Chicharrón Prensado, Sope de Papa con Chorizo y Quesadilla de Papa con Chorizo, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/matilda/
+
+Tienen mucho turista en el Centro y una carta que va del desayuno al rib eye flameado con mezcal; un menú web carga al instante y se puede traducir.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/matilda/qr.png
+
+Puedo sumar versión en inglés y un botón directo a su reservación en CoverManager. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="hanaichi" style="--a:#c8102e">
+  <header>
+    <span class="num">03</span>
+    <div><h2>Hanaichi</h2><p>San Pedro Garza García, N.L. · Vasconcelos</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="hanaichi/qr.png" alt="QR del menú de Hanaichi" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+528129140587">81 2914 0587</a>
+      <div class="conf">Media: lo publica AAA para Vasconcelos 150; otras sucursales usan otros números. Confirmar al llamar.</div>
+      <div class="addr">José Vasconcelos 150 (Plaza O2), Del Valle, San Pedro Garza García, N.L.</div>
+      <div class="stats">87 platillos · 12 categorías · <a href="https://www.rappi.com.mx/restaurantes/1923207180-hanaichi-san-pedro" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/528129140587?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20Hanaichi%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Edamames%20Preparados%2C%20Tako%20Sunomono%20y%20Edamames%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/hanaichi/%0A%0ACon%2015%20nigiris%2C%2018%20rollos%20de%20autor%20y%20sashimis%20de%20toro%2C%20las%20fotos%20venden%20solas%3B%20en%20un%20PDF%20se%20pierden.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/hanaichi/qr.png%0A%0ALo%20adapto%20a%20su%20imagen%2C%20con%20etiquetas%20de%20picante%20y%20crudo%2C%20y%20una%20secci%C3%B3n%20de%20recomendados%20del%20chef.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+528129140587">Llamar</a>
+    <a class="btn" href="hanaichi/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="hanaichi/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="hanaichi/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con Hanaichi?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Edamames Preparados, Tako Sunomono y Edamames, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/hanaichi/
+
+Con 15 nigiris, 18 rollos de autor y sashimis de toro, las fotos venden solas; en un PDF se pierden.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/hanaichi/qr.png
+
+Lo adapto a su imagen, con etiquetas de picante y crudo, y una sección de recomendados del chef. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="el-acuario" style="--a:#0d7f8c">
+  <header>
+    <span class="num">04</span>
+    <div><h2>El Acuario Mariscos</h2><p>León, Gto. · Centro</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="el-acuario/qr.png" alt="QR del menú de El Acuario Mariscos" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+524777140059">477 714 0059</a><div class="alt">Otro número: <a href="tel:+524777634400">477 763 4400</a></div>
+      <div class="conf">Alta para 477 714 0059 (Wanderlog, Sección Amarilla y Viva León). El 477 763 4400 es de la dirección de Madero 517.</div>
+      <div class="addr">Pino Suárez 324, Centro, León, Gto.</div>
+      <div class="stats">87 platillos · 27 categorías · <a href="https://www.rappi.com.mx/restaurantes/1923239099-el-acuario-mariscos" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/524777140059?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20El%20Acuario%20Mariscos%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Agua%20Chile%20de%20Camar%C3%B3n%2C%20Tostada%20de%20Ceviche%20y%20Tostada%20de%20Camar%C3%B3n%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/el-acuario/%0A%0AAbren%20de%2013%3A30%20a%2019%3A00%2C%20as%C3%AD%20que%20cada%20pedido%20para%20llevar%20cuenta%3A%20el%20men%C3%BA%20arma%20la%20orden%20y%20la%20manda%20lista%20por%20WhatsApp.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/el-acuario/qr.png%0A%0ALo%20dejo%20con%20sus%20precios%20de%20mostrador%20y%20los%20combos%20del%20d%C3%ADa.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+524777140059">Llamar</a>
+    <a class="btn" href="el-acuario/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="el-acuario/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="el-acuario/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con El Acuario Mariscos?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Agua Chile de Camarón, Tostada de Ceviche y Tostada de Camarón, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-acuario/
+
+Abren de 13:30 a 19:00, así que cada pedido para llevar cuenta: el menú arma la orden y la manda lista por WhatsApp.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-acuario/qr.png
+
+Lo dejo con sus precios de mostrador y los combos del día. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="china-poblana" style="--a:#1f4fa0">
+  <header>
+    <span class="num">05</span>
+    <div><h2>Antigua Fonda de la China Poblana</h2><p>Puebla, Pue. · Centro Histórico</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="china-poblana/qr.png" alt="QR del menú de Antigua Fonda de la China Poblana" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+522222467330">222 246 7330</a><div class="alt">Otro número: <a href="tel:+522216600945">221 660 0945</a></div>
+      <div class="conf">Media: 222 246 7330 en Tripadvisor y Empresas10; Restaurant Guru da 221 660 0945 (listado viejo).</div>
+      <div class="addr">Av. 5 Oriente 401, Centro Histórico, Puebla, Pue.</div>
+      <div class="stats">68 platillos · 11 categorías · <a href="https://www.rappi.com.mx/restaurantes/1930068837-antigua-fonda-de-la-china-poblana" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/522222467330?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20Antigua%20Fonda%20de%20la%20China%20Poblana%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Pellizcaditas%2C%20Chalupitas%20Poblanas%20y%20Mole%20Poblano%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/china-poblana/%0A%0AM%C3%A1s%20de%20100%20platillos%20%28moles%2C%20chalupas%2C%20cemitas%29%20y%20mucho%20turista%3A%20un%20men%C3%BA%20digital%20con%20fotos%20ayuda%20a%20decidir%20sin%20tener%20que%20explicar%20cada%20platillo.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/china-poblana/qr.png%0A%0APuedo%20agregar%20versi%C3%B3n%20en%20ingl%C3%A9s%20y%20la%20venta%20de%20mole%20en%20pasta%20para%20llevar.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+522222467330">Llamar</a>
+    <a class="btn" href="china-poblana/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="china-poblana/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="china-poblana/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con Antigua Fonda de la China Poblana?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Pellizcaditas, Chalupitas Poblanas y Mole Poblano, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/china-poblana/
+
+Más de 100 platillos (moles, chalupas, cemitas) y mucho turista: un menú digital con fotos ayuda a decidir sin tener que explicar cada platillo.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/china-poblana/qr.png
+
+Puedo agregar versión en inglés y la venta de mole en pasta para llevar. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="mi-alma" style="--a:#5f7f3a">
+  <header>
+    <span class="num">06</span>
+    <div><h2>Mi Alma Restaurante</h2><p>Querétaro, Qro. · Centro</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="mi-alma/qr.png" alt="QR del menú de Mi Alma Restaurante" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+524421792679">442 179 2679</a>
+      <div class="conf">Media: Tripadvisor y un directorio lo dan para Madero 201; Rappi dice Madero 102. Confirmar al llamar.</div>
+      <div class="addr">Francisco I. Madero, Centro, Querétaro, Qro.</div>
+      <div class="stats">46 platillos · 11 categorías · <a href="https://www.rappi.com.mx/restaurantes/1306703757-mi-alma-restaurante" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/524421792679?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20Mi%20Alma%20Restaurante%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Molletes%2C%20Tostadas%20de%20Pollo%20y%20Quesadillas%20de%20Queso%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/mi-alma/%0A%0ASu%20carta%20de%20desayunos%20es%20de%20las%20que%20m%C3%A1s%20se%20piden%20con%20prisa%3B%20con%20el%20QR%20en%20la%20mesa%20la%20gente%20ordena%20sin%20esperar%20la%20carta.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/mi-alma/qr.png%0A%0APuedo%20marcar%20opciones%20vegetarianas%20y%20paquetes%20del%20d%C3%ADa.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+524421792679">Llamar</a>
+    <a class="btn" href="mi-alma/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="mi-alma/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="mi-alma/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con Mi Alma Restaurante?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Molletes, Tostadas de Pollo y Quesadillas de Queso, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-alma/
+
+Su carta de desayunos es de las que más se piden con prisa; con el QR en la mesa la gente ordena sin esperar la carta.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-alma/qr.png
+
+Puedo marcar opciones vegetarianas y paquetes del día. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="cocina-azul" style="--a:#f2b33d">
+  <header>
+    <span class="num">07</span>
+    <div><h2>Cocina Azul</h2><p>Oaxaca de Juárez, Oax. · Hotel Azul de Oaxaca</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="cocina-azul/qr.png" alt="QR del menú de Cocina Azul" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+529515010016">951 501 0016</a>
+      <div class="conf">Alta: Tripadvisor, OpenTable y el hotel publican el mismo número (es la línea del hotel).</div>
+      <div class="addr">Mariano Abasolo 313, Centro, Oaxaca de Juárez, Oax.</div>
+      <div class="stats">35 platillos · 6 categorías · <a href="https://www.rappi.com.mx/restaurantes/1923285303-cocina-azul-oaxaca" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/529515010016?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20Cocina%20Azul%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Consom%C3%A9%20de%20pollo%2C%20Ensalada%20azul%20y%20Arroz%20Negro%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-azul/%0A%0AAl%20estar%20dentro%20del%20hotel%2C%20el%20mismo%20QR%20sirve%20en%20mesas%20y%20en%20habitaciones%3A%20el%20hu%C3%A9sped%20ve%20la%20carta%20desde%20su%20celular.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-azul/qr.png%0A%0ALo%20hago%20biling%C3%BCe%20%28espa%C3%B1ol%20/%20ingl%C3%A9s%29%20para%20sus%20hu%C3%A9spedes%20extranjeros.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+529515010016">Llamar</a>
+    <a class="btn" href="cocina-azul/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="cocina-azul/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="cocina-azul/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con Cocina Azul?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Consomé de pollo, Ensalada azul y Arroz Negro, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-azul/
+
+Al estar dentro del hotel, el mismo QR sirve en mesas y en habitaciones: el huésped ve la carta desde su celular.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-azul/qr.png
+
+Lo hago bilingüe (español / inglés) para sus huéspedes extranjeros. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="los-agustines" style="--a:#c0392b">
+  <header>
+    <span class="num">08</span>
+    <div><h2>Los Agustines</h2><p>San Luis Potosí, S.L.P. · Centro Histórico</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="los-agustines/qr.png" alt="QR del menú de Los Agustines" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+524442817486">444 281 7486</a>
+      <div class="conf">Media: Gastroranking y Visita San Luis Potosí lo dan, pero ligado a Av. Universidad 505. Confirmar al llamar.</div>
+      <div class="addr">José María Morelos y Pavón 945, Centro Histórico, San Luis Potosí, S.L.P.</div>
+      <div class="stats">62 platillos · 10 categorías · <a href="https://www.rappi.com.mx/restaurantes/1930106033-los-agustines" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/524442817486?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20Los%20Agustines%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Dedos%20de%20Queso%20%284%20Pzas%29%2C%20Orden%20de%20Cueritos%20y%20Pico%20de%20Gallo%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/los-agustines/%0A%0ALas%20enchiladas%20potosinas%20son%20lo%20que%20todos%20buscan%3B%20en%20el%20men%C3%BA%20quedan%20arriba%2C%20con%20foto%20y%20precio%20claro.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/los-agustines/qr.png%0A%0APuedo%20agregar%20desayunos%20del%20d%C3%ADa%20y%20pedidos%20para%20llevar%20por%20WhatsApp.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+524442817486">Llamar</a>
+    <a class="btn" href="los-agustines/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="los-agustines/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="los-agustines/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con Los Agustines?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Dedos de Queso (4 Pzas), Orden de Cueritos y Pico de Gallo, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-agustines/
+
+Las enchiladas potosinas son lo que todos buscan; en el menú quedan arriba, con foto y precio claro.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-agustines/qr.png
+
+Puedo agregar desayunos del día y pedidos para llevar por WhatsApp. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="las-playas" style="--a:#e0582a">
+  <header>
+    <span class="num">09</span>
+    <div><h2>Restaurant Las Playas</h2><p>Tijuana, B.C. · Zona Centro</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="las-playas/qr.png" alt="QR del menú de Restaurant Las Playas" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+526646881808">664 688 1808</a><div class="alt">Otro número: <a href="tel:+526646381155">664 638 1155</a></div>
+      <div class="conf">Alta: 664 688 1808 en varios directorios; su Facebook y su página publican 664 638 1155.</div>
+      <div class="addr">Flores Magón (Calle Sexta) 2340, Zona Centro, Tijuana, B.C.</div>
+      <div class="stats">67 platillos · 12 categorías · <a href="https://www.rappi.com.mx/restaurantes/1923225102-las-playas" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/526646881808?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20Restaurant%20Las%20Playas%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Tostada%20Especial%20Cachoreada%2C%20Tostada%20Especial%20las%20Playas%20y%20Tostada%20de%20Aguachile%20Verde%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/las-playas/%0A%0AAbren%20desde%20las%206%3A30%20y%20atienden%20a%20mucha%20gente%20que%20cruza%20de%20San%20Diego%3B%20un%20men%C3%BA%20web%20se%20abre%20en%20cualquier%20celular%2C%20sin%20app.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/las-playas/qr.png%0A%0APuedo%20mostrar%20precios%20en%20pesos%20y%20en%20d%C3%B3lares%2C%20y%20versi%C3%B3n%20en%20ingl%C3%A9s.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+526646881808">Llamar</a>
+    <a class="btn" href="las-playas/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="las-playas/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="las-playas/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con Restaurant Las Playas?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Tostada Especial Cachoreada, Tostada Especial las Playas y Tostada de Aguachile Verde, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-playas/
+
+Abren desde las 6:30 y atienden a mucha gente que cruza de San Diego; un menú web se abre en cualquier celular, sin app.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-playas/qr.png
+
+Puedo mostrar precios en pesos y en dólares, y versión en inglés. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="casona-de-las-rosas" style="--a:#a3263f">
+  <header>
+    <span class="num">10</span>
+    <div><h2>La Casona de las Rosas</h2><p>Morelia, Mich. · Jardín de las Rosas</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="casona-de-las-rosas/qr.png" alt="QR del menú de La Casona de las Rosas" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+524433178822">443 317 8822</a>
+      <div class="conf">Alta: Tripadvisor, su Facebook (reservaciones) y Moreco publican el mismo número.</div>
+      <div class="addr">Santiago Tapia 331, Jardín de las Rosas, Centro, Morelia, Mich.</div>
+      <div class="stats">84 platillos · 16 categorías · <a href="https://www.rappi.com.mx/restaurantes/1923286972-la-casona-de-las-rosas" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/524433178822?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20La%20Casona%20de%20las%20Rosas%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Uchepos%20Dulces%2C%20Enchiladas%20Placeras%20y%20Corundas%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/casona-de-las-rosas/%0A%0AEnchiladas%20morelianas%2C%20sopa%20tarasca%20y%20una%20carta%20de%2080%20platillos%3A%20con%20categor%C3%ADas%20y%20fotos%20el%20turista%20decide%20r%C3%A1pido.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/casona-de-las-rosas/qr.png%0A%0APuedo%20agregar%20versi%C3%B3n%20en%20ingl%C3%A9s%20y%20un%20bot%C3%B3n%20para%20reservar%20por%20WhatsApp.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+524433178822">Llamar</a>
+    <a class="btn" href="casona-de-las-rosas/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="casona-de-las-rosas/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="casona-de-las-rosas/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con La Casona de las Rosas?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Uchepos Dulces, Enchiladas Placeras y Corundas, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/casona-de-las-rosas/
+
+Enchiladas morelianas, sopa tarasca y una carta de 80 platillos: con categorías y fotos el turista decide rápido.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/casona-de-las-rosas/qr.png
+
+Puedo agregar versión en inglés y un botón para reservar por WhatsApp. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="la-chicha" style="--a:#ff4f9a">
+  <header>
+    <span class="num">11</span>
+    <div><h2>La Chicha</h2><p>Ciudad de México · Roma Norte</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="la-chicha/qr.png" alt="QR del menú de La Chicha" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+525519068115">55 1906 8115</a><div class="alt">Teléfono fijo: <a href="tel:+525555746625">55 5574 6625</a></div>
+      <div class="conf">Alta: 55 5574 6625 en Yelp y directorios. El 55 1906 8115 (Tripadvisor / Apple Maps) se publica como WhatsApp: úsalo para escribir.</div>
+      <div class="addr">Orizaba 171, Roma Norte, Cuauhtémoc, CDMX</div>
+      <div class="stats">46 platillos · 12 categorías · <a href="https://www.rappi.com.mx/restaurantes/1923223914-la-chicha" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/525519068115?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20La%20Chicha%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Mix%20de%20Dips%20de%20la%20Casa%2C%20Tostaditas%20de%20Tinga%20de%20Zanahoria%20%284%29%20y%20Fish%20And%20Chips%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/la-chicha/%0A%0AEn%20la%20Roma%20la%20mitad%20de%20las%20mesas%20son%20extranjeros%3B%20un%20men%C3%BA%20web%20con%20fotos%20y%20versi%C3%B3n%20en%20ingl%C3%A9s%20les%20ahorra%20pedir%20que%20les%20traduzcan%20la%20carta.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/la-chicha/qr.png%0A%0ALo%20hago%20biling%C3%BCe%20y%20con%20su%20carta%20de%20cocteler%C3%ADa%20y%20cervezas%20al%20frente.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+525519068115">Llamar</a>
+    <a class="btn" href="la-chicha/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="la-chicha/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="la-chicha/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con La Chicha?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Mix de Dips de la Casa, Tostaditas de Tinga de Zanahoria (4) y Fish And Chips, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-chicha/
+
+En la Roma la mitad de las mesas son extranjeros; un menú web con fotos y versión en inglés les ahorra pedir que les traduzcan la carta.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-chicha/qr.png
+
+Lo hago bilingüe y con su carta de coctelería y cervezas al frente. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article>
+<article class="card" data-slug="el-mana" style="--a:#e8743b">
+  <header>
+    <span class="num">12</span>
+    <div><h2>Restaurante El Maná</h2><p>Boca del Río, Ver. · Centro</p></div>
+    <label class="done"><input type="checkbox"> Contactado</label>
+  </header>
+  <div class="body">
+    <img class="qr" src="el-mana/qr.png" alt="QR del menú de Restaurante El Maná" width="132" height="132" loading="lazy">
+    <div class="info">
+      <a class="phone" href="tel:+522291256566">229 125 6566</a><div class="alt">Otro número: <a href="tel:+522292838701">229 283 8701</a></div>
+      <div class="conf">Alta: 229 125 6566 en Yelp, Restaurant Guru y directorios; Foursquare da 229 283 8701.</div>
+      <div class="addr">Av. Independencia 130 esq. Benito Juárez, Centro, Boca del Río, Ver.</div>
+      <div class="stats">38 platillos · 6 categorías · <a href="https://www.rappi.com.mx/restaurantes/1930113845-el-mana-restaurante" target="_blank" rel="noopener">fuente: Rappi</a></div>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="btn wa" href="https://wa.me/522291256566?text=Hola%2C%20buen%20d%C3%ADa.%20%C2%BFHablo%20con%20Restaurante%20El%20Man%C3%A1%3F%0A%0ALes%20escribo%20de%20LKM%27r%3A%20hacemos%20men%C3%BAs%20digitales%20y%20p%C3%A1ginas%20para%20restaurantes.%20Les%20prepar%C3%A9%2C%20sin%20costo%2C%20una%20muestra%20de%20su%20men%C3%BA%20con%20QR%2C%20ya%20con%20su%20carta%20%28Gordita%20sencilla%2C%20Panucho%20veracruzano%20y%20Orden%20de%202%20empanadas%2C%20entre%20otros%29%3A%0Ahttps%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/el-mana/%0A%0AArroz%20a%20la%20tumbada%2C%20desayunos%20y%20mariscos%20todo%20el%20d%C3%ADa%3A%20con%20el%20QR%20en%20la%20mesa%2C%20el%20comensal%20ve%20fotos%20y%20precios%20sin%20esperar%20la%20carta.%0A%0AC%C3%B3mo%20funciona%3A%20imprimen%20el%20QR%20para%20mesas%20y%20mostrador%2C%20el%20cliente%20lo%20escanea%20con%20la%20c%C3%A1mara%20y%20ve%20la%20carta%20con%20fotos%2C%20buscador%20y%20categor%C3%ADas.%20Puede%20armar%20su%20pedido%20y%20mandarlo%20directo%20a%20su%20WhatsApp.%20Es%20una%20p%C3%A1gina%20ligera%2C%20no%20un%20PDF%20borroso%2C%20y%20no%20hay%20que%20descargar%20nada.%0ASu%20QR%20ya%20est%C3%A1%20listo%3A%20https%3A//lukoffmon.github.io/WebDesignLKM/menus-qr/el-mana/qr.png%0A%0ALo%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n%20y%20los%20platillos%20de%20temporada.%20Los%20precios%20de%20la%20muestra%20los%20tom%C3%A9%20de%20Rappi%3B%20se%20los%20dejo%20con%20sus%20precios%20de%20sal%C3%B3n.%0A%0AInversi%C3%B3n%3A%20%241%2C800%20de%20instalaci%C3%B3n%20%28men%C3%BA%20%2B%20QR%20listos%20para%20imprimir%29%20y%20%24390%20al%20mes%2C%20con%20cambios%20de%20precios%20y%20platillos%20ilimitados.%0A%0ASi%20les%20gusta%2C%20lo%20dejo%20listo%20esta%20misma%20semana.%20%C2%BFCon%20qui%C3%A9n%20lo%20puedo%20platicar%3F" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a>
+    <a class="btn" href="tel:+522291256566">Llamar</a>
+    <a class="btn" href="el-mana/" target="_blank" rel="noopener">Ver menú</a>
+    <button class="btn copy" type="button">Copiar mensaje</button>
+    <a class="btn" href="el-mana/tarjeta-mesa.png" download>Tarjeta de mesa</a>
+    <a class="btn" href="el-mana/qr.png" download>QR</a>
+  </div>
+  <details><summary>Ver mensaje</summary><pre class="msg">Hola, buen día. ¿Hablo con Restaurante El Maná?
+
+Les escribo de LKM&#x27;r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Gordita sencilla, Panucho veracruzano y Orden de 2 empanadas, entre otros):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mana/
+
+Arroz a la tumbada, desayunos y mariscos todo el día: con el QR en la mesa, el comensal ve fotos y precios sin esperar la carta.
+
+Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
+Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mana/qr.png
+
+Lo dejo con sus precios de salón y los platillos de temporada. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+
+Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
+
+Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?</pre></details>
+</article></div>
+</main>
+<div class="toast" id="toast" role="status">Mensaje copiado</div>
+<script>
+(() => {
+  const KEY = 'lkm-menuqr-contactados';
+  let done = [];
+  try { done = JSON.parse(localStorage.getItem(KEY) || '[]'); } catch (_) {}
+  const prog = document.getElementById('prog');
+  const paint = () => {
+    document.querySelectorAll('.card').forEach(c => {
+      const on = done.includes(c.dataset.slug); c.classList.toggle('is-done', on); c.querySelector('.done input').checked = on;
+    });
+    prog.textContent = done.length + ' de 12 contactados';
+  };
+  document.querySelectorAll('.done input').forEach(i => i.addEventListener('change', () => {
+    const s = i.closest('.card').dataset.slug; done = i.checked ? [...new Set([...done, s])] : done.filter(x => x !== s);
+    try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (_) {}
+    paint();
+  }));
+  paint();
+  const toast = document.getElementById('toast');
+  document.querySelectorAll('.copy').forEach(b => b.addEventListener('click', async () => {
+    const t = b.closest('.card').querySelector('.msg').textContent;
+    try { await navigator.clipboard.writeText(t); } catch (_) {
+      const a = document.createElement('textarea'); a.value = t; document.body.append(a); a.select(); document.execCommand('copy'); a.remove();
+    }
+    toast.classList.add('show'); setTimeout(() => toast.classList.remove('show'), 1600);
+  }));
+})();
+</script>
+</body>
+</html>

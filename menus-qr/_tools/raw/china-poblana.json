@@ -1,0 +1,780 @@
+{
+ "id": 1930068837,
+ "brandName": "Antigua Fonda de la China Poblana",
+ "name": "Antigua Fonda de la China Poblana - Puebla Centro",
+ "address": "2RR3+F9 Heroica Puebla de Zaragoza, Puebla, México",
+ "schedule": "09:00:00 - 20:00:00",
+ "categories": "China · Mexicana",
+ "location": [
+  -98.1965625,
+  19.0411875
+ ],
+ "city": "Puebla",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/1930068837_1680191097882-1680303282601.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mexicana34-1680303284106.jpg",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "20:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930068837-antigua-fonda-de-la-china-poblana",
+ "menu": [
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Plátanos con Rompope",
+     "desc": "Plátanos servidos con rompope, decorados con menta y canela. Porción individual.",
+     "price": 79,
+     "img": "95f01e80-324f-4ce9-b97d-b9596c2f35c7.png"
+    },
+    {
+     "name": "Duraznos con Rompope",
+     "desc": "Porción individual de duraznos frescos con rompope.",
+     "price": 72,
+     "img": "325aa7ef-f25a-4715-8656-8b80df1d2e34.png"
+    },
+    {
+     "name": "Duraznos con Crema",
+     "desc": "Potres de durazno con crema porcion individual.",
+     "price": 63,
+     "img": "89bbec93-3ce7-491b-b641-e195e056db10.png"
+    },
+    {
+     "name": "Plátanos con Crema",
+     "desc": "Porción individual de plátanos rebanados cubiertos con crema.",
+     "price": 63,
+     "img": "c880f36c-5435-4ed5-a370-3fcaf6b37a38.png"
+    }
+   ]
+  },
+  {
+   "name": "Pizza Tradicional",
+   "products": [
+    {
+     "name": "Pizza Mega",
+     "desc": "Pizza Mega de 12 rebanadas con opción de ingrediente a elegir. Incluye queso, rodajas de jalapeño, aceitunas negras y pepperoni.",
+     "price": 372,
+     "img": "14b06adf-72d2-40a3-88b1-b566b308aea4.jpeg"
+    },
+    {
+     "name": "Pizza Mediana",
+     "desc": "Pizza Mediana de 6 rebanadas con ingrediente a elegir. Incluye salsa de tomate, queso y albahaca.",
+     "price": 202,
+     "img": "4812bbff-91d4-4256-ada9-97bcb5cf9340.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Papas Para Compartir",
+   "products": [
+    {
+     "name": "Dedos De Queso",
+     "desc": "Dedos de queso empanizados, acompañados de papas fritas.",
+     "price": 155,
+     "img": "e16a5be0-fbcb-4bba-97ab-d0dce4c91837.jpeg"
+    },
+    {
+     "name": "Papas Gajo",
+     "desc": "Rodajas de papa fritas, servidas con cebollín picado. Perfectas como acompañamiento.",
+     "price": 86,
+     "img": "01587aab-8131-4ccb-a208-ab3e1b21b4a0.jpeg"
+    },
+    {
+     "name": "Aros De Cebolla",
+     "desc": "Aros de cebolla crujientes, ideales como acompañamiento.",
+     "price": 100,
+     "img": "ac196332-ea11-40e9-a827-3b5ca2798ffa.jpeg"
+    },
+    {
+     "name": "Platon Surtido",
+     "desc": "Papas a la francesa, aros de cebolla, papas gajo y 5 alitas con salsa.",
+     "price": 358,
+     "img": "dc154e68-f715-4cff-b2a2-807c6342edc9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "A La Carta",
+   "products": [
+    {
+     "name": "Lasana",
+     "desc": "Lasana con carne molida, queso mozzarella, gouda y parmesano, acompañada de salsa de tomate.",
+     "price": 171,
+     "img": "4dc92f1e-34bf-4b10-90cc-a7a99e7359b9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pizza Gourmet",
+   "products": [
+    {
+     "name": "Pizza Gourmet Grande",
+     "desc": "Pizza gourmet grande con pepperoni, aceitunas negras y albahaca, cortada en 8 rebanadas.",
+     "price": 280,
+     "img": "e925dbc8-a766-4983-b3b4-2f309807b080.jpeg"
+    },
+    {
+     "name": "Pizza Grande De Camarones",
+     "desc": "Pizza grande de camarones, servida en 8 rebanadas con base crujiente, camarones, queso y hierbas frescas.",
+     "price": 358,
+     "img": "35dfa4e0-0d34-4daa-a999-9fd4b243dbb0.jpeg"
+    },
+    {
+     "name": "Pizza Gourmet Mega",
+     "desc": "Pizza Gourmet Mega con 12 rebanadas, pepperoni, aceitunas negras y albahaca.",
+     "price": 389,
+     "img": "b5dfbcc8-d1c2-4dc0-befa-8818da49770f.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Chocolate Caliente 12Oz",
+     "desc": "Chocolate caliente de 12 oz con crema batida y espolvoreado de cacao.",
+     "price": 52,
+     "img": "a8dc4bc5-c012-42e1-a99a-feb45b256505.png"
+    },
+    {
+     "name": "Café con Leche 12Oz",
+     "desc": "Cafe con leche",
+     "price": 44,
+     "img": "fdafef59-05ff-482b-b5ed-6090015c0569.png"
+    },
+    {
+     "name": "Vaso de Leche Fría 12Oz",
+     "desc": "Vaso de leche",
+     "price": 37,
+     "img": "0adaa06d-c5e7-48e9-a6d8-c647e7a40159.png"
+    },
+    {
+     "name": "Café de Olla 12Oz",
+     "desc": "Cafe de olla.",
+     "price": 41,
+     "img": "f108ed68-c079-49e2-84d0-6d5634406e65.png"
+    },
+    {
+     "name": "Té de la Casa 12Oz",
+     "desc": "Té de la Casa en presentación de 12 oz. Sabor a elegir.",
+     "price": 30,
+     "img": "58928a7d-feba-4300-af08-592d20f14051.png"
+    },
+    {
+     "name": "Fresca Toronja",
+     "desc": "Refrescante bebida de toronja en presentación de 355 ml, ideal para los días calurosos.",
+     "price": 55,
+     "img": "dfab6bd4-1c65-4f0e-941c-86fa78ea7e1a.jpeg"
+    },
+    {
+     "name": "Limonada Natural",
+     "desc": "Refrescante limonada natural, elaborada con limones frescos y servida en una porción de 600 ml.",
+     "price": 62,
+     "img": "6b2f441e-5674-4825-89ed-e680672e4691.jpeg"
+    },
+    {
+     "name": "Coca-Cola Original",
+     "desc": "Refrescante bebida de cola con burbujas, en presentación de 355ml.",
+     "price": 55,
+     "img": "ee853c89-7a96-47dc-99d1-0196d0602f88.jpeg"
+    },
+    {
+     "name": "Limonada Mineral",
+     "desc": "Refrescante limonada mineral, ideal para disfrutar en cualquier momento del día.",
+     "price": 77,
+     "img": "7f1f9d1a-68c8-4a2e-920f-cbe3031e421e.jpeg"
+    },
+    {
+     "name": "Rusa",
+     "desc": "Bebida refrescante y carbonatada, ideal para cualquier ocasión.",
+     "price": 108,
+     "img": "e6b779e6-048c-4546-a666-d41c644c061e.jpeg"
+    },
+    {
+     "name": "Sprite",
+     "desc": "Refresco de limón burbujeante, refrescante y perfecto para acompañar tus comidas.",
+     "price": 55,
+     "img": "dce1bbe4-5e7a-4355-8c8d-b0b180d3c779.jpeg"
+    },
+    {
+     "name": "Agua de Maracuya",
+     "desc": "Agua natural de maracuya",
+     "price": 65,
+     "img": "12783738-785d-4d12-8d8a-7609af13ee0b.png"
+    }
+   ]
+  },
+  {
+   "name": "Boneless",
+   "products": [
+    {
+     "name": "Orden Mega (1kg)",
+     "desc": "Orden mega de boneless (1kg) acompañada de tres salsas para disfrutar en cada bocado.",
+     "price": 545,
+     "img": "cb8e042c-d04a-451f-8327-b6633bec8355.jpeg"
+    },
+    {
+     "name": "Orden Grande (500g)",
+     "desc": "Orden grande de boneless de 500g, acompañada de dos salsas para disfrutar cada bocado.",
+     "price": 311,
+     "img": "c7bdacfc-32dd-4444-836a-84cb048f5b10.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Hamburguesas",
+   "products": [
+    {
+     "name": "Kappy",
+     "desc": "Hamburguesa con sirloin 100 g, queso amarillo, jitomate, lechuga y cebolla.",
+     "price": 155,
+     "img": "c4afe237-2467-4a94-beb6-f3d2d98c80ef.jpeg"
+    },
+    {
+     "name": "Durs",
+     "desc": "Doble sirloin 200 g, queso, piña, jitomate, lechuga y pimiento en pan con ajonjolí.",
+     "price": 202,
+     "img": "b54e35b2-0ba1-41e9-87de-7f3caf133d93.jpeg"
+    },
+    {
+     "name": "Sterky",
+     "desc": "Hamburguesa con sirloin de 100 g, aros de cebolla, queso, lechuga y salsa ranch.",
+     "price": 171,
+     "img": "b89cef43-a667-4234-a2e6-030e3522ef74.jpeg"
+    },
+    {
+     "name": "Sven Bacon",
+     "desc": "Hamburguesa de sirloin de 100g, cubierta con tocino crujiente, queso derretido y salsa BBQ.",
+     "price": 171,
+     "img": "550cb6ae-a630-4937-be50-aee98b42a6ab.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Solo Wings",
+   "products": [
+    {
+     "name": "Alitas 20 Piezas",
+     "desc": "Alitas crujientes en porción de 20, servidas con 4 salsas para acompañar y realzar el sabor.",
+     "price": 406,
+     "img": "fb6847ba-e7b4-46e4-aeca-2df5471bb8b2.jpeg"
+    },
+    {
+     "name": "Alitas 5 Piezas",
+     "desc": "Cinco alitas acompañadas de salsa a elección.",
+     "price": 118,
+     "img": "2cf0ec8e-2d6d-4e7f-8321-a31e36dfc793.jpeg"
+    },
+    {
+     "name": "Alitas 10 Piezas",
+     "desc": "Diez alitas crujientes servidas con dos salsas para un toque extra de sabor.",
+     "price": 220,
+     "img": "1541f9f0-b68b-4100-88e5-a2e141fe2fa2.jpeg"
+    },
+    {
+     "name": "Alitas 25 Piezas",
+     "desc": "Alitas crujientes en porción de 25, acompañadas de 5 salsas para disfrutar de diferentes sabores.",
+     "price": 498,
+     "img": "e67b55d3-b9cf-46c7-a09d-ff34dab30e17.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Combos",
+   "products": [
+    {
+     "name": "Combo Boneless",
+     "desc": "1 Pizza Grande A Elegir + 500 G De Boneless Con 2 Salsas + Papas",
+     "price": 545,
+     "img": "35bf48cf-0e39-44ad-9c7a-8df1b1383fc8.jpeg"
+    },
+    {
+     "name": "Combo Mega Pizza",
+     "desc": "1 Pizza Mega A Elegir + 15 Alitas + 3 Salsas + Papas",
+     "price": 717,
+     "img": "58ce14c0-f616-46ed-8f07-13c2863a25a9.jpeg"
+    },
+    {
+     "name": "Combo Todo",
+     "desc": "1 Pizza Grande A Elegir + 250g De Boneless + 10 Alitas + 2 Salsas + Papas",
+     "price": 780,
+     "img": "1980d1d9-dffb-4d07-a004-a1231208412a.jpeg"
+    },
+    {
+     "name": "Combo Personal Alitas",
+     "desc": "5 Piezas De Alitas + Media Orden De Papas + Salsa + Refresco",
+     "price": 202,
+     "img": "4bce40c9-5128-4194-8252-8791dc2ff319.jpeg"
+    },
+    {
+     "name": "Combo Pareja Alitas",
+     "desc": "10 Piezas De Alitas + Papas + 2 Salsas + 2 Refrescos",
+     "price": 389,
+     "img": "a8c6640a-34cd-4275-b3c2-7b2ff3ae54ce.jpeg"
+    },
+    {
+     "name": "Combo Familiar 1",
+     "desc": "2 Pizzas Grandes a elegir, 10 alitas con 2 salsas y 2 órdenes de papas a elegir.",
+     "price": 780,
+     "img": "b5b9f88b-28ad-4129-af3b-706b96db9a89.jpeg"
+    },
+    {
+     "name": "Combo Grande Pizza",
+     "desc": "1 Pizza Grande a elegir, 10 alitas con 2 salsas y 1 orden de papas fritas.",
+     "price": 514,
+     "img": "6180a860-c969-4fd0-ba6f-b7cbd7f7b026.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos y Entradas",
+   "products": [
+    {
+     "name": "Pellizcaditas",
+     "desc": "Pellizcaditas de maíz con frijoles, queso, cebolla y salsa. Incluye 4 piezas: dos con salsa roja y dos con salsa verde.",
+     "price": 105,
+     "img": "cbc8eab0-c0aa-4e21-b0d7-e24fece4a5a9.jpeg"
+    },
+    {
+     "name": "Chalupitas Poblanas",
+     "desc": "Chalupitas Poblanas: 2 verdes, 2 rojas y 2 de mole con pollo desmenuzado. Incluyen queso y crema.",
+     "price": 95,
+     "img": "3b8a813d-7eea-4ff7-95f3-0818c13e3d75.jpeg"
+    },
+    {
+     "name": "Mole Poblano",
+     "desc": "Mole Poblano acompañado de arroz, sin pollo. Cubierto con ajonjolí.",
+     "price": 135,
+     "img": "9e5bdf95-0316-49e7-82d3-5b8a21cfb744.jpeg"
+    },
+    {
+     "name": "Guacamole",
+     "desc": "Guacamole acompañado de queso y totopos crujientes.",
+     "price": 79,
+     "img": "b8d1d607-7f77-4b8b-aad1-36c167ffad92.jpeg"
+    },
+    {
+     "name": "Frijoles Refritos",
+     "desc": "Frijoles refritos con queso y totopos crujientes.",
+     "price": 56,
+     "img": "07dea803-f7b6-42b9-b90d-a37b5f0f2acb.jpeg"
+    },
+    {
+     "name": "Degustación 3 Moles",
+     "desc": "Pechuga desmenuzada en pipian verde, pipian rojo y mole poblano.",
+     "price": 158,
+     "img": "4db24349-288f-47e1-8771-0fb3dfe5f972.png"
+    },
+    {
+     "name": "Combo Personal Club Sándwich de la Casa",
+     "desc": "Club sándwich de la casa+ Agua de Sabor",
+     "price": 125,
+     "img": "9fe60730-68db-459c-84a2-abd419177ae2.jpeg"
+    },
+    {
+     "name": "Papas Ala Francesa",
+     "desc": "200 gramos de papas ala francesa",
+     "price": 95,
+     "img": "a5a1545e-d8b4-4367-a0c1-737bc3a40b3b.png"
+    }
+   ]
+  },
+  {
+   "name": "Sopas Cremas y Consomés",
+   "products": [
+    {
+     "name": "Caldo de Pollo",
+     "desc": "Caldo con arroz, aguacate, cilantro y 1 pieza de pollo",
+     "price": 110,
+     "img": "91fe9016-e153-4f69-955a-eb4b025e0db1.jpeg"
+    },
+    {
+     "name": "Consomé de Pollo",
+     "desc": "Consome con arroz, pechuga desmenuzada, aguacate y cilantro.",
+     "price": 88,
+     "img": "3bd86c64-4821-4e08-888f-0fe91a50ccf6.jpeg"
+    },
+    {
+     "name": "Sopa de Verduras",
+     "desc": "Sopa con zanahoria, brocoli, calabaza. lleva pechuga desmenuzada.",
+     "price": 80,
+     "img": "8b8b17c9-3fa5-470e-92fa-8f949f3a0073.jpeg"
+    },
+    {
+     "name": "Pozole de Pollo",
+     "desc": "Pozole de Pollo con pollo desmenuzado, lechuga, rábano, limón y maíz pozolero.",
+     "price": 142,
+     "img": "a22e9914-4c2c-4bf4-a17a-dc0f783826cf.jpeg"
+    },
+    {
+     "name": "Arroz",
+     "desc": "Arroz rojo con chícharos.",
+     "price": 70,
+     "img": "a92ac3f4-cb2b-454a-90da-6eed65c6f398.jpeg"
+    },
+    {
+     "name": "Crema de Frijol",
+     "desc": "Plato de crema de frijol.",
+     "price": 75,
+     "img": "e7a23aa7-a444-4c32-a824-075ad1eadd54.jpeg"
+    },
+    {
+     "name": "Sopa Azteca",
+     "desc": "Sopa Azteca con juliana de tortillas en caldillo rojo, chipotle, epazote, crema, quesillo y aguacate.",
+     "price": 110,
+     "img": "80791a45-27c8-481a-8d7f-8ab6e8249bbc.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Cocina Poblana",
+   "products": [
+    {
+     "name": "Pipian Rojo",
+     "desc": "Pasta de pipian con pierna y muslo de pollo.",
+     "price": 254,
+     "img": "f269299a-be76-4832-b932-2d20ef6b5108.jpeg"
+    },
+    {
+     "name": "Envueltos de Pollo con Mole Poblano",
+     "desc": "Tacos de pollo en tortilla de maíz, bañadas en mole y acompañados de arroz 3 piezas.",
+     "price": 120,
+     "img": "fa6ce21b-c9a2-4ef8-8a5f-327900e349c3.jpeg"
+    },
+    {
+     "name": "Empipianadas Verdes",
+     "desc": "Tortilla de maíz rellena de pollo bañadas en pipián y acompañadas de frijoles refritos. 3 piezas.",
+     "price": 125,
+     "img": "889b7fd3-c4ec-448d-b3fd-8a436a9f30b8.jpeg"
+    },
+    {
+     "name": "Pipian Verde",
+     "desc": "Pasta de pipian con pierna y muslo de pollo.",
+     "price": 200,
+     "img": "6c9fd265-da91-4e16-8fbc-99658cbbe512.jpeg"
+    },
+    {
+     "name": "Enchiladas de 3 Moles",
+     "desc": "Tortilla de maíz rellena de pollo bañadas en pipián rojo, pipián verde y mole. y acompañadas de frijoles refritos. 3 piezas.",
+     "price": 160,
+     "img": "19c0c413-5790-4ec5-96ae-08b609ede4da.jpeg"
+    },
+    {
+     "name": "Carne a la Poblana",
+     "desc": "Bistec asado, 2 chalupitas, 1 enchilada poblana y frijoles refritos.",
+     "price": 230,
+     "img": "06b3585b-2d4b-4166-8a2c-5b42bbefff50.jpeg"
+    },
+    {
+     "name": "Empipianadas Rojas",
+     "desc": "Tortilla de maíz rellena de pollo bañadas en pipián y acompañadas de frijoles refritos. 3 piezas.",
+     "price": 120,
+     "img": "4a0b1b17-1efb-4fb1-af72-bc338a1dea95.jpeg"
+    },
+    {
+     "name": "Mole Poblano",
+     "desc": "Mole Poblano con pierna y muslo de pollo, cubierto con ajonjolí.",
+     "price": 230,
+     "img": "5e9ac558-c69e-42db-b963-7d11a02f627c.png"
+    },
+    {
+     "name": "Arrachera Poblana",
+     "desc": "Arrachera, 3 chalupas, frijoles refritos y guacamole.",
+     "price": 255,
+     "img": "e0ca899f-42f8-478a-9d5a-a8aecb35b515.jpeg"
+    },
+    {
+     "name": "Cazuela de los Sapos",
+     "desc": "Cazuela de los Sapos: Parrillada para 4 personas con arrachera, pechuga de pollo, bistec de puerco y res, longaniza, queso fundido, frijoles, guacamole, tortillas, cebollas cambray y nopales asados.",
+     "price": 600,
+     "img": "b79325ab-5317-4c58-b147-c6c4bd53bc86.png"
+    },
+    {
+     "name": "Chile en Nogada",
+     "desc": "Chile en nogada, relleno de picadillo dulce y acompañado de nuestra salsa de nogada y granada.",
+     "price": 295,
+     "img": "4f834f65-c49c-46e0-8fab-0222cb8bcdb3.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Cemitas Poblanas y Mole",
+   "products": [
+    {
+     "name": "Cemita Pipian Rojo",
+     "desc": "Cemita con pipián rojo, pollo y queso, servida en pan tradicional.",
+     "price": 110,
+     "img": "b892900b-426a-4ee8-a287-f1cd8514f9f5.jpeg"
+    },
+    {
+     "name": "Cemita de Quesillo",
+     "desc": "Cemita de quesillo preparada con aguacate, quesillo, cebolla papalo y chipotle.",
+     "price": 100,
+     "img": "f610646c-d422-46cc-abe8-0d418fb6e573.jpeg"
+    },
+    {
+     "name": "Cemita de Pollo Desmenuzado",
+     "desc": "Cemita de pollo preparada con aguacate, quesillo, cebolla papalo y chipotle.",
+     "price": 100,
+     "img": "f610646c-d422-46cc-abe8-0d418fb6e573.jpeg"
+    },
+    {
+     "name": "Cemita de Jamón",
+     "desc": "Cemita de jamon preparada con aguacate, quesillo, cebolla papalo y chipotle.",
+     "price": 100,
+     "img": "f610646c-d422-46cc-abe8-0d418fb6e573.jpeg"
+    },
+    {
+     "name": "Cemita de Milanesa de Res",
+     "desc": "Cemita de milanesa de res preparada con aguacate, quesillo, cebolla papalo y chipotle.",
+     "price": 130,
+     "img": "f8fcb9dd-a047-447f-b5c9-e35b720f0a53.jpeg"
+    },
+    {
+     "name": "Cemita de Milanesa de Pollo",
+     "desc": "Cemita de milanesa de pollo preparada con aguacate, quesillo, cebolla papalo y chipotle.",
+     "price": 115,
+     "img": "f8fcb9dd-a047-447f-b5c9-e35b720f0a53.jpeg"
+    },
+    {
+     "name": "Cemita de Mole",
+     "desc": "Cemita rellena de mole, pollo desmenuzado y queso, servida en pan tradicional.",
+     "price": 110,
+     "img": "b892900b-426a-4ee8-a287-f1cd8514f9f5.jpeg"
+    },
+    {
+     "name": "Cemita de Pata",
+     "desc": "Cemita de pata de cerdo preparada con aguacate, quesillo, cebolla papalo y chipotle.",
+     "price": 115,
+     "img": "ec980432-64ab-4f61-b431-dc35f9671e26.jpeg"
+    },
+    {
+     "name": "Cemita Pipian Verde",
+     "desc": "Cemita con pipián verde, pollo y queso. Un clásico poblano en pan crujiente.",
+     "price": 110,
+     "img": "b892900b-426a-4ee8-a287-f1cd8514f9f5.jpeg"
+    },
+    {
+     "name": "Cemita Bistec de Cerdo",
+     "desc": "Cemita de bistec de cerdo preparada con aguacate, quesillo, cebolla papalo y chipotle.",
+     "price": 110,
+     "img": "ec980432-64ab-4f61-b431-dc35f9671e26.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Otros",
+   "products": [
+    {
+     "name": "Bistec Asado con Papas Ala Francesa",
+     "desc": "Bistec asado acompañado de papas ala francesa con ensalada",
+     "price": 199,
+     "img": "80a21103-b6eb-49ce-9c54-dc455843a1f9.jpeg"
+    },
+    {
+     "name": "Milanesa de Res",
+     "desc": "Milanesa de res acompañada de ensalada de lechuga y jitomate cherry. Incluye limón y salsa.",
+     "price": 199,
+     "img": "bf2f7dcb-d799-48bd-8321-a9876f83d601.jpeg"
+    },
+    {
+     "name": "Enfrijoladas de Queso",
+     "desc": "Enfrijolada de queso en tortilla de maíz rellenas de queso y bañadas en salsa de frijol. 3 piezas.",
+     "price": 115,
+     "img": "a88b869e-4939-404c-b938-cd6d75b5f53b.jpeg"
+    },
+    {
+     "name": "Pollo Frito",
+     "desc": "Pollo frito acompañado con papas y ensalada.",
+     "price": 199,
+     "img": "470a9263-b9b2-41c5-b632-83e0a6136d52.jpeg"
+    },
+    {
+     "name": "Tacos Dorados de Pollo",
+     "desc": "Taco de pollo con lechuga, queso rayado, crema, aguacate y cebolla 3 piezas.",
+     "price": 100,
+     "img": "f637d7fd-e70b-4c4c-99cb-8fbc42ed2b45.jpeg"
+    },
+    {
+     "name": "Enchiladas de Pollo",
+     "desc": "Enchilada de pollo en tortilla de maíz rellenas de pollo desmenuzado y bañadas en salsa roja. 3 piezas.",
+     "price": 135,
+     "img": "e83a6dd9-45f2-4352-b815-de1f198d6528.jpeg"
+    },
+    {
+     "name": "Chilaquiles Rojos con Bistec de Res",
+     "desc": "Totopos bañados en salsa roja con carne de res, crema, queso, cebolla y aguacate.",
+     "price": 145,
+     "img": "eca83237-6922-4bb3-b1ce-0e932219799c.png"
+    },
+    {
+     "name": "Enchiladas Verdes",
+     "desc": "Enchiladas en salsa verde tortilla de maíz rellenas de pollo y bañadas en salsa roja. 3 piezas.",
+     "price": 100,
+     "img": "a1375225-3b24-4e4e-beb5-fb53a12a8665.jpeg"
+    },
+    {
+     "name": "Chilaquiles Verdes con Res",
+     "desc": "Totopos bañados en salsa verde con carne de res, crema, queso, cebolla y aguacate.",
+     "price": 145,
+     "img": "f4e0baae-57ab-4be9-ab02-4990c1e6b4ec.png"
+    },
+    {
+     "name": "Tostadas de Queso",
+     "desc": "3 tostadas con queso, lechuga y salsa roja.",
+     "price": 100,
+     "img": "8e608046-3fe0-47cd-95fc-e0e0d32e3292.png"
+    },
+    {
+     "name": "Tostadas de Pollo",
+     "desc": "3 Tostadas de pollo con lechuga, queso y salsa roja.",
+     "price": 100,
+     "img": "aff9cf01-e2a3-4b45-8c77-7a9faaa6fd83.jpeg"
+    },
+    {
+     "name": "Tostadas de Pata",
+     "desc": "3 Tostadas de pata de cerdo con lechuga, queso y salsa roja.",
+     "price": 100,
+     "img": "aa9db761-dddb-4b3f-afaa-f4a23086c046.jpeg"
+    },
+    {
+     "name": "Chilaquiles Rojos con Pollo",
+     "desc": "Totopos bañados en salsa roja con pollo demenuzado, crema, queso, cebolla y aguacate.",
+     "price": 120,
+     "img": "914ce6fe-3db1-4141-bfc3-aa58823328b6.jpeg"
+    },
+    {
+     "name": "Chilaquiles Verdes con Pollo",
+     "desc": "Totopos bañados en salsa con pollo demenuzado, crema, queso, cebolla y aguacate.",
+     "price": 120,
+     "img": "0a1a6145-9cac-40c9-a526-186791560680.jpeg"
+    },
+    {
+     "name": "Enfrijoladas de Pollo",
+     "desc": "Enfrijoladas de Pollo: tortillas de maíz rellenas de pollo desmenuzado, bañadas en salsa de frijol, con crema y queso. 3 piezas.",
+     "price": 100,
+     "img": "79e3fb52-9bf6-4974-878d-5fce7e9a7f19.jpeg"
+    },
+    {
+     "name": "Tacos Dorados de Queso",
+     "desc": "Taco de queso con lechuga, queso rayado, crema, aguacate y cebolla 3 piezas.",
+     "price": 100,
+     "img": "822e42b6-48d1-4d57-a1ee-1ce54dddc834.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Crepas",
+   "products": [
+    {
+     "name": "Crepa de Nutella",
+     "desc": "Crepa rellena de Nutella, espolvoreada con azúcar glass.",
+     "price": 95,
+     "img": "53177e2c-18d6-45e0-a1cb-5b33d8c8cacb.png"
+    },
+    {
+     "name": "Crepa de Cajeta",
+     "desc": "Crepa rellena de cajeta, espolvoreada con azúcar glass.",
+     "price": 95,
+     "img": "3a5c835b-b2dc-43a8-833d-cc3652a06417.png"
+    },
+    {
+     "name": "Crepa de 3 Ingredientes",
+     "desc": "Crepa con fresas, nueces y chocolate. Elige tus 3 ingredientes favoritos.",
+     "price": 120,
+     "img": "46f712c5-b20c-4acd-a91f-d90281f5ed0a.png"
+    }
+   ]
+  },
+  {
+   "name": "Pasteles",
+   "products": [
+    {
+     "name": "Pastel de Chocolate",
+     "desc": "Pastel de chocolate con cobertura de chocolate, porción personal.",
+     "price": 90,
+     "img": "500c0e71-f41c-497e-b6a0-f7038a950450.png"
+    },
+    {
+     "name": "Pastel Frambuesa",
+     "desc": "Rebanada de pastel de frambuesa con base de galleta y cobertura de crema batida.",
+     "price": 85,
+     "img": "985a3ddc-c283-4127-921e-264672688450.jpeg"
+    },
+    {
+     "name": "Chocoflan",
+     "desc": "Flan napolitano con pastel de chocolate, porción personal.",
+     "price": 80,
+     "img": "399ace52-0e80-47a4-b6ea-bef3f0988689.jpeg"
+    },
+    {
+     "name": "Strudel de Manzana",
+     "desc": "Strudel de manzana con salsa de nuez, decorado con nueces y azúcar glass.",
+     "price": 105,
+     "img": "5cf62bf0-d067-44e5-b547-b28e04bbfdf3.png"
+    },
+    {
+     "name": "Pie Tortuga",
+     "desc": "Pie Tortuga con capa de chocolate, caramelo y nuez.",
+     "price": 92,
+     "img": "168e665f-7d44-4601-a612-d2073a5d96e8.png"
+    }
+   ]
+  },
+  {
+   "name": "Cafe",
+   "products": [
+    {
+     "name": "Cafe de Olla",
+     "desc": "Cafe con piloncillo y un toque de canela",
+     "price": 46,
+     "img": "91e8792a-ecc5-475a-8ad2-80fdaa7ff549.png"
+    },
+    {
+     "name": "Café Americano",
+     "desc": "Café procesado en una maquina de expreso",
+     "price": 52,
+     "img": "9592259a-774f-40b7-866b-4a4a38f9f5b5.png"
+    },
+    {
+     "name": "Capuchino de Sabor",
+     "desc": "Espresso, vapor y espuma de leche, con jarabe a elegir.",
+     "price": 80,
+     "img": "8c1c8d36-5589-4ebf-b2fb-099cac9b60d7.jpg"
+    },
+    {
+     "name": "Licuado de Choco Milk 500 ml",
+     "desc": "Licuado de leche con choco milk y azúcar de 500 ml.",
+     "price": 75,
+     "img": "67cff1f3-5437-4642-b44a-d9e35c6c0b79.png"
+    },
+    {
+     "name": "Malteada Mas Crepa",
+     "desc": "Deliciosa crepas del sabor que desea más una refrescante malteada también del sabor que elija",
+     "price": 133,
+     "img": "86b2f066-abd6-4578-b83d-1b66cd524fa4.png"
+    }
+   ]
+  },
+  {
+   "name": "Mole en Pasta",
+   "products": [
+    {
+     "name": "1/2 kg de Mole en Pasta",
+     "desc": "1/2 kg de mole en pasta, ideal para preparar platillos tradicionales. Sellado al vacío para conservar su frescura.",
+     "price": 120,
+     "img": "c3c82c9e-841e-4424-bcf2-b7b0a91cafbc.png"
+    },
+    {
+     "name": "1 kg de Mole en Pasta",
+     "desc": "1 kg de mole en pasta con almendras, sellado al vacío para conservar su frescura.",
+     "price": 210,
+     "img": "5ed0be77-1b8a-4f0f-a484-a341aa5fb066.png"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menú · Cocina Azul</title>
+<meta name="description" content="Menú digital de Cocina Azul (Oaxaca de Juárez, Oax.): 35 platillos con precios, fotos y pedido por WhatsApp.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0f2a5c">
+<meta property="og:title" content="Menú · Cocina Azul">
+<meta property="og:description" content="Cocina oaxaqueña y panadería">
+<meta property="og:url" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-azul/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23f2b33d'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%231a1a1a' font-family='Georgia'%3EC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="../assets/menu.css">
+<style>:root{--bg:#0f2a5c;--fg:#f7f1e6;--acc:#f2b33d;--card:#17356f;--on-acc:#1a1a1a;--ft:'Cormorant Garamond';--fb:'Manrope';color-scheme:dark}</style>
+</head>
+<body>
+<div class="demo"><b>Muestra</b> preparada por LKM'r para Cocina Azul · precios de referencia tomados de Rappi (17 nov. 2026), se ajustan a los de salón.</div>
+<header class="hero"><div class="wrap">
+  <p class="kicker">Menú digital · Hotel Azul de Oaxaca</p>
+  <h1>Cocina Azul</h1>
+  <p class="lema">Cocina oaxaqueña y panadería</p>
+  <div class="meta">
+    <span class="pill" id="status"></span>
+    <a class="pill" href="https://www.google.com/maps/search/?api=1&query=Cocina+Azul+Mariano+Abasolo+313,+Centro,+Oaxaca+de+Juárez,+Oax." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Oaxaca de Juárez, Oax.</a>
+    <a class="pill" href="tel:+529515010016"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>951 501 0016</a>
+    <button class="pill" id="share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>Compartir</button>
+  </div>
+</div></header>
+<div class="bar"><div class="wrap">
+  <div class="search"><label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Buscar en 35 platillos…" autocomplete="off" aria-label="Buscar platillo"></label></div>
+  <nav class="chips" id="chips" aria-label="Categorías"></nav>
+</div></div>
+<main class="wrap"><div id="list"></div><p class="empty" id="empty">No encontramos ese platillo. Prueba con otra palabra.</p></main>
+<footer><div class="wrap">
+  <span>Cocina Azul · Mariano Abasolo 313, Centro, Oaxaca de Juárez, Oax.</span>
+  <span>Los precios mostrados son de referencia y pueden cambiar. Confírmalos con tu mesero.</span>
+  <span>Menú digital hecho por <a href="../">LKM'r</a>.</span>
+</div></footer>
+<button class="cartbar" id="cartbar" type="button"><span><span class="count" id="barcount">0</span>Ver mi pedido</span><span id="bartotal">$0</span></button>
+<dialog id="cart" aria-labelledby="carttitle"><div class="sheet">
+  <header><h2 id="carttitle">Tu pedido</h2><button class="x" id="close" type="button" aria-label="Cerrar">×</button></header>
+  <div class="lines" id="lines"></div>
+  <div class="total"><span>Total aprox.</span><span id="total">$0</span></div>
+  <div class="two"><label class="field">Nombre<input id="who" autocomplete="name"></label><label class="field">Mesa o para llevar<input id="mesa" placeholder="Ej. mesa 4"></label></div>
+  <label class="field">Notas<textarea id="notas" rows="2" placeholder="Sin cebolla, salsa aparte…"></textarea></label>
+  <a class="send" id="send" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c.7.3 1.3.5 1.7.6a4.2 4.2 0 0 0 1.9.1 3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.8L.2 23.8l6.1-1.6A11.8 11.8 0 0 0 12 23.6 11.8 11.8 0 0 0 20.4 3.6z"/></svg>Enviar pedido por WhatsApp</a>
+  <p class="note">Se abre WhatsApp con tu pedido listo; el restaurante confirma total y tiempo.</p>
+</div></dialog>
+<div class="toast" id="toast" role="status"></div>
+<script>window.MENU={"nombre":"Cocina Azul","whatsapp":"9515010016","horario":"07:00:00 - 22:15:00","cats":[{"name":"Desayunos","items":[{"name":"Omelette","desc":"Omelette relleno de quesillo bañado en mole coloradito.","price":185,"img":"img/2c2e19d688dc.webp"},{"name":"Hot cakes","desc":"Hot cakes esponjosos acompañados de mantequilla y miel maple.","price":155,"img":"img/333c0d634619.webp"},{"name":"Huevos en Salsa Martajada","desc":"Huevos revueltos bañados en salsa martajada con chile de agua.","price":175,"img":"img/248f23df737f.webp"},{"name":"Entomatadas","desc":"Entomatadas con cebolla, perejil, acompaña con pan bolillo, crema ácida y proteína.","price":165,"img":"img/b7a4d524090d.webp"},{"name":"Enfrijoladas","desc":"Enfrijoladas con cebolla, perejil, acompaña con pan bolillo, crema ácida y proteína.","price":165,"img":"img/a1f18d7055d4.webp"},{"name":"Desayuno vegetariano","desc":"Pan integral, aguacate, verduras salteadas calabaza bola, zanahoria, aceite de ajonjolí, semillas y ensalada verde.","price":195,"img":"img/a9296f8012ed.webp"},{"name":"Enchiladas","desc":"Enchiladas con cebolla, perejil, acompaña con pan bolillo, crema ácida, proteína y preparación a elegir.","price":165,"img":"img/2a5fe8f8209a.webp"},{"name":"Chilaquiles","desc":"Chilaquiles con cebolla, perejil, acompaña con pan bolillo, crema ácida, preparación y proteína a elección.","price":180,"img":"img/79b15d99bf3f.webp"},{"name":"Plato de frutas de temporadas","desc":"Plato de frutas de temporada con sandía, papaya, piña, granola y cereza. Incluye opción de ingrediente y tamaño a elegir.","price":70,"img":"img/9b98ab0cfd02.webp"}]},{"name":"Entradas","items":[{"name":"Consomé de pollo","desc":"Consomé de pollo con arroz blanco, calabaza, zanahoria y pollo deshebrado. guarnición de limón, cebolla y chile verde picado.","price":195,"img":"img/5da3fcfeedd5.webp"},{"name":"Ensalada azul","desc":"Mix de lechugas, arándanos, nuez caramelizada, supremas de naranja, manzana amarilla, roja, verde, queso de cabra y aderezo de mostaza con miel.","price":185,"img":"img/d6660cdd1344.webp"}]},{"name":"Platos Fuertes","items":[{"name":"Arroz Negro","desc":"Arroz negro con salmón y huitlacoche.","price":290,"img":"img/0b28ebebac70.webp"},{"name":"Fettuccini verde","desc":"Fettuccini verde con salsa de hoja santa, elote y queso.","price":190,"img":"img/d08a745daefd.webp"}]},{"name":"Menú Para Niños","items":[{"name":"Nuggets","desc":"Nuggets de pollo con papas fritas.","price":180,"img":"img/837270418893.webp"},{"name":"Fettuccini alfredo","desc":"Pasta, crema, mantequilla, tocino y queso parmesano.","price":180,"img":"img/556ec68d43b0.webp"},{"name":"Papas fritas","desc":"Papas fritas crujientes acompañadas de salsa de tomate.","price":95,"img":"img/9d858b67e5c5.webp"}]},{"name":"Bebidas Sin Alcohol","items":[{"name":"Café Americano","desc":"Café americano en taza pequeña.","price":50,"img":"img/323a27b1ff8e.webp"},{"name":"Espresso","desc":"Espresso chico.","price":50,"img":"img/c81c7cb02669.webp"},{"name":"Doble Espresso","desc":"Doble espresso tamaño chico.","price":60,"img":"img/416b9b665008.webp"},{"name":"Cappuccino","desc":"Cappuccino tamaño chico.","price":65,"img":"img/b284b277be9d.webp"},{"name":"Café Latte","desc":"Café latte tamaño chico.","price":68,"img":"img/35f56e739c26.webp"},{"name":"Chocolate oaxaqueño","desc":"Chocolate oaxaqueño en base a elegir.","price":75,"img":"img/9129cc885ab0.webp"},{"name":"Té Helado","desc":"Té helado de poleo natural.","price":55,"img":"img/73176cb7ef3a.webp"},{"name":"Jugo de naranja","desc":"Jugo natural de naranja.","price":70,"img":"img/9fa65b38913f.webp"},{"name":"Jugo verde","desc":"Jugo natural de apio, piña, naranja y perejil.","price":70,"img":"img/4854cdff83cc.webp"},{"name":"Perrier Mineral 350 ml","price":68,"img":"img/901a8dd28fb8.webp"},{"name":"Limonada","desc":"Limonada mineral.","price":55,"img":"img/7efbae9c0aa9.webp"},{"name":"Naranjada","desc":"Naranjada mineral.","price":65,"img":"img/1eedf2dba044.webp"},{"name":"Coca-cola original 355 ml","price":55,"img":"img/13f8d4399989.webp"},{"name":"Coca-cola light 355 ml","price":55,"img":"img/99049305edd6.webp"},{"name":"Sprite 355 ml","price":55,"img":"img/a3308f016655.webp"},{"name":"Fresca toronja 355 ml","price":55,"img":"img/a04032469219.webp"},{"name":"Sidral mundet 355 ml","price":55,"img":"img/287e56ae2a5d.webp"},{"name":"Agua fresca","desc":"Agua fresca sabor a elegir.","price":50,"img":"img/d89fe6a7b41e.webp"}]},{"name":"Cócteles con Alcohol","items":[{"name":"Carajillo","desc":"Cóctel con licor 43 y café expresso","price":165,"img":"img/de7a71c98972.webp"}]}]};</script>
+<script src="../assets/menu.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,384 @@
+{
+ "id": 1306703757,
+ "brandName": "Mi Alma Restaurante",
+ "name": "Mi Alma Restaurante - Querétaro Centro",
+ "address": "Calle Francisco I. Madero 102, Centro, 76000 Santiago de Querétaro, Qro., México",
+ "schedule": "09:00:00 - 17:00:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -100.398292,
+  20.590401
+ ],
+ "city": "Santiago de Querétaro",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/1306703757-1530212843.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/1306703757-1549988118.png",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "17:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1306703757-mi-alma-restaurante",
+ "menu": [
+  {
+   "name": "Fiesta Mexicana",
+   "products": [
+    {
+     "name": "Flautas de la Casa",
+     "desc": "Orden de 4 flautas ahogadas verdes, rojas o chipotle. Acompañadas de frijoles, lechuga, queso, crema, cebolla y jitomate",
+     "price": 80,
+     "img": "8a91d53b-d36c-43fb-83ca-06111106c0df.png"
+    },
+    {
+     "name": "Flautas",
+     "desc": "Orden de 4 flautas acompañadas de frijoles, lechuga, queso, crema, cebolla y jitomate",
+     "price": 80,
+     "img": "07d5a159-ad3d-496c-adc5-44b39bc2ad30.png"
+    },
+    {
+     "name": "Sopes de la Casa",
+     "desc": "Orden de 3 sopes de la casa  acompañados de frijoles, lechuga, queso y crema",
+     "price": 40,
+     "img": "5895f41e-b581-4534-a431-1f880ebfff42.png"
+    },
+    {
+     "name": "Combo Arrachera + Coca-Cola",
+     "desc": "200 Gramos de arrachera acompañada de arroz, frijoles y 1 Coca-Cola Sin Azúcar de 600 ml.",
+     "price": 145,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Enchiladas",
+   "products": [
+    {
+     "name": "Chilaquiles",
+     "desc": "Acompañados de frijoles, lechuga, queso, crema y cebolla",
+     "price": 85,
+     "img": "da168fed-3290-4f52-bddc-5ae5b609ae25.png"
+    },
+    {
+     "name": "Enchiladas",
+     "desc": "Acompañado con frijoles, lechuga, queso, crema y cebolla",
+     "price": 80,
+     "img": "43c2832b-7f5c-40ee-bcf3-0a6f20b7a5f2.png"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "Acompañado de queso, crema y cebolla",
+     "price": 80,
+     "img": "0340030c-2bc2-422a-b147-96d1a0237e53.png"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "Acompañadas de, queso, crema y cebolla",
+     "price": 85,
+     "img": "3acb10bc-8d14-4fb2-b6b6-fa4ea6f28277.png"
+    },
+    {
+     "name": "Entomatadas",
+     "desc": "Acompañadas de frijoles, lechuga, queso, crema y cebolla",
+     "price": 80,
+     "img": "adf75372-8546-44df-af47-403aad98bcb1.png"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Huevos al Gusto",
+     "desc": "Acompañados con frijolitos, un bolillo o tortillas",
+     "price": 35,
+     "img": "d12779b1-6bbf-4e73-9222-52b1866c6dae.png"
+    },
+    {
+     "name": "Sincronizadas",
+     "desc": "Orden de dos sincronizadas",
+     "price": 80,
+     "img": "e2145f70-ea87-41da-989d-88114722e609.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta de Chilaquiles con Bistec",
+     "desc": "Torta de chilaquiles con bistec",
+     "price": 65,
+     "img": "59218884-4f4f-47be-a2ca-7ff5319b4f07.png"
+    },
+    {
+     "name": "Torta de Pollo",
+     "desc": "Pechuga a la plancha, lechuga, Jitomate y Mayonesa.",
+     "price": 65,
+     "img": "2e438818-06f7-4435-aca4-794fa15b0532.png"
+    },
+    {
+     "name": "Torta de Bistec",
+     "desc": "Bistec, lechuga, jitomate mayonesa",
+     "price": 65,
+     "img": "40b997d0-740c-4ee0-a324-e49378872cc2.png"
+    },
+    {
+     "name": "Torta de Jamón",
+     "desc": "acompañada de jamón, queso, lechuga, jitomate y mayonesa",
+     "price": 40,
+     "img": "ec0fb70d-6113-4a4d-8613-79f8fb214b1b.png"
+    },
+    {
+     "name": "Torta con Queso",
+     "desc": "Queso, Lechuga, y mayonesa",
+     "price": 40,
+     "img": "bba9debb-8a12-464e-b0f1-40d2dde89ed2.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Flautas",
+   "products": [
+    {
+     "name": "Flautas de la Casa",
+     "desc": "Orden de 4 flautas ahogadas verdes, rojas o chipotle. Acompañadas de frijoles, lechuga, queso, crema, cebolla y jitomate",
+     "price": 80,
+     "img": "8a91d53b-d36c-43fb-83ca-06111106c0df.png"
+    },
+    {
+     "name": "Flautas",
+     "desc": "Orden de 4 flautas acompañadas de frijoles, lechuga, queso, crema, cebolla y jitomate",
+     "price": 80,
+     "img": "07d5a159-ad3d-496c-adc5-44b39bc2ad30.png"
+    }
+   ]
+  },
+  {
+   "name": "Sopas",
+   "products": [
+    {
+     "name": "Sopa de Fideo",
+     "desc": "Sopa de fideo",
+     "price": 40,
+     "img": "f808f82f-3f26-4f4d-a09d-a418fb574e46.jpeg"
+    },
+    {
+     "name": "Arroz del dia",
+     "desc": "Puede ser blanco o rojo",
+     "price": 0,
+     "img": ""
+    },
+    {
+     "name": "Orden de Frijoles Refritos",
+     "desc": "Frijoles negros refritos al estilo de la casa",
+     "price": 0,
+     "img": "18e6bf89-53a4-43ea-9760-1165f58e5804.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos",
+   "products": [
+    {
+     "name": "Molletes",
+     "desc": "2 piezas",
+     "price": 50,
+     "img": "51628057-eea0-403c-ba6e-16831a20c306.png"
+    },
+    {
+     "name": "Tostadas de Pollo",
+     "desc": "3 piezas",
+     "price": 50,
+     "img": "535ba2ba-627c-4b78-860f-3c1b92b80d50.png"
+    },
+    {
+     "name": "Quesadillas de Queso",
+     "desc": "3 piezas.",
+     "price": 40,
+     "img": "d94f1aef-f71f-40d3-9544-88d1c1b1a71c.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Cóctel de Fruta",
+     "desc": "Cóctel de fruta",
+     "price": 30,
+     "img": "342d5f4a-2ccb-43e5-9d1c-63eff4edc85d.png"
+    },
+    {
+     "name": "Plátano Macho Frito",
+     "desc": "Plátano macho frito",
+     "price": 45,
+     "img": "efff22fe-afd3-48bd-9d81-c8651718df82.png"
+    },
+    {
+     "name": "Helado",
+     "desc": "Chocolate, vainilla, fresa o limón",
+     "price": 40,
+     "img": "1eb701f8-4625-4623-b0ad-4012514dc795.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Jugo de naranja",
+     "desc": "500ml de jugo",
+     "price": 35,
+     "img": "b0146e09-6e12-4897-ad9a-d65de044fea7.jpeg"
+    },
+    {
+     "name": "Café de Olla",
+     "desc": "Café de olla",
+     "price": 17,
+     "img": "cd4b8a5e-6a37-4b05-b864-b466f5f0e70a.png"
+    },
+    {
+     "name": "Limonada",
+     "desc": "Limonada de 350 ml.",
+     "price": 35,
+     "img": "31cd534c-b85e-4df2-90e3-17b8f2cb27c8.jpeg"
+    },
+    {
+     "name": "Agua Ciel",
+     "desc": "Agua Ciel de 600 ml.",
+     "price": 15,
+     "img": "9ea1fab3-ae5a-409b-9935-8ee515111c6f.png"
+    },
+    {
+     "name": "Refresco",
+     "desc": "Refresco de 355 ml.",
+     "price": 18,
+     "img": "9c2fb308-9a62-4bcd-aa79-ec15444522c5.png"
+    },
+    {
+     "name": "Jarra de Agua",
+     "desc": "Jarra de agua de 1 lt. con frutas de temporada.",
+     "price": 38,
+     "img": "04b1a477-eec9-49cf-914a-40df529855b3.jpeg"
+    },
+    {
+     "name": "Naranjada",
+     "desc": "Naranjada de 350 ml.",
+     "price": 35,
+     "img": "a9615434-6abf-47b0-b4a9-29d2df24f822.jpeg"
+    },
+    {
+     "name": "Malteada",
+     "desc": "Fresa, vainilla o chocolate",
+     "price": 40,
+     "img": "915e8da4-871d-4244-a1a6-4a77fab2af18.jpeg"
+    },
+    {
+     "name": "Chocolate Caliente",
+     "desc": "Chocolate caliente",
+     "price": 25,
+     "img": "890d79a4-9d4a-479c-a70f-dac765ac6589.png"
+    },
+    {
+     "name": "Té",
+     "desc": "Manzanilla, hierbabuena o limón",
+     "price": 15,
+     "img": "5aa78902-52b4-4992-a195-e4e1668b7a25.png"
+    },
+    {
+     "name": "Café Americano",
+     "desc": "Café Americano",
+     "price": 17,
+     "img": "cd4b8a5e-6a37-4b05-b864-b466f5f0e70a.png"
+    },
+    {
+     "name": "Agua del Día",
+     "desc": "Agua del día con frutas de temporada 500ml",
+     "price": 20,
+     "img": "9b3cc1c4-448e-43bd-87c9-4120c33d90c4.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "A La Plancha",
+   "products": [
+    {
+     "name": "Alambre",
+     "desc": "Acompañado con frijoles y tortillas",
+     "price": 90,
+     "img": "f2384321-c1fe-40e0-be15-d034edb5ab18.png"
+    },
+    {
+     "name": "Pollo a la Plancha",
+     "desc": "Acompañado de arroz y ensalada",
+     "price": 90,
+     "img": "66f0045c-6331-40d6-991b-e5382503071f.jpeg"
+    },
+    {
+     "name": "Arrachera",
+     "desc": "Acompañado con arroz, ensalada y chorizo.",
+     "price": 205,
+     "img": "da8bdcc2-3a03-47dd-91b3-92646312f359.png"
+    },
+    {
+     "name": "Bistec a la Plancha",
+     "desc": "Acompañado con arroz y ensalada",
+     "price": 90,
+     "img": "da8bdcc2-3a03-47dd-91b3-92646312f359.png"
+    }
+   ]
+  },
+  {
+   "name": "Combos",
+   "products": [
+    {
+     "name": "Combo 1",
+     "desc": "Chocolate caliente con pan dulce.",
+     "price": 33,
+     "img": "0075066c-ed23-42ea-bc3e-5ed67e94ef86.png"
+    },
+    {
+     "name": "Combo 2",
+     "desc": "Café de olla o americano o te y con pan.",
+     "price": 25,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Julieta",
+     "desc": "Lechuga, pepino, jitomate, atún y mayonesa",
+     "price": 65,
+     "img": "30e58759-9130-49c3-9b35-8a314ee0c41c.png"
+    },
+    {
+     "name": "Florentina",
+     "desc": "Lechuga, durazno, queso panela, nuez, coco rallado y pollo a la plancha",
+     "price": 95,
+     "img": "5f613731-70cb-4169-8f89-f6884d19044c.png"
+    },
+    {
+     "name": "Mi Alma",
+     "desc": "Lechuga, pepino, jitomate, queso panela, zanahoria y ajonjolí garapiñado",
+     "price": 50,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58.png"
+    }
+   ]
+  },
+  {
+   "name": "Sopes",
+   "products": [
+    {
+     "name": "Sopes de la Casa",
+     "desc": "Orden de 3 sopes de la casa  acompañados de frijoles, lechuga, queso y crema",
+     "price": 40,
+     "img": "5895f41e-b581-4534-a431-1f880ebfff42.png"
+    }
+   ]
+  }
+ ]
+}
