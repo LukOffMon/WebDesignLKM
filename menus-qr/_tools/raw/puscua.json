@@ -1,0 +1,252 @@
+{
+ "id": 1930008812,
+ "brandName": "Puscua, Cocina de Herencia",
+ "name": "Puscua, Cocina de Herencia - Marfil",
+ "address": "Casa museo Gene Byron, Guanajuato - Marfil, Marfil, 36251 Marfil, Guanajuato, Mexico",
+ "schedule": "08:45:00 - 13:45:00",
+ "categories": "Mexicana · Panadería y Pastelería · Desayunos y Brunch",
+ "location": [
+  -101.2846649,
+  21.0016003
+ ],
+ "city": "Guanajuato",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/1930008812_1657661658866.jpg?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/1930008812_1657661657809.jpg",
+ "schedules": [
+  {
+   "open_time": "08:45:00",
+   "close_time": "13:45:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930008812-puscua-cocina-de-herencia",
+ "menu": [
+  {
+   "name": "Tosta",
+   "products": [
+    {
+     "name": "Tosta de Chorizo",
+     "desc": "Pan tostado con chorizo, huevo estrellado, queso fundido, jitomate, aguacate y salsa de chile morita, 250 gr.",
+     "price": 177,
+     "img": "232845f9-5798-4ce2-995a-13f27f3f7f4c.jpeg"
+    },
+    {
+     "name": "Tosta de Aguacate",
+     "desc": "Pan tostado con aguacate, huevo pochado y tocino, 250 gr.",
+     "price": 166,
+     "img": "05876d5d-d00d-4abf-a5da-8c3764a9718f.jpeg"
+    },
+    {
+     "name": "Tosta de Verduras Rostizadas",
+     "desc": "Pan tostado con verduras de temporada, jocoque, pesto de cilantro y aguacate, 250 gr.",
+     "price": 141,
+     "img": "0c866832-66ea-49cc-9bea-e2cb20b5732b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Omelettes",
+   "products": [
+    {
+     "name": "Omelette en Salsa Verde",
+     "desc": "Omelette en salsa verde con verdolaga y frijoles de olla, 250 gr.",
+     "price": 139,
+     "img": "c5c16bb0-8e96-44e8-a09c-3086638baf46.jpeg"
+    },
+    {
+     "name": "Omelette Relleno de Queso",
+     "desc": "Omelette relleno de queso, elotitos, salsa de jitomate y rajas poblanas, 250 gr.",
+     "price": 158,
+     "img": "f51fdf17-6f13-44d4-8b9a-feb86074f89e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Huevos",
+   "products": [
+    {
+     "name": "Huevo 75°",
+     "desc": "Huevo sobre tortilla frita con cebolla, carnitas de cerdo y salsa tilchili, 200 gr.",
+     "price": 194,
+     "img": "92475052-0af4-47c8-9a33-dedf3f6ef9ce.jpeg"
+    },
+    {
+     "name": "Huevos Al Gusto",
+     "desc": "Molletes sencillos con pan y frijoles. Porción de 150 gr.",
+     "price": 153,
+     "img": "319ffc2d-f949-4888-9b8f-120e8f9b2f97.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles Al Gusto",
+     "desc": "Chilaquiles con proteína y salsa de la casa a elegir, 300 gr.",
+     "price": 193,
+     "img": "8c57a3a6-5dbc-4bf6-9b12-35f937f031e1.jpeg"
+    },
+    {
+     "name": "Chilaquiles con Nata",
+     "desc": "Chilaquiles con nata, frijoles refritos y proteína a elegir, 300 gr.",
+     "price": 204,
+     "img": "246857d6-4a70-4414-9309-087b15f61ee8.jpeg"
+    },
+    {
+     "name": "Chile Viejo",
+     "desc": "Chile relleno de chilaquiles con queso, crema y frijoles refritos, 250 gr.",
+     "price": 189,
+     "img": "544ab3c9-6538-443c-9046-8c7f47c8c77c.jpeg"
+    },
+    {
+     "name": "Mollete con Chilaquiles",
+     "desc": "Mollete con chilaquiles, salsa tatemada, aguacate, queso y crema.",
+     "price": 114,
+     "img": "e8b4802d-4fd1-41a9-84df-5d2e1ec44da5.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Otras Delicias",
+   "products": [
+    {
+     "name": "Queso Panela",
+     "desc": "Queso panela guisado en salsa de jitomate, con rajas de chile poblano y frijoles, 250 gr.",
+     "price": 144,
+     "img": "e44129d0-564d-493c-9d56-5735847d29a0.jpeg"
+    },
+    {
+     "name": "Enjocadas",
+     "desc": "Tortillas de maíz sumergidas en jocoque, rellenas de frijoles con chorizo y nopales, 300 gr.",
+     "price": 158,
+     "img": "ba635b89-3948-4ecd-b500-cd5804615932.jpeg"
+    },
+    {
+     "name": "Chicharrón en Salsa",
+     "desc": "Chicharrón en salsa de la casa con frijoles y cebolla, 250 gr.",
+     "price": 151,
+     "img": "bfdb0946-ab54-4afa-bc49-000ae205782e.jpeg"
+    },
+    {
+     "name": "Enchiladas Lecheras",
+     "desc": "Tortillas de maíz fritas bañadas de mole con crema, verduras de temporada, nopales y frijoles, 250 gr.",
+     "price": 172,
+     "img": "3cfa7725-c8f5-40f1-b34f-64353832eab8.jpg"
+    },
+    {
+     "name": "Sándwich de Tocino",
+     "desc": "Sándwich de tocino, queso cheddar, jitomates cherries, espinacas y huevo orgánico, 300 gr.",
+     "price": 202,
+     "img": "63e7775a-8898-4743-94b8-02a957e40652.jpeg"
+    },
+    {
+     "name": "Birria",
+     "desc": "Birria de lengua de res, nopales y gallo de xoconostle 300 gr..",
+     "price": 267,
+     "img": "9a111e42-1ded-4689-a795-b7a03cedbf0b.jpeg"
+    },
+    {
+     "name": "Molletes Sencillos",
+     "desc": "Panqué de zanahoria de 150 gr con cobertura de crema y nuez.",
+     "price": 90,
+     "img": "dab6103c-b8b5-4170-8b4e-91811d8ffba6.jpeg"
+    },
+    {
+     "name": "Platillo Puscua",
+     "desc": "Huevos al gusto 250 gr con preparación a elegir. Incluye frijoles y tortillas.",
+     "price": 214,
+     "img": "9e5c9749-9fbd-47da-99dc-eb2c55c60c67.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Panqué de Zanahoria",
+     "desc": "Pan brioche con frutos rojos, azúcar, canela y miel maple.",
+     "price": 44,
+     "img": "9a8b5ea6-4d45-4ed0-9960-a381db1bb59e.png"
+    },
+    {
+     "name": "Muffin de Té Negro",
+     "desc": "Platillo Puscua con 4 ingredientes a elegir, 300 gr. Incluye huevo estrellado, tocino y nopales.",
+     "price": 49,
+     "img": "bc8ae346-69c0-41b8-a9e6-831e4168ae5b.jpeg"
+    },
+    {
+     "name": "Muffin de Blue Berry",
+     "desc": "Muffin horneado de blue berry con queso crema.",
+     "price": 33,
+     "img": "10f5275c-a801-42ce-bf94-22212f2664af.jpeg"
+    },
+    {
+     "name": "Concha Rellena de Nata",
+     "desc": "Panadería de la casa .",
+     "price": 50,
+     "img": "0d661c81-898b-4351-be55-adc5bc4d6606.jpeg"
+    },
+    {
+     "name": "Concha",
+     "desc": "Panadería de la casa.",
+     "price": 32,
+     "img": "2bc42522-ec6b-405b-bc5b-d93b4f50b050.jpeg"
+    },
+    {
+     "name": "Manzana Brioche",
+     "desc": "Rollos de pan de caja rellenos de plátano y cajeta casera, decorados con almendras fileteadas.",
+     "price": 106,
+     "img": "855f9609-0572-44bf-85ec-fea1e5b7ed55.jpeg"
+    },
+    {
+     "name": "Pan Francés con Frutos Rojos.",
+     "desc": "Pudin de chia y avena con granola, fresas y miel de agave.",
+     "price": 115,
+     "img": "3d8de0b9-dc13-4039-ad8b-401c2c90c69c.jpeg"
+    },
+    {
+     "name": "Mollete Dulce con Nata",
+     "desc": "Mollete dulce con nata, mantequilla de canela, fresas y miel de agave.",
+     "price": 104,
+     "img": "c5761182-5158-4b9c-87d7-6f43096bc707.jpeg"
+    },
+    {
+     "name": "Pudin de Chia y Avena",
+     "desc": "Hamburguesa con pollo empanizado, queso monterrey jack, jalapeños, cebolla crujiente, salsa ranch y teriyaki en pan brioche.",
+     "price": 93,
+     "img": "dddf637a-d071-470b-a16e-e4be296a0a97.jpeg"
+    },
+    {
+     "name": "Rollitos de Plátano",
+     "desc": "Muffin de té negro de 150 gr, decorado con azúcar glas.",
+     "price": 90,
+     "img": "64c40d67-037a-49c7-bbaf-3fd1e4494070.jpeg"
+    },
+    {
+     "name": "Bolillo con Mantequilla",
+     "desc": "Orden de bolillo calientito con mantequilla y mermelada de la casa.",
+     "price": 38,
+     "img": "84a9b95b-7f74-4c1f-91aa-9ad94a1eefa2.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Primer Tiempo",
+   "products": [
+    {
+     "name": "Fruta Gde",
+     "desc": "Fruta de temporada, granola miel de agave y espuma de yogurt.",
+     "price": 114,
+     "img": "18099eac-632b-4e60-ae3d-1cc6dabdda2d.jpeg"
+    },
+    {
+     "name": "Fruta Chica",
+     "desc": "Fruta de temporada, granola, miel de agave y espuma de yogurt.",
+     "price": 68,
+     "img": "f1eed0ec-8397-4c11-8bc2-9940e270925b.jpeg"
+    }
+   ]
+  }
+ ]
+}

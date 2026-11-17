@@ -1,0 +1,474 @@
+{
+ "id": 1923229914,
+ "brandName": "Taqueria San Juan",
+ "name": "Taqueria San Juan - Guadalupe",
+ "address": "Juan de Dios Batiz 412, Guadalupe, 80220 Guadalupe, Sin.  ",
+ "schedule": "08:00:00 - 23:30:00",
+ "categories": "Tacos · Mexicana",
+ "location": [
+  -107.398087,
+  24.78953
+ ],
+ "city": "Culiacán Rosales",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/taqueria-san-juan-logo1-1592063837712.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/13-1708719729357.png",
+ "schedules": [
+  {
+   "open_time": "08:00:00",
+   "close_time": "23:30:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923229914-taqueria-san-juan",
+ "menu": [
+  {
+   "name": "Mexican",
+   "products": [
+    {
+     "name": "Taco De Maiz Combinada",
+     "desc": "Combinada 2 Carnes.",
+     "price": 84,
+     "img": "c3180419-fec1-41ea-a3ba-65299e2bd306.png"
+    },
+    {
+     "name": "Taco De Maiz Dorado Combinada",
+     "desc": "Combinada 2 Carnes",
+     "price": 114,
+     "img": "38b16ab9-c326-4a8f-a3ef-7b755f740c61.jpeg"
+    },
+    {
+     "name": "Taco Pilon",
+     "desc": "Tortilla De Chilaca(Tortilla Extra Grande Hecha A Mano) Con Carne.",
+     "price": 120,
+     "img": "7864ea1c-cf93-4e8a-849f-4cd07f237cc2.png"
+    },
+    {
+     "name": "Pellizcada Pastor",
+     "desc": "Gordita Grande Con Asientos, Queso Y Pastor.",
+     "price": 228,
+     "img": "c6045b2f-7a5f-4517-9982-867537371d8a.jpeg"
+    },
+    {
+     "name": "Papa Rellena",
+     "desc": "Papa Con Queso, Carne, Rajas De Chile Verde, Crema.",
+     "price": 318,
+     "img": "6dbd1bff-92ca-4f7a-98a8-97b462b15fc2.jpeg"
+    },
+    {
+     "name": "Changuirongo",
+     "desc": "Frijol Guisado En Caldo Con Carne Y Queso Acompanado Con 5 Tortillas De Maiz Hechas A Mano.",
+     "price": 211,
+     "img": "f82091c8-e03f-4768-9f48-da2bad9618d0.jpeg"
+    },
+    {
+     "name": "Taco De Pilon Combinada",
+     "desc": "Combinacion  2 Carnes",
+     "price": 126,
+     "img": "e3007107-2786-42b9-b844-1f97138bc9c1.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco Dorado Combinada",
+     "desc": "Taco de maíz dorado combinada 2 carnes a elección.",
+     "price": 103,
+     "img": "c8a8ee71-661c-452b-9f27-d86f1b89d420.jpeg"
+    },
+    {
+     "name": "Taco Maíz Dorado",
+     "desc": "Tortilla dorada extendida con carne a elección.",
+     "price": 95,
+     "img": "d4ec1ee1-2cc7-4d9f-9d4f-bba123f7ab88.jpeg"
+    },
+    {
+     "name": "Taco de Maíz Pastor",
+     "desc": "Taco de maíz, salsas y carne al pastor.",
+     "price": 68,
+     "img": "7516fda1-2f50-4e38-9f35-054eb50b1679.png"
+    },
+    {
+     "name": "Taco Maíz Combinada",
+     "desc": "Taco de maíz  con carne de asada y pastor.",
+     "price": 70,
+     "img": "7516fda1-2f50-4e38-9f35-054eb50b1679.png"
+    },
+    {
+     "name": "Taco Pilón Combinada",
+     "desc": "Tortilla de chilaka, extra grande con dos carnes a elección.",
+     "price": 103,
+     "img": "0061d613-abd8-4115-b547-42b6f6bb16a2.png"
+    },
+    {
+     "name": "Taco Pilón Chilaka",
+     "desc": "Tortilla de chilaka, extra grande con carne a elección.",
+     "price": 95,
+     "img": "fb8e87b4-d29d-4b8b-b734-1a34b9b69978.png"
+    },
+    {
+     "name": "Taco Harina",
+     "desc": "Taco con tortilla de harina con proteína a elección,.",
+     "price": 88,
+     "img": "30f97f33-2117-45ca-babb-336bb6aab32e.jpeg"
+    },
+    {
+     "name": "Taco Maiz de Asada",
+     "desc": "Taco de maíz con carne asada, salsas y proteína a elección.",
+     "price": 68,
+     "img": "316fb9b2-ad39-42ee-ab8f-d7f103fa4370.png"
+    },
+    {
+     "name": "Taco Harina Combinada",
+     "desc": "Taco con tortilla de harina combinada de 2 carnes asada y pastor. acompañamientos aparte son guacamole, salsa, pepinos, cebolla y verdura.",
+     "price": 95,
+     "img": "f3c4f3f8-25a7-415f-8aec-9ec978631a45.png"
+    }
+   ]
+  },
+  {
+   "name": "Chilakas",
+   "products": [
+    {
+     "name": "Chilaka Hawaiana",
+     "desc": "Quesadilla de Tortillas (2) grande doradas con queso y rajas de chile verde.",
+     "price": 227,
+     "img": "f870d243-ae25-4797-a7fc-31f0d372cde2.png"
+    },
+    {
+     "name": "Chilaka de Maíz",
+     "desc": "2 Tortillas grande doradas al carbón con queso, rajas de chile verde y carne a elección (asada o pastor).",
+     "price": 230,
+     "img": "eb14c40c-fa81-4082-ba80-5436948a0238.png"
+    },
+    {
+     "name": "Chilaka de Maíz Combinada",
+     "desc": "2 Tortillas grande doradas con queso, rajas de chile verde, 2 carnes a elección.",
+     "price": 230,
+     "img": "0b2f98c0-bd06-487f-8d23-342c15fe92ca.png"
+    },
+    {
+     "name": "Chilaka de Chilorio",
+     "desc": "2 Tortillas grande doradas con queso, rajas de chile verde y carne a elección.",
+     "price": 205,
+     "img": "4f22e169-4c86-463d-acd1-f3a65541db2f.jpeg"
+    },
+    {
+     "name": "Chilaka Harina Combinada",
+     "desc": "Tortillas (2) grandes doradas con queso, rajas de chile verde, con 2 carnes a elección.",
+     "price": 230,
+     "img": "2c4dfeb0-1093-4c5f-9751-0b50cbdd6f4c.jpeg"
+    },
+    {
+     "name": "Chilaka de Maiz Pastor",
+     "desc": "2 Tortillas grande doradas con queso, rajas de chile verde y carne de pastor.",
+     "price": 230,
+     "img": "8ea4e2a1-d3d8-482c-a87d-849528b6bd86.png"
+    },
+    {
+     "name": "Chilaka de Harina",
+     "desc": "2 Tortillas de harina doradas con queso, rajas de chile verde y carne a elección.",
+     "price": 230,
+     "img": "cdd2da3e-9d64-41a3-952a-cb190f79f46d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Orden",
+   "products": [
+    {
+     "name": "1/2 Orden Combinada",
+     "desc": "Ensalada y tortillas, combinación 2 carnes",
+     "price": 424,
+     "img": "5a8f88ac-81c8-4b73-9b1f-2d960fe06d4f.jpeg"
+    },
+    {
+     "name": "Orden",
+     "desc": "Ensalada y tortillas",
+     "price": 511,
+     "img": "9f808511-d2f9-4822-9b0c-b9e1af75c87b.jpeg"
+    },
+    {
+     "name": "1/2 Orden",
+     "desc": "Ensalada y tortillas",
+     "price": 424,
+     "img": "5d13b3a0-dcb6-4dcb-8976-bd17521cb53e.jpeg"
+    },
+    {
+     "name": "Orden Combinada",
+     "desc": "Ensalada y tortillas, combinación 2 carnes",
+     "price": 511,
+     "img": "46f9bc27-8d3c-44e5-a897-88655ee4df07.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla Maíz Sencilla",
+     "desc": "Quesadilla de maíz en tortilla grande sin carne con queso.",
+     "price": 103,
+     "img": "c9bba2a2-2243-48b1-90f1-aec7bed34cbf.jpeg"
+    },
+    {
+     "name": "Quesadilla Harina Sencilla",
+     "desc": "Tortilla de  harina  con queso. no incluye ninguna proteina.",
+     "price": 88,
+     "img": "429a56b8-4a06-45c4-a7bf-fce6c2536035.png"
+    },
+    {
+     "name": "Quesadilla Maíz Proteína",
+     "desc": "Quesadilla de tortilla de maíz con carne a elección con queso.",
+     "price": 139,
+     "img": "f2ac4a40-2137-4d01-9056-970c206c17f2.jpeg"
+    },
+    {
+     "name": "Quesadilla de Maiz Asada",
+     "desc": "Quesadilla de tortilla de maíz con carne a elección con queso.",
+     "price": 139,
+     "img": "0fbae981-3308-497b-9622-1eb803ccf016.jpeg"
+    },
+    {
+     "name": "Quesadilla Maíz Combinada",
+     "desc": "Quesadilla  con queso combinación de 2 carnes a elección.",
+     "price": 146,
+     "img": "24b28f58-182b-4333-9e12-66eac0d99c6d.jpeg"
+    },
+    {
+     "name": "Quesadilla Harina Pastor",
+     "desc": "Quesadilla con carne al pastor.",
+     "price": 132,
+     "img": "7ffb9272-450b-45e4-8cbf-88a38dbda80d.png"
+    },
+    {
+     "name": "Quesadilla Harina Combinada",
+     "desc": "Tortilla de harina  con queso, combinación de 2 carnes a elección.",
+     "price": 139,
+     "img": "3398fa16-bd0f-46ea-88d7-318c3c79b252.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Vampiro",
+   "products": [
+    {
+     "name": "Vampiro Sencillo",
+     "desc": "Tortilla dorada a las brasas de maíz y queso tipo chester.",
+     "price": 88,
+     "img": "0c642d35-b4c2-4f57-93c6-a42d591a6949.jpeg"
+    },
+    {
+     "name": "Vampiro y Proteína",
+     "desc": "Tortilla de vampiro dorada con proteína elección a las brasas de maíz y queso tipo chester.",
+     "price": 132,
+     "img": "390e32bb-8cfc-49bd-b8a4-d1beddcb1684.jpeg"
+    },
+    {
+     "name": "Vampiro Doble Combinado",
+     "desc": "Quesadilla de vampiro doble dorada a las brasas de maíz, queso tipo chester, combinado 2 carnes a elección.",
+     "price": 154,
+     "img": "bbaf3eb0-1452-4f7a-864b-e56e5f67c2c6.jpeg"
+    },
+    {
+     "name": "Vampiro Doble Proteína",
+     "desc": "Dos tortillas de vampiro con proteína a elección, a las brasas de maíz y queso tipo chester.",
+     "price": 146,
+     "img": "d33f40d2-c890-4c6a-a817-6bdd91dee937.jpeg"
+    },
+    {
+     "name": "Vampiro Combinada",
+     "desc": "Tortilla dorada a las brasas de maíz, queso tipo chester con combinada de 2 carnes a elección.",
+     "price": 139,
+     "img": "a65cd1fe-fd0c-4b5a-a270-32b373ee1540.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Planchadas",
+   "products": [
+    {
+     "name": "Planchada Pastor",
+     "desc": "Tortillas (2)  con queso y proteína a elección.",
+     "price": 190,
+     "img": "97f89bfb-07d2-4af9-96da-c417e7ca8869.jpeg"
+    },
+    {
+     "name": "Planchada Combinada",
+     "desc": "Tortillas (2) con queso, combinada de 2 carnes a elección.",
+     "price": 197,
+     "img": "bbaf3eb0-1452-4f7a-864b-e56e5f67c2c6.jpeg"
+    },
+    {
+     "name": "Planchada Asada",
+     "desc": "Tortillas (2)  con queso y proteína a elección.",
+     "price": 190,
+     "img": "1d8f063f-8867-4a4e-9bd1-e7c9029f984c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pellizcadas",
+   "products": [
+    {
+     "name": "Pellizcada Combinada",
+     "desc": "Gordita grande con asientos, queso y carne a elegir.",
+     "price": 197,
+     "img": "51afd9ee-f226-440b-8177-c9bc004911f6.jpeg"
+    },
+    {
+     "name": "Pellizcada Asada",
+     "desc": "Gordita grande con asientos, queso y proteína a elección.",
+     "price": 190,
+     "img": "42259cb4-3c35-481c-9e35-749757cefdd8.png"
+    },
+    {
+     "name": "Pellizcada Al Pastor",
+     "desc": "Gordita grande con asientos, queso y proteína a elección.",
+     "price": 190,
+     "img": "75b24001-d1c9-481d-8575-da0df00170d2.png"
+    }
+   ]
+  },
+  {
+   "name": "Frijol",
+   "products": [
+    {
+     "name": "Frijol Grande LT",
+     "desc": "Frijol Grande LT",
+     "price": 139,
+     "img": "b803e193-4790-4a6d-91b8-2255d01f459f.jpeg"
+    },
+    {
+     "name": "Frijol 1/2 LT",
+     "desc": "Frijol 1/2 LT",
+     "price": 88,
+     "img": "a5bd0694-eb2e-47df-b479-b68b99ead39e.jpeg"
+    },
+    {
+     "name": "Frijol Chico",
+     "desc": "Frijol Chico",
+     "price": 59,
+     "img": "9ac09767-e5ca-4132-b808-46ef1429c716.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Changuirongos",
+   "products": [
+    {
+     "name": "Changuirongo Asada",
+     "desc": "Caldo de Frijol guisado con proteína a elección en caldo con carne y queso y 5 tortillas de maíz",
+     "price": 176,
+     "img": "a0804981-df64-4f66-b050-1e980cc29525.jpeg"
+    },
+    {
+     "name": "Changuirongo Al Pastor",
+     "desc": "Caldo de frijol guisado con proteína a elección en caldo con carne y queso y 5 tortillas de maíz.",
+     "price": 176,
+     "img": "6d51de57-6fe5-4cf1-86cb-453dd3772915.jpeg"
+    },
+    {
+     "name": "Changuirongo Combinada",
+     "desc": "Caldo de Frijol guisado en caldo con carne asada y tripa y queso, 5 tortillas de maíz. 2 carnes a elección.",
+     "price": 183,
+     "img": "a0804981-df64-4f66-b050-1e980cc29525.jpeg"
+    },
+    {
+     "name": "Changuirongo Chico Combinado",
+     "desc": "Caldo de frijol guisado con combinación de 2 carnes a elección, queso y 3 tortillas de maíz",
+     "price": 95,
+     "img": "f873867d-9108-45d3-98e8-83ff0d8ac430.jpeg"
+    },
+    {
+     "name": "Changuirongo Chico",
+     "desc": "Caldo de frijol guisado con proteína a elección, queso y 3 tortillas de maíz",
+     "price": 88,
+     "img": "363e4c2e-206f-4652-b10c-b5cdbaa2c7b6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesataco",
+   "products": [
+    {
+     "name": "Quesataco de Maíz",
+     "desc": "Taco de tortilla de maíz, proteína a elección (asada o pastor) con queso.",
+     "price": 88,
+     "img": "f8945fd7-bf9d-4158-a724-ac1fb5772b82.png"
+    },
+    {
+     "name": "Quesataco Combinada",
+     "desc": "Taco de tortilla de maíz dorada al carbón  con carne de asada y pastor  y  queso.",
+     "price": 95,
+     "img": "84ae17e3-ee4e-4795-a05d-e924df767e35.png"
+    },
+    {
+     "name": "Quesataco Sencillo",
+     "desc": "Quesadilla de maíz en tortilla de taco sin carne.",
+     "price": 66,
+     "img": "a8cc0b28-da7e-47a9-8af6-4dd3696a4c86.jpeg"
+    },
+    {
+     "name": "Codorniz",
+     "desc": "Taco de Codorniz asada a las brasas servida con 2 tortillas de maíz hechas a mano.",
+     "price": 58,
+     "img": "b4ff34ab-9668-4917-8f6e-916bc8e9b27d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tortillas",
+   "products": [
+    {
+     "name": "Tortilla de Maíz Dorada con Asiento",
+     "desc": "Tortilla de maíz dorada con asiento para acompañar",
+     "price": 37,
+     "img": "0ff9b720-4889-4a17-b8d6-5668e4559068.jpeg"
+    },
+    {
+     "name": "Tortilla de Maíz",
+     "desc": "Tortilla de maíz para acompañar",
+     "price": 11,
+     "img": "ea0bff4d-8e1d-42e6-9629-70292998e20a.jpeg"
+    },
+    {
+     "name": "Tortilla de Harina",
+     "desc": "Tortilla de harina para acompañar",
+     "price": 15,
+     "img": "5dcf28b3-9665-4d59-9838-78e625147f12.jpeg"
+    },
+    {
+     "name": "Tortillas de Maíz con Asiento",
+     "desc": "Tortillas de maíz con asiento para acompañar",
+     "price": 37,
+     "img": "e9c5c167-da06-4441-bd4f-bf82e2299804.jpeg"
+    },
+    {
+     "name": "Tortilla Dorada",
+     "desc": "Tortilla dorada de maíz",
+     "price": 22,
+     "img": "f0d47731-b814-41d1-89b8-55de13b428e4.jpeg"
+    },
+    {
+     "name": "Tortilla de Maíz Chilaka con Asiento",
+     "desc": "Tortilla de maíz chilaka con asiento para acompañar",
+     "price": 52,
+     "img": "d9ebcc96-ddf8-4a3c-871d-66c490073537.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Agua de Sabor",
+     "desc": "Agua de Sabor de 600ml",
+     "price": 45,
+     "img": "21d42073-47b2-41c0-85da-4caea0ff9628.jpeg"
+    }
+   ]
+  }
+ ]
+}

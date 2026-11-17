@@ -1,0 +1,599 @@
+{
+ "id": 1923628487,
+ "brandName": "Tezcalli Cocina Mexicana.",
+ "name": "Tezcalli Cocina Mexicana. - Jardines de Xalapa",
+ "address": "Calle Joaquín Arroniz 7, Arboledas de Xalapa, 91150 Xalapa-Enríquez, Ver.",
+ "schedule": "09:00:00 - 22:00:00",
+ "categories": "Mexicana",
+ "location": [
+  -96.90556382419,
+  19.545151104209
+ ],
+ "city": "Xalapa de Enríquez",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/526fb3fe-199a-4e3e-a154-f7ae40f04d52-1775772911683.jpeg?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/3780088f-47c8-45c5-a377-b14bd0b98b45-1790827315465.png",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "22:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923628487-tezcalli-cocina-mexicana",
+ "menu": [
+  {
+   "name": "Promos",
+   "products": [
+    {
+     "name": "Charola Tezcalli",
+     "desc": "Una charola con los 10 antojitos más pedidos a precio especial, disfrútala por tiempo limitado",
+     "price": 232,
+     "img": "cadf0fe7-1ea6-4854-8e6e-7c2891563c87.jpeg"
+    },
+    {
+     "name": "Menú Tezcalli",
+     "desc": "Disfruta de nuestro menú con los platillos que más te gustan y personalizalo a tu antojo.",
+     "price": 194,
+     "img": "4955a78d-03f6-44f1-89fa-cc4bd5b543b1.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Orden de platanos fritos",
+     "desc": "Orden de plátanos fritos para acompañar tus platillos favoritos, elige tus toppings entre crema, queso, lechera, mermelada de",
+     "price": 82,
+     "img": "1da91809-b57e-4025-a201-c3d3c6ef8e58.png"
+    }
+   ]
+  },
+  {
+   "name": "Combos",
+   "products": [
+    {
+     "name": "Enchiladas suizas",
+     "desc": "4 piezas de enchiladas suizas rellenas de pollo bañadas en nuestra cremosa salsa verde gratinadas con nuestro mix de quesos",
+     "price": 187.5,
+     "img": "b3f0c620-22a6-4c66-a180-233f1d232c61.png"
+    },
+    {
+     "name": "Combo papa + bebida",
+     "desc": "Disfruta de nuestra nueva receta en un como de papa con chistorra o la clásica con 4 quesos + bebida a precio especial.",
+     "price": 84,
+     "img": "34fe42e2-7d79-4cca-93e4-63feb0869b1e.png"
+    },
+    {
+     "name": "Costilla En Salsa+bebida",
+     "desc": "Costilla de cerdo bañada en salsa de tu preferencia acompañada de arroz y frijoles refritos con totopos cubiertos en combo",
+     "price": 120,
+     "img": "01e16734-d140-4702-9364-951d82e99bc0.png"
+    },
+    {
+     "name": "2L de pozole + 6 empandas",
+     "desc": "Combo familiar incluye 2L de pozole (proteína a elección) y 6 empanadas (1 solo relleno) ideal para 3-4 personas",
+     "price": 565,
+     "img": "7cb6ae64-d29f-4762-92e5-04dc54c4c203.png"
+    },
+    {
+     "name": "2L de pozole + 2L de bebida",
+     "desc": "Prueba nuestro nuevo combo ideal para compartir (3-4 personas) con 2L de pozole y 2L de bebida a elegir a un precio especial",
+     "price": 350,
+     "img": "c3fcf709-c57c-4e9c-abde-38bee7d1f3a8.jpeg"
+    },
+    {
+     "name": "2 burgers + 1 papa + bebidas",
+     "desc": "Elige nuestro combo para compartir con 2 hamburguesas, una papa asada y 3 bebidas",
+     "price": 350,
+     "img": "9e767c89-a75f-412d-8d66-04e5e067a88f.jpeg"
+    },
+    {
+     "name": "Empanadas+milanesa+bebida",
+     "desc": "2 empanadas del mismo relleno+ 1 milanesa y 1 bebida a elegir",
+     "price": 207,
+     "img": "eb9d004f-adc1-40c1-a2be-0bea4d047498.jpeg"
+    },
+    {
+     "name": "Milanesa De Pollo + Bebida",
+     "desc": "La favorita de todos, nuestra milanesa acompañada de las guarniciones de tu elección + bebida",
+     "price": 133.7,
+     "img": "da9717b7-5220-4f52-99cf-d19c18bfb718.png"
+    },
+    {
+     "name": "Chilaquiles+Bebida",
+     "desc": "Con tu salsa preferida acompañados de frijoles refritos, cubiertos de queso, cebolla, crema con o sin proteína + bebida",
+     "price": 133.7,
+     "img": "e60bb8cf-ac8c-4242-a6c3-d6b82b2b7777.png"
+    },
+    {
+     "name": "Pozole (500 Ml) + Bebida",
+     "desc": "500ml de pozole rojo de carne de cerdo y/o pollo, acompañantes aparte + Bebida a elección",
+     "price": 119.7,
+     "img": "6b0d5984-2a3f-422e-beff-6fab72f2dee5.png"
+    },
+    {
+     "name": "Hamburguesa + bebida",
+     "desc": "Elige una hamburguesa y llevatela con tu bebida favorita a precio especial",
+     "price": 166.6,
+     "img": "97850418-f87d-4c7e-aa98-44d9c21e6002.jpeg"
+    },
+    {
+     "name": "Huevos Al Gusto + Bebida",
+     "desc": "Huevos con frijoles y totopos, agrega tu proteína favorita + Bebida a elección",
+     "price": 116.9,
+     "img": "3f18b3d8-8686-41d7-aae1-0557be4c4f28.jpeg"
+    },
+    {
+     "name": "Enfrijoladas + Bebida",
+     "desc": "5 piezas sencillas o con relleno y tortilla a elección cubiertas con queso fresco, cebolla y crema encima + bebida a elección",
+     "price": 133.7,
+     "img": "16fcfb93-d8fb-4222-82ae-7d1f7bba2f26.png"
+    },
+    {
+     "name": "Enchiladas + Bebida",
+     "desc": "5 piezas con salsa a elección, sencillas o rellenas de pollo, huevo o jamón, con lechuga, queso, cebolla y crema + bebida",
+     "price": 119.7,
+     "img": "e0c39aac-f64c-43ab-a13e-bfa420068226.png"
+    },
+    {
+     "name": "Enmoladas + Bebida",
+     "desc": "5 piezas sencillas o rellenas de pollo, jamón, chorizo o huevo cubiertas con queso, lechuga, cebolla y crema + bebida",
+     "price": 116.9,
+     "img": "40302e32-0a03-43b0-9ea6-8fc8dc2f4879.png"
+    },
+    {
+     "name": "Papa asada + bebida",
+     "desc": "Elige una de nuestras papas asadas en combo con bebida",
+     "price": 140,
+     "img": "8942d902-8ab1-428d-a456-16eb34f6194f.png"
+    },
+    {
+     "name": "Caldo+milanesa+bebida",
+     "desc": "Disfruta una comida completa con este combo, elige tu entrada entre caldo de verduras o consomé, nuestra milanesa y 1 bebida",
+     "price": 207,
+     "img": "e318454e-67b6-464c-849c-fb2712776e7f.png"
+    },
+    {
+     "name": "Paquete Pozolero",
+     "desc": "ITEM INFORMATIVO. Celebra las fiestas patrias con nuestro paquete pozolero, agenda el tuyo en nuestro WhatsApp 2283210521",
+     "price": 700,
+     "img": "0a3d231d-334d-40bf-99c6-dee60b4c5f2b.png"
+    },
+    {
+     "name": "2 picadas+milanesa+jamaica",
+     "desc": "2 picaditas de frijol sencillas o con chicharrón+milanesa con arroz frijoles +jamaica",
+     "price": 100,
+     "img": "cd79fe59-2aa1-4c0f-b847-dc426d11d81f.jpeg"
+    },
+    {
+     "name": "Chistoburger",
+     "desc": "¡La favorita para los que aman la chistorra! Arrachera de res, salsa BBQ, lechuga, jitomate, cebolla y mayonesa en pan suave.",
+     "price": 190,
+     "img": "f25abdb8-bef0-44a4-af3d-4a31d42c8c93.png"
+    }
+   ]
+  },
+  {
+   "name": "Tradicional",
+   "products": [
+    {
+     "name": "Pozole 1L",
+     "desc": "1L de pozole rojo con carne a elección entre maciza de cerdo, cabeza de cerdo, pollo o combinado, (acompañantes aparte)",
+     "price": 165,
+     "img": "3d412e39-4507-4ea9-be48-92f67408a113.png"
+    },
+    {
+     "name": "Pozole 500Ml",
+     "desc": "500Ml de pozole rojo con carne a elección entre maciza de cerdo, cabeza de cerdo, pollo o combinado, (acompañantes aparte)",
+     "price": 90,
+     "img": "d8d8e085-0004-43ce-8b9b-a87e2e86a8ae.png"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Huevos Al Gusto",
+     "desc": "Huevos preparados con tu proteína o salsa favorita acompañados de frijoles refritos cubiertos con queso y totopos.",
+     "price": 100,
+     "img": "f46ed9a5-0f61-4c7d-b5b8-8a73128d0447.png"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Consomé De Pollo 500Ml",
+     "desc": "Con arroz, ejote, chayote, zanahoria, calabacita y pollo desmenuzado. Chile, cebolla y limón aparte.",
+     "price": 70,
+     "img": "40c92cc7-4a62-4e9b-9e8a-3c358f0cb77a.png"
+    },
+    {
+     "name": "Consomé De Pollo 1000Ml",
+     "desc": "Con arroz, ejote, chayote, zanahoria, calabacita y pollo desmenuzado. Chile, cebolla y limón aparte.",
+     "price": 120,
+     "img": "cac143fb-4c45-4f3f-a87c-cc00854510aa.png"
+    },
+    {
+     "name": "Sopa azteca 500ml",
+     "desc": "500ml de Sopa azteca servida con crema, tiras de tortilla frita y chile pasilla, queso panela y aguacate en cubos (aparte)",
+     "price": 107,
+     "img": "c2e22853-9528-4581-90a6-5ada39cce4ad.png"
+    },
+    {
+     "name": "Sopa azteca 1L",
+     "desc": "1L de sopa azteca servida con crema, tiras de tortilla frita y chile pasilla, queso panela y aguacate en cubos (aparte)",
+     "price": 140,
+     "img": "c2e22853-9528-4581-90a6-5ada39cce4ad.png"
+    }
+   ]
+  },
+  {
+   "name": "Platillos",
+   "products": [
+    {
+     "name": "Enmoladas",
+     "desc": "5 piezas elígelas sencillas o rellenas cubiertas con lechuga, queso fresco, cebolla y crema.",
+     "price": 100,
+     "img": "257c9b22-ea2e-41ac-b440-a35ea2df4d80.png"
+    },
+    {
+     "name": "Chilaquiles Con Arrachera",
+     "desc": "Bañados en tu salsa preferida acompañados de frijoles y arrachera, cubiertos con queso, cebolla y crema",
+     "price": 140,
+     "img": "150b7298-59bb-4eee-a873-6a1c45883a89.png"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "Bañados en tu salsa preferida acompañados de frijoles, cubiertos de queso, cebolla, crema. Eligelos sencillos o con proteína.",
+     "price": 95,
+     "img": "28b3d3f0-afee-4db4-add7-9b8073a7885d.png"
+    },
+    {
+     "name": "Chilaquiles Con Cecina",
+     "desc": "Bañados en tu salsa preferida acompañados de frijoles y cecina, cubiertos con queso, cebolla y crema",
+     "price": 165,
+     "img": "b5d78f85-fa6b-41b9-8caf-e99934ef3acd.png"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "5 piezas elígelas sencillas o rellenas cubiertas con lechuga, queso fresco, cebolla y crema.",
+     "price": 95,
+     "img": "7d4df9c9-7091-4b07-87e0-87e964a1abd8.png"
+    },
+    {
+     "name": "Enchiladas",
+     "desc": "5 piezas bañadas con tu salsa favorita elígelas sencillas o rellenas cubiertas con lechuga, queso fresco, cebolla y crema.",
+     "price": 95,
+     "img": "c487619b-2ca8-4df2-92e0-25eff55b252b.png"
+    }
+   ]
+  },
+  {
+   "name": "Plato fuerte",
+   "products": [
+    {
+     "name": "Pechuga Asada",
+     "desc": "Pechuga de pollo asada con un toque de mantequilla, pimienta y ajo con guarnición a elegir.",
+     "price": 110,
+     "img": "fd01ddb9-829d-44d3-96a9-57c20c8cde79.png"
+    },
+    {
+     "name": "Cecina",
+     "desc": "200 g de cecina (peso en crudo) acompañada de papas a la francesa, arroz, frijoles refritos y guarnición extra a elegir",
+     "price": 180,
+     "img": "aaa46d88-70d1-421f-91c0-4cf00068097a.png"
+    },
+    {
+     "name": "Arrachera",
+     "desc": "200 g de arrachera (peso en crudo) acompañada de papas a la francesa, arroz, frijoles refritos y guarnición extra a elegir",
+     "price": 220,
+     "img": "3276305d-1e21-4a64-9699-ca62eb473d09.png"
+    },
+    {
+     "name": "Milanesa",
+     "desc": "Crujiente milanesa de pollo con guarnición a elegir",
+     "price": 112,
+     "img": "3423c6c1-8bc1-48b6-a109-dafb5198ab86.png"
+    },
+    {
+     "name": "Costilla En Salsa De Chileseco",
+     "desc": "Costilla de cerdo bañada en salsa de chile seco acompañada de arroz y frijoles refritos con totopos cubiertos con queso",
+     "price": 110,
+     "img": "968242da-be64-4d78-9371-f0281922c6d4.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta De Milanesa con Queso",
+     "desc": "Torta de milanesa con jitomate, lechuga, frijoles, mayonesa y queso Oaxaca fundido.",
+     "price": 85,
+     "img": "6d2836b4-1c22-4553-a865-fb7e6eb8f755.png"
+    },
+    {
+     "name": "Torta De Jamón Con Queso",
+     "desc": "Torta de jamón de pavo con jitomate, lechuga, frijoles, mayonesa y queso Oaxaca",
+     "price": 75,
+     "img": "6d3b08b4-b6b9-4c01-9949-4b491e7ca74f.png"
+    },
+    {
+     "name": "Torta De Chorizo Con Queso",
+     "desc": "Torta de chorizo con frijoles, mayonesa y queso Oaxaca fundido",
+     "price": 75,
+     "img": "446d8cd7-614e-4eb4-b473-9262bdfff171.png"
+    }
+   ]
+  },
+  {
+   "name": "Las Gigantes",
+   "products": [
+    {
+     "name": "EMPANADOTA",
+     "desc": "Empanada gigante con relleno a elegir cubierta con lechuga, queso y crema.",
+     "price": 65,
+     "img": "9759c0e3-5d85-49d2-b8a7-292a6c6c9fff.png"
+    },
+    {
+     "name": "PICADOTA Con Milanesa",
+     "desc": "Picada de 25cm con milanesa, elígela con tu salsa favorita cubierta con cebolla y queso a elegir entre fresco o Oaxaca",
+     "price": 100,
+     "img": "2b3cabdb-81fb-4ae3-8c2f-5327202e2e1e.png"
+    },
+    {
+     "name": "PICADOTA con arrachera",
+     "desc": "Picada de 25cm con arrachera, elígela con tu salsa favorita cubierta con cebolla y queso a elegir entre fresco o Oaxaca",
+     "price": 115,
+     "img": "00bc7daf-8ded-46a6-a3f4-9c71f7bed99b.png"
+    },
+    {
+     "name": "PICADOTA con cecina",
+     "desc": "Picada de 25cm con cecina, elígela con tu salsa favorita cubierta con cebolla y queso a elegir entre fresco o Oaxaca",
+     "price": 145,
+     "img": "2afddeb1-b001-4ced-913d-b6c1dec360a0.png"
+    },
+    {
+     "name": "PICADOTA Montada",
+     "desc": "Picada de 25cm con huevo estrellado elígela con tu salsa favorita cubierta con cebolla y queso a elegir entre fresco o Oaxaca",
+     "price": 85,
+     "img": "599b560c-af47-4179-bc28-4005bcadd098.png"
+    },
+    {
+     "name": "PICADOTA Sencilla",
+     "desc": "Picada de 25cm de diámetro, elígela con tu salsa favorita cubierta con cebolla y queso a elegir entre fresco o Oaxaca",
+     "price": 70,
+     "img": "599b560c-af47-4179-bc28-4005bcadd098.png"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos",
+   "products": [
+    {
+     "name": "empanada (1Pza)",
+     "desc": "Empanada con relleno a elegir cubierta con lechuga, queso y crema.",
+     "price": 28,
+     "img": "35159f68-dd0b-48e5-a429-f126a4c01f35.png"
+    },
+    {
+     "name": "picadita Sencilla (1Pza)",
+     "desc": "Picadita mediana preparada con salsa a elegir, cubierta con queso y cebolla",
+     "price": 23,
+     "img": "a4911073-b1eb-4bfa-b93e-4e6d73037598.png"
+    },
+    {
+     "name": "picadita con chicharron (1Pza)",
+     "desc": "Picadita mediana preparada con boronas de chicharrón y salsa a elegir, cubierta con queso y cebolla",
+     "price": 28,
+     "img": "a50022ae-fbf4-4e32-bb88-4a5d2f54c2f4.png"
+    },
+    {
+     "name": "picadita con pollo (1Pza)",
+     "desc": "Picadita mediana preparada con pollo y salsa a elegir, cubierta con queso y cebolla",
+     "price": 28,
+     "img": "415b70ab-1741-4c0f-9071-dc9c0d47b378.jpeg"
+    },
+    {
+     "name": "picadita con cecina (1Pza)",
+     "desc": "Picadita mediana preparada cecina y salsa a elegir, cubierta con queso y cebolla",
+     "price": 41,
+     "img": "415b70ab-1741-4c0f-9071-dc9c0d47b378.jpeg"
+    },
+    {
+     "name": "picadita con arrachera (1Pza)",
+     "desc": "Picadita mediana preparada con arrachera y salsa a elegir, cubierta con queso y cebolla",
+     "price": 45,
+     "img": "74c0b47a-eee4-4bfc-923d-dfced41fac14.png"
+    },
+    {
+     "name": "Taco Dorado (1Pza)",
+     "desc": "Taco dorado con relleno a elegir entre pollo, queso Oaxaca o papa, cubierto con crema, queso y lechuga.",
+     "price": 21,
+     "img": "28914f8d-d502-4733-99dc-9910c458bd23.png"
+    },
+    {
+     "name": "Garnacha (1Pza)",
+     "desc": "Garnacha preparada estilo rinconada con carne de res y cebolla",
+     "price": 25,
+     "img": "1fa0ad96-aad4-4d76-9f30-c8397c013e94.png"
+    }
+   ]
+  },
+  {
+   "name": "Mictlán Burguers Grill",
+   "products": [
+    {
+     "name": "Champis burger",
+     "desc": "¡Para los amantes de los champiñones! Arrachera de res, queso oaxaca y americano, champiñones salteados, lechuga y mucho más.",
+     "price": 175,
+     "img": "95b71de0-a58f-4255-91d9-bbc60781af85.png"
+    },
+    {
+     "name": "Bacon burger",
+     "desc": "¡Para los fanáticos del tocino! Arrachera de res, queso americano y tocino, lechuga, jitomate, cebolla, salsa BBQ y mayonesa.",
+     "price": 175,
+     "img": "030979c1-7504-4b7e-a904-9beca63203a2.jpeg"
+    },
+    {
+     "name": "Hamburguesa clásica",
+     "desc": "¡La hamburguesa de siempre! Arrachera de res, queso americano, lechuga, jitomate, cebolla, salsa BBQ y mayonesa en pan suave.",
+     "price": 125,
+     "img": "26593912-8a82-42f9-a957-79c52bdce0d1.png"
+    },
+    {
+     "name": "Hamburguesa doble",
+     "desc": "¡Doble arrachera de res para los de apetito grande! Con queso americano y tocino, lechuga, jitomate, cebolla, BBQ y mayonesa.",
+     "price": 250,
+     "img": "2401502a-355f-45da-a4cc-eee59f256586.png"
+    },
+    {
+     "name": "Hamburguesa de guacamole",
+     "desc": "¡Para los fans del guacamole! Arrachera de res, queso americano y guacamole cremoso, jitomate, cebolla, salsa BBQ y mayonesa.",
+     "price": 170,
+     "img": "8f54f036-1d2c-4730-9b9e-3fd657b4c7dc.png"
+    },
+    {
+     "name": "Taco de chistorra",
+     "desc": "Taco con chistorra, tortilla de mano, costra de queso y guacamole",
+     "price": 60,
+     "img": ""
+    },
+    {
+     "name": "Taco de asada",
+     "desc": "Taco con asada, tortilla de mano, costra de queso y guacamole",
+     "price": 60,
+     "img": ""
+    },
+    {
+     "name": "Taco de arrachera",
+     "desc": "Taco con arrachera, tortilla de mano, costra de queso y guacamole",
+     "price": 60,
+     "img": ""
+    },
+    {
+     "name": "Papa asada con chistorra",
+     "desc": "Papa asada de textura suave con nuestro mix de quesos fundidos, mantequilla y chistorra",
+     "price": 130,
+     "img": "1ce0b62f-0a86-46e2-b16f-3ab0fd1ebea1.png"
+    },
+    {
+     "name": "Papa asada con carne asada",
+     "desc": "Papa asada de textura suave con nuestro mix de quesos fundidos, mantequilla y carne asada",
+     "price": 170,
+     "img": "ce5747f9-8e98-4c48-b528-ad2614880060.png"
+    },
+    {
+     "name": "Papa asada con arrachera",
+     "desc": "Papa asada de textura suave con nuestro mix de quesos fundidos, mantequilla y arrachera",
+     "price": 135,
+     "img": "77315ddf-cea9-47f2-b9d2-03a2a6873b41.png"
+    },
+    {
+     "name": "Papa asada clásica",
+     "desc": "Papa asada de textura suave con nuestro mix de quesos fundidos y mantequilla",
+     "price": 125,
+     "img": "e81015d4-3331-479a-89bb-ac21edb0c6b7.png"
+    }
+   ]
+  },
+  {
+   "name": "Ordenes extra",
+   "products": [
+    {
+     "name": "Orden de guacamole",
+     "desc": "Orden de guacamole con totopos",
+     "price": 75,
+     "img": "b21a888e-c23c-4b0b-b917-8eeac7278e77.jpeg"
+    },
+    {
+     "name": "Orden de verduras al vapor",
+     "desc": "150g verduras al vapor (ejote, zanahoria, brocoli, chayote y calabazita)",
+     "price": 65,
+     "img": ""
+    },
+    {
+     "name": "Orden de papas a la francesa",
+     "desc": "240 g de papas a la francesa corte recto",
+     "price": 65,
+     "img": ""
+    },
+    {
+     "name": "Huevo estrellado extra",
+     "desc": "Huevo estrellado para acompañar tus platillos",
+     "price": 20,
+     "img": ""
+    },
+    {
+     "name": "Bistec de cecina (120g)",
+     "desc": "Bistec para acompañar tus platillos",
+     "price": 75,
+     "img": ""
+    },
+    {
+     "name": "Bistec de milanesa (120g)",
+     "desc": "Bistec para acompañar tus platillos",
+     "price": 75,
+     "img": ""
+    },
+    {
+     "name": "Orden de frijoles (500ml)",
+     "desc": "Orden de frijoles con totopos y queso fresco para acompañar tus platillos",
+     "price": 65,
+     "img": ""
+    },
+    {
+     "name": "Bistec de arrachera (120g)",
+     "desc": "Bistec para acompañar tus platillos",
+     "price": 80,
+     "img": ""
+    },
+    {
+     "name": "Medio aguacate",
+     "desc": "Guarnición de aguacate para acompañar tus platillos",
+     "price": 25,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Refresco",
+     "desc": "Refrescos de la familia Coca Cola en diferentes sabores en presentación de 600 ml",
+     "price": 45,
+     "img": "219fc1d5-1103-4151-b67a-50f3e3721d1d.png"
+    },
+    {
+     "name": "Agua De Frutas 500Ml",
+     "desc": "500 ml de agua de frutas/temporada/jamaica",
+     "price": 40,
+     "img": "4765da34-2b34-45f6-96eb-a32cc6a400ac.png"
+    },
+    {
+     "name": "Agua De Frutas 1L",
+     "desc": "1L de agua de frutas de temporada o jamaica",
+     "price": 75,
+     "img": "885bf628-75fa-426b-bc64-24483fca333e.png"
+    },
+    {
+     "name": "Agua de horchata de la casa (500ml)",
+     "desc": "500ml de agua de horchata de arroz hecha con la receta de la casa",
+     "price": 45,
+     "img": "383fed79-3121-4f12-b0a4-df89a623455c.png"
+    },
+    {
+     "name": "Agua de horchata de la casa (1L)",
+     "desc": "1L de agua de horchata de arroz hecha con la receta de la casa",
+     "price": 85,
+     "img": "81bd6b0d-96d7-4539-baa9-73047ea43d92.png"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menú · Los Molcajetes de Villa</title>
+<meta name="description" content="Menú digital de Los Molcajetes de Villa (Villa de Álvarez, Col.): 72 platillos con precios, fotos y pedido por WhatsApp.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#f9f1e6">
+<meta property="og:title" content="Menú · Los Molcajetes de Villa">
+<meta property="og:description" content="Desayunos, guisos caseros y panadería">
+<meta property="og:url" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/molcajetes-de-villa/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c0441f'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23ffffff' font-family='Georgia'%3EL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One:wght@600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap&family=Space+Grotesk:wght@600;700">
+<link rel="stylesheet" href="../assets/menu.css">
+<style>:root{--bg:#f9f1e6;--fg:#2c1b10;--acc:#c0441f;--card:#ffffff;--on-acc:#ffffff;--ft:'Alfa Slab One';--fb:'Nunito Sans';color-scheme:light}</style>
+</head>
+<body>
+<style id="lkmr-intro-css">
+#lkmr-intro{position:fixed;inset:0;z-index:2147483000;display:grid;place-items:center;background:#08080a;color:#f3efe6;overflow:hidden;
+  font-family:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:opacity .55s ease,transform .7s cubic-bezier(.7,0,.2,1)}
+#lkmr-intro.out{opacity:0;transform:translateY(-6%);pointer-events:none}
+#lkmr-intro .glow{position:absolute;width:140vmax;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(214,180,122,.22),transparent 55%);animation:lk-pulse 3s ease-out both}
+#lkmr-intro .grid{position:absolute;inset:-20%;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:48px 48px;
+  mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);-webkit-mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);animation:lk-grid 3s linear both}
+#lkmr-intro .box{position:relative;text-align:center;padding:0 24px}
+#lkmr-intro .k{font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:#d6b47a;opacity:0;animation:lk-up .6s .15s ease-out forwards}
+#lkmr-intro .logo{font-weight:700;font-size:clamp(64px,17vw,148px);line-height:1;letter-spacing:-.03em;margin:14px 0 6px;display:flex;justify-content:center}
+#lkmr-intro .logo span{display:inline-block;opacity:0;transform:translateY(60%) rotate(8deg);filter:blur(8px);animation:lk-letter .7s cubic-bezier(.2,.9,.2,1) forwards;animation-delay:calc(.35s + var(--i)*.09s)}
+#lkmr-intro .logo span:last-child{color:#d6b47a}
+#lkmr-intro .bar{height:2px;width:min(320px,60vw);margin:10px auto 16px;background:linear-gradient(90deg,transparent,#d6b47a,transparent);transform:scaleX(0);animation:lk-bar .9s 1s cubic-bezier(.6,0,.2,1) forwards}
+#lkmr-intro .tag{font-size:clamp(13px,3.4vw,16px);color:#bdb7ab;opacity:0;animation:lk-up .6s 1.35s ease-out forwards}
+#lkmr-intro .sub{margin-top:22px;font-size:clamp(14px,3.8vw,18px);font-weight:600;opacity:0;animation:lk-up .6s 1.75s ease-out forwards}
+#lkmr-intro .sub b{color:#d6b47a;font-weight:700}
+#lkmr-intro .load{position:absolute;left:0;bottom:0;height:3px;width:100%;background:#d6b47a;transform-origin:left;transform:scaleX(0);animation:lk-load 3s linear forwards}
+#lkmr-intro .skip{position:absolute;right:16px;bottom:18px;font:600 12px/1 system-ui,sans-serif;letter-spacing:.08em;color:#8d887e;background:none;border:1px solid #2c2b2f;border-radius:999px;padding:8px 12px;cursor:pointer}
+@keyframes lk-letter{to{opacity:1;transform:none;filter:none}}
+@keyframes lk-up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes lk-bar{to{transform:scaleX(1)}}
+@keyframes lk-load{to{transform:scaleX(1)}}
+@keyframes lk-pulse{from{transform:scale(.4);opacity:0}40%{opacity:1}to{transform:scale(1.1);opacity:.7}}
+@keyframes lk-grid{from{transform:scale(1.15)}to{transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){#lkmr-intro *{animation-duration:.01s!important;animation-delay:0s!important}#lkmr-intro .load{animation:lk-load 3s linear forwards!important}}
+html.lkmr-lock,html.lkmr-lock body{overflow:hidden}
+</style>
+<div id="lkmr-intro" role="dialog" aria-label="LKM&#x27;r presenta" aria-live="polite">
+  <div class="glow"></div><div class="grid"></div>
+  <div class="box">
+    <div class="k">Desarrollado por</div>
+    <div class="logo" aria-label="LKM&#x27;r"><span style="--i:0">L</span><span style="--i:1">K</span><span style="--i:2">M</span><span style="--i:3">&#x27;</span><span style="--i:4">r</span></div>
+    <div class="bar"></div>
+    <div class="tag">Sitios web, menús digitales y automatización para negocios</div>
+    <div class="sub">presenta el menú digital de <b>Los Molcajetes de Villa</b></div>
+  </div>
+  <div class="load"></div>
+  <button class="skip" type="button">Saltar ›</button>
+</div>
+<script>
+(function(){var el=document.getElementById('lkmr-intro');if(!el)return;var d=document.documentElement;d.classList.add('lkmr-lock');
+var done=false;function end(){if(done)return;done=true;el.classList.add('out');d.classList.remove('lkmr-lock');setTimeout(function(){el.remove();},700);}
+setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener('keydown',function(ev){if(ev.key==='Escape')end();});})();
+</script>
+
+<div class="demo"><b>Muestra</b> preparada por LKM'r para Los Molcajetes de Villa · precios de referencia tomados de Rappi (17 nov. 2026), se ajustan a los de salón.</div>
+<header class="hero"><div class="wrap">
+  <p class="kicker">Menú digital · Centro</p>
+  <h1>Los Molcajetes de Villa</h1>
+  <p class="lema">Desayunos, guisos caseros y panadería</p>
+  <div class="meta">
+    <span class="pill" id="status"></span>
+    <a class="pill" href="https://www.google.com/maps/search/?api=1&query=Los+Molcajetes+de+Villa+Independencia+3,+Centro,+Villa+de+Álvarez,+Col." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Villa de Álvarez, Col.</a>
+    <a class="pill" href="tel:+523123114455"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>312 311 4455</a>
+    <button class="pill" id="share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>Compartir</button>
+  </div>
+</div></header>
+<div class="bar"><div class="wrap">
+  <div class="search"><label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Buscar en 72 platillos…" autocomplete="off" aria-label="Buscar platillo"></label></div>
+  <nav class="chips" id="chips" aria-label="Categorías"></nav>
+</div></div>
+<main class="wrap"><div id="list"></div><p class="empty" id="empty">No encontramos ese platillo. Prueba con otra palabra.</p></main>
+<section class="lkmr" aria-labelledby="lkmr-t"><div class="wrap"><div class="lkmr-card">
+  <p class="lkmr-k">Desarrollado por</p>
+  <h2 id="lkmr-t">LKM&#x27;r Company</h2>
+  <p class="lkmr-p">Este menú digital lo diseñó y desarrolló LKM&#x27;r. Sitios web, menús digitales y automatización para negocios. ¿Tienes un negocio? Hacemos el tuyo.</p>
+  <ul class="lkmr-s"><li>Menús digitales con QR</li><li>Sitios web y landing pages</li><li>Redes sociales y contenido</li><li>Chatbots de WhatsApp</li><li>Google Maps para negocios</li></ul>
+  <div class="lkmr-a">
+    <a class="lkmr-b lkmr-main" href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Cotiza el tuyo →</a>
+    <a class="lkmr-b" href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Conoce LKM&#x27;r</a>
+    <a class="lkmr-b" href="https://lukoffmon.github.io/WebDesignLKM/" target="_blank" rel="noopener">Ver más proyectos</a>
+  </div>
+  <p class="lkmr-c">Jesús María, Aguascalientes</p>
+</div></div></section>
+<footer><div class="wrap">
+  <span>Los Molcajetes de Villa · Independencia 3, Centro, Villa de Álvarez, Col.</span>
+  <span>Los precios mostrados son de referencia y pueden cambiar. Confírmalos con tu mesero.</span>
+  <span>Menú digital diseñado y desarrollado por <a href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">LKM&#x27;r Company</a> · <a href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Cotiza el tuyo</a></span>
+</div></footer>
+<button class="cartbar" id="cartbar" type="button"><span><span class="count" id="barcount">0</span>Ver mi pedido</span><span id="bartotal">$0</span></button>
+<dialog id="cart" aria-labelledby="carttitle"><div class="sheet">
+  <header><h2 id="carttitle">Tu pedido</h2><button class="x" id="close" type="button" aria-label="Cerrar">×</button></header>
+  <div class="lines" id="lines"></div>
+  <div class="total"><span>Total aprox.</span><span id="total">$0</span></div>
+  <div class="two"><label class="field">Nombre<input id="who" autocomplete="name"></label><label class="field">Mesa o para llevar<input id="mesa" placeholder="Ej. mesa 4"></label></div>
+  <label class="field">Notas<textarea id="notas" rows="2" placeholder="Sin cebolla, salsa aparte…"></textarea></label>
+  <a class="send" id="send" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c.7.3 1.3.5 1.7.6a4.2 4.2 0 0 0 1.9.1 3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.8L.2 23.8l6.1-1.6A11.8 11.8 0 0 0 12 23.6 11.8 11.8 0 0 0 20.4 3.6z"/></svg>Enviar pedido por WhatsApp</a>
+  <p class="note">Se abre WhatsApp con tu pedido listo; el restaurante confirma total y tiempo.</p>
+</div></dialog>
+<div class="toast" id="toast" role="status"></div>
+<script>window.MENU={"nombre":"Los Molcajetes de Villa","whatsapp":"3123114455","horario":"08:00:00 - 22:00:00","cats":[{"name":"Desayunos","items":[{"name":"Molletes con Tinga de Pollo","price":119,"img":"img/5e902ff39fc2.webp"},{"name":"Gorditas Colimotas","price":119,"img":"img/05895298a880.webp"},{"name":"Molletes con Chorizo","price":119},{"name":"Molletes con Cochinita Pibil","price":119,"img":"img/7521fa3107ae.webp"},{"name":"Chilaquiles Colimotes","price":119,"img":"img/d96bb270eef6.webp"},{"name":"Chilaquiles Villanos","desc":"Bañados en salsa ranchera ligeramente gratinados y coronados con chorizo de rancho. Acompañados de frijoles refritos, salsa de molcajete y bolillo artesanal.","price":169,"img":"img/ba6d0d22c967.webp"},{"name":"Molletes con Champiñones Gratinados","price":119,"img":"img/7780a95a6755.webp"},{"name":"Huevos al Gusto","desc":"Acompañados de frijoles refritos, salsas martajadas y bolillo o tortillas de comal. (2 pzas de huevo)","price":120,"img":"img/8dd5c43cfd79.webp"},{"name":"Hotcakes Tradicionales","desc":"Preparados al momento, masa casera y acompañados de 2 toppings a tu elección.","price":119,"img":"img/447adfe9dc4b.webp"},{"name":"Omelette al Gusto","price":155,"img":"img/553949b43271.webp"}]},{"name":"Panadería","items":[{"name":"Concha de Vainilla","desc":"Pan dulce tradicional con cobertura sabor vainilla.","price":17,"img":"img/6906acc444bb.webp"},{"name":"Concha de Chocolate","desc":"Pan dulce tradicional con cobertura sabor chocolate.","price":17,"img":"img/6bb50ef3fc07.webp"},{"name":"Concha de Nuez","desc":"Pan dulce tradicional con cobertura de vainilla coronada con trocitos de nuez.","price":19,"img":"img/e569e1dd8f51.webp"},{"name":"Oreja","desc":"Pieza clásica elaborada con masa hojaldre. ¡Crujiente!","price":17,"img":"img/dbd07d46d4b5.webp"},{"name":"Puerquito","desc":"Pan dulce artesanal mexicano","price":17,"img":"img/f71137254129.webp"},{"name":"Rol de Canela Petit","desc":"El rey de nuestra panadería pero más pequeño.","price":19,"img":"img/12c93b2f5986.webp"},{"name":"Rol de Canela Tradicional","desc":"¡El rey de nuestra panadería! Textura suave. Elige entre natural o glaseado.","price":37,"img":"img/1f8611571b10.webp"},{"name":"Croissant de Chocolate","desc":"¡Delicioso! Con masa danes autentica y relleno de chocolate.","price":37,"img":"img/fc90ca42f8f8.webp"},{"name":"Bolillo Petit","desc":"Mini bolillo artesanal con un toque de harina integral.","price":7,"img":"img/ce55fff804a0.webp"},{"name":"Roles Canela Caja X 4","desc":"El rey de nuestra panadería en hermosa presentación de 4 pzas. ¡Ideal para regalar! Agrega una nota.","price":155,"img":"img/eb3d9427500f.webp"},{"name":"Roles Canela Caja X 9","desc":"El rey de nuestra panadería en hermosa presentación de 9 pzas. ¡Ideal para regalar! Agrega una nota.","price":343,"img":"img/b5652ae916e7.webp"},{"name":"Roles Canela Petit Caja X 6","desc":"Nuestros exquisitos roles de canela petit en caja. ¡Ideal para regalar! Agrega una nota.","price":123,"img":"img/a98ada9bd995.webp"},{"name":"Roles Canela Petit Caja X 15","desc":"Nuestros exquisitos roles de canela en pequeño en caja. ¡Ideal para regalar! Agrega una nota.","price":299,"img":"img/faaf01468e6f.webp"},{"name":"Caja Lunch","desc":"Caja de cartón linda para un envío especial para agregar hasta 4-5 piezas pequeñas a tu elección.","price":11,"img":"img/d9b00e8fe04e.webp"},{"name":"Caja Ventana","desc":"Caja de cartón linda para un envío especial para agregar hasta 10 piezas pequeñas a tu elección.","price":19,"img":"img/888828930ee7.webp"},{"name":"Roles Canela Petit Caja X 6","desc":"Hamburguesa con carne de arrachera (180g), queso manchego, cebolla caramelizada y tocino crujiente en pan artesanal.","price":143,"img":"img/fb93249a4268.webp"},{"name":"Roles Canela Petit Caja X 15","desc":"Huarache de maíz con frijoles, cochinita pibil y cebolla morada.","price":347,"img":"img/951ca3eebefe.webp"}]},{"name":"Para Botanear","items":[{"name":"Nachos con Cochinita","desc":"Totopos caseros con frijoles refritos, gratinados y coronados con cochinita pibil. Acompañados de salsa mexicana y salsas de molcajete.","price":165,"img":"img/b8a4cac94559.webp"},{"name":"Guacamole","desc":"Café descafeinado de 480ml, preparado al momento con grano descafeinado.","price":162,"img":"img/bfecaccb0e1b.webp"},{"name":"Queso Fundido","desc":"Mezcla de queso mozarella o manchego natural, con chorizo, champinones o mixto.","price":174,"img":"img/189bae0e1f1f.webp"},{"name":"Quesadillas Rellenas","desc":"Tres quesadillas de maiz con guiso a elegir: tinga de pollo, cochinita pibil, chicharron en salsa roja o champinones salteados.","price":162,"img":"img/9f49176998e2.webp"},{"name":"Quesadillas Rellenas","desc":"Tres quesadillas de maiz con guiso a elegir: tinga de pollo, cochinita pibil, chicharrón en salsa roja o champiñones salteados.","price":135,"img":"img/4d0a64ff378a.webp"},{"name":"Queso Fundido","desc":"Mezcla de queso mozarella o manchego natural, con chorizo, champiñones o mixto.","price":145,"img":"img/bead8c62b3f5.webp"},{"name":"Guacamole","desc":"Aguacate fresco con salsa mexicana. Acompaño de totopos caseros","price":135,"img":"img/fd96b7663f2f.webp"}]},{"name":"Ensaladas","items":[{"name":"Ensalada Encanto con Panela","desc":"Lechuga italiana y espinaca fresca, piña asada, manzana, jitomate, pepino y frutos secos. Coronada con queso panela y el aderezo a tu elección.","price":156,"img":"img/a78f3950b137.webp"}]},{"name":"Guisos Caseros","items":[{"name":"Carne en Su Jugo 1/2 Kg","desc":"Tradicional guiso mexicano acompañado de tortillas de comal (6 pzas), aguacate, cebolla y chile verde picados.","price":173,"img":"img/dc489a8d28f8.webp"},{"name":"Frijoles Refritos 1/2 Kg","desc":"Frijoles refritos caseros (1/2 kg). Acompañados de salsas y tortillas de comal (6 pzas)","price":79,"img":"img/afccff2112f8.webp"},{"name":"Cochinita Pibil 1/2 Kg","desc":"Exquisito guiso yucateco con pierna de cerdo adobada en achiote. Acompañado de tortillas de comal (6 pzas), frijoles refritos (250 g) y salsas.","price":173,"img":"img/4d87aff27bd1.webp"},{"name":"Tortillas de Comal Docena","desc":"Tortillas hechas a mano (1 docena)","price":49,"img":"img/9769c0f2c960.webp"},{"name":"Chicharrón en Salsa Roja 1/2 Kg","desc":"Pierna de cerdo y chicharrón en deliciosa salsa roja.. Acompañado de tortillas de comal (6 pzas), frijoles refritos (250 g) y salsas.","price":173,"img":"img/931579529230.webp"},{"name":"Tinga de Pollo 1/2 Kg","desc":"Exquisito guiso mexicano de pollo deshebrado en salsa de jitomate y cebolla. Acompañado de tortillas de comal (6 pzas), frijoles refritos (250 g) y salsas.","price":173,"img":"img/e67662913547.webp"},{"name":"Quesadilla de Maiz","desc":"Con tortilla de comal y mezcla de mozarella y manchego.","price":37,"img":"img/01af96968179.webp"}]},{"name":"Huaraches","items":[{"name":"Huarache del Huerto","desc":"Hecho a base de maíz. Con frijoles refritos gratinados y champiñones frescos salteados al guajillo.","price":160,"img":"img/8ea13604ea82.webp"},{"name":"Huarache Cochinita Pibil","desc":"Guacamole de aguacate fresco con salsa mexicana, acompañado de totopos caseros.","price":192,"img":"img/030b72b98eca.webp"},{"name":"Huarache de la Tropa","desc":"Hecho a base de maíz. Con frijoles refritos gratinados y carne asada (200g). Acompañado de salsas","price":265,"img":"img/a430c2b8eeef.webp"},{"name":"Huarache Norteño","desc":"Hecho a base de maíz. Con frijoles refritos gratinados y arrachera (200g). Acompañado de salsas","price":290,"img":"img/2f7965bf329a.webp"},{"name":"Huarache Cochinita Pibil","desc":"Hecho a base de maíz. Con frijoles gratinados y coronado con cochinita pibil.","price":160,"img":"img/2d502a4851d0.webp"},{"name":"Huarache Chicharron","desc":"Hecho a base de maíz. Con frijoles gratinados y coronado con chicharrón en salsa roja.","price":160,"img":"img/68a2b38155dc.webp"}]},{"name":"Hamburguesas","items":[{"name":"Hamburguesa Campestre","price":195,"img":"img/b6060b3af89d.webp"},{"name":"Hamburguesa Generala","price":209,"img":"img/7527b595ed11.webp"},{"name":"Hamburguesa Tropical","price":195,"img":"img/b1d574f4bbee.webp"},{"name":"Hamburguesa Pio Pio","price":185,"img":"img/4f11c64d5d83.webp"},{"name":"Hamburguesa Ranchera","desc":"Hamburguesa vegetariana con champiñones salteados, medallón de zanahoria y papa a la plancha, gratinada.","price":195,"img":"img/06355f691a9f.webp"},{"name":"Hamburguesa Vegetariana","price":135,"img":"img/912a8aa12ace.webp"},{"name":"Papas A la Francesa Clásicas","price":125,"img":"img/04f35a70c207.webp"}]},{"name":"Cafetería","items":[{"name":"Café Villano 480Ml","desc":"Nuestro exquisito café de olla con más de 5 ingredientes; entre ellos piloncillo, cacao y canela.","price":55,"img":"img/88169a5c29d2.webp"},{"name":"Café Americano 480 Ml","desc":"Café americano en presentación de 480 ml.","price":60,"img":"img/85a1971d29b4.webp"},{"name":"Café Descafeinado 480Ml","desc":"Preparado al momento con grano descafeinado.","price":70,"img":"img/f405fe63a2ee.webp"},{"name":"Capuchino Tradicional 480Ml","desc":"Expresso con espuma de leche.","price":80,"img":"img/f6ef0a18507b.webp"},{"name":"Capuchino con Licor 480Ml","desc":"Con 30 ml de licor de café, crema de tequila o Baileys.","price":110,"img":"img/f02aa8bfb3ed.webp"},{"name":"Chocolate Caliente 480 Ml","desc":"Preparado con cacao puro veracruzano.","price":70,"img":"img/4b1a32341f02.webp"},{"name":"Chocolate Ligero 480 Ml","desc":"Con cacao puro sin azúcar añadida.","price":80,"img":"img/2613ba8cbe87.webp"},{"name":"Chocolate con Licor 480Ml","desc":"Con 30 ml de licor de café, crema de tequila o Baileys.","price":105,"img":"img/2e654bd0574d.webp"},{"name":"Capuchino Tradicional 480ml","desc":"Caja con 15 roles de canela pequeños, ideales para compartir.","price":90,"img":"img/cf64194ca059.webp"},{"name":"Cafe Descafeinado 480ml","desc":"Docena de tortillas de comal hechas a mano.","price":71,"img":"img/7520b717acbc.webp"}]},{"name":"Bebidas","items":[{"name":"Agua Horchata 1 Lt","desc":"Agua fresca natural","price":85},{"name":"Jugo de Naranja 500 Ml","desc":"Jugo 100% natural exprimido al momento.","price":90,"img":"img/cc123454e57d.webp"},{"name":"Agua Jamaica 1 Lt","desc":"Agua fresca natural","price":85,"img":"img/4ed6270b27b9.webp"},{"name":"Jugo de Verde 500 Ml","desc":"Jugo 100% natural exprimido al momento.","price":90,"img":"img/17d0cf02a0b1.webp"},{"name":"Refresco Lata 355 Ml","desc":"Coca cola lata 355ml","price":45,"img":"img/b6a48ef31975.webp"},{"name":"Chocomilk 500 Ml","desc":"Bebida de chocomilk en presentación de 500 ml.","price":69,"img":"img/ad0d06f30940.webp"},{"name":"Jugo de Naranja 500 Ml","desc":"Jugo 100% natural exprimido al momento.","price":75,"img":"img/9706cd9e1295.webp"}]}]};</script>
+<script src="../assets/menu.js" defer></script>
+</body>
+</html>

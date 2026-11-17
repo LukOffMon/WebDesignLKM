@@ -1,0 +1,332 @@
+{
+ "id": 1930191508,
+ "brandName": "La Fionela",
+ "name": "La Fionela - Fracc Rincon de San Patricio",
+ "address": "Blvd. Eulalio Gutiérrez Treviño 1324, Residencial San Patricio, 25204 Saltillo, Coah., México",
+ "schedule": "08:30:00 - 15:30:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -100.955988758093,
+  25.452774605894
+ ],
+ "city": "Saltillo",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/777-1715966193871.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/22-1715966194985.jpg",
+ "schedules": [
+  {
+   "open_time": "08:30:00",
+   "close_time": "15:30:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930191508-la-fionela",
+ "menu": [
+  {
+   "name": "Huevos",
+   "products": [
+    {
+     "name": "Omelette tradicional",
+     "desc": "Omelette relleno de pico de gallo y queso amarillo.",
+     "price": 175,
+     "img": "6050777e-d473-4c36-91f3-031192223c43.jpeg"
+    },
+    {
+     "name": "Omelette fionela",
+     "desc": "Omelette relleno de champiñones, espinacas, queso gouda y bañado en salsa de la casa.",
+     "price": 180,
+     "img": "98c37caf-7631-4114-8647-8d36ba4e478d.jpeg"
+    },
+    {
+     "name": "Omelette light",
+     "desc": "Omelette con claras de huevo relleno de espinacas y queso panela.",
+     "price": 180,
+     "img": "9d240e60-e667-4267-9e39-14d99bde23f4.jpeg"
+    },
+    {
+     "name": "Huevos divorciados",
+     "desc": "2 Huevos estrellados bañados en salsa roja, verde de la casa y frijoles.",
+     "price": 165,
+     "img": "32a4ab86-6d98-4a4a-b9a6-7f123cc989ac.jpeg"
+    },
+    {
+     "name": "Huevos toke",
+     "desc": "Huevos estrellados acompañados de espinaca, champiñones, tocino y pan integral tostado",
+     "price": 180,
+     "img": "567706e2-d681-4a53-a835-34069932e3df.jpeg"
+    },
+    {
+     "name": "Huevos rancheros",
+     "desc": "2 Huevos estrellados bañados en salsa roja molcajeteada, montados sobre una cama de tortilla de maíz y frijolitos.",
+     "price": 165,
+     "img": "bb8a2009-2591-488e-b737-ff2c5f86d428.jpeg"
+    },
+    {
+     "name": "Huevos con machacado",
+     "desc": "Huevos revueltos con machaca y frijoles.",
+     "price": 180,
+     "img": "503abb23-a717-4ef2-a579-9bd6e9d27e5d.jpeg"
+    },
+    {
+     "name": "Huevos rotos",
+     "desc": "Huevos estrellados montados sobre una cama de papas finamente ralladas, frijoles y salsa mediterránea de la casa.",
+     "price": 170,
+     "img": "c0bfdffe-e3e6-4d3a-a80f-48c7b426b4a5.jpeg"
+    },
+    {
+     "name": "Huevos rockefeller",
+     "desc": "Huevos montados sobre queso gouda papas, bañados en una crema de espinaca y tocino con un toque de vino blanco, acompañado de frijoles y pan tostado.",
+     "price": 245,
+     "img": "37e2e090-874b-4350-ab7c-29948507e1be.png"
+    },
+    {
+     "name": "Huevos al gusto",
+     "desc": "Huevos preparados a tu elección con opción de agregar proteína. No incluye pan.",
+     "price": 155,
+     "img": "04cb1aa3-dd2e-4f9c-ad2e-b28d0c3aedfa.png"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles blancos",
+     "desc": "Chilaquiles bañados en salsa cremosa de habanero con queso gouda, panela, crema, frijoles y acompañamiento a elegir. (pide tus chilaquiles salseados o con salsa aparte)",
+     "price": 165,
+     "img": "b3a67f4f-332b-44f9-a861-5077e59736cf.jpeg"
+    },
+    {
+     "name": "Chilaquiles verdes",
+     "desc": "Chilaquiles bañados en salsa verde con queso gouda, panela, crema, frijoles y complemento a elegir. (pide tus chilaquiles salseados o con la salsa aparte)",
+     "price": 165,
+     "img": "6fd88f3c-0a02-43d3-b716-4e1aed000c77.jpeg"
+    },
+    {
+     "name": "Chilaquiles rojos",
+     "desc": "Chilaquiles bañados en salsa roja con queso gouda, panela, crema, frijoles y acompañamiento a elegir. (pide tus chilaquiles salseados o con la salsa aparte)",
+     "price": 165,
+     "img": "79a5e8b0-abe9-40c2-847e-caa3316883a9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Enchiladas",
+   "products": [
+    {
+     "name": "Enchiladas Suizas",
+     "desc": "Enchiladas con tortillas de maíz rellenas de pollo, cubiertas con salsa verde de la casa y queso derretido, 4 pz.",
+     "price": 203,
+     "img": "7412f49d-0366-42e6-ac14-f3fff13cc7b5.jpeg"
+    },
+    {
+     "name": "Enchiladas Mineras",
+     "desc": "Enchiladas con tortillas de maíz rellenas de queso gouda y bañadas con una salsa de chile colorado, 4 pz.",
+     "price": 203,
+     "img": "8fbc06a5-36b6-4c64-b3c0-730fbe3ce176.png"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "Enmoladas con tortillas de maíz rellenas de pollo, bañadas en salsa de mole. Incluye 4 piezas, acompañadas de frijoles refritos, crema y queso.",
+     "price": 203,
+     "img": "f683d45f-66c9-4001-ba2a-84e483108e9f.png"
+    },
+    {
+     "name": "Entomatadas",
+     "desc": "Enchiladas con tortillas de maíz, relleno a elegir bañadas en salsa de tomate, crema y queso rallado, 4 pz.",
+     "price": 203,
+     "img": "ff195799-ac29-4c77-8507-25a983215cf4.png"
+    }
+   ]
+  },
+  {
+   "name": "Paninis",
+   "products": [
+    {
+     "name": "Panini de queso panela",
+     "desc": "Panini con pan a las finas hiervas, pechuga de pollo a la plancha, jamón de pavo, aderezo de alcaparra, espinacas, queso panela y tomate deshidratado.",
+     "price": 195,
+     "img": "22188b93-f421-4aa1-b20a-6cf8cf53d924.png"
+    },
+    {
+     "name": "Panini fionela",
+     "desc": "Panini con pan, pechuga de pollo a la plancha, jamón de pavo, lechuga, tomate, salsa tártara, queso gouda y tomate deshidratado.",
+     "price": 195,
+     "img": "781bef63-2f79-47bc-904c-06339f1343f6.jpeg"
+    },
+    {
+     "name": "Panini de jamón serrano",
+     "desc": "Nuestro pan delicioso , relleno de queso crema con pesto de tomate deshidratado, jamón serrano y mix de lechuga acompañado de papa gajo.",
+     "price": 195,
+     "img": "b67f3d6b-7c3e-4018-a102-1ed88f0062d0.png"
+    }
+   ]
+  },
+  {
+   "name": "Toast",
+   "products": [
+    {
+     "name": "Toast de Aguacate",
+     "desc": "2 Rebanadas de pan tostado con aguacate, alcaparra y 2 huevos estrellados.",
+     "price": 185,
+     "img": "06fabac6-1cc7-4fd0-a36d-c6d4b732a92e.jpeg"
+    },
+    {
+     "name": "Toast de huevos perfectos",
+     "desc": "Dos rebanadas de pan de masa madre tostadas, aguacate y crema acompañados con nuestros huevitos perfectamente revueltos con mantequilla y crema y mix de lechuga.",
+     "price": 190,
+     "img": "7d44792f-d820-4482-a154-028b9f6bd7d4.png"
+    }
+   ]
+  },
+  {
+   "name": "Pan",
+   "products": [
+    {
+     "name": "Torrejas con Frutos Rojos",
+     "desc": "Torrejas de pan brioche con frutos rojos de temporada y mermelada de fresa.",
+     "price": 160,
+     "img": "8f87963e-2152-4b5c-82cf-87dbf3b7064a.jpeg"
+    },
+    {
+     "name": "Bisquet",
+     "desc": "Bisquet tradicional con mantequilla y mermelada de fresa de la casa, 1 pz.",
+     "price": 60,
+     "img": "1071ed81-64a4-482f-90f0-fb993b8c0d0c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesadilla",
+   "products": [
+    {
+     "name": "Quesadilla",
+     "desc": "Quesadilla con tortilla a elegir y queso gouda , 1 pz.",
+     "price": 35,
+     "img": "dabade3c-ff38-427d-a8ba-416743bea0ed.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Orden de tacos de barbacoa",
+     "desc": "4 Tacos con tortilla a elegir, barbacoa, cilantro, cebolla y limón.",
+     "price": 160,
+     "img": "f0f5d68b-21eb-4db9-b15c-2aa771a2e137.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Comidas",
+   "products": [
+    {
+     "name": "Bistec Ranchero",
+     "desc": "Milanesa de res a la plancha bañada en salsa molcajeteada con arroz blanco y frijoles.",
+     "price": 210,
+     "img": "30271631-a738-4e66-bd77-1fa7bb4e6373.jpeg"
+    },
+    {
+     "name": "Alambre",
+     "desc": "Cortadillo de res guisado con chile morrón, cebolla y tocino con queso gouda gratinado acompañado con arroz rojo.",
+     "price": 210,
+     "img": "e8dc9bcb-e58b-4190-b6ad-84f3415a3b61.png"
+    },
+    {
+     "name": "Pechuga Fionela",
+     "desc": "Pechuga de pollo bañada con crema de la casa, arroz blanco y verduras de temporada a la mantequilla.",
+     "price": 217,
+     "img": "62641721-fee2-48d5-8d56-30901bbe5a9a.jpeg"
+    },
+    {
+     "name": "Pechuga de Pollo con Ensalada",
+     "desc": "Fajita de pollo a la plancha con ensalada de mix de lechuga, almendra, queso panela y vinagreta de frutos rojos.",
+     "price": 213,
+     "img": "2fdbbb20-268c-4cb3-ae9f-f857ecad127b.png"
+    },
+    {
+     "name": "Pechuga de Pollo en Mole",
+     "desc": "Pechuga de pollo bañada en mole, arroz blanco y ensalada de la casa.",
+     "price": 208,
+     "img": "3fb10feb-27d1-4be2-ab64-347b8c8ac682.png"
+    },
+    {
+     "name": "Caldo de res",
+     "desc": "Caldo de res con elote, papa, calabaza, zanahoria y arroz rojo.",
+     "price": 230,
+     "img": "4ab0c600-0e48-43cf-a81d-5fd46cd84e59.png"
+    }
+   ]
+  },
+  {
+   "name": "Menu Infantil",
+   "products": [
+    {
+     "name": "Huevos al gusto infantiles",
+     "desc": "Huevos infantiles con frijoles, presentación y proteína a elegir.",
+     "price": 120,
+     "img": "04cb1aa3-dd2e-4f9c-ad2e-b28d0c3aedfa.png"
+    },
+    {
+     "name": "Hotcake Infantiles",
+     "desc": "2 mini Hot cakes con tocino y huevo a elegir.",
+     "price": 150,
+     "img": "16921d5c-b786-4a82-9ab1-99a7ed982d6f.png"
+    },
+    {
+     "name": "Sincronizada",
+     "desc": "Tres sincronizadas con tortilla de harina, jamón, queso y papas a la francesa.",
+     "price": 96,
+     "img": "4a48d556-efbe-433a-a324-cecee156e8e6.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Jugo de naranja 400 ml",
+     "desc": "Jugo de naranja de la casa, 400 ml.",
+     "price": 60,
+     "img": "88149a19-9229-48de-941b-eb63116e71ed.jpeg"
+    },
+    {
+     "name": "Agua jamaica y guayaba 500 ml",
+     "desc": "Agua de jamaica y guayaba de la casa, 500 ml.",
+     "price": 45,
+     "img": "789ad651-7fee-496e-8469-b92ee6cbc796.jpeg"
+    },
+    {
+     "name": "Agua pepino y limón 500 ml",
+     "desc": "Agua pepino y limón de la casa, 500 ml.",
+     "price": 45,
+     "img": "4dc4b2a4-6e55-4c47-ba5a-1b05813f7f64.jpeg"
+    },
+    {
+     "name": "Café Americano 450 ml",
+     "desc": "Café americano de la casa, 450 ml.",
+     "price": 56,
+     "img": "a3286630-58d8-4c0f-89c1-8f072c049bf7.jpeg"
+    },
+    {
+     "name": "Cappuchino 300 ml",
+     "desc": "Cappuchino de la casa, 300 ml.",
+     "price": 80,
+     "img": "62e42089-5646-4d2a-9e1b-05bbec11009b.jpeg"
+    },
+    {
+     "name": "Ciel natural 500 ml",
+     "desc": "Aguas",
+     "price": 45,
+     "img": "a237d1de-fc12-4ecb-80f6-5bfe15198f2d.png"
+    },
+    {
+     "name": "Coca-cola original 335 ml",
+     "desc": "Refrescos",
+     "price": 55,
+     "img": "596608ef-1cce-4350-bc8a-88f139bb929e.png"
+    }
+   ]
+  }
+ ]
+}

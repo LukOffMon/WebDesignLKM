@@ -1,0 +1,757 @@
+{
+ "id": 1923239099,
+ "brandName": "El Acuario Mariscos",
+ "name": "El Acuario Mariscos - León Centro",
+ "address": "pino suarez 324 centro 37000 leon gto mexico",
+ "schedule": "13:30:00 - 19:00:00",
+ "categories": "Pescados y Mariscos",
+ "location": [
+  -101.683410728836,
+  21.118877473248
+ ],
+ "city": "León",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/format3fero-logo-1602270707324.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/11899893_947101185347991_7642982053679515707_n-1613406189441.jpg",
+ "schedules": [
+  {
+   "open_time": "13:30:00",
+   "close_time": "19:00:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923239099-el-acuario-mariscos",
+ "menu": [
+  {
+   "name": "Combos by Coca Cola",
+   "products": [
+    {
+     "name": "Combo Filete a la Plancha + Sprite 400 ml",
+     "desc": "Filete de pescado a la plancha, con ensalada  de lechuga, jitomate, cebolla pepino, papas a la francesa y arroz blanco. + Refresco",
+     "price": 250,
+     "img": "b7bccae2-d058-41c0-bfb8-d728cb7a5ce9.png"
+    },
+    {
+     "name": "Combo Filete a la Plancha + Coca-Cola Light 600 ml",
+     "desc": "Filete de pescado a la plancha, con ensalada  de lechuga, jitomate, cebolla pepino, papas a la francesa y arroz blanco. + Refresco",
+     "price": 250,
+     "img": "f43fbedb-aa3d-44f8-bf75-0c489b04aa44.png"
+    }
+   ]
+  },
+  {
+   "name": "Especiales",
+   "products": [
+    {
+     "name": "Cazuela De Mariscos",
+     "desc": "Taco de pulpo servido en tortilla de maíz, acompañado de salsa y decorado con cilantro y rábano. Incluye una porción de col morada y limón.",
+     "price": 282,
+     "img": "53888f27-9096-4ea3-a711-475e3242771c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "De La Casa",
+   "products": [
+    {
+     "name": "Aguacate Relleno Camaron",
+     "desc": "Chuleta de cerdo con cebolla, tocino y queso, acompañada de puré de papa y un taco dorado.",
+     "price": 204,
+     "img": "90881989-f45d-4182-bc11-e140fdd820f4.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ensalada",
+   "products": [
+    {
+     "name": "Ensalada De Camaron",
+     "desc": "Taco de camarón con col morada, aderezo y cilantro en tortilla de maíz. Incluye limón y salsa aparte.",
+     "price": 162,
+     "img": "d683139e-fa8e-4054-a0e6-4fe9cf0a9ff0.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Agua Chile de Camarón",
+     "desc": "1 Agua chile con 200 gr de camarón cocido en limón y en salsa de chile serrano, con rodajas de cebolla y pepino.",
+     "price": 235,
+     "img": "ac0fa797-7535-448b-a343-52356284f427.jpeg"
+    },
+    {
+     "name": "Tostada de Ceviche",
+     "desc": "Camarones al mojo de ajo (200 g) acompañados de arroz blanco, ensalada de lechuga, jitomate, cebolla, pepino y papas a la francesa.",
+     "price": 60,
+     "img": "8b3440c0-1242-4d4e-8e9b-0f58c1f5dca6.jpeg"
+    },
+    {
+     "name": "Tostada de Camarón",
+     "desc": "1 tostada de camarón cocido con jitomate y cebolla picada, limón, aceite de oliva, aguacate y sal, complementos a elección.",
+     "price": 110,
+     "img": "2cd7a882-9645-460c-8df8-d192e3b82615.jpeg"
+    },
+    {
+     "name": "Tostada de Pulpo",
+     "desc": "1 tostada de pulpo cocido con jitomate y cebolla picada, limón, aceite de oliva y aguacate, complementos a elección.",
+     "price": 115,
+     "img": "07fd7033-85e6-4bc7-bc8b-b9488d9283ed.jpeg"
+    },
+    {
+     "name": "Empanada de Queso",
+     "desc": "Tostada de ceviche cocido con limón, servida con aguacate, cebolla y jitomate. Ingredientes a elección.",
+     "price": 45,
+     "img": "a3c7f6d9-e868-4de9-ab2f-948c75baa555.jpeg"
+    },
+    {
+     "name": "Taco de Camarón",
+     "desc": "1 Taco con tortilla de maíz de camarón empanizado con mayonesa, cebolla morada, limón y salsa de chile serrano.",
+     "price": 55,
+     "img": "e35eada8-ec80-4d8e-ae67-a9922f864eb6.jpeg"
+    },
+    {
+     "name": "Tacos de Pescado",
+     "desc": "Tres brownies de chocolate en porciones individuales.",
+     "price": 45,
+     "img": "5ba9faae-0096-4a67-9d8f-36a3f41e3c20.jpeg"
+    },
+    {
+     "name": "Empanada Rellena de Queso y Camarón",
+     "desc": "Cóctel preparado con jugo de camarón, limón, cebolla, jitomate, cilantro, aguacate, aceite de oliva y salsa inglesa.",
+     "price": 50,
+     "img": "a983d043-0fe1-48ac-bc8e-38f465cfe5b7.jpeg"
+    },
+    {
+     "name": "Taco de Marlin",
+     "desc": "1 Tacos con tortilla de maíz, con el marlin guisado a la mexicana, salsa de chile serrano, limón y cebolla morada.",
+     "price": 55,
+     "img": "ef7e1208-7d3b-4717-93bc-81cf1f6af806.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco De Camaron (1)",
+     "desc": "Queso fundido con camarón, marlín y chorizo, decorado con rodajas de jalapeño y cilantro.",
+     "price": 60,
+     "img": "62a0ba27-4812-4f78-9a9c-b560eb60c9d7.jpeg"
+    },
+    {
+     "name": "Tacos De Marlin C/Guacamole (3)",
+     "desc": "Arroz acompañado de plátano frito y pimientos rojos.",
+     "price": 156,
+     "img": "6c64b0bf-5aae-4233-b451-2ae92d335519.jpeg"
+    },
+    {
+     "name": "Taco De Pulpo (1)",
+     "desc": "Tostada crujiente con marlin, aguacate, cebolla morada, jitomate y chile jalapeño. Acompañada de limón.",
+     "price": 96,
+     "img": "282f15b6-9639-4d85-afd1-c68e8667f22c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Filetes Ia Tu Gusto!",
+   "products": [
+    {
+     "name": "Filete Relleno (Camaron Y Pulpo)",
+     "desc": "Sopa de camarón con papas, zanahorias y cilantro, acompañada de rodajas de chile y limón.",
+     "price": 282,
+     "img": "cc9e945d-b21b-4e95-bd3e-3060c665350b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tostadas",
+   "products": [
+    {
+     "name": "Tostada De Cam/Pulpo",
+     "desc": "Trucha salmonada de 200/250 gramos acompañada de ensalada verde con lechuga, jitomate, cebolla, pepino y parmesano, arroz blanco y papas a la francesa.",
+     "price": 114,
+     "img": "089bc7d1-dc3f-4047-810d-feb03d692649.jpeg"
+    },
+    {
+     "name": "Tostada De Marlin",
+     "desc": "Arroz con pulpo, acompañado de chícharos y pimientos rojos. Incluye una rodaja de limón para realzar el sabor.",
+     "price": 78,
+     "img": "5ebd2128-78d5-47a1-9345-ef7e48c3ba87.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ninos",
+   "products": [
+    {
+     "name": "Filete Empanizado Con Papas Y Agua De Sabor",
+     "desc": "Mitad de aguacate rellena de camarones, cebolla morada y jitomate.",
+     "price": 144,
+     "img": "6146a031-1d29-4702-96c3-2af4b456bb99.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Hamburguesas",
+   "products": [
+    {
+     "name": "De Pollo",
+     "desc": "Lomo de atún acompañado de ensalada verde (lechuga, jitomate, cebolla, pepino y parmesano), arroz blanco y papas.",
+     "price": 150,
+     "img": "73bd3c48-a41b-4e69-a23f-dec58fadc6b9.jpeg"
+    },
+    {
+     "name": "Papas A La Francesa",
+     "desc": "Papas a la francesa acompañadas de lechuga, jitomate y cebolla. Incluye arroz y carne asada a la plancha.",
+     "price": 60,
+     "img": "64640a05-bcbc-4cd3-bb49-cba0d30bf5f1.jpeg"
+    },
+    {
+     "name": "De Res",
+     "desc": "Lomo de salmón acompañado de ensalada verde (lechuga, jitomate, cebolla, pepino y parmesano), arroz blanco y papas.",
+     "price": 162,
+     "img": "4a206780-54a1-4341-8bce-a9db290ae9ad.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Arroz",
+   "products": [
+    {
+     "name": "Papas A La Francesa",
+     "desc": "Papas a la francesa acompañadas de lechuga, jitomate y cebolla. Incluye arroz y carne asada a la plancha.",
+     "price": 60,
+     "img": "64640a05-bcbc-4cd3-bb49-cba0d30bf5f1.jpeg"
+    },
+    {
+     "name": "Arroz Marinero (Pulpo/Camaron)",
+     "desc": "Spagueti cocido con mantequilla, decorado con perejil fresco.",
+     "price": 216,
+     "img": "15a9fe26-fe39-4c17-97f5-f85e378f05f6.jpeg"
+    },
+    {
+     "name": "Arroz Solo",
+     "desc": "Arroz con camarón, acompañado de pimientos rojos y cilantro.",
+     "price": 78,
+     "img": "63eca186-798e-4831-ab79-df64c61be5fc.jpeg"
+    },
+    {
+     "name": "Arroz Con Camaron",
+     "desc": "Filete empanizado relleno de camarón y pulpo, acompañado de ensalada verde (lechuga, jitomate, cebolla, pepino y parmesano), arroz blanco y papas fritas.",
+     "price": 204,
+     "img": "7c4982e5-a253-4082-ac8c-9d1071a34e0e.jpeg"
+    },
+    {
+     "name": "Arroz Con Pulpo",
+     "desc": "Spagueti con camarones, acompañado de rodajas de limón y perejil fresco.",
+     "price": 228,
+     "img": "5342993e-faf8-482e-b924-b40c67cdcdf1.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Queso Fundido",
+   "products": [
+    {
+     "name": "Queso Camaron/Marlin / Chorizo",
+     "desc": "Filete empanizado acompañado de papas fritas y agua de sabor.",
+     "price": 168,
+     "img": "5062297c-ccb7-4a40-a8ad-0c3b7a0e7f35.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Promociones",
+   "products": [
+    {
+     "name": "Combo 1",
+     "desc": "1 Filete empanizado con ensalada verde, papas a la francesa, arroz blanco y bebida a elección.",
+     "price": 190,
+     "img": "ec7bab8f-c589-45ec-b7c0-127dfb77bcb9.jpeg"
+    },
+    {
+     "name": "Combo 2",
+     "desc": "1 Filete empanizado con ensalada verde, papas a la francesa, arroz blanco, espagueti a la mantequilla y bebida a elección.",
+     "price": 210,
+     "img": "ddb9edbb-ee0b-418f-8596-99c508999e1b.jpeg"
+    },
+    {
+     "name": "Combo 3",
+     "desc": "Filete empanizado, camaranoes empanizados, ensalada verde (lechuga,jitomate,cebolla,pepino), arroz blanco, papas y refresco.",
+     "price": 255,
+     "img": "0a8a1b0d-acbc-4fea-84bc-b99a6176bc03.jpeg"
+    },
+    {
+     "name": "Combo 4",
+     "desc": "Empanada rellena de queso, con masa dorada y crujiente.",
+     "price": 180,
+     "img": "7e664b08-f522-4f2d-beb7-60a5b1dac691.jpeg"
+    },
+    {
+     "name": "Combo 5 Comparte",
+     "desc": "Tiras de filete y camarones empanizados, 1papas a la francesa, 1 ensalada verde, 2 empanadas de queso y 2 refrescos.",
+     "price": 300,
+     "img": "0e38d2fc-38a1-436d-98ce-1ea7b4d08503.jpeg"
+    },
+    {
+     "name": "Michelada y 2 Tostadas de Ceviche",
+     "desc": "1 cerveza de 355ml, preparada como michelada con clamato con 3 camarones y 2 tostadas de ceviche.",
+     "price": 185,
+     "img": "a00845bd-14c4-4522-bacc-6f61d1aa0ea4.jpeg"
+    },
+    {
+     "name": "Hamburguesa de Salmón",
+     "desc": "Hamburguesa con 115gramos de salmón asada a la parilla, servida en pan de ajonjoli, con lechuga, jitomate y cebolla blanca. Con papas a la francesa.",
+     "price": 195,
+     "img": "7577f27b-3993-4fa9-82d9-812d0f65944f.png"
+    }
+   ]
+  },
+  {
+   "name": "Pescado Entero",
+   "products": [
+    {
+     "name": "Mojarra a Las Brasas",
+     "desc": "Pescado entero 400 gr cocinado a las brasas, con nuestras salsa de achiote.",
+     "price": 265,
+     "img": "b7f2995c-2acf-4445-a2a8-a985ac2463c3.jpeg"
+    },
+    {
+     "name": "Mojarra Frita",
+     "desc": "Mojara 600 gr, acompañado de ensalada verde (lechuga, jitomate, cebolla, pepino), papas a la francesa y arroz blanco.",
+     "price": 265,
+     "img": "3d11e126-7a49-42eb-913c-6317311ae4e5.jpeg"
+    },
+    {
+     "name": "Trucha Salmonada (200/250gramos)",
+     "desc": "Ensalada de camarón con lechuga, aguacate, jitomate cherry, pepino y cebolla morada.",
+     "price": 282,
+     "img": "85e55ee0-54c9-450d-bf9d-a44672e90cd4.jpeg"
+    },
+    {
+     "name": "Mojarra 500/700 Gr.",
+     "desc": "Carne de res asada a la plancha, acompañada de lechuga, jitomate, cebolla y papas a la francesa. Incluye dos hamburguesas con queso, lechuga, jitomate y cebolla.",
+     "price": 264,
+     "img": "21138144-893e-4edc-9232-40d1a39047fb.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Carnes",
+   "products": [
+    {
+     "name": "Arrachera De Res",
+     "desc": "Papas a la francesa acompañadas de lechuga, jitomate y cebolla. Incluye arroz y carne asada a la plancha.",
+     "price": 270,
+     "img": "ae72c6ae-2908-4ec5-b8c3-7dbbf32e94f6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Salmon-Atun",
+   "products": [
+    {
+     "name": "Lomo De Atun",
+     "desc": "Spagueti con pulpo, acompañado de jitomates cherry y perejil fresco.",
+     "price": 264,
+     "img": "1a59d754-1948-40db-95ce-dda807e33ffa.jpeg"
+    },
+    {
+     "name": "Lomo De Salmon",
+     "desc": "Cazuela de mariscos con nopal, pulpo, camarón, mejillones y salsa ajillo.",
+     "price": 294,
+     "img": "2a0519c1-95c6-4e73-8ae5-3cf804e80c5a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Sopa",
+   "products": [
+    {
+     "name": "Sopa De Mariscos",
+     "desc": "Arrachera de res acompañada de cebolla asada, papas a la francesa y salsa verde.",
+     "price": 228,
+     "img": "e1014341-69d4-4270-abc0-bce6a6ceb1c3.jpeg"
+    },
+    {
+     "name": "Sopa De Camaron",
+     "desc": "Mojarra de 500/700 gr acompañada de ensalada verde (lechuga, jitomate, cebolla, pepino y parmesano), arroz blanco y papas a la francesa.",
+     "price": 228,
+     "img": "94cc908f-72a0-40a3-b0fd-06e49013cacd.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Spagueti",
+   "products": [
+    {
+     "name": "Spagueti Con Camaron",
+     "desc": "Tostada con camarones, pulpo, aguacate, cebolla morada y salsa. Acompañada de limón.",
+     "price": 204,
+     "img": "970cb549-999a-42ee-a4ee-08d5fc9a9302.jpeg"
+    },
+    {
+     "name": "Spagueti A La Mantequilla",
+     "desc": "Pechuga de pollo asada a la plancha con lechuga, jitomate, cebolla y papas a la francesa.",
+     "price": 90,
+     "img": "a49871d6-4b87-4566-8b71-5cb82fe2b03f.jpeg"
+    },
+    {
+     "name": "Spagueti Con Pulpo",
+     "desc": "Tres tacos de marlín con guacamole, servidos en tortillas de maíz. Incluyen cebolla morada y col morada. Acompañados de limón.",
+     "price": 276,
+     "img": "08b59a1f-ac41-44a0-ac87-72905f2bdac5.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Ostiones Acuario",
+     "desc": "Ostiones guisados 150 gr en aceite de oliva, vino blanco, cebolla, cilantro, servidos en unas tapas de pan tostado.",
+     "price": 195,
+     "img": "c6b8a761-387e-431b-a8e2-90bca6b0bf9d.jpeg"
+    },
+    {
+     "name": "Tártara de Atún",
+     "desc": "Lomo de atún 200 gr, cocido en limón, cebolla blanca, cilantro, aceite de oliva y vino blanco.",
+     "price": 280,
+     "img": "d6cdf59e-d83e-4dc2-8c8d-1df24d876847.png"
+    },
+    {
+     "name": "Pulpos a la Gallega",
+     "desc": "Pulpo cocido 180 gr, sobre una cama de papa cocida, con aceite de oliva, paprika y sal de grano.",
+     "price": 330,
+     "img": "192579a5-d719-49ce-b61b-856e90fe48fe.jpeg"
+    },
+    {
+     "name": "Pulpo a Las Brasas",
+     "desc": "Pulpo cocido 200 gr, asado a las brasas con nuestro aderezo a base de ajo, aceite de oliva y mantequilla.",
+     "price": 310,
+     "img": "510c312e-cb7a-469a-b226-e1c8c783283f.png"
+    },
+    {
+     "name": "Vinagreta de Atun Al Chile Serrano",
+     "desc": "Medallon de atun nacional de 200g, preparado con una vinagreta de chile serrano, verde. salsas para condimentarlo, aguacate, aceitunas, pepino, cebolla morada y ajonjoli.",
+     "price": 265,
+     "img": "34c158d3-2882-44bd-8839-5cb280565f74.png"
+    },
+    {
+     "name": "Vinagreta de Atún Al Mango",
+     "desc": "Medallon de atun nacional de 200g, con nuestras salsas para condimentar, pepino, cebolla morada, mango, ajonjoli y aguacate.",
+     "price": 265,
+     "img": "f724f91b-af55-4f49-9174-24e8402fc119.png"
+    },
+    {
+     "name": "Camarones a Las Brazas",
+     "desc": "500 Gramos de camaron gigante con cabeza, asados a las brazas, con nuestro sazonador a base de mantequilla, ajo y especias. van acompañados de salsa catsup y de nuestra salsa de chile serrano cremosa.",
+     "price": 350,
+     "img": "bcdd140c-bd01-4306-81fc-b5e62e8d7ee0.png"
+    }
+   ]
+  },
+  {
+   "name": "Paella",
+   "products": [
+    {
+     "name": "Paella",
+     "desc": "1 Paella valenciana con arroz 900 gr, calamar, mejillones, camarones, carne de puerco, carne de pollo y jaiba entera.",
+     "price": 295,
+     "img": "838e17e7-71fa-437f-bdaa-67083fc63a64.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada de salmón",
+     "desc": "Ensalada con lonja de salmón a la plancha 200 gr, sobre una cama de ensalada verde con aceite de olivo al ajillo y queso parmesano.",
+     "price": 275,
+     "img": "f67f4fcb-b2df-44af-ae2c-342e32e1909a.jpeg"
+    },
+    {
+     "name": "Ensalada de Atún",
+     "desc": "Ensalada con atún en aceite, sobre una cama de ensalada verde, aceite de olivo al ajillo y parmesano.",
+     "price": 130,
+     "img": "8e3efd24-035e-464d-be4d-9edae64b06ae.jpeg"
+    },
+    {
+     "name": "Ensalada Verde",
+     "desc": "Ensalada verde con; lechuga, jitomate, cebolla, pepino, aceite de oliva al ajillo y queso parmesano.",
+     "price": 78,
+     "img": "c326b390-00da-4ef7-a5f2-2cda3496a682.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Cocteles",
+   "products": [
+    {
+     "name": "Cóctel Chico",
+     "desc": "1 Cóctel preparado con jugo de camarón, limón, cebolla y jitomate picado, cilantro, aguacate, aceite de oliva.",
+     "price": 125,
+     "img": "0b9514ef-c941-494b-82eb-70f31ece79a6.jpeg"
+    },
+    {
+     "name": "Cóctel Grande",
+     "desc": "Combo con tiras de filete empanizado, papas a la francesa, ensalada verde y arroz con verduras. Incluye salsas y limón.",
+     "price": 220,
+     "img": "4e7c705f-fce3-4366-b65c-d5569dfe8fee.jpeg"
+    },
+    {
+     "name": "Coctel Chabela",
+     "desc": "Cóctel con jugo de camarón, cebolla y jitomate picado, cilantro, aguacate, aceite de oliva, catsup, salsa inglesa.",
+     "price": 300,
+     "img": "e495d3c6-d772-4852-8a2f-d3a810e0601e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Filetes",
+   "products": [
+    {
+     "name": "Filete Empanizado",
+     "desc": "1 Filete de pescado empanizado, con ensalada con lechuga, jitomate, cebolla pepino, papas a la francesa y arroz blanco.",
+     "price": 210,
+     "img": "349c13b3-706f-49a5-9dbc-98bad979e4e9.jpeg"
+    },
+    {
+     "name": "Filete Al Mojo de Ajo",
+     "desc": "Filete de pescado al mojo de ajo, con ensalada de lechuga, jitomate, cebolla pepino, papas a la francesa y arroz blanco.",
+     "price": 210,
+     "img": "ca05226c-f9bf-48fe-9ada-48f9b497e93d.jpeg"
+    },
+    {
+     "name": "Filete a la Plancha",
+     "desc": "Filete de pescado a la plancha, con ensalada  de lechuga, jitomate, cebolla pepino, papas a la francesa y arroz blanco.",
+     "price": 210,
+     "img": "9dae5193-19d6-460e-930d-81371efd9cd4.jpeg"
+    },
+    {
+     "name": "Filete Al Ajillo",
+     "desc": "Filete de pescado al ajillo con, ensalada con lechuga, jitomate, cebolla pepino, papas a la francesa y arroz blanco.",
+     "price": 220,
+     "img": "f1a214bf-a6e7-4dbd-b034-a875f3921d42.jpeg"
+    },
+    {
+     "name": "Filete a la Diabla",
+     "desc": "Filete de pescado a la diabla con, ensalada con lechuga, jitomate, cebolla pepino, papas a la francesa y arroz blanco.",
+     "price": 220,
+     "img": "ee7ad270-e8e4-4f80-ba08-c5fb74893784.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Camarones",
+   "products": [
+    {
+     "name": "Camarones a la Diabla",
+     "desc": "Camarón 200 gr, con salsa a la diabla, arroz blanco, ensalada de lechuga, jitomate, cebolla pepino y papas a la francesa.",
+     "price": 280,
+     "img": "adf94cd8-df69-4bc6-8159-480f3c13a1e2.png"
+    },
+    {
+     "name": "Camarones Al Ajillo",
+     "desc": "Camarón  200 gr con salsa a la diabla, arroz blanco, ensalada de lechuga, jitomate, cebolla pepino y papas a la francesa.",
+     "price": 280,
+     "img": "1459c3a3-bde6-4438-84c2-6e288f68c97d.png"
+    },
+    {
+     "name": "Camarones Empanizados",
+     "desc": "Camarón 200 gr empanizado, arroz blanco, ensalada de lechuga, jitomate, cebolla, pepino y papas a la francesa.",
+     "price": 280,
+     "img": "1e0e98b9-4326-42a6-8e14-098a2d23d02c.jpeg"
+    },
+    {
+     "name": "Camarones Al Mojo de Ajo",
+     "desc": "2 piezas de madalenas de mantequilla con azúcar.",
+     "price": 300,
+     "img": "ea6e48e0-c23e-42ec-8078-1588e22f8eea.png"
+    },
+    {
+     "name": "Camarones Rellenos",
+     "desc": "Camarón rellenos 200 gr de tocino y empanizados con, arroz blanco, ensalada de lechuga, jitomate, cebolla, pepino y papas.",
+     "price": 300,
+     "img": "a060862a-46c7-4c98-b1fc-41d65582a039.png"
+    }
+   ]
+  },
+  {
+   "name": "Lonja de Salmón",
+   "products": [
+    {
+     "name": "Salmón a la Plancha",
+     "desc": "Lonja de salmón 200 gr a la plancha con, arroz blanco, ensalada de lechuga, jitomate, cebolla, pepino y papas a la francesa.",
+     "price": 290,
+     "img": "2dc860c0-c3b2-441a-92a3-9cfab449299a.jpeg"
+    },
+    {
+     "name": "Salmón Al Mojo de Ajo",
+     "desc": "Lonja de salmón 200 gr al mojo de ajo con, arroz blanco, ensalada de lechuga, jitomate, cebolla, pepino y papas a la francesa.",
+     "price": 290,
+     "img": "b61dc4f1-8830-4743-a695-6f69c03d7cec.jpeg"
+    },
+    {
+     "name": "Salmón Al Chipotle",
+     "desc": "Lonja de salmón 200 gr al chipotle con, arroz blanco, ensalada de lechuga, jitomate, cebolla, pepino y papas a la francesa.",
+     "price": 290,
+     "img": "27bb4331-5c67-45f9-9a0a-4bbd7cb5e75a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Trucha Salmonada",
+   "products": [
+    {
+     "name": "Trucha a la Plancha",
+     "desc": "1 Trucha salmonada, corte mariposa, a la plancha con, arroz blanco, ensalada de lechuga, jitomate, cebolla, pepino y papas.",
+     "price": 270,
+     "img": "3208c9f5-9779-4eb8-bec2-de99e0d9855c.jpeg"
+    },
+    {
+     "name": "Trucha a la Diabla",
+     "desc": "1 Trucha salmonada corte mariposa a la diabla, con, arroz blanco, ensalada lechuga, jitomate, cebolla, pepino y papas.",
+     "price": 270,
+     "img": "ae5020e8-9165-4173-8981-72286b786691.jpeg"
+    },
+    {
+     "name": "Trucha en Matequilla de Anchoas",
+     "desc": "190gr de trucha salmonada, corte mariposa sin hueso a la plancha con mantequilla en salsa de anchoas, ensalada, papas y arroz.",
+     "price": 270,
+     "img": "cfe47e59-eb2f-4863-8a8b-aced5b41c813.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Refrescos",
+   "products": [
+    {
+     "name": "Coca-Cola Original 400 ml",
+     "desc": "Refrescos",
+     "price": 40,
+     "img": "bd7f12e9-ca6f-456d-8c9c-05d8970e9906.jpeg"
+    },
+    {
+     "name": "Coca-Cola Sin Azúcar 400 ml",
+     "desc": "Refrescos",
+     "price": 40,
+     "img": "a87ec1a5-781f-4e74-a7e5-2333d33a2a43.jpeg"
+    },
+    {
+     "name": "Coca-Cola Light 355 ml",
+     "desc": "Refrescos",
+     "price": 40,
+     "img": "c9f97e50-a548-4244-8795-9c4d64b95c8f.jpeg"
+    },
+    {
+     "name": "Sprite 400 ml",
+     "desc": "Refrescos",
+     "price": 40,
+     "img": "487db526-f3b8-41a6-a56d-9c4d1f9c979a.jpeg"
+    },
+    {
+     "name": "Fanta Naranja",
+     "desc": "Fanta sabor  naranja en pet 400ml.",
+     "price": 40,
+     "img": "8d4d793d-63f8-4214-9b94-82b00430e89f.png"
+    },
+    {
+     "name": "Sidral Mundet Manzana 355 ml",
+     "desc": "Refrescos",
+     "price": 40,
+     "img": "db5b23dd-12c8-4f93-842b-24768901389f.jpeg"
+    },
+    {
+     "name": "Modelo Especial 355 ml",
+     "desc": "Cervezas",
+     "price": 55,
+     "img": "ae7944fe-36e5-4636-b796-e86eb926bf3a.jpeg"
+    },
+    {
+     "name": "Coca-Cola Light 600 ml",
+     "desc": "Refrescos",
+     "price": 40,
+     "img": "1de2ed1c-140c-4294-8769-ba43c4afa271.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Vinos y Licores",
+   "products": [
+    {
+     "name": "Tequila Cuervo Tradicional",
+     "desc": "1.5 oz de tequila cuervo tradicional, hielo y refresco a eleccion.",
+     "price": 100,
+     "img": "b7e32b8e-9de2-4be7-8d36-2ce25361b54d.png"
+    },
+    {
+     "name": "Carajillo con Licor Del 43",
+     "desc": "1.5 oz de licor del 43 con 1 cafe expresso, agitado con hielo.",
+     "price": 180,
+     "img": "a527ebd5-ea49-4c0c-858b-9816c768a2ca.jpeg"
+    },
+    {
+     "name": "Vodka Absolut Azul",
+     "desc": "1.5 oz de vodka absolut azul, con hielo y refresco a escoger.",
+     "price": 110,
+     "img": "e9edbf5e-04a5-4a42-a5b6-9468451becbf.jpeg"
+    },
+    {
+     "name": "Brandy Torres X",
+     "desc": "1.5 oz de brandy torres x, acompañado de hielo y refresco a escoger.",
+     "price": 115,
+     "img": "0a256a9b-25f4-4b91-9b4f-d9be929d65fb.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Panque de Elote",
+     "desc": "1 Panqué de elote de 100 gr.",
+     "price": 70,
+     "img": "037a7e53-2d12-4e1c-969e-2e1ac3ad393e.jpeg"
+    },
+    {
+     "name": "Brownies de Chocolate",
+     "desc": "Sopa de mariscos con camarones, calamares y mejillones en caldo especiado. Incluye rodajas de chile y cebolla de verdeo.",
+     "price": 65,
+     "img": "3dec7283-1230-451b-b087-134894e38479.jpeg"
+    },
+    {
+     "name": "Madalenas de Mantequilla",
+     "desc": "Taco de pescado empanizado en tortilla de maíz, con mayonesa, cebolla morada, limón y salsa de chile serrano.",
+     "price": 65,
+     "img": "f3311194-21c5-4758-90c9-7cf24a29d4f1.jpeg"
+    },
+    {
+     "name": "Muffin con Chispas de Chocolate",
+     "desc": "3 mini muffin con chispas de chocolate.",
+     "price": 65,
+     "img": "d5970764-eb6f-4541-986a-10b2fadca53d.png"
+    }
+   ]
+  },
+  {
+   "name": "Cervezas",
+   "products": [
+    {
+     "name": "Michelada con Camarón",
+     "desc": "1 cerveza de 355ml, preparada como michelada con clamato y 3 camarones de coctel.",
+     "price": 90,
+     "img": "021020dc-074b-4316-acb1-d728acdd87f7.jpeg"
+    },
+    {
+     "name": "Modelo Especial Lata 355 ml",
+     "desc": "Cervezas",
+     "price": 55,
+     "img": "ee50514b-4a8f-444d-a018-9d85acbc85b2.png"
+    }
+   ]
+  }
+ ]
+}

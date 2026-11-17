@@ -1,0 +1,477 @@
+{
+ "id": 1923723714,
+ "brandName": "Marisqueria Las Brisas Pachuca",
+ "name": "Marisqueria Las Brisas Pachuca - San Cayetano El Bordo",
+ "address": "calle cofre de perote esquina nevado de la malinche colonia san cayetano 42084 Pachuca de Soto, Hidalgo, Mexico",
+ "schedule": "07:00:00 - 19:15:00",
+ "categories": "Pescados y Mariscos",
+ "location": [
+  -98.77273651475,
+  20.10693870903
+ ],
+ "city": "Pachuca de Soto",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-1667918325444.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1667918327585.jpg",
+ "schedules": [
+  {
+   "open_time": "07:00:00",
+   "close_time": "19:15:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923723714-marisqueria-las-brisas-pachuca",
+ "menu": [
+  {
+   "name": "La Especialidad de la Casa",
+   "products": [
+    {
+     "name": "Ramen de mariscos",
+     "desc": "Sabrosa pasta ramen, preparada en nuestro tradicional caldo con una mezcla de marisco, camaron, pulpo, abulon, surimi, almeja, camaron grande. servido en desechable de 1lt",
+     "price": 156,
+     "img": "7a79d968-08a9-41ea-9b9a-c2d0c8486d44.png"
+    },
+    {
+     "name": "Caldo de camarón pelado",
+     "desc": "Caldo de camarón pelado con almeja y aguacate, bolillo y limon",
+     "price": 130,
+     "img": "3af47570-63e2-4022-9733-2c3323b5a998.png"
+    },
+    {
+     "name": "Caldo de camarón",
+     "desc": "La especialidad de la casa - caldo de camarón con camarones, almejas",
+     "price": 91,
+     "img": "92cd0790-0d0d-425c-a267-732a60effbfd.png"
+    },
+    {
+     "name": "Caldo de pescado",
+     "desc": "Caldo de pescado con trozos de pescado y especias.",
+     "price": 91,
+     "img": "58eccd46-c1c9-45f6-88d7-79018eb1ce2f.png"
+    },
+    {
+     "name": "Sopa de Mariscos Chico",
+     "desc": "La especialidad de la casa - sopa de mariscos con camarones, aguacate y trozos de pescado.",
+     "price": 120,
+     "img": "4f934b8e-aba5-4489-ac36-5b303878295a.png"
+    },
+    {
+     "name": "Sopa de mariscos grande",
+     "desc": "La especialidad de la casa - sopa de mariscos con camarones, aguacate y trozos de pescado.",
+     "price": 145,
+     "img": "ff48b9c0-d7f4-44d0-b32a-c58b8ea81986.png"
+    },
+    {
+     "name": "Cazuela de mariscos chico",
+     "desc": "Cazuela de mariscos chico con camarones, pulpo, aguacate y queso en caldo.",
+     "price": 125,
+     "img": "a6cec595-4a5f-44a4-ba98-685b56c9ca33.png"
+    },
+    {
+     "name": "Cazuela de Mariscos Grande",
+     "desc": "La especialidad de la casa - cazuela de mariscos con camarones, pulpo, aguacate y queso en cazuela de barro.",
+     "price": 160,
+     "img": "52acd282-1260-4e80-929b-633d48f7fb9b.png"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Empanadas",
+     "desc": "Sabrosa empanada tradicional con relleno a elegir",
+     "price": 41.3,
+     "img": "7bb801d2-d6fd-4968-93eb-41faaca0ccd2.png"
+    },
+    {
+     "name": "Taco de camarón",
+     "desc": "Taco en tortilla de camarón con queso y aguacate.",
+     "price": 69,
+     "img": "d55e6963-b5da-4745-bc8a-a12e671e386e.png"
+    },
+    {
+     "name": "Orden de tostadas",
+     "desc": "Orden de 3 tostadas con ensalada de col, aguacate y opción de ingredientes como mariscos o carne. Incluye limón para acompañar.",
+     "price": 117,
+     "img": "7bf87327-f32b-42db-a502-22ebd5914d1b.png"
+    },
+    {
+     "name": "Tostada grande",
+     "desc": "Tostada grande con ensalada de col, aguacate y opción de ingrediente a elegir. Incluye limón para sazonar.",
+     "price": 119,
+     "img": "62ca8df4-6295-4cd7-8ba8-8dd319c099a0.png"
+    },
+    {
+     "name": "Vaso de caldo",
+     "desc": "Caldo de camarón de 250 ml. lleva 1 almeja y 1 camarón para pelar de buen tamaño .",
+     "price": 55,
+     "img": "f8cc4611-b9a4-45f8-9a10-fc9f71a75169.png"
+    },
+    {
+     "name": "Taco de pescado",
+     "desc": "Taco en tortilla de maíz con pescado y aguacate.",
+     "price": 59,
+     "img": "f88d49cb-3607-4aed-bb50-615da2f40a9c.png"
+    },
+    {
+     "name": "Pescadillas",
+     "desc": "Tortilla de maíz rellena de pezcado preaprado con jitomate, cebolla, epazote, dorada en aceite",
+     "price": 46,
+     "img": "5632e4bf-aa67-462e-a46e-51a61261dade.png"
+    }
+   ]
+  },
+  {
+   "name": "Filetes",
+   "products": [
+    {
+     "name": "Filete a la campesina",
+     "desc": "Filete preparado con chicharo, zanahoria, elote y queso gratinado",
+     "price": 176,
+     "img": "3a8d3416-4f00-49fd-8776-39f255336998.png"
+    },
+    {
+     "name": "Filete al mojo de ajo",
+     "desc": "Filete dorado y preparado con ajo y hojuelas de ajo doradas, acompañado de ensalada y arroz",
+     "price": 176,
+     "img": "aae5396d-1b8c-4432-82bc-2f2d92fe871d.png"
+    },
+    {
+     "name": "Filete a la diabla",
+     "desc": "Filete dorado y bañado en nuestra salsa picosa ala diabla, acompañado de ensalda y arroz",
+     "price": 176,
+     "img": "81276955-fc5d-4013-a793-c05b22a8fbe1.png"
+    },
+    {
+     "name": "Filete a las brisas",
+     "desc": "Filete dorado y bañado en nuestra salsa de la casa picosa, acompañado de ensalada y arroz",
+     "price": 176,
+     "img": "bd1ca7b8-fa08-43ea-9da0-63ed7b06000f.png"
+    },
+    {
+     "name": "Filete empanizado",
+     "desc": "Filete empanizado acompañado de ensalada y arroz",
+     "price": 176,
+     "img": "a0e0dcd8-d256-40ea-8bd3-d459c5886e28.png"
+    },
+    {
+     "name": "Filete empapelado",
+     "desc": "Filete empapelado preparado conjitomate, cebolla y queso gratinado",
+     "price": 176,
+     "img": "82f9aaa7-16b9-4030-a2aa-7fc6a4f0a35c.png"
+    },
+    {
+     "name": "Filete relleno",
+     "desc": "Filete cocido en aluminio, relleno de camaron, pulpo, abulon, surimi y queso gratinado",
+     "price": 269,
+     "img": "633b74bb-d4b8-4071-a19d-50bd2d47eaaa.png"
+    },
+    {
+     "name": "Filete a la mantequilla",
+     "desc": "Ffilete a la plancha con mantequilla acompañado de ensalada y arroz",
+     "price": 176,
+     "img": "59e4575f-a9d6-4a8e-a242-f9d041e4a4dc.png"
+    },
+    {
+     "name": "Filete a la plancha",
+     "desc": "Filete ala plancha acompañado de ensalada y arroz",
+     "price": 176,
+     "img": "ff618e39-075d-4fe7-b2db-74c5cd022f23.png"
+    },
+    {
+     "name": "Filete hawaiano",
+     "desc": "Filete preparado con tocino, piña y queso gratinado acompañado de ensalada y arroz",
+     "price": 175,
+     "img": "f4039468-ec3d-42bc-9649-9ad50fb7a310.png"
+    },
+    {
+     "name": "Filete a la veracruzana",
+     "desc": "Filete preparado con epazote, chile guero, aceituna, jitomate cebolla, acompañado de ensalada y arroz",
+     "price": 176,
+     "img": "914de685-a7f8-4a06-82f6-6f42cd8529c1.png"
+    }
+   ]
+  },
+  {
+   "name": "Alambre",
+   "products": [
+    {
+     "name": "Alambre de camarón",
+     "desc": "Alambre - alambre de camarón con morrón,tocino,queso y piña.",
+     "price": 255,
+     "img": "bfe6c520-18e7-43eb-8b0c-017841d05297.png"
+    },
+    {
+     "name": "Alambre de mariscos",
+     "desc": "Alambre de mariscos con camarón, pulpo, abulón, surimi, morrón, tocino, queso y piña.",
+     "price": 229,
+     "img": "b8cd2d9a-6748-4025-8d01-a422a668763b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Mojarras",
+   "products": [
+    {
+     "name": "Mojarra al mojo de ajo",
+     "desc": "Mojarra con ajo ( 1 kilo aprox.) frita con láminas de ajo fritas . acompañada de ensalada y arroz",
+     "price": 309,
+     "img": "17ec7000-c66a-41c5-be76-556c4bd65b42.png"
+    },
+    {
+     "name": "Mojarra rellena de mariscos",
+     "desc": "Mojarra rellena de camarón,pulpo, abulon y surimi. envuelta en papel aluminio",
+     "price": 389,
+     "img": "e79c568c-ebce-4240-88d7-26b3edd0e997.png"
+    },
+    {
+     "name": "Mojarra a la diabla",
+     "desc": "Mojarra ( 1 kilo aprox. ) dorada y bañada en nuestra salsa picosa acompañada de ensalada y arroz",
+     "price": 309,
+     "img": "763c7c46-ca5a-4436-ae97-276d4cd5010d.png"
+    },
+    {
+     "name": "Mojarra a las brisas",
+     "desc": "Mojarra  ( 1 kilo aprox. )frita y bañada en una salsa especialidad de la casa un poco picante .",
+     "price": 309,
+     "img": "06180cea-d267-4b92-9565-f808a43d0e04.png"
+    },
+    {
+     "name": "Mojarra empapelada",
+     "desc": "Mojarra ( 1 kilo aprox. ) empapelada con una base de cebolla, jitomate,epazote y especies .",
+     "price": 260,
+     "img": "7211cf8c-be86-4e05-8274-57abcf380e92.png"
+    },
+    {
+     "name": "Mojarra al ajillo",
+     "desc": "Mojarra ( 1 kilo aprox. ) frita con  láminas de ajo y chile guajillo. .",
+     "price": 305,
+     "img": "c057261f-9e72-4361-b604-40e40f00f881.png"
+    },
+    {
+     "name": "Mojarra frita",
+     "desc": "Mojarra frita en aceite. ( 1 kilo aprox. ).",
+     "price": 305,
+     "img": "c8fee96b-9cf4-43ed-bbc3-81a004872f9c.png"
+    }
+   ]
+  },
+  {
+   "name": "Cócteles",
+   "products": [
+    {
+     "name": "Cóctel de abulon",
+     "desc": "Cóctel de abulón con salsa catsup, aguacate y limón. Tamaño a elegir.",
+     "price": 110,
+     "img": "2b9755a8-7635-410e-9c5e-3b612902511a.png"
+    },
+    {
+     "name": "Cóctel de surimi",
+     "desc": "Cóctel de surimi picado en salsa catsup, acompañado de aguacate y galletas saladas. Tamaño a elegir.",
+     "price": 110,
+     "img": "35d0bab5-adba-4a8e-aae4-ce97dc1ddfed.png"
+    },
+    {
+     "name": "Cóctel de Camarón",
+     "desc": "Coctel de camarón en salsa càtsup especial de la casa  y tamaño a elegir.",
+     "price": 110,
+     "img": "466364c8-f889-4fc3-8b14-4674db2f1134.png"
+    },
+    {
+     "name": "Cóctel de ostión",
+     "desc": "Coctel de ostión en salsa catsup y tamaño a elegir. .",
+     "price": 110,
+     "img": "89bf8bb3-dd6e-4831-9ed6-a9d55a7cc8bc.png"
+    },
+    {
+     "name": "Cóctel de pulpo",
+     "desc": "Cóctel de pulpo en salsa catsup, acompañado de aguacate y galletas saladas. Tamaño a elegir.",
+     "price": 110,
+     "img": "64187ef4-da64-431d-9467-813ccd25cb9f.png"
+    },
+    {
+     "name": "Cóctel vuelve a la vida",
+     "desc": "Cóctel con camarón, ostión, pulpo, abulón y surimi. Tamaño a elegir.",
+     "price": 110,
+     "img": "436ea0cc-573e-480f-b732-d0abe851aab7.png"
+    }
+   ]
+  },
+  {
+   "name": "Camarones",
+   "products": [
+    {
+     "name": "Camarones a la maggi",
+     "desc": "Camarones fritos en mantequilla y zasonados con jugo maggi. .220 grms. aprox.",
+     "price": 239,
+     "img": "db12648a-98c5-4254-95d6-f562a16ede12.png"
+    },
+    {
+     "name": "Camarones al mojo de ajo",
+     "desc": "Camarones fritos con láminas de ajo frito.220 grms. aprox.",
+     "price": 239,
+     "img": "a7731f83-3e6a-4986-bb52-239e06ec21ac.png"
+    },
+    {
+     "name": "Camarones a la diabla",
+     "desc": "Camarones con mezcla de chiles de árbol, guajillo y morita.220 grms.aprox.",
+     "price": 239,
+     "img": "8ccaae56-ef63-443e-be1f-7a62ad231ec6.png"
+    },
+    {
+     "name": "Camarones a las brisas",
+     "desc": "Camarones grandes bañados en una salsa picosita y aderezada especialidad de la casa .220 grms.aprox.",
+     "price": 239,
+     "img": "90564628-0a81-47d8-90fc-b3b790734517.png"
+    },
+    {
+     "name": "Camarones al ajillo",
+     "desc": "Camarones con láminas de ajo y chile guajillo. 220 grms.aprx.",
+     "price": 239,
+     "img": "59804519-3987-45d2-b0e7-b607c02bda93.png"
+    },
+    {
+     "name": "Camarones a la mantequilla",
+     "desc": "Camarones fritos con mantequilla.220 grms.aprox.",
+     "price": 239,
+     "img": "fbdcbea1-f2aa-408d-a433-5ded7e75c7f3.png"
+    },
+    {
+     "name": "Camarones a la momia",
+     "desc": "Camarones rellenos de queso filadelfia y envueltos en tocino .",
+     "price": 309,
+     "img": "da0c2521-d087-4171-8a41-2f7e1cead2db.png"
+    },
+    {
+     "name": "Camarones a la plancha",
+     "desc": "Camarones a la plancha con especias, acompañados de arroz, lechuga, papas fritas y rodajas de cebolla. Peso aproximado: 220 gramos.",
+     "price": 239,
+     "img": "fbdcbea1-f2aa-408d-a433-5ded7e75c7f3.png"
+    },
+    {
+     "name": "Camarones para pelar",
+     "desc": "Camarones cocidos con cáscara para pelar, acompañados de rodajas de naranja, tomate y almejas. 220 gramos aprox.",
+     "price": 239,
+     "img": "c5e98ed5-2db1-48b1-a355-5dbb02f1a4b1.png"
+    },
+    {
+     "name": "Camarones plato mixto",
+     "desc": "Camarones preparados en 4 direntes tipos ( fritos,al mojo de ajo, a la diabla y a las brisas .",
+     "price": 249,
+     "img": "1d449832-0078-43f4-a294-5073a20eceb3.png"
+    },
+    {
+     "name": "Camarones empanizados",
+     "desc": "Camarones empanizados con pan molido.220 grns.aprox.",
+     "price": 239,
+     "img": "9bbbc579-e32f-45f4-a435-8b77ba712607.png"
+    }
+   ]
+  },
+  {
+   "name": "Molcajetes",
+   "products": [
+    {
+     "name": "Molcajete de mariscos",
+     "desc": "Molcajete caliente: en salsa roja caliente, mezcla de mariscos de camaron, pulpo, abulon, surimi, preparado con pimiento morron, tocino, mantequilla, chile toreado, cebolla de cambray y 2 camarones con cascara grande (servido en 1 vaso de 1lt desechable)",
+     "price": 305,
+     "img": "b7347b51-1971-473a-ad6f-b1d87675153e.png"
+    },
+    {
+     "name": "Tipo aguachile de camaron",
+     "desc": "Tipo aguachile preparado con camaron, cebolla morada penino, aguacate, salsas negras, molido en molcajete chile chiltepin, ajo, chile verde, sal, pimienta. (servido en un vaso de 1ly desechable)",
+     "price": 325,
+     "img": "efd94a6f-8eb8-41a4-98bf-c0fa52e85881.png"
+    },
+    {
+     "name": "Molcajete de camaron caliente",
+     "desc": "Molcajete de camaron caliente, preparado con morro, tocino, chile toreado, cebolla de cambray, y aguacate, queso gratinado en salsa roja (servido en vaso de 1lt decechable)",
+     "price": 325,
+     "img": "e9a4e961-5f1a-4a01-b225-8991f67c25cf.png"
+    },
+    {
+     "name": "Molcajete mar y tierra",
+     "desc": "Molcajete con pollo, chorizo, camarón, pulpo, abulón, surimi, tocino, queso gratinado, chile toreado y cebolla de cambray en salsa roja caliente.",
+     "price": 469,
+     "img": "6a63bd4b-31ca-4fba-98e0-b5566a9df996.png"
+    },
+    {
+     "name": "Tipo aguachile de mariscos",
+     "desc": "Tipo aguachile preparado con camaron, pulpo, abulon, surimi, cebolla morada penino, aguacate, salsas negras, molido en molcajete chile chiltepin, ajo, chile verde, sal, pimienta. (servido en un vaso de 1ly desechable)",
+     "price": 305,
+     "img": "efd94a6f-8eb8-41a4-98bf-c0fa52e85881.png"
+    }
+   ]
+  },
+  {
+   "name": "Para Preparar",
+   "products": [
+    {
+     "name": "Plato huasteco",
+     "desc": "Sabroso plato tipo huasteco, preparado con bisteck, chile toreado, longaniza, cebolla de cambray, pollo, nopal, arroz, frijoles en sabrosa salsa roja",
+     "price": 219,
+     "img": "e547f263-af36-4efa-8c7c-d5749bdca0ad.png"
+    },
+    {
+     "name": "Enchiladas",
+     "desc": "Enchiladas con salsa a elegir, lechuga, queso, crema, aguacate, pollo deshebrado, acompañadas de arroz y frijoles.",
+     "price": 117,
+     "img": "57516708-a938-4f99-94b4-d9f81bea3c44.png"
+    },
+    {
+     "name": "Tacos Dorados",
+     "desc": "Para preparar - 5 piezas de tacos de papa y pollo dorados con lechuga ,queso ,crema y salsa .",
+     "price": 75,
+     "img": "93e2c087-a4cc-4123-bbc4-bacec920cda6.png"
+    },
+    {
+     "name": "Milanesa",
+     "desc": "Para preparar - milanesa con guarnición a escoger ( chilaquiles,enchiladas o ensalada ).",
+     "price": 149,
+     "img": "c7c1a0d3-f57f-4db8-aec6-ffb1b3a5954e.png"
+    },
+    {
+     "name": "Costilla de res",
+     "desc": "Para preparar - costilla de res azada con guarnición a escoger ( enchiladas, chilaquiles o ensalada ).",
+     "price": 179,
+     "img": "60a89dcf-927f-443e-929f-12699ac6c188.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Seven",
+     "desc": "Bebida Seven 400 ml.",
+     "price": 39,
+     "img": "772b2b9f-5490-48b5-8565-7ede35e6b656.png"
+    },
+    {
+     "name": "Agua del dia 1lt",
+     "desc": "Agua de fruta natural del dia 1lt",
+     "price": 69,
+     "img": "475bd350-fa94-4448-8968-47aec961d2f0.png"
+    },
+    {
+     "name": "Pepsi",
+     "desc": "Pepsi 400ml en botella PET.",
+     "price": 39,
+     "img": "dc568e97-768e-4f79-b842-c1320351e995.png"
+    },
+    {
+     "name": "Squirt",
+     "desc": "Squirt 400ml, refresco de toronja.",
+     "price": 39,
+     "img": "91b4db52-b06c-4f35-8f79-0b23af26dd2a.png"
+    },
+    {
+     "name": "Mirinda",
+     "desc": "Mirinda sabor naranja en botella de 400 ml.",
+     "price": 39,
+     "img": "53ccf392-d77e-494a-adcc-c34cdedf97cd.png"
+    }
+   ]
+  }
+ ]
+}
