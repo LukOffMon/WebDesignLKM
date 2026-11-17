@@ -1,0 +1,500 @@
+{
+ "id": 1923721534,
+ "brandName": "Restaurante Los 5 Reyes",
+ "name": "Restaurante Los 5 Reyes - Barrio Santa Ana",
+ "address": "CALLE PARAGUAY SANTA ANA . 24050 San Francisco de Campeche, Campeche, México",
+ "schedule": "00:00:00 - 00:30:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -90.5268712,
+  19.8354256
+ ],
+ "city": "Campeche",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/88989-1666892760948.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mxrestaurantelos5reyes-1669304674375.jpg",
+ "schedules": [
+  {
+   "open_time": "00:00:00",
+   "close_time": "00:30:00",
+   "day": "tue"
+  },
+  {
+   "open_time": "07:30:00",
+   "close_time": "23:59:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923721534-restaurante-los-5-reyes",
+ "menu": [
+  {
+   "name": "Rappi- Promo",
+   "products": [
+    {
+     "name": "Parrillada de Reyes",
+     "desc": "Alambre mixto con chuleta, pastor y res, gratinados con queso suizo, cebolla, pimiento y champiñones. Incluye tortillas de maíz y harina.",
+     "price": 496,
+     "img": "d4fa2230-8053-4453-a87e-928f120c111f.jpeg"
+    },
+    {
+     "name": "3 Mega Barras con Queso Chéster",
+     "desc": "3 Mega barras de pan francés 38 cm, con carne al pastor fundida en queso chéster, pringas de cebolla y cilantro.",
+     "price": 410,
+     "img": "95885958-17f6-44e7-9951-848846babef6.png"
+    },
+    {
+     "name": "3 Mega Barras",
+     "desc": "3 mega barras de pan francés de 38 cm c/u de carne al pastor , pringas de cebolla. Y cilantro .",
+     "price": 326,
+     "img": "95885958-17f6-44e7-9951-848846babef6.png"
+    },
+    {
+     "name": "2 Mega Barras + Nachos",
+     "desc": "2 mega barras pan francés 38cm de carne al pastor , media orden de nachos de carne al pastor con su porción de guacamole , rodajas de jalapeños .",
+     "price": 388,
+     "img": "2436c9af-444c-4a74-84ab-b592a754c641.png"
+    },
+    {
+     "name": "2 Mega Barras + Nachos Combinado",
+     "desc": "2 mega barras de pan francés 38 cm de chuleta ( receta secreta ) cebolla asada , media orden de nachos pastor porción de guacamole , rodajas jalapeños.",
+     "price": 411,
+     "img": "b6d25b2a-135f-413c-8966-83fd4c961c28.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco Suizo 5 Reyes Harina",
+     "desc": "Taco con tortilla de harina, carne al pastor, lascas de pimiento, cebolla, champiñón y queso chéster fundido.  .",
+     "price": 69,
+     "img": "6e615b08-1ff0-49a3-baa8-696a5956363f.jpeg"
+    },
+    {
+     "name": "Taco Suizo 5 Reyes Maíz",
+     "desc": "Taco de tortilla de maíz, con carne al pastor, lascas de pimiento, cebolla, champiñón y queso chéster fundido.",
+     "price": 57,
+     "img": "6e615b08-1ff0-49a3-baa8-696a5956363f.jpeg"
+    },
+    {
+     "name": "Taquitos",
+     "desc": "Hamburguesa con carne arrachera, salchicha asadera, cebolla, queso chester y jalapeños.",
+     "price": 31,
+     "img": "92667507-a9ef-49b2-a214-127a96f2390d.jpeg"
+    },
+    {
+     "name": "Tacos Res Suizo",
+     "desc": "Tacos maíz con carne de  res, queso chéster y lascas de cebolla asada.",
+     "price": 54,
+     "img": "6e615b08-1ff0-49a3-baa8-696a5956363f.jpeg"
+    },
+    {
+     "name": "Tacos Al Pastor Maíz",
+     "desc": "Tacos de tortilla de maíz, con lascas de carne al pastor, pringas de cebolla y cilantro.",
+     "price": 26,
+     "img": "c63d9e49-ef62-400a-b00e-aea382342d97.jpeg"
+    },
+    {
+     "name": "Tacos Al Pastor Harina",
+     "desc": "Tacos de tortilla de harina, con lascas de carne al pastor, pringas de cebolla y cilantro.",
+     "price": 39,
+     "img": "a7edb8ee-0f87-4b78-b2aa-01ff891a904e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Galón de Té Negro y Limón",
+     "desc": "Té negro y limón, galón 3.785 ml.",
+     "price": 163,
+     "img": "d20dc7c6-bb83-4098-868a-b8d43d83b410.jpeg"
+    },
+    {
+     "name": "Galón de Horchata de Coco",
+     "desc": "Horchata de coco de la casa, con un toque de canela, galón de 3.780 ml aproximadamente.",
+     "price": 201,
+     "img": "503701fd-bf61-4289-be2f-782c3dad54b8.jpeg"
+    },
+    {
+     "name": "Galón de Jamiaca",
+     "desc": "Hoja de Jamaica natural hervida, azúcar morena, sin conservadores en un galón de 3.850 ml .",
+     "price": 163,
+     "img": "503701fd-bf61-4289-be2f-782c3dad54b8.jpeg"
+    },
+    {
+     "name": "Jamaica Natural",
+     "desc": "Litro de hoja de jamaica hervida , azúcar regular .",
+     "price": 70,
+     "img": "118d25e2-8435-4d7f-9e02-fd6f5baabb9a.jpeg"
+    },
+    {
+     "name": "Horchata Coco",
+     "desc": "Litro de agua de horchata de coco , leche carnation y polvo de canela .",
+     "price": 70,
+     "img": "8a1a7cb9-9c3a-4066-92b9-a1c2ec58b485.jpeg"
+    },
+    {
+     "name": "Te Negro Limón",
+     "desc": "Litro de té negro hervido con gotas de limón natural y azúcar regular .100 % artesanal .",
+     "price": 70,
+     "img": "e7b9c670-e74c-4347-bb0b-730a547416a0.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Duo Gringas",
+     "desc": "2 gringas carne al pastor y/o chuleta , tortilla harina, queso chester fundido, salsa roja, salsa verde y limón .",
+     "price": 85,
+     "img": "d4f5d7d6-ea9a-466b-b113-f1a1bba28144.jpeg"
+    },
+    {
+     "name": "Ignacios Personales",
+     "desc": "Porción de totopos horneados , bañados en frijoles negros , lascas de pastor, queso chester fundido, rodajas de jalapeño, porción de guacamole .",
+     "price": 101,
+     "img": "42d1f503-82e0-467f-895c-c99b411478b6.jpeg"
+    },
+    {
+     "name": "Tacos Maíz",
+     "desc": "Orden 5 tacos maíz pastor y/o chuleta (a elección ) con pringas de cebolla con cilantro acompañado de salsa roja y verde .",
+     "price": 109,
+     "img": "be4211f3-3521-4929-bbee-9de7eea546f1.png"
+    },
+    {
+     "name": "Francés Pastor + Jamiaca Litro",
+     "desc": "2 francés de 18 cm pastor o chuleta ( a elección ) acompañado de un agua natural litro sabor jamaica .",
+     "price": 171,
+     "img": "3f230415-ef5e-418f-bb70-498a604f8b36.jpeg"
+    },
+    {
+     "name": "Francés + Te Hervido",
+     "desc": "Pan francés pastor y/o chuleta a elección gratinado en queso chester con lascas de cebolla + té 380ml  ( de la casa ).",
+     "price": 109,
+     "img": "535f4e6c-f346-4185-a511-0f1992d1b10d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Nachos",
+   "products": [
+    {
+     "name": "Nachos Speshial",
+     "desc": "Nachos con totopos horneados, frijol negro, carne al pastor suiza, salchicha asadera, chorizo, guarnición de guacamole y jalapeños.",
+     "price": 295,
+     "img": "3e1ef4fa-76df-41cf-b602-74a97a2b0b2e.jpeg"
+    },
+    {
+     "name": "Orden de Nachos Pastor",
+     "desc": "Nachos con totopos horneados, lascas de carne al pastor, frijol negro, queso gratinado chéster, porción de guacamole y jalapeños.Orden p/3a4 pers.",
+     "price": 233,
+     "img": "65f432ce-c1d1-48ae-88c4-e87c7e3e186b.jpeg"
+    },
+    {
+     "name": "Orden Nachos Mixtos",
+     "desc": "Totopos de maíz horneados en una cama de frijoles negros ,un mix de carne al pastor, chuleta y res /queso chester derretido, guacamole y jalapeños.",
+     "price": 310,
+     "img": "92765819-08ba-448d-8029-5f24c4586896.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Kilos",
+   "products": [
+    {
+     "name": "Pastor",
+     "desc": "Carne al pastor 1 kilo, acompañado de tortillas maíz, limones, cebolla, cilantro,  salsa roja y verde.",
+     "price": 465,
+     "img": "73cc5953-aa64-4ed0-a6fb-75cf4e40ad6d.jpeg"
+    },
+    {
+     "name": "Chuleta",
+     "desc": "1 kilo de carne de cerdo condimentada , acompañado de tortilla maíz , salsa roja , salsa verde, cebolla con cilantro , rodajas de limón verde .",
+     "price": 474.5,
+     "img": "7465107c-75f2-4604-8e97-1fe86fae606b.jpeg"
+    },
+    {
+     "name": "Res",
+     "desc": "1 kilo de carne de res , acompañado de salsa roja , salsa verde, cebolla con cilantro , rodajas de limón .",
+     "price": 585,
+     "img": "21851d69-da60-4af1-9005-576f4512d053.jpeg"
+    },
+    {
+     "name": "Mixtos",
+     "desc": "Carne pastor , chuleta ( receta secreta ) ,res acompañados de tortilla maíz , salsa roja salsa verde, limones y cebolla con cilantro .",
+     "price": 468,
+     "img": "791177b1-160a-4823-ad4c-ae060d2b9704.jpeg"
+    },
+    {
+     "name": "Alambre Pastor",
+     "desc": "Carne al pastor con lascas de cebolla , pimiento , champiñones , tortilla maíz , salsa roja , salsa verde , limones .",
+     "price": 468,
+     "img": "535e5308-4c5e-4719-a873-d9bc25644741.png"
+    }
+   ]
+  },
+  {
+   "name": "Burguers",
+   "products": [
+    {
+     "name": "Pastor Burguers",
+     "desc": "Hamburguesa con carne de arrachera, pastor suizo, lascas de cebolla, rodajas de pepinillos, salchicha asadera, tiras de tocineta y jalapeños.",
+     "price": 171,
+     "img": "7b10aec3-2c32-4b4e-821a-0d634a0eadda.jpeg"
+    },
+    {
+     "name": "Chule Burguers",
+     "desc": "Tortilla de harina rellena de carne de chuleta y queso chester fundido.",
+     "price": 186,
+     "img": "7dab721e-6d13-4ae2-8736-7b295b85e634.jpg"
+    },
+    {
+     "name": "Bistec Burguers 5 Reyes",
+     "desc": "Hamburguesa arrachera , porción de res gratinada en queso cheester , jalapeños , pepinillos , cebolla asada, pimientos y champiñones .",
+     "price": 233,
+     "img": "7dab721e-6d13-4ae2-8736-7b295b85e634.jpg"
+    },
+    {
+     "name": "Salchiburguers",
+     "desc": "Alambre mixto con carne al pastor, chuleta, res, pimientos, cebolla, tocineta, champiñones y queso gratinado. Incluye tortillas de maíz y harina.",
+     "price": 155,
+     "img": "36f47219-577f-41a8-8b32-ad8a5f79e383.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesos Fundidos",
+   "products": [
+    {
+     "name": "Queso Pastor",
+     "desc": "Queso chéster fundido con lascas de carne al pastor, mini costra de queso, rodajas de pan francés, tortilla de maíz y harina.",
+     "price": 171,
+     "img": "5aa5d6dc-2187-4a1a-8c7d-6507bbe6ff53.jpeg"
+    },
+    {
+     "name": "Queso Mixto",
+     "desc": "Costra de queso chéster crujiente.",
+     "price": 210,
+     "img": "c6b4a724-31de-4217-a496-8a88ef4a96ca.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Alambres",
+   "products": [
+    {
+     "name": "Alambre de Res Suizo",
+     "desc": "tiras de res, lascas de pimiento, champiñón, cebolla, queso chester fundido , acompañado con tortilla maíz y harina.",
+     "price": 233,
+     "img": "af3b043b-d3fa-4863-b508-4b19a0018df5.jpeg"
+    },
+    {
+     "name": "Alambre Mixto",
+     "desc": "Tortilla de harina rellena de carne al pastor y queso chester fundido.",
+     "price": 202,
+     "img": "ca04fe0c-71aa-4e73-a018-e54fb8b6e602.jpeg"
+    },
+    {
+     "name": "Alambre Pastor",
+     "desc": "Carne al pastor , lascas de cebolla , lascas de pimiento, champiñones .Acompañado de tortilla maíz, tortilla harina , salsa roja , salsa verde,limon.",
+     "price": 155,
+     "img": "535e5308-4c5e-4719-a873-d9bc25644741.png"
+    },
+    {
+     "name": "Alambre Mixto Suizo",
+     "desc": "Mega barra de pan francés con chuleta bañada en queso cheester y cebolla asada.",
+     "price": 233,
+     "img": "5997aeca-8ba4-477e-a187-f95e570f5a95.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Costra de Queso",
+     "desc": "Burrito con carne al pastor, gratinado con queso cheester, frijoles negros, lechuga romana y rodajas de tomate. Incluye crema y salsas.",
+     "price": 139,
+     "img": "4b459766-07fa-4bfc-b411-e5de4fce6f16.jpeg"
+    },
+    {
+     "name": "Guacamole",
+     "desc": "Porción de aguacate hass machado y curtido , acompañado con totopos maíz recién horneados .",
+     "price": 140,
+     "img": "2c408830-2892-4376-ba6f-c0ce932a8b2c.png"
+    },
+    {
+     "name": "Salchichas Asaderos",
+     "desc": "4 piezas de salchichas asadas acompañadas con tiras de cebolla asada.",
+     "price": 109,
+     "img": "34f8bb7c-6348-49f1-880d-d4076baf5209.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Mega Barras",
+   "products": [
+    {
+     "name": "Mega Barras 5 Reyes Suiza",
+     "desc": "Barra de pan francés de 35 cm, con carne al pastor, lascas de cebolla, pimiento, champiñón y queso chéster.",
+     "price": 186,
+     "img": "e21cde4d-7d9d-481d-8ffc-cc611740dc22.jpeg"
+    },
+    {
+     "name": "Mega Barra Pastor Suizo",
+     "desc": "Mega barra de pan francés de 38 cm con carne al pastor, cebolla, cilantro, piña y salsa verde.",
+     "price": 163,
+     "img": "ff2e6423-ca13-41b4-9add-c6473b911f80.jpeg"
+    },
+    {
+     "name": "Mega Barra Pastor",
+     "desc": "Burrito mixto con tortillina grande, frijoles negros, carne al pastor, res y chuleta, lechuga romana, tomates frescos y crema.",
+     "price": 132,
+     "img": "ff2e6423-ca13-41b4-9add-c6473b911f80.jpeg"
+    },
+    {
+     "name": "Mega Barra Chuleta Suiza",
+     "desc": "Tortilla de harina rellena de champiñones y queso chester fundido.",
+     "price": 178,
+     "img": "817c92f5-f70f-4fed-9180-e2991d8e994f.jpeg"
+    },
+    {
+     "name": "Mega Barra Chorizo Suizo",
+     "desc": "Mega barra pan francés 38 cm porción de chorizos españoles gratinados en queso cheester , cebolla asada , salsa roja , salsa verde, limones .",
+     "price": 178,
+     "img": "8ab8d7e8-6630-4261-81d3-8834a08db6c5.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Burritos",
+   "products": [
+    {
+     "name": "Burrito Res",
+     "desc": "Burrito con tortilla de harina, carne de res, frijoles negros, romana de guarnición rodajas de tomate, media crema y queso Oaxaca.",
+     "price": 163,
+     "img": "d19926f9-2edb-4685-8d30-8f1547075d9b.jpeg"
+    },
+    {
+     "name": "Burrito Pastor Suizo",
+     "desc": "Torta con pollo a la naranja, tocino, lechuga, salchicha, jamón, tomate, cebolla y aguacate.",
+     "price": 163,
+     "img": "c71444cc-14d2-4f21-9bc2-68e494258ec1.jpeg"
+    },
+    {
+     "name": "Burrito Mixto",
+     "desc": "Papa natural con carne al pastor, chuleta y res, queso chester gratinado, crema, salsa verde y roja.",
+     "price": 163,
+     "img": "ae11a440-b487-480b-ae72-3fd57921391e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Parrilladas",
+   "products": [
+    {
+     "name": "Parrillada Pastor/chuleta 5 Personas",
+     "desc": "Queso chéster fundido con carne al pastor, chuleta y res, acompañado de rodajas de pan francés y mini costra de queso en tortilla de maíz y harina.",
+     "price": 582,
+     "img": "5bee5002-75c4-46ba-9571-1cf5ddf38b1e.jpeg"
+    },
+    {
+     "name": "Parrillada Pastor/chuleta/res 5personas",
+     "desc": "Parrillada para 5 personas con 500g de carne al pastor, 500g de chuleta, cebollas asadas, chiles toreados, quesadillas, tortillas de maíz y harina, salsa roja y verde.",
+     "price": 651,
+     "img": "5bee5002-75c4-46ba-9571-1cf5ddf38b1e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Gringas",
+   "products": [
+    {
+     "name": "Gringa Pastor",
+     "desc": "Pan francés de 38 cm con carne al pastor gratinada en queso Cheddar, cebolla, cilantro y salsa verde.",
+     "price": 47,
+     "img": "a57c6361-f339-4a05-80c9-471a576f018f.jpeg"
+    },
+    {
+     "name": "Gringa Chuleta",
+     "desc": "Parrillada para 5 personas con 400g de carne al pastor, chuleta y res. Incluye cebolla asada, chiles toreados, quesadillas, tortillas de maíz y harina, y salsas.",
+     "price": 65,
+     "img": "5461c930-7272-4ce8-8d31-62c429926978.jpeg"
+    },
+    {
+     "name": "Gringa Champiñones",
+     "desc": "Hamburguesa arrachera con chuleta fundida, queso Cheddar, jalapeños, pepinillos y cebolla asada.",
+     "price": 62,
+     "img": "a8b9187a-cdf4-4088-9ede-68d4c96605ac.jpeg"
+    },
+    {
+     "name": "Gringa 5 Reyes Pastor",
+     "desc": "Tortilla harina carne al pastor con lascas de champiñón , pimiento verde, cebolla y queso fundido chester .",
+     "price": 65,
+     "img": "a57c6361-f339-4a05-80c9-471a576f018f.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Papas",
+   "products": [
+    {
+     "name": "Papa Pastor",
+     "desc": "Papa 100% natural con carne al pastor , queso  chester  gratinado , acompañado de crema , salsa roja y verde .",
+     "price": 178,
+     "img": "1158783a-c5bf-45f7-94e4-a18a26afe6f4.jpeg"
+    },
+    {
+     "name": "Papa Mixta",
+     "desc": "Parrillada con 250 g de carne al pastor, 250 g de chuleta, tortillas de maíz y harina, 2 quesadillas, media orden de nachos y guacamole. Incluye chorizo y chile asado.",
+     "price": 209,
+     "img": "36457ddd-4a3d-4ab3-8b1c-b2ed567ef18e.jpeg"
+    },
+    {
+     "name": "Papa 5 Reyes Pastor",
+     "desc": "Papá natural con carne al pastor , lascas de cebolla, pimiento , champiñón , gratinado en queso chester , acompañado de crema , salsa verde y roja .",
+     "price": 201,
+     "img": "e5b1c04c-57f3-4a88-9a56-e529635fa6d6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Francés",
+   "products": [
+    {
+     "name": "Francés Pastor Suizo",
+     "desc": "Pan francés de 18com con carne al pastor fundido en queso chester y pringas de cebolla , acompañado de salsa roja , verde y limón .",
+     "price": 90,
+     "img": "3f230415-ef5e-418f-bb70-498a604f8b36.jpeg"
+    },
+    {
+     "name": "Francés Pastor",
+     "desc": "Pan francés 18 cm con carne al pastor , pringas de cebolla , topping salsa roja , verde y limón .",
+     "price": 70,
+     "img": "3f230415-ef5e-418f-bb70-498a604f8b36.jpeg"
+    },
+    {
+     "name": "Francés Chorizo Suizo",
+     "desc": "Pan francés 18com con chorizo español , queso chester , cebolla asada , topping salsa roja y verde , limón .",
+     "price": 101,
+     "img": "3f230415-ef5e-418f-bb70-498a604f8b36.jpeg"
+    },
+    {
+     "name": "Francés 5 Reyes Pastor",
+     "desc": "Pan francés 18cm con carne al pastor , lascas de cebolla , pimiento y champiñones . Topping salsa roja , verde y limón .",
+     "price": 93,
+     "img": "3f230415-ef5e-418f-bb70-498a604f8b36.jpeg"
+    },
+    {
+     "name": "Francés Mixto Suizo",
+     "desc": "Pan francés 18 cm  con un mix de carne al pastor , chuleta y res , gratinado con queso chester . Topping salsa roja , verde y limón .",
+     "price": 109,
+     "img": "3f230415-ef5e-418f-bb70-498a604f8b36.jpeg"
+    }
+   ]
+  }
+ ]
+}

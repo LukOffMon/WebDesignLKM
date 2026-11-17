@@ -1,0 +1,265 @@
+{
+ "id": 1923285303,
+ "brandName": "Cocina Azul Oaxaca",
+ "name": "Cocina Azul Oaxaca - Oaxaca Centro",
+ "address": "calle de mariano abasolo 313 ruta independencia centro 68000 oaxaca de juarez oax mexico",
+ "schedule": "07:00:00 - 22:15:00",
+ "categories": "Panadería y Pastelería · Desayunos y Brunch",
+ "location": [
+  -96.7203928,
+  17.064153
+ ],
+ "city": "Oaxaca de Juárez",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/fordsvfgmato-logo-1610491444002.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/01ec86a9-7a8b-4d4f-82f8-984a01b0a569-1783708656602.jpeg",
+ "schedules": [
+  {
+   "open_time": "07:00:00",
+   "close_time": "22:15:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923285303-cocina-azul-oaxaca",
+ "menu": [
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Consomé de pollo",
+     "desc": "Consomé de pollo con arroz blanco, calabaza, zanahoria y pollo deshebrado. guarnición de limón, cebolla y chile verde picado.",
+     "price": 195,
+     "img": "979978663-1610725927138.png"
+    },
+    {
+     "name": "Ensalada azul",
+     "desc": "Mix de lechugas, arándanos, nuez caramelizada, supremas de naranja, manzana amarilla, roja, verde,  queso de cabra y aderezo de mostaza con miel.",
+     "price": 185,
+     "img": "979978676-1610725998565.png"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Omelette",
+     "desc": "Omelette relleno de quesillo bañado en mole coloradito.",
+     "price": 185,
+     "img": "2afefcc6-7c83-43f7-bc37-8164b293b718.png"
+    },
+    {
+     "name": "Hot cakes",
+     "desc": "Hot cakes esponjosos acompañados de mantequilla y miel maple.",
+     "price": 155,
+     "img": "c80514a4-a7e6-4718-bd45-476b89ff6665-1611078620626.png"
+    },
+    {
+     "name": "Huevos en Salsa Martajada",
+     "desc": "Huevos revueltos bañados en salsa martajada con chile de agua.",
+     "price": 175,
+     "img": "01b2d1ec-0466-417a-92d2-5ae23223b6f4-1611080812447.png"
+    },
+    {
+     "name": "Entomatadas",
+     "desc": "Entomatadas con cebolla, perejil, acompaña con pan bolillo, crema ácida y proteína.",
+     "price": 165,
+     "img": "697686ad-445b-48e5-af81-7f1ddeed46c4-1611078439096.png"
+    },
+    {
+     "name": "Enfrijoladas",
+     "desc": "Enfrijoladas con cebolla, perejil, acompaña con pan bolillo, crema ácida y proteína.",
+     "price": 165,
+     "img": "979978154-1610725983743.png"
+    },
+    {
+     "name": "Desayuno vegetariano",
+     "desc": "Pan integral, aguacate, verduras salteadas calabaza bola, zanahoria, aceite de ajonjolí, semillas y ensalada verde.",
+     "price": 195,
+     "img": "0c52860d-95c0-4fc4-b18d-f58409f775ba-1691085744213.png"
+    },
+    {
+     "name": "Enchiladas",
+     "desc": "Enchiladas con cebolla, perejil, acompaña con pan bolillo, crema ácida, proteína y preparación a elegir.",
+     "price": 165,
+     "img": "979978197-1610725962572.png"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles con cebolla, perejil, acompaña con pan bolillo, crema ácida, preparación y proteína a elección.",
+     "price": 180,
+     "img": "9bf01598-bd8a-4448-9476-e91630040647-1612115100661.jpeg"
+    },
+    {
+     "name": "Plato de frutas de temporadas",
+     "desc": "Plato de frutas de temporada con sandía, papaya, piña, granola y cereza. Incluye opción de ingrediente y tamaño a elegir.",
+     "price": 70,
+     "img": "d169b186-64a8-41f8-b0c7-1ec1e32ecd53.png"
+    }
+   ]
+  },
+  {
+   "name": "Platos Fuertes",
+   "products": [
+    {
+     "name": "Arroz Negro",
+     "desc": "Arroz negro con salmón y huitlacoche.",
+     "price": 290,
+     "img": "979978744-1610725517215.png"
+    },
+    {
+     "name": "Fettuccini verde",
+     "desc": "Fettuccini verde con salsa de hoja santa, elote y queso.",
+     "price": 190,
+     "img": "cabdc7f7-db0a-4e8f-9fc3-73a43081a855-1611079582681.png"
+    }
+   ]
+  },
+  {
+   "name": "Menú Para Niños",
+   "products": [
+    {
+     "name": "Nuggets",
+     "desc": "Nuggets de pollo con papas fritas.",
+     "price": 180,
+     "img": "979978756-1610726053818.png"
+    },
+    {
+     "name": "Fettuccini alfredo",
+     "desc": "Pasta, crema, mantequilla, tocino y queso parmesano.",
+     "price": 180,
+     "img": "cbf7c2da-24d9-4b2b-b7ae-809c100b2eb7-1687880123659.png"
+    },
+    {
+     "name": "Papas fritas",
+     "desc": "Papas fritas crujientes acompañadas de salsa de tomate.",
+     "price": 95,
+     "img": "3d009a15-7d1a-462b-9cad-2696ceb6b100-1611079714177.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Sin Alcohol",
+   "products": [
+    {
+     "name": "Café Americano",
+     "desc": "Café americano en taza pequeña.",
+     "price": 50,
+     "img": "030b8c7d-c03f-4a4f-b15f-775120a18f83-1687879758271.png"
+    },
+    {
+     "name": "Espresso",
+     "desc": "Espresso chico.",
+     "price": 50,
+     "img": "5ec46d04-0f4a-448c-af5c-b0f6d7186e96-1687879854552.png"
+    },
+    {
+     "name": "Doble Espresso",
+     "desc": "Doble espresso tamaño chico.",
+     "price": 60,
+     "img": "5b5f6d35-6038-4d56-a8b4-bd0887d4fea8-1687879890509.png"
+    },
+    {
+     "name": "Cappuccino",
+     "desc": "Cappuccino tamaño chico.",
+     "price": 65,
+     "img": "321325d3-98b3-4e41-9ce7-f74390f1d747-1687879931817.png"
+    },
+    {
+     "name": "Café Latte",
+     "desc": "Café latte tamaño chico.",
+     "price": 68,
+     "img": "d745f72b-18bd-4c77-9b3a-16490eed20e3-1687879964676.png"
+    },
+    {
+     "name": "Chocolate oaxaqueño",
+     "desc": "Chocolate oaxaqueño en base a elegir.",
+     "price": 75,
+     "img": "0344e945-eb72-4442-a519-c7a42227f5e4-1687879991577.png"
+    },
+    {
+     "name": "Té Helado",
+     "desc": "Té helado de poleo natural.",
+     "price": 55,
+     "img": "979978162-1610726336503.png"
+    },
+    {
+     "name": "Jugo de naranja",
+     "desc": "Jugo natural de naranja.",
+     "price": 70,
+     "img": "eb37b727-8791-48f7-b816-092aa229ae90-1687880023415.png"
+    },
+    {
+     "name": "Jugo verde",
+     "desc": "Jugo natural de apio, piña, naranja y perejil.",
+     "price": 70,
+     "img": "cdc081b5-fa12-4ff0-b3ab-b85aae4508a6-1687880042604.png"
+    },
+    {
+     "name": "Perrier Mineral 350 ml",
+     "desc": "Aguas",
+     "price": 68,
+     "img": "977827584-1591195477537.png"
+    },
+    {
+     "name": "Limonada",
+     "desc": "Limonada mineral.",
+     "price": 55,
+     "img": "979978262-1610726382029.png"
+    },
+    {
+     "name": "Naranjada",
+     "desc": "Naranjada mineral.",
+     "price": 65,
+     "img": "979978269-1610726511171.png"
+    },
+    {
+     "name": "Coca-cola original 355 ml",
+     "desc": "Refrescos",
+     "price": 55,
+     "img": "977894059-1624403823057.jpg"
+    },
+    {
+     "name": "Coca-cola light 355 ml",
+     "desc": "Refrescos",
+     "price": 55,
+     "img": "982350416-1627475668721.jpg"
+    },
+    {
+     "name": "Sprite 355 ml",
+     "desc": "Refrescos",
+     "price": 55,
+     "img": "977090232-1627331045609.jpg"
+    },
+    {
+     "name": "Fresca toronja 355 ml",
+     "desc": "Refrescos",
+     "price": 55,
+     "img": "977090563-1624404045950.jpg"
+    },
+    {
+     "name": "Sidral mundet 355 ml",
+     "desc": "Refrescos",
+     "price": 55,
+     "img": "977093155-1624457691243.jpg"
+    },
+    {
+     "name": "Agua fresca",
+     "desc": "Agua fresca sabor a elegir.",
+     "price": 50,
+     "img": "979978513-1610726522333.png"
+    }
+   ]
+  },
+  {
+   "name": "Cócteles con Alcohol",
+   "products": [
+    {
+     "name": "Carajillo",
+     "desc": "Cóctel con licor 43 y café expresso",
+     "price": 165,
+     "img": "4178ebe5-0147-4ca3-941b-ad590b9bf9ab.png"
+    }
+   ]
+  }
+ ]
+}

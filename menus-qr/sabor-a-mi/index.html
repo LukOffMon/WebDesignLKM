@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menú · Cenaduría Sabor a Mí</title>
+<meta name="description" content="Menú digital de Cenaduría Sabor a Mí (Mazatlán, Sin.): 35 platillos con precios, fotos y pedido por WhatsApp.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#fff6ea">
+<meta property="og:title" content="Menú · Cenaduría Sabor a Mí">
+<meta property="og:description" content="Cenaduría mazatleca: asado, tacos dorados y más">
+<meta property="og:url" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-a-mi/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23cc3d2b'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23ffffff' font-family='Georgia'%3EC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap&family=Space+Grotesk:wght@600;700">
+<link rel="stylesheet" href="../assets/menu.css">
+<style>:root{--bg:#fff6ea;--fg:#2a1a10;--acc:#cc3d2b;--card:#ffffff;--on-acc:#ffffff;--ft:'DM Serif Display';--fb:'Nunito Sans';color-scheme:light}</style>
+</head>
+<body>
+<style id="lkmr-intro-css">
+#lkmr-intro{position:fixed;inset:0;z-index:2147483000;display:grid;place-items:center;background:#08080a;color:#f3efe6;overflow:hidden;
+  font-family:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:opacity .55s ease,transform .7s cubic-bezier(.7,0,.2,1)}
+#lkmr-intro.out{opacity:0;transform:translateY(-6%);pointer-events:none}
+#lkmr-intro .glow{position:absolute;width:140vmax;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(214,180,122,.22),transparent 55%);animation:lk-pulse 3s ease-out both}
+#lkmr-intro .grid{position:absolute;inset:-20%;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:48px 48px;
+  mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);-webkit-mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);animation:lk-grid 3s linear both}
+#lkmr-intro .box{position:relative;text-align:center;padding:0 24px}
+#lkmr-intro .k{font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:#d6b47a;opacity:0;animation:lk-up .6s .15s ease-out forwards}
+#lkmr-intro .logo{font-weight:700;font-size:clamp(64px,17vw,148px);line-height:1;letter-spacing:-.03em;margin:14px 0 6px;display:flex;justify-content:center}
+#lkmr-intro .logo span{display:inline-block;opacity:0;transform:translateY(60%) rotate(8deg);filter:blur(8px);animation:lk-letter .7s cubic-bezier(.2,.9,.2,1) forwards;animation-delay:calc(.35s + var(--i)*.09s)}
+#lkmr-intro .logo span:last-child{color:#d6b47a}
+#lkmr-intro .bar{height:2px;width:min(320px,60vw);margin:10px auto 16px;background:linear-gradient(90deg,transparent,#d6b47a,transparent);transform:scaleX(0);animation:lk-bar .9s 1s cubic-bezier(.6,0,.2,1) forwards}
+#lkmr-intro .tag{font-size:clamp(13px,3.4vw,16px);color:#bdb7ab;opacity:0;animation:lk-up .6s 1.35s ease-out forwards}
+#lkmr-intro .sub{margin-top:22px;font-size:clamp(14px,3.8vw,18px);font-weight:600;opacity:0;animation:lk-up .6s 1.75s ease-out forwards}
+#lkmr-intro .sub b{color:#d6b47a;font-weight:700}
+#lkmr-intro .load{position:absolute;left:0;bottom:0;height:3px;width:100%;background:#d6b47a;transform-origin:left;transform:scaleX(0);animation:lk-load 3s linear forwards}
+#lkmr-intro .skip{position:absolute;right:16px;bottom:18px;font:600 12px/1 system-ui,sans-serif;letter-spacing:.08em;color:#8d887e;background:none;border:1px solid #2c2b2f;border-radius:999px;padding:8px 12px;cursor:pointer}
+@keyframes lk-letter{to{opacity:1;transform:none;filter:none}}
+@keyframes lk-up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes lk-bar{to{transform:scaleX(1)}}
+@keyframes lk-load{to{transform:scaleX(1)}}
+@keyframes lk-pulse{from{transform:scale(.4);opacity:0}40%{opacity:1}to{transform:scale(1.1);opacity:.7}}
+@keyframes lk-grid{from{transform:scale(1.15)}to{transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){#lkmr-intro *{animation-duration:.01s!important;animation-delay:0s!important}#lkmr-intro .load{animation:lk-load 3s linear forwards!important}}
+html.lkmr-lock,html.lkmr-lock body{overflow:hidden}
+</style>
+<div id="lkmr-intro" role="dialog" aria-label="LKM&#x27;r presenta" aria-live="polite">
+  <div class="glow"></div><div class="grid"></div>
+  <div class="box">
+    <div class="k">Desarrollado por</div>
+    <div class="logo" aria-label="LKM&#x27;r"><span style="--i:0">L</span><span style="--i:1">K</span><span style="--i:2">M</span><span style="--i:3">&#x27;</span><span style="--i:4">r</span></div>
+    <div class="bar"></div>
+    <div class="tag">Sitios web, menús digitales y automatización para negocios</div>
+    <div class="sub">presenta el menú digital de <b>Cenaduría Sabor a Mí</b></div>
+  </div>
+  <div class="load"></div>
+  <button class="skip" type="button">Saltar ›</button>
+</div>
+<script>
+(function(){var el=document.getElementById('lkmr-intro');if(!el)return;var d=document.documentElement;d.classList.add('lkmr-lock');
+var done=false;function end(){if(done)return;done=true;el.classList.add('out');d.classList.remove('lkmr-lock');setTimeout(function(){el.remove();},700);}
+setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener('keydown',function(ev){if(ev.key==='Escape')end();});})();
+</script>
+
+<div class="demo"><b>Muestra</b> preparada por LKM'r para Cenaduría Sabor a Mí · precios de referencia tomados de Rappi (17 nov. 2026), se ajustan a los de salón.</div>
+<header class="hero"><div class="wrap">
+  <p class="kicker">Menú digital · Francisco Villa</p>
+  <h1>Cenaduría Sabor a Mí</h1>
+  <p class="lema">Cenaduría mazatleca: asado, tacos dorados y más</p>
+  <div class="meta">
+    <span class="pill" id="status"></span>
+    <a class="pill" href="https://www.google.com/maps/search/?api=1&query=Cenaduría+Sabor+a+Mí+Av.+Bicentenario+Juárez+77,+Francisco+Villa,+Mazatlán,+Sin." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Mazatlán, Sin.</a>
+    <a class="pill" href="tel:+526691768909"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>669 176 8909</a>
+    <button class="pill" id="share" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>Compartir</button>
+  </div>
+</div></header>
+<div class="bar"><div class="wrap">
+  <div class="search"><label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Buscar en 35 platillos…" autocomplete="off" aria-label="Buscar platillo"></label></div>
+  <nav class="chips" id="chips" aria-label="Categorías"></nav>
+</div></div>
+<main class="wrap"><div id="list"></div><p class="empty" id="empty">No encontramos ese platillo. Prueba con otra palabra.</p></main>
+<section class="lkmr" aria-labelledby="lkmr-t"><div class="wrap"><div class="lkmr-card">
+  <p class="lkmr-k">Desarrollado por</p>
+  <h2 id="lkmr-t">LKM&#x27;r Company</h2>
+  <p class="lkmr-p">Este menú digital lo diseñó y desarrolló LKM&#x27;r. Sitios web, menús digitales y automatización para negocios. ¿Tienes un negocio? Hacemos el tuyo.</p>
+  <ul class="lkmr-s"><li>Menús digitales con QR</li><li>Sitios web y landing pages</li><li>Redes sociales y contenido</li><li>Chatbots de WhatsApp</li><li>Google Maps para negocios</li></ul>
+  <div class="lkmr-a">
+    <a class="lkmr-b lkmr-main" href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Cotiza el tuyo →</a>
+    <a class="lkmr-b" href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Conoce LKM&#x27;r</a>
+    <a class="lkmr-b" href="https://lukoffmon.github.io/WebDesignLKM/" target="_blank" rel="noopener">Ver más proyectos</a>
+  </div>
+  <p class="lkmr-c">Jesús María, Aguascalientes</p>
+</div></div></section>
+<footer><div class="wrap">
+  <span>Cenaduría Sabor a Mí · Av. Bicentenario Juárez 77, Francisco Villa, Mazatlán, Sin.</span>
+  <span>Los precios mostrados son de referencia y pueden cambiar. Confírmalos con tu mesero.</span>
+  <span>Menú digital diseñado y desarrollado por <a href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">LKM&#x27;r Company</a> · <a href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Cotiza el tuyo</a></span>
+</div></footer>
+<button class="cartbar" id="cartbar" type="button"><span><span class="count" id="barcount">0</span>Ver mi pedido</span><span id="bartotal">$0</span></button>
+<dialog id="cart" aria-labelledby="carttitle"><div class="sheet">
+  <header><h2 id="carttitle">Tu pedido</h2><button class="x" id="close" type="button" aria-label="Cerrar">×</button></header>
+  <div class="lines" id="lines"></div>
+  <div class="total"><span>Total aprox.</span><span id="total">$0</span></div>
+  <div class="two"><label class="field">Nombre<input id="who" autocomplete="name"></label><label class="field">Mesa o para llevar<input id="mesa" placeholder="Ej. mesa 4"></label></div>
+  <label class="field">Notas<textarea id="notas" rows="2" placeholder="Sin cebolla, salsa aparte…"></textarea></label>
+  <a class="send" id="send" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.1 8.1 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c.7.3 1.3.5 1.7.6a4.2 4.2 0 0 0 1.9.1 3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.8L.2 23.8l6.1-1.6A11.8 11.8 0 0 0 12 23.6 11.8 11.8 0 0 0 20.4 3.6z"/></svg>Enviar pedido por WhatsApp</a>
+  <p class="note">Se abre WhatsApp con tu pedido listo; el restaurante confirma total y tiempo.</p>
+</div></dialog>
+<div class="toast" id="toast" role="status"></div>
+<script>window.MENU={"nombre":"Cenaduría Sabor a Mí","whatsapp":"6691768909","horario":"12:00:00 - 21:45:00","cats":[{"name":"Entradas","items":[{"name":"Queso Fundido con Chorizo","desc":"Queso derretido cubierto con chorizo de cerdo desmenuzado, servido caliente con tortillas o chips de maíz.","price":150,"img":"img/c70b666e632c.webp"},{"name":"Papas A la Francesa","desc":"Clásicas papas de corte recto fritas hasta obtener una textura crujiente y servidas con sal.","price":96,"img":"img/a630a4628e99.webp"}]},{"name":"Especialidades","items":[{"name":"Pozole Surtido","price":107,"img":"img/3edaa1075cb3.webp"},{"name":"Pozole de Maciza","price":112,"img":"img/931d5cf52cd0.webp"},{"name":"Lengua","desc":"Caldo de pozole a base de chile colorado, granos de maíz, lengua acompañado con lechuga, repollo, cebolla y limón.","price":117,"img":"img/f7c66ea9f133.webp"}]},{"name":"Tradicionales","items":[{"name":"Alitas Bbq, Bufalo","desc":"Alitas de pollo fritas bañadas en salsa BBQ y salsa tipo Buffalo picante, servidas con aderezo Ranch.","price":168,"img":"img/dc3d7441f68d.webp"},{"name":"Brochetas de Camaron","desc":"Brochetas de camarones ensartados con pimientos y trozos de limón, cocinadas a la parrilla.","price":192,"img":"img/16a155aec802.webp"},{"name":"Brochetas de Puerco","desc":"Brochetas de lomo de cerdo, tocino, pimientos y cebolla blanca ensartados y asados.","price":180,"img":"img/f2af06faed4f.webp"},{"name":"Carne Asada","desc":"Arrachera de res marinada y asada a la parrilla, preparada al estilo tradicional mexicano.","price":180,"img":"img/67a4ffc8f942.webp"}]},{"name":"Tacos Dorados","items":[{"name":"Camaron","price":54,"img":"img/b67077268d8d.webp"}]},{"name":"Favoritos","items":[{"name":"Asado","desc":"Asado de res cocinado a fuego lento con papas y zanahorias.","price":204,"img":"img/9d1ac014c4db.webp"}]},{"name":"Los Favoritos","items":[{"name":"Tacos Dorados","desc":"3 Pz de tortillas de maíz fritas con proteína a elegir, lechuga, zanahoria, cebolla curtida, queso rallado y crema de la casa.","price":107,"img":"img/914d47a95b71.webp"},{"name":"Gorditas","desc":"3 Pz de gorditas de maíz fritas con proteína a elegir, lechuga, zanahoria, cebolla curtida, queso rallado y crema de la casa.","price":112,"img":"img/2e31a616626d.webp"},{"name":"Tostadas","desc":"3 Pz de tortillas de maíz tostadas con proteína a elegir, lechuga, zanahoria, cebolla curtida, queso rallado y crema.","price":115,"img":"img/90a131f7f6a6.webp"},{"name":"Enchiladas Suizas","price":110,"img":"img/8839de748786.webp"},{"name":"Enchiladas Verdes","price":110,"img":"img/e6addf7dfe20.webp"},{"name":"Empanadas de Marlín","desc":"3 Pz de tortilla de maíz dobladas como empanadas, fritas, rellenas de marlín guisado a la mexicana acompañadas de ensalada verde de la casa y arroz rojo.","price":130,"img":"img/4b5c1e1f3f95.webp"},{"name":"Empanadas de Camarón","desc":"3 Pz de tortilla de maíz dobladas como empanadas, fritas, rellenas de camarón guisado a la mexicana acompañadas de ensalada verde de la casa y arroz rojo.","price":140,"img":"img/786fdb137623.webp"},{"name":"Enchiladas Rojas","desc":"3 Pz de tortillas de maíz fritas bañadas en salsa roja de la casa con proteína a elegir, lechuga, zanahoria, cebolla curtida, queso rallado y crema de la casa.","price":107,"img":"img/55ab612f4824.webp"}]},{"name":"Otras Delicias","items":[{"name":"Milanesa de Res","price":135,"img":"img/2892be15ad4f.webp"},{"name":"Milanesa de Pollo","price":135,"img":"img/d19e53465535.webp"},{"name":"Pollo a la Plancha","price":140,"img":"img/400106ff6e94.webp"},{"name":"Nuggets de Pollo","desc":"350 Gr de nuggets de pollo empanizados, acompañados de papas a la francesa.","price":135,"img":"img/342e4038799b.webp"},{"name":"Hamburguesa de Res","price":115,"img":"img/c0d7fdf2af37.webp"},{"name":"Hamburguesa de Camarón","price":135,"img":"img/baaa851ad19e.webp"},{"name":"Consomé de Pollo","desc":"250 Gr de pollo en caldo preparado de la casa, acompañado de cilantro y cebolla.","price":102,"img":"img/f8a36669b1b9.webp"},{"name":"Gordita de Asado","desc":"Gordita de maíz frita con cubos de carne, cubos de papa, lechuga, zanahoria, cebolla curtida, queso rallado, crema y acompañada de consomé de la casa.","price":61,"img":"img/4522e257ce14.webp"},{"name":"Tostada de Asado","desc":"Tostada de maíz frita con cubos de carne, cubos de papa, lechuga, zanahoria, cebolla curtida, queso rallado, crema y acompañada de consomé de la casa.","price":68,"img":"img/36f177725e4b.webp"},{"name":"Taco de Camarón","desc":"Taco de tortilla de maíz con camarón guisado a la mexicana. Incluye guarnición de ensalada, chile y limón.","price":55,"img":"img/7f36e92d3978.webp"},{"name":"Enchilada de Camarón","desc":"1 Pz de tortilla de maíz bañada con salsa roja de la casa y rellena con camarón guisado ala mexicana.","price":55,"img":"img/2897bbd3302e.webp"},{"name":"Gordita de Camarón","desc":"1 Pz de gordita de maíz frita con camarón guisado a la mexicana, lechuga, zanahoria, cebolla curtida, queso rallado, crema de la casa y acompañada de consomé de la casa.","price":81,"img":"img/4522e257ce14.webp"},{"name":"Tostada de Camarón","desc":"1 Pz de tostada de maíz frita con camarón guisado a la mexicana, lechuga, zanahoria, cebolla curtida, queso rallado, crema de la casa y acompañada de consomé de la casa.","price":81,"img":"img/8ff64befc14e.webp"}]},{"name":"Asados","items":[{"name":"Asado de Camarón","desc":"Camarón cocido en trozos, cubos de papa acompañado con consomé de la casa, lechuga, zanahoria, cebolla curtida y pepino.","price":183,"img":"img/9868bf8355f9.webp"},{"name":"Pollo a la Plaza","desc":"4 Pz de pollo fritas, acompañadas de lechuga, zanahoria, cebolla curtida, queso rallado, crema y consomé de la casa.","price":162,"img":"img/2ddeb7bf20a9.webp"},{"name":"Asado a la Plaza","desc":"Cubitos proteína a elegir, cubos de papa acompañado con consomé de la casa, lechuga, zanahoria, cebolla curtida y pepino.","price":162,"img":"img/24b6d6eed882.webp"}]}]};</script>
+<script src="../assets/menu.js" defer></script>
+</body>
+</html>

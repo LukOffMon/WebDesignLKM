@@ -1,0 +1,527 @@
+{
+ "id": 1930180832,
+ "brandName": "Josefina Cocina Del Valle",
+ "name": "Josefina Cocina Del Valle - El Molino",
+ "address": "Av. de la Cultura 92, Cd del Valle, 63199 Tepic, Nay., Mexico",
+ "schedule": "07:30:00 - 12:30:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -104.8832489,
+  21.4851381
+ ],
+ "city": "Tepic",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/b056c94d-5c8f-4fa2-b9a2-ac26ec837adb-1713644448330.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/hamburguefkjdsa-1713821005258.jpg",
+ "schedules": [
+  {
+   "open_time": "07:30:00",
+   "close_time": "12:30:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930180832-josefina-cocina-del-valle",
+ "menu": [
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Avena",
+     "desc": "Avena natural sumergida en agua una noche antes con leche de soya, yogurt griego, plátano, fresas, mermelada, granola y chía.",
+     "price": 138,
+     "img": "70c3638b-2172-44a6-934e-11abdb449996.jpeg"
+    },
+    {
+     "name": "Plato de Fruta",
+     "desc": "Sandía, melón, plátano y papaya, acompañado de yogurt griego y granola.",
+     "price": 114,
+     "img": "1c6b113f-070c-44f7-8174-3795b9f90ec6.jpeg"
+    },
+    {
+     "name": "Yogurt con Granola",
+     "desc": "Vaso de yogurt griego con granola topping de fruta de temporada.",
+     "price": 114,
+     "img": "2b4704a4-341e-4949-a3d9-954b638e0d54.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Waffles",
+   "products": [
+    {
+     "name": "Waffles",
+     "desc": "Waffles de harina acompañados de fresas, plátano y miel de maple",
+     "price": 162,
+     "img": "5bbccc5a-ebdf-4ee4-8de6-c2102bcace90.jpeg"
+    },
+    {
+     "name": "Waffles de Chocolate",
+     "desc": "Waffles de harina con cacao, crema de cacahuate, plátano y chocolate líquido",
+     "price": 198,
+     "img": "43a089b4-b56d-4ff1-810c-7b5bbc6002e3.jpeg"
+    },
+    {
+     "name": "Waffles de Avena",
+     "desc": "Waffles de avena, acompañados de fresas, plátano y miel de maple",
+     "price": 188,
+     "img": "523ebc6b211946f084a6aeab60858bb4.png"
+    }
+   ]
+  },
+  {
+   "name": "Molletes",
+   "products": [
+    {
+     "name": "Molletes de Chorizo",
+     "desc": "Bolillo cortado por la mitad con frijoles refritos, chorizo, queso gratinado y aguacate, pico de gallo.",
+     "price": 162,
+     "img": "48bb54d5-10b7-4cab-8f10-5f5f2629d9f4.jpeg"
+    },
+    {
+     "name": "Molletes con Arrachera",
+     "desc": "Bolillo partido a la mitad con frijoles refritos, arrachera marinada (120 gr.) y queso gratinado, acompañado de pico de gallo",
+     "price": 210,
+     "img": "9454e4ffaa9c4c9584286541bb78fcaf.png"
+    },
+    {
+     "name": "Molletes con Camarón",
+     "desc": "Bolillo partido a la mitad con frijoles refritos, camarón guisado (120 gr.) y queso gratinado, acompañado de pico de gallo",
+     "price": 195,
+     "img": "b58ac4879c584117ac63db7a7a5ef271.png"
+    },
+    {
+     "name": "Molletes con Chicharrón Prensado",
+     "desc": "Bolillo partido a la mitad con frijoles refritos, chicharrón prensado (160 gr.) y queso gratinado, acompañado de pico de gallo",
+     "price": 185,
+     "img": "619d107e61e24735a32d34dfc020c0ac.png"
+    },
+    {
+     "name": "Molletes Clásicos",
+     "desc": "Bolillo partido a la mitad con frijoles refritos y queso gratinado, acompañado de pico de gallo",
+     "price": 90,
+     "img": "4d4224c4357541f989582154927560e5.png"
+    },
+    {
+     "name": "Molletes Dulces",
+     "desc": "Bolillo partido a la mitad , con mantequilla derretida y azucar",
+     "price": 75,
+     "img": "e4f07aeb56954e7399128ea43afe5055.png"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles con Huevo",
+     "desc": "Totopos de maíz hechos en casa, acompañado de 2 huevos estrellados, con cama de frijoles refritos bañados en salsa de su elección con queso fresco, crema, cilantro y cebolla.",
+     "price": 158,
+     "img": "3508dd36-4350-432a-82e2-a2f33c886bb2.jpeg"
+    },
+    {
+     "name": "Chilaquiles con Camarón",
+     "desc": "Totopos de maíz hechos en casa, camarones guisados con chile morrón, con cama de frijoles refritos bañados en salsa de su elección con queso fresco, crema, cilantro y cebolla.",
+     "price": 210,
+     "img": "9dd57418-44b4-4a27-a7af-ced681f91eba.jpeg"
+    },
+    {
+     "name": "Chilaquiles con Arrachera",
+     "desc": "Totopos de maíz hechos en casa, arrachera marinada (120 gr), con cama de frijoles refritos bañados en salsa de su elección con queso fresco, crema, cilantro y cebolla.",
+     "price": 210,
+     "img": "966a6e2f-b1db-4107-82fb-1991531cc881.jpeg"
+    },
+    {
+     "name": "Chilaquiles Naturales",
+     "desc": "Totopos de maíz hechos en casa, con cama de frijoles refritos bañados en deliciosa salsa de su elección con queso fresco, crema, cilantro y cebolla, salsa a elegir.",
+     "price": 132,
+     "img": "9dd57418-44b4-4a27-a7af-ced681f91eba.jpeg"
+    },
+    {
+     "name": "Chilaquiles con Pollo",
+     "desc": "Totopos de maíz hechos en casa, pechuga de pollo desmenuzado (80 gr.), con cama de frijoles refritos bañados en salsa con queso fresco, crema, cilantro y cebolla.",
+     "price": 162,
+     "img": "a4d08f07-3ee1-4126-b7c8-13645d1a2d93.png"
+    },
+    {
+     "name": "Chilaquiles con Chicharrón",
+     "desc": "Totopos de maíz hechos en casa, chicharrón prensado (160 gr.), con cama de frijoles refritos bañados en salsa con queso fresco, crema, cilantro y cebolla.",
+     "price": 188,
+     "img": "11fd25dacba7486782c0377bc6f6e1ba.png"
+    }
+   ]
+  },
+  {
+   "name": "Huevos",
+   "products": [
+    {
+     "name": "Huevos Rancheros",
+     "desc": "2 Huevos estrellados, montados sobre tortilla frita, jamón frito, bañados con salsa ranchera, queso y frijoles refritos.",
+     "price": 148,
+     "img": "3b4a2825-0485-4ec4-aa10-d6a97beb3ab5.png"
+    },
+    {
+     "name": "Claras Saludables",
+     "desc": "Claras de huevo a la mexicana, pimientos, calabaza, papas cambray y ensalada mixta.",
+     "price": 148,
+     "img": "00a53f54-3a5e-4777-98e6-1f46af47b95e.jpeg"
+    },
+    {
+     "name": "Machaca Norteña con huevo",
+     "desc": "3 Huevos revueltos con machaca norteña acompañada de frijoles refritos, papas cambray y chile toreado.",
+     "price": 168,
+     "img": "2f23e5db-425b-4a62-96dd-d93f58ac1b22.png"
+    },
+    {
+     "name": "Huevos a la Mexicana",
+     "desc": "3 Huevos revueltos con jitomate, cebolla y chile serrano, acompañados de frijoles refritos con papas cambray.",
+     "price": 124,
+     "img": "08776281-ff9f-4dde-a286-933745894fd0.jpeg"
+    },
+    {
+     "name": "Huevos cazuela",
+     "desc": "2 Huevos estrellados ahogados en salsa de la casa, chorizo, acompañado de bolillo",
+     "price": 164,
+     "img": "ef269b82-16ba-40bb-ade3-c8aa591d3f9c.jpeg"
+    },
+    {
+     "name": "Huevos divorciados",
+     "desc": "2 Huevos estrellados sobre tortillas de maíz y cama de frijoles refritos, bañados en salsa verde y roja.",
+     "price": 128,
+     "img": "f020c64b-a011-486e-954c-c12d35c6082c.jpeg"
+    },
+    {
+     "name": "Rajas con huevo",
+     "desc": "3 huevos revueltos con queso y rajas de chile poblano, acompañado de frijoles refritos",
+     "price": 168,
+     "img": "2d0a042d26a649ce9b65226b1150244c.png"
+    },
+    {
+     "name": "Huevos Josefina",
+     "desc": "2 Huevos divorciados montados sobre jamón y tortilla, acompañados de chilaquiles divorciados, queso, crema, cebolla y cilantro",
+     "price": 186,
+     "img": "109294b6-7aa7-47ba-b7df-d87f3cc49278.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Omelettes",
+   "products": [
+    {
+     "name": "Omelette Josefina",
+     "desc": "De claras de huevo relleno de espinaca baby, champiñones y queso panela, acompañado de ensalada mixta.",
+     "price": 188,
+     "img": "6f63c08c-2a37-4e82-8440-b3de832b4851.png"
+    },
+    {
+     "name": "Omelette Jardín",
+     "desc": "Omelette relleno de jamón y queso, decorado con hierbas frescas. Acompañado de papas cambray.",
+     "price": 165,
+     "img": "ca0b046b-2563-4eea-a96b-0cdf68a5a0cb.jpeg"
+    },
+    {
+     "name": "Omelette Cultura",
+     "desc": "Relleno con chilaquiles en salsa verde y roja, frijoles refritos y papas cambray.",
+     "price": 174,
+     "img": "4aa679e9-7656-4645-b264-71e5e70d6b0e.jpeg"
+    },
+    {
+     "name": "Omelette con Chicharrón",
+     "desc": "Relleno de delicioso chicharrón prensado en salsa roja (160 gr.) acompañado de frijoles refritos y un minimollete",
+     "price": 184,
+     "img": "5d880c0b0a9e4f3e8393921186cda1d3.png"
+    },
+    {
+     "name": "Omelette con Camarón",
+     "desc": "Relleno de camarones guisados, queso y chilaquiles",
+     "price": 198,
+     "img": "227a75c7b5bc4627bdcde99e113d271d.png"
+    }
+   ]
+  },
+  {
+   "name": "Bagels",
+   "products": [
+    {
+     "name": "Bagel Huevo y Tocino",
+     "desc": "Picosito Aderezo spicy, 2 huevos estrellados, aguacate, queso manchego, queso americano y tocino con papas cambray.",
+     "price": 174,
+     "img": "14b387c0-f11c-4897-a0df-c98d46cbae88.jpeg"
+    },
+    {
+     "name": "Bagel de Pollo",
+     "desc": "Pechuga de pollo, queso manchego, espinaca baby, col morada, jalapeños, aceitunas negras y aderezo chipotle con papas cambray.",
+     "price": 174,
+     "img": "b0357c7b-5b04-4c1e-85db-bef95f642cb2.jpg"
+    },
+    {
+     "name": "Bagel Panela",
+     "desc": "Claras de huevo, queso panela, guacamole, espinaca baby, zanahoria y col morada rallada con ensalada mixta.",
+     "price": 164,
+     "img": "33225e3c-60f0-4c9b-86ca-0d36e32e67b9.jpeg"
+    },
+    {
+     "name": "Bagel Ligero",
+     "desc": "Claras de huevo, espinaca baby, queso de cabra y guacamole con ensalda mixta.",
+     "price": 162,
+     "img": "649cae7e-08d9-4ae1-9458-bf33276bdc7e.png"
+    }
+   ]
+  },
+  {
+   "name": "Especiales",
+   "products": [
+    {
+     "name": "Enchiladas Verdes",
+     "desc": "4 Pzas tortillas de maíz rellenas de pollo desmenuzado, bañadas en salsa verde, crema, queso, cebolla, cilantro y aguacate.",
+     "price": 174,
+     "img": "afe6746c-420f-45c4-bab9-fc9b9e90efe7.png"
+    },
+    {
+     "name": "Desayuno Inglés",
+     "desc": "Waffle de harina con 2 huevos estrellados, tocino y salchichas inglesas.",
+     "price": 215,
+     "img": "f8c60f15-3662-4345-9b8a-fc9b3cce2b37.jpeg"
+    },
+    {
+     "name": "Torta de Chilaquiles",
+     "desc": "Típica torta de chilaquiles con salsa verde, crema y queso fresco, proteína a elegir.",
+     "price": 174,
+     "img": "dbddeaf9-2797-4a07-9a38-476fa63975f1.jpeg"
+    },
+    {
+     "name": "Enchiladas Rojas",
+     "desc": "4 Pzas tortillas de maíz rellenas de pollo desmenuzado, bañadas en salsa roja, crema, queso, cebolla, cilantro y aguacate.",
+     "price": 174,
+     "img": "57521a15-2791-4fef-bd61-f3ebed9acb6c.png"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "4 Pzas tortillas de maíz rellenas de pollo, bañadas en mole de la casa, crema, queso, cebolla, cilantro y aguacate.",
+     "price": 184,
+     "img": "baeaa21c-c1d4-4ef6-995a-535460791653.png"
+    },
+    {
+     "name": "Enchiladas Suizas",
+     "desc": "4 pzs de tortilla de maíz rellenas de pechuga de pollo desmenuzado (80 gr) bañadas en salsa suiza, crema, queso, cebolla, cilantro y aguacate",
+     "price": 184,
+     "img": "f34ac74566514c029483161724e87ad4.png"
+    },
+    {
+     "name": "Chicharrón prensado",
+     "desc": "Delicioso chicharrón prensado en salsa roja (160 gr) acompañado de frijoles refritos y un minimollete",
+     "price": 174,
+     "img": "aa4e9e8f051f472da056763002ea6573.png"
+    },
+    {
+     "name": "Carne con Chile",
+     "desc": "La tradicional carne de res en salsa roja (160 gr) acompañada de frijoles refritos y chilaquiles verdes o rojos, crema, queso fresco, cebolla y cilantro",
+     "price": 164,
+     "img": "9d2873d41e0b426d8e0c9e01c15ba639.png"
+    }
+   ]
+  },
+  {
+   "name": "Cafetería",
+   "products": [
+    {
+     "name": "Café Josefina",
+     "desc": "Café Josefina: café americano de granos recién molidos, caliente.",
+     "price": 58,
+     "img": "c0cce265349d4a81a8597b5c20f623fa.png"
+    },
+    {
+     "name": "Café Americano",
+     "desc": "Café Americano. Café negro.",
+     "price": 48,
+     "img": "eb6aef2019e149d48c90510bc9c9ea2c.png"
+    },
+    {
+     "name": "Café Descafeinado Fino",
+     "desc": "Café Descafeinado Fino, elaborado con molienda. Servido caliente y negro.",
+     "price": 48,
+     "img": "37637343fb2541cebe38535bfeaf00ea.png"
+    },
+    {
+     "name": "Café de Olla",
+     "desc": "Café de Olla endulzado con piloncillo y una rama de canela.",
+     "price": 58,
+     "img": "a67a97c57c5d449bb1de2e267deaf1e0.png"
+    },
+    {
+     "name": "Capuchino",
+     "desc": "Capuchino con espuma de leche.",
+     "price": 65,
+     "img": "dcaf8ced9c6d443485b13d244f9946b8.png"
+    },
+    {
+     "name": "Café Latte",
+     "desc": "Café Latte con arte en la espuma.",
+     "price": 68,
+     "img": "c6dcb80d0dba4cbb8199824a027c1064.png"
+    },
+    {
+     "name": "Caramel Latte",
+     "desc": "Latte sabor Caramelo",
+     "price": 75,
+     "img": "c0a3937a78dc45e8afb816f0eda2636d.png"
+    },
+    {
+     "name": "Moka Latte",
+     "desc": "Latte sabor Moka",
+     "price": 75,
+     "img": "ce89ec6d36234710a1170c7607a0867a.png"
+    },
+    {
+     "name": "Vainilla Latte",
+     "desc": "Latte sabor Vainilla",
+     "price": 75,
+     "img": "1f142da00c0d4d68ada49aab15715b6c.png"
+    },
+    {
+     "name": "Ice Latte",
+     "desc": "Latte frío con hielo.",
+     "price": 68,
+     "img": "bc8232efc00b4641ba74feebc4ded2e9.png"
+    },
+    {
+     "name": "Frappe Clásico",
+     "desc": "Frappe Clásico con crema batida.",
+     "price": 65,
+     "img": "d7ad85d8615f4ca2a774e687d7a86028.png"
+    },
+    {
+     "name": "Frappe Sabor",
+     "desc": "Frappe a elegir entre vainilla, caramelo o moka.",
+     "price": 75,
+     "img": "636793146d0f487db0a2e8ea93c6d242.png"
+    }
+   ]
+  },
+  {
+   "name": "Chai & Tizanas",
+   "products": [
+    {
+     "name": "Chai Josefina",
+     "desc": "Chai Josefina, bebida de té con leche.",
+     "price": 75,
+     "img": "f395d280e1044afeb2ccaff9f6235f70.png"
+    },
+    {
+     "name": "Tizana",
+     "desc": "Tizana con trozos de papaya, melón, plátano y fresas, con base de jugo de frutas.",
+     "price": 68,
+     "img": "82e36712c74c4598aaf5fb1c23567a7a.png"
+    }
+   ]
+  },
+  {
+   "name": "Jugos",
+   "products": [
+    {
+     "name": "Jugo de Naranja",
+     "desc": "Jugo de naranja natural",
+     "price": 65,
+     "img": "f7da29b225ca45f3abbd1c8a01a046bf.png"
+    },
+    {
+     "name": "Jugo de Zanahoria",
+     "desc": "Jugo de Zanahoria",
+     "price": 70,
+     "img": "009b8249090845efa7c61ebb8d51fab3.png"
+    },
+    {
+     "name": "Jugo Verde",
+     "desc": "Espinaca, Apio, Nopal, Perejil y piña, elije tu base: jugo de naranja o agua natural",
+     "price": 75,
+     "img": "f22b4ae8410c4f52be87d6de9e0989a9.png"
+    },
+    {
+     "name": "Jugos Combinados",
+     "desc": "Jugos Combinados. Elige tu combinación.",
+     "price": 80,
+     "img": "0609a8842a954ed28d34425991aceb5a.png"
+    }
+   ]
+  },
+  {
+   "name": "Smoothies & Licuados",
+   "products": [
+    {
+     "name": "Smoothie",
+     "desc": "Smoothie. Elige sabor de frutos.",
+     "price": 85,
+     "img": "a501c6ce04d742ef84dc5c766aede3e5.png"
+    },
+    {
+     "name": "Licuados",
+     "desc": "Licuados con fruta.",
+     "price": 75,
+     "img": "81d250a1e76546bda68e00af81b715f4.png"
+    },
+    {
+     "name": "Chocomilk",
+     "desc": "Chocomilk con espuma.",
+     "price": 58,
+     "img": "a4c518427b7a46239fab77cea47b498c.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Coca-Cola Lata",
+     "desc": "Coca-cola lata",
+     "price": 42,
+     "img": "ed0ab3a4e473434a806f33c5fa9f7fe6.png"
+    },
+    {
+     "name": "Coca-Cola Zero",
+     "desc": "Coca-cola Zero",
+     "price": 42,
+     "img": "0413bf9b66684a79b0d6789470b23fb8.png"
+    },
+    {
+     "name": "Topo Chico",
+     "desc": "Agua Mineral Topochico",
+     "price": 42,
+     "img": "23f8f933a02f44adb52cef09cf2acf11.png"
+    },
+    {
+     "name": "Agua Ciel",
+     "desc": "Aguan natural 600 ml",
+     "price": 35,
+     "img": "fbce45db581a48ffb8cb25f6871d81af.png"
+    },
+    {
+     "name": "Limonada",
+     "desc": "Limonada",
+     "price": 55,
+     "img": "9afeaa23c9f549ac9fcd55945a7df998.png"
+    },
+    {
+     "name": "Naranjada",
+     "desc": "Naranjada con jugo de naranja natural.",
+     "price": 55,
+     "img": "dfb6e75b0158407aa3929580b8a28034.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Pan de elote",
+     "desc": "Pan de elote, una rebanada.",
+     "price": 58,
+     "img": "463e0ca0-1fa8-40e3-b120-891afcdfa167_a15.png"
+    },
+    {
+     "name": "Pastel de zanahoria",
+     "desc": "Rebanada de pastel de zanahoria con cobertura de crema y nueces picadas.",
+     "price": 68,
+     "img": "1e472975-f139-468c-81d2-3be2e39b2ce0_a16.png"
+    }
+   ]
+  }
+ ]
+}
