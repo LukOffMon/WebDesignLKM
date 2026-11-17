@@ -271,6 +271,41 @@ def font_link(t):
     return "https://fonts.googleapis.com/css2?" + "&".join("family=" + f for f in fams) + "&display=swap"
 
 
+def og_html(r, cats, out_dir):
+    """HTML de la imagen de vista previa (1200x630) que se ve al compartir el enlace."""
+    t, e = r["tema"], html.escape
+    fotos = []
+    for rank in (4, 1, 0, 2):
+        for c in cats:
+            if cat_rank(c["name"]) == rank:
+                fotos += [it["img"] for it in c["items"] if it.get("img") and it.get("price", 0) >= 90][:2]
+    fotos = list(dict.fromkeys(fotos))[:3] or [""]
+    while len(fotos) < 3:
+        fotos.append(fotos[0])
+    n = sum(len(c["items"]) for c in cats)
+    on_acc = "#ffffff" if luminance(t["acc"]) < 0.45 else "#1a1a1a"
+    src = lambda f: (out_dir / f).as_uri() if f else ""
+    return f"""<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="{font_link(t)}&family=Space+Grotesk:wght@600;700">
+<style>
+*{{box-sizing:border-box;margin:0}} body{{width:1200px;height:630px;background:{t['bg']};color:{t['fg']};font-family:'{t['texto']}',sans-serif;overflow:hidden;position:relative}}
+.l{{position:absolute;left:64px;top:56px;bottom:56px;width:560px;display:flex;flex-direction:column}}
+.k{{font:700 20px/1 'Space Grotesk',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:{t['acc']}}}
+h1{{font:700 76px/1 '{t['titulo']}',Georgia,serif;margin-top:22px;letter-spacing:-.01em}}
+.lema{{font-size:26px;line-height:1.3;opacity:.75;margin-top:20px}}
+.chip{{margin-top:auto;display:inline-flex;align-self:flex-start;gap:10px;background:{t['acc']};color:{on_acc};font-weight:800;font-size:24px;padding:14px 22px;border-radius:999px}}
+.by{{margin-top:22px;font:600 20px/1 'Space Grotesk',sans-serif;opacity:.6}} .by b{{opacity:1}}
+.r{{position:absolute;right:48px;top:48px;bottom:48px;width:470px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:14px}}
+.r div{{border-radius:28px;background:color-mix(in srgb,{t['fg']} 10%,{t['bg']}) center/cover no-repeat}}
+.r div:first-child{{grid-row:1/3}}
+.bar{{position:absolute;left:0;top:0;bottom:0;width:14px;background:{t['acc']}}}
+</style></head><body><div class="bar"></div>
+<div class="l"><p class="k">Menú digital · {e(r['ciudad'])}</p><h1>{e(r['nombre'])}</h1><p class="lema">{e(r['lema'])}</p>
+<span class="chip">{n} platillos con foto · pide por WhatsApp</span><p class="by">Desarrollado por <b>{e(EMP.get('nombre', "LKM'r"))}</b></p></div>
+<div class="r">{''.join(f'<div style="background-image:url({src(f)})"></div>' for f in fotos)}</div>
+</body></html>"""
+
+
 def render_menu(r, cats, url):
     t = r["tema"]
     on_acc = "#ffffff" if luminance(t["acc"]) < 0.45 else "#1a1a1a"
@@ -290,9 +325,23 @@ def render_menu(r, cats, url):
 <meta name="description" content="Menú digital de {e(r['nombre'])} ({e(r['ciudad'])}): {n_items} platillos con precios, fotos y pedido por WhatsApp.">
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="{t['bg']}">
-<meta property="og:title" content="Menú · {e(r['nombre'])}">
-<meta property="og:description" content="{e(r['lema'])}">
+<link rel="canonical" href="{url}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{e(EMP.get('nombre', "LKM'r"))}">
+<meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Menú digital de {e(r['nombre'])} · {e(r['ciudad'])}">
+<meta property="og:description" content="{e(r['lema'])}. {n_items} platillos con foto y precio; arma tu pedido y mándalo por WhatsApp.">
 <meta property="og:url" content="{url}">
+<meta property="og:image" content="{url}og.jpg">
+<meta property="og:image:secure_url" content="{url}og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Menú digital de {e(r['nombre'])}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Menú digital de {e(r['nombre'])}">
+<meta name="twitter:description" content="{e(r['lema'])}">
+<meta name="twitter:image" content="{url}og.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='{t['acc'].replace('#', '%23')}'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='{on_acc.replace('#', '%23')}' font-family='Georgia'%3E{e(r['nombre'][0])}%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{font_link(t)}&family=Space+Grotesk:wght@600;700">
@@ -412,19 +461,16 @@ def mensaje(r, url, cats):
                 top.append(it["name"])
     platillos = ", ".join(top[:-1]) + " y " + top[-1] if len(top) > 1 else (top[0] if top else "sus platillos")
     platillos = r.get("estrella") or platillos
+    marca = EMP.get("corto", "LKM'r")
     return (f"Hola, buen día. ¿Hablo con {r['nombre']}?\n\n"
-            f"Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, "
-            f"una muestra de su menú con QR, ya con su carta ({platillos}, entre otros):\n"
-            f"{url}\n\n"
+            f"Soy de {marca}: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra "
+            f"con su propia carta ({platillos}):\n{url}\n\n"
             f"{r['gancho']}\n\n"
-            "Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta "
-            "con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página "
-            "ligera, no un PDF borroso, y no hay que descargar nada.\n"
-            f"Su QR ya está listo: {url}qr.png\n\n"
-            f"{r['mejora']} Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.\n\n"
-            f"Inversión: {money(of['instalacion'])} de instalación (menú + QR listos para imprimir) y "
-            f"{money(of['mensualidad'])} al mes, con cambios de precios y platillos ilimitados.\n\n"
-            "Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?")
+            "El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. "
+            f"{r['mejora']} Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.\n\n"
+            f"Instalación {money(of['instalacion'])} (menú y QR listos para imprimir) y {money(of['mensualidad'])} al mes "
+            "con cambios ilimitados.\n\n"
+            "¿Le parece si se lo enseño 5 minutos esta semana?")
 
 
 # ---------- panel ----------
@@ -591,6 +637,19 @@ def update_portfolio(rows):
         src = re.sub(r"<!-- MENUS-QR:START.*?<!-- MENUS-QR:END -->", lambda m: block, src, flags=re.S)
     else:
         src = src.replace("    <footer>", "    " + block + "\n    <footer>", 1)
+    og_meta = ("<!-- LKMR-OG:START (lo genera menus-qr/_tools/build.py) -->\n"
+               '  <meta property="og:type" content="website" />\n'
+               f'  <meta property="og:title" content="Portafolio de {e(EMP.get("nombre", "LKM'r"))}" />\n'
+               f'  <meta property="og:description" content="Sitios web y {len(rows)} menús digitales con QR para restaurantes de todo México." />\n'
+               f'  <meta property="og:url" content="{e(EMP.get("portafolio", ""))}" />\n'
+               f'  <meta property="og:image" content="{e(EMP.get("portafolio", ""))}menus-qr/og-portafolio.jpg" />\n'
+               '  <meta property="og:image:width" content="1200" />\n  <meta property="og:image:height" content="630" />\n'
+               '  <meta name="twitter:card" content="summary_large_image" />\n'
+               "  <!-- LKMR-OG:END -->")
+    if "<!-- LKMR-OG:START" in src:
+        src = re.sub(r"<!-- LKMR-OG:START.*?<!-- LKMR-OG:END -->", lambda m: og_meta, src, flags=re.S)
+    else:
+        src = src.replace("</head>", "  " + og_meta + "\n</head>", 1)
     css = ("    .qr-sec { margin-top: 88px; padding-top: 40px; border-top: 1px solid var(--line); }\n"
            "    .qr-sec h2 { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.05; margin: 14px 0 0; letter-spacing: -.02em; }\n"
            "    .qr-lead { color: var(--mute); max-width: 60ch; line-height: 1.6; margin: 14px 0 0; }\n"
@@ -612,7 +671,7 @@ def main():
         for r in CFG["restaurantes"]:
             subprocess.run([sys.executable, str(TOOLS / "rappi.py"), f"https://www.rappi.com.mx/restaurantes/{r['rappi']}",
                             str(TOOLS / "raw" / f"{r['slug']}.json")], check=True)
-    rows, report = [], []
+    rows, report, og_jobs = [], [], []
     for r in CFG["restaurantes"]:
         raw = json.loads((TOOLS / "raw" / f"{r['slug']}.json").read_text(encoding="utf-8"))
         r["horario"] = "" if r.get("sin_horario") else (raw.get("schedule") or "")
@@ -642,8 +701,29 @@ def main():
         qr_img = make_qr(url, "#111111")
         qr_img.save(out / "qr.png", optimize=True)
         make_card(r, qr_img, out / "tarjeta-mesa.png")
+        (TOOLS / "og").mkdir(exist_ok=True)
+        og_src = TOOLS / "og" / f"{r['slug']}.html"
+        og_src.write_text(og_html(r, cats, out), encoding="utf-8")
+        og_jobs.append({"html": str(og_src), "out": str(out / "og.jpg")})
         rows.append((r, url, cats, mensaje(r, url, cats)))
         report.append(f"{r['slug']:22} {sum(len(c['items']) for c in cats):4} platillos  {len(keep):3} fotos  {len(cats):2} categorías")
+    tiles = "".join(f'<div style="background-image:url({(ROOT / r["slug"] / next((it["img"] for c in cats if cat_rank(c["name"]) == 4 for it in c["items"] if it.get("img")), cats[0]["items"][0].get("img", ""))).as_uri()})"></div>'
+                    for r, url, cats, msg in rows[:8])
+    (TOOLS / "og" / "portafolio.html").write_text(f"""<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Space+Grotesk:wght@600;700&display=swap">
+<style>*{{margin:0;box-sizing:border-box}}body{{width:1200px;height:630px;background:#0b0b0c;color:#fff;overflow:hidden;position:relative;font-family:'Space Grotesk',sans-serif}}
+.g{{position:absolute;right:-40px;top:-40px;width:640px;height:710px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;transform:rotate(-6deg)}}
+.g div{{border-radius:22px;background:#222 center/cover}} .f{{position:absolute;inset:0;background:linear-gradient(90deg,#0b0b0c 48%,rgba(11,11,12,.2))}}
+.t{{position:absolute;left:64px;top:70px;width:600px}} .k{{color:#d6b47a;letter-spacing:.3em;font-size:18px;text-transform:uppercase;font-weight:700}}
+h1{{font:500 78px/1 Fraunces,serif;margin-top:22px;letter-spacing:-.02em}} h1 em{{color:#d6b47a}} p{{color:#b9b4aa;font-size:26px;line-height:1.35;margin-top:24px}}
+.n{{position:absolute;left:64px;bottom:64px;font-size:22px;font-weight:700;background:#d6b47a;color:#141210;padding:14px 22px;border-radius:999px}}</style></head>
+<body><div class="g">{tiles}{tiles}</div><div class="f"></div><div class="t"><p class="k">Portafolio</p><h1>Proyectos web de <em>LKM’r</em>.</h1>
+<p>Sitios web y menús digitales con QR para restaurantes de todo México.</p></div><span class="n">{len(rows)} menús QR en línea</span></body></html>""", encoding="utf-8")
+    og_jobs.append({"html": str(TOOLS / "og" / "portafolio.html"), "out": str(ROOT / "og-portafolio.jpg")})
+    jobs_file = TOOLS / "og" / "trabajos.json"
+    jobs_file.write_text(json.dumps(og_jobs), encoding="utf-8")
+    r_og = subprocess.run(["node", str(TOOLS / "og.js"), str(jobs_file)], capture_output=True, text=True)
+    print("vistas previas:", "ok" if r_og.returncode == 0 else r_og.stderr[-500:])
     (ROOT / "index.html").write_text(render_panel(rows), encoding="utf-8")
     update_portfolio(rows)
     md = ["# Prospectos · Menú digital y QR", "",
