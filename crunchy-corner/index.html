@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>The Crunchy Corner · Plaza Cuatro Hojas · Menú</title>
+<meta name="description" content="Menú digital de The Crunchy Corner, sucursal Plaza Cuatro Hojas, Aguascalientes. Boneless, alitas, tenders, burgers, 18 salsas originales y promos de cada día. Pedidos por WhatsApp 449 446 4730." />
+<meta name="theme-color" content="#b3141c" />
+<meta property="og:title" content="The Crunchy Corner · Plaza Cuatro Hojas" />
+<meta property="og:description" content="Boneless, alitas, tenders, burgers y 18 salsas originales. Menú, promos del día y pedidos por WhatsApp." />
+<meta property="og:type" content="restaurant" />
+<meta property="og:locale" content="es_MX" />
+<meta property="og:image" content="img/og.jpg" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" type="image/png" sizes="192x192" href="img/icon-192.png" />
+<link rel="apple-touch-icon" href="img/icon-192.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Crunchy" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+<link rel="preload" as="image" href="img/rooster.webp" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"The Crunchy Corner · Plaza Cuatro Hojas","servesCuisine":["Pollo frito","Boneless","Alitas","Hamburguesas"],"telephone":"+52 449 446 4730","priceRange":"$$","address":{"@type":"PostalAddress","addressLocality":"Aguascalientes","addressRegion":"Ags.","addressCountry":"MX","streetAddress":"Plaza Cuatro Hojas"},"sameAs":["https://www.instagram.com/thecrunchycorner/"]}
+</script>
+<style>
+:root{
+  --red:#b3141c;--red2:#8e0f16;--cream:#f8ecd9;--cream2:#f1dfc3;--ink:#2e3234;--ink2:#1d2022;
+  --orange:#f26b1d;--cheese:#ffb81c;--brown:#5a2416;--green:#6bb534;--mute:#6f6a62;
+  --r:22px;--ease:cubic-bezier(.22,1,.36,1);--spring:cubic-bezier(.34,1.56,.64,1);
+  --display:Anton,Impact,"Arial Narrow Bold",sans-serif;
+  --body:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:120px}
+body{margin:0;background:var(--cream);color:var(--ink);font:15px/1.5 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+.disp{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:.01em;line-height:.92}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* ---------- top bar ---------- */
+.bar{position:fixed;inset:0 0 auto;z-index:50;display:flex;align-items:center;gap:10px;padding:10px 16px;padding-top:max(10px,env(safe-area-inset-top));
+  background:rgba(179,20,28,.0);transition:background .35s,box-shadow .35s,transform .35s var(--ease)}
+.bar.solid{background:var(--red);box-shadow:0 6px 24px rgba(0,0,0,.18)}
+.bar .logo{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--cream);opacity:0;transform:translateY(-6px);transition:.35s var(--ease)}
+.bar.solid .logo{opacity:1;transform:none}
+.bar .logo img{width:34px;height:34px;object-fit:contain}
+.bar .logo b{font:19px/1 var(--display);text-transform:uppercase;letter-spacing:.02em;white-space:nowrap}
+.bar .logo small{display:block;font:700 9px/1 var(--body);letter-spacing:.22em;text-transform:uppercase;opacity:.8;margin-top:3px}
+.bar .sp{flex:1}
+.pill{display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 16px;border-radius:999px;font-weight:800;font-size:14px;text-decoration:none;white-space:nowrap;transition:transform .25s var(--spring),background .2s}
+.pill:active{transform:scale(.94)}
+.pill.cream{background:var(--cream);color:var(--red)}
+.pill.ink{background:var(--ink);color:var(--cream)}
+.pill.ghost{background:rgba(248,236,217,.14);color:var(--cream);box-shadow:inset 0 0 0 1.5px rgba(248,236,217,.45)}
+.pill.wa{background:#1faa53;color:#fff}
+.pill svg{width:18px;height:18px;flex:none}
+.cartbtn{position:relative}
+.cartbtn .n{position:absolute;top:-6px;right:-6px;min-width:22px;height:22px;padding:0 6px;border-radius:99px;background:var(--cheese);color:var(--ink);font:800 12px/22px var(--body);text-align:center;transform:scale(0);transition:transform .35s var(--spring)}
+.cartbtn .n.on{transform:scale(1)}
+.cartbtn.bump{animation:bump .5s var(--spring)}
+@keyframes bump{30%{transform:scale(1.18) rotate(-6deg)}60%{transform:scale(.95) rotate(3deg)}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;background:var(--red);color:var(--cream);overflow:hidden;display:grid;place-items:center;text-align:center;padding:96px 16px 120px}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 50% at 50% 42%,rgba(255,184,28,.28),transparent 70%)}
+.hero .in{position:relative;z-index:2;max-width:760px}
+.rooster{width:min(46vw,230px);margin:0 auto -6px;transform-origin:50% 90%;animation:crow 3.2s var(--ease) .9s infinite}
+.rooster img{width:100%;animation:pop .9s var(--spring) both}
+@keyframes pop{from{transform:scale(.3) rotate(-12deg);opacity:0}}
+@keyframes crow{0%,58%,100%{transform:none}64%{transform:rotate(-7deg) translateY(-6px)}70%{transform:rotate(4deg)}76%{transform:rotate(-3deg)}82%{transform:none}}
+.waves{position:absolute;right:6%;top:18%;width:28%;height:40%;pointer-events:none}
+.waves i{position:absolute;left:0;top:50%;width:100%;height:3px;border-radius:3px;background:var(--cream);transform-origin:left;opacity:0;animation:wave 3.2s 1.1s infinite}
+.waves i:nth-child(1){transform:rotate(-28deg)}.waves i:nth-child(2){transform:rotate(-8deg);animation-delay:1.18s}.waves i:nth-child(3){transform:rotate(12deg);animation-delay:1.26s}
+@keyframes wave{0%,58%{opacity:0;scale:.2 1}66%{opacity:1;scale:1 1}80%,100%{opacity:0;scale:1.2 1;translate:12px 0}}
+.kick{font:800 12px/1.4 var(--body);letter-spacing:.32em;text-transform:uppercase;color:var(--cheese)}
+.hero .kick{letter-spacing:.18em;font-size:11px;margin-top:14px}
+@media(max-width:600px){.floaty.lo{display:none}.floaty{opacity:.95}}
+.htitle{font-size:clamp(68px,19vw,176px);margin:14px 0 0;display:flex;flex-direction:column;align-items:center}
+.htitle .ln{display:flex;overflow:hidden;padding:0 .04em}
+.htitle .ch{display:inline-block;transform:translateY(105%);animation:rise .8s var(--ease) forwards;animation-delay:calc(.25s + var(--i)*.045s)}
+.htitle .ln:nth-child(2){color:var(--cheese)}
+@keyframes rise{to{transform:none}}
+.hsub{margin:18px auto 0;font-size:clamp(15px,4vw,19px);max-width:34ch;opacity:0;animation:fade .7s .95s var(--ease) forwards}
+.hsub b{color:var(--cheese)}
+.hcta{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:26px;opacity:0;animation:fade .7s 1.1s var(--ease) forwards}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.floaty{position:absolute;z-index:1;width:var(--w);left:var(--x);top:var(--y);filter:drop-shadow(0 18px 24px rgba(0,0,0,.35));animation:drop 1.1s var(--spring) both,bob 6s ease-in-out infinite;animation-delay:var(--d),calc(var(--d) + 1.1s)}
+@keyframes drop{from{opacity:0;transform:translateY(-60px) rotate(var(--r0)) scale(.6)}to{opacity:1;transform:rotate(var(--r0))}}
+@keyframes bob{0%,100%{transform:rotate(var(--r0)) translateY(0)}50%{transform:rotate(calc(var(--r0) + 4deg)) translateY(-12px)}}
+.scrollhint{position:absolute;bottom:72px;left:50%;translate:-50% 0;z-index:2;width:26px;height:42px;border-radius:20px;box-shadow:inset 0 0 0 2px rgba(248,236,217,.6)}
+.scrollhint::after{content:"";position:absolute;left:50%;top:9px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:var(--cream);animation:sh 1.6s infinite}
+@keyframes sh{to{transform:translateY(14px);opacity:0}}
+
+/* marquee */
+.marq{position:absolute;left:0;right:0;bottom:0;z-index:3;background:var(--ink);color:var(--cream);overflow:hidden;padding:12px 0;transform:rotate(-2deg) scale(1.04);transform-origin:center}
+.marq .t{display:flex;width:max-content;animation:marq 26s linear infinite}
+.marq span{font:22px/1 var(--display);text-transform:uppercase;letter-spacing:.03em;padding:0 18px;white-space:nowrap}
+.marq span:nth-child(even){color:var(--cheese)}
+@keyframes marq{to{transform:translateX(-50%)}}
+
+/* cheese drip */
+.drip{display:block;width:100%;height:56px;margin-top:-1px;color:var(--cheese)}
+.drip path{transform-origin:top}
+.drip .d{animation:drp 4s ease-in-out infinite;transform-box:fill-box}
+.drip .d:nth-child(3n){animation-delay:-1.3s}.drip .d:nth-child(3n+1){animation-delay:-2.4s}
+@keyframes drp{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.35)}}
+
+/* ---------- promos ---------- */
+.sec{padding:56px 0 18px;position:relative}
+.sh{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.sh h2{font-size:clamp(46px,11vw,92px);margin:6px 0 0;color:var(--ink)}
+.sh h2 em{font-style:normal;color:var(--red)}
+.sh p{margin:6px 0 0;color:var(--mute);max-width:46ch}
+.today{display:grid;grid-template-columns:1fr;gap:18px;align-items:stretch}
+@media(min-width:820px){.today{grid-template-columns:330px 1fr}}
+.flyer{position:relative;border-radius:var(--r);overflow:hidden;background:var(--ink);aspect-ratio:600/1059;max-height:72vh;margin:0 auto;width:100%;max-width:400px;box-shadow:0 24px 50px -18px rgba(0,0,0,.45);cursor:pointer}
+.flyer img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.flyer:hover img{transform:scale(1.04)}
+.flyer .tag{position:absolute;top:12px;left:12px;background:var(--cheese);color:var(--ink);font:800 11px/1 var(--body);letter-spacing:.18em;text-transform:uppercase;padding:8px 10px;border-radius:99px;animation:wig 2.4s ease-in-out infinite}
+@keyframes wig{0%,80%,100%{transform:rotate(0)}85%{transform:rotate(-6deg)}90%{transform:rotate(5deg)}95%{transform:rotate(-2deg)}}
+.pinfo{background:var(--ink);color:var(--cream);border-radius:var(--r);padding:26px 22px;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden}
+.pinfo::after{content:"";position:absolute;right:-60px;bottom:-60px;width:220px;height:220px;border-radius:50%;background:var(--red);opacity:.5}
+.pinfo>*{position:relative;z-index:1}
+.pinfo .day{font-size:clamp(44px,10vw,78px);color:var(--cheese)}
+.pinfo .what{font-size:18px;line-height:1.45;max-width:40ch}
+.pinfo .what b{color:var(--cheese)}
+.clock{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:13px;color:#d9cbb3}
+.clock i{width:8px;height:8px;border-radius:50%;background:#2ee66b;box-shadow:0 0 0 0 rgba(46,230,107,.6);animation:ping 1.6s infinite}
+@keyframes ping{to{box-shadow:0 0 0 12px rgba(46,230,107,0)}}
+.days{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 0 4px;margin-top:auto}
+.days::-webkit-scrollbar{display:none}
+.days button{flex:none;min-width:58px;height:58px;border-radius:16px;background:rgba(248,236,217,.08);color:var(--cream);font:800 12px/1.1 var(--body);text-transform:uppercase;letter-spacing:.06em;transition:.25s var(--ease)}
+.days button small{display:block;font-weight:600;letter-spacing:0;text-transform:none;opacity:.6;margin-top:3px;font-size:10px}
+.days button.on{background:var(--cheese);color:var(--ink)}
+.days button.is-today{box-shadow:inset 0 0 0 2px var(--cheese)}
+.pnote{font-size:12px;color:#a99f8f}
+
+/* ---------- sauces ---------- */
+.salsas{background:var(--ink);color:var(--cream);margin-top:40px;overflow:hidden;padding-top:0}
+.salsas .drip{margin-bottom:34px}
+.salsas .sh h2{color:var(--cream)}
+.salsas .sh h2 em{color:var(--cheese)}
+.salsas .sh p{color:#b8ae9d}
+.heat{display:inline-flex;gap:2px;vertical-align:middle}
+.heat svg{width:14px;height:14px;color:var(--orange)}
+.heat svg.off{color:currentColor;opacity:.18}
+.sfilters{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px;margin-bottom:18px}
+.sfilters::-webkit-scrollbar{display:none}
+.chip{flex:none;height:38px;padding:0 14px;border-radius:99px;font-weight:700;font-size:13px;background:rgba(248,236,217,.09);color:inherit;display:inline-flex;align-items:center;gap:6px;transition:.25s var(--ease)}
+.chip.on{background:var(--cheese);color:var(--ink)}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.sauce{position:relative;text-align:left;padding:14px 14px 16px;border-radius:20px;background:rgba(248,236,217,.05);transition:transform .35s var(--spring),background .3s,opacity .3s;outline-offset:3px}
+.sauce:hover{background:rgba(248,236,217,.1);transform:translateY(-4px)}
+.sauce .bowl{width:100%;aspect-ratio:1;position:relative;margin-bottom:10px}
+.sauce .bowl img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 12px 14px rgba(0,0,0,.45));transition:transform .9s var(--ease)}
+.sauce:hover .bowl img{transform:rotate(40deg) scale(1.04)}
+.sauce b{display:block;font:20px/1 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.sauce .fam{font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.55;margin:4px 0 6px;display:block}
+.sauce .nw{position:absolute;top:10px;left:10px;z-index:2}
+.sauce.hide{display:none}
+.sauce.win{background:var(--red);animation:win .8s var(--spring)}
+@keyframes win{40%{transform:scale(1.08) rotate(-2deg)}}
+.rv .in{opacity:0;transform:translateY(26px) scale(.96)}
+.rv.seen .in{opacity:1;transform:none;transition:opacity .7s var(--ease),transform .8s var(--ease);transition-delay:calc(var(--k,0)*55ms)}
+.sauce.rv .bowl img{transform:rotate(-120deg) scale(.6)}
+.sauce.rv.seen .bowl img{transform:none;transition:transform 1.1s var(--spring);transition-delay:calc(var(--k,0)*55ms + .1s)}
+.roulette{margin:26px 0 8px;border-radius:24px;background:var(--red);padding:20px;display:grid;gap:14px;position:relative;overflow:hidden}
+.roulette h3{margin:0;font-size:clamp(30px,7vw,46px)}
+.roulette p{margin:0;opacity:.85}
+.reel{position:relative;height:120px;overflow:hidden;border-radius:18px;background:var(--red2);mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent)}
+.reel::after{content:"";position:absolute;left:50%;top:6px;bottom:6px;width:112px;margin-left:-56px;border-radius:16px;box-shadow:inset 0 0 0 3px var(--cheese)}
+.reel .strip{display:flex;gap:12px;padding:10px 0;will-change:transform}
+.reel .strip img{width:100px;height:100px;flex:none;object-fit:contain;filter:drop-shadow(0 6px 8px rgba(0,0,0,.4))}
+.rres{min-height:26px;font-weight:700}
+.rres b{font:26px/1 var(--display);text-transform:uppercase;color:var(--cheese);letter-spacing:.02em}
+.dips{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center;margin-top:24px;padding:18px;border-radius:24px;background:rgba(248,236,217,.06)}
+.dips img{width:110px;animation:bob2 4s ease-in-out infinite}
+@keyframes bob2{50%{transform:translateY(-8px) rotate(3deg)}}
+.dips .opts{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+
+/* ---------- category nav ---------- */
+.cats{position:sticky;top:var(--barh,58px);z-index:40;background:rgba(248,236,217,.92);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid rgba(46,50,52,.08)}
+.cats .row{display:flex;align-items:center;gap:8px;padding:10px 16px}
+.cats .scroll{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1;scroll-behavior:smooth}
+.cats .scroll::-webkit-scrollbar{display:none}
+.cats a{flex:none;text-decoration:none;font-weight:800;font-size:13px;padding:9px 13px;border-radius:99px;color:var(--ink);transition:background .25s,color .25s}
+.cats a.on{background:var(--ink);color:var(--cream)}
+.search{position:relative;flex:none}
+.search input{width:42px;height:40px;border-radius:99px;border:0;background:var(--ink);color:var(--cream);padding:0 14px 0 38px;font:600 14px var(--body);transition:width .45s var(--ease);outline:none}
+.search input::placeholder{color:#b9ad99}
+.search input:focus,.search.has input{width:min(58vw,260px)}
+.search svg{position:absolute;left:12px;top:11px;width:18px;height:18px;color:var(--cream);pointer-events:none}
+.noresults{display:none;text-align:center;padding:48px 16px;color:var(--mute)}
+.noresults.on{display:block}
+
+/* ---------- menu sections ---------- */
+.msec{padding:52px 0 8px}
+.msec.hide{display:none}
+.mhead{display:grid;gap:18px;margin-bottom:22px;align-items:end}
+.mhead.has-hero{grid-template-columns:1fr}
+@media(min-width:820px){.mhead.has-hero{grid-template-columns:1.1fr .9fr}}
+.mhead .k{font:800 11px/1 var(--body);letter-spacing:.28em;text-transform:uppercase;color:var(--red)}
+.mhead h2{font-size:clamp(52px,13vw,112px);margin:8px 0 0}
+.mhead h2 .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.04em}
+.mhead h2 .w>span{display:inline-block;transform:translateY(100%);transition:transform .8s var(--ease)}
+.mhead.seen h2 .w>span{transform:none}
+.mhead h2 .w:nth-child(2)>span{transition-delay:.08s;color:var(--red)}
+.mhead h2 .w:nth-child(3)>span{transition-delay:.16s}
+.mhead .note{margin:12px 0 0;color:var(--mute);max-width:52ch}
+.flags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.flag{display:inline-flex;align-items:center;gap:6px;font:800 11px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;background:var(--red);color:var(--cream);padding:8px 11px;border-radius:99px;transform:rotate(-2deg)}
+.flag:nth-child(2){background:var(--ink);transform:rotate(1.5deg)}
+.flag.y{background:var(--cheese);color:var(--ink)}
+.mhero{border-radius:var(--r);overflow:hidden;aspect-ratio:16/11;background:var(--ink);position:relative}
+.mhero img{width:100%;height:120%;object-fit:cover;transform:translateY(var(--py,0px)) scale(1.05);will-change:transform}
+.grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{position:relative;background:#fff8ec;border-radius:var(--r);padding:18px;display:grid;grid-template-columns:1fr 40%;gap:6px 12px;align-items:start;box-shadow:0 1px 0 rgba(46,50,52,.06),0 14px 30px -24px rgba(46,50,52,.5);transition:transform .45s var(--ease),box-shadow .45s}
+.card:hover{transform:translateY(-4px);box-shadow:0 1px 0 rgba(46,50,52,.06),0 26px 40px -26px rgba(46,50,52,.55)}
+.card.noimg{grid-template-columns:1fr}
+@media(min-width:640px){.card{grid-template-columns:1fr;padding-top:12px}.card .ph{order:-1}}
+.card .ph{position:relative;align-self:center;aspect-ratio:1/.82;display:grid;place-items:center}
+.card .ph::before{content:"";position:absolute;inset:12% 6% 4%;border-radius:50%;background:var(--blob,#f6d9a8);transform:scale(.6);opacity:0;transition:transform .9s var(--spring),opacity .6s}
+.card.seen .ph::before{transform:none;opacity:1}
+.card .ph img{position:relative;max-height:100%;width:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 14px 14px rgba(46,50,52,.28));transform:translateY(30px) rotate(-8deg) scale(.85);opacity:0;transition:transform 1s var(--spring),opacity .6s}
+.card.seen .ph img{transform:none;opacity:1}
+.card:hover .ph img{transform:rotate(-3deg) scale(1.06)}
+.card h3{margin:0;font:24px/1 var(--display);text-transform:uppercase;letter-spacing:.015em}
+.card .d{margin:6px 0 0;font-size:13.5px;color:#5d5850}
+.card .meta{grid-column:1/-1;display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:10px}
+.card .price{font:28px/1 var(--display);color:var(--red);margin-right:auto;display:inline-block}
+.card .price.tick{animation:tick .45s var(--spring)}
+@keyframes tick{40%{transform:translateY(-5px) scale(1.12)}}
+.nuevo{display:inline-block;font:800 10px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:#fff;background:#e51b23;padding:5px 7px;border-radius:6px;transform:rotate(-4deg);margin-bottom:6px;animation:wig 3s ease-in-out infinite}
+.sizes{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.sizes button{height:34px;padding:0 11px;border-radius:99px;font-size:12.5px;font-weight:700;background:var(--cream2);transition:.2s}
+.sizes button.on{background:var(--ink);color:var(--cream)}
+.sizes button small{font-weight:600;opacity:.65;margin-left:4px}
+.tip{grid-column:1/-1;font-size:12px;color:var(--mute);display:flex;align-items:center;gap:6px;margin-top:6px}
+.tip::before{content:"";width:16px;height:12px;flex:none;background:var(--ink);-webkit-mask:var(--bowl) center/contain no-repeat;mask:var(--bowl) center/contain no-repeat}
+.add{height:42px;padding:0 16px 0 12px;border-radius:99px;background:var(--ink);color:var(--cream);font-weight:800;font-size:13.5px;display:inline-flex;align-items:center;gap:6px;transition:transform .25s var(--spring),background .2s}
+.add:hover{background:var(--red)}
+.add:active{transform:scale(.92)}
+.add svg{width:18px;height:18px}
+.list{display:grid;gap:4px;background:#fff8ec;border-radius:var(--r);padding:8px 18px}
+.li{display:flex;align-items:center;gap:10px;padding:12px 0;border-bottom:1px dashed rgba(46,50,52,.18)}
+.li:last-child{border-bottom:0}
+.li .nm{font-weight:700}
+.li .nm small{display:block;font-weight:500;color:var(--mute);font-size:12px}
+.li .dots{flex:1;border-bottom:2px dotted rgba(46,50,52,.2);transform:translateY(4px)}
+.li .pr{font:22px/1 var(--display);color:var(--red)}
+.li .mini{width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--cream);display:grid;place-items:center;flex:none;transition:transform .25s var(--spring)}
+.li .mini:active{transform:scale(.85)}
+.li .mini svg{width:16px;height:16px}
+
+/* drinks */
+.tabs{display:flex;gap:6px;margin-bottom:16px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{flex:none;height:40px;padding:0 16px;border-radius:99px;font-weight:800;font-size:13px;background:var(--cream2)}
+.tabs button.on{background:var(--red);color:var(--cream)}
+.tpanel{display:none}
+.tpanel.on{display:block;animation:fade .5s var(--ease)}
+.bottles{display:flex;justify-content:center;align-items:flex-end;gap:clamp(4px,2vw,18px);height:200px;margin:4px 0 18px}
+.bottles img{height:var(--h,170px);width:auto;filter:drop-shadow(0 12px 10px rgba(0,0,0,.25));transform:translateY(120%);transition:transform .9s var(--spring);transition-delay:calc(var(--k)*80ms)}
+.bottles.seen img{transform:none}
+.bottles img:hover{transform:translateY(-10px) rotate(-6deg)}
+.dcols{display:grid;gap:14px}
+@media(min-width:760px){.dcols{grid-template-columns:1fr 1fr}}
+.dbox h4{margin:0 0 4px;font:26px/1 var(--display);text-transform:uppercase}
+.dbox .sub{font-size:12px;color:var(--mute);margin:0 0 6px}
+.legal{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);text-align:center;margin:14px 0 0}
+.excl{display:grid;gap:16px;align-items:center;background:var(--ink);color:var(--cream);border-radius:var(--r);overflow:hidden}
+@media(min-width:760px){.excl{grid-template-columns:.9fr 1.1fr}}
+.excl img{width:100%;height:100%;object-fit:cover;max-height:340px}
+.excl .tx{padding:6px 22px 22px}
+@media(min-width:760px){.excl .tx{padding:22px 22px 22px 0}}
+.excl .list{background:rgba(248,236,217,.06);color:var(--cream)}
+.excl .li{border-color:rgba(248,236,217,.16)}
+.excl .li .pr{color:var(--cheese)}
+.excl .li .mini{background:var(--cheese);color:var(--ink)}
+.excl .li .dots{border-color:rgba(248,236,217,.2)}
+
+/* tile band */
+.tiles{height:34px;background-color:var(--ink);background-image:radial-gradient(circle at 50% 50%,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 0 0,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 100% 0,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 0 100%,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 100% 100%,var(--cream) 0 7px,transparent 7.5px);background-size:22px 22px;animation:tiles 18s linear infinite}
+@keyframes tiles{to{background-position:220px 0}}
+
+/* ---------- visit ---------- */
+.visit{background:var(--red);color:var(--cream);padding:64px 0 40px;margin-top:56px;position:relative;overflow:hidden}
+.visit h2{font-size:clamp(50px,12vw,104px);margin:8px 0 0}
+.visit h2 em{font-style:normal;color:var(--cheese)}
+.vgrid{display:grid;gap:16px;margin-top:26px}
+@media(min-width:860px){.vgrid{grid-template-columns:1.3fr 1fr}}
+.vcard{background:rgba(0,0,0,.16);border-radius:var(--r);padding:22px}
+.vcard h3{margin:0;font:30px/1 var(--display);text-transform:uppercase}
+.vcard .ph{font:clamp(30px,8vw,44px)/1 var(--display);color:var(--cheese);margin:10px 0 16px;letter-spacing:.02em;text-decoration:none;display:inline-block}
+.vbtns{display:flex;flex-wrap:wrap;gap:10px}
+.others{display:grid;gap:10px}
+.others div{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid rgba(248,236,217,.18)}
+.others b{font-weight:800}
+.others a{font-weight:700;text-decoration:none;opacity:.9}
+.bigrooster{position:absolute;right:-60px;bottom:-40px;width:300px;opacity:.12;transform:rotate(-8deg);pointer-events:none}
+footer{background:var(--ink2);color:#b9ae9c;font-size:12.5px;padding:22px 0 calc(96px + env(safe-area-inset-bottom))}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between}
+footer strong{color:var(--cream)}
+
+/* ---------- floating order button ---------- */
+.fab{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));z-index:60;translate:-50% 0;display:flex;align-items:center;gap:12px;height:58px;padding:0 10px 0 20px;border-radius:99px;background:var(--ink);color:var(--cream);box-shadow:0 18px 40px -10px rgba(0,0,0,.55);font-weight:800;white-space:nowrap;transform:translateY(140%);transition:transform .55s var(--spring)}
+.fab.on{transform:none}
+.fab .tot{background:var(--cheese);color:var(--ink);height:40px;padding:0 14px;border-radius:99px;display:grid;place-items:center;font:20px/1 var(--display)}
+
+/* ---------- sheets ---------- */
+.scrim{position:fixed;inset:0;z-index:80;background:rgba(20,10,8,.55);opacity:0;pointer-events:none;transition:opacity .35s}
+.scrim.on{opacity:1;pointer-events:auto}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:90;max-height:88svh;overflow:auto;background:var(--cream);border-radius:28px 28px 0 0;padding:10px 18px calc(22px + env(safe-area-inset-bottom));transform:translateY(105%);transition:transform .5s var(--ease);overscroll-behavior:contain}
+@media(min-width:720px){.sheet{left:50%;right:auto;width:560px;margin-left:-280px}}
+.sheet.on{transform:none}
+.sheet .grab{width:44px;height:5px;border-radius:5px;background:rgba(46,50,52,.2);margin:0 auto 12px}
+.sheet h3{margin:0;font:34px/1 var(--display);text-transform:uppercase}
+.sheet .x{position:absolute;right:14px;top:14px;width:38px;height:38px;border-radius:50%;background:var(--cream2);display:grid;place-items:center}
+.sheet .x svg{width:18px;height:18px}
+.sheet .lbl{font:800 11px/1 var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin:18px 0 8px}
+.opt{display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:16px;background:#fff8ec;margin-bottom:8px;font-weight:700;width:100%;text-align:left;transition:box-shadow .2s}
+.opt.on{box-shadow:inset 0 0 0 2.5px var(--ink)}
+.opt span{margin-left:auto;font:20px/1 var(--display);color:var(--red)}
+.opt .box{width:22px;height:22px;border-radius:7px;box-shadow:inset 0 0 0 2px var(--ink);display:grid;place-items:center;flex:none}
+.opt.on .box{background:var(--ink)}
+.opt.on .box::after{content:"";width:10px;height:6px;border:solid var(--cream);border-width:0 0 2.5px 2.5px;transform:rotate(-45deg) translate(1px,-1px)}
+.spick{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:8px}
+.spick button{padding:8px 6px 10px;border-radius:16px;background:#fff8ec;font-size:11.5px;font-weight:800;line-height:1.15;text-align:center;transition:transform .25s var(--spring),box-shadow .2s}
+.spick button img{width:58px;height:58px;margin:0 auto 6px;object-fit:contain;transition:transform .6s var(--spring)}
+.spick button.on{box-shadow:inset 0 0 0 2.5px var(--red)}
+.spick button.on img{transform:rotate(180deg) scale(1.08)}
+.spick button:disabled{opacity:.4}
+.qty{display:inline-flex;align-items:center;gap:4px;background:var(--cream2);border-radius:99px;padding:4px}
+.qty button{width:34px;height:34px;border-radius:50%;background:#fff8ec;font-weight:800;font-size:18px;line-height:1}
+.qty b{min-width:26px;text-align:center}
+.sfoot{display:flex;align-items:center;gap:12px;margin-top:18px;position:sticky;bottom:-22px;background:var(--cream);padding:12px 0 4px}
+.sfoot .add{flex:1;justify-content:center;height:52px;font-size:15px;background:var(--red)}
+.oitem{display:grid;grid-template-columns:1fr auto;gap:6px 12px;padding:14px 0;border-bottom:1px dashed rgba(46,50,52,.2)}
+.oitem .t{font-weight:800}
+.oitem .s{font-size:12.5px;color:var(--mute);grid-column:1/-1;margin-top:-4px}
+.oitem .p{font:22px/1 var(--display);color:var(--red);text-align:right}
+.field{width:100%;height:46px;border-radius:14px;border:0;background:#fff8ec;padding:0 14px;font:600 15px var(--body);color:var(--ink);box-shadow:inset 0 0 0 1.5px rgba(46,50,52,.12)}
+textarea.field{height:74px;padding:12px 14px;resize:none}
+.seg{display:flex;background:var(--cream2);border-radius:14px;padding:4px;gap:4px}
+.seg button{flex:1;height:40px;border-radius:11px;font-weight:800;font-size:13px}
+.seg button.on{background:var(--ink);color:var(--cream)}
+.total{display:flex;justify-content:space-between;align-items:baseline;margin-top:16px}
+.total b{font:40px/1 var(--display);color:var(--red)}
+.empty{text-align:center;padding:30px 10px;color:var(--mute)}
+.empty img{width:120px;margin:0 auto 10px;opacity:.9;animation:crow 3.2s var(--ease) infinite}
+.toast{position:fixed;left:50%;top:calc(76px + env(safe-area-inset-top));z-index:100;translate:-50% 0;background:var(--ink);color:var(--cream);padding:12px 18px;border-radius:99px;font-weight:700;font-size:14px;transform:translateY(-20px);opacity:0;transition:.4s var(--spring);pointer-events:none;white-space:nowrap}
+.toast.on{transform:none;opacity:1}
+.crumb{position:fixed;z-index:120;width:10px;height:10px;border-radius:3px;pointer-events:none}
+.flyimg{position:fixed;z-index:120;pointer-events:none;transition:transform .75s cubic-bezier(.6,-.2,.7,1),opacity .75s;object-fit:contain}
+
+/* story viewer */
+.story{position:fixed;inset:0;z-index:110;background:#0d0d0d;display:grid;place-items:center;opacity:0;pointer-events:none;transition:opacity .3s}
+.story.on{opacity:1;pointer-events:auto}
+.story .frame{position:relative;height:min(100svh,calc(100vw*1.765));aspect-ratio:600/1059;max-width:100vw}
+.story img{width:100%;height:100%;object-fit:cover;border-radius:14px}
+.story .bars{position:absolute;top:calc(10px + env(safe-area-inset-top));left:10px;right:10px;display:flex;gap:4px;z-index:2}
+.story .bars i{flex:1;height:3px;border-radius:3px;background:rgba(255,255,255,.3);overflow:hidden}
+.story .bars i b{display:block;height:100%;width:0;background:#fff}
+.story .bars i.done b{width:100%}
+.story .bars i.run b{animation:fill 5s linear forwards}
+@keyframes fill{to{width:100%}}
+.story .nav{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;z-index:1}
+.story .close{position:absolute;top:calc(22px + env(safe-area-inset-top));right:12px;z-index:3;width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,.4);color:#fff;display:grid;place-items:center}
+.story .close svg{width:20px;height:20px}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .htitle .ch{transform:none}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-flame" viewBox="0 0 24 24"><path fill="currentColor" d="M12.6 1.8c.4 3-1.2 4.9-2.8 6.6C8.2 10.1 6.6 11.8 6.6 14.8a5.4 5.4 0 0 0 10.8 0c0-2-.8-3.4-1.7-4.6-.2 1.2-.8 2.2-1.9 2.6.6-3.9-.3-8.1-1.2-11Z"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M5 8h14l-1.2 12H6.2L5 8Z"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M9 8V6.5a3 3 0 0 1 6 0V8"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5" fill="currentColor"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.4"/><path stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-dice" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="8.5" cy="8.5" r="1.6" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.6" fill="currentColor"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></symbol>
+</svg>
+
+<header class="bar" id="bar">
+  <a class="logo" href="#top" aria-label="Inicio"><img src="img/rooster.webp" alt="" width="34" height="34" /><span><b>The Crunchy Corner</b><small>Plaza Cuatro Hojas</small></span></a>
+  <span class="sp"></span>
+  <button class="pill cream cartbtn" id="cartBtn" aria-label="Ver mi orden"><svg><use href="#i-bag"/></svg><span>Mi orden</span><span class="n" id="cartN">0</span></button>
+</header>
+
+<main id="top">
+<section class="hero" aria-label="The Crunchy Corner">
+  <img class="floaty" src="img/boneless.webp" alt="" width="560" height="427" style="--w:min(34vw,250px);--x:-6%;--y:16%;--r0:-14deg;--d:.55s" />
+  <img class="floaty" src="img/burger-original.webp" alt="" width="560" height="504" style="--w:min(30vw,220px);--x:79%;--y:9%;--r0:12deg;--d:.7s" />
+  <img class="floaty lo" src="img/waffle-nutella.webp" alt="" width="482" height="754" style="--w:min(18vw,130px);--x:84%;--y:60%;--r0:-10deg;--d:.85s" />
+  <img class="floaty lo" src="img/s-buffalo-cream.webp" alt="" width="220" height="220" style="--w:min(20vw,120px);--x:4%;--y:66%;--r0:0deg;--d:1s" />
+  <div class="in">
+    <div class="rooster"><img src="img/rooster.webp" alt="Logotipo de The Crunchy Corner" width="420" height="389" fetchpriority="high" /></div>
+    <div class="kick">Sucursal Plaza Cuatro Hojas · Ags.</div>
+    <h1 class="disp htitle" aria-label="The Crunchy Menu"><span class="ln" data-split>The Crunchy</span><span class="ln" data-split>Menu</span></h1>
+    <p class="hsub">Boneless, alitas, tenders y burgers con <b>18 salsas originales</b>. ¡Dip, make, crunch!</p>
+    <div class="hcta">
+      <a class="pill cream" href="#menu">Ver el menú</a>
+      <a class="pill ghost" href="#promo">Promo de hoy</a>
+      <a class="pill ghost" href="#salsas">Las 18 salsas</a>
+    </div>
+  </div>
+  <div class="scrollhint" aria-hidden="true"></div>
+  <div class="marq" aria-hidden="true"><div class="t" id="marq"></div></div>
+</section>
+
+<section class="sec" id="promo">
+  <div class="wrap">
+    <div class="sh"><div><div class="kick" style="color:var(--red)">Crunchy promos</div><h2 class="disp">Hoy <em>toca</em></h2></div><p>Cada día de la semana tiene su promo. Toca el cartel para verlos todos.</p></div>
+    <div class="today">
+      <button class="flyer" id="flyer" aria-label="Ver carteles de promociones"><img id="flyerImg" src="img/promo-lunes.webp" alt="" width="600" height="1059" /><span class="tag" id="flyerTag">Hoy</span></button>
+      <div class="pinfo">
+        <span class="clock" id="clock"><i></i><span>Válida hoy</span></span>
+        <div class="disp day" id="pDay">Lunes de combo</div>
+        <div class="what" id="pWhat"></div>
+        <div class="days" id="days" role="tablist" aria-label="Promociones por día"></div>
+        <div class="pnote">Promociones en sucursal. Pregunta por condiciones y cervezas participantes.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec salsas" id="salsas">
+  <svg class="drip" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 0h1200v12H0z"/><path class="d" fill="currentColor" d="M70 8h26v20a13 13 0 0 1-26 0z"/><path class="d" fill="currentColor" d="M190 8h18v34a9 9 0 0 1-18 0z"/><path class="d" fill="currentColor" d="M330 8h30v14a15 15 0 0 1-30 0z"/><path class="d" fill="currentColor" d="M480 8h20v28a10 10 0 0 1-20 0z"/><path class="d" fill="currentColor" d="M610 8h34v18a17 17 0 0 1-34 0z"/><path class="d" fill="currentColor" d="M760 8h18v36a9 9 0 0 1-18 0z"/><path class="d" fill="currentColor" d="M880 8h28v16a14 14 0 0 1-28 0z"/><path class="d" fill="currentColor" d="M1010 8h22v30a11 11 0 0 1-22 0z"/><path class="d" fill="currentColor" d="M1120 8h30v20a15 15 0 0 1-30 0z"/></svg>
+  <div class="wrap">
+    <div class="sh"><div><div class="kick">18 salsas originales de Crunchy</div><h2 class="disp">Nuestras <em>salsas</em></h2></div><p>Toca una salsa para pedirla aparte. Filtra por familia o por picor.</p></div>
+    <div class="sfilters" id="sfam"></div>
+    <div class="sfilters" id="sheat"></div>
+    <div class="sgrid" id="sgrid"></div>
+    <div class="roulette">
+      <div><h3 class="disp">¿No sabes cuál?</h3><p>Gira la ruleta y deja que Crunchy elija por ti.</p></div>
+      <div class="reel" aria-hidden="true"><div class="strip" id="strip"></div></div>
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap"><button class="pill cream" id="spin"><svg><use href="#i-dice"/></svg>Girar la ruleta</button><div class="rres" id="rres" aria-live="polite"></div></div>
+    </div>
+    <div class="dips">
+      <img src="img/bigdip.webp" alt="Vaso Crunchy Big Dipper" width="560" height="546" loading="lazy" decoding="async" />
+      <div><b class="disp" style="font-size:28px">Extra de salsa</b><div style="opacity:.8;font-size:14px">Crunchy Dip 2 oz <b>$25</b> · <span class="nuevo" style="margin:0 2px">Nuevo</span> Crunchy Big Dipper 12 oz <b>$84</b></div>
+        <div class="opts"><button class="pill cream" data-quick="dip2">+ Crunchy Dip $25</button><button class="pill ghost" data-quick="dip12">+ Big Dipper $84</button></div></div>
+    </div>
+  </div>
+  <div style="height:56px"></div>
+</section>
+
+<nav class="cats" id="menu" aria-label="Categorías del menú">
+  <div class="row">
+    <div class="scroll" id="cats"></div>
+    <label class="search" id="searchBox"><span class="sr">Buscar en el menú</span><svg><use href="#i-search"/></svg><input id="q" type="search" placeholder="Buscar…" autocomplete="off" /></label>
+  </div>
+</nav>
+<div class="wrap" id="sections"></div>
+<div class="wrap"><p class="noresults" id="noRes">No encontramos nada con esa palabra. Prueba con “boneless”, “burger” o “waffle”.</p></div>
+
+<section class="msec wrap" id="bebidas" data-cat="Bebidas">
+  <div class="mhead"><div><div class="k">Para acompañar</div><h2 class="disp"><span class="w"><span>Bebidas</span></span></h2></div></div>
+  <div class="tabs" id="dtabs" role="tablist">
+    <button class="on" data-t="cerv">Cervezas</button><button data-t="sin">Sin alcohol</button><button data-t="caraj">Carajillos</button>
+  </div>
+  <div class="tpanel on" id="t-cerv">
+    <div class="bottles" id="bottles"></div>
+    <div class="dcols" id="beerCols"></div>
+    <p class="legal">Prohibida la venta de bebidas alcohólicas a menores de edad.</p>
+  </div>
+  <div class="tpanel" id="t-sin"><div class="dcols" id="sinCols"></div></div>
+  <div class="tpanel" id="t-caraj">
+    <div class="excl">
+      <img src="img/hero-carajillo.webp" alt="Carajillo servido sobre una bola de nieve" width="820" height="815" loading="lazy" decoding="async" />
+      <div class="tx"><span class="flag y">Exclusivo de Cuatro Hojas y Distrito Sur</span><h4 class="disp" style="font-size:44px;margin:12px 0 6px">Crunchy carajillos</h4><p class="sub" style="color:#c9bda8;margin:0 0 10px">250 ml</p><div class="list" id="carajList"></div></div>
+    </div>
+    <p class="legal">Prohibida la venta de bebidas alcohólicas a menores de edad.</p>
+  </div>
+</section>
+</main>
+
+<section class="visit" id="contacto">
+  <img class="bigrooster" src="img/rooster.webp" alt="" width="420" height="389" loading="lazy" />
+  <div class="wrap">
+    <div class="kick">Te esperamos</div>
+    <h2 class="disp">Plaza <em>Cuatro Hojas</em></h2>
+    <div class="vgrid">
+      <div class="vcard">
+        <h3>Pedidos y dudas</h3>
+        <a class="ph" href="tel:+524494464730">449 446 4730</a>
+        <div class="vbtns">
+          <a class="pill wa" id="waDirect" href="https://wa.me/524494464730" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+          <a class="pill cream" href="tel:+524494464730"><svg><use href="#i-phone"/></svg>Llamar</a>
+          <a class="pill ghost" href="https://www.google.com/maps/search/?api=1&query=The+Crunchy+Corner+Plaza+Cuatro+Hojas+Aguascalientes" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Cómo llegar</a>
+          <a class="pill ghost" href="https://www.instagram.com/thecrunchycorner/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>@thecrunchycorner</a>
+        </div>
+        <p style="margin:16px 0 0;opacity:.85;font-size:14px">También a domicilio por Uber Eats.</p>
+      </div>
+      <div class="vcard">
+        <h3>Otras sucursales</h3>
+        <div class="others">
+          <div><span><b>Bosques</b> · matriz</span><a href="https://wa.me/524492436096" target="_blank" rel="noopener">449 243 6096</a></div>
+          <div><span><b>Plaza Distrito Sur</b></span><a href="https://wa.me/524492052670" target="_blank" rel="noopener">449 205 2670</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer><div class="wrap"><span><strong>The Crunchy Corner</strong> · Plaza Cuatro Hojas, Aguascalientes</span><span>Precios en pesos mexicanos, sujetos a cambio.</span><span>Diseño y desarrollo: <strong>LKM’r</strong></span></div></footer>
+
+<button class="fab" id="fab" aria-label="Ver mi orden"><svg width="22" height="22"><use href="#i-bag"/></svg><span id="fabTxt">Mi orden</span><span class="tot" id="fabTot">$0</span></button>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="addSheet" role="dialog" aria-modal="true" aria-labelledby="aTitle"><div class="grab"></div><button class="x" data-close aria-label="Cerrar"><svg><use href="#i-x"/></svg></button><div id="addBody"></div></div>
+<div class="sheet" id="cartSheet" role="dialog" aria-modal="true" aria-labelledby="cTitle"><div class="grab"></div><button class="x" data-close aria-label="Cerrar"><svg><use href="#i-x"/></svg></button><div id="cartBody"></div></div>
+<div class="story" id="story" role="dialog" aria-modal="true" aria-label="Promociones de la semana"><div class="frame"><div class="bars" id="sbars"></div><img id="simg" alt="" /><div class="nav"><button aria-label="Anterior" id="sprev"></button><button aria-label="Siguiente" id="snext"></button></div></div><button class="close" id="sclose" aria-label="Cerrar"><svg><use href="#i-x"/></svg></button></div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(()=>{
+'use strict';
+const WA='524494464730';
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const money=n=>'$'+n.toLocaleString('es-MX');
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const flame=on=>`<svg class="${on?'':'off'}"><use href="#i-flame"/></svg>`;
+const heat=n=>`<span class="heat" aria-label="Picor ${n} de 4">${[1,2,3,4].map(i=>flame(i<=n)).join('')}</span>`;
+
+/* ===== DATA (carta oficial The Crunchy Corner) ===== */
+const SAUCES=[
+ ['oc','Original Crunchy','Tipo buffalo',1,'Nuestra salsa insignia, estilo buffalo con un delicioso toque de mantequilla.'],
+ ['oc-xxx','Original Crunchy XXX','Tipo buffalo',3,'Todo el sabor de nuestra Original Crunchy, con un intenso toque de habanero.'],
+ ['oc-lemon','Original Crunchy Lemon Pepper','Tipo buffalo',1,'La salsa original con notas cítricas de limón y pimienta.'],
+ ['buffalo','Buffalo','Tipo buffalo',2,'La clásica salsa buffalo, ligeramente ácida y picosita.'],
+ ['buffalo-cream','Buffalo Cream','Cremosas',1,'Cremosa y diferente, con un ingrediente secreto que la convierte en la consentida.',1],
+ ['peanut','Peanut Sauce','Cremosas',3,'Cremosa salsa de cacahuate con chile de árbol, buffalo y un toque especial de la casa.',1],
+ ['habanero-xxx','Habanero XXX','Habanero puro',4,'Para los más valientes: todo el sabor del habanero con picor aún más extremo.',1],
+ ['mango-habanero','Mango Habanero','Habanero puro',3,'Salsa de mango ¡muy picosa! Perfecta, fresca e intensa para disfrutar.'],
+ ['teriyaki','Crunchy Teriyaki','Dulces y agridulces',1,'El lado oriental de Crunchy: salsa con base de soya, agridulce y con toque picosito.',1],
+ ['tamarindo','Tamarindo','Dulces y agridulces',1,'Deliciosa salsa de tamarindo, es dulce y no pica casi nadita.'],
+ ['chipotle-sweet','Chipotle Sweet','Dulces y agridulces',2,'El sabor del chipotle en una salsa agridulce, suave y ligeramente picosita.'],
+ ['honey-mustard','Honey Mustard','Dulces y agridulces',1,'La combinación perfecta de miel y mostaza, dulce y ligeramente picosita.'],
+ ['bbq','BBQ','Tipo BBQ',0,'Nuestra versión de la clásica BBQ, dulce, especiada y llena de sabor.'],
+ ['bbq-ahumada','BBQ Ahumada','Tipo BBQ',0,'El sabor dulce de nuestra BBQ con un irresistible toque ahumado.'],
+ ['bbq-diablo','BBQ Diablo','Tipo BBQ',3,'Nuestra BBQ dulce y ahumada con el picor intenso del habanero.'],
+ ['garlic-parmesan','Garlic Parmesan','Base parmesano',0,'Cremosa combinación de ajo y parmesano, de las favoritas de todo Crunchy.'],
+ ['spicy-green','Spicy Green Parmesan','Base parmesano',2,'Nuestra misteriosa salsa verde con parmesano y una mezcla secreta de especias.'],
+ ['buffalo-parmesan','Buffalo Parmesan','Base parmesano',0,'Una deliciosa combinación de parmesano con nuestra salsa original.'],
+].map(([id,n,f,h,d,nw])=>({id,n,f,h,d,nw:!!nw}));
+const SBY=Object.fromEntries(SAUCES.map(s=>[s.id,s]));
+
+const BIG=['Agrega un Crunchy Big Dipper 12 oz',84], DOUBLE=['Segunda pechuga de pollo',74];
+const CHG='Cambia la salsa por tu favorita';
+const MENU=[
+ {id:'entradas',cat:'Entradas',k:'En sus marcas, listos…',t:['¡Crunchy!'],hero:'hero-entradas',blob:'#f6d9a8',items:[
+  {n:'Crunchy Sampler',nw:1,p:314,d:'Un poco de todo: 4 aros de cebolla, 3 dedos de queso, 4 crunchy corn ribs, 5 jalapeño poppers, 150 g de papa gajo, 50 g de crunchy pickles, 1 dip de ranch, queso cheddar, buffalo cream y salsa marinara.',tip:CHG},
+  {n:'Cevichicken',p:124,img:'cevichicken',d:'250 g de nuestro ceviche de pollo fresco con cebolla, jitomate, limón y cilantro. Con aguacate, limones y tostadas.'},
+  {n:'Crunchy Pickles',nw:1,p:99,img:'pickles',d:'150 g de pepinillos empanizados y fritos con una ligera capa de ranch y cebollín. Con nuestra salsa Buffalo Cream.'},
+  {n:'Chimichangas',p:102,img:'chimichangas',d:'8 piezas de burritos fritos con tinga de pollo, con guacamole y pico de gallo.'},
+  {n:'Coliflor Crunchy',p:109,img:'coliflor',d:'250 g de coliflor empanizada y frita, con 3 sticks de zanahoria y 1 dip de salsa buffalo.'},
+  {n:'Papitas Crunchy Cambray',nw:1,p:119,d:'450 g de papitas cambray fritas bañadas con Peanut Sauce o Buffalo Cream y una capa de quesos mixtos. Con un dip de la misma salsa.',tip:CHG,ch:[['Peanut Sauce'],['Buffalo Cream']]},
+  {n:'Aros de cebolla',p:99,d:'10 aros de cebolla crujientes con 2 sticks de zanahoria y 1 dip de ranch.'},
+  {n:'Dedos de queso',p:124,d:'6 deditos de queso mozzarella con 3 sticks de zanahoria y 1 dip de salsa marinara.'},
+  {n:'Crunchy Corn Ribs',nw:1,p:114,d:'8 costillitas de elote sazonadas con sal y pimienta sobre papas a la francesa y 1 dip de ranch.',ex:[['Báñalas en tu salsa favorita',15]]},
+  {n:'Chicharrón de queso panela',p:119,d:'200 g de cubitos de queso panela empanizados y fritos, con guacamole y pico de gallo.'},
+  {n:'Jalapeño Poppers',nw:1,p:114,d:'250 g de crujientes bites de jalapeño rellenos de queso cheddar, con un dip de ranch.'},
+ ]},
+ {id:'fries',cat:'Fries',k:'Para los que aman la papa',t:['Fries','Lovers'],hero:'hero-fries',blob:'#ffd77a',items:[
+  {n:'Loaded Tender Fries',nw:1,p:139,d:'Bowl con base de papas a la francesa (300 g), pedacitos de tenders empanizados, quesos mixtos gratinados y bañado de salsa Buffalo Cream.'},
+  {n:'Papas Crunchy Queso y Chorizo',p:124,d:'300 g de papas a la francesa bañadas en queso cheddar con 12 palomitas de pollo empanizado y chorizo de pollo encima.'},
+  {n:'Papas Garlic Buffalo',p:139,d:'330 g de papa curly con 12 palomitas de pollo empanizadas y bañadas en buffalo y garlic parmesan.'},
+  {n:'Papas Crunchy Nacho',p:129,d:'146 g de Doritos® Nacho bañados en queso cheddar calientito con 12 palomitas de pollo empanizado y nuestra salsa Buffalo Parmesan.'},
+  {n:'Papas a la francesa',p:84,img:'papas-francesa',d:'300 g de papas a la francesa con 1 dip de catsup.'},
+  {n:'Papas gajo',p:94,img:'papas-gajo',d:'250 g de crujientes papas gajo con 1 dip de queso cheddar.'},
+ ]},
+ {id:'mac',cat:'Mac & Cheese',k:'Cremoso, crujiente, flamin’',t:['Mac &','Cheese','Lovers'],blob:'#ffcf6b',items:[
+  {n:'Mac & Burger Flamin',p:214,img:'hero-mac',cover:1,d:'Hamburguesa de pollo empanizado (230 g) bañada en salsa buffalo con una capa de Cheetos® Flamin Hot y 50 g de Mac & Cheese. Lleva ranch, con papas a la francesa, apio y zanahoria.'},
+  {n:'Mac & Fries Crunchy',p:189,img:'mac-fries',d:'200 g de Mac & Cheese con pedazos de pechuga empanizada bañada en buffalo, rodeado de papas a la francesa.'},
+  {n:'Crunchy Mac & Flamin',p:199,img:'mac-flamin',d:'200 g de Mac & Cheese con 12 palomitas de pollo empanizadas, bañadas en salsa buffalo y con una capa de Cheetos® Flamin Hot.'},
+  {n:'Crunchy Mac & Boneless',p:184,img:'mac-boneless',d:'200 g de Mac & Cheese con 12 palomitas de pollo empanizadas y bañadas en salsa buffalo.',tip:CHG,s:1},
+ ]},
+ {id:'ensaladas',cat:'Ensaladas',k:'Crunchy saludable',t:['Crunchy','Salads'],blob:'#d9e8b8',note:'Elige el tamaño: mediana con 115 g de pollo o grande con 230 g.',items:[
+  ['Ensalada Crunchy Buffalo','sal-buffalo','Pollo empanizado, tiritas de tortilla crujiente, queso chihuahua, pico de gallo, zanahoria rallada y salsa buffalo.'],
+  ['Ensalada Sophie','sal-sophie','Pollo a la plancha, queso de cabra, fresa, manzana, pedacitos de nuez y nuestro aderezo de dijón y miel.'],
+  ['Ensalada Southwest','sal-southwest','Pollo a la plancha, tiritas de tortilla crujiente, queso chihuahua, frijoles negros, pico de gallo, elote y salsa Buffalo Cream.',1],
+  ['Ensalada Crunchy Peanut','sal-peanut','Pollo empanizado, tiritas de tortilla crujiente, queso chihuahua, cacahuates, arándanos y Peanut Sauce.',1],
+  ['Ensalada Tropical','sal-tropical','Pollo a la plancha, tiritas de tortilla crujiente, queso panela, arándanos y aderezo de mango picosito.'],
+ ].map(([n,img,d,nw])=>({n,img,d,nw,o:[['Mediana · 115 g',164],['Grande · 230 g',189]],ex:[['Agrega 230 g de pollo',74]]}))},
+ {id:'wraps',cat:'Wraps',k:'¡Nuevos!',t:['Crunchy','Wraps'],blob:'#f6d9a8',items:[
+  {n:'Grilled Chicken Wrap',nw:1,p:179,img:'wrap-grilled',d:'Pollo a la plancha (230 g), lechuga, jitomate, aguacate, queso panela y ranch. Con 1 dip de Buffalo y papas a la francesa.',tip:CHG,s:1},
+  {n:'Buffalo Chicken Wrap',nw:1,p:179,img:'wrap-buffalo',d:'Pollo empanizado (230 g) bañado en salsa buffalo, lechuga, jitomate, quesos mixtos y ranch. Con 1 dip de ranch y papas a la francesa.'},
+  {n:'Crunchy Loaded Wrap',nw:1,p:184,img:'wrap-loaded',d:'Pollo empanizado (230 g) bañado en salsa Buffalo Cream, lechuga, papas a la francesa, quesos mixtos y cebolla crujiente. Con 1 dip de ranch y papas a la francesa.'},
+  {n:'Southwest Chicken Wrap',nw:1,p:179,img:'wrap-southwest',d:'Pollo a la plancha (230 g), lechuga, pico de gallo, quesos mixtos, elote, frijoles negros y aderezo ranch. Con 1 dip de Buffalo Cream y papas a la francesa.'},
+ ]},
+ {id:'pechugas',cat:'Pechugas',k:'Pechuga paradise',t:['Pechuga','Paradise'],blob:'#ffd77a',flags:['Make it double: segunda pechuga +$74'],items:[
+  {n:'Crunchy Pechuga Western',p:189,img:'pech-western',d:'Pechuga de pollo empanizada (230 g) sobre una cama de papa a la francesa bañada con salsa BBQ y cebolla crujiente.',ex:[DOUBLE]},
+  {n:'Crunchy Pechuga Peanut',nw:1,p:189,img:'pech-peanut',d:'Pechuga de pollo empanizada (230 g) sobre una cama de papa a la francesa bañada con Peanut Sauce y coronada con cacahuate y cebollín.',ex:[DOUBLE]},
+  {n:'Crunchy Pechuga Garlic Buffalo',p:189,img:'pech-garlic',d:'Pechuga de pollo empanizada (230 g) sobre una cama de papa curly bañada en salsa buffalo y garlic parmesan.',ex:[DOUBLE]},
+  {n:'Crunchy Pechuga Original',p:179,img:'pech-original',d:'Pechuga de pollo empanizada (230 g) con papas a la francesa, sticks de apio y zanahoria, dip de ranch y dip de tu salsa favorita.',s:1,ex:[BIG]},
+  {n:'Crunchy Pechuga Fit',p:179,img:'pech-fit',d:'Pechuga de pollo a la plancha (230 g) con un side de ensalada, queso panela, pico de gallo y un dip de salsa Buffalo.',tip:CHG,s:1},
+ ]},
+ {id:'pollo',cat:'Fried Chicken',k:'Pollo frito para el alma',t:['Fried','Chicken'],hero:'hero-chicken',blob:'#ffcf6b',flags:['Make it big: Big Dipper 12 oz +$84'],items:[
+  {n:'Crunchy Pollo',img:'pollo',d:'Crujientes piezas de pollo frito con papas a la francesa, sticks de zanahoria y 1 dip de tu salsa favorita.',o:[['Snack · 2 pz',104],['Personal · 3 pz',139],['Compartir · 6 pz',259],['Familiar · 8 pz',314]],s:1,ex:[['Pieza extra',43],BIG]},
+ ]},
+ {id:'tenders',cat:'Tenders',k:'¡Nueva!',t:['Tender','Mania'],hero:'hero-tenders',blob:'#f6d9a8',items:[
+  {n:'Crunchy Tenders',img:'tenders',d:'Tiritas de pollo empanizadas con papas a la francesa, sticks de apio y zanahoria, dip de ranch y dip de tu salsa favorita.',o:[['Personales · 4 pz',159],['Jumbo · 6 pz',209]],s:1,ex:[BIG]},
+  {n:'Chicken n Waffles',nw:1,p:149,img:'waffles',d:'3 Crunchy Tenders servidos con un waffle, miel de maple y mantequilla, con papas a la francesa.'},
+  {n:'Crunchy Tender Box',nw:1,p:469,img:'tender-box',d:'12 Crunchy Tenders con papas a la francesa, 2 trozos de pan brioche, sticks de apio y zanahoria y un Crunchy Big Dipper (12 oz) de Buffalo Cream. Para compartir de 3 a 4 personas.',tip:CHG,ch:SAUCES.map(s=>[s.n]),chDef:'Buffalo Cream'},
+ ]},
+ {id:'boneless',cat:'Boneless',k:'Nuestra crunchy especialidad',t:['Boneless'],blob:'#ffd0a1',flags:['Bañados en cualquiera de las 18 salsas','Make it big +$84'],items:[
+  {n:'Boneless',img:'boneless',d:'¡Nuestra especialidad! Boneless grandes y jugosos bañados con cualquiera de nuestras 18 salsas, con papas a la francesa, sticks de apio y zanahoria y un dip de ranch.',o:[['Snack · 5 pz (250 g)',154],['Personales · 7 pz (350 g)',189],['Jumbo · 10 pz (500 g)',239],['Dobles · 15 pz (750 g)',334]],s:1,ex:[BIG]},
+  {n:'Boneless Nacho',nw:1,img:'boneless-nacho',d:'Boneless bañados en salsa buffalo cubiertos con una capa de Doritos® Nacho, con papas a la francesa, sticks de apio y zanahoria y un dip de ranch.',o:[['Snack · 5 pz',179],['Personales · 7 pz',221],['Jumbo · 10 pz',284]],ex:[BIG]},
+  {n:'Boneless Flamin Hot',img:'boneless-flamin',d:'Boneless bañados en salsa buffalo y cubiertos con una capa de Cheetos® Flamin Hot, con papas a la francesa, sticks de apio y zanahoria y un dip de ranch.',o:[['Snack · 5 pz',174],['Personales · 7 pz',217],['Jumbo · 10 pz',279]],ex:[BIG]},
+ ]},
+ {id:'alitas',cat:'Alitas',k:'Jugosas y deliciosas',t:['Alitas','& Box'],hero:'hero-alitas',blob:'#ffc49a',items:[
+  {n:'Alitas',d:'Jugosas alitas bañadas en tu salsa favorita, con sticks de apio y zanahoria y un dip de ranch.',o:[['Snack · 10 pz',159],['Personales · 14 pz',204],['Compartir · 28 pz',389],['Jumbo · 40 pz',534]],s:1,ex:[['Side de papas a la francesa',34],BIG]},
+  {n:'Crispy Wings',img:'crispy-wings',d:'El sabor de nuestras alitas con el empanizado único de Crunchy. Alitas empanizadas y fritas, con papas a la francesa, un dip de tu salsa favorita y un dip de ranch.',o:[['Personales · 10 pz',174],['Compartir · 14 pz',234],['Jumbo · 28 pz',449]],s:1,ex:[BIG]},
+  {n:'Crunchy Box 1',p:614,img:'crunchy-box',d:'Nuestro box preferido: 30 boneless (1.5 kg) con papas a la francesa, sticks de apio y zanahoria, 2 dips de ranch y ¡hasta 3 de tus salsas favoritas!',s:3},
+  {n:'Crunchy Box 2',p:519,d:'Mitad y mitad: 15 boneless (750 g) y 15 alitas (675 g) con papas a la francesa, 2 dips de ranch, sticks de apio y zanahoria. 2 salsas para alitas y 2 para boneless.',s:4},
+ ]},
+ {id:'burgers',cat:'Burgers',k:'Todas incluyen papas a la francesa',t:['The','Crunchy','Burgers'],blob:'#ffd77a',flags:['¡Incluye papas!','Make it double +$74'],items:[
+  {n:'Original Crunchy Burger',p:184,img:'burger-original',d:'Pollo empanizado (230 g) bañado en nuestra salsa Original Crunchy, jitomate, lechuga, queso manchego y aderezo ranch.',tip:CHG,s:1,ex:[DOUBLE]},
+  {n:'Special Onion Chicken Burger',p:199,img:'burger-onion',d:'Pollo empanizado (230 g) bañado en salsa Original Crunchy, dos aros de cebolla, dos dedos de queso mozzarella, lechuga y aderezo ranch.',tip:CHG,s:1,ex:[DOUBLE]},
+  {n:'Special Choriqueso Chicken Burger',p:199,img:'burger-choriqueso',d:'Pollo empanizado (230 g), una cama de queso chihuahua y chorizo de pollo, lechuga, aderezo ranch y 1 dip de salsa Spicy Green Parmesan.',ex:[DOUBLE]},
+  {n:'Special Western Chicken Burger',p:199,img:'burger-western',d:'Pollo empanizado (230 g) con salsa BBQ, cebolla crunchy, ranch, queso manchego y lechuga.',ex:[DOUBLE]},
+  {n:'Special Guacamole Chicken Burger',p:204,img:'burger-guac',d:'Pollo empanizado (230 g), guacamole hecho al momento, una cama de queso chihuahua, jitomate, lechuga, ranch y crujientes tiras de tortilla.',ex:[DOUBLE]},
+ ]},
+ {id:'sandwiches',cat:'Sandwiches',k:'¡Nuevos!',t:['The','Crunchy','Sandwiches'],blob:'#f6d9a8',flags:['Make it double +$74'],items:[
+  {n:'Buffalo Cheese Sandwich',nw:1,p:189,img:'sand-buffalo',d:'Pan de caja artesanal con 230 g de pechuga empanizada bañada en salsa buffalo, tocino, queso amarillo americano y pepinillos. Con papas a la francesa y un dip de ranch.',ex:[DOUBLE]},
+  {n:'Western Chicken Sandwich',nw:1,p:184,img:'sand-western',d:'Pan de caja artesanal con 230 g de pechuga empanizada con salsa BBQ, tocino, queso manchego, lechuga y cebolla crunchy. Con papas a la francesa.',ex:[DOUBLE]},
+  {n:'Grilled Chicken Sandwich',nw:1,p:184,img:'sand-grilled',d:'Pan de caja artesanal con 230 g de pechuga a la plancha, lechuga, jitomate, tocino, aguacate y queso panela. Con sticks de apio y zanahoria y un dip de salsa Buffalo.',tip:CHG,s:1,ex:[DOUBLE]},
+ ]},
+ {id:'pollitos',cat:'Pollitos',k:'Menú para los pollitos',t:['Pollitos'],blob:'#cfe6f5',flags:['Bebida gratis: limonada o naranjada'],note:'Todos los platillos incluyen una bebida para el pollito (limonada o naranjada).',items:[
+  {n:'Crunchy Tendersitos',p:109,img:'pollitos-tenders',d:'3 Crunchy Tenders con papas a la francesa y catsup.',ch:[['Limonada'],['Naranjada']]},
+  {n:'Crunchy Pechuguita',nw:1,p:109,img:'pollitos-pechuguita',d:'115 g de pechuga de pollo a la plancha con queso panela, papas a la francesa y un dip de salsa BBQ.',ch:[['Limonada'],['Naranjada']]},
+  {n:'Nuggets Polluelos',p:99,img:'pollitos-nuggets',d:'7 nuggets de pollo con papas a la francesa y catsup.',ch:[['Limonada'],['Naranjada']]},
+ ]},
+ {id:'postres',cat:'Postres',k:'Pa’ cerrar con broche de oro',t:['Postres'],blob:'#e9d3c0',items:[
+  {n:'Waffle de Nutella®',p:104,img:'waffle-nutella',d:'Nuestro clásico waffle con Nutella®, chocolate líquido y dos bolas de helado de vainilla o chocolate.',ch:[['Helado de vainilla'],['Helado de chocolate']]},
+  {n:'Ferrero Bites',nw:1,p:139,img:'ferrero',d:'5 Ferrero Rocher® capeados y fritos con nieve de vainilla, una capa de azúcar glass y chocolate líquido.'},
+  {n:'Peanut Butter Oreo Corner',nw:1,p:129,img:'oreo-pb',d:'Nuestras 6 Oreos® Corner con peanut butter dentro, con nieve de vainilla y bañadas con chocolate líquido.'},
+  {n:'Oreos Corner',p:119,img:'oreos',d:'6 Oreos® capeadas con nuestra masa especial y fritas, con nieve de vainilla y bañadas con chocolate líquido.'},
+ ]},
+];
+const DRINKS={
+ beers:[{h:'Cervezas nacionales',sub:'325 ml',items:[['Carta Blanca',59],['Indio',59],['XX Lager',59],['XX Ámbar',59],['Tecate Light',59],['Cubeta 6 pz nacional',329]]},
+        {h:'Cervezas premium',sub:'355 ml',items:[['Bohemia Clara',67],['Bohemia Oscura',67],['Bohemia Cristal',67],['Miller High Life',67,1],['Ultra',67],['Heineken',67],['Cubeta 6 pz premium',359]]},
+        {h:'Vasos preparados',sub:'Para tu cerveza',items:[['Clamato',52],['Gringo',29],['Michelado',20],['Chelado',15]]}],
+ sin:[{h:'Limonadas',sub:'470 ml',items:[['Limonada de limón',54],['Naranjada',54],['Limonada de fresa',59],['Limonada de mango',59],['Limonada de frutos rojos',59],['Limonada de lavanda',59]]},
+      {h:'Jarras de limonada',sub:'1.6 l',items:[['Jarra de limón',174],['Jarra de naranjada',174],['Jarra de fresa',194],['Jarra de mango',194],['Jarra de frutos rojos',194]]},
+      {h:'Refrescos',sub:'355 ml',items:[['Coca-Cola',54],['Coca-Cola Light',54],['Coca-Cola Zero',54],['Sprite',54],['Sidral Mundet',54]]},
+      {h:'Otras bebidas',sub:'',items:[['Agua natural 600 ml',44],['Agua mineral 355 ml',52],['Fuze Tea 600 ml',54],['Café americano 270 ml',54],['Chocolate caliente 270 ml',54]]}],
+ caraj:[['Carajillo',129],['Carajillo Baileys',139],['Carajillo Affogato',149,0,'1 shot de espresso y licor 43 servidos sobre 1 bola de nieve.']],
+};
+const PROMOS=[
+ {d:'Domingo',k:'domingo',t:'Domingo de postre',w:'Compra una entrada + dos platillos fuertes y <b>te regalamos un waffle de Nutella</b>.'},
+ {d:'Lunes',k:'lunes',t:'Lunes de combo',w:'<b>$179</b>: Crunchy Pechuga o cualquier ensalada grande + limonada o naranjada + bola de nieve.'},
+ {d:'Martes',k:'martes',t:'Martes de alitas',w:'<b>30 alitas por $319</b>. Cerveza a <b>$29</b> (cervezas participantes).'},
+ {d:'Miércoles',k:'miercoles',t:'Miércoles de burgers',w:'<b>20% de descuento</b> en todas las burgers.'},
+ {d:'Jueves',k:'jueves',t:'Jueves de boneless',w:'Piezas de regalo: Snack 5 pz <b>+2</b>, Personales 7 pz <b>+3</b>, Jumbo 10 pz <b>+4</b>, Dobles 15 pz <b>+6</b>. 3x2 en todas las presentaciones (solo en piezas de boneless).'},
+ {d:'Viernes',k:'viernes',t:'Viernes de tenders',w:'Piezas de regalo: Personales 4 pz <b>+2</b>, Jumbo 6 pz <b>+3</b>. Cerveza a <b>$29</b> (cervezas participantes).'},
+ {d:'Sábado',k:'sabado',t:'Sábado de bebida gratis',w:'Pide una ensalada grande o hamburguesa y <b>te regalamos una limonada o naranjada</b>.'},
+];
+
+/* ===== helpers ===== */
+let uid=0;
+const ITEMS={};
+MENU.forEach(sec=>sec.items.forEach(it=>{it.id='i'+(++uid);it.sec=sec;ITEMS[it.id]=it;}));
+const priceOf=(it,oi)=>it.o?it.o[oi||0][1]:it.p;
+const img=(src,alt,w,h,cls='')=>`<img class="${cls}" src="img/${src}.webp" alt="${esc(alt)}" loading="lazy" decoding="async"${w?` width="${w}" height="${h}"`:''} />`;
+const plus='<svg><use href="#i-plus"/></svg>';
+document.documentElement.style.setProperty('--bowl',`url("data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 18"><path d="M1 6h22l-3 10H4z"/><path d="M8 5c0-3 8-3 8 0z"/></svg>')}")`);
+
+/* ===== hero ===== */
+$$('[data-split]').forEach(el=>{let i=0;el.innerHTML=[...el.textContent].map(c=>c===' '?'<span class="ch">&nbsp;</span>':`<span class="ch" style="--i:${i++}">${esc(c)}</span>`).join('');});
+const mq=['En sus marcas, listos… ¡Crunchy!','18 salsas originales','Dip · Make · Crunch','Boneless','Tender Mania','Fries Lovers','Make it big!','Pechuga Paradise'];
+$('#marq').innerHTML=[...mq,...mq].map(t=>`<span>${t}</span>`).join('');
+
+/* ===== promos ===== */
+const tz=()=>{try{return new Date(new Date().toLocaleString('en-US',{timeZone:'America/Mexico_City'}));}catch(e){return new Date();}};
+const today=tz().getDay();
+let pSel=today;
+const days=$('#days');
+const order=[1,2,3,4,5,6,0];
+days.innerHTML=order.map(i=>`<button role="tab" data-d="${i}" class="${i===today?'is-today':''}">${PROMOS[i].d.slice(0,3)}<small>${i===today?'hoy':PROMOS[i].t.split(' de ')[1]||''}</small></button>`).join('');
+function showPromo(i,anim){
+  pSel=i;const p=PROMOS[i];
+  $$('button',days).forEach(b=>{const on=+b.dataset.d===i;b.classList.toggle('on',on);b.setAttribute('aria-selected',on);});
+  const im=$('#flyerImg');
+  const set=()=>{im.src=`img/promo-${p.k}.webp`;im.alt=`${p.t}. ${p.w.replace(/<[^>]+>/g,'')}`;};
+  if(anim&&!reduce){im.animate([{opacity:1,transform:'scale(1)'},{opacity:0,transform:'scale(.96)'}],{duration:180}).onfinish=()=>{set();im.animate([{opacity:0,transform:'scale(1.06)'},{opacity:1,transform:'scale(1)'}],{duration:420,easing:'cubic-bezier(.22,1,.36,1)'});};}else set();
+  $('#flyerTag').textContent=i===today?'Hoy':p.d;
+  $('#pDay').textContent=p.t;$('#pWhat').innerHTML=p.w;
+  $('#clock').style.visibility=i===today?'visible':'hidden';
+}
+days.addEventListener('click',e=>{const b=e.target.closest('button');if(b)showPromo(+b.dataset.d,true);});
+showPromo(today,false);
+function tickClock(){const n=tz();const m=(23-n.getHours())*60+(59-n.getMinutes());$('#clock span').textContent=`Válida hoy · termina en ${Math.floor(m/60)} h ${m%60} min`;}
+tickClock();setInterval(tickClock,30000);
+
+/* story viewer */
+let sIdx=0,sTimer;
+const story=$('#story');
+$('#sbars').innerHTML=order.map(()=>'<i><b></b></i>').join('');
+function sGo(n){
+  if(n<0)n=0;if(n>6){closeStory();return;}
+  sIdx=n;const p=PROMOS[order[n]];$('#simg').src=`img/promo-${p.k}.webp`;$('#simg').alt=p.t;
+  $$('#sbars i').forEach((b,j)=>{b.className=j<n?'done':'';});
+  const cur=$$('#sbars i')[n];void cur.offsetWidth;cur.className='run';
+  clearTimeout(sTimer);sTimer=setTimeout(()=>sGo(sIdx+1),5000);
+}
+function openStory(){story.classList.add('on');document.body.style.overflow='hidden';sGo(order.indexOf(pSel));}
+function closeStory(){story.classList.remove('on');document.body.style.overflow='';clearTimeout(sTimer);}
+$('#flyer').addEventListener('click',openStory);
+$('#sprev').addEventListener('click',()=>sGo(sIdx-1));$('#snext').addEventListener('click',()=>sGo(sIdx+1));$('#sclose').addEventListener('click',closeStory);
+
+/* ===== sauces ===== */
+const fams=['Todas',...new Set(SAUCES.map(s=>s.f))];
+let fSel='Todas',hSel=-1;
+$('#sfam').innerHTML=fams.map((f,i)=>`<button class="chip ${i?'':'on'}" data-f="${f}">${f}</button>`).join('');
+$('#sheat').innerHTML=[['Cualquier picor',-1],['Sin picor',0],['Toque picosito',1],['Picor rico',2],['Uy, sí pica',3],['¡Aguas! Valientes',4]].map(([l,v],i)=>`<button class="chip ${i?'':'on'}" data-h="${v}">${v>0?heat(v):''}${l}</button>`).join('');
+$('#sgrid').innerHTML=SAUCES.map((s,i)=>`<button class="sauce rv" style="--k:${i%6}" data-s="${s.id}" data-f="${s.f}" data-h="${s.h}">${s.nw?'<span class="nuevo nw">Nuevo</span>':''}<div class="bowl in">${img('s-'+s.id,s.n,220,220)}</div><div class="in"><b>${s.n}</b><span class="fam">${s.f}</span>${heat(s.h)}</div></button>`).join('');
+function filterSauces(){$$('.sauce').forEach(b=>b.classList.toggle('hide',!((fSel==='Todas'||b.dataset.f===fSel)&&(hSel<0||+b.dataset.h===hSel))));}
+$('#sfam').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;fSel=b.dataset.f;$$('#sfam .chip').forEach(c=>c.classList.toggle('on',c===b));filterSauces();});
+$('#sheat').addEventListener('click',e=>{const b=e.target.closest('.chip');if(!b)return;hSel=+b.dataset.h;$$('#sheat .chip').forEach(c=>c.classList.toggle('on',c===b));filterSauces();});
+$('#sgrid').addEventListener('click',e=>{const b=e.target.closest('.sauce');if(b)openSauce(b.dataset.s);});
+
+/* roulette */
+const strip=$('#strip');let reelList=[],spinning=false;
+function buildReel(){reelList=[];for(let r=0;r<6;r++)SAUCES.forEach(s=>reelList.push(s));strip.innerHTML=reelList.map(s=>img('s-'+s.id,'',100,100)).join('');}
+buildReel();
+const STEP=112;
+function centerOn(idx,instant){const reel=strip.parentElement;const x=reel.clientWidth/2-(idx*STEP+50);strip.style.transition=instant?'none':'transform 3.6s cubic-bezier(.12,.75,.16,1)';strip.style.transform=`translateX(${x}px)`;}
+requestAnimationFrame(()=>centerOn(4,true));
+$('#spin').addEventListener('click',()=>{
+  if(spinning)return;spinning=true;$('#rres').textContent='';
+  centerOn(Math.floor(Math.random()*SAUCES.length),true);void strip.offsetWidth;
+  const win=Math.floor(Math.random()*SAUCES.length),target=SAUCES.length*4+win;
+  centerOn(target,reduce);
+  setTimeout(()=>{spinning=false;const s=SAUCES[win];$('#rres').innerHTML=`Te toca: <b>${s.n}</b> ${heat(s.h)}`;
+    const card=$(`.sauce[data-s="${s.id}"]`);if(card&&!card.classList.contains('hide')){card.classList.remove('win');void card.offsetWidth;card.classList.add('win');setTimeout(()=>card.classList.remove('win'),2200);}
+    const r=strip.parentElement.getBoundingClientRect();burst(r.left+r.width/2,r.top+r.height/2,26);},reduce?50:3700);
+});
+
+/* ===== menu render ===== */
+const cats=$('#cats');
+cats.innerHTML=MENU.map(s=>`<a href="#${s.id}" data-c="${s.id}">${s.cat}</a>`).join('')+'<a href="#bebidas" data-c="bebidas">Bebidas</a>';
+function card(it,i){
+  const hasImg=!!it.img;
+  const pr=priceOf(it,0);
+  return `<article class="card rv ${hasImg?'':'noimg'}" style="--k:${i%3};--blob:${it.sec.blob}" data-id="${it.id}" data-q="${esc((it.n+' '+it.d+' '+it.sec.cat).toLowerCase())}">
+   <div>${it.nw?'<span class="nuevo">Nuevo</span>':''}<h3>${esc(it.n)}</h3><p class="d">${esc(it.d)}</p></div>
+   ${hasImg?`<div class="ph">${it.cover?`<img src="img/${it.img}.webp" alt="${esc(it.n)}" loading="lazy" decoding="async" style="border-radius:18px;max-height:none;object-fit:cover;aspect-ratio:1/.82;width:100%">`:img(it.img,it.n)}</div>`:''}
+   ${it.o?`<div class="sizes">${it.o.map((o,j)=>`<button class="${j?'':'on'}" data-oi="${j}">${esc(o[0].split(' · ')[0])}<small>${esc(o[0].split(' · ')[1]||'')}</small></button>`).join('')}</div>`:''}
+   ${it.tip?`<div class="tip">${esc(it.tip)}</div>`:''}
+   <div class="meta"><span class="price">${money(pr)}</span><button class="add" data-add="${it.id}" aria-label="Agregar ${esc(it.n)}">${plus}Agregar</button></div>
+  </article>`;
+}
+$('#sections').innerHTML=MENU.map(sec=>`
+ <section class="msec" id="${sec.id}" data-cat="${sec.cat}">
+  <div class="mhead ${sec.hero?'has-hero':''}">
+   <div><div class="k">${esc(sec.k)}</div><h2 class="disp">${sec.t.map(w=>`<span class="w"><span>${esc(w)}</span></span>`).join(' ')}</h2>
+    ${sec.note?`<p class="note">${esc(sec.note)}</p>`:''}
+    ${sec.flags?`<div class="flags">${sec.flags.map(f=>`<span class="flag">${esc(f)}</span>`).join('')}</div>`:''}</div>
+   ${sec.hero?`<div class="mhero">${img(sec.hero,sec.cat)}</div>`:''}
+  </div>
+  <div class="grid">${sec.items.map(card).join('')}</div>
+ </section><div class="tiles" aria-hidden="true" style="margin-top:44px;border-radius:8px"></div>`).join('');
+
+/* sizes */
+$('#sections').addEventListener('click',e=>{
+  const sb=e.target.closest('.sizes button');
+  if(sb){const c=sb.closest('.card');$$('.sizes button',c).forEach(b=>b.classList.toggle('on',b===sb));const pr=$('.price',c);pr.textContent=money(priceOf(ITEMS[c.dataset.id],+sb.dataset.oi));pr.classList.remove('tick');void pr.offsetWidth;pr.classList.add('tick');return;}
+  const ab=e.target.closest('[data-add]');
+  if(ab){const c=ab.closest('.card');const on=$('.sizes .on',c);openAdd(ab.dataset.add,on?+on.dataset.oi:0,c);}
+});
+
+/* drinks */
+const bot=[['beer-carta',1],['beer-indio',.95],['beer-xx',1],['beer-bohemia',.88],['beer-miller',1.02],['beer-heineken',1]];
+$('#bottles').innerHTML=bot.map(([b,h],k)=>`<img src="img/${b}.webp" alt="" loading="lazy" decoding="async" style="--h:${Math.round(170*h)}px;--k:${k}">`).join('');
+const dItem=(sec,[n,p,nw,sub])=>`<div class="li"><span class="nm">${esc(n)}${nw?' <span class="nuevo" style="margin:0 0 0 4px">Nuevo</span>':''}${sub?`<small>${esc(sub)}</small>`:''}</span><span class="dots"></span><span class="pr">${money(p)}</span><button class="mini" data-drink="${esc(sec)}|${esc(n)}|${p}" aria-label="Agregar ${esc(n)}">${plus}</button></div>`;
+const dBox=g=>`<div class="dbox"><h4>${esc(g.h)}</h4>${g.sub?`<p class="sub">${esc(g.sub)}</p>`:''}<div class="list">${g.items.map(i=>dItem(g.h,i)).join('')}</div></div>`;
+$('#beerCols').innerHTML=DRINKS.beers.map(dBox).join('');
+$('#sinCols').innerHTML=DRINKS.sin.map(dBox).join('');
+$('#carajList').innerHTML=DRINKS.caraj.map(i=>dItem('Carajillos',i)).join('');
+$('#dtabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;$$('#dtabs button').forEach(x=>x.classList.toggle('on',x===b));$$('.tpanel').forEach(p=>p.classList.toggle('on',p.id==='t-'+b.dataset.t));});
+$('#bebidas').addEventListener('click',e=>{const b=e.target.closest('[data-drink]');if(!b)return;const [g,n,p]=b.dataset.drink.split('|');addLine({n,sec:g,price:+p,opts:[]},b);});
+
+/* ===== reveal + scroll spy + parallax ===== */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('seen');io.unobserve(e.target);}}),{rootMargin:'0px 0px -8% 0px',threshold:.12});
+$$('.rv,.mhead,#bottles').forEach(el=>io.observe(el));
+const links=$$('#cats a');
+const spy=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const id=e.target.id;links.forEach(a=>{const on=a.dataset.c===id;a.classList.toggle('on',on);if(on)a.scrollIntoView({block:'nearest',inline:'center',behavior:reduce?'auto':'smooth'});});}}),{rootMargin:'-45% 0px -50% 0px'});
+$$('.msec').forEach(s=>spy.observe(s));
+const bar=$('#bar'),heroes=$$('.mhero img');let ticking=false;
+const setBarH=()=>document.documentElement.style.setProperty('--barh',bar.offsetHeight+'px');setBarH();addEventListener('resize',setBarH);
+function onScroll(){
+  ticking=false;const y=scrollY;bar.classList.toggle('solid',y>innerHeight*.55);
+  $('#fab').classList.toggle('on',cart.length>0&&y>innerHeight*.6);
+  if(reduce)return;
+  for(const im of heroes){const r=im.parentElement.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)continue;im.style.setProperty('--py',((r.top+r.height/2-innerHeight/2)*-.12-r.height*.1)+'px');}
+}
+addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(onScroll);}},{passive:true});
+
+/* search */
+const q=$('#q');
+q.addEventListener('input',()=>{
+  const v=q.value.trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+  $('#searchBox').classList.toggle('has',!!v);let any=false;
+  $$('.msec[id]:not(#bebidas)').forEach(sec=>{let n=0;$$('.card',sec).forEach(c=>{const m=!v||c.dataset.q.normalize('NFD').replace(/[̀-ͯ]/g,'').includes(v);c.style.display=m?'':'none';if(m){n++;c.classList.add('seen');}});sec.classList.toggle('hide',!n);const t=sec.nextElementSibling;if(t)t.style.display=n?'':'none';if(n)any=true;});
+  $('#bebidas').classList.toggle('hide',!!v);$('#noRes').classList.toggle('on',!any);
+  if(v)$('#menu').scrollIntoView({behavior:reduce?'auto':'smooth'});
+});
+
+/* ===== cart ===== */
+let cart=[];
+try{cart=JSON.parse(localStorage.getItem('crunchy-cart')||'[]');if(!Array.isArray(cart))cart=[];}catch(e){cart=[];}
+const save=()=>{try{localStorage.setItem('crunchy-cart',JSON.stringify(cart));}catch(e){}};
+const lineTotal=l=>l.price*l.qty;
+const cartTotal=()=>cart.reduce((a,l)=>a+lineTotal(l),0);
+function refresh(){
+  const n=cart.reduce((a,l)=>a+l.qty,0);const el=$('#cartN');el.textContent=n;el.classList.toggle('on',n>0);
+  $('#fabTot').textContent=money(cartTotal());$('#fabTxt').textContent=n===1?'1 producto':n+' productos';
+  onScroll();save();
+}
+function addLine(l,from){
+  const key=l.n+'|'+l.opts.join('|');const ex=cart.find(c=>c.key===key);
+  if(ex)ex.qty+=l.qty||1;else cart.push({...l,key,qty:l.qty||1});
+  refresh();toast(`¡Listo! ${l.n} va en tu orden`);
+  const b=$('#cartBtn');b.classList.remove('bump');void b.offsetWidth;b.classList.add('bump');
+  if(from){const r=from.getBoundingClientRect();burst(r.left+r.width/2,r.top+r.height/2,14);}
+}
+function toast(t){const el=$('#toast');el.textContent=t;el.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.remove('on'),1800);}
+function burst(x,y,n){
+  if(reduce)return;const cols=['#ffb81c','#f26b1d','#b3141c','#2e3234','#f8ecd9'];
+  for(let i=0;i<n;i++){const d=document.createElement('i');d.className='crumb';d.style.cssText=`left:${x}px;top:${y}px;background:${cols[i%5]}`;document.body.appendChild(d);
+    const a=Math.random()*Math.PI*2,v=50+Math.random()*90;d.animate([{transform:'translate(-50%,-50%) rotate(0)',opacity:1},{transform:`translate(${Math.cos(a)*v}px,${Math.sin(a)*v+60}px) rotate(${Math.random()*540}deg) scale(.4)`,opacity:0}],{duration:700+Math.random()*400,easing:'cubic-bezier(.2,.8,.3,1)'}).onfinish=()=>d.remove();}
+}
+function flyTo(srcImg){
+  if(reduce||!srcImg)return;const r=srcImg.getBoundingClientRect();if(!r.width)return;const t=$('#cartBtn').getBoundingClientRect();
+  const f=srcImg.cloneNode();f.className='flyimg';f.removeAttribute('loading');f.style.cssText=`left:${r.left}px;top:${r.top}px;width:${r.width}px;height:${r.height}px`;document.body.appendChild(f);
+  requestAnimationFrame(()=>{f.style.transform=`translate(${t.left+t.width/2-r.left-r.width/2}px,${t.top+t.height/2-r.top-r.height/2}px) scale(.12) rotate(200deg)`;f.style.opacity='.4';});
+  setTimeout(()=>f.remove(),800);
+}
+
+/* sheets */
+const scrim=$('#scrim');let openSheet=null,lastFocus=null;
+function sheet(el){lastFocus=document.activeElement;if(openSheet&&openSheet!==el)openSheet.classList.remove('on');openSheet=el;el.classList.add('on');scrim.classList.add('on');document.body.style.overflow='hidden';setTimeout(()=>{const f=$('.x',el);f&&f.focus({preventScroll:true});},60);}
+function closeSheets(){if(!openSheet)return;openSheet.classList.remove('on');scrim.classList.remove('on');document.body.style.overflow='';openSheet=null;lastFocus&&lastFocus.focus&&lastFocus.focus({preventScroll:true});}
+scrim.addEventListener('click',closeSheets);$$('[data-close]').forEach(b=>b.addEventListener('click',closeSheets));
+addEventListener('keydown',e=>{if(e.key==='Escape'){closeSheets();closeStory();}if(story.classList.contains('on')){if(e.key==='ArrowRight')sGo(sIdx+1);if(e.key==='ArrowLeft')sGo(sIdx-1);}});
+let sy0=null;[$('#addSheet'),$('#cartSheet')].forEach(s=>{s.addEventListener('touchstart',e=>{sy0=s.scrollTop<=0?e.touches[0].clientY:null;},{passive:true});s.addEventListener('touchend',e=>{if(sy0!=null&&e.changedTouches[0].clientY-sy0>90)closeSheets();sy0=null;},{passive:true});});
+
+/* add sheet */
+let A=null;
+function needsSheet(it){return it.o||it.s||it.ex||it.ch;}
+function openAdd(id,oi,cardEl){
+  const it=ITEMS[id];
+  if(!needsSheet(it)){addLine({n:it.n,sec:it.sec.cat,price:it.p,opts:[]},cardEl&&$('.add',cardEl));flyTo(cardEl&&$('.ph img',cardEl));return;}
+  A={it,oi:oi||0,ex:new Set(),sauces:[],ch:it.ch?(it.chDef||it.ch[0][0]):null,qty:1,cardEl};
+  renderAdd();sheet($('#addSheet'));
+}
+function addPrice(){const it=A.it;let p=priceOf(it,A.oi);it.ex&&it.ex.forEach((e,i)=>{if(A.ex.has(i))p+=e[1];});return p;}
+function renderAdd(){
+  const it=A.it;const ns=it.s||0;
+  $('#addBody').innerHTML=`
+   <h3 id="aTitle">${esc(it.n)}</h3><p style="margin:6px 0 0;color:var(--mute);font-size:14px">${esc(it.d)}</p>
+   ${it.o?`<div class="lbl">Tamaño</div>${it.o.map((o,j)=>`<button class="opt ${j===A.oi?'on':''}" data-aoi="${j}"><i class="box"></i>${esc(o[0])}<span>${money(o[1])}</span></button>`).join('')}`:''}
+   ${ns?`<div class="lbl">${ns>1?`Elige hasta ${ns} salsas`:'Elige tu salsa'} <b style="color:var(--red)">${A.sauces.length}/${ns}</b></div><div class="spick">${SAUCES.map(s=>{const on=A.sauces.includes(s.id);return `<button class="${on?'on':''}" data-as="${s.id}" ${!on&&A.sauces.length>=ns&&ns>1?'disabled':''}>${img('s-'+s.id,'',58,58)}${esc(s.n)}<div>${heat(s.h)}</div></button>`;}).join('')}</div>`:''}
+   ${it.ch?`<div class="lbl">Elige</div>${it.ch.length>6?`<select class="field" data-ach>${it.ch.map(c=>`<option ${c[0]===A.ch?'selected':''}>${esc(c[0])}</option>`).join('')}</select>`:it.ch.map(c=>`<button class="opt ${c[0]===A.ch?'on':''}" data-ach="${esc(c[0])}"><i class="box"></i>${esc(c[0])}</button>`).join('')}`:''}
+   ${it.ex?`<div class="lbl">Extras</div>${it.ex.map((e,i)=>`<button class="opt ${A.ex.has(i)?'on':''}" data-aex="${i}"><i class="box"></i>${esc(e[0])}<span>+${money(e[1])}</span></button>`).join('')}`:''}
+   <div class="sfoot"><div class="qty"><button data-aq="-1" aria-label="Menos">−</button><b>${A.qty}</b><button data-aq="1" aria-label="Más">+</button></div><button class="add" id="aGo">${plus}Agregar · ${money(addPrice()*A.qty)}</button></div>`;
+}
+$('#addBody').addEventListener('click',e=>{
+  const t=e.target.closest('button');if(!t)return;
+  if(t.dataset.aoi!=null)A.oi=+t.dataset.aoi;
+  else if(t.dataset.as){const id=t.dataset.as,ns=A.it.s;if(ns===1)A.sauces=[id];else if(A.sauces.includes(id))A.sauces=A.sauces.filter(x=>x!==id);else if(A.sauces.length<ns)A.sauces.push(id);}
+  else if(t.dataset.ach!=null)A.ch=t.dataset.ach;
+  else if(t.dataset.aex!=null){const i=+t.dataset.aex;A.ex.has(i)?A.ex.delete(i):A.ex.add(i);}
+  else if(t.dataset.aq)A.qty=Math.max(1,Math.min(20,A.qty+ +t.dataset.aq));
+  else if(t.id==='aGo'){
+    const it=A.it;if(it.s&&!A.sauces.length){toast('Elige al menos una salsa');return;}
+    const opts=[];if(it.o)opts.push(it.o[A.oi][0]);if(A.sauces.length)opts.push((A.sauces.length>1?'Salsas: ':'Salsa: ')+A.sauces.map(s=>SBY[s].n).join(', '));if(A.ch)opts.push(A.ch);it.ex&&it.ex.forEach((x,i)=>{if(A.ex.has(i))opts.push('+ '+x[0]);});
+    const from=A.cardEl&&$('.ph img',A.cardEl);closeSheets();addLine({n:it.n,sec:it.sec.cat,price:addPrice(),opts,qty:A.qty},A.cardEl&&$('.add',A.cardEl));flyTo(from);return;
+  }else return;
+  const st=$('#addSheet').scrollTop;renderAdd();$('#addSheet').scrollTop=st;
+});
+$('#addBody').addEventListener('change',e=>{if(e.target.matches('select[data-ach]')){A.ch=e.target.value;}});
+
+/* single sauce sheet */
+function openSauce(id){
+  const s=SBY[id];
+  $('#addBody').innerHTML=`<div style="display:grid;grid-template-columns:110px 1fr;gap:16px;align-items:center"><img src="img/s-${s.id}.webp" alt="" width="110" height="110" style="animation:pop .8s var(--spring)"><div><span class="kick" style="color:var(--red)">${esc(s.f)}</span><h3 id="aTitle" style="margin-top:6px">${esc(s.n)}</h3>${heat(s.h)}</div></div>
+   <p style="margin:14px 0 0;font-size:15px">${esc(s.d)}</p>
+   <div class="lbl">Pídela aparte</div>
+   <button class="opt" data-dip="2">Crunchy Dip · 2 oz<span>$25</span></button>
+   <button class="opt" data-dip="12">Crunchy Big Dipper · 12 oz <span class="nuevo" style="margin:0 0 0 6px">Nuevo</span><span>$84</span></button>
+   <p style="font-size:13px;color:var(--mute);margin:12px 0 0">Tip: cuando pidas boneless, alitas, tenders o pollo, eliges tu salsa al agregarlos.</p>`;
+  sheet($('#addSheet'));
+  $$('[data-dip]',$('#addBody')).forEach(b=>b.addEventListener('click',()=>{const big=b.dataset.dip==='12';closeSheets();addLine({n:big?'Crunchy Big Dipper 12 oz':'Crunchy Dip 2 oz',sec:'Salsas',price:big?84:25,opts:['Salsa: '+s.n]},b);}));
+}
+$$('[data-quick]').forEach(b=>b.addEventListener('click',()=>{
+  const big=b.dataset.quick==='dip12';
+  A={it:{n:big?'Crunchy Big Dipper 12 oz':'Crunchy Dip 2 oz',d:big?'Salsea en grande: 12 oz de tu salsa favorita.':'Extra de tu salsa favorita.',p:big?84:25,s:1,sec:{cat:'Salsas'}},oi:0,ex:new Set(),sauces:[],ch:null,qty:1,cardEl:null};
+  renderAdd();sheet($('#addSheet'));
+}));
+
+/* cart sheet */
+let mode='Para llevar';
+let who='';try{who=localStorage.getItem('crunchy-name')||'';}catch(e){}
+function renderCart(){
+  const body=$('#cartBody');
+  if(!cart.length){body.innerHTML=`<h3 id="cTitle">Mi orden</h3><div class="empty"><img src="img/rooster-dark.webp" alt="" width="120" height="121"><p>Tu orden está vacía.<br>¡El gallo tiene hambre!</p><button class="pill ink" data-close2>Ver el menú</button></div>`;return;}
+  body.innerHTML=`<h3 id="cTitle">Mi orden</h3>
+   ${cart.map((l,i)=>`<div class="oitem"><div class="t">${esc(l.n)}</div><div class="p">${money(lineTotal(l))}</div>${l.opts.length?`<div class="s">${l.opts.map(esc).join(' · ')}</div>`:''}<div class="qty" style="justify-self:start"><button data-cq="${i}|-1" aria-label="Menos">−</button><b>${l.qty}</b><button data-cq="${i}|1" aria-label="Más">+</button></div></div>`).join('')}
+   <div class="total"><span style="font-weight:800">Total</span><b>${money(cartTotal())}</b></div>
+   <div class="lbl">¿Cómo la quieres?</div>
+   <div class="seg" id="seg">${['Para llevar','Comer aquí'].map(m=>`<button class="${m===mode?'on':''}">${m}</button>`).join('')}</div>
+   <div class="lbl">Tu nombre</div><input class="field" id="who" value="${esc(who)}" placeholder="¿A nombre de quién?" autocomplete="name">
+   <div class="lbl">Notas</div><textarea class="field" id="notes" placeholder="Sin cebolla, salsa aparte, mesa 4…"></textarea>
+   <div class="sfoot" style="flex-wrap:wrap"><a class="pill wa" id="send" style="flex:1;justify-content:center;height:52px;font-size:15px" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Enviar por WhatsApp</a><button class="pill" style="background:var(--cream2)" id="clear">Vaciar</button></div>
+   <p style="font-size:12px;color:var(--mute);margin:10px 0 0">Tu pedido se envía a la sucursal Plaza Cuatro Hojas (449 446 4730). Las promos del día se aplican en sucursal.</p>`;
+  updateSend();
+}
+function waText(){
+  const lines=cart.map(l=>`• ${l.qty}× ${l.n}${l.opts.length?` (${l.opts.join(' · ')})`:''} — ${money(lineTotal(l))}`);
+  const notes=($('#notes')||{}).value||'';
+  return `¡Hola, Crunchy Corner Cuatro Hojas! 🐔 Quiero hacer un pedido:\n\n${lines.join('\n')}\n\nTotal: ${money(cartTotal())}\n${mode}${who?`\nA nombre de: ${who}`:''}${notes.trim()?`\nNotas: ${notes.trim()}`:''}`;
+}
+function updateSend(){const s=$('#send');if(s)s.href=`https://wa.me/${WA}?text=${encodeURIComponent(waText())}`;}
+$('#cartBody').addEventListener('click',e=>{
+  const t=e.target.closest('button');if(!t)return;
+  if(t.dataset.cq){const [i,d]=t.dataset.cq.split('|').map(Number);cart[i].qty+=d;if(cart[i].qty<=0)cart.splice(i,1);refresh();renderCart();}
+  else if(t.closest('#seg')){mode=t.textContent;$$('#seg button').forEach(b=>b.classList.toggle('on',b===t));updateSend();}
+  else if(t.id==='clear'){cart=[];refresh();renderCart();}
+  else if(t.hasAttribute('data-close2')){closeSheets();$('#menu').scrollIntoView({behavior:reduce?'auto':'smooth'});}
+});
+$('#cartBody').addEventListener('input',e=>{if(e.target.id==='who'){who=e.target.value;try{localStorage.setItem('crunchy-name',who);}catch(_){}}updateSend();});
+const openCart=()=>{renderCart();sheet($('#cartSheet'));};
+$('#cartBtn').addEventListener('click',openCart);$('#fab').addEventListener('click',openCart);
+$('#waDirect').href=`https://wa.me/${WA}?text=${encodeURIComponent('¡Hola, Crunchy Corner Cuatro Hojas! 🐔')}`;
+refresh();onScroll();
+})();
+</script>
+</body>
+</html>
