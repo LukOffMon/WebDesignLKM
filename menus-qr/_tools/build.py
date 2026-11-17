@@ -474,15 +474,24 @@ def mensaje(r, url, cats):
     platillos = ", ".join(top[:-1]) + " y " + top[-1] if len(top) > 1 else (top[0] if top else "sus platillos")
     platillos = r.get("estrella") or platillos
     marca = EMP.get("corto", "LKM'r")
-    return (f"Hola, buen día. ¿Hablo con {r['nombre']}?\n\n"
-            f"Soy de {marca}: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra "
+    # Mensaje de venta: solo se manda cuando el lugar ya contestó el contacto inicial (evita reportes por spam).
+    return (f"¡Muchas gracias por contestar! Esta es la muestra que le preparé a {r['nombre']} "
             f"con su propia carta ({platillos}):\n{url}\n\n"
             f"{r['gancho']}\n\n"
             "El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. "
             f"{r['mejora']} Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.\n\n"
-            f"Instalación {money(of['instalacion'])} (menú y QR listos para imprimir) y {money(of['mensualidad'])} al mes "
-            "con cambios ilimitados.\n\n"
+            f"El servicio inicia desde {money(of['instalacion'])} de instalación (menú y QR listos para imprimir) y "
+            f"{money(of['mensualidad'])} al mes con cambios ilimitados.\n\n"
             "¿Le parece si se lo enseño 5 minutos esta semana?")
+
+
+def inicial(r):
+    """Contacto inicial: saludo corto que pide permiso, sin enlace ni precio."""
+    marca = EMP.get("corto", "LKM'r")
+    local = ", aquí en Aguascalientes" if r.get("region") == "ags" else ""
+    return (f"Hola, buen día. ¿Es el WhatsApp de {r['nombre']}? Le escribo de {marca}{local}; hacemos menús digitales "
+            f"con QR para restaurantes.\n\nLe preparé a {r['nombre']} una muestra de menú digital con su carta, sin costo. "
+            "¿Le puedo mandar el enlace para que la vea?\n\nSi no le interesa, me dice y no le vuelvo a escribir.")
 
 
 # ---------- panel ----------
@@ -492,6 +501,7 @@ def render_panel(rows):
     cards = []
     for i, (r, url, cats, msg) in enumerate(rows, 1):
         n = sum(len(c["items"]) for c in cats)
+        ini = inicial(r)
         wa = r.get("whatsapp") or r["tel"]
         alt = f'<div class="alt">Otro número: <a href="tel:+52{r["tel_alt"]}">{fmt_tel(r["tel_alt"])}</a></div>' if r.get("tel_alt") and r["tel_alt"] != wa else ""
         if r.get("whatsapp") and r["whatsapp"] != r["tel"]:
@@ -514,13 +524,13 @@ def render_panel(rows):
     </div>
   </div>
   <div class="actions">
-    {f'<a class="btn wa" href="https://wa.me/52{wa}?text={e(quote(msg))}" target="_blank" rel="noopener">Abrir WhatsApp con el mensaje</a><a class="btn" href="tel:+52{wa}">Llamar</a>' if r.get('contacto') in PUEDE_WA else f'<a class="btn call" href="tel:+52{wa}">Llamar primero</a><a class="btn" href="https://wa.me/52{wa}?text={e(quote(msg))}" target="_blank" rel="noopener">Probar WhatsApp</a>'}
+    {f'<a class="btn wa" href="https://wa.me/52{wa}?text={e(quote(ini))}" target="_blank" rel="noopener">1 · Contacto inicial (sin enlace)</a><a class="btn" href="https://wa.me/52{wa}?text={e(quote(msg))}" target="_blank" rel="noopener">2 · Venta (solo si ya contestó)</a><a class="btn" href="tel:+52{wa}">Llamar</a>' if r.get('contacto') in PUEDE_WA else f'<a class="btn call" href="tel:+52{wa}">Llamar primero</a><a class="btn" href="https://wa.me/52{wa}?text={e(quote(msg))}" target="_blank" rel="noopener">2 · Venta (si te dio su WhatsApp)</a>'}
     <a class="btn" href="{r['slug']}/" target="_blank" rel="noopener">Ver menú</a>
-    <button class="btn copy" type="button">Copiar mensaje</button>
+    <button class="btn copy" type="button">Copiar venta</button>
     <a class="btn" href="{r['slug']}/tarjeta-mesa.png" download>Tarjeta de mesa</a>
     <a class="btn" href="{r['slug']}/qr.png" download>QR</a>
   </div>
-  <details><summary>Ver mensaje</summary><pre class="msg">{e(msg)}</pre></details>
+  <details><summary>Ver mensajes</summary><p class="lbl">1 · Contacto inicial</p><pre class="msg-ini">{e(ini)}</pre><p class="lbl">2 · Venta (cuando conteste)</p><pre class="msg">{e(msg)}</pre></details>
 </article>""")
     return f"""<!doctype html>
 <html lang="es">
@@ -569,7 +579,8 @@ h1 {{ font:700 clamp(30px, 6vw, 48px)/1.05 'Space Grotesk', sans-serif; margin:1
 .t-directorio {{ background:#8a6d1d; color:#fff; }} .t-solo_telefono {{ background:#5c5f66; color:#fff; }}
 .btn:hover {{ border-color:var(--soft); }}
 details summary {{ cursor:pointer; color:var(--soft); font-size:14px; }}
-.msg {{ white-space:pre-wrap; font:400 14px/1.55 Inter, sans-serif; background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:14px; margin:10px 0 0; }}
+.lbl {{ margin:12px 0 0; font:700 12px/1 Inter, sans-serif; letter-spacing:.06em; text-transform:uppercase; color:var(--gold); }}
+.msg, .msg-ini {{ white-space:pre-wrap; font:400 14px/1.55 Inter, sans-serif; background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:14px; margin:10px 0 0; }}
 .sec {{ font:700 24px/1.1 'Space Grotesk', sans-serif; margin:28px 0 14px; }}
 .how {{ border:1px solid var(--line); border-radius:16px; padding:16px 18px; margin:0 0 20px; background:var(--card); }}
 .how ol {{ margin:8px 0 0; padding-left:20px; color:var(--soft); }}
@@ -582,13 +593,14 @@ details summary {{ cursor:pointer; color:var(--soft); font-size:14px; }}
 <header class="top wrap">
   <div class="kick">Maletín · Menús digitales y QR</div>
   <h1>{len(rows)} restaurantes listos para contactar</h1>
-  <p class="lead">Cada uno tiene su menú digital publicado, su QR y una tarjeta de mesa lista para imprimir. El botón verde abre WhatsApp con la propuesta ya escrita; si el número es fijo y no tiene WhatsApp, usa Llamar o copia el mensaje para Instagram o Facebook.</p>
-  <div class="sum"><span>Oferta: <b>{money(of['instalacion'])}</b> instalación + <b>{money(of['mensualidad'])}</b>/mes</span><span>Menús tomados de Rappi el {e(CFG['fecha_menu'])}</span><span id="prog">0 de {len(rows)} contactados</span></div>
+  <p class="lead">Cada uno tiene su menú digital publicado, su QR y una tarjeta de mesa lista para imprimir. Para cuidar tu número, el contacto es en dos pasos: <b>1 · Contacto inicial</b> (saludo corto que pide permiso, sin enlace) y <b>2 · Venta</b> solo cuando te contesten. El macro de <a href="https://lukoffmon.github.io/LKMLPR/mensajes/" style="color:inherit">LKMLPR/mensajes</a> lleva el límite diario, la espera entre contactos y el seguimiento.</p>
+  <div class="sum"><span>Oferta: desde <b>{money(of['instalacion'])}</b> instalación + <b>{money(of['mensualidad'])}</b>/mes</span><span>Menús tomados de Rappi el {e(CFG['fecha_menu'])}</span><span id="prog">0 de {len(rows)} contactados</span></div>
 </header>
 <main class="wrap">
   <div class="how"><b>Antes de enviar</b><ol>
     <li>Abre su menú y revisa que cargue bien en tu celular.</li>
-    <li>El botón verde solo sale en los marcados <b>WhatsApp oficial</b>, <b>Número propio</b> o <b>Directorio</b>. En los de <b>Solo teléfono</b> llama primero y pregunta por qué medio mandarles la propuesta.</li>
+    <li>El botón verde (contacto inicial, sin enlace) solo sale en los marcados <b>WhatsApp oficial</b>, <b>Número propio</b> o <b>Directorio</b>. En los de <b>Solo teléfono</b> llama primero y pide su WhatsApp: eso ya es su permiso.</li>
+    <li>Manda la <b>venta</b> (enlace y precio) solo cuando te contesten. Máximo unos 10 contactos nuevos al día, con varios minutos entre cada uno, en horario de 9:00 a 20:00, y un solo seguimiento.</li>
     <li>Cuando acepten: pídeles su carta de salón (foto o PDF) y su logo, y cambia el aviso de "Muestra" por su información real.</li>
   </ol></div>
   <h2 class="sec">Aguascalientes y Jesús María</h2>
@@ -764,7 +776,7 @@ h1{{font:500 78px/1 Fraunces,serif;margin-top:22px;letter-spacing:-.02em}} h1 em
     (ROOT / "index.html").write_text(render_panel(rows), encoding="utf-8")
     update_portfolio(rows)
     md = ["# Prospectos · Menú digital y QR", "",
-          f"Menús tomados de Rappi el {CFG['fecha_menu']}. Oferta: {money(CFG['oferta']['instalacion'])} de instalación + "
+          f"Menús tomados de Rappi el {CFG['fecha_menu']}. Oferta: desde {money(CFG['oferta']['instalacion'])} de instalación + "
           f"{money(CFG['oferta']['mensualidad'])} al mes.", "",
           "| # | Restaurante | Ciudad | Teléfono | Contacto | Menú | QR |", "|---|---|---|---|---|---|---|"]
     for i, (r, url, cats, msg) in enumerate(rows, 1):
@@ -775,7 +787,8 @@ h1{{font:500 78px/1 Fraunces,serif;margin-top:22px;letter-spacing:-.02em}} h1 em
     for i, (r, url, cats, msg) in enumerate(rows, 1):
         md += [f"### {i}. {r['nombre']} · {r['ciudad']}", "",
                f"Teléfono: {fmt_tel(r.get('whatsapp') or r['tel'])}" + (f" (otro: {fmt_tel(r['tel_alt'])})" if r.get('tel_alt') else "") + f". {r['confianza']}", "",
-               "```", msg, "```", ""]
+               "Contacto inicial (sin enlace):", "", "```", inicial(r), "```", "",
+               "Venta (solo cuando conteste):", "", "```", msg, "```", ""]
     (ROOT / "PROSPECTOS.md").write_text("\n".join(md), encoding="utf-8")
     print("\n".join(report))
 
