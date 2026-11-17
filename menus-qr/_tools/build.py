@@ -472,6 +472,43 @@ details summary {{ cursor:pointer; color:var(--soft); font-size:14px; }}
 """
 
 
+def update_portfolio(rows):
+    """Escribe la sección MENÚS QR del portafolio (index.html de la raíz) entre sus marcadores."""
+    page = ROOT.parent / "index.html"
+    e = html.escape
+    cards = []
+    for r, url, cats, msg in rows:
+        n = sum(len(c["items"]) for c in cats)
+        thumb = next((it["img"] for c in cats if cat_rank(c["name"]) in (1, 4) for it in c["items"] if it.get("img")),
+                     next((it["img"] for c in cats for it in c["items"] if it.get("img")), ""))
+        cards.append(
+            f'      <a class="card qr-card" href="menus-qr/{r['slug']}/">\n'
+            f'        <div class="thumb" style="background-image:url(\'menus-qr/{r['slug']}/{thumb}\')"></div>\n'
+            f'        <div class="body"><p class="tag" style="color:{r['tema']['acc'] if luminance(r['tema']['acc']) > .12 else '#d6b47a'}">{e(r['ciudad'])}</p>'
+            f'<p class="name">{e(r['nombre'])}</p><p class="desc">{e(r['lema'])}. {n} platillos con foto, buscador y pedido por WhatsApp.</p>'
+            f'<p class="go">Ver menú →</p></div>\n      </a>')
+    block = ("<!-- MENUS-QR:START (lo genera menus-qr/_tools/build.py) -->\n"
+             '    <section class="qr-sec" id="menus-qr">\n'
+             '      <p class="eyebrow">Menús QR</p>\n'
+             '      <h2>Menús digitales con QR para restaurantes.</h2>\n'
+             f'      <p class="qr-lead">{len(rows)} muestras en {len(rows)} ciudades del país: carta con fotos, buscador, categorías y pedido directo por WhatsApp. Se imprime el QR para mesas y mostrador.</p>\n'
+             '      <div class="grid">\n' + "\n".join(cards) + "\n      </div>\n    </section>\n"
+             "    <!-- MENUS-QR:END -->")
+    src = page.read_text(encoding="utf-8")
+    if "<!-- MENUS-QR:START" in src:
+        src = re.sub(r"<!-- MENUS-QR:START.*?<!-- MENUS-QR:END -->", lambda m: block, src, flags=re.S)
+    else:
+        src = src.replace("    <footer>", "    " + block + "\n    <footer>", 1)
+    css = ("    .qr-sec { margin-top: 88px; padding-top: 40px; border-top: 1px solid var(--line); }\n"
+           "    .qr-sec h2 { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.05; margin: 14px 0 0; letter-spacing: -.02em; }\n"
+           "    .qr-lead { color: var(--mute); max-width: 60ch; line-height: 1.6; margin: 14px 0 0; }\n"
+           "    .qr-sec .grid { margin-top: 32px; }\n"
+           "    .qr-card .thumb { aspect-ratio: 16/9; }\n")
+    if ".qr-sec {" not in src:
+        src = src.replace("  </style>", css + "  </style>", 1)
+    page.write_text(src, encoding="utf-8")
+
+
 def main():
     if "--fetch" in sys.argv:
         for r in CFG["restaurantes"]:
@@ -510,6 +547,7 @@ def main():
         rows.append((r, url, cats, mensaje(r, url, cats)))
         report.append(f"{r['slug']:22} {sum(len(c['items']) for c in cats):4} platillos  {len(keep):3} fotos  {len(cats):2} categorías")
     (ROOT / "index.html").write_text(render_panel(rows), encoding="utf-8")
+    update_portfolio(rows)
     md = ["# Prospectos · Menú digital y QR", "",
           f"Menús tomados de Rappi el {CFG['fecha_menu']}. Oferta: {money(CFG['oferta']['instalacion'])} de instalación + "
           f"{money(CFG['oferta']['mensualidad'])} al mes.", "",
