@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8" />
+<title>Propuesta · Menú digital The Crunchy Corner Cuatro Hojas</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=block" rel="stylesheet" />
+<style>
+@page{size:letter;margin:0}
+:root{--red:#b3141c;--cream:#f8ecd9;--cream2:#f1dfc3;--ink:#2e3234;--cheese:#ffb81c;--mute:#6f6a62;--display:Anton,Impact,sans-serif;--body:Arial,Helvetica,sans-serif}
+*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0;font:10.5pt/1.5 var(--body);color:var(--ink);background:#fff}
+.page{width:8.5in;height:11in;position:relative;overflow:hidden;page-break-after:always;break-after:page;background:var(--cream);padding:.6in .65in}
+.page:last-child{page-break-after:auto;break-after:auto}
+.disp{font-family:var(--display);text-transform:uppercase;line-height:.92;letter-spacing:.01em;font-weight:400}
+.k{font:700 8pt/1 var(--body);letter-spacing:.26em;text-transform:uppercase;color:var(--red)}
+h2.disp{font-size:44pt;margin:.1in 0 .18in}
+h2 em{font-style:normal;color:var(--red)}
+.tiles{position:absolute;left:0;right:0;bottom:0;height:.22in;background:var(--ink) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Crect width='14' height='14' fill='%232e3234'/%3E%3Cg fill='%23f8ecd9'%3E%3Ccircle cx='7' cy='7' r='4.5'/%3E%3Ccircle cx='0' cy='0' r='4.5'/%3E%3Ccircle cx='14' cy='0' r='4.5'/%3E%3Ccircle cx='0' cy='14' r='4.5'/%3E%3Ccircle cx='14' cy='14' r='4.5'/%3E%3C/g%3E%3C/svg%3E") 0 0/.14in .14in repeat}
+.pn{position:absolute;right:.65in;bottom:.38in;font-size:8pt;color:var(--mute)}
+.phone{width:2.05in;border-radius:.26in;background:var(--ink);padding:.07in;box-shadow:0 .14in .3in -.08in rgba(0,0,0,.45)}
+.phone img{width:100%;display:block;border-radius:.2in}
+.cap{font:700 8.5pt/1.3 var(--body);text-align:center;margin-top:.1in}
+
+/* portada */
+.cover{background:var(--red);color:var(--cream);padding:.7in .7in 0}
+.cover::before{content:"";position:absolute;inset:0;background:radial-gradient(55% 40% at 70% 45%,rgba(255,184,28,.28),transparent 70%)}
+.cover>*{position:relative}
+.cover>.tiles{position:absolute}
+.cover .k{color:var(--cheese)}
+.cover h1{font-size:68pt;margin:.2in 0 0}
+.cover h1 span{color:var(--cheese)}
+.cover .sub{font-size:14pt;max-width:3.6in;margin:.25in 0 0;line-height:1.4}
+.cover .rooster{width:1.1in;margin-bottom:.1in}
+.cover .phones{position:absolute;right:.7in;top:5.15in;display:flex;gap:.18in;align-items:flex-start}
+.cover .phones .phone:nth-child(1){transform:rotate(-4deg) translateY(.5in)}
+.cover .phones .phone:nth-child(2){transform:rotate(3deg)}
+.cover .meta{position:absolute;left:.7in;bottom:.7in;font-size:10pt;line-height:1.6}
+.cover .meta b{color:var(--cheese)}
+
+/* features */
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:.16in .3in;margin-top:.1in}
+.feat div{background:#fff8ec;border-radius:.16in;padding:.16in .18in}
+.feat b{display:block;font:15pt/1 var(--display);text-transform:uppercase;margin-bottom:.06in}
+.feat p{margin:0;font-size:9.5pt;color:#4c4842}
+.shots{display:flex;justify-content:space-between;margin-top:.3in}
+.shots .phone{width:1.6in;border-radius:.2in;padding:.05in}
+.shots .phone img{border-radius:.16in}
+
+/* cómo funciona */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:.2in;margin-top:.1in}
+.steps div{background:var(--ink);color:var(--cream);border-radius:.16in;padding:.2in}
+.steps b{display:block;font:30pt/1 var(--display);color:var(--cheese)}
+.steps strong{display:block;font:14pt/1.05 var(--display);text-transform:uppercase;margin:.08in 0 .06in}
+.steps p{margin:0;font-size:9.5pt;opacity:.9}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:.12in .3in;margin-top:.12in}
+.why p{margin:0;padding-left:.2in;position:relative;font-size:10pt}
+.why p::before{content:"";position:absolute;left:0;top:.06in;width:.1in;height:.1in;border-radius:50%;background:var(--red)}
+.box{background:#fff8ec;border-radius:.16in;padding:.18in .22in;margin-top:.22in}
+.box h3{margin:0 0 .06in;font:16pt/1 var(--display);text-transform:uppercase}
+.box ul{margin:0;padding-left:.18in}
+.box li{margin:.03in 0;font-size:9.8pt}
+
+/* inversión */
+.price{background:var(--red);color:var(--cream);border-radius:.22in;padding:.3in .35in;display:grid;grid-template-columns:1fr auto;gap:.2in;align-items:center;margin-top:.1in;position:relative;overflow:hidden}
+.price .big{font:72pt/1 var(--display);color:var(--cheese)}
+.price .big small{font:700 10pt var(--body);color:var(--cream);display:block;text-align:right;letter-spacing:.08em;text-transform:uppercase}
+.price h3{margin:0;font:22pt/1 var(--display);text-transform:uppercase}
+.price p{margin:.08in 0 0;font-size:10pt;opacity:.95}
+.incl{display:grid;grid-template-columns:1fr 1fr;gap:.06in .3in;margin:.2in 0 0;padding:0;list-style:none}
+.incl li{padding-left:.22in;position:relative;font-size:10pt}
+.incl li::before{content:"✓";position:absolute;left:0;color:var(--red);font-weight:700}
+.demo{display:grid;grid-template-columns:auto 1fr;gap:.25in;align-items:center;margin-top:.28in;background:var(--ink);color:var(--cream);border-radius:.2in;padding:.22in}
+.demo img{width:1.4in;height:1.4in;background:#fff;border-radius:.12in;padding:.06in}
+.demo h3{margin:0;font:20pt/1 var(--display);text-transform:uppercase;color:var(--cheese)}
+.demo p{margin:.06in 0 0;font-size:10pt}
+.demo code{font:9pt/1.3 ui-monospace,monospace;color:var(--cream);opacity:.85;word-break:break-all}
+.next{display:grid;grid-template-columns:repeat(3,1fr);gap:.16in;margin-top:.24in}
+.next div{border-top:3px solid var(--red);padding-top:.08in;font-size:9.5pt}
+.next b{display:block;font:13pt/1.05 var(--display);text-transform:uppercase;margin-bottom:.04in}
+.sign{margin-top:.3in;display:flex;justify-content:space-between;align-items:flex-end;font-size:9.5pt}
+.sign .disp{font-size:20pt}
+</style>
+</head>
+<body>
+
+<!-- 1 · Portada -->
+<section class="page cover">
+  <img class="rooster" src="../../img/rooster.webp" alt="" />
+  <div class="k">Propuesta · Menú digital con QR</div>
+  <h1 class="disp">The Crunchy<br><span>Corner</span></h1>
+  <p class="sub">Un menú digital a la altura de su marca para la sucursal <b>Plaza Cuatro Hojas</b>: animado, rápido y con pedidos directos a su WhatsApp.</p>
+  <div class="phones">
+    <div class="phone"><img src="shots/hero.jpg" alt="" /></div>
+    <div class="phone"><img src="shots/salsas.jpg" alt="" /></div>
+  </div>
+  <div class="meta">Preparado por <b>LKM’r Company</b><br>Jesús María, Aguascalientes · 17 de noviembre de 2026</div>
+  <div class="tiles"></div>
+</section>
+
+<!-- 2 · Lo que reciben -->
+<section class="page">
+  <div class="k">El menú</div>
+  <h2 class="disp">Lo que <em>reciben</em></h2>
+  <div class="feat">
+    <div><b>Su carta completa</b><p>Más de 60 platillos de su carta oficial, con precios, tamaños, extras y las fotos de sus platillos, organizados en 15 categorías con buscador.</p></div>
+    <div><b>Las 18 salsas</b><p>Filtros por familia y por picor (de 0 a 4 flamas) y una ruleta que elige la salsa por el cliente. Cada salsa se puede pedir aparte.</p></div>
+    <div><b>Promo del día, automática</b><p>El menú muestra solo la promo que toca hoy (Lunes de combo, Martes de alitas…) y los 7 carteles de la semana en formato de historias.</p></div>
+    <div><b>Pedidos por WhatsApp</b><p>El cliente arma su orden con tamaño, salsa y extras (Make it big, Make it double) y la envía con total a WhatsApp 449 446 4730.</p></div>
+    <div><b>Rápido en cualquier celular</b><p>No hay que descargar nada ni abrir un PDF borroso. Es una página ligera, las fotos se cargan conforme se baja y se puede guardar en la pantalla del celular como una app.</p></div>
+    <div><b>Con la cara de Crunchy</b><p>Sus colores, su gallo, su tipografía y su estilo: animaciones de salsa que escurre, platillos que aparecen al bajar y el “¡Dip, make, crunch!”.</p></div>
+  </div>
+  <div class="shots">
+    <div><div class="phone"><img src="shots/promo.jpg" alt="" /></div><div class="cap">Promo de hoy</div></div>
+    <div><div class="phone"><img src="shots/ruleta.jpg" alt="" /></div><div class="cap">Ruleta de salsas</div></div>
+    <div><div class="phone"><img src="shots/agregar.jpg" alt="" /></div><div class="cap">Salsa y extras</div></div>
+    <div><div class="phone"><img src="shots/orden.jpg" alt="" /></div><div class="cap">Pedido por WhatsApp</div></div>
+  </div>
+  <div class="pn">2</div><div class="tiles"></div>
+</section>
+
+<!-- 3 · Cómo funciona -->
+<section class="page">
+  <div class="k">En la sucursal</div>
+  <h2 class="disp">Cómo <em>funciona</em></h2>
+  <div class="steps">
+    <div><b>1</b><strong>Escanea</strong><p>El cliente apunta la cámara al QR de la mesa, del mostrador o del póster de la entrada.</p></div>
+    <div><b>2</b><strong>Elige</strong><p>Ve la carta con fotos, la promo de hoy y escoge tamaño, salsa y extras.</p></div>
+    <div><b>3</b><strong>Pide</strong><p>Envía su orden por WhatsApp con el total, o se la muestra al mesero.</p></div>
+  </div>
+  <div class="box">
+    <h3>Por qué les conviene</h3>
+    <div class="why">
+      <p>El cliente ve las 18 salsas con foto y picor, y se anima a probar más.</p>
+      <p>Los extras (Big Dipper +$84, segunda pechuga +$74) aparecen en cada pedido.</p>
+      <p>Las promos de cada día se ven sin que el mesero tenga que explicarlas.</p>
+      <p>Los pedidos para llevar llegan por escrito a WhatsApp, sin errores de dictado.</p>
+      <p>Cambiar un precio o una promo no requiere reimprimir cartas: el QR es el mismo.</p>
+      <p>Pueden compartir el enlace en Instagram, Facebook y Google.</p>
+    </div>
+  </div>
+  <div class="box">
+    <h3>Entregables</h3>
+    <ul>
+      <li>Menú digital publicado en internet, con su enlace propio y listo para usar.</li>
+      <li>Código QR en alta calidad (SVG para imprenta y PNG).</li>
+      <li>Tarjetas de mesa de 4 × 6 in, póster para mostrador o entrada y hoja de stickers, listos para imprimir.</li>
+      <li>Imagen para compartir en redes y acceso directo para el celular (ícono de Crunchy).</li>
+    </ul>
+  </div>
+  <div class="box">
+    <h3>Para dejarlo al 100 % necesitamos de ustedes</h3>
+    <ul>
+      <li>Dirección exacta y horario de la sucursal Plaza Cuatro Hojas.</li>
+      <li>Confirmar que las 7 promociones de la semana siguen vigentes.</li>
+      <li>El enlace de su tienda en Uber Eats, si quieren el botón directo.</li>
+    </ul>
+  </div>
+  <div class="pn">3</div><div class="tiles"></div>
+</section>
+
+<!-- 4 · Inversión -->
+<section class="page">
+  <div class="k">Inversión</div>
+  <h2 class="disp">Listo esta <em>semana</em></h2>
+  <div class="price">
+    <div><h3>Menú digital Crunchy · Cuatro Hojas</h3><p>Diseño, desarrollo, publicación, QR e imprimibles. El menú ya está hecho: lo pueden ver hoy mismo en su celular.</p></div>
+    <div class="big">$1,200<small>Pago único · MXN</small></div>
+  </div>
+  <ul class="incl">
+    <li>Carta completa con precios y fotos</li>
+    <li>18 salsas con filtros y ruleta</li>
+    <li>Promo del día automática</li>
+    <li>Pedidos por WhatsApp con total</li>
+    <li>QR, tarjetas de mesa, póster y stickers</li>
+    <li>Ajustes con la información pendiente</li>
+  </ul>
+  <div class="demo">
+    <img src="../qr.svg" alt="QR del menú" />
+    <div><h3>Véanlo en su celular</h3><p>Escaneen este código: es el menú real, con su carta y sus promos.</p><code>lukoffmon.github.io/WebDesignLKM/crunchy-corner</code></div>
+  </div>
+  <div class="next">
+    <div><b>1. Lo revisan</b>Escanean el QR y nos dicen qué quieren ajustar.</div>
+    <div><b>2. Lo confirmamos</b>Nos pasan dirección, horario y promos vigentes.</div>
+    <div><b>3. A imprimir</b>Les entregamos el QR y los imprimibles finales.</div>
+  </div>
+  <div class="sign">
+    <div><div class="disp">LKM’r Company</div>Sitios web, menús digitales y automatización para negocios<br>lukoffmon.github.io/LKMLPR · Portafolio: lukoffmon.github.io/WebDesignLKM</div>
+  </div>
+  <div class="pn">4</div><div class="tiles"></div>
+</section>
+</body>
+</html>

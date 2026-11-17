@@ -587,7 +587,7 @@ const MENU=[
   {n:'Mac & Burger Flamin',p:214,img:'hero-mac',cover:1,d:'Hamburguesa de pollo empanizado (230 g) bañada en salsa buffalo con una capa de Cheetos® Flamin Hot y 50 g de Mac & Cheese. Lleva ranch, con papas a la francesa, apio y zanahoria.'},
   {n:'Mac & Fries Crunchy',p:189,img:'mac-fries',d:'200 g de Mac & Cheese con pedazos de pechuga empanizada bañada en buffalo, rodeado de papas a la francesa.'},
   {n:'Crunchy Mac & Flamin',p:199,img:'mac-flamin',d:'200 g de Mac & Cheese con 12 palomitas de pollo empanizadas, bañadas en salsa buffalo y con una capa de Cheetos® Flamin Hot.'},
-  {n:'Crunchy Mac & Boneless',p:184,img:'mac-boneless',d:'200 g de Mac & Cheese con 12 palomitas de pollo empanizadas y bañadas en salsa buffalo.',tip:CHG,s:1},
+  {n:'Crunchy Mac & Boneless',p:184,img:'mac-boneless',d:'200 g de Mac & Cheese con 12 palomitas de pollo empanizadas y bañadas en salsa buffalo.',tip:CHG,s:1,sDef:'buffalo'},
  ]},
  {id:'ensaladas',cat:'Ensaladas',k:'Crunchy saludable',t:['Crunchy','Salads'],blob:'#d9e8b8',note:'Elige el tamaño: mediana con 115 g de pollo o grande con 230 g.',items:[
   ['Ensalada Crunchy Buffalo','sal-buffalo','Pollo empanizado, tiritas de tortilla crujiente, queso chihuahua, pico de gallo, zanahoria rallada y salsa buffalo.'],
@@ -597,7 +597,7 @@ const MENU=[
   ['Ensalada Tropical','sal-tropical','Pollo a la plancha, tiritas de tortilla crujiente, queso panela, arándanos y aderezo de mango picosito.'],
  ].map(([n,img,d,nw])=>({n,img,d,nw,o:[['Mediana · 115 g',164],['Grande · 230 g',189]],ex:[['Agrega 230 g de pollo',74]]}))},
  {id:'wraps',cat:'Wraps',k:'¡Nuevos!',t:['Crunchy','Wraps'],blob:'#f6d9a8',items:[
-  {n:'Grilled Chicken Wrap',nw:1,p:179,img:'wrap-grilled',d:'Pollo a la plancha (230 g), lechuga, jitomate, aguacate, queso panela y ranch. Con 1 dip de Buffalo y papas a la francesa.',tip:CHG,s:1},
+  {n:'Grilled Chicken Wrap',nw:1,p:179,img:'wrap-grilled',d:'Pollo a la plancha (230 g), lechuga, jitomate, aguacate, queso panela y ranch. Con 1 dip de Buffalo y papas a la francesa.',tip:CHG,s:1,sDef:'buffalo'},
   {n:'Buffalo Chicken Wrap',nw:1,p:179,img:'wrap-buffalo',d:'Pollo empanizado (230 g) bañado en salsa buffalo, lechuga, jitomate, quesos mixtos y ranch. Con 1 dip de ranch y papas a la francesa.'},
   {n:'Crunchy Loaded Wrap',nw:1,p:184,img:'wrap-loaded',d:'Pollo empanizado (230 g) bañado en salsa Buffalo Cream, lechuga, papas a la francesa, quesos mixtos y cebolla crujiente. Con 1 dip de ranch y papas a la francesa.'},
   {n:'Southwest Chicken Wrap',nw:1,p:179,img:'wrap-southwest',d:'Pollo a la plancha (230 g), lechuga, pico de gallo, quesos mixtos, elote, frijoles negros y aderezo ranch. Con 1 dip de Buffalo Cream y papas a la francesa.'},
@@ -607,7 +607,7 @@ const MENU=[
   {n:'Crunchy Pechuga Peanut',nw:1,p:189,img:'pech-peanut',d:'Pechuga de pollo empanizada (230 g) sobre una cama de papa a la francesa bañada con Peanut Sauce y coronada con cacahuate y cebollín.',ex:[DOUBLE]},
   {n:'Crunchy Pechuga Garlic Buffalo',p:189,img:'pech-garlic',d:'Pechuga de pollo empanizada (230 g) sobre una cama de papa curly bañada en salsa buffalo y garlic parmesan.',ex:[DOUBLE]},
   {n:'Crunchy Pechuga Original',p:179,img:'pech-original',d:'Pechuga de pollo empanizada (230 g) con papas a la francesa, sticks de apio y zanahoria, dip de ranch y dip de tu salsa favorita.',s:1,ex:[BIG]},
-  {n:'Crunchy Pechuga Fit',p:179,img:'pech-fit',d:'Pechuga de pollo a la plancha (230 g) con un side de ensalada, queso panela, pico de gallo y un dip de salsa Buffalo.',tip:CHG,s:1},
+  {n:'Crunchy Pechuga Fit',p:179,img:'pech-fit',d:'Pechuga de pollo a la plancha (230 g) con un side de ensalada, queso panela, pico de gallo y un dip de salsa Buffalo.',tip:CHG,s:1,sDef:'buffalo'},
  ]},
  {id:'pollo',cat:'Fried Chicken',k:'Pollo frito para el alma',t:['Fried','Chicken'],hero:'hero-chicken',blob:'#ffcf6b',flags:['Make it big: Big Dipper 12 oz +$84'],items:[
   {n:'Crunchy Pollo',img:'pollo',d:'Crujientes piezas de pollo frito con papas a la francesa, sticks de zanahoria y 1 dip de tu salsa favorita.',o:[['Snack · 2 pz',104],['Personal · 3 pz',139],['Compartir · 6 pz',259],['Familiar · 8 pz',314]],s:1,ex:[['Pieza extra',43],BIG]},
@@ -629,8 +629,8 @@ const MENU=[
   {n:'Crunchy Box 2',p:519,d:'Mitad y mitad: 15 boneless (750 g) y 15 alitas (675 g) con papas a la francesa, 2 dips de ranch, sticks de apio y zanahoria. 2 salsas para alitas y 2 para boneless.',s:4},
  ]},
  {id:'burgers',cat:'Burgers',k:'Todas incluyen papas a la francesa',t:['The','Crunchy','Burgers'],blob:'#ffd77a',flags:['¡Incluye papas!','Make it double +$74'],items:[
-  {n:'Original Crunchy Burger',p:184,img:'burger-original',d:'Pollo empanizado (230 g) bañado en nuestra salsa Original Crunchy, jitomate, lechuga, queso manchego y aderezo ranch.',tip:CHG,s:1,ex:[DOUBLE]},
-  {n:'Special Onion Chicken Burger',p:199,img:'burger-onion',d:'Pollo empanizado (230 g) bañado en salsa Original Crunchy, dos aros de cebolla, dos dedos de queso mozzarella, lechuga y aderezo ranch.',tip:CHG,s:1,ex:[DOUBLE]},
+  {n:'Original Crunchy Burger',p:184,img:'burger-original',d:'Pollo empanizado (230 g) bañado en nuestra salsa Original Crunchy, jitomate, lechuga, queso manchego y aderezo ranch.',tip:CHG,s:1,ex:[DOUBLE],sDef:'oc'},
+  {n:'Special Onion Chicken Burger',p:199,img:'burger-onion',d:'Pollo empanizado (230 g) bañado en salsa Original Crunchy, dos aros de cebolla, dos dedos de queso mozzarella, lechuga y aderezo ranch.',tip:CHG,s:1,ex:[DOUBLE],sDef:'oc'},
   {n:'Special Choriqueso Chicken Burger',p:199,img:'burger-choriqueso',d:'Pollo empanizado (230 g), una cama de queso chihuahua y chorizo de pollo, lechuga, aderezo ranch y 1 dip de salsa Spicy Green Parmesan.',ex:[DOUBLE]},
   {n:'Special Western Chicken Burger',p:199,img:'burger-western',d:'Pollo empanizado (230 g) con salsa BBQ, cebolla crunchy, ranch, queso manchego y lechuga.',ex:[DOUBLE]},
   {n:'Special Guacamole Chicken Burger',p:204,img:'burger-guac',d:'Pollo empanizado (230 g), guacamole hecho al momento, una cama de queso chihuahua, jitomate, lechuga, ranch y crujientes tiras de tortilla.',ex:[DOUBLE]},
@@ -638,7 +638,7 @@ const MENU=[
  {id:'sandwiches',cat:'Sandwiches',k:'¡Nuevos!',t:['The','Crunchy','Sandwiches'],blob:'#f6d9a8',flags:['Make it double +$74'],items:[
   {n:'Buffalo Cheese Sandwich',nw:1,p:189,img:'sand-buffalo',d:'Pan de caja artesanal con 230 g de pechuga empanizada bañada en salsa buffalo, tocino, queso amarillo americano y pepinillos. Con papas a la francesa y un dip de ranch.',ex:[DOUBLE]},
   {n:'Western Chicken Sandwich',nw:1,p:184,img:'sand-western',d:'Pan de caja artesanal con 230 g de pechuga empanizada con salsa BBQ, tocino, queso manchego, lechuga y cebolla crunchy. Con papas a la francesa.',ex:[DOUBLE]},
-  {n:'Grilled Chicken Sandwich',nw:1,p:184,img:'sand-grilled',d:'Pan de caja artesanal con 230 g de pechuga a la plancha, lechuga, jitomate, tocino, aguacate y queso panela. Con sticks de apio y zanahoria y un dip de salsa Buffalo.',tip:CHG,s:1,ex:[DOUBLE]},
+  {n:'Grilled Chicken Sandwich',nw:1,p:184,img:'sand-grilled',d:'Pan de caja artesanal con 230 g de pechuga a la plancha, lechuga, jitomate, tocino, aguacate y queso panela. Con sticks de apio y zanahoria y un dip de salsa Buffalo.',tip:CHG,s:1,ex:[DOUBLE],sDef:'buffalo'},
  ]},
  {id:'pollitos',cat:'Pollitos',k:'Menú para los pollitos',t:['Pollitos'],blob:'#cfe6f5',flags:['Bebida gratis: limonada o naranjada'],note:'Todos los platillos incluyen una bebida para el pollito (limonada o naranjada).',items:[
   {n:'Crunchy Tendersitos',p:109,img:'pollitos-tenders',d:'3 Crunchy Tenders con papas a la francesa y catsup.',ch:[['Limonada'],['Naranjada']]},
@@ -867,7 +867,7 @@ function needsSheet(it){return it.o||it.s||it.ex||it.ch;}
 function openAdd(id,oi,cardEl){
   const it=ITEMS[id];
   if(!needsSheet(it)){addLine({n:it.n,sec:it.sec.cat,price:it.p,opts:[]},cardEl&&$('.add',cardEl));flyTo(cardEl&&$('.ph img',cardEl));return;}
-  A={it,oi:oi||0,ex:new Set(),sauces:[],ch:it.ch?(it.chDef||it.ch[0][0]):null,qty:1,cardEl};
+  A={it,oi:oi||0,ex:new Set(),sauces:it.sDef?[it.sDef]:[],ch:it.ch?(it.chDef||it.ch[0][0]):null,qty:1,cardEl};
   renderAdd();sheet($('#addSheet'));
 }
 function addPrice(){const it=A.it;let p=priceOf(it,A.oi);it.ex&&it.ex.forEach((e,i)=>{if(A.ex.has(i))p+=e[1];});return p;}
