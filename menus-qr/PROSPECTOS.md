@@ -50,19 +50,16 @@ Teléfono: 33 3121 4476. Alta: dos directorios distintos lo dan para Av. Guadalu
 ```
 Hola, buen día. ¿Hablo con Mariscos Save?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (zarandeados, cóctel Save y ceviche de robalo, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (zarandeados, cóctel Save y ceviche de robalo):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-save/
 
 Su carta es enorme (más de 150 platillos entre tostadas, zarandeados, cortes y filetes), así que el buscador y las categorías ayudan mucho a que la mesa pida rápido.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-save/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus precios de salón (los de Rappi traen comisión) y fotos propias de los zarandeados. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con sus precios de salón (los de Rappi traen comisión) y fotos propias de los zarandeados. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 2. Matilda Salón Mexicano · Mérida, Yuc.
@@ -72,19 +69,16 @@ Teléfono: 999 921 1452. Alta: el mismo número aparece en Tripadvisor, CoverMan
 ```
 Hola, buen día. ¿Hablo con Matilda Salón Mexicano?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (cochinita pibil, chamorro pibil y rib eye flameado con mezcal, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (cochinita pibil, chamorro pibil y rib eye flameado con mezcal):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/matilda/
 
 Tienen mucho turista en el Centro y una carta que va del desayuno al rib eye flameado con mezcal; un menú web carga al instante y se puede traducir.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/matilda/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo sumar versión en inglés y un botón directo a su reservación en CoverManager. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo sumar versión en inglés y un botón directo a su reservación en CoverManager. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 3. Hanaichi · San Pedro Garza García, N.L.
@@ -94,19 +88,16 @@ Teléfono: 81 2914 0587. Media: lo publica AAA para Vasconcelos 150; otras sucur
 ```
 Hola, buen día. ¿Hablo con Hanaichi?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Aburi Roll, sashimi de toro y teppanyaki, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (Aburi Roll, sashimi de toro y teppanyaki):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/hanaichi/
 
 Con 15 nigiris, 18 rollos de autor y sashimis de toro, las fotos venden solas; en un PDF se pierden.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/hanaichi/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo adapto a su imagen, con etiquetas de picante y crudo, y una sección de recomendados del chef. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo adapto a su imagen, con etiquetas de picante y crudo, y una sección de recomendados del chef. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 4. El Acuario Mariscos · León, Gto.
@@ -116,19 +107,16 @@ Teléfono: 477 714 0059 (otro: 477 763 4400). Alta para 477 714 0059 (Wanderlog,
 ```
 Hola, buen día. ¿Hablo con El Acuario Mariscos?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (aguachile de camarón, cazuela de mariscos y mojarras, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (aguachile de camarón, cazuela de mariscos y mojarras):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-acuario/
 
 Abren de 13:30 a 19:00, así que cada pedido para llevar cuenta: el menú arma la orden y la manda lista por WhatsApp.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-acuario/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus precios de mostrador y los combos del día. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con sus precios de mostrador y los combos del día. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 5. Antigua Fonda de la China Poblana · Puebla, Pue.
@@ -138,19 +126,16 @@ Teléfono: 222 246 7330 (otro: 221 660 0945). Media: 222 246 7330 en Tripadvisor
 ```
 Hola, buen día. ¿Hablo con Antigua Fonda de la China Poblana?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (mole poblano, chalupitas y cemitas, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (mole poblano, chalupitas y cemitas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/china-poblana/
 
 Más de 100 platillos (moles, chalupas, cemitas) y mucho turista: un menú digital con fotos ayuda a decidir sin tener que explicar cada platillo.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/china-poblana/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar versión en inglés y la venta de mole en pasta para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo agregar versión en inglés y la venta de mole en pasta para llevar. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 6. Mi Alma Restaurante · Querétaro, Qro.
@@ -160,19 +145,16 @@ Teléfono: 442 179 2679. Media: Tripadvisor y un directorio lo dan para Madero 2
 ```
 Hola, buen día. ¿Hablo con Mi Alma Restaurante?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (flautas, enchiladas y molletes, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (flautas, enchiladas y molletes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-alma/
 
 Su carta de desayunos es de las que más se piden con prisa; con el QR en la mesa la gente ordena sin esperar la carta.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-alma/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo marcar opciones vegetarianas y paquetes del día. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo marcar opciones vegetarianas y paquetes del día. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 7. Cocina Azul · Oaxaca de Juárez, Oax.
@@ -182,19 +164,16 @@ Teléfono: 951 501 0016. Alta: Tripadvisor, OpenTable y el hotel publican el mis
 ```
 Hola, buen día. ¿Hablo con Cocina Azul?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (omelette en mole coloradito, arroz negro y ensalada azul, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (omelette en mole coloradito, arroz negro y ensalada azul):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-azul/
 
 Al estar dentro del hotel, el mismo QR sirve en mesas y en habitaciones: el huésped ve la carta desde su celular.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-azul/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe (español / inglés) para sus huéspedes extranjeros. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo hago bilingüe (español / inglés) para sus huéspedes extranjeros. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 8. Los Agustines · San Luis Potosí, S.L.P.
@@ -204,19 +183,16 @@ Teléfono: 444 281 7486. Media: Gastroranking y Visita San Luis Potosí lo dan, 
 ```
 Hola, buen día. ¿Hablo con Los Agustines?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (enchiladas potosinas, cecina y parrillada huasteca, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (enchiladas potosinas, cecina y parrillada huasteca):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-agustines/
 
 Las enchiladas potosinas son lo que todos buscan; en el menú quedan arriba, con foto y precio claro.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-agustines/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar desayunos del día y pedidos para llevar por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo agregar desayunos del día y pedidos para llevar por WhatsApp. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 9. Restaurant Las Playas · Tijuana, B.C.
@@ -226,19 +202,16 @@ Teléfono: 664 688 1808 (otro: 664 638 1155). Alta: 664 688 1808 en varios direc
 ```
 Hola, buen día. ¿Hablo con Restaurant Las Playas?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (tostadas de ceviche, tacos de camarón y cócteles, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (tostadas de ceviche, tacos de camarón y cócteles):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-playas/
 
 Abren desde las 6:30 y atienden a mucha gente que cruza de San Diego; un menú web se abre en cualquier celular, sin app.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-playas/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo mostrar precios en pesos y en dólares, y versión en inglés. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo mostrar precios en pesos y en dólares, y versión en inglés. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 10. La Casona de las Rosas · Morelia, Mich.
@@ -248,19 +221,16 @@ Teléfono: 443 317 8822. Alta: Tripadvisor, su Facebook (reservaciones) y Moreco
 ```
 Hola, buen día. ¿Hablo con La Casona de las Rosas?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (enchiladas placeras, uchepos y corundas, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (enchiladas placeras, uchepos y corundas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/casona-de-las-rosas/
 
 Enchiladas morelianas, sopa tarasca y una carta de 80 platillos: con categorías y fotos el turista decide rápido.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/casona-de-las-rosas/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar versión en inglés y un botón para reservar por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo agregar versión en inglés y un botón para reservar por WhatsApp. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 11. La Chicha · Ciudad de México
@@ -270,19 +240,16 @@ Teléfono: 55 1906 8115 (otro: 55 1906 8115). Alta: 55 5574 6625 en Yelp y direc
 ```
 Hola, buen día. ¿Hablo con La Chicha?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (tacos de cochinita, paninis y su coctelería, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (tacos de cochinita, paninis y su coctelería):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-chicha/
 
 En la Roma la mitad de las mesas son extranjeros; un menú web con fotos y versión en inglés les ahorra pedir que les traduzcan la carta.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-chicha/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y con su carta de coctelería y cervezas al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo hago bilingüe y con su carta de coctelería y cervezas al frente. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 12. Restaurante El Maná · Boca del Río, Ver.
@@ -292,19 +259,16 @@ Teléfono: 229 125 6566 (otro: 229 283 8701). Alta: 229 125 6566 en Yelp, Restau
 ```
 Hola, buen día. ¿Hablo con Restaurante El Maná?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (arroz a la tumbada, picadas y panuchos, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (arroz a la tumbada, picadas y panuchos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mana/
 
 Arroz a la tumbada, desayunos y mariscos todo el día: con el QR en la mesa, el comensal ve fotos y precios sin esperar la carta.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mana/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus precios de salón y los platillos de temporada. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con sus precios de salón y los platillos de temporada. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 13. Restaurant El Zocabón · Durango, Dgo.
@@ -314,19 +278,16 @@ Teléfono: 618 811 8083. Alta: Sección Amarilla lo da dos veces para 5 de Febre
 ```
 Hola, buen día. ¿Hablo con Restaurant El Zocabón?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (fajitas, filete a la tampiqueña y enchiladas, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (fajitas, filete a la tampiqueña y enchiladas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-zocabon/
 
 Están en pleno centro, en un edificio histórico que recomienda Lonely Planet: el turista llega con el celular en la mano y un QR en la mesa le resuelve la carta.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-zocabon/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar versión en inglés y destacar sus paquetes de desayuno. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo agregar versión en inglés y destacar sus paquetes de desayuno. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 14. Puscua, Cocina de Herencia · Marfil, Guanajuato
@@ -336,19 +297,16 @@ Teléfono: 473 733 5018. Alta: Tripadvisor, Yelp y su carta publican el mismo n�
 ```
 Hola, buen día. ¿Hablo con Puscua, Cocina de Herencia?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (chilaquiles con nata, huevo a 75° y birria, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (chilaquiles con nata, huevo a 75° y birria):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/puscua/
 
 Su carta es corta y muy cuidada (chilaquiles con nata, huevo a 75°, birria); merece verse con fotos y no en una hoja suelta.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/puscua/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe para los visitantes del museo y le pongo un botón para reservar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo hago bilingüe para los visitantes del museo y le pongo un botón para reservar. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 15. Restaurante Mirasol · San Miguel de Allende, Gto.
@@ -358,19 +316,16 @@ Teléfono: 415 196 7096 (otro: 415 196 7096). Alta: 415 152 8057 en Restaurant G
 ```
 Hola, buen día. ¿Hablo con Restaurante Mirasol?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (chuleta entomatada, enchiladas suizas y sus brochetas, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (chuleta entomatada, enchiladas suizas y sus brochetas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/mirasol/
 
 Atienden huéspedes del hotel y turistas de San Miguel: con un QR en las mesas del jardín y en las habitaciones, todos ven la carta en su idioma.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/mirasol/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y con un botón para reservar mesa por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo hago bilingüe y con un botón para reservar mesa por WhatsApp. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 16. Carmelita Pech Fonda Yucateca · Playa del Carmen, Q. Roo
@@ -380,19 +335,16 @@ Teléfono: 984 239 4907. Alta: cuatro directorios (Yelp, Restaurant Guru y otros
 ```
 Hola, buen día. ¿Hablo con Carmelita Pech Fonda Yucateca?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (antojitos yucatecos, arrachera y chiles rellenos, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (antojitos yucatecos, arrachera y chiles rellenos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/carmelita-pech/
 
 Tienen casi 250 reseñas en Rappi y mucha gente local y turista; un menú con fotos de sus antojitos yucatecos ayuda a que pidan sin preguntar.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/carmelita-pech/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo destacar sus especiales del día (como los chiles rellenos de los martes) y hacerlo bilingüe. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo destacar sus especiales del día (como los chiles rellenos de los martes) y hacerlo bilingüe. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 17. Los 5 Reyes · Campeche, Camp.
@@ -402,19 +354,16 @@ Teléfono: 981 135 3724 (otro: 981 816 6917). Media: su página (ueniweb) da 981
 ```
 Hola, buen día. ¿Hablo con Los 5 Reyes?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (parrilladas, tacos al pastor y alambres, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (parrilladas, tacos al pastor y alambres):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cinco-reyes/
 
 Con parrilladas para cinco y kilos para llevar, el menú digital ayuda a que la mesa arme su pedido completo y lo mande por WhatsApp.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/cinco-reyes/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo poner sus promos del día al frente y un botón de pedido para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo poner sus promos del día al frente y un botón de pedido para llevar. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 18. La Cocina de Tomasa · Puerto Vallarta, Jal.
@@ -424,19 +373,16 @@ Teléfono: 322 221 3273. Alta: Tripadvisor y otros directorios coinciden en 322 
 ```
 Hola, buen día. ¿Hablo con La Cocina de Tomasa?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (birria con consomé, pozole y carne asada, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (birria con consomé, pozole y carne asada):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-de-tomasa/
 
 Vallarta está lleno de turistas que no conocen los platillos; con fotos y descripción en inglés piden más y más rápido.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-de-tomasa/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y pongo la birria y el pozole al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo hago bilingüe y pongo la birria y el pozole al frente. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 19. Tezcalli Cocina Mexicana · Xalapa, Ver.
@@ -446,19 +392,16 @@ Teléfono: 228 321 0521. Alta: Restaurant Guru y un directorio dan 228 321 0521;
 ```
 Hola, buen día. ¿Hablo con Tezcalli Cocina Mexicana?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (pozole, charola Tezcalli y sus antojitos, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (pozole, charola Tezcalli y sus antojitos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tezcalli/
 
 Ya venden pozole por litro y paquetes; con un QR en mesas y en cada bolsa para llevar, el cliente vuelve a pedir directo por WhatsApp.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/tezcalli/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus paquetes al frente y sus precios de salón. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con sus paquetes al frente y sus precios de salón. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 20. Josefina Cocina del Valle · Tepic, Nay.
@@ -468,19 +411,16 @@ Teléfono: 311 147 9057. Alta: su sitio, su TikTok y directorios dan 311 147 905
 ```
 Hola, buen día. ¿Hablo con Josefina Cocina del Valle?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (chilaquiles con arrachera, waffles y molletes, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (chilaquiles con arrachera, waffles y molletes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/josefina/
 
 Su carta de desayunos tiene más de 70 opciones entre waffles, bagels y chilaquiles; con buscador y fotos el cliente encuentra lo suyo en segundos.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/josefina/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar su carta de eventos de Hacienda Josefina en el mismo enlace. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo agregar su carta de eventos de Hacienda Josefina en el mismo enlace. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 21. El Temorense · Chihuahua, Chih.
@@ -490,19 +430,16 @@ Teléfono: 614 609 6023. Alta: Tripadvisor y Chihuahua de Cerca dan el mismo nú
 ```
 Hola, buen día. ¿Hablo con El Temorense?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (birria, gorditas de asiento y sus boxes familiares, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (birria, gorditas de asiento y sus boxes familiares):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-temorense/
 
 Sus boxes familiares y la birria se venden por foto: un menú digital los pone al frente para mesa y para llevar.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-temorense/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus boxes y un botón de pedido por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con sus boxes y un botón de pedido por WhatsApp. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 22. Cenaduría La Guasaveña · Mexicali, B.C.
@@ -512,19 +449,16 @@ Teléfono: 686 251 2446. Alta: su Facebook, Restaurant Guru y Menufyy dan el mis
 ```
 Hola, buen día. ¿Hablo con Cenaduría La Guasaveña?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (chimichangas, huaraches y enchiladas de mole, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (chimichangas, huaraches y enchiladas de mole):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-guasavena/
 
 Las cenadurías se llenan de golpe en la noche: con el QR en la mesa la gente ve la carta y pide sin esperar al mesero.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-guasavena/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo mostrar precios en pesos y en dólares para sus clientes de Calexico. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo mostrar precios en pesos y en dólares para sus clientes de Calexico. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 23. Restaurante Bar El Tapatío · Guanajuato, Gto.
@@ -534,19 +468,16 @@ Teléfono: 473 732 3291. Alta: varias fuentes coinciden en número y dirección 
 ```
 Hola, buen día. ¿Hablo con Restaurante Bar El Tapatío?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (molcajete mar y tierra, enchiladas mineras y arrachera, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (molcajete mar y tierra, enchiladas mineras y arrachera):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-tapatio/
 
 Están frente a la Universidad, con estudiantes y turistas todo el día; una carta de más de 90 platillos en el celular se recorre mucho más fácil.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-tapatio/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y separo la carta del bar para la noche. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo hago bilingüe y separo la carta del bar para la noche. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 24. Marisquería Las Brisas · Pachuca, Hgo.
@@ -556,19 +487,16 @@ Teléfono: 771 266 5769. Alta: TripTap y Polomap dan 771 266 5769 para Cofre de 
 ```
 Hola, buen día. ¿Hablo con Marisquería Las Brisas?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (mojarra rellena, molcajete mar y tierra y cócteles, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (mojarra rellena, molcajete mar y tierra y cócteles):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-brisas/
 
 Sus mojarras y molcajetes son de foto; en un menú digital se antojan y la mesa pide más.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-brisas/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con su especialidad de la casa al frente y pedidos para llevar por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con su especialidad de la casa al frente y pedidos para llevar por WhatsApp. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 25. Clavo y Canela · Irapuato, Gto.
@@ -578,19 +506,16 @@ Teléfono: 462 135 6050 (otro: 462 148 7772). Alta: su sitio oficial y varios di
 ```
 Hola, buen día. ¿Hablo con Clavo y Canela?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (chilaquiles, enchiladas y sus platos fuertes, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (chilaquiles, enchiladas y sus platos fuertes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/clavo-y-canela/
 
 Ya tienen su página web; lo que propongo es el QR para las mesas, que abre su carta de 120 platillos con buscador y fotos.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/clavo-y-canela/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo enlazarlo a su página actual para que todo quede en un mismo lugar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo enlazarlo a su página actual para que todo quede en un mismo lugar. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 26. Rincón del Bife · Cuernavaca, Mor.
@@ -600,19 +525,16 @@ Teléfono: 777 316 4428 (otro: 777 315 4794). Alta: su sitio oficial y Tripadvis
 ```
 Hola, buen día. ¿Hablo con Rincón del Bife?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (chilaquiles de mole, huarache y tacos villarincón, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (chilaquiles de mole, huarache y tacos villarincón):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-del-bife/
 
 Ya tienen su sitio; el QR en la mesa abre directo la carta de desayunos con fotos, sin buscar en el sitio.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-del-bife/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con su imagen y separo la carta de desayunos de la de cortes. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con su imagen y separo la carta de desayunos de la de cortes. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 27. Restaurante Samael · La Paz, B.C.S.
@@ -622,19 +544,16 @@ Teléfono: 612 125 7775 (otro: 612 122 0116). Alta: Tripadvisor, Yelp y un direc
 ```
 Hola, buen día. ¿Hablo con Restaurante Samael?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (paquetes familiares, chilaquiles y lunch box, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (paquetes familiares, chilaquiles y lunch box):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/samael/
 
 Sus paquetes familiares y lunch box se piden mucho para llevar; el menú los arma y los manda por WhatsApp.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/samael/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe para los turistas del malecón. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo hago bilingüe para los turistas del malecón. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 28. Mariscos 7 Mares · Hermosillo, Son.
@@ -644,19 +563,16 @@ Teléfono: 662 260 8849. Alta: su sitio, su Instagram y la prensa local dan 662 
 ```
 Hola, buen día. ¿Hablo con Mariscos 7 Mares?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (aguachiles, molcajete con mango y botana de camarón y pulpo, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (aguachiles, molcajete con mango y botana de camarón y pulpo):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/siete-mares/
 
 Ya tienen su sitio; el QR en la mesa abre directo su carta de aguachiles con fotos, que es lo que más se antoja.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/siete-mares/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con su imagen y los aguachiles numerados al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con su imagen y los aguachiles numerados al frente. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 29. Cenaduría Sabor a Mí · Mazatlán, Sin.
@@ -666,19 +582,16 @@ Teléfono: 669 176 8909. Alta: Carta, Menuweb y Restaurant Guru coinciden en 669
 ```
 Hola, buen día. ¿Hablo con Cenaduría Sabor a Mí?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (asado, tacos dorados y brochetas de camarón, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (asado, tacos dorados y brochetas de camarón):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-a-mi/
 
 En Mazatlán hay mucho turista que no conoce el asado ni los tacos dorados; con fotos y descripción piden con confianza.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-a-mi/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y pongo sus asados al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo hago bilingüe y pongo sus asados al frente. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 30. Los Molcajetes de Villa · Villa de Álvarez, Col.
@@ -688,19 +601,16 @@ Teléfono: 312 311 4455. Alta: varias fuentes coinciden en 312 311 4455.
 ```
 Hola, buen día. ¿Hablo con Los Molcajetes de Villa?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (huaraches, guisos caseros y roles de canela, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (huaraches, guisos caseros y roles de canela):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/molcajetes-de-villa/
 
 Tienen desayunos, guisos, huaraches y panadería; con 90 productos, el buscador y las categorías ahorran mucho tiempo en mesa.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/molcajetes-de-villa/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo separar la panadería para pedidos por caja con WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo separar la panadería para pedidos por caja con WhatsApp. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 31. La Fionela · Saltillo, Coah.
@@ -710,19 +620,16 @@ Teléfono: 844 663 5347 (otro: 844 256 3779). Media: su TikTok y Placejoys dan 8
 ```
 Hola, buen día. ¿Hablo con La Fionela?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (huevos rockefeller, pechuga Fionela y chilaquiles, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (huevos rockefeller, pechuga Fionela y chilaquiles):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-fionela/
 
 Son de desayunos con mucha clientela de oficina: con el QR en la mesa piden y comen a tiempo.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-fionela/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar su comida del día y pedidos para llevar por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo agregar su comida del día y pedidos para llevar por WhatsApp. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 32. Café con Leche · Zacatecas, Zac.
@@ -732,19 +639,16 @@ Teléfono: 492 249 6094. Media: lo publica Uber Eats en sus datos; no encontré 
 ```
 Hola, buen día. ¿Hablo con Café con Leche?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (parrillada para dos, discada norteña y desayunos especiales, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (parrillada para dos, discada norteña y desayunos especiales):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-con-leche/
 
 Zacatecas recibe muchos visitantes; un menú con fotos de sus parrilladas y desayunos se comparte fácil por WhatsApp.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-con-leche/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus desayunos especiales al frente y su carta de cafetería. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con sus desayunos especiales al frente y su carta de cafetería. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 33. La Sazón de la Abuela · Torreón, Coah.
@@ -754,19 +658,16 @@ Teléfono: 871 296 1655. Media: Foursquare y Restaurant Guru dan 871 296 1655; o
 ```
 Hola, buen día. ¿Hablo con La Sazón de la Abuela?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (chamorro, parrillada y combo de filetes, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (chamorro, parrillada y combo de filetes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/sazon-de-la-abuela/
 
 Su carta va del desayuno americano al chamorro y los mariscos; en el celular con categorías se entiende mucho mejor.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/sazon-de-la-abuela/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo destacar sus combos y su comida del día. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Puedo destacar sus combos y su comida del día. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 34. Taquería San Juan · Culiacán, Sin.
@@ -776,19 +677,16 @@ Teléfono: 667 715 5446. Alta: Carta, Menuweb y Gastroranking dan 667 715 5446; 
 ```
 Hola, buen día. ¿Hablo con Taquería San Juan?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (vampiros, chilakas y changuirongos, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (vampiros, chilakas y changuirongos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-san-juan/
 
 Abren hasta las 11:30 de la noche y la fila se hace larga; con el QR la gente ve la carta mientras espera y ordena directo.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-san-juan/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con todas sus sucursales en el mismo enlace. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con todas sus sucursales en el mismo enlace. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 35. Tolk Restaurant · Villahermosa, Tab.
@@ -798,19 +696,16 @@ Teléfono: 993 187 1265. Media: su Facebook da 993 187 1265; Uber Eats da otro n
 ```
 Hola, buen día. ¿Hablo con Tolk Restaurant?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (chamorro braseado, cecina Tolk y sus burgers, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (chamorro braseado, cecina Tolk y sus burgers):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tolk/
 
 Su carta mezcla desayunos, cocina mexicana, burgers y alitas; con categorías y buscador cada quien encuentra lo suyo rápido.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/tolk/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con su imagen y un botón para reservar por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Lo dejo con su imagen y un botón para reservar por WhatsApp. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
 ### 36. Okane Sushi · Durango, Dgo.
@@ -820,17 +715,14 @@ Teléfono: 618 195 9412 (otro: 618 980 9280). Media: Restaurant Guru y directori
 ```
 Hola, buen día. ¿Hablo con Okane Sushi?
 
-Les escribo de LKM'r: hacemos menús digitales y páginas para restaurantes. Les preparé, sin costo, una muestra de su menú con QR, ya con su carta (Salmón Dragon Roll, Hot Poseidón y su ramen, entre otros):
+Soy de LKM'r: hacemos menús digitales con QR para restaurantes. Les preparé, sin costo, una muestra con su propia carta (Salmón Dragon Roll, Hot Poseidón y su ramen):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/okane-sushi/
 
 Con más de 70 rollos, ramen y yakitoris, las fotos venden solas; en una carta impresa se pierden.
 
-Cómo funciona: imprimen el QR para mesas y mostrador, el cliente lo escanea con la cámara y ve la carta con fotos, buscador y categorías. Puede armar su pedido y mandarlo directo a su WhatsApp. Es una página ligera, no un PDF borroso, y no hay que descargar nada.
-Su QR ya está listo: https://lukoffmon.github.io/WebDesignLKM/menus-qr/okane-sushi/qr.png
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo etiquetas de picante y crudo, y una sección de recomendados. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
-Pongo etiquetas de picante y crudo, y una sección de recomendados. Los precios de la muestra los tomé de Rappi; se los dejo con sus precios de salón.
+Instalación $1,800 (menú y QR listos para imprimir) y $390 al mes con cambios ilimitados.
 
-Inversión: $1,800 de instalación (menú + QR listos para imprimir) y $390 al mes, con cambios de precios y platillos ilimitados.
-
-Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
+¿Le parece si se lo enseño 5 minutos esta semana?
 ```
