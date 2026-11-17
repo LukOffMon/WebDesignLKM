@@ -1,0 +1,874 @@
+{
+ "id": 1923725833,
+ "brandName": "Clavo Y Canela",
+ "name": "Clavo Y Canela - Las Huertas 2da Sección",
+ "address": "Héroe de Nacozari 1710, Las Heras 2da Secc, 36640 Irapuato, Gto., Mexico",
+ "schedule": "08:30:00 - 17:30:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -101.3764611,
+  20.6819489
+ ],
+ "city": "Irapuato",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/clavo-logo-1631280218206.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/fondo231-1769703605803.png",
+ "schedules": [
+  {
+   "open_time": "08:30:00",
+   "close_time": "17:30:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923725833-clavo-y-canela",
+ "menu": [
+  {
+   "name": "Platos Fuer",
+   "products": [
+    {
+     "name": "Fettuccine Alfredo Con Pollo Y Espinacas",
+     "desc": "Fettuccine en salsa Alfredo con pollo y espinacas frescas.",
+     "price": 132,
+     "img": "9a9b72a7-c429-4a98-af44-03f242fbda8d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Desayuno de Peques",
+   "products": [
+    {
+     "name": "Mini hot cakes",
+     "desc": "3 Hot cakes con ingrediente a elegir.",
+     "price": 75,
+     "img": "00da3393-efdf-422e-9eda-01461b16b3cc.png"
+    },
+    {
+     "name": "Huevito revuelto o estrellado (1 pieza)",
+     "desc": "Huevo con preparación a elegir y frijoles refritos.",
+     "price": 75,
+     "img": "ee23a50f-add8-45a2-a5cd-82c7a2c39873.jpeg"
+    },
+    {
+     "name": "Mini hot cakes chocolatosos",
+     "desc": "3 Hot cakes de chocolate con chispas de chocolate e ingrediente a elegir",
+     "price": 81,
+     "img": "493c4c8b-b492-4acb-8433-4e056b0a625a.png"
+    },
+    {
+     "name": "Huevito al gusto",
+     "desc": "Estrellado, revuelto u omelette. ingrediente a escoger, acompañado de frijoles refritos.",
+     "price": 81,
+     "img": "ee23a50f-add8-45a2-a5cd-82c7a2c39873.jpeg"
+    },
+    {
+     "name": "Quesadillas sencillas",
+     "desc": "Quesadillas con tortilla a elegir. (2 piezas)",
+     "price": 75,
+     "img": "a38ca9f9-599f-4e71-ad90-0c1a7fa57026.png"
+    },
+    {
+     "name": "Quesadillas con 1 ingrediente",
+     "desc": "2 quesadillas con tortilla y un ingrediente a elegir. Incluye guarnición de lechuga y jitomate.",
+     "price": 81,
+     "img": "f6264a0a-5641-466d-ba76-4b59812c9592.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Sopa de tortilla",
+     "desc": "Sopa con chile pasilla, queso panela, aguacate y chicharrón.",
+     "price": 90,
+     "img": "983b6fc6-9997-4560-abb1-7fd7f85eb7b0.png"
+    },
+    {
+     "name": "Guacamole con chicharrón",
+     "desc": "Guacamole con trocitos de chicharrón.",
+     "price": 115,
+     "img": "ba3d81b8-5e77-412c-b1b3-719b0156c79e.jpeg"
+    },
+    {
+     "name": "Queso fundido",
+     "desc": "Queso fundido acompañado de tortillas a elegir. Ideal para compartir.",
+     "price": 100,
+     "img": "aeadb278-247e-4241-9caa-ec49fbc8f2e8.jpeg"
+    },
+    {
+     "name": "Queso fundido con chorizo",
+     "desc": "Queso fundido con chorizo y tortillas a elegir.",
+     "price": 121,
+     "img": "df224a54-31b2-40ed-90e6-a47f4efa609c.png"
+    },
+    {
+     "name": "Queso fundido con champiñones",
+     "desc": "Queso fundido con champiñones y tortillas a elegir.",
+     "price": 121,
+     "img": "b74d965a-bede-420e-a441-59aed9db89b0.jpeg"
+    },
+    {
+     "name": "Tacos dorados de frijol",
+     "desc": "3 Tacos con tortilla de maíz, lechuga, queso y crema.",
+     "price": 90,
+     "img": "93e2c087-a4cc-4123-bbc4-bacec920cda6.png"
+    },
+    {
+     "name": "Papas a la francesa",
+     "desc": "Papas a la francesa crujientes y sazonadas.",
+     "price": 78,
+     "img": "affdb92c-28d6-4cd3-9c35-d41f8bd4586c.png"
+    },
+    {
+     "name": "Tostada de marlin a la vinagreta",
+     "desc": "Tostada crujiente con marlin desmenuzado a la vinagreta, acompañada de una rodaja de aguacate.",
+     "price": 98,
+     "img": "11a63f5b-2ca4-4177-b00f-06cd58fb4e17.png"
+    },
+    {
+     "name": "Tostadas de cueritos",
+     "desc": "2 Tostadas con cueritos, pico de gallo, salsa y aguacate.",
+     "price": 56,
+     "img": "9333f8d2-387f-4c6a-ae4a-9e924b66cd18.png"
+    },
+    {
+     "name": "Tostadas de ceviche de pescado",
+     "desc": "2 Tostadas de maíz con ceviche de pescado (trocitos de pescado blanco) con jitomate, cebolla y limón.",
+     "price": 98,
+     "img": "fc142a2b-8af2-4f83-8d59-2ab6d4d2aefc.png"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada de pollo con verduras asadas",
+     "desc": "Ensalada con calabaza, berenjena, brócoli y zanahoria asadas con tiritas de pechuga de pollo a la parrilla y aderezo de soya y jengibre.",
+     "price": 145,
+     "img": "87e80903-2f98-4a96-963c-6f0232dba36f.jpeg"
+    },
+    {
+     "name": "Ensalada clavo y canela",
+     "desc": "Ensalada con lechugas de temporada, espinaca, champiñones, queso parmesano, nuez, pollo a la plancha y fresa con vinagreta de balsámico.",
+     "price": 147,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58.png"
+    },
+    {
+     "name": "Ensalada de frutos secos y jamón serrano",
+     "desc": "Ensalada de lechuga, espinaca, frutos secos, mezcla de nueces, champiñón, queso de cabra y jamón serrano con aderezo de frutos rojos.",
+     "price": 168,
+     "img": "ed0b958e-baf8-4898-8508-5b4f2d27cefb.jpeg"
+    },
+    {
+     "name": "Ensalada de atún",
+     "desc": "Ensalada con fusilli, aceituna negra, jitomate, apio, espinaca y atún con aceite de albahaca.",
+     "price": 125,
+     "img": "429f3f6b-88dc-4d0e-9376-614a8ddf6c17.jpeg"
+    },
+    {
+     "name": "Ensalada de arrachera y queso de cabra",
+     "desc": "Ensalada con lechugas de temporada, espinaca, arrachera, queso de cabra, jitomate, nuez, champiñones, ajonjolí y vinagreta.",
+     "price": 168,
+     "img": "8996ad14-201c-47fa-acf2-13c9eed76ebd.png"
+    },
+    {
+     "name": "Ensalada de camarón y cítricos",
+     "desc": "Ensalada con lechugas de temporada, espinaca, almendra, arándano, pera, camarón, supremas de naranja y vinagreta de cítricos.",
+     "price": 170,
+     "img": "d0ad032b-531d-4969-8476-5b6ba3aa12cf.png"
+    }
+   ]
+  },
+  {
+   "name": "Huevos",
+   "products": [
+    {
+     "name": "Omelette vegetariano",
+     "desc": "Relleno de espinaca, champiñon, jitomate y cebolla morada con ensalada o frijoles refritos.",
+     "price": 158,
+     "img": "5e1ae5eb-e80b-483e-b24e-eda7c7b039d4.jpeg"
+    },
+    {
+     "name": "Huevos con machaca",
+     "desc": "Huevos revueltos con carne seca, salsa mexicana y frijoles refritos.",
+     "price": 166,
+     "img": "33251c0e-199e-481d-aece-c3bfd0ea710d.jpeg"
+    },
+    {
+     "name": "Huevos tirados",
+     "desc": "Huevos revueltos con frijoles, chile, cebolla y chilaquiles a elegir.",
+     "price": 145,
+     "img": "554a22c5-a7db-4c70-8229-111bc7da8133.png"
+    },
+    {
+     "name": "Omelette",
+     "desc": "Omelette con opción de ingredientes y frijoles a elegir.",
+     "price": 148,
+     "img": "aaabdcb6-2167-4874-a475-dda199076457.jpeg"
+    },
+    {
+     "name": "Omelette de claras",
+     "desc": "Omelette de claras con opción de 2 ingredientes y frijoles. Acompañado de ensalada fresca.",
+     "price": 159,
+     "img": "979f2891-b76e-4c5a-8d18-1574fa858008.jpeg"
+    },
+    {
+     "name": "Huevos a la mexicana",
+     "desc": "Huevos revueltos con chile, cebolla, jitomate, frijoles refritos y chilaquiles a elegir.",
+     "price": 144,
+     "img": "8cdacb1b-42de-4a40-974a-8e7f719f890a.png"
+    },
+    {
+     "name": "Huevos al gusto",
+     "desc": "Huevos preparados a tu elección con opción de ingredientes adicionales y frijoles. Incluye frijoles negros con queso.",
+     "price": 127,
+     "img": "190a9af5-6039-4609-97cc-ce76a0d8f93f.png"
+    },
+    {
+     "name": "Omelette de Queso de Cabra",
+     "desc": "Omelette con queso de cabra, espinacas guisadas y ensalada de lechuga, tomate y cebolla.",
+     "price": 145,
+     "img": "75f67bf0-abd3-4d4a-b2c1-ee12b55b7693.png"
+    },
+    {
+     "name": "Omelette bañado",
+     "desc": "Omelette con champiñones guisados con epazote y queso panela, bañado con salsa de jitomate y frijoles de la olla.",
+     "price": 152,
+     "img": "04848820-a6a6-47cc-a20c-bccd07c87587.jpeg"
+    },
+    {
+     "name": "Huevos sincronizados",
+     "desc": "Huevos estrellados sobre una sincronizada, bañados en salsa verde asada y abanico de aguacate.",
+     "price": 155,
+     "img": "3cb349fc-a0de-4bb2-baf5-97e18baa12fc.jpeg"
+    },
+    {
+     "name": "Huevos con nopales",
+     "desc": "Huevo revuelto con nopales y cebolla, bañados con salsa verde y frijoles de la olla.",
+     "price": 138,
+     "img": "81dc1b95-14ed-4c5b-b06f-1e6b464c36dc.jpeg"
+    },
+    {
+     "name": "Huevos moros",
+     "desc": "Tortilla de huevo con tocino, bañada con salsa morita y queso fresco acompañada de  frijoles de la olla.",
+     "price": 145,
+     "img": "ea6d004c-4ea8-4b81-a97c-d94fc52fe89b.jpeg"
+    },
+    {
+     "name": "Huevos ahogados",
+     "desc": "Huevos en salsa de jitomate con rajas de poblanos y nopales, acompañados de frijoles negros.",
+     "price": 145,
+     "img": "2e1db1bd-072f-4705-b886-8229db34ed20.png"
+    },
+    {
+     "name": "Huevos rancheros",
+     "desc": "Huevos estrellados sobre tortilla frita con salsa roja, acompañados de frijoles refritos con queso.",
+     "price": 127,
+     "img": "241fa012-36ee-4a58-9ee5-ffc58e1a9f69.png"
+    },
+    {
+     "name": "Omelette de 3 quesos",
+     "desc": "Omelette con queso amarillo, panela y manchego, bañado con salsa bechamel, gratinado y chilaquiles a elegir.",
+     "price": 159,
+     "img": "5fc013ef-1bd8-4a78-acaf-cffa97cb4f03.png"
+    },
+    {
+     "name": "Huevos motuleños",
+     "desc": "Huevos estrellados sobre tortilla frita, frijoles refritos, salsa de jitomate con chicharos, tiras de jamón, plátano macho y gratinados.",
+     "price": 159,
+     "img": "fc6b0e59-e717-462d-92da-031754c4e3d1.png"
+    },
+    {
+     "name": "Huevos veracruzanos",
+     "desc": "Tacos de huevo a la mexicana bañados en salsa de frijol espolvoreados con tocino frito, queso, crema y aguacate.",
+     "price": 148,
+     "img": "99a4e7ae-b0b5-4eb5-ad5c-020ab3d40a67.png"
+    },
+    {
+     "name": "Huevos chilangos",
+     "desc": "Huevos estrellados en tortilla frita bañados  con salsa ranchera, frijoles de la olla, epazote y queso fresco.",
+     "price": 138,
+     "img": "0c8e70cc-ef13-47bf-8b1a-8f640416fcdb.png"
+    },
+    {
+     "name": "Huevos molcajete",
+     "desc": "Huevos revueltos con chorizo en salsa molcajeteada y frijoles de la olla.",
+     "price": 148,
+     "img": "73dbbb3c-12ad-4027-bc4c-81fbc5020a6b.jpeg"
+    },
+    {
+     "name": "Huevos con chicharrón",
+     "desc": "Huevos estrellados, bañados con chicharrón en salsa roja y cuadritos de queso de rancho y frijoles de la olla.",
+     "price": 148,
+     "img": "0bf85952-5db8-40cb-afb7-3558447c5766.png"
+    }
+   ]
+  },
+  {
+   "name": "Platos Fuertes",
+   "products": [
+    {
+     "name": "Sabana de pollo adobada",
+     "desc": "Sabana de pollo adobada acompañada de papas fritas y nopales.",
+     "price": 145,
+     "img": "6810f075-d51b-415a-b9cf-a10da9250043.png"
+    },
+    {
+     "name": "Fettuccine a la poblana",
+     "desc": "Fettuccine con salsa de chile poblano, rajas, elote y pollo.",
+     "price": 148,
+     "img": "0c6b6214-3a14-4245-93ed-349aa9dd4ef8.jpeg"
+    },
+    {
+     "name": "Pechuga de pollo a las finas hierbas",
+     "desc": "Pechuga de pollo con arroz y ensalada de lechuga, tomate y cebolla.",
+     "price": 145,
+     "img": "cd5b3211-7f42-4fc6-b70a-94061c0f4a0e.jpeg"
+    },
+    {
+     "name": "Rib eye a la parrilla",
+     "desc": "Rib eye a la parrilla de 150gr acompañado de enchiladas con queso y guacamole.",
+     "price": 155,
+     "img": "6af7ef04-fc49-4aec-a1e0-6d276cd94ff9.jpeg"
+    },
+    {
+     "name": "Fettuccine alfredo con camarones",
+     "desc": "Fettuccine con salsa cremosa, hecha de mantequilla y queso parmesano y camarones cocidos.",
+     "price": 170,
+     "img": "735dea13-1141-49e6-b1c7-60d051240105.jpeg"
+    },
+    {
+     "name": "Milanesa",
+     "desc": "Proteína a elegir empanizada con papas a la francesa y ensalada.",
+     "price": 135,
+     "img": "6c4a50c5-6fa2-4774-a4e2-2ece2816910c.png"
+    },
+    {
+     "name": "Arrachera",
+     "desc": "Arrachera 150 grs con frijoles charros, arroz y cebollitas cambray.",
+     "price": 148.5,
+     "img": "f3298e91-c0de-473a-ac0f-ff2b0933fe84.png"
+    },
+    {
+     "name": "Flauta",
+     "desc": "4 Flautas con tortilla de maíz, proteína a elegir, crema, queso y lechuga bañadas con salsa verde.",
+     "price": 120,
+     "img": "3cc49274-dd98-4f00-9d07-289fc81e9830.png"
+    }
+   ]
+  },
+  {
+   "name": "Carnes",
+   "products": [
+    {
+     "name": "Carne de cerdo en salsa",
+     "desc": "Carne de cerdo con salsa roja, frijoles de la olla y tortillas de maíz.",
+     "price": 144,
+     "img": "81b3ff44-00e7-45ee-aba0-585bdc786c87.png"
+    },
+    {
+     "name": "Chicharrón en salsa",
+     "desc": "Chicharrón con salsa y frijoles a elegir.",
+     "price": 133,
+     "img": "e5df2bba-7616-4960-be5d-223633180fce.png"
+    },
+    {
+     "name": "Bistec de res a la mexicana",
+     "desc": "Bistec de res a base de jitomate, cebolla, ajos y chiles verdes  con frijoles a elegir.",
+     "price": 141.1,
+     "img": "187cf9e3-3e4b-4364-9014-2775b94277fe.jpeg"
+    },
+    {
+     "name": "Arrachera con chilaquiles",
+     "desc": "Arrachera acompañada de chilaquiles con queso y chiles toreados.",
+     "price": 172,
+     "img": "7d33dc76-7222-42fc-afa3-90fc9dd0bc11.png"
+    }
+   ]
+  },
+  {
+   "name": "Filetes de Pescado",
+   "products": [
+    {
+     "name": "Filete de Pescado Al Ajillo",
+     "desc": "Filete de pescado al ajillo con arroz, zanahoria, calabaza y chayote asados.",
+     "price": 130,
+     "img": "e3829bdd-5c35-4f5e-be07-d88749e2d3f4.jpeg"
+    },
+    {
+     "name": "Filete de Pescado a la Veracruzana",
+     "desc": "Filete de pescado en salsa de jitomate con pimientos, chiles qüeros, aceituna verde, cebolla, arroz y ensalada de lechuga, tomate y cebolla",
+     "price": 140,
+     "img": "5005b239-c140-439c-a0a8-2d4b96b69bd0.jpeg"
+    },
+    {
+     "name": "Filete de Pescado Empanizado",
+     "desc": "Filete de pescado empanizado con arroz, zanahoria, calabaza y chayote asados.",
+     "price": 130,
+     "img": "c6384d4c-897c-4b99-8cfb-1fedd17a5ed6.png"
+    },
+    {
+     "name": "Filete de Pescado a la Plancha",
+     "desc": "Filete de pescado a la plancha acompañado de arroz, zanahoria, calabaza, chayote, brócoli y limón.",
+     "price": 130,
+     "img": "0fa1f2cb-346a-4e38-9ac0-c80a30696e06.png"
+    }
+   ]
+  },
+  {
+   "name": "Hamburguesas",
+   "products": [
+    {
+     "name": "Hamburguesa clavo y canela",
+     "desc": "Hamburguesa con carne de res, champiñones, tocino, salsa especial y queso asadero y complemento a elegir.",
+     "price": 150,
+     "img": "13d80308-c8eb-4048-84a6-e11636cee882.jpeg"
+    },
+    {
+     "name": "Hamburguesa hawaiana",
+     "desc": "Hamburguesa con carne de res molida, jamón, queso asadero, piña asada, lechuga, jitomate, cebolla y complemento a elegir.",
+     "price": 150,
+     "img": "04f90428-55ba-490e-881c-e43611c7954e.png"
+    },
+    {
+     "name": "Hamburguesa de camarón",
+     "desc": "Hamburguesa con camarones a la plancha, tocino, queso asadero, aderezo de chipotle, aguacate y complemento a elegir.",
+     "price": 170,
+     "img": "00a4b761-4df6-4e1c-9454-8237cde2eae2.png"
+    },
+    {
+     "name": "Hamburguesa de pollo a la bbq",
+     "desc": "Hamburguesa con pollo empanizado, salsa bbq, lechuga, jitomate, tocino, queso, aguacate y complemento a elegir.",
+     "price": 158,
+     "img": "9b357a75-4f68-4f0a-9739-1465981c3b0c.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Tacos de Cecina Adobada",
+     "desc": "3 Tacos con Tortilla de maíz, cecina adobada con chile guajillo, papas a la francesa, guacamole y ensalada de pepino.",
+     "price": 115,
+     "img": "ed82dbf7-988f-4948-a832-d35e87e576d5.png"
+    },
+    {
+     "name": "Tacos de Rib Eye",
+     "desc": "3 Tacos con tortilla de maíz, rib eye en tiras 150 grs, cebollas toreadas y guacamole.",
+     "price": 125,
+     "img": "cca159c0-b8a9-4f86-a776-eb316e3b5581.png"
+    },
+    {
+     "name": "Tacos de Pollo Al Pastor",
+     "desc": "3 Tacos con tortilla de maíz, pollo al pastor, cebolla, cilantro, piña y guacamole.",
+     "price": 115,
+     "img": "f2b73b31-0b75-48b8-bedf-3741db778160.jpeg"
+    },
+    {
+     "name": "Tacos Gobernador",
+     "desc": "3 Tacos con tortilla de maíz, camarones, pimientos, cebolla, queso y guacamole.",
+     "price": 150,
+     "img": "888e236c-9845-445d-8964-7ce5f217c8b4.png"
+    }
+   ]
+  },
+  {
+   "name": "Alambres",
+   "products": [
+    {
+     "name": "Alambre de Arrachera",
+     "desc": "Alambre con arrachera en fajitas, pimientos, cebolla, frijoles de la olla y aguacate.",
+     "price": 140,
+     "img": "02da87f9-60bb-4754-8145-629a9458bc5e.png"
+    },
+    {
+     "name": "Alambre de Camarón",
+     "desc": "Alambre con camarón, pimientos, cebolla morada gratinada, arroz y ensalada de lechuga, tomate y cebolla.",
+     "price": 150,
+     "img": "738ca7a0-99b6-4a0d-9937-cbf9cb6084a4.png"
+    },
+    {
+     "name": "Alambre de Arrachera con Queso",
+     "desc": "Alambre de arrachera con queso.",
+     "price": 150,
+     "img": "336c8d6e-6e4a-48bf-a2ee-a5beba7ecb26.png"
+    }
+   ]
+  },
+  {
+   "name": "Baguettes",
+   "products": [
+    {
+     "name": "Baguette vegetariano",
+     "desc": "Baguette con queso panela, pimientos rostizados, espinaca, aceituna negra, champiñones y cebolla morada.",
+     "price": 121,
+     "img": "b0701f09-ea39-477c-adb8-2f10b1cbe13d.jpeg"
+    },
+    {
+     "name": "Baguette ranchero",
+     "desc": "Baguette con fajitas de res, frijoles refritos, guacamole, tocino y chiles toreados.",
+     "price": 130.9,
+     "img": "951be4cb-64ad-435d-a647-03563ebd58e5.png"
+    },
+    {
+     "name": "Baguette de arrachera",
+     "desc": "Baguette con arrachera, lechuga, jitomate, cebolla asada, champiñones y queso gratinado.",
+     "price": 153,
+     "img": "8a856911-bada-4fda-a9b0-594e57c40b2b.png"
+    },
+    {
+     "name": "Baguette tradicional",
+     "desc": "Baguette con jamón de pavo, queso panela, jitomate, lechuga, cebolla morada y chiles en vinagre.",
+     "price": 140,
+     "img": "7f0270ec-4895-4ecd-b0f2-94fca1f20679.png"
+    },
+    {
+     "name": "Baguette pechuga de pollo",
+     "desc": "Baguette con pechuga de pollo a la parrilla o empanizada gratinada, aguacate, aceituna negra, espinaca, jitomate y aderezo ranch.",
+     "price": 154,
+     "img": "1cfac9a7-7d7d-499c-8b9d-7657930abf8d.png"
+    },
+    {
+     "name": "Baguette de carnes frías",
+     "desc": "Baguette con salami, lomo embuchado, chorizo español, pimientos rostizados, corazones de alcachofa y gratinada con queso.",
+     "price": 158,
+     "img": "f0125d3c-fd35-4030-a35d-059fdb6ffcc6.png"
+    },
+    {
+     "name": "Baguette español",
+     "desc": "Baguette con jamón serrano con queso de cabra, champiñones, jitomate y pera aderezado con aceite de albahaca.",
+     "price": 170,
+     "img": "d4dfb5d5-b255-41c9-8b67-02b80766bc98.png"
+    }
+   ]
+  },
+  {
+   "name": "Enchiladas",
+   "products": [
+    {
+     "name": "Enchiladas de Camarón",
+     "desc": "Enchiladas con camarón guisado, bañadas de salsa guajillo, lechuga, queso y crema.",
+     "price": 150,
+     "img": "e8785585-59e8-4456-90d4-b187b988c8aa.png"
+    },
+    {
+     "name": "Enchiladas verdes",
+     "desc": "Enchiladas con ingrediente a elegir, salsa verde, queso, crema y frijoles refritos.",
+     "price": 145,
+     "img": "ed05d396-d53c-469f-a4d6-e6f3cde2a796.png"
+    },
+    {
+     "name": "Enchiladas rojas",
+     "desc": "Enchiladas rojas con queso, crema y cebolla. Acompañadas de frijoles refritos. Ingrediente principal a elegir.",
+     "price": 145,
+     "img": "b68cec10-d62c-48c4-a82f-160d2aca8458.jpeg"
+    },
+    {
+     "name": "Enchiladas poblanas",
+     "desc": "Enchiladas con pollo, crema de poblano, granos de elote, gratinadas y frijoles refritos.",
+     "price": 158,
+     "img": "9eb9f04f-11a1-40e8-8232-1df0482e12cb.png"
+    },
+    {
+     "name": "Enchiladas Mineras",
+     "desc": "Enchiladas con queso, zanahoria, papa, lechuga, queso, crema y chiles en vinagre.",
+     "price": 99,
+     "img": "6ae34fe9-9d23-497b-8cba-114a47c6b200.jpeg"
+    },
+    {
+     "name": "Enchiladas suizas",
+     "desc": "Enchiladas con ingrediente a elegir, salsa cremosa verde, gratinados y frijoles refritos.",
+     "price": 158,
+     "img": "ca482270-b004-4786-951a-f8843d06205b.png"
+    },
+    {
+     "name": "Enchiladas Mineras con Cecina",
+     "desc": "Enchiladas mineras con cecina, lechuga, queso, salsa roja y zanahorias.",
+     "price": 140,
+     "img": "6ae34fe9-9d23-497b-8cba-114a47c6b200.jpeg"
+    },
+    {
+     "name": "Enchiladas especiales",
+     "desc": "Enchiladas verdes con pollo, gratinadas, rajas de poblano y frijoles refritos",
+     "price": 158,
+     "img": "3c1fe1c7-7d02-4cb4-8a91-572bc92cd745.png"
+    },
+    {
+     "name": "Enchiladas toluqueñas",
+     "desc": "Rellenas de huevo con chorizo, bañadas en salsa de guajillo, con lechuga, crema, y queso, acompañadas de frijoles refritos.",
+     "price": 158,
+     "img": "cc1ee357-5ac7-40ac-9f1f-84867afe8d80.jpeg"
+    },
+    {
+     "name": "Enchiladas Verdes de la Casa",
+     "desc": "Rellenas de pollo con lechuga fileteada ,queso y crema acompañada de frijoles refritos.",
+     "price": 120,
+     "img": "0dd96853-8808-4768-9f77-3369860b2359.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles con frijoles refritos, salsa a elegir.",
+     "price": 127,
+     "img": "9dd57418-44b4-4a27-a7af-ced681f91eba.jpeg"
+    },
+    {
+     "name": "Chilaquiles con fajitas de res",
+     "desc": "Chilaquiles con fajitas de res, frijoles refritos y salsa a elegir.",
+     "price": 159,
+     "img": "424f85d1-7825-45c4-8142-1ead896117dd.png"
+    },
+    {
+     "name": "Chilaquiles suizos",
+     "desc": "Chilaquiles en salsa verde cremosa con pollo, gratinados y frijoles refritos.",
+     "price": 135.15,
+     "img": "9de4a4e9-1522-49d6-b502-a9625367165b.png"
+    },
+    {
+     "name": "Chilaquiles con huevo",
+     "desc": "Chilaquiles con huevo estrellado, acompañados de frijoles refritos. Salsa y preparación del huevo a elegir.",
+     "price": 144,
+     "img": "5f7099d4-92a1-446e-b799-06ed9ea53b8b.png"
+    },
+    {
+     "name": "Chilaquiles con pollo",
+     "desc": "Chilaquiles con pollo, frijoles refritos y salsa a elegir.",
+     "price": 129.6,
+     "img": "0da5ff7d-f06c-4249-b08e-ffb80faf9e62.png"
+    },
+    {
+     "name": "Chilaquiles gratinados",
+     "desc": "Chilaquiles en salsa de chipotle con chorizo, gratinados y frijoles refritos.",
+     "price": 159,
+     "img": "a81410b5-7ce1-4358-b380-af24e9957f50.png"
+    },
+    {
+     "name": "Chilaquiles con Fajitas de Arrachera",
+     "desc": "Chilaquiles con fajitas de arrachera, acompañados de frijoles refritos y salsa a elegir. Incluyen jalapeños, jitomate y queso fresco.",
+     "price": 145,
+     "img": "67c084dc-9f78-47e0-b172-10624348c430.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Molletes",
+   "products": [
+    {
+     "name": "Molletes con chilaquiles",
+     "desc": "2 Molletes con chilaquiles a escoger verdes o rojos con queso y crema.",
+     "price": 148,
+     "img": "2cc39521-c40b-4e2b-96eb-43df4c95f279.png"
+    },
+    {
+     "name": "Molletes con Proteína",
+     "desc": "Dos molletes con frijoles, queso derretido, pico de gallo y proteína a elegir.",
+     "price": 130,
+     "img": "7ae41208-1bda-4e14-8d22-d2cafe163f14.png"
+    },
+    {
+     "name": "Molletes sencillos",
+     "desc": "2 Molletes sencillos con frijoles, queso derretido y salsa pico de gallo.",
+     "price": 144,
+     "img": "30111a93-1404-40b4-b2fe-4c7487f2971e.png"
+    }
+   ]
+  },
+  {
+   "name": "Sándwiches",
+   "products": [
+    {
+     "name": "Sándwich de jamón de pavo, queso d cabra",
+     "desc": "Sándwich con jamón de pavo, queso de cabra, espinaca, champiñones, cebolla morada, jitomate y complemento a elegir.",
+     "price": 148,
+     "img": "e05f328d-d517-4b00-a544-861136911067.jpg"
+    },
+    {
+     "name": "Sándwich nutritivo",
+     "desc": "Pechuga de pavo, calabaza, zanahoria asada, germen de trigo, espinaca, jitomate, aceituna negra y ensalada",
+     "price": 121,
+     "img": "c0758ed4-6e21-4743-bdf3-f3de831b920f.png"
+    },
+    {
+     "name": "Club sándwich",
+     "desc": "Sándwich con jamón, pollo, tocino, queso asadero, amarillo, aguacate, jitomate, lechuga, chiles en vinagre y papas a la francesa.",
+     "price": 154,
+     "img": "006325ed-9a78-4695-a836-f2a061c3d170.png"
+    }
+   ]
+  },
+  {
+   "name": "Sopesitos",
+   "products": [
+    {
+     "name": "Sopesitos con chorizo o pollo",
+     "desc": "3 Pz con frijol, lechuga, crema, queso, salsa verde y proteína a elegir.",
+     "price": 122.4,
+     "img": "3a7e174b-e555-4a08-8ce4-00038d6d6067.png"
+    },
+    {
+     "name": "Sopesitos sencillos",
+     "desc": "3 Pz con frijol, lechuga, crema, queso y salsa verde.",
+     "price": 102.85,
+     "img": "b5bb9113-4e25-4761-8be6-aa5ebec1283a.jpeg"
+    },
+    {
+     "name": "Sopesitos con fajitas de carne asada",
+     "desc": "3 Pz con frijol, lechuga, crema, queso, salsa verde y fajitas de carne asada.",
+     "price": 158,
+     "img": "5d0da06b-4156-435d-b6c1-620049197dbf.png"
+    },
+    {
+     "name": "Sopesitos con fajitas de arrachera",
+     "desc": "3 Pz con frijol, lechuga, crema, queso, salsa verde y fajitas de arrachera.",
+     "price": 166,
+     "img": "90dda14a-5432-4329-8649-a1d816b183e5.png"
+    }
+   ]
+  },
+  {
+   "name": "Light",
+   "products": [
+    {
+     "name": "Huarache de nopal",
+     "desc": "Nopal asado con frijoles, salsa verde queso, crema, cebolla y cilantro",
+     "price": 127,
+     "img": "100e9acd-fa71-4589-beec-8d0b19c8cd36.jpeg"
+    },
+    {
+     "name": "Frutal",
+     "desc": "Ensalada de frutas con miel, yogur y granola. Incluye fresas, piña, melón, almendras y frutos secos.",
+     "price": 127,
+     "img": "4fb037d9-17ea-4dc7-b35c-e3ba2916c5e7.png"
+    },
+    {
+     "name": "Nopal light",
+     "desc": "Nopales con queso panela asados y ensalada de lechuga, tomate y cebolla.",
+     "price": 138,
+     "img": "072126a7-5d9f-45c7-a1a7-d11a7767a3a8.jpeg"
+    },
+    {
+     "name": "Huarache de nopal con chorizo",
+     "desc": "Huarache de nopal asado con chorizo, frijoles, salsa verde, queso, crema, cebolla y cilantro.",
+     "price": 138,
+     "img": "a2f8ae86-f3b3-4e0c-ad95-ed465f924471.png"
+    },
+    {
+     "name": "Huarache de nopal con costilla",
+     "desc": "Huarache de nopal con costilla, frijoles, salsa verde, queso, crema, cebolla y cilantro.",
+     "price": 159,
+     "img": "7ea2e8a4-b283-447b-8c65-f40a22a6f411.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Otras Delicias",
+   "products": [
+    {
+     "name": "Pambazo de Carne Deshebrada Res",
+     "desc": "Carne deshebrada de res guisada a la mexicana, frijoles, lechuga, crema, queso y aguacate.",
+     "price": 85,
+     "img": "bc286fb2-88d8-4af2-8d60-fc22f9701ef6.png"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "Rellenas de pollo, mole de la casa, queso, crema, cebolla fileteada y ajonjolí tostado.",
+     "price": 138,
+     "img": "a4f5deba-3a77-4b52-83fa-e1bdcc55137a.png"
+    },
+    {
+     "name": "Pozole Rojo",
+     "desc": "Pozole rojo con carne de cerdo, cebolla, rábanos, lechuga y tostadas. Incluye limón para sazonar.",
+     "price": 105,
+     "img": "a6509981-8cdd-456d-b7fd-828a175eb904.png"
+    },
+    {
+     "name": "Fajitas de Res",
+     "desc": "Bistec de res en fajitas con tocino, cebolla, champiñón, nopales en salsa con jitomates, chiles rojos, cebolla y ajo, guacamole y frijoles de la olla.",
+     "price": 130,
+     "img": "acb70728-af77-4e4a-9b95-57fc65ad31b6.jpeg"
+    },
+    {
+     "name": "Pambazo de Papas con Chorizo",
+     "desc": "Papas con chorizo, frijoles, lechuga, crema, queso y aguacate.",
+     "price": 75,
+     "img": "8901c77f-6bc5-4c87-8a84-f63271803b38.png"
+    },
+    {
+     "name": "Entomatadas",
+     "desc": "Rellenas de champiñones, salsa de tomate con nata, queso, crema y frijoles refritos.",
+     "price": 130,
+     "img": "39c6386b-9225-4a5f-b3a0-b00eee891114.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Refrescos",
+     "price": 35,
+     "img": "9f5f3e98-9811-4cc1-91b1-a44389ea210b.jpg"
+    },
+    {
+     "name": "Coca-Cola Sin Azúcar 355 ml",
+     "desc": "Coca-Cola Sin Azúcar 355 ml.",
+     "price": 35,
+     "img": "a963815e-a2a5-49aa-b389-a929e5249067.jpeg"
+    },
+    {
+     "name": "Sprite Lima Limón 355 ml",
+     "desc": "Sprite Lima-Limón 355 ml.",
+     "price": 35,
+     "img": "1f969d80-45dc-491d-87f5-e7996a3093d2.jpeg"
+    },
+    {
+     "name": "Fuze Tea Té Negro 600 ml",
+     "desc": "Fuze Tea Té negro sabor limón, 600 ml.",
+     "price": 30,
+     "img": "c3207a07-5bbc-4fed-b847-8668e5430feb.png"
+    },
+    {
+     "name": "Fuze Tea Limón 600 ml",
+     "desc": "Té negro sabor limón 600 ml.",
+     "price": 35,
+     "img": "d268da40-4236-48d6-ae3f-2c6806b44fa2.jpeg"
+    },
+    {
+     "name": "Ciel Natural 600 ml",
+     "desc": "Aguas",
+     "price": 20,
+     "img": "06c413da-38cf-4a00-8e6a-4458de51a9e4.jpeg"
+    },
+    {
+     "name": "Fuze Tea Negro Durazno 600 ml",
+     "desc": "Fuze Tea Té negro sabor durazno 600 ml.",
+     "price": 35,
+     "img": "f51e7253-784e-4f92-afc3-f3d3e12bc233.jpeg"
+    },
+    {
+     "name": "Limonada 400 ml",
+     "desc": "Limonada con preparacion a elegir.",
+     "price": 35,
+     "img": "59702a6a-03ed-47b8-a9aa-97838a8c26e7.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Los Antojos",
+   "products": [
+    {
+     "name": "Hot cakes",
+     "desc": "3 Hot cakes con mantequilla e ingrediente a elegir.",
+     "price": 133,
+     "img": "208e4439-15d6-46c0-9f49-63138adbd69c.png"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "id": 1930051507,
+ "brandName": "Sabor a Mi Cenaduria",
+ "name": "Sabor a Mi Cenaduria - Fracc Ampliación Francisco Alarcón",
+ "address": "Avenida Óscar Pérez Escobosa 444",
+ "schedule": "12:00:00 - 21:45:00",
+ "categories": "Mexicana",
+ "location": [
+  -106.40898,
+  23.27162
+ ],
+ "city": "Mazatlán",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/1930051507_1671472233866-1671485669719.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/w-1702305977368.png",
+ "schedules": [
+  {
+   "open_time": "12:00:00",
+   "close_time": "21:45:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930051507-sabor-a-mi-cenaduria",
+ "menu": [
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Pozole Surtido",
+     "desc": "Caldo de pozole a base de chile colorado, granos de maíz, carne de puerco, cabeza, pata, pierna acompañado con lechuga, repollo, cebolla y limón.",
+     "price": 107,
+     "img": "1ed8814c-7c57-4f13-babd-98f5c1bee781.png"
+    },
+    {
+     "name": "Pozole de Maciza",
+     "desc": "Caldo de pozole a base de chile colorado, granos de maíz, carne de puerco, pierna y pechuga de pollo acompañado con lechuga, repollo, cebolla y limón.",
+     "price": 112,
+     "img": "3d84df50-0883-42da-aa09-a8f95f1a94d5.png"
+    },
+    {
+     "name": "Lengua",
+     "desc": "Caldo de pozole a base de chile colorado, granos de maíz, lengua acompañado con lechuga, repollo, cebolla y limón.",
+     "price": 117,
+     "img": "939fbf8d-beae-48d7-9ea2-7c0113ca5687.png"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Queso Fundido Con Chorizo",
+     "desc": "Queso derretido cubierto con chorizo de cerdo desmenuzado, servido caliente con tortillas o chips de maíz.",
+     "price": 150,
+     "img": "b9ef1f9b-e18e-4a8f-8b44-aad224bc067e.jpeg"
+    },
+    {
+     "name": "Papas A La Francesa",
+     "desc": "Clásicas papas de corte recto fritas hasta obtener una textura crujiente y servidas con sal.",
+     "price": 96,
+     "img": "1ff7bacf-a7ca-43bb-a323-f1776e063905.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tradicionales",
+   "products": [
+    {
+     "name": "Alitas Bbq, Bufalo",
+     "desc": "Alitas de pollo fritas bañadas en salsa BBQ y salsa tipo Buffalo picante, servidas con aderezo Ranch.",
+     "price": 168,
+     "img": "93405f22-24af-4689-b0ba-ca70097bac45.jpeg"
+    },
+    {
+     "name": "Brochetas De Camaron",
+     "desc": "Brochetas de camarones ensartados con pimientos y trozos de limón, cocinadas a la parrilla.",
+     "price": 192,
+     "img": "a78db8f6-9b60-43ed-ab47-063c6b9f3626.jpeg"
+    },
+    {
+     "name": "Brochetas De Puerco",
+     "desc": "Brochetas de lomo de cerdo, tocino, pimientos y cebolla blanca ensartados y asados.",
+     "price": 180,
+     "img": "83d5bc73-3bad-4cbd-a880-e4ebdf21a8bd.jpeg"
+    },
+    {
+     "name": "Carne Asada",
+     "desc": "Arrachera de res marinada y asada a la parrilla, preparada al estilo tradicional mexicano.",
+     "price": 180,
+     "img": "303c8961-d2f6-4506-a9a4-0e5a3814ffd5.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos Dorados",
+   "products": [
+    {
+     "name": "Camaron",
+     "desc": "Tacos de tortilla de maíz fritos rellenos de camarones picados con verduras y especias.",
+     "price": 54,
+     "img": "14536f20-a279-412b-ad89-aa2ec90c7561.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Favoritos",
+   "products": [
+    {
+     "name": "Asado",
+     "desc": "Asado de res cocinado a fuego lento con papas y zanahorias.",
+     "price": 204,
+     "img": "cbd3f09f-6cef-4546-be2c-df8b790415e9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Los Favoritos",
+   "products": [
+    {
+     "name": "Tacos Dorados",
+     "desc": "3 Pz de tortillas de maíz fritas con proteína a elegir, lechuga, zanahoria, cebolla curtida, queso rallado y crema de la casa.",
+     "price": 107,
+     "img": "378f8337-13da-4828-b35a-f7a0345b760a.png"
+    },
+    {
+     "name": "Gorditas",
+     "desc": "3 Pz de gorditas de maíz fritas con proteína a elegir, lechuga, zanahoria, cebolla curtida, queso rallado y crema de la casa.",
+     "price": 112,
+     "img": "2113639632-1671484895006.jpg"
+    },
+    {
+     "name": "Tostadas",
+     "desc": "3 Pz de tortillas de maíz tostadas con proteína a elegir, lechuga, zanahoria, cebolla curtida, queso rallado y crema.",
+     "price": 115,
+     "img": "2aab02f9-76ff-43cd-99e4-602d4aa108f2.png"
+    },
+    {
+     "name": "Enchiladas Suizas",
+     "desc": "3 Pz de tortillas de maíz con salsa suiza rellenas de pollo, gratinadas, acompañadas de arroz rojo y frijol.",
+     "price": 110,
+     "img": "57df87cd-cb3d-46fd-bb43-a155d3349748.png"
+    },
+    {
+     "name": "Enchiladas Verdes",
+     "desc": "3 Pz de tortillas de maíz con salsa poblana rellenas de pollo, gratinadas, acompañadas de arroz rojo y frijol.",
+     "price": 110,
+     "img": "89c03749-9dc6-4653-8c69-a5e27910a3bb.png"
+    },
+    {
+     "name": "Empanadas de Marlín",
+     "desc": "3 Pz de tortilla de maíz dobladas como empanadas, fritas, rellenas de marlín guisado a la mexicana acompañadas de ensalada verde de la casa y arroz rojo.",
+     "price": 130,
+     "img": "2155e473-04b3-47db-baf2-33561af00916.png"
+    },
+    {
+     "name": "Empanadas de Camarón",
+     "desc": "3 Pz de tortilla de maíz dobladas como empanadas, fritas, rellenas de camarón guisado a la mexicana acompañadas de ensalada verde de la casa y arroz rojo.",
+     "price": 140,
+     "img": "123db8c6-2e06-4db6-9afa-61cc8563c6e3.png"
+    },
+    {
+     "name": "Enchiladas Rojas",
+     "desc": "3 Pz de tortillas de maíz fritas bañadas en salsa roja de la casa con proteína a elegir,  lechuga, zanahoria, cebolla curtida, queso rallado y crema de la casa.",
+     "price": 107,
+     "img": "87e9ee20-d736-481d-b904-f21f0c57976d.png"
+    }
+   ]
+  },
+  {
+   "name": "Otras Delicias",
+   "products": [
+    {
+     "name": "Milanesa de Res",
+     "desc": "350 Gr de carne de res empanizada acompañada de ensalada verde de la casa, papas fritas, arroz rojo y tortillas de maíz.",
+     "price": 135,
+     "img": "c73b1863-264d-4ab9-a5c3-b3ea89acea4b.png"
+    },
+    {
+     "name": "Milanesa de Pollo",
+     "desc": "350 Gr de pechuga de pollo empanizado acompañado de ensalada verde de la casa, papas fritas, arroz rojo y tortillas de maíz.",
+     "price": 135,
+     "img": "e24ffcb4-4b57-4e6e-a057-9b590242b819.png"
+    },
+    {
+     "name": "Pollo a la Plancha",
+     "desc": "350 Gr de pechuga de pollo a la plancha acompañado de ensalada verde de la casa, papas fritas, arroz rojo y tortillas de maíz.",
+     "price": 140,
+     "img": "cb712541-6a5b-44e7-9ba2-8f7f8957d9d0.png"
+    },
+    {
+     "name": "Nuggets de Pollo",
+     "desc": "350 Gr de nuggets de pollo empanizados, acompañados de papas a la francesa.",
+     "price": 135,
+     "img": "c9d3ee8f-bd3a-4f17-93e1-0dbef1da8e97.png"
+    },
+    {
+     "name": "Hamburguesa de Res",
+     "desc": "Pan blanco, mayonesa, carne de res, queso amarillo, lechuga, tomate, cebolla, acompañada de papas a la francesa.",
+     "price": 115,
+     "img": "2113640260-1671484895013.jpg"
+    },
+    {
+     "name": "Hamburguesa de Camarón",
+     "desc": "Pan blanco, mayonesa, camarones, lechuga, tomate, cebolla, acompañada de papas a la francesa.",
+     "price": 135,
+     "img": "20fb238f-0de0-438b-a1b9-ddcb3f5bf818.png"
+    },
+    {
+     "name": "Consomé de Pollo",
+     "desc": "250 Gr de pollo en caldo preparado de la casa, acompañado de cilantro y cebolla.",
+     "price": 102,
+     "img": "82619463-97e0-4b0c-a31c-59d5819f3713.png"
+    },
+    {
+     "name": "Gordita de Asado",
+     "desc": "Gordita de maíz frita con cubos de carne, cubos de papa, lechuga, zanahoria, cebolla curtida, queso rallado, crema y acompañada de consomé de la casa.",
+     "price": 61,
+     "img": "gp_mexican_gordita_asado_n.png"
+    },
+    {
+     "name": "Tostada de Asado",
+     "desc": "Tostada de maíz frita con cubos de carne, cubos de papa, lechuga, zanahoria, cebolla curtida, queso rallado, crema y acompañada de consomé de la casa.",
+     "price": 68,
+     "img": "24d680ee-7352-497a-8325-69012481129a.png"
+    },
+    {
+     "name": "Taco de Camarón",
+     "desc": "Taco de tortilla de maíz con camarón guisado a la mexicana. Incluye guarnición de ensalada, chile y limón.",
+     "price": 55,
+     "img": "9f36ac0c-53d7-4a02-be51-41ebe959f09e.png"
+    },
+    {
+     "name": "Enchilada de Camarón",
+     "desc": "1 Pz de tortilla de maíz bañada con salsa roja de la casa y rellena con camarón guisado ala mexicana.",
+     "price": 55,
+     "img": "563fe1c1-9221-443b-b37d-c3caef0fe179.png"
+    },
+    {
+     "name": "Gordita de Camarón",
+     "desc": "1 Pz de gordita de maíz frita con camarón guisado a la mexicana, lechuga, zanahoria, cebolla curtida, queso rallado, crema de la casa y acompañada de consomé de la casa.",
+     "price": 81,
+     "img": "gp_mexican_gordita_asado_n.png"
+    },
+    {
+     "name": "Tostada de Camarón",
+     "desc": "1 Pz de tostada de maíz frita con camarón guisado a la mexicana, lechuga, zanahoria, cebolla curtida, queso rallado, crema de la casa y acompañada de consomé de la casa.",
+     "price": 81,
+     "img": "gp_mexican_tostada_camaron.png"
+    }
+   ]
+  },
+  {
+   "name": "Asados",
+   "products": [
+    {
+     "name": "Asado de Camarón",
+     "desc": "Camarón cocido en trozos, cubos de papa acompañado con consomé de la casa, lechuga, zanahoria, cebolla curtida y pepino.",
+     "price": 183,
+     "img": "721f55df-7442-4711-88bb-6a0f83570ad3.png"
+    },
+    {
+     "name": "Pollo a la Plaza",
+     "desc": "4 Pz de pollo fritas, acompañadas de lechuga, zanahoria, cebolla curtida, queso rallado, crema y consomé de la casa.",
+     "price": 162,
+     "img": "gp_mexican_enchilada_pollo_n.jpg"
+    },
+    {
+     "name": "Asado a la Plaza",
+     "desc": "Cubitos proteína a elegir, cubos de papa acompañado con consomé de la casa, lechuga, zanahoria, cebolla curtida y pepino.",
+     "price": 162,
+     "img": "156dcf17-861a-4627-9dd8-2ebd9aa717c1.png"
+    }
+   ]
+  }
+ ]
+}

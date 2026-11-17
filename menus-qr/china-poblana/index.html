@@ -12,11 +12,56 @@
 <meta property="og:url" content="https://lukoffmon.github.io/WebDesignLKM/menus-qr/china-poblana/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231f4fa0'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23ffffff' font-family='Georgia'%3EA%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap&family=Space+Grotesk:wght@600;700">
 <link rel="stylesheet" href="../assets/menu.css">
 <style>:root{--bg:#fbf5ea;--fg:#2a1a12;--acc:#1f4fa0;--card:#ffffff;--on-acc:#ffffff;--ft:'DM Serif Display';--fb:'Nunito Sans';color-scheme:light}</style>
 </head>
 <body>
+<style id="lkmr-intro-css">
+#lkmr-intro{position:fixed;inset:0;z-index:2147483000;display:grid;place-items:center;background:#08080a;color:#f3efe6;overflow:hidden;
+  font-family:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:opacity .55s ease,transform .7s cubic-bezier(.7,0,.2,1)}
+#lkmr-intro.out{opacity:0;transform:translateY(-6%);pointer-events:none}
+#lkmr-intro .glow{position:absolute;width:140vmax;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(214,180,122,.22),transparent 55%);animation:lk-pulse 3s ease-out both}
+#lkmr-intro .grid{position:absolute;inset:-20%;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:48px 48px;
+  mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);-webkit-mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);animation:lk-grid 3s linear both}
+#lkmr-intro .box{position:relative;text-align:center;padding:0 24px}
+#lkmr-intro .k{font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:#d6b47a;opacity:0;animation:lk-up .6s .15s ease-out forwards}
+#lkmr-intro .logo{font-weight:700;font-size:clamp(64px,17vw,148px);line-height:1;letter-spacing:-.03em;margin:14px 0 6px;display:flex;justify-content:center}
+#lkmr-intro .logo span{display:inline-block;opacity:0;transform:translateY(60%) rotate(8deg);filter:blur(8px);animation:lk-letter .7s cubic-bezier(.2,.9,.2,1) forwards;animation-delay:calc(.35s + var(--i)*.09s)}
+#lkmr-intro .logo span:last-child{color:#d6b47a}
+#lkmr-intro .bar{height:2px;width:min(320px,60vw);margin:10px auto 16px;background:linear-gradient(90deg,transparent,#d6b47a,transparent);transform:scaleX(0);animation:lk-bar .9s 1s cubic-bezier(.6,0,.2,1) forwards}
+#lkmr-intro .tag{font-size:clamp(13px,3.4vw,16px);color:#bdb7ab;opacity:0;animation:lk-up .6s 1.35s ease-out forwards}
+#lkmr-intro .sub{margin-top:22px;font-size:clamp(14px,3.8vw,18px);font-weight:600;opacity:0;animation:lk-up .6s 1.75s ease-out forwards}
+#lkmr-intro .sub b{color:#d6b47a;font-weight:700}
+#lkmr-intro .load{position:absolute;left:0;bottom:0;height:3px;width:100%;background:#d6b47a;transform-origin:left;transform:scaleX(0);animation:lk-load 3s linear forwards}
+#lkmr-intro .skip{position:absolute;right:16px;bottom:18px;font:600 12px/1 system-ui,sans-serif;letter-spacing:.08em;color:#8d887e;background:none;border:1px solid #2c2b2f;border-radius:999px;padding:8px 12px;cursor:pointer}
+@keyframes lk-letter{to{opacity:1;transform:none;filter:none}}
+@keyframes lk-up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes lk-bar{to{transform:scaleX(1)}}
+@keyframes lk-load{to{transform:scaleX(1)}}
+@keyframes lk-pulse{from{transform:scale(.4);opacity:0}40%{opacity:1}to{transform:scale(1.1);opacity:.7}}
+@keyframes lk-grid{from{transform:scale(1.15)}to{transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){#lkmr-intro *{animation-duration:.01s!important;animation-delay:0s!important}#lkmr-intro .load{animation:lk-load 3s linear forwards!important}}
+html.lkmr-lock,html.lkmr-lock body{overflow:hidden}
+</style>
+<div id="lkmr-intro" role="dialog" aria-label="LKM&#x27;r presenta" aria-live="polite">
+  <div class="glow"></div><div class="grid"></div>
+  <div class="box">
+    <div class="k">Desarrollado por</div>
+    <div class="logo" aria-label="LKM&#x27;r"><span style="--i:0">L</span><span style="--i:1">K</span><span style="--i:2">M</span><span style="--i:3">&#x27;</span><span style="--i:4">r</span></div>
+    <div class="bar"></div>
+    <div class="tag">Sitios web, menús digitales y automatización para negocios</div>
+    <div class="sub">presenta el menú digital de <b>Antigua Fonda de la China Poblana</b></div>
+  </div>
+  <div class="load"></div>
+  <button class="skip" type="button">Saltar ›</button>
+</div>
+<script>
+(function(){var el=document.getElementById('lkmr-intro');if(!el)return;var d=document.documentElement;d.classList.add('lkmr-lock');
+var done=false;function end(){if(done)return;done=true;el.classList.add('out');d.classList.remove('lkmr-lock');setTimeout(function(){el.remove();},700);}
+setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener('keydown',function(ev){if(ev.key==='Escape')end();});})();
+</script>
+
 <div class="demo"><b>Muestra</b> preparada por LKM'r para Antigua Fonda de la China Poblana · precios de referencia tomados de Rappi (17 nov. 2026), se ajustan a los de salón.</div>
 <header class="hero"><div class="wrap">
   <p class="kicker">Menú digital · Centro Histórico</p>
@@ -34,10 +79,22 @@
   <nav class="chips" id="chips" aria-label="Categorías"></nav>
 </div></div>
 <main class="wrap"><div id="list"></div><p class="empty" id="empty">No encontramos ese platillo. Prueba con otra palabra.</p></main>
+<section class="lkmr" aria-labelledby="lkmr-t"><div class="wrap"><div class="lkmr-card">
+  <p class="lkmr-k">Desarrollado por</p>
+  <h2 id="lkmr-t">LKM&#x27;r Company</h2>
+  <p class="lkmr-p">Este menú digital lo diseñó y desarrolló LKM&#x27;r. Sitios web, menús digitales y automatización para negocios. ¿Tienes un negocio? Hacemos el tuyo.</p>
+  <ul class="lkmr-s"><li>Menús digitales con QR</li><li>Sitios web y landing pages</li><li>Redes sociales y contenido</li><li>Chatbots de WhatsApp</li><li>Google Maps para negocios</li></ul>
+  <div class="lkmr-a">
+    <a class="lkmr-b lkmr-main" href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Cotiza el tuyo →</a>
+    <a class="lkmr-b" href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Conoce LKM&#x27;r</a>
+    <a class="lkmr-b" href="https://lukoffmon.github.io/WebDesignLKM/" target="_blank" rel="noopener">Ver más proyectos</a>
+  </div>
+  <p class="lkmr-c">Jesús María, Aguascalientes</p>
+</div></div></section>
 <footer><div class="wrap">
   <span>Antigua Fonda de la China Poblana · Av. 5 Oriente 401, Centro Histórico, Puebla, Pue.</span>
   <span>Los precios mostrados son de referencia y pueden cambiar. Confírmalos con tu mesero.</span>
-  <span>Menú digital hecho por <a href="../">LKM'r</a>.</span>
+  <span>Menú digital diseñado y desarrollado por <a href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">LKM&#x27;r Company</a> · <a href="https://lukoffmon.github.io/LKMLPR/" target="_blank" rel="noopener">Cotiza el tuyo</a></span>
 </div></footer>
 <button class="cartbar" id="cartbar" type="button"><span><span class="count" id="barcount">0</span>Ver mi pedido</span><span id="bartotal">$0</span></button>
 <dialog id="cart" aria-labelledby="carttitle"><div class="sheet">

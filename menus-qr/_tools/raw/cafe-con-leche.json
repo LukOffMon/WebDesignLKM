@@ -1,0 +1,458 @@
+{
+ "id": 1930164642,
+ "brandName": "Cafe Con Leche Restaurant",
+ "name": "Cafe Con Leche Restaurant - J Jesús González Ortega",
+ "address": "Av Héroes de reforma Escquina con calle del pueblo #206 Colonia Gonzáles Ortega Cp 98070 Zacatecas Zacatecas",
+ "schedule": "08:00:00 - 16:45:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -102.594916784098,
+  22.756932157537
+ ],
+ "city": "Zacatecas",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/454547-1708104492594.jpg?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/377-1708102594299.jpg",
+ "schedules": [
+  {
+   "open_time": "08:00:00",
+   "close_time": "16:45:00",
+   "day": "tue"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930164642-cafe-con-leche-restaurant",
+ "menu": [
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Naranjada Mineral",
+     "desc": "Bebida mineral preparada con naranja. 500 ml",
+     "price": 62,
+     "img": "254ef172-2b12-4927-8351-4650cf9cd7e2.jpeg"
+    },
+    {
+     "name": "Coca-cola Original 400ml",
+     "desc": "Refresco carbonatado en un formato práctico, ideal para cualquier ocasión.",
+     "price": 46,
+     "img": "0208f3f7-272e-4429-8765-8fe1a3235a93.jpeg"
+    },
+    {
+     "name": "Fresca Mudent 400ml",
+     "desc": "Refresco sabor limón con un toque de menta, ideal para refrescarte.",
+     "price": 46,
+     "img": "970ac01f-ab1d-48f5-8bf1-4a736ba7221d.jpeg"
+    },
+    {
+     "name": "Sprite 400ml",
+     "desc": "Sprite 400ml, refresco de limón con gas.",
+     "price": 46,
+     "img": "db72320f-e27d-4082-a7e2-c7868b8f807b.jpeg"
+    },
+    {
+     "name": "Fanta Naranja 400ml",
+     "desc": "Refresco de naranja en presentación de 400ml, burbujeante y refrescante.",
+     "price": 46,
+     "img": "d4b5f330-ca79-4b90-9ec4-849f0a2a345f.jpeg"
+    },
+    {
+     "name": "Agua Natural 1lt",
+     "desc": "Agua natural en presentación de 1 litro, ideal para hidratarte.",
+     "price": 38,
+     "img": "b52b457b-2341-480c-872c-c82da7047c24.jpeg"
+    },
+    {
+     "name": "Agua de Fruta Natural",
+     "desc": "Agua fresca natural, elaborada con frutas frescas, refrescante y perfecta para cualquier momento.",
+     "price": 31,
+     "img": "94f04b3e-866c-4164-809f-037c80711d1f.jpeg"
+    },
+    {
+     "name": "Jarra de Agua de Frutas",
+     "desc": "Agua de fruta de temporada.",
+     "price": 85,
+     "img": "b4b914d3-ce2a-4705-ac6a-f4e9a1404db2.jpeg"
+    },
+    {
+     "name": "Café de Olla",
+     "desc": "Café de olla tradicional, infusionado con canela.",
+     "price": 31,
+     "img": "aabb6694-5d39-422e-af76-751b5d715e84.jpeg"
+    },
+    {
+     "name": "Café Soluble",
+     "desc": "Café soluble en formato de 12 oz, ideal para preparar rápidamente.",
+     "price": 38,
+     "img": "da210786-dedb-422f-8abf-a014c87c16a1.jpeg"
+    },
+    {
+     "name": "Malteada",
+     "desc": "Malteada cremosa de 12 oz, disponible en diversos sabores.",
+     "price": 54,
+     "img": "66a4d62b-8724-4068-8daf-af3e891450a0.jpeg"
+    },
+    {
+     "name": "Licuado de Plátano",
+     "desc": "Licuado cremoso de plátano, servido en una porción de 12 oz, ideal para un impulso energético.",
+     "price": 46,
+     "img": "0854924e-4808-4bdf-a8fd-0cbee25cd3a5.jpeg"
+    },
+    {
+     "name": "Jugo Boing 350",
+     "desc": "Jugo de frutas Boing en presentación de 350 ml, una opción refrescante.",
+     "price": 38,
+     "img": "f7138dcb-75d6-4242-951f-41e6518b3011.jpeg"
+    },
+    {
+     "name": "Chocolate Caliente",
+     "desc": "Reconfortante chocolate caliente, servido en una taza de 12 oz.",
+     "price": 54,
+     "img": "a2579cf2-4c09-44ba-8456-1c202f944938.jpeg"
+    },
+    {
+     "name": "Té",
+     "desc": "Té refrescante servido en una porción de 12 oz.",
+     "price": 31,
+     "img": "9e8a0f41-01ea-4b27-9540-0421457178c2.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Carlota",
+     "desc": "Postre tradicional de galleta y limón, decorado con rodajas de limón y una galleta. Ideal para disfrutar como un dulce final.",
+     "price": 54,
+     "img": "255b42d6-9189-4ec6-921e-f87e1b360179.jpeg"
+    },
+    {
+     "name": "Pastel de 3 leches",
+     "desc": "Pastel de 3 leches, esponjoso y bañado en una mezcla de tres tipos de leche. Disponible en varios sabores.",
+     "price": 62,
+     "img": "dcb4085d-cd54-491b-a1cc-b81fdaaef35d.jpeg"
+    },
+    {
+     "name": "Helado",
+     "desc": "Copa de helado napolitano, que combina sabores de chocolate, vainilla y fresa.",
+     "price": 46,
+     "img": "6432762e-6dee-4270-931e-805722229592.jpeg"
+    },
+    {
+     "name": "Pay casero",
+     "desc": "Pay casero con relleno de chocolate y decorado con chispas de chocolate.",
+     "price": 46,
+     "img": "1a15c515-3a7b-4190-b0f5-4a3fe3de7f80.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Especiales",
+   "products": [
+    {
+     "name": "Arrachera",
+     "desc": "200g de arrachera asada, acompañada de salchichón, quesadillas, guacamole, frijoles, rajas y cebolla asada.",
+     "price": 231,
+     "img": "4ed90dd1-76ee-44ee-a564-454812221853.jpeg"
+    },
+    {
+     "name": "Parrillada Para Dos",
+     "desc": "200g de arrachera asada, 200g de pollo a la plancha, salchichón asado, quesadillas, guacamole, frijoles, rajas y cebolla asada.",
+     "price": 354,
+     "img": "45d9db8f-40a7-4b25-bbe9-823d82afa7d7.jpeg"
+    },
+    {
+     "name": "Discada Norteña Para Dos",
+     "desc": "200g de arrachera, 200g de camarones, salchichón, salchicha, jamón y cebolla al disco para gratinar al final; acompaña con frijoles y guacamole.",
+     "price": 354,
+     "img": "dd57877b-9f92-48af-bccf-f2e68470fed4.jpeg"
+    },
+    {
+     "name": "Fajitas Mar y Tierra",
+     "desc": "300g de arrachera y camarones asados con cebolla y rajas, acompañados de arroz y frijoles.",
+     "price": 216,
+     "img": "3141d4c7-65f7-4d10-a012-3f1aa540bb5b.jpeg"
+    },
+    {
+     "name": "Costillas Bbq",
+     "desc": "500g de costilla de puerco bañadas en salsa bbq de la casa, acompañadas de 150g de papas a la francesa y ensalada mixta.",
+     "price": 231,
+     "img": "602e61dc-f901-4e39-af20-cbfad808e7eb.jpeg"
+    },
+    {
+     "name": "Camarones Empanizados",
+     "desc": "200g de camarones jumbo empanizados acompañados de arroz y ensalada mixta.",
+     "price": 200,
+     "img": "ef6913ba-bee6-46a1-b348-5c9e5b7e8f81.jpeg"
+    },
+    {
+     "name": "Filete empanizado pollo o tilapia",
+     "desc": "Filete empanizado de pollo o tilapia de 200g, acompañado de arroz y ensalada mixta. Elige tu proteína.",
+     "price": 185,
+     "img": "3db8b9bf-fa9e-4b72-9f45-ccc4ebb28e73.jpeg"
+    },
+    {
+     "name": "Ensalada primavera",
+     "desc": "Ensalada mixta acompañada de 200g de proteína a elegir , a la plancha o empanizada; incluye aderezo ranch y bolillo del día.",
+     "price": 185,
+     "img": "98087b9b-7177-4c97-ac71-acf95ffd62a1.jpeg"
+    },
+    {
+     "name": "Tacos de camarones",
+     "desc": "Tacos de camarones con frijoles y guacamole. Incluyen 200g de camarones a elegir.",
+     "price": 162,
+     "img": "ba5371ac-5d38-451f-92d3-48f17a574d66.jpeg"
+    },
+    {
+     "name": "Tacos de Arrachera",
+     "desc": "200g de arrachera asada con cebolla y rajas, acompañados de guacamole y frijoles.",
+     "price": 146,
+     "img": "037aa402-4ff7-4919-a39f-4db41aeac657.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Hamburguesas",
+   "products": [
+    {
+     "name": "Hamburguesa Sencilla",
+     "desc": "Hamburguesa con carne, queso, jamón y lechuga en pan con ajonjolí.",
+     "price": 108,
+     "img": "8ad152fb-690d-4559-a9ae-b31df5b39757.jpeg"
+    },
+    {
+     "name": "Clásica C/papas",
+     "desc": "Hamburguesa clásica acompañada de 150g de papas a la francesa.",
+     "price": 131,
+     "img": "aa980b7c-77bb-40e8-b524-785337c4ff03.jpeg"
+    },
+    {
+     "name": "Tocinera",
+     "desc": "Hamburguesa sencilla con 150g de tocino crujiente y 150g de papas a la francesa.",
+     "price": 139,
+     "img": "139f0c67-45f4-4188-a693-1e18b8e364d5.jpeg"
+    },
+    {
+     "name": "Especial",
+     "desc": "Algo bien para el exigente: carne a la plancha, jamón, salchicha, 2 huevos estrellados y 100g de tocino; acompañado de 150g de papas a la francesa.",
+     "price": 146,
+     "img": "b6343710-43ba-44c2-b79c-fb614f43f60c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Algo Más",
+   "products": [
+    {
+     "name": "Sincronizada",
+     "desc": "Tortilla de harina grande doble, queso, aguacate, jamón y ensalada.",
+     "price": 85,
+     "img": "091ae54d-5817-481a-ac67-842903ec6fa8.jpeg"
+    },
+    {
+     "name": "Baguette de Pollo",
+     "desc": "Emparedado de pollo a la plancha, queso gratinado, aderezo de aguacate, ensalada y 150g de papas a la francesa.",
+     "price": 123,
+     "img": "65144575-6526-4873-8e2e-6d47951f168b.jpeg"
+    },
+    {
+     "name": "Baguette Argentino",
+     "desc": "Emparedado de chorizo argentino asado, aderezo, queso y 150g de papas a la francesa.",
+     "price": 116,
+     "img": "3a807835-d4a5-4d50-9c39-58d7f2d81802.jpeg"
+    },
+    {
+     "name": "Chapata de Pollo",
+     "desc": "Chapata con pechuga de pollo a la plancha, queso, aderezo de aguacate y ensalada mixta.",
+     "price": 123,
+     "img": "a3ee4099-5c16-432f-be31-dcfabc87bc88.jpeg"
+    },
+    {
+     "name": "Pepito",
+     "desc": "Emparedado argentino con 150g de arrachera asada, queso gratinado, aderezo de aguacate, ensalada y 150g de papas a la francesa.",
+     "price": 146,
+     "img": "5738c710-5acc-4f96-8a01-ff1b0e1cf4c8.jpeg"
+    },
+    {
+     "name": "Emparedado de Huevo",
+     "desc": "Emparedado de huevo en torta, relleno de queso y jamón; acompañado de 150g de papas a la francesa.",
+     "price": 116,
+     "img": "2aa0c6fc-fdd7-43b4-b038-7f7a28c40234.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos",
+   "products": [
+    {
+     "name": "Flautas",
+     "desc": "Orden de 5 flautas, acompañada de frijoles, arroz y ensalada. relleno a elegor.",
+     "price": 123,
+     "img": "4a51587b-5b64-4293-8bea-2913fd4a45f8.jpeg"
+    },
+    {
+     "name": "Sopes",
+     "desc": "Orden de 3 sopes con guiso del día, frijoles y ensalada.",
+     "price": 92,
+     "img": "65bb0c77-ebb6-4a79-85b8-1236c2a882f7.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Papas a la Francesa",
+     "desc": "Papas a la francesa crujientes, perfectas como acompañamiento.",
+     "price": 92,
+     "img": "3c515de8-6bfe-4d61-8b2c-2c48a44302ae.jpeg"
+    },
+    {
+     "name": "Nachos de la Casa",
+     "desc": "Totopos con frijoles, crema, cueritos y salsa casera. Incluye pico de gallo y jalapeños.",
+     "price": 54,
+     "img": "0111b38c-3800-49f4-8549-d63e4eae1f46.jpeg"
+    },
+    {
+     "name": "Sopa con Pollo",
+     "desc": "Sopa con pollo desmenuzado, trozos de papa y cilantro. Ideal para iniciar cualquier comida.",
+     "price": 38,
+     "img": "0b04272c-2911-4d4f-80b7-6a53321d0524.jpeg"
+    },
+    {
+     "name": "Molletes",
+     "desc": "Molletes tostados con frijoles, queso derretido y crema. Acompañados de ensalada fresca.",
+     "price": 69,
+     "img": "2717f838-6755-45bc-acb6-ef65694b54d9.jpeg"
+    },
+    {
+     "name": "Guacamole",
+     "desc": "Guarnición de aguacate y pico de gallo.",
+     "price": 54,
+     "img": "b8d4b035-8104-4afb-8fea-97675b11434c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos Especiales",
+   "products": [
+    {
+     "name": "Catrines",
+     "desc": "200G de arrachera asada sobre cama de chilaquiles en salsa de tu elección; acompaña frijoles, guacamole y huevos estrellados o revueltos.",
+     "price": 200,
+     "img": "a0bc633a-cf4d-4974-861d-617aa61709e6.jpeg"
+    },
+    {
+     "name": "Catrina",
+     "desc": "150G de filete de pollo a la plancha sobre cama de chilaquiles en la salsa de su elección; acompaña frijoles y aguacate.",
+     "price": 185,
+     "img": "91ab1424-e937-4754-a315-44dc60f6bedd.jpeg"
+    },
+    {
+     "name": "Chamucos",
+     "desc": "150G de camarones salteados sobre cama de chilaquiles en la salsa de tu elección; acompaña frijoles, aguacate y huevos estrellados o revueltos.",
+     "price": 200,
+     "img": "f352fa02-0926-49b3-9320-425f858752a1.jpeg"
+    },
+    {
+     "name": "Charros",
+     "desc": "Chuletón (rib eye) de 400g asado, acompañado de guarnición de chilaquiles, frijoles y aguacate.",
+     "price": 246,
+     "img": "e1003c8b-6eac-4979-b91a-d69e4d632b65.jpeg"
+    },
+    {
+     "name": "Americano",
+     "desc": "Par de hot cakes con 2 huevos estrellados y tiras de tocino fritas.",
+     "price": 200,
+     "img": "3b26b783-c80a-419f-aca6-1ddf257fa0e2.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles verdes",
+     "desc": "Chilaquiles verdes con salsa de tomatillo y chile poblano, acompañados de frijoles refritos y bolillo del día.",
+     "price": 131,
+     "img": "e8f1feaf-fe58-4204-80eb-20ef06c8061a.jpeg"
+    },
+    {
+     "name": "Chilaquiles Suizos",
+     "desc": "Salsa cremosa a base de queso crema y salsa verde. incluye frijoles refritos y bolillo del día.",
+     "price": 131,
+     "img": "2167a78a-820d-4981-9071-286f4cd4a405.jpeg"
+    },
+    {
+     "name": "Chilaquiles Enmolados",
+     "desc": "Chilaquiles enmolados con mole poblano, acompañados de frijoles refritos y bolillo del día.",
+     "price": 131,
+     "img": "4924c421-33ac-4aee-9fa4-3fca47a30b10.jpeg"
+    },
+    {
+     "name": "Chilaquiles Machos",
+     "desc": "Tradicional salsa tatemada ligeramente picante. incluye frijoles refritos y bolillo del día.",
+     "price": 131,
+     "img": "3573c019-8090-4d0a-b1ce-559403f955bd.jpeg"
+    },
+    {
+     "name": "Chilaquiles Cantera",
+     "desc": "Chilaquiles con salsa cremosa de guajillo y crema, acompañados de frijoles refritos y bolillo del día. Incluye aguacate y cilantro.",
+     "price": 131,
+     "img": "bb874e2c-06da-4154-a08f-c8df58dedba1.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Huevos Al Gusto",
+   "products": [
+    {
+     "name": "Omelett",
+     "desc": "Torta de huevo rellena de jamón y queso, acompañada de frijoles refritos.",
+     "price": 116,
+     "img": "602944a9-dec6-41fc-ada3-8a3214589294.jpeg"
+    },
+    {
+     "name": "Rancheros",
+     "desc": "Par de huevos estrellados tiernos, en cama de tortilla frita, jamón y queso bañados de una deliciosa salsa macha picante; acompañados de frijoles refritos.",
+     "price": 123,
+     "img": "ba224676-6f56-4e93-bdfd-9a7a7b60d140.jpeg"
+    },
+    {
+     "name": "Revueltos",
+     "desc": "3 piezas de huevo revuelto con frijoles refritos. Preparación a elegir.",
+     "price": 123,
+     "img": "b18b3391-2844-4858-8032-faf0866824d3.jpeg"
+    },
+    {
+     "name": "Enchilados",
+     "desc": "3 piezas de huevo estrellado en salsa a elegir, acompañadas de frijoles refritos.",
+     "price": 123,
+     "img": "c96ae071-eb8a-4923-8411-0f660711c3bb.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Para Comenzar el Día",
+   "products": [
+    {
+     "name": "Plato de Fruta",
+     "desc": "Fruta fresca de temporada, acompañada de yogurt natural y granola.",
+     "price": 69,
+     "img": "94f2e02c-0d4f-4171-b0d5-dbd6f4e5e036.jpeg"
+    },
+    {
+     "name": "Hot Cakes",
+     "desc": "Orden de 3 hot cakes recién hechos, acompañados de mermelada y miel de maple.",
+     "price": 92,
+     "img": "30cec9bb-f128-4aee-9dcd-ab6dc33007b0.jpeg"
+    },
+    {
+     "name": "Waffles dulces",
+     "desc": "1 Pz. grande de waffle crujiente y recién hecho, montado con fruta fresca chispas y chocolate líquido topping a eleigr.",
+     "price": 108,
+     "img": "ffaad4a3-85ee-4586-b642-b26a1a289405.jpeg"
+    }
+   ]
+  }
+ ]
+}

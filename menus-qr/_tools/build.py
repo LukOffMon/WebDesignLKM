@@ -32,13 +32,16 @@ IMG_CDN = "https://images.rappi.com.mx/products/{}?e=webp&d=360x360&q=68"
 
 # Categorías que no son parte de la carta del restaurante (promos de Rappi o marcas virtuales).
 DROP_CATS = {
-    "*": ["promociones", "combos by coca cola", "extras"],
+    "*": ["promociones", "combos by coca cola", "extras", "rappi- promo", "promos", "combos y promociones", "ordenes extra",
+          "extra proteinas", "extras desayunos"],
     "china-poblana": ["pizza tradicional", "pizza gourmet", "papas para compartir", "boneless", "hamburguesas",
                       "solo wings", "combos", "otros"],
     "matilda": ["almuerzos"],
     "los-agustines": ["promo desayuno chilaquiles"],
 }
 RENAME_CATS = {
+    "Platos Fuer": "Platos Fuertes", "Lonches y Hmaburguesas": "Lonches y hamburguesas", "Rappi- Promo": "Promociones",
+    "Postres / Frappe": "Postres y frappés", "Burguers": "Burgers", "Francés": "Pan francés", "Pa Los Bukitos": "Para los niños",
     "Ensalada": "Ensaladas", "Sopa": "Sopas",
     "Filetes Ia Tu Gusto!": "Filetes a tu gusto", "Ninos": "Niños", "Salmon-Atun": "Salmón y atún",
     "Spagueti": "Espagueti", "Especialidad": "Especialidades", "Teppanyakis": "Teppanyaki", "Ceviche": "Ceviches",
@@ -59,7 +62,8 @@ FOOD_KEYS = ["cazuela", "taco", "tostada", "filete", "camar", "coctel", "cóctel
              "salm", "arroz", "crepa", "hot cake", "omelet", "huevo", "pastel", "pay ", "flan", "café", "jugo", "arrachera",
              "chuleta", "pollo", "cerdo", "costilla", "burrito", "rollo", "nigiri", "pescado", "sope", "gordita", "panucho",
              "flauta", "mollete", "tamal", "pozole", "consom", "pasta", "espagueti", "pechuga", "milanesa", "atún", "atun",
-             "papas", "nachos", "alitas", "boneless", "brownie", "helado", "pan "]
+             "papas", "nachos", "alitas", "boneless", "brownie", "helado", "pan ", "taquito", "waffle",
+             "pan frances", "pan francés", "croissant", "gringa", "burrito"]
 
 
 def slugify(s):
@@ -117,6 +121,8 @@ def clean_menu(slug, raw):
     cats, seen, order = {}, set(), []
     for c in raw["menu"]:
         cname = RENAME_BY_SLUG.get(slug, {}).get(c["name"].strip()) or RENAME_CATS.get(c["name"].strip(), c["name"].strip())
+        if cname.isupper():
+            cname = cname.title().replace(" Y ", " y ").replace(" De ", " de ").replace(" / ", " / ")
         cname = cname[:1].upper() + cname[1:]
         if cname.lower() in drop or c["name"].strip().lower() in drop:
             continue
@@ -131,6 +137,7 @@ def clean_menu(slug, raw):
             if (slug in NO_DESC or len(desc.split()) < 2 or desc.lower().rstrip(".") == name.lower()
                     or not desc_matches(name, desc)):
                 desc = ""
+            cname = next((k for k in cats if slugify(k) == slugify(cname)), cname)
             if cname not in cats:
                 cats[cname] = []
                 order.append(cname)
@@ -173,6 +180,88 @@ ICON_WA = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-
 ICON_SEARCH = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>'
 
 
+EMP = CFG.get("empresa", {})
+
+
+def empresa_contacto():
+    """Enlace de contacto de la empresa: WhatsApp si está configurado, si no el sitio de LKM'r."""
+    if EMP.get("whatsapp"):
+        txt = quote("Hola LKM'r, vi un menú digital que hicieron y quiero uno para mi negocio.")
+        return f"https://wa.me/{EMP['whatsapp']}?text={txt}", "Escríbenos por WhatsApp"
+    return EMP.get("sitio", "#"), "Cotiza el tuyo"
+
+
+def intro_block(sub):
+    """Cinemática de 3 s que presenta a LKM'r antes de mostrar la página. Se puede saltar con un toque."""
+    e = html.escape
+    marca = e(EMP.get("corto", "LKM'r"))
+    letters = "".join(f'<span style="--i:{i}">{e(ch)}</span>' for i, ch in enumerate(EMP.get("corto", "LKM'r")))
+    return f"""<style id="lkmr-intro-css">
+#lkmr-intro{{position:fixed;inset:0;z-index:2147483000;display:grid;place-items:center;background:#08080a;color:#f3efe6;overflow:hidden;
+  font-family:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:opacity .55s ease,transform .7s cubic-bezier(.7,0,.2,1)}}
+#lkmr-intro.out{{opacity:0;transform:translateY(-6%);pointer-events:none}}
+#lkmr-intro .glow{{position:absolute;width:140vmax;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(214,180,122,.22),transparent 55%);animation:lk-pulse 3s ease-out both}}
+#lkmr-intro .grid{{position:absolute;inset:-20%;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:48px 48px;
+  mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);-webkit-mask-image:radial-gradient(circle at center,#000 20%,transparent 65%);animation:lk-grid 3s linear both}}
+#lkmr-intro .box{{position:relative;text-align:center;padding:0 24px}}
+#lkmr-intro .k{{font-size:11px;letter-spacing:.42em;text-transform:uppercase;color:#d6b47a;opacity:0;animation:lk-up .6s .15s ease-out forwards}}
+#lkmr-intro .logo{{font-weight:700;font-size:clamp(64px,17vw,148px);line-height:1;letter-spacing:-.03em;margin:14px 0 6px;display:flex;justify-content:center}}
+#lkmr-intro .logo span{{display:inline-block;opacity:0;transform:translateY(60%) rotate(8deg);filter:blur(8px);animation:lk-letter .7s cubic-bezier(.2,.9,.2,1) forwards;animation-delay:calc(.35s + var(--i)*.09s)}}
+#lkmr-intro .logo span:last-child{{color:#d6b47a}}
+#lkmr-intro .bar{{height:2px;width:min(320px,60vw);margin:10px auto 16px;background:linear-gradient(90deg,transparent,#d6b47a,transparent);transform:scaleX(0);animation:lk-bar .9s 1s cubic-bezier(.6,0,.2,1) forwards}}
+#lkmr-intro .tag{{font-size:clamp(13px,3.4vw,16px);color:#bdb7ab;opacity:0;animation:lk-up .6s 1.35s ease-out forwards}}
+#lkmr-intro .sub{{margin-top:22px;font-size:clamp(14px,3.8vw,18px);font-weight:600;opacity:0;animation:lk-up .6s 1.75s ease-out forwards}}
+#lkmr-intro .sub b{{color:#d6b47a;font-weight:700}}
+#lkmr-intro .load{{position:absolute;left:0;bottom:0;height:3px;width:100%;background:#d6b47a;transform-origin:left;transform:scaleX(0);animation:lk-load 3s linear forwards}}
+#lkmr-intro .skip{{position:absolute;right:16px;bottom:18px;font:600 12px/1 system-ui,sans-serif;letter-spacing:.08em;color:#8d887e;background:none;border:1px solid #2c2b2f;border-radius:999px;padding:8px 12px;cursor:pointer}}
+@keyframes lk-letter{{to{{opacity:1;transform:none;filter:none}}}}
+@keyframes lk-up{{from{{opacity:0;transform:translateY(10px)}}to{{opacity:1;transform:none}}}}
+@keyframes lk-bar{{to{{transform:scaleX(1)}}}}
+@keyframes lk-load{{to{{transform:scaleX(1)}}}}
+@keyframes lk-pulse{{from{{transform:scale(.4);opacity:0}}40%{{opacity:1}}to{{transform:scale(1.1);opacity:.7}}}}
+@keyframes lk-grid{{from{{transform:scale(1.15)}}to{{transform:scale(1)}}}}
+@media (prefers-reduced-motion:reduce){{#lkmr-intro *{{animation-duration:.01s!important;animation-delay:0s!important}}#lkmr-intro .load{{animation:lk-load 3s linear forwards!important}}}}
+html.lkmr-lock,html.lkmr-lock body{{overflow:hidden}}
+</style>
+<div id="lkmr-intro" role="dialog" aria-label="{marca} presenta" aria-live="polite">
+  <div class="glow"></div><div class="grid"></div>
+  <div class="box">
+    <div class="k">Desarrollado por</div>
+    <div class="logo" aria-label="{marca}">{letters}</div>
+    <div class="bar"></div>
+    <div class="tag">{e(EMP.get('lema', ''))}</div>
+    <div class="sub">{sub}</div>
+  </div>
+  <div class="load"></div>
+  <button class="skip" type="button">Saltar ›</button>
+</div>
+<script>
+(function(){{var el=document.getElementById('lkmr-intro');if(!el)return;var d=document.documentElement;d.classList.add('lkmr-lock');
+var done=false;function end(){{if(done)return;done=true;el.classList.add('out');d.classList.remove('lkmr-lock');setTimeout(function(){{el.remove();}},700);}}
+setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener('keydown',function(ev){{if(ev.key==='Escape')end();}});}})();
+</script>
+"""
+
+
+def promo_block(r):
+    """Bloque de la empresa al final de cada menú: quién lo hizo, qué más hace y cómo contactarla."""
+    e = html.escape
+    href, label = empresa_contacto()
+    servicios = "".join(f"<li>{e(x)}</li>" for x in EMP.get("servicios", []))
+    return f"""<section class="lkmr" aria-labelledby="lkmr-t"><div class="wrap"><div class="lkmr-card">
+  <p class="lkmr-k">Desarrollado por</p>
+  <h2 id="lkmr-t">{e(EMP.get('nombre', "LKM'r"))}</h2>
+  <p class="lkmr-p">Este menú digital lo diseñó y desarrolló {e(EMP.get('corto', "LKM'r"))}. {e(EMP.get('lema', ''))}. ¿Tienes un negocio? Hacemos el tuyo.</p>
+  <ul class="lkmr-s">{servicios}</ul>
+  <div class="lkmr-a">
+    <a class="lkmr-b lkmr-main" href="{e(href)}" target="_blank" rel="noopener">{label} →</a>
+    <a class="lkmr-b" href="{e(EMP.get('sitio', '#'))}" target="_blank" rel="noopener">Conoce {e(EMP.get('corto', "LKM'r"))}</a>
+    <a class="lkmr-b" href="{e(EMP.get('portafolio', '#'))}" target="_blank" rel="noopener">Ver más proyectos</a>
+  </div>
+  <p class="lkmr-c">{e(EMP.get('ciudad', ''))}</p>
+</div></div></section>"""
+
+
 def font_link(t):
     fams = []
     for f, w in ((t["titulo"], "600;700"), (t["texto"], "400;600;700;800")):
@@ -206,11 +295,12 @@ def render_menu(r, cats, url):
 <meta property="og:url" content="{url}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='{t['acc'].replace('#', '%23')}'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='{on_acc.replace('#', '%23')}' font-family='Georgia'%3E{e(r['nombre'][0])}%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="{font_link(t)}">
+<link rel="stylesheet" href="{font_link(t)}&family=Space+Grotesk:wght@600;700">
 <link rel="stylesheet" href="../assets/menu.css">
 <style>:root{{--bg:{t['bg']};--fg:{t['fg']};--acc:{t['acc']};--card:{t['card']};--on-acc:{on_acc};--ft:'{t['titulo']}';--fb:'{t['texto']}';color-scheme:{'dark' if luminance(t['bg']) < .2 else 'light'}}}</style>
 </head>
 <body>
+{intro_block(f"presenta el menú digital de <b>{e(r['nombre'])}</b>")}
 <div class="demo"><b>Muestra</b> preparada por LKM'r para {e(r['nombre'])} · precios de referencia tomados de Rappi ({e(CFG['fecha_menu'])}), se ajustan a los de salón.</div>
 <header class="hero"><div class="wrap">
   <p class="kicker">Menú digital · {e(r['sucursal'])}</p>
@@ -228,10 +318,11 @@ def render_menu(r, cats, url):
   <nav class="chips" id="chips" aria-label="Categorías"></nav>
 </div></div>
 <main class="wrap"><div id="list"></div><p class="empty" id="empty">No encontramos ese platillo. Prueba con otra palabra.</p></main>
+{promo_block(r)}
 <footer><div class="wrap">
   <span>{e(r['nombre'])} · {e(r['direccion'])}</span>
   <span>Los precios mostrados son de referencia y pueden cambiar. Confírmalos con tu mesero.</span>
-  <span>Menú digital hecho por <a href="../">LKM'r</a>.</span>
+  <span>Menú digital diseñado y desarrollado por <a href="{e(EMP.get('sitio', '#'))}" target="_blank" rel="noopener">{e(EMP.get('nombre', "LKM'r"))}</a> · <a href="{e(empresa_contacto()[0])}" target="_blank" rel="noopener">{e(empresa_contacto()[1])}</a></span>
 </div></footer>
 <button class="cartbar" id="cartbar" type="button"><span><span class="count" id="barcount">0</span>Ver mi pedido</span><span id="bartotal">$0</span></button>
 <dialog id="cart" aria-labelledby="carttitle"><div class="sheet">
@@ -427,7 +518,7 @@ details summary {{ cursor:pointer; color:var(--soft); font-size:14px; }}
 <body>
 <header class="top wrap">
   <div class="kick">Maletín · Menús digitales y QR</div>
-  <h1>12 restaurantes listos para contactar</h1>
+  <h1>{len(rows)} restaurantes listos para contactar</h1>
   <p class="lead">Cada uno tiene su menú digital publicado, su QR y una tarjeta de mesa lista para imprimir. El botón verde abre WhatsApp con la propuesta ya escrita; si el número es fijo y no tiene WhatsApp, usa Llamar o copia el mensaje para Instagram o Facebook.</p>
   <div class="sum"><span>Oferta: <b>{money(of['instalacion'])}</b> instalación + <b>{money(of['mensualidad'])}</b>/mes</span><span>Menús tomados de Rappi el {e(CFG['fecha_menu'])}</span><span id="prog">0 de {len(rows)} contactados</span></div>
 </header>
@@ -492,7 +583,7 @@ def update_portfolio(rows):
              '    <section class="qr-sec" id="menus-qr">\n'
              '      <p class="eyebrow">Menús QR</p>\n'
              '      <h2>Menús digitales con QR para restaurantes.</h2>\n'
-             f'      <p class="qr-lead">{len(rows)} muestras en {len(rows)} ciudades del país: carta con fotos, buscador, categorías y pedido directo por WhatsApp. Se imprime el QR para mesas y mostrador.</p>\n'
+             f'      <p class="qr-lead">{len(rows)} muestras en {len({r["ciudad"] for r, *_ in rows})} ciudades del país: carta con fotos, buscador, categorías y pedido directo por WhatsApp. Se imprime el QR para mesas y mostrador.</p>\n'
              '      <div class="grid">\n' + "\n".join(cards) + "\n      </div>\n    </section>\n"
              "    <!-- MENUS-QR:END -->")
     src = page.read_text(encoding="utf-8")
@@ -505,6 +596,12 @@ def update_portfolio(rows):
            "    .qr-lead { color: var(--mute); max-width: 60ch; line-height: 1.6; margin: 14px 0 0; }\n"
            "    .qr-sec .grid { margin-top: 32px; }\n"
            "    .qr-card .thumb { aspect-ratio: 16/9; }\n")
+    intro = ("<!-- LKMR-INTRO:START (lo genera menus-qr/_tools/build.py) -->\n"
+             + intro_block("presenta su <b>portafolio de proyectos</b>") + "<!-- LKMR-INTRO:END -->")
+    if "<!-- LKMR-INTRO:START" in src:
+        src = re.sub(r"<!-- LKMR-INTRO:START.*?<!-- LKMR-INTRO:END -->", lambda m: intro, src, flags=re.S)
+    else:
+        src = src.replace("<body>", "<body>\n" + intro, 1)
     if ".qr-sec {" not in src:
         src = src.replace("  </style>", css + "  </style>", 1)
     page.write_text(src, encoding="utf-8")
@@ -518,7 +615,7 @@ def main():
     rows, report = [], []
     for r in CFG["restaurantes"]:
         raw = json.loads((TOOLS / "raw" / f"{r['slug']}.json").read_text(encoding="utf-8"))
-        r["horario"] = raw.get("schedule") or ""
+        r["horario"] = "" if r.get("sin_horario") else (raw.get("schedule") or "")
         out = ROOT / r["slug"]
         (out / "img").mkdir(parents=True, exist_ok=True)
         cats = clean_menu(r["slug"], raw)

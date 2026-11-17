@@ -143,3 +143,22 @@ footer a { text-underline-offset: 3px; }
 @media (hover: hover) { .item:hover { transform: translateY(-2px); box-shadow: 0 14px 30px -18px rgba(0,0,0,.35); } }
 @media (max-width: 380px) { .item { grid-template-columns: 1fr 88px; } .ph img { width: 88px; height: 88px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+
+/* Bloque de la empresa (LKM'r) al final de cada menú */
+.lkmr { padding: 8px 0 40px; }
+.lkmr-card {
+  position: relative; overflow: hidden; border-radius: 24px; padding: 26px 22px; background: #0c0c0e; color: #f3efe6;
+  border: 1px solid rgba(214,180,122,.35); box-shadow: 0 24px 50px -30px rgba(0,0,0,.6);
+}
+.lkmr-card::after { content: ""; position: absolute; right: -80px; top: -80px; width: 240px; aspect-ratio: 1; border-radius: 50%;
+  background: radial-gradient(circle, rgba(214,180,122,.28), transparent 70%); pointer-events: none; }
+.lkmr-k { margin: 0; font-size: 11px; letter-spacing: .32em; text-transform: uppercase; color: #d6b47a; font-weight: 700; }
+.lkmr h2 { font: 700 clamp(28px, 6vw, 40px)/1.05 'Space Grotesk', var(--ft), sans-serif; margin: 8px 0 8px; letter-spacing: -.02em; }
+.lkmr-p { margin: 0; color: #c9c3b7; max-width: 58ch; }
+.lkmr-s { list-style: none; padding: 0; margin: 16px 0 18px; display: flex; flex-wrap: wrap; gap: 8px; }
+.lkmr-s li { font-size: 13px; padding: 6px 11px; border-radius: 999px; border: 1px solid rgba(255,255,255,.14); color: #e8e2d6; }
+.lkmr-a { display: flex; flex-wrap: wrap; gap: 8px; position: relative; z-index: 1; }
+.lkmr-b { text-decoration: none; padding: 11px 15px; border-radius: 12px; font-weight: 700; font-size: 14px; border: 1px solid rgba(255,255,255,.18); color: #f3efe6; }
+.lkmr-b:hover { border-color: #d6b47a; }
+.lkmr-main { background: #d6b47a; color: #141210; border-color: #d6b47a; }
+.lkmr-c { margin: 14px 0 0; font-size: 12.5px; color: #8d887e; }
