@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8" />
+<title>Imprimibles · The Crunchy Corner Cuatro Hojas</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=block" rel="stylesheet" />
+<style>
+@page{size:letter;margin:0}
+:root{--red:#b3141c;--cream:#f8ecd9;--ink:#2e3234;--cheese:#ffb81c;--display:Anton,Impact,sans-serif;--body:Arial,Helvetica,sans-serif}
+*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0;font-family:var(--body);color:var(--ink);background:#fff}
+.page{width:8.5in;height:11in;position:relative;overflow:hidden;page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto}
+.disp{font-family:var(--display);text-transform:uppercase;line-height:.92;letter-spacing:.01em;font-weight:400}
+.tiles{height:.22in;background:var(--ink) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Crect width='14' height='14' fill='%232e3234'/%3E%3Cg fill='%23f8ecd9'%3E%3Ccircle cx='7' cy='7' r='4.5'/%3E%3Ccircle cx='0' cy='0' r='4.5'/%3E%3Ccircle cx='14' cy='0' r='4.5'/%3E%3Ccircle cx='0' cy='14' r='4.5'/%3E%3Ccircle cx='14' cy='14' r='4.5'/%3E%3C/g%3E%3C/svg%3E") 0 0/.14in .14in repeat}
+
+/* ---- tarjeta de mesa 4x6 in ---- */
+.cards{display:flex;gap:.06in;justify-content:center;padding-top:.6in}
+.cut{position:relative;padding:.05in;border:1px dashed #b9b2a6}
+.cut::after{content:"✂";position:absolute;top:-.12in;left:.2in;font-size:12px;color:#8c857a;background:#fff;padding:0 3px}
+.card{width:4in;height:6in;background:var(--cream);position:relative;overflow:hidden;display:flex;flex-direction:column}
+.card .top{background:var(--red);color:var(--cream);text-align:center;padding:.22in .2in 1.05in;position:relative}
+.card .top::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 60% at 50% 40%,rgba(255,184,28,.3),transparent 70%)}
+.card .top>*{position:relative}
+.card .rooster{width:.95in;margin:0 auto .04in;display:block}
+.card .k{font:700 7.5pt/1 var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--cheese)}
+.card h1{font-size:34pt;margin:.06in 0 0}
+.card h1 span{color:var(--cheese)}
+.card .qrbox{width:2.2in;height:2.2in;margin:-.9in auto 0;background:#fff;border-radius:.2in;padding:.12in;position:relative;box-shadow:0 .05in .12in rgba(0,0,0,.18)}
+.card .qrbox img{width:100%;height:100%;display:block}
+.card .scan{text-align:center;font-size:30pt;margin:.14in 0 0;color:var(--red)}
+.card .steps{display:flex;justify-content:center;gap:.08in;margin:.08in .2in 0}
+.card .steps div{flex:1;text-align:center;font:700 7.5pt/1.2 var(--body)}
+.card .steps b{display:block;margin:0 auto .04in;width:.28in;height:.28in;border-radius:50%;background:var(--ink);color:var(--cream);font:14pt/.28in var(--display)}
+.card .foot{margin-top:auto;background:var(--ink);color:var(--cream);text-align:center;padding:.1in .1in .08in}
+.card .foot .disp{font-size:13pt}
+.card .foot small{display:block;font:700 7pt/1.3 var(--body);letter-spacing:.12em;text-transform:uppercase;opacity:.85;margin-top:.03in}
+.note{position:absolute;left:0;right:0;bottom:.45in;text-align:center;font-size:9pt;color:#7d766b}
+
+/* ---- póster ---- */
+.poster{background:var(--red);color:var(--cream);display:flex;flex-direction:column;align-items:center;text-align:center;padding:.55in .6in 0}
+
+.poster>*{position:relative}
+.poster .rooster{width:1.5in}
+.poster .k{font:700 11pt/1 var(--body);letter-spacing:.3em;text-transform:uppercase;color:var(--cheese);margin-top:.12in}
+.poster h1{font-size:74pt;margin:.14in 0 0}
+.poster h1 span{color:var(--cheese)}
+.poster .qrbox{width:3.3in;height:3.3in;background:#fff;border-radius:.3in;padding:.18in;margin:.32in 0 0;box-shadow:0 .1in .3in rgba(0,0,0,.25)}
+.poster .qrbox img{width:100%;height:100%;display:block}
+.poster .lead{font-size:15pt;margin:.22in 0 0;max-width:6in;line-height:1.35}
+.poster .lead b{color:var(--cheese)}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:.06in;margin-top:.3in;width:100%}
+.week div{background:rgba(0,0,0,.18);border-radius:.12in;padding:.1in .04in;font:700 7.5pt/1.25 var(--body)}
+.week div b{display:block;font:15pt/1 var(--display);text-transform:uppercase;color:var(--cheese);margin-bottom:.04in}
+.poster .bottom{position:absolute;left:0;right:0;bottom:0}
+.poster .bottom .bar{background:var(--ink);padding:.16in;display:flex;justify-content:center;gap:.4in;font:700 11pt var(--body)}
+
+/* ---- stickers ---- */
+.sheet{padding:.5in .45in;display:grid;grid-template-columns:repeat(3,2.4in);grid-auto-rows:2.4in;gap:.18in .25in;justify-content:center}
+.stk{width:2.4in;height:2.4in;border-radius:50%;background:var(--red);color:var(--cream);display:flex;flex-direction:column;align-items:center;justify-content:center;outline:1px dashed #b9b2a6;outline-offset:.05in}
+.stk .disp{font-size:14pt}
+.stk .disp span{color:var(--cheese)}
+.stk .qrbox{width:1.3in;height:1.3in;background:#fff;border-radius:.12in;padding:.07in;margin:.06in 0}
+.stk .qrbox img{width:100%;height:100%;display:block}
+.stk small{font:700 6.5pt/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--cheese)}
+.shead{position:absolute;left:0;right:0;bottom:.2in;text-align:center;font-size:9pt;color:#7d766b}
+</style>
+</head>
+<body>
+
+<template id="tCard">
+  <div class="card">
+    <div class="top">
+      <img class="rooster" src="../../img/rooster.webp" alt="" />
+      <div class="k">Menú digital · Cuatro Hojas</div>
+      <h1 class="disp">The Crunchy <span>Menu</span></h1>
+    </div>
+    <div class="qrbox"><img src="../qr.svg" alt="QR del menú" /></div>
+    <div class="scan disp">Escanea y pide</div>
+    <div class="steps"><div><b>1</b>Abre tu cámara</div><div><b>2</b>Elige tus 18 salsas</div><div><b>3</b>Pide por WhatsApp</div></div>
+    <div class="foot"><div class="disp">WhatsApp 449 446 4730</div><small>Plaza Cuatro Hojas · @thecrunchycorner</small></div>
+    <div class="tiles"></div>
+  </div>
+</template>
+
+<!-- Página 1: dos tarjetas de mesa 4 x 6 in -->
+<section class="page" id="p-cards">
+  <div class="cards"><div class="cut" data-card></div><div class="cut" data-card></div></div>
+  <p class="note">Tarjetas de mesa de 4 × 6 in (10 × 15 cm) para porta-menú de acrílico. Recorta por la línea punteada.<br>Imprime en papel couché o cartulina de 250 g o más, a color y al 100 % (sin “ajustar a la página”).</p>
+</section>
+
+<!-- Página 2: póster para mostrador / entrada -->
+<section class="page poster" id="p-poster">
+  <img class="rooster" src="../../img/rooster.webp" alt="" />
+  <div class="k">The Crunchy Corner · Plaza Cuatro Hojas</div>
+  <h1 class="disp">Nuevo menú<br><span>digital</span></h1>
+  <div class="qrbox"><img src="../qr.svg" alt="QR del menú" /></div>
+  <p class="lead">Escanea con tu cámara: carta completa con fotos, <b>18 salsas</b>, la promo de hoy y pedidos por WhatsApp.</p>
+  <div class="week">
+    <div><b>Lun</b>Combo $179</div><div><b>Mar</b>30 alitas $319</div><div><b>Mié</b>20% en burgers</div><div><b>Jue</b>Boneless de regalo</div><div><b>Vie</b>Tenders de regalo</div><div><b>Sáb</b>Bebida gratis</div><div><b>Dom</b>Waffle de regalo</div>
+  </div>
+  <div class="bottom"><div class="bar"><span>WhatsApp 449 446 4730</span><span>@thecrunchycorner</span></div><div class="tiles"></div></div>
+</section>
+
+<!-- Página 3: stickers -->
+<section class="page" id="p-stickers">
+  <div class="sheet" id="stickers"></div>
+  <p class="shead">Stickers de 2.4 in (6 cm) para mostrador, ventanas o vasos para llevar. Imprime en papel adhesivo y recorta por la línea punteada.</p>
+</section>
+
+<script>
+const tpl=document.getElementById('tCard');
+document.querySelectorAll('[data-card]').forEach(el=>el.appendChild(tpl.content.cloneNode(true)));
+const st=document.getElementById('stickers');
+for(let i=0;i<9;i++)st.insertAdjacentHTML('beforeend','<div class="stk"><div class="disp">Crunchy <span>menu</span></div><div class="qrbox"><img src="../qr.svg" alt=""></div><small>Escanéame · pide aquí</small></div>');
+</script>
+</body>
+</html>
