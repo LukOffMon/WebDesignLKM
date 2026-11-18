@@ -1,0 +1,553 @@
+{
+ "id": 1923279445,
+ "brandName": "Los Abolengos",
+ "name": "Los Abolengos - Del Trabajo",
+ "address": "Prol Alameda 810, Col del Trabajo, 20180 Aguascalientes, Ags.",
+ "schedule": "07:58:00 - 23:01:00",
+ "categories": "Internacional · Desayunos y Brunch",
+ "location": [
+  -102.2704757,
+  21.8846352
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/763324567-1656711669095.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/987564-1656711670940.png",
+ "schedules": [
+  {
+   "open_time": "07:58:00",
+   "close_time": "23:01:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923279445-los-abolengos",
+ "menu": [
+  {
+   "name": "Huevos Abolengos",
+   "products": [
+    {
+     "name": "Huevos Pelea de Gallos",
+     "desc": "Huevos estrellados con frijoles refritos negros, salsa roja y verde.",
+     "price": 156,
+     "img": "60cda172-c6c0-42e1-a140-df6e14d53595.jpeg"
+    },
+    {
+     "name": "Huevos al Gusto",
+     "desc": "Omelette de champiñones con crema, salsa roja y jitomates frescos.",
+     "price": 130,
+     "img": "0e009c0c-65d5-488b-a8bd-d70124817c32.jpeg"
+    },
+    {
+     "name": "Huevos a la Cazuela",
+     "desc": "Birria completa con 10 tortillas de maíz, cebolla, cilantro y salsa de manzano.",
+     "price": 182,
+     "img": "2bae4b2e-9887-4111-b485-deb8edffd413.jpeg"
+    },
+    {
+     "name": "Huevos Rancheros",
+     "desc": "Huevos estrellados con tortilla de maíz dorada, salsa roja, queso, crema y frijoles fritos.",
+     "price": 156,
+     "img": "353cf28e-faab-42b0-96b9-11dc60708040.jpeg"
+    },
+    {
+     "name": "Huevos con Jamón",
+     "desc": "Omelette de tocino con crema, salsa roja y jitomates. Acompañado de pan tostado.",
+     "price": 169,
+     "img": "0bdd4159-4a43-4355-8b5d-e63dada2e32d.jpeg"
+    },
+    {
+     "name": "Huevos con Salchicha",
+     "desc": "Huevos revueltos con salchicha y frijoles refritos.",
+     "price": 169,
+     "img": "2b9f5dac-c75a-4bbf-94ec-18f86c1a5c82.jpeg"
+    },
+    {
+     "name": "Huevos con Chorizo",
+     "desc": "Huevos revueltos con tocino, acompañados de frijoles refritos.",
+     "price": 169,
+     "img": "10074f51-8c39-4dee-8303-b5311e0d9066.jpeg"
+    },
+    {
+     "name": "Huevos con Tocino",
+     "desc": "Huevos preparados al gusto, acompañados de frijoles fritos. Opciones de preparación incluyen ingredientes visibles como jamón.",
+     "price": 169,
+     "img": "b24ba385-c7a7-441f-9941-1410bd7fc185.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Omeletts",
+   "products": [
+    {
+     "name": "Omelette de Milpa",
+     "desc": "Omelette de milpa con rajas de poblano, elotito, crema, salsa roja y jitomates.",
+     "price": 156,
+     "img": "bb8cca17-8037-488d-a029-2ff4e97bf753.jpeg"
+    },
+    {
+     "name": "Omelette de Tocino",
+     "desc": "Hotcakes con miel maple, mermelada y mantequilla, 3 piezas.",
+     "price": 169,
+     "img": "e7813ed1-414b-4934-a019-4c4dc8e319ef.jpeg"
+    },
+    {
+     "name": "Omelette de Salchicha",
+     "desc": "Omelette de salchicha con crema, salsa roja y jitomates.",
+     "price": 156,
+     "img": "58ea90fd-7325-4f28-8d21-8cf75f41913b.jpeg"
+    },
+    {
+     "name": "Omelette de Jamón",
+     "desc": "Omelette de jamón con crema, salsa roja y jitomates confitados.",
+     "price": 156,
+     "img": "ca51c3e6-5488-4c60-a874-4c3b887e9ef3.jpeg"
+    },
+    {
+     "name": "Omelette de Ferrocarrileros",
+     "desc": "Omelette con jamón, salchicha, tocino, chorizo, crema, salsa roja y jitomates.",
+     "price": 182,
+     "img": "edaa1512-4739-4cc4-94dc-b00757396930.jpeg"
+    },
+    {
+     "name": "Omelette de Champiñones",
+     "desc": "Omelette relleno de chorizo, acompañado de crema, salsa roja y jitomates cherry.",
+     "price": 169,
+     "img": "d9ca64c7-53b4-49f1-a216-c122ff05ee26.jpeg"
+    },
+    {
+     "name": "Omelette de Chorizo",
+     "desc": "Huevos con nopales, frijol de la olla negros, chicharrón, jitomate y tiras de tortilla.",
+     "price": 169,
+     "img": "285ec3f1-cd4e-4c56-9353-24d155b584be.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades los Abolengos",
+   "products": [
+    {
+     "name": "Pastel Azteca",
+     "desc": "Pastel con mil hojas de tortillas de maíz, pollo, rajas poblanas, elote, salsa roja aromatizada con chipotle y queso manchego gratinado.",
+     "price": 185,
+     "img": "e178e4ca-f39f-45c3-81d8-20296eb7b2eb.jpeg"
+    },
+    {
+     "name": "Huarache de Arrachera",
+     "desc": "Huarache con arrachera, frijol refrito negro, ensalada de nopales, salsa verde tatemada, crema, queso y lechuga.",
+     "price": 195,
+     "img": "64698efa-5a44-48a5-a772-bdf74b02d212.jpeg"
+    },
+    {
+     "name": "Birria Media Orden",
+     "desc": "Birria media orden con 5 tortillas de maíz, cebolla, cilantro y salsa de manzano.",
+     "price": 125,
+     "img": "783f9e04-88d4-4647-84ce-d90bbe4fd997.jpeg"
+    },
+    {
+     "name": "Birria Orden Completa",
+     "desc": "Taco de sesos servido sobre tortilla de maíz blanco.",
+     "price": 195,
+     "img": "875418bd-6a1d-4a7f-908e-a63a65dea292.jpeg"
+    },
+    {
+     "name": "Tamalito Dulce",
+     "desc": "Tamal con ate de guayaba, queso crema, mermelada casera de guayaba y polvo de mazapán.",
+     "price": 110,
+     "img": "534fb712-5775-4d93-8436-76d603723876.jpeg"
+    },
+    {
+     "name": "Enfrijoladas Convención",
+     "desc": "Tortilla de maíz con deshebrada de res, salsa roja tatemada, frijol negro estilo san miguel de allende, crema, queso y aguacate, 3 piezas.",
+     "price": 185,
+     "img": "3cfa7725-c8f5-40f1-b34f-64353832eab8.jpg"
+    },
+    {
+     "name": "Enfrijoladas Allende",
+     "desc": "Tortillas de maíz con chicharrón, salsa roja ranchera, frijol negro san miguel de allende, crema, queso y aguacate, 3 piezas.",
+     "price": 185,
+     "img": "27b77d8a-fd99-4e39-a434-cefb144f5b09.jpeg"
+    },
+    {
+     "name": "Tamachile",
+     "desc": "Tamal en chile poblano relleno de queso, salsa roja y queso crema.",
+     "price": 185,
+     "img": "69313792-09ef-4c0d-8c55-62643a91dce0.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Baguettes",
+   "products": [
+    {
+     "name": "Baguette Sequia",
+     "desc": "Pan artesanal a base de miel de amaranto, avena, cereales, aderezo de hierbas, germen de alfalfa, jitomate, queso panela, hojas de albahaca, pepino y jamón.",
+     "price": 130,
+     "img": "5727eaad-5b50-4167-a6f1-cbf1d1f3dbfe.jpeg"
+    },
+    {
+     "name": "Baguette del Granero",
+     "desc": "Pan horneado artesanal a base de miel de amaranto, avena, cereales, aderezo de hierbas, germen de alfalfa, pollo desmenuzado, aguacate, queso panela, pimientos, ensalada de col y zanahoria.",
+     "price": 130,
+     "img": "b91fc609-5853-4cbb-8268-b78b857d816a.jpeg"
+    },
+    {
+     "name": "Baguette del Huerto",
+     "desc": "Pan horneado artesanal a base de miel de amaranto, avena, cereales, aderezo de hierbas, germen de alfalfa, omelette de huevo, espinaca, champiñones, ensalada de col y zanahoria.",
+     "price": 130,
+     "img": "847ec813-3eac-4c45-8d37-4e230d207523.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles y Enchiladas",
+   "products": [
+    {
+     "name": "Chilaquiles Alameda",
+     "desc": "Totopos de maíz salseados en una salsa de frijol negro, verde, roja, frijoles de la olla, crema y queso ranchero.",
+     "price": 163,
+     "img": "9dd57418-44b4-4a27-a7af-ced681f91eba.jpeg"
+    },
+    {
+     "name": "Enchiladas Abolengos",
+     "desc": "Enchiladas con tortillas de maíz en adobo de chiles secos, rellenas de queso, cebollas, papa y zanahoria, 3 piezas.",
+     "price": 182,
+     "img": "0d150527-6f4a-47e9-a57b-030c4c236c06.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Guarniciones",
+   "products": [
+    {
+     "name": "Natas de la Casa",
+     "desc": "Cremosa nata de vaca de la casa.",
+     "price": 59,
+     "img": "529c95e3-b690-4e15-b5ed-99a2d6e72da7.jpeg"
+    },
+    {
+     "name": "Natas Naturales",
+     "desc": "Porción de natas naturales.",
+     "price": 52,
+     "img": "e735bcea-806a-4dde-8058-25f321ad2c65.jpeg"
+    },
+    {
+     "name": "Frijoles de la Olla Negros",
+     "desc": "Porción de frijoles de la olla negros.",
+     "price": 59,
+     "img": "df4f4101-5a79-4ade-b21c-b3a5e7baa617.jpeg"
+    },
+    {
+     "name": "Frijoles Refritos Negros",
+     "desc": "Porción de frijoles refritos.",
+     "price": 59,
+     "img": "4cd45316-19f4-4b7a-ad63-030965daf0d4.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Para Compartir",
+   "products": [
+    {
+     "name": "Sopes",
+     "desc": "Sopes de deshebrada de res guisada en salsa tatemada roja, frijoles refritos negros, crema, queso y lechuga, 3 piezas.",
+     "price": 185,
+     "img": "b1333dbc-02e5-4b67-bc11-80230587ff56.jpeg"
+    },
+    {
+     "name": "Molletes",
+     "desc": "Molletes con pan horneado en casa de manera artesanal, frijoles refritos negros, queso y pico de gallo, 2 piezas.",
+     "price": 130,
+     "img": "e8b4802d-4fd1-41a9-84df-5d2e1ec44da5.jpeg"
+    },
+    {
+     "name": "Plato de Fruta",
+     "desc": "Papaya, melón, manzana, yogur natural y granola.",
+     "price": 70,
+     "img": "1c6b113f-070c-44f7-8174-3795b9f90ec6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Panaderías de La Casa",
+   "products": [
+    {
+     "name": "Pan de Mesa",
+     "desc": "Pan hecho a base de amaranto, miel y avena, 10 piezas.",
+     "price": 45,
+     "img": "4626f499-f3e7-4108-96c8-1adfc24afa61.jpeg"
+    },
+    {
+     "name": "Hotcakes",
+     "desc": "Pan de nata, 1 rebanada. Ideal para acompañar con café.",
+     "price": 105,
+     "img": "eeeb81a7-3a8c-4cab-8696-f852db6fe502.jpeg"
+    },
+    {
+     "name": "Rol de Canela",
+     "desc": "Huevos revueltos con jamón. Acompañados de frijoles refritos.",
+     "price": 40,
+     "img": "cacd655c-6cc5-46ee-8d1c-247635fcf9aa.png"
+    },
+    {
+     "name": "Pan de Nata",
+     "desc": "Huevos revueltos con chorizo, acompañados de frijoles refritos.",
+     "price": 40,
+     "img": "41278e6f-bb8e-476d-9a5e-dc2bae953614.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Jarra de Naranjada",
+     "desc": "Jarra de naranjada, 1 L.",
+     "price": 125,
+     "img": "04b1a477-eec9-49cf-914a-40df529855b3.jpeg"
+    },
+    {
+     "name": "Naranjada",
+     "desc": "Naranjada, 16 oz.",
+     "price": 52,
+     "img": "a9615434-6abf-47b0-b4a9-29d2df24f822.jpeg"
+    },
+    {
+     "name": "Limonada",
+     "desc": "Limonada, 16 oz.",
+     "price": 52,
+     "img": "59702a6a-03ed-47b8-a9aa-97838a8c26e7.jpeg"
+    },
+    {
+     "name": "Fanta Naranja 600 ml",
+     "desc": "Refrescos",
+     "price": 45,
+     "img": "b55cfaa9-fbf6-488a-8b7c-43f3d3e43bd7.jpeg"
+    },
+    {
+     "name": "Coca-Cola Light 355 ml",
+     "desc": "Refrescos",
+     "price": 45,
+     "img": "c9f97e50-a548-4244-8795-9c4d64b95c8f.jpeg"
+    },
+    {
+     "name": "Coca-Cola Light 355 ml",
+     "desc": "Refrescos",
+     "price": 45,
+     "img": "c9f97e50-a548-4244-8795-9c4d64b95c8f.jpeg"
+    },
+    {
+     "name": "Sprite 600 ml",
+     "desc": "Refrescos",
+     "price": 35,
+     "img": "20c45eac-b1cc-4d03-a012-f9a50562ae42.jpg"
+    },
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Refrescos",
+     "price": 45,
+     "img": "9f5f3e98-9811-4cc1-91b1-a44389ea210b.jpg"
+    },
+    {
+     "name": "Sidral Mundet 600 ml",
+     "desc": "Refrescos",
+     "price": 45,
+     "img": "e9ffeec4-bbf9-4642-a194-e6aa434390a0.jpeg"
+    },
+    {
+     "name": "Ciel Natural 600 ml",
+     "desc": "Aguas",
+     "price": 33,
+     "img": "06c413da-38cf-4a00-8e6a-4458de51a9e4.jpeg"
+    },
+    {
+     "name": "Ciel Mineral Botella 355 ml",
+     "desc": "Aguas",
+     "price": 35,
+     "img": "e74786b4-70dd-4cb2-bffd-2c3bc32f6577.jpeg"
+    },
+    {
+     "name": "Fresca Toronja 600 ml",
+     "desc": "Refrescos",
+     "price": 45,
+     "img": "f05972c2-638c-4161-91ba-9cece2317df8.jpeg"
+    },
+    {
+     "name": "Jarra de Limonada",
+     "desc": "Jarra de limonada, 1 L.",
+     "price": 125,
+     "img": "5769e897-787c-47bb-aca8-e5ffb9f5ee7d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Jugos",
+   "products": [
+    {
+     "name": "Jugo de Alameda Verde",
+     "desc": "Jugo con apio, perejil, manzana verde, naranja y nopal, 16 oz.",
+     "price": 65,
+     "img": "964ffbd7-7218-474a-98ea-c1c1bc6ba17f.jpeg"
+    },
+    {
+     "name": "Jugo de Abolengos",
+     "desc": "Jugo con naranja, fresa y miel, 16 oz.",
+     "price": 70,
+     "img": "d1e2dbae-09b9-4ccd-9b7e-140baeb63c68.jpeg"
+    },
+    {
+     "name": "Jugo Catrina",
+     "desc": "Jugo con zanahoria, naranja y betabel, 16 oz.",
+     "price": 58,
+     "img": "28e67803-99ee-43da-98cd-483a98030897.jpeg"
+    },
+    {
+     "name": "Jugo de Naranja",
+     "desc": "Jugo de naranja 16 oz.",
+     "price": 52,
+     "img": "8b2c8432-5b81-4180-bdb9-b3e73641ac36.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Licuados",
+   "products": [
+    {
+     "name": "Licuado de Papaya",
+     "desc": "Licuado de leche entera con papaya, 16 oz.",
+     "price": 70,
+     "img": "f62b52a2-5bf9-473e-9ac5-83191e917cde.jpeg"
+    },
+    {
+     "name": "Licuado de Fresa",
+     "desc": "Licuado de leche entera con fresa, 16 oz.",
+     "price": 70,
+     "img": "25e0b722-d77b-49d6-aadb-daaebc1cea18.png"
+    },
+    {
+     "name": "Licuado de Nuez",
+     "desc": "Licuado de leche entera con nuez, 16 oz.",
+     "price": 70,
+     "img": "d86ca990-4e47-4d4a-97a2-411d5bbb20ad.jpeg"
+    },
+    {
+     "name": "Licuado de Plátano",
+     "desc": "Licuado de leche entera con plátano, 16 oz.",
+     "price": 70,
+     "img": "b88fac3d-0698-440b-83cb-4cf1a7ed66cd.jpeg"
+    },
+    {
+     "name": "Licuado de Avena",
+     "desc": "Licuado de leche entera con avena, 16 oz.",
+     "price": 70,
+     "img": "5a3da5c5-b8d2-4325-82e1-56761be6be01.jpeg"
+    },
+    {
+     "name": "Licuado de Oreo",
+     "desc": "Licuado de leche entera y oreo, 16 oz.",
+     "price": 70,
+     "img": "4286ba17-982e-4db7-8290-ad02033a2d1a.png"
+    },
+    {
+     "name": "Licuado de Chocolate",
+     "desc": "Licuado de leche entera con chocolate, 16 oz.",
+     "price": 70,
+     "img": "3e18c7ed-d5f5-4778-8167-02261983eeca.jpeg"
+    },
+    {
+     "name": "Licuado Mixto",
+     "desc": "Licuado con 2 frutas a elegir, 16 oz.",
+     "price": 78,
+     "img": "43470bdf-93eb-4bea-91b0-e913d2027a3b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas de Café",
+   "products": [
+    {
+     "name": "Leche Fría",
+     "desc": "Leche entera fría, 12 oz.",
+     "price": 52,
+     "img": "fb9b2d29-3b0c-4a73-ac8f-c306d1c6c3b6.jpeg"
+    },
+    {
+     "name": "Café Submarino",
+     "desc": "Café con leche entera y una barra de chocolate, 12 oz.",
+     "price": 65,
+     "img": "fc110c2b-d4da-48d0-ab61-28d6e1e228f4.jpeg"
+    },
+    {
+     "name": "Café Mocha",
+     "desc": "Café con chocolate, leche espumada y chocolate rallado, 12 oz.",
+     "price": 65,
+     "img": "010030b6-bdb1-4136-bdb0-0bc908e62e8c.png"
+    },
+    {
+     "name": "Té",
+     "desc": "Té con sabor a elegir, 12 oz.",
+     "price": 30,
+     "img": "011d69f9-49f8-4eee-a1d4-558c4284f535.jpeg"
+    },
+    {
+     "name": "Cappuccino",
+     "desc": "Cappuccino, 12 oz.",
+     "price": 65,
+     "img": "5d511531-be4b-44d9-859f-6a2792e633f2.png"
+    },
+    {
+     "name": "Café Breve",
+     "desc": "Café con leche y crema en partes iguales, 12 oz.",
+     "price": 58,
+     "img": "31f4a5a3-361a-4845-a52d-f89ee42207ac.jpeg"
+    },
+    {
+     "name": "Café Lagrima",
+     "desc": "Leche con poco café, 12 oz.",
+     "price": 58,
+     "img": "41efea9b-526b-472c-8ad6-757c484d73b7.jpeg"
+    },
+    {
+     "name": "Café con Leche",
+     "desc": "Café y mitad de leche entera, 12 oz.",
+     "price": 58,
+     "img": "7b190480-1361-45ed-8e5c-f4c0a02413b9.jpeg"
+    },
+    {
+     "name": "Café de Olla",
+     "desc": "Café aromatizado con canela y piloncillo, 12 oz.",
+     "price": 52,
+     "img": "e79aeb7a-8aeb-4542-9913-8e463e887365.png"
+    },
+    {
+     "name": "Café Americano",
+     "desc": "Café americano rebajado, 12 oz.",
+     "price": 52,
+     "img": "9592259a-774f-40b7-866b-4a4a38f9f5b5.png"
+    },
+    {
+     "name": "Chocolate Caliente",
+     "desc": "Chocolate, 12 oz.",
+     "price": 58,
+     "img": "7f450227-e5c0-437a-bba7-faec81633d96.jpeg"
+    },
+    {
+     "name": "Leche Caliente",
+     "desc": "Leche entera caliente, 12 oz.",
+     "price": 52,
+     "img": "9fd89dc8-ec25-415b-b53a-7850abdeb7ff.png"
+    },
+    {
+     "name": "Café en Leche Malvaviscos",
+     "desc": "Café con bombones de colores, 12 oz.",
+     "price": 50,
+     "img": "9935d720-b95e-4373-a261-59c7371882a0.jpeg"
+    },
+    {
+     "name": "Café Árabe",
+     "desc": "Café con especias de canela y cardamomo, 12 oz.",
+     "price": 65,
+     "img": "0392debe-d83f-4362-856e-e4da41ab190c.jpg"
+    }
+   ]
+  }
+ ]
+}

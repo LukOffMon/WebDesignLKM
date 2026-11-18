@@ -1,0 +1,636 @@
+{
+ "id": 1930006087,
+ "brandName": "Cardona's Grill",
+ "name": "Cardona's Grill - San José del Arenal",
+ "address": "Plaza Terracota, Avenida Independencia, Nueva Rinconada, Aguascalientes, Mexico",
+ "schedule": "08:00:00 - 09:45:00",
+ "categories": "Hamburguesas · Comida Rápida",
+ "location": [
+  -102.2971162,
+  21.9077322
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/1930006087_1656543709077.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/1930006087_1656543707443.png",
+ "schedules": [
+  {
+   "open_time": "08:00:00",
+   "close_time": "09:45:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930006087-cardonas-grill",
+ "menu": [
+  {
+   "name": "Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla Arrachera",
+     "desc": "Quesadilla en tortilla de harina de 14 pulgadas con arrachera, pimiento morrón amarillo, rojo, cebolla, jalapeños, queso adobera y salsa roja.",
+     "price": 322,
+     "img": "929ea9f8-9446-4b29-90d3-6c3ffaead277.png"
+    },
+    {
+     "name": "Quesadilla de Sirloin Steak",
+     "desc": "Quesadilla en tortilla de harina de 14 pulgadas con sirloin steak, pimiento morrón amarillo, rojo, cebolla, jalapeños, queso adobera y salsa roja.",
+     "price": 289,
+     "img": "929ea9f8-9446-4b29-90d3-6c3ffaead277.png"
+    },
+    {
+     "name": "Quesadilla de Camarón",
+     "desc": "Quesadilla en tortilla de harina de 14 pulgadas con camarón, pimiento morrón amarillo, rojo, cebolla, jalapeños, queso adobera y salsa roja.",
+     "price": 322,
+     "img": "929ea9f8-9446-4b29-90d3-6c3ffaead277.png"
+    },
+    {
+     "name": "Quesadilla Solo Queso",
+     "desc": "Quesadilla en tortilla de harina de 14 pulgadas con queso suizo y adobera.",
+     "price": 164,
+     "img": "929ea9f8-9446-4b29-90d3-6c3ffaead277.png"
+    },
+    {
+     "name": "Quesadilla de Pechuga a la Parrilla",
+     "desc": "Quesadilla en tortilla de harina de 14 pulgadas con pollo a la parrilla, pimiento morrón amarillo, rojo, cebolla, jalapeños, queso adobera y salsa roja.",
+     "price": 273,
+     "img": "929ea9f8-9446-4b29-90d3-6c3ffaead277.png"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Mix Burrito",
+     "desc": "Burrito en tortilla de harina con papa rallada, queso, salsa, sausage, tocino, jamón y huevo frito.",
+     "price": 206,
+     "img": "e182687a-e46a-4c8c-9474-f64af3910f00.png"
+    },
+    {
+     "name": "Bacon y Eggs Plato",
+     "desc": "2 Huevos y pan tostado a elegir, acompañados de papa rallada con tocino.",
+     "price": 214,
+     "img": "7e909896-8717-4d2b-a218-615acaa60a3f.png"
+    },
+    {
+     "name": "Chicken y Eggs Plato",
+     "desc": "Pechuga 150 gr, acompañada de papa rallada, 2 huevos y pan tostado a elegir.",
+     "price": 247,
+     "img": "cb502680-37e1-4712-8983-363ac8877dbf.png"
+    },
+    {
+     "name": "Sausages y Eggs Burrito",
+     "desc": "Burrito en tortilla de harina con papa rallada, queso, salsa, huevo frito y cebolla a la sartén.",
+     "price": 190,
+     "img": "e182687a-e46a-4c8c-9474-f64af3910f00.png"
+    },
+    {
+     "name": "Steak y Eggs Plato",
+     "desc": "Rib eye steak 350 gr, acompañado de papa rallada, 2 huevos y pan tostado a elegir.",
+     "price": 570,
+     "img": "4ef05166-3589-4a5c-ba5f-c197b65b5feb.png"
+    },
+    {
+     "name": "Ham y Cheese Omelette",
+     "desc": "Omelette de jamón y queso acompañado de papa rallada y pan tostado a elegir.",
+     "price": 206,
+     "img": "056fcdd1-9082-4191-bccf-6794464f3a80.png"
+    },
+    {
+     "name": "Denver Omelette",
+     "desc": "Omelette con morrón, cebolla, jitomate, jamón, queso cheddar y monterrey jack, papa rallada, 2 huevos fritos y pan tostado a elegir.",
+     "price": 215,
+     "img": "056fcdd1-9082-4191-bccf-6794464f3a80.png"
+    },
+    {
+     "name": "Bacon y Cheese Omelette",
+     "desc": "Omelette con tocino, queso, huevo, papa rallada y pan tostado a elegir.",
+     "price": 215,
+     "img": "056fcdd1-9082-4191-bccf-6794464f3a80.png"
+    },
+    {
+     "name": "Cheese Omelette",
+     "desc": "Omelette de queso con jamón serrano y cebolla, acompañado de papa rallada, 2 huevos fritos y pan tostado a elegir.",
+     "price": 181,
+     "img": "056fcdd1-9082-4191-bccf-6794464f3a80.png"
+    },
+    {
+     "name": "Bacon y Eggs Burrito",
+     "desc": "Burrito en tortilla de harina con papa rallada, queso, salsa, 2 huevos, cebolla a la sartén, tocino y huevo frito.",
+     "price": 190,
+     "img": "e182687a-e46a-4c8c-9474-f64af3910f00.png"
+    },
+    {
+     "name": "Ham y Eggs Burrito",
+     "desc": "Burrito en tortilla de harina con papa rallada, queso, salsa, cebolla a la sartén, jamón y huevo frito.",
+     "price": 157,
+     "img": "e182687a-e46a-4c8c-9474-f64af3910f00.png"
+    },
+    {
+     "name": "Sausages y Eggs Plato",
+     "desc": "Plato con salchichas, huevos estrellados, pan tostado, papa rallada y rodaja de toronja.",
+     "price": 215,
+     "img": "7845df3c-f6f0-4d50-b472-d9ced8225ce6.png"
+    },
+    {
+     "name": "Sausages y Cheese Omelette",
+     "desc": "Omelette con salchichas, queso, huevo, papa rallada y pan tostado a elegir.",
+     "price": 214,
+     "img": "056fcdd1-9082-4191-bccf-6794464f3a80.png"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada Mediterránea",
+     "desc": "Ensalada con proteína a elegir, lechuga romana, jitomate roma, pepino fresco, cebolla morada, pan de ajo, queso feta y aderezo de la casa.",
+     "price": 110,
+     "img": "c919c7e7-22d2-46c4-92f9-0bd0ef6307d2.png"
+    },
+    {
+     "name": "Ensalada Caesar",
+     "desc": "Ensalada con proteína a elegir, lechuga romana, pan de ajo, queso parmesano granulado, crutones, sarteneado con aderezo de la casa.",
+     "price": 110,
+     "img": "04d4f1f3-1909-4a49-837e-7ce4d60be276.jpeg"
+    },
+    {
+     "name": "Ensalada Ranchera",
+     "desc": "Ensalada con proteína a elegir, lechuga romana. pepino fresco, jitomate, cebolla morada, chile morrón, queso sierra, pan de ajo y aderezo ranch.",
+     "price": 110,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58.png"
+    },
+    {
+     "name": "Ensalada Española",
+     "desc": "Ensalada con proteína a elegir, lechuga romana, pepino fresco, tomates roma, frijol negro, arroz pilaf de la casa, cilantro fresco, pan de ajo, cilantro y aderezo de la casa.",
+     "price": 110,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58.png"
+    }
+   ]
+  },
+  {
+   "name": "Wraps",
+   "products": [
+    {
+     "name": "Wrap con Arrachera",
+     "desc": "Tortilla de harina de 14 pulgadas con arrachera, lechuga romana, jitomate, cebolla morada, pepino, ranch y salsa de la casa.",
+     "price": 256,
+     "img": "fa3e5ddd-0a41-48e0-a21e-9949fa690f57.png"
+    },
+    {
+     "name": "Wrap con Camarón Crispy",
+     "desc": "Tortilla de harina de 14 pulgadas con camarón crispy, lechuga romana, jitomate, cebolla morada, pepino, ranch y salsa de la casa.",
+     "price": 240,
+     "img": "fa3e5ddd-0a41-48e0-a21e-9949fa690f57.png"
+    },
+    {
+     "name": "Wrap con Pechuga a la Parrilla",
+     "desc": "Tortilla de harina de 14 pulgadas con pechuga, lechuga romana, jitomate, cebolla morada, pepino, ranch y salsa de la casa.",
+     "price": 207,
+     "img": "fa3e5ddd-0a41-48e0-a21e-9949fa690f57.png"
+    },
+    {
+     "name": "Wrap con Sirloin Steak",
+     "desc": "Tortilla de harina de 14 pulgadas con sirloin steak, lechuga romana, jitomate, cebolla morada, pepino, ranch y salsa de la casa.",
+     "price": 223,
+     "img": "fa3e5ddd-0a41-48e0-a21e-9949fa690f57.png"
+    },
+    {
+     "name": "Wrap con Pechuga de Pollo Crispy",
+     "desc": "Tortilla de harina de 14 pulgadas con pechuga de pollo crispy, lechuga romana, jitomate, cebolla morada, pepino, ranch y salsa de la casa.",
+     "price": 206,
+     "img": "fa3e5ddd-0a41-48e0-a21e-9949fa690f57.png"
+    },
+    {
+     "name": "Wrap con Pescado Crispy",
+     "desc": "Tortilla de harina de 14 pulgadas con pescado  crispy, lechuga romana, jitomate, cebolla morada, pepino, ranch y salsa de la casa.",
+     "price": 206,
+     "img": "fa3e5ddd-0a41-48e0-a21e-9949fa690f57.png"
+    }
+   ]
+  },
+  {
+   "name": "Cortes",
+   "products": [
+    {
+     "name": "Arrachera",
+     "desc": "Arrachera servido con puré de papa, pan de ajo, pimiento rojo, pimiento amarillo, cebolla morada, champiñones, calabaza y brócoli, 300gr.",
+     "price": 440,
+     "img": "e872f0fe-de3f-4653-9c05-908f0cb2aeb9.png"
+    },
+    {
+     "name": "Rib Eye",
+     "desc": "Rib eye steak, servido con puré de papa, pan de ajo, pimiento rojo, pimiento amarillo, cebolla morada, champiñones, calabaza y brócoli, 300gr.",
+     "price": 440,
+     "img": "ede7ff5f-6769-4f4b-9705-0d94e9a7b997.png"
+    },
+    {
+     "name": "Platillo de Carne Asada",
+     "desc": "Se sirve con 300gr. de rib eye o arrachera, frijoles refritos, cebolla asada, ensalada, pico de gallo, ranch, queso parmesano, chile toreado y tortillas.",
+     "price": 440,
+     "img": "ec2373a1-8637-416d-a8d7-094cb6a3ad15.png"
+    }
+   ]
+  },
+  {
+   "name": "Fast Food",
+   "products": [
+    {
+     "name": "Philly Cheese Steak Sandwich",
+     "desc": "Sándwich en pan baguette tostado, mayonesa, morrón rojo, morrón amarillo, champiñones, cebolla, pepperoni, olivos y 2 rebanadas queso suizo gratinado.",
+     "price": 280,
+     "img": "6aff4eaa-9596-4f6f-afdd-5c56292f9f30.png"
+    },
+    {
+     "name": "Steak Sándwich",
+     "desc": "Sándwich con sirloin steak de 250 gr en pan baguette tostado, mayonesa, cebolla, lechuga y jitomate.",
+     "price": 280,
+     "img": "27853e82-41d5-4c63-bbd5-41b893930992.png"
+    },
+    {
+     "name": "Crispy Chicken Sándwich",
+     "desc": "Sándwich pechuga de pollo fresco crispy 200 gr, mayonesa, lechuga y jitomate.",
+     "price": 163,
+     "img": "14e30f60-a25f-4a2a-810b-470bd4d8135d.png"
+    },
+    {
+     "name": "B.l.t Sándwich",
+     "desc": "Pan de sándwich con tocino, mayonesa, lechuga y jitomate.",
+     "price": 132,
+     "img": "a4066021-ff06-4431-b0bd-090420eeb992.png"
+    },
+    {
+     "name": "Western Burger",
+     "desc": "Hamburguesa con carne de res, salsa bbq, aros de cebolla, queso suizo y tocino.",
+     "price": 147,
+     "img": "33d5f143-559f-4d6f-a6e9-17cd541a6f70.png"
+    },
+    {
+     "name": "Grilled Chicken Sándwich",
+     "desc": "Sándwich con pechuga fresca a la parrilla 200 gr,  mayonesa, lechuga y jitomate.",
+     "price": 163,
+     "img": "46028e60-12c5-4cf3-8a43-382550ab7399.png"
+    },
+    {
+     "name": "Grilled Ham & Cheese Sándwich",
+     "desc": "Sándwich en pan a la plancha con queso americano, jamón, lechuga y jitomate.",
+     "price": 91,
+     "img": "b4f41bc6-e66d-4724-b07d-cb91566ffac2.png"
+    },
+    {
+     "name": "Hamburguesa de Arrachera",
+     "desc": "Hamburguesa con arrachera 150 gr, mayonesa, queso y aguacate.",
+     "price": 239,
+     "img": "3c2b070d-904b-4e9c-9f7d-0a4fe600ea2e.jpeg"
+    },
+    {
+     "name": "Hamburguesa de Rib Eye",
+     "desc": "Hamburguesa con rib eye 150 gr, mayonesa, queso, aguacate, lechuga, jitomate y cebolla morada.",
+     "price": 239,
+     "img": "7dab721e-6d13-4ae2-8736-7b295b85e634.jpg"
+    },
+    {
+     "name": "Crispy Chicken Burger",
+     "desc": "Se sirve con pechuga de pollo fresca crujiente de 150 gramos, queso suizo, mayonesa y cebolla morada. se sirve con lechuga y jitomate.",
+     "price": 174,
+     "img": "426253f7-f3e2-4a8b-9038-0a6252dd7adf.png"
+    },
+    {
+     "name": "Cheese Burger",
+     "desc": "Hamburguesa con carne de res de 110 gramos, mil islas, cebolla, pepinillos, queso amarillo, lechuga y jitomate.",
+     "price": 116,
+     "img": "994c5598-b627-4630-86e1-51be75c2a4a6.png"
+    },
+    {
+     "name": "Hawaiana Burger",
+     "desc": "Hamburguesa con carne de res de 110 gr, aderezo mil islas, cebolla, piña asada, bbq, queso suizo, pepinillos, lechuga y jitomate.",
+     "price": 147,
+     "img": "b774dd26-ea7b-407b-a52a-9578e9d46f8a.png"
+    },
+    {
+     "name": "Bacon Cheese Burger",
+     "desc": "Hamburguesa con carne de res de 110 gr, aderezo mil islas, cebolla, pepinillos, tocino, queso americano, lechuga y jitomate.",
+     "price": 147,
+     "img": "06e1a2fc-da4b-436a-bd64-303511a53612.png"
+    },
+    {
+     "name": "California Chicken Burger",
+     "desc": "Hamburguesa con pechuga de pollo 150 gr, queso suizo, mayonesa, tocino, aguacate, cebolla morada, lechuga y jitomate.",
+     "price": 182,
+     "img": "fe500058-8dc4-4ed0-ac6d-432124756ed7.png"
+    },
+    {
+     "name": "Hamburguesa de Pescado",
+     "desc": "Hamburguesa con pescado empanizado crujiente de 150 gr, mayonesa, cebolla, lechuga y jitomate.",
+     "price": 173,
+     "img": "f2cbc996-6624-40a8-acfe-76e61f1d8724.png"
+    }
+   ]
+  },
+  {
+   "name": "A la Carte",
+   "products": [
+    {
+     "name": "Brocheta de Pollo a la Parrilla",
+     "desc": "Brocheta de pollo a la parrilla con trozos de pollo, pimientos, cebolla y calabacín, servida sobre una cama de repollo.",
+     "price": 124,
+     "img": "d2e8c0f4-83f8-43e5-bd77-3460d4d11f16.png"
+    },
+    {
+     "name": "Brocheta de Camarón a la Parrilla",
+     "desc": "Brocheta de camarón a la parrilla con camarones, pimientos rojos, cebolla morada y calabacín sobre una cama de repollo.",
+     "price": 157,
+     "img": "0426e3a4-973c-4dc1-81ab-59f56bbef9cb.png"
+    },
+    {
+     "name": "Aros de Cebolla",
+     "desc": "Aros de cebolla, 10 pz.",
+     "price": 107,
+     "img": "c9251a47-fb41-404e-91c9-2b0ccd793100.png"
+    },
+    {
+     "name": "Alitas Solas",
+     "desc": "8 piezas de alitas de pollo con salsa buffalo, acompañadas de apio, zanahoria y aderezo.",
+     "price": 199,
+     "img": "5a12ff25-5c9e-431a-80b3-dff2ed313358.png"
+    },
+    {
+     "name": "Alitas con Papas",
+     "desc": "Alitas de pollo con salsa buffalo, acompañadas de papas fritas y bastones de apio y zanahoria. Incluye 8 piezas.",
+     "price": 256,
+     "img": "8dffbbda-69f2-44a7-a869-7c31e8a06cb4.png"
+    },
+    {
+     "name": "Tiras de Pollo con Papas",
+     "desc": "Tiras de pollo empanizadas acompañadas de papas a la francesa, 4 piezas.",
+     "price": 206,
+     "img": "f279045d-0c91-4b4f-8a93-b97c2567408b.png"
+    },
+    {
+     "name": "Hummus Side",
+     "desc": "Hummus de garbanzo con un toque de pimentón.",
+     "price": 74,
+     "img": "3aef9294-34e2-447a-99a9-4c1c7a9e3104.png"
+    },
+    {
+     "name": "Papas a la Francesa",
+     "desc": "Papas a la francesa crujientes, acompañadas de salsas.",
+     "price": 99,
+     "img": "f0a2e6c1-5329-4780-92de-b6d82548e581.jpg"
+    },
+    {
+     "name": "Papas Gajo",
+     "desc": "Papas gajo crujientes, servidas con perejil fresco.",
+     "price": 116,
+     "img": "7441bde1-5a0b-4e28-b185-406600746720.png"
+    }
+   ]
+  },
+  {
+   "name": "Platos Crispy y Botaneros",
+   "products": [
+    {
+     "name": "Camarón y Papas",
+     "desc": "8 Piezas de camarón crispy con papas fritas.",
+     "price": 305,
+     "img": "ce090bad-ed28-4bd9-b726-4f0f259fdc0b.png"
+    },
+    {
+     "name": "Pescado Crispy y Papas",
+     "desc": "3 Piezas de pescado crispy 150 gr con papas fritas.",
+     "price": 247,
+     "img": "72e8cf9c-7989-4a4b-a4fb-9cc21ff85758.png"
+    }
+   ]
+  },
+  {
+   "name": "Platillos",
+   "products": [
+    {
+     "name": "Salmón Platillo",
+     "desc": "Salmón 200 gr servido con ensalada mediterránea, arroz pilaf de la casa, hummus, garlic bread e ingrediente a elegir.",
+     "price": 421,
+     "img": "d88b25cf-03b3-4fb3-bb85-62ec7f4098b2.png"
+    },
+    {
+     "name": "Brochetas de Camarón Platillo",
+     "desc": "2 Brochetas de camarón con 4 piezas cada una. servido con ensalada mediterránea, arroz pilaf y garlic bread de la casa con hummus.",
+     "price": 347,
+     "img": "b3a6fd32-0664-4b3a-b398-69050554e215.png"
+    },
+    {
+     "name": "Brochetas de Pollo Platillo",
+     "desc": "2 Brochetas de pollo con 100 gr cada una. servidas con ensalada mediterránea, arroz pilaf y garlic bread de la casa con hummus.",
+     "price": 305,
+     "img": "c7005791-7322-4d1a-b01c-566723250af8.png"
+    },
+    {
+     "name": "Tilapia Platillo",
+     "desc": "Tilapia 200 gr bañada con ingrediente a elegir, servido con ensalada mediterránea, arroz pilaf de la casa, hummus y garlic bread.",
+     "price": 239,
+     "img": "85cd9506-e7b3-417c-9ed9-9c804b4d7442.png"
+    },
+    {
+     "name": "Super Brochetas Platillo",
+     "desc": "3 Brochetas de pollo, res y camarón, servidas con ensalada mediterránea, arroz pilaf de la casa, hummus y garlic bread.",
+     "price": 421,
+     "img": "4c5a4a31-f38c-410f-b164-fe3939b8684e.png"
+    },
+    {
+     "name": "Brochetas de Sirloin Steak Platillo",
+     "desc": "2 Brochetas de sirloin steak con 100 gr cada una. servidas con ensalada mediterránea, arroz pilaf de la casa, hummus y garlic bread.",
+     "price": 347,
+     "img": "e52d79fb-75b7-4fa7-973d-98822560bccb.png"
+    },
+    {
+     "name": "Pechuga Asada Platillo",
+     "desc": "Pechuga de pollo asado 200 gr, ensalada mediterránea, arroz pilaf de la casa, pan de ajo y hummus.",
+     "price": 305,
+     "img": "6eb6e098-953b-4f1d-ab61-deec3073643f.png"
+    },
+    {
+     "name": "Camarón a la Sartén Platillo",
+     "desc": "8 Camarones servidos con ensalada mediterránea, arroz pilaf de la casa, hummus y garlic bread.",
+     "price": 371,
+     "img": "1d75b267-b045-450c-a377-097c45571bfd.png"
+    },
+    {
+     "name": "Camarón Crispy Platillo",
+     "desc": "8 Camarones crispy, servidos con ensalada mediterránea, arroz pilaf de la casa, hummus y garlic bread.",
+     "price": 371,
+     "img": "ed8aa92c-48db-4c38-a27b-c9866c3b0f43.png"
+    },
+    {
+     "name": "Brochetas de Arrachera Platillo",
+     "desc": "2 Brochetas de arrachera, servidas con ensalada mediterránea, arroz pilaf de la casa y pan de ajo.",
+     "price": 388,
+     "img": "71fa9216-c4e0-48a0-96d6-e4c00d0b54cc.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco Arrachera a la Parrilla",
+     "desc": "Taco en tortilla de maíz con arrachera a la parrilla, cebolla a la plancha, pico de gallo, cilantro y salsa de la casa.",
+     "price": 74,
+     "img": "23ec86c4-0c2f-4058-85e1-0d6408ba4828.png"
+    },
+    {
+     "name": "Taco Camarón Crispy",
+     "desc": "Taco en tortilla de maíz con camarón frito, repollo, pico de gallo y salsa de la casa.",
+     "price": 50,
+     "img": "7df068e5-1b4b-4bf8-a0a8-3a2af1451b60.png"
+    },
+    {
+     "name": "Taco Salmón a la Parrilla",
+     "desc": "Taco en tortilla de maíz con salmón, repollo, cebolla a la plancha, salsa verde y cilantro.",
+     "price": 74,
+     "img": "5d1ef38e-78f9-4a59-8ca1-1db28d7fa3ee.png"
+    },
+    {
+     "name": "Taco Sirloin Steak a la Parrilla",
+     "desc": "Taco en tortilla de maíz con sirloin steak, cebolla a la plancha, pico de gallo, cilantro y salsa de la casa.",
+     "price": 58,
+     "img": "23ec86c4-0c2f-4058-85e1-0d6408ba4828.png"
+    },
+    {
+     "name": "Taco Pollo a la Parrilla",
+     "desc": "Taco en tortilla de maíz con pollo a la parrilla, pico de gallo, cilantro y salsa de la casa.",
+     "price": 50,
+     "img": "2c647361-2ba2-450a-9680-1904ebcb0b68.png"
+    }
+   ]
+  },
+  {
+   "name": "Burritos",
+   "products": [
+    {
+     "name": "Burrito de Camarón a la Parrilla",
+     "desc": "Burrito en tortilla de harina con camarón a la parrilla, arroz pilaf de la casa, frijol negro, calabaza, morrón, cebolla, jalapeños, queso rallado y salsa de la casa.",
+     "price": 256,
+     "img": "444972d4-2439-4abd-896d-0251fd8c8cd4.png"
+    },
+    {
+     "name": "Burrito Pescado Crispy",
+     "desc": "Burrito en tortilla de harina con pescado frito, arroz pilaf de la casa, frijol negro, calabaza, morrón, cebolla, jalapeños, queso rallado y salsa de la casa.",
+     "price": 223,
+     "img": "444972d4-2439-4abd-896d-0251fd8c8cd4.png"
+    },
+    {
+     "name": "Burrito de Salmón a la Parrilla",
+     "desc": "Burrito en tortilla de harina con salmón, arroz pilaf de la casa, frijol negro, calabaza, morrón, cebolla, jalapeños, queso rallado y salsa de la casa.",
+     "price": 305,
+     "img": "444972d4-2439-4abd-896d-0251fd8c8cd4.png"
+    },
+    {
+     "name": "Burrito de Arrachera",
+     "desc": "Burrito en tortilla de harina con arrachera, arroz pilaf, frijol negro, calabaza, jalapeño, morrón, cebolla, queso rallado y salsa de la casa.",
+     "price": 305,
+     "img": "444972d4-2439-4abd-896d-0251fd8c8cd4.png"
+    },
+    {
+     "name": "Burrito Steak a la Parrilla",
+     "desc": "Burrito en tortilla de harina con steak, arroz pilaf de la casa, frijol negro, calabaza, morrón, cebolla, jalapeño, queso rallado y salsa de la casa.",
+     "price": 256,
+     "img": "444972d4-2439-4abd-896d-0251fd8c8cd4.png"
+    },
+    {
+     "name": "Burrito de Camarón Crispy",
+     "desc": "Burrito en tortilla de harina con camarón frito, arroz pailaf de la casa, frijol negro, calabaza, morrón, cebolla, jalapeño, queso rallado y salsa de la casa.",
+     "price": 256,
+     "img": "444972d4-2439-4abd-896d-0251fd8c8cd4.png"
+    },
+    {
+     "name": "Burrito de Pollo a la Parrilla",
+     "desc": "Burrito en tortilla de harina con pollo a la parrilla, arroz pilaf de la casa, frijol negro, calabaza, morrón, cebolla, jalapeños, queso rallado y salsa de la casa.",
+     "price": 223,
+     "img": "444972d4-2439-4abd-896d-0251fd8c8cd4.png"
+    }
+   ]
+  },
+  {
+   "name": "Niños",
+   "products": [
+    {
+     "name": "Nuggets con Papas",
+     "desc": "Nuggets de pollo acompañados de papas a la francesa.",
+     "price": 140,
+     "img": "b3f958bc-ff19-487e-a8e9-4cdd42366ae1.png"
+    },
+    {
+     "name": "Nuggets",
+     "desc": "Nuggets de pollo, 6 pz.",
+     "price": 91,
+     "img": "c59e93ee-6420-4a66-9313-0ffccb4944a0.jpeg"
+    },
+    {
+     "name": "Tiras de Pollo Solas",
+     "desc": "Cuatro tiras de pollo empanizadas y fritas.",
+     "price": 140,
+     "img": "9f616689-c65c-4a4f-b0af-7d3b2061cc4b.png"
+    },
+    {
+     "name": "Dedos de Queso",
+     "desc": "Dedos de queso, 5 pz.",
+     "price": 107,
+     "img": "5c4f4aeb-face-4270-8655-f4b26dc92f96.png"
+    },
+    {
+     "name": "Grill Cheese",
+     "desc": "Pan a la plancha con queso americano derretido.",
+     "price": 66,
+     "img": "143bc070-575f-43f6-bc5c-6a0ff9f24806.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Coca - Cola Original 355 ml.",
+     "price": 49,
+     "img": "9f5f3e98-9811-4cc1-91b1-a44389ea210b.jpg"
+    },
+    {
+     "name": "Sprite 355 ml",
+     "desc": "Sprite Lima-Limón 355 ml.",
+     "price": 49,
+     "img": "12154603-05ea-4a30-8ce7-fce00710d40d.jpeg"
+    },
+    {
+     "name": "Agua de Horchata",
+     "desc": "Agua de horchata, 500 ml.",
+     "price": 49,
+     "img": "e8b17f5d-d443-42a0-bb2f-a3cd38926899.png"
+    },
+    {
+     "name": "Coca-Cola Light 355 ml",
+     "desc": "Refrescos",
+     "price": 49,
+     "img": "c9f97e50-a548-4244-8795-9c4d64b95c8f.jpeg"
+    },
+    {
+     "name": "Malteada",
+     "desc": "Malteada con sabor a elegir, 500 ml.",
+     "price": 124,
+     "img": "915e8da4-871d-4244-a1a6-4a77fab2af18.jpeg"
+    },
+    {
+     "name": "Sidral Mundet Manzana 355 ml",
+     "desc": "Mundet Manzana 355 ml.",
+     "price": 49,
+     "img": "db5b23dd-12c8-4f93-842b-24768901389f.jpeg"
+    },
+    {
+     "name": "Fanta Naranja 355 ml",
+     "desc": "Fanta Naranja 355ml",
+     "price": 49,
+     "img": "2c753e03-4484-4ffb-9e94-f3882c60aa4f.jpeg"
+    }
+   ]
+  }
+ ]
+}

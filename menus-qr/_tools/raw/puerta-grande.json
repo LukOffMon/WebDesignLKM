@@ -1,0 +1,381 @@
+{
+ "id": 1923223467,
+ "brandName": "Puerta Grande",
+ "name": "Puerta Grande - Fracc Villas de la Universidad",
+ "address": "Av. Universidad 1509, Villas De La Universidad, Cp 20029, Ags",
+ "schedule": "08:00:00 - 13:45:00",
+ "categories": "Pescados y Mariscos · Desayunos y Brunch",
+ "location": [
+  -102.305057920808,
+  21.89891195083
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/rvf--fdgo-2019-1586810686649.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/28-1598380555193.png",
+ "schedules": [
+  {
+   "open_time": "08:00:00",
+   "close_time": "13:45:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923223467-puerta-grande",
+ "menu": [
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Sangría Española 355 ml",
+     "desc": "Bebida preparada y refrescante a base de refresco, jugos y vino tinto.",
+     "price": 125,
+     "img": "58b7afc2-4504-475b-86d1-9ab08caf3039.png"
+    },
+    {
+     "name": "Tinto de Verano",
+     "desc": "Bebida preparada y refrescante a base de refresco, licor y vino tinto.",
+     "price": 135,
+     "img": "f4d895ef-8ed3-4af6-a169-fc7c843c9db1.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres / Tortas",
+   "products": [
+    {
+     "name": "Pannacota Blanca",
+     "desc": "Servida con pera estofada, vino especiado y frutos rojos.",
+     "price": 95,
+     "img": "5d5315a8-5ed2-4907-bfda-dce9f8f33e69.png"
+    },
+    {
+     "name": "Profiteroles Rellenos",
+     "desc": "Horneados al momento,  relleno de vainilla sobre piña asada, raíces de chocolate y helado de vainilla.",
+     "price": 100,
+     "img": "66168b25-6cc5-4580-a9bd-3a4ad426ed98.png"
+    },
+    {
+     "name": "Tarta de Queso, Nueces y Miel",
+     "desc": "Base de galleta, cremoso de nuez y recubierta de gelatina de miel.",
+     "price": 105,
+     "img": "bec43ebc-caba-4a5f-9fbb-cf2dc143e2a8.png"
+    },
+    {
+     "name": "Leche Frita",
+     "desc": "Cremosa masa de leche cuajada frita y rebozada en azúcar con canela servida con coulis de fruta de temporada y helado de vainilla.",
+     "price": 100,
+     "img": "3f12443d-6313-4b04-9fba-cf14c4dc0785.png"
+    },
+    {
+     "name": "Coulant de Chocolate",
+     "desc": "Volcán de chocolate, pepitas caramelizadas y helado de vainilla.",
+     "price": 105,
+     "img": "29678e2c-2048-422c-821b-2ca55299f96d.png"
+    },
+    {
+     "name": "Arroz Cremoso de Leche y Canela",
+     "desc": "Arroz cremoso bañado en leche, aromatizado con cítricos, amaretto y galleta de arroz.",
+     "price": 95,
+     "img": "d5141548-f34e-42cc-a0bd-d9dbb437eb77.png"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Croquetas de Jamon Iberico, Rabo de Toro",
+     "desc": "10 Piezas de 25 gr de masa cremosa firme elaborada a partir de rabo de toro estofado y jamón ibérico de bellota, empanizadas y fritas acompañado de alioli de jengibre, albaca y salsa de vino tinto.",
+     "price": 215,
+     "img": "332bc7f5-a1de-43c8-8bc7-bc454bdbd9c0.png"
+    },
+    {
+     "name": "Jamón Ibérico de Bellota",
+     "desc": "100 Gr de jamón de bellota finamente cortado.",
+     "price": 545,
+     "img": "853193d7-1386-4cfa-875a-2810a8418e12.png"
+    },
+    {
+     "name": "Jamón Serrano",
+     "desc": "100 Gr de jamón serrano finamente cortado y un toque de aceite vegetal.",
+     "price": 285,
+     "img": "3433e605-faf5-4ab7-a89e-3f332651fb23.png"
+    },
+    {
+     "name": "Pulpo a Feira",
+     "desc": "100 Gramos de pulpo cocido en su propio caldo con papa cachelo y aceite de pimento de la vera.",
+     "price": 290,
+     "img": "c933d2dc-518a-4e98-8d4c-0f2ae98166db.png"
+    },
+    {
+     "name": "Pulpo a la Parrilla",
+     "desc": "100 Grs de pulpo a la parrilla con puré de papa y aceite de pimentón de la vera.",
+     "price": 290,
+     "img": "840ffbc5-6d31-4528-8fdc-45f008180bce.jpeg"
+    },
+    {
+     "name": "Pan Tumaca",
+     "desc": "Pan tostado, al aroma de ajo, jitomate rallado y aceite oliva extra virgen.",
+     "price": 80,
+     "img": "efc61168-41bc-4a04-a559-25dd948ceec0.png"
+    },
+    {
+     "name": "Tortilla Española",
+     "desc": "Tortilla con mezcla de huevo y papa horneada, machacada cocinada a sarten.",
+     "price": 175,
+     "img": "63b4b5fa-0952-4367-bba0-4fdd79e7f5c3.png"
+    },
+    {
+     "name": "Tataki de Res",
+     "desc": "Tataki de res con salsa tosazu, mostaza japonesa y hongos confitados.",
+     "price": 215,
+     "img": "6c532ac1-9272-44aa-989e-58b105506de4.png"
+    },
+    {
+     "name": "Croquetas de Jamón Ibérico de Bellota",
+     "desc": "Croquetas de masa cremosa firme elaborada a partir de jamón ibérico, empanizada y frita acompañada con alioli de jengibre y de albahaca.",
+     "price": 210,
+     "img": "85f2e629-11aa-4f51-a57c-c885fd22c89d.jpeg"
+    },
+    {
+     "name": "Variado de Tostas Clásico",
+     "desc": "Tostadas de huelva, jamón serrano y fresas a la placha, de chistorra con puré de papa, filete de cerdo y queso brie, jitomate rallado, aove y jamón serrano.",
+     "price": 210,
+     "img": "0444a581-c6be-4653-8588-806cba087855.png"
+    },
+    {
+     "name": "Variado de Tostas Puerta Grande",
+     "desc": "Tostada de cremoso de queso y fruta de temporada, queso brie a la plancha con reducción de frutos rojos.de papa revolcona y aove.de guisantes con jamón.",
+     "price": 185,
+     "img": "f3b7d6a5-5aad-405c-bc1e-0c13b9d5bef6.png"
+    },
+    {
+     "name": "Camarones Al Ajillo",
+     "desc": "Camarones frescos condimentados en aceite de ajo, ajos fritos y una mezcla de chiles..",
+     "price": 265,
+     "img": "0b6807ad-41eb-416d-8507-ff32ff485240.jpeg"
+    },
+    {
+     "name": "Papas Bravas",
+     "desc": "Papa confitada y frita bañada en salsa brava.",
+     "price": 175,
+     "img": "4936e4bd-896e-48aa-9ab1-5e556f248b02.jpeg"
+    },
+    {
+     "name": "Queso Brie Al Horno",
+     "desc": "Queso brie sellado y terminado en el hornoacompañado de salsa de pimientos de piquillo y tomate maduro.",
+     "price": 210,
+     "img": "808c120b-2580-4e79-9203-04d839163ee7.png"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada de Jamón y Setas",
+     "desc": "Ensalada de mix de lechugas con setas salteados, jitomate rallado, crujiente de jamón, jamón confitado y vinagreta de jugo de carne.",
+     "price": 145,
+     "img": "fcc5bcd7-7246-4359-a7ae-ad6bac0c01cb.png"
+    },
+    {
+     "name": "Ensalada de Queso de Cabra",
+     "desc": "Ensalada de mix de lechugas con queso de cabra empanizado, manzana asada, crujiente de tocino, frutos secos y vinagreta balsámica dulce.",
+     "price": 140,
+     "img": "9f6b0007-dda4-442b-b570-a4ca2d12129b.png"
+    }
+   ]
+  },
+  {
+   "name": "De Cuchara",
+   "products": [
+    {
+     "name": "Sopa Castellana",
+     "desc": "250 Ml de sopa elaborada con pan, ajo, jamón serrano, caldo de ave y yema de huevo.",
+     "price": 145,
+     "img": "3fd29fdf-b16e-46fb-8c3d-5e34d6143c8c.png"
+    },
+    {
+     "name": "Sopa de Cebolla",
+     "desc": "250 Ml de sopa de cebolla, gratinada con pan tostado y queso.",
+     "price": 100,
+     "img": "75ca43c5-f5ac-4cea-8071-5967df6610cc.png"
+    },
+    {
+     "name": "Alubias Estofadas con Chorizo",
+     "desc": "Delicioso caldo con alubias estofadas y carnes españolas sazonada con pimentón y especias.",
+     "price": 135,
+     "img": "5a6f8a29-32b3-48ba-b324-419307c4184e.png"
+    }
+   ]
+  },
+  {
+   "name": "Huevos",
+   "products": [
+    {
+     "name": "Huevos Rotos con Torreznos",
+     "desc": "Huevos fritos sobre cama de papa panadera acompañados de panceta de cerdo frita.",
+     "price": 210,
+     "img": ""
+    },
+    {
+     "name": "Huevos Rotos con Chistorra de Navarra",
+     "desc": "Huevos fritos sobre cama de papa panadera acompañados chistorra.",
+     "price": 210,
+     "img": ""
+    },
+    {
+     "name": "Huevos Rotos con Jamón",
+     "desc": "Huevos fritos sobre cama de papa panadera acompañados de jamón en texturas, crujiente, confitado y serrano.",
+     "price": 210,
+     "img": "8c0ab98c-0f71-4ab6-a765-7aff7da97e69.png"
+    }
+   ]
+  },
+  {
+   "name": "Arroces",
+   "products": [
+    {
+     "name": "Paella de Mariscos",
+     "desc": "Arroz cocido en caldo de marisco con calamar, pescado, almeja, mejillón, camarón y chicharos.",
+     "price": 215,
+     "img": "cbae38d9-c3e9-499a-9a40-516e5ec38faf.png"
+    },
+    {
+     "name": "Arroz Caldoso de Mariscos",
+     "desc": "Arroz cocido 90 grs en crudo, con caldo de mariscos, mejillón, almeja, calamar y camarones.",
+     "price": 245,
+     "img": "c9d316aa-81c2-4197-8764-c0b003864cb3.png"
+    },
+    {
+     "name": "Paella de Corral",
+     "desc": "Arroz de pollo con chicharos.",
+     "price": 185,
+     "img": "7daea776-3c7c-4bf7-bb9d-a8857b3dd6f1.png"
+    },
+    {
+     "name": "Arroz Cremoso de Rabo de Toro",
+     "desc": "180 Gr de arroz con rabo de toro en su propio jugo, aliñado con mantequilla y queso idiazábal acompañado de setas salteadas y salsa de vino tinto.",
+     "price": 230,
+     "img": "f0d1bda7-0e6c-4b80-acca-aea7d0b30e55.png"
+    },
+    {
+     "name": "Paella Mixta Ciega",
+     "desc": "Arroz de pollo, mariscos y chicharos.",
+     "price": 195,
+     "img": "4804dc1a-fd08-4b58-bdaf-155c92ce2d73.png"
+    },
+    {
+     "name": "Arroz Negro",
+     "desc": "Arroz cocido con txipirones en caldo de calamar y su propia tinta, acompañado de los tentáculos del txipiron a la plancha y alioli al gusto normal de albahaca o jengibre.",
+     "price": 195,
+     "img": "a3c9b6b3-1fbd-4d91-9730-abaf033e61a3.png"
+    }
+   ]
+  },
+  {
+   "name": "Pastas",
+   "products": [
+    {
+     "name": "Canelones de Mariscos",
+     "desc": "Canelones rellenos de carne de cangrejo horneados en salsa pomodoro, gratinados con queso parmesano y albahaca fresca.",
+     "price": 210,
+     "img": "d39a6b8f-96c7-427a-9e1a-67cf981adc4e.png"
+    },
+    {
+     "name": "Ravioli de Camaron",
+     "desc": "Pasta fresca rellena de camarones,toque de jengibre,barnizado con hondashi,servidos con salsa de espinaca templada.",
+     "price": 195,
+     "img": "7a4ca4a9-cd79-4f67-82e4-0dd165741318.png"
+    },
+    {
+     "name": "Fettuccine Frutti Di Mare",
+     "desc": "Pasta larga en salsa de pimientos, azafrán, y tomate servida con frutos del mar (almeja, mejillón, camarón y calamar).",
+     "price": 185,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Carnes",
+   "products": [
+    {
+     "name": "Filete de Res",
+     "desc": "Filete de res de 200 grs acompañado de papas confitados, duxelle y hongos salteados.",
+     "price": 245,
+     "img": "8585612e-e8f6-4429-8cc6-ed944a3fb556.png"
+    },
+    {
+     "name": "Hamburguesa de Filete de Res",
+     "desc": "Hamburguesa de 200 grs de filete de res con salsa de queso azul, tocino al whisky, portobella, arúgula y chips de papa caseras de acompañamiento.",
+     "price": 220,
+     "img": "1c842d57-d962-4eaf-920d-0b3c3708ad99.png"
+    },
+    {
+     "name": "Lomo Alto de Res a la Plancha",
+     "desc": "Rib-eye, 350 gramos, puré rustico de papa y escalivada de pimientos.",
+     "price": 265,
+     "img": "9f99d255-36b7-44b3-b479-2827162f2383.png"
+    },
+    {
+     "name": "Lechón Confitado Al Estilo Puerta Grande",
+     "desc": "200 Grs de lechón deshuesado proveniente de lechón de 4 kgs acompañado de cebolla cambray, crujiente de panadera y salseado con su propio jugo.",
+     "price": 290,
+     "img": "d3f19000-f32d-4442-bddf-a2aa127e8dba.png"
+    },
+    {
+     "name": "Codillo Al Kalimotxo",
+     "desc": "Chamorro de cerdo con hueso, estofado al kalimotxo (bebida espanola que incorpora vino tinto con coca-cola) con puré de camote y aroma de café.",
+     "price": 245,
+     "img": "543b31e5-78d4-466b-94bd-12807fe13a98.png"
+    },
+    {
+     "name": "Rabo de Toro",
+     "desc": "Cola de toro con hueso estofado al vino tinto y jerez, papas confitados y hongos a la plancha.",
+     "price": 270,
+     "img": "6d92f5a5-80af-4d20-813e-2771158b8932.png"
+    },
+    {
+     "name": "Filete de Pollo a la Pepitoria",
+     "desc": "Pollo bañado en salsa de pepita acompañado de verduras salteadas y puré de zanahoria y jengibre.",
+     "price": 230,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "name": "Del Mar",
+   "products": [
+    {
+     "name": "Salmón Menier",
+     "desc": "Salmón meiner con ensalada de quinoa, frutos secos y pesto rojo.",
+     "price": 240,
+     "img": "4768fd10-c4de-4997-8db4-37284073d5d0.png"
+    },
+    {
+     "name": "Zarzuela de Mariscos",
+     "desc": "220 Gr en crudo de pescado del día, almeja, camarón, mejillón, calamar y pulpo cocinados en salsa de marisco.",
+     "price": 235,
+     "img": "722d9a61-99aa-43a5-9986-fd4f0ee3c728.jpeg"
+    },
+    {
+     "name": "Tartar de Salmón",
+     "desc": "200 Gr de salmón crudo cortado a cuchillo ligado con mostaza antigua, miel, pepino acompañado de sorbete de manzana verde.",
+     "price": 235,
+     "img": "757bd71c-f339-4bfe-8817-c087bd8531b7.png"
+    },
+    {
+     "name": "Atún Rebozado",
+     "desc": "Atún rebozado, servido sobre tomates de la abuela, pimientos asados, papa paja y puré de aguacate con curry.",
+     "price": 235,
+     "img": "84be1e75-d860-4fd5-b961-34a10f4368f1.png"
+    },
+    {
+     "name": "Robalo a la Romana",
+     "desc": "Robalo a la romana acompañado de puré de chicharos y verduras horneadas.",
+     "price": 235,
+     "img": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,272 @@
+{
+ "id": 1930253017,
+ "brandName": "Amor de Mis Sabores Ags",
+ "name": "Amor de Mis Sabores Ags - Cond Res Campestre Club de Golf",
+ "address": "Av. Eugenio Garza Sada 28, Pocitos, 20328 Pocitos, Ags., México",
+ "schedule": "09:00:00 - 22:15:00",
+ "categories": "Mexicana",
+ "location": [
+  -102.328904710101,
+  21.90884578795
+ ],
+ "city": "Pocitos",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-1741285514984.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1741285517341.jpg",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "22:15:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930253017-amor-de-mis-sabores-ags",
+ "menu": [
+  {
+   "name": "Pozole Grande + Taco Dorado Gratis",
+   "products": [
+    {
+     "name": "Pozole grande + taco dorado gratis",
+     "desc": "Pozole rojo grande con lechuga y rábanos. Incluye 3 tacos dorados gratis.",
+     "price": 109.2,
+     "img": "2117555841-1746812326586.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Bolillos",
+     "desc": "Bolillos acompañados de guisado a elección y chiles verdes.",
+     "price": 66,
+     "img": "2117238281-1746813816258_a.png"
+    },
+    {
+     "name": "Taco de guisado",
+     "desc": "Taco de tortilla de maíz con guisado a elección, acompañado de cebolla morada y cilantro.",
+     "price": 38,
+     "img": "ed77fa6f-d659-4e27-8393-3a018f351042.png"
+    },
+    {
+     "name": "Taco de bistec.",
+     "desc": "Taco de bistec con tortilla de maíz amarillo sazonada, cilantro, cebolla, chile jalapeño, cebolla frita y tostada. Incluye rábanos, pepino y limón.",
+     "price": 30,
+     "img": "db224ee7-4cd1-4ee8-965c-b3a6634a87b5.png"
+    },
+    {
+     "name": "Hot cakes",
+     "desc": "Hot cakes con mantequilla y fresas, acompañados con jarabe a elegir.",
+     "price": 112,
+     "img": "edcc8a98-d703-4bd5-93f5-eba6429c0496.png"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles con salsa a elegir, acompañados de frijoles, queso y crema.",
+     "price": 115,
+     "img": "2117238276-1741284719444_a.png"
+    },
+    {
+     "name": "Quesadillas",
+     "desc": "Quesadillas: Tortilla de maíz rellena de guisado a elección, con queso.",
+     "price": 108,
+     "img": "099eee18-53d4-402a-b886-d701e95c315b.png"
+    },
+    {
+     "name": "Huevos al gusto",
+     "desc": "Huevos al gusto revueltos con proteína a elección. Acompañados de frijoles refritos con queso y totopos.",
+     "price": 156,
+     "img": "e61e0691-69f8-4f25-83fd-01c47bc8e322.png"
+    },
+    {
+     "name": "Gorditas",
+     "desc": "Gorditas doradas de masa de maiz al comal, rellenas de guisado a elección.",
+     "price": 60,
+     "img": "2117238297-1741284713836_a.png"
+    },
+    {
+     "name": "Quesadilla dorada",
+     "desc": "Quesadilla dorada preparada con lechuga, queso, crema y guisado a elegir.",
+     "price": 110,
+     "img": "2117238295-1741284713837_a.png"
+    },
+    {
+     "name": "Burritos",
+     "desc": "Burritos de tortilla de harina, rellenos con guisado a elección.",
+     "price": 60,
+     "img": "3ada0092-8c0b-45c5-92e0-4c4bb7a5329f.png"
+    },
+    {
+     "name": "Taco de cochinita pibil",
+     "desc": "Taco de tortilla de maíz con cochinita pibil, acompañado de cebolla morada y cilantro.",
+     "price": 64,
+     "img": "087fb65d-4635-42e7-af68-5276f361e0b4.png"
+    },
+    {
+     "name": "Huevos rancheros",
+     "desc": "Huevos estrellados y montados en tortilla dorada, bañados con salsa ranchera, acompañado de frijoles, queso y crema.",
+     "price": 156,
+     "img": "3f5821f1-5c5f-43fd-8e9e-a7d117e6eb5f.png"
+    },
+    {
+     "name": "Omelet",
+     "desc": "Omelet relleno de queso y chorizo, acompañado de frijoles refritos y totopos.",
+     "price": 156,
+     "img": "207ed060-c33e-4b90-85de-1de0adcf71b7.png"
+    },
+    {
+     "name": "Huevos divorciados",
+     "desc": "Huevos estrellados y montados en tortilla dorada, bañados con salsa a elegir, acompañado de frijoles, queso y crema.",
+     "price": 156,
+     "img": "2117238279-1741284719433.jpg"
+    },
+    {
+     "name": "Quiesdilla de biste",
+     "desc": "Tortilla de harina con queso asadero de leche, acompañado de cilantro, cebolla, chile jalapeño, cebolla frita y tostada",
+     "price": 57,
+     "img": "885bce1b-2e2e-4545-82c3-c2a0549f7583.png"
+    },
+    {
+     "name": "Torta de bistec",
+     "desc": "Torta de bistec con bolillo, cebolla, cilantro, chile jalapeño y cebolla frita.",
+     "price": 70,
+     "img": "00caa5ca-18e8-4cd9-abd8-153d4b6bab5f.png"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos",
+   "products": [
+    {
+     "name": "Tostadas preparadas",
+     "desc": "Orden de 2 tostadas acompañadas de queso, crema y lechuga, guisado a elegir.",
+     "price": 90,
+     "img": "2117238296-1741284716768.jpg"
+    },
+    {
+     "name": "Flautas",
+     "desc": "Orden de 4 flautas con relleno a elegir, acompañadas de lechuga, crema, queso, cueritos curtidos, bañadas en salsa de jitomate.",
+     "price": 110,
+     "img": "2117238302-1741284716762.jpg"
+    },
+    {
+     "name": "Pozole rojo",
+     "desc": "Pozole rojo con huesos de espinazo y maíz cacahuazintle. Acompañado de repollo, rábano y tamaño a elegir.",
+     "price": 130,
+     "img": "96fb3400-f185-4cf8-a68f-462bc23a5337.png"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "Orden de 4 enmoladas montadas en lechuga italiana, acompañadas de mole dulce con crema, queso, cebolla morada y rábanos, guisado a elegir.",
+     "price": 145,
+     "img": "eceeaa3d-377c-44e4-8ebf-0f8a4e34d4a8.png"
+    },
+    {
+     "name": "Enchiladas verdes",
+     "desc": "Orden de 4 enchiladas verdes montadas en lechuga romana, acompañadas con crema, queso y rodajas de cebolla morada, guisado a elegir.",
+     "price": 138,
+     "img": "cb7ce208-e0e1-444c-a388-88ab7eccc1a7.png"
+    },
+    {
+     "name": "Pambazo",
+     "desc": "Pambazo relleno de papas con chorizo, acompañados de lechuga, crema y queso.",
+     "price": 110,
+     "img": "3453b2d8-1ede-40d6-bac2-818625698156_a.png"
+    },
+    {
+     "name": "Garnacha",
+     "desc": "Tortilla dorada, montada con carne deshebrada, cebolla, adobo de chile chipotle, acompañada de queso, crema, lechuga, cueritos curtidos y salsa de jitomate.",
+     "price": 105,
+     "img": "2117238286-1741285411293.jpeg"
+    },
+    {
+     "name": "Sopes",
+     "desc": "Orden de 3 sopes acompañados de queso, crema y lechuga, guisado a elegir.",
+     "price": 138,
+     "img": "cd7ac991-d160-4a45-9af8-65d508a33665.png"
+    },
+    {
+     "name": "Enchiladas rojas",
+     "desc": "Orden de 4 enchiladas rojas montadas en lechuga romana, con papas y zanahoria salteadas, acompañadas con queso, crema y cueritos curtidos, guisado a elegir.",
+     "price": 138,
+     "img": "2117238289-1741284716765_a.png"
+    },
+    {
+     "name": "Patitas Curtidas",
+     "desc": "Orden de 2 patitas curtidas montadas en lechuga, salsa de jitomate y queso.",
+     "price": 105,
+     "img": "2117238292-1741285411291.png"
+    },
+    {
+     "name": "Tacos dorados",
+     "desc": "Orden de 5 tacos dorados rellenos de puré de papa, acompañados de lechuga, crema, queso, bañados en salsa de jitomate y cueritos curtidos.",
+     "price": 100,
+     "img": "85ed3433-a53b-4f18-9df6-a266b103dcbf.png"
+    },
+    {
+     "name": "Plato hidrocálido",
+     "desc": "2 Flautas de relleno, 2 enchiladas rojas de relleno y 1 sope con guisado a elección, 2 tacos dorados de puré de papa, acompañados con lechuga, crema, queso y salsa de jitomate.",
+     "price": 165,
+     "img": "606b4d28e3f940c39c29be18ac2793b8.png"
+    },
+    {
+     "name": "Taco Planchado De Cochinita Pibil",
+     "desc": "Taco de cochinita pibil con carne de cerdo deshebrada en tortilla de maíz cocinada a la plancha.",
+     "price": 50,
+     "img": "a5bdcded-5ce7-4f16-8058-5ed92cbbacf1.png"
+    },
+    {
+     "name": "Pozole Rojo",
+     "desc": "Caldo De Maiz Con Deshebrada De Puerco. Disponible En Tamano Chico Y Grande.",
+     "price": 120,
+     "img": "9b7a2d28-0ed0-414e-b2e4-d17921b0eab0.png"
+    },
+    {
+     "name": "Taco De Cochinita Pibil (Tortilla Hecha A Mano)",
+     "desc": "Taco De Cochinita Pibil En Tortilla De Maiz Hecha A Mano.",
+     "price": 65,
+     "img": "994f4ef4-e272-40b0-a9c4-93108cae9988.png"
+    },
+    {
+     "name": "Plato Chicahual",
+     "desc": "Elaborado Con 2 Flautas, 2 Tacos Dorados, 1 Sope, 1 Quesadilla, 2 Enchiladas Rojas, 1 Pozole Chico. Acompanados Con Lechuga, Crema Y Queso Fresco.",
+     "price": 230,
+     "img": "07d24b5c-1ae4-448a-8fed-c35e5b2213ab.png"
+    }
+   ]
+  },
+  {
+   "name": "Acompañamientos",
+   "products": [
+    {
+     "name": "Orden de Cueritos",
+     "desc": "Orden de 50 gr de piel de cerdo encurtida en vinagre.",
+     "price": 43,
+     "img": "2117238303-1741284713833.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Café de Olla",
+     "desc": "Café de olla con sabor a canela y piloncillo, tamaño a elegir.",
+     "price": 42,
+     "img": "2117238308-1741284716767.jpg"
+    },
+    {
+     "name": "Victoria 473 ml",
+     "desc": "Cervezas",
+     "price": 54,
+     "img": "978135387-1596044193621.png"
+    },
+    {
+     "name": "Modelo Especial 473 ml",
+     "desc": "Cervezas",
+     "price": 54,
+     "img": "978230426-1600183562184.png"
+    }
+   ]
+  }
+ ]
+}

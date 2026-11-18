@@ -33,7 +33,7 @@ IMG_CDN = "https://images.rappi.com.mx/products/{}?e=webp&d=360x360&q=68"
 # Categorías que no son parte de la carta del restaurante (promos de Rappi o marcas virtuales).
 DROP_CATS = {
     "*": ["articulos", "articulos destacados", "por menos de $100", "rappi combos", "popular", "promociones", "combos by coca cola", "extras", "rappi- promo", "rappi promo", "promos", "super promos", "combos y promociones", "ordenes extra",
-          "extra proteinas", "extras desayunos"],
+          "extra proteinas", "extras desayunos", "rappi promos", "combos by coca-cola"],
     "china-poblana": ["pizza tradicional", "pizza gourmet", "papas para compartir", "boneless", "hamburguesas",
                       "solo wings", "combos", "otros"],
     "matilda": ["almuerzos"],
@@ -49,6 +49,8 @@ RENAME_CATS = {
     "Cockteles": "Cócteles", "Bebidas Frias": "Bebidas frías", "Cafe": "Café", "Entradas Frias": "Entradas frías",
     "Miche Litro 2x$130": "Micheladas", "Postres / Tortas": "Postres y tortas", "Novedades del Cheff": "Novedades del chef",
     "de la Cava": "De la cava", "Zarandeados Estilo mi Chaparra": "Zarandeados estilo Mi Chaparra",
+    "Mexican, Latin American, New Mexican": "Especialidades", "Especialidades Delivery": "Paquetes para compartir",
+    "Kilos delivery": "Por kilo", "Combos 5 PM": "Combos de la tarde",
 }
 # Menús donde Rappi tiene las descripciones revueltas entre platillos: se muestran solo nombre y precio.
 NO_DESC = {"el-acuario"}
@@ -130,7 +132,7 @@ def clean_menu(slug, raw):
             continue
         for p in c["products"]:
             name = tidy_name(p["name"])
-            price = p.get("price") or 0
+            price = round(p.get("price") or 0)  # Rappi suma centavos de comisión ($69.30): se muestran pesos cerrados
             key = (name.lower(), price)
             if not name or key in seen:
                 continue
@@ -362,6 +364,42 @@ h1{{font:{400 if t['titulo'] in SINGLE_WEIGHT else 700} 76px/1 '{t['titulo']}',G
 </body></html>"""
 
 
+def destacados(r, cats, n=6):
+    """Recomendados de la casa: primero los platillos de `estrella`, luego los más caros con foto de los platos fuertes.
+    Devuelve claves "categoría-platillo" que menu.js muestra en el carrusel de arriba."""
+    words = [w for w in re.findall(r"[a-záéíóúñ]{4,}", (r.get("estrella") or "").lower())
+             if w not in {"para", "con", "todos", "estilo", "casa", "orden", "combo", "combos", "paquetes"}]
+    pool = [(ci, ii, it) for ci, c in enumerate(cats) for ii, it in enumerate(c["items"])
+            if it.get("img") and it.get("price") and not DRINK.search(c["name"])]
+    out = []
+    for w in words:
+        for ci, ii, it in pool:
+            k = f"{ci}-{ii}"
+            if w in it["name"].lower() and k not in out:
+                out.append(k)
+                break
+    for ci, ii, it in sorted(pool, key=lambda x: (cat_rank(cats[x[0]]["name"]) not in (1, 4), -x[2]["price"])):
+        k = f"{ci}-{ii}"
+        if len(out) >= n:
+            break
+        if k not in out and not any(o.split("-")[0] == str(ci) for o in out[-2:]):
+            out.append(k)
+    return out[:n]
+
+
+def schema(r, cats, url):
+    """Datos estructurados schema.org (Restaurant + Menu) para Google."""
+    sec = [{"@type": "MenuSection", "name": c["name"], "hasMenuItem": [
+        {"@type": "MenuItem", "name": it["name"], **({"description": it["desc"]} if it.get("desc") else {}),
+         **({"offers": {"@type": "Offer", "price": it["price"], "priceCurrency": "MXN"}} if it.get("price") else {})}
+        for it in c["items"][:12]]} for c in cats]
+    d = {"@context": "https://schema.org", "@type": "Restaurant", "name": r["nombre"], "url": url, "image": url + "og.jpg",
+         "telephone": "+52" + r["tel"], "address": {"@type": "PostalAddress", "streetAddress": r["direccion"],
+         "addressLocality": r["ciudad"].split(",")[0], "addressCountry": "MX"},
+         "hasMenu": {"@type": "Menu", "name": "Menú digital", "hasMenuSection": sec}}
+    return json.dumps(d, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+
+
 def render_menu(r, cats, url):
     t = r["tema"]
     pal = palette(t)
@@ -369,7 +407,7 @@ def render_menu(r, cats, url):
     wa = r.get("whatsapp") or r["tel"]
     data = {"nombre": r["nombre"], "whatsapp": wa, "horario": r.get("horario") or "",
             "cats": [{"name": c["name"], "items": [{k: v for k, v in it.items() if k in ("name", "desc", "price", "img") and v}
-                                                    for it in c["items"]]} for c in cats]}
+                                                    for it in c["items"]]} for c in cats], "dest": destacados(r, cats)}
     n_items = sum(len(c["items"]) for c in cats)
     e = html.escape
     maps = "https://www.google.com/maps/search/?api=1&query=" + e(r["nombre"] + " " + r["direccion"]).replace(" ", "+")
@@ -403,6 +441,7 @@ def render_menu(r, cats, url):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{font_link(t)}&family=Space+Grotesk:wght@600;700">
 <link rel="stylesheet" href="../assets/menu.css">
+<script type="application/ld+json">{schema(r, cats, url)}</script>
 <style>:root{{--bg:{t['bg']};--fg:{t['fg']};--acc:{t['acc']};--card:{t['card']};--acc-btn:{pal['acc_btn']};--on-acc:{on_acc};--acc-ink:{pal['acc_ink']};--ft:'{t['titulo']}';--fb:'{t['texto']}';--tw:{400 if t['titulo'] in SINGLE_WEIGHT else 700};color-scheme:{'dark' if luminance(t['bg']) < .2 else 'light'}}}</style>
 </head>
 <body>

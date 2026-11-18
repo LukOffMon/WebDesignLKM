@@ -91,6 +91,21 @@ main { padding: 4px 0 calc(120px + var(--safe-b)); }
 .cat h2 { font: var(--tw, 700) clamp(24px, 6.5vw, 32px)/1.1 var(--ft), Georgia, serif; margin: 0 0 2px; }
 .cat .n { color: var(--soft); font-size: 13px; margin: 0 0 12px; }
 .grid { display: grid; gap: 10px; grid-template-columns: 1fr; }
+/* Recomendados de la casa (carrusel horizontal; no desborda la página) */
+.recs { padding-top: 22px; }
+.recs h2 { font: var(--tw, 700) clamp(24px, 6.5vw, 32px)/1.1 var(--ft), Georgia, serif; margin: 0 0 2px; }
+.recs .n { color: var(--soft); font-size: 13px; margin: 0 0 12px; }
+.rrow { display: grid; grid-auto-flow: column; grid-auto-columns: min(62%, 220px); gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory;
+  padding-bottom: 6px; scrollbar-width: none; overscroll-behavior-x: contain; }
+.rrow::-webkit-scrollbar { display: none; }
+.rec { position: relative; scroll-snap-align: start; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden;
+  display: grid; align-content: start; padding-bottom: 12px; }
+.rec img { width: 100%; height: 150px; object-fit: cover; display: block; background: var(--line); }
+.rec h3 { font-size: 15.5px; line-height: 1.25; margin: 10px 12px 4px; font-weight: 700; overflow-wrap: anywhere; }
+.rec .price { margin: 0 12px; }
+.rec .open { position: absolute; inset: 0; border: 0; background: transparent; z-index: 1; cursor: pointer; }
+.rec .open:focus-visible { outline: 3px solid var(--acc-ink); outline-offset: -3px; }
+@media (min-width: 720px) { .rrow { grid-auto-columns: 220px; } }
 .item {
   position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 108px; gap: 12px; align-items: start;
   padding: 12px; border-radius: var(--r); background: var(--card); border: 1px solid var(--line);

@@ -1,0 +1,396 @@
+{
+ "id": 1930172715,
+ "brandName": "El Cafetal de Concha",
+ "name": "El Cafetal de Concha - Fraccionamiento San Cayetano",
+ "address": "Carlos Sagredo 2713, San Cayetano, 20010 Aguascalientes, Ags., Mexico",
+ "schedule": "07:30:00 - 21:30:00",
+ "categories": "Sushi · Desayunos y Brunch",
+ "location": [
+  -102.3123936,
+  21.9021737
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/09e54655-3236-48df-b64e-97c8231967eb-1710605993194.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/06-1711566049017.jpg",
+ "schedules": [
+  {
+   "open_time": "07:30:00",
+   "close_time": "21:30:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930172715-el-cafetal-de-concha",
+ "menu": [
+  {
+   "name": "Rollos",
+   "products": [
+    {
+     "name": "Rollo Ponche (260 Gramos)",
+     "desc": "Relleno de canela y trozos de manzana, bañado en almíbar y cubierto de glaseado de queso crema y guayaba.",
+     "price": 115,
+     "img": "885cb40e-cb49-4302-94ff-117120767846.png"
+    },
+    {
+     "name": "Rollo Cajeta con Nuez",
+     "desc": "Rollo de cajeta con glaseado de queso crema y trozos de nuez.",
+     "price": 115,
+     "img": "5fe31271-8231-479a-835d-4440dc8309e7.png"
+    },
+    {
+     "name": "Rollo Brownie",
+     "desc": "Rollo decorado con trozos de brownie y salsas de chocolate y caramelo.",
+     "price": 115,
+     "img": "5066e9af-bfb5-48ef-bec2-970b221b0266.png"
+    },
+    {
+     "name": "Rollo de Oreo y Chocolate Blanco",
+     "desc": "Rollo de Oreo con cobertura de chocolate blanco y trozos de galleta Oreo.",
+     "price": 115,
+     "img": "507f47b6-5e43-490f-b755-4334aea112ce.png"
+    },
+    {
+     "name": "Rollo Pistache",
+     "desc": "Rollo con queso crema, pistaches y decoración de chocolate.",
+     "price": 115,
+     "img": "af0b7467-c70d-4eca-8190-818e2a989959.png"
+    },
+    {
+     "name": "Rollo con Snikers",
+     "desc": "Rollo con Snikers, cacahuate y cobertura de chocolate.",
+     "price": 115,
+     "img": "ea322fa8-40bd-4292-aaf5-54c6048a1812.png"
+    },
+    {
+     "name": "Rollo Lotus",
+     "desc": "Rollo con crema y galleta Lotus, decorado con trozos de galleta.",
+     "price": 115,
+     "img": "e3bdb9b7-181d-4de8-8c1b-ff4f860bb3d9.png"
+    },
+    {
+     "name": "Rollo Frutos Rojos (240 Gr)",
+     "desc": "Rollo relleno de queso crema y mermelada casera de frutos rojos, coronado con un suave glaseado de queso crema y la frescura de los frutos rojos..",
+     "price": 115,
+     "img": "87145284-e24d-4964-a9d9-5b19aa6af2fb.png"
+    },
+    {
+     "name": "Rollo Clásico de Canela (240 Gr)",
+     "desc": "Rollo de canela de 240 g con relleno de canela y glaseado de queso crema.",
+     "price": 115,
+     "img": "cd991697-e8c5-451e-913e-3f18e3e85598.png"
+    }
+   ]
+  },
+  {
+   "name": "Frappes",
+   "products": [
+    {
+     "name": "Granizado de Café (16Oz)",
+     "desc": "Receta original del cafetal de concha, refrescante bebida granizada a base de nuestro café mexicano 100% orgánico.",
+     "price": 85,
+     "img": "87471ec4-5e9f-4498-8416-2827f8a67730.png"
+    },
+    {
+     "name": "Frappé de Crema Irlandesa (16 Oz)",
+     "desc": "Irresistible combinación de café frappeado con hielo y el toque dulce del exquisito jarabe de crema irlandesa.",
+     "price": 85,
+     "img": "87471ec4-5e9f-4498-8416-2827f8a67730.png"
+    },
+    {
+     "name": "Moka Frappé (16 Oz)",
+     "desc": "Bebida frappeada de salsa de chocolate blanco con café y leche a tu elección.",
+     "price": 100,
+     "img": "e009eb5e-a525-4be0-96df-ffa62d8ee349.png"
+    },
+    {
+     "name": "Moka Blanco Frappé (16 Oz)",
+     "desc": "Bebida frappeada de salsa de chocolate blanco con café y leche a tu elección.",
+     "price": 100,
+     "img": "e009eb5e-a525-4be0-96df-ffa62d8ee349.png"
+    },
+    {
+     "name": "Caramel Macciato Frappé (16 Oz)",
+     "desc": "Bebida frappeada de café, vainilla y caramelo.",
+     "price": 110,
+     "img": "87471ec4-5e9f-4498-8416-2827f8a67730.png"
+    },
+    {
+     "name": "Frapuccino Clásico (16 Oz)",
+     "desc": "Refréscate con nuestro auténtico frappuccino con café mexicano 100% orgánico.",
+     "price": 100,
+     "img": "1445e685-2ff9-4574-ae73-4f75310f12c9.png"
+    },
+    {
+     "name": "Vainilla Frappé (16 Oz)",
+     "desc": "Nuestro auténtico frappe acompañado de un toque de jarabe de vainilla.",
+     "price": 100,
+     "img": "87471ec4-5e9f-4498-8416-2827f8a67730.png"
+    },
+    {
+     "name": "Matcha Frappé (16Oz)",
+     "desc": "Nuestro auténtico frappe acompañado de un toque de matcha.",
+     "price": 110,
+     "img": "4f06f706-e2a0-4736-bbb2-ce6dc5e84049.png"
+    },
+    {
+     "name": "Te Chai Frappé",
+     "desc": "Te chai con hielo, crema batida y leche.",
+     "price": 110,
+     "img": "b75c7cc1-623f-4696-a19e-35ad1bae2025.png"
+    },
+    {
+     "name": "Chocolate Frappé (16 Oz)",
+     "desc": "Nuestro auténtico frappe acompañado de un toque de jarabe de chocolate.",
+     "price": 100,
+     "img": "87471ec4-5e9f-4498-8416-2827f8a67730.png"
+    },
+    {
+     "name": "Avellana Frappé (16 Oz)",
+     "desc": "Nuestro auténtico frappe acompañado de un toque de jarabe de avellana.",
+     "price": 100,
+     "img": "87471ec4-5e9f-4498-8416-2827f8a67730.png"
+    },
+    {
+     "name": "Galleta Frappé (16 Oz)",
+     "desc": "Nuestro auténtico frappe acompañado de  deliciosa galleta de chocolate.",
+     "price": 110,
+     "img": "b45faed8-1229-4cfb-8dcc-bb47aaae5795.png"
+    },
+    {
+     "name": "Caramelo Frappé (16 Oz)",
+     "desc": "Nuestro auténtico frappe acompañado de un toque de jarabe de caramelo.",
+     "price": 100,
+     "img": "87471ec4-5e9f-4498-8416-2827f8a67730.png"
+    },
+    {
+     "name": "Frappe Lotus (16Oz)",
+     "desc": "Nuestra exquisita mezcla de galleta europea de canela lotus, la suavidad de la leche y el toque intenso del café coronado con una porción de crema batida  se fusionan en armonía para crear una experiencia única.",
+     "price": 125,
+     "img": "75ad5d16-c637-41a3-bcea-bad273a980ce.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Calientes",
+   "products": [
+    {
+     "name": "Capuccino (12 Oz)",
+     "desc": "Cremoso y aromático café mexicano 100% orgánico con leche y exquisita espuma de leche.",
+     "price": 75,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Espresso Sencillo",
+     "desc": "Café mexicano 100% orgánico de 2 onzas, ¡un clásico de los fanáticos del café!.",
+     "price": 60,
+     "img": "8e532ec0-e6af-4fe0-9ae2-8ffb6e66db65.png"
+    },
+    {
+     "name": "Espresso Doble (4 Oz)",
+     "desc": "Café mexicano 100% orgánico de 4 onzas, ¡ideal para despertar!.",
+     "price": 70,
+     "img": "8e532ec0-e6af-4fe0-9ae2-8ffb6e66db65.png"
+    },
+    {
+     "name": "Chocolate (12 Oz)",
+     "desc": "Deliciosa bebida con chocolate y leche, ¡reconfortante y de gran sabor!.",
+     "price": 75,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Americano (12 Oz)",
+     "desc": "Delicioso café mexicano 100% orgánico, ¡ideal para cualquier momento!.",
+     "price": 65,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Latte (12 Oz)",
+     "desc": "Espresso con leche al vapor y una capa de leche espumosa.",
+     "price": 75,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Flat White (16 Oz)",
+     "desc": "Equilibrada y deliciosa combinación de leche y nuestro café mexicano 100% orgánico.",
+     "price": 90,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Té Chai (12 Oz)",
+     "desc": "Combinación única de leche a tu elección y mezclas de té.",
+     "price": 80,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Té Verde (12 Oz)",
+     "desc": "Incomparable té de infusión y agua, servido caliente para una experiencia reconfortante.",
+     "price": 55,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Té de Manzanilla (12 Oz)",
+     "desc": "Té de manzanilla de 12 oz, preparado con infusión de manzanilla y agua caliente.",
+     "price": 55,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Té de Menta (12 Oz)",
+     "desc": "Incomparable té de infusión y agua, servido caliente para una experiencia reconfortante.",
+     "price": 55,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Té de Frutos Rojos (12 Oz)",
+     "desc": "Incomparable té de infusión y agua, servido caliente para una experiencia reconfortante.",
+     "price": 55,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Té de Frambuesa (12 Oz)",
+     "desc": "Incomparable té de infusión y agua, servido caliente para una experiencia reconfortante.",
+     "price": 55,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Té Matcha (12 Oz)",
+     "desc": "¡Despierta tus sentidos con nuestra irresistible combinación de leche a tu elección y matcha en polvo!.",
+     "price": 80,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Capuccino Lotus (16Oz)",
+     "desc": "Delicioso capuccino  con el toque especiado de la galleta europea de canela lotus. acompañada de un potente espresso doble y leche a tu elección. .",
+     "price": 125,
+     "img": "d0150536-d15c-4443-9d8b-c81226fc3a1b.png"
+    },
+    {
+     "name": "Capuccino (16 Oz)",
+     "desc": "Cremoso y aromático café mexicano 100% orgánico con leche y exquisita espuma de leche.",
+     "price": 90,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Frias",
+   "products": [
+    {
+     "name": "Americano Frio (16 Oz)",
+     "desc": "Refrescante y delicioso café mexicano 100% orgánico.",
+     "price": 70,
+     "img": "2d0e70c8-5c53-45c5-9321-f5e94055e741.png"
+    },
+    {
+     "name": "Latte Frio (16 Oz)",
+     "desc": "Nuestro delicioso café mexicano 100% orgánico, servido frío y con tu leche favorita. perfecto para cualquier momento del día.",
+     "price": 85,
+     "img": "11acd7a2-ff95-4f6c-95d3-0e59f1bb74ae.png"
+    },
+    {
+     "name": "Moka Helado (16 Oz)",
+     "desc": "¡Para los amantes del chocolate!, esta deliciosa y refrescante bebida de café mexicano 100% orgánico y chocolate natural.",
+     "price": 75,
+     "img": "e009eb5e-a525-4be0-96df-ffa62d8ee349.png"
+    },
+    {
+     "name": "Moka Blanco Helado (16 Oz)",
+     "desc": "¡Deliciosa combinación!, bebida de café 100% orgánico mexicano y chocolate blanco.",
+     "price": 85,
+     "img": "e009eb5e-a525-4be0-96df-ffa62d8ee349.png"
+    },
+    {
+     "name": "Caramel Macciato Helado (16 Oz)",
+     "desc": "Una bebida favorita de todos, nuestro delicioso café mexicano 100% orgánico servido frío, con un dulce toque de caramelo y espuma.",
+     "price": 95,
+     "img": "e009eb5e-a525-4be0-96df-ffa62d8ee349.png"
+    },
+    {
+     "name": "Té Helado Verde (16 Oz)",
+     "desc": "Refresca tus sentidos con nuestro delicioso té de infusión helado.",
+     "price": 95,
+     "img": "c8a2cf93-a2b3-4a18-9e01-351cca2f74e2.png"
+    },
+    {
+     "name": "Té Helado de Manzanilla (16 Oz)",
+     "desc": "Refresca tus sentidos con nuestro delicioso té de infusión helado.",
+     "price": 95,
+     "img": "c8a2cf93-a2b3-4a18-9e01-351cca2f74e2.png"
+    },
+    {
+     "name": "Té Helado de Menta (16 Oz)",
+     "desc": "Refresca tus sentidos con nuestro delicioso té de infusión helado.",
+     "price": 95,
+     "img": "c8a2cf93-a2b3-4a18-9e01-351cca2f74e2.png"
+    },
+    {
+     "name": "Té Helado de Mango Fresa (16 Oz)",
+     "desc": "Refresca tus sentidos con nuestro delicioso té de infusión helado.",
+     "price": 95,
+     "img": "c8a2cf93-a2b3-4a18-9e01-351cca2f74e2.png"
+    },
+    {
+     "name": "Té Helado de Frutos Rojos (16 Oz)",
+     "desc": "Refresca tus sentidos con nuestro delicioso té de infusión helado.",
+     "price": 95,
+     "img": "c8a2cf93-a2b3-4a18-9e01-351cca2f74e2.png"
+    },
+    {
+     "name": "Smoothie de Mango (16 Oz)",
+     "desc": "¡Sumérgete en un mundo de frescura y vitalidad con nuestro smoothie irresistible de mango!.",
+     "price": 98,
+     "img": "e5cb9b50-24f7-4e85-b2da-4444f34415e8.png"
+    },
+    {
+     "name": "Smoothie de Frutos Rojos (16 Oz)",
+     "desc": "¡Sumérgete en un mundo de frescura y vitalidad con nuestro smoothie irresistible de frutos rojos!.",
+     "price": 98,
+     "img": "67d90006-4877-4cbd-aafd-56df12fa0407.png"
+    },
+    {
+     "name": "Smoothie de Fresa (16 Oz)",
+     "desc": "¡Sumérgete en un mundo de frescura y vitalidad con nuestro smoothie irresistible de fresa!.",
+     "price": 98,
+     "img": "708c151e-de44-4dd0-9fdc-e3e652c9b598.png"
+    }
+   ]
+  },
+  {
+   "name": "Chapatas",
+   "products": [
+    {
+     "name": "Chapata Gourmet Serrana (335Gramos)",
+     "desc": "Nuestra exquisita chapata de 20 cm aproximadamente  con jamón serrano, tomate fresco y aceite. ¡el auténtico sabor de españa en cada bocado!.",
+     "price": 250,
+     "img": "3193992f-db9a-4753-af2e-d6a08b02ada3.png"
+    }
+   ]
+  },
+  {
+   "name": "Rollazos",
+   "products": [
+    {
+     "name": "Rollazo Kinder (140/160 Gramos)",
+     "desc": "Masa de croissant relleno y cobertura de crema kinder. decorado con líneas de chocolate y un kinder bueno..",
+     "price": 120,
+     "img": "1ef22f8e-2df5-40c6-99f1-c7eedd2101f5.png"
+    },
+    {
+     "name": "Rollazo Pistache (140/160 Gramos)",
+     "desc": "Masa de croissant relleno y cobertura de crema de pistache. decorado con pistaches troceados..",
+     "price": 120,
+     "img": "37acb236-e8b8-4e11-9bdb-3116a84911c2.png"
+    }
+   ]
+  },
+  {
+   "name": "Kubos",
+   "products": [
+    {
+     "name": "Kubo de Limón y Blueberry",
+     "desc": "Panque en forma de cubo con sabor a limón y arándanos, decorado con azúcar glas.",
+     "price": 130,
+     "img": "754b7a97-7ea9-4927-825c-43b2f231255a.png"
+    }
+   ]
+  }
+ ]
+}

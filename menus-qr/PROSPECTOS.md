@@ -102,6 +102,30 @@ Menús tomados de Rappi el 17 nov. 2026. Oferta: desde $650 de instalación + $2
 | 96 | Lechón Mi Güerita | Aguascalientes, Ags. | [449 578 9596](https://wa.me/524495789596) | Directorio | [lechon-mi-guerita/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/lechon-mi-guerita/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/lechon-mi-guerita/qr.png) |
 | 97 | Taquería Jeque Juárez | Aguascalientes, Ags. | [449 427 0153](https://wa.me/524494270153) | Número propio | [jeque-juarez/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jeque-juarez/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jeque-juarez/qr.png) |
 | 98 | Casa Tulipán | Aguascalientes, Ags. | [449 181 9130](https://wa.me/524491819130) | Número propio | [casa-tulipan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-tulipan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-tulipan/qr.png) |
+| 99 | Me Lo Dijo Adela | Aguascalientes, Ags. | [449 537 6787](https://wa.me/524495376787) | Número propio | [me-lo-dijo-adela/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/me-lo-dijo-adela/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/me-lo-dijo-adela/qr.png) |
+| 100 | El Cafetal de Concha | Aguascalientes, Ags. | [449 367 1887](https://wa.me/524493671887) | Número propio | [el-cafetal-de-concha/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-cafetal-de-concha/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-cafetal-de-concha/qr.png) |
+| 101 | Lonchería El Mono | Aguascalientes, Ags. | [449 735 0251](https://wa.me/524497350251) | Número propio | [loncheria-el-mono/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/loncheria-el-mono/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/loncheria-el-mono/qr.png) |
+| 102 | Narros Burger | Aguascalientes, Ags. | [449 352 9241](https://wa.me/524493529241) | Número propio | [narros-burger/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/narros-burger/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/narros-burger/qr.png) |
+| 103 | Kaffihus | Aguascalientes, Ags. | [449 576 0144](https://wa.me/524495760144) | Directorio | [kaffihus/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/kaffihus/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/kaffihus/qr.png) |
+| 104 | Pollo Pepe | Aguascalientes, Ags. | [449 153 1919](https://wa.me/524491531919) | Directorio | [pollo-pepe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pollo-pepe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pollo-pepe/qr.png) |
+| 105 | Tacos Guadalupe | Aguascalientes, Ags. | [449 311 3784](https://wa.me/524493113784) | Directorio | [tacos-guadalupe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-guadalupe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-guadalupe/qr.png) |
+| 106 | Delifresh | Aguascalientes, Ags. | [449 146 5656](https://wa.me/524491465656) | Directorio | [delifresh/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/delifresh/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/delifresh/qr.png) |
+| 107 | Los Andariegos | Aguascalientes, Ags. | [449 414 1321](https://wa.me/524494141321) | Directorio | [los-andariegos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-andariegos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-andariegos/qr.png) |
+| 108 | Amor de mis Sabores | Aguascalientes, Ags. | [449 829 6139](https://wa.me/524498296139) | Número propio | [amor-de-mis-sabores/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/amor-de-mis-sabores/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/amor-de-mis-sabores/qr.png) |
+| 109 | AC Wing's | Aguascalientes, Ags. | [449 897 8982](https://wa.me/524498978982) | Número propio | [ac-wings/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/ac-wings/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/ac-wings/qr.png) |
+| 110 | Rosticería San Francisco | Aguascalientes, Ags. | [449 918 2835](https://wa.me/524499182835) | Directorio | [rosticeria-san-francisco/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rosticeria-san-francisco/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rosticeria-san-francisco/qr.png) |
+| 111 | Puerta Grande | Aguascalientes, Ags. | [449 153 3618](https://wa.me/524491533618) | Directorio | [puerta-grande/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/puerta-grande/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/puerta-grande/qr.png) |
+| 112 | Jessy Jaq's Pizza | Aguascalientes, Ags. | [449 439 0780](https://wa.me/524494390780) | Directorio | [jessy-jaqs-pizza/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jessy-jaqs-pizza/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jessy-jaqs-pizza/qr.png) |
+| 113 | Tacos 626 | Aguascalientes, Ags. | [449 347 9747](https://wa.me/524493479747) | Directorio | [tacos-626/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-626/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-626/qr.png) |
+| 114 | Birriería El Mezquite | Aguascalientes, Ags. | [449 345 1331](https://wa.me/524493451331) | Número propio | [birrieria-el-mezquite/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-el-mezquite/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-el-mezquite/qr.png) |
+| 115 | The Boiling Pot | Aguascalientes, Ags. | [449 361 6860](https://wa.me/524493616860) | Directorio | [the-boiling-pot/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/the-boiling-pot/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/the-boiling-pot/qr.png) |
+| 116 | Tikin Xic | Aguascalientes, Ags. | [449 347 5594](https://wa.me/524493475594) | Directorio | [tikin-xic/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tikin-xic/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tikin-xic/qr.png) |
+| 117 | Los Abolengos | Aguascalientes, Ags. | [449 805 0420](https://wa.me/524498050420) | WhatsApp oficial | [los-abolengos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-abolengos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-abolengos/qr.png) |
+| 118 | Café del Ángel | Aguascalientes, Ags. | [449 155 7873](https://wa.me/524491557873) | Directorio | [cafe-del-angel/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-del-angel/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-del-angel/qr.png) |
+| 119 | Cardona's W Grill | Aguascalientes, Ags. | [449 658 5419](https://wa.me/524496585419) | Directorio | [cardonas-grill/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cardonas-grill/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cardonas-grill/qr.png) |
+| 120 | Alitas El Alebrije | Aguascalientes, Ags. | [449 106 3668](https://wa.me/524491063668) | Directorio | [alitas-el-alebrije/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/qr.png) |
+| 121 | Birriería Díaz de Calvillo | Aguascalientes, Ags. | [449 146 1893](https://wa.me/524491461893) | Número propio | [birrieria-diaz/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/qr.png) |
+| 122 | Carnitas Romo | Aguascalientes, Ags. | [449 950 8671](https://wa.me/524499508671) | Número propio | [carnitas-romo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/qr.png) |
 
 ## Mensajes
 
@@ -2941,6 +2965,702 @@ https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-tulipan/
 Su carta tiene más de 110 productos; con categorías y fotos se recorre fácil y se piden más cosas.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus dos sucursales (Centro y Villasunción). Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 99. Me Lo Dijo Adela · Aguascalientes, Ags.
+
+Teléfono: 449 537 6787. Número de la sucursal Madero publicado en su Instagram oficial @melodijoadelaags; Waze y Restaurant Guru dan el mismo. La sucursal Centro usa 449 589 3318.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Me Lo Dijo Adela? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Me Lo Dijo Adela una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Me Lo Dijo Adela con su propia carta (chilaquiles Candelaria, emparedado Adela y waffles):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/me-lo-dijo-adela/
+
+Cada platillo tiene nombre de persona (Chilaquiles Candelaria, Emparedado Adela, Waffles Alfonso): en el menú digital con foto la gente entiende qué es cada uno sin preguntarle al mesero.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con su imagen de cafetería y un botón para pedir para llevar por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 100. El Cafetal de Concha · Aguascalientes, Ags.
+
+Teléfono: 449 367 1887. Número publicado en su página oficial de Facebook (El Cafetal, @elcafetaldeconcha); Uber Eats y Mexicocafes dan el mismo.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de El Cafetal de Concha? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a El Cafetal de Concha una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Cafetal de Concha con su propia carta (rollos de canela, rollazos y frappés):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-cafetal-de-concha/
+
+Sus rollos (ponche, cajeta con nuez, brownie) y los rollazos se venden por cómo se ven: con foto grande en el celular se antojan antes de llegar a la barra.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Le agrego una sección de "rollo del día" que se cambia con un mensaje. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 101. Lonchería El Mono · Aguascalientes, Ags.
+
+Teléfono: 449 735 0251. Su página oficial de Facebook (Lonchería El Mono Av. Independencia) publica el 449 735 0251 como número directo de la lonchería; Gastroranking lo marca con WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Lonchería El Mono? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Lonchería El Mono una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Lonchería El Mono con su propia carta (tortas de maciza, tacos de surtido y kilos de carnitas):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/loncheria-el-mono/
+
+Venden mucho por paquete y por kilo (5 tortas y 10 tacos, kilo surtido): el menú digital deja que la oficina arme su pedido completo y se lo mande por WhatsApp ya sumado.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo arriba los paquetes para oficina y fiestas, con su precio total. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 102. Narros Burger · Aguascalientes, Ags.
+
+Teléfono: 449 352 9241 (otro: 449 194 4470). El 449 352 9241 lo publica su página oficial de Facebook (Narros Burger Fundición); Yelp y Restaurant Guru dan el 449 194 4470 como teléfono del local. La sucursal Paseos usa otro número.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Narros Burger? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Narros Burger una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Narros Burger con su propia carta (hamburguesas Tolteca, Zapoteca y Maya):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/narros-burger/
+
+Sus hamburguesas se llaman Tolteca, Zapoteca, Maya…: el menú digital explica qué lleva cada una con foto, y el cliente deja de pedir siempre la misma.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón para pedir a domicilio por WhatsApp sin comisión de app. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 103. Kaffihus · Aguascalientes, Ags.
+
+Teléfono: 449 576 0144. Tripadvisor y Restaurant Guru dan el 449 576 0144 para Kaffihus (Plaza Albera); no publica WhatsApp. Confirmar que responde antes de mandar la venta.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Kaffihus? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Kaffihus una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Kaffihus con su propia carta (crepas, frappuchinos y baguettes):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/kaffihus/
+
+Su carta es grande (casi 100 productos entre cafés, frappés, crepas, bagels y baguettes); con categorías y buscador la mesa encuentra rápido lo que quiere mientras juega.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de paquetes para grupos (Paquete juegos, Paquete Kaffihus). Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 104. Pollo Pepe · Aguascalientes, Ags.
+
+Teléfono: 449 153 1919. Gastroranking, Restaurant Guru y Carta.menu dan el 449 153 1919 para la sucursal Universidad; Gastroranking lo marca con WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Pollo Pepe? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Pollo Pepe una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Pollo Pepe con su propia carta (pollo asado, Pepe Tenders y paquetes familiares):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/pollo-pepe/
+
+Venden por paquete (7, 10 y 12 piezas con acompañamientos): con el menú digital la familia arma el paquete, ve el total y lo pide por WhatsApp sin llamar.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo los paquetes familiares hasta arriba y un botón de pedido para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 105. Tacos Guadalupe · Aguascalientes, Ags.
+
+Teléfono: 449 311 3784. Directorio de taquerías (pueblosamerica, 2024) da el 449 311 3784 para Valentín Gómez Farías 328. Fuente única: llamar primero si no contesta.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Tacos Guadalupe? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Tacos Guadalupe una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tacos Guadalupe con su propia carta (volcanes, tacos al pastor y gorditas de la casa):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-guadalupe/
+
+Tienen de todo (tacos, volcanes, quesadillas de maíz y harina, gorditas, antojitos fritos): el menú digital con fotos ordena una carta grande y ayuda a que en la noche pidan más rápido.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego los paquetes de medio kilo para compartir arriba, con botón de pedido. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 106. Delifresh · Aguascalientes, Ags.
+
+Teléfono: 449 146 5656. Restaurant Guru y Worldorgs dan el 449 146 5656 para Delifresh (República de Uruguay 1103). No publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Delifresh? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Delifresh una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Delifresh con su propia carta (combos, ensaladas y baguettes):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/delifresh/
+
+Su fuerte es "arma tu ensalada" y los combos de mediodía: con el menú digital la oficina ve los combos con foto y pide por WhatsApp antes de la hora de la comida.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Le pongo una sección de combos del día que se cambia con un mensaje. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 107. Los Andariegos · Aguascalientes, Ags.
+
+Teléfono: 449 414 1321. Uber Eats y directorios dan el 449 414 1321 para Av. Mahatma Gandhi 613. No publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Los Andariegos? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Los Andariegos una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Los Andariegos con su propia carta (chamorro, carnitas y tortas surtidas):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-andariegos/
+
+El chamorro y las carnitas se venden con foto; en el menú digital el cliente ve platos, tacos y tortas con precio y pide por kilo para la familia.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego venta por kilo y paquetes para el fin de semana. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 108. Amor de mis Sabores · Aguascalientes, Ags.
+
+Teléfono: 449 829 6139 (otro: 449 398 9172). El 449 829 6139 lo publica su página oficial de Facebook (Amor de mis Sabores); directorios dan además el 449 398 9172.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Amor de mis Sabores? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Amor de mis Sabores una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Amor de mis Sabores con su propia carta (pozole rojo, flautas y tostadas preparadas):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/amor-de-mis-sabores/
+
+Tienen desayunos en la mañana y antojitos con pozole en la tarde: el menú digital muestra lo que hay a cada hora y la promo de pozole con taco dorado.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de promoción que se cambia con un mensaje. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 109. AC Wing's · Aguascalientes, Ags.
+
+Teléfono: 449 897 8982. El 449 897 8982 lo publica su página oficial de Facebook (AC Wing's, Cosío Sur 1044).
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de AC Wing's? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a AC Wing's una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a AC Wing's con su propia carta (alitas, boneless y combos para compartir):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/ac-wings/
+
+Tienen opción fitness y "Sabor sin culpa" además de 10 salsas: el menú digital deja elegir tamaño y salsa con foto, y el pedido llega completo por WhatsApp.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego los combos para compartir arriba y el selector de salsas. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 110. Rosticería San Francisco · Aguascalientes, Ags.
+
+Teléfono: 449 918 2835. Tripadvisor, Restaurant Guru, Wanderlog y allbiz dan el 449 918 2835 para Aquiles Serdán 111. No publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Rosticería San Francisco? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Rosticería San Francisco una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Rosticería San Francisco con su propia carta (pollo rostizado, combo familiar y alitas):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/rosticeria-san-francisco/
+
+El pollo completo y los combos familiares se piden para llevar: con el menú digital el cliente arma el combo con mole y papas y lo manda por WhatsApp para recogerlo listo.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo los combos familiares arriba con botón de pedido para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 111. Puerta Grande · Aguascalientes, Ags.
+
+Teléfono: 449 153 3618. Allbiz, Restaurant Guru y Guiamexico dan el 449 153 3618 para Av. Universidad 1509. No publica WhatsApp: confirmar en la llamada.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Puerta Grande? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Puerta Grande una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Puerta Grande con su propia carta (paella, mariscos y cocina española):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/puerta-grande/
+
+Cocina española (paella, lechón, rabo de toro) que mucha gente de Ags no conoce de nombre: el menú digital explica cada platillo con foto y ayuda a pedir sin miedo.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con un botón para reservar mesa por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 112. Jessy Jaq's Pizza · Aguascalientes, Ags.
+
+Teléfono: 449 439 0780. Uber Eats da el 449 439 0780 para Jessy Jaq's (Av. Universidad 737). No publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Jessy Jaq's Pizza? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Jessy Jaq's Pizza una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Jessy Jaq's Pizza con su propia carta (pizza Jessironi, combos y Jessy Wings):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/jessy-jaqs-pizza/
+
+Venden por combo (Sencillo, Deluxe, Double Jessy): el menú digital muestra qué incluye cada uno con foto y el pedido a domicilio llega directo, sin comisión de app.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón de pedido a domicilio con los dips como extra. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 113. Tacos 626 · Aguascalientes, Ags.
+
+Teléfono: 449 347 9747. Uber Eats da el 449 347 9747 para Tacos 626 (Av. Guadalupe). No publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Tacos 626? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Tacos 626 una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tacos 626 con su propia carta (lechoneras, tortas planchadas y tacos de maciza):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-626/
+
+Las lechoneras y la torta planchada son lo distinto de la casa: con foto en el menú digital el cliente nuevo las prueba en lugar de pedir solo tacos.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego venta por kilo para fiestas con su botón de pedido. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 114. Birriería El Mezquite · Aguascalientes, Ags.
+
+Teléfono: 449 345 1331. El 449 345 1331 lo publica su propia cuenta de TikTok para cotizaciones y pedidos (Blvd. Guadalupano 501-C, ago. 2026).
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Birriería El Mezquite? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Birriería El Mezquite una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Birriería El Mezquite con su propia carta (birria de borrego, quesabirria y lechón):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-el-mezquite/
+
+Venden birria por plato, por kilo y combos para todos: el menú digital ayuda a pedir para la familia los fines de semana y a apartar por WhatsApp.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de pedidos por kilo para apartar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 115. The Boiling Pot · Aguascalientes, Ags.
+
+Teléfono: 449 361 6860. Tripadvisor, Restaurant Guru y menu-world dan el 449 361 6860 para Colosio 129. No publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de The Boiling Pot? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a The Boiling Pot una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a The Boiling Pot con su propia carta (mariscos en bolsa estilo Louisiana):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/the-boiling-pot/
+
+El estilo Louisiana (mariscos en bolsa con salsa y nivel de picante) es nuevo para mucha gente: el menú digital explica cómo se pide, con foto, antes de sentarse.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una guía de "cómo pedir" (marisco, salsa y picor) arriba del menú. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 116. Tikin Xic · Aguascalientes, Ags.
+
+Teléfono: 449 347 5594. Gastroranking, Carta.menu y Tripadvisor dan el 449 347 5594; Gastroranking lo marca con WhatsApp. Su Facebook es "TIKIN Cocina de mar".
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Tikin Xic? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Tikin Xic una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tikin Xic con su propia carta (tostadas de la casa, tacos baja y cócteles):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tikin-xic/
+
+Sus tostadas de la casa y los aguachiles se venden por cómo se ven: con foto grande en el celular la mesa pide más y el cliente nuevo se anima.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de "de la casa" con sus tostadas estrella. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 117. Los Abolengos · Aguascalientes, Ags.
+
+Teléfono: 449 805 0420 (otro: 449 377 2943). Su página oficial de Facebook publica "WhatsApp al 449-805-04-20" para reservaciones, información y eventos; Horario.mx lo repite. El fijo 449 377 2943 sale en Tripadvisor.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Los Abolengos? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Los Abolengos una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Los Abolengos con su propia carta (Huevos Pelea de Gallos, pastel azteca y pan de la casa):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-abolengos/
+
+Tienen huevos, omelettes, especialidades y pan de la casa en una carta de casi 80 platillos: el menú digital la ordena por categorías y la gente decide antes de que llegue el mesero.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego un botón para reservar y apartar eventos por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 118. Café del Ángel · Aguascalientes, Ags.
+
+Teléfono: 449 155 7873. Tripadvisor, Trip.com y Restaurant Guru dan el 449 155 7873; una reseña de Tripadvisor dice que se reserva por WhatsApp con ese número.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Café del Ángel? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Café del Ángel una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Café del Ángel con su propia carta (huevos del Ángel, crepas y baguettes):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-del-angel/
+
+Están en pleno Centro, donde llega mucha gente de fuera: el menú digital con fotos les deja ver la carta (desayunos, crepas, baguettes) desde la calle y entrar decididos.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón para reservar por WhatsApp, que ya es como trabajan. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 119. Cardona's W Grill · Aguascalientes, Ags.
+
+Teléfono: 449 658 5419. Waze, Restaurant Guru y Carta.menu dan el 449 658 5419 para Plaza Terracota. No publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Cardona's W Grill? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Cardona's W Grill una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Cardona's W Grill con su propia carta (arrachera, burritos de camarón y Philly cheese steak):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cardonas-grill/
+
+Su carta es enorme (más de 90 platillos entre cortes, wraps, burritos y desayunos): con categorías y buscador la mesa encuentra lo suyo en segundos.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de desayunos que solo se ve en la mañana. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 120. Alitas El Alebrije · Aguascalientes, Ags.
+
+Teléfono: 449 106 3668 (otro: 449 508 4582). Un directorio local da el 449 106 3668 para pedidos por teléfono, WhatsApp y Facebook; Waze y Restaurant Guru dan el 449 508 4582. Podría ser línea de la marca: confirmar que es Cumbres.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Alitas El Alebrije? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Alitas El Alebrije una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Alitas El Alebrije con su propia carta (paquetes de alitas, boneless y papas especiales):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/
+
+Venden alitas por paquete (15, 30, 50): el menú digital deja armar el paquete con papas y bebidas para el partido y mandarlo por WhatsApp ya sumado.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo los paquetes para grupos arriba con su total. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 121. Birriería Díaz de Calvillo · Aguascalientes, Ags.
+
+Teléfono: 449 146 1893. El 449 146 1893 lo publica su página oficial de Facebook (Birriería Díaz, Ahualulco 101) y Gastroranking lo marca con WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Birriería Díaz de Calvillo? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Birriería Díaz de Calvillo una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Birriería Díaz de Calvillo con su propia carta (birria de borrego, consomé y pay de guayaba):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/
+
+Además de la birria venden dulces de guayaba de Calvillo (jalea, mermelada, pay): el menú digital los muestra con foto y se venden solos como postre o para llevar.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego venta por kilo y una sección de dulces de Calvillo para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 122. Carnitas Romo · Aguascalientes, Ags.
+
+Teléfono: 449 950 8671. El 449 950 8671 lo publica su página oficial de Facebook (Carnitas ROMO); Uber Eats da el mismo.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Carnitas Romo? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Carnitas Romo una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Carnitas Romo con su propia carta (tacos de carnitas, chilakillers y combo Entre compas):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/
+
+Sus combos tienen nombre (Pa que no compartas, Entre compas, Pake comparta): el menú digital los explica con foto y la gente pide el grande para la familia.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego los combos arriba y venta por kilo para fiestas. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
 El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
 

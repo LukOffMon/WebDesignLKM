@@ -46,6 +46,16 @@
         </article>`).join('')}
       </div>
     </section>`).join('');
+  // Recomendados de la casa: los platillos estrella arriba, con foto grande (estándar de excelencia LKM'r).
+  const recs = (M.dest || []).filter(k => items.has(k));
+  if (recs.length >= 3) $('#list').insertAdjacentHTML('afterbegin', `
+    <section class="recs" aria-labelledby="hrec">
+      <h2 id="hrec">Recomendados de la casa</h2><p class="n">Lo que más se antoja aquí</p>
+      <div class="rrow">${recs.map(k => { const it = items.get(k); return `
+        <article class="rec"><button class="open" type="button" data-k="${k}"><span class="sr">Ver ${esc(it.name)}</span></button>
+          ${it.img ? `<img src="${esc(it.img)}" alt="" width="220" height="160" loading="eager" decoding="async">` : ''}
+          <h3>${esc(it.name)}</h3>${it.price ? `<span class="price">${money(it.price)}</span>` : ''}</article>`; }).join('')}</div>
+    </section>`);
   // Las fotos aparecen suaves al cargar (y nunca se quedan invisibles si fallan).
   document.querySelectorAll('.ph img').forEach(img => {
     const ok = () => img.classList.add('ok');
@@ -81,6 +91,7 @@
       sec.querySelectorAll('.item').forEach(it => { const ok = !t || it.dataset.s.includes(t); it.hidden = !ok; n += ok; });
       sec.hidden = !n; any += n;
     });
+    const rs = $('.recs'); if (rs) rs.hidden = !!t;
     $('#empty').style.display = any ? 'none' : 'block';
     qinfo.textContent = t ? `${any} ${any === 1 ? 'resultado' : 'resultados'} para "${q.value.trim()}"` : '';
     // Si estaban más abajo, sube a los resultados para que se vean.
