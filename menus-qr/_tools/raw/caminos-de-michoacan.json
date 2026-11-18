@@ -1,0 +1,655 @@
+{
+ "id": 1930355585,
+ "brandName": "Restaurante Caminos de Michoacan",
+ "name": "Restaurante Caminos de Michoacan - Felicitas del Río",
+ "address": "Gral. Francisco J. Múgica 35, Felícitas del Río, 58040 Morelia, Mich., México",
+ "schedule": "09:30:00 - 17:30:00",
+ "categories": "Pescados y Mariscos",
+ "location": [
+  -101.1960463,
+  19.6901243
+ ],
+ "city": "Morelia",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-1766146222242.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1766146223752.jpg",
+ "schedules": [
+  {
+   "open_time": "09:30:00",
+   "close_time": "17:30:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930355585-restaurante-caminos-de-michoacan",
+ "menu": [
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Requeson con Queso",
+     "desc": "Requesón servido acompañado de queso fresco",
+     "price": 90,
+     "img": "6d954120-8e51-4283-822d-176c001e5f5d.jpeg"
+    },
+    {
+     "name": "Tostadas de Guisado",
+     "desc": "Tostadas con guisado, lechuga, jitomate, cebolla, queso y crema.",
+     "price": 40,
+     "img": "2a6595c3-6976-4c84-8f72-65f7d77be009.jpeg"
+    },
+    {
+     "name": "Orden de Requeson Guisado",
+     "desc": "Requesón guisado acompañado de tortillas y guarniciones.",
+     "price": 90,
+     "img": "8efb9e8b-39c1-4170-8f74-5195ffe8e327.jpeg"
+    },
+    {
+     "name": "Patitas de Puerco",
+     "desc": "Orden de 3 patitas de puerco en vinagre",
+     "price": 150,
+     "img": "6e2f1e85-bd00-4b73-97a2-246f246f0121.png"
+    },
+    {
+     "name": "Tostada de patita de puerco",
+     "desc": "Tostada con patita de puerco picada, lechuga, jitomate, cebolla, queso y crema.",
+     "price": 60,
+     "img": "7ec77f6e-ae7e-41b8-a852-92cfc7c04f82.jpeg"
+    },
+    {
+     "name": "Mini taquitos",
+     "desc": "Rellenos de requesón, acompañados de frijoles con chorizo y queso.",
+     "price": 140,
+     "img": "548e008f-113e-4c42-af60-e43f75d45e07.png"
+    },
+    {
+     "name": "Tiritas de Cecina",
+     "desc": "Deliciosas tiritas de cecina acompañadas de frijoles refritos con queso",
+     "price": 180,
+     "img": "7ec9858d-6efb-41f5-82c8-dc5284cebe47.jpeg"
+    },
+    {
+     "name": "Toquere",
+     "desc": "Tortita de maiz elaborada a base de maiz molido, acompañada de crema y queso fresco",
+     "price": 35,
+     "img": "0243554b-39fe-4a79-8b00-dda3e907fa6c.png"
+    },
+    {
+     "name": "Uchepo",
+     "desc": "Tamal elaborado a base de elote acompañado de queso y crema",
+     "price": 35,
+     "img": "4183c08a-7b82-4b4d-8e26-577c9d1d3903.png"
+    },
+    {
+     "name": "Sopa de pasta",
+     "desc": "Sopa de pasta con fideos en caldo de jitomate, decorada con crema, queso y cilantro.",
+     "price": 50,
+     "img": "2461d059-c887-4b30-9002-9fc977933654.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Fruta de temporada",
+     "desc": "Fruta fresca de temporada servida con miel y crujiente granola.",
+     "price": 90,
+     "img": "61014394-5c6a-485e-a102-6ebf5898ed0b.jpeg"
+    },
+    {
+     "name": "Huevos al gusto",
+     "desc": "Huevos preparados al gusto, acompañados de frijoles refritos, totopos y salsa.",
+     "price": 110,
+     "img": "f65d8475-8d69-4d16-87ca-b727e8ba2110.jpeg"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles con salsa roja o verde, acompañados de frijoles refritos, queso crema y cebolla.",
+     "price": 85,
+     "img": "5877d261-ad90-45ac-a429-feaa873e3c51.jpeg"
+    },
+    {
+     "name": "Quesadilla con guisado",
+     "desc": "Quesadilla grande con queso y guisado a elección.",
+     "price": 60,
+     "img": "68dc75f7-a880-4f49-b56b-7325ce1cf0db.jpeg"
+    },
+    {
+     "name": "Quesadilla sencilla",
+     "desc": "Quesadilla sencilla con queso derretido, acompañada de jalapeños y crema.",
+     "price": 45,
+     "img": "ffe481ee-6224-4863-8890-93c904cdda87.jpeg"
+    },
+    {
+     "name": "Sope de guisado",
+     "desc": "Sope de guisado con lechuga, crema, queso, cebolla y jitomate.",
+     "price": 45,
+     "img": "9adbba75-ec29-4aea-ade8-4c80d32e05fb.jpeg"
+    },
+    {
+     "name": "Sope sencillo",
+     "desc": "Sope sencillo con frijoles, lechuga, crema y queso.",
+     "price": 15,
+     "img": "e9e15c3a-eed4-4b79-949f-1885ee605faf.jpeg"
+    },
+    {
+     "name": "Sabor de Michoacan",
+     "desc": "Platillo con aporreadillo, uchepo y frijoles negros.",
+     "price": 160,
+     "img": "3a0877a4-4483-4096-bd86-082008c4f46d.jpeg"
+    },
+    {
+     "name": "Despertar ranchero",
+     "desc": "Platillo con chilaquiles, huevo estrellado, carne de puerco en salsa de jitomate y acompañado frijoles",
+     "price": 160,
+     "img": "553ea801-ce1a-4c04-8872-0bd64a7b9157.png"
+    },
+    {
+     "name": "Enchiladas verdes",
+     "desc": "Enchiladas rellenas de pollo bañadas en salsa verde, cubiertas con queso, crema, aguacate y cebolla morada.",
+     "price": 100,
+     "img": "713f644e-a635-4277-9122-a176bb7bb6b0.png"
+    },
+    {
+     "name": "Molletes",
+     "desc": "Molletes con frijoles acompañado de tu proteina preferida gratinados con queso",
+     "price": 75,
+     "img": "d258102b-2a69-4d14-b9c4-80909f795f8d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Comidas",
+   "products": [
+    {
+     "name": "Aporreadillo",
+     "desc": "Aporreadillo acompañado de frijoles y arroz. Incluye carne deshebrada, huevo y vegetales.",
+     "price": 160,
+     "img": "5465e5e2-ab27-4297-8b54-e8ecbd6ab20f.jpeg"
+    },
+    {
+     "name": "Chile Relleno",
+     "desc": "Chile relleno servido en caldillo, acompañado de frijoles y arroz.",
+     "price": 130,
+     "img": "2664cea4-5024-41a8-a70a-c7c74cc5a487.jpeg"
+    },
+    {
+     "name": "Caldo de Res",
+     "desc": "Caldo de res con arroz, zanahoria, papa, calabacita y elote. Incluye cebolla, cilantro y limón aparte.",
+     "price": 160,
+     "img": "2980a8af-88e5-427e-af96-d593f8b605af.png"
+    },
+    {
+     "name": "Churipo con Corundas",
+     "desc": "Caldo de res rojo con verduras, acompañado con corundas.",
+     "price": 200,
+     "img": "60202d33-2c22-458f-987b-d81ce782fa97.jpeg"
+    },
+    {
+     "name": "Morisqueta con carne y tacos dorados",
+     "desc": "Morisqueta con carne de puerco, acompañada de tacos dorados con crema y queso.",
+     "price": 200,
+     "img": "bc599be8-45fd-406d-86ab-baf8e0ab4419.png"
+    },
+    {
+     "name": "Pechuga asada o empanizada",
+     "desc": "Pechuga de pollo asada o empanizada acompañada de arroz y frijoles.",
+     "price": 160,
+     "img": "0ed57ef0-68a0-4da3-b8ed-dadb1f40bd91.png"
+    },
+    {
+     "name": "Chorizo en Salsa",
+     "desc": "Chorizo en salsa acompañado con frijoles",
+     "price": 160,
+     "img": "8ee21251-666e-4b63-b5f9-47f49a1680e3.jpeg"
+    },
+    {
+     "name": "Caldo de Pollo",
+     "desc": "Caldo de pollo acompañado con arroz y verduras.",
+     "price": 160,
+     "img": "b2b30eb6-37b0-4956-a49e-aa47889eb453.jpeg"
+    },
+    {
+     "name": "Caldo de Espinazo",
+     "desc": "Caldo de espinazo acompañado con morisqueta y verduras, elaborado con chile guajillo.",
+     "price": 160,
+     "img": "9e3f4e64-261d-4913-be8b-af755d37a0ad.jpeg"
+    },
+    {
+     "name": "Mole Rojo",
+     "desc": "Mole Rojo con una pieza de pollo, acompañado de arroz. Decorado con ajonjolí.",
+     "price": 160,
+     "img": "9ac7c72f-d259-43b8-874e-9a138febfad0.png"
+    },
+    {
+     "name": "Morisqueta sencilla",
+     "desc": "Arroz blanco, frijoles, queso y crema y salsa de carne de puerco.",
+     "price": 100,
+     "img": "39a55757-6c9c-486d-a474-ed36c1d2cbdc.jpeg"
+    },
+    {
+     "name": "Morisqueta con carne de puerco",
+     "desc": "Marisqueta acompañada de carne de puerco en salsa de jitomate, queso y crema.",
+     "price": 160,
+     "img": "9ab8200f-f30f-4f50-bd8c-309dfdeaa69b.png"
+    },
+    {
+     "name": "Fajitas de Res o pollo",
+     "desc": "Fajitas de res o pollo guisadas con pimientos acompañadas de arroz y frijoles",
+     "price": 180,
+     "img": "55cbd090-f696-4ead-9298-bd708132df74.png"
+    },
+    {
+     "name": "Frito de Puerco",
+     "desc": "Carne de puerco frita en chile guajillo acompañada con frijoles y arroz",
+     "price": 160,
+     "img": "7a7d2769-87d3-4a3d-adb7-34215382dd35.jpeg"
+    },
+    {
+     "name": "Carne en salsa",
+     "desc": "Carne de puerco en salsa de jitomate, acompañada de frijoles negros y arroz con verduras.",
+     "price": 160,
+     "img": "0a412c31-eb0f-4943-9628-d000ce383ad7.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos",
+   "products": [
+    {
+     "name": "Enchiladas Rojas Sencillas",
+     "desc": "Enchiladas bañadas en salsa roja, acompañadas de crema, queso y rodajas de jitomate.",
+     "price": 100,
+     "img": "a7af29ca-a2cc-4da1-8fb5-89fccc9712bb.png"
+    },
+    {
+     "name": "Orden de corundas",
+     "desc": "Orden de 3 corundas preparadas con queso, crema y salsa.",
+     "price": 60,
+     "img": "ee5f6411-f536-446f-9a96-d9a1e3d0df50.jpeg"
+    },
+    {
+     "name": "Enchiladas de Pollo",
+     "desc": "Enchiladas de pollo bañadas en salsa roja, servidas con lechuga, crema, queso y rodajas de jitomate.",
+     "price": 150,
+     "img": "a7af29ca-a2cc-4da1-8fb5-89fccc9712bb.png"
+    },
+    {
+     "name": "Enchiladas de Cecina",
+     "desc": "Enchiladas rojas morelianas con cecina dorada, servidas con crema, queso y rodajas de jitomate.",
+     "price": 150,
+     "img": "a7af29ca-a2cc-4da1-8fb5-89fccc9712bb.png"
+    },
+    {
+     "name": "Corundas con carne de puerco",
+     "desc": "Orden de corundas de manteca acompañadas con carne de puerco en salsa de jitomate.",
+     "price": 160,
+     "img": "97b60fac-e7ec-4daf-89bf-869817bf7c9a.jpeg"
+    },
+    {
+     "name": "Enmoladas",
+     "desc": "Enmoladas rellenas de pollo, cubiertas con mole, queso, crema y rodajas de aguacate.",
+     "price": 120,
+     "img": "b9415ba0-2abc-4b71-b2db-205ea345060a.jpeg"
+    },
+    {
+     "name": "Tacos Dorados",
+     "desc": "Tacos dorados rellenos de guisado, servidos con lechuga, crema, queso y frijoles refritos.",
+     "price": 130,
+     "img": "dc57ad51-0418-4920-9b0f-e97228915914.jpeg"
+    },
+    {
+     "name": "Chavindeca",
+     "desc": "Chavindeca de bistec servida con salsa. Ideal para disfrutar como plato principal.",
+     "price": 100,
+     "img": "4f05a955-81d3-4d55-8d32-129f8112aa5b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Carnes",
+   "products": [
+    {
+     "name": "Cecina Tierra Caliente",
+     "desc": "Cecina acompañada de frijoles, arroz, y ensalada con jitomate, cebolla y pepino.",
+     "price": 160,
+     "img": "5cc7b226-1cda-41dd-bf53-dc80f5d3ba42.png"
+    },
+    {
+     "name": "Carne Asada",
+     "desc": "Carne asada servida con frijoles, arroz, ensalada de lechuga y tomate, y pico de gallo.",
+     "price": 200,
+     "img": "343463ef-c87f-4248-ba4e-bb48c161a914.jpeg"
+    },
+    {
+     "name": "Tampiqueña",
+     "desc": "Platillo que incluye carne asada, dos enchiladas, guacamole, arroz y frijoles.",
+     "price": 280,
+     "img": "ba0cf43a-2334-4aca-a7eb-c01f155b9741.png"
+    },
+    {
+     "name": "Arrachera 250 g",
+     "desc": "250 gr de arrachera acompañada con guacamole y cebollitas.",
+     "price": 280,
+     "img": "e07b77a5-60af-4fa8-9601-71e8bd117672.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Mariscos",
+   "products": [
+    {
+     "name": "Coctel de Camarón",
+     "desc": "Camarón en salsa tipo cóctel con aguacate, cebolla morada y cilantro.",
+     "price": 220,
+     "img": "904395d7-5df1-4afc-930c-66639707112c.jpeg"
+    },
+    {
+     "name": "Caldo de Camarón",
+     "desc": "Caldo de camarón con papas, zanahorias y cilantro. Ideal para disfrutar caliente.",
+     "price": 190,
+     "img": "619bfc8e-ca0f-44e0-9b88-fd62570dd427.jpeg"
+    },
+    {
+     "name": "Caldo de Pescado",
+     "desc": "Caldo de pescado con trozos de pescado, hierbas frescas y especias.",
+     "price": 190,
+     "img": "f1107743-a7e8-463e-a053-1bea87d39bd0.jpeg"
+    },
+    {
+     "name": "Tostada de Camarón",
+     "desc": "Tostada con camarones, cilantro y ajonjolí sobre una base crujiente.",
+     "price": 85,
+     "img": "3ecc4e6b-11ff-4a59-82b0-751756ef6aa5.jpeg"
+    },
+    {
+     "name": "Ceviche",
+     "desc": "Ceviche de mariscos en jugo cítrico con cebolla, pimientos y cilantro.",
+     "price": 190,
+     "img": "65e7950b-30a4-4dcc-b1c3-0684105992f4.jpeg"
+    },
+    {
+     "name": "Sopa de Mariscos",
+     "desc": "Sopa de mariscos con camarones, almejas y mejillones en caldo sabroso.",
+     "price": 190,
+     "img": "a336a83f-2e4b-4190-81b0-6d8459d63bc8.jpeg"
+    },
+    {
+     "name": "Empanadillas",
+     "desc": "3 empanadillas rellenas de queso oxaca y camarón",
+     "price": 190,
+     "img": "74b27235-5818-4df5-9706-58bb8f52175b.jpeg"
+    },
+    {
+     "name": "Coctel Campechano",
+     "desc": "Coctel mixto de mariscos con camarones, almejas y pulpo en salsa de tomate.",
+     "price": 250,
+     "img": "5db0045c-75b9-4a98-8d73-c52219c1b82b.jpeg"
+    },
+    {
+     "name": "Tiritas de Pescado Empanizadas",
+     "desc": "Tiritas de pescado empanizadas, acompañadas con arroz blanco y ensalada de col con zanahoria cremosa.",
+     "price": 190,
+     "img": "cffff0eb-91a5-45df-be58-442e2a4512c1.jpeg"
+    },
+    {
+     "name": "Tostada de Ceviche",
+     "desc": "Tostada crujiente con ceviche de pescado, acompañada de rodajas de rábano, cebolla y cilantro fresco.",
+     "price": 60,
+     "img": "162b0fab-b0c9-49c2-96b5-05e371f584ee.jpeg"
+    },
+    {
+     "name": "Tostada de Pulpo",
+     "desc": "Tostada crujiente con pulpo, cebolla, jitomate y cilantro.",
+     "price": 85,
+     "img": "768bfc06-075e-4b36-add5-4d84c042258c.jpeg"
+    },
+    {
+     "name": "Aguachile",
+     "desc": "Aguachile con camarones, cebolla y cilantro en salsa de chile y limón.",
+     "price": 230,
+     "img": "e310343e-8b7d-45b0-814a-87a5b0dbc0f9.jpeg"
+    },
+    {
+     "name": "Mojarra Frita",
+     "desc": "Mojarra frita acompañada de arroz, ensalada de lechuga, jitomate, cebolla y pepino, con aderezo.",
+     "price": 190,
+     "img": "ca3756f3-f441-4738-bca6-243941903465.png"
+    },
+    {
+     "name": "Coctel de Pulpo",
+     "desc": "Pulpo fresco en salsa de tomate con hierbas, servido en vaso. Ideal como entrada.",
+     "price": 250,
+     "img": "d516c952-dfdd-4285-ba05-a44e18682c75.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Camarones",
+   "products": [
+    {
+     "name": "Camarones Zarandeados",
+     "desc": "Camarones preparados estilo zarandeados acompañado de arroz blanco y ensalada",
+     "price": 230,
+     "img": "23ae878f-3377-4b22-bca8-0450a40e577d.png"
+    },
+    {
+     "name": "Camarones al coco",
+     "desc": "Deliciosos camarones guisados con coco rallado, acompañados de arroz blanco y ensalada.",
+     "price": 230,
+     "img": "efa05072-234f-44ff-b261-8370eb925a8b.png"
+    },
+    {
+     "name": "Camarones a la mantequilla",
+     "desc": "Camarones guisados con mantequilla acompañados de arroz blanco y ensalada.",
+     "price": 230,
+     "img": "a6cb2adf-f0ce-4af7-af38-68b76579a65a.jpeg"
+    },
+    {
+     "name": "Spaguetti con camarones",
+     "desc": "Spaguetti con camarones guisados, acompañado de jitomates cherry y pimientos.",
+     "price": 230,
+     "img": "4b268513-855f-43d2-8143-5682351fe8f4.jpeg"
+    },
+    {
+     "name": "Camarones emanizados",
+     "desc": "Camarones empanizados acompañado de arroz blanco y ensalada",
+     "price": 230,
+     "img": "6a9a63b9-ced9-47b5-a878-6df75e8aef8c.png"
+    },
+    {
+     "name": "Camarones a la diabla",
+     "desc": "Camarones guisados con chile estilo a la diabla, acompañado de arroz blanco y ensalada",
+     "price": 230,
+     "img": "0486c52d-1a74-46e7-b6cd-ea46d3afb831.png"
+    },
+    {
+     "name": "Camarones al mojo",
+     "desc": "Camarones al mojo servidos con arroz blanco y ensalada de lechuga, tomate y pepino.",
+     "price": 230,
+     "img": "93ec4933-1436-48a4-8a02-2121dc2f0d64.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Filetes",
+   "products": [
+    {
+     "name": "Filete al Mojo",
+     "desc": "Filete al mojo con arroz blanco y ensalada de lechuga y jitomate cherry.",
+     "price": 190,
+     "img": "98328496-83b8-4318-9787-0f84197ef24d.jpeg"
+    },
+    {
+     "name": "Filete empanizado",
+     "desc": "Filete de pescado empanizado acompañado de arroz blanco y ensalada.",
+     "price": 190,
+     "img": "a8f31aeb-7914-4053-a5bb-b8cf325b10ae.jpeg"
+    },
+    {
+     "name": "Filete al Ajillo",
+     "desc": "Filete de pescado al ajillo acompañado de arroz blanco y ensalada.",
+     "price": 190,
+     "img": "80cf8015-eb1e-4acf-8c70-d388e34bf655.jpeg"
+    },
+    {
+     "name": "Filete Empapelado",
+     "desc": "Filete de pescado empapelado con verdura y queso, acompañado de arroz blanco, ensalada y aderezo.",
+     "price": 190,
+     "img": "e57e1671-9593-42f8-bdb3-386112113e29.png"
+    },
+    {
+     "name": "Filete a la Plancha",
+     "desc": "Filete de pescado a la plancha acompañado de arroz blanco y ensalada.",
+     "price": 190,
+     "img": "6aa51dc0-96fa-44e3-a59b-416ce81dbbd9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Licuado de fruta",
+     "desc": "Licuado de fruta de temporada",
+     "price": 50,
+     "img": "495e3bb0-c583-4484-9fb6-1518c0d37f6e.jpeg"
+    },
+    {
+     "name": "Jugo Naranja",
+     "desc": "Jugo de naranja natural exprimida al momento",
+     "price": 40,
+     "img": "665de6fe-3d19-41f1-9b80-761e1e180375.jpeg"
+    },
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Refrescos",
+     "price": 35,
+     "img": "bd7f12e9-ca6f-456d-8c9c-05d8970e9906.jpeg"
+    },
+    {
+     "name": "Naranjada",
+     "desc": "Naranjada preparada con agua mineral",
+     "price": 60,
+     "img": "c47ba070-4178-427a-b309-08e556b3a282.jpeg"
+    },
+    {
+     "name": "Agua de Jamaica",
+     "desc": "Agua fresca del sabor del dia",
+     "price": 45,
+     "img": "ab736cf3-06a2-4f87-80b1-80565ebb1658.jpeg"
+    },
+    {
+     "name": "Jugo de Zanahoria",
+     "desc": "Bebida preparada a base de jugo de zanahoria o combinado con naranja.",
+     "price": 40,
+     "img": "426c539a-3bc4-430a-8687-2cfae5abc859.jpeg"
+    },
+    {
+     "name": "Chocomilk",
+     "desc": "Batido de Chocomilk con platano congelado",
+     "price": 50,
+     "img": "8d6cac9e-06dd-47c0-8800-b143db740502.jpeg"
+    },
+    {
+     "name": "Piñada",
+     "desc": "Bebida sabor piña colada sin alcohol",
+     "price": 80,
+     "img": "1aa12a9f-0170-45ac-9ad7-afa9e5065ab0.jpeg"
+    },
+    {
+     "name": "Limonada",
+     "desc": "Limonada preparada con agua mineral",
+     "price": 60,
+     "img": "6c85e885-eeff-4339-9f1b-6835788a71b1.jpeg"
+    },
+    {
+     "name": "Rusa 400 ml",
+     "desc": "Bebida preparada con agua mineral sal de grano y limón",
+     "price": 60,
+     "img": "de9e3156-cfc0-4f43-896b-ef3c9636d758.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas calientes",
+   "products": [
+    {
+     "name": "Capuccino",
+     "desc": "Bebida caliente de café expreso con leche vaporizada",
+     "price": 65,
+     "img": "56cf2691-5bec-40d7-91eb-8edc9f5cbf43.jpeg"
+    },
+    {
+     "name": "Cafe De Olla",
+     "desc": "Café de olla de la casa.",
+     "price": 45,
+     "img": "0d218710-18cf-434e-8071-695fc74971fe.jpeg"
+    },
+    {
+     "name": "Café Americano",
+     "desc": "Café americano",
+     "price": 55,
+     "img": "4fd52ae0-c711-4fd5-95bd-f8b47c5f0376.jpeg"
+    },
+    {
+     "name": "Té",
+     "desc": "Bebida caliente preparada con infusión de té de tu preferencia",
+     "price": 35,
+     "img": "86ee042b-a1c1-45c5-bb7b-7f9491845d2e.jpeg"
+    },
+    {
+     "name": "Chocolate caliente",
+     "desc": "Bebida de chocolate servida caliente.",
+     "price": 55,
+     "img": "c7b5ecd7-9f65-4f5c-b01b-1ba12e0955c0.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Licuados",
+   "products": [
+    {
+     "name": "Licuado de Plátano 16 oz",
+     "desc": "Licuado sencillo hecho de plátano natural.",
+     "price": 65,
+     "img": "12498077-4df5-4be9-93b5-4ec8879cf222.jpeg"
+    },
+    {
+     "name": "Licuado de Papaya 16 oz",
+     "desc": "Licuado sencillo hecho de papaya natural.",
+     "price": 65,
+     "img": "beec36be-d3be-4cdc-8c0d-f4de26618391.jpeg"
+    },
+    {
+     "name": "Licuado de Fresa 16 oz",
+     "desc": "Licuado sencillo hecho de fresas naturales.",
+     "price": 65,
+     "img": "caa2ad5f-e56c-4542-a83a-a322edd1f5fc.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Pay de queso con mermelada",
+     "desc": "Rebanada de pay de queso con mermelada de frutas sobre base crujiente.",
+     "price": 60,
+     "img": "e0dc32e7-60ae-47d9-a2af-0c95e4eda09c.jpeg"
+    },
+    {
+     "name": "Concha Gigante",
+     "desc": "Concha gigante de 35-40 cm de diámetro, perfecta para compartir. Disfruta de su tradicional cobertura crujiente.",
+     "price": 150,
+     "img": "23bb610d-e020-4a37-9022-356f5d9ca8c5.jpeg"
+    },
+    {
+     "name": "Chongos zamoranos",
+     "desc": "Chongos zamoranos",
+     "price": 60,
+     "img": "f156ab47-64c8-4a17-aa5e-688bf815e832.jpeg"
+    }
+   ]
+  }
+ ]
+}

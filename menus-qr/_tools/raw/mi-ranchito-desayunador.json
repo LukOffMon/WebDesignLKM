@@ -1,0 +1,499 @@
+{
+ "id": 1923256648,
+ "brandName": "Mi Ranchito Desayunador",
+ "name": "Mi Ranchito Desayunador - Nueva Vizcaya",
+ "address": "jose del campo 31 nueva vizcaya 34208 durango dgo mexico",
+ "schedule": "07:30:00 - 15:45:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -104.6467783,
+  24.0302436
+ ],
+ "city": "Victoria de Durango (Durango)",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/mi-ranchito-logo1-1606226728125.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1680631726200.jpg",
+ "schedules": [
+  {
+   "open_time": "07:30:00",
+   "close_time": "15:45:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923256648-mi-ranchito-desayunador",
+ "menu": [
+  {
+   "name": "Combos by Coca Cola",
+   "products": [
+    {
+     "name": "Combo chilaquiles + coca-cola 600 ml",
+     "desc": "Chilaquiles bañados en salsa y tamaño a elección. + refresco",
+     "price": 128,
+     "img": "62ec2c4d-30ba-4d04-a34a-b4d7f9da986f.png"
+    },
+    {
+     "name": "Combo desayuno el jefe + jugo 413 ml",
+     "desc": "Chilaquiles con salsa a elegir, 2 huevos al gusto y quesadilla de harina. + jugos",
+     "price": 175,
+     "img": "9b542866-b26d-461f-ac0a-48fa3cfb00aa.png"
+    },
+    {
+     "name": "Combo desayuno el jefe + coca-cola 600ml",
+     "desc": "Chilaquiles con salsa a elegir, 2 huevos al gusto y quesadilla de harina. + refresco",
+     "price": 180,
+     "img": "a16e18b2-b20e-4cc8-b809-1db4aa0528db.png"
+    },
+    {
+     "name": "Combo mollete especial + coca-cola 600ml",
+     "desc": "Telera con frijoles refritos, queso gratinado, con guiso a elegir. + refresco",
+     "price": 112,
+     "img": "868e796a-17cc-40f5-b05e-11735c527a2e.png"
+    },
+    {
+     "name": "Combo gorditas doradas + coca-cola 600ml",
+     "desc": "4 Gorditas pequeñas surtidas acompañadas de ensalada de lechuga y tomate . + refresco",
+     "price": 102,
+     "img": "ee811c0c-0bd2-4ecb-bede-5be80aae273e.png"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Huevos chipotludos",
+     "desc": "Huevos estrellados bañados en salsa de chipotle.",
+     "price": 90,
+     "img": "eb78fe1a-933d-4c97-9d26-91feb5b8d381.jpeg"
+    },
+    {
+     "name": "Huevos al gusto",
+     "desc": "Huevos preparados a tu elección, acompañados de frijoles refritos y pan tostado. Incluye salsas para complementar.",
+     "price": 86,
+     "img": "6a500f01-9ee7-4440-b3fc-fc882d499b05.jpeg"
+    },
+    {
+     "name": "Desayuno cremoso el jefe",
+     "desc": "Chilaquiles cremosos con salsa a elegir, 2 huevos al gusto y quesadilla de harina.",
+     "price": 155,
+     "img": "5ddd075b-7b22-4f9e-9e22-8f54c197d0d9.jpeg"
+    },
+    {
+     "name": "Desayuno el jefe",
+     "desc": "Chilaquiles con salsa a elegir, 2 huevos al gusto y quesadilla de harina.",
+     "price": 155,
+     "img": "126e2983-f1d8-45fc-8c44-4cc94accd36c.jpeg"
+    },
+    {
+     "name": "Huevos rancheros",
+     "desc": "Huevos rancheros montados sobre tortillas bañados con salsa ranchera.",
+     "price": 98,
+     "img": "7c966974-649d-4e8e-a200-0d1abc098710.jpeg"
+    },
+    {
+     "name": "Huevos Divorciados",
+     "desc": "Huevos estrellados bañados en salsa roja y verde.",
+     "price": 88,
+     "img": "9ac980ea-3e6d-453b-ba3e-ad3b0de56d2c.jpeg"
+    },
+    {
+     "name": "Huevos menonitas",
+     "desc": "Huevos con preparación a elegir, montados sobre una rebanada de salchichón y queso menonita.",
+     "price": 120,
+     "img": "dc00c73a-bc7f-4a14-a644-e19ef1bee7d7.jpeg"
+    },
+    {
+     "name": "Huevos Endiablados",
+     "desc": "Huevos Endiablados con salsa roja, acompañados de frijoles refritos y totopos.",
+     "price": 88,
+     "img": "0e74ec8a-fbac-4e68-b9ff-e2630040446a.jpeg"
+    },
+    {
+     "name": "Huevos mi ranchito",
+     "desc": "Huevos estrellados montados en una quesadilla de maíz, bañados en salsa de habanero cremosos.",
+     "price": 115,
+     "img": "6b2d7570-9427-497c-bab9-5aebc3f4122c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Omelettes",
+   "products": [
+    {
+     "name": "Omelette bañado cremoso",
+     "desc": "Omelette acompañado de queso, bañado con salsa e ingrediente a elegir.",
+     "price": 118,
+     "img": "f112e091-20ca-49ad-9219-3549adc92312.jpeg"
+    },
+    {
+     "name": "Omelette",
+     "desc": "Omelette acompañado de queso con ingrediente a elegir.",
+     "price": 108,
+     "img": "39da77de-7880-496c-ae6a-5fb541e066fb.jpeg"
+    },
+    {
+     "name": "Omelette bañado",
+     "desc": "Omelette acompañado de queso, bañado en salsa e ingrediente a elegir.",
+     "price": 118,
+     "img": "16712c4d-3948-4da2-938d-b8dadec6e6cf.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles Cremosos con Huevo",
+     "desc": "Chilaquiles cremosos con huevo estrellado, acompañados de frijoles refritos y queso rallado.",
+     "price": 128,
+     "img": "20551d7c-10d1-44d1-93a5-619bcf902de9.jpeg"
+    },
+    {
+     "name": "Chilaquiles con huevos al gusto",
+     "desc": "Chilaquiles con dos huevos al gusto, acompañados de crema y queso rallado.",
+     "price": 120,
+     "img": "9a00238b-fbd7-4627-a1c8-083c6020cecc.jpeg"
+    },
+    {
+     "name": "Chilaquiles cremosos",
+     "desc": "Chilaquiles cremosos con salsa y tamaño a elegir.",
+     "price": 78,
+     "img": "e5e2b58c-1739-47d1-bf9f-3f6ed35687d6.jpeg"
+    },
+    {
+     "name": "Chilaquiles con huevo",
+     "desc": "Chilaquiles acompañado de 1 huevo estrellado.",
+     "price": 120,
+     "img": "718a1d71-fbe6-4d74-b007-4fe1f3beed56.jpeg"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles bañados en salsa y tamaño a elección.",
+     "price": 78,
+     "img": "775a8cbc-84cb-4b88-a87a-48c9e1d1b2d3.jpeg"
+    },
+    {
+     "name": "Chilaquiles cremosos huevos al gusto",
+     "desc": "Chilaquiles cremosos acompañados de dos huevos al gusto. Incluye frijoles refritos y pan.",
+     "price": 120,
+     "img": "fa5177dc-8894-4c6d-9f88-1d976277049a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Enchiladas",
+   "products": [
+    {
+     "name": "Enchiladas Rojas",
+     "desc": "4 Enchiladas con salsa roja dulce, queso, acompañadas de frijoles refritos.",
+     "price": 86,
+     "img": "15b93733-f375-4ead-a49c-e3df22365be8.jpeg"
+    },
+    {
+     "name": "Enchiladas Poblanas",
+     "desc": "4 Enchiladas de chile poblano con crema, queso, acompañado de frijoles refritos.",
+     "price": 86,
+     "img": "6b745536-f1f6-47bc-bcf9-11f8adc90417.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos",
+   "products": [
+    {
+     "name": "Molletes chorizo",
+     "desc": "Telera con chorizo, frijoles refritos, queso gratinado.",
+     "price": 70,
+     "img": "c809903f-b3c8-481f-addf-1be3a65022de.jpeg"
+    },
+    {
+     "name": "Molletes salchicha",
+     "desc": "Telera con salchicha, frijoles refritos, queso gratinado.",
+     "price": 70,
+     "img": "bfecd2f3-021e-4133-8e78-b305c30b5665.jpeg"
+    },
+    {
+     "name": "Mollete especial",
+     "desc": "Telera con frijoles refritos, queso gratinado, con guiso a elegir.",
+     "price": 85,
+     "img": "c6be7628-5e12-4577-88b1-442bec11e66d.jpeg"
+    },
+    {
+     "name": "Rancherito",
+     "desc": "Telera con frijoles refritos, queso gratinado, guiso a elegir con chilaquiles habanero cremosos montados .",
+     "price": 165,
+     "img": "aa88f5ac-157e-4a58-a240-b5c31707036c.jpeg"
+    },
+    {
+     "name": "Gorditas maíz",
+     "desc": "Gorditas de maíz con guiso a elegir.",
+     "price": 28,
+     "img": "6df8d201-c9c8-4834-b920-68d25868e75d.jpeg"
+    },
+    {
+     "name": "Quesadilla Maíz",
+     "desc": "Tortilla de maíz con queso oaxaca.",
+     "price": 19,
+     "img": "d9b49f4f-f726-44f1-8f44-ec555e208200.jpeg"
+    },
+    {
+     "name": "Quesadilla Maíz con Guiso",
+     "desc": "Tortilla de maíz con queso menonita y guiso a elegir.",
+     "price": 29,
+     "img": "0a76a294-0aca-4078-b14a-c7883c08b439.jpeg"
+    },
+    {
+     "name": "Quesadilla harina con guiso",
+     "desc": "Tortilla de harina con queso menonita y guiso a elegir.",
+     "price": 72,
+     "img": "0a76a294-0aca-4078-b14a-c7883c08b439.jpeg"
+    },
+    {
+     "name": "Sope",
+     "desc": "Sope con guiso a elegir.",
+     "price": 45,
+     "img": "f49a67bf-131e-4d55-8d57-0bb778edc20e.jpeg"
+    },
+    {
+     "name": "Plato con Guisos",
+     "desc": "2 Guisos a elegir, acompañados con frijoles refritos.",
+     "price": 98,
+     "img": "c98c0b54-b6a0-4667-908b-2d538d81b3c3.jpeg"
+    },
+    {
+     "name": "Flautas de Deshebrada",
+     "desc": "Tortillas de maíz rellenas de carne deshebrada, doradas y acompañadas de lechuga, jitomate y crema.",
+     "price": 85,
+     "img": "d9ef8376-2960-41d7-83c8-22aa494793ad.jpeg"
+    },
+    {
+     "name": "Burrito",
+     "desc": "Tortilla de harina con mayonesa y guiso a escoger.",
+     "price": 45,
+     "img": "b255b6b5-06eb-444e-917c-1b71983abe9b.jpeg"
+    },
+    {
+     "name": "Burrote big ranch",
+     "desc": "Tortilla de harina grande con frijoles refritos, arroz, guiso de elección, pico de gallo, lechuga, crema y aderezo de la casa.",
+     "price": 160,
+     "img": "d142ee64-f6b6-45e5-abcb-ba1ec8dfd8e8.jpeg"
+    },
+    {
+     "name": "Tacos",
+     "desc": "4 Tacos con tortilla de maíz recién hecha acompañado de salsa picante con guiso a elegir.",
+     "price": 85,
+     "img": "72061a0a-333a-49e5-8e09-0f045b13ef37.png"
+    },
+    {
+     "name": "Quesadilla Harina",
+     "desc": "Tortilla de harina con queso menonita.",
+     "price": 44,
+     "img": "d9b49f4f-f726-44f1-8f44-ec555e208200.jpeg"
+    },
+    {
+     "name": "Mollete sencillo",
+     "desc": "Telera con frijoles refritos, queso gratinado.",
+     "price": 55,
+     "img": "d1e6e376-7d5d-4672-9c13-aef25636d32a.jpeg"
+    },
+    {
+     "name": "Gorditas doradas",
+     "desc": "4 Gorditas pequeñas surtidas acompañadas de ensalada de lechuga y tomate .",
+     "price": 75,
+     "img": "47a25b8a-d72c-4647-bf25-3a92b4e9b2dd.png"
+    },
+    {
+     "name": "Tamal de verde",
+     "desc": "Masa de maíz rellena de carne de puerco guisada con rajas de chile poblano y queso, envuelta en hojas de mazorca de maíz y cocida al vapor. .",
+     "price": 24,
+     "img": "4b6bcf67-4739-4f75-bda8-1fac754e8b48.png"
+    }
+   ]
+  },
+  {
+   "name": "Para los Peques",
+   "products": [
+    {
+     "name": "Pay de Queso",
+     "desc": "Pay de queso.",
+     "price": 35,
+     "img": "2e0369ee-6ea3-43a9-bfbf-4e077a17567f.jpg"
+    },
+    {
+     "name": "Waffle",
+     "desc": "Waffle jumbo 15 cm acompañado de nieve y fruta de temporada.",
+     "price": 85,
+     "img": "379bcb03-fc83-4ce1-934e-b46467fb7b97.jpeg"
+    },
+    {
+     "name": "Hot Cakes",
+     "desc": "2 hot cakes jumbo acompañados de fruta de temporada.",
+     "price": 95,
+     "img": "c8ca3523-041d-4806-a326-05c49c9059c6.jpeg"
+    },
+    {
+     "name": "Nuggets con Papas",
+     "desc": "Nuggets de pollo acompañados de papas fritas, 350 gr.",
+     "price": 85,
+     "img": "b3f958bc-ff19-487e-a8e9-4cdd42366ae1.png"
+    },
+    {
+     "name": "Huevo con Salchicha (peques)",
+     "desc": "1 piezas de huevo revuelto con salchicha acompañado de frijoles refritos.",
+     "price": 44,
+     "img": "926365d4-d70c-4a97-8f94-2ab8eae0248b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Calientes",
+   "products": [
+    {
+     "name": "Litro de café de olla",
+     "desc": "Litro de café de olla tradicional, preparado con canela y piloncillo.",
+     "price": 85,
+     "img": "62a070cf-ce4d-48ee-9900-6587aa958205.png"
+    },
+    {
+     "name": "Café de olla",
+     "desc": "Café de olla tradicional con especias.",
+     "price": 28,
+     "img": "2e226975-e76a-40f5-b6ea-004f6a315dec.png"
+    }
+   ]
+  },
+  {
+   "name": "tortas",
+   "products": [
+    {
+     "name": "Torta de pierna con papas",
+     "desc": "Pierna de puerco, jamon, queso amarillo, tomate, cebolla, aguacate, lechuga, chile, mayonesa. Acompañado de papas a la francesa",
+     "price": 125,
+     "img": "967d8cd5-37f8-422b-8a95-f8563478e08a.png"
+    },
+    {
+     "name": "Torta de Pierna",
+     "desc": "Pierna de puerco, jamon, queso amarillo, tomate, cebolla, aguacate, lechuga, chile, mayonesa.",
+     "price": 95,
+     "img": "d3e87658-0046-4a83-af9c-c0056e647b88.png"
+    },
+    {
+     "name": "Torta menonita con papas francesa",
+     "desc": "Torta menonita acompañado de salchichón, queso menonita , tomate, lechuga, aderezo de la casa y papas.",
+     "price": 135,
+     "img": "215d27a3-f00e-4a5e-ac90-cd1c978d59ee.jpeg"
+    },
+    {
+     "name": "Torta de huevo",
+     "desc": "Torta de huevo con aguacate.",
+     "price": 75,
+     "img": "bf8d2b60-dac7-49b7-98d3-0b48b8def74d.png"
+    },
+    {
+     "name": "Torta menonita",
+     "desc": "Torta con salchichón, queso menonita, lechuga, tomate y aderezo de la casa.",
+     "price": 108,
+     "img": "f7857e32-4723-4d8a-a608-da4befddd4fa.jpeg"
+    },
+    {
+     "name": "Torta de Jamón",
+     "desc": "La torta es de Jamón, queso amarillo,tomate, lechuga, chile, mayonesa.",
+     "price": 63,
+     "img": "ec0fb70d-6113-4a4d-8613-79f8fb214b1b.png"
+    }
+   ]
+  },
+  {
+   "name": "Hamburguesas",
+   "products": [
+    {
+     "name": "Hamburguesa con papas",
+     "desc": "Carne de res, jamon, queso amarillo, lechuga, chile, tomate, catsup, mayonesa. Acompañada con papas a la francesa.",
+     "price": 125,
+     "img": "0c4d39f7-3541-4bd9-b579-21d848c7691a.png"
+    },
+    {
+     "name": "Hamburguesa",
+     "desc": "Carne de res, jamon, queso amarillo, lechuga, chile, tomate, catsup, mayonesa.",
+     "price": 90,
+     "img": "3fe6ee48-f19d-4a42-92e5-e2fcdc10284c.png"
+    }
+   ]
+  },
+  {
+   "name": "Pollos",
+   "products": [
+    {
+     "name": "Fajitas de pollo",
+     "desc": "Pechuga de pollo picada en fajitas guisada con cebolla y pimiento morron, con guarnicion de arroz y ensalada de lechuga y tomate.",
+     "price": 180,
+     "img": "b45cc356-3c63-4758-ad2e-be19cad89b62.png"
+    },
+    {
+     "name": "Milanesa de Pollo",
+     "desc": "180 gr Milanesa de Pollo empanizada, con guarniciones de papas a la francesa, ensalada de lechuaga con tomate y arroz",
+     "price": 190,
+     "img": "e0724b8a-f01d-4a7d-ba3b-5950012b6a75.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Jugo de naranja",
+     "desc": "Jugo de naranja de 500 ml",
+     "price": 72,
+     "img": "631db3da-8f72-4581-880f-7630d33b8139.png"
+    },
+    {
+     "name": "Agua fresca del día",
+     "desc": "Agua fresca del día 500 ml",
+     "price": 30,
+     "img": "b391886b-26ad-453a-8c0b-bd2ee5fe2b48.png"
+    },
+    {
+     "name": "Coca-cola light 600 ml",
+     "desc": "Refrescos",
+     "price": 32,
+     "img": "b8cbbcdf-3efb-4d35-99a3-5b71bf48b573.jpeg"
+    },
+    {
+     "name": "Coca-cola original 600 ml",
+     "desc": "Refrescos",
+     "price": 32,
+     "img": "b8cbbcdf-3efb-4d35-99a3-5b71bf48b573.jpeg"
+    },
+    {
+     "name": "Del Valle Manzana 413 ml",
+     "desc": "Jugos",
+     "price": 27,
+     "img": "17dee77d-a014-4006-886b-2fbc33dcf701.png"
+    },
+    {
+     "name": "Ciel Natural 600 ml",
+     "desc": "Aguas",
+     "price": 20,
+     "img": "06c413da-38cf-4a00-8e6a-4458de51a9e4.jpeg"
+    },
+    {
+     "name": "Ciel Natural 1L",
+     "desc": "Aguas",
+     "price": 24,
+     "img": "cc41e422-366f-46f4-8b4c-2d266b82b1ea.jpeg"
+    },
+    {
+     "name": "Licuados",
+     "desc": "Licuado con sabor a elegir.",
+     "price": 49,
+     "img": "0705beb1-3c8c-4dd4-b5a9-26f4fed116e4.png"
+    },
+    {
+     "name": "Coca-cola sin azúcar 600 ml",
+     "desc": "Refrescos",
+     "price": 32,
+     "img": "880c2915-9640-4ad5-a232-cada43edfce0.jpeg"
+    }
+   ]
+  }
+ ]
+}

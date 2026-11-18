@@ -1,7 +1,7 @@
 // Verificación de datos (protocolo, paso 7). Uso: node menus-qr/_tools/verifica.js
 // 1) Cada QR y tarjeta de mesa abre el menú de SU restaurante.
 // 2) Cada enlace de WhatsApp del panel lleva el número, el nombre y el menú de SU restaurante, y ningún otro.
-//    El contacto inicial no lleva enlace ni precio; la venta lleva un solo enlace (el suyo) y el precio de la oferta.
+//    El contacto inicial no lleva enlace ni precio; la venta lleva solo enlaces suyos (su menú y su QR) y el precio de la oferta.
 // Requiere: npm install (en esta carpeta) para jsqr y pngjs.
 const fs = require('fs'), path = require('path');
 const jsQR = require('jsqr'), { PNG } = require('pngjs');
@@ -13,7 +13,7 @@ let errores = 0; const mal = m => { errores++; console.log('✗', m); };
 
 // 1) Códigos QR
 let n = 0;
-for (const r of R) for (const f of ['qr.png', 'tarjeta-mesa.png']) {
+for (const r of R) for (const f of ['qr.png', 'tarjeta-mesa.png', 'qr/qr-estilo.png']) {
   const p = path.join(MQ, r.slug, f);
   if (!fs.existsSync(p)) { mal(`${r.slug}: falta ${f}`); continue; }
   const png = PNG.sync.read(fs.readFileSync(p)); n++;
@@ -37,7 +37,9 @@ for (const [, slug, body] of panel.matchAll(/<article class="card" data-slug="([
     if (otros.length) mal(`${slug}: menciona otro restaurante (${otros.join(', ')})`);
     if (!txt.includes('http')) { if (txt.includes('$')) mal(`${slug}: el contacto inicial trae precio`); }
     else {
-      if ((txt.match(/https?:\/\//g) || []).length !== 1 || !txt.includes(base + slug + '/')) mal(`${slug}: la venta no lleva solo su enlace`);
+      const links = txt.match(/https?:\/\/\S+/g) || [];
+      if (!links.includes(base + slug + '/') || links.some(l => !l.startsWith(base + slug + '/'))) mal(`${slug}: la venta lleva enlaces que no son de su menú`);
+      if (!links.includes(base + slug + '/qr/')) mal(`${slug}: la venta no lleva su QR`);
       if (!txt.includes(fmt(cfg.oferta.instalacion)) || !txt.includes(fmt(cfg.oferta.mensualidad))) mal(`${slug}: la venta no trae el precio de la oferta`);
     }
   }

@@ -1,0 +1,595 @@
+{
+ "id": 1930057399,
+ "brandName": "Mariscos el Plebe",
+ "name": "Mariscos el Plebe - Colima Centro",
+ "address": "Independencia 104, Centro, 28000 Colima, Col., México",
+ "schedule": "10:05:00 - 18:00:00",
+ "categories": "Pescados y Mariscos",
+ "location": [
+  -103.7305491,
+  19.2434628
+ ],
+ "city": "Colima",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/09876543ertyuiouytr3456789-1674950756262.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/98765434tyuiuyt5467-1674950757780.jpg",
+ "schedules": [
+  {
+   "open_time": "10:05:00",
+   "close_time": "18:00:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930057399-mariscos-el-plebe",
+ "menu": [
+  {
+   "name": "Combos Rappi",
+   "products": [
+    {
+     "name": "2 Chabelas de Camarón",
+     "desc": "Disfruta el doble con 2 chabelas bien servidas de camarón, frescas y preparadas al momento. ¡Pura sabrosura del mar!",
+     "price": 375,
+     "img": "52324e60-eaf3-4330-a0b3-1a1bc5708074.jpeg"
+    },
+    {
+     "name": "Tostada de Ceviche de Camarón",
+     "desc": "Tostada de maíz cubierta de 100 gr de ceviche de camarón.",
+     "price": 55,
+     "img": "558cab9a-ebf2-4f7d-8056-bf8506aeeeaa.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Especial",
+   "products": [
+    {
+     "name": "Medallon De Camaron",
+     "desc": "Medallón de camarón en salsa ligera, perfecto como plato principal.",
+     "price": 282,
+     "img": "b9fc3a06-7707-48b1-bff4-9314c5aa2e2d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pleburger (Hamburguesa Con Papas)",
+   "products": [
+    {
+     "name": "De Filete 45gr",
+     "desc": "Corte de carne de filete, con un peso de 45 gramos, ofrecido como plato principal.",
+     "price": 102,
+     "img": "7e1caf8b-92c9-46b1-8c8f-7192c299e727.jpeg"
+    },
+    {
+     "name": "De Carne 150gr",
+     "desc": "Porción de carne de res de 150 gramos, ideal para la preparación de hamburguesas o como plato principal.",
+     "price": 108,
+     "img": "430e7f24-161c-48c9-ad9f-c094f6431af8.jpeg"
+    },
+    {
+     "name": "Mar Y Tierra",
+     "desc": "Hamburguesa Mar y Tierra con camarones y carne, acompañada de papas fritas.",
+     "price": 228,
+     "img": "681b3714-bbff-4102-ac11-3c61976d4f37.jpeg"
+    },
+    {
+     "name": "Orden De Papas",
+     "desc": "Porción de papas fritas, perfecta para servir como acompañamiento.",
+     "price": 54,
+     "img": "e15e4485-7edd-40dc-8eac-80fcce54be77.jpeg"
+    },
+    {
+     "name": "De Camaron 55gr",
+     "desc": "Entrada o componente de hamburguesa a base de camarón, con un peso de 55 gramos, que forma parte de la oferta Pleburger.",
+     "price": 132,
+     "img": "da21fe6c-1875-4315-a118-5881dcb9e25a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Caldos",
+   "products": [
+    {
+     "name": "De Pescado 500gr",
+     "desc": "Caldo o preparación líquida a base de pescado en presentación de 500 gramos, servido como plato principal.",
+     "price": 276,
+     "img": "5ecdd58f-5576-43f3-a393-c1e4f423d934.jpeg"
+    },
+    {
+     "name": "Consome",
+     "desc": "Caldo o sopa ligera y clara, generalmente servido como base o acompañamiento de un plato.",
+     "price": 54,
+     "img": "450daa6a-133c-4fbb-ab98-464c00927fa8.jpeg"
+    },
+    {
+     "name": "1/2 Sopa De Marscos 450gr",
+     "desc": "Sopa a base de caldo con mariscos, en presentación de media porción y un peso de 450 gramos.",
+     "price": 252,
+     "img": "01510c6f-5add-474d-9fbb-8fef4a4c29d4.jpeg"
+    },
+    {
+     "name": "De Camaron 250gr",
+     "desc": "Caldo de camarón o mariscos, servido como entrada en una porción de 250 gramos.",
+     "price": 264,
+     "img": "aaf18349-44e4-40c5-a70f-6719fc9b7699.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Plato Fuertes Camarones",
+   "products": [
+    {
+     "name": "Al Aguachile Rojo 250gr",
+     "desc": "Aguachile rojo a base de camarones, una entrada fresca y picante, presentado en una porción de 250 gramos.",
+     "price": 264,
+     "img": "598cc7e2-49d6-490d-b46c-d93e752536e1.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco Filete de Pescado",
+     "desc": "Taco con 40 gr de filete de pescado, repollo y aderezo de la casa.",
+     "price": 55,
+     "img": "e7767108-d945-445d-8923-36777a51ef46.jpeg"
+    },
+    {
+     "name": "Taco Gobernador",
+     "desc": "Taco con 150 gr de camarón, repollo, queso y aderezo de la casa.",
+     "price": 80,
+     "img": "a52bcf50-57a6-4713-9f2c-9213340a74b1.jpeg"
+    },
+    {
+     "name": "Taco de Marlin",
+     "desc": "Taco con 120 gr de marlin, repollo y aderezo de la casa.",
+     "price": 65,
+     "img": "52ae360a-c7c1-4518-b47e-b7160334de83.jpeg"
+    },
+    {
+     "name": "Pulpo Al Gusto 2",
+     "desc": "Entrada a base de pulpo preparado para servir en formato de tacos.",
+     "price": 114,
+     "img": "9af1524a-8efd-4c3f-a057-94664a23098e.jpeg"
+    },
+    {
+     "name": "Camaron Al Gusto 25gr",
+     "desc": "Porción de 25 gramos de camarones preparados al gusto, ideal para integrar en la orden de tacos como plato principal.",
+     "price": 60,
+     "img": "13a8da2c-9ce3-4210-bb07-80bb1632cadd.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Extra",
+   "products": [
+    {
+     "name": "Salsa Casera",
+     "desc": "Salsa para acompañamiento, elaborada con ingredientes básicos al estilo casero.",
+     "price": 54,
+     "img": "37c9d229-eaba-46d7-ae74-e99085a3fb31.jpeg"
+    },
+    {
+     "name": "Orden De Rusa",
+     "desc": "Porción individual de Ensalada Rusa, típicamente a base de papas y vegetales con aderezo cremoso, servida como plato principal.",
+     "price": 60,
+     "img": "b0c5ba25-0c73-4fbb-96cc-aeb61806bc6a.jpeg"
+    },
+    {
+     "name": "Salsa Diabla",
+     "desc": "Salsa picante a base de chiles, perfecta para acompañar platos como un aderezo esparcible.",
+     "price": 60,
+     "img": "0e79e622-068b-474a-ae70-8677a59c74bd.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "caribe cooler",
+     "desc": "caribe cooler",
+     "price": 55,
+     "img": "15034792-a2ac-4b35-9d08-11256c84b506.png"
+    },
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Refrescos",
+     "price": 50,
+     "img": "9f5f3e98-9811-4cc1-91b1-a44389ea210b.jpg"
+    },
+    {
+     "name": "Sprite 355 ml",
+     "desc": "Refrescos",
+     "price": 50,
+     "img": "12154603-05ea-4a30-8ce7-fce00710d40d.jpeg"
+    },
+    {
+     "name": "Agua De Coco Natural 500ml",
+     "desc": "Bebida de agua de coco en formato individual de 500 ml, presentada como una opción de hidratación natural.",
+     "price": 54,
+     "img": "6efe9c13-c608-433b-a31f-21204d7d46ee.jpeg"
+    },
+    {
+     "name": "Jarra De Agua 2000ml",
+     "desc": "Agua potable servida en formato de jarra, ideal para refrescar e hidratar, con una capacidad de 2000 ml.",
+     "price": 144,
+     "img": "b88a8dd3-ef5a-4e4f-acec-2bed3c5d6edb.jpeg"
+    },
+    {
+     "name": "Limonada Natural 500ml",
+     "desc": "Bebida fría refrescante de limón, preparada de forma natural, en presentación individual de 500 ml.",
+     "price": 60,
+     "img": "a2edc171-4a6e-409d-a6f3-ba670f56cc88.jpeg"
+    },
+    {
+     "name": "Agua de Coco",
+     "desc": "Agua de coco 500ml.",
+     "price": 50,
+     "img": "181d2410-60d0-432d-82f0-c2dd410f81bb.jpeg"
+    },
+    {
+     "name": "Coca Cola",
+     "desc": "Refresco 600ml.",
+     "price": 50,
+     "img": "8fc72ec4-fb07-46d6-84d7-b68f4da36018.png"
+    },
+    {
+     "name": "Limonada Natural",
+     "desc": "Limonada natural .",
+     "price": 50,
+     "img": "59702a6a-03ed-47b8-a9aa-97838a8c26e7.jpeg"
+    },
+    {
+     "name": "Agua Natural",
+     "desc": "Agua natural 500ml.",
+     "price": 50,
+     "img": "699cf930-67fe-4ffe-a4ad-9ddccb78406f.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tostadas",
+   "products": [
+    {
+     "name": "Tostada de Marlin",
+     "desc": "Tostada de maíz cubierta de 80 gr de marlin.",
+     "price": 47,
+     "img": "23ddb848-2af1-4e83-8229-2754de7750c5.jpeg"
+    },
+    {
+     "name": "Tostada de Camarones",
+     "desc": "Tostada de maíz cubierta de 50 gr de camarones.",
+     "price": 107,
+     "img": "688752ba-784c-4344-ab07-2b63e6dc9fb5.jpeg"
+    },
+    {
+     "name": "Tostada de Pulpo",
+     "desc": "Tostada de maíz con 50 gr de pulpo, acompañada de rodajas de aguacate.",
+     "price": 140,
+     "img": "6120de6a-4f22-4d84-896b-63051d1858f0.jpeg"
+    },
+    {
+     "name": "Tostada de Filete",
+     "desc": "Tostada de maíz cubierta de 50 gr de filete de pescado.",
+     "price": 75,
+     "img": "ba68df84-9075-4452-8ba8-6996d5296139.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ceviche De Camaron",
+   "products": [
+    {
+     "name": "Orden 333gr",
+     "desc": "Porción individual de ceviche de camarón, ideal como acompañamiento, con un peso neto de 333 gramos.",
+     "price": 156,
+     "img": "0eb33c0d-192b-4786-aa41-d79130cbb46a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Helados",
+     "desc": "Helado cremoso a base de lácteos y azúcar, con textura suave y detalles de color.",
+     "price": 72,
+     "img": "133d48ad-17b1-44dc-98bc-87e539391ed1.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ceviches",
+   "products": [
+    {
+     "name": "Orden de Ceviche de Pescado",
+     "desc": "Orden de ceviche de pescado 333 gr, acompañado de tostadas, salsa pico de gallo y 3 limones.",
+     "price": 140,
+     "img": "785608d7-8c93-4de3-813b-fc880fe291cc.jpeg"
+    },
+    {
+     "name": "Tostada de Ceviche de Pescado",
+     "desc": "Tostada de maíz cubierta de 100 gr de ceviche de pescado.",
+     "price": 37,
+     "img": "3c2d3fdf-3824-4079-aff1-16fe748e5ed7.jpeg"
+    },
+    {
+     "name": "Orden de Guacamole",
+     "desc": "Fresco y cremoso guacamole acompañado de totopos crujientes, perfecto para compartir o disfrutar como entrada.",
+     "price": 130,
+     "img": "b60f17fb-0dd9-43d5-900e-6e000fa9e30d.jpeg"
+    },
+    {
+     "name": "Ceviche de Pescado 1 K",
+     "desc": "1000 Gr de ceviche de pescado, acompañado con tostadas, salsa pico de gallo y 3 limones.",
+     "price": 280,
+     "img": "78a4c1c6-9bb9-4072-bb92-3201961e099c.jpg"
+    },
+    {
+     "name": "Ceviche de Camarón 1 K",
+     "desc": "1000 Gr de ceviche de camarón acompañado con tostadas, salsa pico de gallo y 3 limones.",
+     "price": 330,
+     "img": "fab88254-0c73-4106-a411-38ae563711a6.jpeg"
+    },
+    {
+     "name": "Orden de Ceviche de Camarón",
+     "desc": "Orden de ceviche de camarón 333 gr, acompañado de tostadas, salsa pico de gallo y 3 limones.",
+     "price": 170,
+     "img": "9ffd697f-15e1-401a-9b16-4ecf3fa86ae6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Cócteles",
+   "products": [
+    {
+     "name": "Cóctel de Pulpo Mediano",
+     "desc": "150 Gr de cóctel de pulpo, acompañado de tostadas de maíz, salsa pico de gallo y 3 limones.",
+     "price": 310,
+     "img": "dc0bc60d-f3e5-4104-b931-ddeda6f754c7.jpeg"
+    },
+    {
+     "name": "Cóctel de Pulpo Grande",
+     "desc": "200 Gr de cóctel de pulpo, acompañado de tostadas de maíz, salsa pico de gallo y 3 limones.",
+     "price": 350,
+     "img": "dc0bc60d-f3e5-4104-b931-ddeda6f754c7.jpeg"
+    },
+    {
+     "name": "Cóctel Campechano",
+     "desc": "200 Gr de cóctel de camarón, pulpo, acompañado de tostadas de maíz, salsa pico de gallo y 3 limones.",
+     "price": 260,
+     "img": "916ea22f-6096-48d7-94c1-8bf156860866.jpeg"
+    },
+    {
+     "name": "Cóctel de Camarón Mediano",
+     "desc": "150 Gr de cóctel de camarón, acompañado de tostadas de maíz, salsa pico de gallo y 3 limones.",
+     "price": 210,
+     "img": "3e30815d-4fe3-4059-baf8-502d4dc89a69.jpeg"
+    },
+    {
+     "name": "Cóctel de Camarón Grande",
+     "desc": "Cóctel de camarón 200 gr, acompañado de tostadas de maíz, salsa pico de gallo y 3 limones.",
+     "price": 230,
+     "img": "06af7083-c1b5-43dc-99cf-645a8cad940a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pescado",
+   "products": [
+    {
+     "name": "Filete de Pescado a la Diabla",
+     "desc": "Filete de pescado en salsa chipotle, servido con arroz blanco y ensalada fresca.",
+     "price": 225,
+     "img": "c9cf7120-5d8e-42be-93bf-287cbee2bf96.png"
+    },
+    {
+     "name": "Pescado Zarandeado",
+     "desc": "Pescado a la plancha tradicional, acompañado de arroz blanco y ensalada de la casa.",
+     "price": 562.5,
+     "img": "64061bd9-1d6b-41d8-ac44-15272eb08e4a.jpeg"
+    },
+    {
+     "name": "Huachinango Frito",
+     "desc": "Pescado frito, acompañado de arroz blanco y ensalada de la casa.",
+     "price": 500,
+     "img": "07181921-e55f-4d3c-9548-eded358df7ec.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Fiilete",
+   "products": [
+    {
+     "name": "Filete Al Arcoiris",
+     "desc": "Filete de pescado de 250g acompañado de pimientos, cebolla, lechuga, aguacate y rodajas de naranja.",
+     "price": 225,
+     "img": "8af8468c-e003-45af-9418-eca5f5df6a60.jpeg"
+    },
+    {
+     "name": "1/2 Platillo Filete de Pescado",
+     "desc": "1/2 Platillo 135 grs de filete de pescado.",
+     "price": 160,
+     "img": "e2438cb0-5f76-4eff-945e-7f0b1d2f74db.jpeg"
+    },
+    {
+     "name": "Filete Al Ajillo",
+     "desc": "Filete al ajillo 250grs.",
+     "price": 225,
+     "img": "ae401220-cd71-45e4-bd99-f80b36e69a67.jpeg"
+    },
+    {
+     "name": "Filete Relleno",
+     "desc": "Filete relleno 250grs.",
+     "price": 290,
+     "img": "109c4ed5-5b91-4695-8e23-5f77ba31aa9b.jpeg"
+    },
+    {
+     "name": "Filete de Pescado a la Diabla",
+     "desc": "Filete de pescado a la diabla de 250g, acompañado de arroz, ensalada de lechuga, jitomate, cebolla y guarnición de ensalada cremosa.",
+     "price": 225,
+     "img": "02db6554-0cda-42c8-ad0b-1f2fc64c7ae7.jpeg"
+    },
+    {
+     "name": "Filete Al Coco",
+     "desc": "Filete de pescado empanizado con coco, 250 gramos.",
+     "price": 225,
+     "img": "613eeed6-ae48-416c-9da0-20afe30e6329.jpeg"
+    },
+    {
+     "name": "Filete de Pescado Al Mojo de Ajo",
+     "desc": "Filete de pescado al mojo de ajo 250grs.",
+     "price": 225,
+     "img": "fae8c3c9-b1bc-4c4d-a03a-e3701e5a7a82.jpeg"
+    },
+    {
+     "name": "Filete a la Mantequilla",
+     "desc": "Filete a la mantequilla 250grs.",
+     "price": 225,
+     "img": "801ac58e-411f-422b-b176-eda19bb4893e.jpeg"
+    },
+    {
+     "name": "Filete Empanizado",
+     "desc": "Filete de carne rebozado y frito de 250 gramos.",
+     "price": 225,
+     "img": "32d8d277-6395-4699-b0f7-c387a29465e4.jpeg"
+    },
+    {
+     "name": "Filete a la Plancha",
+     "desc": "Filete de pescado a la plancha de 250 gramos, servido con perejil fresco.",
+     "price": 225,
+     "img": "b3b3836a-2d15-4ae3-8631-1107c19140b7.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pulpo",
+   "products": [
+    {
+     "name": "Pulpo Al Ajillo",
+     "desc": "Pulpo al ajillo 250grs.",
+     "price": 340,
+     "img": "7fbc8792-8a98-474b-8e64-110e8e51a0bc.jpeg"
+    },
+    {
+     "name": "Pulpo a la Diabla",
+     "desc": "Pulpo a la Diabla 250g acompañado de arroz, ensalada de lechuga, jitomate, cebolla y rodajas de naranja.",
+     "price": 340,
+     "img": "d58a43f9-e3ec-4f35-9e74-59c70a08f5e3.jpeg"
+    },
+    {
+     "name": "Pulpo Al Mojo",
+     "desc": "Pulpo al mojo de ajo, acompañado de papas y salsa verde. Porción de 250 gramos.",
+     "price": 340,
+     "img": "92fc435e-7ba7-4574-ad3e-bbb6875a04a8.jpeg"
+    },
+    {
+     "name": "Pulpo a la Mantequilla",
+     "desc": "Pulpo a la mantequilla, 250g, acompañado de salsa de mantequilla.",
+     "price": 340,
+     "img": "5967fe7f-63e9-46f3-8799-7e8c5313d7e6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Camarones",
+   "products": [
+    {
+     "name": "Camarones Zarandeados",
+     "desc": "Camarones zarandeados 300grs acompañados de ensalada con aguacate, arroz y ensalada de papa.",
+     "price": 270,
+     "img": "aaa69fe1-38d6-4d74-8abf-e27581a31831.jpeg"
+    },
+    {
+     "name": "Camarones con Philadelphia 250Grs",
+     "desc": "Camarones philadelphia: Camarones empanizados, acompañados de arroz, ensalada de lechuga, tomate, cebolla, aguacate y una porción de aderezo.",
+     "price": 270,
+     "img": "3847a875-fc2e-4b14-a74a-fbe4508b8642.jpeg"
+    },
+    {
+     "name": "Medio Platillo Camarones",
+     "desc": "Medio platillo de camarones, 135g. Incluye camarones cocidos con perejil.",
+     "price": 160,
+     "img": "78159ebd-93d0-448f-bfdb-425c35ddb986.jpeg"
+    },
+    {
+     "name": "Platillo Mixto",
+     "desc": "Platillo mixto de 250g con arroz, frijoles, carne asada, ensalada, jitomate, jalapeños y pan.",
+     "price": 290,
+     "img": "380585d8-7263-4c1f-8db1-805a9715d752.jpeg"
+    },
+    {
+     "name": "Camarones a la Diabla",
+     "desc": "Camarones a la diabla  250 grs.",
+     "price": 280,
+     "img": "55ecd133-ca0a-4dea-92d8-60dd115c75fc.jpeg"
+    },
+    {
+     "name": "Camarones Al Mojo",
+     "desc": "Camarones al mojo con ajo y perejil, servidos con limón. Porción de 250 gramos.",
+     "price": 280,
+     "img": "55a51bcf-4a8f-42f4-92d5-bd5085e848a4.jpeg"
+    },
+    {
+     "name": "Camarones Empanizados",
+     "desc": "Camarones empanizados 250grs.",
+     "price": 280,
+     "img": "c505a68e-8dc0-4ed6-b9e8-d77ca08f2b05.jpeg"
+    },
+    {
+     "name": "Camarones Al Ajillo",
+     "desc": "Camarones al ajillo con 250 gramos de camarones, acompañados de ajo y perejil.",
+     "price": 280,
+     "img": "e903ec13-d93d-4b35-afb3-88f90d97dfde.png"
+    },
+    {
+     "name": "Camarones Al Aguachile",
+     "desc": "Camarones al aguachile 250grs.",
+     "price": 280,
+     "img": "baaddfd4-b3c6-478b-adf7-882682cf0b86.jpeg"
+    },
+    {
+     "name": "Camarones a la Mantequilla",
+     "desc": "Camarones cocinados en mantequilla, servidos con rodajas de limón. Porción de 250 gramos.",
+     "price": 280,
+     "img": "47a2c79e-427f-4e21-ac38-2ed2e953f5e0.jpeg"
+    },
+    {
+     "name": "Camarones Al Coco",
+     "desc": "Camarones empanizados con coco, servidos en porción de 250 gramos.",
+     "price": 280,
+     "img": "9e051019-3970-422f-9091-6ef61de3f78e.jpeg"
+    },
+    {
+     "name": "Camarones Al Arcoiris",
+     "desc": "Camarones al arcoiris de 250 gramos con salsa de colores vibrantes y trozos de piña.",
+     "price": 280,
+     "img": "bf860a68-aa25-40a8-a455-901f746c7f3b.jpeg"
+    },
+    {
+     "name": "Camarones a la Momia",
+     "desc": "Camarones envueltos en tocino, servidos con arroz. Porción de 300 gramos.",
+     "price": 300,
+     "img": "baffa20f-b45a-4a90-8164-02a2f4695a60.jpeg"
+    },
+    {
+     "name": "Camarones a la Plancha",
+     "desc": "Camarones a la plancha 250grs.",
+     "price": 280,
+     "img": "2ee8a955-51ae-44c7-9b3a-ada20364adc6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Sopas",
+   "products": [
+    {
+     "name": "Sopa de Mariscos",
+     "desc": "Pescado, jaibita , almeja, camarón y pulpo. 600 gramos",
+     "price": 325,
+     "img": "8f7851a4-07e5-4f13-a565-4640e4012289.jpeg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,415 @@
+{
+ "id": 1306701987,
+ "brandName": "Los Huaraches de Don Juan",
+ "name": "Los Huaraches de Don Juan - Fracc Francisco de Montejo",
+ "address": "Calle 50 382, Francisco de Montejo, 97203 Mérida, Yuc.",
+ "schedule": "08:30:00 - 16:15:00",
+ "categories": "Antojitos y Garnachas · Mexicana",
+ "location": [
+  -89.647598,
+  21.027877
+ ],
+ "city": "Mérida",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/1306701987-1527202188.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mxloshuarachesdedonjuann-1671142670568.jpg",
+ "schedules": [
+  {
+   "open_time": "08:30:00",
+   "close_time": "16:15:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1306701987-los-huaraches-de-don-juan",
+ "menu": [
+  {
+   "name": "Huaraches",
+   "products": [
+    {
+     "name": "Huarache tinga de res",
+     "desc": "Carne de res deshebrada y guisada con abundante cebolla fileteada y chipotle.",
+     "price": 150,
+     "img": "a2f8ae86-f3b3-4e0c-ad95-ed465f924471.png"
+    },
+    {
+     "name": "Huarache de champiñones",
+     "desc": "Champiñones frescos sazonados con cebollita picada y epazote.",
+     "price": 150,
+     "img": "a2f8ae86-f3b3-4e0c-ad95-ed465f924471.png"
+    },
+    {
+     "name": "Huarache picadillo",
+     "desc": "Carne de res molida y guisada con papas y jitomate.",
+     "price": 150,
+     "img": "a2f8ae86-f3b3-4e0c-ad95-ed465f924471.png"
+    },
+    {
+     "name": "Huarache huitlacoche",
+     "desc": "Huitlacoche fresco, sazonado con cebollita picada, epazote y chile serrano.",
+     "price": 150,
+     "img": "a2f8ae86-f3b3-4e0c-ad95-ed465f924471.png"
+    },
+    {
+     "name": "Huarache sencillo",
+     "desc": "La tradicional tortilla rellena de frijoles y encima salsa roja o verde, con cebollita picada y queso fresco.",
+     "price": 105,
+     "img": "8618e061-fbe2-48bc-a065-2f9e14e0c245.jpeg"
+    },
+    {
+     "name": "Huarache con huevo",
+     "desc": "Huarache con 2 huevos estrellados o revueltos, cubierto de queso.",
+     "price": 150,
+     "img": "5d25ed9e-0fff-4c48-a5d5-d50fd5928cd0.jpeg"
+    },
+    {
+     "name": "Huarache salchicha",
+     "desc": "Huarache con salchicha frita y queso rallado.",
+     "price": 150,
+     "img": "7ff3a39f-d3e8-4392-9a98-b3d13140e1f0.jpeg"
+    },
+    {
+     "name": "Huarache bisteck",
+     "desc": "Huarache con bisteck de diezmillo, frijoles, queso, cebolla y aguacate.",
+     "price": 240,
+     "img": "8618e061-fbe2-48bc-a065-2f9e14e0c245.jpeg"
+    },
+    {
+     "name": "Huarache arrachera",
+     "desc": "Huarache con arrachera, lechuga y crema.",
+     "price": 240,
+     "img": "64698efa-5a44-48a5-a772-bdf74b02d212.jpeg"
+    },
+    {
+     "name": "Huarache chorizo",
+     "desc": "Huarache con chorizo frito, crema y cilantro.",
+     "price": 150,
+     "img": "a2f8ae86-f3b3-4e0c-ad95-ed465f924471.png"
+    },
+    {
+     "name": "Huarache quesillo",
+     "desc": "Huarache con quesillo, chorizo, crema y cilantro.",
+     "price": 150,
+     "img": "a2f8ae86-f3b3-4e0c-ad95-ed465f924471.png"
+    },
+    {
+     "name": "Huarache chuleta de res",
+     "desc": "Huarache con chuleta de res, crema y cilantro.",
+     "price": 240,
+     "img": "a2f8ae86-f3b3-4e0c-ad95-ed465f924471.png"
+    },
+    {
+     "name": "Huarache fajitas de pollo",
+     "desc": "Huarache con fajitas de pollo, lechuga y frijoles.",
+     "price": 240,
+     "img": "f7047697-53d6-467d-9055-aa6a202583be.png"
+    },
+    {
+     "name": "Huarache papa con chorizo",
+     "desc": "Papa frita revuelta con chorizo.",
+     "price": 150,
+     "img": "a2f8ae86-f3b3-4e0c-ad95-ed465f924471.png"
+    },
+    {
+     "name": "Huarache chuleta de cerdo",
+     "desc": "Huarache con chuleta de cerdo, queso y salsa.",
+     "price": 240,
+     "img": "11113da1-264f-4a4c-8dfb-0127b32c1e8c.jpeg"
+    },
+    {
+     "name": "Huarache chicharrón",
+     "desc": "Chicharrón prensado guisado en chile guajillo.",
+     "price": 150,
+     "img": "a2f8ae86-f3b3-4e0c-ad95-ed465f924471.png"
+    },
+    {
+     "name": "Huarache costilla en chile negro",
+     "desc": "Trozitos de carne de puerco guisado en chile pasilla.",
+     "price": 150,
+     "img": "7ea2e8a4-b283-447b-8c65-f40a22a6f411.jpeg"
+    },
+    {
+     "name": "Quesillo",
+     "desc": "Quesillo, queso tipo Oaxaca, ideal para fundir o acompañar platillos mexicanos.",
+     "price": 132,
+     "img": "37c43e7b-24b2-4d70-beb5-3f772bc622a5.png"
+    },
+    {
+     "name": "Huarache light",
+     "desc": "Huarache con base de nopal, acompañado de guisado o proteína a elección. Incluye crema y cilantro.",
+     "price": 240,
+     "img": "db99221a-b3e2-4bd9-8256-1646fe5d4be7.png"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos",
+   "products": [
+    {
+     "name": "Gordita chicharrón",
+     "desc": "Gordita de maíz rellena de chicharrón prensado.",
+     "price": 35,
+     "img": "7ac2016b-3059-4244-87c1-39cba9975390.png"
+    },
+    {
+     "name": "Pambazo",
+     "desc": "Pan de pambazo mojado en salsa de chile guajillo, relleno de papas con chorizo, lechuga, crema y queso fresco.",
+     "price": 150,
+     "img": "4cbf66d1-d371-483a-bbcf-34471f1a62ad.jpeg"
+    },
+    {
+     "name": "Tostada pata",
+     "desc": "Tostada de maíz acompañada de deliciosa pata de res picada preparada a la vinagreta con frijoles, lechuga, crema y queso.",
+     "price": 140,
+     "img": "953d42f3-f681-4e3b-bfd4-b3a1f484ff02.jpeg"
+    },
+    {
+     "name": "Tostada picadillo",
+     "desc": "Tostada de maíz acompañada de picadillo con frijoles, lechuga, crema y queso.",
+     "price": 140,
+     "img": "d882a5be-34ec-419f-9472-023b75979703.jpeg"
+    },
+    {
+     "name": "Chilaquiles verdes o rojos",
+     "desc": "Chilaquiles elaborados con la original receta de las abuelitas, caldosos y sazonados con su epazote (no son totopos remojados) acompañados de 2 panecillos .",
+     "price": 170,
+     "img": "74881020-1ce0-4967-951e-1df2e72995b6.jpeg"
+    },
+    {
+     "name": "Tostada tinga de res",
+     "desc": "Tostada de maíz acompañada de tinga de res con frijoles, lechuga, crema y queso.",
+     "price": 140,
+     "img": "6a18b341-d3f7-48cb-9a13-a6924be04854.jpeg"
+    },
+    {
+     "name": "Enchiladas verdes/pollo deshebrado",
+     "desc": "Tortillas rellenas de pollo deshebrado, bañadas en deliciosa salsa verde, acompañadas de crema y queso.",
+     "price": 192,
+     "img": "3cfa7725-c8f5-40f1-b34f-64353832eab8.jpg"
+    },
+    {
+     "name": "Flautas de pollo (orden de 4)",
+     "desc": "Tacos dorados largos rellenos de pollo deshebrado con lechuga, crema y queso fresco.",
+     "price": 170,
+     "img": "5a14b772-8fa5-480f-bbcb-4b3fa576407f.jpeg"
+    },
+    {
+     "name": "Sopes (orden de 3)",
+     "desc": "El famoso sope original (tortillitas pelliscadas) con frijoles, lechuga, crema y queso fresco.",
+     "price": 140,
+     "img": "18bfc438-97c3-4d49-bc17-25b2567c8854.jpeg"
+    },
+    {
+     "name": "Chilaquiles verdes o rojos/bisteck",
+     "desc": "Chilaquiles con bisteck de diezmillo.",
+     "price": 260,
+     "img": "9dd57418-44b4-4a27-a7af-ced681f91eba.jpeg"
+    },
+    {
+     "name": "Chilaquiles verdes rojos/chuleta puerco",
+     "desc": "Chilaquiles con chuleta de puerco fresca.",
+     "price": 260,
+     "img": "9dd57418-44b4-4a27-a7af-ced681f91eba.jpeg"
+    },
+    {
+     "name": "Chilaquiles verdes o rojos/huevo",
+     "desc": "Chilaquiles con 2 huevos estrellados o revueltos.",
+     "price": 205,
+     "img": "092e52d1-7f81-44ed-bc45-af119a482b9b.jpeg"
+    },
+    {
+     "name": "Enchiladas de mole/pollo deshebrado",
+     "desc": "Tortillas rellenas de pollo deshebrado, bañadas en delicioso mole de san pedro atocpan, acompañadas de crema y queso.",
+     "price": 192,
+     "img": "0583d163-6303-44e5-a8f3-62a4c0d59cf4.jpeg"
+    },
+    {
+     "name": "Chilaquiles verdes/rojos/costilla de res",
+     "desc": "Chilaquiles con costilla de res.",
+     "price": 260,
+     "img": "9dd57418-44b4-4a27-a7af-ced681f91eba.jpeg"
+    },
+    {
+     "name": "Pancita (con tortillas hechas a mano)",
+     "desc": "Pancita de res en caldo preparado con chiles secos, acompañada de sus condimentos (cebolla, limón y orégano)  y tortillas hechas a mano.",
+     "price": 290,
+     "img": "c31fad6a-4547-4920-8b41-6e1a6c16fc67.jpeg"
+    },
+    {
+     "name": "Chilaquiles Verdes O Rojos/Fajitas Pollo",
+     "desc": "Chilaquiles con pechuga de pollo.",
+     "price": 215,
+     "img": "9dd57418-44b4-4a27-a7af-ced681f91eba.jpeg"
+    },
+    {
+     "name": "Pancita 1/2 orden (tortillas hechasmano)",
+     "desc": "Pancita de res en caldo preparado con chiles secos, acompañada de sus condimentos (cebolla, limón y orégano)  y tortillas hechas a mano.",
+     "price": 205,
+     "img": "6ddfa45c-5243-4127-88ed-310fa64335d0.jpeg"
+    },
+    {
+     "name": "Pozole De Puerco Y Pollo",
+     "desc": "Con Crema, Queso Y Tostadas Producto creado por Rappi.",
+     "price": 120,
+     "img": "22efdfe3-8df7-4629-87f2-805265ed1960.jpeg"
+    },
+    {
+     "name": "Tlacoyo de frijol y chicharron",
+     "desc": "Tortillas gruesas de masa de maíz ovaladas rellenas de frijol y chicharrón prensado. orden de 3.",
+     "price": 145,
+     "img": "c09af61c-e785-41ee-9729-20e10d7291a4.png"
+    },
+    {
+     "name": "Chilaquiles verdes o rojos/arrachera",
+     "desc": "Chilaquiles verdes o rojos acompañados de arrachera, crema y cebolla.",
+     "price": 260,
+     "img": "78b85a9b-2ccb-4bc7-b26b-d5a340eabfcc.jpeg"
+    },
+    {
+     "name": "Chila quiles verdes/rojos/chuleta puerco",
+     "desc": "Chilaquiles con chuleta de puerco fresca.",
+     "price": 260,
+     "img": "b350fdd4-f0fe-4fe2-92b5-9d19b2f3d0d0.png"
+    },
+    {
+     "name": "Chila quiles verdes o rojos/huevo",
+     "desc": "Chilaquiles con 2 huevos estrellados o revueltos.",
+     "price": 205,
+     "img": "e2d61b4c-2158-4c7b-8b36-5fd7abf97718.png"
+    },
+    {
+     "name": "Chilaquiles Verdes O Rojos",
+     "desc": "Chilaquiles Elaborados Con La Original Receta De Las Abuelitas, Caldosos Y Sazonados Cor",
+     "price": 150,
+     "img": "3b095878-dca0-4706-a2e6-0d3af90b8177.png"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla de papas con chorizo/queso",
+     "desc": "Quesadilla rellena de papas con chorizo o queso oaxaca.",
+     "price": 105,
+     "img": "ef1b0fde-1328-48ca-a46b-c6d66e80f579.jpeg"
+    },
+    {
+     "name": "Quesadilla de huitlacoche/queso",
+     "desc": "Quesadilla de huitlacoche con queso Oaxaca en tortilla de maíz azul.",
+     "price": 105,
+     "img": "0c08132d-2d53-48e4-9acd-2384114dbff9.jpeg"
+    },
+    {
+     "name": "Quesadilla de champiñones/queso",
+     "desc": "Quesadilla con champiñones y queso oaxaca.",
+     "price": 105,
+     "img": "6dee8aa2-d5ec-4d3b-afc7-c12d72d711c3.png"
+    },
+    {
+     "name": "Quesadilla de tinga de res/queso",
+     "desc": "Quesadilla con tinga de res y queso Oaxaca.",
+     "price": 105,
+     "img": "eddc2814-601a-4424-8ada-795a5d571ca4.png"
+    },
+    {
+     "name": "Quesadilla de chicharrón/queso",
+     "desc": "Quesadilla con chicharrón y queso oaxaca.",
+     "price": 105,
+     "img": "061992c0-ca66-4985-847b-209cef47df43.jpeg"
+    },
+    {
+     "name": "Quesadilla de chorizo/queso",
+     "desc": "Quesadilla con chorizo y queso oaxaca.",
+     "price": 105,
+     "img": "e92b5a5d-9816-4468-bcb7-bb2c529dbdb0.jpeg"
+    },
+    {
+     "name": "Quesadilla costilla en chile negro/ques",
+     "desc": "Costilla sin hueso y en trocitos, cocinada en chile negro/queso oaxaca.",
+     "price": 105,
+     "img": "d14be554-cdff-4243-844c-0db1159cd0c5.png"
+    },
+    {
+     "name": "Quesadilla de papas/queso",
+     "desc": "Quesadilla con papas y queso oaxaca.",
+     "price": 105,
+     "img": "ef1b0fde-1328-48ca-a46b-c6d66e80f579.jpeg"
+    },
+    {
+     "name": "Quesadilla de picadillo/queso",
+     "desc": "Quesadilla con picadillo y queso oaxaca.",
+     "price": 105,
+     "img": "1d40780f-ca78-40be-852c-109937b1b751.png"
+    },
+    {
+     "name": "Quesadilla de queso",
+     "desc": "Quesadilla con queso oaxaca en tortilla de maíz.",
+     "price": 105,
+     "img": "095b91c9-dc35-4d3e-a07f-92c4a00c6da9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada de la casa",
+     "desc": "Espinaca baby acompañada con nueces mixtas, arándano, durazno en almíbar, aderezo de mostaza con miel, queso de cabra y carne asada de su elección.",
+     "price": 260,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58.png"
+    },
+    {
+     "name": "Ensalada cesar",
+     "desc": "Lechuga troceada acompañada con tomate cherry, crotones, aderezo, queso parmesano y carne asada de su elección.",
+     "price": 260,
+     "img": "04d4f1f3-1909-4a49-837e-7ce4d60be276.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas ",
+   "products": [
+    {
+     "name": "Agua Natural (1000 Ml)",
+     "desc": "Agua Natural (1000 Ml)",
+     "price": 55,
+     "img": "8d39e81a-96c3-4f38-86b3-ac758306dece.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres ",
+   "products": [
+    {
+     "name": "Flan napolitano",
+     "desc": "El clásico flan napolitano, pero este si esta hecho en casa.",
+     "price": 125,
+     "img": "566cec30-fbf2-4bf8-97cd-19558342294c.jpeg"
+    },
+    {
+     "name": "Pan de elote",
+     "desc": "Pan de elote con cobertura de leche condensada.",
+     "price": 90,
+     "img": "13976f40-8f32-4309-9927-33de01bc70cb.jpeg"
+    },
+    {
+     "name": "Pay De Queso",
+     "desc": "Exquisito pay de queso con chocolate en trozitos, nuez picada y un toque de cajeta.",
+     "price": 105,
+     "img": "2e0369ee-6ea3-43a9-bfbf-4e077a17567f.jpg"
+    },
+    {
+     "name": "Pay de limón",
+     "desc": "El famoso pay de limón con orilla de merengue.",
+     "price": 90,
+     "img": "7fab34b9-26fb-4872-a9a0-fabf7a6c645d.jpeg"
+    },
+    {
+     "name": "Pastel De Chocolate",
+     "desc": "Riquisimo pastel de chocolate con food de chocolate amargo.",
+     "price": 70,
+     "img": "06db1239-1cc6-42ce-8462-a78a58a70b93.jpeg"
+    }
+   ]
+  }
+ ]
+}

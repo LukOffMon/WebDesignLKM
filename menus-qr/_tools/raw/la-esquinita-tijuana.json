@@ -1,0 +1,872 @@
+{
+ "id": 1923237665,
+ "brandName": "La Esquinita Cocina Mexicana Tijuana",
+ "name": "La Esquinita Cocina Mexicana Tijuana - Tijuana Centro",
+ "address": "av andres quintana roo 1781 zonaeste tijuana bc mexico",
+ "schedule": "07:30:00 - 21:15:00",
+ "categories": "Mexicana · Desayunos y Brunch",
+ "location": [
+  -117.0278514,
+  32.5274567
+ ],
+ "city": "Tijuana",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/966478-1708108051859.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/966478-1708108053958.jpg",
+ "schedules": [
+  {
+   "open_time": "07:30:00",
+   "close_time": "21:15:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923237665-la-esquinita-cocina-mexicana-tijuan",
+ "menu": [
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Guacamole",
+     "desc": "Orden de guacamole con opico de gallo.",
+     "price": 156,
+     "img": "2115675074-1708109760129.jpg"
+    },
+    {
+     "name": "Champiñones al Ajillo",
+     "desc": "Champiñones salteados con ajo y pimientos.",
+     "price": 182,
+     "img": "2115675077-1708109784213.jpg"
+    },
+    {
+     "name": "Chicharrón de Rib Eye",
+     "desc": "Chicharrón de Rib Eye acompañado de guacamole y brotes frescos.",
+     "price": 410,
+     "img": "2115675075-1708109777958.jpg"
+    },
+    {
+     "name": "Queso Fundido",
+     "desc": "Queso fundido acompañado de chorizo y tortillas de harina.",
+     "price": 182,
+     "img": "2115675078-1708109784211.jpg"
+    },
+    {
+     "name": "Panela Asada",
+     "desc": "Queso panela asado acompañado de jitomates cherry.",
+     "price": 170,
+     "img": "2115675076-1708109777960.jpg"
+    },
+    {
+     "name": "Aguachile de Camarón",
+     "desc": "Aguachile de la casa con camarón, 200 gr.",
+     "price": 260,
+     "img": "2115675073-1708109743233.jpg"
+    },
+    {
+     "name": "Ceviche de Pescado",
+     "desc": "Ceviche de la casa con pescado del día, 200 gr.",
+     "price": 210,
+     "img": "2115675079-1708109748640.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Mimosas",
+   "products": [
+    {
+     "name": "Mimosa Tradicional",
+     "desc": "Mimosa Tradicional.",
+     "price": 108,
+     "img": "fdfae630-1ea1-4de9-ab2f-154207244c1d.jpeg"
+    },
+    {
+     "name": "Bottomless Mimosas",
+     "desc": "Tiempo Limite De 2 Horas",
+     "price": 480,
+     "img": "08c4b357-7a7a-41d2-84b4-d94cfb4152ef.jpeg"
+    },
+    {
+     "name": "Mimosa De Sabores",
+     "desc": "Mimosa con variedad de sabores, decorada con frambuesa y menta.",
+     "price": 126,
+     "img": "a53f92e2-d7ed-46a3-8ffd-9968deee9f21.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "California",
+     "desc": "Taco con filete de arrachera, sobre un chile california, queso en tortilla de harina, bañada de salsa a elegir y aguacate.",
+     "price": 84,
+     "img": "2115675099-1708109766190.jpg"
+    },
+    {
+     "name": "Taco de Chicharrón",
+     "desc": "Taco con chicharrón de puerco guisado, salsa a elegir, cebolla y cilantro en tortilla de maíz.",
+     "price": 78,
+     "img": "2115675100-1708109760141.jpg"
+    },
+    {
+     "name": "Taco de Pork Belly",
+     "desc": "Taco con pork belly en tortilla de nopal, costra de queso, jalapeño y aderezo de la casa.",
+     "price": 84,
+     "img": "2115675097-1708109772110.jpg"
+    },
+    {
+     "name": "Taco de Camarón Enchilado",
+     "desc": "Taco con sazonados al mojo de ajo, chile de árbol, aderezo chipotle, queso y aguacate.",
+     "price": 90,
+     "img": "2115675098-1708109772111.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "7Up Original 355 ml",
+     "desc": "Refrescos",
+     "price": 65,
+     "img": "977090955-1595956685567.jpg"
+    },
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Refrescos",
+     "price": 65,
+     "img": "977894059-1624403823057.jpg"
+    },
+    {
+     "name": "Peñafiel Mineral 355 ml",
+     "desc": "Agua",
+     "price": 65,
+     "img": "977055827-1595946607351.jpg"
+    },
+    {
+     "name": "Manzanita Sol 355 ml",
+     "desc": "Refrescos",
+     "price": 65,
+     "img": "977090281-1595950793636.jpg"
+    },
+    {
+     "name": "Coca-Cola Light 355 ml",
+     "desc": "Refrescos",
+     "price": 65,
+     "img": "982350416-1627475668721.jpg"
+    },
+    {
+     "name": "Topo Chico 355ml",
+     "desc": "Agua Mineral Topo Chico De 355ml.",
+     "price": 72,
+     "img": "5aa7ae7e-88a4-4659-a3a1-efd7ab2a1a22.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pollo",
+   "products": [
+    {
+     "name": "Pechuga En Crema 200 Gr",
+     "desc": "Pechuga De Pollo, Sobre Una Cama De Papas Campesinas Banado En Crema De Su Eleccion, Acompanado De Arroz",
+     "price": 240,
+     "img": "bf73b21d-aa05-41b2-9a4c-701c32d8366d.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Para 2 O 3 Personas",
+   "products": [
+    {
+     "name": "Combinacion Mexicana",
+     "desc": "Combinación de sope de mole, sope de rajas, sope de chilorio, enchilada roja, enchilada verde, huarache especial y dos porciones de sopa de tortillas.",
+     "price": 601,
+     "img": "89c09742-d817-4e2b-b6a1-75834214d8e6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Mocktails",
+   "products": [
+    {
+     "name": "Caribena",
+     "desc": "Jugo De Guanabana, Naranja Y Limon Con Syrup Artesanal De Frutos Rojos Endulzado Con Miel De Agave",
+     "price": 144,
+     "img": "a77976bb-0ea4-49e0-901c-6bc82b8e67b7.jpeg"
+    },
+    {
+     "name": "Azteca",
+     "desc": "Frappe De Limon, Menta Y Chia Endulzado Con Miel De Agave",
+     "price": 138,
+     "img": "7e64b01d-c8c2-44e6-b6a0-2a6820cf378e.jpeg"
+    },
+    {
+     "name": "Shirley Temple",
+     "desc": "Ginger Ale, Refresco De Limon, Jarabe De Granadina Y Cereza",
+     "price": 126,
+     "img": "9f173daf-09f5-4ba4-91f4-53159aab60f3.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Brunch",
+   "products": [
+    {
+     "name": "Chilaquiles Cremosos De Chipotle",
+     "desc": "Totopos de maíz bañados en salsa cremosa de chipotle, decorados con cilantro fresco.",
+     "price": 204,
+     "img": "43a299f2-6469-4f6a-8311-7a6dea35cb05.jpeg"
+    },
+    {
+     "name": "Birria Toast",
+     "desc": "Birria De Res Sobre Un Pan Artesanal Dorado En Mantequilla Con Cremoso De Aguacate, Cebolla Y Cilantro",
+     "price": 204,
+     "img": "0e17d4c3-4b70-400b-9b33-abf44aa72d0e.jpeg"
+    },
+    {
+     "name": "Chilaquiles En Crema Poblana",
+     "desc": "Chilaquiles con crema poblana, frijoles negros, queso panela, aguacate, cebolla morada y cilantro.",
+     "price": 204,
+     "img": "aed61b92-5b24-4656-9a31-296cd4810c08.jpeg"
+    },
+    {
+     "name": "Chilaquiles De Mole",
+     "desc": "Totopos de maíz bañados en mole, acompañados de aguacate, queso y cilantro.",
+     "price": 204,
+     "img": "d3e142ee-1176-4267-a25c-c79345d43865.jpeg"
+    },
+    {
+     "name": "Acompanalos Con:",
+     "desc": "Acompanamientos Para Chilaquiles: Pollo (100gr), Huevo (2pz) O Arrachera (100gr).",
+     "price": 60,
+     "img": "4e1904fd-2829-448b-b3db-276da02d9e8a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Res",
+   "products": [
+    {
+     "name": "Lengua En Salsa Verde 220 Gr",
+     "desc": "Lengua De Res En Su Salsa Tradicional Verde Con Cebolla Y Cilantro, Acompanado De Arroz Con Frijol Negro",
+     "price": 336,
+     "img": "dfa8ae5a-6608-4099-8a42-ade65e5ee128.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos",
+   "products": [
+    {
+     "name": "Flauta",
+     "desc": "Flauta de pollo, preparada con lechuga, tomate, cebolla morada, crema de la casa y queso.",
+     "price": 58,
+     "img": "2115675085-1708110113491.png"
+    },
+    {
+     "name": "Enchilada",
+     "desc": "Enchilada de pollo, preparada con lechuga, tomate, cebolla morada, crema de la casa y queso.",
+     "price": 58,
+     "img": "2115675088-1708109772119.jpg"
+    },
+    {
+     "name": "Taco Dorado",
+     "desc": "Taco dorado con pollo, preparado de lechuga, tomate, cebolla morada, crema de la casa y queso.",
+     "price": 58,
+     "img": "2115675080-1708109766189.jpg"
+    },
+    {
+     "name": "Flauta de Camarón",
+     "desc": "Flauta de camarón, preparada con lechuga, tomate, cebolla morada, crema de la casa y queso.",
+     "price": 84,
+     "img": "2115675090-1708109753980.jpg"
+    },
+    {
+     "name": "Flauta de Harina",
+     "desc": "Flauta de pollo en tortilla de harina, preparada con lechuga, tomate, cebolla morada, crema de la casa y queso.",
+     "price": 65,
+     "img": "2115675082-1708109753982.jpg"
+    },
+    {
+     "name": "Tostada",
+     "desc": "Tostada de pollo, preparada con lechuga, tomate, cebolla morada, crema de la casa y queso.",
+     "price": 65,
+     "img": "2115675084-1708109784211.jpg"
+    },
+    {
+     "name": "Sope",
+     "desc": "Sope de pollo, preparado con lechuga, tomate, cebolla morada, crema de la casa y queso.",
+     "price": 65,
+     "img": "2115675083-1708109760141.jpg"
+    },
+    {
+     "name": "Sope de Mole",
+     "desc": "Sope de mole con pollo, preparado de lechuga, tomate, cebolla morada, crema de la casay queso.",
+     "price": 84,
+     "img": "2115675091-1708109766191.jpg"
+    },
+    {
+     "name": "Sope de Rajas",
+     "desc": "Sope con rajas poblanas.",
+     "price": 84,
+     "img": "2115675087-1708109772114.jpg"
+    },
+    {
+     "name": "Sope de Chilorio",
+     "desc": "Sope de chilorio, preparado con lechuga, tomate, cebolla morada, crema de la casa y queso.",
+     "price": 84,
+     "img": "2115675081-1708109766194.jpg"
+    },
+    {
+     "name": "Sope Especial",
+     "desc": "Sope con queso monterrey, chicharron y carne",
+     "price": 97,
+     "img": "2115675092-1708110130254.jpg"
+    },
+    {
+     "name": "Huarache Especial",
+     "desc": "Huarache elaborado con arrachera y nopales.",
+     "price": 110,
+     "img": "2115675086-1708109760127.jpg"
+    },
+    {
+     "name": "Sope de Pata",
+     "desc": "Sope con pata, lechuga, aguacate y cebolla encurtida.",
+     "price": 87,
+     "img": "2115675089-1708109760138.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas Masa",
+   "products": [
+    {
+     "name": "Quesadilla Huitlacoche",
+     "desc": "Quesadilla de masa con huitlacoche.",
+     "price": 97,
+     "img": "2115675109-1708109772110.jpg"
+    },
+    {
+     "name": "Quesadilla Flor de Jamaica",
+     "desc": "Quesadilla de masa rellena de flor de jamaica, acompañada de aguacate y crema.",
+     "price": 89,
+     "img": "2115675111-1708109766190.jpg"
+    },
+    {
+     "name": "Quesadilla de Rajas",
+     "desc": "Quesadilla de masa con rajas, elote y aguacate.",
+     "price": 115,
+     "img": "2115675110-1708109790115.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Caldos",
+   "products": [
+    {
+     "name": "Sopa de Tortilla",
+     "desc": "Sopa de tortilla con tiras de tortilla de maíz, aguacate, chile seco, crema y queso.",
+     "price": 140,
+     "img": "2115675112-1708109760133.jpg"
+    },
+    {
+     "name": "Caldo Tlalpeño",
+     "desc": "Caldo tlalpeño con garbanzos, zanahoria, calabacita, chile chipotle y aguacate.",
+     "price": 150,
+     "img": "2115675117-1708109748639.jpg"
+    },
+    {
+     "name": "Caldo de Res",
+     "desc": "Caldo de res con carne, elote, zanahoria y calabaza.",
+     "price": 204,
+     "img": "2115675114-1708109743236.jpg"
+    },
+    {
+     "name": "Pozole",
+     "desc": "Orden de pozole con puerco.",
+     "price": 162,
+     "img": "2115675115-1708109784212.jpg"
+    },
+    {
+     "name": "Menudo",
+     "desc": "Menudo de res con trozos de carne y hierbas frescas.",
+     "price": 168,
+     "img": "2115675116-1708109777955.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Platos Fuertes",
+   "products": [
+    {
+     "name": "Arrachera",
+     "desc": "Arrachera 280 gr, marinada de la casa, acompañada de papas campesinas, guacamole, cebollas cambray y nopal asado.",
+     "price": 310,
+     "img": "2115675124-1708109760145.jpg"
+    },
+    {
+     "name": "Chile Relleno",
+     "desc": "Chile relleno de queso, acompañado con arroz y frijoles refritos.",
+     "price": 198,
+     "img": "2115675121-1708109784212.jpg"
+    },
+    {
+     "name": "Mole de la Casa",
+     "desc": "Pierna con muslo de pollo, bañados en mole de la casa, acompañado de arroz y frijoles refritos.",
+     "price": 228,
+     "img": "2115675120-1708109790114.jpg"
+    },
+    {
+     "name": "Enchiladas de Mole",
+     "desc": "Enchiladas de mole con pollo, acompañadas de arroz y frijoles refritos.",
+     "price": 202,
+     "img": "2115675125-1708109760127.jpg"
+    },
+    {
+     "name": "Enchiladas Suizas",
+     "desc": "Enchiladas suizas de pollo, acompañadas con arroz y frijoles refritos.",
+     "price": 195,
+     "img": "2115675130-1708109748640.jpg"
+    },
+    {
+     "name": "Pollo en Crema de Champiñones",
+     "desc": "Pechuga de pollo en crema de champiñones, acompañada con arroz y frijoles refritos.",
+     "price": 228,
+     "img": "2115675118-1708109790116.jpg"
+    },
+    {
+     "name": "Pollo en Crema Chipotle",
+     "desc": "Pechuga de pollo en crema chipotle, acompañada con arroz y frijoles refritos.",
+     "price": 228,
+     "img": "2115675126-1708109777960.jpg"
+    },
+    {
+     "name": "Pollo en Crema Poblana",
+     "desc": "Pechuga de pollo en crema poblana de la casa, acompañada con arroz y frijoles refritos.",
+     "price": 228,
+     "img": "2115675128-1708110076241.png"
+    },
+    {
+     "name": "Rajas Poblanas",
+     "desc": "Rajas de chiles poblano, acompañadas con arroz y frijoles refritos.",
+     "price": 198,
+     "img": "2115675122-1708109766191.jpg"
+    },
+    {
+     "name": "Pechuga a la Parrilla",
+     "desc": "Pechuga de pollo cocinada a la parrilla con arroz y vegetales de temporada salteados.",
+     "price": 270,
+     "img": "2115675132-1708110084921.png"
+    },
+    {
+     "name": "Asado Mazatleco",
+     "desc": "Arrachera con papas cocidas, verdura de temporada y consomé.",
+     "price": 294,
+     "img": "2115675131-1708109743233.jpg"
+    },
+    {
+     "name": "Bistec Rachero",
+     "desc": "Bistec ranchero, acompañado con arroz y frijoles refritos.",
+     "price": 270,
+     "img": "2115675127-1708109743233.jpg"
+    },
+    {
+     "name": "Carne en Su Jugo",
+     "desc": "Filete de res cocinado en caldillo de tomatillo, jugos de la carne con frijoles de la olla, cilantro, cebolla, panela y aguacate.",
+     "price": 204,
+     "img": "2115675129-1708109748640.jpg"
+    },
+    {
+     "name": "Camarones al Ajillo",
+     "desc": "Camarones salteados con ajo y pimientos rojos, acompañados de arroz, frijoles refritos y ensalada de pepino y rábano.",
+     "price": 342,
+     "img": "2115675119-1708109748639.jpg"
+    },
+    {
+     "name": "Parrillada",
+     "desc": "Arrachera con pollo, longaniza, camarón y guacamole, para 2 personas.",
+     "price": 588,
+     "img": "2115675123-1708110076239.jpg"
+    },
+    {
+     "name": "Fajitas Mixtas",
+     "desc": "Fajitas de pollo con res, salteadas en vegetales mixtos de temporada, acompañadas de arroz y frijoles refritos.",
+     "price": 300,
+     "img": "2115675133-1708109753981.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Complementos",
+   "products": [
+    {
+     "name": "Frijoles de la Olla",
+     "desc": "Orden de frijoles de la olla.",
+     "price": 55,
+     "img": "2115675136-1708109753982.jpg"
+    },
+    {
+     "name": "Arroz",
+     "desc": "Orden de arroz rojo con jitomate.",
+     "price": 45,
+     "img": "2115675135-1708109753981.jpg"
+    },
+    {
+     "name": "Frijoles",
+     "desc": "Orden de frijoles refritos.",
+     "price": 45,
+     "img": "2115675137-1708109888657.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Huevos y Especialidades",
+   "products": [
+    {
+     "name": "Huevos Florentina",
+     "desc": "2 Huevos estrellados en tostada de muffin inglés con mantequilla, jamón, espinacas, crema de la casa, queso, acompañados de tocino, papas fritas y pimientos.",
+     "price": 215,
+     "img": "2115675139-1708109777957.jpg"
+    },
+    {
+     "name": "Huevos Divorciados",
+     "desc": "2 Huevos estrellados, montados en tortilla de maíz dorada con frijol, bañados de salsa roja, verde, queso y crema de la casa.",
+     "price": 184,
+     "img": "2115675144-1708109777952.jpg"
+    },
+    {
+     "name": "Huevos al Gusto",
+     "desc": "Huevos preparados a tu elección, acompañados de frijoles refritos con totopos y queso.",
+     "price": 169,
+     "img": "2115675142-1708109772116.jpg"
+    },
+    {
+     "name": "A la Mexicana",
+     "desc": "Huevos revueltos con chiles, tomate, cebolla y cilantro.",
+     "price": 184,
+     "img": "2115675145-1708109772117.jpg"
+    },
+    {
+     "name": "Rancheros",
+     "desc": "2 Huevos estrellados montados sobre tortilla de maíz dorada, bañada en salsa mexicana de la casa.",
+     "price": 190,
+     "img": "2115675140-1708109784210.jpg"
+    },
+    {
+     "name": "Desayuno Rancho",
+     "desc": "Chilorio guisado a la mexicana, acompañado con 2 huevos, guarnición de chilaquiles rojos y frijoles refritos de la casa.",
+     "price": 228,
+     "img": "2115675138-1708109777960.jpg"
+    },
+    {
+     "name": "Desayuno Sinaloense",
+     "desc": "Machaca estilo sinaloa, guisada con pico de gallo, acompañada de 2 huevos, ensalada de nopal, frijoles refritos de la casa y queso panela.",
+     "price": 228,
+     "img": "b75418c0-4ed3-4cd7-aa9a-3c438309997f.jpeg"
+    },
+    {
+     "name": "Especial la Esquinita",
+     "desc": "Corte 150 gr con arrachera, acompañado de 2 huevos en preparación a elegir, frijoles refritos de la casa, guarnición de papas campesinas y pimientos.",
+     "price": 253,
+     "img": "2115675146-1708109753980.jpg"
+    },
+    {
+     "name": "Desayuno Criollo",
+     "desc": "Chuleta premium de cerdo ahumada con chilaquiles en crema de chipotle, 2 huevos, preparación a elegir y frijoles refritos.",
+     "price": 220,
+     "img": "2115675141-1708109753979.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles con granos de frijol negro, queso panela, aguacate, cebolla morada, cilantro y crema de la casa, salsa a elegir.",
+     "price": 184,
+     "img": "2115675102-1708109784211.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas y Wraps",
+   "products": [
+    {
+     "name": "Ensalada de Frutas",
+     "desc": "Ensalada de frutas de temporada con yogur de la casa, queso cottage, granola y miel de abeja.",
+     "price": 195,
+     "img": "2115675094-1708109748641.jpg"
+    },
+    {
+     "name": "Ensalada Romana",
+     "desc": "Lechuga romana con pollo, tomate, cebolla morada, pimientos, crutones, parmesano y aderezo italiano de la casa.",
+     "price": 208,
+     "img": "2115675093-1708109748641.jpg"
+    },
+    {
+     "name": "Wrap",
+     "desc": "Hojas de lechuga con pechuga de pollo a la parrilla, pimientos, champiñones, tomate, aguacate y aderezo especial de la casa.",
+     "price": 208,
+     "img": "2115675096-1708109772111.jpg"
+    },
+    {
+     "name": "Ensalada de Pera",
+     "desc": "Base de espinaca baby con pera, nuez caramelizada, queso feta y aderezo balsámico cítrico de la casa.",
+     "price": 195,
+     "img": "2115675095-1708109748641.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Omelettes",
+   "products": [
+    {
+     "name": "Omelette de Espinaca y Crema",
+     "desc": "Omelette con finas espinacas, champiñones, queso, crema de la casa, acompañado de chilaquiles y frijoles refritos.",
+     "price": 195,
+     "img": "2115675150-1708109784210.jpg"
+    },
+    {
+     "name": "Omelette de Rajas Poblanas",
+     "desc": "Omelette con rajas de chile poblano tatemado, elote, cebolla, queso monterrey, bañado en crema poblana, acompañado de chilaquiles y frijoles refritos.",
+     "price": 215,
+     "img": "2115675153-1708109790116.jpg"
+    },
+    {
+     "name": "Omelette Huitlacoche",
+     "desc": "Omelette con huitlacoche, guisado en ajo, pico de gallo, queso monterrey, acompañado de chilaquiles y frijoles refritos.",
+     "price": 195,
+     "img": "2115675154-1708109790114.jpg"
+    },
+    {
+     "name": "Tricolor",
+     "desc": "Omelette mezclado con pimientos, jamón, champiñones, espinacas, queso, crema de la casa, acompañado de chilaquiles y frijoles refritos.",
+     "price": 220,
+     "img": "2115675151-1708109760135.jpg"
+    },
+    {
+     "name": "Omelette de Mole Casero",
+     "desc": "Omelette con pechuga de pollo a la plancha, queso, bañado en salsa de mole, acompañado de chilaquiles y frijoles refritos.",
+     "price": 208,
+     "img": "2115675147-1708109766191.jpg"
+    },
+    {
+     "name": "Omelette de Jamón y Queso",
+     "desc": "Omelette relleno con queso monterrey, jamón ahumado, acompañado de chilaquiles y frijoles refritos.",
+     "price": 188,
+     "img": "2115675155-1708109942389.png"
+    },
+    {
+     "name": "Omelette Mexicano",
+     "desc": "Omelette con jamón, tocino, tomate, cebolla, serrano, cilantro, bañado en doble salsa de la casa, acompañado de chilaquiles y frijoles refritos.",
+     "price": 208,
+     "img": "2115675152-1708109760132.jpg"
+    },
+    {
+     "name": "Omelette de Chorizo Español",
+     "desc": "Omelette con chorizo tipo español, guisado en tomate, cebolla curtida, queso, acompañado de chilaquiles y frijoles refritos.",
+     "price": 200,
+     "img": "2115675148-1708109910219.jpg"
+    },
+    {
+     "name": "Omelette Arrachera",
+     "desc": "Omelette con fajitas de arrachera, cocidas en pimientos, espinacas, champiñón, bañado de salsa roja, acompañado de chilaquiles y frijoles refritos.",
+     "price": 230,
+     "img": "2115675156-1708109970565.jpg"
+    },
+    {
+     "name": "Omelette de Camarones",
+     "desc": "Omelette con camarones sazonados, mantequilla, ajo, cocinados en cebolla, chile de árbol bañado de crema chipotle, acompañado de chilaquiles y frijoles refritos.",
+     "price": 243,
+     "img": "2115675149-1708109790113.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Platillos",
+   "products": [
+    {
+     "name": "Hot Cakes",
+     "desc": "4 Hot cakes con acompañamiento a elegir.",
+     "price": 160,
+     "img": "2115675159-1708109772122.jpg"
+    },
+    {
+     "name": "Waffles",
+     "desc": "2 Waffles con opción de acompañamiento. Imagen muestra plátano, fresas, arándanos y crema.",
+     "price": 170,
+     "img": "2115675157-1708109784212.jpg"
+    },
+    {
+     "name": "Pan Francés",
+     "desc": "2 Panes francés con acompañamiento a elegir.",
+     "price": 170,
+     "img": "2115675158-1708109790116.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Menú Infantil",
+   "products": [
+    {
+     "name": "Continental Kids",
+     "desc": "2 Hot cakes con huevo revuelto y salchicha.",
+     "price": 130,
+     "img": "2115675103-1708110076239.png"
+    },
+    {
+     "name": "Chicken Nuggets",
+     "desc": "Nuggets de pollo 150 gr con guarnición de papas a la francesa.",
+     "price": 156,
+     "img": "2115675105-1708109766192.jpg"
+    },
+    {
+     "name": "Vaquita Feliz",
+     "desc": "Fajitas de arrachera 150 gr, acompañado con papas a la francesa.",
+     "price": 169,
+     "img": "e17bccb3-e419-451a-abea-850aca022c96.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Flan de Elote",
+     "desc": "Flan elote de la casa, porción personal",
+     "price": 96,
+     "img": "gp_desserts_otra_flan_de_elote_n.jpg"
+    },
+    {
+     "name": "Pay de Plátano",
+     "desc": "Pay plátano de la casa, porción personal.",
+     "price": 102,
+     "img": "2115675108-1708109784210.jpg"
+    },
+    {
+     "name": "Pastel Choco de Moka",
+     "desc": "Pastel de chocolate con moka, porción personal.",
+     "price": 126,
+     "img": "2115675107-1708109777960.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Calientes",
+   "products": [
+    {
+     "name": "Americano 10 Oz",
+     "desc": "Café procesado en una máquina de expreso.",
+     "price": 60,
+     "img": "2115675619-1708109743237.jpg"
+    },
+    {
+     "name": "De la Olla 10 Oz",
+     "desc": "Café aromatizado de canela y piloncillo.",
+     "price": 78,
+     "img": "2115675622-1708109743237.jpg"
+    },
+    {
+     "name": "Capuccino 10 Oz",
+     "desc": "Café expresso con leche entera.",
+     "price": 74,
+     "img": "2115675624-1708109748640.jpg"
+    },
+    {
+     "name": "Latte 10 Oz",
+     "desc": "Café a base de expresso, leche entera al vapor y espuma.",
+     "price": 74,
+     "img": "2115675625-1708109753979.jpg"
+    },
+    {
+     "name": "Frapuccino 10 Oz",
+     "desc": "Frapuccino de la casa.",
+     "price": 74,
+     "img": "2115675626-1708109865441.png"
+    },
+    {
+     "name": "Chocolate Caliente 10 Oz",
+     "desc": "Chocolate preparado en agua.",
+     "price": 80,
+     "img": "2115675629-1708109777953.jpg"
+    },
+    {
+     "name": "Chocomilk 10 Oz",
+     "desc": "Chocomilk de la casa.",
+     "price": 80,
+     "img": "2115675630-1708109777955.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas de la Casa",
+   "products": [
+    {
+     "name": "Agua de Jamaica y Romero 400 ml",
+     "desc": "Agua de la casa con jamaica y romero.",
+     "price": 78,
+     "img": "2115675713-1708109743229.jpg"
+    },
+    {
+     "name": "Agua de Piña y Menta 400 ml",
+     "desc": "Agua de la casa con piña y menta.",
+     "price": 78,
+     "img": "2115675722-1708109743230.jpg"
+    },
+    {
+     "name": "Agua de Pepino con Limón y Chía 400 ml",
+     "desc": "Agua de la casa con limón, pepino y romero.",
+     "price": 78,
+     "img": "2115675726-1708109743230.jpg"
+    },
+    {
+     "name": "Agua de Cebada 400 ml",
+     "desc": "Agua de la casa con cebada.",
+     "price": 78,
+     "img": "2115675728-1708109743229.jpg"
+    },
+    {
+     "name": "Agua de Arroz 400 ml",
+     "desc": "Agua de la casa con arroz.",
+     "price": 78,
+     "img": "f4970fdd-d539-4a60-829a-bf6bc0317f3d.jpeg"
+    },
+    {
+     "name": "Limonada Mineral 400 ml",
+     "desc": "Limonada mineral de la casa.",
+     "price": 65,
+     "img": "2115675740-1708109753980.jpg"
+    },
+    {
+     "name": "Limonada Natural 400 ml",
+     "desc": "Limonada natural de 400 ml.",
+     "price": 65,
+     "img": "2115675741-1708109839970.png"
+    },
+    {
+     "name": "Naranjada Mineral 400 ml",
+     "desc": "Naranjada mineral de la casa.",
+     "price": 65,
+     "img": "2115675742-1708109753979.jpg"
+    },
+    {
+     "name": "Naranjada Natural 400 ml",
+     "desc": "Naranjada de la casa.",
+     "price": 65,
+     "img": "2115675743-1708109851095.png"
+    },
+    {
+     "name": "Jugo Naranja 10 Oz",
+     "desc": "Jugo de la casa con naranja.",
+     "price": 80,
+     "img": "2115675627-1708109766194.jpg"
+    },
+    {
+     "name": "Jugo Verde 10 Oz",
+     "desc": "Jugo de la casa.",
+     "price": 80,
+     "img": "2115675628-1708109772119.jpg"
+    }
+   ]
+  }
+ ]
+}

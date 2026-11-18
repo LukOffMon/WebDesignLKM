@@ -47,20 +47,33 @@ def preset(r):
         pass
     if r.get("alta"):
         p["alta"] = r["alta"]
+    if r.get("sin_web"):
+        p["sin_web"] = True
     p["q"] = calidad(r["slug"])
     return p
 
 
+def negociados(html):
+    """Nombres de la lista NEGOCIADOS del macro (lugares ya trabajados que no deben volver a la lista)."""
+    m = re.search(r"const NEGOCIADOS = (\[.*?\]);", html, re.S)
+    return {n.lower() for n in json.loads(m.group(1))} if m else set()
+
+
 def main():
-    rows = [preset(r) for r in CFG["restaurantes"]]
+    html = path = None
+    if "--macro" in sys.argv:
+        path = Path(sys.argv[sys.argv.index("--macro") + 1])
+        html = path.read_text(encoding="utf-8")
+    # Fuera: los marcados "negociado" en prospectos.json y los que el macro ya tiene en NEGOCIADOS.
+    # Sus menús siguen en línea; solo dejan de aparecer como prospectos.
+    fuera = negociados(html) if html else set()
+    rows = [preset(r) for r in CFG["restaurantes"] if not r.get("negociado") and r["nombre"].lower() not in fuera]
     (ROOT / "macro.json").write_text(json.dumps({"actualizado": max((p.get("alta", "") for p in rows), default=""),
                                                  "prospectos": rows}, ensure_ascii=False, separators=(",", ":")),
                                      encoding="utf-8")
     print(f"macro.json: {len(rows)} prospectos")
-    if "--macro" not in sys.argv:
+    if not html:
         return
-    path = Path(sys.argv[sys.argv.index("--macro") + 1])
-    html = path.read_text(encoding="utf-8")
     m = re.search(r"const PRESETS = \[\n(.*?)\n\];", html, re.S)
     viejos = [json.loads(l.rstrip(",")) for l in m.group(1).split("\n") if l.strip()]
     orden = [p["menu"] for p in viejos]
