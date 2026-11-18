@@ -1,0 +1,851 @@
+{
+ "id": 1923218128,
+ "brandName": "Los Faroles",
+ "name": "Los Faroles - Centro Centro",
+ "address": "Calle Manuel Sánchez Mármol 404B, Centro, Villahermosa, Tabasco 86000",
+ "schedule": "08:15:00 - 23:15:00",
+ "categories": "Tortas y Sandwiches · Desayunos y Brunch",
+ "location": [
+  -92.9172871,
+  17.991207
+ ],
+ "city": "Villahermosa",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/los-faroles-logo-1580926501258.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mxxlosfaroles-1679415631816.jpg",
+ "schedules": [
+  {
+   "open_time": "08:15:00",
+   "close_time": "23:15:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923218128-los-faroles",
+ "menu": [
+  {
+   "name": "Tortas Sencillas ",
+   "products": [
+    {
+     "name": "Torta Chorizo",
+     "desc": "Torta Chorizo con lechuga, cebolla morada y jalapeños.",
+     "price": 100,
+     "img": "b5d650e0-2770-4ada-9431-ffee522ad2e6.png"
+    },
+    {
+     "name": "Torta Salchicha",
+     "desc": "Torta con salchicha, aguacate, jitomate, cebolla y jalapeños.",
+     "price": 43.75,
+     "img": "ae5f02a9-9e9a-422a-838b-d46dcbe2288e_a3.png"
+    },
+    {
+     "name": "Torta Pierna",
+     "desc": "Torta de pierna con jitomate, lechuga y jalapeños en pan crujiente. agucate",
+     "price": 80,
+     "img": "a06c8c74-7d70-4af6-80a5-03c56e67d58a_a.png"
+    },
+    {
+     "name": "Torta Jamón",
+     "desc": "Torta de jamón con queso, lechuga y jitomate.",
+     "price": 70,
+     "img": "ec0fb70d-6113-4a4d-8613-79f8fb214b1b_a3.png"
+    },
+    {
+     "name": "Torta Pollo",
+     "desc": "Torta de pollo con lechuga, jitomate, aguacate, catsup, mayonesa y chiles en rajas.",
+     "price": 85,
+     "img": "a4c50f76-236f-4dbb-9855-64bb690d8174.png"
+    }
+   ]
+  },
+  {
+   "name": "Promo Rappi",
+   "products": [
+    {
+     "name": "Chilaquiles 2 x 1",
+     "desc": "Chilaquiles con cilantro cebolla, queso crema y salsa roja.",
+     "price": 100,
+     "img": "ad1f8c00-85d5-4512-90f8-3a71f7033c79_a.png"
+    },
+    {
+     "name": "Flautas 2 x 1",
+     "desc": "Flautas 2x1, con lechuga, crema y queso. Rellena de pollo o barbacoa.",
+     "price": 120,
+     "img": "93e2c087-a4cc-4123-bbc4-bacec920cda6_a2.png"
+    },
+    {
+     "name": "Torta jamón 2 x 1",
+     "desc": "Torta jamón con queso, lechuga y jitomate. Promoción 2x1.",
+     "price": 120,
+     "img": "ec0fb70d-6113-4a4d-8613-79f8fb214b1b_a2.png"
+    },
+    {
+     "name": "Torta de pastor 2 x 1",
+     "desc": "Promoción 2x1 de torta con pan telera, carne al pastor, tomate, cebolla, aguacate y salsa a elegir.",
+     "price": 75,
+     "img": "67150de4-7413-4647-a48a-189792e0dece_a11.png"
+    },
+    {
+     "name": "Torta salchicha 2 x 1",
+     "desc": "Torta salchicha 2x1 con aguacate, jitomate, jalapeños, lechuga y cebolla.",
+     "price": 75,
+     "img": "ae5f02a9-9e9a-422a-838b-d46dcbe2288e_a2.png"
+    }
+   ]
+  },
+  {
+   "name": "Promo Prime",
+   "products": [
+    {
+     "name": "Arrachera 2 x1",
+     "desc": "Arrachera de 330 g acompañada de puré, ensalada con aguacate y tomate, y salchicha asada.",
+     "price": 400,
+     "img": "d57bedda-d1cb-4582-90eb-ffb9fd58266c.png"
+    },
+    {
+     "name": "New york 2 x 1",
+     "desc": "330 Gr de carne con salchicha asada, puré y ensalada.",
+     "price": 400,
+     "img": "e99660c6-026a-4bd8-9206-31f8adba6ae5_a2.png"
+    },
+    {
+     "name": "Orden de Carne Asada 2 x 1",
+     "desc": "2 órdenes de carne asada acompañadas de ensalada con lechuga, jitomate y aguacate, además de frijoles y queso.",
+     "price": 240,
+     "img": "4b8ef1d0-5916-42e3-96c6-b27e6ff712fb.png"
+    },
+    {
+     "name": "Milanesa de Res 2 x 1",
+     "desc": "Dos milanesas de res.",
+     "price": 150,
+     "img": "cd77ea55-a83b-4280-a4c3-b1a8377839ad_a12.png"
+    }
+   ]
+  },
+  {
+   "name": "RappiPromo",
+   "products": [
+    {
+     "name": "Taco Pastor 2x1",
+     "desc": "Tacos al pastor 2x1 con cebolla y cilantro piña asada",
+     "price": 25,
+     "img": "55bd5eff-4e9a-4ff2-a346-95028ea5c1aa_a.png"
+    },
+    {
+     "name": "Taco Chuleta 2 x 1",
+     "desc": "Tacos de chuleta servidos en tortillas de maíz. Incluyen limón para acompañar.",
+     "price": 25,
+     "img": "c0b3dd25-8f8a-4d66-bad8-b35f35474acc_a.png"
+    },
+    {
+     "name": "Taco Cochinita 2 x 1",
+     "desc": "Taco de cochinita pibil con cebolla morada sobre tortilla de maíz.",
+     "price": 25,
+     "img": "c62f9e4b-1ca8-4f28-9211-994d946e07bd_a.png"
+    },
+    {
+     "name": "Paquete tacos + refresco",
+     "desc": "Paquete con 6 tacos de cáscara dura con carne molida, queso, jitomate, cebolla y cilantro, más un refresco a elección.",
+     "price": 90,
+     "img": "2fee2fd2-7b3d-4a7b-98f8-c501b2ecba85.jpeg"
+    },
+    {
+     "name": "Paquete gringa + tacos + refresco",
+     "desc": "Incluye 1 gringa, 4 tacos y un refresco a elección.",
+     "price": 110,
+     "img": "52b51938-2398-4f40-964a-ce6af12c4ce0.jpeg"
+    },
+    {
+     "name": "Gringas de pastor 2 x 1",
+     "desc": "Gringas de pastor 2x1 con carne al pastor y queso.",
+     "price": 78,
+     "img": "3056c826-bdac-4076-93d8-7c583627f73d_a.png"
+    },
+    {
+     "name": "Gringas de chuleta",
+     "desc": "Gringas rellenas de chuleta de cerdo, servidas en tortillas de harina.",
+     "price": 70,
+     "img": "011c6e45-fdfe-4055-a2a2-05346e33aa5a.png"
+    }
+   ]
+  },
+  {
+   "name": "Desayunos Económicos",
+   "products": [
+    {
+     "name": "Paquete 2",
+     "desc": "Omelete de huevo, plato de frutas, 1 café, 1 jugo  de 200 ml o agua de frutas.",
+     "price": 118,
+     "img": "cac51b89-126d-4eb1-9755-b3e82f050b97.png"
+    },
+    {
+     "name": "Paquete 9",
+     "desc": "Orden de 3 panuchos, pierna y pollo, plato de frutas, 1 jugo de frutas o 1 café.",
+     "price": 118,
+     "img": "de2ae4b7-ed4c-4990-91c0-a44c5bb2bf2c.jpeg"
+    },
+    {
+     "name": "Paquete 6",
+     "desc": "Sándwich de pierna, 1 quesadilla de queso, plátano frito, 1 jugo de 250 ml.",
+     "price": 118,
+     "img": "2c8d3b51-ee74-41f3-a280-281be72f4d46.jpeg"
+    },
+    {
+     "name": "Paquete 3",
+     "desc": "Chilaquiles rojos, plato de frutas, 1 café, 1 jugo de 200 ml o agua de frutas.",
+     "price": 118,
+     "img": "db4b0f99-0b2c-4aa6-9c76-3d6039b39b4e.jpeg"
+    },
+    {
+     "name": "Paquete 5",
+     "desc": "Huevos al gusto con jamón, chorizo o tocino, 1 jugo de fruta de 250 ml y 1 café.",
+     "price": 118,
+     "img": "59fa2b8f-18ae-4dd6-8d60-83681723d073.jpeg"
+    },
+    {
+     "name": "Paquete 4",
+     "desc": "Chilaquiles con pollo, frutas, 1 jugo de frutas 230 ml y 1 café.",
+     "price": 118,
+     "img": "57ce3866-9aad-4e04-8484-c82b94080ccf.jpeg"
+    },
+    {
+     "name": "Paquete 8",
+     "desc": "Orden de 4 enchiladas de mole con arroz, 1 café, 1 jugo o agua de fruta.",
+     "price": 118,
+     "img": "d0950870-af93-4c90-8b82-bfc43fecfeb9.jpeg"
+    },
+    {
+     "name": "Paquete 1",
+     "desc": "Hotcake, tocino frito o huevo estrellado, fruta, 1 jugo de 200 ml y 1 café.",
+     "price": 110,
+     "img": "f9c8deb5-6ae1-49c7-aa9d-8e9e6fa3ef05.jpeg"
+    },
+    {
+     "name": "Paquete 7",
+     "desc": "Huevos motuleños, plato de frutas, 1 café, 1 jugo o agua de frutas de 250 ml.",
+     "price": 118,
+     "img": "e79c3caf-1ef6-47e0-a487-e3ae93601a95.jpeg"
+    },
+    {
+     "name": "Paquete 10",
+     "desc": "2 Piezas de huevos divorciados, plátano frito, arroz o frijol, 1 jugo de 250 ml y 1 café.",
+     "price": 118,
+     "img": "a1d7ff5f-76a2-424f-b704-d87c5c921200.png"
+    }
+   ]
+  },
+  {
+   "name": "Sopas y Caldos",
+   "products": [
+    {
+     "name": "Frijoles Charros",
+     "desc": "Frijoles cocidos con tocino, cebolla y cilantro.",
+     "price": 67.5,
+     "img": "682f54e7-e3ba-4a59-b2da-1d5b86d06326_a.png"
+    },
+    {
+     "name": "Consomé de Pollo",
+     "desc": "Consomé de pollo con cilantro.",
+     "price": 120,
+     "img": "8aee847a-b552-4d70-b9b8-fe95087ebd39_a.png"
+    },
+    {
+     "name": "Mondongo",
+     "desc": "Sopa de mondongo con verduras.",
+     "price": 120,
+     "img": "c00942b6-41d7-41ef-bbde-e4403d45224d_a.png"
+    },
+    {
+     "name": "Pozole",
+     "desc": "Pozole rojo con carne y maíz.",
+     "price": 125,
+     "img": "4922924f-f0ac-415e-8c88-24562d1710b9_a.png"
+    },
+    {
+     "name": "Barbacoa",
+     "desc": "Barbacoa en caldo con carne, cilantro y garbanzos.",
+     "price": 75,
+     "img": "14cd141c-166b-4ecd-8dad-949725814d46_a.png"
+    },
+    {
+     "name": "Caldo Tlalpeño",
+     "desc": "Caldo Tlalpeño con pollo, aguacate, queso, chipotle y crema.",
+     "price": 125,
+     "img": "195447f2-9e43-4488-b31c-43b8b4fdfdf1.png"
+    },
+    {
+     "name": "Sopa de Tortilla",
+     "desc": "Sopa de Tortilla con totopos, aguacate, queso y chicharrón.",
+     "price": 130,
+     "img": "de8ffbeb-c45a-4dbc-8755-6c1afc213b94_a.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Alambre con Queso ",
+     "desc": "Carne a la parrilla, tiras de tocino, pimientos, cebollas y queso derretido servido con tortillas. escoge que carne pastor asada o chuleta",
+     "price": 190,
+     "img": "1abd65e2-9f62-4fea-bb48-d68b07fd952c.png"
+    },
+    {
+     "name": "Taco Chorizo",
+     "desc": "Taco de chorizo con cebolla y cilantro, acompañado de limón y chile.",
+     "price": 25,
+     "img": "8fb4aec5-e5fb-445a-ba9a-3b27bfea31aa_a1.png"
+    },
+    {
+     "name": "Tco Barbacoa",
+     "desc": "Taco de barbacoa con cebolla morada y cilantro en tortilla de maíz.",
+     "price": 25,
+     "img": "0ce4cb44-3138-4b27-b663-2ea6caff1b22_a20.png"
+    },
+    {
+     "name": "Taco con Tortilla de Harina",
+     "desc": "Taco con tortilla de harina y carne deshebrada.",
+     "price": 50,
+     "img": "888e236c-9845-445d-8964-7ce5f217c8b4_a9.png"
+    },
+    {
+     "name": "Taco Asada",
+     "desc": "Taco de carne asada en tortilla de maíz.",
+     "price": 26,
+     "img": "866f85ab-faad-4101-8e5a-6eaacc138ff0.png"
+    },
+    {
+     "name": "Taco Longaniza",
+     "desc": "Taco de longaniza con cebolla y cilantro.",
+     "price": 25,
+     "img": "2aa23f21-1402-44ee-a6e2-8de646b1203c_a14.png"
+    },
+    {
+     "name": "Taco Pastor Directo",
+     "desc": "Taco de pastor con cebolla, cilantro y rodajas de chile. Servido en tortilla de maíz.",
+     "price": 24,
+     "img": "c63d9e49-ef62-400a-b00e-aea382342d97_a3.png"
+    }
+   ]
+  },
+  {
+   "name": "Hecho en Harina",
+   "products": [
+    {
+     "name": "Gringas de chuleta",
+     "desc": "Gringas rellenas de chuleta de cerdo, servidas en tortillas de harina.",
+     "price": 70,
+     "img": "011c6e45-fdfe-4055-a2a2-05346e33aa5a.png"
+    },
+    {
+     "name": "Quesadillas",
+     "desc": "Quesadillas con champiñones, elote y pimientos.",
+     "price": 22,
+     "img": "b764234e-243e-4f2d-9006-e64a3ed7792a_a6.png"
+    },
+    {
+     "name": "Sincronizadas con Carne",
+     "desc": "Sincronizadas con carne, acompañadas de maíz y pimientos.",
+     "price": 85,
+     "img": "b764234e-243e-4f2d-9006-e64a3ed7792a_a5.png"
+    },
+    {
+     "name": "Quesadillas con Jamón",
+     "desc": "Quesadillas rellenas de jamón y queso.",
+     "price": 24,
+     "img": "17270a24-b26a-4869-a887-20ff7ec0abc0_a7.png"
+    },
+    {
+     "name": "Gringa Sirlon",
+     "desc": "Gringa con carne de sirloin en tortilla de harina, acompañada de guarniciones opcionales.",
+     "price": 70,
+     "img": "f3306840-d140-4ca1-b456-9ace1466760f_a5.png"
+    },
+    {
+     "name": "Sincronizadas",
+     "desc": "Sincronizadas con jamón, queso y aguacate.",
+     "price": 55,
+     "img": "ac491f34-9eb5-4e9c-9223-46be5bb457d0_a16.png"
+    },
+    {
+     "name": "Gringa Asada",
+     "desc": "Gringa con carne asada sobre tortilla.",
+     "price": 70,
+     "img": "54785acd-8ce5-4ec8-9106-8d9403868834.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Hecho en Masa",
+   "products": [
+    {
+     "name": "Empanadas de Pollo O Pierna",
+     "desc": "Orden de 3 empanadas de pollo o pierna.",
+     "price": 95,
+     "img": "67bfdbbc-e1f2-4d27-8f6d-547efbc807f2.png"
+    },
+    {
+     "name": "Panuchos de Pollo O Pierna",
+     "desc": "Orden de 3 panuchos de pollo o pierna.",
+     "price": 95,
+     "img": "08910b3c-7018-454a-b32e-d108d7a24e12_a.png"
+    },
+    {
+     "name": "Empanadas de Camarón",
+     "desc": "Orden de 3 empanadas de camarón con queso.",
+     "price": 99,
+     "img": "c4237e01-77c4-42d4-bdbc-eb7e90ed2b4c_a.png"
+    },
+    {
+     "name": "Tostadas de Pollo O Pierna",
+     "desc": "3 tostadas de pollo o pierna, con aguacate, crema y queso.",
+     "price": 95,
+     "img": "22efdfe3-8df7-4629-87f2-805265ed1960_a1.png"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Alambre",
+     "desc": "Alambre con carne, pimientos cebolla tocino chorizo, y acompañado de tortillas salsas y limon.",
+     "price": 140,
+     "img": "af3b043b-d3fa-4863-b508-4b19a0018df5_a22.png"
+    },
+    {
+     "name": "Alambre con Queso",
+     "desc": "Alambre con queso, carne de res, o chuleta o pastor pimientos y cebolla, cubierto con queso derretido. tocino y chorizo acompañado con salsas tortollas y limon",
+     "price": 175,
+     "img": "cd15ea2f-95db-43cc-8ed2-f27b764906a2.jpeg"
+    },
+    {
+     "name": "Orden Del Trompo",
+     "desc": "A elegir entre pastor, asada,sirlon o chuleta.",
+     "price": 100,
+     "img": "652468d0-c673-4a43-ac42-d92aa9b54981_a.png"
+    },
+    {
+     "name": "Papa Rellena",
+     "desc": "Papa Rellena frita con el relleno que elijas: pastor, chuleta o asada. Incluye salsas, tortillas y limón.",
+     "price": 120,
+     "img": "0fd69590-025b-4a3c-a671-d88bbc0cfb10_a17.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortas Combinadas",
+   "products": [
+    {
+     "name": "Tortas Combinación de 3",
+     "desc": "Tortas con combinación de 3 ingredientes a elección: una carne y 2 carnes frías. Incluyen lechuga, jitomate, aguacate y queso.",
+     "price": 150,
+     "img": "158ea011-dd91-4db2-8c79-02356d1c012f_a39.png"
+    },
+    {
+     "name": "Tortas Combinación de 2",
+     "desc": "Dos tortas con medallón de carne, lechuga y salsa. Elige 2 ingredientes, como queso, jitomate o pepinillos, para cada una.",
+     "price": 130,
+     "img": "75338d6b-f139-4fbe-becc-db4501c0baa2.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tortas Especiales",
+   "products": [
+    {
+     "name": "Torta Asada con Queso",
+     "desc": "Torta de carne asada con queso, aguacate y jalapeños en pan crujiente.",
+     "price": 110,
+     "img": "e5215b6d-09e2-4c12-8791-0140154924af.jpeg"
+    },
+    {
+     "name": "Torta Pastor con Queso",
+     "desc": "Torta de carne al pastor con queso, acompañada de aguacate, jitomate y cebolla.",
+     "price": 110,
+     "img": "67150de4-7413-4647-a48a-189792e0dece_a12.png"
+    },
+    {
+     "name": "Torta Chuleta con Queso",
+     "desc": "Torta de chuleta con queso, acompañada de aguacate y salsa.",
+     "price": 90,
+     "img": "2286dd07-9ff6-4896-a22f-0fc1d150173e_a.png"
+    },
+    {
+     "name": "Torta Milanesa",
+     "desc": "Torta con milanesa, aguacate, jitomate, cebolla y lechuga.",
+     "price": 100,
+     "img": "75c1f844-4caa-4192-9c21-7f6148065318_a20.png"
+    },
+    {
+     "name": "Torta Milanesa con Queso",
+     "desc": "Torta de milanesa con queso, aguacate, jitomate y cebolla.",
+     "price": 130,
+     "img": "75c1f844-4caa-4192-9c21-7f6148065318_a21.png"
+    },
+    {
+     "name": "Torta Cubana",
+     "desc": "Torta Cubana con carne, chorizo, guacamole y queso.",
+     "price": 125,
+     "img": "8337c075-26c5-435f-8492-fdb48e1761bc_a1.png"
+    },
+    {
+     "name": "Torta Cubana Super",
+     "desc": "Torta con carnes mixtas, queso derretido y aguacate, servida en pan crujiente.",
+     "price": 135,
+     "img": "8337c075-26c5-435f-8492-fdb48e1761bc_a.png"
+    },
+    {
+     "name": "Torta Hawaiana",
+     "desc": "Torta con jamón, piña, queso, jitomate, cebolla y aguacate.",
+     "price": 135,
+     "img": "f4e3da6b-0c01-4117-9fb9-bbbe5dcdf727_a1.png"
+    }
+   ]
+  },
+  {
+   "name": "Hamburguesas",
+   "products": [
+    {
+     "name": "Hamburguesa Sencilla",
+     "desc": "Hamburguesa con carne, lechuga y jitomate en pan con ajonjolí.",
+     "price": 70,
+     "img": "efd6702e-ed7b-4248-acf1-1eb9dcfaffbc_a.png"
+    },
+    {
+     "name": "2 Hamburguesas sencillas",
+     "desc": "2 hamburguesas sencillas con lechuga, tomate, cebolla y queso.",
+     "price": 120,
+     "img": "ec1133b5-9fd8-46b7-b79e-35b1d1ffe2a8_a.png"
+    },
+    {
+     "name": "Hot Dog 3 Piezas",
+     "desc": "Tres hot dogs servidos con mostaza y catsup, acompañados de papas fritas.",
+     "price": 55,
+     "img": "31935a13-1f52-4a9f-aec6-1203c93aa3a2.jpeg"
+    },
+    {
+     "name": "Hamburguesa Combinada",
+     "desc": "Hamburguesa con carne, pollo empanizado, queso, lechuga, tomate y cebolla.",
+     "price": 75,
+     "img": "9eb73100-594a-4b93-b551-906b5fd00aee_a.png"
+    },
+    {
+     "name": "Hamburguesa Doble",
+     "desc": "Hamburguesa doble con queso, lechuga, jitomate y cebolla.",
+     "price": 110,
+     "img": "ec814de0-9bbe-44a7-8f95-b5d71749f0c6_a18.png"
+    },
+    {
+     "name": "Hamburguesa Arrachera",
+     "desc": "Hamburguesa de arrachera con tocino, queso, lechuga, jitomate y pepinillos.",
+     "price": 125,
+     "img": "3c2b070d-904b-4e9c-9f7d-0a4fe600ea2e_a6.png"
+    },
+    {
+     "name": "Hamburguesa Hawaiana",
+     "desc": "Hamburguesa con piña, jamón, tocino queso y lechuga.",
+     "price": 140,
+     "img": "c34d601e-e5ca-4f37-98a8-ea1cc091a0c0_a7.png"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades de pollo",
+   "products": [
+    {
+     "name": "Pechuga Rellena",
+     "desc": "Pechuga rellena con jamón y queso. papas a la francesa quesadilla y ensalada salsa verde y mexicana",
+     "price": 200,
+     "img": "8b071ef7-d5f5-4de0-937e-a0089128547e_a14.png"
+    },
+    {
+     "name": "Milanesa de Pollo",
+     "desc": "Milanesa de pollo empanizada, acompañada de ensalada fresca con lechuga tomate agucate y papas a la francesa",
+     "price": 190,
+     "img": "914fdc66-0499-4530-9113-c66cdf062d40.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Carnes Rojas",
+   "products": [
+    {
+     "name": "Orden de Carne Asada",
+     "desc": "Carne asada acompañada de salchicha guarnición de ensalada. y pure de papa",
+     "price": 195,
+     "img": "4b8ef1d0-5916-42e3-96c6-b27e6ff712fb.png"
+    },
+    {
+     "name": "Milanesa de Res",
+     "desc": "Milanesa de res empanizada, acompañada con papa a la francesa y ensalada con agucate",
+     "price": 195,
+     "img": "0a579c80-2f82-4eb0-9fb9-7b4140a06fe7_a4.png"
+    },
+    {
+     "name": "Arrachera",
+     "desc": "330 Gr de arrachera con puré, ensalada y salchicha asada.",
+     "price": 265,
+     "img": "8f4af574-3f71-4777-b7ce-e9c83b44457c.png"
+    },
+    {
+     "name": "New York",
+     "desc": "330 Gr de carne con salchicha asada, puré y ensalada.",
+     "price": 265,
+     "img": "03878fe9-ff6f-4eb0-8617-40772625e3a5.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Del Mar",
+   "products": [
+    {
+     "name": "Ensalada de Camarón a la Mexicana",
+     "desc": "Ensalada con camarones, lechuga y aderezo al estilo mexicano. Incluye ingredientes frescos como jitomate, cebolla y aguacate.",
+     "price": 190,
+     "img": ""
+    },
+    {
+     "name": "Cóctel de Camarón Grande",
+     "desc": "Cóctel de camarón grande con aguacate y cilantro.",
+     "price": 195,
+     "img": "af7830a5-8557-4315-b648-029ba4cbdc37_a.png"
+    },
+    {
+     "name": "Camarones a la Mantequilla",
+     "desc": "Camarones cocinados en mantequilla, acompañados de rodajas de limón y cilantro fresco.",
+     "price": 190,
+     "img": "a854281a-6617-4bcc-b38f-eac4a5908634_a8.png"
+    },
+    {
+     "name": "Camarones a la Diabla",
+     "desc": "Camarones en salsa picante de chile rojo.",
+     "price": 190,
+     "img": "55ecd133-ca0a-4dea-92d8-60dd115c75fc_a.png"
+    },
+    {
+     "name": "Camarones Empanizados",
+     "desc": "Camarones empanizados crujientes.",
+     "price": 230,
+     "img": "04a0ccf2-b184-4408-81e6-1b7f38b00aae_a.png"
+    },
+    {
+     "name": "Cóctel de Camarón Chico",
+     "desc": "Cóctel de Camarón Chico con aguacate.",
+     "price": 170,
+     "img": "8f3da29b-9b90-4457-acfa-7e0b6201154f_a33.png"
+    },
+    {
+     "name": "Mojarra Frita",
+     "desc": "Mojarra frita acompañada de arroz, papas fritas y ensalada de lechuga y jitomate.",
+     "price": 170,
+     "img": "7cc77dd2-6195-427d-b4a2-e4228a9d6ce1_a.png"
+    },
+    {
+     "name": "Ensalada de Camarón a la Rusa",
+     "desc": "Ensalada de camarón con lechuga, huevo, crutones y aderezos variados.",
+     "price": 190,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58_a23.png"
+    }
+   ]
+  },
+  {
+   "name": "Platillos",
+   "products": [
+    {
+     "name": "Bistec a la Mexicana",
+     "desc": "Bistec a la mexicana con arroz y papas.",
+     "price": 120,
+     "img": "187cf9e3-3e4b-4364-9014-2775b94277fe_a.png"
+    },
+    {
+     "name": "Chilaquiles",
+     "desc": "Chilaquiles con salsa roja, crema y queso.",
+     "price": 95,
+     "img": "9dd57418-44b4-4a27-a7af-ced681f91eba_a77.png"
+    },
+    {
+     "name": "Chilaquiles con Pollo",
+     "desc": "Chilaquiles con pollo, bañados en salsa verde, con crema y queso.",
+     "price": 73.75,
+     "img": "deab4ff7-1dcf-4730-856a-4561445a8411_a80.png"
+    },
+    {
+     "name": "Enchiladas de Mole",
+     "desc": "Enchiladas cubiertas de mole, con queso y cebolla.",
+     "price": 110,
+     "img": "7d43da2e-223a-4835-94c8-938f75484ab4_a8.png"
+    },
+    {
+     "name": "Enchiladas Rojas",
+     "desc": "Enchiladas bañadas en salsa roja, rellenas de queso, cubiertas con cebolla y crema.",
+     "price": 110,
+     "img": "b68cec10-d62c-48c4-a82f-160d2aca8458_a.png"
+    },
+    {
+     "name": "Enchiladas Suizas",
+     "desc": "Enchiladas con salsa verde, crema y queso.",
+     "price": 68.75,
+     "img": "400291ed-ed95-4ece-9fc5-7bcdefe075ef_a.png"
+    },
+    {
+     "name": "Espaguetti con Carne",
+     "desc": "Espaguetti con carne molida en salsa de tomate, decorado con albahaca.",
+     "price": 56.25,
+     "img": "9295fa89-4b30-4e4a-a4e5-a1b7a0ac3306.jpeg"
+    },
+    {
+     "name": "Flautas",
+     "desc": "Flautas con lechuga picada, crema y queso desmoronado.",
+     "price": 80,
+     "img": "93e2c087-a4cc-4123-bbc4-bacec920cda6_a3.png"
+    }
+   ]
+  },
+  {
+   "name": "Café",
+   "products": [
+    {
+     "name": "Café con Leche Chico",
+     "desc": "Café con leche en tamaño chico, ideal para disfrutar en cualquier momento del día.",
+     "price": 28,
+     "img": "88cd5297-c5d5-4232-9bc3-4b55eda64107.png"
+    },
+    {
+     "name": "Café con Leche Grande",
+     "desc": "Café con leche en tamaño grande, servido caliente.",
+     "price": 38,
+     "img": "88cd5297-c5d5-4232-9bc3-4b55eda64107.png"
+    },
+    {
+     "name": "Café Instantáneo Chico",
+     "desc": "Café instantáneo.",
+     "price": 25,
+     "img": "0392debe-d83f-4362-856e-e4da41ab190c.jpg"
+    },
+    {
+     "name": "Café Instantáneo Grande",
+     "desc": "Café instantáneo.",
+     "price": 32,
+     "img": "0392debe-d83f-4362-856e-e4da41ab190c.jpg"
+    },
+    {
+     "name": "Café de Olla Chico",
+     "desc": "Café de olla.",
+     "price": 25,
+     "img": "2e226975-e76a-40f5-b6ea-004f6a315dec.png"
+    },
+    {
+     "name": "Café de Olla Grande",
+     "desc": "Café de olla.",
+     "price": 32,
+     "img": "2e226975-e76a-40f5-b6ea-004f6a315dec.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Manzana Lata 355 ml",
+     "desc": "Refresco Sidral Mundet sabor manzana, lata de 355 ml.",
+     "price": 40,
+     "img": "eb8dae62-c3c7-4c79-88d9-bbf7cda9b9dc.png"
+    },
+    {
+     "name": "Jarra de Agua",
+     "desc": "Jarra de agua de 2 lt.",
+     "price": 100,
+     "img": "04b1a477-eec9-49cf-914a-40df529855b3.jpeg"
+    },
+    {
+     "name": "Jugo de Naranja",
+     "desc": "Jugo de naranja 1lt",
+     "price": 95,
+     "img": "631db3da-8f72-4581-880f-7630d33b8139_a3.png"
+    },
+    {
+     "name": "Jugos Embotellados",
+     "desc": "Jugos embotellados. Bebida a base de zumo de frutas con líquido color naranja, envasada individualmente en botella. Etiqueta con ilustraciones de fresa, naranja y arándano.",
+     "price": 35,
+     "img": "b8c35595-20da-4aba-916a-c172a7d20b92.jpeg"
+    },
+    {
+     "name": "Jarra de Leche",
+     "desc": "Jarra de Leche de 2 litros.",
+     "price": 120,
+     "img": "edb12dc605574cc89773500e2251fc30.png"
+    },
+    {
+     "name": "Fanta Naranja 355 ml",
+     "desc": "Fanta Naranja de 355 ml. Refresco sabor naranja. Contiene endulcorantes, no recomendable en niños.",
+     "price": 40,
+     "img": "2c753e03-4484-4ffb-9e94-f3882c60aa4f.jpeg"
+    },
+    {
+     "name": "Fanta Naranja 600 ml",
+     "desc": "Refresco Fanta sabor Naranja de 600 ml.",
+     "price": 40,
+     "img": "b55cfaa9-fbf6-488a-8b7c-43f3d3e43bd7.jpeg"
+    },
+    {
+     "name": "Coca-Cola Sin Azúcar 355 ml",
+     "desc": "Refresco Coca-Cola Sin Azúcar de 355 ml. Contiene endulcorantes y cafeína.",
+     "price": 25,
+     "img": "a963815e-a2a5-49aa-b389-a929e5249067.jpeg"
+    },
+    {
+     "name": "Coca-Cola Sin Azúcar 600 ml",
+     "desc": "Coca-Cola Sin Azúcar de 600 ml. Contiene edulcorantes y cafeína, no recomendable en niños.",
+     "price": 40,
+     "img": "88e44a5d-6d34-4828-9aa8-c75ae8f1228d.jpeg"
+    },
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Refresco Coca-Cola sabor original de 355 ml.",
+     "price": 40,
+     "img": "9f5f3e98-9811-4cc1-91b1-a44389ea210b.jpg"
+    },
+    {
+     "name": "Coca-Cola Original 600 ml",
+     "desc": "Coca-Cola Original 600 ml. Bebida con exceso en azúcares.",
+     "price": 40,
+     "img": "b8cbbcdf-3efb-4d35-99a3-5b71bf48b573.jpeg"
+    },
+    {
+     "name": "Licuado Fresa",
+     "desc": "Licuado de fresa, con una fresa.",
+     "price": 50,
+     "img": "25e0b722-d77b-49d6-aadb-daaebc1cea18_a.png"
+    },
+    {
+     "name": "Caribe Cooler Tinto 355 ml",
+     "desc": "Caribe Cooler Tinto, bebida alcohólica preparada con sabor a uva, 355 ml y 4.7% Alc. Vol.",
+     "price": 48,
+     "img": "e8aba822-10d1-4c7e-933c-8d46494ab9e1.png"
+    }
+   ]
+  },
+  {
+   "name": "Cervezas",
+   "products": [
+    {
+     "name": "Corona Extra 355 ml",
+     "desc": "Cerveza.",
+     "price": 40,
+     "img": "afb964b1-a286-49e2-b85f-6778b34b49ec.jpeg"
+    },
+    {
+     "name": "Modelo Especial Lata 355 ml",
+     "desc": "Cerveza.",
+     "price": 45,
+     "img": "83088e09-5ca3-443c-ad00-49ce5175f6c3.png"
+    },
+    {
+     "name": "Negra Modelo 355 ml",
+     "desc": "Cerveza.",
+     "price": 45,
+     "img": "8d98dec3-2eb6-4847-8497-47429530b4c7.png"
+    }
+   ]
+  }
+ ]
+}

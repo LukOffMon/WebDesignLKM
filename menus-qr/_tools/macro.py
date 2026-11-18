@@ -47,6 +47,8 @@ def preset(r):
         pass
     if r.get("alta"):
         p["alta"] = r["alta"]
+    if r.get("sin_web"):
+        p["sin_web"] = True
     p["q"] = calidad(r["slug"])
     return p
 

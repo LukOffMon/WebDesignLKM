@@ -126,6 +126,30 @@ Menús tomados de Rappi el 17 nov. 2026. Oferta: desde $650 de instalación + $2
 | 120 | Alitas El Alebrije | Aguascalientes, Ags. | [449 106 3668](https://wa.me/524491063668) | Directorio | [alitas-el-alebrije/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/qr.png) |
 | 121 | Birriería Díaz de Calvillo | Aguascalientes, Ags. | [449 146 1893](https://wa.me/524491461893) | Número propio | [birrieria-diaz/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/qr.png) |
 | 122 | Carnitas Romo | Aguascalientes, Ags. | [449 950 8671](https://wa.me/524499508671) | Número propio | [carnitas-romo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/qr.png) |
+| 123 | Mariscos Villa Marina | León, Gto. | [477 313 7061](https://wa.me/524773137061) | Número propio | [mariscos-villa-marina/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-villa-marina/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-villa-marina/qr.png) |
+| 124 | Taquería La Plancha | Pachuca, Hgo. | [771 205 7497](https://wa.me/527712057497) | Número propio | [taqueria-la-plancha/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-la-plancha/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-la-plancha/qr.png) |
+| 125 | La Cabaña Restaurante | Tuxtla Gutiérrez, Chis. | [961 375 5555](https://wa.me/529613755555) | Número propio | [la-cabana-tuxtla/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-tuxtla/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-tuxtla/qr.png) |
+| 126 | La Esquinita Cocina Mexicana | Tijuana, B.C. | [664 111 6804](https://wa.me/526641116804) | Número propio | [la-esquinita-tijuana/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-esquinita-tijuana/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-esquinita-tijuana/qr.png) |
+| 127 | La Mina del Abuelo | Tepic, Nay. | [311 740 7467](https://wa.me/523117407467) | Directorio | [la-mina-del-abuelo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-mina-del-abuelo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-mina-del-abuelo/qr.png) |
+| 128 | Patmos Cocina de Mar | Morelia, Mich. | [443 788 5040](https://wa.me/524437885040) | WhatsApp oficial | [patmos-morelia/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/patmos-morelia/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/patmos-morelia/qr.png) |
+| 129 | Los Faroles | Villahermosa, Tab. | [993 312 9164](https://wa.me/529933129164) | Número propio | [los-faroles-villahermosa/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-faroles-villahermosa/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-faroles-villahermosa/qr.png) |
+| 130 | Taco Sireno | Oaxaca de Juárez, Oax. | [951 224 0391](https://wa.me/529512240391) | WhatsApp oficial | [taco-sireno/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taco-sireno/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taco-sireno/qr.png) |
+| 131 | El Seri Pescadería | Hermosillo, Son. | [662 220 3995](https://wa.me/526622203995) | Directorio | [el-seri-pescaderia/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-seri-pescaderia/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-seri-pescaderia/qr.png) |
+| 132 | El Mar | Tuxtla Gutiérrez, Chis. | [961 600 0759](https://wa.me/529616000759) | Directorio | [el-mar-tuxtla/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mar-tuxtla/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mar-tuxtla/qr.png) |
+| 133 | Ceviches La Palapita | Hermosillo, Son. | [662 460 1640](https://wa.me/526624601640) | WhatsApp oficial | [la-palapita-hermosillo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-palapita-hermosillo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-palapita-hermosillo/qr.png) |
+| 134 | Los Huaraches de Don Juan | Mérida, Yuc. | [999 406 2242](https://wa.me/529994062242) | Número propio | [huaraches-don-juan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/huaraches-don-juan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/huaraches-don-juan/qr.png) |
+| 135 | A La Tostada | Zapopan, Jal. | [33 2226 0476](https://wa.me/523322260476) | WhatsApp oficial | [a-la-tostada/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/a-la-tostada/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/a-la-tostada/qr.png) |
+| 136 | Mariscos El Plebe | Colima, Col. | [312 330 2776](https://wa.me/523123302776) | Número propio | [mariscos-el-plebe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-el-plebe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-el-plebe/qr.png) |
+| 137 | Carnitas y Asadas El Güero | Toluca, Edo. Méx. | [722 183 4897](https://wa.me/527221834897) | Número propio | [carnitas-el-guero-toluca/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-el-guero-toluca/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-el-guero-toluca/qr.png) |
+| 138 | Mariscos Frente al Mar | Guadalajara, Jal. | [33 1204 0845](https://wa.me/523312040845) | Número propio | [mariscos-frente-al-mar/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-frente-al-mar/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-frente-al-mar/qr.png) |
+| 139 | Doraditos y Enchiladas Mary | Morelia, Mich. | [443 932 1562](https://wa.me/524439321562) | Número propio | [enchiladas-mary/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/enchiladas-mary/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/enchiladas-mary/qr.png) |
+| 140 | Taquería Los Mandiles | Toluca, Edo. Méx. | [722 213 0422](https://wa.me/527222130422) | Directorio | [taqueria-los-mandiles/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-los-mandiles/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-los-mandiles/qr.png) |
+| 141 | El Arponcillo | Veracruz, Ver. | [229 265 3447](https://wa.me/522292653447) | Directorio | [el-arponcillo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-arponcillo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-arponcillo/qr.png) |
+| 142 | Mr. Camarón Aguachilería | Morelia, Mich. | [443 261 0172](https://wa.me/524432610172) | Número propio | [mr-camaron-morelia/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mr-camaron-morelia/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mr-camaron-morelia/qr.png) |
+| 143 | Caminos de Michoacán | Morelia, Mich. | [443 225 0200](https://wa.me/524432250200) | Directorio | [caminos-de-michoacan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/caminos-de-michoacan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/caminos-de-michoacan/qr.png) |
+| 144 | Pato Blanco Cocina de Mar | Guadalajara, Jal. | [33 1459 9613](https://wa.me/523314599613) | WhatsApp oficial | [pato-blanco/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pato-blanco/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pato-blanco/qr.png) |
+| 145 | El Camarón de Oro | Durango, Dgo. | [618 109 9614](https://wa.me/526181099614) | Directorio | [el-camaron-de-oro/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-camaron-de-oro/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-camaron-de-oro/qr.png) |
+| 146 | Mi Ranchito Desayunador | Durango, Dgo. | [618 109 7261](https://wa.me/526181097261) | Directorio | [mi-ranchito-desayunador/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-ranchito-desayunador/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-ranchito-desayunador/qr.png) |
 
 ## Mensajes
 
@@ -148,6 +172,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Mariscos Save con su propia carta (zarandeados, cóctel Save y ceviche de robalo):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-save/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-save/qr/
 
 Su carta es enorme (más de 150 platillos entre tostadas, zarandeados, cortes y filetes), así que el buscador y las categorías ayudan mucho a que la mesa pida rápido.
 
@@ -178,6 +205,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Matilda Salón Mexicano con su propia carta (cochinita pibil, chamorro pibil y rib eye flameado con mezcal):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/matilda/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/matilda/qr/
+
 Tienen mucho turista en el Centro y una carta que va del desayuno al rib eye flameado con mezcal; un menú web carga al instante y se puede traducir.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo sumar versión en inglés y un botón directo a su reservación en CoverManager. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -206,6 +236,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Hanaichi con su propia carta (Aburi Roll, sashimi de toro y teppanyaki):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/hanaichi/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/hanaichi/qr/
 
 Con 15 nigiris, 18 rollos de autor y sashimis de toro, las fotos venden solas; en un PDF se pierden.
 
@@ -236,6 +269,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Antigua Fonda de la China Poblana con su propia carta (mole poblano, chalupitas y cemitas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/china-poblana/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/china-poblana/qr/
+
 Más de 100 platillos (moles, chalupas, cemitas) y mucho turista: un menú digital con fotos ayuda a decidir sin tener que explicar cada platillo.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar versión en inglés y la venta de mole en pasta para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -264,6 +300,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Mi Alma Restaurante con su propia carta (flautas, enchiladas y molletes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-alma/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-alma/qr/
 
 Su carta de desayunos es de las que más se piden con prisa; con el QR en la mesa la gente ordena sin esperar la carta.
 
@@ -294,6 +333,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Cocina Azul con su propia carta (omelette en mole coloradito, arroz negro y ensalada azul):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-azul/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-azul/qr/
+
 Al estar dentro del hotel, el mismo QR sirve en mesas y en habitaciones: el huésped ve la carta desde su celular.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe (español / inglés) para sus huéspedes extranjeros. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -322,6 +364,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Los Agustines con su propia carta (enchiladas potosinas, cecina y parrillada huasteca):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-agustines/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-agustines/qr/
 
 Las enchiladas potosinas son lo que todos buscan; en el menú quedan arriba, con foto y precio claro.
 
@@ -352,6 +397,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Restaurant Las Playas con su propia carta (tostadas de ceviche, tacos de camarón y cócteles):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-playas/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-playas/qr/
+
 Abren desde las 6:30 y atienden a mucha gente que cruza de San Diego; un menú web se abre en cualquier celular, sin app.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo mostrar precios en pesos y en dólares, y versión en inglés. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -380,6 +428,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Casona de las Rosas con su propia carta (enchiladas placeras, uchepos y corundas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/casona-de-las-rosas/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/casona-de-las-rosas/qr/
 
 Enchiladas morelianas, sopa tarasca y una carta de 80 platillos: con categorías y fotos el turista decide rápido.
 
@@ -410,6 +461,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Chicha con su propia carta (tacos de cochinita, paninis y su coctelería):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-chicha/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-chicha/qr/
+
 En la Roma la mitad de las mesas son extranjeros; un menú web con fotos y versión en inglés les ahorra pedir que les traduzcan la carta.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y con su carta de coctelería y cervezas al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -438,6 +492,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Restaurante El Maná con su propia carta (arroz a la tumbada, picadas y panuchos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mana/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mana/qr/
 
 Arroz a la tumbada, desayunos y mariscos todo el día: con el QR en la mesa, el comensal ve fotos y precios sin esperar la carta.
 
@@ -468,6 +525,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Restaurant El Zocabón con su propia carta (fajitas, filete a la tampiqueña y enchiladas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-zocabon/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-zocabon/qr/
+
 Están en pleno centro, en un edificio histórico que recomienda Lonely Planet: el turista llega con el celular en la mano y un QR en la mesa le resuelve la carta.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar versión en inglés y destacar sus paquetes de desayuno. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -496,6 +556,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Puscua, Cocina de Herencia con su propia carta (chilaquiles con nata, huevo a 75° y birria):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/puscua/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/puscua/qr/
 
 Su carta es corta y muy cuidada (chilaquiles con nata, huevo a 75°, birria); merece verse con fotos y no en una hoja suelta.
 
@@ -526,6 +589,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Restaurante Mirasol con su propia carta (chuleta entomatada, enchiladas suizas y sus brochetas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/mirasol/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mirasol/qr/
+
 Atienden huéspedes del hotel y turistas de San Miguel: con un QR en las mesas del jardín y en las habitaciones, todos ven la carta en su idioma.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y con un botón para reservar mesa por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -554,6 +620,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Carmelita Pech Fonda Yucateca con su propia carta (antojitos yucatecos, arrachera y chiles rellenos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/carmelita-pech/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/carmelita-pech/qr/
 
 Tienen casi 250 reseñas en Rappi y mucha gente local y turista; un menú con fotos de sus antojitos yucatecos ayuda a que pidan sin preguntar.
 
@@ -584,6 +653,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Los 5 Reyes con su propia carta (parrilladas, tacos al pastor y alambres):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cinco-reyes/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cinco-reyes/qr/
+
 Con parrilladas para cinco y kilos para llevar, el menú digital ayuda a que la mesa arme su pedido completo y lo mande por WhatsApp.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo poner sus promos del día al frente y un botón de pedido para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -612,6 +684,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Cocina de Tomasa con su propia carta (birria con consomé, pozole y carne asada):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-de-tomasa/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-de-tomasa/qr/
 
 Vallarta está lleno de turistas que no conocen los platillos; con fotos y descripción en inglés piden más y más rápido.
 
@@ -642,6 +717,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tezcalli Cocina Mexicana con su propia carta (pozole, charola Tezcalli y sus antojitos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tezcalli/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tezcalli/qr/
+
 Ya venden pozole por litro y paquetes; con un QR en mesas y en cada bolsa para llevar, el cliente vuelve a pedir directo por WhatsApp.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus paquetes al frente y sus precios de salón. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -670,6 +748,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Josefina Cocina del Valle con su propia carta (chilaquiles con arrachera, waffles y molletes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/josefina/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/josefina/qr/
 
 Su carta de desayunos tiene más de 70 opciones entre waffles, bagels y chilaquiles; con buscador y fotos el cliente encuentra lo suyo en segundos.
 
@@ -700,6 +781,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Temorense con su propia carta (birria, gorditas de asiento y sus boxes familiares):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-temorense/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-temorense/qr/
+
 Sus boxes familiares y la birria se venden por foto: un menú digital los pone al frente para mesa y para llevar.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus boxes y un botón de pedido por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -728,6 +812,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Cenaduría La Guasaveña con su propia carta (chimichangas, huaraches y enchiladas de mole):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-guasavena/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-guasavena/qr/
 
 Las cenadurías se llenan de golpe en la noche: con el QR en la mesa la gente ve la carta y pide sin esperar al mesero.
 
@@ -758,6 +845,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Restaurante Bar El Tapatío con su propia carta (molcajete mar y tierra, enchiladas mineras y arrachera):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-tapatio/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-tapatio/qr/
+
 Están frente a la Universidad, con estudiantes y turistas todo el día; una carta de más de 90 platillos en el celular se recorre mucho más fácil.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y separo la carta del bar para la noche. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -786,6 +876,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Marisquería Las Brisas con su propia carta (mojarra rellena, molcajete mar y tierra y cócteles):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-brisas/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-brisas/qr/
 
 Sus mojarras y molcajetes son de foto; en un menú digital se antojan y la mesa pide más.
 
@@ -816,6 +909,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Clavo y Canela con su propia carta (chilaquiles, enchiladas y sus platos fuertes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/clavo-y-canela/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/clavo-y-canela/qr/
+
 Ya tienen su página web; lo que propongo es el QR para las mesas, que abre su carta de 120 platillos con buscador y fotos.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo enlazarlo a su página actual para que todo quede en un mismo lugar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -844,6 +940,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Rincón del Bife con su propia carta (chilaquiles de mole, huarache y tacos villarincón):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-del-bife/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-del-bife/qr/
 
 Ya tienen su sitio; el QR en la mesa abre directo la carta de desayunos con fotos, sin buscar en el sitio.
 
@@ -874,6 +973,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Restaurante Samael con su propia carta (paquetes familiares, chilaquiles y lunch box):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/samael/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/samael/qr/
+
 Sus paquetes familiares y lunch box se piden mucho para llevar; el menú los arma y los manda por WhatsApp.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe para los turistas del malecón. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -902,6 +1004,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Mariscos 7 Mares con su propia carta (aguachiles, molcajete con mango y botana de camarón y pulpo):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/siete-mares/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/siete-mares/qr/
 
 Ya tienen su sitio; el QR en la mesa abre directo su carta de aguachiles con fotos, que es lo que más se antoja.
 
@@ -932,6 +1037,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Cenaduría Sabor a Mí con su propia carta (asado, tacos dorados y brochetas de camarón):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-a-mi/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-a-mi/qr/
+
 En Mazatlán hay mucho turista que no conoce el asado ni los tacos dorados; con fotos y descripción piden con confianza.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y pongo sus asados al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -960,6 +1068,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Fionela con su propia carta (huevos rockefeller, pechuga Fionela y chilaquiles):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-fionela/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-fionela/qr/
 
 Son de desayunos con mucha clientela de oficina: con el QR en la mesa piden y comen a tiempo.
 
@@ -990,6 +1101,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Café con Leche con su propia carta (parrillada para dos, discada norteña y desayunos especiales):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-con-leche/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-con-leche/qr/
+
 Zacatecas recibe muchos visitantes; un menú con fotos de sus parrilladas y desayunos se comparte fácil por WhatsApp.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus desayunos especiales al frente y su carta de cafetería. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1018,6 +1132,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Sazón de la Abuela con su propia carta (chamorro, parrillada y combo de filetes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/sazon-de-la-abuela/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/sazon-de-la-abuela/qr/
 
 Su carta va del desayuno americano al chamorro y los mariscos; en el celular con categorías se entiende mucho mejor.
 
@@ -1048,6 +1165,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taquería San Juan con su propia carta (vampiros, chilakas y changuirongos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-san-juan/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-san-juan/qr/
+
 Abren hasta las 11:30 de la noche y la fila se hace larga; con el QR la gente ve la carta mientras espera y ordena directo.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con todas sus sucursales en el mismo enlace. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1076,6 +1196,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Okane Sushi con su propia carta (Salmón Dragon Roll, Hot Poseidón y su ramen):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/okane-sushi/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/okane-sushi/qr/
 
 Con más de 70 rollos, ramen y yakitoris, las fotos venden solas; en una carta impresa se pierden.
 
@@ -1106,6 +1229,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taquería Mixe con su propia carta (pastor, gringas y alambres por kilo):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-mixe/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-mixe/qr/
+
 Ya reciben pedidos por WhatsApp en sus cuatro sucursales; con un menú digital, el cliente arma la orden completa y se las manda lista, sin ir y venir de mensajes.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus cuatro sucursales en el mismo enlace y el pedido llega al WhatsApp de cada una. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1134,6 +1260,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Fokus con su propia carta (arrachera con queso, costilla y alambres):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/qr/
 
 Venden arrachera y costilla por kilo; con el menú digital la familia arma su pedido para llevar y se los manda completo por WhatsApp.
 
@@ -1164,6 +1293,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Restaurante Panamá con su propia carta (chilaquiles, guisos de la casa y panaboxes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/panama-culiacan/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/panama-culiacan/qr/
+
 Su carta tiene más de 160 productos entre desayunos, guisos y pastelería; con buscador y categorías el cliente encuentra todo en segundos.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo separar la pastelería y los panaboxes para regalo con pedido por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1192,6 +1324,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Comedor Lucy con su propia carta (enchiladas potosinas, tampiqueña y caldos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/comedor-lucy/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/comedor-lucy/qr/
 
 Atienden a mucha gente a la hora de la comida; con el QR en la mesa ven la carta con fotos y piden sin esperar.
 
@@ -1222,6 +1357,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taquería El Brasero con su propia carta (pastor por kilo, volcancitos y arrachera):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-brasero/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-brasero/qr/
+
 En San Miguel hay mucho turista que no conoce la carta; con fotos y descripción piden más y más rápido, incluso en inglés.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y pongo el pastor por kilo al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1250,6 +1388,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Morelense con su propia carta (alambres, costras y volcanes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-morelense/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-morelense/qr/
 
 Con casi 100 opciones entre alambres, costras y volcanes, las fotos hacen que pidan de más.
 
@@ -1280,6 +1421,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Chano y Chon con su propia carta (faroladas, pizza de arrachera y tacos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/chano-y-chon/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/chano-y-chon/qr/
+
 Ya toman pedidos por WhatsApp; el menú digital les manda la orden completa y ordenada, sin errores.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus faroladas y pizzas al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1308,6 +1452,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taquería La Argentina con su propia carta (pastor por kilo, carne estilo Iguala y alambres):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-argentina/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-argentina/qr/
 
 Tienen más de 140 productos entre kilos, alambres y papas; con buscador y categorías nadie se pierde.
 
@@ -1338,6 +1485,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Rincón Huasteco con su propia carta (plato huasteco, cecina y carne enchilada):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-huasteco/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-huasteco/qr/
+
 Su plato huasteco y la cecina merecen foto; en un menú digital se antojan y la mesa pide más.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con su plato huasteco al frente y la carta de desayunos. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1366,6 +1516,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Lonches Crujys con su propia carta (lonche de pierna, chilaquiles de la casa y combos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/crujys/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/crujys/qr/
 
 Con más de 90 productos entre lonches, chilaquiles y desayunos, el buscador hace que la oficina pida rápido.
 
@@ -1396,6 +1549,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Hakuna Bolas de Arroz con su propia carta (bolas de arroz Hakuna, HakuPoke y combos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/hakuna/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/hakuna/qr/
+
 Su producto es diferente y la gente necesita verlo; las fotos de las bolas de arroz venden solas.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus combos al frente y todas sus sucursales en el mismo enlace. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1424,6 +1580,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taquería Los Sobrinos con su propia carta (vampiros, chorreadas y pastor por kilo):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-sobrinos/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-sobrinos/qr/
 
 Mazatlán recibe mucho turismo; un menú con fotos de vampiros y chorreadas les explica todo sin preguntar.
 
@@ -1454,6 +1613,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Rincón Guerrerense con su propia carta (pozole verde, enmoladas y antojitos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-guerrerense/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-guerrerense/qr/
+
 Tienen pozole blanco, verde y rojo; con fotos el cliente elige rápido y pide para llevar por litro.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo sus promos de pozole al frente y pedidos para llevar por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1482,6 +1644,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Hijas de la Enchilada con su propia carta (enchiladas especiales, pan francés y paquetes de desayuno):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/hijas-de-la-enchilada/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/hijas-de-la-enchilada/qr/
 
 Hoy su carta está en PDF; un menú digital se abre más rápido en el celular y deja pedir con un toque.
 
@@ -1512,6 +1677,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Lonchería Lisboa con su propia carta (lonche mixto, lonche de pierna y combos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/lisboa/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/lisboa/qr/
+
 Ya toman pedidos por teléfono; con el menú digital el cliente arma el pedido y llega escrito, sin errores.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo juntar sus dos sucursales (Fresno y Chapalita) en el mismo enlace. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1540,6 +1708,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tus Chilaquiles con su propia carta (birriaquiles, chilaquiles enmolados y omelette chilaquil):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tus-chilaquiles/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tus-chilaquiles/qr/
 
 Su especialidad es una sola, pero con muchas versiones; en el celular con fotos se elige en segundos.
 
@@ -1570,6 +1741,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taquería Los Tarascos con su propia carta (pastor por kilo, volcanes y quesatacos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-tarascos/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-tarascos/qr/
+
 Tienen más de 170 productos; con buscador y categorías el turista encuentra su taco sin preguntar.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y dejo todas sus sucursales de Acapulco en el mismo enlace. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1598,6 +1772,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Pachita Restaurante con su propia carta (chilaquiles, enmoladas y cecina botanera):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/pachita/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/pachita/qr/
 
 Su fuerte son los desayunos; con el QR en la mesa la gente pide mientras llega el café.
 
@@ -1628,6 +1805,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Cocina Tres16 con su propia carta (tampiqueña Tres16, chilaquiles y hot cakes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-tres16/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-tres16/qr/
+
 Su carta tiene más de 120 platillos, de chilaquiles a top sirloin; con categorías y fotos se recorre mucho mejor.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con su imagen y sus paquetes para eventos. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1656,6 +1836,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Restaurante Izy con su propia carta (chilaquiles con rib eye, salmón al ajillo y su panadería):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/izy/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/izy/qr/
 
 Abren desde las 6 de la mañana con más de 120 productos; el buscador ayuda a pedir rápido antes de la oficina.
 
@@ -1686,6 +1869,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Bacán Macut con su propia carta (bocoles, picadas y enchiladas con arrachera):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/bacan-macut/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/bacan-macut/qr/
+
 Su carta tiene casi 130 platillos regionales; con fotos y categorías se entiende mucho mejor que en papel.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con su sección huasteca al frente y desayunos. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1714,6 +1900,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Danubio Lagunero con su propia carta (menudo, chiles rellenos y lonches):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/danubio-lagunero/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/danubio-lagunero/qr/
 
 Abren desde temprano con desayunos y caldos; con el QR la mesa pide sin esperar la carta.
 
@@ -1744,6 +1933,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tomate Taquería con su propia carta (orden de arrachera, quesataco y tomate especial):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tomate-taqueria/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tomate-taqueria/qr/
+
 En la Americana muchos clientes son extranjeros; un menú con fotos y en inglés les evita pedir que les traduzcan.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe y pongo sus órdenes de arrachera al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1772,6 +1964,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Santo Pikete con su propia carta (santos desayunos, costilla BBQ y crepas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/santo-pikete/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/santo-pikete/qr/
 
 Su carta va del frappé al corte del día; con categorías claras se pide más rápido.
 
@@ -1802,6 +1997,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tres Cielos Mexican Bistro con su propia carta (sus desayunos, pepitos y pastas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tres-cielos/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tres-cielos/qr/
+
 Son bistró y su carta es amplia (desayunos, pepitos, pastas); en el celular con fotos se ve tan bien como el lugar.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con su imagen de bistró y un botón para reservar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1830,6 +2028,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Yuca con su propia carta (cochinita, yucachiles y platos yucatecos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-yuca/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-yuca/qr/
 
 La cochinita y los yucachiles se venden solos con foto; mucha gente de Ags no conoce los platillos yucatecos y el menú se los explica.
 
@@ -1860,6 +2061,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Quincena con su propia carta (botanas, comida corrida y sus especialidades):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-quincena/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-quincena/qr/
+
 Los fines de semana se llena; con el QR la mesa ve la carta y pide sin esperar.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar su botana del día y las promos de fin de semana. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1888,6 +2092,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Cabaña de Papá con su propia carta (quesadillas megas, burros y huaraches):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-de-papa/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-de-papa/qr/
 
 Tienen casi 90 antojitos; con buscador y fotos la familia arma su pedido rápido.
 
@@ -1918,6 +2125,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Menudo La Granja con su propia carta (menudo, chilaquiles y delicias granjeras):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/menudo-la-granja/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/menudo-la-granja/qr/
+
 Su carta tiene más de 140 productos; con categorías y buscador el cliente encuentra su desayuno en segundos.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo el menudo y los chilaquiles al frente y pedidos por litro por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -1946,6 +2156,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Carnitas Mora con su propia carta (carnitas por kilo, carnes asadas y burritos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-mora/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-mora/qr/
 
 Venden por kilo y para fiestas; el menú digital les deja al cliente armar su pedido y mandarlo completo por WhatsApp.
 
@@ -1976,6 +2189,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Casa del Encino con su propia carta (chilaquiles, molletes y su panadería):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-encino/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-encino/qr/
+
 En el Encino llega mucho turista y familia en fin de semana; con el QR ven la carta con fotos sin esperar.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar su panadería para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2004,6 +2220,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Apapacho con su propia carta (especialidades hidrocálidas y sus desayunos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/apapacho/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/apapacho/qr/
 
 Su menú «Legado hidrocálido» y la experiencia del lugar merecen una carta a la altura: fotos, historia y reservación con un toque.
 
@@ -2034,6 +2253,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Birria Tatemada El Laberinto con su propia carta (birria por peso, tacos y consomé):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/birria-el-laberinto/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/birria-el-laberinto/qr/
+
 Su birria sale en Texas Monthly; con un menú digital el turista que llega por la reseña sabe qué pedir.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo hago bilingüe para los visitantes que llegan por la birria. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2062,6 +2284,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tacobirria del Morelos con su propia carta (birriamen, chilaquiles con birria y kilos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacobirria-del-morelos/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacobirria-del-morelos/qr/
 
 Venden kilos y combos; con el menú el cliente arma su pedido para llevar y se los manda por WhatsApp.
 
@@ -2092,6 +2317,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Sabor Azteca con su propia carta (pozole, enchiladas y especialidades):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-azteca/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-azteca/qr/
+
 Su fuerte es el pozole; con fotos y tamaños claros se vende por litro para llevar.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus pozoles al frente y pedidos por litro. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2120,6 +2348,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Bella Lola con su propia carta (desayunos, molletes y comida del día):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-bella-lola/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-bella-lola/qr/
 
 En el Centro hay mucha oficina; con el QR piden rápido y regresan a trabajar.
 
@@ -2150,6 +2381,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Biznaga Brunch con su propia carta (toast de masa madre, omelettes y enchiladas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/biznaga-brunch/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/biznaga-brunch/qr/
+
 Su carta de brunch es muy visual; con fotos el cliente pide más y comparte el enlace.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus toast y omelettes al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2178,6 +2412,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Schinus con su propia carta (desayunos, ceviches y burritos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/schinus/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/schinus/qr/
 
 Abren de martes a domingo de 9 a 5; un QR en la mesa ayuda a atender rápido en las horas pico.
 
@@ -2208,6 +2445,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Miravelas con su propia carta (chilaquiles, omelettes y su café):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/qr/
+
 Su carta de desayunos y café es larga; con categorías claras la mesa decide rápido.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con su carta de café separada. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2236,6 +2476,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Rincón Mestizo con su propia carta (desayunos yucatecos y mexicanos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-rincon-mestizo/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-rincon-mestizo/qr/
 
 Mezclan desayunos mexicanos con platillos yucatecos; con fotos el cliente entiende y se anima.
 
@@ -2266,6 +2509,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Birriería Don Pato con su propia carta (birria, parrilladas y tacos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-pato/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-pato/qr/
+
 Tienen birria, parrillas, mariscos y cenaduría; con categorías y fotos la carta grande se vuelve fácil.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo la birria al frente y un botón de pedido. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2294,6 +2540,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Techo del Sabor con su propia carta (comida colombiana, combos y frappés):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-techo-del-sabor/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-techo-del-sabor/qr/
 
 La comida colombiana es nueva para muchos en Ags; con fotos y descripciones el cliente se anima a probar.
 
@@ -2324,6 +2573,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Borrego de Oro con su propia carta (birria, quesadillas y platos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/borrego-de-oro/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/borrego-de-oro/qr/
+
 Venden por kilo para reuniones; el menú digital les deja armar el pedido completo.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo la birria por kilo al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2352,6 +2604,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Casa del No Sé Qué con su propia carta (desayunos, baguettes y ensaladas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-no-se-que/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-no-se-que/qr/
 
 Su nombre ya da curiosidad; un menú con fotos convierte esa curiosidad en pedido.
 
@@ -2382,6 +2637,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Bellagamba con su propia carta (omelettes, tacos y sándwiches):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/bellagamba/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/bellagamba/qr/
+
 Ya ofrecen envío gratis por teléfono; el menú digital les manda el pedido escrito por WhatsApp sin errores.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus combos al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2410,6 +2668,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Patio Santo Domingo con su propia carta (las bañadas, almuerzos combinados y licuados):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/patio-santo-domingo/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/patio-santo-domingo/qr/
 
 Su carta de desayunos tiene más de 90 opciones; con categorías la familia elige rápido.
 
@@ -2440,6 +2701,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Pescador Sinaloense con su propia carta (aguachiles, camarones y filetes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/pescador-sinaloense/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/pescador-sinaloense/qr/
+
 Su carta tiene 120 platillos de mariscos; con fotos y categorías se antojan y la mesa pide más.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo aguachiles y camarones al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2468,6 +2732,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Mazatlán con su propia carta (aguachiles, tostitos con ceviche y tacos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mazatlan/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mazatlan/qr/
 
 Ya toman pedidos para llevar por teléfono; el menú se los manda escrito por WhatsApp.
 
@@ -2498,6 +2765,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Holandés Fish Taco con su propia carta (tacos Baja, kecas y especialidades):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/holandes-fish-taco/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/holandes-fish-taco/qr/
+
 El taco Baja se antoja por foto; en el celular con imágenes la gente pide combos completos.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo sus combos y kecas al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2526,6 +2796,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Don Cangrejo con su propia carta (aguachiles para dos, zarandeado y cócteles):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-cangrejo/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-cangrejo/qr/
 
 Sus platillos son para compartir y de buen ticket; con fotos la mesa se anima a pedir el zarandeado.
 
@@ -2556,6 +2829,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Bendito Remedio con su propia carta (tacos de birria, quesabirrias y paquetes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/bendito-remedio/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/bendito-remedio/qr/
+
 Tienen hasta un platillo para mascotas; con fotos su carta divertida vende sola.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus dos sucursales en el mismo enlace. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2584,6 +2860,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Cinco de Mayo Mesón con su propia carta (cochinita, desayunos y platos fuertes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cinco-de-mayo-meson/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cinco-de-mayo-meson/qr/
 
 Están dentro de un hotel: el mismo QR sirve en mesas y en habitaciones.
 
@@ -2614,6 +2893,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Amalfi VI con su propia carta (croques, scones y pizzas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/amalfi-vi/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/amalfi-vi/qr/
+
 Tienen más de 100 productos de la mañana a la noche; con categorías claras se pide mucho más fácil.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Separo la carta de desayunos y la de noche. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2642,6 +2924,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Xilaquil con su propia carta (chilaquiles, enchiladas y antojería):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/xilaquil/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/xilaquil/qr/
 
 Su especialidad son los chilaquiles; con fotos de cada salsa el cliente elige rápido.
 
@@ -2672,6 +2957,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Restaurante De la Tierra con su propia carta (enchiladas, molletes y desayunos):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/de-la-tierra/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/de-la-tierra/qr/
+
 Abren todos los días; con el QR la mesa ve la carta con fotos y pide sin esperar.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar sus paquetes de desayuno. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2700,6 +2988,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Favorita con su propia carta (birriaquiles, huevos hidrourbanos y waffles):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-favorita/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-favorita/qr/
 
 Ya tienen más de 1,300 opiniones en Google y piden por WhatsApp; un menú digital les ordena esos pedidos.
 
@@ -2730,6 +3021,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a SAS con su propia carta (chilaquiles, sui-sas y guisados):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/sas/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/sas/qr/
+
 Su carta es corta y con personalidad; con fotos se lucen sus platillos de autor.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar sus guisados del día. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2758,6 +3052,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Las Costillas de Sancho con su propia carta (cortes Angus, costillas y sopas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/costillas-de-sancho/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/costillas-de-sancho/qr/
 
 Su ticket es alto y su carta de cortes merece fotos y descripción; en papel se pierde.
 
@@ -2788,6 +3085,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Ragazzi Bistro con su propia carta (pastas, pizzas y paninis):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/ragazzi/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/ragazzi/qr/
+
 Su cocina italiana es de autor; con fotos y descripciones el cliente se antoja y pide vino.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus dos sucursales (Campestre y Centro). Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2816,6 +3116,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tacos Felox con su propia carta (tacos, volcanes y quesadillas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-felox/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-felox/qr/
 
 Ya hacen servicio a domicilio por teléfono; con el menú el pedido llega escrito y sin errores.
 
@@ -2846,6 +3149,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taquería El Jacalito con su propia carta (carnitas, quesadillas y paquetes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-jacalito/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-jacalito/qr/
+
 Frente al Palacio de Justicia: mucha gente con prisa; con el QR piden sin hacer fila.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo juntar sus cuatro sucursales en el mismo enlace. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2874,6 +3180,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Paleo Kitchen con su propia carta (ensaladas, pescados y paninis):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/paleo-kitchen/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/paleo-kitchen/qr/
 
 Su cliente cuida lo que come; poner ingredientes y fotos en cada platillo les da confianza para pedir.
 
@@ -2904,6 +3213,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Lechón Mi Güerita con su propia carta (tacos de lechón, tortas y paquetes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/lechon-mi-guerita/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/lechon-mi-guerita/qr/
+
 Abren de noche y se piden para llevar; con el menú el pedido llega completo por WhatsApp.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo sus paquetes para compartir al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2932,6 +3244,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taquería Jeque Juárez con su propia carta (tacos árabes, sirloin y gringas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/jeque-juarez/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/jeque-juarez/qr/
 
 Los tacos árabes con jocoque son su sello; con fotos se antojan y la mesa pide de más.
 
@@ -2962,6 +3277,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Casa Tulipán con su propia carta (pastas, tablas de quesos y malteadas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-tulipan/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-tulipan/qr/
+
 Su carta tiene más de 110 productos; con categorías y fotos se recorre fácil y se piden más cosas.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus dos sucursales (Centro y Villasunción). Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -2990,6 +3308,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Me Lo Dijo Adela con su propia carta (chilaquiles Candelaria, emparedado Adela y waffles):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/me-lo-dijo-adela/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/me-lo-dijo-adela/qr/
 
 Cada platillo tiene nombre de persona (Chilaquiles Candelaria, Emparedado Adela, Waffles Alfonso): en el menú digital con foto la gente entiende qué es cada uno sin preguntarle al mesero.
 
@@ -3020,6 +3341,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Cafetal de Concha con su propia carta (rollos de canela, rollazos y frappés):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-cafetal-de-concha/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-cafetal-de-concha/qr/
+
 Sus rollos (ponche, cajeta con nuez, brownie) y los rollazos se venden por cómo se ven: con foto grande en el celular se antojan antes de llegar a la barra.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Le agrego una sección de "rollo del día" que se cambia con un mensaje. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3048,6 +3372,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Lonchería El Mono con su propia carta (tortas de maciza, tacos de surtido y kilos de carnitas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/loncheria-el-mono/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/loncheria-el-mono/qr/
 
 Venden mucho por paquete y por kilo (5 tortas y 10 tacos, kilo surtido): el menú digital deja que la oficina arme su pedido completo y se lo mande por WhatsApp ya sumado.
 
@@ -3078,6 +3405,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Narros Burger con su propia carta (hamburguesas Tolteca, Zapoteca y Maya):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/narros-burger/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/narros-burger/qr/
+
 Sus hamburguesas se llaman Tolteca, Zapoteca, Maya…: el menú digital explica qué lleva cada una con foto, y el cliente deja de pedir siempre la misma.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón para pedir a domicilio por WhatsApp sin comisión de app. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3106,6 +3436,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Kaffihus con su propia carta (crepas, frappuchinos y baguettes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/kaffihus/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/kaffihus/qr/
 
 Su carta es grande (casi 100 productos entre cafés, frappés, crepas, bagels y baguettes); con categorías y buscador la mesa encuentra rápido lo que quiere mientras juega.
 
@@ -3136,6 +3469,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Pollo Pepe con su propia carta (pollo asado, Pepe Tenders y paquetes familiares):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/pollo-pepe/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/pollo-pepe/qr/
+
 Venden por paquete (7, 10 y 12 piezas con acompañamientos): con el menú digital la familia arma el paquete, ve el total y lo pide por WhatsApp sin llamar.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo los paquetes familiares hasta arriba y un botón de pedido para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3164,6 +3500,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tacos Guadalupe con su propia carta (volcanes, tacos al pastor y gorditas de la casa):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-guadalupe/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-guadalupe/qr/
 
 Tienen de todo (tacos, volcanes, quesadillas de maíz y harina, gorditas, antojitos fritos): el menú digital con fotos ordena una carta grande y ayuda a que en la noche pidan más rápido.
 
@@ -3194,6 +3533,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Delifresh con su propia carta (combos, ensaladas y baguettes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/delifresh/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/delifresh/qr/
+
 Su fuerte es "arma tu ensalada" y los combos de mediodía: con el menú digital la oficina ve los combos con foto y pide por WhatsApp antes de la hora de la comida.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Le pongo una sección de combos del día que se cambia con un mensaje. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3222,6 +3564,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Los Andariegos con su propia carta (chamorro, carnitas y tortas surtidas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-andariegos/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-andariegos/qr/
 
 El chamorro y las carnitas se venden con foto; en el menú digital el cliente ve platos, tacos y tortas con precio y pide por kilo para la familia.
 
@@ -3252,6 +3597,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Amor de mis Sabores con su propia carta (pozole rojo, flautas y tostadas preparadas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/amor-de-mis-sabores/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/amor-de-mis-sabores/qr/
+
 Tienen desayunos en la mañana y antojitos con pozole en la tarde: el menú digital muestra lo que hay a cada hora y la promo de pozole con taco dorado.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de promoción que se cambia con un mensaje. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3280,6 +3628,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a AC Wing's con su propia carta (alitas, boneless y combos para compartir):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/ac-wings/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/ac-wings/qr/
 
 Tienen opción fitness y "Sabor sin culpa" además de 10 salsas: el menú digital deja elegir tamaño y salsa con foto, y el pedido llega completo por WhatsApp.
 
@@ -3310,6 +3661,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Rosticería San Francisco con su propia carta (pollo rostizado, combo familiar y alitas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/rosticeria-san-francisco/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/rosticeria-san-francisco/qr/
+
 El pollo completo y los combos familiares se piden para llevar: con el menú digital el cliente arma el combo con mole y papas y lo manda por WhatsApp para recogerlo listo.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo los combos familiares arriba con botón de pedido para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3338,6 +3692,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Puerta Grande con su propia carta (paella, mariscos y cocina española):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/puerta-grande/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/puerta-grande/qr/
 
 Cocina española (paella, lechón, rabo de toro) que mucha gente de Ags no conoce de nombre: el menú digital explica cada platillo con foto y ayuda a pedir sin miedo.
 
@@ -3368,6 +3725,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Jessy Jaq's Pizza con su propia carta (pizza Jessironi, combos y Jessy Wings):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/jessy-jaqs-pizza/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/jessy-jaqs-pizza/qr/
+
 Venden por combo (Sencillo, Deluxe, Double Jessy): el menú digital muestra qué incluye cada uno con foto y el pedido a domicilio llega directo, sin comisión de app.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón de pedido a domicilio con los dips como extra. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3396,6 +3756,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tacos 626 con su propia carta (lechoneras, tortas planchadas y tacos de maciza):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-626/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-626/qr/
 
 Las lechoneras y la torta planchada son lo distinto de la casa: con foto en el menú digital el cliente nuevo las prueba en lugar de pedir solo tacos.
 
@@ -3426,6 +3789,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Birriería El Mezquite con su propia carta (birria de borrego, quesabirria y lechón):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-el-mezquite/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-el-mezquite/qr/
+
 Venden birria por plato, por kilo y combos para todos: el menú digital ayuda a pedir para la familia los fines de semana y a apartar por WhatsApp.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de pedidos por kilo para apartar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3454,6 +3820,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a The Boiling Pot con su propia carta (mariscos en bolsa estilo Louisiana):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/the-boiling-pot/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/the-boiling-pot/qr/
 
 El estilo Louisiana (mariscos en bolsa con salsa y nivel de picante) es nuevo para mucha gente: el menú digital explica cómo se pide, con foto, antes de sentarse.
 
@@ -3484,6 +3853,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Tikin Xic con su propia carta (tostadas de la casa, tacos baja y cócteles):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/tikin-xic/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/tikin-xic/qr/
+
 Sus tostadas de la casa y los aguachiles se venden por cómo se ven: con foto grande en el celular la mesa pide más y el cliente nuevo se anima.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de "de la casa" con sus tostadas estrella. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3512,6 +3884,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Los Abolengos con su propia carta (Huevos Pelea de Gallos, pastel azteca y pan de la casa):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-abolengos/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-abolengos/qr/
 
 Tienen huevos, omelettes, especialidades y pan de la casa en una carta de casi 80 platillos: el menú digital la ordena por categorías y la gente decide antes de que llegue el mesero.
 
@@ -3542,6 +3917,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Café del Ángel con su propia carta (huevos del Ángel, crepas y baguettes):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-del-angel/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-del-angel/qr/
+
 Están en pleno Centro, donde llega mucha gente de fuera: el menú digital con fotos les deja ver la carta (desayunos, crepas, baguettes) desde la calle y entrar decididos.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón para reservar por WhatsApp, que ya es como trabajan. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3570,6 +3948,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Cardona's W Grill con su propia carta (arrachera, burritos de camarón y Philly cheese steak):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/cardonas-grill/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/cardonas-grill/qr/
 
 Su carta es enorme (más de 90 platillos entre cortes, wraps, burritos y desayunos): con categorías y buscador la mesa encuentra lo suyo en segundos.
 
@@ -3600,6 +3981,9 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Alitas El Alebrije con su propia carta (paquetes de alitas, boneless y papas especiales):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/qr/
+
 Venden alitas por paquete (15, 30, 50): el menú digital deja armar el paquete con papas y bebidas para el partido y mandarlo por WhatsApp ya sumado.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo los paquetes para grupos arriba con su total. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
@@ -3628,6 +4012,9 @@ Venta (solo cuando conteste):
 ```
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Birriería Díaz de Calvillo con su propia carta (birria de borrego, consomé y pay de guayaba):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/qr/
 
 Además de la birria venden dulces de guayaba de Calvillo (jalea, mermelada, pay): el menú digital los muestra con foto y se venden solos como postre o para llevar.
 
@@ -3658,9 +4045,780 @@ Venta (solo cuando conteste):
 ¡Muchas gracias por contestar! Esta es la muestra que le preparé a Carnitas Romo con su propia carta (tacos de carnitas, chilakillers y combo Entre compas):
 https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/
 
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/qr/
+
 Sus combos tienen nombre (Pa que no compartas, Entre compas, Pake comparta): el menú digital los explica con foto y la gente pide el grande para la familia.
 
 El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego los combos arriba y venta por kilo para fiestas. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 123. Mariscos Villa Marina · León, Gto.
+
+Teléfono: 477 313 7061. Su página oficial de Facebook (Mariscos Villa Marina) y Restaurant Guru dan el 477 313 7061; no publica sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Mariscos Villa Marina? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Mariscos Villa Marina una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Mariscos Villa Marina con su propia carta (camarones Rockefeller, chavelas y filetes a la plancha):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-villa-marina/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-villa-marina/qr/
+
+Su carta es enorme (casi 100 platillos entre barra fría, camarones, filetes y caldos): con categorías y buscador la mesa encuentra el suyo sin hojear una carta larga.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo arriba la barra fría y los camarones, con botón de pedido para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 124. Taquería La Plancha · Pachuca, Hgo.
+
+Teléfono: 771 205 7497. Su Facebook e Instagram oficiales (@taquerialaplancha) publican el 771 205 7497 para servicio a domicilio; no tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Taquería La Plancha? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Taquería La Plancha una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taquería La Plancha con su propia carta (tacos al pastor con queso, órdenes mixtas y volcanes):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-la-plancha/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-la-plancha/qr/
+
+Tienen más de 90 opciones entre tacos, tacos con queso, órdenes mixtas y volcanes: el menú digital las ordena con foto y la gente pide la orden completa sin dudar.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego pedido a domicilio por WhatsApp, que ya es como trabajan. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 125. La Cabaña Restaurante · Tuxtla Gutiérrez, Chis.
+
+Teléfono: 961 375 5555. Su página oficial de Facebook publica el 961 375 5555 (celular, +52 1); tuxtla.com.mx da el mismo. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de La Cabaña Restaurante? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a La Cabaña Restaurante una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Cabaña Restaurante con su propia carta (huevos al gusto, chilaquiles y enchiladas de mole):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-tuxtla/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-tuxtla/qr/
+
+Su carta de desayunos es grande (huevos al gusto, chilaquiles, antojitos con tortilla y con pan): con el menú digital el cliente decide mientras espera y pide más rápido en la mañana.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de desayunos para llevar con botón de pedido. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 126. La Esquinita Cocina Mexicana · Tijuana, B.C.
+
+Teléfono: 664 111 6804. Su página oficial de Facebook (@laesquinitacm) publica el 664 111 6804; Tripadvisor da además el 664 720 1929. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de La Esquinita Cocina Mexicana? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a La Esquinita Cocina Mexicana una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Esquinita Cocina Mexicana con su propia carta (huevos florentina, chicharrón de rib eye y caldo tlalpeño):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-esquinita-tijuana/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-esquinita-tijuana/qr/
+
+Tienen desayunos, antojitos, caldos y platos fuertes en más de 120 platillos: el menú digital con fotos le enseña al cliente de fuera lo mexicano de la casa.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con botón para reservar y pedir por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 127. La Mina del Abuelo · Tepic, Nay.
+
+Teléfono: 311 740 7467. Gastroranking y Wanderboat dan el 311 740 7467 (Gastroranking con WhatsApp); Restaurant Guru da el 311 110 4389. Sin sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de La Mina del Abuelo? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a La Mina del Abuelo una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Mina del Abuelo con su propia carta (molletes, chilaquiles gratinados y omelette minero):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-mina-del-abuelo/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-mina-del-abuelo/qr/
+
+Con más de 150 platillos entre molletes dulces y salados, chilaquiles y omelettes, el menú digital con buscador hace fácil elegir en una carta tan grande.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego cómo llegar con mapa (está a las afueras) y pedido por WhatsApp. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 128. Patmos Cocina de Mar · Morelia, Mich.
+
+Teléfono: 443 788 5040. Su página oficial de Facebook (Patmos · Cocina de Mar) publica "reservas vía WhatsApp 443 788 5040"; Tripadvisor da además el 443 315 7947. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Patmos Cocina de Mar? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Patmos Cocina de Mar una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Patmos Cocina de Mar con su propia carta (aguachile Patmos, tostada de camarón crunch y aguachilocos):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/patmos-morelia/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/patmos-morelia/qr/
+
+Sus tostadas mixtas y aguachilocos se venden por cómo se ven: con foto grande en el celular la mesa pide más y el cliente nuevo se anima.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón de reservar por WhatsApp, que ya usan. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 129. Los Faroles · Villahermosa, Tab.
+
+Teléfono: 993 312 9164. Su página oficial de Facebook (Los Faroles Villahermosa) y Sección Amarilla dan el 993 312 9164. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Los Faroles? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Los Faroles una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Los Faroles con su propia carta (paquetes de desayuno, tortas combinadas y carne asada):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-faroles-villahermosa/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-faroles-villahermosa/qr/
+
+Su carta pasa de 100 platillos (desayunos económicos, tortas, tacos, carnes y mariscos): el menú digital la ordena y el cliente encuentra rápido el paquete del día.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo arriba los paquetes de desayuno con su precio y botón de pedido. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 130. Taco Sireno · Oaxaca de Juárez, Oax.
+
+Teléfono: 951 224 0391. Su Instagram oficial (@tacosireno) publica "Pedidos por Wa: 9512240391". No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Taco Sireno? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Taco Sireno una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taco Sireno con su propia carta (tacos de camarón baja, tostada de atún y poboy de camarón):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/taco-sireno/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/taco-sireno/qr/
+
+Tienen tacos baja, quesadillas de mariscos, poboys y crudos: el menú digital explica cada uno con foto, y el turista que no conoce los platillos pide sin miedo.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón de pedidos por WhatsApp, que ya publican en Instagram. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 131. El Seri Pescadería · Hermosillo, Son.
+
+Teléfono: 662 220 3995. Allbiz y Twopos dan el 662 220 3995 para Blvd. Camino del Seri 727. Sin sitio web; no publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de El Seri Pescadería? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a El Seri Pescadería una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Seri Pescadería con su propia carta (paquetes familiares, camarón empanizado y ceviches):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-seri-pescaderia/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-seri-pescaderia/qr/
+
+Venden por paquete familiar y por kilo (pescado, camarón empanizado, milanesa): el menú digital deja que la familia arme el pedido y lo aparte por WhatsApp.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo los paquetes familiares arriba con su precio. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 132. El Mar · Tuxtla Gutiérrez, Chis.
+
+Teléfono: 961 600 0759. Carta.menu, Menuweb y Sección Amarilla dan el 961 600 0759. Sin sitio web; no publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de El Mar? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a El Mar una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Mar con su propia carta (cazuela de mariscos, chilpachole y cóctel de camarón):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mar-tuxtla/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mar-tuxtla/qr/
+
+Su carta pasa de 100 platillos entre cócteles, cazuelas, tacos y chilpachole: con categorías claras y fotos la mesa decide rápido.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego las charolas para compartir arriba, con botón de pedido. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 133. Ceviches La Palapita · Hermosillo, Son.
+
+Teléfono: 662 460 1640. Su TikTok oficial (@cevicheslapalapita) dice "pedidos y reservaciones por WhatsApp 6624601640"; Restaurant Guru da el mismo. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Ceviches La Palapita? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Ceviches La Palapita una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Ceviches La Palapita con su propia carta (ceviche por litro, toritos y tostada de aguachile):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-palapita-hermosillo/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-palapita-hermosillo/qr/
+
+Tienen ceviche por litro, aguachiles, toritos y cahuamanta: el menú digital con fotos ayuda a pedir para llevar y apartar por WhatsApp, como ya lo hacen.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego venta por litro y el botón de pedido para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 134. Los Huaraches de Don Juan · Mérida, Yuc.
+
+Teléfono: 999 406 2242. Su Facebook e Instagram oficiales publican el (999) 406 2242; Gastroranking lo marca con WhatsApp. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Los Huaraches de Don Juan? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Los Huaraches de Don Juan una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Los Huaraches de Don Juan con su propia carta (huarache de tinga, gordita de chicharrón y pambazo):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/huaraches-don-juan/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/huaraches-don-juan/qr/
+
+En Mérida los huaraches y pambazos no son de todos los días: el menú digital explica cada antojito con foto y el cliente nuevo se anima a probarlos.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego los guisos del día en una sección que se cambia con un mensaje. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 135. A La Tostada · Zapopan, Jal.
+
+Teléfono: 33 2226 0476. Su Instagram oficial (@a_latostada) publica su WhatsApp 33 2226 0476 y dice que no tiene sucursales. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de A La Tostada? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a A La Tostada una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a A La Tostada con su propia carta (tostada Aguachilosa, camarones pecosos y tumbacruda):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/a-la-tostada/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/a-la-tostada/qr/
+
+Sus tostadas tienen nombre propio (Aguachilosa, Ya tu sabe, Tumbacruda 3 Poderes): el menú digital explica qué lleva cada una con foto y la mesa pide sin preguntar.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón de pedidos por WhatsApp, que ya publican en Instagram. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 136. Mariscos El Plebe · Colima, Col.
+
+Teléfono: 312 330 2776. Su página oficial de Facebook (Mariscos El Plebe) publica el 312 330 2776 y avisa que ya está en WhatsApp; TripTap da además el 312 118 1132. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Mariscos El Plebe? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Mariscos El Plebe una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Mariscos El Plebe con su propia carta (aguachile rojo, medallón de camarón y Pleburger):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-el-plebe/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-el-plebe/qr/
+
+Tienen de todo: caldos, aguachiles, cócteles, pulpo y hasta sus Pleburgers de filete; el menú digital lo ordena y se antoja con foto.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón de pedido por WhatsApp, donde ya atienden. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 137. Carnitas y Asadas El Güero · Toluca, Edo. Méx.
+
+Teléfono: 722 183 4897. Su página oficial de Facebook (Carnitas y Asadas El Güero, 5 de Mayo 936) publica el 722 183 4897. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Carnitas y Asadas El Güero? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Carnitas y Asadas El Güero una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Carnitas y Asadas El Güero con su propia carta (taco revolcado, chamorro y kilo de arrachera):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-el-guero-toluca/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-el-guero-toluca/qr/
+
+Venden por kilo (arrachera, surtida, campechana) y por taco: el menú digital deja armar el pedido para la familia y mandarlo por WhatsApp ya sumado.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo la venta por kilo arriba para fiestas y fines de semana. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 138. Mariscos Frente al Mar · Guadalajara, Jal.
+
+Teléfono: 33 1204 0845. Su página oficial de Facebook (Mariscos frente al mar, Francisco de Quevedo) publica el 33 1204 0845; Restaurant Guru da el mismo. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Mariscos Frente al Mar? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Mariscos Frente al Mar una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Mariscos Frente al Mar con su propia carta (aguachiles, lonche de marlín y tortas ahogadas):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-frente-al-mar/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-frente-al-mar/qr/
+
+Además de aguachiles y cócteles venden lonches y tortas ahogadas: el menú digital muestra todo con foto y la oficina de al lado pide por WhatsApp.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de comida para oficina con botón de pedido. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 139. Doraditos y Enchiladas Mary · Morelia, Mich.
+
+Teléfono: 443 932 1562. Su página oficial de Facebook (Enchiladas Mary Morelia) publica el 443 932 1562 para sus sucursales Lázaro Cárdenas y Centro Histórico; Uber Eats da el mismo. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Doraditos y Enchiladas Mary? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Doraditos y Enchiladas Mary una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Doraditos y Enchiladas Mary con su propia carta (enchiladas rellenas, doraditos surtidos y morisqueta):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/enchiladas-mary/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/enchiladas-mary/qr/
+
+La morisqueta, las enchiladas y los doraditos son de Michoacán: el menú digital los explica con foto para el turista del Centro Histórico.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego sus dos sucursales en el mismo menú, con su botón de pedido. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 140. Taquería Los Mandiles · Toluca, Edo. Méx.
+
+Teléfono: 722 213 0422. Rankeando, Restaurant Guru y el registro de la empresa dan el 722 213 0422 (correo taquerialosmandiles@gmail.com). Sin sitio web; no publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Taquería Los Mandiles? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Taquería Los Mandiles una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Taquería Los Mandiles con su propia carta (alambre campechano, tacos Mandilón y queso fundido):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-los-mandiles/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-los-mandiles/qr/
+
+Tienen casi 100 platillos entre órdenes, alambres, quesos y tacos de la casa (Mandilón, Hawaianos): con fotos la mesa grande pide todo de una vez.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo los paquetes para grupos arriba con su total. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 141. El Arponcillo · Veracruz, Ver.
+
+Teléfono: 229 265 3447. Restaurant Guru da el 229 265 3447 para Heroísmo 420. Fuente única: confirmar en la primera llamada. Sin sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de El Arponcillo? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a El Arponcillo una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Arponcillo con su propia carta (arroz a la tumbada, mojarra frita y camarones en pulpa):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-arponcillo/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-arponcillo/qr/
+
+Su carta es veracruzana (arroz a la tumbada, camarones en pulpa, mojarra frita): el menú digital con fotos la presenta tal cual al que viene de fuera.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego los tamaños familiares arriba con botón de pedido. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 142. Mr. Camarón Aguachilería · Morelia, Mich.
+
+Teléfono: 443 261 0172. Su página oficial de Facebook (Mr Camarón Aguachilería Morelia, Héroes de Nocupétaro 1556) publica el 443 261 0172; Restaurant Guru da el 443 257 2422. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Mr. Camarón Aguachilería? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Mr. Camarón Aguachilería una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Mr. Camarón Aguachilería con su propia carta (aguachile Takis Fuego, torre de mariscos y tostada Los 3 Hermanos):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mr-camaron-morelia/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mr-camaron-morelia/qr/
+
+Sus aguachiles de la casa (Takis Fuego, mariscada mixta) y las tostadas especiales se venden por la foto: con el menú digital la mesa pide más.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón de pedido por WhatsApp para llevar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 143. Caminos de Michoacán · Morelia, Mich.
+
+Teléfono: 443 225 0200. Uber Eats y Wanderboat dan el 443 225 0200 para Francisco J. Múgica 35. Sin sitio web; no publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Caminos de Michoacán? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Caminos de Michoacán una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Caminos de Michoacán con su propia carta (aporreadillo, corundas y cecina de Tierra Caliente):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/caminos-de-michoacan/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/caminos-de-michoacan/qr/
+
+Tienen platillos michoacanos que el visitante no conoce de nombre (aporreadillo, corundas, cecina de Tierra Caliente): el menú digital los explica con foto.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego la comida del día en una sección que se cambia con un mensaje. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 144. Pato Blanco Cocina de Mar · Guadalajara, Jal.
+
+Teléfono: 33 1459 9613. Su página oficial de Facebook (Pato Blanco Cocina de Mar) publica "WhatsApp 3314599613" para pedidos para llevar; el fijo 33 3642 7573 sale en Facebook y Uber Eats. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Pato Blanco Cocina de Mar? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Pato Blanco Cocina de Mar una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Pato Blanco Cocina de Mar con su propia carta (tostada Tapatía, aguachile negro y ceviche Mechita):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/pato-blanco/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/pato-blanco/qr/
+
+Sus tostadas y ceviches tienen nombre de la casa (Tostada Tapatía, Ceviche Mechita, Don Titi): el menú digital los presenta con foto y tamaño chico o grande.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego el botón de pedidos para llevar por WhatsApp, que ya publican. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 145. El Camarón de Oro · Durango, Dgo.
+
+Teléfono: 618 109 9614. Su página oficial de Facebook publica el 618 109 9614 para la sucursal Pino Suárez 2916; este menú es de la sucursal Las Playas (Blvd. Carrola Antuna 352): confirmar que atienden las dos. No tiene sitio web.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de El Camarón de Oro? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a El Camarón de Oro una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Camarón de Oro con su propia carta (camarones tatemados, tostiaguachiles y camarón zarandeado):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-camaron-de-oro/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-camaron-de-oro/qr/
+
+Tienen camarones de 7 formas, tostitos de la casa y hasta rib eye: el menú digital ordena la carta y destaca sus especialidades de oro con foto.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de "lo nuevo" que se cambia con un mensaje. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
+
+El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
+
+¿Le parece si se lo enseño 5 minutos esta semana?
+```
+
+### 146. Mi Ranchito Desayunador · Durango, Dgo.
+
+Teléfono: 618 109 7261. Tripadvisor y Menuweb dan el 618 109 7261 para José del Campo 31. Sin sitio web; no publica WhatsApp.
+
+Contacto inicial (sin enlace):
+
+```
+Hola, buen día. ¿Es el WhatsApp de Mi Ranchito Desayunador? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
+
+Le preparé a Mi Ranchito Desayunador una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
+
+Si no le interesa, me dice y no le vuelvo a escribir.
+```
+
+Venta (solo cuando conteste):
+
+```
+¡Muchas gracias por contestar! Esta es la muestra que le preparé a Mi Ranchito Desayunador con su propia carta (chilaquiles cremosos, huevos chipotludos y torta menonita):
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-ranchito-desayunador/
+
+Y este es el código QR que ya le preparé para sus mesas:
+https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-ranchito-desayunador/qr/
+
+Sus chilaquiles cremosos, los huevos chipotludos y la torta menonita son de la casa: con foto en el menú digital el cliente nuevo los prueba.
+
+El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Agrego una sección de desayunos para llevar con botón de pedido. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
 
 El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
 

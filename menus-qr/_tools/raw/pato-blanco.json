@@ -1,0 +1,475 @@
+{
+ "id": 1930186050,
+ "brandName": "Pato Blanco",
+ "name": "Pato Blanco - Providencia 4ta Sección",
+ "address": "Pato Blanco Cocina de Mar, Calle Bogotá 2763 Local 5 Col. Providencia, Guadalajara, Jal., México",
+ "schedule": "11:00:00 - 17:30:00",
+ "categories": "Pescados y Mariscos · Mexicana",
+ "location": [
+  -103.383053358896,
+  20.69841981812
+ ],
+ "city": "Guadalajara",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/2-1715267194660.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/tacos18-1715267196756.jpg",
+ "schedules": [
+  {
+   "open_time": "11:00:00",
+   "close_time": "17:30:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930186050-pato-blanco",
+ "menu": [
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Botana pato blanco",
+     "desc": "Botana surtida con esencia de carreta: callo almeja, camarón fresco, camarón cocido, atún y pulpo bañados en una salsa preparada en molcajete de chile serrano y con un toque de chile chiltepín, 180 gr.",
+     "price": 247,
+     "img": "a9df06c0-f536-4ab8-a3d3-874dd9752e30.png"
+    },
+    {
+     "name": "Orden de Guacamole",
+     "desc": "Aguacate martajado con jitomate, cebolla morada, toque de cilantro y chicharrón de pancita, 250 gr.",
+     "price": 160,
+     "img": "139fa19b-91c6-41b9-93cf-bc83f89ba1d2.png"
+    },
+    {
+     "name": "Sashimi de atún",
+     "desc": "Láminas de atún con un toque de salsa negra cítrica, 100 gr.",
+     "price": 209,
+     "img": "efc65b59-1bfd-4653-b580-b09a3784a357.png"
+    },
+    {
+     "name": "Camarón Cocido para Picar",
+     "desc": "Camarón pelado curtido en limón, sal, pimienta, acompañado de pepinillo y cebolla morada, 200 gr.",
+     "price": 248,
+     "img": "53cdfd2c-2c40-4086-8b71-38b63432d390.png"
+    },
+    {
+     "name": "Camarón Cocido para Pelar",
+     "desc": "Camarón cocido con cáscara, acompañado de salsa agridulce para ahogar, 200 gr.",
+     "price": 207,
+     "img": "a8ea0757-2680-4fdb-91f1-317a965c6f6f.png"
+    },
+    {
+     "name": "Pulpo Cocido para Picar",
+     "desc": "Pulpo curtido en limón, sal, pimienta, acompañado de pepinillo y cebolla morada, 100 gr.",
+     "price": 229,
+     "img": "075a4505-51ab-4ba8-96ac-126b14f4c6dc.png"
+    },
+    {
+     "name": "Tiradito de Pescado",
+     "desc": "Láminas de pescado mahi mahi con un toque de salsa cítrica, cebolla morada y cherry horneado, 100 gr.",
+     "price": 193,
+     "img": "ebe2b023-874d-4f07-a534-bc0fa8be1c5b.png"
+    }
+   ]
+  },
+  {
+   "name": "Tostadas",
+   "products": [
+    {
+     "name": "Tostada Tapatía",
+     "desc": "Tostada con callo almeja, camarón fresco, camarón cocido, cubos de atún curtidos en limón, sal y pimienta, bañados en un toque de salsa macha hecha por la casa, 1 pieza.",
+     "price": 160,
+     "img": "7022cd9c-9f90-4e49-b5e1-8cb13ef631d2.png"
+    },
+    {
+     "name": "Tostada de Aguachile Negro",
+     "desc": "Tostada con salsa negra a base de chile serrano, un poco de chile habanero, camarón y picor a elegir, curtido en limón, un toque de sal y pimienta, 1 pieza.",
+     "price": 170,
+     "img": "1500f93c-544b-4e85-968b-48317c26f19c.png"
+    },
+    {
+     "name": "Tostada De Aguachile Negro",
+     "desc": "Tostada con camarones, salsa negra de serrano, cebolla morada y cilantro. Elige el nivel de picor: suave, medio o muy picoso.",
+     "price": 200,
+     "img": "417699cf-f3c5-42a1-8996-85c640b10da5.png"
+    },
+    {
+     "name": "Tostada De Aguachile Rojo",
+     "desc": "Tostada con aguachile rojo, salsa de chiltepín y opción de picor. Incluye aguacate, rábanos y cebolla.",
+     "price": 200,
+     "img": "def182bf-022c-4ed6-9fb3-8a26fd29e114.png"
+    },
+    {
+     "name": "Tostada Don Titi",
+     "desc": "Cevivhe De Camaron En Curtido, Muy Tradicional De Mazatlan, Con Un Toque De Camaron Seco, Pepino, Cebolla Morada Y Jitomate.",
+     "price": 200,
+     "img": "46d01e32-5642-4575-9639-6dc74ceb2901.png"
+    },
+    {
+     "name": "Tostada Don Peyeyo",
+     "desc": "Tostada con cubos de atún premium bañados en salsa negra de la casa, pepinillo, cebolla morada, sobre una cama de mayonesa y base de aguacate martajado, 1 pieza.",
+     "price": 140,
+     "img": "5d8973d0-5f58-4ce5-9523-9a0f1e5e8cff.png"
+    },
+    {
+     "name": "Tostada Octo",
+     "desc": "Tostada con pulpo cocido curtido en limón, sal y pimienta, acompañada de pepino, cebolla morada y aguacate, 1 pieza.",
+     "price": 195,
+     "img": "4f57a88d-0b23-43dd-9c23-0d5517b84e8d.png"
+    },
+    {
+     "name": "Tostada Don Titi",
+     "desc": "Tostada con tradicional ceviche de camarón de mazatlán, decorado con un toque de camarón a elegir, 1 pieza.",
+     "price": 163,
+     "img": "f0a05395-46ab-4335-8ff9-83dce39d8df4.png"
+    },
+    {
+     "name": "Tostada de Marlín en Escabeche",
+     "desc": "Tostada con guiso de marlín en escabeche, receta tradicional de mazatlán, 1 pieza.",
+     "price": 160,
+     "img": "a46a7ab7-88a4-44eb-95de-b01665784152.png"
+    },
+    {
+     "name": "Tostada Ceviche de Pescado Sierra",
+     "desc": "Tostada con pescado sierra curtido en limón, acompañado de zanahoria rallada, pepino, cebolla morada, cilantro y toque de chile serrano, 1 pieza.",
+     "price": 143,
+     "img": "71e6be16-ecd3-450b-8f19-d9a139491b2f.png"
+    },
+    {
+     "name": "Tostada de Aguachile Rojo",
+     "desc": "Tostada con salsa roja a base de chile chiltepín, camarón y picor a elegir, curtido en limón, un toque de sal y pimienta, 1 pieza.",
+     "price": 164,
+     "img": "d0599777-8b8e-456b-b512-1ab9993eb0d6.png"
+    },
+    {
+     "name": "Tostada de Aguachile Verde",
+     "desc": "Tostada con camarón en salsa verde de chile serrano, curtido en limón, con cebolla morada y aguacate. Picor a elegir. 1 pieza.",
+     "price": 148,
+     "img": "2bbc4583-1e5c-4ddb-91df-251827928995.png"
+    },
+    {
+     "name": "Tostada Providencia",
+     "desc": "Tostada con camarón cocido, pulpo, bañados en salsa de guacamole estilo taquero, roseada de pancita de chicharrón frito y cebolla morada curtida, 1 pieza.",
+     "price": 215,
+     "img": "60e346c6-4a17-4149-9401-a2e0a4b9ff11.png"
+    },
+    {
+     "name": "Tostada de Camarón Cocido",
+     "desc": "Tostada con camarón cocido, cebolla morada y pepino. 1 pieza.",
+     "price": 188,
+     "img": "185cc509-8685-49ec-8543-5f1813b1f8ba.png"
+    }
+   ]
+  },
+  {
+   "name": "Ordenes Grandes",
+   "products": [
+    {
+     "name": "Ceviche Mechita Grande 260 gr",
+     "desc": "Ceviche con callo almeja, pulpo, camarón fresco, camarón cocido con jitomate, pepino y cebolla morada en salsa roja de la casa, para compartir.",
+     "price": 319,
+     "img": "2ce435c2-6fd0-4eb6-9086-4e51aafaff19.png"
+    },
+    {
+     "name": "Aguachile Verde Grande 260 gr",
+     "desc": "Salsa verde a base de chile habanero y serrano, camarón y picor a elegir, curtido en limón, un toque de sal, pimienta, pepino y cebolla morada, para compartir.",
+     "price": 274,
+     "img": "6028b5e4-bacc-4dfd-947a-cd69c19f218e.png"
+    },
+    {
+     "name": "Aguachile Negro Grande 260 gr",
+     "desc": "Salsa negra a base de chile serrano, camarón y picor a elegir, curtido en limón, sal, pimienta, pepino y cebolla morada, para compartir.",
+     "price": 297,
+     "img": "91e1e720-3aad-4edc-a9fb-c50a98fde140.png"
+    },
+    {
+     "name": "Ceviche de Pescado Sierra Grande",
+     "desc": "Ceviche con pescado sierra molido, curtido en limón con zanahoria rallada, cebolla morada, pepino y cilantro, orden para compartir 260 gr.",
+     "price": 257,
+     "img": "6f9d9647-9966-4475-819a-410cab967eea.png"
+    },
+    {
+     "name": "Ceviche Don Titi Grande 260 gr",
+     "desc": "Ceviche con camarón de mazatlán a elegir, jitomate picado, pepino, cebolla morada, cilantro y decorado con camarón seco, para compartir.",
+     "price": 265,
+     "img": "89bf19f8-057a-4c59-b9f2-0d670abfbe94.png"
+    },
+    {
+     "name": "Aguachile Rojo Grande 260 gr",
+     "desc": "Salsa roja a base de chile chiltepín, camarón y picor a elegir, curtido en limón, un toque de sal, pimienta, cebolla morada y pepino, para compartir.",
+     "price": 293,
+     "img": "d836cc38-6fa6-48d9-9236-b711cca543dd.png"
+    },
+    {
+     "name": "Marlín en Escabeche Grande 260 gr",
+     "desc": "Marlín en escabeche, receta familiar, orden para compartir.",
+     "price": 262,
+     "img": "3af799eb-4c2a-49e3-acc2-8475ab2ec0cb.png"
+    },
+    {
+     "name": "Ensalada de Camarón de la Tuta Grande",
+     "desc": "Ensalada con camarón cocido, zanahoria rallada, cebolla morada, pepino y apio con mayonesa, orden para compartir 260 gr.",
+     "price": 222,
+     "img": "1cd473c8-9dc0-4d4c-8b87-8c3537f009e2.png"
+    }
+   ]
+  },
+  {
+   "name": "Ordenes Chicas",
+   "products": [
+    {
+     "name": "Aguachile Rojo Chico 140 gr",
+     "desc": "Aguachile con salsa roja a base de chile chiltepín, camarón y picor a elegir, curtido en limón, un toque de sal, pimienta, cebolla morada y pepino, individual.",
+     "price": 218,
+     "img": "d836cc38-6fa6-48d9-9236-b711cca543dd.png"
+    },
+    {
+     "name": "Marlín en Escabeche Chico 140 Gr",
+     "desc": "Marlín en escabeche de 140 g, preparado con receta tradicional. Incluye aguacate en rodajas.",
+     "price": 239,
+     "img": "3af799eb-4c2a-49e3-acc2-8475ab2ec0cb.png"
+    },
+    {
+     "name": "Ceviche Don Titi Chico 140 gr",
+     "desc": "Ceviche con camarón a elegir de mazatlán, jitomate picado, pepino, cebolla morada, cilantro y decorado con camarón seco, orden individual.",
+     "price": 212,
+     "img": "89bf19f8-057a-4c59-b9f2-0d670abfbe94.png"
+    },
+    {
+     "name": "Ceviche Mahi Mahi Chico 140 Gr",
+     "desc": "Ceviche con pescado dorado en trozos, jitomate, cherry, un toque de chile serrano, habanero, cebolla morada, pepinillo y cilantro, individual.",
+     "price": 300,
+     "img": "ba2db39f-2840-43de-8424-43cd5f07d65a.png"
+    },
+    {
+     "name": "Ensalada de Camarón de la Tuta Chica",
+     "desc": "Ensalada con camarón cocido, zanahoria rallada, cebolla morada, pepino y apio con mayonesa, 140 gr.",
+     "price": 234,
+     "img": "1cd473c8-9dc0-4d4c-8b87-8c3537f009e2.png"
+    },
+    {
+     "name": "Ceviche Pescado Sierra Chico 140 gr",
+     "desc": "Ceviche con pescado sierra molido, curtido en limón con zanahoria rallada, cebolla morada, pepino y cilantro, orden individual.",
+     "price": 204,
+     "img": "4f07cfd1-a48d-4666-b66b-015c5e400ea9.png"
+    },
+    {
+     "name": "Ceviche Mechita Chico 140 gr",
+     "desc": "Ceviche con callo almeja, pulpo, camarón fresco, camarón cocido, jitomate, pepino y cebolla morada en salsa roja de la casa, orden individual.",
+     "price": 238,
+     "img": "2ce435c2-6fd0-4eb6-9086-4e51aafaff19.png"
+    },
+    {
+     "name": "Aguachile Verde Chico 140 gr",
+     "desc": "Aguachile con salsa verde a base de chile habanero, serrano, camarón y picor a elegir, curtido en limón, un toque de sal, pimienta, pepino y cebolla morada, individual.",
+     "price": 208,
+     "img": "6028b5e4-bacc-4dfd-947a-cd69c19f218e.png"
+    },
+    {
+     "name": "Aguachile Negro Chico 140 gr",
+     "desc": "Aguachile con salsa negra a base de chile serrano, camarón y picor a elegir, curtido en limón, sal, pimienta, pepino y cebolla morada, individual.",
+     "price": 223,
+     "img": "91e1e720-3aad-4edc-a9fb-c50a98fde140.png"
+    }
+   ]
+  },
+  {
+   "name": "Cócteles",
+   "products": [
+    {
+     "name": "Cóctel de Camarón y Pulpo Mediano",
+     "desc": "Cóctel con especias sabor del consomé del día, cebolla morada, pepino, aguacate, marisco de temporada 140 gr, verdura de temporada y preparación a elegir.",
+     "price": 259,
+     "img": "c72df188-43b4-46e9-997b-4768962b3a68.png"
+    },
+    {
+     "name": "Cóctel la Condesa 180 Gr",
+     "desc": "Cóctel preparado con salsas negras de la casa, un toque de cátsup, aceite de oliva, limón, camarón seco, pulpo, camarón cocido y callo de almeja fresco.",
+     "price": 369,
+     "img": "0a5e1feb-7e54-4350-84de-e07d57e766ae.png"
+    },
+    {
+     "name": "Cóctel de Camarón y Pulpo Grande",
+     "desc": "Cóctel con especias sabor del consomé del día, cebolla morada, pepino, aguacate, marisco de temporada 180 gr, verdura de temporada y preparación a elegir.",
+     "price": 285,
+     "img": "c72df188-43b4-46e9-997b-4768962b3a68.png"
+    },
+    {
+     "name": "Cóctel de Camarón y Pulpo Chico",
+     "desc": "Cóctel con especias sabor del consomé del día, cebolla morada, pepino, aguacate, marisco de temporada 90 gr, verdura de temporada y preparación a elegir.",
+     "price": 237,
+     "img": "c72df188-43b4-46e9-997b-4768962b3a68.png"
+    }
+   ]
+  },
+  {
+   "name": "Conchas",
+   "products": [
+    {
+     "name": "Ostion De Sinaloa",
+     "desc": "Ostiones Naturales, Acompanados De Salsa De Aceituna Y Verdura Picada (Habanero, Cebolla Morada, Pepinillo, Chile Serrano Y Cilantro) Para Poner Al Gusto.",
+     "price": 200,
+     "img": "93d4ada3-17af-4dd6-92a9-4a4d5ee679a6.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco chicharrón de pescado",
+     "desc": "Servido en tortilla de maíz azul, una base de guacamole martajado, trozos de chicharrón de pescado y unas gotas de salsa macha.",
+     "price": 103,
+     "img": "f4615f5f-cbce-4f95-ac72-19c3d8638668.png"
+    },
+    {
+     "name": "Taco chicharrón de atún",
+     "desc": "Servido en tortilla de maíz azul, guacamole martajado y chicharrón de atún con unas gotas de nuestra salsa macha.",
+     "price": 93,
+     "img": "a0fa7270-5463-4884-9ea9-815446629dbd.png"
+    },
+    {
+     "name": "Taco chicharrón de pulpo",
+     "desc": "Servido sobre tortilla de maíz azul, con una base de mayonesa macha, chicharrón de pulpo y cebolla morada curtida.",
+     "price": 113,
+     "img": "0ae061be-79ae-404c-9fd4-2c01cf550dd3.png"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla de Camarón",
+     "desc": "Tortilla de harina con queso chihuahua, camarón cocido sarteneado, acompañado de salsa martajada de la casa y aguacate, 1 pieza.",
+     "price": 87,
+     "img": "c4dcd194-f54f-4649-965d-739bac399b4f.png"
+    },
+    {
+     "name": "Quesadilla de Camarón y Pulpo",
+     "desc": "Tortilla de harina con queso chihuahua, camarón con pulpo sarteneados, acompañada de salsa martajada de la casa y aguacate, 1 pieza.",
+     "price": 96,
+     "img": "a7f33995-a963-450e-a7b0-810de8a77612.png"
+    },
+    {
+     "name": "Quesadilla de Pulpo",
+     "desc": "Tortilla de harina con queso chihuahua, pulpo sarteneado, acompañada de salsa martajada de la casa y aguacate,  1 pieza.",
+     "price": 106,
+     "img": "c4dcd194-f54f-4649-965d-739bac399b4f.png"
+    },
+    {
+     "name": "Quesadilla de marlín en escabeche",
+     "desc": "Guiso marlín en escabeche, servido en tortilla de harina, una costra de queso chihuahua y trozos de aguacate.",
+     "price": 82,
+     "img": "000a6b2c-d3d3-45b6-ac07-40c1ab64cec1.png"
+    },
+    {
+     "name": "Quesadilla marlín al chipotle",
+     "desc": "Guiso marlín en chipotle servido en tortilla de harina, costra de queso chihuahua y con unos trozos de aguacate.",
+     "price": 90,
+     "img": "f351b71e-ad75-415b-9e11-869ad6af233d.png"
+    }
+   ]
+  },
+  {
+   "name": "Pa' la Muela",
+   "products": [
+    {
+     "name": "Tostada Ensalada de Camarón de la Tuta",
+     "desc": "Tostada con camarón cocido, zanahoria rallada, cebolla morada, pepino y apio con mayonesa, 60 gr.",
+     "price": 114,
+     "img": "2ee21513-acb1-4033-b1e8-a4645b5a5407.png"
+    },
+    {
+     "name": "Duro con Ceviche Sierra 60 Gr",
+     "desc": "Duro con ceviche de pescado sierra, acompañado de salsa huichol y chamoy sinaloense. Incluye limón para sazonar.",
+     "price": 115,
+     "img": "b4e4d3d0-f92f-40e3-b6f3-6a1c5f8c875b.png"
+    },
+    {
+     "name": "Tostada Paté de Marlín 60 Gr",
+     "desc": "Tostada con paté de marlín.",
+     "price": 110,
+     "img": "1062ca6b-e985-4f9d-acef-b0909fc8fe2c.png"
+    },
+    {
+     "name": "Caldito de Camarón 210 ml",
+     "desc": "Consomé de camarón con trozos de camarón cocido, pepino y cebolla morada.",
+     "price": 80,
+     "img": "c11995a1-a57f-49e3-b7af-0248219db2d1.png"
+    }
+   ]
+  },
+  {
+   "name": "Paté de Atún Ahumado",
+   "products": [
+    {
+     "name": "1/4 Litro de paté",
+     "desc": "Delicioso paté de atún ahumado, ideal para botanear en casa, reuniones y/o eventos; incluye de nuestra salsa macha para acompañar.",
+     "price": 142,
+     "img": "a5b74f32-0274-4ab1-8737-476bc7b9b6d6.png"
+    },
+    {
+     "name": "1/2 Litro de paté",
+     "desc": "Delicioso paté de atún ahumado, ideal para botanear en casa, reuniones y/o eventos; incluye de nuestra salsa macha para acompañar.",
+     "price": 264,
+     "img": "c7db3698-224c-48a5-a035-39944b2cbfa9.png"
+    },
+    {
+     "name": "1 Litro de paté",
+     "desc": "Delicioso paté de atún ahumado, ideal para botanear en casa, reuniones y/o eventos; incluye de nuestra salsa macha para acompañar.",
+     "price": 473,
+     "img": "407512f4-ec37-4557-8dd9-8c9f989e0355.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Pay de guayaba",
+     "desc": "Pay con base de galleta crocante, mezcla de vainilla con queso crema, guayaba natural, decorado con cajeta y nuez, porción individual.",
+     "price": 129,
+     "img": "228e2bd9-7506-4dfe-b74b-28f5cbd321a6.png"
+    },
+    {
+     "name": "Pay de Plátano",
+     "desc": "Pay con base crujiente de galleta rellena de queso crema, vainilla, trozos de plátano con topping de cajeta y nuez, porción individual.",
+     "price": 129,
+     "img": "5c2dd76a-f85b-40c3-81bb-a007ee29f954.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Kombucha lola 33",
+     "desc": "Bebida refrescante de probióticos sabor: jamaica albahaca. 237 ml",
+     "price": 81,
+     "img": "1f86dd6c-9bc1-4ee5-a195-0c7f995d8946.jpeg"
+    },
+    {
+     "name": "Lechuguilla en lata",
+     "desc": "Bebida refrescante, lechuguilla gasificada 355 ml",
+     "price": 80,
+     "img": "248f067a-4152-4bb0-8a85-413358f54bf7.jpeg"
+    },
+    {
+     "name": "Kombucha lola 33",
+     "desc": "Bebida refrescante de probióticos sabor: mandarina y hierbabuena. 237 ml",
+     "price": 81,
+     "img": "f23c4d2d-0edc-4186-bb56-c2faad6e8a6d.jpeg"
+    },
+    {
+     "name": "Agua mineral topochico",
+     "desc": "355 Ml vidrio",
+     "price": 54,
+     "img": "f356d269-ee8c-4f89-82f1-b726d0586e30.png"
+    },
+    {
+     "name": "Agua fresca de coco 600 ml",
+     "desc": "Agua fresca de coco de la casa.",
+     "price": 73,
+     "img": "181d2410-60d0-432d-82f0-c2dd410f81bb.jpeg"
+    }
+   ]
+  }
+ ]
+}

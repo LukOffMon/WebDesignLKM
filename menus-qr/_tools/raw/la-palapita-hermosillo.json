@@ -1,0 +1,449 @@
+{
+ "id": 1306718993,
+ "brandName": "La Palapita",
+ "name": "La Palapita - San Benito",
+ "address": "Av Gaston Madrid 147, San Benito, 83190 Hermosillo, Son.",
+ "schedule": "10:00:00 - 18:00:00",
+ "categories": "Pescados y Mariscos · Tacos",
+ "location": [
+  -110.963006,
+  29.088411
+ ],
+ "city": "Hermosillo",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/la-palapita-logo1-1562692888311.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/hmo1-1563403351073.jpg",
+ "schedules": [
+  {
+   "open_time": "10:00:00",
+   "close_time": "18:00:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1306718993-la-palapita",
+ "menu": [
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Toritos",
+     "desc": "Toritos rellenos de carne y verduras, 6 piezas.",
+     "price": 300,
+     "img": "6576201a-2178-435e-a9b2-e2ac4796719f.png"
+    },
+    {
+     "name": "Taco de Camaron Enchilado",
+     "desc": "Taco con tortilla de maíz, queso chihuahua y camaron enchilado.",
+     "price": 127,
+     "img": "cb58661d-db55-4665-85ab-86cff067e801.png"
+    },
+    {
+     "name": "Taco Gobernador",
+     "desc": "Taco con camarón ranchero, tortilla de maíz, queso chihuahua y aguacate.",
+     "price": 127,
+     "img": "2f38dcea-2537-4849-946a-a2e12531356d.png"
+    },
+    {
+     "name": "Taco Rolex",
+     "desc": "Taco con camarón capeado con cebollín, chile guerito en tortilla de harina y queso amarillo.",
+     "price": 127,
+     "img": "6d453027-9eba-4e6b-80e3-25da550d6339.png"
+    },
+    {
+     "name": "Taco de Chicharrón de Pescado",
+     "desc": "Taco de chicharrón de pescado con aguacate y pico de gallo, servido en tortilla de maíz.",
+     "price": 127,
+     "img": "ac1440a9-db51-48b7-bb09-2586dfae1e35.png"
+    },
+    {
+     "name": "Taco Shona",
+     "desc": "Taco de Camaron a la Diabla, en tortilla de maiz y queso chihuahua",
+     "price": 127,
+     "img": "2910f5c0-8579-4f1f-8713-6b6fb4562959.png"
+    },
+    {
+     "name": "Charola de Tacos Surtidos",
+     "desc": "5 Tacos surtidos (gobernador, rolex, shona, quesadilla marlin y empanada).",
+     "price": 541,
+     "img": "fa373b89-6f59-464a-9d02-ca9f993c5eb0.png"
+    },
+    {
+     "name": "Taco Maya",
+     "desc": "Taco con tortilla de jícama, camarón al chipotle y mango.",
+     "price": 127,
+     "img": "99e61205-eac9-4a6e-a97d-b008a6679ee7.png"
+    },
+    {
+     "name": "Taco Mixto",
+     "desc": "Taco con camarón shona y chicharrón de pescado en tortilla de maíz.",
+     "price": 127,
+     "img": "b678a7ff-f895-4175-bce0-11bfc0be8679.png"
+    },
+    {
+     "name": "Taco de Pulpo Enchilado",
+     "desc": "Taco con tortilla de maíz, queso chihuahua y pulpo enchilado.",
+     "price": 141,
+     "img": "ca1ccd66-3b99-455a-abf8-fc172a05a2ba.png"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Orden de Chicharron de Pescado",
+     "desc": "250G. de chicharron con guacamole y tortillas de maiz.",
+     "price": 427,
+     "img": "8e7e7a1d-a1fc-400c-b9d4-bed7d66dea1b.png"
+    },
+    {
+     "name": "Empanada de Marlin",
+     "desc": "Empanada con maseca rellena de marlin y philadelphia.",
+     "price": 127,
+     "img": "aebd5ed9-4f94-42d2-a1f5-eb68e2ac2c39.png"
+    },
+    {
+     "name": "Mamá Shona",
+     "desc": "Quesadillas con queso derretido y salsa roja.",
+     "price": 412,
+     "img": "51b768c1-aced-4ab4-872f-3541888af16e.png"
+    },
+    {
+     "name": "Empanada de Camarón",
+     "desc": "Empanada con maseca rellena de camarón ranchero y philadelphia.",
+     "price": 127,
+     "img": "ce01e260-4077-429e-a9b9-539ca6181997.png"
+    },
+    {
+     "name": "Toritos de Camarón",
+     "desc": "Toritos de camarón (6 piezas)",
+     "price": 221,
+     "img": "f7abe884-9660-4316-8b6c-e06f4264c9a2.png"
+    },
+    {
+     "name": "Quesadilla de Marlin",
+     "desc": "Quesadilla con marlin ahumado preparado, tortilla de maíz y queso chihuahua.",
+     "price": 127,
+     "img": "47a872c7-03a6-41bc-8902-77b497b3c728.png"
+    },
+    {
+     "name": "Nuggets de Pollo",
+     "desc": "Nuggets de pollo, con papas fritas.",
+     "price": 156,
+     "img": "c59e93ee-6420-4a66-9313-0ffccb4944a0.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Variedad Fresca",
+   "products": [
+    {
+     "name": "Medio Litro de Ceviche de Pescado",
+     "desc": "Medio litro de ceviche de pescado.",
+     "price": 213,
+     "img": "77cf7fbc-01c1-4ae3-87d8-c07f0eb7ffc8.png"
+    },
+    {
+     "name": "Tostitos",
+     "desc": "(Atun Marinado, Cebolla Morada, Pepino, Serrano Y Aguacate)",
+     "price": 300,
+     "img": "f77007c7-e413-4921-8973-8fc097e64681.png"
+    },
+    {
+     "name": "Aguachile De Callo",
+     "desc": "Aguachile de callo con pepino, cebolla morada y chile en rodajas, servido en una salsa cítrica.",
+     "price": 500,
+     "img": "64a7b9b8-dab1-4405-a61a-84bddfea10b9.png"
+    },
+    {
+     "name": "Orden De Guacamole",
+     "desc": "350gr",
+     "price": 200,
+     "img": "9d82b997-cbd4-4ea8-b39f-d309edccfc28.png"
+    },
+    {
+     "name": "Medio Litro Dè Ceviche de Camarón",
+     "desc": "Medio litro de ceviche de camarón.",
+     "price": 235,
+     "img": "2df40a02-4096-45ca-a1e4-2ac8e1c3b99d.png"
+    },
+    {
+     "name": "Aguachile de Camarón",
+     "desc": "Aguachile de camarón con pepino y aguacate.",
+     "price": 370,
+     "img": "9a110617-fb86-4723-b4bf-bc8b1904b894.png"
+    },
+    {
+     "name": "Aguachile de Camarón y Callo de Lobina",
+     "desc": "Aguachile de camarón y callo de lobina (orden).",
+     "price": 384,
+     "img": "62f3b014-3743-424a-8b74-8e560f16d7c1.png"
+    },
+    {
+     "name": "Plátano Botanero Fresco",
+     "desc": "Plátano botanero fresco (camarón cocido, camarón crudo, callo de lobina, pulpo, calamar y atún fresco).",
+     "price": 413,
+     "img": "ba1c3dd1-b514-404d-a0c8-28595316934d.png"
+    },
+    {
+     "name": "Tosticeviche de Pescado",
+     "desc": "Ceviche de pescado con aguacate sobre tostadas.",
+     "price": 213,
+     "img": "42db7f2f-7eba-41f1-88f5-a5da0d4e1cdc.png"
+    },
+    {
+     "name": "Tosticeviche de Camarón",
+     "desc": "Tostadas con ceviche de camarón y aguacate.",
+     "price": 213,
+     "img": "4e452bc5-4151-4194-8ab3-b57955ef9f4d.png"
+    },
+    {
+     "name": "Vaso de Ceviche de Pescado",
+     "desc": "Vaso de ceviche de pescado.",
+     "price": 170,
+     "img": "78a4c1c6-9bb9-4072-bb92-3201961e099c.jpg"
+    },
+    {
+     "name": "Vaso de Ceviche de Camarón",
+     "desc": "Vaso de ceviche de camarón con aguacate, pepino y jitomate.",
+     "price": 184,
+     "img": "1c4f66ca-e619-471d-a55b-46d40c395ef2.jpeg"
+    },
+    {
+     "name": "Molcajete Palapita",
+     "desc": "Molcajete con camarón cocido, camarón crudo, callo de lobina, calamar y atún fresco.",
+     "price": 427,
+     "img": "55a077a0-3862-4b37-85d8-39eb733670ed.png"
+    },
+    {
+     "name": "Coctel Mediano 500Ml",
+     "desc": "Coctel de mariscos con: camaron cocido,camaron crudo,atun,pulpo,caracol,callo.salsa bandera y aguacate.",
+     "price": 199,
+     "img": "96c5da1c-7acc-460d-9e23-18021563c189.jpeg"
+    },
+    {
+     "name": "Coctel Chabela 800 ml",
+     "desc": "Coctel de mariscos con camarón cocido, camarón crudo, atún, pulpo, caracol, callo, salsa bandera y aguacate.",
+     "price": 270,
+     "img": "4a060dc3-2f1f-446e-89d8-c4abdda7bda0.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tostadas",
+   "products": [
+    {
+     "name": "Tostada Especial de Ceviche",
+     "desc": "Tostada con ceviche, camarones, pulpo y aguacate.",
+     "price": 139,
+     "img": "8591c643-309f-484b-a281-a217cd1af29c.png"
+    },
+    {
+     "name": "Tostada de Aguachile",
+     "desc": "Tostada con camarones, aguacate, cebolla morada y pepino sobre una base crujiente, bañada en aguachile.",
+     "price": 184,
+     "img": "b1bde711-aaef-45c6-9c12-37dddae34562.png"
+    },
+    {
+     "name": "Tostada Will",
+     "desc": "Tostadas con camarón cocido, camarón crudo, callo de lobina, pulpo, calamar y atún fresco.",
+     "price": 184,
+     "img": "16d930ba-c4c5-47d9-bab3-64aeaa313985.png"
+    },
+    {
+     "name": "Tostada Especial de Jaiba",
+     "desc": "Tostada con jaiba, camarón cocido y crudo, callo de lobina, pulpo, calamar y atún fresco, acompañada de lechuga y jitomate.",
+     "price": 213,
+     "img": "c2285d3e-d413-4da5-b702-f88a5d1750e6.jpg"
+    },
+    {
+     "name": "Tostada de Atún",
+     "desc": "Tostada de atún fresco marinado, cebollita curtida, aguacate y aderezo habanero.",
+     "price": 170,
+     "img": "43a0c239-82dc-487c-88cb-2e2cc68d97ab.png"
+    },
+    {
+     "name": "Tostada de Jaiba",
+     "desc": "Tostada de jaiba.",
+     "price": 156,
+     "img": "26128cde-f0e7-4c8d-87f4-adb2ca2587fa.png"
+    },
+    {
+     "name": "Tostada Full de Ceviche",
+     "desc": "Ceviche + 3 mariscos.",
+     "price": 241,
+     "img": "950a7cb3-1aa9-47c5-80c6-56a8d71ca38b.png"
+    },
+    {
+     "name": "Ceviche de Camarón",
+     "desc": "Ceviche de camarón con aguacate, servido sobre tostada. Incluye limón para sazonar.",
+     "price": 121,
+     "img": "96d56b98-d68d-4e99-86c2-5cd72d09284f.png"
+    },
+    {
+     "name": "Ceviche de Pescado",
+     "desc": "Tostada con ceviche de pescado y aguacate.",
+     "price": 99,
+     "img": "11c165c2-aac7-456d-9674-5d25eab25863.png"
+    },
+    {
+     "name": "Tostada Full de Jaiba",
+     "desc": "Jaiba + mariscos (camarón cocido,  camarón crudo, callo de lobina, pulpo, calamar y atún fresco)",
+     "price": 256,
+     "img": "c2285d3e-d413-4da5-b702-f88a5d1750e6.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Cahuamanta",
+   "products": [
+    {
+     "name": "Jugo Vichi",
+     "desc": "Jugo natural refrescante.",
+     "price": 60,
+     "img": "04b1a477-eec9-49cf-914a-40df529855b3.jpeg"
+    },
+    {
+     "name": "Taco de Cahuamanta",
+     "desc": "Taco de cahuamanta con carne desmenuzada.",
+     "price": 99,
+     "img": "888e236c-9845-445d-8964-7ce5f217c8b4.png"
+    },
+    {
+     "name": "Vaso de Cahuamanta",
+     "desc": "Caldo costero de mantarraya y camarón con zanahoria, apio, tomate y especias.",
+     "price": 156,
+     "img": "d3a17fcc-f41b-4718-8e9a-597a029d57c5.jpeg"
+    },
+    {
+     "name": "Medio Litro de Cahuamanta",
+     "desc": "Cahuamanta, un guiso de mariscos y manta raya, servido en porción de medio litro.",
+     "price": 213,
+     "img": "132293b4-1d4a-496f-93e8-4bfa7e21a95a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Aguas Frescas",
+     "desc": "Aguas frescas (500 ml) elige tu favorita.",
+     "price": 56,
+     "img": "3bc1bf5e-d402-43be-a543-fe58e9d5bbc5.png"
+    },
+    {
+     "name": "Limonada Natural 1 Litro",
+     "desc": "Limonada natural 1 litro.",
+     "price": 84,
+     "img": "e2c99721-b4a7-4b1a-a340-fa198262ada0.jpeg"
+    },
+    {
+     "name": "Limonada Mineral 1 Litro",
+     "desc": "Limonada mineral 1 litro.",
+     "price": 99,
+     "img": "d3564ec7-c423-4879-8a57-7388b82bdf73.jpeg"
+    },
+    {
+     "name": "Clamato Preparado 190 ml",
+     "desc": "Clamato preparado de 190 ml.",
+     "price": 113,
+     "img": "9ef854d3-cd56-439e-b2a4-8d1733e42ddc.png"
+    },
+    {
+     "name": "Clamato Preparado 1 Litro",
+     "desc": "Clamato preparado de 1 litro con apio.",
+     "price": 141,
+     "img": "9ef854d3-cd56-439e-b2a4-8d1733e42ddc.png"
+    },
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "9f5f3e98-9811-4cc1-91b1-a44389ea210b.jpg"
+    },
+    {
+     "name": "Sprite 600 ml",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "20c45eac-b1cc-4d03-a012-f9a50562ae42.jpg"
+    },
+    {
+     "name": "Manzanita Sol 600 ml",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "03dd6276-f926-49cf-8de4-8691610de46f.png"
+    },
+    {
+     "name": "Coca-Cola Light 355 ml",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "c9f97e50-a548-4244-8795-9c4d64b95c8f.jpeg"
+    },
+    {
+     "name": "Fanta Naranja 600 ml",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "b55cfaa9-fbf6-488a-8b7c-43f3d3e43bd7.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Refrescos",
+   "products": [
+    {
+     "name": "Coca-cola 355ml",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "40b1f424-fb46-4ddb-97b7-db379f65e9fa.png"
+    },
+    {
+     "name": "Coca-cola Ligth 355 Ml.",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "8f66e3f1-8098-4028-a1d7-cb807807756c.jpeg"
+    },
+    {
+     "name": "Sprite 600 ml",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "20c45eac-b1cc-4d03-a012-f9a50562ae42.jpg"
+    },
+    {
+     "name": "Fanta Naranja 600 Ml.",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "b55cfaa9-fbf6-488a-8b7c-43f3d3e43bd7.jpeg"
+    },
+    {
+     "name": "Manzanita 600 Ml.",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "a8fc7993-5932-462c-8a6d-6eb32e41f331.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "POSTRES",
+   "products": [
+    {
+     "name": "Minipay Diferentes Sabores",
+     "desc": "Minipay varios sabores (oreo, cereza, original de queso, cajeta).",
+     "price": 74,
+     "img": "d455b3b1-0bdf-45d8-b372-2e4bcca68653.jpeg"
+    },
+    {
+     "name": "Cuadro Doble de Chocolate",
+     "desc": "Pastel de doble chocolate con crema y cobertura de chocolate.",
+     "price": 74,
+     "img": "51d119ab-81c2-4f39-aa21-1e743a53fd5f.jpeg"
+    },
+    {
+     "name": "Flan",
+     "desc": "Rebanada de flan casero.",
+     "price": 93,
+     "img": "3204bcbf-ff71-4b91-a2f2-b37d7947f13d.jpeg"
+    }
+   ]
+  }
+ ]
+}

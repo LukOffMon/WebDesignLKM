@@ -1,0 +1,844 @@
+{
+ "id": 1923764451,
+ "brandName": "El Mar Tuxtla",
+ "name": "El Mar Tuxtla - Coquelequixtlan",
+ "address": "Calle Nueva Agua Potable 398, Coqueletquitsan, 29090 Tuxtla Gutiérrez, Chis.",
+ "schedule": "10:45:00 - 18:00:00",
+ "categories": "Pescados y Mariscos",
+ "location": [
+  -93.108155697137,
+  16.729381449478
+ ],
+ "city": "Tuxtla Gutiérrez",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/scvsc-1638290162995.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/tuxt-home-1637947926787_hq.jpeg",
+ "schedules": [
+  {
+   "open_time": "10:45:00",
+   "close_time": "18:00:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923764451-el-mar-tuxtla",
+ "menu": [
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco Estilo Baja",
+     "desc": "Taco con tortilla de maíz, proteína a elegir, col morada, zanahoria, elote, crema y salsa de tamarindo.",
+     "price": 78,
+     "img": "52b8b2e3-b0f4-4e9e-84c2-d9cf6a822f83.jpeg"
+    },
+    {
+     "name": "Taco Gobernador",
+     "desc": "Ensalada con tortitas de macabil fileteado frito, lechuga, tomate, cebolla, chile verde, pepino y rábano. Tamaño a elegir.",
+     "price": 78,
+     "img": "e526b61e-00ec-4247-a318-3530db391d58.png"
+    },
+    {
+     "name": "Tacos de Cochinita de Marlín",
+     "desc": "Taco con tortilla de maíz, picaña y cebolla. Acompañado de cilantro.",
+     "price": 204,
+     "img": "fcd5bd89-ede4-45a8-b60d-3f18b0916537.jpeg"
+    },
+    {
+     "name": "Tacos de Camarón Al Pastor",
+     "desc": "Casco de mula preparado con cilantro, cebolla, miguelito y salsas. Ideal como acompañamiento.",
+     "price": 180,
+     "img": "beef5985-4962-4aa3-9b58-5a42e7ed129e.jpeg"
+    },
+    {
+     "name": "Tacos de Arrachera Especial X3",
+     "desc": "3 Tacos con tortilla de maíz, fajitas de arrachera, guacamole y cebolla crujiente.",
+     "price": 186,
+     "img": "406d19a5-2911-4f4c-953c-f5f464952d53.png"
+    },
+    {
+     "name": "Taco de Picaña",
+     "desc": "Tostada de maíz frita con ceviche de mariscos, jitomate, cebolla morada, cilantro y aguacate.",
+     "price": 204,
+     "img": "a062ef6a-ddfd-421d-9eda-43643e71a1bc.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada el Mar",
+     "desc": "Ensalada con tamaño a elegir, camarones pulpa, trozos de papa, trocitos de zanahoria y trocitos de apio. todo c/mayonesa, (tipo ensalada rusa).",
+     "price": 180,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58.png"
+    },
+    {
+     "name": "Ensalada de Mariscos",
+     "desc": "Ensalada con tamaño a elegir, camarones, ostión, caracol, calamar, verduras a la mexicana, zanahoría, calabaza, brocoli, elote y aguacate",
+     "price": 216,
+     "img": "4418a689-f821-4059-a45f-6088c26291ca.jpeg"
+    },
+    {
+     "name": "Ensalada de Camarones",
+     "desc": "Ensalada con camarones secos, limón, chile blanco, jitomate, cebolla y aguacate. Tamaño a elegir.",
+     "price": 216,
+     "img": "65bf43ea-e651-4883-a08c-58591a51dbc1.png"
+    },
+    {
+     "name": "Ensalada de Tortitas de Macabil",
+     "desc": "Sopa de mariscos con camarón, filete de pescado, calamar, ostión, jaiba y caracol. Incluye cebolla y chile picado aparte.",
+     "price": 216,
+     "img": "886cf028-c9ea-4a02-bcdb-b6789286a33b.png"
+    },
+    {
+     "name": "Ensalada de Camarón Seco con Limón",
+     "desc": "Cóctel de camarón con cátsup, salsas de la casa, cebolla, cilantro y aguacate. Tamaño a elegir.",
+     "price": 216,
+     "img": "337980a8-dabb-4df9-9666-9a6ba8eb2a47.png"
+    },
+    {
+     "name": "Ensalada de Salchichas de Macabil",
+     "desc": "Ensalada con tamaño a elegir, macabil fileteado hervido en caldo natural con un mix de lechuga, tomate, cebolla, chile verde.",
+     "price": 216,
+     "img": "64374147-b42d-46c9-9296-93baa2386d7d.png"
+    },
+    {
+     "name": "Ensalada de Minilla",
+     "desc": "Charola para dos con camarones empanizados, al ajo, a la cerveza y naturales; filete de mojarra empanizado, mojarra frita, chiles rellenos de cazón, empanadas de pescado, jaibas y macabil.",
+     "price": 216,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58.png"
+    }
+   ]
+  },
+  {
+   "name": "Sopas",
+   "products": [
+    {
+     "name": "Chilpanchole",
+     "desc": "Ceviche con proteína a elegir, preparado con limón y coco rallado. Incluye cebolla morada, aguacate, cilantro y chile rojo.",
+     "price": 204,
+     "img": "201641c3-28d9-43ec-a02b-08ba8b275d1a.png"
+    },
+    {
+     "name": "Caldo de Camarón",
+     "desc": "Camarones envueltos en tocino con queso manchego y pimiento verde, acompañados de una guarnición de pepino y zanahoria.",
+     "price": 204,
+     "img": "e55e50cb-93f2-4965-be5c-fa1e62159475.png"
+    },
+    {
+     "name": "Sopa de Mariscos",
+     "desc": "Arroz con camarones, guisantes, zanahorias y huevo.",
+     "price": 204,
+     "img": "6595257c-5b82-4c5a-a805-c7727f094981.png"
+    },
+    {
+     "name": "Chilpanchole Especial",
+     "desc": "Caldo espeso con picante, mariscos pelados, (camarones sin cascara y pulpa de jaiba).",
+     "price": 228,
+     "img": "13dbc6be-9ce8-4b65-96f5-f49720e35b8d.jpeg"
+    },
+    {
+     "name": "Caldo de Camarón Especial",
+     "desc": "Pulpo al ajillo acompañado de papas, ensalada de lechuga, jitomate, pepino y rábano, con guarnición de arroz.",
+     "price": 228,
+     "img": "5361bbd6-7391-4eb1-9b1c-f64fa5016db8.png"
+    },
+    {
+     "name": "Caldo de Medallón de Robalo",
+     "desc": "Camarones salteados en salsa de tomate y chiles secos. Se sirven con puré de papa y pan.",
+     "price": 222,
+     "img": "ae716c6e-0035-4fcb-8f85-3f798fd6f307.png"
+    }
+   ]
+  },
+  {
+   "name": "Platos Fuertes",
+   "products": [
+    {
+     "name": "Cazuela de Mariscos",
+     "desc": "Cazuela de mariscos con camarones, calamar, caracol y ostión.",
+     "price": 264,
+     "img": "db3ae5f1-0312-441d-92ce-11e19665cee0.png"
+    },
+    {
+     "name": "Cazuela de Camarones",
+     "desc": "Cóctel con caracol, camarón, calamar, ostión y salsa picante. Incluye aguacate y cilantro. Tamaño a elegir.",
+     "price": 240,
+     "img": "adb35ab8-f413-4dfd-94ff-4d76db83ad9e.jpeg"
+    },
+    {
+     "name": "Espaguetti a la Marinera",
+     "desc": "Espagueti salteado con mariscos, camarones, pulpo y chipotle.",
+     "price": 180,
+     "img": "54f4b48f-d58f-4e25-911a-f92f284db89b.png"
+    },
+    {
+     "name": "Aguacate Relleno",
+     "desc": "Tostada con atún fresco, aguacate y cebolla frita.",
+     "price": 222,
+     "img": "d777925e-0c4c-4e7b-a3b9-bb05f09f9dbd.png"
+    }
+   ]
+  },
+  {
+   "name": "Tostadas",
+   "products": [
+    {
+     "name": "Tostada de Ceviche",
+     "desc": "Cheesecake de Oreo con trozos de galleta y cobertura de crema de Oreo.",
+     "price": 84,
+     "img": "ba9ee933-f65f-4feb-8e01-e781e0be7062.png"
+    },
+    {
+     "name": "Tostada de Marlín",
+     "desc": "Caldo de camarón con cáscara, acompañado de cebolla y chile picado.",
+     "price": 84,
+     "img": "5dc8637f-b5bc-4ae9-98c4-9c5b4111bc18.png"
+    },
+    {
+     "name": "Tostada de Pulpo Al Cochito",
+     "desc": "Jaibas preparadas al gusto, servidas con salsa y decoradas con cilantro. Incluye rodajas de limón.",
+     "price": 108,
+     "img": "fbaa6da9-b7b2-4cc6-8c56-3c5a7004a116.png"
+    },
+    {
+     "name": "Tostada de Ceviche Al Durazno Fit",
+     "desc": "Base de jícama con proteína a elegir cocido en limón, al durazno, aceituna, cebolla morada, pepino, habanero y perejil.",
+     "price": 84,
+     "img": "0627c289-0a66-468d-9862-7113bcaa0bcc.png"
+    },
+    {
+     "name": "Tostada de Atún Fresco",
+     "desc": "Cóctel de ostión con cátsup, salsas de la casa, cebolla, cilantro y aguacate. Tamaño a elegir.",
+     "price": 102,
+     "img": "f9e51617-020e-4257-be4c-919d03e4fd8f.png"
+    },
+    {
+     "name": "Tostada de Ceviche Al Mango",
+     "desc": "Tostada frita de maíz con proteína a elegir cocido en limón, al mango, aceituna, cebolla morada, pepino, habanero y perejil.",
+     "price": 84,
+     "img": "8f41fbed-142c-492f-908e-750a8f3bba80.png"
+    }
+   ]
+  },
+  {
+   "name": "Cócteles",
+   "products": [
+    {
+     "name": "Cóctel de Camarón",
+     "desc": "4 empanadas rellenas de queso, acompañadas de salsa y ensalada de col.",
+     "price": 138,
+     "img": "18b814ea-f88d-49f2-8844-56c605b4c90e.png"
+    },
+    {
+     "name": "Cóctel de Ostión",
+     "desc": "Ceviche Guajiro con camarones cocidos al limón, salsa arriera, aguacate y pepino. Tamaño a elegir.",
+     "price": 138,
+     "img": "1d4c5eba-1fa1-40d1-9fe6-51dce82956bc.jpeg"
+    },
+    {
+     "name": "Cóctel Atomicas",
+     "desc": "Duraznos en almíbar servidos en copa. Ingrediente adicional a elegir.",
+     "price": 138,
+     "img": "b85bf1b7-f3d7-4c9c-bf5c-e11500c8e2b0.png"
+    },
+    {
+     "name": "Cóctel Campechanas",
+     "desc": "Caldo con medallón de robalo, acompañado de cebolla y chile picado.",
+     "price": 138,
+     "img": "d5fbc237-4d38-40ea-b5d9-3fd34e3ca54a.png"
+    },
+    {
+     "name": "Cóctel Vuelve a la Vida",
+     "desc": "Ceviche de pescado con limón, tomate, cilantro, cebolla, chile y aguacate. Tamaño a elegir.",
+     "price": 138,
+     "img": "8c76d0db-96fa-46b8-814d-8558fd3f4505.png"
+    }
+   ]
+  },
+  {
+   "name": "Ceviches",
+   "products": [
+    {
+     "name": "Ceviche de Camarón",
+     "desc": "Camarones empanizados con pasta a la cerveza, acompañados de arroz y ensalada.",
+     "price": 192,
+     "img": "f2789554-43fd-494e-9965-f32fb4beabda.png"
+    },
+    {
+     "name": "Ceviche de Pescado",
+     "desc": "Ceviche mixto con camarón crudo y cocido, pepino, tomate y cebolla.",
+     "price": 192,
+     "img": "1689cac0-0de1-4de7-bbb4-8d65c04cc773.png"
+    },
+    {
+     "name": "Ceviche Mixto",
+     "desc": "Pulpo cocido en su tinta acompañado de arroz blanco.",
+     "price": 192,
+     "img": "917268da-a579-4523-a8d8-b136ee870bb0.png"
+    },
+    {
+     "name": "Ceviche Al Durazno",
+     "desc": "Ceviche de tamaño a elegir con proteína a elegir, limón, durazno, jícama, pepino, perejil, aceituna y chile habanero.",
+     "price": 192,
+     "img": "db1eaf66-d01b-468a-a0d2-5d5b586852e0.png"
+    },
+    {
+     "name": "Ceviche Guajiro",
+     "desc": "Ensalada de Minilla con guiso de pescado, aceitunas y alcaparras. Tamaño a elegir.",
+     "price": 180,
+     "img": "e8a7705c-1772-4663-b986-da41df68eada.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Aguachiles",
+   "products": [
+    {
+     "name": "Aguachile Rojo de Camarón",
+     "desc": "Aguachile de tamaño a elegir con camarones frescos pelados, cocidos con limón, ahogados en salsa de limón y chiles secos, cebolla y aguacate.",
+     "price": 216,
+     "img": "994ab23d-c866-4a98-af6f-fb850116ce8a.png"
+    },
+    {
+     "name": "Aguachile Verde de Camarón",
+     "desc": "Aguachile con camarones frescos pelados, cocidos en limón, ahogados en salsa de chile jalapeño, cilantro, aguacate, cebolla y ajonjolí negro.",
+     "price": 216,
+     "img": "39ee4bb3-b433-44e2-8494-f803b4aa71e0.png"
+    },
+    {
+     "name": "Aguachile Tropical",
+     "desc": "Aguachile de camarones frescos pelados cocidos en limón, ahogados en salsa de chiles secos mango, fresas, sandia, perejil, pepino y cebolla.",
+     "price": 216,
+     "img": "a02e5f82-edbd-4074-95cb-0d707e5b020a.png"
+    },
+    {
+     "name": "Aguachile Negro",
+     "desc": "Aguachile de tamaño a elegir con camarones cocidos en limón, ahogados en salsa cubana, pepino y aguacate.",
+     "price": 180,
+     "img": "f93dc783-34d3-4ad6-a73f-2ac05902d6f1.jpeg"
+    },
+    {
+     "name": "Aguachile Plato Marino",
+     "desc": "Aguachile de tamaño a elegir con camarones cocidos en limón, ahogados salsa de soya, salsa inglesa, cebolla morada, chile jalapeño y aceite de oliva.",
+     "price": 216,
+     "img": "e559b399-a4f6-4639-9afd-d37be3b3361a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ostiones",
+   "products": [
+    {
+     "name": "Ostiones en Su Concha",
+     "desc": "Ostiones en su concha natural de 12 a 15 piezas.",
+     "price": 144,
+     "img": "90832f0f-edd7-47c6-8a08-c5be1bad0fad.png"
+    },
+    {
+     "name": "Ostiones a la Rockefeller",
+     "desc": "Ostiones en su concha rellenos de nuestra pasta rockefeller y gratinados con queso gouda de 12 a 15 piezas.",
+     "price": 168,
+     "img": "ba6b8344-f5dd-4092-b6f3-9ab0161fa1d7.png"
+    },
+    {
+     "name": "Ostiones Pica Pica",
+     "desc": "Ostiones en su concha rellenos de nuestra pasta rockefeller y gratinados con queso gouda, espolvoreados con tocino y salsa pica pica, 12 a 15 piezas.",
+     "price": 168,
+     "img": "02dfc180-6965-475b-8f05-f40ab3044796.jpeg"
+    },
+    {
+     "name": "Ostiones 4 X 4",
+     "desc": "Ostiones a la rockefeller, pica pica, rasurados y al natural, 12 a 15 piezas.",
+     "price": 192,
+     "img": "c6e6c060-b73d-4047-b4c9-6a28ba5e3e87.jpeg"
+    },
+    {
+     "name": "Ostiones Rasurados",
+     "desc": "Ostiones en su concha con salsa de limón, camarones, cebolla y cilantro, 12 a 15 piezas.",
+     "price": 168,
+     "img": "a3c55d64-69a4-4684-b643-f87032ea3df8.png"
+    },
+    {
+     "name": "Casco de Mula Pz",
+     "desc": "Caldo espeso y picante con camarones con cáscara y jaiba. Se acompaña con cebolla y chile picado.",
+     "price": 42,
+     "img": "c4e18446-42c3-43f7-a149-f1ea3718544d.png"
+    }
+   ]
+  },
+  {
+   "name": "Empanadas",
+   "products": [
+    {
+     "name": "Empanadas de Camarón",
+     "desc": "4 Empanadas rellenas de guiso de camarón.",
+     "price": 144,
+     "img": "6d57e1e9-0361-4a0a-91d3-942f62aebbc1.png"
+    },
+    {
+     "name": "Empanadas de Cazón",
+     "desc": "4 Empanadas rellenas de guiso de cazón.",
+     "price": 144,
+     "img": "11045793-f83e-47a7-8ad1-9a19c3c1eefd.png"
+    },
+    {
+     "name": "Empanadas de Jaiba",
+     "desc": "4 Empanadas rellenas de guiso de pulpa de jaiba.",
+     "price": 115,
+     "img": "f7e186dd-6d76-4ea5-bd1b-def92fa4d3e3.png"
+    },
+    {
+     "name": "Empanadas Mixtas",
+     "desc": "Charola para 4 personas con camarones empanizados, al ajo, a la cerveza y naturales; filete de mojarra empanizado, mojarra frita, chiles rellenos de cazón, empanadas de pescado, jaibas y macabil.",
+     "price": 115,
+     "img": "2c2afd1d-8b74-4f3f-bde2-b082f11cb025.png"
+    },
+    {
+     "name": "Empanadas de Queso",
+     "desc": "Tostada con marlín, crema, chícharos y aguacate.",
+     "price": 110,
+     "img": "2fd20857-99c2-43fa-8131-f81fffb62d12.png"
+    },
+    {
+     "name": "Empanadas Gratinadas",
+     "desc": "Camarones salteados a la mantequilla con cebolla y chile morrón. Acompañados de puré de papa y pan tostado.",
+     "price": 180,
+     "img": "c809cb06-044f-4f1e-a19b-8b28c9dee061.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Camarones",
+   "products": [
+    {
+     "name": "Camarones con Tocino Gratinado",
+     "desc": "Camarones salteados c/tocino, cebolla y chile morrón, gratinado con queso gouda.",
+     "price": 240,
+     "img": "94fd2596-fc33-41fc-810f-8a7c4cb8bf41.png"
+    },
+    {
+     "name": "Camarones Al Ajo",
+     "desc": "Camarones 200 gr. fritos al ajo.",
+     "price": 222,
+     "img": "a8d25055-2188-4ed0-9cdc-394ae0363229.png"
+    },
+    {
+     "name": "Camarones a la Mantequilla",
+     "desc": "Ceviche Peruano con pescado cocido en limón, cebolla morada, perejil y elotes. Tamaño a elegir.",
+     "price": 222,
+     "img": "7aee30ad-b394-4b85-a313-4ad89180500b.png"
+    },
+    {
+     "name": "Camarones Al Ajillo",
+     "desc": "Camarones pelados, salteados en aceite de olivo con chile guajillo y cebolla.",
+     "price": 222,
+     "img": "0b6807ad-41eb-416d-8507-ff32ff485240.jpeg"
+    },
+    {
+     "name": "Camarones a la Hawaiana",
+     "desc": "Camarones pelados, salteados con jugo de piña, mantequilla, chile morrón y cebolla en cuadritos. guarnición puré de papa y pan baguette.",
+     "price": 222,
+     "img": "17ceb1dc-842d-4f3e-b4f5-b4429b980852.png"
+    },
+    {
+     "name": "Camarones a la Marnier",
+     "desc": "Manitas de cangrejo en salsa, 200 gr. Acompañadas de rodajas de ajo y pimientos rojos.",
+     "price": 222,
+     "img": "0b14ae35-0257-4044-bb70-e1781de0d6f9.jpeg"
+    },
+    {
+     "name": "Camarones Empanizados",
+     "desc": "Camarones sin cáscara empanizados 200 gr. acompañados de guarnición de papa al ajillo, rollo de ensalada rayada y arroz.",
+     "price": 222,
+     "img": "d269c995-849c-4d1a-b54a-510999266a02.png"
+    },
+    {
+     "name": "Camarones Al Natural",
+     "desc": "Camarones c/cáscara frescos, hervido con caldo natural.",
+     "price": 222,
+     "img": "31002e50-0ce6-497c-8072-5b04e9bc4264.png"
+    },
+    {
+     "name": "Camarones a la Diabla",
+     "desc": "Panque de plátano acompañado de helado de vainilla.",
+     "price": 222,
+     "img": "3674d160-74d3-46b1-bd45-29ff922af91d.png"
+    },
+    {
+     "name": "Camarones Cubanos",
+     "desc": "Jaibones preparados a tu gusto, acompañados de arroz y ensalada con rodajas de pepino, jitomate, cebolla y rábano.",
+     "price": 222,
+     "img": "21a4c1d1-c0e1-4947-be5d-1a92513cc5f9.jpeg"
+    },
+    {
+     "name": "Camarones Al Chipotle",
+     "desc": "Camarones pelados salteados con tomate y chile chipotle, acompañados de arroz.",
+     "price": 222,
+     "img": "0269db65-15a8-4a1b-8184-29e079c934c5.png"
+    },
+    {
+     "name": "Camarones a la Cerveza",
+     "desc": "Charola con camarones empanizados, al ajo, a la cerveza y naturales; filete de mojarra empanizado, mojarra frita, chiles rellenos de cazón, empanadas de pescado, jaibas y macabil.",
+     "price": 222,
+     "img": "e6f7f222-eaa0-4bbf-a45d-377f46c25288.jpeg"
+    },
+    {
+     "name": "Camarones a la Talla",
+     "desc": "Camarones pelados salteados con salsa de ajo, acompañados de arroz y verduras al vapor.",
+     "price": 222,
+     "img": "e8d74bb8-c34b-4c40-9820-ba5642ff6730.jpeg"
+    },
+    {
+     "name": "Camarones Al Arriero",
+     "desc": "Aguacate relleno con proteína a elegir, acompañado de rodajas de pepino, jitomate y cebolla.",
+     "price": 222,
+     "img": "67e15496-98ea-48a4-bcb4-6d0ab64766ea.png"
+    }
+   ]
+  },
+  {
+   "name": "Arroces",
+   "products": [
+    {
+     "name": "Arroz con Camarones",
+     "desc": "Pulpo cocido en salsa de tomate con aceitunas, chile güero y zanahorias, acompañado de arroz.",
+     "price": 222,
+     "img": "26f5c672-0c68-40c7-b320-c45a4e2e5e36.jpeg"
+    },
+    {
+     "name": "Arroz a la Marinera",
+     "desc": "Ensalada con camarones pulpa, verduras a la mexicana y aguacate. Tamaño a elegir.",
+     "price": 222,
+     "img": "24e53399-6a76-4569-af77-d533ab020f03.png"
+    },
+    {
+     "name": "Arroz a la Tumbada",
+     "desc": "Pulpo al ajo acompañado de ensalada fresca, papas y arroz.",
+     "price": 180,
+     "img": "1a52a0fa-95f3-41cf-b3f5-3601c98740c9.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pescados",
+   "products": [
+    {
+     "name": "Filete Relleno a la Crema",
+     "desc": "Filete relleno de mariscos (camarón, ostión, caracol y calamar) guisado con cebolla y chile morrón bañado con crema de champiñones.",
+     "price": 340,
+     "img": "485cca63-e4ef-4861-9ae3-edc611df1f0d.png"
+    },
+    {
+     "name": "Filete Relleno Gratinado",
+     "desc": "Filete relleno de mariscos (camarón, ostión, caracol y calamar) guisado con cebolla y chile morrón, gratinado con queso gouda.",
+     "price": 340,
+     "img": "958d88a7-21b1-4cb6-b180-9f4127ce16f9.png"
+    },
+    {
+     "name": "Filete",
+     "desc": "Filete a elegir, acompañado de arroz, ensalada de mix de lechugas, jitomate, cebolla y aderezo a base de aceite de oliva.",
+     "price": 240,
+     "img": "1eb45edd-72b2-4b79-9fd3-753bee5282f2.png"
+    },
+    {
+     "name": "Medallón",
+     "desc": "Medallón a elegir, acompañado de arroz, ensalada de mix de lechugas, jitomate, cebolla y aderezo a base de aceite de oliva.",
+     "price": 240,
+     "img": "afd5d155-c384-4d74-9512-3ae733a48e58.png"
+    },
+    {
+     "name": "Filete de Salmón",
+     "desc": "Filete de salmón, acompañado de arroz, ensalada de mix de lechugas, jitomate, cebolla y aderezo a base de aceite de oliva.",
+     "price": 210,
+     "img": "6a0ad049-e7cb-4800-aeab-ae84abc13053.jpeg"
+    },
+    {
+     "name": "Filete de Mojarra",
+     "desc": "Filete de mojarra, acompañado de arroz, ensalada de mix de lechugas, jitomate, cebolla y aderezo a base de aceite de oliva.",
+     "price": 170,
+     "img": "1afb958a-003a-4112-83a1-5f2720afb597.png"
+    }
+   ]
+  },
+  {
+   "name": "Pulpos",
+   "products": [
+    {
+     "name": "Pulpo en Su Tinta",
+     "desc": "Taco Gobernador con tortilla de maíz, camarón guisado y queso gratinado. Incluye salsa verde.",
+     "price": 366,
+     "img": "3164813f-6915-4968-98ab-db809ce12b75.png"
+    },
+    {
+     "name": "Pulpo Al Ajillo",
+     "desc": "Camarones pelados salteados con salsas oscuras, picante, cebolla morada y chiles rojos.",
+     "price": 366,
+     "img": "994e991f-d228-4156-8521-a163d526e18c.png"
+    },
+    {
+     "name": "Pulpo Al Ajo",
+     "desc": "Cóctel de caracol, camarón, calamar y ostión, con aguacate y cilantro. Tamaño a elegir.",
+     "price": 366,
+     "img": "e9f4e44f-72fe-4b23-b615-08be7effe4a9.png"
+    },
+    {
+     "name": "Pulpo a la Veracruzana",
+     "desc": "Filete de pollo empanizado con papas a la francesa.",
+     "price": 366,
+     "img": "a910dfed-f3ed-483e-b3df-3916f9475958.png"
+    },
+    {
+     "name": "Pulpo a la Mantequilla",
+     "desc": "Pulpos salteados a la mantequilla, salteados con cebolla y chile morrón.",
+     "price": 366,
+     "img": "9e508cbc-00ca-4e3b-8599-3b9d1dd01eff.png"
+    },
+    {
+     "name": "Pulpo a la Gallega",
+     "desc": "Pulpo cocido bañado con aceite de oliva, espolvoreado con pimentón y cama de papas hervidas.",
+     "price": 366,
+     "img": "b41cb886-5dc6-4c26-b546-8585bb0ff935.png"
+    },
+    {
+     "name": "Pulpo a Las Brasas",
+     "desc": "Pulpo asado a las brasas. en una cama de papas gajo.",
+     "price": 366,
+     "img": "693ef91a-fa0d-445f-9d33-0e0c80493099.png"
+    }
+   ]
+  },
+  {
+   "name": "Jaibas",
+   "products": [
+    {
+     "name": "Jaibas Al Gusto",
+     "desc": "Empanadas grandes gratinadas rellenas de queso y marisco a elegir. Incluye salsa para acompañar.",
+     "price": 156,
+     "img": "7bc105c2-df93-4c1b-84ab-a266cb406179.jpeg"
+    },
+    {
+     "name": "Jaibas Rellenas",
+     "desc": "Trozos de pulpo fritos hasta quedar crujientes, servidos con una decoración de flor de zanahoria.",
+     "price": 192,
+     "img": "dcc3902b-e2cb-481b-80ca-86439884f151.png"
+    },
+    {
+     "name": "Jaibones Al Gusto",
+     "desc": "Cheesecake con base de galleta, cubierto de frutos rojos como fresas, cerezas y moras.",
+     "price": 228,
+     "img": "b56a7b63-5d92-46e5-9e29-3fc76296f18a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Fuentes",
+   "products": [
+    {
+     "name": "Fuente de Mariscos para 2",
+     "desc": "3 tacos de tortilla de maíz rellenos de cochinita de marlín, acompañados de cebolla morada y salsa verde.",
+     "price": 540,
+     "img": "c545d37f-f60f-4b36-9496-a0567f57890f.png"
+    },
+    {
+     "name": "Fuente de Mariscos para 3",
+     "desc": "Corte de churrasco acompañado de ensalada fresca y frijoles. Ideal para los amantes de la carne.",
+     "price": 780,
+     "img": "888e6615-09b5-45ed-b1a0-32b7c83f19be.png"
+    },
+    {
+     "name": "Fuente de Mariscos para 4",
+     "desc": "Arroz caldoso con mariscos: camarón, ostión, caracol, calamar y jaiba. Incluye guarnición de cebolla y chile picado.",
+     "price": 1020,
+     "img": "4d72a01d-83d1-44df-8960-28cee565b776.png"
+    },
+    {
+     "name": "Fuente de Mariscos para 5",
+     "desc": "Charola c/cam. emp., cam. ajo, cam. cerveza, cam. natural, fil. mojarra emp; mojarra frita, chiles rellenos cazón, emp. de pescado, jaibas y macabil.",
+     "price": 1230,
+     "img": "b5de6add-28c7-4d13-b7c7-72b3fa028952.png"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Camarones Al Habanero",
+     "desc": "Camarones con una salsa cremosa de habanero, acompañados de arroz y tortillas de harina.",
+     "price": 240,
+     "img": "095bd23d-6db2-4067-8242-84b85c2ff6e8.png"
+    },
+    {
+     "name": "Camarones Al Tequila",
+     "desc": "Camarones flameados en su mesa con tequila, cebolla blanca, chile jalapeño y salsas sazonadoras acompañados de arroz.",
+     "price": 185,
+     "img": "dc09e541-dd83-43b7-a7e7-d5562b5c6a26.jpeg"
+    },
+    {
+     "name": "Camarones el Mar",
+     "desc": "Camarones empanizados con jamón, rellenos de queso manchego.",
+     "price": 240,
+     "img": "dfdf42ed-c22b-4ed9-b248-c24f8a8da41b.png"
+    },
+    {
+     "name": "Camarones Caribeños",
+     "desc": "Cóctel de camarón y ostión con cilantro, cebolla y aguacate. Incluye galletas saladas.",
+     "price": 190,
+     "img": "9b1ccbf9-cd72-4b64-b5ec-52b939815113.jpeg"
+    },
+    {
+     "name": "Arroz con Mejillones",
+     "desc": "Filete de pollo a la plancha con arroz y ensalada de lechuga, jitomate, cebolla y chile.",
+     "price": 185,
+     "img": "36b92cad-a6e0-4ebb-85c3-e7ba57cd97e2.jpeg"
+    },
+    {
+     "name": "Papicar",
+     "desc": "Ceviche de pescado, camarones al natural, pulpo al natural en una salsa de chiles, filete de pescado empanizado con salsa arriera a base de salsa de chiles secos y aceite de oliva.",
+     "price": 270,
+     "img": "2984e59d-c4e8-4fba-a1bd-545f8178cc53.png"
+    },
+    {
+     "name": "Camarones Isleños",
+     "desc": "Camarones rebozados con coco, acompañados con nuestra deliciosa salsa de tamarindo o mango c/habanero.",
+     "price": 190,
+     "img": "5357e368-09f1-40bd-83d4-d21ef98bfc14.png"
+    }
+   ]
+  },
+  {
+   "name": "Carnes",
+   "products": [
+    {
+     "name": "Arrachera",
+     "desc": "Arrachera de res acompañado de papas a la francesa, guacamole y frijoles.",
+     "price": 180,
+     "img": "6d403088-7d5e-4ff5-ad47-ff16bcfc12e7.png"
+    },
+    {
+     "name": "Filete de Res",
+     "desc": "Costilla de puerco acompañada de frijoles, con guarnición de jitomate, pepino, cebolla y rábano.",
+     "price": 170,
+     "img": "0d8154d9-0cc9-493c-84f9-b45df045dba8.png"
+    },
+    {
+     "name": "Filete de Pollo",
+     "desc": "Empanada crujiente rellena de proteína a elegir, servida con aguacate, aderezo y ensalada de lechuga, pepino y cebolla morada.",
+     "price": 140,
+     "img": "6628d191-a6b6-4fbc-a321-2dd0e508b8c3.png"
+    },
+    {
+     "name": "Costilla de Puerco",
+     "desc": "4 empanadas con 2 guisos de proteína a elegir. Incluye salsa y ensalada de col.",
+     "price": 150,
+     "img": "ef420049-f685-473f-aab6-44a19cc3e474.png"
+    },
+    {
+     "name": "Churrasco",
+     "desc": "Helado Frutal con sabores a elegir como piña, coco, fresa y más.",
+     "price": 170,
+     "img": "a186376b-5616-4696-9261-00daa4bec3fe.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Menús Infantiles",
+   "products": [
+    {
+     "name": "Empanadita de Queso",
+     "desc": "4 Empanaditas rellenas de quesillo, acompañadas de papas a la francesa.",
+     "price": 85,
+     "img": "bf360b88-9c12-44ce-afa3-311c3d27f615.png"
+    },
+    {
+     "name": "Quesadilla",
+     "desc": "3 Quesadillas de tortilla de harina acompañado de papas a la francesa.",
+     "price": 85,
+     "img": "0591001e-5b2c-4a80-bbb1-9726a170907f.jpeg"
+    },
+    {
+     "name": "Filete de Pollo",
+     "desc": "Tostada con pulpo al cochito, acompañada de aguacate y pico de gallo.",
+     "price": 85,
+     "img": "2d915fe0-0539-447b-94e1-d384966fe937.png"
+    },
+    {
+     "name": "Deditos de Filete de Pescado",
+     "desc": "Deditos de filete de pescado empanizado acompañado de papas a la francesa .",
+     "price": 90,
+     "img": "ad44c245-55c6-449a-b104-a5de6f219011.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Otras Delicias",
+   "products": [
+    {
+     "name": "Torre de Aguachile",
+     "desc": "Torre de aguachile de camaron, pescado y pulpo. acompañado de aguacate y cebolla. bañado con nuestra deliciosa salsa de chile de árbol.",
+     "price": 170,
+     "img": "92c9b178-f9c2-4bab-9f88-0117c71fdf55.png"
+    },
+    {
+     "name": "Pescadillas",
+     "desc": "3 Pescadillas de cazón; tortilla de maiz frita con cazón, acompañado de lechuga, crema y queso.",
+     "price": 70,
+     "img": "3716b0eb-7468-4624-a110-8a8bd272a68a.png"
+    },
+    {
+     "name": "Sopes",
+     "desc": "3 Sopes con guiso de marlin, lechuga, cebolla, crema y queso, frijoles y salsa.",
+     "price": 75,
+     "img": "02c3a132-54f5-4fc9-bc86-31f202435ad3.png"
+    },
+    {
+     "name": "Empanada Especial",
+     "desc": "Cazuela de camarones con queso derretido y pimientos verdes, servida en cazuela de barro.",
+     "price": 55,
+     "img": "43a926f8-7fb5-4025-8b5b-a7cda7c384b9.png"
+    },
+    {
+     "name": "Chicharrón de Pulpo",
+     "desc": "Arroz salteado con mariscos: camarón, pulpo, ostión y caracol. Incluye cangrejo y una cereza decorativa.",
+     "price": 120,
+     "img": "265b7804-b387-403f-9624-b048209205b2.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Flan",
+     "desc": "Flan.",
+     "price": 60,
+     "img": "bfb26d03-ec1a-4ae9-817a-ee6899e0810e.jpeg"
+    },
+    {
+     "name": "Duraznos",
+     "desc": "4 Tacos de camarón al pastor con tortilla de maíz, acompañados de aguacate, col y limón.",
+     "price": 60,
+     "img": "64006526-ccdb-4ee0-9ae3-becef25e54b8.png"
+    },
+    {
+     "name": "Helado Frutal",
+     "desc": "Ceviche mixto con camarones y pescado cocidos en limón, acompañado de tomate, cilantro, cebolla, chile y aguacate. Tamaño a elegir.",
+     "price": 70,
+     "img": "8d4a3ff6-d754-4aa8-9ec6-e63b4daf0043.png"
+    },
+    {
+     "name": "Panque de Plátano",
+     "desc": "Arroz con mejillones, acompañado de pimientos rojos y chícharos.",
+     "price": 70,
+     "img": "d89f3181-b645-4f4d-b060-242cf6f16701.png"
+    },
+    {
+     "name": "Cheesecake de Frutos Rojos",
+     "desc": "Camarones flameados con licor de amaretto y perejil, acompañados de arroz. Porción de 200 g.",
+     "price": 65,
+     "img": "e00a69da-1afb-4394-a769-176076b6032d.jpeg"
+    }
+   ]
+  }
+ ]
+}

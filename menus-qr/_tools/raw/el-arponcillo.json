@@ -1,0 +1,327 @@
+{
+ "id": 1923220027,
+ "brandName": "El Arponcillo",
+ "name": "El Arponcillo - Miguel Hidalgo",
+ "address": "Heroísmo 420, Miguel Hidalgo, 91712 Veracruz, Ver., México",
+ "schedule": "12:00:00 - 17:30:00",
+ "categories": "Pescados y Mariscos",
+ "location": [
+  -96.158692657671,
+  19.191203851057
+ ],
+ "city": "Veracruz",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/el-arponcillo-home1-1583789547953.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/el-arponcillo-1583789549157_hq.jpeg",
+ "schedules": [
+  {
+   "open_time": "12:00:00",
+   "close_time": "17:30:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923220027-el-arponcillo",
+ "menu": [
+  {
+   "name": "Caldos",
+   "products": [
+    {
+     "name": "Caldo de Camarón en Pulpa",
+     "desc": "Caldo de camarón en pulpa con cilantro fresco. Ideal para disfrutar caliente.",
+     "price": 180,
+     "img": "50c1b6d9-91ba-461f-aacd-a7a5f61c730b-1593098904138.jpeg"
+    },
+    {
+     "name": "Arroz a la Tumbada",
+     "desc": "Arroz de camarón en cáscara, jaiba, pulpo, caracol y pescado tilapia.",
+     "price": 200,
+     "img": "44e0db89-7e23-4eb6-8701-64e3d42bc57a-1666551745133.png"
+    },
+    {
+     "name": "Cazuela de Mariscos",
+     "desc": "Cazuela con camarón en cáscara, jaiba, pulpo, caracol y pescado tilapia en caldo.",
+     "price": 230,
+     "img": "4e34fd47-5e1d-4785-a7b9-57b5bfb8ed11-1666551749284.png"
+    },
+    {
+     "name": "Caldo de Camarón en Cáscara",
+     "desc": "Caldo de camarón en cáscara, servido en un caldo rojo. Ideal para los amantes de los mariscos.",
+     "price": 160,
+     "img": "d263047f-703d-4663-95de-6868ceb6d789-1616098455191.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada Familiar de Camarón",
+     "desc": "Ensalada con camarón, lechuga, tomate, cebolla morada, pepino, aguacate y pimientos. Ideal para compartir.",
+     "price": 295,
+     "img": "ef7343b4-ec8f-471b-99cc-c01bf026148a-1593098742514.jpeg"
+    },
+    {
+     "name": "Ensalada Mediana de Camarón",
+     "desc": "Ensalada con camarón en pulpa, lechuga, tomate, cebolla morada, pepino y aguacate.",
+     "price": 200,
+     "img": "804e2d91-8bfc-4c61-b77a-26aac316bfca-1616098600013.jpeg"
+    },
+    {
+     "name": "Ensalada Mixta Familiar",
+     "desc": "Ensalada con camarón, pulpo, jaiba, caracol, lechuga, tomate, cebolla morada, pepino y aguacate.",
+     "price": 395,
+     "img": "17832874-c88d-48fd-872f-3ab982183fd7-1666551731992.png"
+    },
+    {
+     "name": "Ensalada Mediana Mixta",
+     "desc": "Ensalada con camarón, pulpo, jaiba, caracol, lechuga, tomate, cebolla morada, pepino y aguacate.",
+     "price": 295,
+     "img": "3115707b-d3e1-443d-b14e-95e45c59d383-1666551735965.png"
+    }
+   ]
+  },
+  {
+   "name": "Mojarra Frita",
+   "products": [
+    {
+     "name": "Mojarra Frita Grande",
+     "desc": "Mojarra frita de 700 a 800 gr, acompañada de ensalada, arroz y salsa.",
+     "price": 170,
+     "img": "d25c2409-57e1-412a-b747-3fc3b6bb01dd-1616098490276.jpeg"
+    },
+    {
+     "name": "Mojarra Frita Mediana",
+     "desc": "Mojarra frita de 400 a 500 gr, acompañada de arroz y ensalada de lechuga, pepino, jitomate y cebolla morada.",
+     "price": 125,
+     "img": "8ab73c19-e7a2-4729-9024-e240c223b46e-1616098536960.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Camarones",
+   "products": [
+    {
+     "name": "Camarones Empanizados",
+     "desc": "Camarones empanizados con 14 piezas.",
+     "price": 225,
+     "img": "d3a980bc-0ef3-4007-aba4-d8d7795d245d-1616098642029.jpeg"
+    },
+    {
+     "name": "Camarones en Pulpa",
+     "desc": "Camarones en pulpa servidos con arroz y ensalada de lechuga y tomate.",
+     "price": 195,
+     "img": "cef1ee2b-38a1-480a-983b-06cb4bc0bb34-1593098399209.jpeg"
+    },
+    {
+     "name": "Camarones en Cáscara",
+     "desc": "Camarones en cáscara con 11 piezas.",
+     "price": 175,
+     "img": "ba59f2b6-49c3-4938-9c54-5c205573afb9-1616098700261.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ceviches de Pescado",
+   "products": [
+    {
+     "name": "Ceviche de Pescado Familiar",
+     "desc": "Ceviche con tilapia, tomate, cebolla, cilantro, limón y aguacate.",
+     "price": 305,
+     "img": "69c56d60-0447-43a1-afb1-fdd8203e960c-1616105815415.jpeg"
+    },
+    {
+     "name": "Ceviche de Pescado Mediano",
+     "desc": "Ceviche con tilapia, tomate, cebolla, cilantro, limón y aguacate.",
+     "price": 195,
+     "img": "18c38f5c-185a-4760-b51f-2f0fc9a16ee3-1593098956448.jpeg"
+    },
+    {
+     "name": "Ceviche de Pescado Chico",
+     "desc": "Ceviche con tilapia, tomate, cebolla, cilantro, limón y aguacate.",
+     "price": 130,
+     "img": "c06e25f5-791c-4149-8907-c3949a86ff54-1593098525956.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Platos Fuertes",
+   "products": [
+    {
+     "name": "Spaguetti Arponcillo Grande",
+     "desc": "Spaguetti a la marinera con camarones.",
+     "price": 340,
+     "img": "a94c3679-57fc-43be-a668-fe83fbe99a5e-1593098200817.jpeg"
+    },
+    {
+     "name": "Spaguetti Arponcillo Mediano",
+     "desc": "Spaguetti a la marinera con camarones.",
+     "price": 200,
+     "img": "9f70b530-ac13-445f-8549-c5a684a5dd71-1593098219029.jpeg"
+    },
+    {
+     "name": "Filete Al Gusto",
+     "desc": "Filete tilapia de 200 gr, acompañado de arroz, ensalada, salsa, tortillas y limones.",
+     "price": 170,
+     "img": "b7e522f7-1615-4e3d-aefd-4d6271421791-1616105857856.jpeg"
+    },
+    {
+     "name": "Minilla Chica",
+     "desc": "Minilla chica de medio kg.",
+     "price": 130,
+     "img": "db1dd847-0665-4c30-a6e4-b4fe04d7c998-1616105927967.jpeg"
+    },
+    {
+     "name": "Minilla Grande",
+     "desc": "Minilla grande de 1 kg.",
+     "price": 240,
+     "img": "3497913f-fa78-4086-80ad-c2ac37e30a23-1616105887360.jpeg"
+    },
+    {
+     "name": "Pulpo",
+     "desc": "Pulpo de 150 gr. acompañado de arroz blanco y ensalada de lechuga, pepino y jitomate.",
+     "price": 225,
+     "img": "071f28fc-f869-4936-983e-2f45e83aa58f-1666551762952.png"
+    },
+    {
+     "name": "Hueva de Nacar Frita",
+     "desc": "Hueva de nácar frita de 250 gr.",
+     "price": 160,
+     "img": "80ca1ad4-0d90-4c99-8cea-f749c33227e1-1616105958711.jpeg"
+    },
+    {
+     "name": "Filete de Pescado Empanizado",
+     "desc": "Filete de tilapia empanizado, acompañado de arroz y ensalada fresca.",
+     "price": 185,
+     "img": "750d9e25-04ad-4072-baad-97f9be21ee71-1593098252248.jpeg"
+    },
+    {
+     "name": "Arroz a la Crema de Chilpaya",
+     "desc": "Arroz con camarón y pulpo, grande.",
+     "price": 195,
+     "img": "b4330643-81fe-412a-9560-81e566927523-1616105994415.jpeg"
+    },
+    {
+     "name": "Arroz a la Crema de Chilpaya",
+     "desc": "Arroz cremoso con camarón, pulpo chico y crema de chilpaya, decorado con rodajas de chile.",
+     "price": 120,
+     "img": "e0247779-7307-4697-a348-8d9c24e73225-1593098993764.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Cócteles",
+   "products": [
+    {
+     "name": "Vuelve a la Vida",
+     "desc": "Coctel de camarón, pulpo, jaiba y caracol.",
+     "price": 210,
+     "img": "2a84f24d-b351-4994-acbd-c27953ec7d6e-1593098815736.jpeg"
+    },
+    {
+     "name": "Campechana",
+     "desc": "Cóctel de mariscos con camarones, aguacate, cebolla y cilantro en salsa de tomate.",
+     "price": 180,
+     "img": "bf81956d-cca9-48a5-913f-4c721749243b-1616106042595.jpeg"
+    },
+    {
+     "name": "Cóctel de 1 Ingrediente",
+     "desc": "Cóctel de 1 ingrediente a elegir, servido con salsa de tomate y decorado con rodajas de pepino y limón.",
+     "price": 115,
+     "img": "34b52869-e0d3-41e0-affa-362414742246.png"
+    },
+    {
+     "name": "Cóctel de Niño",
+     "desc": "Cóctel de camarón con aguacate, rodajas de limón y cilantro fresco.",
+     "price": 65,
+     "img": "9f849dab-1e98-47ab-bc94-bd96ea79b832-1666551708631.png"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Plátanos Fritos con Arroz",
+     "desc": "Plátanos fritos con arroz.",
+     "price": 50,
+     "img": "f19bafb3-0a62-4dd7-a54d-c59a3496425b-1666551772595.png"
+    },
+    {
+     "name": "Plátanos Fritos con Queso y Crema",
+     "desc": "Plátanos fritos con queso y crema.",
+     "price": 50,
+     "img": "c82b8ba4-6bac-431a-b535-fce859eee371-1666551774308.png"
+    },
+    {
+     "name": "Plátanos Fritos con Frijoles",
+     "desc": "Plátanos fritos con frijoles.",
+     "price": 50,
+     "img": "cde1dcce-4dc5-4371-b7a0-2bc79263a134-1666551770316.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Jarra de Agua de Sabor",
+     "desc": "Jarra de agua de sabor 2 lts aprox.",
+     "price": 95,
+     "img": "gp_drinks_otra_jugo_combinado_n.jpg"
+    },
+    {
+     "name": "Agua de Sabor",
+     "desc": "Botella de agua de sabor de 500 ml.",
+     "price": 30,
+     "img": "gp_drinks_otra_agua_de_sabor.jpg"
+    },
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Refrescos",
+     "price": 45,
+     "img": "977894059-1624403823057.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Acompañamientos",
+   "products": [
+    {
+     "name": "Pico de Gallo",
+     "desc": "Pico de gallo.",
+     "price": 25,
+     "img": "gp_mexican_burrito_pico_de_gallo_n.jpg"
+    },
+    {
+     "name": "Ensalada",
+     "desc": "Ensalada, lechuga, pepino, tomate, cebolla y limón.",
+     "price": 25,
+     "img": "59ef5be0-3533-43b2-ab76-a4b3e06d27f2.jpeg"
+    },
+    {
+     "name": "Frijoles",
+     "desc": "Frijoles",
+     "price": 25,
+     "img": "gp_main_otra_lomo_a_lo_pobre_n.jpg"
+    },
+    {
+     "name": "Arroz",
+     "desc": "Arroz",
+     "price": 25,
+     "img": "gp_sides_otra_arroz_n.jpg"
+    },
+    {
+     "name": "Papas Fritas",
+     "desc": "Papas fritas.",
+     "price": 65,
+     "img": "81bf1853-3619-4cc6-964a-e186c4658c0b-1616106111165.jpeg"
+    },
+    {
+     "name": "Nuggets de Pollo",
+     "desc": "Nuggets de pollo de 6 piezas acompañados de arroz blanco y salsa de tomate.",
+     "price": 65,
+     "img": "7fdf5395-284b-4e77-8396-ae3e5be9a296-1616106149868.jpeg"
+    }
+   ]
+  }
+ ]
+}

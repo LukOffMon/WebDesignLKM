@@ -1,0 +1,654 @@
+{
+ "id": 1923287187,
+ "brandName": "Mariscos Villa Marina",
+ "name": "Mariscos Villa Marina - Villa Insurgentes",
+ "address": "Avenida Rafael Iriarte 220, Villa Insurgentes, León de los Aldama, Gto., México",
+ "schedule": "12:15:00 - 18:45:00",
+ "categories": "Pescados y Mariscos",
+ "location": [
+  -101.6703333,
+  21.1471982
+ ],
+ "city": "León",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/villa-marina-logo1-1611177936400.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1768012231574.jpg",
+ "schedules": [
+  {
+   "open_time": "12:15:00",
+   "close_time": "18:45:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923287187-mariscos-villa-marina",
+ "menu": [
+  {
+   "name": "Camarones",
+   "products": [
+    {
+     "name": "Camarones Rockefeller",
+     "desc": "Camarones horneados con espinacas y queso gratinado, acompañados de guarnición de arroz y ensalada.",
+     "price": 319.8,
+     "img": "a31b4785-7ea6-4e10-8918-455758d61383.jpeg"
+    },
+    {
+     "name": "Hamburguesa De Camarón",
+     "desc": "Jugosa hamburguesa elaborada con camarones selectos, servida con vegetales y papas.",
+     "price": 104.55,
+     "img": "cb893815-267c-4c64-8a6c-e24b8c8ab969.jpeg"
+    },
+    {
+     "name": "Brocheta De Camarón",
+     "desc": "Brocheta de camarón con vegetales asados a la parrilla, incluyendo pimientos y calabacín.",
+     "price": 270.6,
+     "img": "b8b06f8f-d81a-4ccd-b874-c157c1a6db58.jpeg"
+    },
+    {
+     "name": "Camarones A La Crema Con Chipotle",
+     "desc": "Camarones en salsa de crema con chipotle, acompañados de pasta y pan.",
+     "price": 282.9,
+     "img": "e64619a6-5e72-43f2-82de-a827a7806bf9.jpeg"
+    },
+    {
+     "name": "Camarones Al Coco",
+     "desc": "Camarones empanizados con coco, acompañados de arroz, ensalada y pan. Incluye salsa agridulce.",
+     "price": 307.5,
+     "img": "4050cf50-8b14-434d-ba6e-31393a029026.jpeg"
+    },
+    {
+     "name": "Camarones A La Diabla",
+     "desc": "Camarones en salsa picante de la casa, acompañados de arroz, ensalada y pan con ajo.",
+     "price": 282.9,
+     "img": "319a3368-fbef-42ff-8101-6562b79256e1.jpeg"
+    },
+    {
+     "name": "Camarones Platillo Especial Vm",
+     "desc": "Camarones empanizados, arroz con elote, ensalada de lechuga, tomate y cebolla, acompañados de salsa. Un platillo especial de Villa Marina.",
+     "price": 362.85,
+     "img": "a046bb22-32ee-4a7e-90e2-d6a6706642da.jpeg"
+    },
+    {
+     "name": "Camarones Al Mojo De Ajo",
+     "desc": "Camarones salteados en mantequilla de ajo, acompañados de perejil fresco.",
+     "price": 282.9,
+     "img": "5ceda382-f9a5-41dd-8ec2-59db26d00529.jpeg"
+    },
+    {
+     "name": "Camarones Al Ajillo",
+     "desc": "Camarones salteados con ajo y chile guajillo, acompañados de pan, ensalada y arroz.",
+     "price": 282.9,
+     "img": "d1569eab-e2d5-41fe-96a8-0b93edb93d2d.jpeg"
+    },
+    {
+     "name": "Camarones Empanizados",
+     "desc": "Camarones empanizados acompañados de arroz, ensalada y pan con ajo.",
+     "price": 295.2,
+     "img": "59ae9059-792b-4a56-b6d3-db065c571a45.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Frozen Cookie",
+     "desc": "Deliciosa galleta helada con chispas de chocolate, el postre perfecto y refrescante.",
+     "price": 73.8,
+     "img": "900979d4-7d3f-42cb-9492-7bf962b36fe5.jpeg"
+    },
+    {
+     "name": "Carlota De Limón",
+     "desc": "El clásico postre casero de capas de galleta y crema de limón. ¡Fresco y ligero!",
+     "price": 61.5,
+     "img": "1f27e488-1167-4598-953d-48526ed3f3aa.jpeg"
+    },
+    {
+     "name": "Pan De Elote Con Helado",
+     "desc": "Pastel tierno de elote dulce, servido con una bola de helado de vainilla premium.",
+     "price": 73.8,
+     "img": "60bdde9c-11ce-42ea-828d-ac9da19507fc.jpeg"
+    },
+    {
+     "name": "Empanada De Nutella 1 Pza",
+     "desc": "Crujiente empanada rellena de Nutella caliente, servida con una bola de helado de vainilla.",
+     "price": 61.5,
+     "img": "4b401fb8-b948-446f-8288-8090a35f5446.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Limonada Vaso 500  Ml",
+     "desc": "Limoanda con preparación a elegir.",
+     "price": 49.2,
+     "img": "f2564550-9250-4bec-95b3-ca5e3cb703db.jpeg"
+    },
+    {
+     "name": "Coca-cola Sin Azúcar 355 Ml",
+     "desc": "Bebida",
+     "price": 43.05,
+     "img": "fad0b88e-c55e-4c41-923b-a50c394b47a6.jpeg"
+    },
+    {
+     "name": "Coca-cola Light 355 Ml",
+     "desc": "Bebida",
+     "price": 43.05,
+     "img": "de50e950-6f25-4124-b3e2-fe23f49a1353.jpeg"
+    },
+    {
+     "name": "Agua Natural Embotellada 600 Ml",
+     "desc": "Bebida",
+     "price": 27.06,
+     "img": "bed4b87a-9110-4edd-986c-019cdd859985.jpeg"
+    },
+    {
+     "name": "Rusa / Squirt Preparada Con Sal Y Limón 400  Ml",
+     "desc": "Bebida",
+     "price": 49.2,
+     "img": "22623a81-c06b-4999-a42e-644ab9a25b4f.jpeg"
+    },
+    {
+     "name": "Naranjada  500 Ml",
+     "desc": "Naranajda con Preparación a elegir",
+     "price": 49.2,
+     "img": "9908cf45-496b-4838-9a8a-c8757b798f92.jpeg"
+    },
+    {
+     "name": "Cerveza Corona / Victoria 355  Ml",
+     "desc": "Bebida",
+     "price": 55.35,
+     "img": "3639f6ba-fce0-44a6-b051-1a55b2822262.jpeg"
+    },
+    {
+     "name": "Cerveza Michelada 1 Litro 1 Lt 1 Lt",
+     "desc": "Bebida",
+     "price": 123,
+     "img": "40af3233-be7f-40bd-9820-8a3fb18bea20.jpeg"
+    },
+    {
+     "name": "Cerveza Michelada C/ Camarón 1 Lt 1 Lt",
+     "desc": "Bebida",
+     "price": 147.6,
+     "img": "5a92bd81-ec8f-4b25-839d-40fde8fe934f.jpeg"
+    },
+    {
+     "name": "Sprite Normal 355 Ml",
+     "desc": "Bebida",
+     "price": 43.05,
+     "img": "5ff44a09-4cae-4e34-b09b-168a73fd110f.jpeg"
+    },
+    {
+     "name": "Coca-cola Normal 355 Ml",
+     "desc": "Bebida",
+     "price": 43.05,
+     "img": "15c419e8-28a7-4d16-9db3-7d38d1fb243e.jpeg"
+    },
+    {
+     "name": "Agua De Sabor Fruta De Temporada Tarro 500 Ml",
+     "desc": "Bebida",
+     "price": 30.75,
+     "img": "90cab888-189d-40aa-bf78-c63abb1b76f5.jpeg"
+    },
+    {
+     "name": "Cerveza Michelada Tarro 500  Ml",
+     "desc": "Bebida",
+     "price": 73.8,
+     "img": "f62798ec-9135-4f7e-9960-596716d47eb0.jpeg"
+    },
+    {
+     "name": "Agua De Sabor Fruta De Temporada Jarra 1.5 Lt 1.5 Lt",
+     "desc": "Bebida",
+     "price": 116.85,
+     "img": "228ee1aa-e5d9-409e-8b13-c699e2bd8107.jpeg"
+    },
+    {
+     "name": "Cerveza Preparada Salsas De La Casa 355  Ml",
+     "desc": "Bebida",
+     "price": 67.65,
+     "img": "3be1c3f0-c584-43f5-908e-61d5f157e005.jpeg"
+    },
+    {
+     "name": "Manzana Normal 355 Ml",
+     "desc": "Bebida",
+     "price": 43.05,
+     "img": "7abe20ef-69ce-42c2-bbde-2719dbbac56f.jpeg"
+    },
+    {
+     "name": "Limonada Jarra 1lt",
+     "desc": "Limoanda con preparación a elegir.",
+     "price": 135.3,
+     "img": "46ab6faf-36fd-4f37-8a56-084a03d82a45.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Barra Fría",
+   "products": [
+    {
+     "name": "Botana De Marlin O Camarón A La Vinagre",
+     "desc": "Marlin o camarón marinado en vinagreta, acompañado de rodajas de pepino y cilantro fresco.",
+     "price": 301.35,
+     "img": "df46f4e1-81bc-4a83-991f-bf37c22b606e.jpeg"
+    },
+    {
+     "name": "Chavela De Ostión",
+     "desc": "Copa gigante estilo \"Chavela\" con ostiones frescos, pasta y verduras. Incluye el mix especial de la casa.",
+     "price": 153.75,
+     "img": "b695b9b8-8a30-4b43-ac70-c2c824b5de0b.jpeg"
+    },
+    {
+     "name": "Chavela De Camarón",
+     "desc": "Nuestra famosa copa gigante con camarones frescos, ideal para los amantes del marisco frío.",
+     "price": 209.1,
+     "img": "94f5ff24-fcdd-4672-be47-931b5515a79e.jpeg"
+    },
+    {
+     "name": "Cóctel De Mariscos",
+     "desc": "El mix perfecto: Camarón, pulpo y ostión en un cóctel refrescante y sustancioso.",
+     "price": 209.1,
+     "img": "7fbaae11-c5b1-4924-876a-6cb120a3cf89.jpeg"
+    },
+    {
+     "name": "Shot De Ostión O Camarón",
+     "desc": "Shot individual con ostión o camarón y mezcla brava. Ideal para un impulso de energía.",
+     "price": 30.75,
+     "img": "ba088b90-2c12-45e7-a1e4-c451e3f27d35.jpeg"
+    },
+    {
+     "name": "Cóctel De Ostión",
+     "desc": "Ostiones frescos de la mejor calidad en nuestra salsa cóctel artesanal.",
+     "price": 104.55,
+     "img": "2efdac0a-8f4f-4567-88f2-75144d787a0c.jpeg"
+    },
+    {
+     "name": "Chavela De Mariscos",
+     "desc": "Copa gigante con mezcla de mariscos como camarones, mejillones y aceitunas, acompañada de rodajas de limón.",
+     "price": 244.77,
+     "img": "8bc5c868-ff45-493d-955b-cd6c72021f18.jpeg"
+    },
+    {
+     "name": "Tiradito De Atún",
+     "desc": "Finas láminas de atún fresco marinadas en cítricos, acompañadas de cebolla morada, pepino y chile jalapeño.",
+     "price": 313.65,
+     "img": "88216006-c0d7-4471-8b6c-419425093d88.jpeg"
+    },
+    {
+     "name": "Botana Marina",
+     "desc": "Combinación de camarón, pulpo, tomate cherry, queso Philadelphia, aguacate, cebolla morada y aceitunas verdes.",
+     "price": 393.6,
+     "img": "63840960-6d34-458a-8b3a-8557bddb2f72.jpeg"
+    },
+    {
+     "name": "Ceviche De Camarón",
+     "desc": "Camarón picado al momento, mezclado con vegetales frescos y marinado cítrico.",
+     "price": 289.05,
+     "img": "31b5d84f-c66a-40a5-856d-7e98f86ecb98.jpeg"
+    },
+    {
+     "name": "Botana Perrona De Mariscos",
+     "desc": "Selección de mariscos variados, incluyendo camarones, mejillones y calamares, acompañados de salsa y limón.",
+     "price": 399.75,
+     "img": "354cbea5-bfde-4000-99a0-ccef36a1840e.jpeg"
+    },
+    {
+     "name": "Cóctel De Camarón",
+     "desc": "Camarones jumbo seleccionados, servidos en salsa cóctel especial con aguacate y cítricos.",
+     "price": 172.2,
+     "img": "6a634b56-ca2f-465d-a718-95c9b6c08b7f.jpeg"
+    },
+    {
+     "name": "Botana Coqueta De Marlin",
+     "desc": "Marlin ahumado sobre base de lechuga y pepino, bañado en deliciosa crema de chipotle.",
+     "price": 301.35,
+     "img": "66238a48-447d-4528-9405-00d60f8c61d1.jpeg"
+    },
+    {
+     "name": "Aguachile al Gusto",
+     "desc": "Camarones abiertos en mariposa, curtidos en limón y salsa de chile chiltepín con preparación a elegir.",
+     "price": 301.35,
+     "img": "39ded2c7-c487-4e57-8543-a972d8b6d614.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pasta",
+   "products": [
+    {
+     "name": "Fetuccini Con Camarón Y Pulpo",
+     "desc": "Fetuccini con camarón y pulpo, acompañado de rodajas de aceituna y perejil fresco.",
+     "price": 325.95,
+     "img": "2f973bb4-e8cf-49d4-b1b2-7a741ed71fea.jpeg"
+    },
+    {
+     "name": "Fetuccini Con Camarón",
+     "desc": "Fetuccini al dente con camarones, servido en crema de chipotle o mantequilla.",
+     "price": 289.05,
+     "img": "d00253b2-780b-49e1-b04e-8522fc6f2df2.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Filetes",
+   "products": [
+    {
+     "name": "Filete A La Plancha Bañado En Crema De Chipotle",
+     "desc": "Filete a la plancha cubierto con crema de chipotle, decorado con rodajas de chile verde.",
+     "price": 227.55,
+     "img": "60e73460-6ad9-4cf7-9a33-881ac3202ca0.jpeg"
+    },
+    {
+     "name": "Filete A La Plancha Con Queso",
+     "desc": "Filete a la plancha cubierto con queso derretido, decorado con rodajas de chile.",
+     "price": 227.55,
+     "img": "ad5ac390-24c1-4f44-8003-6021c6c94ebf.jpeg"
+    },
+    {
+     "name": "Filete A La Plancha",
+     "desc": "Filete de pescado a la plancha acompañado de arroz con elote, ensalada y pan.",
+     "price": 202.95,
+     "img": "89536048-2ab4-4736-8ad5-591eab913e5f.jpeg"
+    },
+    {
+     "name": "Filete Empanizado",
+     "desc": "Filete empanizado acompañado de ensalada fresca, arroz y pan con ajo.",
+     "price": 215.25,
+     "img": "15c894dc-558e-4792-9bfe-df4c0f09182b.jpeg"
+    },
+    {
+     "name": "Filete Al Mojo De Ajo",
+     "desc": "Bañado en nuestra exquisita y aromática mantequilla de ajo.",
+     "price": 215.25,
+     "img": "0d49ddab-0756-42a1-97bd-f399e3875481.jpeg"
+    },
+    {
+     "name": "Filete A La Diabla",
+     "desc": "Para los amantes del picante: bañado en nuestra salsa brava especial.",
+     "price": 215.25,
+     "img": "66e8cea3-41ed-42e0-b792-63b151ca8a80.jpeg"
+    },
+    {
+     "name": "Hamburguesa De Filete",
+     "desc": "Delicioso filete de pescado en pan suave con vegetales frescos y papas.",
+     "price": 104.55,
+     "img": "8f9e36fe-0d68-4d3b-87ac-c036c7f66777.jpeg"
+    },
+    {
+     "name": "Filete Empapelado",
+     "desc": "Cocinado al vapor en su propio jugo con finas hierbas y vegetales.",
+     "price": 289.05,
+     "img": "07964393-85b3-43f1-9b68-86c09817d758.jpeg"
+    },
+    {
+     "name": "Filete A La Crema Con Chipotle",
+     "desc": "Filete de pescado en salsa cremosa de chipotle, acompañado de chiles jalapeños.",
+     "price": 227.55,
+     "img": "00a64e74-30b3-46c4-a89f-076aa877b50d.jpeg"
+    },
+    {
+     "name": "Rollo De Filete Empanizado Con Queso",
+     "desc": "Filete relleno de queso fundido, empanizado y frito a la perfección.",
+     "price": 270.6,
+     "img": "a2b2f9c5-8ee6-44ee-83dc-5e7bd78ffeb2.jpeg"
+    },
+    {
+     "name": "Filete Al Ajillo",
+     "desc": "Filete de pescado sazonado con láminas de ajo dorado y chile guajillo, acompañado de guarnición visible en la imagen.",
+     "price": 215.25,
+     "img": "3ad0f150-fb65-4b08-bb10-8ddccd3a8b25.jpeg"
+    },
+    {
+     "name": "Filete Empanizado Bañado En Crema De Chipotle",
+     "desc": "Filete empanizado cubierto con crema de chipotle, decorado con perejil fresco.",
+     "price": 227.55,
+     "img": "b6f2f4f7-daa5-4f89-b3aa-e0f288ca97ad.jpeg"
+    },
+    {
+     "name": "Filete Empanizado Con Queso",
+     "desc": "Filete empanizado cubierto con queso gratinado y decorado con cebollín picado.",
+     "price": 227.55,
+     "img": "e10d1f0f-3396-4630-a9fe-8b56c1d5778e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pulpo",
+   "products": [
+    {
+     "name": "Pulpo Al Mojo De Ajo",
+     "desc": "La receta tradicional: pulpo tierno bañado en nuestra aromática y deliciosa mantequilla de ajo artesanal.",
+     "price": 319.8,
+     "img": "8e51553b-6034-49e6-bde5-43d8620ac369.jpeg"
+    },
+    {
+     "name": "Tentáculos De Pulpo Empanizados",
+     "desc": "Deliciosos y tiernos tentáculos de pulpo con un empanizado crujiente y dorado. ¡Una textura única!",
+     "price": 338.25,
+     "img": "d31ee257-7289-4819-8bda-8ce9bd9cceb6.jpeg"
+    },
+    {
+     "name": "Pulpo Al Ajillo",
+     "desc": "Tentáculos de pulpo salteados con láminas de ajo frito y el toque especial del chile guajillo.",
+     "price": 319.8,
+     "img": "a0059d8c-f9db-43c0-abe8-994d4352d33a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Carnes",
+   "products": [
+    {
+     "name": "Arrachera 300g Con Ensalada O Papas",
+     "desc": "Arrachera de 300g acompañada de ensalada fresca o papas a la francesa. Elige tu complemento.",
+     "price": 270.6,
+     "img": "c9f24487-7bc5-45f8-ab96-a4477cc1df74.jpeg"
+    },
+    {
+     "name": "Rib Eye 300g Con Ensalada O Papas",
+     "desc": "Corte selecto de Rib Eye a la parrilla, tierno y sabroso. Con complemento a elegir.",
+     "price": 270.6,
+     "img": "cef9956f-f37b-4478-a23a-80bd138544e0.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Menú Infantil",
+   "products": [
+    {
+     "name": "Nuggets De Pollo Con Papas",
+     "desc": "Crujientes trozos de pechuga de pollo empanizados, servidos con una porción de papas fritas.",
+     "price": 79.95,
+     "img": "6a0104a8-8e75-4e6e-8a13-22a3d488cf42.jpeg"
+    },
+    {
+     "name": "Papas A La Francesa",
+     "desc": "Porción individual de papas fritas.",
+     "price": 55.35,
+     "img": "ddbd7a66-ce55-4b95-8ed1-e794a291e801.jpeg"
+    },
+    {
+     "name": "Dedos De Queso Con Papas",
+     "desc": "Dedos de queso empanizados acompañados de papas fritas.",
+     "price": 92.25,
+     "img": "d6f9cbaa-bb86-4362-8d10-9497af9c1afe.jpeg"
+    },
+    {
+     "name": "Hamburguesa De Carne Con Papas",
+     "desc": "Jugosa hamburguesa de res acompañada de una porción de papas fritas.",
+     "price": 98.4,
+     "img": "7729cdfb-5f6a-4e6b-a056-5f405a322cb2.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Rollo De Camarón Philadelphia",
+     "desc": "Rollo relleno de camarón, queso crema Philadelphia y aguacate, envuelto en una crujiente capa.",
+     "price": 54.12,
+     "img": "53e8c196-c093-4652-9677-23a0df013d15.jpeg"
+    },
+    {
+     "name": "Tacos Dorados De Marlin 3 Pzas",
+     "desc": "Tres tacos dorados rellenos de marlín ahumado. Crujientes y sabrosos.",
+     "price": 109.47,
+     "img": "6343b904-f4bb-4635-8f1a-52a1a8efc53d.jpeg"
+    },
+    {
+     "name": "Taza Con Caldo De Camarón",
+     "desc": "El inicio perfecto: caldo concentrado de camarón con verduras y especias.",
+     "price": 55.35,
+     "img": "4d6f6103-4bad-49ea-9e0e-0f16bc556c74.jpeg"
+    },
+    {
+     "name": "Taco De Marlin Guisado",
+     "desc": "Taco de marlin guisado con queso y perejil en tortilla de harina.",
+     "price": 49.2,
+     "img": "e20a9a8f-6820-482f-aedb-9e5dbdb83ff0.jpeg"
+    },
+    {
+     "name": "Chimichanga De Marlin 1 Pza",
+     "desc": "Chimichanga frita rellena de marlín guisado. Incluye guarnición de lechuga y zanahoria.",
+     "price": 54.12,
+     "img": "a4f9adb6-0b66-4fc5-9c47-aec1d2a678b9.jpeg"
+    },
+    {
+     "name": "Tacos Dorados De Jaiba 3 Pzas",
+     "desc": "Tres tacos dorados rellenos de jaiba, servidos con col, aguacate, zanahoria rallada y pico de gallo.",
+     "price": 121.77,
+     "img": "cf944ffa-d15c-41df-a319-bbd98b92dd8b.jpeg"
+    },
+    {
+     "name": "Empanada De Marlin 1 Pza",
+     "desc": "Crujiente empanada artesanal rellena de marlin ahumado y sazonado.",
+     "price": 49.2,
+     "img": "d53de5f4-2286-40b8-94ff-b24caa395345.jpeg"
+    },
+    {
+     "name": "Taco De Camarón O Filete Capeado",
+     "desc": "Taco estilo capeado (rebozado), dorado y servido con vegetales frescos.",
+     "price": 49.2,
+     "img": "1097ef20-9a63-4f2a-ab7c-9882f42af06f.jpeg"
+    },
+    {
+     "name": "Empanada De Jaiba 1 Pza",
+     "desc": "Delicada masa frita rellena de pulpa de jaiba fresca con el toque de la casa.",
+     "price": 55.35,
+     "img": "c3874f91-02e5-4e82-85b3-93d022c57510.jpeg"
+    },
+    {
+     "name": "Burrito al Gusto",
+     "desc": "Burrito personalizable con elección de proteína y aderezos de la casa. Incluye ingredientes visibles como maíz y pimientos.",
+     "price": 56.58,
+     "img": "4dc8f3a4-774d-41e2-aa3a-5d7df8a546fb.jpeg"
+    },
+    {
+     "name": "Quesadilla a tu Gusto",
+     "desc": "Tortilla calientita con queso fundido y tu elección de proteína de mar.",
+     "price": 56.58,
+     "img": "ae8c6747-ae9b-4a6e-abd0-6e932d920db7.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tostadas",
+   "products": [
+    {
+     "name": "Tostada De Camarón A La Vinagreta",
+     "desc": "Tostada con camarones marinados en vinagreta cítrica, acompañados de aguacate, jitomate y pepino.",
+     "price": 190.65,
+     "img": "e74a7e15-a92f-494e-a16e-2965994987ac.jpeg"
+    },
+    {
+     "name": "Tostada De Aguachile",
+     "desc": "Camarones curtidos en limón y chile, para los amantes del picante fresco.",
+     "price": 153.75,
+     "img": "926e197a-7445-4a16-abbd-5eaddbfddf22.jpeg"
+    },
+    {
+     "name": "Tostada De Mariscos A La Crema",
+     "desc": "Tostada con mix de mariscos en crema, acompañada de aceitunas negras y cilantro.",
+     "price": 104.55,
+     "img": "ca3fbfd1-1b0d-4491-92b9-48b42f7bc6d5.jpeg"
+    },
+    {
+     "name": "Tostada De Marlin A La Vinagreta",
+     "desc": "Marlin ahumado marinado con vegetales y nuestra vinagreta secreta.",
+     "price": 190.65,
+     "img": "125aa6ef-38f9-41db-905d-23914958c8d4.jpeg"
+    },
+    {
+     "name": "Tostada Perrona De Mariscos",
+     "desc": "Tostada con mariscos variados, incluyendo camarones y pulpo, acompañada de aguacate y cebolla morada.",
+     "price": 244.77,
+     "img": "c0e2a397-4780-4a25-9736-a0b966d9295a.jpeg"
+    },
+    {
+     "name": "Tostada De Ceviche Estilo Nayarit",
+     "desc": "Tostada con ceviche de pescado, aguacate y aderezo, al estilo Nayarit.",
+     "price": 67.65,
+     "img": "bd658757-b987-41a0-8737-9a7721621842.jpeg"
+    },
+    {
+     "name": "Tostada Marina",
+     "desc": "Especialidad: Camarón, pulpo, tomate cherry y un toque de queso Philadelphia.",
+     "price": 227.55,
+     "img": "312220a7-cf9e-4eaa-ace1-769f56f02e3d.jpeg"
+    },
+    {
+     "name": "Tostada De Ceviche De Pescado",
+     "desc": "Tostada con ceviche de pescado marinado en limón, cebolla, tomate y cilantro. Incluye aguacate y cebolla morada.",
+     "price": 55.35,
+     "img": "4caf4584-1a15-4853-b192-6e6f6f11a0b3.jpeg"
+    },
+    {
+     "name": "Tostada De Pulpo A La Vinagreta",
+     "desc": "Tostada con pulpo marinado en vinagreta especial, decorada con hojas de cilantro.",
+     "price": 202.95,
+     "img": "133084fe-fcb3-4ec3-bae8-55966f52d2e0.jpeg"
+    },
+    {
+     "name": "Tostada Coqueta De Marlin",
+     "desc": "Base de marlin con lechuga, pepino y una adictiva crema de chipotle.",
+     "price": 104.55,
+     "img": "fb097ca6-a873-4cc3-833c-dfa5b2367467.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Caldos",
+   "products": [
+    {
+     "name": "Caldo De Camarón Grande",
+     "desc": "Gran tazón de caldo concentrado con camarones y vegetales.",
+     "price": 196.8,
+     "img": "1e6e326a-866c-44d6-9cad-f8429fd0e550.jpeg"
+    },
+    {
+     "name": "Sopa De Mariscos",
+     "desc": "Variedad de mariscos frescos en un caldo caliente y sustancioso.",
+     "price": 239.85,
+     "img": "867e6f92-9446-4ba8-a7b2-835bc1f3a1d1.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pescado",
+   "products": [
+    {
+     "name": "Salmón A La Plancha",
+     "desc": "Salmón a la plancha acompañado de ensalada fresca, arroz con elote y pan tostado. Elige tu preparación.",
+     "price": 362.85,
+     "img": "5b35e07d-a4fd-4b5a-8e84-f49e0c83bb0f.jpeg"
+    },
+    {
+     "name": "Huachinango Frito Según Peso",
+     "desc": "Huachinango entero frito, servido con rodajas de limón. Preparación a elegir.",
+     "price": 553.5,
+     "img": "42038ece-7dce-443f-aebc-54aae9caa594.jpeg"
+    }
+   ]
+  }
+ ]
+}

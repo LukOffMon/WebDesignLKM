@@ -1,0 +1,388 @@
+{
+ "id": 1930262893,
+ "brandName": "Doraditos y Enchiladas Mary",
+ "name": "Doraditos y Enchiladas Mary - Morelia Centro",
+ "address": "Antonio Alzate 302B-b, Centro histórico de Morelia, Morelia, Mich., México",
+ "schedule": "12:15:00 - 21:41:00",
+ "categories": "Mexicana · Antojitos y Garnachas",
+ "location": [
+  -101.1887091,
+  19.7008254
+ ],
+ "city": "Morelia",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-1744384742737.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/78899-1739997076271-1744384744529.jpg",
+ "schedules": [
+  {
+   "open_time": "12:15:00",
+   "close_time": "21:41:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930262893-doraditos-y-enchiladas-mary",
+ "menu": [
+  {
+   "name": "Combos Exclusivos ",
+   "products": [
+    {
+     "name": "Combo Apatzingan",
+     "desc": "1 Morisqueta chica y encima 5 doraditos surtidos con repollo, ensalada de zanahoria, capa de picadillo, salsa dulce y verde picosita con queso y papas + 1 agua mediana de Jamaica.",
+     "price": 182,
+     "img": "1b7d4682-db92-424f-a5ac-f52cdbbaafff.jpeg"
+    },
+    {
+     "name": "Platillo Tita",
+     "desc": "3 Enchiladas + 1 bistec + frijoles refritos + 3 tortillas y papas adobadas.",
+     "price": 195,
+     "img": "f7540e81-705c-4990-898b-1834c766d9b9.jpeg"
+    },
+    {
+     "name": "Charola Mediana",
+     "desc": "25 Enchiladas + 25 doraditos + 1 gallina + 6 pzas de carne seca + 6 pzas de adobera + papitas + salsas y verdura.",
+     "price": 1261,
+     "img": "89242a3b-c22f-423f-8d4b-15cb5e75628d.jpeg"
+    },
+    {
+     "name": "Charola Grande",
+     "desc": "30 Enchiladas + 30 doraditos + 1 gallina + 8 pzas carne seca + 8 pzas adobera + 1 orden cueritos + salchichas + papitas + salsas y verdura.",
+     "price": 1612,
+     "img": "38cc09c0-b639-48bb-ad74-972c1a66f7e6.jpeg"
+    },
+    {
+     "name": "Charola Chica",
+     "desc": "18 Enchiladas + 18 doraditos + 1 gallina + papitas + verdura y salsas + 1 refresco 2 lt de sabor.",
+     "price": 715,
+     "img": "3f9c6cf3-9d7e-41c7-972f-3f1f7eab90c8.jpeg"
+    },
+    {
+     "name": "Platillo Michoacan",
+     "desc": "Carne ceca con frijoles refritos con adobera asada, papitas fritas y su verdura con 5 tortillas.",
+     "price": 195,
+     "img": "ea8d78c6-6114-4320-b6e1-830f48bf98e4.jpeg"
+    },
+    {
+     "name": "Combo Estudiante",
+     "desc": "3 Enchiladas + 1 morisqueta chica + 1 sope con papitas adobadas + 1 agua mediana de jamaica.",
+     "price": 156,
+     "img": "bf73a175-233a-4607-9b37-343cd5c29bcf.jpeg"
+    },
+    {
+     "name": "Combo Elvirita",
+     "desc": "1 Bistec + 3 enchiladas o doraditos + 1 sope acompañado de rajas, frijolitos, papitas adobadas, verdura y 3 tortillas recién hechas.",
+     "price": 247,
+     "img": "7940295f-1ccc-4477-aef3-62af16afa765.jpeg"
+    },
+    {
+     "name": "Como Mary",
+     "desc": "1 Quesadilla frita + 3 enchiladas rellenas de pollo + papitas adobadas + 1 agua mediana de jamaica.",
+     "price": 137,
+     "img": "3309c682-eb5c-4023-8e00-0b9b00e49c97.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Morisqueta",
+   "products": [
+    {
+     "name": "Morisqueta Grande",
+     "desc": "Arroz blanco con una capa de frijoles y salsa roja de carne de puerco.",
+     "price": 58,
+     "img": "72d560fc-0c51-4deb-ab85-39170836aa7f.jpeg"
+    },
+    {
+     "name": "Morisqueta Chica",
+     "desc": "Arroz blanco con una capa de frijoles y salsa roja de chile de puerco.",
+     "price": 45,
+     "img": "ea4b7cc8-584e-4a9f-95e4-3a873daf976a.png"
+    }
+   ]
+  },
+  {
+   "name": "Doraditos",
+   "products": [
+    {
+     "name": "3 Doraditos Surtidos",
+     "desc": "3 tacos doraditos surtidos con papa, requesón, adobera y frijoles.",
+     "price": 46,
+     "img": "3deedb51-4eec-4cdc-bb24-37fb85f2354b.png"
+    },
+    {
+     "name": "5 Doraditos",
+     "desc": "5 tacos doraditos surtidos con papa, requesón, adobera y frijoles.",
+     "price": 92,
+     "img": "1e9292d0-1b06-43dc-9f08-d04ced138cc6.jpeg"
+    },
+    {
+     "name": "5 Doraditos de Pollo",
+     "desc": "5  doraditos rellenos de pollo con repollo, zanahoria picada, salsa dulce de la casa y salsa verde  con  papas fritas y queso.",
+     "price": 72,
+     "img": "1e9292d0-1b06-43dc-9f08-d04ced138cc6.jpeg"
+    },
+    {
+     "name": "5 Doraditos de Papa",
+     "desc": "5 tacos dorados rellenos de papa con repollo, zanahoria picada, salsa dulce de la casa y salsa verde con papas fritas y  queso.",
+     "price": 71,
+     "img": "1e9292d0-1b06-43dc-9f08-d04ced138cc6.jpeg"
+    },
+    {
+     "name": "5 Doraditos Naty",
+     "desc": "5 Doraditos con repollo, ensalada de zanahoria, cebolla fileteada con una capa de carne deshebrada con salsa de jitomate dulce y salsa picante de tomate con queso fresco rallado y  papa dorada.",
+     "price": 110,
+     "img": "e9878dd9-8c70-4ad0-902c-df6d9d1f7693.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Pozole",
+   "products": [
+    {
+     "name": "Pozole de la casa",
+     "desc": "Rico pozole de chile de chile rojo con carne de puerco acompañado de repollo,cebolla,oregano,limon y rabanos con su chile de aceite.",
+     "price": 97,
+     "img": "83216ae9-27f2-4591-bc32-3cb9240e1c1f.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Enchiladas",
+   "products": [
+    {
+     "name": "6 Enchiladas Sencillas",
+     "desc": "6 Enchiladas rellenas con queso y cebolla con repollo, papas adobadas con salsa de la casa y un toque de queso desboronado.",
+     "price": 98,
+     "img": "7beae228-e37e-4a4c-b3eb-d0621c2edc7c.jpeg"
+    },
+    {
+     "name": "6 Enchiladas Rellenas de Desebrada",
+     "desc": "6 enchiladas rellenas de desebrada con, queso fresco, cebolla picada, acompañada con su repollo, lechuga, jitomate y su salsa de la casa y sus papitas adobadas.",
+     "price": 156,
+     "img": "8f056fe6-c9f5-4ae8-87c4-ac7a13fe9e4e.png"
+    },
+    {
+     "name": "6 Enchiladas Rellenas Picadillo",
+     "desc": "6 enchiladas rellenas de picadillo, acompañado con repollo, lechuga, jitomate y salsa de la casa y sus papitas adobadas.",
+     "price": 156,
+     "img": "8f056fe6-c9f5-4ae8-87c4-ac7a13fe9e4e.png"
+    },
+    {
+     "name": "3 Enchiladas Sencillas",
+     "desc": "3 enchiladas rellenas de queso y cebolla, acompañadas de repollo, papas adobadas y salsa de la casa, con queso desmoronado.",
+     "price": 46,
+     "img": "0bb90de0-ef6e-45a2-8553-44741008fe19.jpeg"
+    },
+    {
+     "name": "6 Enchiladas con Adobera",
+     "desc": "6 enchiladas rellenas de queso, cebolla picada acompañada con repollo, lechuga, jitomate y una orden de adobera con salsa de la casa y sus papas adobadas.",
+     "price": 117,
+     "img": "46a0f1f5-b996-4e6c-b07c-4cda6941d7f7.png"
+    },
+    {
+     "name": "6 Enchiladas con Pechuga",
+     "desc": "6 enchiladas rellenas de queso, cebolla picada acompañada con repollo, lechuga, jitomate y una pechuga de gallina  desmenuzada con salsa de la casa y sus papas adobadas.",
+     "price": 150,
+     "img": "1c1f6436-fcf1-4a15-9dd3-0ce4b2132ea5.jpeg"
+    },
+    {
+     "name": "6 Enchiladas Rellenas de Pollo",
+     "desc": "6 enchiladas rellenas de pollo, acompañadas de repollo, lechuga, jitomate, salsa de la casa y papitas adobadas. Incluye guarnición de rábanos, jalapeños y cebolla.",
+     "price": 156,
+     "img": "e03f3a9b-56a0-4a00-9e7b-2652a4df62be.jpeg"
+    },
+    {
+     "name": "6 Enchiladas con Cecina",
+     "desc": "6 enchiladas rellenas de queso, cebolla picada acompañada con repollo, lechuga, jitomate con carne seca con el toque de su salsa de la casa y sus papas adobadas.",
+     "price": 163,
+     "img": "e7b4bab6-f80c-482d-863a-a7852cc2fef8.jpeg"
+    },
+    {
+     "name": "6 Enchiladas con Gallina",
+     "desc": "6 enchiladas rellenas de queso fresco, cebolla picada acompañada con repollo, lechuga, jitomate y una pieza de gallina con una alita  de cajón  con salsa de la casa y papas adobadas.",
+     "price": 117,
+     "img": "ba3e6932-88ff-46b2-bf2a-06f3a88d4b4a.jpeg"
+    },
+    {
+     "name": "Orden Mixta",
+     "desc": "3 Echiladas y 3 tacos surtidos con repollo, ensalada de zanahoria, cebolla, Perón en salsa dulce y salsa verde  con queso y papas.",
+     "price": 123,
+     "img": "4fcdc082-b6e3-4379-8f4e-361fd191e2f3.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla de Comal Rellena",
+     "desc": "Tortilla de comal rellena de queso y guiso a elegir.",
+     "price": 52,
+     "img": "d4f94b22-3831-42cd-a83e-63ea0592b610.jpeg"
+    },
+    {
+     "name": "Quesadilla de Comal",
+     "desc": "Tortilla de comal rellena de queso.",
+     "price": 52,
+     "img": "874ff6f8-2f9b-4096-a850-c721caeb5751.png"
+    },
+    {
+     "name": "Quesadilla Frita Rellena",
+     "desc": "Tortilla frita rellena de queso y guiso a elegir, acompañada de guacamole, lechuga y jitomate.",
+     "price": 59,
+     "img": "20c16c1e-c4ed-431a-8213-d76ed62bc0a3.png"
+    },
+    {
+     "name": "Quesadilla Frita",
+     "desc": "Quesadilla  frita rellena de queso con repollo, zanahoria picada, salsa dulce y salsa verde picosita.",
+     "price": 63,
+     "img": "b58e2097-cfad-4bf1-bd40-07291d090945.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Sidral Mundet 300 ml",
+     "desc": "Sidral Mundet Manzana 300ml.",
+     "price": 32,
+     "img": "eee8bc3f-a8cd-4451-a520-f8fa3f3c03e2.png"
+    },
+    {
+     "name": "Sprite Lima Limón 355 ml",
+     "desc": "Refrescos",
+     "price": 32,
+     "img": "1f969d80-45dc-491d-87f5-e7996a3093d2.jpeg"
+    },
+    {
+     "name": "Coca-Cola Original 450 ml",
+     "desc": "Coca - Cola Original 450 ml",
+     "price": 32,
+     "img": "f7841716-751b-4941-a735-6e8794a7d726.jpeg"
+    },
+    {
+     "name": "Agua Natural 600 ml",
+     "desc": "Aguas natural 600 ml.",
+     "price": 26,
+     "img": "8d39e81a-96c3-4f38-86b3-ac758306dece.png"
+    },
+    {
+     "name": "Cafe",
+     "desc": "Café aromático, perfecto para disfrutar en cualquier momento.",
+     "price": 2402,
+     "img": "d0704d0e-d0eb-4350-9d36-a04d911effd6.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Combos Rappi ",
+   "products": [
+    {
+     "name": "Combo Doraditos Naty + Coca-Cola Original 450 ml",
+     "desc": "Doraditos c/repollo, zanahoria, cebolla, carne deshebrada, salsa jitomate dulce y picante, queso fresco + Refresco",
+     "price": 142,
+     "img": "28ecd595-a18d-4c15-9c10-f3383631f218.png"
+    },
+    {
+     "name": "Combo Quesadilla Frita + Coca-Cola Original 450 ml",
+     "desc": "Quesadilla  frita rellena de queso con repollo, zanahoria picada, salsa dulce y salsa verde picosita. + Refresco",
+     "price": 95,
+     "img": "fdd20046-ae4a-4358-b77c-53020a1b6505.png"
+    },
+    {
+     "name": "Quesadilla Frita Rellena +Sprite Lima Limón 355ml",
+     "desc": "Quesadilla frita rellena de queso y guiso a elegir, acompañada de Sprite Lima Limón 355ml.",
+     "price": 91,
+     "img": "1853dff6-ff61-4579-9b27-9629045db8dd.png"
+    },
+    {
+     "name": "Combo 5 Doraditos de Pollo + Coca-Cola Original 450 ml",
+     "desc": "5  doraditos rellenos de pollo con repollo, zanahoria picada, salsa dulce de la casa y salsa verde  con  papas fritas y queso. + Refresco",
+     "price": 104,
+     "img": "ad6efa2f-f960-4f46-8026-e79429c67e22.png"
+    },
+    {
+     "name": "Combo 5 Doraditos de Papa + Coca-Cola Original 450 ml",
+     "desc": "5 tacos dorados rellenos de papa con repollo, zanahoria picada, salsa dulce de la casa y salsa verde con papas fritas y  queso. + Refresco",
+     "price": 103,
+     "img": "ad6efa2f-f960-4f46-8026-e79429c67e22.png"
+    },
+    {
+     "name": "Combo Sope + Coca-Cola Original 450 ml",
+     "desc": "Tortilla gruesa cubierta de guiso a elegir. + Refresco",
+     "price": 78,
+     "img": "5c148926-dc11-4996-86ad-2a75ac39500d.png"
+    },
+    {
+     "name": "Combo Quesadilla Frita Rellena +Cocacola Orig 450 ml",
+     "desc": "Tortilla frita rellena de queso y guiso a elegir. + Refresco",
+     "price": 91,
+     "img": "568453a9-55e6-4919-8e01-f861d84dd003.png"
+    }
+   ]
+  },
+  {
+   "name": "Acompañamientos",
+   "products": [
+    {
+     "name": "Tostada de Cueritos",
+     "desc": "Tostada de cueritos con salsa de jitomate marcajada con salsa pulla picosita.",
+     "price": 52,
+     "img": "a71d0719-84f2-4131-9f00-9cbe49fb28fb.png"
+    },
+    {
+     "name": "Adobera",
+     "desc": "Cubos de queso adobera en salsa roja, acompañados de cilantro y limón.",
+     "price": 46,
+     "img": "9d14bdba-70eb-4328-b57d-f4bcb2694976.jpeg"
+    },
+    {
+     "name": "Bistec",
+     "desc": "Bistec jugoso a la parrilla, servido con salsa.",
+     "price": 91,
+     "img": "a5fcbcf8-b08f-4877-8759-1ebcaa69881d.jpeg"
+    },
+    {
+     "name": "Carne Seca",
+     "desc": "Carne seca servida con limón y cilantro fresco.",
+     "price": 91,
+     "img": "f6845ecf-3b5b-4424-bf01-560b83160699.jpeg"
+    },
+    {
+     "name": "Orden de Pechuga",
+     "desc": "Orden de pechuga de gallina adobada.",
+     "price": 78,
+     "img": "66f0045c-6331-40d6-991b-e5382503071f.jpeg"
+    },
+    {
+     "name": "Sope",
+     "desc": "Tortilla gruesa cubierta de guiso a elegir.",
+     "price": 46,
+     "img": "ed3d4caa-30fa-4ed2-a310-137c09e5cf32.jpeg"
+    },
+    {
+     "name": "Pieza de Gallina",
+     "desc": "Pieza de gallina adobada a elegir,(pierna, muslo, cadera, carcaje y ala).",
+     "price": 46,
+     "img": "58665f78-e559-49d6-ac50-697e3de5edf3.jpeg"
+    },
+    {
+     "name": "Papas Adobadas",
+     "desc": "Papas fritas adobadas, acompañadas de salsas.",
+     "price": 33,
+     "img": "f0a2e6c1-5329-4780-92de-b6d82548e581.jpg"
+    },
+    {
+     "name": "Pata de Puerco",
+     "desc": "Pata de puerco sazonada, servida en salsa.",
+     "price": 37,
+     "img": "7ffea166-378a-4d59-b8a5-3f98f8b771a1.jpeg"
+    },
+    {
+     "name": "Cueritos",
+     "desc": "Orden de cueritos sazonados.",
+     "price": 33,
+     "img": "59ccb4a9-c0a0-47fc-b5bc-ba69f8784971.jpeg"
+    }
+   ]
+  }
+ ]
+}

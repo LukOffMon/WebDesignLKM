@@ -1,0 +1,501 @@
+{
+ "id": 1930038106,
+ "brandName": "Carnitas y Asadas el Guero",
+ "name": "Carnitas y Asadas el Guero - Fraccionamiento Valle Don Camilo",
+ "address": "Calle Prol. 5 de Mayo 2 Ote. 936-mz 018, MZ 018, Valle Don Camilo, 50140 Toluca de Lerdo, Méx., México",
+ "schedule": "09:00:00 - 17:00:00",
+ "categories": "Mexicana · Tacos",
+ "location": [
+  -99.6348571,
+  19.2750193
+ ],
+ "city": "Toluca de Lerdo",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logoofr-1764346480719.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/homeefr-1764346482221.png",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "17:00:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930038106-carnitas-y-asadas-el-guero",
+ "menu": [
+  {
+   "name": "Tacos de carnitas",
+   "products": [
+    {
+     "name": "Taco Revolcado",
+     "desc": "Taco de carnitas con huevo revuelto, salsa a elegir, cebolla, cilantro.",
+     "price": 46.2,
+     "img": "70fe33ca-7782-4bce-b8ee-3440f8267ba9.jpeg"
+    },
+    {
+     "name": "Taco Chamorro",
+     "desc": "Taco Chamorro: chamorro de cerdo con nopales, cebollas, tortillas, limones y salsa a elegir.",
+     "price": 119.4,
+     "img": "b9376c9b-8650-4f96-b945-dfddc36a24e7.jpeg"
+    },
+    {
+     "name": "Taco Chamorro BBQ",
+     "desc": "Una pieza de chamorro de cerdo en salsa BBQ, acompañado con nopales, cebollas, tortillas, limones y salsa a elegir.",
+     "price": 129,
+     "img": "d6dad254-5b8b-41e3-9d61-b36928483097.jpeg"
+    },
+    {
+     "name": "Taco de Carnitas",
+     "desc": "Taco de carnitas y salsa a elegir, cebolla cilantro.",
+     "price": 22.8,
+     "img": "382077ee-b78b-4600-ab1f-24b756b6d84f.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos de carne asada",
+   "products": [
+    {
+     "name": "Taco de Bistec",
+     "desc": "Taco en tortilla de maíz, bistec, salsa a elegir, cebolla y cilantro.",
+     "price": 22.8,
+     "img": "9a19b481-286f-4142-9656-d48865d2eda2.jpeg"
+    },
+    {
+     "name": "Taco de Adobada",
+     "desc": "Taco en tortilla de maíz, adobada, salsa a elegir, cebolla y cilantro.",
+     "price": 22.8,
+     "img": "a1ce94a4-f504-47df-9081-ba7137d49350.jpeg"
+    },
+    {
+     "name": "Taco de Chorizo Rojo",
+     "desc": "Taco en tortilla de maíz, chorizo rojo, salsa a elegir, cebolla y cilantro.",
+     "price": 22.8,
+     "img": "fec9d3fd-56c3-4b98-b6e7-4df3eb2dfc6e.jpeg"
+    },
+    {
+     "name": "Taco de Chorizo verde",
+     "desc": "Taco en tortilla de maíz, chorizo verde, salsa a elegir, cebolla y cilantro.",
+     "price": 22.8,
+     "img": "341cd94c-1ae5-4339-bd6b-d4d970d94dd6.jpeg"
+    },
+    {
+     "name": "Taco de Arrachera",
+     "desc": "Taco en tortilla de maíz, arrachera, salsa a elegir, cebolla y cilantro.",
+     "price": 27.6,
+     "img": "9aea9143-e808-460f-9dfc-6bc14716baf1.jpeg"
+    },
+    {
+     "name": "Taco de Cecina Natural",
+     "desc": "Taco en tortilla de maíz, cecina natural, salsa a elegir, cebolla y cilantro.",
+     "price": 27.6,
+     "img": "2f5d9ccc-5191-4ffb-8137-b16c1304b261.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Por kilo",
+   "products": [
+    {
+     "name": "Kilo de Arrachera",
+     "desc": "Un kilo de arrachera acompañado de cebollas, nopales, limones, tortillas y salsa a elegir.",
+     "price": 432,
+     "img": "d616a351-8188-4eb3-b964-d6357625154a.jpeg"
+    },
+    {
+     "name": "Kilo de Bomba",
+     "desc": "Un kilo de bistec, adobada, chorizo rojo, chorizo verde con cebolla y queso, salsa a elegir.",
+     "price": 441.6,
+     "img": "3d5127a4-dd3f-4d24-9b28-7463e18e5787.jpeg"
+    },
+    {
+     "name": "Kilo de Bistec con Chorizo",
+     "desc": "Un kilo de bistec con chorizo de asada, acompañado de cebollas, nopales, limones, tortillas y salsa a elegir.",
+     "price": 349.2,
+     "img": "bd8d842c-1808-432d-8ade-790cdf5829a4.jpeg"
+    },
+    {
+     "name": "Kilo de Cecina Natural",
+     "desc": "Un kilo de cecina natural, acompañado de cebollas, nopales, limones, tortillas y salsa a elegir.",
+     "price": 423,
+     "img": "2cd8fbda-7b6c-4086-b90b-9395675146ad.jpeg"
+    },
+    {
+     "name": "Kilo de Chorizo",
+     "desc": "Un kilo de chorizo y salsa a elegir, acompañado de cebollas, nopales, limones, tortillas.",
+     "price": 367.8,
+     "img": "ef90d7da-12f8-4827-8079-92fbecd640ce.jpeg"
+    },
+    {
+     "name": "Kilo de Bistec",
+     "desc": "Un kilo de bistec, acompañado de cebollas, nopales, limones, tortillas y salsa a elegir.",
+     "price": 349.2,
+     "img": "2505c179-0cf4-473c-bf52-65222c0522f0.jpeg"
+    },
+    {
+     "name": "Kilo de Adobada",
+     "desc": "Un kilo de carne adobada de cerdo, acompañado de cebollas, nopales, limones, tortillas y salsa a elegir.",
+     "price": 358.8,
+     "img": "e4e62f02-a388-4535-b49f-4dad3a425250.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Taco Gobernador",
+     "desc": "Taco Gobernador con camarones, pimiento y queso manchego. Incluye salsa a elegir.",
+     "price": 46.2,
+     "img": "32bda49f-1f50-409f-94e3-81b83c7bb978.jpeg"
+    },
+    {
+     "name": "Taco Mar y Tierra",
+     "desc": "Taco de bistec, chorizo, camarones, pimiento y queso manchego, salsa a elegir.",
+     "price": 46.2,
+     "img": "107cc32d-6944-4a52-ab99-b03d2f11232a.jpeg"
+    },
+    {
+     "name": "Taco Milaqueso",
+     "desc": "Taco de bistec empanizado con queso manchego y papas, salsa a elegir.",
+     "price": 32.4,
+     "img": "f3b399f7-6390-4cd7-b18f-726af898c3d6.jpeg"
+    },
+    {
+     "name": "Taco de Chistorra",
+     "desc": "Taco de chistorra con cebolla y cilantro, salsa a elegir.",
+     "price": 27.6,
+     "img": "8d7c4734-f5d4-4d79-a672-792fc990a8cd.jpeg"
+    },
+    {
+     "name": "Taco de Chorizo Argentino",
+     "desc": "Taco de chorizo argentino con cebolla y cilantro, salsa a elegir.",
+     "price": 27.6,
+     "img": "8d7c4734-f5d4-4d79-a672-792fc990a8cd.jpeg"
+    },
+    {
+     "name": "Taco Panela",
+     "desc": "Taco de arrachera, aguacate y queso panela, salsa a elegir.",
+     "price": 36.6,
+     "img": "cb673bc4-5c6e-4310-a4c2-bed21badaa28.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Carnitas",
+   "products": [
+    {
+     "name": "Kilo de Surtida",
+     "desc": "Kilo de maciza, cuero, buche y barriga, acompañado de cebolla, cilantro, limones, tortillas y salsa a elegir.",
+     "price": 367.8,
+     "img": "7ffe34ca-a02f-4aea-a1a2-c7c1bbf0f8c7.jpeg"
+    },
+    {
+     "name": "Kilo Campechano",
+     "desc": "Maciza y cuerito con cebolla, cilantro, limones, tortillas y salsa a elegir.",
+     "price": 349.2,
+     "img": "a4fda968-2f14-4b30-b805-75991f47c665.jpeg"
+    },
+    {
+     "name": "Kilo de Costilla",
+     "desc": "Acompañado de cebolla, cilantro, limones, tortillas y salsa a elegir.",
+     "price": 386.4,
+     "img": "46c7cbdd-1925-4aba-869f-bb1f89195075.jpeg"
+    },
+    {
+     "name": "Kilo de Maciza",
+     "desc": "Acompañado de cebolla, cilantro, limones, tortillas y salsa a elegir.",
+     "price": 367.8,
+     "img": "da2f4ea1-c50b-498f-a7d4-920fca5b3db7.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Órdenes",
+   "products": [
+    {
+     "name": "Orden de Bistec",
+     "desc": "Orden de 200 g de bistec, acompañada de tortillas, salsa y limones, salsa a elegir.",
+     "price": 91.8,
+     "img": "2505c179-0cf4-473c-bf52-65222c0522f0.jpeg"
+    },
+    {
+     "name": "Orden de Chorizo",
+     "desc": "Orden de 200 g de chorizoy salsa a elegir, acompañada de tortillas, limones.",
+     "price": 82.8,
+     "img": "ef90d7da-12f8-4827-8079-92fbecd640ce.jpeg"
+    },
+    {
+     "name": "Orden de Adobada",
+     "desc": "Orden de 200 g de adobada de cerdo, acompañada de tortillas, salsa a elegir y limones.",
+     "price": 82.8,
+     "img": "e4e62f02-a388-4535-b49f-4dad3a425250.jpeg"
+    },
+    {
+     "name": "Orden de Arrachera",
+     "desc": "Orden de 200 g de arrachera, acompañada de tortillas, salsa a elegir y limones.",
+     "price": 110.4,
+     "img": "d616a351-8188-4eb3-b964-d6357625154a.jpeg"
+    },
+    {
+     "name": "Orden de Cecina Natural",
+     "desc": "Orden de 200 g de cecina natural, acompañada de tortillas, salsa a elegir y limones.",
+     "price": 110.4,
+     "img": "2cd8fbda-7b6c-4086-b90b-9395675146ad.jpeg"
+    },
+    {
+     "name": "Orden de Carnitas",
+     "desc": "Orden de 200 g de carnitas, acompañada de tortillas, salsa a elegir y limones.",
+     "price": 82.8,
+     "img": "da2f4ea1-c50b-498f-a7d4-920fca5b3db7.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Jumex Fresh Naranja 600 ml",
+     "desc": "Jugos",
+     "price": 27.6,
+     "img": "28127ba0-3d21-423f-825c-f75135383441.png"
+    },
+    {
+     "name": "Piña Colada 1 L",
+     "desc": "Coctel elaborado con vodka, jugo de piña y crema de coco, 3 x1.",
+     "price": 129,
+     "img": "6a284d2e-b270-47c0-896e-1b26fdc55143.jpeg"
+    },
+    {
+     "name": "Cantarito 1 L",
+     "desc": "Coctel elaborado con vodka y jugos de cítricos, 3x1.",
+     "price": 129,
+     "img": "edcac8a0-13e0-4af0-ae55-e0178075afdc.jpeg"
+    },
+    {
+     "name": "Sangría Preparada 355 ml",
+     "desc": "Bebida elaborada con sangría, jugo de limón y agua mineral.",
+     "price": 36.6,
+     "img": "8903c776-cd0e-4f6f-9aac-d9e62c111626.jpeg"
+    },
+    {
+     "name": "Pepsi 355 ml",
+     "desc": "Refrescos",
+     "price": 27.6,
+     "img": "973c7cce-6014-40b2-a4ac-f2433e9889ae.jpeg"
+    },
+    {
+     "name": "Pepsi Black 355 ml",
+     "desc": "Refrescos",
+     "price": 27.6,
+     "img": "48464fd1-5d23-4f8b-8b78-c30980648fad.jpeg"
+    },
+    {
+     "name": "Manzanita Sol 355 ml",
+     "desc": "Refrescos",
+     "price": 27.6,
+     "img": "12b27b3e-8dd6-4fc1-a024-9b80994c95e3.jpeg"
+    },
+    {
+     "name": "Coca-Cola Original 355 ml",
+     "desc": "Refrescos - Vidrio",
+     "price": 27.6,
+     "img": "9f5f3e98-9811-4cc1-91b1-a44389ea210b.jpg"
+    },
+    {
+     "name": "7Up Original 355 ml",
+     "desc": "Refrescos",
+     "price": 27.6,
+     "img": "3f588e64-aada-4d69-a43d-df81f4b3c8a2.jpeg"
+    },
+    {
+     "name": "Sangria Señorial 355 ml",
+     "desc": "Refrescos",
+     "price": 27.6,
+     "img": "fbd99741-ea42-43f9-a64c-8e66dc401e25.jpeg"
+    },
+    {
+     "name": "Piñas estilo Tenango 1 L",
+     "desc": "Coctel elaborado con vodka jugo de piña y jugo de limón, 3x1.",
+     "price": 110.4,
+     "img": "6ec5f8b3-03b2-4d3e-ad70-2df1c34505fd.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Cervezas",
+   "products": [
+    {
+     "name": "Negra Modelo 355 ml",
+     "desc": "Cervezas",
+     "price": 46.2,
+     "img": "6141865c-daef-419a-b7ae-02518fdb318c.jpeg"
+    },
+    {
+     "name": "Bolas Victoria",
+     "desc": "3 bolas de cerveza de 400 ml.",
+     "price": 110.4,
+     "img": "7fa4b2b3-f004-4ff4-bea9-b6ac43404948.jpeg"
+    },
+    {
+     "name": "Corona 355 ml",
+     "desc": "Cervezas",
+     "price": 46.2,
+     "img": "5bd4f501-d4d3-4c90-91ce-393c3b267626.jpeg"
+    },
+    {
+     "name": "Victoria 355 ml",
+     "desc": "Cerveza en lata",
+     "price": 46.2,
+     "img": "2462c902-b5dc-438e-b338-a19f75e11dce.jpeg"
+    },
+    {
+     "name": "Modelo Especial 355 ml",
+     "desc": "Cervezas",
+     "price": 46.2,
+     "img": "ae7944fe-36e5-4636-b796-e86eb926bf3a.jpeg"
+    },
+    {
+     "name": "Bolas Corona",
+     "desc": "3 bolas de cerveza de 400 ml.",
+     "price": 110.4,
+     "img": "7fa4b2b3-f004-4ff4-bea9-b6ac43404948.jpeg"
+    },
+    {
+     "name": "Cerveza Cubana 400 ml",
+     "desc": "Cerveza con salsas y sazonador.",
+     "price": 73.8,
+     "img": "11b863b3-736f-476a-a09a-48014852e285.jpeg"
+    },
+    {
+     "name": "Michelada 1 L",
+     "desc": "Micelada tradicional de la casa.",
+     "price": 91.8,
+     "img": "a4569319-384e-43ad-89f7-93465db65bbe.jpeg"
+    },
+    {
+     "name": "Clamato Original 473 ml",
+     "desc": "Refrescos",
+     "price": 64.2,
+     "img": "eac8009c-ab01-4431-aa42-aaa744560d51.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Antojitos",
+   "products": [
+    {
+     "name": "Chilaquiles de Asada",
+     "desc": "Chilaquiles verdes con carne asada y cebolla. Perfectos para un desayuno o almuerzo.",
+     "price": 69,
+     "img": "9a6ad4bd-8c0b-4878-9817-707719bc6d97.jpeg"
+    },
+    {
+     "name": "Torta de Carnitas",
+     "desc": "Torta de carnitas con vegetales frescos y opción de salsa.",
+     "price": 46.2,
+     "img": "18c4425a-5d25-4bf3-a438-6e4fd77afaad.jpeg"
+    },
+    {
+     "name": "Volcán de Arrachera",
+     "desc": "Tortilla de maíz tostada con arrachera y queso fundido. Salsa a elegir.",
+     "price": 60,
+     "img": "d08aab78-b04e-47a7-95c7-c71fe149c335.jpeg"
+    },
+    {
+     "name": "Huarache de Carnitas",
+     "desc": "Huarache de maíz con carnitas, cebolla, cilantro y queso. Salsa a elegir.",
+     "price": 55.2,
+     "img": "442dcd24-2c89-4bab-ad69-299f336c5002.jpeg"
+    },
+    {
+     "name": "Huarache de Asada",
+     "desc": "Huarache de maíz tradicional servido con carne asada, salsa a elegir.",
+     "price": 64.2,
+     "img": "34812a87-fe59-43e7-b073-ccd59896d6b1.jpeg"
+    },
+    {
+     "name": "Quesadilla Gigante",
+     "desc": "Quesadilla gigante con opción de proteína y salsa a elegir. Incluye limón para acompañar.",
+     "price": 73.8,
+     "img": "8c5fd6e5-4d59-4ca9-bc49-52aebba58f32.jpeg"
+    },
+    {
+     "name": "Enchiladas de Carnitas",
+     "desc": "Enchiladas rellenas de carnitas, bañadas en salsa verde, cubiertas con crema, queso y cebolla morada.",
+     "price": 64.2,
+     "img": "5adb1a0f-f78f-4805-8e59-f32b4f4f84c2.jpeg"
+    },
+    {
+     "name": "Enchiladas de Asada",
+     "desc": "Enchiladas rellenas de carne asada, bañadas en salsa verde, con crema, queso y cebolla morada.",
+     "price": 69,
+     "img": "5adb1a0f-f78f-4805-8e59-f32b4f4f84c2.jpeg"
+    },
+    {
+     "name": "Chilaquiles de Arrachera",
+     "desc": "Chilaquiles verdes con arrachera y cebolla. Perfectos para disfrutar en cualquier momento.",
+     "price": 73.8,
+     "img": "9a6ad4bd-8c0b-4878-9817-707719bc6d97.jpeg"
+    },
+    {
+     "name": "Enchiladas de Arrachera",
+     "desc": "Enchiladas bañadas en salsa verde rellenas de arrachera.",
+     "price": 73.8,
+     "img": "5adb1a0f-f78f-4805-8e59-f32b4f4f84c2.jpeg"
+    },
+    {
+     "name": "Huarache de Arrachera",
+     "desc": "Huarache de maíz con arrachera, frijoles, queso, crema y lechuga. Salsa a elegir.",
+     "price": 73.8,
+     "img": "34812a87-fe59-43e7-b073-ccd59896d6b1.jpeg"
+    },
+    {
+     "name": "Chilaquiles de Carnitas",
+     "desc": "Chilaquiles verdes con carnitas, acompañados de cebolla y queso.",
+     "price": 64.2,
+     "img": "6ddd8f44-0498-4400-8b2e-25b7f3e076da.jpeg"
+    },
+    {
+     "name": "Burrito",
+     "desc": "Burrito tradicional con relleno y salsa a elegir. Perfecto para personalizar a tu gusto.",
+     "price": 64.2,
+     "img": "6cc3355a-31e8-45be-919b-58bafea643c6.jpeg"
+    },
+    {
+     "name": "Volcán de Carnitas",
+     "desc": "Tortilla de maíz tostada con carnitas y queso.",
+     "price": 41.4,
+     "img": "d08aab78-b04e-47a7-95c7-c71fe149c335.jpeg"
+    },
+    {
+     "name": "Volcán de Asada",
+     "desc": "Tortilla de maíz tostada con carne asada y queso fundido. Salsa a elegir.",
+     "price": 50.4,
+     "img": "d08aab78-b04e-47a7-95c7-c71fe149c335.jpeg"
+    },
+    {
+     "name": "Burrito De Arrachera",
+     "desc": "Burrito de arrachera, tortilla de harina rellena de jugosa carne de arrachera, frijoles y salsa.",
+     "price": 57.6,
+     "img": "24c0aba7-eefc-4dc3-b477-9e8fe6bb72f5.jpeg"
+    },
+    {
+     "name": "Burrito De Asada",
+     "desc": "Burrito relleno de jugosa carne asada, acompañado de frijoles y salsa.",
+     "price": 54,
+     "img": "d511a742-12f3-4c04-8131-587b8549d83a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Carne Asada",
+   "products": [
+    {
+     "name": "Cecina Natural",
+     "desc": "Cecina natural, carne deshidratada con un sabor intenso y textura única.",
+     "price": 331.8,
+     "img": "a73c1272-6b6f-43b1-89a2-10b5d10cd52d.jpeg"
+    }
+   ]
+  }
+ ]
+}
