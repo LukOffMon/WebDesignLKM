@@ -1,0 +1,666 @@
+{
+ "id": 1923221067,
+ "brandName": "Kaffihus",
+ "name": "Kaffihus - Fraccionamiento San Cayetano",
+ "address": "Av. Universidad 1302 Fracc. San Cayetano C.P. 20010 Plaza Albera Local 8B",
+ "schedule": "08:30:00 - 22:30:00",
+ "categories": "Tortas y Sandwiches · Desayunos y Brunch",
+ "location": [
+  -102.305674802412,
+  21.898115756381
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/kaffihus-logo1-1585074834928.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/formalkmto-home-1591392134633.png",
+ "schedules": [
+  {
+   "open_time": "08:30:00",
+   "close_time": "22:30:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923221067-kaffihus",
+ "menu": [
+  {
+   "name": "Desayunos",
+   "products": [
+    {
+     "name": "Chilaquiles Verdes",
+     "desc": "Deliciosos chilaquiles bañados en salsa verde picosita de la casa, con crema, queso fresco y cebolla morada, acompañados con frijoles.",
+     "price": 140,
+     "img": "66fe4b78-c784-4329-b339-2c3e76eac087-1667502135620.png"
+    },
+    {
+     "name": "Chilaquiles Rojos",
+     "desc": "Deliciosos chilaquiles rojos bañados en nuestra salsa de la casa con un toque de chipotle, crema, queso fresco y cebolla morada, acompañados de frijos.",
+     "price": 140,
+     "img": "6798a7f9-4ca9-4388-b66c-886bede938bb-1667502288932.png"
+    },
+    {
+     "name": "Molletes sencillos",
+     "desc": "Deliciosos molletes con frijoles y queso mozzarella, acompañados de salsa.",
+     "price": 115,
+     "img": "gp_sides_otra_molletes_sencillos_n.jpeg"
+    },
+    {
+     "name": "Molletes especiales",
+     "desc": "Deliciosos molletes con frijoles y queso mozzarella, salsa y tu ingrediente favorito.",
+     "price": 135,
+     "img": "gp_mexican_otra_molletes_n.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Ensaladas",
+   "products": [
+    {
+     "name": "Ensalada Cesar Sencilla",
+     "desc": "Ensalada con mezcla de lechugas, jitomate, pepino, crotones, aderezo césar, queso parmesano..",
+     "price": 120,
+     "img": "977292478-1748117467320.jpg"
+    },
+    {
+     "name": "Ensalada Gri",
+     "desc": "Mezcla de lechugas, pepino, pimiento, cebolla morada, aceitunas, queso mozarella y jitomate, adicionada con aceite de oliva y vinagreta.",
+     "price": 120,
+     "img": "16444f29-187f-4c11-9826-de751f7aa2c1-1605640930609.jpeg"
+    },
+    {
+     "name": "Ensalada Kaffihus",
+     "desc": "Ensalada con mezcla de lechugas, durazno, manzana verde, arándano, nuez, fresa y almendra, acompañada de aderezo ranch.",
+     "price": 135,
+     "img": "b9a28211-1ba3-47cf-b9fb-dc55357726da.png"
+    },
+    {
+     "name": "Ensalada Cesar Pollo",
+     "desc": "Ensalada con mezcla de lechugas,  jitomate, pepino, crotones, aderezo césar, queso parmesano, 180 gramos de pollo.",
+     "price": 165,
+     "img": "gp_salads_otra_ensalada_cesar_con_pollo.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Frappé",
+   "products": [
+    {
+     "name": "Frappuchino Tisana Mediano de Leche",
+     "desc": "Infusión de tisana a base de leche frappeado.",
+     "price": 120,
+     "img": "980187005-1748118733047.jpg"
+    },
+    {
+     "name": "Frappuchino Tisana Grande de Leche",
+     "desc": "Infusión de tisana a base de leche frappeado.",
+     "price": 125,
+     "img": "980187006-1748118755792.jpg"
+    },
+    {
+     "name": "Frappuchino Tisana Grande de Agua",
+     "desc": "Infusión de tisana a base de agua frappeado.",
+     "price": 125,
+     "img": "980187004-1748117841313.jpg"
+    },
+    {
+     "name": "Frappuccino sabor grande",
+     "desc": "Frappuccino de café intenso mezclado con leche, hielo y tu sabor favorito.",
+     "price": 125,
+     "img": "980187007-1748117142156.jpg"
+    },
+    {
+     "name": "Frappuchino Tisana Mediano Agua",
+     "desc": "Infusión de tisana a base de agua frappeado.",
+     "price": 115,
+     "img": "980187003-1748117821372.jpg"
+    },
+    {
+     "name": "Smoothie Grande Agua",
+     "desc": "Batido de frutas congeladas con hielo y agua.",
+     "price": 125,
+     "img": "977293125-1585761689277.png"
+    },
+    {
+     "name": "Smoothie Grande Leche",
+     "desc": "Batido de textura cremosa a base de frutas congeladas con leche y agua.",
+     "price": 130,
+     "img": "977293140-1585761681306.png"
+    },
+    {
+     "name": "Smoothie Mediano Agua",
+     "desc": "Batido de frutas congeladas con hielo y agua.",
+     "price": 115,
+     "img": "977293111-1585761678040.png"
+    },
+    {
+     "name": "Smoothie Mediano Leche",
+     "desc": "Batido de textura cremosa a base de frutas congeladas con leche y agua.",
+     "price": 115,
+     "img": "977293134-1585761685279.png"
+    },
+    {
+     "name": "Frappuccino natural mediano",
+     "desc": "Frappé sabor capuccino, incluye chantilly y chispas.",
+     "price": 100,
+     "img": "977293080-1585761653379.png"
+    },
+    {
+     "name": "Frappuccino natural grande",
+     "desc": "Frappé sabor capuccino, incluye chantilly y chispas.",
+     "price": 110,
+     "img": "977293087-1585761631172.png"
+    },
+    {
+     "name": "Frappuccino Sabor Mediano",
+     "desc": "Frappuccino de café intenso mezclado con leche, hielo y tu sabor favorito.",
+     "price": 115,
+     "img": "a99fbbb8-c668-4568-bb3d-93f06dc9cd09-1605640566450.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Especiales",
+   "products": [
+    {
+     "name": "Soda Ice",
+     "desc": "Coca cola con helado de vainilla.",
+     "price": 115,
+     "img": "72d7db0f97234d83826a85d1f49bb4d8.png"
+    },
+    {
+     "name": "Affogato",
+     "desc": "Helado De Vainilla Ahogado En Un Shot De Espresso",
+     "price": 110,
+     "img": "c411813b-7541-4714-ab0f-f5d43849812c.png"
+    }
+   ]
+  },
+  {
+   "name": "Crepas",
+   "products": [
+    {
+     "name": "Crepa Champiñones",
+     "desc": "Crepa rellena de champiñones cocidos , cubierta de queso manchego 2 piezas. Acompañada con aderezo de chipotle.",
+     "price": 150,
+     "img": "977292856-1748116890948.png"
+    },
+    {
+     "name": "Crepa Nutella",
+     "desc": "Crepa rellena de nutella y cubierta de chocolate 2 piezas.",
+     "price": 130,
+     "img": "977292879-1748118570786.jpg"
+    },
+    {
+     "name": "Crepa Chocobombón",
+     "desc": "Crepas rellenas de crema de avellana, cubierta de chcolate hershey's y bombones.",
+     "price": 140,
+     "img": "7aff2a29-bdaf-4a90-a6a1-98c0fc849eda-1605640060572.jpeg"
+    },
+    {
+     "name": "Crepa Clásica",
+     "desc": "Crepa rellena de jamón y queso mozzarella, cubierta de queso manchego 2 piezas. Acompañada con aderezo de chipotle.",
+     "price": 140,
+     "img": "gp_armables_otra_arma_tu_crepa_n.jpg"
+    },
+    {
+     "name": "Crepa italiana",
+     "desc": "Crepa rellena de jamón y queso mozzarella, cubierta de queso manchego 2 piezas. Acompañada con aderezo de chipotle.",
+     "price": 150,
+     "img": "gp_pizza_pizza_jamon.png"
+    },
+    {
+     "name": "Crepa Coronado",
+     "desc": "Crepa rellena de cajeta y nuez 2 piezas.",
+     "price": 130,
+     "img": "926a947b-43c0-4616-bf0a-ddef961ab5ae-1605640141560.jpeg"
+    },
+    {
+     "name": "Crepa Serrana",
+     "desc": "Crepas rellenas de jamón serrano, queso crema cubiertas de queso manchego.",
+     "price": 160,
+     "img": "gp_sides_otra_crepa_hawaiana_n.png"
+    },
+    {
+     "name": "Crepa Calvis",
+     "desc": "Crepa rellena de mermelada de guayaba y queso crema 2 piezas.",
+     "price": 130,
+     "img": "5eded871-c06a-4d8c-a4f2-f8f41027c7e2.jpeg"
+    },
+    {
+     "name": "Crepa Morita",
+     "desc": "Crepa rellena de mermelada de mora y queso crema 2 piezas.",
+     "price": 130,
+     "img": "5b324b49-08e4-48b9-867a-25670e657ae8.jpeg"
+    },
+    {
+     "name": "Crepa Fresita",
+     "desc": "Crepa rellena de mermelada de fresa y queso crema.",
+     "price": 130,
+     "img": "8f0760f5-e740-405c-a0a4-4abf4df1f353.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Baguettes",
+   "products": [
+    {
+     "name": "Baguette español",
+     "desc": "Baguette con jamón serrano, salsa de tomate, queso manchego, lechuga italiana, jitomate, cebolla y aceituna.",
+     "price": 155,
+     "img": "977292098-1748118411306.jpg"
+    },
+    {
+     "name": "Baguette jamón de pavo",
+     "desc": "Baguette con jamón de pavo, aderezo, queso manchego, lechuga italiana, jitomate cebolla, chile morrón.",
+     "price": 140,
+     "img": "977291924-1748117752498.jpg"
+    },
+    {
+     "name": "Baguette carnes frías",
+     "desc": "Baguette con jamón de pavo, salami, pepperoni, aderezo, queso manchego, lechuga italiana, jitomate cebolla, chile morrón.",
+     "price": 150,
+     "img": "977292050-1748117668601.jpg"
+    },
+    {
+     "name": "Baguette pizza",
+     "desc": "Baguette con pepperoni, salsa de pizza, aderezo, queso manchego, lechuga italiana.",
+     "price": 150,
+     "img": "b71a2bb3-8db3-4bc5-b500-bba728625f7e.png"
+    },
+    {
+     "name": "Baguette vegetariano",
+     "desc": "Baguette con champiñones cocidos, aderezo, queso manchego, lechuga italiana, jitomate cebolla, chile morrón, pepino.",
+     "price": 150,
+     "img": "0cb0baba-fce5-47c0-bd18-b94cba82ac05.png"
+    },
+    {
+     "name": "Baguette pollo bbq",
+     "desc": "Baguette con pollo a la bbq , aderezo, queso manchego, lechuga italiana.",
+     "price": 160,
+     "img": "bf47ffb5-fe10-49e3-a9a5-c72b444309df.png"
+    },
+    {
+     "name": "Baguette cordon blue",
+     "desc": "Baguette con pechuga de pollo, jamón de pavo, aderezo, queso manchego, queso amarillo, lechuga italiana y cebolla.",
+     "price": 160,
+     "img": "1c63452d-a4f0-4930-be3d-f6fcdc8d99c0.png"
+    }
+   ]
+  },
+  {
+   "name": "Boneless y Papas",
+   "products": [
+    {
+     "name": "Paquete juegos",
+     "desc": "Incluye 200 gr de boneless, 250gr papas a elegir (francesa o gajo).",
+     "price": 250,
+     "img": "979073431-1748116977420.jpg"
+    },
+    {
+     "name": "Paquete kaffihus",
+     "desc": "Incluye 250 gr de boneless, 250 gr de papas a elegir, 6 mini pizzas y 2 refrescos sabor lata.",
+     "price": 340,
+     "img": "a966795a-2753-4a5d-a271-f2c6b6fe724c-1605639946548.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Calientes",
+   "products": [
+    {
+     "name": "Latte natural grande",
+     "desc": "Latte natural grande con leche cremada y shot de expresso, decorado con arte latte.",
+     "price": 90,
+     "img": "977292947-1748116806459.png"
+    },
+    {
+     "name": "Capuchino natural mediano",
+     "desc": "Capuchino con leche espumada con shot de expresso.",
+     "price": 80,
+     "img": "977292916-1585762225814.png"
+    },
+    {
+     "name": "Latte natural mediano",
+     "desc": "Latte con leche cremada con shot de espresso.",
+     "price": 80,
+     "img": "977292937-1585762212083.png"
+    },
+    {
+     "name": "Capuchino natural grande",
+     "desc": "Capuchino con leche espumada con shot de expresso.",
+     "price": 90,
+     "img": "977292929-1585762228265.png"
+    },
+    {
+     "name": "Tisana mediana caliente",
+     "desc": "Tisana mediana caliente de frutos secos.",
+     "price": 85,
+     "img": "gp_drinks_otra_infusion_n.jpg"
+    },
+    {
+     "name": "Tisana grande caliente",
+     "desc": "Tisana grande caliente, infusión de frutos secos.",
+     "price": 90,
+     "img": "gp_drinks_otra_infusion_n.jpg"
+    },
+    {
+     "name": "Té mediano",
+     "desc": "Té mediano con agua caliente y sobre de té.",
+     "price": 50,
+     "img": "977293045-1585762012012.png"
+    },
+    {
+     "name": "Té grande",
+     "desc": "Té grande con agua caliente y sobre de té.",
+     "price": 55,
+     "img": "977293049-1585762024023.png"
+    },
+    {
+     "name": "Chocolate blanco mediano",
+     "desc": "Chocolate blanco mediano, con leche espumada y virutas de chocolate blanco.",
+     "price": 85,
+     "img": "8d9ce7d10b544b5abe9c4d404c5777c7.png"
+    },
+    {
+     "name": "Chocolate blanco grande",
+     "desc": "Chocolate blanco grande con leche espumada, cubierto con crema batida y drizzle de caramelo.",
+     "price": 95,
+     "img": "fd19062e-3d99-4ce1-b7af-374a7f4a17c7.jpeg"
+    },
+    {
+     "name": "Chocolate mediano",
+     "desc": "Chocolate mediano con leche espumada y sabor tradicional.",
+     "price": 85,
+     "img": "677acae8-e370-49a7-8fca-eead61ff7c8a.png"
+    },
+    {
+     "name": "Chocolate grande",
+     "desc": "Chocolate grande con leche espumada.",
+     "price": 95,
+     "img": "da7a003b-b2f7-48ae-bf8c-bcdb58853e3a.png"
+    },
+    {
+     "name": "Chai latte mediano",
+     "desc": "Chai latte mediano con leche y sabor vainilla, espumado.",
+     "price": 90,
+     "img": "977293017-1585762071023.png"
+    },
+    {
+     "name": "Chai latte grande",
+     "desc": "Chai latte grande con leche, sabor vainilla y espumado.",
+     "price": 95,
+     "img": "977293024-1585762076805.png"
+    },
+    {
+     "name": "Matcha Mediano",
+     "desc": "Bebida mediana a base de matcha con leche y una capa de matcha espumado en la parte superior.",
+     "price": 59,
+     "img": "7024712b-d997-4465-80a0-b732422033f8.jpeg"
+    },
+    {
+     "name": "Matcha Grande",
+     "desc": "Bebida grande de té matcha con leche y una capa de matcha espumado.",
+     "price": 65,
+     "img": "e5b7178e-e5f8-40bb-9cb3-bb16316dd792.jpeg"
+    },
+    {
+     "name": "Latte Sabor Mediano",
+     "desc": "Latte Mediano con leche cremada, shot de expresso y el sabor de tu preferencia. Con arte latte.",
+     "price": 59,
+     "img": "977292978-1585762116204.png"
+    },
+    {
+     "name": "Latte Sabor Grande",
+     "desc": "Latte Grande con leche cremada, shot de expresso y decorado de jarabe en la espuma. Elige tu sabor favorito.",
+     "price": 64,
+     "img": "977292990-1585762121352.png"
+    },
+    {
+     "name": "Capuccino Sabor Mediano",
+     "desc": "Capuccino mediano con leche espumada y shot de expresso; elige tu sabor.",
+     "price": 59,
+     "img": "977292959-1585762155946.png"
+    },
+    {
+     "name": "Capuccino Sabor Grande",
+     "desc": "Capuccino Grande con leche espumada y shot de expresso. Elige tu sabor favorito.",
+     "price": 64,
+     "img": "977292969-1585762153153.png"
+    },
+    {
+     "name": "Americano Mediano",
+     "desc": "Espresso con agua caliente.",
+     "price": 60,
+     "img": "2db9db8c59584f03a24e2b9943f46c6b.png"
+    },
+    {
+     "name": "Americano Grande",
+     "desc": "Shot de espresso con agua caliente.",
+     "price": 70,
+     "img": "977292910-1585761883668.png"
+    }
+   ]
+  },
+  {
+   "name": "Bagels",
+   "products": [
+    {
+     "name": "Bagel Jamón Pavo",
+     "desc": "Pan tipo bagel, jamón de pavo, aderezo, queso manchego, lechuga italiana, jitomate cebolla, chile morrón.",
+     "price": 78,
+     "img": "81abd3ce-7ae9-462c-9094-3cac3c57c643-1605640327868.jpeg"
+    },
+    {
+     "name": "Bagel Carnes Frías",
+     "desc": "Pan tipo bagel , jamón de pavo, salami, pepperoni, aderezo, queso manchego, lechuga italiana, jitomate cebolla, chile morrón.",
+     "price": 82,
+     "img": "gp_sandwich_bagel_carnes_frias_n.png"
+    },
+    {
+     "name": "Bagel Pollo Bbq",
+     "desc": "Pan tipo bagel, pollo a la bbq , aderezo, queso manchego, lechuga italiana.",
+     "price": 89,
+     "img": "2fbab1ac-7ab2-45d2-993c-b2b1530ac1fa-1612982698136.png"
+    },
+    {
+     "name": "Bagel Español",
+     "desc": "Pan tipo bagel, jamón serrano, salsa de tomate, queso manchego, lechuga italiana, jitomate, cebolla y aceitunas.",
+     "price": 85,
+     "img": "03536fe3-6dae-43dc-bc11-f320ae69b859.jpeg"
+    },
+    {
+     "name": "Bagel Vegetariano",
+     "desc": "Pan tipo bagel, champiñones cocidos, aderezo, queso manchego, lechuga italiana, jitomate cebolla, chile morrón, pepino, aguacate.",
+     "price": 72,
+     "img": "gp_sandwich_bagel_vegetariano.jpg"
+    },
+    {
+     "name": "Bagel Cordon Blue",
+     "desc": "Pan tipo bagel, pollo, jamón de pavo, aderezo, queso manchego, queso amarillo, lechuga italiana y cebolla.",
+     "price": 89,
+     "img": "0a17b23a-99fc-4d0e-9bea-ef83abe823de.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Croissants",
+   "products": [
+    {
+     "name": "Croissant Cajeta C/Nuez",
+     "desc": "Pan tipo croissant relleno de cajeta y nuez.",
+     "price": 55,
+     "img": "gp_pastry_otra_cuernito.png"
+    },
+    {
+     "name": "Croissant Fresa C/ Queso Crema",
+     "desc": "Pan tipo croissant relleno de mermelada de fresa y queso crema.",
+     "price": 55,
+     "img": "gp_pastry_otra_cuernito.png"
+    },
+    {
+     "name": "Croissant Mora C/ Queso Crema",
+     "desc": "Pan tipo croissant relleno de mermelada de mora y queso crema.",
+     "price": 55,
+     "img": "gp_pastry_otra_cuernito.png"
+    },
+    {
+     "name": "Croissant Guayaba C/ Queso Crema",
+     "desc": "Pan tipo croissant relleno de mermelada de guayaba y queso crema.",
+     "price": 55,
+     "img": "gp_pastry_otra_cuernito.png"
+    },
+    {
+     "name": "Croissant Nutella",
+     "desc": "Pan tipo croissant relleno de nutella y chocolate.",
+     "price": 55,
+     "img": "977292817-1748111500083.png"
+    }
+   ]
+  },
+  {
+   "name": "Galletas",
+   "products": [
+    {
+     "name": "Galleta Chocolate Oscuro",
+     "desc": "Galleta con chispas de chocolate obscuro.",
+     "price": 20,
+     "img": "335aae83-1826-466f-afd4-0550152751b7.jpeg"
+    },
+    {
+     "name": "Galleta Chocolate Blanco",
+     "desc": "Galleta con chispas de chocolate blanco y macadamia.",
+     "price": 20,
+     "img": "3dbcb153-0f52-4389-8bc3-9051640245af.jpeg"
+    },
+    {
+     "name": "Galleta Avena",
+     "desc": "Galleta de avena con pasas.",
+     "price": 20,
+     "img": "gp_pastry_otra_galleta_de_avena.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas Frías",
+   "products": [
+    {
+     "name": "Cold Brew Sabor Grande",
+     "desc": "Infusión de café en frío con agua  por más de 20 horas, con toque dulce y servido con hielos.",
+     "price": 65,
+     "img": "977293231-1748118106252.png"
+    },
+    {
+     "name": "Tisana Mediana Fría",
+     "desc": "Tisana fría, infusión frutal con hielos y trozos de fruta deshidratada.",
+     "price": 90,
+     "img": "gp_coffee_otra_tisanas.jpg"
+    },
+    {
+     "name": "Cold Brew Sabor Mediano",
+     "desc": "Infusión de café en frío con agua  por más de 20 horas, con toque dulce y servido con hielos.",
+     "price": 60,
+     "img": "977293226-1748118086683.png"
+    },
+    {
+     "name": "Tisana Grande Fría",
+     "desc": "Tisana Grande Fría, infusión frutal con hielos.",
+     "price": 115,
+     "img": "gp_coffee_otra_tisanas.jpg"
+    },
+    {
+     "name": "Soda Italiana Mediana",
+     "desc": "Soda Italiana Mediana con jarabe saborizado verde, agua mineral y hielos.",
+     "price": 70,
+     "img": "977293068-1585761568713.png"
+    },
+    {
+     "name": "Soda Italiana Grande",
+     "desc": "Soda Italiana Grande con jarabe de sabor, agua mineral y hielos.",
+     "price": 80,
+     "img": "977293072-1585761595699.png"
+    },
+    {
+     "name": "Leche Almendra",
+     "desc": "Bebida sin lácteos elaborada con almendras molidas y agua filtrada.",
+     "price": 10,
+     "img": "c5b7a4cc-6470-46d1-9cbd-b81bbda3e36f.jpeg"
+    },
+    {
+     "name": "Carga Extra",
+     "desc": "Tarrina de queso Cheddar untable con pimientos y hierbas frescas.",
+     "price": 10,
+     "img": "ad49b671-d3b4-471f-987b-b9b05650403d.jpeg"
+    },
+    {
+     "name": "Shot Leche",
+     "desc": "Shot leche.",
+     "price": 10,
+     "img": ""
+    },
+    {
+     "name": "Malteada Grande",
+     "desc": "Malteada Grande con helado de tu sabor favorito batido con leche, cubierta con crema batida y cereza.",
+     "price": 90,
+     "img": "gp_desserts_otra_malteada.jpeg"
+    },
+    {
+     "name": "Cold Brew Mediano",
+     "desc": "Infusión de café en frío con agua  por más de 20 horas, con toque dulce y servido con hielos.",
+     "price": 45,
+     "img": "gp_coffee_otra_cold_brew_n.png"
+    },
+    {
+     "name": "Malteada Mediana",
+     "desc": "Malteada Mediana con helado de tu sabor favorito batido con leche, chantilly y cereza.",
+     "price": 80,
+     "img": "gp_desserts_otra_malteada_n.jpg"
+    },
+    {
+     "name": "Agua 500 ml",
+     "desc": "Agua embotellada 500 ml.",
+     "price": 30,
+     "img": "343d11b726534a0ebee021ea28456ca9.png"
+    },
+    {
+     "name": "Soda Ice",
+     "desc": "Coca cola con helado de limón o vainilla.",
+     "price": 80,
+     "img": "4af6f087-7400-444e-b141-25223188d0e5.jpeg"
+    },
+    {
+     "name": "Agua Artesanal",
+     "desc": "Agua Artesanal de sabor limón, hierbabuena, mango, fresa y frutos rojos. Puedes combinar los ingredientes.",
+     "price": 60,
+     "img": "gp_drinks_otra_jugo_combinado_n.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Brownie Clásico",
+     "desc": "Brownie Clásico de chocolate oscuro.",
+     "price": 55,
+     "img": "gp_desserts_otra_brownie_n.jpg"
+    },
+    {
+     "name": "Pastel Red Velvet",
+     "desc": "Rebanada de Pastel Red Velvet con cobertura de crema y espolvoreado con migas.",
+     "price": 85,
+     "img": "da4c348e-d46a-4e5b-b6f7-dc63057905c6-1612905105259.png"
+    },
+    {
+     "name": "Pastel 3 Chocolates",
+     "desc": "Pastel elaborado con harina de chocolate, relleno de crema de avellana y almendra.",
+     "price": 78,
+     "img": "1ccd9241-36c6-4f73-9e20-0906547f09d2.png"
+    },
+    {
+     "name": "Pastel Zanahoria",
+     "desc": "Pastel de zanahoria casero con pasas y nuez.",
+     "price": 78,
+     "img": "16786815-e541-4377-8dd1-d92e8d1e7bbd.png"
+    }
+   ]
+  }
+ ]
+}

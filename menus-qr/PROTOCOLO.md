@@ -18,6 +18,7 @@ Cómo hacer un menú digital con QR **impecable, seguro, correcto y en orden**. 
 - [ ] Que esté activo: abre hoy, tiene reseñas recientes y no anuncia cierre.
 - [ ] Que no tenga ya un menú digital propio (si lo tiene, se descarta: no hay nada que venderle).
 - [ ] Que no sea cadena nacional (VIPS, Toks, Starbucks, franquicias): ahí decide un corporativo, no el dueño.
+- [ ] **Prioriza los que publican WhatsApp** (oficial o número propio del negocio): se les puede escribir sin llamar primero.
 - [ ] Anota la fuente de su carta (hoy, Rappi; ver paso 3).
 
 ## 2 · Verificar el contacto (lo más importante)
@@ -38,7 +39,8 @@ Mandarle el mensaje al número equivocado es el error más caro: quema el prospe
 
 - [ ] Descarga la carta: `python3 menus-qr/_tools/rappi.py <url de Rappi> menus-qr/_tools/raw/<slug>.json`.
 - [ ] Si la tienda de Rappi no trae datos en la página (solo carga con JavaScript), descártala o busca otra fuente real.
-- [ ] Agrega el restaurante a `menus-qr/_tools/prospectos.json` con todos los campos: `slug`, `rappi`, `nombre`, `sucursal`, `ciudad`, `direccion`, `tel`, `contacto`, `confianza`, `tema`, `lema`, `gancho`, `mejora`, `estrella`, `region` (`ags` o `nacional`) y `guion` (`taqueria`, `mariscos`, `desayunos`, `cocina_tradicional` o `restaurante`).
+- [ ] Agrega el restaurante a `menus-qr/_tools/prospectos.json` con todos los campos: `slug`, `rappi`, `nombre`, `sucursal`, `ciudad`, `direccion`, `tel`, `contacto`, `confianza`, `tema`, `lema`, `gancho`, `mejora`, `estrella`, `region` (`ags` o `nacional`), `guion` (`taqueria`, `mariscos`, `desayunos`, `cocina_tradicional` o `restaurante`) y `alta` (fecha `AAAA-MM-DD` en que se agrega: el macro avisa a los socios de los nuevos con esa fecha).
+- [ ] Si el horario de Rappi no es creíble (abre a la 1:00, cierra a las 9:45…), pon `"sin_horario": true`: mejor sin horario que con uno falso.
 - [ ] El `lema`, el `gancho` y la `mejora` describen al restaurante con hechos (qué vende, de dónde es), sin inventar premios, años ni historias.
 - [ ] Fotos: solo las del propio negocio o las de su tienda de Rappi. Nunca bancos de imágenes.
 
@@ -57,6 +59,8 @@ La plantilla compartida (`assets/menu.css` y `assets/menu.js`) ya cumple todo es
   - Botones Llamar, Cómo llegar y Compartir.
   - Barra fija con categorías y lupa.
   - Ficha de cada platillo con foto grande.
+  - **Recomendados de la casa**: carrusel arriba con los platillos de `estrella` (y, si faltan, los platos fuertes con foto).
+  - Datos estructurados schema.org (`Restaurant` + `Menu`) para Google.
   - Pedido por WhatsApp, que se conserva si recargan la página.
   - Bloque "Desarrollado por LKM'r".
   - Vista previa (`og.jpg`) para WhatsApp.
@@ -68,6 +72,28 @@ La plantilla compartida (`assets/menu.css` y `assets/menu.js`) ya cumple todo es
 - [ ] Genera por cada menú `index.html`, `img/`, `qr.png`, `tarjeta-mesa.png` y `og.jpg`, además del panel `menus-qr/index.html`, `PROSPECTOS.md` y la sección MENÚS QR del portafolio.
 - [ ] Revisa el reporte de la terminal: platillos, fotos y categorías de cada uno. **Menos de 25 platillos o menos de 70 % con foto = revisar** antes de seguir.
 - [ ] Si las vistas previas `og.jpg` salen modificadas sin haber cambiado ese restaurante, descarta esos cambios (`git checkout -- <ruta>`) para no inflar el commit.
+
+### Estándar de excelencia (mínimo por menú)
+
+Un menú solo se ofrece si cumple todo esto. El macro lo revisa solo con los datos de `macro.json` y marca cada lugar con **★ Excelencia** o **por mejorar**:
+
+| Mínimo | Cómo se mide |
+|---|---|
+| Carta completa | 25 platillos o más, todos reales |
+| Fotos reales | foto en el 90 % de los platillos o más |
+| Recomendados de la casa | 3 o más en el carrusel |
+| Carta ordenada | 4 categorías o más, con buscador |
+| Pedido por WhatsApp | el contacto no es `solo_telefono` (o ya dio su WhatsApp en la llamada) |
+| Contacto verificado | `confianza` con la fuente del número |
+| Listo para compartir | `og.jpg` y datos estructurados |
+| QR y tarjeta de mesa | `verifica.js` en "Todo correcto" |
+
+Antes de mandar la venta, quien vende palomea en el macro su revisión: lo abrió en su celular, hizo un pedido de prueba, sabe el gancho y tiene el kit (enlace, QR y tarjeta).
+
+### Datos para el macro
+
+- [ ] Después de `build.py`, corre `python3 menus-qr/_tools/macro.py --macro ../LKMLPR/mensajes/index.html` (con LKMLPR clonado al lado). Escribe `menus-qr/macro.json` y actualiza `PRESETS` del macro: los nuevos entran primero, ordenados por WhatsApp.
+- [ ] Aunque no se actualice el macro, al publicar `macro.json` en Pages los socios reciben los nuevos al entrar (el macro lo lee en línea).
 
 ## 6 · QA de interfaz (automático)
 

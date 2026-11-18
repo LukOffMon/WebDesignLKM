@@ -1,0 +1,206 @@
+{
+ "id": 1930450715,
+ "brandName": "Tacos 626",
+ "name": "Tacos 626 - Fraccionamiento Gómez",
+ "address": "Avenida Guadalupe 620C, Fraccionamiento Gómez, Aguascalientes, Ags, México",
+ "schedule": "11:00:00 - 19:45:00",
+ "categories": "Tacos · Tortas y Sandwiches · Desayunos y Brunch",
+ "location": [
+  -102.309372022354,
+  21.885140043313
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/b390de32-4bbd-426a-9b51-8372995a6cf4-1780834326000.jpg?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/1930450715_1780587755939.png",
+ "schedules": [
+  {
+   "open_time": "11:00:00",
+   "close_time": "19:45:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930450715-tacos-626",
+ "menu": [
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco maciza",
+     "desc": "Delicioso taco tradicional de carne de cerdo maciza, suave y sin grasa, servido calientito.",
+     "price": 29,
+     "img": "d3bcb3ea-0dda-44cd-8a2d-863bb2f8623d.png"
+    },
+    {
+     "name": "Taco surtido",
+     "desc": "Clásico taco de carnitas surtidas, la combinación perfecta de texturas y sabor.",
+     "price": 29,
+     "img": "2423f5df-3113-4a53-ada7-ca00d7cc937c.png"
+    },
+    {
+     "name": "Taco teko maciza",
+     "desc": "Nuestro taco especial \"Teko\", sin tortilla, costra de queso doradito bien servido con abundante carne maciza.",
+     "price": 45,
+     "img": "4b849bce-813f-45b8-b565-897ca207018c.png"
+    },
+    {
+     "name": "Taco teko surtida",
+     "desc": "Nuestro taco especial \"Teko\", sin tortilla, costra de queso doradito bien servido con abundante carne surtida.",
+     "price": 45,
+     "img": "cd3777df-7108-48e8-904f-ff1e918435ae.png"
+    }
+   ]
+  },
+  {
+   "name": "Lechoneras",
+   "products": [
+    {
+     "name": "Lechonera de maíz maciza",
+     "desc": "Doble tortilla de maíz a la plancha con carne maciza y queso derretido.",
+     "price": 58,
+     "img": "f51f0d71-c4fb-4044-bc58-bf3cc7460500.png"
+    },
+    {
+     "name": "Lechonera de maíz surtido",
+     "desc": "Doble tortilla de maíz a la plancha con carne surtida y queso derretido.",
+     "price": 58,
+     "img": "3d9f9cb5-3217-41c3-b94f-3edca3870c64.png"
+    },
+    {
+     "name": "Lechonera de harina maciza",
+     "desc": "Lechonera de harina con carne maciza y queso.",
+     "price": 58,
+     "img": "9642d598-6658-408c-8b0e-9293cc111e86.png"
+    },
+    {
+     "name": "Lechonera de harina surtido",
+     "desc": "Lechonera de harina surtido. Tortilla de harina con carne surtida deshebrada.",
+     "price": 58,
+     "img": "0c91ce57-9482-4493-a5e2-f311c4731f30.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta Lechonera planchada maciza",
+     "desc": "Nuestra especialidad pasada por la plancha hasta quedar crujiente, rellena de maciza y queso derretido.",
+     "price": 100,
+     "img": "7fd43e24-e1e5-47fb-9fdb-246b3cc2ed14.png"
+    },
+    {
+     "name": "Lechonera planchada surtida",
+     "desc": "Lechonera planchada con surtido de carne, queso derretido y salsa de aguacate.",
+     "price": 100,
+     "img": "ed675c64-a0b9-43ea-98d3-80d2d0661a74.png"
+    },
+    {
+     "name": "Torta maciza",
+     "desc": "Tradicional bolillo fresco relleno generosamente de suave carne maciza.",
+     "price": 75,
+     "img": "c9925f87-5747-4176-843a-82f8093163d9.png"
+    },
+    {
+     "name": "Torta surtida",
+     "desc": "Torta con carne surtida.",
+     "price": 75,
+     "img": "5a6fa913-d063-481c-8811-6d394fb05d9d.png"
+    },
+    {
+     "name": "Torta planchada maciza",
+     "desc": "Torta doradita en la plancha para un toque crujiente, con jugosa carne maciza en su interior.",
+     "price": 90,
+     "img": "abd608d7-ec93-4ade-b000-8c9858e31b58.png"
+    },
+    {
+     "name": "Torta planchada surtida",
+     "desc": "Torta doradita en la plancha para un toque crujiente, con jugosa carne surtida en su interior.",
+     "price": 90,
+     "img": "713ab1e7-869a-4a7c-a79f-7aa3b3822a44.png"
+    },
+    {
+     "name": "Tortanela maciza",
+     "desc": "Torta con lechón carne maciza y una rebanada de queso panela, en bolillo.",
+     "price": 100,
+     "img": "0811b1af-433a-48f8-b35a-27e146ad0b91.png"
+    },
+    {
+     "name": "Tortanela surtido",
+     "desc": "Torta con carne surtida y queso panela.",
+     "price": 100,
+     "img": "ea9cb6a4-5714-42ab-9eda-0599cc57e606.png"
+    }
+   ]
+  },
+  {
+   "name": "Por Kilo",
+   "products": [
+    {
+     "name": "Kilo de maciza",
+     "desc": "Kilo de maciza, un kilogramo de carne de cerdo deshebrada.",
+     "price": 550,
+     "img": "a418b325-da0e-4bcf-b39c-1345e2d92d61.png"
+    },
+    {
+     "name": "Medio Kilo de Maciza",
+     "desc": "Medio Kilo de Maciza. Carne maciza deshebrada, 500 gramos.",
+     "price": 280,
+     "img": "a418b325-da0e-4bcf-b39c-1345e2d92d61.png"
+    },
+    {
+     "name": "Medio Kilo de Surtida",
+     "desc": "Medio Kilo de Surtida. Medio kilogramo de carne deshebrada.",
+     "price": 280,
+     "img": "915e7b0b-c6f0-4b7b-8e8c-6cff433e5711.png"
+    },
+    {
+     "name": "Kilo de surtido",
+     "desc": "Kilo de surtido de carne.",
+     "price": 550,
+     "img": "a418b325-da0e-4bcf-b39c-1345e2d92d61.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Refresco Squirt 600 Ml",
+     "desc": "Squirt El Autentico Quitased sabor Toronja, envase PET de 600 ml.",
+     "price": 40,
+     "img": "babe4b29-c225-4b7c-93fa-8468025fea83.png"
+    },
+    {
+     "name": "Coca-Cola Light 600 Ml",
+     "desc": "Refresco sabor cola, todo el sabor de Coca- cola con cero calorías. Presentación PET de 600 ml.",
+     "price": 40,
+     "img": "fb27271a-4bc4-4723-99c4-dcda21d736fd.png"
+    },
+    {
+     "name": "Coca cola 600 Ml",
+     "desc": "Bebida gaseosa sabor Cola con azúcar sabor original, envase PET de 600 ml.",
+     "price": 40,
+     "img": "14ea39e9-1cee-4d8b-8e9f-36c4dae02280.png"
+    },
+    {
+     "name": "Fanta 600 Ml",
+     "desc": "Refresco frutal sabor naranja, en envase PET de 600 ml.",
+     "price": 40,
+     "img": "2fe9c211-2550-44f2-974c-32894ca11f1d.png"
+    },
+    {
+     "name": "Fresca 600 Ml",
+     "desc": "Refresco sabor toronja original, envase PET de 600 ml.",
+     "price": 40,
+     "img": "3a77335e-8f36-4cfb-9e87-049d46560896.png"
+    },
+    {
+     "name": "Sprite 600 Ml",
+     "desc": "Refresco sabor lima limón en envase PET de 600 ml, sabor original.",
+     "price": 40,
+     "img": "051429b0-3039-4632-9026-f083ce231a9e.png"
+    }
+   ]
+  }
+ ]
+}

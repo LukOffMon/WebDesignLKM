@@ -38,7 +38,7 @@ const AUDIT = () => {
   }).map(el => (el.className || el.tagName).toString().split(' ')[0]);
   if (small.length) out.warn.push(`objetivos táctiles < 40px: ${[...new Set(small)].join(', ')}`);
   // Elementos que se salen del ancho.
-  const wide = [...document.querySelectorAll('main *, header *, .bar *')].filter(el => { const b = el.getBoundingClientRect(); return b.width && (b.right > vw + 1 || b.left < -1) && !el.closest('.chips'); })
+  const wide = [...document.querySelectorAll('main *, header *, .bar *')].filter(el => { const b = el.getBoundingClientRect(); return b.width && (b.right > vw + 1 || b.left < -1) && !el.closest('.chips, .rrow'); })  // .chips y .rrow son carruseles con scroll propio
     .map(el => el.tagName.toLowerCase() + '.' + (el.className || '').toString().split(' ')[0]);
   if (wide.length) out.err.push(`se sale del ancho: ${[...new Set(wide)].slice(0, 5).join(', ')}`);
   const h1 = document.querySelector('h1'); if (h1 && h1.scrollWidth > h1.clientWidth + 1) out.err.push('el título no cabe');

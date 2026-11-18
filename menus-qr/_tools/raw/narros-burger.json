@@ -1,0 +1,387 @@
+{
+ "id": 1923306986,
+ "brandName": "Narros Burger Norte.",
+ "name": "Narros Burger Norte. - Fraccionamiento La Fundición",
+ "address": "Narros Burger, Av. Fundición 2403, La Fundición, 20016 Aguascalientes, Ags., Mexico",
+ "schedule": "10:00:00 - 21:30:00",
+ "categories": "Hamburguesas · Comida Rápida",
+ "location": [
+  -102.315206255752,
+  21.901605833961
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logoedit-1629838098106.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mxnarrosburgernorte-1667318323529.jpg",
+ "schedules": [
+  {
+   "open_time": "10:00:00",
+   "close_time": "21:30:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1923306986-narros-burger-norte",
+ "menu": [
+  {
+   "name": "Hamburguesas",
+   "products": [
+    {
+     "name": "Tolteca",
+     "desc": "Hamburguesa de pollo con queso amarillo, aguacate, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 94,
+     "img": "6349d2d1-9347-4755-95fb-b2163b7c0437.png"
+    },
+    {
+     "name": "Zapoteca",
+     "desc": "Hamburguesa de pollo con queso blanco, aguacate, jamón, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 117,
+     "img": "332f6133-1e63-4ba5-89b4-b74aadd9fdfb.png"
+    },
+    {
+     "name": "Maya",
+     "desc": "Hamburguesa de pollo con queso panela, piña, jamón, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 117,
+     "img": "d64bba8c-92ac-4c64-8a96-4b7658049813.png"
+    },
+    {
+     "name": "Mixteca",
+     "desc": "Hamburguesa de pollo con queso amarillo, morrón, piña, champiñones lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 126,
+     "img": "7f13e23b-25c7-46c3-97e2-45e6d92b16dc.png"
+    },
+    {
+     "name": "Chilanga",
+     "desc": "Hamburguesa de res con queso amarillo, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 84,
+     "img": "c7f50613-a6db-4728-a839-d133893e1a45.png"
+    },
+    {
+     "name": "Huichol",
+     "desc": "Hamburguesa con doble pollo, queso amarillo, salchicha, aguacate, jamón, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 186,
+     "img": "f7c52bc6-41b0-49b7-9ec2-bd03b85a6ac2.jpeg"
+    },
+    {
+     "name": "Hidrocalida",
+     "desc": "Hamburguesa de res, queso amarillo, salchicha, chorizo, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 113,
+     "img": "cc4bc1c8-1cef-4853-892f-ff615a444ced.png"
+    },
+    {
+     "name": "Hamburguesa Narros",
+     "desc": "Hamburguesa de res con queso blanco, aguacate, tocino, aros de cebolla, salsa bbq, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 162,
+     "img": "4b91b1d4-3e0e-4ea4-ba03-87f5eaaa9d9c.png"
+    },
+    {
+     "name": "California",
+     "desc": "Hamburguesa de res con queso amarillo, piña, tocino, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 113,
+     "img": "cd50d305-bcf8-4a01-a19f-cd479b998aaa.png"
+    },
+    {
+     "name": "Michoacana",
+     "desc": "Hamburguesa de res con queso amarillo, chorizo, tocino, jamón, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 126,
+     "img": "d475b0d3-d337-4a60-9fe4-e2447e47efb0.png"
+    },
+    {
+     "name": "Sinaloense",
+     "desc": "Hamburguesa de res con queso blanco, chorizo, tocino, salami, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 126,
+     "img": "dd664d9a-9266-4cf1-b8eb-1daae1b7bf67.png"
+    },
+    {
+     "name": "Zacatecana",
+     "desc": "Hamburguesa de res con queso blanco, chorizo, aguacate, salchicha, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 126,
+     "img": "71f58632-8947-477b-91dc-624874ce42b3.png"
+    },
+    {
+     "name": "Tlaxcalteca",
+     "desc": "Hamburguesa de res con queso amarillo, aguacate, tocino, jamón, champiñones, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 138,
+     "img": "434609e8-4b89-4716-bc2a-6ff5e14093fd.png"
+    },
+    {
+     "name": "Mexiquense",
+     "desc": "Hamburguesa doble carde de res con queso blanco, aguacate, tocino, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 180,
+     "img": "8e488c6f-bd84-4bbc-91ac-08e71293ea10.png"
+    },
+    {
+     "name": "Regiomontana",
+     "desc": "Hamburguesa doble carne de res con queso blanco, queso amarillo, piña, tocino, jamón, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 198,
+     "img": "4354cb8a-1988-4850-87cc-ff37d3c52fa4.png"
+    },
+    {
+     "name": "Arrachera",
+     "desc": "Hamburguesa de arrachera con queso a elegir, lechuga, jitomate, cebolla, mayonesa, cátsup, mostaza.",
+     "price": 180,
+     "img": "5deb67ea-fee6-4b3e-834d-2aaaf8ad39e5.png"
+    },
+    {
+     "name": "Hamburguesa Vegetariana",
+     "desc": "Torta de papa, aguacate, champiñones, elote, rajas, queso amarillo y zanahoria.",
+     "price": 115,
+     "img": "3cba9003-c681-4be4-adb6-986004b279ca.png"
+    }
+   ]
+  },
+  {
+   "name": "Sandwiches",
+   "products": [
+    {
+     "name": "Carnes Frias",
+     "desc": "Queso De Puerco, Salchicha, Tocino O Jamon",
+     "price": 78,
+     "img": "5468d8cd-50d1-4c61-b1f1-1cc1fbabc958.png"
+    },
+    {
+     "name": "Club Sandwich",
+     "desc": "Queso Amarillo, Queso Blanco, Jamon, Salami Y Verdura, Acompanado De Papas",
+     "price": 150,
+     "img": "a18bb084-370c-43c7-98c6-09c3cd1d475c.png"
+    },
+    {
+     "name": "Carnes Calientes",
+     "desc": "Chorizo, Pierna, Bistec O Adobada",
+     "price": 84,
+     "img": "4ec9e675-3595-4fcc-8a49-25b8ef47e61e.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta Adobada",
+     "desc": "Torta con carne adobada",
+     "price": 84,
+     "img": "0239f2ef-1f8e-43ac-9428-0b7521701773.jpeg"
+    },
+    {
+     "name": "Torta de Arrachera",
+     "desc": "Torta de carne arrachera",
+     "price": 126,
+     "img": "0239f2ef-1f8e-43ac-9428-0b7521701773.jpeg"
+    },
+    {
+     "name": "Torta de Chorizo",
+     "desc": "Torta con chorizo artesanal",
+     "price": 84,
+     "img": "f645c91b-e2d8-4a73-98f2-f37eccfba5d1.jpeg"
+    },
+    {
+     "name": "Torta de Bisteck",
+     "desc": "Torta con carne de bisteck",
+     "price": 84,
+     "img": "0239f2ef-1f8e-43ac-9428-0b7521701773.jpeg"
+    },
+    {
+     "name": "Torta de Alambre",
+     "desc": "Torta de alambre",
+     "price": 96,
+     "img": "0239f2ef-1f8e-43ac-9428-0b7521701773.jpeg"
+    },
+    {
+     "name": "Torta Mixta",
+     "desc": "Combinacion De Dos Carnes",
+     "price": 96,
+     "img": "bd2eafc9-8e6d-434a-b72b-739e054fc864.png"
+    },
+    {
+     "name": "Quesadilla (1 Opcion)",
+     "desc": "Queso De Puerco, Tocino, Jamon, Salami O Salchicha",
+     "price": 84,
+     "img": "4cdc5289-cc48-4cae-9f32-fd570c7244bc.png"
+    },
+    {
+     "name": "Torta (1 Opcion)",
+     "desc": "Queso De Puerco, Jamon",
+     "price": 78,
+     "img": "3f12cfbf-b30c-4ab1-bcf1-32e86cf86d8a.png"
+    }
+   ]
+  },
+  {
+   "name": "Alambres Y Asada",
+   "products": [
+    {
+     "name": "Alambre",
+     "desc": "Bistec, Pierna, Adobada, Chorizo",
+     "price": 132,
+     "img": "6da5ecb0-43df-49fa-84e7-1321275bd287.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Hamburguesa Vegetariana",
+     "desc": "Torta De Papa, Aguacate, Champinones, Elote, Rajas, Queso Amarillo Y Zanahorias Como Guarnicion",
+     "price": 114,
+     "img": "32223577-af2b-4af5-a4c5-4b81361f2460.png"
+    }
+   ]
+  },
+  {
+   "name": "Perros Calientes",
+   "products": [
+    {
+     "name": "Chow Chow",
+     "desc": "Perro caliente con pan, salchicha, queso blanco, tocino, jamón, mayonesa, cátsup, mostaza, cebolla asada, jitomate, tamaño a elegir.",
+     "price": 84,
+     "img": "804782ad-e49d-4b11-9ee3-4513da4170bb.png"
+    },
+    {
+     "name": "Pastor",
+     "desc": "Perro caliente con pan, salchicha, queso amarillo, piña, tocino, mayonesa, cátsup, mostaza, cebolla asada, jitomate, tamaño a elegir.",
+     "price": 84,
+     "img": "86b05411-b0e3-4202-9e79-22dcd6da1943.png"
+    },
+    {
+     "name": "Bullterry",
+     "desc": "Perro caliente con pan, salchicha, aguacate, tocino mayonesa, cátsup, mostaza, cebolla asada, jitomate, tamaño a elegir.",
+     "price": 72,
+     "img": "88188b59-66da-4f08-9518-9c6f22dd38ef.png"
+    },
+    {
+     "name": "Bulldog",
+     "desc": "Perro caliente con pan, salchicha, tocino, mayonesa, cátsup, mostaza, cebolla asada, jitomate, tamaño a elegir.",
+     "price": 60,
+     "img": "dbdf7d3a-92fb-4797-b245-7e45d662f28a.png"
+    },
+    {
+     "name": "Cocker",
+     "desc": "Perro caliente con pan, salchicha, tocino, chorizo, mayonesa, cátsup, mostaza, cebolla asada, jitomate, tamaño a elegir.",
+     "price": 72,
+     "img": "88c0b436-38c7-4c8b-9a4e-cc2acaee62b7.png"
+    }
+   ]
+  },
+  {
+   "name": "Snacks",
+   "products": [
+    {
+     "name": "Boneless",
+     "desc": "Boneless naturales",
+     "price": 132,
+     "img": ""
+    },
+    {
+     "name": "Alitasx6",
+     "desc": "6 Alitas de pollo acompañadas con zanahorias y aderezo ranch, bañadas en salsa a elegir.",
+     "price": 132,
+     "img": "7ef16592-4722-45f6-9997-f737ecf0277c.png"
+    },
+    {
+     "name": "Papas a la Francesa Medianas",
+     "desc": "Papas fritas con corte natural.",
+     "price": 75,
+     "img": "8d8c6df6-093a-4ffc-b533-b918b41e68cb.png"
+    },
+    {
+     "name": "Papas a la Francesa Chicas",
+     "desc": "Papas fritas con corte natural.",
+     "price": 48,
+     "img": "1d69558d-e5ad-418f-845a-5b4ec8ca3782.png"
+    },
+    {
+     "name": "1/2 Orden de Aros de Cebolla",
+     "desc": "8 Aros de cebolla empanizados.",
+     "price": 66,
+     "img": "7ca7df2e-49a4-4b8c-8eb6-31c99b35cc0d.png"
+    },
+    {
+     "name": "Orden Aros de Cebolla",
+     "desc": "16 Aros de cebolla empanizados.",
+     "price": 132,
+     "img": "1eca5a3f-42ae-4d4c-84cc-88ba8cdeeed1.png"
+    },
+    {
+     "name": "Orden de Nuggets",
+     "desc": "12 Nuggets de pollo.",
+     "price": 120,
+     "img": "ca35d9a1-8a22-4a3f-bd77-62c43cfdc5ad.png"
+    },
+    {
+     "name": "1/2 Orden de Nuggets",
+     "desc": "6 Nuggets de pollo.",
+     "price": 60,
+     "img": "ca35d9a1-8a22-4a3f-bd77-62c43cfdc5ad.png"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Sandwich Vegetariano",
+     "desc": "Sandwich vegetariano",
+     "price": 96,
+     "img": "6d511ddd-cc99-44e3-bb45-78fbfe215c8c.jpeg"
+    },
+    {
+     "name": "Ensalada de Res O Pollo",
+     "desc": "Ensalada de res o pollo",
+     "price": 120,
+     "img": "524c27a9-484b-4496-8e5b-4a6dc811a6f4.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Pepsi 500 ml",
+     "desc": "Refrescos",
+     "price": 40,
+     "img": "31991615-f6ef-47a3-ad13-61cdb07a497e.jpeg"
+    },
+    {
+     "name": "Coca-Cola Original 600 ml",
+     "desc": "Refrescos",
+     "price": 40,
+     "img": "b8cbbcdf-3efb-4d35-99a3-5b71bf48b573.jpeg"
+    },
+    {
+     "name": "Agua Fresca",
+     "desc": "Agua fresca",
+     "price": 35,
+     "img": "5f44a272-5827-44d5-baec-0545ef1da3e8.png"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla de Alambre",
+     "desc": "Tortilla de harina, queso gratinado, alambre",
+     "price": 108,
+     "img": "6525ef23-e94d-4990-bf4b-0bf034c88717.jpeg"
+    },
+    {
+     "name": "Quesadilla de Bisteck",
+     "desc": "Tortilla de harina, queso gratinado, carne bisteck",
+     "price": 96,
+     "img": "6525ef23-e94d-4990-bf4b-0bf034c88717.jpeg"
+    },
+    {
+     "name": "Quesadilla de Adobada",
+     "desc": "Tortilla de harina, queso gratinado y carne adobada",
+     "price": 96,
+     "img": "0ff1c8b0-7b2a-46bf-8a1c-64de3f92008f.jpeg"
+    },
+    {
+     "name": "Quesadilla de Arrachera",
+     "desc": "Tortilla de harina, queso gratinado, carne arrachera",
+     "price": 126,
+     "img": "6525ef23-e94d-4990-bf4b-0bf034c88717.jpeg"
+    }
+   ]
+  }
+ ]
+}

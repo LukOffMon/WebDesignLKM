@@ -1,0 +1,246 @@
+{
+ "id": 1930212567,
+ "brandName": "Carnitas Romo",
+ "name": "Carnitas Romo - Fraccionamiento Las Hadas",
+ "address": "Av. Héroe de Nacozari Nte. 3003, Mundial 86, Las Hadas, 20140 Aguascalientes, Ags., México",
+ "schedule": "08:35:00 - 15:30:00",
+ "categories": "Antojitos y Garnachas · Mexicana",
+ "location": [
+  -102.29132,
+  21.91118
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-1725921739313.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/home-1725921741448-1725983175607.jpg",
+ "schedules": [
+  {
+   "open_time": "08:35:00",
+   "close_time": "15:30:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930212567-carnitas-romo",
+ "menu": [
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco de Carnitas",
+     "desc": "Taco tortilla de maíz con 50 gr de carnitas de cerdo e ingredientes a elegir.",
+     "price": 35,
+     "img": "7b98f4b3-e316-4740-94fb-e7266f5a9d7e.png"
+    },
+    {
+     "name": "Tacos de Adobada",
+     "desc": "Tacos de cerdo adobado con cebolla y cilantro, servidos en tortillas de maíz.",
+     "price": 25,
+     "img": "17d16002-f104-4601-838d-6ccececdff1a-1739929056091.png"
+    },
+    {
+     "name": "Taco Chorizo",
+     "desc": "Taco de chorizo servido en tortilla de maíz, acompañado de queso fresco y cilantro.",
+     "price": 25,
+     "img": "8e78ec09-6188-435b-928a-bb6e3e2f478d-1739929167341.png"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta de Carnitas",
+     "desc": "Torta con 65 gr de carnitas de cerdo e ingredientes a elegir.",
+     "price": 100,
+     "img": "4f8c379d-6043-45c5-a9b4-737427bbc6c6.png"
+    },
+    {
+     "name": "Torta de Carne Asada",
+     "desc": "Torta con 65 gr de carne asada e ingredientes a elegir.",
+     "price": 100,
+     "img": "2116453214-1725982828266.jpg"
+    },
+    {
+     "name": "Torta Adobada",
+     "desc": "65g de sabroso filete de cerde adobado y listo para llevarlo a tu boca",
+     "price": 100,
+     "img": "39e9b8c3-4fd1-4fde-93de-723e7e38368e.png"
+    },
+    {
+     "name": "Torta Chorizo",
+     "desc": "60 g del mejor chorizo de la región",
+     "price": 100,
+     "img": "5fabda2e-c164-452d-89d1-127123c12840-1739929599456.png"
+    }
+   ]
+  },
+  {
+   "name": "Mexican, Latin American, New Mexican",
+   "products": [
+    {
+     "name": "Quesadilla Frita De Carnitas",
+     "desc": "Quesadilla frita rellena de carnitas, servida en una tortilla crujiente. Ideal para disfrutar como plato principal.",
+     "price": 78,
+     "img": "2710f553-8d29-4d39-a2ce-4cf0eea24b1a.jpeg"
+    },
+    {
+     "name": "Quesadilla Frita De Chorizo",
+     "desc": "Quesadilla frita rellena de chorizo en tortilla crujiente. Incluye queso derretido y rodajas de chile.",
+     "price": 78,
+     "img": "2710f553-8d29-4d39-a2ce-4cf0eea24b1a.jpeg"
+    },
+    {
+     "name": "Quesadilla Frita De Asada",
+     "desc": "Quesadilla frita rellena de carne asada. Ideal para disfrutar como plato principal.",
+     "price": 78,
+     "img": "2710f553-8d29-4d39-a2ce-4cf0eea24b1a.jpeg"
+    },
+    {
+     "name": "Quesadilla De Carne Asada",
+     "desc": "Quesadilla Con Tortilla De Harina, Queso Asadero, Carne Asada E Ingredientes A Elegir. Foto Creada Con Ai.",
+     "price": 78,
+     "img": "2710f553-8d29-4d39-a2ce-4cf0eea24b1a.jpeg"
+    },
+    {
+     "name": "Entre Compas",
+     "desc": "500gm De Carnitas, Tortillas De Maiz, Salsa, Limones Y Guacamole, Dos Refrescos De 355ml.",
+     "price": 529,
+     "img": "18ccf042-2e40-4e65-8eaf-33881c08db9f.jpeg"
+    },
+    {
+     "name": "Quesadilla De Adobada",
+     "desc": "Quesadilla con 60g de filete de puerco adobado. Incluye queso derretido y rodajas de chile jalapeño.",
+     "price": 78,
+     "img": "2710f553-8d29-4d39-a2ce-4cf0eea24b1a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla de Carnitas",
+     "desc": "Quesadilla con tortilla de harina, queso asadero, carnitas de cerdo e ingredientes a elegir.",
+     "price": 95,
+     "img": "2116452660-1725982828258.jpg"
+    },
+    {
+     "name": "Quesadilla de Carne Asada",
+     "desc": "Quesadilla con tortilla de harina, queso asadero, carne asada e ingredientes a elegir.",
+     "price": 95,
+     "img": "81c7ce80-e75c-41a3-a386-afb0ace4a7fc.png"
+    },
+    {
+     "name": "Quesadilla de Chorizo (comal)",
+     "desc": "Quesadilla de chorizo cocida al comal, con 60g de chorizo de la región. Ideal para disfrutar con salsas al gusto.",
+     "price": 95,
+     "img": "6a13b20f-ee48-4cf6-8f21-901d606da2ed-1739930912608.png"
+    },
+    {
+     "name": "Quesadilla de Adobada",
+     "desc": "60g de el mejor filete de puerco adobado con las recetas secretas de carnitas romo",
+     "price": 95,
+     "img": "8954dd8e-04ba-4e1e-aac3-c6162797647f-1739929866186.png"
+    },
+    {
+     "name": "Quesadilla Frita de Adobada",
+     "desc": "Quesadilla frita rellena de adobada, servida en tortilla crujiente. Ideal para disfrutar con salsas al gusto.",
+     "price": 65,
+     "img": "f0099cdc-570b-4a7a-bd51-956f49dd708f-1739930291388.png"
+    },
+    {
+     "name": "Quesadilla Frita de Asada",
+     "desc": "Quesadilla frita rellena de carne asada, servida en tortilla de maíz.",
+     "price": 65,
+     "img": "c6ec2d55-b71a-402e-99ef-ebf5cdda09fd-1739930499802.png"
+    },
+    {
+     "name": "Quesadilla Frita de Carnitas",
+     "desc": "Quesadilla frita rellena de 60g de carnitas, servida en tortilla crujiente.",
+     "price": 65,
+     "img": "80c8a587-5f59-41c1-b57d-438638cd1a0d-1739930593845.png"
+    },
+    {
+     "name": "Quesadilla Frita de Chorizo",
+     "desc": "Quesadilla frita rellena de chorizo en tortilla crujiente.",
+     "price": 65,
+     "img": "e6b5e8e4-f6b2-4291-91ed-e095ddc5c505-1739930710883.png"
+    }
+   ]
+  },
+  {
+   "name": "Chilaquiles",
+   "products": [
+    {
+     "name": "Chilaquiles Rojos",
+     "desc": "Chilaquiles con tortilla de maíz en salsa roja, queso, crema y cebolla. Incluye huevo estrellado y frijoles refritos.",
+     "price": 130,
+     "img": "48d28298-fb05-448b-bda9-a3d500d6e2d9.png"
+    },
+    {
+     "name": "Chilaquiles Verdes",
+     "desc": "Chilaquiles con tortilla de maíz, bañados en salsa verde, queso, crema y cebolla",
+     "price": 130,
+     "img": "2116453267-1725983013768.jpeg"
+    },
+    {
+     "name": "Chilakilers",
+     "desc": "Chilaquiles con el totopo relleno de queso",
+     "price": 180,
+     "img": "b5ca5d8b-623f-41de-b57f-5b00bb9e01d4-1739931209048.png"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Café 10 Oz",
+     "desc": "Cafe de la casa, 10 oz.",
+     "price": 25,
+     "img": "2116453368-1725982828252.jpg"
+    },
+    {
+     "name": "Coca Cola Original 355 ml",
+     "desc": "Coca Cola Origal 355 ml",
+     "price": 30,
+     "img": "2116229229-1723477415317.png"
+    },
+    {
+     "name": "Agua Arbolito",
+     "desc": "Aguas de sabores variados.",
+     "price": 35,
+     "img": "b50ba5ed-4627-49a3-88cd-2738df15cb3f-1739931344400.png"
+    }
+   ]
+  },
+  {
+   "name": "Carnitas Combo",
+   "products": [
+    {
+     "name": "Pa que No Compartas",
+     "desc": "250g de carnitas, torillas de maiz, salsa y linoes junto con un refresco de .355ml",
+     "price": 190,
+     "img": "6028d216-3b44-4631-8aec-9a329e8d4c50-1739931840380.png"
+    },
+    {
+     "name": "Entre Compas",
+     "desc": "500g de carnitas, tortillas de maiz, salsa limones y guacamole, dos refrescos de .355ml",
+     "price": 440,
+     "img": "5c081b61-f885-41f1-b0f7-ecee4e5ac57e-1739931996402.png"
+    },
+    {
+     "name": "Pake, Comparta",
+     "desc": "1 kilo de carnitas, tortillas, salsa, limones, guacamole y pico de gallo. seis refrescos de .355 ml (4 personas",
+     "price": 820,
+     "img": "be3e30e9-6321-4adf-8663-e901a95d1b37-1739932132986.png"
+    },
+    {
+     "name": "Pa que Se Arme",
+     "desc": "1 kilo y 1/2 de carnitas tortillas de maiz, salsa, limones. guacamole y pico de gallo, 6 refrescos de .355ml",
+     "price": 1200,
+     "img": "ba39ecfc-205a-437f-9140-4e455c49dc88-1739932418606.png"
+    }
+   ]
+  }
+ ]
+}

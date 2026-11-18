@@ -1,0 +1,287 @@
+{
+ "id": 1930059409,
+ "brandName": "Los Andariegos Carnitas y Chamorros",
+ "name": "Los Andariegos Carnitas y Chamorros - San Pedro",
+ "address": "Avenida Mahatma Gandhi 613, San Pedro, Aguascalientes, Ags., México",
+ "schedule": "09:00:00 - 16:30:00",
+ "categories": "Tortas y Sandwiches · Mexicana · Desayunos y Brunch",
+ "location": [
+  -102.2937622,
+  21.8414824
+ ],
+ "city": "Aguascalientes",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/logo-1675972245376.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mexicana42-1667247639582.jpg",
+ "schedules": [
+  {
+   "open_time": "09:00:00",
+   "close_time": "16:30:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930059409-los-andariegos-carnitas-y-chamorros",
+ "menu": [
+  {
+   "name": "Rappi Combos",
+   "products": [
+    {
+     "name": "Combo Tacos",
+     "desc": "3 tacos surtida + Agua de Jamaica",
+     "price": 116,
+     "img": "890ec1c5-40a2-42d5-9adb-d88ce615d734.jpeg"
+    },
+    {
+     "name": "Combo Carnitas",
+     "desc": "1/2 kilo carnitas + 1/2 kg tortillas + 2 aguas de jamaica",
+     "price": 311,
+     "img": "5b52ef5a-ee7c-48f9-8d2f-9cbf68e2eddf.jpeg"
+    },
+    {
+     "name": "Combo Chamorro",
+     "desc": "Chamorro + Agua de jamaica+ 1/4 tortillas",
+     "price": 173,
+     "img": "18c4a2d9-c58c-4048-a3ba-1e852f22f228.jpeg"
+    },
+    {
+     "name": "Torta maciza + Agua ",
+     "desc": "Torta de carne maciza con cebolla y salsa, acompañada de agua.",
+     "price": 100,
+     "img": "d024a864-0a06-4b0d-a245-f6a8ca18dcbf.jpeg"
+    },
+    {
+     "name": "Torta surtida + Agua ",
+     "desc": "Torta surtida con carne y cebolla, acompañada de agua. Incluye salsa y rodajas de cebolla.",
+     "price": 95,
+     "img": "d024a864-0a06-4b0d-a245-f6a8ca18dcbf.jpeg"
+    },
+    {
+     "name": "Torta chamorro + Agua",
+     "desc": "Torta de chamorro acompañada de agua. Incluye carne de cerdo, cebolla y salsa.",
+     "price": 100,
+     "img": "ed6d12a9-fd30-4494-ad47-f3c7a878157a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta Surtida",
+     "desc": "Torta con maciza, cuerito, chamorro, buche, salsa roja, salsa verde y pico de gallo.",
+     "price": 65,
+     "img": "89c5ff61-aed2-48a9-8c86-857b7d0b900e.jpeg"
+    },
+    {
+     "name": "Torta de Maciza",
+     "desc": "Torta con carne de cerdo estilo maciza, salsa roja, salsa verde y pico de gallo.",
+     "price": 65,
+     "img": "d3151867-96ca-40d6-af35-0ec5d9f16170.jpeg"
+    },
+    {
+     "name": "Torta de Buche",
+     "desc": "Torta con carne de cerdo estilo buche, salsa roja, salsa verde y pico de gallo.",
+     "price": 70,
+     "img": "0107d035-d6e8-4fd2-809c-1578a9ff6618.jpeg"
+    },
+    {
+     "name": "Tortas de Cueritos",
+     "desc": "Torta con cueritos de cerdo en trozos, salsa roja, salsa verde y pico de gallo.",
+     "price": 65,
+     "img": "6b3a3dd6-c722-41e4-b9d9-c104f4214277.jpeg"
+    },
+    {
+     "name": "Torta de Chamorro",
+     "desc": "Torta con chamarro en trozos, salsa roja, salsa verde y pico de gallo.",
+     "price": 65,
+     "img": "2b9b2744-80bd-46db-8024-277e7379eabd.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Chamorros",
+   "products": [
+    {
+     "name": "Chamorro",
+     "desc": "1 Pza (600 Gr. Aprox. Con Hueso) Incluye Tortillas",
+     "price": 130,
+     "img": "139ed042-be00-4988-8b73-044b82f456ff.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Platillos",
+   "products": [
+    {
+     "name": "Manita Natural",
+     "desc": "Manita de cerdo en trozos con salsa roja, salsa verde y pico de gallo.",
+     "price": 85,
+     "img": "e76ff801-6d6d-4e3d-8c9a-91eb9e0fa722.jpeg"
+    },
+    {
+     "name": "Manita Preparada",
+     "desc": "Manita de cerdo en trozos con salsa valentina de la casa, limón, salsa roja, salsa verde y pico de gallo.",
+     "price": 85,
+     "img": "866e1607-f598-42d8-a202-5fc698d2e18c.jpeg"
+    },
+    {
+     "name": "Plato de Buche",
+     "desc": "Carne de cerdo estilo buche 200 gr con pico de gallo, salsa roja y salsa verde.",
+     "price": 106,
+     "img": "c213b4e6-7d99-43d9-9a1e-9af2ba4d1e75.jpeg"
+    },
+    {
+     "name": "Plato de Periquitos",
+     "desc": "6 Huesos de cerdo de cuerito con salsa valentina, limón y salsa casera.",
+     "price": 43,
+     "img": "efab1b45-7e27-4653-b699-c93958492b9e.jpeg"
+    },
+    {
+     "name": "Chamorro",
+     "desc": "Chamorro completo 600gr con hueso acompañado con salsa roja, salsa verde y pico de gallo.",
+     "price": 130,
+     "img": "05a98af1-5540-4ba7-82cb-a82b70601a1f.jpeg"
+    },
+    {
+     "name": "1/4 Carnitas",
+     "desc": "Proteína a elegir 250 gr con salsa roja, salsa verde y pico de gallo.",
+     "price": 110,
+     "img": "b8de535a-5233-4d67-ae28-4f172901bd3a.jpeg"
+    },
+    {
+     "name": "1/2 kg Carnitas",
+     "desc": "Proteína a elegir 500 gr con salsa roja, salsa verde y pico de gallo.",
+     "price": 225,
+     "img": "d68309bc-fea5-4379-b928-38c853a365fa.jpeg"
+    },
+    {
+     "name": "3/4 kg Carnitas",
+     "desc": "Proteína a elegir 750 gr con salsa roja, salsa verde y pico de gallo.",
+     "price": 310,
+     "img": "9ec85706-067f-4a1b-a853-201c0b444fc6.jpeg"
+    },
+    {
+     "name": "1 kg de Carnitas",
+     "desc": "Proteína a elegir 1 kg con salsa roja, salsa verde y pico de gallo.",
+     "price": 400,
+     "img": "42967633-da1c-4740-868f-a068e2883406.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco de Chamorro",
+     "desc": "Taco con tortilla de maíz, chamorro en trozos, salsa roja, salsa verde y pico de gallo.",
+     "price": 34,
+     "img": "e8b5c807-edc6-48a0-9d15-94b6343c492d.jpeg"
+    },
+    {
+     "name": "Taco de Maciza",
+     "desc": "Taco con tortilla de maíz, carne de cerdo estilo maciza, salsa roja, salsa verde y pico de gallo.",
+     "price": 32,
+     "img": "f3fc742a-8f6f-44f0-a90f-ef6332a97948.jpeg"
+    },
+    {
+     "name": "Tacos de Buche",
+     "desc": "Taco con tortilla de maíz, carne de cerdo estilo buche, salsa roja, salsa verde y pico de gallo.",
+     "price": 32,
+     "img": "acf8a809-39e7-4872-8d8c-5b825f9e4f87.jpeg"
+    },
+    {
+     "name": "Taco de Cueritos",
+     "desc": "Taco con tortilla de maíz, cueritos de cerdo frito, salsa roja, salsa verde y pico de gallo.",
+     "price": 32,
+     "img": "eb274ebe-c827-482e-be2f-570ed7013b44.jpeg"
+    },
+    {
+     "name": "Taco de Surtida",
+     "desc": "Taco con tortilla de maíz, maciza, cuerito, chamorro, buche, salsa roja, salsa verde y pico de gallo.",
+     "price": 32,
+     "img": "6b3a3dd6-c722-41e4-b9d9-c104f4214277.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Coca-Cola Original 500 ml",
+     "desc": "Coca Cola 500ml",
+     "price": 32,
+     "img": "1abbcab6-4f40-4007-a589-d45bc8f2c86b.jpeg"
+    },
+    {
+     "name": "Agua de Jamaica 1 Litro",
+     "desc": "Agua de Jamaica natural de 1 litro.",
+     "price": 40,
+     "img": "eb5e9305-2cbb-4bc8-b9ce-9f15a46c8fe3.jpeg"
+    },
+    {
+     "name": "Del Valle Mango 355 ml",
+     "desc": "Del Valle Frut Mango 355ml.",
+     "price": 32,
+     "img": "6a205097-5e40-4fac-8314-a562243bf799.png"
+    },
+    {
+     "name": "Guayaba 413ML",
+     "desc": "Jugo de guayaba Del Valle, 413 ml.",
+     "price": 32,
+     "img": "5787ea4e-6f3e-4192-a066-681b62621b8a.jpeg"
+    },
+    {
+     "name": "MANGO 413ML",
+     "desc": "MANGO 413ML.",
+     "price": 32,
+     "img": "d8bb26d1-1725-4d01-9d45-035f08bef5f1.jpeg"
+    },
+    {
+     "name": "MANZANA 413ML",
+     "desc": "MANZANA 413ML",
+     "price": 32,
+     "img": "6e2dee09-15e8-4f0c-9a22-9047d2397351.jpeg"
+    },
+    {
+     "name": "Coca Cola Zero 450 ml",
+     "desc": "Refrescos",
+     "price": 32,
+     "img": "894c5076-ba49-4b55-b47a-5eb8ec2869fc.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Acompañamientos",
+   "products": [
+    {
+     "name": "1/4 Tortillas",
+     "desc": "1/4 de kilo de tortillas.",
+     "price": 15,
+     "img": "9bdd3656-1449-4dd8-9e1e-15326185394c.jpeg"
+    },
+    {
+     "name": "1/2 kg Tortillas",
+     "desc": "1/2 kg de tortillas de maíz, perfectas para acompañar tus platillos favoritos.",
+     "price": 25,
+     "img": "ccc575c8-f214-43a6-839c-1f7104b4ca1c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Combos by Coca Cola",
+   "products": [
+    {
+     "name": "Combo Tortas de Cueritos + Del Valle Mango 355 ml",
+     "desc": "Torta con cueritos de cerdo en trozos, salsa roja, salsa verde y pico de gallo. + Jugos",
+     "price": 87,
+     "img": "a2245617-7498-4167-afbf-ae4c09cf7341.png"
+    },
+    {
+     "name": "Combo Torta Surtida + Del Valle Mango 355 ml",
+     "desc": "Torta con maciza, cuerito, chamorro, buche, salsa roja, salsa verde y pico de gallo. + Jugos",
+     "price": 89,
+     "img": "af620150-cc4f-41cd-8aa9-c5e8cb7b1e2d.png"
+    }
+   ]
+  }
+ ]
+}
