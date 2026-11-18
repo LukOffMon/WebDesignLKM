@@ -32,7 +32,8 @@
   --body:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
 }
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-padding-top:120px}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:var(--navh,120px)}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 body{margin:0;background:var(--cream);color:var(--ink);font:15px/1.5 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 img{display:block;max-width:100%;height:auto}
 button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
@@ -183,9 +184,9 @@ a{color:inherit}
 .dips .opts{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
 
 /* ---------- category nav ---------- */
-.cats{position:sticky;top:var(--barh,58px);z-index:40;background:rgba(248,236,217,.92);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid rgba(46,50,52,.08)}
+.cats{position:sticky;top:var(--barh,58px);z-index:40;background:rgba(248,236,217,.97);border-bottom:1px solid rgba(46,50,52,.08)}
 .cats .row{display:flex;align-items:center;gap:8px;padding:10px 16px}
-.cats .scroll{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1;scroll-behavior:smooth}
+.cats .scroll{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1;overscroll-behavior-x:contain}
 .cats .scroll::-webkit-scrollbar{display:none}
 .cats a{flex:none;text-decoration:none;font-weight:800;font-size:13px;padding:9px 13px;border-radius:99px;color:var(--ink);transition:background .25s,color .25s}
 .cats a.on{background:var(--ink);color:var(--cream)}
@@ -216,7 +217,7 @@ a{color:inherit}
 .flag:nth-child(2){background:var(--ink);transform:rotate(1.5deg)}
 .flag.y{background:var(--cheese);color:var(--ink)}
 .mhero{border-radius:var(--r);overflow:hidden;aspect-ratio:16/11;background:var(--ink);position:relative}
-.mhero img{width:100%;height:120%;object-fit:cover;transform:translateY(var(--py,0px)) scale(1.05);will-change:transform}
+.mhero img{width:100%;height:120%;object-fit:cover;transform:translate3d(0,0,0) scale(1.05);will-change:transform}
 .grid{display:grid;grid-template-columns:1fr;gap:14px}
 @media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
 @media(min-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
@@ -286,8 +287,9 @@ a{color:inherit}
 .excl .li .dots{border-color:rgba(248,236,217,.2)}
 
 /* tile band */
-.tiles{height:34px;background-color:var(--ink);background-image:radial-gradient(circle at 50% 50%,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 0 0,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 100% 0,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 0 100%,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 100% 100%,var(--cream) 0 7px,transparent 7.5px);background-size:22px 22px;animation:tiles 18s linear infinite}
-@keyframes tiles{to{background-position:220px 0}}
+.tiles{height:34px;background-color:var(--ink);position:relative;overflow:hidden;contain:paint}
+.tiles::before{content:"";position:absolute;top:0;bottom:0;left:-220px;right:0;background-image:radial-gradient(circle at 50% 50%,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 0 0,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 100% 0,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 0 100%,var(--cream) 0 7px,transparent 7.5px),radial-gradient(circle at 100% 100%,var(--cream) 0 7px,transparent 7.5px);background-size:22px 22px;animation:tiles 18s linear infinite;will-change:transform}
+@keyframes tiles{to{transform:translateX(220px)}}
 
 /* ---------- visit ---------- */
 .visit{background:var(--red);color:var(--cream);padding:64px 0 40px;margin-top:56px;position:relative;overflow:hidden}
@@ -800,15 +802,22 @@ $('#bebidas').addEventListener('click',e=>{const b=e.target.closest('[data-drink
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('seen');io.unobserve(e.target);}}),{rootMargin:'0px 0px -8% 0px',threshold:.12});
 $$('.rv,.mhead,#bottles').forEach(el=>io.observe(el));
 const links=$$('#cats a');
-const spy=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const id=e.target.id;links.forEach(a=>{const on=a.dataset.c===id;a.classList.toggle('on',on);if(on)a.scrollIntoView({block:'nearest',inline:'center',behavior:reduce?'auto':'smooth'});});}}),{rootMargin:'-45% 0px -50% 0px'});
+let spyId='',navLock=0,navT=0;
+function centerChip(a){const sr=cats.getBoundingClientRect(),ar=a.getBoundingClientRect();cats.scrollTo({left:cats.scrollLeft+ar.left-sr.left-(sr.width-ar.width)/2,behavior:reduce?'auto':'smooth'});}
+const spy=new IntersectionObserver(es=>es.forEach(e=>{if(navLock||!e.isIntersecting||e.target.id===spyId)return;spyId=e.target.id;links.forEach(a=>{const on=a.dataset.c===spyId;a.classList.toggle('on',on);if(on)centerChip(a);});}),{rootMargin:'-45% 0px -50% 0px'});
 $$('.msec').forEach(s=>spy.observe(s));
+function setActive(id){spyId=id;links.forEach(a=>{const on=a.dataset.c===id;a.classList.toggle('on',on);if(on)centerChip(a);});}
+cats.addEventListener('click',e=>{const a=e.target.closest('a');if(!a)return;setActive(a.dataset.c);clearTimeout(navLock);navT=performance.now();navLock=setTimeout(()=>{navLock=0;},2500);});
+addEventListener('scrollend',()=>{if(navLock){if(performance.now()-navT<120)return;clearTimeout(navLock);navLock=0;return;}if(innerHeight+scrollY>=document.documentElement.scrollHeight-4&&!$('#bebidas').classList.contains('hide'))setActive('bebidas');});
 const bar=$('#bar'),heroes=$$('.mhero img');let ticking=false;
-const setBarH=()=>document.documentElement.style.setProperty('--barh',bar.offsetHeight+'px');setBarH();addEventListener('resize',setBarH);
+const fab=$('#fab'),navEl=$('#menu');
+const setBarH=()=>{const st=document.documentElement.style;st.setProperty('--barh',bar.offsetHeight+'px');st.setProperty('--navh',(bar.offsetHeight+navEl.offsetHeight+8)+'px');};setBarH();addEventListener('resize',setBarH);
+const toMenu=()=>{const y=$('#sections').getBoundingClientRect().top+scrollY-bar.offsetHeight-navEl.offsetHeight;if(Math.abs(scrollY-y)>2)scrollTo({top:y,behavior:reduce?'auto':'smooth'});};
 function onScroll(){
   ticking=false;const y=scrollY;bar.classList.toggle('solid',y>innerHeight*.55);
-  $('#fab').classList.toggle('on',cart.length>0&&y>innerHeight*.6);
+  fab.classList.toggle('on',cart.length>0&&y>innerHeight*.6);
   if(reduce)return;
-  for(const im of heroes){const r=im.parentElement.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)continue;im.style.setProperty('--py',((r.top+r.height/2-innerHeight/2)*-.12-r.height*.1)+'px');}
+  for(const im of heroes){const r=im.parentElement.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)continue;im.style.transform=`translate3d(0,${((r.top+r.height/2-innerHeight/2)*-.12-r.height*.1).toFixed(1)}px,0) scale(1.05)`;}
 }
 addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(onScroll);}},{passive:true});
 
@@ -819,7 +828,7 @@ q.addEventListener('input',()=>{
   $('#searchBox').classList.toggle('has',!!v);let any=false;
   $$('.msec[id]:not(#bebidas)').forEach(sec=>{let n=0;$$('.card',sec).forEach(c=>{const m=!v||c.dataset.q.normalize('NFD').replace(/[̀-ͯ]/g,'').includes(v);c.style.display=m?'':'none';if(m){n++;c.classList.add('seen');}});sec.classList.toggle('hide',!n);const t=sec.nextElementSibling;if(t)t.style.display=n?'':'none';if(n)any=true;});
   $('#bebidas').classList.toggle('hide',!!v);$('#noRes').classList.toggle('on',!any);
-  if(v)$('#menu').scrollIntoView({behavior:reduce?'auto':'smooth'});
+  if(v)toMenu();
 });
 
 /* ===== cart ===== */
@@ -943,7 +952,7 @@ $('#cartBody').addEventListener('click',e=>{
   if(t.dataset.cq){const [i,d]=t.dataset.cq.split('|').map(Number);cart[i].qty+=d;if(cart[i].qty<=0)cart.splice(i,1);refresh();renderCart();}
   else if(t.closest('#seg')){mode=t.textContent;$$('#seg button').forEach(b=>b.classList.toggle('on',b===t));updateSend();}
   else if(t.id==='clear'){cart=[];refresh();renderCart();}
-  else if(t.hasAttribute('data-close2')){closeSheets();$('#menu').scrollIntoView({behavior:reduce?'auto':'smooth'});}
+  else if(t.hasAttribute('data-close2')){closeSheets();toMenu();}
 });
 $('#cartBody').addEventListener('input',e=>{if(e.target.id==='who'){who=e.target.value;try{localStorage.setItem('crunchy-name',who);}catch(_){}}updateSend();});
 const openCart=()=>{renderCart();sheet($('#cartSheet'));};
