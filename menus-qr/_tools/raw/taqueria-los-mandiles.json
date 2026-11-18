@@ -1,0 +1,698 @@
+{
+ "id": 1930297527,
+ "brandName": "Taqueria los Mandiles",
+ "name": "Taqueria los Mandiles - Barrio San Sebastián",
+ "address": "C. Leona Vicario 301, Vértice, 50150 Toluca de Lerdo, Méx., México",
+ "schedule": "12:00:00 - 23:55:00",
+ "categories": "Tacos · Mexicana",
+ "location": [
+  -99.6457857,
+  19.2875273
+ ],
+ "city": "Toluca de Lerdo",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/mandiles-1761681448583.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/mandiles-1761681449892.jpg",
+ "schedules": [
+  {
+   "open_time": "12:00:00",
+   "close_time": "23:55:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930297527-taqueria-los-mandiles",
+ "menu": [
+  {
+   "name": "Promociones",
+   "products": [
+    {
+     "name": "Promo Miércoles",
+     "desc": "Orden de tacos orientales, frijoles charros y agua 500 ml a elegir.",
+     "price": 137,
+     "img": "603219c4-9415-4bcc-818b-b87259e13d47.jpeg"
+    },
+    {
+     "name": "Promo Domingo a Jueves",
+     "desc": "1 Torta pastor con queso y 1 refresco de 400 ml a disponibilidad.",
+     "price": 89,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Paquetes",
+   "products": [
+    {
+     "name": "Paquete 2",
+     "desc": "1/2 kilo de pastor, una orden de cebollitas, un refresco de 2 l y 1 kg de tortillas.",
+     "price": 462,
+     "img": "d0ce7bfa-9239-4f61-a1ab-e7dbe99c684e.jpeg"
+    },
+    {
+     "name": "Paquete 1",
+     "desc": "1 Kg de de pastor, 1 kg de tortillas y un refresco de 2 l.",
+     "price": 462,
+     "img": "d0ce7bfa-9239-4f61-a1ab-e7dbe99c684e.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Ordenes",
+   "products": [
+    {
+     "name": "Orden de Costilla",
+     "desc": "Orden de 350 g de carne acompañado de cebollitas, nopales, frijoles charros y tortillas.",
+     "price": 170,
+     "img": "de6219ca-49a3-45ae-a7fe-7b76ee8a8a2b.jpeg"
+    },
+    {
+     "name": "Orden de Sirloin",
+     "desc": "Orden de 350 g de carne acompañado de cebollitas, nopales, frijoles charros y tortillas.",
+     "price": 200,
+     "img": "0fd67acb-4fe3-41b2-a729-650ae9807368.jpeg"
+    },
+    {
+     "name": "Orden de Cecina",
+     "desc": "Orden de 350 g de carne acompañado de cebollitas, nopales, frijoles charros y tortillas.",
+     "price": 170,
+     "img": "c99a65dd-a8e1-4790-a089-8c576f8b1d02.jpeg"
+    },
+    {
+     "name": "Orden de Arrachera",
+     "desc": "Orden de 350 g de carne acompañado de cebollitas, nopales, frijoles charros y tortillas.",
+     "price": 200,
+     "img": "50624682-ff60-4d73-97c7-9ca76c1ba50d.jpeg"
+    },
+    {
+     "name": "Orden de Pollo",
+     "desc": "Orden de 350 g de carne acompañado de cebollitas, nopales, frijoles charros y tortillas.",
+     "price": 170,
+     "img": "7e628e31-e12c-44f5-8ee7-9f20e97a2d32.jpeg"
+    },
+    {
+     "name": "Orden de Chuleta",
+     "desc": "Orden de 350 g de carne acompañado de cebollitas, nopales, frijoles charros y tortillas.",
+     "price": 158,
+     "img": "237ed5e1-b903-4ad4-9800-c28a4052f2e4.jpeg"
+    },
+    {
+     "name": "Orden de Chorizo",
+     "desc": "Orden de 350 g de carne acompañado de cebollitas, nopales, frijoles charros y tortillas.",
+     "price": 158,
+     "img": "56ca923b-8eaf-4d57-8607-46a19546509d.jpeg"
+    },
+    {
+     "name": "Orden de Bistec",
+     "desc": "Orden de 350 g de carne acompañado de cebollitas, nopales, frijoles charros y tortillas.",
+     "price": 170,
+     "img": "b807ae30-9a75-4418-a94c-268d8e9e5432.jpeg"
+    },
+    {
+     "name": "Bistec O Costilla",
+     "desc": "350 Gr. De Carne Acompanado De Cebollitas, Nopales, Frijoles Charros Y Tortillas.",
+     "price": 183,
+     "img": "6de9f324-6a7d-4cb5-98b0-6eb6f036dcf6.jpeg"
+    },
+    {
+     "name": "Arrachera",
+     "desc": "350 Gr. De Carne Acompanado De Cebollitas, Nopales, Frijoles Charros Y Tortillas.",
+     "price": 213,
+     "img": "f3e14f4e-8438-4caa-a264-85c6feebd05b.jpeg"
+    },
+    {
+     "name": "Chuleta O Chorizo",
+     "desc": "350 Gr. De Carne Acompanado De Cebollitas, Nopales, Frijoles Charros Y Tortillas.",
+     "price": 171,
+     "img": "56f84bba-c86f-44ac-9792-f7fa2d1302ee.jpeg"
+    },
+    {
+     "name": "Sirloin",
+     "desc": "350 Gr. De Carne Acompanado De Cebollitas, Nopales, Frijoles Charros Y Tortillas.",
+     "price": 213,
+     "img": "cfc83f1e-02d1-41c3-8ef5-3e28e5f937cf.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Alambres",
+   "products": [
+    {
+     "name": "Alambre",
+     "desc": "Alambre con carne a elegir, cebolla, chile poblano, tocino y queso derretido.",
+     "price": 152,
+     "img": "3251f11b-298b-4bc1-9f5e-21c9b6014a9d.jpeg"
+    },
+    {
+     "name": "Alambre Campechano",
+     "desc": "Alambre con chuleta, chorizo, cebolla, chile poblano, tocino y queso fundido.",
+     "price": 170,
+     "img": "3251f11b-298b-4bc1-9f5e-21c9b6014a9d.jpeg"
+    },
+    {
+     "name": "Campechano (Chuleta, Chorizo)",
+     "desc": "Campechano con chuleta y chorizo, acompañado de cebolla, chile poblano y tocino.",
+     "price": 185,
+     "img": "23ffaa3b-d002-471a-808e-11a3ed340e0e.jpeg"
+    },
+    {
+     "name": "Pastor O Carne Arabe O Chorizo",
+     "desc": "Elija entre carne al pastor, árabe o chorizo, acompañada de cebolla, chile poblano y tocino.",
+     "price": 165,
+     "img": "34903d44-1aeb-456e-8ffe-53ab9ee869e3.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Quesos",
+   "products": [
+    {
+     "name": "Queso Fundido",
+     "desc": "Queso fundido en cazuela acompañado de chorizo, champiñones y nopal, con tortillas a elegir.",
+     "price": 77,
+     "img": "7537081b-a01c-4b99-8d33-0ebe334e234f.jpeg"
+    },
+    {
+     "name": "Quesadilla Doble",
+     "desc": "Quesadilla doble con queso, servida en tortilla a elegir.",
+     "price": 65,
+     "img": "30e1f392-b1e2-4fd2-9f93-7bf0f98582cf.jpeg"
+    },
+    {
+     "name": "Queso Fundido con Nopales",
+     "desc": "Queso fundido con nopales servido en cazuela, acompañado de tortillas a elegir.",
+     "price": 86,
+     "img": "58a7fffb-c064-45e6-8a2e-3fb9e5e198d5.jpeg"
+    },
+    {
+     "name": "Con Rajas",
+     "desc": "Queso Fundido En Cazuela Con Tortillas De Harina O Maiz.",
+     "price": 86,
+     "img": "de81db2f-33a8-4486-a692-b8c4eb0ee547.jpeg"
+    },
+    {
+     "name": "Con Chorizo",
+     "desc": "Queso fundido con chorizo en cazuela, acompañado de tortillas de harina o maíz.",
+     "price": 86,
+     "img": "7788d876-4d53-4a8e-b1c9-89da0cee2256.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Papa Rellena",
+   "products": [
+    {
+     "name": "Bistec O Costilla O Cecina O Pollo",
+     "desc": "Papa hervida con tocino, carne a elegir (bistec, costilla, cecina o pollo) y queso fundido.",
+     "price": 85,
+     "img": "e93da9c8-b90b-4c12-b61e-e3dc36cff391.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Tacos Hawaianos",
+     "desc": "Orden de 3 tacos de chuleta, cebolla, chile poblano, extra tocino y mucha piña.",
+     "price": 163,
+     "img": "4b7d171d-b872-48a4-9b58-b0ce26636452.jpeg"
+    },
+    {
+     "name": "Tacos Mandilón",
+     "desc": "Orden de 3 tacos con combinación de cecina, chorizo y chuleta.",
+     "price": 103,
+     "img": "1481cda1-1a67-4628-8288-2de582a3a3c3.jpeg"
+    },
+    {
+     "name": "Tacos Chuleta Pop Toluqueña",
+     "desc": "Orden de 3 tacos de chuleta, chorizo, tocino y cebolla.",
+     "price": 163,
+     "img": "d25d1874-3f20-456a-aed0-03849d6c58b8.jpeg"
+    },
+    {
+     "name": "Tacos Bomba",
+     "desc": "Orden de 3 tacos de bistec, pastor, pollo, chorizo, cebolla y un toque de salsa roja.",
+     "price": 163,
+     "img": "d25d1874-3f20-456a-aed0-03849d6c58b8.jpeg"
+    },
+    {
+     "name": "Hawaiano",
+     "desc": "Chuleta de cerdo con cebolla, chile poblano, tocino y piña.",
+     "price": 175,
+     "img": "5a6d629a-b759-4be8-bddf-be309a040430.jpeg"
+    },
+    {
+     "name": "Chuleta Pop Toluquena",
+     "desc": "Chuleta Pop Toluquena, acompañada de chorizo, tocino y cebolla caramelizada.",
+     "price": 175,
+     "img": "99dbf4e9-3f32-4ef0-9973-282beb60b923.jpeg"
+    },
+    {
+     "name": "Taco Mandilon (3 Tacos)",
+     "desc": "Tres tacos con cecina, chorizo y chuleta, acompañados de queso rallado y cilantro.",
+     "price": 115,
+     "img": "6fc4cade-33ec-4d70-bc30-ba266794a928.jpeg"
+    },
+    {
+     "name": "Bomba",
+     "desc": "Bistec, Pastor, Pollo, Chorizo, Cebolla Y Con Un Toque De Salsa Roja",
+     "price": 175,
+     "img": "b09ad3f4-b082-40eb-91c0-01a4686605ed.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Ciel Natural 500 ml",
+     "desc": "Agua.",
+     "price": 30,
+     "img": "2a4f7149-e2e7-4129-9fa9-0518cd0d1f12.png"
+    },
+    {
+     "name": "Agua de Jamaica 500 ml",
+     "desc": "Agua de jamaica de la casa.",
+     "price": 32,
+     "img": "7b06ab26-ad1b-4a16-a2d8-4d3c2cef7424.jpeg"
+    },
+    {
+     "name": "Agua de Horchata 500 ml",
+     "desc": "Agua de horchata de la casa.",
+     "price": 32,
+     "img": "5f5a9fb8-869d-4421-af0d-7ec56354a500.jpeg"
+    },
+    {
+     "name": "Ref. 2 Ltrs.",
+     "desc": "Refresco en presentación de 2 litros, perfecto para compartir.",
+     "price": 68,
+     "img": "1d58852a-2151-4ded-b72b-8d901b183fb2.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tortas",
+   "products": [
+    {
+     "name": "Torta de Milanesa",
+     "desc": "Milanesa crujiente de res en pan.",
+     "price": 59,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta de Carne Árabe",
+     "desc": "Torta con carne árabe y cebolla en pan.",
+     "price": 56,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta de Sirloin",
+     "desc": "Torta de sirloin a la parrilla con cebolla en pan.",
+     "price": 73,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta de Chuleta",
+     "desc": "Torta de chuleta de cerdo en pan, acompañada de cebolla.",
+     "price": 59,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta de Chorizo",
+     "desc": "Torta de chorizo especiado con cebolla en pan estilo torta.",
+     "price": 59,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta de Bistec",
+     "desc": "Torta de bistec a la plancha con cebolla en pan.",
+     "price": 59,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta de Pastor",
+     "desc": "Torta de carne al pastor con piña y cebolla en pan.",
+     "price": 56,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta de Pollo",
+     "desc": "Torta de pollo deshebrado con cebolla en pan.",
+     "price": 59,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta de Costilla",
+     "desc": "Torta de costilla de cerdo en pan, acompañada de cebolla.",
+     "price": 59,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta Cubana",
+     "desc": "Pastor, milanesa, chorizo y queso en pan.",
+     "price": 77,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta de Cecina",
+     "desc": "Cecina salada y seca en pan.",
+     "price": 59,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta de Arrachera",
+     "desc": "Torta de arrachera a la parrilla con cebolla en pan.",
+     "price": 73,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Torta Hawaiana",
+     "desc": "Torta con jamón, piña y queso en pan, acompañada de cebolla.",
+     "price": 77,
+     "img": "678a8883-826d-445e-8d01-0457422a2d29.jpeg"
+    },
+    {
+     "name": "Cubana",
+     "desc": "Torta cubana, un clásico con capas de jamón, queso y aguacate.",
+     "price": 77,
+     "img": "2eff22f9-3f93-42cb-a142-378265fa11f2.jpeg"
+    },
+    {
+     "name": "Costilla",
+     "desc": "Costilla tierna, marinada y asada a la perfección, ideal para disfrutar en tortas.",
+     "price": 77,
+     "img": "7b822804-ebc7-409d-853e-cfdce22f5dea.jpeg"
+    },
+    {
+     "name": "Cecina",
+     "desc": "Cecina de res, finamente sazonada y deshidratada, ideal para acompañar con tortillas.",
+     "price": 71,
+     "img": "9d1f8392-9547-46a9-b750-7ed1f3791bce.jpeg"
+    },
+    {
+     "name": "Milanesa",
+     "desc": "Filete de carne empanizado y frito, perfecto para disfrutar en una torta o solo.",
+     "price": 59,
+     "img": "ceb27fe7-3d7c-4386-923d-b70533ba61af.jpeg"
+    },
+    {
+     "name": "Pastor",
+     "desc": "Torta de pastor, con carne marinada y adobada, servida en un pan suave y acompañada de piña, cebolla y cilantro.",
+     "price": 68,
+     "img": "0bcf9814-7379-4fc8-9efa-cec4eb8a892a.jpeg"
+    },
+    {
+     "name": "Carne Arabe",
+     "desc": "Torta rellena de carne de cordero sazonada, servida en un pan suave.",
+     "price": 56,
+     "img": "b68d3dab-768e-4c9d-a383-435782584b98.jpeg"
+    },
+    {
+     "name": "Chuleta",
+     "desc": "Chuleta de cerdo jugosa y tierna, perfecta para disfrutar en una torta con tus acompañamientos favoritos.",
+     "price": 71,
+     "img": "8547189d-cecf-4edb-b088-931285e0a667.jpeg"
+    },
+    {
+     "name": "Chorizo",
+     "desc": "Chorizo sazonado, ideal para agregar un toque picante a tus tortas.",
+     "price": 71,
+     "img": "faca90d3-de2d-40ab-ba71-8044dda67fe4.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos Arabes",
+   "products": [
+    {
+     "name": "Bistec/Costilla",
+     "desc": "Jugosa mezcla de bistec y costilla, perfecta para tacos árabes.",
+     "price": 411,
+     "img": "4a86eeb3-1dcb-4e9b-ad6c-01a3a5cae3ba.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Pan Árabe",
+     "desc": "Una pieza de pan árabe.",
+     "price": 11,
+     "img": "ffde61d0-a146-4469-9e1a-d854f79135c9.jpeg"
+    },
+    {
+     "name": "Orden de Tortillas de Harina",
+     "desc": "Orden de 4 tortillas.",
+     "price": 30,
+     "img": "9a4801f8-a639-409b-ad99-669ce88a237f.jpeg"
+    },
+    {
+     "name": "Orden de Aguacate",
+     "desc": "Orden de aguacate picado.",
+     "price": 41,
+     "img": "f85b635b-2d37-43f3-9542-a365bf73cc2c.jpeg"
+    },
+    {
+     "name": "Orden de Tostaditas",
+     "desc": "Orden de 4 tostaditas crujientes de maíz.",
+     "price": 30,
+     "img": "90057de7-de68-46a2-a509-90cfaf3a2276.jpeg"
+    },
+    {
+     "name": "Orden de Cebollitas",
+     "desc": "Cebollitas asadas servidas en una orden. Perfectas como acompañamiento.",
+     "price": 38,
+     "img": "f3d2d08d-0cbf-4ca0-bd22-f6700a7a5948.jpeg"
+    },
+    {
+     "name": "Frijoles Charros",
+     "desc": "Frijoles con tocino, chorizo y chile.",
+     "price": 50,
+     "img": "dbfa45c9-7e41-4744-bc50-733f5e1b4bf8.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taco Oriental",
+     "desc": "Taco Oriental con carne árabe en tortilla de maíz.",
+     "price": 24,
+     "img": "603219c4-9415-4bcc-818b-b87259e13d47.jpeg"
+    },
+    {
+     "name": "Taco de Pastor",
+     "desc": "Carne de cerdo marinada con piña y cebolla morada.",
+     "price": 24,
+     "img": "a2941032-ca0c-4686-9f7a-488b47a93b8b.jpeg"
+    },
+    {
+     "name": "Taco de Arrachera",
+     "desc": "Arrachera a la parrilla.",
+     "price": 49,
+     "img": "f9936b72-e88e-4360-bed9-c6dfdce23da1.jpeg"
+    },
+    {
+     "name": "Taco de Cecina",
+     "desc": "Taco de cecina con carne de res salada, acompañado de aguacate, queso y salsa.",
+     "price": 41,
+     "img": "a9472c31-9249-40a4-8ded-9188dba47897.jpeg"
+    },
+    {
+     "name": "Taco de Costilla",
+     "desc": "Taco de costilla de cerdo servido en tortilla, acompañado de guacamole y limón.",
+     "price": 41,
+     "img": "2873fa04-537e-4dc2-8cf5-a99aa8d4a031.jpeg"
+    },
+    {
+     "name": "Taco de Rajas",
+     "desc": "Taco de rajas de chile poblano con crema, cebolla y elote en tortilla de maíz.",
+     "price": 29,
+     "img": "f384aba5-72ef-4fc0-b73a-f0c5e140a6e8.jpeg"
+    },
+    {
+     "name": "Taco de Nopal",
+     "desc": "Taco de nopal con cebolla, cilantro, jitomate y queso fresco en tortilla de maíz.",
+     "price": 29,
+     "img": "fa060258-165b-4539-bc4c-391539db8f2b.jpeg"
+    },
+    {
+     "name": "Taco de Sirloin",
+     "desc": "Taco con sirloin a la parrilla, acompañado de cebolla y cilantro. Incluye limones para sazonar.",
+     "price": 49,
+     "img": "9f880b81-6a86-4949-8ba7-21fca015342d.jpeg"
+    },
+    {
+     "name": "Orden Oriental",
+     "desc": "Orden de 5 tacos de carne árabe.",
+     "price": 114,
+     "img": "603219c4-9415-4bcc-818b-b87259e13d47.jpeg"
+    },
+    {
+     "name": "Taco Campechano",
+     "desc": "Dos tacos de dos ingredientes a elegir.",
+     "price": 67,
+     "img": "fdbbdfb5-502a-4e57-91a1-d465b547b6b1.jpeg"
+    },
+    {
+     "name": "Taco de Chorizo",
+     "desc": "Taco de chorizo casero con cebolla, cilantro y aguacate en tortilla de maíz.",
+     "price": 41,
+     "img": "3953fbd3-09aa-4ec2-926f-6156ba047f96.jpeg"
+    },
+    {
+     "name": "Taco de Bistec",
+     "desc": "Taco de bistec de res a la plancha, servido en tortilla de maíz.",
+     "price": 41,
+     "img": "9f880b81-6a86-4949-8ba7-21fca015342d.jpeg"
+    },
+    {
+     "name": "Taco de Pollo",
+     "desc": "Taco de pollo con trozos de pollo, cebolla y cilantro en tortilla de maíz.",
+     "price": 41,
+     "img": "86e78b6c-10c8-4481-b72b-24cf2908cb7c.jpeg"
+    },
+    {
+     "name": "Orden de Pastor",
+     "desc": "Orden de 5 tacos de pastor.",
+     "price": 114,
+     "img": "a2941032-ca0c-4686-9f7a-488b47a93b8b.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos Árabes",
+   "products": [
+    {
+     "name": "Taco Árabe de Pastor",
+     "desc": "Jugosa carne al pastor en pan árabe.",
+     "price": 50,
+     "img": "37fddc73-846b-4c74-b9b3-18c22031d871.jpeg"
+    },
+    {
+     "name": "Taco Árabe de Rajas",
+     "desc": "Taco Árabe con rajas de chile poblano en pan árabe, acompañado de salsa roja.",
+     "price": 46,
+     "img": "aa5695f8-2187-48d6-aca0-5c355c19cab3.jpeg"
+    },
+    {
+     "name": "Taco Árabe de Sirloin",
+     "desc": "Taco Árabe con sirloin a la parrilla en pan árabe, acompañado de salsa roja.",
+     "price": 64,
+     "img": "1d0ea43a-445f-42ac-8542-e341e291337c.jpeg"
+    },
+    {
+     "name": "Taco Árabe de Nopales",
+     "desc": "Nopales servidos en pan árabe con salsa roja.",
+     "price": 46,
+     "img": "aa5695f8-2187-48d6-aca0-5c355c19cab3.jpeg"
+    },
+    {
+     "name": "Taco Árabe de Costilla",
+     "desc": "Taco Árabe con costilla suave en pan árabe, acompañado de salsa.",
+     "price": 59,
+     "img": "1d0ea43a-445f-42ac-8542-e341e291337c.jpeg"
+    },
+    {
+     "name": "Taco Árabe de Bistec",
+     "desc": "Taco Árabe de Bistec servido en pan árabe con bistec jugoso y salsa.",
+     "price": 59,
+     "img": "1d0ea43a-445f-42ac-8542-e341e291337c.jpeg"
+    },
+    {
+     "name": "Taco Árabe de Carne Árabe",
+     "desc": "Taco Árabe con carne de cerdo estilo árabe en pan árabe, acompañado de salsa roja.",
+     "price": 50,
+     "img": "1d0ea43a-445f-42ac-8542-e341e291337c.jpeg"
+    },
+    {
+     "name": "Taco Árabe de Pollo",
+     "desc": "Taco Árabe de Pollo: pollo marinado servido en pan árabe, acompañado de salsa roja.",
+     "price": 59,
+     "img": "70010baa-c3e3-47d4-aa3f-12750b7fb1c8.jpeg"
+    },
+    {
+     "name": "Taco Árabe de Arrachera",
+     "desc": "Arrachera a la plancha servida en pan árabe, acompañada de salsa.",
+     "price": 64,
+     "img": "1d0ea43a-445f-42ac-8542-e341e291337c.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Papas Rellenas",
+   "products": [
+    {
+     "name": "Papa Rellena",
+     "desc": "Papa hervida acompañada con tocino y carne de su preferencia, cubierta con queso fundido.",
+     "price": 82,
+     "img": "f0be1b05-14cb-4960-95f7-10243624fcd8.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Costras",
+   "products": [
+    {
+     "name": "Costra",
+     "desc": "Taco de queso fundido por dentro, dorado por fuera relleno de carne a elegir en tortilla de harina.",
+     "price": 64,
+     "img": "4e27e611-8fc1-4a69-8002-cb569802299a.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Gringas y Volcanes",
+   "products": [
+    {
+     "name": "Volcán",
+     "desc": "Orden de 2 tostadas con queso fundido y carne a elegir.",
+     "price": 60,
+     "img": "c3560e23-ead8-46fe-95f0-15f85752a850.jpeg"
+    },
+    {
+     "name": "Gringa",
+     "desc": "2 Tortillas de harina rellenas de carne a elegir y queso.",
+     "price": 73,
+     "img": "809aa7e2-7ab1-4b88-843d-6559ae85a307.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Cervezas",
+   "products": [
+    {
+     "name": "Carta Blanca Original 355 ml",
+     "desc": "Cervezas",
+     "price": 42,
+     "img": "034fc06f-719a-41c0-883f-4ffa18a65073.jpeg"
+    },
+    {
+     "name": "Victoria 355 ml",
+     "desc": "Cerveza en lata",
+     "price": 59,
+     "img": "2462c902-b5dc-438e-b338-a19f75e11dce.jpeg"
+    },
+    {
+     "name": "Corona 355 ml",
+     "desc": "Cervezas",
+     "price": 59,
+     "img": "5bd4f501-d4d3-4c90-91ce-393c3b267626.jpeg"
+    },
+    {
+     "name": "Modelo Especial 355 ml",
+     "desc": "Cervezas",
+     "price": 59,
+     "img": "ae7944fe-36e5-4636-b796-e86eb926bf3a.jpeg"
+    },
+    {
+     "name": "Negra Modelo 355 ml",
+     "desc": "Cervezas",
+     "price": 59,
+     "img": "6141865c-daef-419a-b7ae-02518fdb318c.jpeg"
+    }
+   ]
+  }
+ ]
+}

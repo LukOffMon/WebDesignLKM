@@ -1,0 +1,809 @@
+{
+ "id": 1930194388,
+ "brandName": "A la Tostada",
+ "name": "A la Tostada - Prados de Guadalupe",
+ "address": "Av. Sebastian Bach 4722, Prados Guadalupe, Zapopan, Jal., México",
+ "schedule": "12:00:00 - 18:30:00",
+ "categories": "Pescados y Mariscos",
+ "location": [
+  -103.417846593254,
+  20.672709147215
+ ],
+ "city": "Zapopan",
+ "logo": "https://images.rappi.com.mx/restaurants_logo/77-1717095074442.png?e=webp&d=10x10&q=10",
+ "backgroundImage": "https://images.rappi.com.mx/restaurants_background/96bdc89a-a435-4722-95c7-942c5a9bd383-1717785032800.jpg",
+ "schedules": [
+  {
+   "open_time": "12:00:00",
+   "close_time": "18:30:00",
+   "day": "wed"
+  }
+ ],
+ "url": "https://www.rappi.com.mx/restaurantes/1930194388-a-la-tostada",
+ "menu": [
+  {
+   "name": "Tradicionales Al Gusto",
+   "products": [
+    {
+     "name": "Camarones Y Pulpo",
+     "desc": "Camarones y pulpo en salsa, servidos en porción de 200g.",
+     "price": 156,
+     "img": "e114490e-9c73-4f2e-b920-aeca929cbcab.png"
+    },
+    {
+     "name": "Filete Con Camarones",
+     "desc": "Filete de 320g acompañado de camarones en salsa.",
+     "price": 138,
+     "img": "a2340529-9795-472e-b165-9f9f3abf8c37.png"
+    }
+   ]
+  },
+  {
+   "name": "Tostadas",
+   "products": [
+    {
+     "name": "Tostada Aguachilosa",
+     "desc": "Tostada con camarón cocido 120 gr, aguacate, cebolla, pepino, salsa verde de aguachile y nivel de picor a elegir.",
+     "price": 107.4,
+     "img": "2116082536-1717095295742.jpg"
+    },
+    {
+     "name": "Aguachile Baby",
+     "desc": "(60gr) (Tostada De Aguachile De Camaron Curtido Sencilla Con Salsa Roja, Negra O Verde)",
+     "price": 64.8,
+     "img": "80dfbbe4-7fe7-4200-ac43-60b3c84f9555.png"
+    },
+    {
+     "name": "Ya Tu Sabe",
+     "desc": "(120 Gr) (2 Proteinas A Elegir: Atun, Camaron Curtido, Camaron Cocido, Pulpo O Callito Pescado, Con La Salsa De Su Preferencia )",
+     "price": 95.4,
+     "img": "ce1e2a7a-b654-4c9e-a2ed-9def68ddaec1.png"
+    },
+    {
+     "name": "Aguachilosa",
+     "desc": "Aguachilosa: 100 g de camarón curtido y cocido con aguacate, pepino, cebolla y salsa verde.",
+     "price": 114.6,
+     "img": "9ab279ac-5308-420f-ac57-88323ff9c344.png"
+    },
+    {
+     "name": "Botanera",
+     "desc": "(370gr) (Cueritos De Cochi Y Camaron Cocido)",
+     "price": 81,
+     "img": "fad56508-bd69-4552-85df-21d4bf46a11c.png"
+    },
+    {
+     "name": "Ceviche De Camaron O Curtido Picado",
+     "desc": "(60 Gr) (Cuadros De Camaron Acompanado De Pepino, Cebolla Y Jitomate Con Salsas Negras)",
+     "price": 64.8,
+     "img": "a8087d18-74a9-4084-8562-1559e492725a.png"
+    },
+    {
+     "name": "Tostada Cevichera de Pescado",
+     "desc": "Tostada con pescado 100 gr, pepino, jitomate, cebolla, limón, salsas de la casa y coronada en aguacate.",
+     "price": 63.6,
+     "img": "2116082547-1717095312836.jpg"
+    },
+    {
+     "name": "Tostada Cevichera Mixta",
+     "desc": "Tostada con camarón y pescado 70 gr, pepino, jitomate, cebolla, limón, salsas de la casa, coronada en aguacate.",
+     "price": 84.6,
+     "img": "2116082544-1717095391782.jpg"
+    },
+    {
+     "name": "Tostada de Marlín",
+     "desc": "Tostada con marlín 160 gr, aguacate, jitomate, cebolla, lechuga y zanahoria.",
+     "price": 64.2,
+     "img": "2116082550-1717095295748.jpg"
+    },
+    {
+     "name": "Tostada Jashtash",
+     "desc": "Tostada con camarón 120 gr de preparación y nivel de picor a elegir, aguacate, pepino, cebolla, chiltepín, salsas de la casa.",
+     "price": 107.4,
+     "img": "2116082537-1717095295750.jpg"
+    },
+    {
+     "name": "Tostada Pulpfishon",
+     "desc": "Tostada con callo de pescado y pulpo en láminas 120 gr, aguacate, pepino, cebolla, salsas de la casa.",
+     "price": 107.4,
+     "img": "2116082538-1717095300234.jpg"
+    },
+    {
+     "name": "Tostada Fifí",
+     "desc": "Tostada con camarón curtido 120 gr, aguacate, pepino, cebolla, chiltepín, salsas de la casa y nivel de picor a elegir.",
+     "price": 107.4,
+     "img": "2116082540-1717095295748.jpg"
+    },
+    {
+     "name": "Tostada Tropicosa",
+     "desc": "Tostada con proteína 80 gr a elegir, pepino, fresa, salsas y aderezos de la casa.",
+     "price": 102.6,
+     "img": "2116082549-1717095312834.jpg"
+    },
+    {
+     "name": "Tostada Pulpismo",
+     "desc": "Tostada con pulpo en ceviche 75 gr, cebolla, pepino, limón y salsas de la casa.",
+     "price": 84.6,
+     "img": "2116082545-1717095300237.jpg"
+    },
+    {
+     "name": "Tostada Cevichera de Camarón",
+     "desc": "Tostada con camarón 65 gr de preparación y presentación a elegir, pepino, jitomate, cebolla, limón, salsas de la casa, coronada en aguacate.",
+     "price": 73.8,
+     "img": "2116082548-1717095314247.jpg"
+    },
+    {
+     "name": "Tostada Tuna",
+     "desc": "Tostada con atún en láminas 50 gr sobre cama de aguacate, pepino, cebolla y salsas negras caseras.",
+     "price": 66.6,
+     "img": "2116082546-1717095312834.jpg"
+    },
+    {
+     "name": "Tostada de Atún en Cubo",
+     "desc": "Tostada con atún en cubos 80 gr, aguacate, pepino, cebolla, salsas de la casa, aceite de olivo coronada en poro y aderezos caseros.",
+     "price": 73.8,
+     "img": "2116082543-1717095295745.jpg"
+    },
+    {
+     "name": "Tostada Tachirita",
+     "desc": "Tostada con camarón empanizado 60 gr, salsa spicy oriental, salsa siracha, miel, jugos cítricos caseros y mayonesa.",
+     "price": 68.4,
+     "img": "2116082542-1717095308926.jpg"
+    },
+    {
+     "name": "Tostada Argüendera",
+     "desc": "Tostada con camarón cocido, pulpo y pescado 160 gr, pepino, jitomate, cebolla, chiltepin y salsas de la casa.",
+     "price": 161.4,
+     "img": "2116082541-1717095312836.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Especialidades",
+   "products": [
+    {
+     "name": "Camarones Pecosos",
+     "desc": "Camarón 200 gr en salsa pecosa de la casa a base de chiles secos, mantequilla y láminas de ajo.",
+     "price": 166.2,
+     "img": "2116082581-1717095305454.jpg"
+    },
+    {
+     "name": "Camarones al Coco",
+     "desc": "Camarón empanizado 240 gr con coco rallado, salsa de mango, arroz, ensalada primavera con fruta de temporada y aguacate.",
+     "price": 208.8,
+     "img": "2116082584-1717095300244.jpg"
+    },
+    {
+     "name": "Salmon A La Parrilla",
+     "desc": "Salmón a la parrilla de 180 gramos, acompañado de rodajas de limón y perejil fresco.",
+     "price": 176.4,
+     "img": "c466128d-ca8f-4112-9993-4741fa4249a2.png"
+    },
+    {
+     "name": "Camarones Estilo Louisiana",
+     "desc": "Camarón entero 300 gr estilo louisiana con mantequilla, cajún, ajo, papa cambray y elote amarillo.",
+     "price": 251.4,
+     "img": "2116082583-1717095305454.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Entradas",
+   "products": [
+    {
+     "name": "Orden de Pulpo",
+     "desc": "Pulpo cocido 180 gr con pepino, cebolla, limón y salsas de la casa.",
+     "price": 226.2,
+     "img": "2116082577-1717095616881.jpg"
+    },
+    {
+     "name": "Orden de Camarón Cocido",
+     "desc": "Camarón cocido 180 gr con pepino, cebolla, limón y salsas de la casa.",
+     "price": 187.8,
+     "img": "2116082569-1717095308924.jpg"
+    },
+    {
+     "name": "Orden Tacos Dorados de Camarón X3",
+     "desc": "3 Tacos en tortilla de maíz frita con guisado de camarón 270 gr y coronada de aguacate.",
+     "price": 135.6,
+     "img": "2116082571-1717095295741.jpg"
+    },
+    {
+     "name": "Caldito Primo Hermano",
+     "desc": "Consomé de camarón 250 ml con camarón cocido 50 gr.",
+     "price": 58.2,
+     "img": "2116082572-1717095561769.jpg"
+    },
+    {
+     "name": "Orden de Guacamole",
+     "desc": "Guacamole fresco de 270 gr. con aguacate, jitomate y cilantro.",
+     "price": 84,
+     "img": "2116082573-1717095308925.jpg"
+    },
+    {
+     "name": "Orden Ceviche de Camarón",
+     "desc": "Ceviche de camarón 180 gr con aguacate, jitomate, cebolla, pepino, chiltepin y cilantro.",
+     "price": 187.8,
+     "img": "2116082574-1717095308925.jpg"
+    },
+    {
+     "name": "Orden Ceviche de Pescado",
+     "desc": "Ceviche de pescado 180 gr con aguacate, jitomate, cebolla, pepino, chiltepin y cilantro.",
+     "price": 153.6,
+     "img": "2116082570-1717095532979.jpg"
+    },
+    {
+     "name": "Orden Chicharrón de Pescado",
+     "desc": "Pescado frito 300 gr y guacamole 100 gr.",
+     "price": 187.8,
+     "img": "2116082575-1717095308925.jpg"
+    },
+    {
+     "name": "Caldito Primo",
+     "desc": "Consomé de camarón 250 ml.",
+     "price": 47.4,
+     "img": "2116082576-1717095579508.jpg"
+    },
+    {
+     "name": "Caldito Primo Grande",
+     "desc": "Caldo de camarón de 1 litro con hierbas frescas.",
+     "price": 102.6,
+     "img": "2116082578-1717095594650.jpg"
+    },
+    {
+     "name": "Orden de Tacos Gober X3",
+     "desc": "3 Tacos con guisado de camarón 270 gr estilo gobernador, queso y mantequilla.",
+     "price": 127.2,
+     "img": "2116082579-1717095630423.jpg"
+    },
+    {
+     "name": "Sashimi de Atún",
+     "desc": "Sashimi de atún en láminas 150 gr sobre cama de aguacate, chile serrano en rodajas, aceite de olivo y salsas negras caseras.",
+     "price": 153,
+     "img": "2116082580-1717095312835.jpg"
+    },
+    {
+     "name": "Molcajete Kraken",
+     "desc": "Molcajete Kraken con 400 g de pulpo, camarón crudo y cocido, y callito de pescado en salsas negras.",
+     "price": 217.8,
+     "img": "1a168566-c54e-422d-b304-c9a651aa2f21.png"
+    },
+    {
+     "name": "Orden De Callito De Pescado",
+     "desc": "Trozos de callito de pescado fresco en salmuera, 200 g.",
+     "price": 85.8,
+     "img": "6038b0fb-07d3-4fec-bf44-86f0a34648b0.png"
+    }
+   ]
+  },
+  {
+   "name": "Ordenes",
+   "products": [
+    {
+     "name": "Orden De Taco Dorado De Marlin",
+     "desc": "Tres tacos dorados de marlín capeado, acompañados de aderezo de chipotle y aguacate.",
+     "price": 91.2,
+     "img": "f22c1b5c-a014-4a44-b3cb-fd80fe348326.png"
+    },
+    {
+     "name": "Orden De Gober",
+     "desc": "Tacos Gobernador preparados con camarones salteados, tiras de chile poblano y queso asadero fundido.",
+     "price": 108,
+     "img": "012683ba-9763-4a38-9b15-528c3d5f6c00.jpeg"
+    }
+   ]
+  },
+  {
+   "name": "Tumbacrudas",
+   "products": [
+    {
+     "name": "Tumbacruda 3 Poderes",
+     "desc": "(150 Gr)",
+     "price": 144,
+     "img": "41ad759d-6f0f-48fc-9c83-5f6648be6eff.png"
+    }
+   ]
+  },
+  {
+   "name": "Aguachiles",
+   "products": [
+    {
+     "name": "Aguachile de Camarón",
+     "desc": "Aguachile con camarón 200 gr curtido en limón, salsa y nivel de picor a elegir.",
+     "price": 161.4,
+     "img": "2116082565-1717095300240.jpg"
+    },
+    {
+     "name": "Aguachile de Pulpo",
+     "desc": "Aguachile con pulpo 200 gr en salsa y nivel de picor a elegir.",
+     "price": 222,
+     "img": "2116082566-1717095300244.jpg"
+    },
+    {
+     "name": "Cochiloco",
+     "desc": "470 Gr",
+     "price": 157.8,
+     "img": "5b0ef048-fb21-420a-a02f-b9fd7c432fec.png"
+    },
+    {
+     "name": "Aguachile Mixto",
+     "desc": "Aguachile con camarón, pulpo 200 gr, preparación, salsa y nivel de picor a elegir.",
+     "price": 222,
+     "img": "2116082568-1717095300243.jpg"
+    },
+    {
+     "name": "Aguachile Cochiloco",
+     "desc": "Aguachile con camarón 100 gr, cueritos de cerdo 270 gr, salsas negras caseras y nivel de picor a elegir.",
+     "price": 204,
+     "img": "2116082567-1717095300240.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Quesadillas",
+   "products": [
+    {
+     "name": "Quesadilla con Camarón",
+     "desc": "Quesadilla en tortilla y proteína a la mantequilla 40 gr a elegir y queso fundido.",
+     "price": 47.4,
+     "img": "2116082535-1717095371694.jpg"
+    },
+    {
+     "name": "Quesadilla De Marlin",
+     "desc": "Quesadilla rellena de marlin, servida en tortilla de harina. Peso: 70 gramos.",
+     "price": 32.4,
+     "img": "e698d414-c408-4d3a-b02f-292b8619d724.png"
+    },
+    {
+     "name": "Quesadilla De Pulpo",
+     "desc": "Quesadilla rellena de pulpo y queso, servida en una tortilla dorada.",
+     "price": 48.6,
+     "img": "00ce55c9-a74b-47d5-9001-e9524304f85a.png"
+    }
+   ]
+  },
+  {
+   "name": "Niños",
+   "products": [
+    {
+     "name": "Palomitas de Camarón",
+     "desc": "Palomitas de camarón en cubos capeado 100 gr y papas a la francesa.",
+     "price": 102.6,
+     "img": "2116082593-1717095308925.jpg"
+    },
+    {
+     "name": "Dedos de Pescado",
+     "desc": "Dedos de pescado capeados de 100 gr acompañados de papas a la francesa.",
+     "price": 94.2,
+     "img": "2116082595-1717095305457.jpg"
+    },
+    {
+     "name": "Taco Dorado Camaron",
+     "desc": "Taco dorado relleno de camarones, servido en tortilla crujiente.",
+     "price": 39,
+     "img": "41406007-4612-429c-8ae7-d647d8e1c8cb.png"
+    },
+    {
+     "name": "Arre Burro Mixto",
+     "desc": "Papas a la francesa, 300 gr. Crujientes y doradas.",
+     "price": 116.4,
+     "img": "3b51184e-c1d9-4f60-a715-3085d58553d6.png"
+    },
+    {
+     "name": "Callito De Pescado",
+     "desc": "Callito de pescado de 200 g acompañado de pasta y rodaja de limón.",
+     "price": 121.8,
+     "img": "beb75da8-a9fe-4e75-8cee-233460101864.png"
+    },
+    {
+     "name": "Tumbacruda Camaron",
+     "desc": "(160 Gr)",
+     "price": 122.4,
+     "img": "90610201-6fea-4767-beb4-71ff0913368d.png"
+    },
+    {
+     "name": "Ya Tu Sabe Gigante",
+     "desc": "(200 Gr)",
+     "price": 209.4,
+     "img": "c3bf185c-2da2-4b69-be6c-505b351394a7.png"
+    },
+    {
+     "name": "Aguachilosa O Fifi Gigante",
+     "desc": "(200 Gr)",
+     "price": 179.4,
+     "img": "44fef715-c708-4e81-8d2d-5bf70058e4d1.png"
+    },
+    {
+     "name": "Marlin",
+     "desc": "(160 Gr) (Marlin Calientito Acompanado De Pepino, Cebolla, Lechuga, Aguacate Y Aderezo De Cilantro)",
+     "price": 48,
+     "img": "aa2cf5ee-9f7e-4ea0-88e1-646f3914f46a.png"
+    },
+    {
+     "name": "Papas a la Francesa",
+     "desc": "Papas fritas 180 gr con condimentos de la casa.",
+     "price": 42,
+     "img": "2116082594-1717095308926.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Aguachiles De Mango",
+   "products": [
+    {
+     "name": "Mixto",
+     "desc": "200 Gr",
+     "price": 169.8,
+     "img": "307164b4-9f17-4d41-a145-72092ca1832a.png"
+    },
+    {
+     "name": "Atun",
+     "desc": "200 Gr",
+     "price": 163.2,
+     "img": "4be5a68d-687b-4aac-99db-213286192bef.png"
+    },
+    {
+     "name": "Pulpo",
+     "desc": "200 gramos de pulpo cocido.",
+     "price": 169.8,
+     "img": "a05584e7-9941-4a57-a95e-1f1b22e955b9.png"
+    },
+    {
+     "name": "Camaron Cocido",
+     "desc": "Camarón cocido, 180 gramos. Ideal para acompañar con tus salsas favoritas.",
+     "price": 151.8,
+     "img": "54c8752a-05e6-43b1-a4a0-17a15035edf3.png"
+    },
+    {
+     "name": "Camaron Curtido",
+     "desc": "Camarones curtidos acompañados de cebolla y zanahoria en juliana. Porción de 200 gramos.",
+     "price": 240,
+     "img": "f7809c2d-2e0f-4deb-9826-ea27dc20150a.png"
+    }
+   ]
+  },
+  {
+   "name": "A Beber...",
+   "products": [
+    {
+     "name": "Agua Mineral Topochico Grande",
+     "desc": "(750ml)",
+     "price": 85,
+     "img": "7e3465eb-01ad-484a-bcbd-7ab4444b1bb1.png"
+    },
+    {
+     "name": "Electrolit",
+     "desc": "(Pregunte Por Sabores Disponibles)",
+     "price": 30.6,
+     "img": "885f5057-1e4d-4507-8840-839d601baceb.png"
+    },
+    {
+     "name": "Naranjada/Limonada Grande",
+     "desc": "(Mineral O Natural)",
+     "price": 200,
+     "img": "49924c1a-7c99-40a2-8649-24465b20e0c5.png"
+    }
+   ]
+  },
+  {
+   "name": "Burritos",
+   "products": [
+    {
+     "name": "Arre Burro",
+     "desc": "Burro con proteína 100 gr a elegir, queso, pimiento morrón, cebolla, champiñón, cama de arroz y aderezos caseros.",
+     "price": 136.8,
+     "img": "2116082558-1717095300244.jpg"
+    },
+    {
+     "name": "Arre Burro Marlin",
+     "desc": "Burrito relleno de marlín, ideal para los amantes del marisco. Peso: 160g.",
+     "price": 75.6,
+     "img": "e9a804a8-60e1-43d8-a66b-3d10a4095aa4.png"
+    }
+   ]
+  },
+  {
+   "name": "Tacos Y Mas...",
+   "products": [
+    {
+     "name": "Taquesito Camaron",
+     "desc": "Taquitos rellenos de camarón, cubiertos con salsa cremosa. Porción de 50 gramos.",
+     "price": 53.4,
+     "img": "4e16ea77-8727-44b9-88c6-a51aaa5e333d.png"
+    },
+    {
+     "name": "Quesatun",
+     "desc": "(50 Gr) (Costra De Queso En Tortilla De Harina O Maiz Con Atun)",
+     "price": 54.6,
+     "img": "ea42e130-b873-46a0-acb0-d1317518c42f.png"
+    },
+    {
+     "name": "Taco Dorado Marlin",
+     "desc": "Taco dorado relleno de marlín, servido en tortilla crujiente. Ideal para disfrutar como plato principal.",
+     "price": 33,
+     "img": "02dc621e-cd6f-4f54-9d68-b5d20a8e38d7.png"
+    },
+    {
+     "name": "Taco De Camaron Empanizado",
+     "desc": "Taco con camarones empanizados servidos en tortilla de maíz, acompañado de salsa. Ideal para los amantes del marisco.",
+     "price": 32.4,
+     "img": "3467f834-af08-4af0-8cba-595f9c7f83a7.png"
+    },
+    {
+     "name": "Taco De Marlin Blandito",
+     "desc": "Taco de marlin con 70 g de pescado, servido en tortilla de maíz, acompañado de pico de gallo y aderezo cremoso.",
+     "price": 32.4,
+     "img": "275f5fea-ee94-40b4-9194-6174025cc32d.png"
+    }
+   ]
+  },
+  {
+   "name": "Combos by Grupo Modelo",
+   "products": [
+    {
+     "name": "Combo Tostada Aguachilosa + Corona 355 ml",
+     "desc": "Tostada con camarón cocido 120 gr, aguacate, cebolla, pepino, salsa verde de aguachile y nivel de picor a elegir. + Cervezas",
+     "price": 142.8,
+     "img": "acg_a855d275-c7a1-42f1-a241-f71e285d4b92-1751488380203.png"
+    },
+    {
+     "name": "Combo Tostada Tachirita + Corona 355 ml",
+     "desc": "Tostada con camarón empanizado 60 gr, salsa spicy oriental, salsa siracha, miel, jugos cítricos caseros y mayonesa. + Cervezas",
+     "price": 103.8,
+     "img": "acg_5c09dc9e-6aea-4d1d-975e-25b179d7c1f5-1751488380474.png"
+    }
+   ]
+  },
+  {
+   "name": "Micheladas",
+   "products": [
+    {
+     "name": "Michelada Especial",
+     "desc": "Michelada Especial con camarón cocido y pala cruda. Refrescante y perfecta para acompañar tus momentos especiales.",
+     "price": 75,
+     "img": "40b1fa02-b4bb-44c8-955f-e85ed9511410.png"
+    },
+    {
+     "name": "Michelada Salsa Especial",
+     "desc": "Michelada con camarón cocido y salsa especial a elegir. Ideal para disfrutar con una bebida refrescante.",
+     "price": 120,
+     "img": "185b0e29-c47c-4faf-bcf9-52b0154be82a.png"
+    }
+   ]
+  },
+  {
+   "name": "Tradicionales",
+   "products": [
+    {
+     "name": "Pulpo al Gusto",
+     "desc": "Pulpo 180 gr con preparación a elegir.",
+     "price": 187.8,
+     "img": "2116082585-1717095312835.jpg"
+    },
+    {
+     "name": "Camarones al Gusto",
+     "desc": "Camarón 200 gr con preparación a elegir.",
+     "price": 166.2,
+     "img": "2116082586-1717095300245.jpg"
+    },
+    {
+     "name": "Pescado al Gusto",
+     "desc": "Pescado 240 gr con preparación a elegir.",
+     "price": 153.6,
+     "img": "2116082587-1717095308926.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Zarandeados",
+   "products": [
+    {
+     "name": "Pulpo Zarandeado",
+     "desc": "Pulpo 240 gr zarandeado a la parrilla con adobo de la casa.",
+     "price": 246.6,
+     "img": "2116082588-1717095312835.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Cócteles",
+   "products": [
+    {
+     "name": "Cóctel de Camarón",
+     "desc": "Cóctel frío de camarón 160 gr, aguacate, jitomate, cebolla, pepino, cátsup, limón y cilantro.",
+     "price": 153.6,
+     "img": "2116082561-1717095305457.jpg"
+    },
+    {
+     "name": "Cóctel Mixto",
+     "desc": "Cóctel frío de camarón 100 gr, pulpo 65 gr, caldo, aguacate, jitomate, cebolla, pepino, cátsup, limón y cilantro.",
+     "price": 179.4,
+     "img": "2116082562-1717095305457.jpg"
+    },
+    {
+     "name": "Cóctel 3 Poderes",
+     "desc": "Cóctel frío de camarón 100 gr, pulpo 65 gr, 2 almejas de chocolata, caldo, aguacate, jitomate, cebolla, pepino, cátsup, limón y cilantro.",
+     "price": 187.8,
+     "img": "2116082564-1717095499356.jpg"
+    },
+    {
+     "name": "Cóctel de Pulpo",
+     "desc": "Cóctel frío de pulpo 160 gr, caldo, aguacate, jitomate, cebolla, pepino, cátsup, limón y cilantro.",
+     "price": 179.4,
+     "img": "2116082563-1717095472871.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Cócteles Calientes",
+   "products": [
+    {
+     "name": "Tumba Cruda Mixto",
+     "desc": "Cóctel de camarón y pulpo 165 gr con consomé de camarón caliente, aguacate, toque de cilantro.",
+     "price": 204.6,
+     "img": "2116082590-1717095312835.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos Especialidades con Queso",
+   "products": [
+    {
+     "name": "Taquesito",
+     "desc": "Taco en tortilla de harina con proteína 50 gr a elegir, costra de queso, coronado en aguacate y aderezos caseros.",
+     "price": 67.8,
+     "img": "2116082592-1717095295742.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Tacos",
+   "products": [
+    {
+     "name": "Taquillo",
+     "desc": "Taco en tortilla de harina con proteína 60 gr a elegir y cama de guacamole.",
+     "price": 67.8,
+     "img": "2116082557-1717095295744.jpg"
+    },
+    {
+     "name": "Taco Güero",
+     "desc": "Taco en tortilla de harina con proteína 70 gr a elegir, cebolla y salsa mexicana casera.",
+     "price": 64.2,
+     "img": "2116082556-1717095295741.jpg"
+    },
+    {
+     "name": "Taco Dorado de Camarón",
+     "desc": "Taco en tortilla de maíz con proteína 90 gr a elegir, salsa de jitomate y coronado en aguacate.",
+     "price": 55.8,
+     "img": "2116082553-1717095412653.jpg"
+    },
+    {
+     "name": "Taco el Gober",
+     "desc": "Taco en tortilla de maíz con guisado de camarón 90 gr estilo gobernador, queso y mantequilla.",
+     "price": 46.2,
+     "img": "2116082554-1717095295741.jpg"
+    },
+    {
+     "name": "Taco Estilo la Paz",
+     "desc": "Taco en tortilla de maíz con proteína a elegir.",
+     "price": 36,
+     "img": "2116082555-1717095312836.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Hamburguesas",
+   "products": [
+    {
+     "name": "Hamburguesa de Camarón",
+     "desc": "Hamburguesa de camarón empanizado 100 gr, jitomate, lechuga, cebolla y queso amarillo, acompañado de papas a la francesa.",
+     "price": 136.8,
+     "img": "2116082551-1717095305458.jpg"
+    },
+    {
+     "name": "Hamburguesa de Pescado",
+     "desc": "Hamburguesa de pescado empanizado 120 gr, jitomate, lechuga, cebolla y queso amarillo, acompañado de papas a la francesa.",
+     "price": 127.8,
+     "img": "2116082552-1717095305458.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Acompañamientos",
+   "products": [
+    {
+     "name": "Aguacate",
+     "desc": "Porción de aguacate de 100 gramos.",
+     "price": 30,
+     "img": "2116082596-1717095659179.jpg"
+    },
+    {
+     "name": "Arroz",
+     "desc": "Porción de arroz cocido 100 gr.",
+     "price": 38.4,
+     "img": "2116082597-1717095686882.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Postres",
+   "products": [
+    {
+     "name": "Flan de Cajeta con Caramelo",
+     "desc": "Flan de cajeta con caramelo, 200 gr.",
+     "price": 46.2,
+     "img": "2116082559-1717095446241.jpg"
+    },
+    {
+     "name": "Pay de Limón",
+     "desc": "Pay de limón casero de 150 gr con base crujiente y relleno cremoso, decorado con rodajas de limón.",
+     "price": 67.8,
+     "img": "2116082560-1717095308926.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas de la Casa",
+   "products": [
+    {
+     "name": "Agua Fresca 500 ml",
+     "desc": "Agua fresca de sabor a elegir.",
+     "price": 54,
+     "img": "2116083657-1717095783720.jpg"
+    },
+    {
+     "name": "Limonada Frutos Rojos 500 ml",
+     "desc": "Limonada de fresa, frambuesa, mora y arándanos.",
+     "price": 107,
+     "img": "2116083660-1717095821423.jpg"
+    },
+    {
+     "name": "Michelado 250 ml",
+     "desc": "Michelada de clamato, sal, limón y salsas negras caseras.",
+     "price": 43,
+     "img": "2116083689-1717095842412.jpg"
+    },
+    {
+     "name": "Michelada 1 L",
+     "desc": "Michelada de cerveza a disponibilidad, sal, limón, salsas negras caseras y clamato.",
+     "price": 131,
+     "img": "2116083692-1717095305459.jpg"
+    }
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "products": [
+    {
+     "name": "Coca-Cola Original 350 ml",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "979914917-1622221982253.png"
+    },
+    {
+     "name": "Coca-Cola Zero 350 ml",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "a4d0dc0b-6d94-4a40-ae5d-4a9f84b46158.png"
+    },
+    {
+     "name": "Coca-Cola Light 350 ml",
+     "desc": "Refrescos",
+     "price": 56,
+     "img": "977894061-1622204204040.png"
+    },
+    {
+     "name": "Corona Mega 1.2 L",
+     "desc": "Cervezas",
+     "price": 150,
+     "img": "978474171-1599243799528.png"
+    },
+    {
+     "name": "Corona 355 ml",
+     "desc": "Cervezas",
+     "price": 59,
+     "img": "977057103-1595948040994.jpg"
+    }
+   ]
+  }
+ ]
+}

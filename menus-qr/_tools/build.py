@@ -51,6 +51,7 @@ RENAME_CATS = {
     "de la Cava": "De la cava", "Zarandeados Estilo mi Chaparra": "Zarandeados estilo Mi Chaparra",
     "Mexican, Latin American, New Mexican": "Especialidades", "Especialidades Delivery": "Paquetes para compartir",
     "Kilos delivery": "Por kilo", "Combos 5 PM": "Combos de la tarde",
+    "Fiilete": "Filetes", "Plato Fuertes Camarones": "Camarones al plato", "Pleburger (Hamburguesa Con Papas)": "Pleburgers",
 }
 # Menús donde Rappi tiene las descripciones revueltas entre platillos: se muestran solo nombre y precio.
 NO_DESC = {"el-acuario"}
@@ -128,8 +129,8 @@ def clean_menu(slug, raw):
         if cname.isupper():
             cname = cname.title().replace(" Y ", " y ").replace(" De ", " de ").replace(" / ", " / ")
         cname = cname[:1].upper() + cname[1:]
-        if cname.lower() in drop or c["name"].strip().lower() in drop:
-            continue
+        if cname.lower() in drop or c["name"].strip().lower() in drop or re.search(r"rappi|^promo prime$", cname, re.I):
+            continue  # promociones de la app, no son parte de la carta
         for p in c["products"]:
             name = tidy_name(p["name"])
             price = round(p.get("price") or 0)  # Rappi suma centavos de comisión ($69.30): se muestran pesos cerrados
@@ -560,6 +561,117 @@ def make_card(r, qr_img, dest):
     img.save(dest, optimize=True)
 
 
+# ---------- QR estilizado (para la propuesta) ----------
+def _ink(t):
+    """Color de los módulos: el más oscuro de la marca que contraste 4.5:1 sobre blanco (si no, casi negro)."""
+    pal = palette(t)
+    cands = [c for c in (pal["acc_btn"], t["fg"], t["bg"], t["card"], t["acc"]) if contrast(c, "#ffffff") >= 4.5]
+    return min(cands, key=luminance) if cands else "#151515"
+
+
+def make_styled_qr(r, url, size=1000):
+    """QR con módulos redondeados, ojos con el acento de la marca y la inicial al centro (corrección H: se lee igual)."""
+    from qrcode.image.styledpil import StyledPilImage
+    from qrcode.image.styles.moduledrawers.pil import RoundedModuleDrawer
+    from qrcode.image.styles.colormasks import SolidFillColorMask
+    t = r["tema"]
+    ink, eye = _ink(t), palette(t)["acc_btn"]
+    k = 0
+    while contrast(eye, "#ffffff") < 4.5 and k < 20:  # acento muy claro (amarillo): se oscurece conservando el tono
+        k += 1
+        eye = mix(palette(t)["acc_btn"], "#000000", k * 0.05)
+    q = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_H, box_size=20, border=3)
+    q.add_data(url)
+    q.make(fit=True)
+    img = q.make_image(image_factory=StyledPilImage, module_drawer=RoundedModuleDrawer(radius_ratio=1),
+                       color_mask=SolidFillColorMask(back_color=(255, 255, 255), front_color=_rgb(ink))).convert("RGB")
+    d = ImageDraw.Draw(img)
+    bs, bd, n = 20, 3, q.modules_count
+    # Ojos: se repintan como cuadros redondeados con el acento.
+    for ox, oy in ((0, 0), (n - 7, 0), (0, n - 7)):
+        x0, y0 = (bd + ox) * bs, (bd + oy) * bs
+        d.rectangle([x0, y0, x0 + 7 * bs - 1, y0 + 7 * bs - 1], fill="white")
+        d.rounded_rectangle([x0, y0, x0 + 7 * bs - 1, y0 + 7 * bs - 1], radius=int(bs * 2.2), fill=eye)
+        d.rounded_rectangle([x0 + bs, y0 + bs, x0 + 6 * bs - 1, y0 + 6 * bs - 1], radius=int(bs * 1.5), fill="white")
+        d.rounded_rectangle([x0 + 2 * bs, y0 + 2 * bs, x0 + 5 * bs - 1, y0 + 5 * bs - 1], radius=int(bs * 1.0), fill=eye)
+    # Centro: círculo con la inicial (ocupa ~18 % del ancho; la corrección H tolera hasta 30 %).
+    W = img.size[0]
+    c, rad = W / 2, W * 0.075
+    d.ellipse([c - rad - 10, c - rad - 10, c + rad + 10, c + rad + 10], fill="white")
+    d.ellipse([c - rad, c - rad, c + rad, c + rad], fill=eye)
+    letra = next((ch for ch in r["nombre"] if ch.isalnum()), "M").upper()
+    d.text((c, c + 2), letra, font=font(int(rad * 1.15), True), fill="white", anchor="mm")
+    return img.resize((size, size), Image.LANCZOS)
+
+
+def make_qr_card(r, qr, dest):
+    """Tarjeta 1200x630 (vista previa en WhatsApp del enlace del QR)."""
+    t = r["tema"]
+    dark = luminance(t["bg"]) < 0.2
+    bg, fg = (t["bg"], t["fg"]) if dark else ("#ffffff", "#1d1d1b")
+    acc = palette(t)["acc_ink"] if dark else palette({**t, "bg": "#ffffff", "card": "#ffffff"})["acc_ink"]
+    img = Image.new("RGB", (1200, 630), bg)
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([60, 55, 580, 575], radius=36, fill="white")
+    img.paste(qr.resize((480, 480), Image.LANCZOS), (80, 75))
+    x, y = 640, 120
+    d.text((x, y), "CÓDIGO QR DEL MENÚ", font=font(26), fill=acc)
+    y += 60
+    for line in wrap_text(d, r["nombre"], font(60, True), 500)[:3]:
+        d.text((x, y), line, font=font(60, True), fill=fg)
+        y += 72
+    y += 20
+    for line in ["Escanéalo con la cámara:", "carta con fotos y pedido", "por WhatsApp."]:
+        d.text((x, y), line, font=font(32), fill=fg)
+        y += 44
+    d.text((x, 540), f"Listo para sus mesas · {EMP.get('corto', 'LKM' + chr(39) + 'r')}", font=font(24), fill=acc)
+    img.save(dest, quality=88, optimize=True)
+
+
+def render_qr_page(r, url):
+    """Página del QR estilizado: se manda en la propuesta y su vista previa es la tarjeta con el QR."""
+    t, e = r["tema"], html.escape
+    pal = palette(t)
+    qurl = url + "qr/"
+    return f"""<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Código QR · {e(r['nombre'])}</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="{t['bg']}">
+<meta property="og:type" content="website"><meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Código QR del menú de {e(r['nombre'])}">
+<meta property="og:description" content="Su QR ya está listo para las mesas: se escanea con la cámara y abre su menú digital.">
+<meta property="og:url" content="{qurl}"><meta property="og:image" content="{qurl}og.jpg"><meta property="og:image:secure_url" content="{qurl}og.jpg">
+<meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{qurl}og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{font_link(t)}">
+<style>
+:root{{--bg:{t['bg']};--fg:{t['fg']};--card:{t['card']};--btn:{pal['acc_btn']};--on:{pal['on_acc']};--ink:{pal['acc_ink']}}}
+*{{box-sizing:border-box}} body{{margin:0;min-height:100dvh;background:var(--bg);color:var(--fg);font:400 16px/1.5 '{t['texto']}',system-ui,sans-serif;display:grid;place-items:center;padding:24px 16px}}
+main{{width:min(440px,100%);text-align:center}}
+.k{{font:700 12px/1 system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);margin:0}}
+h1{{font:{400 if t['titulo'] in SINGLE_WEIGHT else 700} clamp(30px,8vw,42px)/1.05 '{t['titulo']}',Georgia,serif;margin:10px 0 18px}}
+.qr{{background:#fff;border-radius:28px;padding:18px;box-shadow:0 18px 50px rgba(0,0,0,.18)}}
+.qr img{{width:100%;height:auto;display:block}}
+p{{margin:16px 0 0;opacity:.85}}
+.a{{display:grid;gap:10px;margin-top:20px}}
+.a a{{display:flex;align-items:center;justify-content:center;min-height:52px;border-radius:14px;font-weight:700;text-decoration:none}}
+.a .m{{background:var(--btn);color:var(--on)}} .a .s{{border:1px solid color-mix(in srgb,var(--fg) 20%,transparent);color:var(--fg)}}
+small{{display:block;margin-top:22px;opacity:.6}} small a{{color:inherit}}
+</style></head>
+<body><main>
+<p class="k">Código QR del menú</p>
+<h1>{e(r['nombre'])}</h1>
+<div class="qr"><img src="qr-estilo.png" alt="Código QR que abre el menú digital de {e(r['nombre'])}" width="1000" height="1000"></div>
+<p>Se imprime en mesas, mostrador y volantes. Con la cámara del celular abre su menú digital con fotos y pedido por WhatsApp.</p>
+<div class="a"><a class="m" href="{url}">Ver el menú</a><a class="s" href="qr-estilo.png" download="qr-{e(r['slug'])}.png">Descargar el QR</a><a class="s" href="../tarjeta-mesa.png" download>Tarjeta de mesa para imprimir</a></div>
+<small>Muestra preparada por <a href="{e(EMP.get('sitio', '#'))}">{e(EMP.get('nombre', "LKM'r"))}</a></small>
+</main></body></html>
+"""
+
+
 # ---------- mensaje de propuesta ----------
 def mensaje(r, url, cats):
     of = CFG["oferta"]
@@ -574,6 +686,7 @@ def mensaje(r, url, cats):
     # Mensaje de venta: solo se manda cuando el lugar ya contestó el contacto inicial (evita reportes por spam).
     return (f"¡Muchas gracias por contestar! Esta es la muestra que le preparé a {r['nombre']} "
             f"con su propia carta ({platillos}):\n{url}\n\n"
+            f"Y este es el código QR que ya le preparé para sus mesas:\n{url}qr/\n\n"
             f"{r['gancho']}\n\n"
             "El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. "
             f"{r['mejora']} Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.\n\n"
@@ -847,6 +960,11 @@ def main():
         qr_img = make_qr(url, "#111111")
         qr_img.save(out / "qr.png", optimize=True)
         make_card(r, qr_img, out / "tarjeta-mesa.png")
+        (out / "qr").mkdir(exist_ok=True)
+        sq = make_styled_qr(r, url)
+        sq.save(out / "qr" / "qr-estilo.png", optimize=True)
+        make_qr_card(r, sq, out / "qr" / "og.jpg")
+        (out / "qr" / "index.html").write_text(render_qr_page(r, url), encoding="utf-8")
         (TOOLS / "og").mkdir(exist_ok=True)
         og_src = TOOLS / "og" / f"{r['slug']}.html"
         og_src.write_text(og_html(r, cats, out), encoding="utf-8")

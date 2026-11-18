@@ -19,6 +19,7 @@ Cómo hacer un menú digital con QR **impecable, seguro, correcto y en orden**. 
 - [ ] Que no tenga ya un menú digital propio (si lo tiene, se descarta: no hay nada que venderle).
 - [ ] Que no sea cadena nacional (VIPS, Toks, Starbucks, franquicias): ahí decide un corporativo, no el dueño.
 - [ ] **Prioriza los que publican WhatsApp** (oficial o número propio del negocio): se les puede escribir sin llamar primero.
+- [ ] Si no tiene sitio web propio (los sitios automáticos de directorios no cuentan), marca `"sin_web": true`: el macro lo muestra como argumento de venta.
 - [ ] Anota la fuente de su carta (hoy, Rappi; ver paso 3).
 
 ## 2 · Verificar el contacto (lo más importante)
@@ -61,6 +62,7 @@ La plantilla compartida (`assets/menu.css` y `assets/menu.js`) ya cumple todo es
   - Ficha de cada platillo con foto grande.
   - **Recomendados de la casa**: carrusel arriba con los platillos de `estrella` (y, si faltan, los platos fuertes con foto).
   - Datos estructurados schema.org (`Restaurant` + `Menu`) para Google.
+  - **QR estilizado** con los colores de la marca y su inicial al centro (`qr/qr-estilo.png`) y su página `qr/`, cuya vista previa en WhatsApp es la tarjeta con el QR: va en el mensaje de venta.
   - Pedido por WhatsApp, que se conserva si recargan la página.
   - Bloque "Desarrollado por LKM'r".
   - Vista previa (`og.jpg`) para WhatsApp.
@@ -111,11 +113,11 @@ Antes de mandar la venta, quien vende palomea en el macro su revisión: lo abri�
 ## 7 · Verificación de datos (automática)
 
 - [ ] `node menus-qr/_tools/verifica.js`
-- [ ] Decodifica **cada QR y cada tarjeta de mesa** y comprueba que abren el menú de **su** restaurante.
+- [ ] Decodifica **cada QR, cada tarjeta de mesa y cada QR estilizado** y comprueba que abren el menú de **su** restaurante.
 - [ ] Revisa **cada mensaje de WhatsApp del panel**:
   - Que lleve el número de su restaurante, su nombre y ningún otro restaurante.
   - Que el contacto inicial no lleve enlace ni precio.
-  - Que la venta lleve un solo enlace (el suyo) y el precio de la oferta.
+  - Que la venta lleve solo enlaces suyos (su menú y su QR `…/qr/`) y el precio de la oferta.
 - [ ] **Debe terminar en "Todo correcto".**
 
 ## 8 · Revisión a ojo (5 minutos)
