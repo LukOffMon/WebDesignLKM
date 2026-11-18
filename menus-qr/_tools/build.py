@@ -988,18 +988,20 @@ h1{{font:500 78px/1 Fraunces,serif;margin-top:22px;letter-spacing:-.02em}} h1 em
     jobs_file.write_text(json.dumps(og_jobs), encoding="utf-8")
     r_og = subprocess.run(["node", str(TOOLS / "og.js"), str(jobs_file)], capture_output=True, text=True)
     print("vistas previas:", "ok" if r_og.returncode == 0 else r_og.stderr[-500:])
-    (ROOT / "index.html").write_text(render_panel(rows), encoding="utf-8")
+    # Los ya negociados (dijeron que no o ya se cerraron) salen del panel y de PROSPECTOS.md; su menú sigue en línea.
+    activos = [x for x in rows if not x[0].get("negociado")]
+    (ROOT / "index.html").write_text(render_panel(activos), encoding="utf-8")
     update_portfolio(rows)
     md = ["# Prospectos · Menú digital y QR", "",
           f"Menús tomados de Rappi el {CFG['fecha_menu']}. Oferta: desde {money(CFG['oferta']['instalacion'])} de instalación + "
           f"{money(CFG['oferta']['mensualidad'])} al mes.", "",
           "| # | Restaurante | Ciudad | Teléfono | Contacto | Menú | QR |", "|---|---|---|---|---|---|---|"]
-    for i, (r, url, cats, msg) in enumerate(rows, 1):
+    for i, (r, url, cats, msg) in enumerate(activos, 1):
         wa = r.get("whatsapp") or r["tel"]
         md.append(f"| {i} | {r['nombre']} | {r['ciudad']} | [{fmt_tel(wa)}](https://wa.me/52{wa}) | {CONTACTO[r.get('contacto', 'solo_telefono')][0]} | "
                   f"[{r['slug']}/]({url}) | [qr.png]({url}qr.png) |")
     md += ["", "## Mensajes", ""]
-    for i, (r, url, cats, msg) in enumerate(rows, 1):
+    for i, (r, url, cats, msg) in enumerate(activos, 1):
         md += [f"### {i}. {r['nombre']} · {r['ciudad']}", "",
                f"Teléfono: {fmt_tel(r.get('whatsapp') or r['tel'])}" + (f" (otro: {fmt_tel(r['tel_alt'])})" if r.get('tel_alt') else "") + f". {r['confianza']}", "",
                "Contacto inicial (sin enlace):", "", "```", inicial(r), "```", "",

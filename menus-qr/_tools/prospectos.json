@@ -632,7 +632,8 @@
       "estrella": "chilaquiles, enchiladas y sus platos fuertes",
       "contacto": "whatsapp_oficial",
       "region": "nacional",
-      "guion": "desayunos"
+      "guion": "desayunos",
+      "negociado": true
     },
     {
       "slug": "rincon-del-bife",
@@ -1648,7 +1649,8 @@
       "mejora": "Pongo las carnitas por kilo y paquetes para fiestas al frente.",
       "estrella": "carnitas por kilo, carnes asadas y burritos",
       "region": "ags",
-      "guion": "taqueria"
+      "guion": "taqueria",
+      "negociado": true
     },
     {
       "slug": "casa-del-encino",
@@ -1804,7 +1806,8 @@
       "mejora": "Puedo agregar su comida del día y pedidos para oficinas.",
       "estrella": "desayunos, molletes y comida del día",
       "region": "ags",
-      "guion": "cocina_tradicional"
+      "guion": "cocina_tradicional",
+      "negociado": true
     },
     {
       "slug": "biznaga-brunch",
@@ -2012,7 +2015,8 @@
       "mejora": "Puedo agregar su café y bebidas frías.",
       "estrella": "desayunos, baguettes y ensaladas",
       "region": "ags",
-      "guion": "desayunos"
+      "guion": "desayunos",
+      "negociado": true
     },
     {
       "slug": "bellagamba",
@@ -2090,7 +2094,8 @@
       "mejora": "Pongo aguachiles y camarones al frente.",
       "estrella": "aguachiles, camarones y filetes",
       "region": "ags",
-      "guion": "mariscos"
+      "guion": "mariscos",
+      "negociado": true
     },
     {
       "slug": "el-mazatlan",
@@ -2142,7 +2147,8 @@
       "mejora": "Pongo sus combos y kecas al frente.",
       "estrella": "tacos Baja, kecas y especialidades",
       "region": "ags",
-      "guion": "mariscos"
+      "guion": "mariscos",
+      "negociado": true
     },
     {
       "slug": "don-cangrejo",
@@ -2168,7 +2174,8 @@
       "mejora": "Lo dejo con sus dos sucursales en un mismo enlace.",
       "estrella": "aguachiles para dos, zarandeado y cócteles",
       "region": "ags",
-      "guion": "mariscos"
+      "guion": "mariscos",
+      "negociado": true
     },
     {
       "slug": "bendito-remedio",
@@ -2298,7 +2305,8 @@
       "mejora": "Puedo agregar sus paquetes de desayuno.",
       "estrella": "enchiladas, molletes y desayunos",
       "region": "ags",
-      "guion": "desayunos"
+      "guion": "desayunos",
+      "negociado": true
     },
     {
       "slug": "la-favorita",
@@ -2376,7 +2384,8 @@
       "mejora": "Lo dejo con sus sucursales y un botón para reservar.",
       "estrella": "cortes Angus, costillas y sopas",
       "region": "ags",
-      "guion": "restaurante"
+      "guion": "restaurante",
+      "negociado": true
     },
     {
       "slug": "ragazzi",
@@ -2506,7 +2515,8 @@
       "mejora": "Pongo sus paquetes para compartir al frente.",
       "estrella": "tacos de lechón, tortas y paquetes",
       "region": "ags",
-      "guion": "taqueria"
+      "guion": "taqueria",
+      "negociado": true
     },
     {
       "slug": "jeque-juarez",
@@ -2642,7 +2652,8 @@
       "contacto": "numero_propio",
       "region": "ags",
       "guion": "taqueria",
-      "alta": "2026-11-18"
+      "alta": "2026-11-18",
+      "negociado": true
     },
     {
       "slug": "narros-burger",
@@ -2782,7 +2793,8 @@
       "contacto": "directorio",
       "region": "ags",
       "guion": "desayunos",
-      "alta": "2026-11-18"
+      "alta": "2026-11-18",
+      "negociado": true
     },
     {
       "slug": "los-andariegos",

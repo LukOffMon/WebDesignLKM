@@ -27,129 +27,117 @@ Menús tomados de Rappi el 17 nov. 2026. Oferta: desde $650 de instalación + $2
 | 21 | Cenaduría La Guasaveña | Mexicali, B.C. | [686 251 2446](https://wa.me/526862512446) | Solo teléfono | [la-guasavena/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-guasavena/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-guasavena/qr.png) |
 | 22 | Restaurante Bar El Tapatío | Guanajuato, Gto. | [473 732 3291](https://wa.me/524737323291) | Solo teléfono | [el-tapatio/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-tapatio/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-tapatio/qr.png) |
 | 23 | Marisquería Las Brisas | Pachuca, Hgo. | [771 266 5769](https://wa.me/527712665769) | Solo teléfono | [las-brisas/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-brisas/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/las-brisas/qr.png) |
-| 24 | Clavo y Canela | Irapuato, Gto. | [462 135 6050](https://wa.me/524621356050) | WhatsApp oficial | [clavo-y-canela/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/clavo-y-canela/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/clavo-y-canela/qr.png) |
-| 25 | Rincón del Bife | Cuernavaca, Mor. | [777 316 4428](https://wa.me/527773164428) | Solo teléfono | [rincon-del-bife/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-del-bife/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-del-bife/qr.png) |
-| 26 | Restaurante Samael | La Paz, B.C.S. | [612 125 7775](https://wa.me/526121257775) | Número propio | [samael/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/samael/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/samael/qr.png) |
-| 27 | Mariscos 7 Mares | Hermosillo, Son. | [662 260 8849](https://wa.me/526622608849) | Solo teléfono | [siete-mares/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/siete-mares/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/siete-mares/qr.png) |
-| 28 | Cenaduría Sabor a Mí | Mazatlán, Sin. | [669 176 8909](https://wa.me/526691768909) | Solo teléfono | [sabor-a-mi/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-a-mi/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-a-mi/qr.png) |
-| 29 | La Fionela | Saltillo, Coah. | [844 256 3779](https://wa.me/528442563779) | Número propio | [la-fionela/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-fionela/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-fionela/qr.png) |
-| 30 | Café con Leche | Zacatecas, Zac. | [492 249 6094](https://wa.me/524922496094) | Solo teléfono | [cafe-con-leche/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-con-leche/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-con-leche/qr.png) |
-| 31 | La Sazón de la Abuela | Torreón, Coah. | [871 296 1655](https://wa.me/528712961655) | Solo teléfono | [sazon-de-la-abuela/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sazon-de-la-abuela/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sazon-de-la-abuela/qr.png) |
-| 32 | Taquería San Juan | Culiacán, Sin. | [667 715 5446](https://wa.me/526677155446) | Número propio | [taqueria-san-juan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-san-juan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-san-juan/qr.png) |
-| 33 | Okane Sushi | Durango, Dgo. | [618 195 9412](https://wa.me/526181959412) | Directorio | [okane-sushi/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/okane-sushi/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/okane-sushi/qr.png) |
-| 34 | Taquería Mixe | Mérida, Yuc. | [999 910 4196](https://wa.me/529999104196) | WhatsApp oficial | [taqueria-mixe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-mixe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-mixe/qr.png) |
-| 35 | Fokus | Veracruz, Ver. | [229 462 1655](https://wa.me/522294621655) | Número propio | [fokus/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/qr.png) |
-| 36 | Restaurante Panamá | Culiacán, Sin. | [667 160 4069](https://wa.me/526671604069) | WhatsApp oficial | [panama-culiacan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/panama-culiacan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/panama-culiacan/qr.png) |
-| 37 | Comedor Lucy | San Luis Potosí, S.L.P. | [444 584 8009](https://wa.me/524445848009) | Número propio | [comedor-lucy/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/comedor-lucy/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/comedor-lucy/qr.png) |
-| 38 | Taquería El Brasero | San Miguel de Allende, Gto. | [415 108 2032](https://wa.me/524151082032) | Número propio | [el-brasero/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-brasero/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-brasero/qr.png) |
-| 39 | El Morelense | Cuernavaca, Mor. | [777 331 1014](https://wa.me/527773311014) | Número propio | [el-morelense/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-morelense/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-morelense/qr.png) |
-| 40 | Chano y Chon | Campeche, Camp. | [981 206 9123](https://wa.me/529812069123) | WhatsApp oficial | [chano-y-chon/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/chano-y-chon/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/chano-y-chon/qr.png) |
-| 41 | Taquería La Argentina | Cuernavaca, Mor. | [777 435 1908](https://wa.me/527774351908) | Número propio | [la-argentina/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-argentina/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-argentina/qr.png) |
-| 42 | El Rincón Huasteco | Pachuca, Hgo. | [771 143 6141](https://wa.me/527711436141) | Directorio | [rincon-huasteco/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-huasteco/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-huasteco/qr.png) |
-| 43 | Lonches Crujys | Guadalajara, Jal. | [33 3642 2984](https://wa.me/523336422984) | Directorio | [crujys/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/crujys/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/crujys/qr.png) |
-| 44 | Hakuna Bolas de Arroz | Chihuahua, Chih. | [614 227 9280](https://wa.me/526142279280) | Número propio | [hakuna/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/hakuna/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/hakuna/qr.png) |
-| 45 | Taquería Los Sobrinos | Mazatlán, Sin. | [669 431 7164](https://wa.me/526694317164) | WhatsApp oficial | [los-sobrinos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-sobrinos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-sobrinos/qr.png) |
-| 46 | Rincón Guerrerense | Querétaro, Qro. | [442 403 8575](https://wa.me/524424038575) | Número propio | [rincon-guerrerense/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-guerrerense/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-guerrerense/qr.png) |
-| 47 | Hijas de la Enchilada | Cuernavaca, Mor. | [777 202 0790](https://wa.me/527772020790) | Número propio | [hijas-de-la-enchilada/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/hijas-de-la-enchilada/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/hijas-de-la-enchilada/qr.png) |
-| 48 | Lonchería Lisboa | Guadalajara, Jal. | [33 3812 9079](https://wa.me/523338129079) | Número propio | [lisboa/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/lisboa/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/lisboa/qr.png) |
-| 49 | Tus Chilaquiles | Guadalajara, Jal. | [33 1989 7483](https://wa.me/523319897483) | Directorio | [tus-chilaquiles/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tus-chilaquiles/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tus-chilaquiles/qr.png) |
-| 50 | Taquería Los Tarascos | Acapulco, Gro. | [744 481 7524](https://wa.me/527444817524) | WhatsApp oficial | [los-tarascos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-tarascos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-tarascos/qr.png) |
-| 51 | Pachita Restaurante | León, Gto. | [477 830 9186](https://wa.me/524778309186) | Directorio | [pachita/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pachita/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pachita/qr.png) |
-| 52 | Cocina Tres16 | Guadalajara, Jal. | [33 1869 7378](https://wa.me/523318697378) | Número propio | [cocina-tres16/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-tres16/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-tres16/qr.png) |
-| 53 | Restaurante Izy | Metepec, Edo. Méx. | [722 271 4324](https://wa.me/527222714324) | Directorio | [izy/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/izy/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/izy/qr.png) |
-| 54 | Bacán Macut | Xalapa, Ver. | [228 237 5227](https://wa.me/522282375227) | Número propio | [bacan-macut/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bacan-macut/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bacan-macut/qr.png) |
-| 55 | El Danubio Lagunero | Torreón, Coah. | [871 747 8186](https://wa.me/528717478186) | Directorio | [danubio-lagunero/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/danubio-lagunero/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/danubio-lagunero/qr.png) |
-| 56 | Tomate Taquería | Guadalajara, Jal. | [33 3825 3331](https://wa.me/523338253331) | Directorio | [tomate-taqueria/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tomate-taqueria/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tomate-taqueria/qr.png) |
-| 57 | Santo Pikete | Villahermosa, Tab. | [993 354 9826](https://wa.me/529933549826) | Directorio | [santo-pikete/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/santo-pikete/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/santo-pikete/qr.png) |
-| 58 | Tres Cielos Mexican Bistro | Aguascalientes, Ags. | [449 200 7126](https://wa.me/524492007126) | Número propio | [tres-cielos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tres-cielos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tres-cielos/qr.png) |
-| 59 | El Yuca | Aguascalientes, Ags. | [449 916 5015](https://wa.me/524499165015) | Número propio | [el-yuca/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-yuca/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-yuca/qr.png) |
-| 60 | La Quincena | Aguascalientes, Ags. | [449 537 6787](https://wa.me/524495376787) | Solo teléfono | [la-quincena/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-quincena/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-quincena/qr.png) |
-| 61 | La Cabaña de Papá | Aguascalientes, Ags. | [449 115 4579](https://wa.me/524491154579) | Solo teléfono | [la-cabana-de-papa/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-de-papa/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-de-papa/qr.png) |
-| 62 | Menudo La Granja | Aguascalientes, Ags. | [449 441 2327](https://wa.me/524494412327) | Número propio | [menudo-la-granja/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/menudo-la-granja/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/menudo-la-granja/qr.png) |
-| 63 | Carnitas Mora | Aguascalientes, Ags. | [449 975 0551](https://wa.me/524499750551) | WhatsApp oficial | [carnitas-mora/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-mora/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-mora/qr.png) |
-| 64 | Casa del Encino | Aguascalientes, Ags. | [449 488 2639](https://wa.me/524494882639) | Solo teléfono | [casa-del-encino/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-encino/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-encino/qr.png) |
-| 65 | Apapacho | Aguascalientes, Ags. | [55 6629 4454](https://wa.me/525566294454) | Número propio | [apapacho/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/apapacho/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/apapacho/qr.png) |
-| 66 | Birria Tatemada El Laberinto | Aguascalientes, Ags. | [449 267 4278](https://wa.me/524492674278) | Solo teléfono | [birria-el-laberinto/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birria-el-laberinto/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birria-el-laberinto/qr.png) |
-| 67 | Tacobirria del Morelos | Aguascalientes, Ags. | [449 290 4014](https://wa.me/524492904014) | Solo teléfono | [tacobirria-del-morelos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacobirria-del-morelos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacobirria-del-morelos/qr.png) |
-| 68 | Sabor Azteca | Aguascalientes, Ags. | [449 917 9444](https://wa.me/524499179444) | Solo teléfono | [sabor-azteca/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-azteca/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-azteca/qr.png) |
-| 69 | La Bella Lola | Aguascalientes, Ags. | [449 230 7866](https://wa.me/524492307866) | Número propio | [la-bella-lola/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-bella-lola/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-bella-lola/qr.png) |
-| 70 | Biznaga Brunch | Aguascalientes, Ags. | [449 398 6049](https://wa.me/524493986049) | Directorio | [biznaga-brunch/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/biznaga-brunch/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/biznaga-brunch/qr.png) |
-| 71 | Schinus | Aguascalientes, Ags. | [449 502 2049](https://wa.me/524495022049) | Número propio | [schinus/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/schinus/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/schinus/qr.png) |
-| 72 | Miravelas | Aguascalientes, Ags. | [449 377 7616](https://wa.me/524493777616) | Directorio | [miravelas/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/qr.png) |
-| 73 | El Rincón Mestizo | Aguascalientes, Ags. | [449 210 8165](https://wa.me/524492108165) | Directorio | [el-rincon-mestizo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-rincon-mestizo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-rincon-mestizo/qr.png) |
-| 74 | Birriería Don Pato | Aguascalientes, Ags. | [449 915 3518](https://wa.me/524499153518) | Número propio | [don-pato/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-pato/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-pato/qr.png) |
-| 75 | El Techo del Sabor | Aguascalientes, Ags. | [449 261 1187](https://wa.me/524492611187) | Solo teléfono | [el-techo-del-sabor/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-techo-del-sabor/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-techo-del-sabor/qr.png) |
-| 76 | El Borrego de Oro | Aguascalientes, Ags. | [449 918 2857](https://wa.me/524499182857) | Solo teléfono | [borrego-de-oro/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/borrego-de-oro/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/borrego-de-oro/qr.png) |
-| 77 | La Casa del No Sé Qué | Aguascalientes, Ags. | [449 688 8979](https://wa.me/524496888979) | Número propio | [casa-del-no-se-que/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-no-se-que/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-no-se-que/qr.png) |
-| 78 | Bellagamba | Aguascalientes, Ags. | [449 323 0714](https://wa.me/524493230714) | Número propio | [bellagamba/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bellagamba/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bellagamba/qr.png) |
-| 79 | Patio Santo Domingo | Aguascalientes, Ags. | [449 262 4734](https://wa.me/524492624734) | Número propio | [patio-santo-domingo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/patio-santo-domingo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/patio-santo-domingo/qr.png) |
-| 80 | El Pescador Sinaloense | Aguascalientes, Ags. | [449 456 3703](https://wa.me/524494563703) | Número propio | [pescador-sinaloense/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pescador-sinaloense/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pescador-sinaloense/qr.png) |
-| 81 | El Mazatlán | Aguascalientes, Ags. | [449 153 1223](https://wa.me/524491531223) | Número propio | [el-mazatlan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mazatlan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mazatlan/qr.png) |
-| 82 | Holandés Fish Taco | Aguascalientes, Ags. | [449 264 6676](https://wa.me/524492646676) | Directorio | [holandes-fish-taco/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/holandes-fish-taco/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/holandes-fish-taco/qr.png) |
-| 83 | Don Cangrejo | Aguascalientes, Ags. | [449 996 3130](https://wa.me/524499963130) | Número propio | [don-cangrejo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-cangrejo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-cangrejo/qr.png) |
-| 84 | Bendito Remedio | Aguascalientes, Ags. | [449 913 0052](https://wa.me/524499130052) | Número propio | [bendito-remedio/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bendito-remedio/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bendito-remedio/qr.png) |
-| 85 | Cinco de Mayo Mesón | Aguascalientes, Ags. | [449 903 0138](https://wa.me/524499030138) | Solo teléfono | [cinco-de-mayo-meson/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cinco-de-mayo-meson/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cinco-de-mayo-meson/qr.png) |
-| 86 | Amalfi VI | Aguascalientes, Ags. | [449 688 3888](https://wa.me/524496883888) | Directorio | [amalfi-vi/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/amalfi-vi/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/amalfi-vi/qr.png) |
-| 87 | Xilaquil | Aguascalientes, Ags. | [449 806 8217](https://wa.me/524498068217) | Solo teléfono | [xilaquil/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/xilaquil/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/xilaquil/qr.png) |
-| 88 | Restaurante De la Tierra | Aguascalientes, Ags. | [449 770 9730](https://wa.me/524497709730) | Número propio | [de-la-tierra/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/de-la-tierra/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/de-la-tierra/qr.png) |
-| 89 | La Favorita | Aguascalientes, Ags. | [449 412 4827](https://wa.me/524494124827) | WhatsApp oficial | [la-favorita/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-favorita/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-favorita/qr.png) |
-| 90 | SAS | Aguascalientes, Ags. | [449 391 0065](https://wa.me/524493910065) | Solo teléfono | [sas/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sas/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sas/qr.png) |
-| 91 | Las Costillas de Sancho | Aguascalientes, Ags. | [449 912 9212](https://wa.me/524499129212) | Directorio | [costillas-de-sancho/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/costillas-de-sancho/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/costillas-de-sancho/qr.png) |
-| 92 | Ragazzi Bistro | Aguascalientes, Ags. | [449 996 5555](https://wa.me/524499965555) | Solo teléfono | [ragazzi/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/ragazzi/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/ragazzi/qr.png) |
-| 93 | Tacos Felox | Aguascalientes, Ags. | [449 216 7644](https://wa.me/524492167644) | Número propio | [tacos-felox/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-felox/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-felox/qr.png) |
-| 94 | Taquería El Jacalito | Aguascalientes, Ags. | [449 688 1652](https://wa.me/524496881652) | Solo teléfono | [el-jacalito/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-jacalito/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-jacalito/qr.png) |
-| 95 | La Paleo Kitchen | Aguascalientes, Ags. | [449 962 0465](https://wa.me/524499620465) | Solo teléfono | [paleo-kitchen/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/paleo-kitchen/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/paleo-kitchen/qr.png) |
-| 96 | Lechón Mi Güerita | Aguascalientes, Ags. | [449 578 9596](https://wa.me/524495789596) | Directorio | [lechon-mi-guerita/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/lechon-mi-guerita/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/lechon-mi-guerita/qr.png) |
-| 97 | Taquería Jeque Juárez | Aguascalientes, Ags. | [449 427 0153](https://wa.me/524494270153) | Número propio | [jeque-juarez/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jeque-juarez/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jeque-juarez/qr.png) |
-| 98 | Casa Tulipán | Aguascalientes, Ags. | [449 181 9130](https://wa.me/524491819130) | Número propio | [casa-tulipan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-tulipan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-tulipan/qr.png) |
-| 99 | Me Lo Dijo Adela | Aguascalientes, Ags. | [449 537 6787](https://wa.me/524495376787) | Número propio | [me-lo-dijo-adela/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/me-lo-dijo-adela/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/me-lo-dijo-adela/qr.png) |
-| 100 | El Cafetal de Concha | Aguascalientes, Ags. | [449 367 1887](https://wa.me/524493671887) | Número propio | [el-cafetal-de-concha/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-cafetal-de-concha/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-cafetal-de-concha/qr.png) |
-| 101 | Lonchería El Mono | Aguascalientes, Ags. | [449 735 0251](https://wa.me/524497350251) | Número propio | [loncheria-el-mono/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/loncheria-el-mono/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/loncheria-el-mono/qr.png) |
-| 102 | Narros Burger | Aguascalientes, Ags. | [449 352 9241](https://wa.me/524493529241) | Número propio | [narros-burger/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/narros-burger/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/narros-burger/qr.png) |
-| 103 | Kaffihus | Aguascalientes, Ags. | [449 576 0144](https://wa.me/524495760144) | Directorio | [kaffihus/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/kaffihus/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/kaffihus/qr.png) |
-| 104 | Pollo Pepe | Aguascalientes, Ags. | [449 153 1919](https://wa.me/524491531919) | Directorio | [pollo-pepe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pollo-pepe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pollo-pepe/qr.png) |
-| 105 | Tacos Guadalupe | Aguascalientes, Ags. | [449 311 3784](https://wa.me/524493113784) | Directorio | [tacos-guadalupe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-guadalupe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-guadalupe/qr.png) |
-| 106 | Delifresh | Aguascalientes, Ags. | [449 146 5656](https://wa.me/524491465656) | Directorio | [delifresh/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/delifresh/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/delifresh/qr.png) |
-| 107 | Los Andariegos | Aguascalientes, Ags. | [449 414 1321](https://wa.me/524494141321) | Directorio | [los-andariegos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-andariegos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-andariegos/qr.png) |
-| 108 | Amor de mis Sabores | Aguascalientes, Ags. | [449 829 6139](https://wa.me/524498296139) | Número propio | [amor-de-mis-sabores/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/amor-de-mis-sabores/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/amor-de-mis-sabores/qr.png) |
-| 109 | AC Wing's | Aguascalientes, Ags. | [449 897 8982](https://wa.me/524498978982) | Número propio | [ac-wings/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/ac-wings/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/ac-wings/qr.png) |
-| 110 | Rosticería San Francisco | Aguascalientes, Ags. | [449 918 2835](https://wa.me/524499182835) | Directorio | [rosticeria-san-francisco/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rosticeria-san-francisco/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rosticeria-san-francisco/qr.png) |
-| 111 | Puerta Grande | Aguascalientes, Ags. | [449 153 3618](https://wa.me/524491533618) | Directorio | [puerta-grande/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/puerta-grande/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/puerta-grande/qr.png) |
-| 112 | Jessy Jaq's Pizza | Aguascalientes, Ags. | [449 439 0780](https://wa.me/524494390780) | Directorio | [jessy-jaqs-pizza/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jessy-jaqs-pizza/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jessy-jaqs-pizza/qr.png) |
-| 113 | Tacos 626 | Aguascalientes, Ags. | [449 347 9747](https://wa.me/524493479747) | Directorio | [tacos-626/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-626/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-626/qr.png) |
-| 114 | Birriería El Mezquite | Aguascalientes, Ags. | [449 345 1331](https://wa.me/524493451331) | Número propio | [birrieria-el-mezquite/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-el-mezquite/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-el-mezquite/qr.png) |
-| 115 | The Boiling Pot | Aguascalientes, Ags. | [449 361 6860](https://wa.me/524493616860) | Directorio | [the-boiling-pot/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/the-boiling-pot/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/the-boiling-pot/qr.png) |
-| 116 | Tikin Xic | Aguascalientes, Ags. | [449 347 5594](https://wa.me/524493475594) | Directorio | [tikin-xic/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tikin-xic/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tikin-xic/qr.png) |
-| 117 | Los Abolengos | Aguascalientes, Ags. | [449 805 0420](https://wa.me/524498050420) | WhatsApp oficial | [los-abolengos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-abolengos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-abolengos/qr.png) |
-| 118 | Café del Ángel | Aguascalientes, Ags. | [449 155 7873](https://wa.me/524491557873) | Directorio | [cafe-del-angel/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-del-angel/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-del-angel/qr.png) |
-| 119 | Cardona's W Grill | Aguascalientes, Ags. | [449 658 5419](https://wa.me/524496585419) | Directorio | [cardonas-grill/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cardonas-grill/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cardonas-grill/qr.png) |
-| 120 | Alitas El Alebrije | Aguascalientes, Ags. | [449 106 3668](https://wa.me/524491063668) | Directorio | [alitas-el-alebrije/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/qr.png) |
-| 121 | Birriería Díaz de Calvillo | Aguascalientes, Ags. | [449 146 1893](https://wa.me/524491461893) | Número propio | [birrieria-diaz/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/qr.png) |
-| 122 | Carnitas Romo | Aguascalientes, Ags. | [449 950 8671](https://wa.me/524499508671) | Número propio | [carnitas-romo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/qr.png) |
-| 123 | Mariscos Villa Marina | León, Gto. | [477 313 7061](https://wa.me/524773137061) | Número propio | [mariscos-villa-marina/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-villa-marina/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-villa-marina/qr.png) |
-| 124 | Taquería La Plancha | Pachuca, Hgo. | [771 205 7497](https://wa.me/527712057497) | Número propio | [taqueria-la-plancha/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-la-plancha/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-la-plancha/qr.png) |
-| 125 | La Cabaña Restaurante | Tuxtla Gutiérrez, Chis. | [961 375 5555](https://wa.me/529613755555) | Número propio | [la-cabana-tuxtla/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-tuxtla/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-tuxtla/qr.png) |
-| 126 | La Esquinita Cocina Mexicana | Tijuana, B.C. | [664 111 6804](https://wa.me/526641116804) | Número propio | [la-esquinita-tijuana/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-esquinita-tijuana/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-esquinita-tijuana/qr.png) |
-| 127 | La Mina del Abuelo | Tepic, Nay. | [311 740 7467](https://wa.me/523117407467) | Directorio | [la-mina-del-abuelo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-mina-del-abuelo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-mina-del-abuelo/qr.png) |
-| 128 | Patmos Cocina de Mar | Morelia, Mich. | [443 788 5040](https://wa.me/524437885040) | WhatsApp oficial | [patmos-morelia/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/patmos-morelia/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/patmos-morelia/qr.png) |
-| 129 | Los Faroles | Villahermosa, Tab. | [993 312 9164](https://wa.me/529933129164) | Número propio | [los-faroles-villahermosa/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-faroles-villahermosa/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-faroles-villahermosa/qr.png) |
-| 130 | Taco Sireno | Oaxaca de Juárez, Oax. | [951 224 0391](https://wa.me/529512240391) | WhatsApp oficial | [taco-sireno/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taco-sireno/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taco-sireno/qr.png) |
-| 131 | El Seri Pescadería | Hermosillo, Son. | [662 220 3995](https://wa.me/526622203995) | Directorio | [el-seri-pescaderia/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-seri-pescaderia/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-seri-pescaderia/qr.png) |
-| 132 | El Mar | Tuxtla Gutiérrez, Chis. | [961 600 0759](https://wa.me/529616000759) | Directorio | [el-mar-tuxtla/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mar-tuxtla/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mar-tuxtla/qr.png) |
-| 133 | Ceviches La Palapita | Hermosillo, Son. | [662 460 1640](https://wa.me/526624601640) | WhatsApp oficial | [la-palapita-hermosillo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-palapita-hermosillo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-palapita-hermosillo/qr.png) |
-| 134 | Los Huaraches de Don Juan | Mérida, Yuc. | [999 406 2242](https://wa.me/529994062242) | Número propio | [huaraches-don-juan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/huaraches-don-juan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/huaraches-don-juan/qr.png) |
-| 135 | A La Tostada | Zapopan, Jal. | [33 2226 0476](https://wa.me/523322260476) | WhatsApp oficial | [a-la-tostada/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/a-la-tostada/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/a-la-tostada/qr.png) |
-| 136 | Mariscos El Plebe | Colima, Col. | [312 330 2776](https://wa.me/523123302776) | Número propio | [mariscos-el-plebe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-el-plebe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-el-plebe/qr.png) |
-| 137 | Carnitas y Asadas El Güero | Toluca, Edo. Méx. | [722 183 4897](https://wa.me/527221834897) | Número propio | [carnitas-el-guero-toluca/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-el-guero-toluca/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-el-guero-toluca/qr.png) |
-| 138 | Mariscos Frente al Mar | Guadalajara, Jal. | [33 1204 0845](https://wa.me/523312040845) | Número propio | [mariscos-frente-al-mar/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-frente-al-mar/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-frente-al-mar/qr.png) |
-| 139 | Doraditos y Enchiladas Mary | Morelia, Mich. | [443 932 1562](https://wa.me/524439321562) | Número propio | [enchiladas-mary/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/enchiladas-mary/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/enchiladas-mary/qr.png) |
-| 140 | Taquería Los Mandiles | Toluca, Edo. Méx. | [722 213 0422](https://wa.me/527222130422) | Directorio | [taqueria-los-mandiles/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-los-mandiles/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-los-mandiles/qr.png) |
-| 141 | El Arponcillo | Veracruz, Ver. | [229 265 3447](https://wa.me/522292653447) | Directorio | [el-arponcillo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-arponcillo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-arponcillo/qr.png) |
-| 142 | Mr. Camarón Aguachilería | Morelia, Mich. | [443 261 0172](https://wa.me/524432610172) | Número propio | [mr-camaron-morelia/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mr-camaron-morelia/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mr-camaron-morelia/qr.png) |
-| 143 | Caminos de Michoacán | Morelia, Mich. | [443 225 0200](https://wa.me/524432250200) | Directorio | [caminos-de-michoacan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/caminos-de-michoacan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/caminos-de-michoacan/qr.png) |
-| 144 | Pato Blanco Cocina de Mar | Guadalajara, Jal. | [33 1459 9613](https://wa.me/523314599613) | WhatsApp oficial | [pato-blanco/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pato-blanco/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pato-blanco/qr.png) |
-| 145 | El Camarón de Oro | Durango, Dgo. | [618 109 9614](https://wa.me/526181099614) | Directorio | [el-camaron-de-oro/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-camaron-de-oro/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-camaron-de-oro/qr.png) |
-| 146 | Mi Ranchito Desayunador | Durango, Dgo. | [618 109 7261](https://wa.me/526181097261) | Directorio | [mi-ranchito-desayunador/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-ranchito-desayunador/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-ranchito-desayunador/qr.png) |
+| 24 | Rincón del Bife | Cuernavaca, Mor. | [777 316 4428](https://wa.me/527773164428) | Solo teléfono | [rincon-del-bife/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-del-bife/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-del-bife/qr.png) |
+| 25 | Restaurante Samael | La Paz, B.C.S. | [612 125 7775](https://wa.me/526121257775) | Número propio | [samael/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/samael/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/samael/qr.png) |
+| 26 | Mariscos 7 Mares | Hermosillo, Son. | [662 260 8849](https://wa.me/526622608849) | Solo teléfono | [siete-mares/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/siete-mares/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/siete-mares/qr.png) |
+| 27 | Cenaduría Sabor a Mí | Mazatlán, Sin. | [669 176 8909](https://wa.me/526691768909) | Solo teléfono | [sabor-a-mi/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-a-mi/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-a-mi/qr.png) |
+| 28 | La Fionela | Saltillo, Coah. | [844 256 3779](https://wa.me/528442563779) | Número propio | [la-fionela/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-fionela/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-fionela/qr.png) |
+| 29 | Café con Leche | Zacatecas, Zac. | [492 249 6094](https://wa.me/524922496094) | Solo teléfono | [cafe-con-leche/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-con-leche/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-con-leche/qr.png) |
+| 30 | La Sazón de la Abuela | Torreón, Coah. | [871 296 1655](https://wa.me/528712961655) | Solo teléfono | [sazon-de-la-abuela/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sazon-de-la-abuela/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sazon-de-la-abuela/qr.png) |
+| 31 | Taquería San Juan | Culiacán, Sin. | [667 715 5446](https://wa.me/526677155446) | Número propio | [taqueria-san-juan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-san-juan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-san-juan/qr.png) |
+| 32 | Okane Sushi | Durango, Dgo. | [618 195 9412](https://wa.me/526181959412) | Directorio | [okane-sushi/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/okane-sushi/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/okane-sushi/qr.png) |
+| 33 | Taquería Mixe | Mérida, Yuc. | [999 910 4196](https://wa.me/529999104196) | WhatsApp oficial | [taqueria-mixe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-mixe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-mixe/qr.png) |
+| 34 | Fokus | Veracruz, Ver. | [229 462 1655](https://wa.me/522294621655) | Número propio | [fokus/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/fokus/qr.png) |
+| 35 | Restaurante Panamá | Culiacán, Sin. | [667 160 4069](https://wa.me/526671604069) | WhatsApp oficial | [panama-culiacan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/panama-culiacan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/panama-culiacan/qr.png) |
+| 36 | Comedor Lucy | San Luis Potosí, S.L.P. | [444 584 8009](https://wa.me/524445848009) | Número propio | [comedor-lucy/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/comedor-lucy/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/comedor-lucy/qr.png) |
+| 37 | Taquería El Brasero | San Miguel de Allende, Gto. | [415 108 2032](https://wa.me/524151082032) | Número propio | [el-brasero/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-brasero/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-brasero/qr.png) |
+| 38 | El Morelense | Cuernavaca, Mor. | [777 331 1014](https://wa.me/527773311014) | Número propio | [el-morelense/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-morelense/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-morelense/qr.png) |
+| 39 | Chano y Chon | Campeche, Camp. | [981 206 9123](https://wa.me/529812069123) | WhatsApp oficial | [chano-y-chon/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/chano-y-chon/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/chano-y-chon/qr.png) |
+| 40 | Taquería La Argentina | Cuernavaca, Mor. | [777 435 1908](https://wa.me/527774351908) | Número propio | [la-argentina/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-argentina/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-argentina/qr.png) |
+| 41 | El Rincón Huasteco | Pachuca, Hgo. | [771 143 6141](https://wa.me/527711436141) | Directorio | [rincon-huasteco/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-huasteco/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-huasteco/qr.png) |
+| 42 | Lonches Crujys | Guadalajara, Jal. | [33 3642 2984](https://wa.me/523336422984) | Directorio | [crujys/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/crujys/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/crujys/qr.png) |
+| 43 | Hakuna Bolas de Arroz | Chihuahua, Chih. | [614 227 9280](https://wa.me/526142279280) | Número propio | [hakuna/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/hakuna/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/hakuna/qr.png) |
+| 44 | Taquería Los Sobrinos | Mazatlán, Sin. | [669 431 7164](https://wa.me/526694317164) | WhatsApp oficial | [los-sobrinos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-sobrinos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-sobrinos/qr.png) |
+| 45 | Rincón Guerrerense | Querétaro, Qro. | [442 403 8575](https://wa.me/524424038575) | Número propio | [rincon-guerrerense/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-guerrerense/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rincon-guerrerense/qr.png) |
+| 46 | Hijas de la Enchilada | Cuernavaca, Mor. | [777 202 0790](https://wa.me/527772020790) | Número propio | [hijas-de-la-enchilada/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/hijas-de-la-enchilada/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/hijas-de-la-enchilada/qr.png) |
+| 47 | Lonchería Lisboa | Guadalajara, Jal. | [33 3812 9079](https://wa.me/523338129079) | Número propio | [lisboa/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/lisboa/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/lisboa/qr.png) |
+| 48 | Tus Chilaquiles | Guadalajara, Jal. | [33 1989 7483](https://wa.me/523319897483) | Directorio | [tus-chilaquiles/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tus-chilaquiles/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tus-chilaquiles/qr.png) |
+| 49 | Taquería Los Tarascos | Acapulco, Gro. | [744 481 7524](https://wa.me/527444817524) | WhatsApp oficial | [los-tarascos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-tarascos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-tarascos/qr.png) |
+| 50 | Pachita Restaurante | León, Gto. | [477 830 9186](https://wa.me/524778309186) | Directorio | [pachita/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pachita/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pachita/qr.png) |
+| 51 | Cocina Tres16 | Guadalajara, Jal. | [33 1869 7378](https://wa.me/523318697378) | Número propio | [cocina-tres16/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-tres16/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cocina-tres16/qr.png) |
+| 52 | Restaurante Izy | Metepec, Edo. Méx. | [722 271 4324](https://wa.me/527222714324) | Directorio | [izy/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/izy/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/izy/qr.png) |
+| 53 | Bacán Macut | Xalapa, Ver. | [228 237 5227](https://wa.me/522282375227) | Número propio | [bacan-macut/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bacan-macut/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bacan-macut/qr.png) |
+| 54 | El Danubio Lagunero | Torreón, Coah. | [871 747 8186](https://wa.me/528717478186) | Directorio | [danubio-lagunero/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/danubio-lagunero/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/danubio-lagunero/qr.png) |
+| 55 | Tomate Taquería | Guadalajara, Jal. | [33 3825 3331](https://wa.me/523338253331) | Directorio | [tomate-taqueria/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tomate-taqueria/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tomate-taqueria/qr.png) |
+| 56 | Santo Pikete | Villahermosa, Tab. | [993 354 9826](https://wa.me/529933549826) | Directorio | [santo-pikete/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/santo-pikete/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/santo-pikete/qr.png) |
+| 57 | Tres Cielos Mexican Bistro | Aguascalientes, Ags. | [449 200 7126](https://wa.me/524492007126) | Número propio | [tres-cielos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tres-cielos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tres-cielos/qr.png) |
+| 58 | El Yuca | Aguascalientes, Ags. | [449 916 5015](https://wa.me/524499165015) | Número propio | [el-yuca/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-yuca/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-yuca/qr.png) |
+| 59 | La Quincena | Aguascalientes, Ags. | [449 537 6787](https://wa.me/524495376787) | Solo teléfono | [la-quincena/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-quincena/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-quincena/qr.png) |
+| 60 | La Cabaña de Papá | Aguascalientes, Ags. | [449 115 4579](https://wa.me/524491154579) | Solo teléfono | [la-cabana-de-papa/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-de-papa/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-de-papa/qr.png) |
+| 61 | Menudo La Granja | Aguascalientes, Ags. | [449 441 2327](https://wa.me/524494412327) | Número propio | [menudo-la-granja/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/menudo-la-granja/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/menudo-la-granja/qr.png) |
+| 62 | Casa del Encino | Aguascalientes, Ags. | [449 488 2639](https://wa.me/524494882639) | Solo teléfono | [casa-del-encino/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-encino/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-encino/qr.png) |
+| 63 | Apapacho | Aguascalientes, Ags. | [55 6629 4454](https://wa.me/525566294454) | Número propio | [apapacho/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/apapacho/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/apapacho/qr.png) |
+| 64 | Birria Tatemada El Laberinto | Aguascalientes, Ags. | [449 267 4278](https://wa.me/524492674278) | Solo teléfono | [birria-el-laberinto/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birria-el-laberinto/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birria-el-laberinto/qr.png) |
+| 65 | Tacobirria del Morelos | Aguascalientes, Ags. | [449 290 4014](https://wa.me/524492904014) | Solo teléfono | [tacobirria-del-morelos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacobirria-del-morelos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacobirria-del-morelos/qr.png) |
+| 66 | Sabor Azteca | Aguascalientes, Ags. | [449 917 9444](https://wa.me/524499179444) | Solo teléfono | [sabor-azteca/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-azteca/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sabor-azteca/qr.png) |
+| 67 | Biznaga Brunch | Aguascalientes, Ags. | [449 398 6049](https://wa.me/524493986049) | Directorio | [biznaga-brunch/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/biznaga-brunch/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/biznaga-brunch/qr.png) |
+| 68 | Schinus | Aguascalientes, Ags. | [449 502 2049](https://wa.me/524495022049) | Número propio | [schinus/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/schinus/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/schinus/qr.png) |
+| 69 | Miravelas | Aguascalientes, Ags. | [449 377 7616](https://wa.me/524493777616) | Directorio | [miravelas/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/miravelas/qr.png) |
+| 70 | El Rincón Mestizo | Aguascalientes, Ags. | [449 210 8165](https://wa.me/524492108165) | Directorio | [el-rincon-mestizo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-rincon-mestizo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-rincon-mestizo/qr.png) |
+| 71 | Birriería Don Pato | Aguascalientes, Ags. | [449 915 3518](https://wa.me/524499153518) | Número propio | [don-pato/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-pato/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-pato/qr.png) |
+| 72 | El Techo del Sabor | Aguascalientes, Ags. | [449 261 1187](https://wa.me/524492611187) | Solo teléfono | [el-techo-del-sabor/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-techo-del-sabor/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-techo-del-sabor/qr.png) |
+| 73 | El Borrego de Oro | Aguascalientes, Ags. | [449 918 2857](https://wa.me/524499182857) | Solo teléfono | [borrego-de-oro/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/borrego-de-oro/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/borrego-de-oro/qr.png) |
+| 74 | Bellagamba | Aguascalientes, Ags. | [449 323 0714](https://wa.me/524493230714) | Número propio | [bellagamba/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bellagamba/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bellagamba/qr.png) |
+| 75 | Patio Santo Domingo | Aguascalientes, Ags. | [449 262 4734](https://wa.me/524492624734) | Número propio | [patio-santo-domingo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/patio-santo-domingo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/patio-santo-domingo/qr.png) |
+| 76 | El Mazatlán | Aguascalientes, Ags. | [449 153 1223](https://wa.me/524491531223) | Número propio | [el-mazatlan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mazatlan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mazatlan/qr.png) |
+| 77 | Bendito Remedio | Aguascalientes, Ags. | [449 913 0052](https://wa.me/524499130052) | Número propio | [bendito-remedio/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bendito-remedio/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/bendito-remedio/qr.png) |
+| 78 | Cinco de Mayo Mesón | Aguascalientes, Ags. | [449 903 0138](https://wa.me/524499030138) | Solo teléfono | [cinco-de-mayo-meson/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cinco-de-mayo-meson/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cinco-de-mayo-meson/qr.png) |
+| 79 | Amalfi VI | Aguascalientes, Ags. | [449 688 3888](https://wa.me/524496883888) | Directorio | [amalfi-vi/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/amalfi-vi/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/amalfi-vi/qr.png) |
+| 80 | Xilaquil | Aguascalientes, Ags. | [449 806 8217](https://wa.me/524498068217) | Solo teléfono | [xilaquil/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/xilaquil/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/xilaquil/qr.png) |
+| 81 | La Favorita | Aguascalientes, Ags. | [449 412 4827](https://wa.me/524494124827) | WhatsApp oficial | [la-favorita/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-favorita/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-favorita/qr.png) |
+| 82 | SAS | Aguascalientes, Ags. | [449 391 0065](https://wa.me/524493910065) | Solo teléfono | [sas/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sas/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/sas/qr.png) |
+| 83 | Ragazzi Bistro | Aguascalientes, Ags. | [449 996 5555](https://wa.me/524499965555) | Solo teléfono | [ragazzi/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/ragazzi/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/ragazzi/qr.png) |
+| 84 | Tacos Felox | Aguascalientes, Ags. | [449 216 7644](https://wa.me/524492167644) | Número propio | [tacos-felox/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-felox/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-felox/qr.png) |
+| 85 | Taquería El Jacalito | Aguascalientes, Ags. | [449 688 1652](https://wa.me/524496881652) | Solo teléfono | [el-jacalito/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-jacalito/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-jacalito/qr.png) |
+| 86 | La Paleo Kitchen | Aguascalientes, Ags. | [449 962 0465](https://wa.me/524499620465) | Solo teléfono | [paleo-kitchen/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/paleo-kitchen/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/paleo-kitchen/qr.png) |
+| 87 | Taquería Jeque Juárez | Aguascalientes, Ags. | [449 427 0153](https://wa.me/524494270153) | Número propio | [jeque-juarez/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jeque-juarez/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jeque-juarez/qr.png) |
+| 88 | Casa Tulipán | Aguascalientes, Ags. | [449 181 9130](https://wa.me/524491819130) | Número propio | [casa-tulipan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-tulipan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-tulipan/qr.png) |
+| 89 | Me Lo Dijo Adela | Aguascalientes, Ags. | [449 537 6787](https://wa.me/524495376787) | Número propio | [me-lo-dijo-adela/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/me-lo-dijo-adela/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/me-lo-dijo-adela/qr.png) |
+| 90 | El Cafetal de Concha | Aguascalientes, Ags. | [449 367 1887](https://wa.me/524493671887) | Número propio | [el-cafetal-de-concha/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-cafetal-de-concha/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-cafetal-de-concha/qr.png) |
+| 91 | Narros Burger | Aguascalientes, Ags. | [449 352 9241](https://wa.me/524493529241) | Número propio | [narros-burger/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/narros-burger/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/narros-burger/qr.png) |
+| 92 | Kaffihus | Aguascalientes, Ags. | [449 576 0144](https://wa.me/524495760144) | Directorio | [kaffihus/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/kaffihus/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/kaffihus/qr.png) |
+| 93 | Pollo Pepe | Aguascalientes, Ags. | [449 153 1919](https://wa.me/524491531919) | Directorio | [pollo-pepe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pollo-pepe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pollo-pepe/qr.png) |
+| 94 | Tacos Guadalupe | Aguascalientes, Ags. | [449 311 3784](https://wa.me/524493113784) | Directorio | [tacos-guadalupe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-guadalupe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-guadalupe/qr.png) |
+| 95 | Los Andariegos | Aguascalientes, Ags. | [449 414 1321](https://wa.me/524494141321) | Directorio | [los-andariegos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-andariegos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-andariegos/qr.png) |
+| 96 | Amor de mis Sabores | Aguascalientes, Ags. | [449 829 6139](https://wa.me/524498296139) | Número propio | [amor-de-mis-sabores/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/amor-de-mis-sabores/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/amor-de-mis-sabores/qr.png) |
+| 97 | AC Wing's | Aguascalientes, Ags. | [449 897 8982](https://wa.me/524498978982) | Número propio | [ac-wings/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/ac-wings/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/ac-wings/qr.png) |
+| 98 | Rosticería San Francisco | Aguascalientes, Ags. | [449 918 2835](https://wa.me/524499182835) | Directorio | [rosticeria-san-francisco/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rosticeria-san-francisco/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/rosticeria-san-francisco/qr.png) |
+| 99 | Puerta Grande | Aguascalientes, Ags. | [449 153 3618](https://wa.me/524491533618) | Directorio | [puerta-grande/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/puerta-grande/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/puerta-grande/qr.png) |
+| 100 | Jessy Jaq's Pizza | Aguascalientes, Ags. | [449 439 0780](https://wa.me/524494390780) | Directorio | [jessy-jaqs-pizza/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jessy-jaqs-pizza/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/jessy-jaqs-pizza/qr.png) |
+| 101 | Tacos 626 | Aguascalientes, Ags. | [449 347 9747](https://wa.me/524493479747) | Directorio | [tacos-626/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-626/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tacos-626/qr.png) |
+| 102 | Birriería El Mezquite | Aguascalientes, Ags. | [449 345 1331](https://wa.me/524493451331) | Número propio | [birrieria-el-mezquite/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-el-mezquite/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-el-mezquite/qr.png) |
+| 103 | The Boiling Pot | Aguascalientes, Ags. | [449 361 6860](https://wa.me/524493616860) | Directorio | [the-boiling-pot/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/the-boiling-pot/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/the-boiling-pot/qr.png) |
+| 104 | Tikin Xic | Aguascalientes, Ags. | [449 347 5594](https://wa.me/524493475594) | Directorio | [tikin-xic/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tikin-xic/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/tikin-xic/qr.png) |
+| 105 | Los Abolengos | Aguascalientes, Ags. | [449 805 0420](https://wa.me/524498050420) | WhatsApp oficial | [los-abolengos/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-abolengos/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-abolengos/qr.png) |
+| 106 | Café del Ángel | Aguascalientes, Ags. | [449 155 7873](https://wa.me/524491557873) | Directorio | [cafe-del-angel/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-del-angel/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cafe-del-angel/qr.png) |
+| 107 | Cardona's W Grill | Aguascalientes, Ags. | [449 658 5419](https://wa.me/524496585419) | Directorio | [cardonas-grill/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cardonas-grill/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/cardonas-grill/qr.png) |
+| 108 | Alitas El Alebrije | Aguascalientes, Ags. | [449 106 3668](https://wa.me/524491063668) | Directorio | [alitas-el-alebrije/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/alitas-el-alebrije/qr.png) |
+| 109 | Birriería Díaz de Calvillo | Aguascalientes, Ags. | [449 146 1893](https://wa.me/524491461893) | Número propio | [birrieria-diaz/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/birrieria-diaz/qr.png) |
+| 110 | Carnitas Romo | Aguascalientes, Ags. | [449 950 8671](https://wa.me/524499508671) | Número propio | [carnitas-romo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-romo/qr.png) |
+| 111 | Mariscos Villa Marina | León, Gto. | [477 313 7061](https://wa.me/524773137061) | Número propio | [mariscos-villa-marina/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-villa-marina/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-villa-marina/qr.png) |
+| 112 | Taquería La Plancha | Pachuca, Hgo. | [771 205 7497](https://wa.me/527712057497) | Número propio | [taqueria-la-plancha/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-la-plancha/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-la-plancha/qr.png) |
+| 113 | La Cabaña Restaurante | Tuxtla Gutiérrez, Chis. | [961 375 5555](https://wa.me/529613755555) | Número propio | [la-cabana-tuxtla/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-tuxtla/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-cabana-tuxtla/qr.png) |
+| 114 | La Esquinita Cocina Mexicana | Tijuana, B.C. | [664 111 6804](https://wa.me/526641116804) | Número propio | [la-esquinita-tijuana/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-esquinita-tijuana/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-esquinita-tijuana/qr.png) |
+| 115 | La Mina del Abuelo | Tepic, Nay. | [311 740 7467](https://wa.me/523117407467) | Directorio | [la-mina-del-abuelo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-mina-del-abuelo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-mina-del-abuelo/qr.png) |
+| 116 | Patmos Cocina de Mar | Morelia, Mich. | [443 788 5040](https://wa.me/524437885040) | WhatsApp oficial | [patmos-morelia/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/patmos-morelia/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/patmos-morelia/qr.png) |
+| 117 | Los Faroles | Villahermosa, Tab. | [993 312 9164](https://wa.me/529933129164) | Número propio | [los-faroles-villahermosa/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-faroles-villahermosa/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/los-faroles-villahermosa/qr.png) |
+| 118 | Taco Sireno | Oaxaca de Juárez, Oax. | [951 224 0391](https://wa.me/529512240391) | WhatsApp oficial | [taco-sireno/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taco-sireno/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taco-sireno/qr.png) |
+| 119 | El Seri Pescadería | Hermosillo, Son. | [662 220 3995](https://wa.me/526622203995) | Directorio | [el-seri-pescaderia/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-seri-pescaderia/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-seri-pescaderia/qr.png) |
+| 120 | El Mar | Tuxtla Gutiérrez, Chis. | [961 600 0759](https://wa.me/529616000759) | Directorio | [el-mar-tuxtla/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mar-tuxtla/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-mar-tuxtla/qr.png) |
+| 121 | Ceviches La Palapita | Hermosillo, Son. | [662 460 1640](https://wa.me/526624601640) | WhatsApp oficial | [la-palapita-hermosillo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-palapita-hermosillo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-palapita-hermosillo/qr.png) |
+| 122 | Los Huaraches de Don Juan | Mérida, Yuc. | [999 406 2242](https://wa.me/529994062242) | Número propio | [huaraches-don-juan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/huaraches-don-juan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/huaraches-don-juan/qr.png) |
+| 123 | A La Tostada | Zapopan, Jal. | [33 2226 0476](https://wa.me/523322260476) | WhatsApp oficial | [a-la-tostada/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/a-la-tostada/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/a-la-tostada/qr.png) |
+| 124 | Mariscos El Plebe | Colima, Col. | [312 330 2776](https://wa.me/523123302776) | Número propio | [mariscos-el-plebe/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-el-plebe/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-el-plebe/qr.png) |
+| 125 | Carnitas y Asadas El Güero | Toluca, Edo. Méx. | [722 183 4897](https://wa.me/527221834897) | Número propio | [carnitas-el-guero-toluca/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-el-guero-toluca/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-el-guero-toluca/qr.png) |
+| 126 | Mariscos Frente al Mar | Guadalajara, Jal. | [33 1204 0845](https://wa.me/523312040845) | Número propio | [mariscos-frente-al-mar/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-frente-al-mar/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mariscos-frente-al-mar/qr.png) |
+| 127 | Doraditos y Enchiladas Mary | Morelia, Mich. | [443 932 1562](https://wa.me/524439321562) | Número propio | [enchiladas-mary/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/enchiladas-mary/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/enchiladas-mary/qr.png) |
+| 128 | Taquería Los Mandiles | Toluca, Edo. Méx. | [722 213 0422](https://wa.me/527222130422) | Directorio | [taqueria-los-mandiles/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-los-mandiles/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/taqueria-los-mandiles/qr.png) |
+| 129 | El Arponcillo | Veracruz, Ver. | [229 265 3447](https://wa.me/522292653447) | Directorio | [el-arponcillo/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-arponcillo/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-arponcillo/qr.png) |
+| 130 | Mr. Camarón Aguachilería | Morelia, Mich. | [443 261 0172](https://wa.me/524432610172) | Número propio | [mr-camaron-morelia/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mr-camaron-morelia/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mr-camaron-morelia/qr.png) |
+| 131 | Caminos de Michoacán | Morelia, Mich. | [443 225 0200](https://wa.me/524432250200) | Directorio | [caminos-de-michoacan/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/caminos-de-michoacan/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/caminos-de-michoacan/qr.png) |
+| 132 | Pato Blanco Cocina de Mar | Guadalajara, Jal. | [33 1459 9613](https://wa.me/523314599613) | WhatsApp oficial | [pato-blanco/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pato-blanco/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/pato-blanco/qr.png) |
+| 133 | El Camarón de Oro | Durango, Dgo. | [618 109 9614](https://wa.me/526181099614) | Directorio | [el-camaron-de-oro/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-camaron-de-oro/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/el-camaron-de-oro/qr.png) |
+| 134 | Mi Ranchito Desayunador | Durango, Dgo. | [618 109 7261](https://wa.me/526181097261) | Directorio | [mi-ranchito-desayunador/](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-ranchito-desayunador/) | [qr.png](https://lukoffmon.github.io/WebDesignLKM/menus-qr/mi-ranchito-desayunador/qr.png) |
 
 ## Mensajes
 
@@ -889,39 +877,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 24. Clavo y Canela · Irapuato, Gto.
-
-Teléfono: 462 135 6050 (otro: 462 148 7772). Su sitio oficial (clavoycanela.mx/contacto) enlaza este número a WhatsApp.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de Clavo y Canela? Le escribo de LKM'r; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a Clavo y Canela una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a Clavo y Canela con su propia carta (chilaquiles, enchiladas y sus platos fuertes):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/clavo-y-canela/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/clavo-y-canela/qr/
-
-Ya tienen su página web; lo que propongo es el QR para las mesas, que abre su carta de 120 platillos con buscador y fotos.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo enlazarlo a su página actual para que todo quede en un mismo lugar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 25. Rincón del Bife · Cuernavaca, Mor.
+### 24. Rincón del Bife · Cuernavaca, Mor.
 
 Teléfono: 777 316 4428 (otro: 777 315 4794). Alta: su sitio oficial y Tripadvisor dan 777 316 4428.
 
@@ -953,7 +909,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 26. Restaurante Samael · La Paz, B.C.S.
+### 25. Restaurante Samael · La Paz, B.C.S.
 
 Teléfono: 612 125 7775 (otro: 612 122 0116). Lo publica su TikTok oficial y los directorios lo marcan como WhatsApp.
 
@@ -985,7 +941,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 27. Mariscos 7 Mares · Hermosillo, Son.
+### 26. Mariscos 7 Mares · Hermosillo, Son.
 
 Teléfono: 662 260 8849. Alta: su sitio, su Instagram y la prensa local dan 662 260 8849.
 
@@ -1017,7 +973,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 28. Cenaduría Sabor a Mí · Mazatlán, Sin.
+### 27. Cenaduría Sabor a Mí · Mazatlán, Sin.
 
 Teléfono: 669 176 8909. Alta: Carta, Menuweb y Restaurant Guru coinciden en 669 176 8909.
 
@@ -1049,7 +1005,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 29. La Fionela · Saltillo, Coah.
+### 28. La Fionela · Saltillo, Coah.
 
 Teléfono: 844 256 3779 (otro: 844 663 5347). Número de su Instagram y Facebook oficiales (un TikTok da 844 663 5347).
 
@@ -1081,7 +1037,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 30. Café con Leche · Zacatecas, Zac.
+### 29. Café con Leche · Zacatecas, Zac.
 
 Teléfono: 492 249 6094. Media: lo publica Uber Eats en sus datos; no encontré otra fuente que lo confirme.
 
@@ -1113,7 +1069,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 31. La Sazón de la Abuela · Torreón, Coah.
+### 30. La Sazón de la Abuela · Torreón, Coah.
 
 Teléfono: 871 296 1655. Media: Foursquare y Restaurant Guru dan 871 296 1655; otros directorios dan números distintos.
 
@@ -1145,7 +1101,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 32. Taquería San Juan · Culiacán, Sin.
+### 31. Taquería San Juan · Culiacán, Sin.
 
 Teléfono: 667 715 5446. Su Facebook oficial lo lista como el de la sucursal TEC; los directorios lo marcan como WhatsApp.
 
@@ -1177,7 +1133,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 33. Okane Sushi · Durango, Dgo.
+### 32. Okane Sushi · Durango, Dgo.
 
 Teléfono: 618 195 9412 (otro: 618 980 9280). Directorios con botón de WhatsApp (Gastroranking, Carta); su grupo dice que los pedidos son por WhatsApp. Su Facebook da 618 980 9280.
 
@@ -1209,7 +1165,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 34. Taquería Mixe · Mérida, Yuc.
+### 33. Taquería Mixe · Mérida, Yuc.
 
 Teléfono: 999 910 4196. WhatsApp oficial de la sucursal Campestre en taqueriamixe.com (la tienda de Rappi es esa misma sucursal).
 
@@ -1241,7 +1197,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 35. Fokus · Veracruz, Ver.
+### 34. Fokus · Veracruz, Ver.
 
 Teléfono: 229 462 1655 (otro: 229 938 9408). Celular publicado en su Facebook (Fokus Jr Vergel) y con botón de WhatsApp en Gastroranking.
 
@@ -1273,7 +1229,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 36. Restaurante Panamá · Culiacán, Sin.
+### 35. Restaurante Panamá · Culiacán, Sin.
 
 Teléfono: 667 160 4069 (otro: 667 712 9205). WhatsApp de la sucursal Constitución publicado por Luz Noticias (feb. 2025); fijo 667 712 9205 en Sección Amarilla.
 
@@ -1305,7 +1261,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 37. Comedor Lucy · San Luis Potosí, S.L.P.
+### 36. Comedor Lucy · San Luis Potosí, S.L.P.
 
 Teléfono: 444 584 8009. Número publicado en su Facebook oficial (Comedores Lucy, Mercado Hidalgo).
 
@@ -1337,7 +1293,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 38. Taquería El Brasero · San Miguel de Allende, Gto.
+### 37. Taquería El Brasero · San Miguel de Allende, Gto.
 
 Teléfono: 415 108 2032. Número de su Facebook oficial para la sucursal de Salida a Celaya 45.
 
@@ -1369,7 +1325,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 39. El Morelense · Cuernavaca, Mor.
+### 38. El Morelense · Cuernavaca, Mor.
 
 Teléfono: 777 331 1014. Celular marcado como contacto principal del negocio; Tripadvisor y Foursquare dan el mismo.
 
@@ -1401,7 +1357,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 40. Chano y Chon · Campeche, Camp.
+### 39. Chano y Chon · Campeche, Camp.
 
 Teléfono: 981 206 9123 (otro: 981 811 1066). Su Facebook oficial publica este WhatsApp para pedidos (teléfono: 981 811 1066).
 
@@ -1433,7 +1389,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 41. Taquería La Argentina · Cuernavaca, Mor.
+### 40. Taquería La Argentina · Cuernavaca, Mor.
 
 Teléfono: 777 435 1908. Número de su Facebook oficial y con enlace de WhatsApp en ClickMorelos.
 
@@ -1465,7 +1421,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 42. El Rincón Huasteco · Pachuca, Hgo.
+### 41. El Rincón Huasteco · Pachuca, Hgo.
 
 Teléfono: 771 143 6141. Gastroranking y Foursquare lo dan para San Martín de Porres 6 (la misma sucursal de Rappi), con botón de WhatsApp.
 
@@ -1497,7 +1453,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 43. Lonches Crujys · Guadalajara, Jal.
+### 42. Lonches Crujys · Guadalajara, Jal.
 
 Teléfono: 33 3642 2984. Gastroranking lo da para Juan Palomar y Arias 758 (la misma sucursal de Rappi) con opción de WhatsApp.
 
@@ -1529,7 +1485,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 44. Hakuna Bolas de Arroz · Chihuahua, Chih.
+### 43. Hakuna Bolas de Arroz · Chihuahua, Chih.
 
 Teléfono: 614 227 9280. Su Facebook de la marca lista Zarco 614 227 9280 para pedidos; Gastroranking lo marca como WhatsApp.
 
@@ -1561,7 +1517,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 45. Taquería Los Sobrinos · Mazatlán, Sin.
+### 44. Taquería Los Sobrinos · Mazatlán, Sin.
 
 Teléfono: 669 431 7164 (otro: 669 933 3160). WhatsApp de su sitio oficial (taquerialossobrinos.com) y del portal turístico de Mazatlán para la sucursal de Rafael Buelna (Tellería).
 
@@ -1593,7 +1549,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 46. Rincón Guerrerense · Querétaro, Qro.
+### 45. Rincón Guerrerense · Querétaro, Qro.
 
 Teléfono: 442 403 8575. Número de su Facebook (sucursal Sombrerete); Uber Eats tiene el mismo.
 
@@ -1625,7 +1581,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 47. Hijas de la Enchilada · Cuernavaca, Mor.
+### 46. Hijas de la Enchilada · Cuernavaca, Mor.
 
 Teléfono: 777 202 0790. Número de su Facebook oficial; Gastroranking le pone botón de WhatsApp.
 
@@ -1657,7 +1613,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 48. Lonchería Lisboa · Guadalajara, Jal.
+### 47. Lonchería Lisboa · Guadalajara, Jal.
 
 Teléfono: 33 3812 9079 (otro: 33 3121 0803). Número de pedidos de la sucursal Fresno en su sitio oficial (loncherialisboa.com); Chapalita: 33 3121 0803.
 
@@ -1689,7 +1645,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 49. Tus Chilaquiles · Guadalajara, Jal.
+### 48. Tus Chilaquiles · Guadalajara, Jal.
 
 Teléfono: 33 1989 7483. Gastroranking lo marca como WhatsApp para Andrés Terán 797 y es el número que registran en Uber Eats para esa sucursal.
 
@@ -1721,7 +1677,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 50. Taquería Los Tarascos · Acapulco, Gro.
+### 49. Taquería Los Tarascos · Acapulco, Gro.
 
 Teléfono: 744 481 7524. Número de la sucursal Las Palmas en su sitio oficial (lostarascos.com.mx), que tiene botón de WhatsApp.
 
@@ -1753,7 +1709,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 51. Pachita Restaurante · León, Gto.
+### 50. Pachita Restaurante · León, Gto.
 
 Teléfono: 477 830 9186. Lo publica CANIRAC León y Gastroranking lo marca con WhatsApp.
 
@@ -1785,7 +1741,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 52. Cocina Tres16 · Guadalajara, Jal.
+### 51. Cocina Tres16 · Guadalajara, Jal.
 
 Teléfono: 33 1869 7378. Número del restaurante en su propio sitio (cocinatres16.com) y en Tripadvisor; su Facebook tiene botón de WhatsApp.
 
@@ -1817,7 +1773,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 53. Restaurante Izy · Metepec, Edo. Méx.
+### 52. Restaurante Izy · Metepec, Edo. Méx.
 
 Teléfono: 722 271 4324. Varios directorios lo dan para la sucursal Tecnológico y Gastroranking le pone botón de WhatsApp.
 
@@ -1849,7 +1805,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 54. Bacán Macut · Xalapa, Ver.
+### 53. Bacán Macut · Xalapa, Ver.
 
 Teléfono: 228 237 5227 (otro: 228 841 1516). Número de su Facebook oficial; Gastroranking da 228 841 1516 con WhatsApp.
 
@@ -1881,7 +1837,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 55. El Danubio Lagunero · Torreón, Coah.
+### 54. El Danubio Lagunero · Torreón, Coah.
 
 Teléfono: 871 747 8186. Gastroranking y Carta lo dan para Independencia 2368 (la misma sucursal de Rappi) con botón de WhatsApp.
 
@@ -1913,7 +1869,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 56. Tomate Taquería · Guadalajara, Jal.
+### 55. Tomate Taquería · Guadalajara, Jal.
 
 Teléfono: 33 3825 3331. El mismo número en Tripadvisor, JetlyGo y Cylex; un directorio dice que atienden por WhatsApp.
 
@@ -1945,7 +1901,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 57. Santo Pikete · Villahermosa, Tab.
+### 56. Santo Pikete · Villahermosa, Tab.
 
 Teléfono: 993 354 9826. Restaurant Guru y Menuweb dan el mismo número; su Linktree tiene sus redes oficiales.
 
@@ -1977,7 +1933,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 58. Tres Cielos Mexican Bistro · Aguascalientes, Ags.
+### 57. Tres Cielos Mexican Bistro · Aguascalientes, Ags.
 
 Teléfono: 449 200 7126. Número de su Facebook oficial (Silos 1006); Restaurant Guru y Foursquare dan el mismo.
 
@@ -2009,7 +1965,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 59. El Yuca · Aguascalientes, Ags.
+### 58. El Yuca · Aguascalientes, Ags.
 
 Teléfono: 449 916 5015 (otro: 449 438 0280). Número publicado en su sitio oficial (elyucaags.com/sucursales) para la sucursal Centro; directorios lo marcan con WhatsApp.
 
@@ -2041,7 +1997,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 60. La Quincena · Aguascalientes, Ags.
+### 59. La Quincena · Aguascalientes, Ags.
 
 Teléfono: 449 537 6787 (otro: 449 239 8003). 449 537 6787 en FindGlocal y Latinoplaces; Tripadvisor da 449 239 8003. Sin WhatsApp publicado: llama primero.
 
@@ -2073,7 +2029,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 61. La Cabaña de Papá · Aguascalientes, Ags.
+### 60. La Cabaña de Papá · Aguascalientes, Ags.
 
 Teléfono: 449 115 4579. Número registrado de la tienda en Uber Eats; no encontré otra fuente. Llama primero.
 
@@ -2105,7 +2061,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 62. Menudo La Granja · Aguascalientes, Ags.
+### 61. Menudo La Granja · Aguascalientes, Ags.
 
 Teléfono: 449 441 2327 (otro: 449 251 7362). Celular publicado en su Facebook oficial (también da 449 251 7362).
 
@@ -2137,39 +2093,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 63. Carnitas Mora · Aguascalientes, Ags.
-
-Teléfono: 449 975 0551 (otro: 449 190 0966). Su TikTok oficial pide cotizar pedidos por WhatsApp al 449 190 0966 (y 449 498 9985); teléfono 449 975 0551.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de Carnitas Mora? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a Carnitas Mora una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a Carnitas Mora con su propia carta (carnitas por kilo, carnes asadas y burritos):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-mora/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/carnitas-mora/qr/
-
-Venden por kilo y para fiestas; el menú digital les deja al cliente armar su pedido y mandarlo completo por WhatsApp.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo las carnitas por kilo y paquetes para fiestas al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 64. Casa del Encino · Aguascalientes, Ags.
+### 62. Casa del Encino · Aguascalientes, Ags.
 
 Teléfono: 449 488 2639 (otro: 449 806 8918). 449 488 2639 en Tripadvisor y el directorio oficial de restaurantes de Ags; otros dan 449 806 8918. Llama primero.
 
@@ -2201,7 +2125,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 65. Apapacho · Aguascalientes, Ags.
+### 63. Apapacho · Aguascalientes, Ags.
 
 Teléfono: 55 6629 4454. Número de reservaciones publicado por el restaurante en LJA.MX y Tercera Vía; reservan por WhatsApp.
 
@@ -2233,7 +2157,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 66. Birria Tatemada El Laberinto · Aguascalientes, Ags.
+### 64. Birria Tatemada El Laberinto · Aguascalientes, Ags.
 
 Teléfono: 449 267 4278. Número de Wanderlog para el local 15 del Mercado Juárez. Llama primero.
 
@@ -2265,7 +2189,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 67. Tacobirria del Morelos · Aguascalientes, Ags.
+### 65. Tacobirria del Morelos · Aguascalientes, Ags.
 
 Teléfono: 449 290 4014. Número registrado de la tienda en Uber Eats. Llama primero.
 
@@ -2297,7 +2221,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 68. Sabor Azteca · Aguascalientes, Ags.
+### 66. Sabor Azteca · Aguascalientes, Ags.
 
 Teléfono: 449 917 9444. Número de directorio para Av. Aguascalientes Pte. 724 (la misma sucursal de Rappi). Llama primero.
 
@@ -2329,39 +2253,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 69. La Bella Lola · Aguascalientes, Ags.
-
-Teléfono: 449 230 7866. Celular publicado en su Facebook oficial.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de La Bella Lola? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a La Bella Lola una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Bella Lola con su propia carta (desayunos, molletes y comida del día):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-bella-lola/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/la-bella-lola/qr/
-
-En el Centro hay mucha oficina; con el QR piden rápido y regresan a trabajar.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar su comida del día y pedidos para oficinas. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 70. Biznaga Brunch · Aguascalientes, Ags.
+### 67. Biznaga Brunch · Aguascalientes, Ags.
 
 Teléfono: 449 398 6049. Tripadvisor, Wanderlog y Gastroranking dan el mismo número; Gastroranking lo marca con WhatsApp.
 
@@ -2393,7 +2285,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 71. Schinus · Aguascalientes, Ags.
+### 68. Schinus · Aguascalientes, Ags.
 
 Teléfono: 449 502 2049. Número de su Facebook oficial (con opción de WhatsApp).
 
@@ -2425,7 +2317,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 72. Miravelas · Aguascalientes, Ags.
+### 69. Miravelas · Aguascalientes, Ags.
 
 Teléfono: 449 377 7616. Tripadvisor y Gastroranking dan el mismo número; Gastroranking lo marca con WhatsApp.
 
@@ -2457,7 +2349,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 73. El Rincón Mestizo · Aguascalientes, Ags.
+### 70. El Rincón Mestizo · Aguascalientes, Ags.
 
 Teléfono: 449 210 8165. Número de Club del Wateke, con su Instagram @elrinconmestizo323. Hermano de La Mestiza Yucateca.
 
@@ -2489,7 +2381,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 74. Birriería Don Pato · Aguascalientes, Ags.
+### 71. Birriería Don Pato · Aguascalientes, Ags.
 
 Teléfono: 449 915 3518 (otro: 449 781 5842). Su TikTok indica pedidos al 449 915 3518; su Facebook da también el celular 449 781 5842.
 
@@ -2521,7 +2413,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 75. El Techo del Sabor · Aguascalientes, Ags.
+### 72. El Techo del Sabor · Aguascalientes, Ags.
 
 Teléfono: 449 261 1187. Número de Tripadvisor para Zaragoza 1510. Llama primero.
 
@@ -2553,7 +2445,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 76. El Borrego de Oro · Aguascalientes, Ags.
+### 73. El Borrego de Oro · Aguascalientes, Ags.
 
 Teléfono: 449 918 2857. Restaurant Guru, Guiamexico y Yango dan el mismo número para Ignacio T. Chávez 805. Llama primero.
 
@@ -2585,39 +2477,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 77. La Casa del No Sé Qué · Aguascalientes, Ags.
-
-Teléfono: 449 688 8979. Número de su Facebook oficial.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de La Casa del No Sé Qué? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a La Casa del No Sé Qué una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a La Casa del No Sé Qué con su propia carta (desayunos, baguettes y ensaladas):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-no-se-que/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/casa-del-no-se-que/qr/
-
-Su nombre ya da curiosidad; un menú con fotos convierte esa curiosidad en pedido.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar su café y bebidas frías. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 78. Bellagamba · Aguascalientes, Ags.
+### 74. Bellagamba · Aguascalientes, Ags.
 
 Teléfono: 449 323 0714. Número de pedidos en su Facebook oficial (envío gratis).
 
@@ -2649,7 +2509,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 79. Patio Santo Domingo · Aguascalientes, Ags.
+### 75. Patio Santo Domingo · Aguascalientes, Ags.
 
 Teléfono: 449 262 4734 (otro: 449 971 0630). Número de reservaciones en su sitio oficial (patio.grupoende.mx); directorios dan 449 971 0630.
 
@@ -2681,39 +2541,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 80. El Pescador Sinaloense · Aguascalientes, Ags.
-
-Teléfono: 449 456 3703. Número de su Facebook oficial; Wanderboat y Yandex coinciden.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de El Pescador Sinaloense? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a El Pescador Sinaloense una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a El Pescador Sinaloense con su propia carta (aguachiles, camarones y filetes):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/pescador-sinaloense/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/pescador-sinaloense/qr/
-
-Su carta tiene 120 platillos de mariscos; con fotos y categorías se antojan y la mesa pide más.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo aguachiles y camarones al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 81. El Mazatlán · Aguascalientes, Ags.
+### 76. El Mazatlán · Aguascalientes, Ags.
 
 Teléfono: 449 153 1223. Número de su Facebook oficial (pide llamar para pedidos para llevar).
 
@@ -2745,71 +2573,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 82. Holandés Fish Taco · Aguascalientes, Ags.
-
-Teléfono: 449 264 6676. Tripadvisor, Restaurant Guru y Uber Eats dan el mismo número.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de Holandés Fish Taco? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a Holandés Fish Taco una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a Holandés Fish Taco con su propia carta (tacos Baja, kecas y especialidades):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/holandes-fish-taco/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/holandes-fish-taco/qr/
-
-El taco Baja se antoja por foto; en el celular con imágenes la gente pide combos completos.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo sus combos y kecas al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 83. Don Cangrejo · Aguascalientes, Ags.
-
-Teléfono: 449 996 3130. Número de su Facebook oficial; Tripadvisor y Restaurant Guru coinciden.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de Don Cangrejo? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a Don Cangrejo una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a Don Cangrejo con su propia carta (aguachiles para dos, zarandeado y cócteles):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-cangrejo/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/don-cangrejo/qr/
-
-Sus platillos son para compartir y de buen ticket; con fotos la mesa se anima a pedir el zarandeado.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus dos sucursales en un mismo enlace. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 84. Bendito Remedio · Aguascalientes, Ags.
+### 77. Bendito Remedio · Aguascalientes, Ags.
 
 Teléfono: 449 913 0052 (otro: 449 353 2192). Su página propia da 913 0052 y 449 353 2192 para pedidos (centro y sur) y tiene enlace de WhatsApp.
 
@@ -2841,7 +2605,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 85. Cinco de Mayo Mesón · Aguascalientes, Ags.
+### 78. Cinco de Mayo Mesón · Aguascalientes, Ags.
 
 Teléfono: 449 903 0138 (otro: 449 434 4523). Uber Eats registra 449 903 0138 y Tripadvisor 449 434 4523 (dentro del Hotel Hacienda del Roble). Llama primero.
 
@@ -2873,7 +2637,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 86. Amalfi VI · Aguascalientes, Ags.
+### 79. Amalfi VI · Aguascalientes, Ags.
 
 Teléfono: 449 688 3888. Varias fuentes coinciden (Restaurant Guru, Tripadvisor); Instagram @vi.amalfi.vi.
 
@@ -2905,7 +2669,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 87. Xilaquil · Aguascalientes, Ags.
+### 80. Xilaquil · Aguascalientes, Ags.
 
 Teléfono: 449 806 8217. Wanderlog, Carta y Restaurant Guru dan el mismo número. Llama primero.
 
@@ -2937,39 +2701,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 88. Restaurante De la Tierra · Aguascalientes, Ags.
-
-Teléfono: 449 770 9730. Número de su Facebook oficial.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de Restaurante De la Tierra? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a Restaurante De la Tierra una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a Restaurante De la Tierra con su propia carta (enchiladas, molletes y desayunos):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/de-la-tierra/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/de-la-tierra/qr/
-
-Abren todos los días; con el QR la mesa ve la carta con fotos y pide sin esperar.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Puedo agregar sus paquetes de desayuno. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 89. La Favorita · Aguascalientes, Ags.
+### 81. La Favorita · Aguascalientes, Ags.
 
 Teléfono: 449 412 4827. Su sitio oficial (lafavorita.com.mx) da este número para la sucursal Centro y dice que toman pedidos por WhatsApp.
 
@@ -3001,7 +2733,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 90. SAS · Aguascalientes, Ags.
+### 82. SAS · Aguascalientes, Ags.
 
 Teléfono: 449 391 0065. Número del SAS de Sierra de la Canela 434 (Uber Eats y directorio), a una puerta. Llama primero y confirma.
 
@@ -3033,39 +2765,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 91. Las Costillas de Sancho · Aguascalientes, Ags.
-
-Teléfono: 449 912 9212 (otro: 449 978 3067). Número general en varias fuentes (con WhatsApp en Gastroranking); su sitio da 449 978 3067 para esta dirección.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de Las Costillas de Sancho? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a Las Costillas de Sancho una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a Las Costillas de Sancho con su propia carta (cortes Angus, costillas y sopas):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/costillas-de-sancho/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/costillas-de-sancho/qr/
-
-Su ticket es alto y su carta de cortes merece fotos y descripción; en papel se pierde.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Lo dejo con sus sucursales y un botón para reservar. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 92. Ragazzi Bistro · Aguascalientes, Ags.
+### 83. Ragazzi Bistro · Aguascalientes, Ags.
 
 Teléfono: 449 996 5555. Wanderlog, Restaurantes México y Restaurant Guru dan el mismo número para Plaza Arcos Campestre. Llama primero.
 
@@ -3097,7 +2797,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 93. Tacos Felox · Aguascalientes, Ags.
+### 84. Tacos Felox · Aguascalientes, Ags.
 
 Teléfono: 449 216 7644. Número de información y servicio a domicilio en su Facebook oficial.
 
@@ -3129,7 +2829,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 94. Taquería El Jacalito · Aguascalientes, Ags.
+### 85. Taquería El Jacalito · Aguascalientes, Ags.
 
 Teléfono: 449 688 1652 (otro: 449 868 0159). Foodyas, Carta y Menuweb dan 449 688 1652; registro oficial: 449 868 0159. Llama primero.
 
@@ -3161,7 +2861,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 95. La Paleo Kitchen · Aguascalientes, Ags.
+### 86. La Paleo Kitchen · Aguascalientes, Ags.
 
 Teléfono: 449 962 0465. Tripadvisor, MapQuest, Foursquare y Restaurant Guru dan el mismo número. Llama primero.
 
@@ -3193,39 +2893,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 96. Lechón Mi Güerita · Aguascalientes, Ags.
-
-Teléfono: 449 578 9596. Uber Eats y Club del Wateke (con su Instagram @lechonmiguerita) dan el mismo número.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de Lechón Mi Güerita? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a Lechón Mi Güerita una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a Lechón Mi Güerita con su propia carta (tacos de lechón, tortas y paquetes):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/lechon-mi-guerita/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/lechon-mi-guerita/qr/
-
-Abren de noche y se piden para llevar; con el menú el pedido llega completo por WhatsApp.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo sus paquetes para compartir al frente. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 97. Taquería Jeque Juárez · Aguascalientes, Ags.
+### 87. Taquería Jeque Juárez · Aguascalientes, Ags.
 
 Teléfono: 449 427 0153. Número de pedidos en su TikTok; Uber Eats coincide.
 
@@ -3257,7 +2925,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 98. Casa Tulipán · Aguascalientes, Ags.
+### 88. Casa Tulipán · Aguascalientes, Ags.
 
 Teléfono: 449 181 9130. Número de su Facebook oficial (matriz Matamoros 216); Waze coincide.
 
@@ -3289,7 +2957,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 99. Me Lo Dijo Adela · Aguascalientes, Ags.
+### 89. Me Lo Dijo Adela · Aguascalientes, Ags.
 
 Teléfono: 449 537 6787. Número de la sucursal Madero publicado en su Instagram oficial @melodijoadelaags; Waze y Restaurant Guru dan el mismo. La sucursal Centro usa 449 589 3318.
 
@@ -3321,7 +2989,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 100. El Cafetal de Concha · Aguascalientes, Ags.
+### 90. El Cafetal de Concha · Aguascalientes, Ags.
 
 Teléfono: 449 367 1887. Número publicado en su página oficial de Facebook (El Cafetal, @elcafetaldeconcha); Uber Eats y Mexicocafes dan el mismo.
 
@@ -3353,39 +3021,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 101. Lonchería El Mono · Aguascalientes, Ags.
-
-Teléfono: 449 735 0251. Su página oficial de Facebook (Lonchería El Mono Av. Independencia) publica el 449 735 0251 como número directo de la lonchería; Gastroranking lo marca con WhatsApp.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de Lonchería El Mono? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a Lonchería El Mono una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a Lonchería El Mono con su propia carta (tortas de maciza, tacos de surtido y kilos de carnitas):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/loncheria-el-mono/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/loncheria-el-mono/qr/
-
-Venden mucho por paquete y por kilo (5 tortas y 10 tacos, kilo surtido): el menú digital deja que la oficina arme su pedido completo y se lo mande por WhatsApp ya sumado.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Pongo arriba los paquetes para oficina y fiestas, con su precio total. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 102. Narros Burger · Aguascalientes, Ags.
+### 91. Narros Burger · Aguascalientes, Ags.
 
 Teléfono: 449 352 9241 (otro: 449 194 4470). El 449 352 9241 lo publica su página oficial de Facebook (Narros Burger Fundición); Yelp y Restaurant Guru dan el 449 194 4470 como teléfono del local. La sucursal Paseos usa otro número.
 
@@ -3417,7 +3053,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 103. Kaffihus · Aguascalientes, Ags.
+### 92. Kaffihus · Aguascalientes, Ags.
 
 Teléfono: 449 576 0144. Tripadvisor y Restaurant Guru dan el 449 576 0144 para Kaffihus (Plaza Albera); no publica WhatsApp. Confirmar que responde antes de mandar la venta.
 
@@ -3449,7 +3085,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 104. Pollo Pepe · Aguascalientes, Ags.
+### 93. Pollo Pepe · Aguascalientes, Ags.
 
 Teléfono: 449 153 1919. Gastroranking, Restaurant Guru y Carta.menu dan el 449 153 1919 para la sucursal Universidad; Gastroranking lo marca con WhatsApp.
 
@@ -3481,7 +3117,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 105. Tacos Guadalupe · Aguascalientes, Ags.
+### 94. Tacos Guadalupe · Aguascalientes, Ags.
 
 Teléfono: 449 311 3784. Directorio de taquerías (pueblosamerica, 2024) da el 449 311 3784 para Valentín Gómez Farías 328. Fuente única: llamar primero si no contesta.
 
@@ -3513,39 +3149,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 106. Delifresh · Aguascalientes, Ags.
-
-Teléfono: 449 146 5656. Restaurant Guru y Worldorgs dan el 449 146 5656 para Delifresh (República de Uruguay 1103). No publica WhatsApp.
-
-Contacto inicial (sin enlace):
-
-```
-Hola, buen día. ¿Es el WhatsApp de Delifresh? Le escribo de LKM'r, aquí en Aguascalientes; hacemos menús digitales con QR para restaurantes.
-
-Le preparé a Delifresh una muestra de menú digital con su carta, sin costo. ¿Le puedo mandar el enlace para que la vea?
-
-Si no le interesa, me dice y no le vuelvo a escribir.
-```
-
-Venta (solo cuando conteste):
-
-```
-¡Muchas gracias por contestar! Esta es la muestra que le preparé a Delifresh con su propia carta (combos, ensaladas y baguettes):
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/delifresh/
-
-Y este es el código QR que ya le preparé para sus mesas:
-https://lukoffmon.github.io/WebDesignLKM/menus-qr/delifresh/qr/
-
-Su fuerte es "arma tu ensalada" y los combos de mediodía: con el menú digital la oficina ve los combos con foto y pide por WhatsApp antes de la hora de la comida.
-
-El cliente escanea el QR de la mesa, ve fotos y precios, y si quiere manda su pedido directo a su WhatsApp. Le pongo una sección de combos del día que se cambia con un mensaje. Los precios de la muestra son los de Rappi; se los dejo con sus precios de salón.
-
-El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) y $200 al mes con cambios ilimitados.
-
-¿Le parece si se lo enseño 5 minutos esta semana?
-```
-
-### 107. Los Andariegos · Aguascalientes, Ags.
+### 95. Los Andariegos · Aguascalientes, Ags.
 
 Teléfono: 449 414 1321. Uber Eats y directorios dan el 449 414 1321 para Av. Mahatma Gandhi 613. No publica WhatsApp.
 
@@ -3577,7 +3181,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 108. Amor de mis Sabores · Aguascalientes, Ags.
+### 96. Amor de mis Sabores · Aguascalientes, Ags.
 
 Teléfono: 449 829 6139 (otro: 449 398 9172). El 449 829 6139 lo publica su página oficial de Facebook (Amor de mis Sabores); directorios dan además el 449 398 9172.
 
@@ -3609,7 +3213,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 109. AC Wing's · Aguascalientes, Ags.
+### 97. AC Wing's · Aguascalientes, Ags.
 
 Teléfono: 449 897 8982. El 449 897 8982 lo publica su página oficial de Facebook (AC Wing's, Cosío Sur 1044).
 
@@ -3641,7 +3245,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 110. Rosticería San Francisco · Aguascalientes, Ags.
+### 98. Rosticería San Francisco · Aguascalientes, Ags.
 
 Teléfono: 449 918 2835. Tripadvisor, Restaurant Guru, Wanderlog y allbiz dan el 449 918 2835 para Aquiles Serdán 111. No publica WhatsApp.
 
@@ -3673,7 +3277,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 111. Puerta Grande · Aguascalientes, Ags.
+### 99. Puerta Grande · Aguascalientes, Ags.
 
 Teléfono: 449 153 3618. Allbiz, Restaurant Guru y Guiamexico dan el 449 153 3618 para Av. Universidad 1509. No publica WhatsApp: confirmar en la llamada.
 
@@ -3705,7 +3309,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 112. Jessy Jaq's Pizza · Aguascalientes, Ags.
+### 100. Jessy Jaq's Pizza · Aguascalientes, Ags.
 
 Teléfono: 449 439 0780. Uber Eats da el 449 439 0780 para Jessy Jaq's (Av. Universidad 737). No publica WhatsApp.
 
@@ -3737,7 +3341,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 113. Tacos 626 · Aguascalientes, Ags.
+### 101. Tacos 626 · Aguascalientes, Ags.
 
 Teléfono: 449 347 9747. Uber Eats da el 449 347 9747 para Tacos 626 (Av. Guadalupe). No publica WhatsApp.
 
@@ -3769,7 +3373,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 114. Birriería El Mezquite · Aguascalientes, Ags.
+### 102. Birriería El Mezquite · Aguascalientes, Ags.
 
 Teléfono: 449 345 1331. El 449 345 1331 lo publica su propia cuenta de TikTok para cotizaciones y pedidos (Blvd. Guadalupano 501-C, ago. 2026).
 
@@ -3801,7 +3405,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 115. The Boiling Pot · Aguascalientes, Ags.
+### 103. The Boiling Pot · Aguascalientes, Ags.
 
 Teléfono: 449 361 6860. Tripadvisor, Restaurant Guru y menu-world dan el 449 361 6860 para Colosio 129. No publica WhatsApp.
 
@@ -3833,7 +3437,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 116. Tikin Xic · Aguascalientes, Ags.
+### 104. Tikin Xic · Aguascalientes, Ags.
 
 Teléfono: 449 347 5594. Gastroranking, Carta.menu y Tripadvisor dan el 449 347 5594; Gastroranking lo marca con WhatsApp. Su Facebook es "TIKIN Cocina de mar".
 
@@ -3865,7 +3469,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 117. Los Abolengos · Aguascalientes, Ags.
+### 105. Los Abolengos · Aguascalientes, Ags.
 
 Teléfono: 449 805 0420 (otro: 449 377 2943). Su página oficial de Facebook publica "WhatsApp al 449-805-04-20" para reservaciones, información y eventos; Horario.mx lo repite. El fijo 449 377 2943 sale en Tripadvisor.
 
@@ -3897,7 +3501,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 118. Café del Ángel · Aguascalientes, Ags.
+### 106. Café del Ángel · Aguascalientes, Ags.
 
 Teléfono: 449 155 7873. Tripadvisor, Trip.com y Restaurant Guru dan el 449 155 7873; una reseña de Tripadvisor dice que se reserva por WhatsApp con ese número.
 
@@ -3929,7 +3533,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 119. Cardona's W Grill · Aguascalientes, Ags.
+### 107. Cardona's W Grill · Aguascalientes, Ags.
 
 Teléfono: 449 658 5419. Waze, Restaurant Guru y Carta.menu dan el 449 658 5419 para Plaza Terracota. No publica WhatsApp.
 
@@ -3961,7 +3565,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 120. Alitas El Alebrije · Aguascalientes, Ags.
+### 108. Alitas El Alebrije · Aguascalientes, Ags.
 
 Teléfono: 449 106 3668 (otro: 449 508 4582). Un directorio local da el 449 106 3668 para pedidos por teléfono, WhatsApp y Facebook; Waze y Restaurant Guru dan el 449 508 4582. Podría ser línea de la marca: confirmar que es Cumbres.
 
@@ -3993,7 +3597,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 121. Birriería Díaz de Calvillo · Aguascalientes, Ags.
+### 109. Birriería Díaz de Calvillo · Aguascalientes, Ags.
 
 Teléfono: 449 146 1893. El 449 146 1893 lo publica su página oficial de Facebook (Birriería Díaz, Ahualulco 101) y Gastroranking lo marca con WhatsApp.
 
@@ -4025,7 +3629,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 122. Carnitas Romo · Aguascalientes, Ags.
+### 110. Carnitas Romo · Aguascalientes, Ags.
 
 Teléfono: 449 950 8671. El 449 950 8671 lo publica su página oficial de Facebook (Carnitas ROMO); Uber Eats da el mismo.
 
@@ -4057,7 +3661,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 123. Mariscos Villa Marina · León, Gto.
+### 111. Mariscos Villa Marina · León, Gto.
 
 Teléfono: 477 313 7061. Su página oficial de Facebook (Mariscos Villa Marina) y Restaurant Guru dan el 477 313 7061; no publica sitio web.
 
@@ -4089,7 +3693,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 124. Taquería La Plancha · Pachuca, Hgo.
+### 112. Taquería La Plancha · Pachuca, Hgo.
 
 Teléfono: 771 205 7497. Su Facebook e Instagram oficiales (@taquerialaplancha) publican el 771 205 7497 para servicio a domicilio; no tiene sitio web.
 
@@ -4121,7 +3725,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 125. La Cabaña Restaurante · Tuxtla Gutiérrez, Chis.
+### 113. La Cabaña Restaurante · Tuxtla Gutiérrez, Chis.
 
 Teléfono: 961 375 5555. Su página oficial de Facebook publica el 961 375 5555 (celular, +52 1); tuxtla.com.mx da el mismo. No tiene sitio web.
 
@@ -4153,7 +3757,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 126. La Esquinita Cocina Mexicana · Tijuana, B.C.
+### 114. La Esquinita Cocina Mexicana · Tijuana, B.C.
 
 Teléfono: 664 111 6804. Su página oficial de Facebook (@laesquinitacm) publica el 664 111 6804; Tripadvisor da además el 664 720 1929. No tiene sitio web.
 
@@ -4185,7 +3789,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 127. La Mina del Abuelo · Tepic, Nay.
+### 115. La Mina del Abuelo · Tepic, Nay.
 
 Teléfono: 311 740 7467. Gastroranking y Wanderboat dan el 311 740 7467 (Gastroranking con WhatsApp); Restaurant Guru da el 311 110 4389. Sin sitio web.
 
@@ -4217,7 +3821,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 128. Patmos Cocina de Mar · Morelia, Mich.
+### 116. Patmos Cocina de Mar · Morelia, Mich.
 
 Teléfono: 443 788 5040. Su página oficial de Facebook (Patmos · Cocina de Mar) publica "reservas vía WhatsApp 443 788 5040"; Tripadvisor da además el 443 315 7947. No tiene sitio web.
 
@@ -4249,7 +3853,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 129. Los Faroles · Villahermosa, Tab.
+### 117. Los Faroles · Villahermosa, Tab.
 
 Teléfono: 993 312 9164. Su página oficial de Facebook (Los Faroles Villahermosa) y Sección Amarilla dan el 993 312 9164. No tiene sitio web.
 
@@ -4281,7 +3885,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 130. Taco Sireno · Oaxaca de Juárez, Oax.
+### 118. Taco Sireno · Oaxaca de Juárez, Oax.
 
 Teléfono: 951 224 0391. Su Instagram oficial (@tacosireno) publica "Pedidos por Wa: 9512240391". No tiene sitio web.
 
@@ -4313,7 +3917,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 131. El Seri Pescadería · Hermosillo, Son.
+### 119. El Seri Pescadería · Hermosillo, Son.
 
 Teléfono: 662 220 3995. Allbiz y Twopos dan el 662 220 3995 para Blvd. Camino del Seri 727. Sin sitio web; no publica WhatsApp.
 
@@ -4345,7 +3949,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 132. El Mar · Tuxtla Gutiérrez, Chis.
+### 120. El Mar · Tuxtla Gutiérrez, Chis.
 
 Teléfono: 961 600 0759. Carta.menu, Menuweb y Sección Amarilla dan el 961 600 0759. Sin sitio web; no publica WhatsApp.
 
@@ -4377,7 +3981,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 133. Ceviches La Palapita · Hermosillo, Son.
+### 121. Ceviches La Palapita · Hermosillo, Son.
 
 Teléfono: 662 460 1640. Su TikTok oficial (@cevicheslapalapita) dice "pedidos y reservaciones por WhatsApp 6624601640"; Restaurant Guru da el mismo. No tiene sitio web.
 
@@ -4409,7 +4013,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 134. Los Huaraches de Don Juan · Mérida, Yuc.
+### 122. Los Huaraches de Don Juan · Mérida, Yuc.
 
 Teléfono: 999 406 2242. Su Facebook e Instagram oficiales publican el (999) 406 2242; Gastroranking lo marca con WhatsApp. No tiene sitio web.
 
@@ -4441,7 +4045,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 135. A La Tostada · Zapopan, Jal.
+### 123. A La Tostada · Zapopan, Jal.
 
 Teléfono: 33 2226 0476. Su Instagram oficial (@a_latostada) publica su WhatsApp 33 2226 0476 y dice que no tiene sucursales. No tiene sitio web.
 
@@ -4473,7 +4077,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 136. Mariscos El Plebe · Colima, Col.
+### 124. Mariscos El Plebe · Colima, Col.
 
 Teléfono: 312 330 2776. Su página oficial de Facebook (Mariscos El Plebe) publica el 312 330 2776 y avisa que ya está en WhatsApp; TripTap da además el 312 118 1132. No tiene sitio web.
 
@@ -4505,7 +4109,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 137. Carnitas y Asadas El Güero · Toluca, Edo. Méx.
+### 125. Carnitas y Asadas El Güero · Toluca, Edo. Méx.
 
 Teléfono: 722 183 4897. Su página oficial de Facebook (Carnitas y Asadas El Güero, 5 de Mayo 936) publica el 722 183 4897. No tiene sitio web.
 
@@ -4537,7 +4141,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 138. Mariscos Frente al Mar · Guadalajara, Jal.
+### 126. Mariscos Frente al Mar · Guadalajara, Jal.
 
 Teléfono: 33 1204 0845. Su página oficial de Facebook (Mariscos frente al mar, Francisco de Quevedo) publica el 33 1204 0845; Restaurant Guru da el mismo. No tiene sitio web.
 
@@ -4569,7 +4173,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 139. Doraditos y Enchiladas Mary · Morelia, Mich.
+### 127. Doraditos y Enchiladas Mary · Morelia, Mich.
 
 Teléfono: 443 932 1562. Su página oficial de Facebook (Enchiladas Mary Morelia) publica el 443 932 1562 para sus sucursales Lázaro Cárdenas y Centro Histórico; Uber Eats da el mismo. No tiene sitio web.
 
@@ -4601,7 +4205,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 140. Taquería Los Mandiles · Toluca, Edo. Méx.
+### 128. Taquería Los Mandiles · Toluca, Edo. Méx.
 
 Teléfono: 722 213 0422. Rankeando, Restaurant Guru y el registro de la empresa dan el 722 213 0422 (correo taquerialosmandiles@gmail.com). Sin sitio web; no publica WhatsApp.
 
@@ -4633,7 +4237,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 141. El Arponcillo · Veracruz, Ver.
+### 129. El Arponcillo · Veracruz, Ver.
 
 Teléfono: 229 265 3447. Restaurant Guru da el 229 265 3447 para Heroísmo 420. Fuente única: confirmar en la primera llamada. Sin sitio web.
 
@@ -4665,7 +4269,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 142. Mr. Camarón Aguachilería · Morelia, Mich.
+### 130. Mr. Camarón Aguachilería · Morelia, Mich.
 
 Teléfono: 443 261 0172. Su página oficial de Facebook (Mr Camarón Aguachilería Morelia, Héroes de Nocupétaro 1556) publica el 443 261 0172; Restaurant Guru da el 443 257 2422. No tiene sitio web.
 
@@ -4697,7 +4301,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 143. Caminos de Michoacán · Morelia, Mich.
+### 131. Caminos de Michoacán · Morelia, Mich.
 
 Teléfono: 443 225 0200. Uber Eats y Wanderboat dan el 443 225 0200 para Francisco J. Múgica 35. Sin sitio web; no publica WhatsApp.
 
@@ -4729,7 +4333,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 144. Pato Blanco Cocina de Mar · Guadalajara, Jal.
+### 132. Pato Blanco Cocina de Mar · Guadalajara, Jal.
 
 Teléfono: 33 1459 9613. Su página oficial de Facebook (Pato Blanco Cocina de Mar) publica "WhatsApp 3314599613" para pedidos para llevar; el fijo 33 3642 7573 sale en Facebook y Uber Eats. No tiene sitio web.
 
@@ -4761,7 +4365,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 145. El Camarón de Oro · Durango, Dgo.
+### 133. El Camarón de Oro · Durango, Dgo.
 
 Teléfono: 618 109 9614. Su página oficial de Facebook publica el 618 109 9614 para la sucursal Pino Suárez 2916; este menú es de la sucursal Las Playas (Blvd. Carrola Antuna 352): confirmar que atienden las dos. No tiene sitio web.
 
@@ -4793,7 +4397,7 @@ El servicio inicia desde $650 de instalación (menú y QR listos para imprimir) 
 ¿Le parece si se lo enseño 5 minutos esta semana?
 ```
 
-### 146. Mi Ranchito Desayunador · Durango, Dgo.
+### 134. Mi Ranchito Desayunador · Durango, Dgo.
 
 Teléfono: 618 109 7261. Tripadvisor y Menuweb dan el 618 109 7261 para José del Campo 31. Sin sitio web; no publica WhatsApp.
 
