@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Plan 50 diarios · Cantina Real</title>
+<meta name="description" content="Plan de crecimiento para Cantina Real: diagnóstico, campaña, promociones, riesgos y ruta de 90 días para llegar a 50 comensales diarios.">
+<meta name="theme-color" content="#121214">
+<link rel="icon" href="../img/uvas.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0e0e10;--bg:#131316;--card:#1b1b1f;--line:rgba(211,173,110,.26);--gold:#D3AD6E;--cream:#F6EFE2;--mute:rgba(246,239,226,.66);--red:#d0635b;--ok:#6cc488;
+  --serif:"Playfair Display",Georgia,serif;--sans:Oswald,"Arial Narrow",sans-serif;color-scheme:dark}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:20px}
+body{background:var(--bg);color:var(--cream);font-family:var(--sans);font-weight:300;line-height:1.6;font-size:17px}
+a{color:var(--gold)}
+.top{border-bottom:1px solid var(--line);background:radial-gradient(80% 120% at 20% 0%,rgba(211,173,110,.16),transparent 60%)}
+.top .in{width:min(1180px,100% - 32px);margin:auto;padding:46px 0 40px;display:grid;grid-template-columns:auto 1fr;gap:34px;align-items:center}
+.top img{width:200px;height:auto}
+.kicker{font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);font-size:.8rem}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(2rem,5vw,3.4rem);line-height:1.02;text-transform:uppercase;text-shadow:3px 3px 0 var(--ink),5px 5px 0 var(--gold);margin:8px 0 12px}
+.top p{color:var(--mute);max-width:640px}
+@media (max-width:700px){.top .in{grid-template-columns:1fr;text-align:center}.top img{margin:auto;width:160px}.top p{margin:auto;justify-content:center}}
+.layout{width:min(1180px,100% - 32px);margin:auto;display:grid;grid-template-columns:230px 1fr;gap:44px;padding:40px 0 80px}
+.layout>main,.layout>nav{min-width:0}
+nav.toc{position:sticky;top:20px;align-self:start;font-size:.92rem}
+nav.toc ol{list-style:none;counter-reset:t;border-left:1px solid var(--line)}
+nav.toc li{counter-increment:t}
+nav.toc a{display:block;padding:6px 0 6px 16px;color:var(--mute);text-decoration:none;letter-spacing:.04em}
+nav.toc a::before{content:counter(t,decimal-leading-zero) "  ";color:var(--gold)}
+nav.toc a:hover{color:var(--cream)}
+@media (max-width:900px){.layout{grid-template-columns:1fr}nav.toc{position:static}nav.toc ol{columns:2}}
+section{padding:10px 0 46px;border-bottom:1px solid var(--line);margin-bottom:40px}
+section:last-child{border-bottom:0}
+h2{font-family:var(--serif);font-weight:900;font-size:clamp(1.6rem,3.6vw,2.3rem);line-height:1.1;margin:6px 0 18px}
+h3{font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:1.05rem;margin:24px 0 10px;color:var(--cream)}
+p{margin:10px 0;max-width:76ch}
+b,strong{font-weight:500;color:var(--cream)}
+ul.l{margin:10px 0 10px 20px}
+ul.l li{margin:6px 0}
+ul.l li::marker{color:var(--gold)}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin:14px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h4{font-weight:500;letter-spacing:.08em;text-transform:uppercase;font-size:.95rem;margin-bottom:6px}
+.card.good{border-left:4px solid var(--ok)}.card.bad{border-left:4px solid var(--red)}
+.stat{font-family:var(--sans);font-weight:700;font-size:2.4rem;color:var(--gold);line-height:1}
+.stat small{display:block;font-size:.82rem;font-weight:400;color:var(--mute);letter-spacing:.06em;margin-top:6px;text-transform:uppercase}
+.tw{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:.95rem}
+th,td{padding:10px 12px;border-bottom:1px solid rgba(211,173,110,.14);text-align:left;vertical-align:top}
+th{font-weight:500;letter-spacing:.1em;text-transform:uppercase;font-size:.76rem;color:var(--gold);background:#17171a;position:sticky;top:0}
+td.n,th.n{text-align:right;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.calc{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:14px}
+@media (max-width:760px){.calc{grid-template-columns:1fr}}
+.row{display:grid;grid-template-columns:140px 1fr 1fr;gap:10px;align-items:center;padding:8px 0;border-bottom:1px dashed var(--line)}
+.row label{font-weight:400;font-size:.92rem}
+.row input{width:100%;min-height:40px;background:#121215;border:1px solid var(--line);border-radius:8px;color:var(--cream);padding:6px 10px;font:inherit}
+.out .stat{margin:8px 0 14px}
+.bar{height:10px;border-radius:99px;background:#26262b;overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),#f0d49c)}
+.check li{list-style:none;margin:8px 0;display:flex;gap:10px;align-items:flex-start}
+.check input{width:20px;height:20px;accent-color:var(--gold);margin-top:4px;flex:none}
+.check label{cursor:pointer}
+.phase{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:14px 0}
+.phase .h{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.phase .h b{font-family:var(--serif);font-size:1.3rem}
+.pill{display:inline-block;border:1px solid var(--gold);color:var(--gold);border-radius:99px;padding:2px 12px;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;font-weight:400}
+.note{background:rgba(211,173,110,.08);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:14px 0;color:var(--mute)}
+.btn{display:inline-flex;align-items:center;min-height:44px;padding:10px 20px;border-radius:99px;background:var(--gold);color:var(--ink);font-weight:600;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;font-size:.85rem}
+.btn.l{background:none;color:var(--gold);border:2px solid var(--gold)}
+.sev{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:99px;font-weight:500}
+.sev.a{background:var(--red);color:#fff}.sev.m{background:#c99a3b;color:#111}.sev.b{background:#3c3c44;color:var(--cream)}
+footer{text-align:center;color:var(--mute);font-size:.85rem;padding:30px 16px 50px;border-top:1px solid var(--line)}
+@media print{body{background:#fff;color:#111}nav.toc,.btn{display:none}.layout{display:block}.card,.phase,.tw{border-color:#ccc;background:#fff}h1{text-shadow:none;color:#111}th{background:#eee;color:#111}}
+</style>
+</head>
+<body>
+<header class="top"><div class="in">
+  <img src="../img/logo-light.png" alt="Cantina Real" width="200" height="126">
+  <div>
+    <div class="kicker">Documento para la dirección · noviembre 2026</div>
+    <h1>Plan 50 comensales diarios</h1>
+    <p>Diagnóstico, posicionamiento, campaña, promociones con control de margen, riesgos y ruta de 90 días para que Cantina Real sea la cantina de referencia de Jesús María. Preparado por LKM’r.</p>
+    <p style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href="../">Ver el sitio nuevo</a><a class="btn l" href="../#comparte">Kit de posters</a><a class="btn l" href="../#videos">Videos</a></p>
+  </div>
+</div></header>
+
+<div class="layout">
+<nav class="toc" aria-label="Contenido"><ol>
+  <li><a href="#resumen">Resumen</a></li><li><a href="#diagnostico">Diagnóstico</a></li><li><a href="#numeros">Los números</a></li>
+  <li><a href="#posicion">Posicionamiento</a></li><li><a href="#promos">Promociones</a></li><li><a href="#campana">Campaña</a></li>
+  <li><a href="#canales">Canales</a></li><li><a href="#experiencia">Experiencia</a></li><li><a href="#riesgos">Qué lo frena</a></li>
+  <li><a href="#ruta">Ruta 90 días</a></li><li><a href="#kpis">Tablero</a></li><li><a href="#presupuesto">Presupuesto</a></li><li><a href="#fechas">Fechas clave</a></li>
+</ol></nav>
+
+<main>
+<section id="resumen">
+  <div class="kicker">01 · Resumen</div>
+  <h2>Tres momentos, un solo lugar</h2>
+  <p>Cantina Real tiene algo que casi ninguna cantina de la zona tiene: <b>abre 17 horas al día</b> (9 AM a 2 AM), con carta corta pero completa, más de 25 tequilas y precios accesibles. El problema no es el producto. El problema es que <b>casi nadie se entera</b>: el Instagram oficial empieza de cero (1 seguidor y 0 publicaciones al 22 de noviembre de 2026) y el horario no aparece igual en todas partes.</p>
+  <p>La estrategia es adueñarse de tres momentos del día con una promo para cada día de la semana, medir cada visita y convertir a cada cliente en promotor.</p>
+  <div class="grid">
+    <div class="card"><div class="stat">50<small>comensales / día (meta a 90 días)</small></div></div>
+    <div class="card"><div class="stat">≈ $13 mil<small>venta diaria estimada a la meta</small></div></div>
+    <div class="card"><div class="stat">3<small>franjas: cruda · after · noche</small></div></div>
+    <div class="card"><div class="stat">7 + 3<small>promos diarias + extras listas</small></div></div>
+  </div>
+  <div class="note">Las cifras de ventas y tickets son estimaciones con precios de carta para planear. Hay que sustituirlas por los datos reales de caja en la primera semana (ver <a href="#kpis">Tablero</a>).</div>
+</section>
+
+<section id="diagnostico">
+  <div class="kicker">02 · Diagnóstico</div>
+  <h2>Lo que hay hoy</h2>
+  <div class="grid">
+    <div class="card good"><h4>Horario largo</h4>9 AM a 2 AM los 7 días. Permite vender desayuno con michelada, after office y noche en el mismo local.</div>
+    <div class="card good"><h4>Vitrina de tequila</h4>26 tequilas y 4 mezcales, de $50 la copa a $1,900 la botella: hay para cada bolsillo.</div>
+    <div class="card good"><h4>Precios de barrio</h4>Cerveza desde $45 y canasta de 8 a $290 ($36 c/u). Es competitivo contra bares de la ciudad.</div>
+    <div class="card good"><h4>Marca con identidad</h4>El logo (uvas, cruces, “Mexican Quality”) se ve premium y aguanta bien en redes.</div>
+    <div class="card good"><h4>Cocina corta y rentable</h4>6 productos (desayuno, tacos de filete, boneless, papas, arrachera, guacamole): fácil de sostener con calidad.</div>
+    <div class="card bad"><h4>Instagram en cero</h4>@cantinareal_mk sin publicaciones. Sin contenido, la gente nueva no tiene cómo conocer el lugar.</div>
+    <div class="card bad"><h4>Horario inconsistente</h4>Google dice 9 a 2; Facebook dice 9 a 23. Quien ve “cerrado” no llega.</div>
+    <div class="card bad"><h4>Fotos de baja calidad</h4>Las fotos públicas son capturas pequeñas y oscuras. Se ve menos de lo que es.</div>
+    <div class="card bad"><h4>Huecos en la carta</h4>Centenario Azul y Matusalem Platino sin precio de botella, “Agua mineral $100” (¿preparada?) y “Naranjada” repetida.</div>
+    <div class="card bad"><h4>Señal de servicio</h4>La carta dice “cualquier descortesía favor de reportar”: hubo quejas. El servicio es la mitad de la reseña.</div>
+    <div class="card bad"><h4>Sin medición</h4>No hay forma de saber de dónde llega cada cliente ni qué promo funciona.</div>
+    <div class="card bad"><h4>Público concentrado</h4>Depende del cliente de barrio y de las noches de fin de semana; entre semana y en la mañana hay capacidad ociosa.</div>
+  </div>
+</section>
+
+<section id="numeros">
+  <div class="kicker">03 · Los números</div>
+  <h2>De dónde salen 50 comensales</h2>
+  <p>50 al día no salen de una sola noche llena: salen de llenar <b>las cuatro franjas</b> un poco cada una. Mueve los números para ver el efecto (precarga con una estimación conservadora).</p>
+  <div class="calc">
+    <div class="card">
+      <div class="row" style="font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)"><span>Franja</span><span>Comensales</span><span>Ticket $</span></div>
+      <div id="rows"></div>
+    </div>
+    <div class="card out" id="out"></div>
+  </div>
+  <h3>El embudo</h3>
+  <p>Con 50 al día son ~1,500 visitas al mes. Si cada cliente viene en promedio 2 veces al mes, se necesitan <b>~750 personas distintas al mes</b>. Con el alcance local de Instagram, Facebook y Google Maps, y una conversión realista de 2 a 3 % de quien ve una publicación a quien visita, hacen falta entre <b>25 y 40 mil impresiones locales al mes</b>. Eso se logra con contenido diario más una pauta pequeña (ver <a href="#presupuesto">Presupuesto</a>).</p>
+</section>
+
+<section id="posicion">
+  <div class="kicker">04 · Posicionamiento</div>
+  <h2>“La cantina de Jesús María que no cierra temprano”</h2>
+  <p>No competir como antro ni como restaurante: competir como la <b>cantina bonita, segura y con precio claro</b> donde cabe todo el día.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Momento</th><th>A quién le hablamos</th><th>Promesa</th><th>Producto ancla</th></tr></thead>
+    <tbody>
+      <tr><td>Mañana (9–13)</td><td>Los de la cruda, trabajadores de turno, compadres de fin de semana</td><td>“Llega crudo, sal nuevo”</td><td>Desayuno Real + michelada</td></tr>
+      <tr><td>Comida (13–17)</td><td>Comida rápida de trabajo, domingos familiares</td><td>“Tacos de filete con tu chela”</td><td>Tacos Real, arrachera</td></tr>
+      <tr><td>After (17–20)</td><td>Salida del trabajo, amigos entre semana</td><td>“Hora Real: cerveza a $35”</td><td>Cerveza nacional, cubeta</td></tr>
+      <tr><td>Noche (20–2)</td><td>Grupos de amigos, comadres, cumpleaños, partidos</td><td>“La mesa se arma aquí”</td><td>Canasta, botella, cócteles de la casa</td></tr>
+    </tbody></table></div>
+  <h3>Ventaja competitiva (lo que nadie más en la zona tiene junto)</h3>
+  <ul class="l">
+    <li><b>Horario 9 AM–2 AM</b> comunicado en todos lados: la frase es el diferenciador.</li>
+    <li><b>Promo de cada día</b> visible en el sitio, con la hora de la Ciudad de México, que cambia sola.</li>
+    <li><b>Precios publicados</b> y “calculadora de cuenta” para dividir entre amigos: quita el miedo a la cuenta.</li>
+    <li><b>Reserva y cotización de eventos en 10 segundos</b> por WhatsApp.</li>
+    <li><b>“Comparte y gana”</b>: cada cliente que sube un póster trae gente nueva a cambio de una sangrita.</li>
+    <li><b>Tradición de cantina</b>: botana con la segunda ronda y torneo mensual de dominó/cubilete (ver <a href="#experiencia">Experiencia</a>).</li>
+  </ul>
+</section>
+
+<section id="promos">
+  <div class="kicker">05 · Promociones</div>
+  <h2>Una promo por día, con margen cuidado</h2>
+  <p>Regla de oro: <b>la promo empaqueta, no regala</b>. Se descuenta poco (10–20 %) y se usa para mover la franja floja o subir el ticket. Ninguna promo baja el precio de la botella ni de la cerveza individual en noches fuertes.</p>
+  <div class="tw"><table id="promoTable"><thead><tr><th>Día</th><th>Promo</th><th>Horario</th><th class="n">Precio</th><th>Para qué sirve</th></tr></thead><tbody></tbody></table></div>
+  <h3>Reglas para que no se coman el margen</h3>
+  <ul class="l">
+    <li>No acumulables, solo en consumo en el lugar y con horario fijo.</li>
+    <li>2×1 de miércoles: máximo 2 promociones por persona (consumo responsable y control de costo).</li>
+    <li>Cada ticket con promo se marca en la comanda (“P-LUN”, “P-MAR”…) para contarlo.</li>
+    <li>Revisión cada 4 semanas: si una promo mueve menos de 10 tickets por semana, se cambia por otra.</li>
+    <li>Pregunta obligada en caja: “¿Cómo te enteraste de nosotros?” (IG, Google, amigo, pasaba).</li>
+  </ul>
+  <div class="note">Los precios de las promos son propuesta de LKM’r a partir de la carta 2025. Se ajustan en un solo archivo (<code>data.js</code>) y el sitio, los posters y los videos se regeneran solos.</div>
+</section>
+
+<section id="campana">
+  <div class="kicker">06 · Campaña</div>
+  <h2>“La Semana Real”: lanzamiento en 4 semanas</h2>
+  <div class="phase"><div class="h"><b>Semana 1 · Arranque</b><span class="pill">Fundamentos + expectativa</span></div>
+    <p>Arreglar Google Maps y la bio de IG, publicar las 9 piezas de marca (horario, tequilas, cocina, de la casa, michelada, barra, partido, ubicación, reserva) para que el perfil no se vea vacío. Reel “Esto es Cantina Real”.</p></div>
+  <div class="phase"><div class="h"><b>Semana 2 · Lanzamiento de promos</b><span class="pill">Reel “La Semana Real”</span></div>
+    <p>Cada día a las 11:00 se publica la historia del día (póster 9:16) y se repite a las 18:00. Post del día en el feed. Pauta encendida (ver Presupuesto).</p></div>
+  <div class="phase"><div class="h"><b>Semana 3 · Comparte y gana</b><span class="pill">Contenido de clientes</span></div>
+    <p>Activar el póster “Comparte y gana” en mesas (QR) y en barra. Se resubien a las historias del perfil todas las publicaciones que etiquetan al lugar. Reel “¿Plan para hoy?”.</p></div>
+  <div class="phase"><div class="h"><b>Semana 4 · Posadas y fin de año</b><span class="pill">Ventas de grupo</span></div>
+    <p>Póster de Posadas fijado en el perfil, formulario de cotización y mensaje directo a empresas y equipos cercanos. Meta: 6 eventos de 15+ personas en diciembre.</p></div>
+  <h3>Calendario de 28 días (feed)</h3>
+  <p>Todo está listo en el sitio para descargar con su texto. Historias: la promo del día, todos los días.</p>
+  <div class="tw"><table id="cal"><thead><tr><th>Día</th><th>Semana 1</th><th>Semana 2</th><th>Semana 3</th><th>Semana 4</th></tr></thead><tbody></tbody></table></div>
+  <h3>Cómo publicar (20 minutos al día)</h3>
+  <ul class="l">
+    <li>Abrir el sitio en el celular → “Comparte y gana” → Guardar póster (el texto se copia solo) → Instagram → pegar.</li>
+    <li>Reels: subir el video, elegir un <b>audio en tendencia</b> dentro de Instagram (eso multiplica el alcance) y pegar el texto.</li>
+    <li>Compartir cada post también en Facebook y, si se abre, en TikTok con el mismo video.</li>
+    <li>Responder todos los comentarios y mensajes en menos de 1 hora durante el horario de apertura.</li>
+  </ul>
+</section>
+
+<section id="canales">
+  <div class="kicker">07 · Canales</div>
+  <h2>Dónde se gana cada cliente</h2>
+  <div class="grid">
+    <div class="card"><h4>1 · Google Maps (prioridad)</h4>Reclamar o verificar el perfil, poner el horario de 9 a 2 igual que en todos lados, categoría “Bar” + “Cantina”, enlace al sitio y a la carta, 20 fotos nuevas, publicar un póster cada semana. <b>Meta: 50 reseñas nuevas en 60 días</b> con un QR en cada mesa (“¿Te gustó? Déjanos 5 estrellas”). Responder todas, buenas y malas.</div>
+    <div class="card"><h4>2 · Instagram + Facebook</h4>Bio: “Cantina en Jesús María · 9 AM–2 AM · Promo diaria 👇” + enlace al sitio. Destacadas: Promos, Carta, Reservas, Eventos, Ubicación. 4 posts + 3 reels por semana + historias diarias.</div>
+    <div class="card"><h4>3 · WhatsApp Business</h4>Catálogo con la carta, mensaje de bienvenida y de ausencia, etiquetas (reserva, evento, cliente frecuente) y lista de difusión. <b>Meta: 500 contactos en 90 días.</b> Máximo 2 mensajes por semana.</div>
+    <div class="card"><h4>4 · Pauta local</h4>Campañas de “Mensajes a WhatsApp” en Meta, radio de 5 km alrededor del local, mayores de 18 (obligatorio para alcohol), con los reels de mejor resultado. Arrancar con $120 al día.</div>
+    <div class="card"><h4>5 · En el local</h4>Cartel de mesa con QR a la carta, la promo del día y “Comparte y gana”. Pizarrón en la entrada con la promo del día (la gente que pasa también cuenta).</div>
+    <div class="card"><h4>6 · Alianzas</h4>Equipos de futbol amateur (tercer tiempo en la cantina), oficinas y comercios cercanos (posadas), grupos de ciclistas y motociclistas los domingos (Domingo de Arrachera), y sitio de taxis para el conductor designado.</div>
+  </div>
+</section>
+
+<section id="experiencia">
+  <div class="kicker">08 · Experiencia</div>
+  <h2>Que regresen (y que lo cuenten)</h2>
+  <ul class="l">
+    <li><b>Atención en menos de 2 minutos</b> desde que la mesa se sienta. Un mesero por zona, saludo y la promo del día en la primera frase.</li>
+    <li><b>Botana con la segunda ronda</b> (cacahuate, chicharrón o frijoles): tradición de cantina, cuesta poco y alarga la estancia.</li>
+    <li><b>Torneo mensual de dominó o cubilete</b> con inscripción simbólica y premio en botella: llena un día flojo y crea comunidad.</li>
+    <li><b>Partidos</b>: Liga MX, liguillas, NFL los domingos y peleas. Se anuncian con el póster “Ven a ver el partido”.</li>
+    <li><b>Mujeres y grupos mixtos</b>: baños impecables, buena luz, seguridad en la puerta y cero tolerancia al acoso. “Miércoles de Comadres” solo funciona si se sienten seguras.</li>
+    <li><b>Salir bien</b>: opciones sin alcohol a la vista, conductor designado y número de taxi de confianza en la cuenta.</li>
+    <li><b>Cliente frecuente</b>: tarjeta de sellos (10 visitas = botella de Mezcal de la Casa) o, mejor, etiqueta “frecuente” en WhatsApp con un detalle en su cumpleaños.</li>
+    <li><b>Quejas</b>: el número de quejas ya está en la carta. Responder el mismo día y registrar qué pasó; las quejas repetidas son tareas de capacitación.</li>
+  </ul>
+</section>
+
+<section id="riesgos">
+  <div class="kicker">09 · Qué lo puede frenar</div>
+  <h2>Riesgos y cómo desactivarlos</h2>
+  <div class="tw"><table>
+    <thead><tr><th>Riesgo</th><th>Impacto</th><th>Qué hacer</th></tr></thead>
+    <tbody>
+      <tr><td>Servicio inconsistente o descortés</td><td><span class="sev a">Alto</span></td><td>Guion de bienvenida, tiempo de atención medido, bono a meseros por reseñas que los mencionan.</td></tr>
+      <tr><td>Horario distinto en Google y Facebook</td><td><span class="sev a">Alto</span></td><td>Unificar a 9:00–2:00 hoy mismo. Marcar días festivos y ley seca con anticipación.</td></tr>
+      <tr><td>Publicar 2 semanas y dejarlo</td><td><span class="sev a">Alto</span></td><td>Kit ya hecho (20 posters + 6 videos) y una persona responsable 20 min al día. Programar publicaciones con Meta Business Suite.</td></tr>
+      <tr><td>Promos que se comen el margen</td><td><span class="sev m">Medio</span></td><td>Reglas de la sección 05, marcar tickets y revisar cada 4 semanas.</td></tr>
+      <tr><td>Imagen de “cantina pesada” que aleja a mujeres y familias</td><td><span class="sev m">Medio</span></td><td>Luz, limpieza, seguridad, comunicación cálida (los posters ya están en ese tono) y Miércoles de Comadres.</td></tr>
+      <tr><td>Regulación de alcohol (horario, menores, publicidad)</td><td><span class="sev m">Medio</span></td><td>Leyenda “Evita el exceso”, aviso +18 en el sitio y la pauta, nada de “barra libre” ni consumo ilimitado, pedir identificación.</td></tr>
+      <tr><td>Fotos pobres</td><td><span class="sev m">Medio</span></td><td>Sesión de una tarde con celular: luz cálida, un producto por foto, barra llena. Cambiar las fotos de Google e IG.</td></tr>
+      <tr><td>Estacionamiento o acceso difícil</td><td><span class="sev b">Variable</span></td><td>Si falta, convenio con un estacionamiento cercano o indicar en Maps y en la reserva dónde estacionarse.</td></tr>
+      <tr><td>Ruido y vecinos</td><td><span class="sev b">Variable</span></td><td>Volumen controlado después de medianoche; buena relación con la cuadra (los vecinos también son clientes).</td></tr>
+      <tr><td>Temporada baja (cuesta de enero)</td><td><span class="sev m">Medio</span></td><td>Promo de enero con precio de Hora Real todo el día de lunes a miércoles y torneo de dominó.</td></tr>
+      <tr><td>Competencia de la Feria de San Marcos (abril–mayo)</td><td><span class="sev m">Medio</span></td><td>Posicionarse como el “precopeo” antes de la feria y el desayuno de cruda después: abrimos a las 9.</td></tr>
+      <tr><td>Depender de una sola persona para todo</td><td><span class="sev m">Medio</span></td><td>Este documento + tablero semanal: cualquiera del equipo puede ejecutar.</td></tr>
+    </tbody></table></div>
+</section>
+
+<section id="ruta">
+  <div class="kicker">10 · Ruta de 90 días</div>
+  <h2>Qué hacer y cuándo</h2>
+  <p>Marca lo que ya se hizo (se guarda en este navegador).</p>
+  <div class="phase"><div class="h"><b>Días 1–7 · Fundamentos</b><span class="pill">Meta: 25 diarios</span></div>
+    <ul class="check" data-k="f1">
+      <li>Unificar horario 9:00–2:00 en Google, Facebook e Instagram</li>
+      <li>Verificar Google Maps, subir 20 fotos y poner el enlace del sitio</li>
+      <li>Bio de IG con enlace al sitio y 5 destacadas</li>
+      <li>Corregir la carta: precios faltantes, agua mineral y naranjada repetida</li>
+      <li>Publicar las 9 piezas de marca</li>
+      <li>Imprimir carteles de mesa con QR (carta + reseñas)</li>
+      <li>WhatsApp Business con catálogo y respuestas rápidas</li>
+      <li>Pregunta “¿Cómo te enteraste?” en caja y hoja de conteo por franja</li>
+    </ul></div>
+  <div class="phase"><div class="h"><b>Días 8–30 · Lanzamiento</b><span class="pill">Meta: 35 diarios</span></div>
+    <ul class="check" data-k="f2">
+      <li>Activar las 7 promos diarias y Hora Real</li>
+      <li>Historia diaria a las 11:00 y a las 18:00</li>
+      <li>Reels “La Semana Real” y “¿Plan para hoy?”</li>
+      <li>Pauta de mensajes a WhatsApp (5 km, 18+)</li>
+      <li>Arrancar Comparte y gana en barra</li>
+      <li>Vender posadas: 10 mensajes diarios a empresas y equipos</li>
+      <li>Botana con la segunda ronda</li>
+    </ul></div>
+  <div class="phase"><div class="h"><b>Días 31–60 · Escala</b><span class="pill">Meta: 42 diarios</span></div>
+    <ul class="check" data-k="f3">
+      <li>Primera revisión de promos con datos (quitar la más floja)</li>
+      <li>Primer torneo de dominó/cubilete</li>
+      <li>Sesión de fotos y videos propios (clientes reales, con permiso)</li>
+      <li>50 reseñas nuevas en Google</li>
+      <li>Duplicar la pauta en los anuncios con más mensajes</li>
+    </ul></div>
+  <div class="phase"><div class="h"><b>Días 61–90 · Fidelidad</b><span class="pill">Meta: 50 diarios</span></div>
+    <ul class="check" data-k="f4">
+      <li>Programa de cliente frecuente</li>
+      <li>Lista de difusión con 500 contactos</li>
+      <li>Calendario fijo de partidos y eventos del mes en IG</li>
+      <li>Alianza con equipos amateur y sitio de taxis</li>
+      <li>Revisión de precios con datos de ticket y margen</li>
+    </ul></div>
+</section>
+
+<section id="kpis">
+  <div class="kicker">11 · Tablero semanal</div>
+  <h2>Lo que se mide se mejora</h2>
+  <p>Cada lunes se llena esta tabla (en papel o en hoja de cálculo) con la semana anterior. Si un número no sube en 3 semanas, se cambia la táctica, no la meta.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Indicador</th><th>Cómo se mide</th><th class="n">Hoy</th><th class="n">Día 30</th><th class="n">Día 90</th></tr></thead>
+    <tbody>
+      <tr><td>Comensales por día (promedio)</td><td>Conteo por franja en caja</td><td class="n">—</td><td class="n">35</td><td class="n">50</td></tr>
+      <tr><td>Ticket promedio por persona</td><td>Venta ÷ comensales</td><td class="n">—</td><td class="n">+5 %</td><td class="n">+10 %</td></tr>
+      <tr><td>Reservas por WhatsApp a la semana</td><td>Etiqueta “reserva”</td><td class="n">—</td><td class="n">15</td><td class="n">40</td></tr>
+      <tr><td>Tickets con promo a la semana</td><td>Marca P-DÍA en comanda</td><td class="n">0</td><td class="n">80</td><td class="n">150</td></tr>
+      <tr><td>Reseñas de Google (total / promedio)</td><td>Perfil de Google</td><td class="n">—</td><td class="n">+25 / 4.6</td><td class="n">+60 / 4.7</td></tr>
+      <tr><td>Seguidores de Instagram</td><td>Perfil</td><td class="n">1</td><td class="n">600</td><td class="n">2,000</td></tr>
+      <tr><td>Publicaciones de clientes (Comparte y gana)</td><td>Cortesías entregadas</td><td class="n">0</td><td class="n">30</td><td class="n">120</td></tr>
+      <tr><td>Eventos de 15+ personas al mes</td><td>Cotizaciones cerradas</td><td class="n">—</td><td class="n">6</td><td class="n">4</td></tr>
+    </tbody></table></div>
+</section>
+
+<section id="presupuesto">
+  <div class="kicker">12 · Presupuesto mensual sugerido</div>
+  <h2>Poco dinero, bien dirigido</h2>
+  <div class="tw"><table>
+    <thead><tr><th>Concepto</th><th class="n">Mensual</th><th>Nota</th></tr></thead>
+    <tbody>
+      <tr><td>Pauta en Meta (IG + FB)</td><td class="n">$3,600</td><td>$120 al día, objetivo mensajes a WhatsApp</td></tr>
+      <tr><td>Cortesías de “Comparte y gana”</td><td class="n">$1,200</td><td>~100 sangritas/mezcal de la casa a costo</td></tr>
+      <tr><td>Botana con segunda ronda</td><td class="n">$1,500</td><td>Se paga sola si la mesa pide una ronda más</td></tr>
+      <tr><td>Impresión (carteles de mesa, pizarrón, QR)</td><td class="n">$600</td><td>Solo el primer mes</td></tr>
+      <tr><td><b>Total</b></td><td class="n"><b>≈ $6,900</b></td><td>Con 10 comensales extra al día a $250 = <b>$75,000 más al mes</b></td></tr>
+    </tbody></table></div>
+</section>
+
+<section id="fechas">
+  <div class="kicker">13 · Fechas clave</div>
+  <h2>El año de Cantina Real</h2>
+  <div class="tw"><table>
+    <thead><tr><th>Cuándo</th><th>Ocasión</th><th>Jugada</th></tr></thead>
+    <tbody>
+      <tr><td>1–23 dic</td><td>Posadas</td><td>Paquetes de grupo, póster de Posadas fijado</td></tr>
+      <tr><td>Dic / may</td><td>Liguilla Liga MX</td><td>Ven a ver el partido + canasta</td></tr>
+      <tr><td>24–31 dic</td><td>Navidad y Año Nuevo</td><td>Abrir el 31 hasta la hora permitida, botella para llevar a la fiesta si la licencia lo permite</td></tr>
+      <tr><td>Enero</td><td>Cuesta de enero</td><td>Precio de Hora Real todo el día de lunes a miércoles</td></tr>
+      <tr><td>Febrero</td><td>Super Bowl y 14 de febrero</td><td>Canasta + boneless; “Día de la amistad” con 2×1 de la casa</td></tr>
+      <tr><td>Abril–mayo</td><td>Feria de San Marcos</td><td>Precopeo y desayuno de cruda</td></tr>
+      <tr><td>10 may / 3er dom jun</td><td>Día de la Madre / del Padre</td><td>Comida de domingo con arrachera</td></tr>
+      <tr><td>15–16 sep</td><td>Fiestas patrias</td><td>La noche más mexicana del año: tequila, decoración y reservas</td></tr>
+      <tr><td>Fines de mes</td><td>Quincena</td><td>Viernes de Canasta reforzado</td></tr>
+    </tbody></table></div>
+</section>
+</main>
+</div>
+<footer>Plan preparado por LKM’r para Cantina Real · Jesús María, Aguascalientes · Documento interno (no indexado)</footer>
+
+<script src="../data.js"></script>
+<script>
+(() => {
+  const { PROMOS, EXTRAS, POSTERS } = window.CR;
+  const money = n => "$" + Math.round(n).toLocaleString("es-MX");
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const store = { get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+
+  // Calculadora
+  const F = [["Mañana 9–13", 8, 150], ["Comida 13–17", 8, 200], ["After 17–20", 12, 180], ["Noche 20–2", 22, 380]];
+  const rows = document.getElementById("rows");
+  rows.innerHTML = F.map((f, i) => `<div class="row"><label for="c${i}">${f[0]}</label><input id="c${i}" type="number" min="0" value="${f[1]}" inputmode="numeric"><input id="t${i}" type="number" min="0" step="10" value="${f[2]}" inputmode="numeric" aria-label="Ticket ${f[0]}"></div>`).join("");
+  const calc = () => {
+    let c = 0, v = 0; const parts = F.map((f, i) => { const n = +document.getElementById("c" + i).value || 0, t = +document.getElementById("t" + i).value || 0; c += n; v += n * t; return [f[0], n]; });
+    const pct = Math.min(100, c / 50 * 100);
+    document.getElementById("out").innerHTML = `<div class="kicker">Resultado</div>
+      <div class="stat">${c}<small>comensales al día · ${Math.round(pct)} % de la meta</small></div><div class="bar"><i style="width:${pct}%"></i></div>
+      <div class="stat" style="margin-top:18px">${money(v)}<small>venta diaria estimada</small></div>
+      <div class="stat">${money(v * 30)}<small>venta mensual estimada (30 días)</small></div>
+      <div class="stat">${money(c ? v / c : 0)}<small>ticket promedio por persona</small></div>`;
+  };
+  rows.addEventListener("input", calc); calc();
+
+  // Tabla de promos
+  const order = PROMOS.slice().sort((a, b) => ((a.day + 6) % 7) - ((b.day + 6) % 7));
+  document.querySelector("#promoTable tbody").innerHTML = order.map(p => `<tr><td>${p.dayName}</td><td><b>${esc(p.title)}</b><br>${esc(p.deal)}</td><td>${esc(p.when)}</td>
+    <td class="n">${p.price ? `${money(p.price)}<br><s style="color:var(--mute)">${money(p.was)}</s>` : esc(p.badge)}</td><td>${esc(p.why)}</td></tr>`).join("")
+    + EXTRAS.map(e => `<tr><td>Extra</td><td><b>${esc(e.title)}</b><br>${esc(e.deal)}</td><td>${esc(e.hook)}</td><td class="n">${e.price ? money(e.price) : esc(e.badge)}</td><td>${e.id === "hora-real" ? "Llena la franja de 5 a 8 pm entre semana." : e.id === "cumple" ? "Trae mesas grandes con reservación." : "Convierte a cada cliente en publicidad gratis."}</td></tr>`).join("");
+
+  // Calendario de 28 días
+  const brand = ["horario", "tequilas", "cocina", "de-la-casa", "michelada", "barra", "ubicacion", "reserva", "partido"];
+  const t = id => (POSTERS.find(p => p.id === id) || {}).title || id;
+  const days = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+  const promoId = ["promo-lun", "promo-mar", "promo-mie", "promo-jue", "promo-vie", "promo-sab", "promo-dom"];
+  const w1 = ["horario", "tequilas", "Reel: Esto es Cantina Real", "cocina", "de-la-casa", "michelada", "ubicacion"];
+  const w2 = promoId.map((p, i) => i === 0 ? "Reel: La Semana Real" : p);
+  const w3 = ["comparte", "hora-real", "promo-mie", "Reel: ¿Plan para hoy?", "promo-vie", "barra", "partido"];
+  const w4 = ["posadas", "cumple", "promo-mie", "reserva", "promo-vie", "promo-sab", "posadas"];
+  document.querySelector("#cal tbody").innerHTML = days.map((d, i) => `<tr><td>${d}</td>${[w1, w2, w3, w4].map(w => `<td>${esc(w[i].startsWith("Reel") ? w[i] : t(w[i]))}</td>`).join("")}</tr>`).join("");
+
+  // Checklists guardadas en este navegador
+  document.querySelectorAll(".check").forEach(ul => {
+    const k = "plan-" + ul.dataset.k, saved = store.get(k, []);
+    [...ul.children].forEach((li, i) => {
+      const id = `${k}-${i}`, txt = li.textContent;
+      li.innerHTML = `<input type="checkbox" id="${id}" ${saved.includes(i) ? "checked" : ""}><label for="${id}">${esc(txt)}</label>`;
+    });
+    ul.addEventListener("change", () => store.set(k, [...ul.querySelectorAll("input")].map((c, i) => c.checked ? i : -1).filter(i => i >= 0)));
+  });
+})();
+</script>
+</body>
+</html>

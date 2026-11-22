@@ -1,1716 +1,603 @@
-<!DOCTYPE html>
-<html lang="es-MX" class="scroll-smooth">
+<!doctype html>
+<html lang="es-MX">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Cantina Real Ags · Cantina & Bar en Jesús María, Aguascalientes</title>
-  <meta name="description" content="Cantina Real Ags: tequilas y gringas de sabores en Jesús María, Aguascalientes. 4.3 en Google. Abierto todos los días de 9:00 a.m. a 2:00 a.m. Reserva tu mesa u ordena tu comanda." />
-  <meta name="theme-color" content="#0c0b0a" />
-  <meta property="og:title" content="Cantina Real Ags · Mexican Quality" />
-  <meta property="og:description" content="Tequilas y gringas de sabores en Emiliano Zapata 822, El Calvario, Jesús María, Ags." />
-  <meta property="og:type" content="restaurant" />
-  <meta property="og:image" content="assets/barra.jpg" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%230c0b0a'/%3E%3Ctext x='24' y='33' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-size='26' fill='%23e9a8ff'%3ECR%3C/text%3E%3C/svg%3E" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-
-  <script>document.documentElement.classList.add('js');</script>
-  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            obsidian: '#0c0b0a',
-            tabaco: { DEFAULT: '#181512', light: '#211c18' },
-            cobre: { DEFAULT: '#c5a059', light: '#e2c48a', deep: '#9a7a3c' },
-            agave: '#10b981',
-            ambar: '#f59e0b',
-            neon: { DEFAULT: '#e9a8ff', deep: '#b26bff' },
-            marfil: '#fdfbf7',
-            arena: '#a8a29e',
-          },
-          fontFamily: {
-            display: ['"Playfair Display"', 'Georgia', 'serif'],
-            script: ['"Great Vibes"', 'cursive'],
-            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
-          },
-          boxShadow: {
-            cobre: '0 10px 30px rgba(197,160,89,0.10)',
-            'cobre-lg': '0 20px 60px rgba(197,160,89,0.20)',
-          },
-          screens: { xs: '400px', '3xl': '1920px' },
-          letterSpacing: { luxe: '0.32em' },
-        },
-      },
-    };
-  </script>
-
-  <style>
-    :root {
-      --obsidian: #0c0b0a;
-      --tabaco: #181512;
-      --cobre: #c5a059;
-      --cobre-light: #e2c48a;
-      --neon: #e9a8ff;
-      --line: rgba(197,160,89,0.2);
-      --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
-      color-scheme: dark;
-    }
-    html { -webkit-text-size-adjust: 100%; scroll-padding-top: 88px; }
-    body { background: var(--obsidian); color: #fdfbf7; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
-    body.is-locked { overflow: hidden; }
-    ::selection { background: rgba(197,160,89,0.4); color: #fff; }
-
-    /* Grano cinematográfico */
-    .grain::after {
-      content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 100; opacity: 0.035;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    }
-    ::-webkit-scrollbar { width: 10px; height: 8px; }
-    ::-webkit-scrollbar-track { background: var(--obsidian); }
-    ::-webkit-scrollbar-thumb { background: #2a241e; border-radius: 99px; border: 2px solid var(--obsidian); }
-    .no-scrollbar { scrollbar-width: none; }
-    .no-scrollbar::-webkit-scrollbar { display: none; }
-
-    /* Superficies */
-    .card-luxe { background: var(--tabaco); border: 1px solid var(--line); }
-    .hairline { border-color: var(--line); }
-    .text-gradient-cobre { background: linear-gradient(100deg, #f3e2bb 0%, #c5a059 50%, #9a7a3c 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
-    .divider-cobre { height: 1px; background: linear-gradient(90deg, transparent, rgba(197,160,89,0.55), transparent); }
-    /* Letrero neón (como el logo de la casa) */
-    .neon-sign { color: #f6d5ff; text-shadow: 0 0 4px rgba(246,213,255,0.9), 0 0 12px rgba(233,168,255,0.85), 0 0 28px rgba(178,107,255,0.6), 0 0 54px rgba(120,80,255,0.35); animation: flicker 8s infinite; }
-    @keyframes flicker { 0%, 91%, 100% { opacity: 1; } 92% { opacity: 0.6; } 93% { opacity: 1; } 95% { opacity: 0.75; } 96% { opacity: 1; } }
-
-    /* Botones */
-    .btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; border-radius: 999px; font-weight: 600; letter-spacing: 0.02em; transition: transform 0.45s var(--ease-luxe), background-color 0.3s, color 0.3s, box-shadow 0.45s var(--ease-luxe), border-color 0.3s; will-change: transform; -webkit-tap-highlight-color: transparent; overflow: hidden; isolation: isolate; }
-    .btn:focus-visible, .focus-ring:focus-visible { outline: 2px solid var(--cobre-light); outline-offset: 3px; }
-    .btn-cobre { background: linear-gradient(135deg, #e2c48a, #c5a059 55%, #a8843f); color: #17120c; box-shadow: 0 10px 30px rgba(197,160,89,0.18); }
-    .btn-cobre:hover { box-shadow: 0 16px 44px rgba(197,160,89,0.35); }
-    .btn-ghost { border: 1px solid rgba(253,251,247,0.18); color: #fdfbf7; background: rgba(255,255,255,0.02); backdrop-filter: blur(8px); }
-    .btn-ghost:hover { border-color: var(--cobre); color: var(--cobre-light); box-shadow: 0 10px 30px rgba(197,160,89,0.1); }
-    .btn:disabled { opacity: 0.45; cursor: not-allowed; box-shadow: none; }
-    .ripple { position: absolute; border-radius: 50%; transform: scale(0); pointer-events: none; background: rgba(255,255,255,0.35); animation: ripple 0.65s var(--ease-luxe) forwards; z-index: -1; }
-    @keyframes ripple { to { transform: scale(4); opacity: 0; } }
-    .press { transition: transform 0.18s var(--ease-luxe); }
-    .press:active { transform: scale(0.96); }
-
-    /* Chips */
-    .chip { display: inline-flex; align-items: center; gap: 0.45rem; border: 1px solid rgba(253,251,247,0.1); border-radius: 999px; padding: 0.55rem 1rem; font-size: 0.82rem; color: #d6d3d1; background: rgba(255,255,255,0.02); transition: all 0.3s var(--ease-luxe); white-space: nowrap; }
-    .chip:hover { border-color: rgba(197,160,89,0.5); color: #fff; }
-    .chip[aria-pressed='true'], .chip[aria-selected='true'], .chip[aria-checked='true'] { border-color: var(--cobre); background: rgba(197,160,89,0.12); color: var(--cobre-light); }
-    .chip:focus-visible { outline: 2px solid var(--cobre-light); outline-offset: 2px; }
-    .chip:disabled { opacity: 0.3; cursor: not-allowed; text-decoration: line-through; }
-
-    /* Reveal */
-    .js [data-reveal] { opacity: 0; transform: translate3d(0, 28px, 0); transition: opacity 1s var(--ease-luxe), transform 1.1s var(--ease-luxe); transition-delay: var(--d, 0ms); }
-    .js [data-reveal='scale'] { transform: scale(0.96); }
-    .js [data-reveal].is-visible { opacity: 1; transform: none; }
-
-    /* Hero */
-    .hero-img { animation: kenburns 24s var(--ease-luxe) both; transform-origin: 50% 40%; }
-    @keyframes kenburns { from { transform: scale(1.15); } to { transform: scale(1.02); } }
-    .hero-line { display: block; overflow: hidden; padding-bottom: 0.08em; }
-    .hero-line > span { display: inline-block; animation: lineUp 1.3s var(--ease-luxe) both; animation-delay: var(--d, 0ms); }
-    @keyframes lineUp { from { transform: translateY(110%); opacity: 0; } to { transform: none; opacity: 1; } }
-    .fade-up { animation: fadeUp 1.2s var(--ease-luxe) both; animation-delay: var(--d, 0ms); }
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
-    .scroll-cue { animation: cue 2.2s ease-in-out infinite; }
-    @keyframes cue { 0%, 100% { transform: translate(-50%, 0); opacity: 0.4; } 50% { transform: translate(-50%, 8px); opacity: 1; } }
-
-    /* Header */
-    #site-header { transition: background-color 0.5s var(--ease-luxe), border-color 0.5s, padding 0.5s var(--ease-luxe); }
-    #site-header.is-scrolled { background: rgba(0,0,0,0.7); backdrop-filter: blur(14px) saturate(140%); -webkit-backdrop-filter: blur(14px) saturate(140%); border-color: var(--line); }
-    .nav-link { position: relative; }
-    .nav-link::after { content: ''; position: absolute; left: 0; right: 0; bottom: -6px; height: 1px; background: var(--cobre); transform: scaleX(0); transform-origin: right; transition: transform 0.5s var(--ease-luxe); }
-    .nav-link:hover::after, .nav-link.is-active::after { transform: scaleX(1); transform-origin: left; }
-    .nav-link.is-active { color: #fff; }
-    .status-dot { position: relative; }
-    .status-dot::after { content: ''; position: absolute; inset: -4px; border-radius: 50%; background: currentColor; opacity: 0.4; animation: pulse 2s ease-out infinite; }
-    @keyframes pulse { from { transform: scale(0.6); opacity: 0.5; } to { transform: scale(1.8); opacity: 0; } }
-    .cart-bump { animation: bump 0.6s var(--ease-luxe); }
-    @keyframes bump { 0% { transform: scale(1); } 35% { transform: scale(1.25); } 100% { transform: scale(1); } }
-
-    /* Marquee */
-    .marquee-track { animation: marquee 38s linear infinite; }
-    @keyframes marquee { to { transform: translateX(-50%); } }
-
-    /* Tarjetas del menú */
-    .dish-card { transition: transform 0.6s var(--ease-luxe), border-color 0.4s, box-shadow 0.6s var(--ease-luxe); }
-    .dish-card:hover { transform: translateY(-6px); border-color: rgba(197,160,89,0.45); box-shadow: 0 24px 60px rgba(197,160,89,0.10); }
-    .dish-card img { transition: transform 1.2s var(--ease-luxe); }
-    .dish-card:hover img { transform: scale(1.07); }
-    .dish-enter { animation: dishIn 0.7s var(--ease-luxe) both; animation-delay: var(--d, 0ms); }
-    @keyframes dishIn { from { opacity: 0; transform: translateY(18px) scale(0.98); } to { opacity: 1; transform: none; } }
-
-    /* Overlays (modal / drawers) */
-    .overlay { position: fixed; inset: 0; z-index: 70; visibility: hidden; }
-    .overlay.is-open { visibility: visible; }
-    .overlay-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.72); backdrop-filter: blur(6px); opacity: 0; transition: opacity 0.5s var(--ease-luxe); }
-    .overlay.is-open .overlay-backdrop { opacity: 1; }
-    .drawer-panel { position: absolute; top: 0; bottom: 0; right: 0; width: min(100%, 460px); transform: translateX(105%); transition: transform 0.6s var(--ease-luxe); }
-    .drawer-left .drawer-panel { right: auto; left: 0; transform: translateX(-105%); }
-    .overlay.is-open .drawer-panel { transform: none; }
-    .modal-panel { opacity: 0; transform: translateY(24px) scale(0.98); transition: opacity 0.5s var(--ease-luxe), transform 0.6s var(--ease-luxe); }
-    .overlay.is-open .modal-panel { opacity: 1; transform: none; }
-    .overlay:not(.is-open) .drawer-panel, .overlay:not(.is-open) .modal-panel { transition-delay: 0s; }
-
-    /* Animación de vuelo a la comanda */
-    .fly-dot { position: fixed; z-index: 90; width: 46px; height: 46px; border-radius: 50%; background-size: cover; background-position: center; border: 2px solid var(--cobre); pointer-events: none; box-shadow: 0 10px 30px rgba(197,160,89,0.35); }
-
-    /* Galería masonry */
-    .masonry { columns: 2; column-gap: 12px; }
-    @media (min-width: 768px) { .masonry { columns: 3; column-gap: 16px; } }
-    @media (min-width: 1280px) { .masonry { columns: 4; } }
-    .masonry > * { break-inside: avoid; margin-bottom: 12px; }
-    @media (min-width: 768px) { .masonry > * { margin-bottom: 16px; } }
-    .gallery-item img { transition: transform 1.2s var(--ease-luxe), filter 0.6s; }
-    .gallery-item:hover img { transform: scale(1.08); filter: saturate(1.15); }
-    .gallery-item figcaption { transition: opacity 0.5s var(--ease-luxe), transform 0.5s var(--ease-luxe); opacity: 0; transform: translateY(8px); }
-    .gallery-item:hover figcaption, .gallery-item:focus-visible figcaption { opacity: 1; transform: none; }
-
-    /* Formularios */
-    .field { width: 100%; border-radius: 14px; border: 1px solid rgba(253,251,247,0.1); background: rgba(255,255,255,0.03); padding: 0.85rem 1rem; color: #fff; font-size: 0.95rem; transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s; }
-    .field::placeholder { color: #78716c; }
-    .field:focus { outline: none; border-color: var(--cobre); box-shadow: 0 0 0 4px rgba(197,160,89,0.12); background: rgba(255,255,255,0.05); }
-    .field.is-invalid { border-color: #f87171; box-shadow: 0 0 0 4px rgba(248,113,113,0.1); }
-    .field.is-valid { border-color: rgba(16,185,129,0.6); }
-    .field-error { min-height: 1.1rem; font-size: 0.75rem; color: #fca5a5; margin-top: 0.35rem; }
-    select.field { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23c5a059' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; padding-right: 2.6rem; }
-    select.field option { background: #181512; }
-    .step-panel { animation: fadeUp 0.6s var(--ease-luxe) both; }
-    .date-pill[aria-pressed='true'] { border-color: var(--cobre); background: rgba(197,160,89,0.14); }
-    .date-pill[aria-pressed='true'] .dp-num { color: var(--cobre-light); }
-    .zone-card[aria-pressed='true'] { border-color: var(--cobre); background: linear-gradient(160deg, rgba(197,160,89,0.12), rgba(197,160,89,0.02)); }
-    .tip-btn[aria-pressed='true'] { border-color: var(--cobre); background: rgba(197,160,89,0.15); color: var(--cobre-light); }
-
-    .capitalize-first::first-letter { text-transform: uppercase; }
-    /* Toast */
-    #toast { transform: translate(-50%, 24px); opacity: 0; visibility: hidden; transition: transform 0.6s var(--ease-luxe), opacity 0.4s, visibility 0.6s; }
-    #toast.is-shown { transform: translate(-50%, 0); opacity: 1; visibility: visible; }
-
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
-      .js [data-reveal] { opacity: 1; transform: none; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cantina Real · Cantina y bar en Jesús María, Ags. · Abierto 9 AM a 2 AM</title>
+<meta name="description" content="Cantina Real en Jesús María, Aguascalientes: más de 25 tequilas, micheladas, canastas de cerveza, cocina y una promo para cada día. Abierto todos los días de 9 AM a 2 AM. Reserva por WhatsApp 449 415 94 66.">
+<meta name="theme-color" content="#121214">
+<link rel="canonical" href="https://lukoffmon.github.io/WebDesignLKM/cantina-real/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Cantina Real · Jesús María, Ags.">
+<meta property="og:description" content="Una promo para cada día, más de 25 tequilas y cocina. 9 AM a 2 AM, los 7 días.">
+<meta property="og:image" content="https://lukoffmon.github.io/WebDesignLKM/cantina-real/posters/horario.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/uvas.png">
+<link rel="apple-touch-icon" href="img/uvas.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BarOrPub","name":"Cantina Real","alternateName":"Cantina Real JM-AGS",
+"image":"https://lukoffmon.github.io/WebDesignLKM/cantina-real/posters/horario.png",
+"url":"https://lukoffmon.github.io/WebDesignLKM/cantina-real/","telephone":"+52 449 415 9466","priceRange":"$$",
+"servesCuisine":["Mexicana","Bar"],"acceptsReservations":"True","foundingDate":"2021",
+"address":{"@type":"PostalAddress","streetAddress":"Emiliano Zapata 822, El Calvario","addressLocality":"Jesús María","addressRegion":"Aguascalientes","postalCode":"20923","addressCountry":"MX"},
+"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"09:00","closes":"02:00"}],
+"hasMenu":"https://lukoffmon.github.io/WebDesignLKM/cantina-real/#carta","sameAs":["https://www.instagram.com/cantinareal_mk/"]}
+</script>
+<style>
+:root{--ink:#0e0e10;--bg:#131316;--card:#1b1b1f;--line:rgba(211,173,110,.28);--gold:#D3AD6E;--gold2:#e8c98f;--cream:#F6EFE2;--mute:rgba(246,239,226,.62);--red:#b8433c;--ok:#5fbf7a;
+  --serif:"Playfair Display",Georgia,serif;--sans:Oswald,"Arial Narrow",sans-serif;--r:14px;color-scheme:dark}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--cream);font-family:var(--sans);font-weight:400;line-height:1.5;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.07;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+main,header,footer{position:relative;z-index:1}
+img,video{max-width:100%;display:block}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1180px,100% - 32px);margin-inline:auto}
+.kicker{font-weight:500;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);font-size:.82rem}
+.royal{font-family:var(--serif);font-weight:900;text-transform:uppercase;line-height:.92;letter-spacing:-.01em;
+  text-shadow:3px 3px 0 var(--ink),5px 5px 0 var(--gold)}
+h2.royal{font-size:clamp(2.4rem,7vw,4.6rem)}
+.sec{padding:clamp(64px,10vw,120px) 0}
+.sec-head{text-align:center;margin-bottom:clamp(28px,5vw,52px)}
+.sec-head p{color:var(--mute);max-width:620px;margin:14px auto 0;font-weight:300;font-size:1.08rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 26px;border-radius:999px;
+  font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:.92rem;text-decoration:none;transition:transform .15s,background .2s,color .2s}
+.btn:active{transform:scale(.97)}
+.btn-gold{background:var(--gold);color:var(--ink)}
+.btn-gold:hover{background:var(--gold2)}
+.btn-line{border:2px solid var(--gold);color:var(--gold)}
+.btn-line:hover{background:var(--gold);color:var(--ink)}
+.btn-sm{min-height:42px;padding:8px 16px;font-size:.8rem;letter-spacing:.08em}
+/* nav */
+.nav{position:sticky;top:0;z-index:40;background:rgba(14,14,16,.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:18px;height:64px}
+.nav-logo img{height:44px;width:auto}
+.nav-links{display:flex;gap:22px;margin-left:auto;list-style:none}
+.nav-links a{text-decoration:none;text-transform:uppercase;letter-spacing:.14em;font-size:.82rem;color:var(--mute)}
+.nav-links a:hover{color:var(--gold)}
+.status{display:inline-flex;align-items:center;gap:8px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--mute)}
+.status i{width:9px;height:9px;border-radius:50%;background:var(--red);box-shadow:0 0 0 4px rgba(184,67,60,.18)}
+.status.open i{background:var(--ok);box-shadow:0 0 0 4px rgba(95,191,122,.18);animation:pulse 2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px rgba(95,191,122,0)}}
+@media (max-width:900px){.nav-links{display:none}.nav .status{margin-left:auto}}
+@media (max-width:420px){.nav .status span{display:none}}
+/* hero */
+.hero{position:relative;padding:150px 0 70px;overflow:hidden;
+  background:radial-gradient(90% 60% at 30% 20%,rgba(211,173,110,.16),transparent 60%),radial-gradient(70% 50% at 90% 80%,rgba(184,67,60,.12),transparent 60%)}
+.papel{position:absolute;left:0;top:0;width:100%;height:110px}
+.papel .pp-flag{transform-origin:top;animation:sway 4s ease-in-out infinite;animation-delay:calc(var(--i)*-.4s)}
+@keyframes sway{50%{transform:skewX(3deg) translateY(2px)}}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.hero-logo{width:min(460px,90%);height:auto;margin-bottom:22px;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5))}
+.hero h1{font-family:var(--serif);font-weight:900;font-size:clamp(2.2rem,5.6vw,4rem);line-height:1;text-transform:uppercase;text-shadow:3px 3px 0 var(--ink),5px 5px 0 var(--gold)}
+.hero h1 em{display:block;font-style:italic;text-transform:none;color:var(--gold);text-shadow:none;font-size:.62em;margin-top:10px}
+.hero p.lead{font-size:1.18rem;font-weight:300;color:var(--mute);margin:20px 0 28px;max-width:540px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero-facts{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:30px;color:var(--mute);font-size:.92rem;letter-spacing:.06em;text-transform:uppercase}
+.hero-facts b{color:var(--gold);font-weight:600}
+.phone{position:relative;width:min(320px,78vw);aspect-ratio:9/16;margin-inline:auto;border-radius:34px;padding:10px;background:#000;
+  box-shadow:0 0 0 2px var(--gold),0 40px 90px rgba(0,0,0,.65);transform:rotate(2.5deg)}
+.phone video{width:100%;height:100%;object-fit:cover;border-radius:26px}
+.phone .tag{position:absolute;left:-14px;top:40px;z-index:2;background:var(--gold);color:var(--ink);font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:8px 16px;transform:rotate(-8deg);box-shadow:4px 4px 0 var(--ink);max-width:90%}
+@media (max-width:900px){.hero{padding-top:120px}.hero-grid{grid-template-columns:1fr;text-align:center}.hero p.lead{margin-inline:auto}.hero-ctas,.hero-facts{justify-content:center}.hero-logo{margin-inline:auto}}
+/* hoy */
+.today{display:grid;grid-template-columns:auto 1fr auto;gap:28px;align-items:center;background:linear-gradient(135deg,#221f1a,#17171a);
+  border:1px solid var(--line);border-radius:22px;padding:28px 32px;position:relative;overflow:hidden}
+.today::after{content:"HOY";position:absolute;right:-10px;bottom:-40px;font-family:var(--serif);font-weight:900;font-size:10rem;color:rgba(211,173,110,.06);pointer-events:none}
+.ic{display:grid;place-items:center;color:var(--gold);border:2px solid var(--line);border-radius:50%;background:radial-gradient(circle,rgba(211,173,110,.14),transparent 70%)}
+.ic svg{width:62%;height:62%}
+.today .ic{width:120px;height:120px}
+.today h3{font-family:var(--serif);font-weight:900;font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.05}
+.today p{color:var(--mute);margin-top:6px}
+.price{font-weight:700;color:var(--gold);font-size:2.6rem;line-height:1;white-space:nowrap}
+.price s{display:block;font-size:.95rem;color:var(--mute);font-weight:400;text-decoration-thickness:2px}
+.badge{display:inline-block;background:var(--gold);color:var(--ink);font-weight:700;text-transform:uppercase;padding:6px 14px;transform:rotate(-3deg);box-shadow:4px 4px 0 var(--ink);font-size:1.25rem}
+@media (max-width:700px){.today{grid-template-columns:1fr;text-align:center;justify-items:center;padding:24px 18px}.today .btns{justify-content:center}}
+/* semana */
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;margin-top:22px}
+.day{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 12px;text-align:center;transition:transform .2s,border-color .2s;cursor:pointer}
+.day:hover{transform:translateY(-4px);border-color:var(--gold)}
+.day.is-today{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold) inset}
+.day.is-today::before{content:"Hoy";position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--ink);font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:2px 10px;border-radius:99px}
+.day .d{font-weight:600;letter-spacing:.2em;color:var(--gold);font-size:.85rem}
+.day .ic{width:64px;height:64px;margin:12px auto}
+.day h4{font-family:var(--serif);font-size:1.02rem;line-height:1.15;min-height:2.3em}
+.day .pp{margin-top:8px;font-weight:700;color:var(--gold);font-size:1.3rem}
+.day small{display:block;color:var(--mute);font-size:.75rem;letter-spacing:.06em}
+@media (max-width:1000px){.week{grid-template-columns:repeat(7,minmax(150px,1fr));overflow-x:auto;scroll-snap-type:x mandatory;padding:14px 2px 8px}.day{scroll-snap-align:start}}
+.extras{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+.extra{display:flex;gap:16px;align-items:center;background:var(--card);border:1px dashed var(--line);border-radius:var(--r);padding:18px}
+.extra .ic{width:64px;height:64px;flex:none}
+.extra h4{font-family:var(--serif);font-size:1.2rem}
+.extra p{color:var(--mute);font-size:.92rem;line-height:1.35}
+@media (max-width:800px){.extras{grid-template-columns:1fr}}
+.fine{color:var(--mute);font-size:.8rem;text-align:center;margin-top:18px;letter-spacing:.04em}
+/* carta */
+.carta-bar{position:sticky;top:64px;z-index:20;background:rgba(19,19,22,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:12px 0;border-bottom:1px solid var(--line)}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);border-radius:99px;padding:8px 16px;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);min-height:42px;text-decoration:none;display:inline-flex;align-items:center}
+.chip[aria-pressed=true]{background:var(--gold);color:var(--ink);border-color:var(--gold);font-weight:600}
+.search{display:flex;gap:10px;margin-top:10px}
+.search input{flex:1;min-width:0;min-height:44px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 16px;color:var(--cream);font:inherit;font-size:1rem}
+.search input::placeholder{color:var(--mute)}
+.menu-grid{columns:2 440px;column-gap:28px;margin-top:28px}
+.msec{break-inside:avoid;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 20px 16px;margin-bottom:28px;position:relative}
+.msec.star{background:linear-gradient(160deg,#25211a,#1b1b1f 60%);border-color:rgba(211,173,110,.5)}
+.msec h3{font-family:var(--serif);font-weight:900;text-transform:uppercase;font-size:1.7rem;letter-spacing:.01em;text-shadow:2px 2px 0 var(--ink),3px 3px 0 var(--gold)}
+.msec .note{color:var(--mute);font-size:.92rem;margin:2px 0 10px;font-weight:300}
+.cols{display:flex;justify-content:flex-end;gap:8px;font-size:.72rem;letter-spacing:.18em;color:var(--gold);text-transform:uppercase}
+.cols span{width:78px;text-align:center}
+.it{display:flex;align-items:center;gap:8px;padding:9px 0;border-bottom:1px dashed rgba(211,173,110,.16)}
+.it:last-child{border-bottom:0}
+.it .n{flex:1;min-width:0;text-transform:uppercase;letter-spacing:.04em;font-size:1rem;line-height:1.25}
+.it .n small{display:block;text-transform:none;letter-spacing:.02em;color:var(--mute);font-size:.82rem;font-weight:300}
+.it .n .hot{display:inline-block;margin-left:8px;font-size:.62rem;letter-spacing:.12em;background:var(--red);color:#fff;padding:1px 7px;border-radius:99px;vertical-align:middle}
+.add{width:78px;display:flex;justify-content:center;flex:none}
+.add button{min-height:40px;width:100%;border:1px solid var(--line);border-radius:10px;padding:4px 6px;font-weight:600;color:var(--gold);font-size:1rem;transition:background .15s,color .15s}
+.add button:hover{background:var(--gold);color:var(--ink)}
+.add button.na{color:var(--mute);font-size:.7rem;font-weight:400;letter-spacing:.02em;cursor:default}
+.add button.na:hover{background:none;color:var(--mute)}
+.empty{text-align:center;color:var(--mute);padding:40px 0}
+/* cuenta */
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:50;display:none;align-items:center;gap:10px;background:var(--gold);color:var(--ink);
+  border-radius:99px;padding:12px 20px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 14px 34px rgba(0,0,0,.5)}
+.fab.on{display:inline-flex}
+.fab b{background:var(--ink);color:var(--gold);border-radius:99px;min-width:28px;height:28px;display:grid;place-items:center;font-size:.9rem}
+.sheet{position:fixed;inset:0;z-index:60;display:none}
+.sheet.on{display:block}
+.sheet .bg{position:absolute;inset:0;background:rgba(0,0,0,.6)}
+.sheet .panel{position:absolute;right:0;top:0;bottom:0;width:min(440px,100%);background:#17171a;border-left:1px solid var(--line);display:flex;flex-direction:column;padding:20px 20px calc(20px + env(safe-area-inset-bottom))}
+.sheet h3{font-family:var(--serif);font-size:1.7rem}
+.sheet .x{position:absolute;right:14px;top:12px;width:44px;height:44px;font-size:1.6rem;color:var(--mute)}
+.lines{flex:1;overflow:auto;margin:14px 0}
+.line{display:grid;grid-template-columns:1fr auto auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px dashed var(--line)}
+.line small{color:var(--mute)}
+.qty{display:flex;align-items:center;gap:6px}
+.qty button{width:36px;height:36px;border:1px solid var(--line);border-radius:8px;font-weight:700;color:var(--gold)}
+.sum{border-top:1px solid var(--line);padding-top:12px}
+.sum .row{display:flex;justify-content:space-between;align-items:center;margin:6px 0;gap:10px}
+.sum .row b{color:var(--gold);font-size:1.5rem}
+.split{display:flex;align-items:center;gap:8px}
+.split input{width:70px;min-height:40px;background:var(--card);border:1px solid var(--line);border-radius:10px;color:var(--cream);text-align:center;font:inherit}
+/* galería */
+.gal{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:180px;gap:12px}
+.gal figure{position:relative;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:#000}
+.gal img{width:100%;height:100%;object-fit:cover;filter:saturate(.95) contrast(1.05);transition:transform .6s}
+.gal figure:hover img{transform:scale(1.05)}
+.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 10px;background:linear-gradient(transparent,rgba(0,0,0,.85));font-size:.82rem;letter-spacing:.14em;text-transform:uppercase}
+.g1{grid-column:span 3;grid-row:span 2}.g2{grid-column:span 3}.g3{grid-column:span 2;grid-row:span 2}.g4{grid-column:span 1;grid-row:span 2}.g5{grid-column:span 3;grid-row:span 2}
+@media (max-width:760px){.gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}.gal figure{grid-column:span 1!important;grid-row:span 1!important}.gal .g1,.gal .g5{grid-column:span 2!important;grid-row:span 2!important}}
+/* videos */
+.vids,.gifs{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.gifs{margin-top:22px}
+.vid{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:12px}
+.vid video{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:12px;background:#000}
+.vid.sq video{aspect-ratio:1}
+.vid h4{font-family:var(--serif);font-size:1.25rem}
+.vid .acts{display:flex;flex-wrap:wrap;gap:8px}
+@media (max-width:860px){.vids,.gifs{grid-template-columns:1fr;max-width:420px;margin-inline:auto}}
+/* kit */
+.tabs{display:flex;justify-content:center;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+.posters{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.poster{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.poster img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;background:#000}
+.posters.story .poster img{aspect-ratio:9/16}
+.poster .b{padding:12px 12px 14px;display:flex;flex-direction:column;gap:10px;flex:1}
+.poster h4{font-size:1rem;letter-spacing:.06em;text-transform:uppercase}
+.poster details{font-size:.86rem;color:var(--mute)}
+.poster details summary{cursor:pointer;color:var(--gold);letter-spacing:.06em}
+.poster details pre{white-space:pre-wrap;font-family:inherit;margin-top:8px;line-height:1.4}
+.poster .acts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto}
+@media (max-width:520px){.posters{grid-template-columns:1fr 1fr;gap:10px}.poster .acts{grid-template-columns:1fr}.poster h4{font-size:.85rem}}
+.howto{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px;counter-reset:s}
+.howto div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 16px 16px 60px;position:relative;color:var(--mute)}
+.howto div b{color:var(--cream);display:block;letter-spacing:.06em;text-transform:uppercase}
+.howto div::before{counter-increment:s;content:counter(s);position:absolute;left:16px;top:14px;width:32px;height:32px;border-radius:50%;background:var(--gold);color:var(--ink);font-weight:700;display:grid;place-items:center}
+@media (max-width:760px){.howto{grid-template-columns:1fr}}
+/* formularios */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+@media (max-width:860px){.two{grid-template-columns:1fr}}
+.box{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,4vw,34px)}
+.box h3{font-family:var(--serif);font-weight:900;font-size:1.9rem;text-transform:uppercase}
+.box p.s{color:var(--mute);margin:6px 0 18px}
+.f{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.f label{display:flex;flex-direction:column;gap:6px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);min-width:0}
+.f label.w{grid-column:1/-1}
+.f input,.f select{min-height:46px;width:100%;background:#121215;border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--cream);font:inherit;font-size:1rem;text-transform:none;letter-spacing:0}
+.f .btn{grid-column:1/-1;margin-top:6px}
+@media (max-width:480px){.f{grid-template-columns:1fr}}
+.map{border-radius:16px;overflow:hidden;border:1px solid var(--line);min-height:320px}
+.map iframe{width:100%;height:100%;min-height:320px;border:0;filter:invert(.9) hue-rotate(180deg) saturate(.6) contrast(.9)}
+.info{display:grid;gap:14px;margin-top:14px}
+.info>div{display:flex;gap:14px;align-items:flex-start}
+.info .ic{width:46px;height:46px;flex:none}
+.info b{display:block;letter-spacing:.08em;text-transform:uppercase}
+.info span{color:var(--mute)}
+.faq details{border-bottom:1px solid var(--line);padding:16px 0}
+.faq summary{cursor:pointer;font-size:1.08rem;letter-spacing:.04em;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--gold);font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq p{color:var(--mute);margin-top:8px;font-weight:300}
+footer{border-top:1px solid var(--line);padding:46px 16px calc(90px + env(safe-area-inset-bottom));text-align:center;color:var(--mute)}
+footer img{width:200px;height:auto;margin:0 auto 14px}
+footer .legal{font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;margin-top:12px}
+footer .by{margin-top:16px;font-size:.78rem}
+.gate{position:fixed;inset:0;z-index:90;background:rgba(10,10,12,.97);display:none;place-items:center;padding:24px;text-align:center}
+.gate.on{display:grid}
+.gate img{width:240px;height:auto;margin:0 auto 18px}
+.gate h2{font-family:var(--serif);font-size:2rem}
+.gate p{color:var(--mute);margin:8px 0 22px}
+.gate .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(20px);opacity:0;z-index:95;background:var(--cream);color:var(--ink);
+  padding:12px 20px;border-radius:12px;font-weight:500;transition:.25s;pointer-events:none;max-width:90vw;text-align:center}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
 </head>
-<body class="grain">
-  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-full focus:bg-cobre focus:px-5 focus:py-3 focus:text-obsidian">Saltar al contenido</a>
-
-  <!-- ===================== HEADER ===================== -->
-  <header id="site-header" class="fixed inset-x-0 top-0 z-50 border-b border-transparent py-4 sm:py-5">
-    <div class="mx-auto flex max-w-[1600px] items-center justify-between gap-4 px-4 sm:px-6 lg:px-10">
-      <a href="#inicio" class="group flex shrink-0 items-center gap-3 focus-ring rounded-xl" aria-label="Cantina Real Ags, ir al inicio">
-        <span class="grid h-11 w-11 place-items-center rounded-full border border-neon/30 bg-black shadow-[0_0_24px_rgba(178,107,255,0.25)]">
-          <span class="neon-sign font-script text-[1.35rem] leading-none">CR</span>
-        </span>
-        <span class="leading-none">
-          <span class="neon-sign block font-script text-[1.75rem] leading-none sm:text-[2rem]">Cantina Real</span>
-          <span class="mt-1 block text-[0.55rem] font-semibold uppercase tracking-luxe text-cobre">Ags · Mexican Quality</span>
-        </span>
-      </a>
-
-      <nav class="hidden items-center gap-8 text-sm text-arena xl:flex" aria-label="Principal">
-        <a class="nav-link transition-colors hover:text-white" href="#menu">Menú</a>
-        <a class="nav-link transition-colors hover:text-white" href="#cocteleria">Gringas</a>
-        <a class="nav-link transition-colors hover:text-white" href="#esencia">Nuestra Esencia</a>
-        <a class="nav-link transition-colors hover:text-white" href="#reservas">Reservas</a>
-        <a class="nav-link transition-colors hover:text-white" href="#ubicacion">Ubicación</a>
-      </nav>
-
-      <div class="flex items-center gap-2 sm:gap-3">
-        <div class="hidden items-center gap-2 rounded-full border border-white/10 bg-black/30 px-3.5 py-2 text-xs text-arena lg:flex" role="status">
-          <span class="status-dot inline-block h-2 w-2 rounded-full" data-status-dot></span>
-          <span data-status-text>Consultando horario…</span>
-        </div>
-        <button type="button" id="cart-open" class="press relative grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-black/30 transition-colors hover:border-cobre focus-ring" aria-label="Abrir comanda (0 productos)">
-          <i data-lucide="receipt" class="h-[18px] w-[18px]"></i>
-          <span id="cart-count" class="absolute -right-1 -top-1 hidden min-w-[20px] rounded-full bg-cobre px-1.5 py-0.5 text-center text-[0.65rem] font-bold text-obsidian">0</span>
-        </button>
-        <a href="#reservas" class="btn btn-cobre magnetic hidden px-5 py-3 text-sm sm:inline-flex"><i data-lucide="calendar-days" class="h-4 w-4"></i> Reservar Mesa</a>
-        <button type="button" id="nav-open" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 bg-black/30 xl:hidden focus-ring" aria-label="Abrir menú" aria-controls="nav-drawer" aria-expanded="false">
-          <i data-lucide="menu" class="h-5 w-5"></i>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Drawer de navegación móvil -->
-  <div id="nav-drawer" class="overlay drawer-left" role="dialog" aria-modal="true" aria-label="Menú de navegación" aria-hidden="true">
-    <div class="overlay-backdrop" data-close></div>
-    <div class="drawer-panel flex flex-col border-r hairline bg-obsidian">
-      <div class="flex items-center justify-between border-b hairline p-6">
-        <span class="neon-sign font-script text-3xl">Cantina Real</span>
-        <button type="button" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 focus-ring" data-close aria-label="Cerrar menú"><i data-lucide="x" class="h-5 w-5"></i></button>
-      </div>
-      <nav class="flex-1 overflow-y-auto p-6" aria-label="Móvil">
-        <ul class="space-y-1 font-display text-3xl">
-          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-cobre" href="#menu" data-close-nav>Menú <i data-lucide="arrow-up-right" class="h-5 w-5 text-cobre/60"></i></a></li>
-          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-cobre" href="#cocteleria" data-close-nav>Gringas <i data-lucide="arrow-up-right" class="h-5 w-5 text-cobre/60"></i></a></li>
-          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-cobre" href="#esencia" data-close-nav>Nuestra Esencia <i data-lucide="arrow-up-right" class="h-5 w-5 text-cobre/60"></i></a></li>
-          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-cobre" href="#eventos" data-close-nav>Posadas & Eventos <i data-lucide="arrow-up-right" class="h-5 w-5 text-cobre/60"></i></a></li>
-          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-cobre" href="#reservas" data-close-nav>Reservas <i data-lucide="arrow-up-right" class="h-5 w-5 text-cobre/60"></i></a></li>
-          <li><a class="flex items-center justify-between py-3 transition-colors hover:text-cobre" href="#ubicacion" data-close-nav>Ubicación <i data-lucide="arrow-up-right" class="h-5 w-5 text-cobre/60"></i></a></li>
-        </ul>
-        <div class="divider-cobre my-8"></div>
-        <div class="flex items-center gap-3 text-sm text-arena">
-          <span class="status-dot inline-block h-2 w-2 rounded-full" data-status-dot></span>
-          <span data-status-text>Consultando horario…</span>
-        </div>
-        <p class="mt-4 text-sm leading-relaxed text-arena">Lunes a domingo<br />9:00 a.m. – 2:00 a.m.</p>
-      </nav>
-      <div class="space-y-3 border-t hairline p-6">
-        <a href="#reservas" class="btn btn-cobre w-full py-4" data-close-nav><i data-lucide="calendar-days" class="h-4 w-4"></i> Reservar Mesa</a>
-        <a href="https://wa.me/524494159466" target="_blank" rel="noopener" class="btn btn-ghost w-full py-4"><i data-lucide="message-circle" class="h-4 w-4"></i> WhatsApp 449 415 9466</a>
-      </div>
-    </div>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="nav-logo" href="#inicio" aria-label="Cantina Real, inicio"><img src="img/logo-light.png" alt="Cantina Real" width="70" height="44"></a>
+    <ul class="nav-links">
+      <li><a href="#promos">Promos</a></li><li><a href="#carta">Carta</a></li><li><a href="#videos">Videos</a></li>
+      <li><a href="#comparte">Comparte y gana</a></li><li><a href="#eventos">Posadas</a></li><li><a href="#visita">Visítanos</a></li>
+    </ul>
+    <span class="status" id="status"><i></i><span>…</span></span>
+    <a class="btn btn-gold btn-sm" href="#reserva">Reservar</a>
   </div>
+</header>
 
-  <main id="main">
-    <!-- ===================== HERO ===================== -->
-    <section id="inicio" class="relative flex min-h-[100svh] items-end overflow-hidden pb-16 pt-32 sm:items-center sm:pb-24">
-      <div class="absolute inset-0" aria-hidden="true">
-        <img class="hero-img h-full w-full object-cover object-[50%_30%]" src="assets/barra.jpg" alt="" fetchpriority="high" />
-        <div class="absolute inset-0 bg-gradient-to-r from-obsidian via-obsidian/85 to-obsidian/30"></div>
-        <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/20 to-obsidian/70"></div>
-        <div class="absolute -right-40 top-1/4 h-[480px] w-[480px] rounded-full bg-neon-deep/20 blur-[120px]"></div>
-      </div>
-
-      <div class="relative mx-auto w-full max-w-[1600px] px-4 sm:px-6 lg:px-10">
-        <div class="max-w-3xl">
-          <p class="fade-up inline-flex items-center gap-2.5 rounded-full border border-cobre/30 bg-black/40 px-4 py-2 text-[0.68rem] font-medium uppercase tracking-[0.18em] text-cobre-light backdrop-blur-md" style="--d:150ms">
-            <svg viewBox="0 0 24 24" class="h-4 w-4 text-agave" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21V9M12 21c-2-4-6-6-9-6 2 2 4 4 5 6M12 21c2-4 6-6 9-6-2 2-4 4-5 6M12 21c-1-5-4-9-7-11 1 3 3 7 4 11M12 21c1-5 4-9 7-11-1 3-3 7-4 11M12 9l0-6"/></svg>
-            El orgullo de Jesús María, Aguascalientes
-          </p>
-          <h1 class="mt-7 font-display text-[2.6rem] font-medium leading-[1.04] tracking-tight xs:text-5xl sm:text-6xl lg:text-7xl 2xl:text-8xl">
-            <span class="hero-line"><span style="--d:250ms">Tequila, gringas</span></span>
-            <span class="hero-line"><span style="--d:400ms">y la mesa de siempre,</span></span>
-            <span class="hero-line"><span style="--d:550ms" class="italic text-gradient-cobre">a la altura de una Real.</span></span>
-          </h1>
-          <p class="fade-up mt-7 max-w-xl text-base leading-relaxed text-arena sm:text-lg" style="--d:800ms">
-            Una vitrina llena de tequilas, nuestras famosas gringas de sabores, y pantallas para el partido. Todos los días, desde las 9 de la mañana.
-          </p>
-          <div class="fade-up mt-10 flex flex-col gap-3 xs:flex-row sm:gap-4" style="--d:950ms">
-            <a href="#menu" class="btn btn-cobre magnetic px-8 py-4 text-sm"><i data-lucide="beer" class="h-4 w-4"></i> Ver el Menú</a>
-            <a href="#reservas" class="btn btn-ghost magnetic px-8 py-4 text-sm"><i data-lucide="calendar-check" class="h-4 w-4"></i> Asegurar Mi Mesa</a>
-          </div>
-          <dl class="fade-up mt-14 grid max-w-lg grid-cols-3 gap-4 border-t border-white/10 pt-8" style="--d:1100ms">
-            <div><dt class="text-[0.62rem] uppercase tracking-[0.2em] text-arena">Google</dt><dd class="mt-1 font-display text-2xl sm:text-3xl">4.3<span class="text-ambar">★</span></dd><dd class="text-[0.7rem] text-arena">calificación</dd></div>
-            <div><dt class="text-[0.62rem] uppercase tracking-[0.2em] text-arena">Gringas</dt><dd class="mt-1 font-display text-2xl sm:text-3xl">de sabores</dd></div>
-            <div><dt class="text-[0.62rem] uppercase tracking-[0.2em] text-arena">Abierto</dt><dd class="mt-1 font-display text-2xl sm:text-3xl">9–2</dd><dd class="text-[0.7rem] text-arena">los 7 días</dd></div>
-          </dl>
+<main id="inicio">
+  <section class="hero">
+    <div id="papel"></div>
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <img class="hero-logo" src="img/logo-light.png" alt="Cantina Real · Mexican Quality · Est. 2021" width="460" height="290">
+        <h1>La cantina de Jesús María<em>de 9 de la mañana a 2 de la madrugada</em></h1>
+        <p class="lead">Más de 25 tequilas, micheladas que reviven, canastas bien frías, cocina para la botana y una promo distinta cada día de la semana.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-gold" href="#reserva">Reservar mesa</a>
+          <a class="btn btn-line" href="#carta">Ver la carta</a>
         </div>
+        <div class="hero-facts"><span><b>9 AM – 2 AM</b> · 7 días</span><span><b>+25</b> tequilas</span><span>Canasta desde <b>$290</b></span></div>
       </div>
-
-      <a href="#marquee" class="scroll-cue absolute bottom-6 left-1/2 hidden flex-col items-center gap-2 text-[0.6rem] uppercase tracking-luxe text-arena sm:flex" aria-label="Desplazarse hacia abajo">
-        Descubre <i data-lucide="chevron-down" class="h-4 w-4 text-cobre"></i>
-      </a>
-    </section>
-
-    <!-- Marquee -->
-    <div id="marquee" class="overflow-hidden border-y hairline bg-tabaco/60 py-5" aria-hidden="true">
-      <div class="marquee-track flex w-max gap-12 whitespace-nowrap font-display text-xl italic text-white/70 sm:text-2xl">
-        <span>Gringas de sabores</span><span class="text-cobre">✦</span><span>Tequilas de la vitrina</span><span class="text-cobre">✦</span><span>Partidos en pantalla</span><span class="text-cobre">✦</span><span>Posadas & cumpleaños</span><span class="text-cobre">✦</span>
-        <span>Gringas de sabores</span><span class="text-cobre">✦</span><span>Tequilas de la vitrina</span><span class="text-cobre">✦</span><span>Partidos en pantalla</span><span class="text-cobre">✦</span><span>Posadas & cumpleaños</span><span class="text-cobre">✦</span>
+      <div class="reveal">
+        <div class="phone"><span class="tag" id="heroTag">Promo de hoy</span>
+          <video src="videos/reel-semana.mp4" poster="posters/story/horario.png" autoplay muted loop playsinline preload="metadata" aria-label="Video: una promo para cada día de la semana"></video>
+        </div>
       </div>
     </div>
+  </section>
 
-    <!-- ===================== ESENCIA ===================== -->
-    <section id="esencia" class="relative py-24 sm:py-32 lg:py-40">
-      <div class="mx-auto grid max-w-[1600px] items-center gap-16 px-4 sm:px-6 lg:grid-cols-12 lg:gap-20 lg:px-10">
-        <div class="relative lg:col-span-6" aria-hidden="true">
-          <div class="grid grid-cols-12 gap-4">
-            <figure class="col-span-7 overflow-hidden rounded-[28px] border hairline" data-reveal="scale">
-              <img data-parallax="0.06" class="h-[340px] w-full scale-110 object-cover sm:h-[520px]" loading="lazy" src="assets/botellas.jpg" alt="" />
-            </figure>
-            <div class="col-span-5 flex flex-col gap-4 pt-16 sm:pt-28">
-              <figure class="overflow-hidden rounded-[28px] border hairline" data-reveal="scale" style="--d:150ms">
-                <img data-parallax="-0.05" class="h-[160px] w-full scale-110 object-cover sm:h-[250px]" loading="lazy" src="assets/tequilas.jpg" alt="" />
-              </figure>
-              <figure class="overflow-hidden rounded-[28px] border hairline" data-reveal="scale" style="--d:300ms">
-                <img data-parallax="0.04" class="h-[140px] w-full scale-110 object-cover object-left sm:h-[200px]" loading="lazy" src="assets/contrabarra.jpg" alt="" />
-              </figure>
-            </div>
-          </div>
-          <div class="card-luxe absolute -bottom-8 left-4 max-w-[240px] rounded-2xl p-5 shadow-cobre backdrop-blur sm:left-10" data-reveal style="--d:400ms">
-            <p class="font-display text-4xl text-cobre">Mexican</p>
-            <p class="font-display text-4xl italic text-marfil">Quality</p>
-            <p class="mt-2 text-xs leading-relaxed text-arena">Lo que dice nuestro letrero.</p>
-          </div>
-        </div>
+  <section class="sec" id="promos" style="padding-top:40px">
+    <div class="wrap">
+      <div class="sec-head reveal"><div class="kicker">Una para cada día</div><h2 class="royal">La Semana Real</h2></div>
+      <div class="today reveal" id="today"></div>
+      <div class="week" id="week" role="list"></div>
+      <div class="extras" id="extras"></div>
+      <p class="fine">Promociones válidas para mayores de 18 años, en consumo en el lugar y no acumulables. Evita el exceso. *Aplican restricciones.</p>
+    </div>
+  </section>
 
-        <div class="lg:col-span-6 lg:pl-6">
-          <p class="text-xs font-semibold uppercase tracking-luxe text-cobre" data-reveal>Nuestra esencia</p>
-          <h2 class="mt-5 font-display text-4xl leading-[1.08] sm:text-5xl xl:text-6xl" data-reveal style="--d:100ms">
-            La cantina de barrio, <em class="text-gradient-cobre">con modales de reina</em>.
-          </h2>
-          <div class="mt-8 space-y-5 text-base leading-relaxed text-arena sm:text-lg" data-reveal style="--d:200ms">
-            <p>En El Calvario, Jesús María, abrimos la puerta todos los días a las 9 de la mañana. Aquí se viene a lo que se viene a una cantina: a brindar y a platicar sin prisa, frente a una vitrina de tequilas que da gusto recorrer con la mirada.</p>
-            <p>Y para que la tarde se alargue: pantallas para ver el partido.</p>
-          </div>
+  <section class="sec" id="carta" style="padding-top:20px">
+    <div class="wrap">
+      <div class="sec-head reveal"><div class="kicker">Carta 2025 · precios en MXN</div><h2 class="royal">La Carta</h2>
+        <p>Toca un precio para sumarlo a tu cuenta: así sabes cuánto sale la noche, la divides entre todos y la mandas por WhatsApp para apartar tu mesa.</p></div>
+    </div>
+    <div class="carta-bar"><div class="wrap">
+      <div class="chips" id="chips" role="toolbar" aria-label="Secciones de la carta"></div>
+      <div class="search"><input id="q" type="search" placeholder="Busca: Don Julio, michelada, canasta…" aria-label="Buscar en la carta" autocomplete="off"></div>
+    </div></div>
+    <div class="wrap"><div class="menu-grid" id="menu"></div><div class="empty" id="empty" hidden>No encontramos eso en la carta. Pregúntalo en barra.</div></div>
+  </section>
 
-          <ul class="mt-12 grid gap-4 sm:grid-cols-3">
-            <li class="card-luxe rounded-2xl p-5" data-reveal style="--d:250ms">
-              <i data-lucide="wine" class="h-6 w-6 text-cobre"></i>
-              <h3 class="mt-4 font-display text-lg">Vitrina de tequilas</h3>
-              <p class="mt-2 text-sm leading-relaxed text-arena">Tequilas de distintas casas para elegir con el cantinero.</p>
-            </li>
-            <li class="card-luxe rounded-2xl p-5" data-reveal style="--d:350ms">
-              <i data-lucide="beer" class="h-6 w-6 text-cobre"></i>
-              <h3 class="mt-4 font-display text-lg">Gringas famosas</h3>
-              <p class="mt-2 text-sm leading-relaxed text-arena">Cerveza preparada con escarchado de chile y sabores de la casa.</p>
-            </li>
-            <li class="card-luxe rounded-2xl p-5" data-reveal style="--d:450ms">
-              <i data-lucide="tv" class="h-6 w-6 text-cobre"></i>
-              <h3 class="mt-4 font-display text-lg">Pantallas</h3>
-              <p class="mt-2 text-sm leading-relaxed text-arena">Para ver el partido con tu gringa.</p>
-            </li>
-          </ul>
-        </div>
+  <section class="sec" id="galeria" style="padding-top:20px">
+    <div class="wrap">
+      <div class="sec-head reveal"><div class="kicker">Así se ve</div><h2 class="royal">La Cantina</h2></div>
+      <div class="gal reveal">
+        <figure class="g1"><img src="assets/barra.jpg" alt="Barra de Cantina Real con clientes" loading="lazy"><figcaption>La barra</figcaption></figure>
+        <figure class="g2"><img src="assets/contrabarra.jpg" alt="Contrabarra con botellas y pantalla" loading="lazy"><figcaption>Pantallas y contrabarra</figcaption></figure>
+        <figure class="g3"><img src="assets/gringa.jpg" alt="Michelada escarchada y cerveza Corona" loading="lazy"><figcaption>Michelada de la casa</figcaption></figure>
+        <figure class="g4"><img src="assets/botellas.jpg" alt="Botellas de tequila en la barra" loading="lazy"><figcaption>Copa o botella</figcaption></figure>
+        <figure class="g5"><img src="assets/tequilas.jpg" alt="Vitrina de tequilas" loading="lazy"><figcaption>+25 tequilas</figcaption></figure>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- ===================== MENÚ ===================== -->
-    <section id="menu" class="relative border-t hairline bg-gradient-to-b from-tabaco/40 to-obsidian py-24 sm:py-32" aria-labelledby="menu-title">
-      <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
-        <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
-          <div class="max-w-2xl">
-            <p class="text-xs font-semibold uppercase tracking-luxe text-cobre" data-reveal>Menú digital</p>
-            <h2 id="menu-title" class="mt-5 font-display text-4xl leading-[1.08] sm:text-5xl xl:text-6xl" data-reveal style="--d:100ms">Lo que se brinda <em class="text-gradient-cobre">en la Real</em>.</h2>
-            <p class="mt-5 text-arena" data-reveal style="--d:200ms">Arma tu comanda desde el celular y envíala a la barra por WhatsApp; ahí te confirman precios. Para la carta completa, pregunta en barra o por WhatsApp.</p>
-          </div>
-          <div class="relative w-full max-w-sm" data-reveal style="--d:250ms">
-            <label for="menu-search" class="sr-only">Buscar en el menú</label>
-            <i data-lucide="search" class="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-arena"></i>
-            <input id="menu-search" type="search" class="field pl-11" placeholder="Busca: gringa, tequila…" autocomplete="off" />
-          </div>
-        </div>
+  <section class="sec" id="videos" style="padding-top:20px">
+    <div class="wrap">
+      <div class="sec-head reveal"><div class="kicker">Para Reels y Stories</div><h2 class="royal">Videos</h2>
+        <p>Tres reels de 15 segundos y tres loops de 5 segundos. Guárdalos, súbelos con un audio en tendencia y pega el texto.</p></div>
+      <div class="vids" id="vids"></div>
+      <div class="gifs" id="gifs"></div>
+    </div>
+  </section>
 
-        <div class="mt-12 -mx-4 overflow-x-auto px-4 no-scrollbar sm:mx-0 sm:px-0" data-reveal style="--d:300ms">
-          <div id="menu-tabs" class="flex w-max gap-2" role="tablist" aria-label="Categorías del menú"></div>
-        </div>
-        <div class="mt-4 -mx-4 overflow-x-auto px-4 no-scrollbar sm:mx-0 sm:px-0" data-reveal style="--d:350ms">
-          <div id="menu-filters" class="flex w-max items-center gap-2" aria-label="Filtros de preferencia">
-            <span class="mr-1 text-[0.65rem] font-semibold uppercase tracking-[0.22em] text-arena">Filtrar</span>
-          </div>
-        </div>
-
-        <p id="menu-count" class="mt-8 text-sm text-arena" aria-live="polite"></p>
-        <div id="menu-grid" class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" role="tabpanel"></div>
-        <div id="menu-empty" class="mt-6 hidden rounded-3xl border border-dashed hairline p-12 text-center">
-          <i data-lucide="search-x" class="mx-auto h-8 w-8 text-cobre"></i>
-          <p class="mt-4 font-display text-2xl">Nada por aquí… todavía.</p>
-          <p class="mt-2 text-sm text-arena">Prueba con otra categoría o quita algún filtro.</p>
-          <button type="button" id="menu-reset" class="btn btn-ghost mt-6 px-6 py-3 text-sm">Limpiar filtros</button>
-        </div>
+  <section class="sec" id="comparte" style="padding-top:20px">
+    <div class="wrap">
+      <div class="sec-head reveal"><div class="kicker">Comparte y gana</div><h2 class="royal">Posters para tu IG</h2>
+        <p>Guarda un póster, súbelo a tu historia o a tu feed etiquetando a <b>@cantinareal_mk</b> y enséñalo en barra: tu Sangrita o Mezcal de la Casa va por nuestra cuenta.</p></div>
+      <div class="howto reveal">
+        <div><b>Guarda</b>Toca “Guardar” y elige “Guardar imagen” (iPhone) o se descarga solo (Android).</div>
+        <div><b>Copia el texto</b>Al guardar, el texto queda copiado: pégalo como descripción del post o reel.</div>
+        <div><b>Etiqueta y cobra</b>Etiqueta a @cantinareal_mk y enseña tu publicación en barra.</div>
       </div>
-    </section>
-
-    <!-- ===================== COCTELERÍA / GRINGAS ===================== -->
-    <section id="cocteleria" class="relative overflow-hidden py-24 sm:py-32" aria-labelledby="coc-title">
-      <div class="absolute -left-40 top-20 h-[420px] w-[420px] rounded-full bg-neon-deep/10 blur-[120px]" aria-hidden="true"></div>
-      <div class="relative mx-auto grid max-w-[1600px] items-center gap-14 px-4 sm:px-6 lg:grid-cols-2 lg:gap-20 lg:px-10">
-        <div class="order-2 lg:order-1">
-          <p class="text-xs font-semibold uppercase tracking-luxe text-cobre" data-reveal>La favorita de la casa</p>
-          <h2 id="coc-title" class="mt-5 font-display text-4xl leading-[1.08] sm:text-5xl xl:text-6xl" data-reveal style="--d:100ms">¡Ven y prueba nuestras <em class="text-gradient-cobre">famosas gringas</em> de sabores!</h2>
-          <p class="mt-6 max-w-xl text-base leading-relaxed text-arena sm:text-lg" data-reveal style="--d:200ms">Vaso escarchado con chile, el preparado de la casa y tu cerveza bien fría al lado. Pregunta por los sabores y deja que el cantinero haga lo suyo. Si lo tuyo es el tequila, la vitrina te espera.</p>
-          <ul class="mt-10 grid gap-3 xs:grid-cols-2" data-reveal style="--d:300ms">
-            <li class="card-luxe flex items-center gap-3 rounded-2xl p-4"><span class="grid h-10 w-10 place-items-center rounded-full bg-cobre/10 text-cobre"><i data-lucide="citrus" class="h-5 w-5"></i></span><span class="text-sm">Sabores de la casa</span></li>
-            <li class="card-luxe flex items-center gap-3 rounded-2xl p-4"><span class="grid h-10 w-10 place-items-center rounded-full bg-cobre/10 text-cobre"><i data-lucide="flame" class="h-5 w-5"></i></span><span class="text-sm">Escarchado de chile</span></li>
-            <li class="card-luxe flex items-center gap-3 rounded-2xl p-4"><span class="grid h-10 w-10 place-items-center rounded-full bg-cobre/10 text-cobre"><i data-lucide="wine" class="h-5 w-5"></i></span><span class="text-sm">Tequilas de la vitrina</span></li>
-            <li class="card-luxe flex items-center gap-3 rounded-2xl p-4"><span class="grid h-10 w-10 place-items-center rounded-full bg-cobre/10 text-cobre"><i data-lucide="tv" class="h-5 w-5"></i></span><span class="text-sm">Partidos en pantalla</span></li>
-          </ul>
-          <div class="mt-10 flex flex-col gap-3 xs:flex-row" data-reveal style="--d:400ms">
-            <button type="button" class="btn btn-cobre magnetic px-7 py-4 text-sm" data-goto-cat="cervezas"><i data-lucide="beer" class="h-4 w-4"></i> Ver gringas y cervezas</button>
-            <button type="button" class="btn btn-ghost magnetic px-7 py-4 text-sm" data-goto-cat="agave"><i data-lucide="wine" class="h-4 w-4"></i> Ver tequilas</button>
-          </div>
-        </div>
-        <div class="relative order-1 lg:order-2" data-reveal="scale">
-          <figure class="relative mx-auto max-w-md overflow-hidden rounded-[32px] border hairline shadow-cobre-lg">
-            <img src="assets/gringa.jpg" loading="lazy" alt="Gringa de sabores con escarchado de chile junto a una cerveza Corona en la barra de Cantina Real" class="aspect-[4/5] w-full object-cover" />
-            <figcaption class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 to-transparent p-6">
-              <p class="font-script text-4xl neon-sign">La Gringa</p>
-              <p class="mt-1 text-xs uppercase tracking-[0.2em] text-cobre-light">La favorita de la casa</p>
-            </figcaption>
-          </figure>
-        </div>
+      <div class="tabs" role="tablist">
+        <button class="chip" role="tab" aria-pressed="true" data-fmt="post">Post 4:5</button>
+        <button class="chip" role="tab" aria-pressed="false" data-fmt="story">Historia 9:16</button>
+        <a class="chip" href="posters/cantina-real-posters.zip" download>Descargar todo (.zip)</a>
       </div>
-    </section>
+      <div class="posters" id="posters"></div>
+    </div>
+  </section>
 
-    <!-- ===================== POSADAS & EVENTOS ===================== -->
-    <section id="eventos" class="relative border-t hairline bg-tabaco/30 py-24 sm:py-32" aria-labelledby="ev-title">
-      <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
-        <div class="mx-auto max-w-3xl text-center">
-          <p class="text-xs font-semibold uppercase tracking-luxe text-cobre" data-reveal>Posadas, cumpleaños y reuniones</p>
-          <h2 id="ev-title" class="mt-5 font-display text-4xl leading-[1.08] sm:text-5xl xl:text-6xl" data-reveal style="--d:100ms">Tú traes al grupo. <em class="text-gradient-cobre">Nosotros ponemos el lugar.</em></h2>
-          <p class="mt-6 text-arena sm:text-lg" data-reveal style="--d:200ms">Chico, mediano, grande o grandototote: haz tu posada, cumpleaños o reunión de la oficina en Cantina Real. Escríbenos y te decimos qué incluye cada paquete.</p>
-        </div>
-        <ul class="mt-14 grid gap-5 md:grid-cols-3">
-          <li class="card-luxe rounded-3xl p-8" data-reveal style="--d:150ms">
-            <span class="grid h-14 w-14 place-items-center rounded-2xl bg-cobre/10 text-cobre"><i data-lucide="calendar-heart" class="h-7 w-7"></i></span>
-            <h3 class="mt-6 font-display text-2xl">Tu fecha</h3>
-            <p class="mt-3 text-sm leading-relaxed text-arena">Escríbenos por WhatsApp y apartamos el día para tu grupo.</p>
-          </li>
-          <li class="card-luxe rounded-3xl p-8" data-reveal style="--d:250ms">
-            <span class="grid h-14 w-14 place-items-center rounded-2xl bg-cobre/10 text-cobre"><i data-lucide="tv" class="h-7 w-7"></i></span>
-            <h3 class="mt-6 font-display text-2xl">Pantallas</h3>
-            <p class="mt-3 text-sm leading-relaxed text-arena">Si tu fecha cae en día de partido, lo ven juntos en pantalla.</p>
-          </li>
-          <li class="card-luxe rounded-3xl p-8" data-reveal style="--d:350ms">
-            <span class="grid h-14 w-14 place-items-center rounded-2xl bg-cobre/10 text-cobre"><i data-lucide="wine" class="h-7 w-7"></i></span>
-            <h3 class="mt-6 font-display text-2xl">Barra</h3>
-            <p class="mt-3 text-sm leading-relaxed text-arena">Gringas de sabores, cerveza y la vitrina de tequilas para tu grupo.</p>
-          </li>
-        </ul>
-        <div class="mt-12 flex flex-col items-center justify-center gap-3 xs:flex-row" data-reveal style="--d:300ms">
-          <a href="#" id="event-wa" target="_blank" rel="noopener" class="btn btn-cobre magnetic px-8 py-4 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Cotizar mi evento por WhatsApp</a>
-          <a href="#reservas" class="btn btn-ghost magnetic px-8 py-4 text-sm" data-preset-occasion="posada"><i data-lucide="calendar-days" class="h-4 w-4"></i> Apartar fecha</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== RESERVAS ===================== -->
-    <section id="reservas" class="relative border-t hairline py-24 sm:py-32" aria-labelledby="res-title">
-      <div class="mx-auto grid max-w-[1600px] gap-14 px-4 sm:px-6 lg:grid-cols-12 lg:gap-16 lg:px-10">
-        <div class="lg:col-span-4">
-          <div class="lg:sticky lg:top-32">
-            <p class="text-xs font-semibold uppercase tracking-luxe text-cobre" data-reveal>Reservaciones</p>
-            <h2 id="res-title" class="mt-5 font-display text-4xl leading-[1.08] sm:text-5xl" data-reveal style="--d:100ms">Tu mesa, <em class="text-gradient-cobre">lista y servida</em>.</h2>
-            <p class="mt-6 text-arena" data-reveal style="--d:200ms">Elige personas, día, hora y zona. Al terminar te damos un folio y confirmas con la barra por WhatsApp en un toque.</p>
-            <ul class="mt-10 space-y-4 text-sm text-arena" data-reveal style="--d:300ms">
-              <li class="flex gap-3"><i data-lucide="clock" class="mt-0.5 h-4 w-4 shrink-0 text-cobre"></i> Abierto todos los días de 9:00 a.m. a 2:00 a.m.</li>
-              <li class="flex gap-3"><i data-lucide="users" class="mt-0.5 h-4 w-4 shrink-0 text-cobre"></i> Para grupos grandes, escríbenos por WhatsApp.</li>
-              <li class="flex gap-3"><i data-lucide="message-circle" class="mt-0.5 h-4 w-4 shrink-0 text-cobre"></i> La barra confirma tu reservación por WhatsApp.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="lg:col-span-8">
-          <div class="card-luxe rounded-[28px] p-5 sm:p-8 lg:p-10" data-reveal="scale">
-            <ol id="res-steps" class="grid grid-cols-4 gap-2" aria-label="Pasos de la reservación">
-              <li class="res-step-ind" data-ind="1"><span class="block h-1 rounded-full bg-white/10"><span class="block h-1 rounded-full bg-cobre transition-all duration-700"></span></span><span class="mt-2 block text-[0.65rem] uppercase tracking-[0.18em] text-arena">Fecha</span></li>
-              <li class="res-step-ind" data-ind="2"><span class="block h-1 rounded-full bg-white/10"><span class="block h-1 rounded-full bg-cobre transition-all duration-700"></span></span><span class="mt-2 block text-[0.65rem] uppercase tracking-[0.18em] text-arena">Horario</span></li>
-              <li class="res-step-ind" data-ind="3"><span class="block h-1 rounded-full bg-white/10"><span class="block h-1 rounded-full bg-cobre transition-all duration-700"></span></span><span class="mt-2 block text-[0.65rem] uppercase tracking-[0.18em] text-arena">Zona</span></li>
-              <li class="res-step-ind" data-ind="4"><span class="block h-1 rounded-full bg-white/10"><span class="block h-1 rounded-full bg-cobre transition-all duration-700"></span></span><span class="mt-2 block text-[0.65rem] uppercase tracking-[0.18em] text-arena">Datos</span></li>
-            </ol>
-
-            <form id="res-form" class="mt-8" novalidate>
-              <!-- Paso 1 -->
-              <div class="step-panel" data-step="1">
-                <h3 class="font-display text-2xl sm:text-3xl">¿Cuántos y cuándo?</h3>
-                <p class="mt-2 text-sm text-arena">Número de personas</p>
-                <div class="mt-4 flex items-center gap-4">
-                  <button type="button" class="press grid h-12 w-12 place-items-center rounded-full border border-white/15 hover:border-cobre focus-ring" id="guests-minus" aria-label="Menos personas"><i data-lucide="minus" class="h-4 w-4"></i></button>
-                  <output id="guests-out" class="min-w-[5.5rem] text-center font-display text-4xl" aria-live="polite">2</output>
-                  <button type="button" class="press grid h-12 w-12 place-items-center rounded-full border border-white/15 hover:border-cobre focus-ring" id="guests-plus" aria-label="Más personas"><i data-lucide="plus" class="h-4 w-4"></i></button>
-                  <span class="text-sm text-arena" id="guests-label">personas</span>
-                </div>
-                <div class="mt-3 flex flex-wrap gap-2" id="guests-quick"></div>
-
-                <div class="mt-8 flex items-end justify-between gap-4">
-                  <p class="text-sm text-arena">Elige el día <span id="date-month" class="ml-1 text-marfil"></span></p>
-                  <div class="flex gap-2">
-                    <button type="button" class="press grid h-10 w-10 place-items-center rounded-full border border-white/10 hover:border-cobre focus-ring" id="date-prev" aria-label="Días anteriores"><i data-lucide="chevron-left" class="h-4 w-4"></i></button>
-                    <button type="button" class="press grid h-10 w-10 place-items-center rounded-full border border-white/10 hover:border-cobre focus-ring" id="date-next" aria-label="Más días"><i data-lucide="chevron-right" class="h-4 w-4"></i></button>
-                  </div>
-                </div>
-                <div id="date-strip" class="mt-4 grid grid-cols-4 gap-2 xs:grid-cols-7" role="group" aria-label="Fechas disponibles"></div>
-                <p class="field-error" id="err-date"></p>
-              </div>
-
-              <!-- Paso 2 -->
-              <div class="step-panel hidden" data-step="2">
-                <h3 class="font-display text-2xl sm:text-3xl">¿A qué hora llegan?</h3>
-                <p class="mt-2 text-sm text-arena" id="slot-date-label"></p>
-                <div id="slot-groups" class="mt-6 space-y-6"></div>
-                <p class="field-error" id="err-slot"></p>
-              </div>
-
-              <!-- Paso 3 -->
-              <div class="step-panel hidden" data-step="3">
-                <h3 class="font-display text-2xl sm:text-3xl">¿Dónde quieren estar?</h3>
-                <p class="mt-2 text-sm text-arena">Zona preferente (sujeta a disponibilidad al llegar).</p>
-                <div id="zone-list" class="mt-6 grid gap-3 sm:grid-cols-3"></div>
-                <p class="mt-8 text-sm text-arena">Motivo de la visita</p>
-                <div id="occasion-list" class="mt-3 flex flex-wrap gap-2"></div>
-                <p class="field-error" id="err-zone"></p>
-              </div>
-
-              <!-- Paso 4 -->
-              <div class="step-panel hidden" data-step="4">
-                <h3 class="font-display text-2xl sm:text-3xl">¿A nombre de quién?</h3>
-                <div class="mt-6 grid gap-4 sm:grid-cols-2">
-                  <div class="sm:col-span-2">
-                    <label for="r-name" class="text-sm text-arena">Nombre completo</label>
-                    <input id="r-name" name="name" class="field mt-2" autocomplete="name" placeholder="Ej. Juan Pérez" required />
-                    <p class="field-error" data-err-for="r-name"></p>
-                  </div>
-                  <div>
-                    <label for="r-phone" class="text-sm text-arena">Teléfono (10 dígitos)</label>
-                    <input id="r-phone" name="phone" class="field mt-2" type="tel" inputmode="numeric" autocomplete="tel" placeholder="449 123 4567" required />
-                    <p class="field-error" data-err-for="r-phone"></p>
-                  </div>
-                  <div>
-                    <label for="r-email" class="text-sm text-arena">Correo electrónico</label>
-                    <input id="r-email" name="email" class="field mt-2" type="email" autocomplete="email" placeholder="tucorreo@ejemplo.com" required />
-                    <p class="field-error" data-err-for="r-email"></p>
-                  </div>
-                  <div class="sm:col-span-2">
-                    <label for="r-notes" class="text-sm text-arena">Peticiones especiales <span class="text-white/40">(opcional)</span></label>
-                    <textarea id="r-notes" name="notes" rows="3" maxlength="300" class="field mt-2 resize-none" placeholder="Cumpleaños, pastel, silla para bebé, alergias…"></textarea>
-                    <p class="mt-1 text-right text-[0.7rem] text-white/40"><span id="notes-count">0</span>/300</p>
-                  </div>
-                </div>
-                <label class="mt-2 flex items-start gap-3 text-sm text-arena">
-                  <input id="r-age" type="checkbox" class="mt-1 h-4 w-4 accent-[#c5a059]" required />
-                  <span>Confirmo que los asistentes que consumirán bebidas alcohólicas son mayores de 18 años.</span>
-                </label>
-                <p class="field-error" data-err-for="r-age"></p>
-              </div>
-
-              <!-- Éxito -->
-              <div class="step-panel hidden text-center" data-step="5" id="res-success" tabindex="-1">
-                <span class="mx-auto grid h-16 w-16 place-items-center rounded-full bg-agave/15 text-agave"><i data-lucide="check" class="h-8 w-8"></i></span>
-                <p class="mt-6 text-xs uppercase tracking-luxe text-cobre">Solicitud registrada</p>
-                <h3 class="mt-3 font-display text-3xl sm:text-4xl">¡Nos vemos pronto, <span id="rs-name"></span>!</h3>
-                <p class="mt-3 text-arena">Folio <strong id="rs-folio" class="font-mono text-cobre-light"></strong></p>
-                <dl id="rs-summary" class="mx-auto mt-8 grid max-w-lg gap-3 text-left text-sm sm:grid-cols-2"></dl>
-                <p class="mx-auto mt-8 max-w-md text-sm text-arena">Envía la confirmación por WhatsApp para que la barra aparte tu mesa. Te responderemos ahí mismo.</p>
-                <div class="mt-6 flex flex-col justify-center gap-3 xs:flex-row">
-                  <a id="rs-wa" href="#" target="_blank" rel="noopener" class="btn btn-cobre px-6 py-4 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Confirmar por WhatsApp</a>
-                  <button type="button" id="rs-ics" class="btn btn-ghost px-6 py-4 text-sm"><i data-lucide="calendar-plus" class="h-4 w-4"></i> Agregar a mi calendario</button>
-                </div>
-                <button type="button" id="rs-new" class="mt-6 text-sm text-arena underline-offset-4 hover:text-white hover:underline">Hacer otra reservación</button>
-              </div>
-
-              <div id="res-nav" class="mt-10 flex items-center justify-between gap-3 border-t hairline pt-6">
-                <button type="button" id="res-back" class="btn btn-ghost px-6 py-3.5 text-sm" disabled><i data-lucide="arrow-left" class="h-4 w-4"></i> Atrás</button>
-                <p id="res-mini" class="hidden flex-1 truncate text-center text-xs text-arena sm:block"></p>
-                <button type="button" id="res-next" class="btn btn-cobre px-6 py-3.5 text-sm">Continuar <i data-lucide="arrow-right" class="h-4 w-4"></i></button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== GALERÍA ===================== -->
-    <section id="galeria" class="relative border-t hairline py-24 sm:py-32" aria-labelledby="gal-title">
-      <div class="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-10">
-        <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <p class="text-xs font-semibold uppercase tracking-luxe text-cobre" data-reveal>Galería</p>
-            <h2 id="gal-title" class="mt-5 font-display text-4xl leading-[1.08] sm:text-5xl" data-reveal style="--d:100ms">Así se vive <em class="text-gradient-cobre">la Real</em>.</h2>
-          </div>
-          <a href="https://www.facebook.com/search/top?q=Cantina%20Real%20Ags" target="_blank" rel="noopener" class="btn btn-ghost self-start px-6 py-3 text-sm sm:self-auto" data-reveal style="--d:200ms"><i data-lucide="facebook" class="h-4 w-4"></i> Síguenos en Facebook</a>
-        </div>
-        <div id="gallery" class="masonry mt-12"></div>
-      </div>
-    </section>
-
-    <!-- ===================== UBICACIÓN ===================== -->
-    <section id="ubicacion" class="relative border-t hairline bg-tabaco/30 py-24 sm:py-32" aria-labelledby="ubi-title">
-      <div class="mx-auto grid max-w-[1600px] gap-10 px-4 sm:px-6 lg:grid-cols-12 lg:px-10">
-        <div class="lg:col-span-5">
-          <p class="text-xs font-semibold uppercase tracking-luxe text-cobre" data-reveal>Ubicación</p>
-          <h2 id="ubi-title" class="mt-5 font-display text-4xl leading-[1.08] sm:text-5xl" data-reveal style="--d:100ms">En El Calvario, <em class="text-gradient-cobre">Jesús María</em>.</h2>
-          <address class="mt-8 not-italic" data-reveal style="--d:200ms">
-            <p class="text-lg">Emiliano Zapata 822, El Calvario</p>
-            <p class="text-arena">20922 Jesús María, Aguascalientes</p>
-          </address>
-          <ul class="mt-8 space-y-3 text-sm" data-reveal style="--d:250ms">
-            <li class="flex items-center justify-between border-b hairline pb-3"><span class="text-arena">Lunes a domingo</span><span>9:00 a.m. – 2:00 a.m.</span></li>
-            <li class="flex items-center justify-between border-b hairline pb-3"><span class="text-arena">WhatsApp</span><a class="hover:text-cobre" href="https://wa.me/524494159466" target="_blank" rel="noopener">449 415 9466</a></li>
-          </ul>
-          <div class="mt-8 flex flex-col gap-3 xs:flex-row" data-reveal style="--d:300ms">
-            <a href="https://www.google.com/maps/search/?api=1&query=Cantina+Real+Emiliano+Zapata+822+El+Calvario+Jes%C3%BAs+Mar%C3%ADa+Aguascalientes" target="_blank" rel="noopener" class="btn btn-cobre px-6 py-4 text-sm"><i data-lucide="navigation" class="h-4 w-4"></i> Cómo llegar</a>
-            <a href="tel:+524494159466" class="btn btn-ghost px-6 py-4 text-sm"><i data-lucide="phone" class="h-4 w-4"></i> Llamar</a>
-          </div>
-        </div>
-        <div class="overflow-hidden rounded-[28px] border hairline lg:col-span-7" data-reveal="scale">
-          <iframe title="Mapa de Cantina Real en Jesús María" src="https://maps.google.com/maps?q=Cantina%20Real%2C%20Emiliano%20Zapata%20822%2C%20El%20Calvario%2C%2020922%20Jes%C3%BAs%20Mar%C3%ADa%2C%20Ags.&z=16&output=embed" class="h-[360px] w-full sm:h-[460px]" style="filter: grayscale(0.6) invert(0.92) hue-rotate(180deg) contrast(0.9);" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ===================== FOOTER ===================== -->
-  <footer id="contacto" class="border-t hairline bg-black/40 pt-20">
-    <div class="mx-auto grid max-w-[1600px] gap-12 px-4 sm:px-6 md:grid-cols-2 lg:grid-cols-12 lg:px-10">
-      <div class="lg:col-span-4">
-        <span class="neon-sign font-script text-5xl">Cantina Real</span>
-        <p class="mt-2 text-[0.6rem] font-semibold uppercase tracking-luxe text-cobre">Ags · Mexican Quality</p>
-        <p class="mt-6 max-w-sm text-sm leading-relaxed text-arena">Cantina y bar en Jesús María, Aguascalientes. Tequilas, gringas de sabores y el ambiente para quedarse.</p>
-        <div class="mt-6 flex gap-3">
-          <a href="https://www.facebook.com/search/top?q=Cantina%20Real%20Ags" target="_blank" rel="noopener" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 transition-colors hover:border-cobre hover:text-cobre focus-ring" aria-label="Facebook de Cantina Real Ags"><i data-lucide="facebook" class="h-[18px] w-[18px]"></i></a>
-          <a href="https://wa.me/524494159466" target="_blank" rel="noopener" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 transition-colors hover:border-cobre hover:text-cobre focus-ring" aria-label="WhatsApp de Cantina Real"><i data-lucide="message-circle" class="h-[18px] w-[18px]"></i></a>
-          <a href="tel:+524494159466" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 transition-colors hover:border-cobre hover:text-cobre focus-ring" aria-label="Llamar a Cantina Real"><i data-lucide="phone" class="h-[18px] w-[18px]"></i></a>
-        </div>
-      </div>
-      <div class="lg:col-span-2">
-        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-cobre">Horario</p>
-        <ul class="mt-5 space-y-2 text-sm text-arena">
-          <li>Lunes a domingo</li>
-          <li class="text-marfil">9:00 a.m. – 2:00 a.m.</li>
-        </ul>
-      </div>
-      <div class="lg:col-span-2">
-        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-cobre">Visítanos</p>
-        <address class="mt-5 space-y-2 text-sm not-italic text-arena">
-          <p>Emiliano Zapata 822<br />El Calvario, 20922<br />Jesús María, Ags.</p>
-          <a class="inline-flex items-center gap-2 text-marfil hover:text-cobre" href="https://www.google.com/maps/search/?api=1&query=Cantina+Real+Emiliano+Zapata+822+El+Calvario+Jes%C3%BAs+Mar%C3%ADa+Aguascalientes" target="_blank" rel="noopener"><i data-lucide="map-pin" class="h-4 w-4 text-cobre"></i> Ver en el mapa</a>
-        </address>
-      </div>
-      <div class="lg:col-span-4">
-        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-cobre">Exclusivas de la Real</p>
-        <p class="mt-5 text-sm text-arena">Fechas de posadas y novedades de la Real antes que nadie.</p>
-        <form id="news-form" class="mt-5 flex flex-col gap-2 xs:flex-row" novalidate>
-          <label for="news-email" class="sr-only">Correo electrónico</label>
-          <input id="news-email" type="email" class="field" placeholder="tucorreo@ejemplo.com" autocomplete="email" />
-          <button type="submit" class="btn btn-cobre shrink-0 px-6 py-3.5 text-sm">Suscribirme</button>
+  <section class="sec" id="eventos" style="padding-top:20px">
+    <div class="wrap two">
+      <div class="box reveal">
+        <div class="kicker">Diciembre se llena</div>
+        <h3>Posadas y eventos</h3>
+        <p class="s">Posadas, cumpleaños, despedidas y reuniones de oficina de 10 a 40 personas. Te armamos un paquete con botellas, canastas y botana.</p>
+        <form class="f" id="fEvento">
+          <label>Nombre<input name="nombre" required autocomplete="name"></label>
+          <label>Tipo<select name="tipo"><option>Posada</option><option>Cumpleaños</option><option>Reunión de oficina</option><option>Despedida</option><option>Otro</option></select></label>
+          <label>Fecha<input name="fecha" type="date" required></label>
+          <label>Personas<input name="personas" type="number" min="10" max="80" value="15" required></label>
+          <label class="w">Presupuesto aproximado por persona<select name="presupuesto"><option>$300 a $500</option><option>$500 a $800</option><option>Más de $800</option><option>Aún no sé</option></select></label>
+          <button class="btn btn-gold" type="submit">Cotizar por WhatsApp</button>
         </form>
-        <p id="news-msg" class="field-error" aria-live="polite"></p>
+      </div>
+      <div class="box reveal" id="reserva">
+        <div class="kicker">Sin filas, sin vueltas</div>
+        <h3>Reserva tu mesa</h3>
+        <p class="s">Te confirmamos por WhatsApp. Los sábados, las mesas de 6+ reciben ronda de bienvenida.</p>
+        <form class="f" id="fReserva">
+          <label>Nombre<input name="nombre" required autocomplete="name"></label>
+          <label>Personas<input name="personas" type="number" min="1" max="40" value="4" required></label>
+          <label>Día<input name="fecha" type="date" required></label>
+          <label>Hora<select name="hora" id="hora"></select></label>
+          <label class="w">Ocasión<select name="ocasion"><option>Salida con amigos</option><option>Cumpleaños</option><option>Partido</option><option>Comida / desayuno</option><option>Otro</option></select></label>
+          <button class="btn btn-gold" type="submit">Reservar por WhatsApp</button>
+        </form>
       </div>
     </div>
-    <div class="mx-auto mt-16 max-w-[1600px] px-4 sm:px-6 lg:px-10">
-      <div class="divider-cobre"></div>
-      <div class="flex flex-col gap-4 py-8 text-xs text-arena md:flex-row md:items-center md:justify-between">
-        <p>© <span data-year></span> Cantina Real Ags. Todos los derechos reservados.</p>
-        <p class="text-white/50">Evita el exceso. Prohibida la venta de bebidas alcohólicas a menores de 18 años.</p>
-        <div class="flex flex-wrap gap-x-5 gap-y-2">
-          <button type="button" class="hover:text-white" data-legal="privacidad">Aviso de privacidad</button>
-          <button type="button" class="hover:text-white" data-legal="terminos">Términos</button>
-          <p>Sitio diseñado y desarrollado por <span class="font-semibold text-cobre-light">LKM’r</span></p>
+  </section>
+
+  <section class="sec" id="visita" style="padding-top:20px">
+    <div class="wrap two">
+      <div class="reveal">
+        <div class="kicker">Visítanos</div><h2 class="royal" style="font-size:clamp(2rem,6vw,3.6rem)">Aquí estamos</h2>
+        <div class="info" id="info"></div>
+        <div class="hero-ctas" style="margin-top:20px">
+          <a class="btn btn-gold" id="goMaps" target="_blank" rel="noopener">Cómo llegar</a>
+          <a class="btn btn-line" href="tel:+524494159466">Llamar</a>
         </div>
       </div>
+      <div class="map reveal"><iframe title="Mapa de Cantina Real" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?q=Cantina%20Real%2C%20Emiliano%20Zapata%20822%2C%20El%20Calvario%2C%20Jes%C3%BAs%20Mar%C3%ADa%2C%20Aguascalientes&z=16&output=embed"></iframe></div>
     </div>
-  </footer>
-
-  <!-- Barra de acción móvil -->
-  <div class="fixed inset-x-0 bottom-0 z-40 border-t hairline bg-black/80 p-3 backdrop-blur-lg sm:hidden" style="padding-bottom: max(0.75rem, env(safe-area-inset-bottom));">
-    <div class="grid grid-cols-2 gap-2">
-      <a href="#menu" class="btn btn-ghost py-3 text-sm"><i data-lucide="book-open" class="h-4 w-4"></i> Menú</a>
-      <a href="#reservas" class="btn btn-cobre py-3 text-sm"><i data-lucide="calendar-days" class="h-4 w-4"></i> Reservar</a>
+    <div class="wrap faq reveal" style="margin-top:56px;max-width:820px">
+      <div class="sec-head"><h2 class="royal" style="font-size:clamp(1.8rem,5vw,2.8rem)">Preguntas</h2></div>
+      <details><summary>¿A qué hora abren?</summary><p>Todos los días de 9:00 a.m. a 2:00 a.m. Desde temprano hay Desayuno Real y michelada.</p></details>
+      <details><summary>¿Cómo reservo?</summary><p>Con el formulario de arriba o mandando WhatsApp al 449 415 94 66 con día, hora y número de personas.</p></details>
+      <details><summary>¿Las promos aplican todos los días?</summary><p>Cada día tiene su promo en su horario (ve “La Semana Real”). No son acumulables y aplican en consumo en el lugar.</p></details>
+      <details><summary>¿Hacen posadas y eventos?</summary><p>Sí, grupos de 10 a 40 personas. Cotiza por WhatsApp con el formulario de Posadas y eventos.</p></details>
+      <details><summary>¿Tienen opciones sin alcohol?</summary><p>Sí: piña colada sin licor, Flamingo sin alcohol, limonada, naranjada, sueros, Heineken 0.0 y más. Ideal para el conductor designado.</p></details>
+      <details><summary>¿Qué hago si tuve una mala experiencia?</summary><p>Repórtalo directo al 449 415 94 66. Lo atendemos personalmente.</p></details>
     </div>
-  </div>
+  </section>
+</main>
 
-  <!-- ===================== MODAL DE PLATILLO ===================== -->
-  <div id="dish-modal" class="overlay" role="dialog" aria-modal="true" aria-labelledby="dm-name" aria-hidden="true">
-    <div class="overlay-backdrop" data-close></div>
-    <div class="absolute inset-0 flex items-end justify-center p-0 sm:items-center sm:p-6" data-close-self>
-      <div class="modal-panel relative max-h-[94svh] w-full max-w-4xl overflow-y-auto rounded-t-[28px] border hairline bg-tabaco sm:rounded-[28px]">
-        <button type="button" class="press absolute right-4 top-4 z-10 grid h-11 w-11 place-items-center rounded-full border border-white/15 bg-black/60 backdrop-blur focus-ring" data-close aria-label="Cerrar detalle"><i data-lucide="x" class="h-5 w-5"></i></button>
-        <div class="grid md:grid-cols-2">
-          <div class="relative">
-            <img id="dm-img" src="" alt="" class="h-64 w-full object-cover sm:h-80 md:h-full md:min-h-[520px]" />
-            <span id="dm-badge" class="absolute left-4 top-4 hidden rounded-full bg-cobre px-3 py-1 text-[0.65rem] font-bold uppercase tracking-[0.15em] text-obsidian"></span>
-          </div>
-          <div class="flex flex-col p-6 sm:p-8">
-            <p id="dm-cat" class="text-[0.65rem] font-semibold uppercase tracking-luxe text-cobre"></p>
-            <h3 id="dm-name" class="mt-3 font-display text-3xl sm:text-4xl"></h3>
-            <p id="dm-price" class="mt-2 font-display text-2xl text-cobre-light"></p>
-            <p id="dm-long" class="mt-5 text-sm leading-relaxed text-arena"></p>
-            <div id="dm-tags" class="mt-5 flex flex-wrap gap-2"></div>
-            <div id="dm-extra" class="mt-6 grid gap-4 sm:grid-cols-2">
-              <div class="rounded-2xl border border-white/5 bg-black/20 p-4">
-                <p id="dm-meter-label" class="text-[0.65rem] uppercase tracking-[0.2em] text-arena">Nivel de picor</p>
-                <div id="dm-meter" class="mt-3 flex gap-1.5" aria-hidden="true"></div>
-                <p id="dm-meter-text" class="mt-2 text-xs text-marfil"></p>
-              </div>
-              <div class="rounded-2xl border border-white/5 bg-black/20 p-4">
-                <p class="text-[0.65rem] uppercase tracking-[0.2em] text-arena">Marídalo con</p>
-                <p id="dm-pairing" class="mt-2 text-xs leading-relaxed text-marfil"></p>
-              </div>
-            </div>
-            <label for="dm-note" class="mt-6 text-sm text-arena">Indicaciones para la barra <span class="text-white/40">(opcional)</span></label>
-            <input id="dm-note" class="field mt-2" maxlength="80" placeholder="Ej. escarchado extra" />
-            <div class="mt-auto flex items-center gap-3 pt-8">
-              <div class="flex items-center rounded-full border border-white/15">
-                <button type="button" id="dm-minus" class="press grid h-12 w-12 place-items-center focus-ring rounded-full" aria-label="Menos"><i data-lucide="minus" class="h-4 w-4"></i></button>
-                <output id="dm-qty" class="w-8 text-center font-semibold" aria-live="polite">1</output>
-                <button type="button" id="dm-plus" class="press grid h-12 w-12 place-items-center focus-ring rounded-full" aria-label="Más"><i data-lucide="plus" class="h-4 w-4"></i></button>
-              </div>
-              <button type="button" id="dm-add" class="btn btn-cobre flex-1 py-4 text-sm"><i data-lucide="plus" class="h-4 w-4"></i> Añadir<span id="dm-total"></span></button>
-            </div>
-          </div>
-        </div>
+<footer>
+  <img src="img/logo-light.png" alt="Cantina Real" width="200" height="126" loading="lazy">
+  <div>Emiliano Zapata 822, El Calvario, Jesús María, Ags. · 9 AM – 2 AM · <a href="https://www.instagram.com/cantinareal_mk/" target="_blank" rel="noopener">@cantinareal_mk</a></div>
+  <div class="legal">Evita el exceso · Prohibida la venta de alcohol a menores de 18 años · *Aplican restricciones</div>
+  <div class="by">Sitio diseñado y desarrollado por LKM’r</div>
+</footer>
+
+<button class="fab" id="fab" aria-label="Ver mi cuenta"><span>Mi cuenta</span><b id="fabN">0</b></button>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetT">
+  <div class="bg" data-close></div>
+  <div class="panel">
+    <button class="x" data-close aria-label="Cerrar">×</button>
+    <h3 id="sheetT">Mi cuenta</h3>
+    <div class="lines" id="lines"></div>
+    <div class="sum">
+      <div class="row"><span>Total estimado</span><b id="total">$0</b></div>
+      <div class="row"><span class="split">Dividir entre <input id="people" type="number" min="1" max="40" value="1" aria-label="Personas"></span><span id="each" style="color:var(--mute)"></span></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px">
+        <button class="btn btn-line btn-sm" id="clear">Vaciar</button>
+        <button class="btn btn-gold btn-sm" id="sendOrder">Apartar por WhatsApp</button>
       </div>
+      <p class="fine" style="margin-top:10px">Estimado con precios de carta. El total final se confirma en el lugar.</p>
     </div>
   </div>
+</div>
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gateT">
+  <div><img src="img/logo-light.png" alt="Cantina Real" width="240" height="151"><h2 id="gateT">¿Eres mayor de 18 años?</h2><p>Este sitio promociona bebidas alcohólicas. Evita el exceso.</p>
+  <div class="row"><button class="btn btn-gold" id="gateYes">Sí, soy mayor</button><a class="btn btn-line" href="https://www.google.com/">No</a></div></div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-  <!-- ===================== COMANDA ===================== -->
-  <div id="cart-drawer" class="overlay" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true">
-    <div class="overlay-backdrop" data-close></div>
-    <aside class="drawer-panel flex flex-col border-l hairline bg-obsidian">
-      <div class="flex items-center justify-between border-b hairline p-5 sm:p-6">
-        <div>
-          <p class="text-[0.6rem] uppercase tracking-luxe text-cobre">Tu comanda</p>
-          <h2 id="cart-title" class="font-display text-2xl">Pedido activo</h2>
-        </div>
-        <button type="button" class="press grid h-11 w-11 place-items-center rounded-full border border-white/10 focus-ring" data-close aria-label="Cerrar comanda"><i data-lucide="x" class="h-5 w-5"></i></button>
-      </div>
+<script src="data.js"></script>
+<script src="art.js"></script>
+<script>
+(() => {
+  const { CONTACT, MENU, PROMOS, EXTRAS, POSTERS, VIDEOS, GIFS } = window.CR;
+  const { ICONS, papel } = window.CRART;
+  const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+  const money = n => "$" + Number(n).toLocaleString("es-MX");
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const store = { get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+  const toast = msg => { const t = $("#toast"); t.textContent = msg; t.classList.add("on"); clearTimeout(toast.h); toast.h = setTimeout(() => t.classList.remove("on"), 2600); };
+  const wa = text => `https://wa.me/${CONTACT.phone}?text=${encodeURIComponent(text)}`;
+  const slug = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
 
-      <div id="cart-body" class="flex-1 overflow-y-auto p-5 sm:p-6">
-        <ul id="cart-items" class="space-y-4"></ul>
-        <div id="cart-empty" class="py-16 text-center">
-          <span class="mx-auto grid h-16 w-16 place-items-center rounded-full bg-cobre/10 text-cobre"><i data-lucide="receipt" class="h-7 w-7"></i></span>
-          <p class="mt-5 font-display text-2xl">Tu comanda está vacía</p>
-          <p class="mt-2 text-sm text-arena">Agrega una ronda desde el menú.</p>
-          <a href="#menu" class="btn btn-ghost mt-6 px-6 py-3 text-sm" data-close>Ver menú</a>
-        </div>
+  // Aviso de edad (se recuerda en este navegador)
+  if (!store.get("cr-18", false)) $("#gate").classList.add("on");
+  $("#gateYes").onclick = () => { store.set("cr-18", true); $("#gate").classList.remove("on"); };
 
-        <div id="cart-extra" class="mt-8 hidden space-y-6">
-          <fieldset>
-            <legend class="text-[0.65rem] uppercase tracking-[0.2em] text-arena">¿Cómo lo quieres?</legend>
-            <div class="mt-3 grid grid-cols-2 gap-2" id="mode-list">
-              <button type="button" class="chip justify-center" data-mode="mesa" aria-pressed="true"><i data-lucide="armchair" class="h-4 w-4"></i> En mi mesa</button>
-              <button type="button" class="chip justify-center" data-mode="llevar" aria-pressed="false"><i data-lucide="shopping-bag" class="h-4 w-4"></i> Para llevar</button>
-            </div>
-            <div class="mt-3" id="mode-mesa-field">
-              <label for="c-table" class="sr-only">Número de mesa</label>
-              <input id="c-table" class="field" inputmode="numeric" maxlength="3" placeholder="Número de mesa (ej. 7)" />
-            </div>
-            <div class="mt-3 hidden" id="mode-llevar-field">
-              <label for="c-name" class="sr-only">Nombre para recoger</label>
-              <input id="c-name" class="field" maxlength="40" placeholder="¿A nombre de quién?" />
-            </div>
-            <p class="field-error" id="err-mode"></p>
-          </fieldset>
+  // Hora de la Ciudad de México; antes de las 2 AM cuenta como el día anterior
+  const mx = () => {
+    const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: "America/Mexico_City", weekday: "short", hour: "numeric", minute: "numeric", hour12: false })
+      .formatToParts(new Date()).map(x => [x.type, x.value]));
+    const wd = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(p.weekday), h = +p.hour % 24;
+    return { wd, h, opDay: h < 2 ? (wd + 6) % 7 : wd };
+  };
+  const renderStatus = () => {
+    const { h } = mx(), open = h >= CONTACT.open || h < CONTACT.close - 24;
+    const s = $("#status"); s.classList.toggle("open", open);
+    s.querySelector("span").textContent = open ? "Abierto · cierra 2 AM" : "Cerrado · abre 9 AM";
+  };
+  renderStatus(); setInterval(renderStatus, 60000);
+  $("#papel").innerHTML = papel(12, 1440, 110);
 
-          <fieldset id="tip-fieldset">
-            <legend class="text-[0.65rem] uppercase tracking-[0.2em] text-arena">Propina sugerida</legend>
-            <div class="mt-3 grid grid-cols-5 gap-2" id="tip-list">
-              <button type="button" class="tip-btn press rounded-xl border border-white/10 py-2.5 text-sm" data-tip="0" aria-pressed="false">0%</button>
-              <button type="button" class="tip-btn press rounded-xl border border-white/10 py-2.5 text-sm" data-tip="10" aria-pressed="true">10%</button>
-              <button type="button" class="tip-btn press rounded-xl border border-white/10 py-2.5 text-sm" data-tip="15" aria-pressed="false">15%</button>
-              <button type="button" class="tip-btn press rounded-xl border border-white/10 py-2.5 text-sm" data-tip="20" aria-pressed="false">20%</button>
-              <button type="button" class="tip-btn press rounded-xl border border-white/10 py-2.5 text-sm" data-tip="custom" aria-pressed="false">Otra</button>
-            </div>
-            <div id="tip-custom-wrap" class="mt-3 hidden">
-              <label for="tip-custom" class="sr-only">Propina personalizada en pesos</label>
-              <input id="tip-custom" class="field" inputmode="decimal" placeholder="Monto de propina en pesos" />
-            </div>
-          </fieldset>
-        </div>
-      </div>
+  // Promos
+  const icon = k => `<div class="ic">${ICONS[k] || ""}</div>`;
+  const priceHtml = p => p.price ? `<div class="price">${money(p.price)}${p.was ? `<s>antes ${money(p.was)}</s>` : ""}</div>` : `<span class="badge">${esc(p.badge || "Promo")}</span>`;
+  const order = PROMOS.slice().sort((a, b) => ((a.day + 6) % 7) - ((b.day + 6) % 7));
+  const today = mx().opDay, tp = PROMOS.find(p => p.day === today);
+  const showDay = p => {
+    const isToday = p.day === today;
+    $("#today").innerHTML = `${icon(p.icon)}<div><div class="kicker">${isToday ? "Hoy" : p.dayName} · ${esc(p.when)}</div><h3>${esc(p.title)}</h3><p>${esc(p.deal)}</p>
+      <div class="btns" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px"><a class="btn btn-gold btn-sm" href="${wa(`Hola Cantina Real 👋 Quiero apartar mesa para aprovechar "${p.title}".`)}" target="_blank" rel="noopener">Apartar mesa</a>
+      <button class="btn btn-line btn-sm" data-dl="posters/promo-${slug(p.short)}.png">Guardar póster</button></div></div>${priceHtml(p)}`;
+  };
+  showDay(tp);
+  $("#heroTag").textContent = "Hoy: " + tp.title;
+  $("#week").innerHTML = order.map(p => `<button class="day${p.day === today ? " is-today" : ""}" role="listitem" data-day="${p.day}" aria-label="${esc(p.dayName + ": " + p.title)}">
+    <div class="d">${p.short}</div>${icon(p.icon)}<h4>${esc(p.title.replace(p.dayName, "").trim())}</h4>
+    <div class="pp">${p.price ? money(p.price) : esc(p.badge)}</div><small>${esc(p.when)}</small></button>`).join("");
+  $("#week").addEventListener("click", e => { const b = e.target.closest(".day"); if (!b) return; showDay(PROMOS.find(x => x.day === +b.dataset.day)); $("#today").scrollIntoView({ block: "nearest", behavior: "smooth" }); });
+  $("#extras").innerHTML = EXTRAS.map(e => `<div class="extra">${icon(e.icon)}<div><h4>${esc(e.title)} ${e.price ? `<span style="color:var(--gold)">${money(e.price)}</span>` : ""}</h4><p>${esc(e.hook)} · ${esc(e.deal)}</p></div></div>`).join("");
 
-      <div id="cart-footer" class="hidden border-t hairline bg-tabaco/60 p-5 sm:p-6">
-        <p id="ct-note" class="hidden text-sm text-arena">La barra te confirma precios y total por WhatsApp.</p>
-        <dl id="ct-list" class="space-y-2 text-sm">
-          <div class="flex justify-between text-arena"><dt>Subtotal (sin IVA)</dt><dd id="ct-sub"></dd></div>
-          <div class="flex justify-between text-arena"><dt>IVA 16%</dt><dd id="ct-tax"></dd></div>
-          <div class="flex justify-between text-arena"><dt>Propina</dt><dd id="ct-tip"></dd></div>
-          <div class="flex items-baseline justify-between border-t hairline pt-3"><dt class="font-semibold">Total</dt><dd id="ct-total" class="font-display text-3xl text-cobre-light"></dd></div>
-        </dl>
-        <button type="button" id="cart-send" class="btn btn-cobre mt-5 w-full py-4 text-sm"><i data-lucide="send" class="h-4 w-4"></i> Enviar comanda a la barra</button>
-        <button type="button" id="cart-clear" class="mt-3 w-full text-center text-xs text-arena hover:text-white">Vaciar comanda</button>
-      </div>
+  // Carta
+  let active = "todo";
+  $("#chips").innerHTML = [["todo", "Todo"], ...MENU.map(s => [s.id, s.name])].map(([id, n]) => `<button class="chip" aria-pressed="${id === active}" data-id="${id}">${esc(n)}</button>`).join("");
+  const renderMenu = () => {
+    const q = slug($("#q").value.trim());
+    let any = false;
+    $("#menu").innerHTML = MENU.filter(s => active === "todo" || s.id === active).map(s => {
+      const items = s.items.filter(i => !q || slug(i[0] + " " + s.name + " " + (typeof i[2] === "string" ? i[2] : "")).includes(q));
+      if (!items.length) return "";
+      any = true;
+      const btn = (n, price, size) => price == null ? `<button class="na" disabled>Consultar</button>`
+        : `<button data-add="${esc(n)}" data-size="${size}" data-price="${price}" aria-label="Agregar ${esc(n)} ${size} ${money(price)}">${money(price)}</button>`;
+      const rows = items.map(([n, a, b, hot]) => `<div class="it"><div class="n">${esc(n)}${hot === true ? '<span class="hot">Favorito</span>' : ""}${typeof b === "string" ? `<small>${esc(b)}</small>` : ""}</div>
+          <div class="add">${btn(n, a, s.kind === "dual" ? "copa" : "")}</div>${s.kind === "dual" ? `<div class="add">${btn(n, b, "botella")}</div>` : ""}</div>`).join("");
+      return `<section class="msec${s.star ? " star" : ""}" id="m-${s.id}"><h3>${esc(s.name)}</h3>${s.note ? `<p class="note">${esc(s.note)}</p>` : ""}
+        ${s.kind === "dual" ? '<div class="cols"><span>Copa</span><span>Botella</span></div>' : ""}${rows}</section>`;
+    }).join("");
+    $("#empty").hidden = any;
+  };
+  const setChip = id => { active = id; $$("#chips .chip").forEach(c => c.setAttribute("aria-pressed", c.dataset.id === id)); };
+  $("#chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; setChip(b.dataset.id); renderMenu(); });
+  $("#q").addEventListener("input", () => { if ($("#q").value && active !== "todo") setChip("todo"); renderMenu(); });
+  renderMenu();
 
-      <!-- Confirmación -->
-      <div id="cart-done" class="hidden flex-1 overflow-y-auto p-6 text-center">
-        <span class="mx-auto mt-6 grid h-16 w-16 place-items-center rounded-full bg-agave/15 text-agave"><i data-lucide="check" class="h-8 w-8"></i></span>
-        <p class="mt-6 text-xs uppercase tracking-luxe text-cobre">Comanda generada</p>
-        <h3 class="mt-3 font-display text-3xl">Folio <span id="cd-folio" class="text-cobre-light"></span></h3>
-        <p class="mt-3 text-sm text-arena">Último paso: envíala por WhatsApp para que la barra la reciba y la prepare.</p>
-        <ul id="cd-items" class="mx-auto mt-6 max-w-xs space-y-1 text-left text-sm text-arena"></ul>
-        <p class="mt-4 font-display text-2xl" id="cd-total"></p>
-        <a id="cd-wa" href="#" target="_blank" rel="noopener" class="btn btn-cobre mt-8 w-full py-4 text-sm"><i data-lucide="message-circle" class="h-4 w-4"></i> Enviar por WhatsApp</a>
-        <button type="button" id="cd-new" class="btn btn-ghost mt-3 w-full py-3.5 text-sm">Nueva comanda</button>
-      </div>
-    </aside>
-  </div>
+  // Cuenta
+  let cart = store.get("cr-cart", []);
+  const saveCart = () => { store.set("cr-cart", cart); renderCart(); };
+  const renderCart = () => {
+    const n = cart.reduce((a, l) => a + l.q, 0), total = cart.reduce((a, l) => a + l.q * l.p, 0);
+    $("#fab").classList.toggle("on", n > 0); $("#fabN").textContent = n;
+    $("#lines").innerHTML = cart.length ? cart.map((l, i) => `<div class="line"><div>${esc(l.n)}${l.s ? ` <small>(${l.s})</small>` : ""}<br><small>${money(l.p)} c/u</small></div>
+      <div class="qty"><button data-q="${i}" data-d="-1" aria-label="Quitar uno">−</button><span>${l.q}</span><button data-q="${i}" data-d="1" aria-label="Agregar uno">+</button></div><b>${money(l.q * l.p)}</b></div>`).join("")
+      : `<p class="empty">Toca los precios de la carta para armar tu cuenta.</p>`;
+    $("#total").textContent = money(total);
+    const ppl = Math.max(1, +$("#people").value || 1);
+    $("#each").textContent = ppl > 1 ? `${money(Math.ceil(total / ppl))} por persona` : "";
+  };
+  document.addEventListener("click", e => {
+    const a = e.target.closest("[data-add]");
+    if (a) { const k = cart.find(l => l.n === a.dataset.add && l.s === a.dataset.size); k ? k.q++ : cart.push({ n: a.dataset.add, s: a.dataset.size, p: +a.dataset.price, q: 1 }); saveCart(); toast(`+1 ${a.dataset.add}${a.dataset.size ? " (" + a.dataset.size + ")" : ""}`); }
+    const q = e.target.closest("[data-q]");
+    if (q) { const l = cart[+q.dataset.q]; l.q += +q.dataset.d; if (l.q <= 0) cart.splice(+q.dataset.q, 1); saveCart(); }
+    if (e.target.closest("[data-close]")) $("#sheet").classList.remove("on");
+  });
+  $("#fab").onclick = () => { $("#sheet").classList.add("on"); renderCart(); };
+  $("#people").oninput = renderCart;
+  $("#clear").onclick = () => { cart = []; saveCart(); };
+  $("#sendOrder").onclick = () => {
+    if (!cart.length) return toast("Tu cuenta está vacía");
+    const total = cart.reduce((a, l) => a + l.q * l.p, 0);
+    const txt = `Hola Cantina Real 👋 Quiero apartar mesa y dejar listo este pedido:\n\n${cart.map(l => `• ${l.q} × ${l.n}${l.s ? " (" + l.s + ")" : ""}: ${money(l.q * l.p)}`).join("\n")}\n\nTotal estimado: ${money(total)}\nPersonas: ${$("#people").value}\nDía y hora: `;
+    window.open(wa(txt), "_blank", "noopener");
+  };
+  document.addEventListener("keydown", e => { if (e.key === "Escape") $("#sheet").classList.remove("on"); });
+  renderCart();
 
-  <!-- Modal legal -->
-  <div id="legal-modal" class="overlay" role="dialog" aria-modal="true" aria-labelledby="lg-title" aria-hidden="true">
-    <div class="overlay-backdrop" data-close></div>
-    <div class="absolute inset-0 flex items-center justify-center p-4" data-close-self>
-      <div class="modal-panel relative max-h-[85svh] w-full max-w-2xl overflow-y-auto rounded-[28px] border hairline bg-tabaco p-6 sm:p-10">
-        <button type="button" class="press absolute right-4 top-4 grid h-11 w-11 place-items-center rounded-full border border-white/15 focus-ring" data-close aria-label="Cerrar"><i data-lucide="x" class="h-5 w-5"></i></button>
-        <h2 id="lg-title" class="pr-12 font-display text-3xl"></h2>
-        <div id="lg-body" class="mt-6 space-y-4 text-sm leading-relaxed text-arena"></div>
-      </div>
-    </div>
-  </div>
+  // Guardar en el celular: Web Share con archivo (iPhone/Android); en computadora, descarga
+  const save = async (url, caption) => {
+    if (caption) { try { await navigator.clipboard.writeText(caption); } catch {} }
+    try {
+      const blob = await (await fetch(url)).blob();
+      const file = new File([blob], "cantina-real-" + url.split("/").pop(), { type: blob.type });
+      const mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+      if (mobile && navigator.canShare && navigator.canShare({ files: [file] })) await navigator.share({ files: [file] });
+      else { const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = file.name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000); }
+      toast(caption ? "Guardado. El texto quedó copiado: pégalo en tu post." : "Guardado ✔");
+    } catch (err) { if (!err || err.name !== "AbortError") window.open(url, "_blank", "noopener"); }
+  };
+  const copy = async txt => { try { await navigator.clipboard.writeText(txt); toast("Texto copiado ✔"); } catch { prompt("Copia el texto:", txt); } };
+  const captionFor = url => { const id = url.split("/").pop().replace(/\.\w+$/, ""); const it = [...POSTERS, ...VIDEOS].find(p => p.id === id); return it && it.caption; };
+  document.addEventListener("click", e => {
+    const d = e.target.closest("[data-dl]"); if (d) save(d.dataset.dl, captionFor(d.dataset.dl));
+    const c = e.target.closest("[data-copy]"); if (c) copy(c.dataset.copy);
+  });
 
-  <div id="toast" class="fixed bottom-24 left-1/2 z-[95] flex max-w-[92vw] items-center gap-3 rounded-full border hairline bg-tabaco/95 px-5 py-3 text-sm shadow-cobre-lg backdrop-blur sm:bottom-8" role="status" aria-live="polite">
-    <i data-lucide="check-circle-2" class="h-4 w-4 shrink-0 text-agave"></i><span id="toast-text"></span>
-  </div>
+  // Videos y loops
+  $("#vids").innerHTML = VIDEOS.map(v => `<article class="vid reveal"><video src="videos/${v.id}.mp4" muted loop playsinline preload="none" controls poster="videos/${v.id}.jpg"></video>
+    <h4>${esc(v.title)} <small style="color:var(--mute);font-family:var(--sans);font-size:.8rem">· ${v.secs} s · 9:16</small></h4>
+    <div class="acts"><button class="btn btn-gold btn-sm" data-dl="videos/${v.id}.mp4">Guardar video</button><button class="btn btn-line btn-sm" data-copy="${esc(v.caption)}">Texto</button></div></article>`).join("");
+  $("#gifs").innerHTML = GIFS.map(g => `<article class="vid sq reveal"><video src="videos/${g.id}.mp4" autoplay muted loop playsinline preload="metadata" aria-label="${esc(g.title)}"></video>
+    <h4>${esc(g.title)} <small style="color:var(--mute);font-family:var(--sans);font-size:.8rem">· loop ${g.secs} s</small></h4>
+    <div class="acts"><button class="btn btn-gold btn-sm" data-dl="videos/${g.id}.gif">Guardar GIF</button><button class="btn btn-line btn-sm" data-dl="videos/${g.id}.mp4">MP4</button></div></article>`).join("");
 
-  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
-  <script>
-  (() => {
-    'use strict';
+  // Posters
+  let fmt = "post";
+  const renderPosters = () => {
+    const base = fmt === "story" ? "posters/story/" : "posters/";
+    $("#posters").className = "posters " + fmt;
+    $("#posters").innerHTML = POSTERS.map(p => `<article class="poster"><img src="${base}thumb/${p.id}.webp" alt="Póster: ${esc(p.title)}" loading="lazy" width="420" height="${fmt === "story" ? 747 : 525}">
+      <div class="b"><h4>${esc(p.title)}</h4><details><summary>Ver texto para IG</summary><pre>${esc(p.caption)}</pre></details>
+      <div class="acts"><button class="btn btn-gold btn-sm" data-dl="${base}${p.id}.png">Guardar</button><button class="btn btn-line btn-sm" data-copy="${esc(p.caption)}">Texto</button></div></div></article>`).join("");
+  };
+  $$(".tabs [data-fmt]").forEach(b => b.onclick = () => { fmt = b.dataset.fmt; $$(".tabs [data-fmt]").forEach(x => x.setAttribute("aria-pressed", x === b)); renderPosters(); });
+  renderPosters();
 
-    /* =========================================================
-       CONFIGURACIÓN Y DATOS
-       ========================================================= */
-    const CONFIG = {
-      phone: '524494159466',
-      phoneLabel: '449 415 9466',
-      timeZone: 'America/Mexico_City',
-      taxRate: 0.16,
-      daysAhead: 42,
-      storageKey: 'cantinareal.cart.v2',
-      // Minutos desde la medianoche; 26 * 60 = 2:00 a.m. del día siguiente.
-      open: 9 * 60,
-      close: 26 * 60,
-      address: 'Emiliano Zapata 822, El Calvario, 20922 Jesús María, Ags.',
-      zones: {
-        salon: { name: 'Salón Principal', icon: 'armchair', desc: 'Mesas para venir con tu grupo.', max: 99 },
-        barra: { name: 'Barra', icon: 'wine', desc: 'Junto al cantinero y la vitrina de tequilas.', max: 4 },
-        pantallas: { name: 'Zona de Pantallas', icon: 'tv', desc: 'Frente a las pantallas para el partido.', max: 12 },
-      },
-      occasions: [
-        { id: 'casual', label: 'Solo a convivir', icon: 'beer' },
-        { id: 'cumple', label: 'Cumpleaños', icon: 'cake' },
-        { id: 'partido', label: 'Ver el partido', icon: 'tv' },
-        { id: 'posada', label: 'Posada / evento', icon: 'party-popper' },
-        { id: 'trabajo', label: 'Reunión de trabajo', icon: 'briefcase' },
-      ],
-      slotGroups: [
-        { id: 'comida', label: 'Comida', icon: 'sun', from: 13 * 60, to: 16 * 60 + 30 },
-        { id: 'tardeada', label: 'Tardeada', icon: 'sunset', from: 17 * 60, to: 20 * 60 + 30 },
-        { id: 'noche', label: 'Noche', icon: 'moon-star', from: 21 * 60, to: 24 * 60 },
-      ],
-    };
+  // Formularios → WhatsApp
+  const hours = []; for (let h = 9; h <= 25; h++) for (const m of [0, 30]) { if (h === 25 && m) continue; hours.push(`${String(h % 24).padStart(2, "0")}:${m ? "30" : "00"}`); }
+  $("#hora").innerHTML = hours.map(h => `<option${h === "20:00" ? " selected" : ""}>${h}</option>`).join("");
+  const d0 = new Date(); const isoLocal = `${d0.getFullYear()}-${String(d0.getMonth() + 1).padStart(2, "0")}-${String(d0.getDate()).padStart(2, "0")}`;
+  $$("input[type=date]").forEach(i => { i.min = isoLocal; });
+  const fdate = v => { if (!v) return ""; const [y, m, d] = v.split("-"); return new Date(+y, m - 1, +d).toLocaleDateString("es-MX", { weekday: "long", day: "numeric", month: "long" }); };
+  $("#fReserva").onsubmit = e => { e.preventDefault(); const f = Object.fromEntries(new FormData(e.target));
+    window.open(wa(`Hola Cantina Real 👋 Quiero reservar:\n• Nombre: ${f.nombre}\n• Personas: ${f.personas}\n• Día: ${fdate(f.fecha)}\n• Hora: ${f.hora}\n• Ocasión: ${f.ocasion}`), "_blank", "noopener"); };
+  $("#fEvento").onsubmit = e => { e.preventDefault(); const f = Object.fromEntries(new FormData(e.target));
+    window.open(wa(`Hola Cantina Real 👋 Quiero cotizar un evento:\n• Nombre: ${f.nombre}\n• Tipo: ${f.tipo}\n• Fecha: ${fdate(f.fecha)}\n• Personas: ${f.personas}\n• Presupuesto por persona: ${f.presupuesto}`), "_blank", "noopener"); };
 
-    const IMG = (src) => src;
+  // Visítanos
+  $("#info").innerHTML = [["pin", "Dirección", `${CONTACT.address}, ${CONTACT.city}`], ["reloj", "Horario", CONTACT.hours], ["whatsapp", "Reservas y quejas", `WhatsApp ${CONTACT.phoneLabel}`], ["estrella", "Instagram", "@" + CONTACT.instagram]]
+    .map(([ic, b, s]) => `<div>${icon(ic)}<div><b>${b}</b><span>${esc(s)}</span></div></div>`).join("");
+  $("#goMaps").href = CONTACT.maps;
 
-    const CATEGORIES = [
-      { id: 'all', label: 'Todo', icon: 'sparkles' },
-      { id: 'cervezas', label: 'Gringas & Cervezas', icon: 'beer' },
-      { id: 'agave', label: 'Tequilas', icon: 'wine' },
-    ];
-
-    const FILTERS = [];
-
-    // Solo productos que aparecen en las fotos y publicaciones de Cantina Real.
-    // price: null = el precio lo confirma la barra (no hay precios publicados).
-    const MENU = [
-      { id: 'gringa', cat: 'cervezas', name: 'Gringa de Sabores', price: null, img: 'assets/gringa.jpg', badge: 'Famosa', tags: [],
-        desc: 'Vaso escarchado con chile y el preparado de la casa, con tu cerveza al lado.',
-        long: 'La famosa gringa de la Real: vaso escarchado con chile y el preparado de la casa, con tu cerveza al lado. Pregunta en barra por los sabores del día.' },
-      { id: 'cerveza', cat: 'cervezas', name: 'Cerveza', price: null, img: 'assets/gringa.jpg', tags: [],
-        desc: 'Bien fría, sola o para acompañar tu gringa.',
-        long: 'Cerveza bien fría, sola o para acompañar tu gringa. Pregunta en barra por las marcas disponibles.' },
-      { id: 'tequila', cat: 'agave', name: 'Tequilas de la Vitrina', price: null, img: 'assets/tequilas.jpg', badge: 'Vitrina', tags: [],
-        desc: 'Elige tu etiqueta entre los tequilas de la barra.',
-        long: 'La vitrina de la Real tiene tequilas de distintas casas. Elige tu etiqueta con el cantinero.' },
-    ];
-
-    const GALLERY = [
-      { src: 'assets/barra.jpg', alt: 'La barra de Cantina Real con su vitrina de tequilas', cap: 'La barra', h: 'aspect-[4/5]' },
-      { src: 'assets/gringa.jpg', alt: 'Gringa de sabores y cerveza Corona', cap: 'Gringas de sabores', h: 'aspect-[3/4]' },
-      { src: 'assets/botellas.jpg', alt: 'Botellas de tequila en la barra', cap: 'Tequilas de la vitrina', h: 'aspect-[4/5]' },
-      { src: 'assets/contrabarra.jpg', alt: 'Contrabarra iluminada con pantallas', cap: 'Pantallas y contrabarra', h: 'aspect-[16/9]' },
-      { src: 'assets/tequilas.jpg', alt: 'Repisa de tequilas', cap: 'La vitrina', h: 'aspect-square' },
-    ];
-
-    const LEGAL = {
-      privacidad: { title: 'Aviso de privacidad', body: [
-        'Cantina Real Ags, con domicilio en Emiliano Zapata 822, El Calvario, 20922 Jesús María, Aguascalientes, es responsable del uso de los datos personales que nos proporciones (nombre, teléfono y correo electrónico).',
-        'Los usamos únicamente para gestionar tus reservaciones y pedidos, confirmar tu visita y, si así lo autorizas, enviarte promociones. No vendemos ni compartimos tus datos con terceros.',
-        'Este sitio no almacena tus datos en servidores: las reservaciones y comandas se envían a través de WhatsApp. Tu comanda en curso se guarda solo en tu navegador.',
-        `Para ejercer tus derechos ARCO (acceso, rectificación, cancelación u oposición) escríbenos al WhatsApp ${'449 415 9466'}.`,
-      ] },
-      terminos: { title: 'Términos de uso', body: [
-        'Los precios se confirman en barra o por WhatsApp al enviar tu comanda.',
-        'Las reservaciones quedan confirmadas cuando la barra responde tu mensaje de WhatsApp. ',
-        'Prohibida la venta de bebidas alcohólicas a menores de 18 años; podremos solicitar identificación oficial. Evita el exceso.',
-      ] },
-    };
-
-    /* =========================================================
-       UTILIDADES
-       ========================================================= */
-    const $ = (s, c = document) => c.querySelector(s);
-    const $$ = (s, c = document) => [...c.querySelectorAll(s)];
-    const priceLabel = (n) => (n == null ? 'Precio en barra' : money(n));
-    const money = (n) => new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 }).format(n);
-    const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-    const icons = (root) => window.lucide && lucide.createIcons({ attrs: { 'stroke-width': 1.6 }, ...(root ? { root } : {}) });
-    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const pad = (n) => String(n).padStart(2, '0');
-    const fmtTime = (m) => { const h = Math.floor(m / 60) % 24; const mm = m % 60; const h12 = h % 12 || 12; return `${h12}:${pad(mm)} ${h < 12 ? 'a.m.' : 'p.m.'}`; };
-    const folio = (prefix) => `${prefix}-${Date.now().toString(36).slice(-4).toUpperCase()}${Math.random().toString(36).slice(2, 5).toUpperCase()}`;
-    const waLink = (text) => `https://wa.me/${CONFIG.phone}?text=${encodeURIComponent(text)}`;
-
-    function nowInMexico() {
-      const parts = new Intl.DateTimeFormat('en-US', { timeZone: CONFIG.timeZone, hour12: false, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }).formatToParts(new Date());
-      const get = (t) => Number(parts.find((p) => p.type === t).value);
-      return { y: get('year'), mo: get('month'), d: get('day'), minutes: (get('hour') % 24) * 60 + get('minute') };
-    }
-
-    const toast = (() => {
-      let t;
-      return (msg) => {
-        $('#toast-text').textContent = msg;
-        $('#toast').classList.add('is-shown');
-        clearTimeout(t);
-        t = setTimeout(() => $('#toast').classList.remove('is-shown'), 2600);
-      };
-    })();
-
-    /* =========================================================
-       OVERLAYS (modal / drawers) con trampa de foco y ESC
-       ========================================================= */
-    class Overlay {
-      static stack = [];
-      constructor(el, { onClose } = {}) {
-        this.el = el;
-        this.onClose = onClose;
-        el.addEventListener('click', (e) => {
-          if (e.target.closest('[data-close]') || e.target.hasAttribute('data-close-self')) this.close();
-        });
-        el.addEventListener('keydown', (e) => this.trap(e));
-      }
-      open(trigger) {
-        this.trigger = trigger || document.activeElement;
-        this.el.classList.add('is-open');
-        this.el.setAttribute('aria-hidden', 'false');
-        document.body.classList.add('is-locked');
-        Overlay.stack.push(this);
-        requestAnimationFrame(() => {
-          const f = this.focusables()[0];
-          f && f.focus({ preventScroll: true });
-        });
-      }
-      close() {
-        if (!this.el.classList.contains('is-open')) return;
-        this.el.classList.remove('is-open');
-        this.el.setAttribute('aria-hidden', 'true');
-        Overlay.stack = Overlay.stack.filter((o) => o !== this);
-        if (!Overlay.stack.length) document.body.classList.remove('is-locked');
-        this.onClose && this.onClose();
-        this.trigger && this.trigger.focus && this.trigger.focus({ preventScroll: true });
-      }
-      focusables() {
-        return $$('a[href], button:not([disabled]), input, textarea, select, [tabindex]:not([tabindex="-1"])', this.el).filter((n) => n.offsetParent !== null);
-      }
-      trap(e) {
-        if (e.key !== 'Tab') return;
-        const f = this.focusables();
-        if (!f.length) return;
-        const first = f[0], last = f[f.length - 1];
-        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
-        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
-      }
-    }
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && Overlay.stack.length) Overlay.stack[Overlay.stack.length - 1].close();
-    });
-
-    /* =========================================================
-       HEADER, ESTADO DE APERTURA, NAVEGACIÓN
-       ========================================================= */
-    class Header {
-      constructor() {
-        this.el = $('#site-header');
-        this.nav = new Overlay($('#nav-drawer'), { onClose: () => $('#nav-open').setAttribute('aria-expanded', 'false') });
-        $('#nav-open').addEventListener('click', (e) => { this.nav.open(e.currentTarget); e.currentTarget.setAttribute('aria-expanded', 'true'); });
-        $$('[data-close-nav]').forEach((a) => a.addEventListener('click', () => this.nav.close()));
-        const onScroll = () => this.el.classList.toggle('is-scrolled', window.scrollY > 24);
-        onScroll();
-        window.addEventListener('scroll', onScroll, { passive: true });
-        this.spy();
-        this.status();
-        setInterval(() => this.status(), 60000);
-      }
-      spy() {
-        const links = $$('#site-header .nav-link');
-        const map = new Map(links.map((l) => [l.getAttribute('href').slice(1), l]));
-        const io = new IntersectionObserver((entries) => {
-          entries.forEach((en) => {
-            if (en.isIntersecting && map.has(en.target.id)) {
-              links.forEach((l) => l.classList.remove('is-active'));
-              map.get(en.target.id).classList.add('is-active');
-            }
-          });
-        }, { rootMargin: '-45% 0px -50% 0px' });
-        map.forEach((_, id) => { const s = document.getElementById(id); s && io.observe(s); });
-      }
-      status() {
-        const { minutes } = nowInMexico();
-        // Abierto de 9:00 a 2:00 del día siguiente: cerrado solo entre 2:00 y 9:00.
-        const open = minutes >= CONFIG.open || minutes < CONFIG.close - 1440;
-        const text = open ? 'Abierto en Jesús María · cierra 2:00 a.m.' : 'Cerrado ahora · abrimos 9:00 a.m.';
-        $$('[data-status-text]').forEach((n) => (n.textContent = text));
-        $$('[data-status-dot]').forEach((n) => { n.style.color = open ? '#10b981' : '#f59e0b'; n.style.background = open ? '#10b981' : '#f59e0b'; });
-      }
-    }
-
-    /* =========================================================
-       COMANDA (carrito)
-       ========================================================= */
-    class Cart {
-      constructor() {
-        this.items = this.load();
-        this.tip = 10;
-        this.tipCustom = 0;
-        this.mode = 'mesa';
-        this.drawer = new Overlay($('#cart-drawer'));
-        $('#cart-open').addEventListener('click', (e) => this.open(e.currentTarget));
-        $('#cart-items').addEventListener('click', (e) => {
-          const b = e.target.closest('button[data-act]');
-          if (!b) return;
-          const key = b.closest('[data-key]').dataset.key;
-          if (b.dataset.act === 'inc') this.setQty(key, this.items.find((i) => i.key === key).qty + 1);
-          if (b.dataset.act === 'dec') this.setQty(key, this.items.find((i) => i.key === key).qty - 1);
-          if (b.dataset.act === 'del') this.setQty(key, 0);
-        });
-        $$('#tip-list .tip-btn').forEach((b) => b.addEventListener('click', () => {
-          $$('#tip-list .tip-btn').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-          this.tip = b.dataset.tip === 'custom' ? 'custom' : Number(b.dataset.tip);
-          $('#tip-custom-wrap').classList.toggle('hidden', this.tip !== 'custom');
-          if (this.tip === 'custom') $('#tip-custom').focus();
-          this.renderTotals();
-        }));
-        $('#tip-custom').addEventListener('input', (e) => {
-          e.target.value = e.target.value.replace(/[^\d.]/g, '');
-          this.tipCustom = Math.max(0, parseFloat(e.target.value) || 0);
-          this.renderTotals();
-        });
-        $$('#mode-list [data-mode]').forEach((b) => b.addEventListener('click', () => {
-          this.mode = b.dataset.mode;
-          $$('#mode-list [data-mode]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-          $('#mode-mesa-field').classList.toggle('hidden', this.mode !== 'mesa');
-          $('#mode-llevar-field').classList.toggle('hidden', this.mode !== 'llevar');
-          $('#err-mode').textContent = '';
-        }));
-        $('#c-table').addEventListener('input', (e) => { e.target.value = e.target.value.replace(/\D/g, ''); $('#err-mode').textContent = ''; });
-        $('#cart-send').addEventListener('click', () => this.send());
-        $('#cart-clear').addEventListener('click', () => { this.items = []; this.save(); this.render(); toast('Comanda vaciada'); });
-        $('#cd-new').addEventListener('click', () => { this.showDone(false); this.render(); });
-        this.render();
-      }
-      load() {
-        try { return JSON.parse(localStorage.getItem(CONFIG.storageKey)) || []; } catch { return []; }
-      }
-      save() {
-        try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(this.items)); } catch { /* almacenamiento no disponible */ }
-      }
-      open(trigger) { this.showDone(false); this.render(); this.drawer.open(trigger); }
-      add(dish, qty = 1, note = '') {
-        const key = `${dish.id}|${note}`;
-        const found = this.items.find((i) => i.key === key);
-        if (found) found.qty = Math.min(found.qty + qty, 50);
-        else this.items.push({ key, id: dish.id, name: dish.name, price: dish.price, img: dish.img, note, qty });
-        this.save();
-        this.render();
-        const c = $('#cart-open');
-        c.classList.remove('cart-bump'); void c.offsetWidth; c.classList.add('cart-bump');
-        toast(`${qty} × ${dish.name} en tu comanda`);
-      }
-      setQty(key, qty) {
-        if (qty <= 0) this.items = this.items.filter((i) => i.key !== key);
-        else this.items.find((i) => i.key === key).qty = Math.min(qty, 50);
-        this.save();
-        this.render();
-      }
-      count() { return this.items.reduce((a, i) => a + i.qty, 0); }
-      priced() { return this.items.every((i) => i.price != null); }
-      totals() {
-        const total = this.items.reduce((a, i) => a + i.price * i.qty, 0);
-        const sub = total / (1 + CONFIG.taxRate);
-        const tip = this.tip === 'custom' ? this.tipCustom : Math.round(total * (this.tip / 100));
-        return { sub, tax: total - sub, tip, total: total + tip };
-      }
-      render() {
-        const n = this.count();
-        const badge = $('#cart-count');
-        badge.textContent = n;
-        badge.classList.toggle('hidden', n === 0);
-        $('#cart-open').setAttribute('aria-label', `Abrir comanda (${n} productos)`);
-        const has = this.items.length > 0;
-        $('#cart-empty').classList.toggle('hidden', has);
-        $('#cart-extra').classList.toggle('hidden', !has);
-        $('#cart-footer').classList.toggle('hidden', !has);
-        $('#cart-items').innerHTML = this.items.map((i) => `
-          <li class="flex gap-4 rounded-2xl border border-white/5 bg-tabaco p-3" data-key="${esc(i.key)}">
-            <img src="${IMG(i.img, 200)}" alt="" class="h-20 w-20 shrink-0 rounded-xl object-cover" loading="lazy" />
-            <div class="flex min-w-0 flex-1 flex-col">
-              <div class="flex items-start justify-between gap-2">
-                <p class="font-medium leading-tight">${esc(i.name)}</p>
-                <button type="button" data-act="del" class="press -mr-1 -mt-1 grid h-8 w-8 shrink-0 place-items-center rounded-full text-arena hover:text-red-300 focus-ring" aria-label="Quitar ${esc(i.name)}"><i data-lucide="trash-2" class="h-4 w-4"></i></button>
-              </div>
-              ${i.note ? `<p class="mt-0.5 truncate text-xs text-arena">“${esc(i.note)}”</p>` : ''}
-              <div class="mt-auto flex items-center justify-between pt-2">
-                <div class="flex items-center rounded-full border border-white/10">
-                  <button type="button" data-act="dec" class="press grid h-8 w-8 place-items-center rounded-full focus-ring" aria-label="Menos ${esc(i.name)}"><i data-lucide="minus" class="h-3.5 w-3.5"></i></button>
-                  <span class="w-6 text-center text-sm">${i.qty}</span>
-                  <button type="button" data-act="inc" class="press grid h-8 w-8 place-items-center rounded-full focus-ring" aria-label="Más ${esc(i.name)}"><i data-lucide="plus" class="h-3.5 w-3.5"></i></button>
-                </div>
-                <p class="font-semibold text-cobre-light">${i.price == null ? '' : money(i.price * i.qty)}</p>
-              </div>
-            </div>
-          </li>`).join('');
-        icons($('#cart-items'));
-        this.renderTotals();
-      }
-      renderTotals() {
-        const priced = this.priced();
-        $('#tip-fieldset').classList.toggle('hidden', !priced);
-        $('#ct-list').classList.toggle('hidden', !priced);
-        $('#ct-note').classList.toggle('hidden', priced);
-        if (!priced) return;
-        const t = this.totals();
-        $('#ct-sub').textContent = money(Math.round(t.sub * 100) / 100);
-        $('#ct-tax').textContent = money(Math.round(t.tax * 100) / 100);
-        $('#ct-tip').textContent = money(t.tip);
-        $('#ct-total').textContent = money(t.total);
-      }
-      showDone(show) {
-        $('#cart-done').classList.toggle('hidden', !show);
-        $('#cart-body').classList.toggle('hidden', show);
-        if (show) $('#cart-footer').classList.add('hidden');
-      }
-      send() {
-        const err = $('#err-mode');
-        const table = $('#c-table').value.trim();
-        const name = $('#c-name').value.trim();
-        if (this.mode === 'mesa' && !table) { err.textContent = 'Escribe tu número de mesa.'; $('#c-table').focus(); return; }
-        if (this.mode === 'llevar' && name.length < 2) { err.textContent = 'Escribe a nombre de quién va el pedido.'; $('#c-name').focus(); return; }
-        const btn = $('#cart-send');
-        btn.disabled = true;
-        btn.innerHTML = '<svg class="h-4 w-4 animate-spin" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-opacity=".25" stroke-width="3"/><path d="M21 12a9 9 0 0 0-9-9" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg> Generando folio…';
-        setTimeout(() => {
-          const f = folio('CR');
-          const priced = this.priced();
-          const t = priced ? this.totals() : null;
-          const amount = (i) => (priced ? ` — ${money(i.price * i.qty)}` : '');
-          const lines = this.items.map((i) => `• ${i.qty} × ${i.name}${i.note ? ` (${i.note})` : ''}${amount(i)}`);
-          const msg = [
-            `🍺 *Comanda ${f}* — Cantina Real`,
-            this.mode === 'mesa' ? `Mesa: ${table}` : `Para llevar a nombre de: ${name}`,
-            '',
-            ...lines,
-            '',
-            ...(priced ? [`Propina: ${money(t.tip)}`, `*Total: ${money(t.total)}*`] : ['¿Me confirman precios y total, por favor?']),
-          ].join('\n');
-          $('#cd-folio').textContent = f;
-          $('#cd-items').innerHTML = this.items.map((i) => `<li class="flex justify-between gap-3"><span>${i.qty} × ${esc(i.name)}</span><span>${amount(i).replace(' — ', '')}</span></li>`).join('');
-          $('#cd-total').textContent = priced ? `Total ${money(t.total)}` : '';
-          $('#cd-wa').href = waLink(msg);
-          this.items = [];
-          this.save();
-          btn.disabled = false;
-          btn.innerHTML = '<i data-lucide="send" class="h-4 w-4"></i> Enviar comanda a la barra';
-          icons(btn);
-          this.render();
-          this.showDone(true);
-          $('#cd-wa').focus();
-        }, 900);
-      }
-    }
-
-    /* =========================================================
-       MENÚ INTERACTIVO
-       ========================================================= */
-    class Menu {
-      constructor(cart) {
-        this.cart = cart;
-        $('#menu-filters').parentElement.classList.toggle('hidden', FILTERS.length === 0);
-        this.cat = 'all';
-        this.filters = new Set();
-        this.query = '';
-        this.modal = new Overlay($('#dish-modal'));
-        this.qty = 1;
-        this.renderTabs();
-        this.renderFilters();
-        this.render();
-        $('#menu-search').addEventListener('input', (e) => { this.query = e.target.value.trim().toLowerCase(); this.render(); });
-        $('#menu-reset').addEventListener('click', () => this.reset());
-        $('#menu-grid').addEventListener('click', (e) => {
-          const card = e.target.closest('[data-dish]');
-          if (!card) return;
-          const dish = MENU.find((d) => d.id === card.dataset.dish);
-          if (e.target.closest('[data-add]')) { this.fly(card.querySelector('img'), dish.img); this.cart.add(dish); }
-          else if (e.target.closest('[data-view]') || e.target.closest('img')) this.openDish(dish, e.target.closest('button') || card);
-        });
-        $$('[data-goto-cat]').forEach((b) => b.addEventListener('click', () => {
-          this.setCat(b.dataset.gotoCat);
-          $('#menu').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
-        }));
-        $('#dm-minus').addEventListener('click', () => this.setQty(this.qty - 1));
-        $('#dm-plus').addEventListener('click', () => this.setQty(this.qty + 1));
-        $('#dm-add').addEventListener('click', () => {
-          this.fly($('#dm-img'), this.current.img);
-          this.cart.add(this.current, this.qty, $('#dm-note').value.trim());
-          this.modal.close();
-        });
-      }
-      renderTabs() {
-        $('#menu-tabs').innerHTML = CATEGORIES.map((c) => `
-          <button type="button" role="tab" class="chip press" data-cat="${c.id}" aria-selected="${c.id === this.cat}">
-            <i data-lucide="${c.icon}" class="h-4 w-4"></i>${c.label}
-          </button>`).join('');
-        $('#menu-tabs').addEventListener('click', (e) => { const b = e.target.closest('[data-cat]'); b && this.setCat(b.dataset.cat); });
-        $('#menu-tabs').addEventListener('keydown', (e) => {
-          if (!['ArrowRight', 'ArrowLeft'].includes(e.key)) return;
-          const tabs = $$('[role="tab"]', $('#menu-tabs'));
-          const i = tabs.indexOf(document.activeElement);
-          const next = tabs[(i + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length];
-          next.focus(); this.setCat(next.dataset.cat);
-        });
-      }
-      renderFilters() {
-        $('#menu-filters').insertAdjacentHTML('beforeend', FILTERS.map((f) => `
-          <button type="button" class="chip press" data-filter="${f.id}" aria-pressed="false"><i data-lucide="${f.icon}" class="h-4 w-4"></i>${f.label}</button>`).join(''));
-        $('#menu-filters').addEventListener('click', (e) => {
-          const b = e.target.closest('[data-filter]');
-          if (!b) return;
-          const id = b.dataset.filter;
-          this.filters.has(id) ? this.filters.delete(id) : this.filters.add(id);
-          b.setAttribute('aria-pressed', String(this.filters.has(id)));
-          this.render();
-        });
-      }
-      setCat(id) {
-        this.cat = id;
-        $$('[data-cat]', $('#menu-tabs')).forEach((b) => b.setAttribute('aria-selected', String(b.dataset.cat === id)));
-        const active = $(`[data-cat="${id}"]`, $('#menu-tabs'));
-        active && active.scrollIntoView({ block: 'nearest', inline: 'center', behavior: reduceMotion ? 'auto' : 'smooth' });
-        this.render();
-      }
-      reset() {
-        this.filters.clear();
-        this.query = '';
-        $('#menu-search').value = '';
-        $$('[data-filter]').forEach((b) => b.setAttribute('aria-pressed', 'false'));
-        this.setCat('all');
-      }
-      list() {
-        return MENU.filter((d) =>
-          (this.cat === 'all' || d.cat === this.cat) &&
-          [...this.filters].every((f) => d.tags.includes(f)) &&
-          (!this.query || `${d.name} ${d.desc}`.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').includes(this.query.normalize('NFD').replace(/[̀-ͯ]/g, ''))));
-      }
-      tagLabel(id) { const f = FILTERS.find((x) => x.id === id); return f ? f.label.split(' / ')[0] : id; }
-      render() {
-        const items = this.list();
-        $('#menu-count').textContent = `${items.length} ${items.length === 1 ? 'opción' : 'opciones'}`;
-        $('#menu-empty').classList.toggle('hidden', items.length > 0);
-        $('#menu-grid').innerHTML = items.map((d, i) => `
-          <article class="dish-card dish-enter card-luxe group flex flex-col overflow-hidden rounded-[24px]" data-dish="${d.id}" style="--d:${Math.min(i, 8) * 55}ms">
-            <div class="relative aspect-[4/3] cursor-pointer overflow-hidden">
-              <img src="${IMG(d.img, 700)}" alt="${esc(d.name)}" loading="lazy" class="h-full w-full object-cover" />
-              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-              ${d.badge ? `<span class="absolute left-3 top-3 rounded-full bg-cobre px-3 py-1 text-[0.62rem] font-bold uppercase tracking-[0.14em] text-obsidian">${esc(d.badge)}</span>` : ''}
-              ${d.tags.includes('picante') ? '<span class="absolute right-3 top-3 grid h-8 w-8 place-items-center rounded-full bg-black/60 text-ambar backdrop-blur" title="Picante / tradicional"><i data-lucide="flame" class="h-4 w-4"></i></span>' : ''}
-            </div>
-            <div class="flex flex-1 flex-col p-5">
-              <div class="flex items-start justify-between gap-3">
-                <h3 class="font-display text-xl leading-snug">${esc(d.name)}</h3>
-                <p class="shrink-0 font-display ${d.price == null ? 'pt-1 text-sm' : 'text-xl'} text-cobre-light">${priceLabel(d.price)}</p>
-              </div>
-              <p class="mt-2 text-sm leading-relaxed text-arena">${esc(d.desc)}</p>
-              <div class="mt-4 flex flex-wrap gap-1.5">${d.tags.filter((t) => t !== 'picante').map((t) => `<span class="rounded-full border border-white/10 px-2.5 py-1 text-[0.65rem] text-arena">${this.tagLabel(t)}</span>`).join('')}</div>
-              <div class="mt-auto flex gap-2 pt-5">
-                <button type="button" data-view class="btn btn-ghost flex-1 px-4 py-3 text-xs" aria-label="Ver detalles de ${esc(d.name)}"><i data-lucide="eye" class="h-4 w-4"></i> Ver detalles</button>
-                <button type="button" data-add class="btn btn-cobre flex-1 px-4 py-3 text-xs" aria-label="Añadir ${esc(d.name)} a la comanda"><i data-lucide="plus" class="h-4 w-4"></i> Añadir</button>
-              </div>
-            </div>
-          </article>`).join('');
-        icons($('#menu-grid'));
-      }
-      openDish(d, trigger) {
-        this.current = d;
-        this.qty = 1;
-        $('#dm-img').src = IMG(d.img, 1200);
-        $('#dm-img').alt = d.name;
-        $('#dm-badge').textContent = d.badge || '';
-        $('#dm-badge').classList.toggle('hidden', !d.badge);
-        $('#dm-cat').textContent = CATEGORIES.find((c) => c.id === d.cat).label;
-        $('#dm-name').textContent = d.name;
-        $('#dm-price').textContent = priceLabel(d.price);
-        $('#dm-long').textContent = d.long;
-        $('#dm-tags').innerHTML = d.tags.map((t) => `<span class="chip !py-1.5 !text-xs" aria-pressed="false">${this.tagLabel(t)}</span>`).join('');
-        $('#dm-extra').classList.toggle('hidden', !d.meter);
-        if (d.meter) {
-          $('#dm-meter-label').textContent = d.meter.type === 'picor' ? 'Nivel de picor' : 'Notas de cata · intensidad';
-          $('#dm-meter').innerHTML = [1, 2, 3].map((n) => `<span class="h-2 flex-1 rounded-full ${n <= d.meter.level ? (d.meter.type === 'picor' ? 'bg-ambar' : 'bg-cobre') : 'bg-white/10'}"></span>`).join('');
-          $('#dm-meter-text').textContent = d.meter.text;
-          $('#dm-pairing').textContent = d.pairing;
-        }
-        $('#dm-note').value = '';
-        this.setQty(1);
-        this.modal.open(trigger);
-      }
-      setQty(q) {
-        this.qty = Math.max(1, Math.min(20, q));
-        $('#dm-qty').textContent = this.qty;
-        $('#dm-total').textContent = this.current.price == null ? '' : ` · ${money(this.current.price * this.qty)}`;
-      }
-      fly(fromEl, img) {
-        if (reduceMotion || !fromEl) return;
-        const a = fromEl.getBoundingClientRect();
-        const b = $('#cart-open').getBoundingClientRect();
-        const dot = document.createElement('div');
-        dot.className = 'fly-dot';
-        dot.style.backgroundImage = `url("${IMG(img, 120)}")`;
-        dot.style.left = `${a.left + a.width / 2 - 23}px`;
-        dot.style.top = `${a.top + a.height / 2 - 23}px`;
-        document.body.appendChild(dot);
-        const dx = b.left + b.width / 2 - (a.left + a.width / 2);
-        const dy = b.top + b.height / 2 - (a.top + a.height / 2);
-        dot.animate([
-          { transform: 'translate(0,0) scale(1.2)', opacity: 1 },
-          { transform: `translate(${dx * 0.5}px, ${dy * 0.5 - 80}px) scale(0.9)`, opacity: 1, offset: 0.55 },
-          { transform: `translate(${dx}px, ${dy}px) scale(0.25)`, opacity: 0.2 },
-        ], { duration: 850, easing: 'cubic-bezier(0.22, 1, 0.36, 1)' }).onfinish = () => dot.remove();
-      }
-    }
-
-    /* =========================================================
-       RESERVACIONES (multipasos)
-       ========================================================= */
-    class Booking {
-      constructor() {
-        this.step = 1;
-        this.data = { guests: 2, date: null, slot: null, zone: 'salon', occasion: 'casual' };
-        this.offset = 0;
-        this.form = $('#res-form');
-        this.days = this.buildDays();
-        $('#guests-minus').addEventListener('click', () => this.setGuests(this.data.guests - 1));
-        $('#guests-plus').addEventListener('click', () => this.setGuests(this.data.guests + 1));
-        $('#guests-quick').innerHTML = [2, 4, 6, 8, 10, 15].map((n) => `<button type="button" class="chip press !py-1.5 !text-xs" data-g="${n}" aria-pressed="false">${n === 15 ? '15+' : n}</button>`).join('');
-        $('#guests-quick').addEventListener('click', (e) => { const b = e.target.closest('[data-g]'); b && this.setGuests(Number(b.dataset.g)); });
-        $('#date-prev').addEventListener('click', () => this.shiftDays(-1));
-        $('#date-next').addEventListener('click', () => this.shiftDays(1));
-        $('#date-strip').addEventListener('click', (e) => { const b = e.target.closest('[data-date]'); if (b) { this.data.date = b.dataset.date; this.data.slot = null; $('#err-date').textContent = ''; this.renderDates(); this.mini(); } });
-        $('#slot-groups').addEventListener('click', (e) => { const b = e.target.closest('[data-slot]'); if (b && !b.disabled) { this.data.slot = Number(b.dataset.slot); $('#err-slot').textContent = ''; this.renderSlots(); this.mini(); } });
-        $('#zone-list').addEventListener('click', (e) => { const b = e.target.closest('[data-zone]'); if (b && !b.disabled) { this.data.zone = b.dataset.zone; this.renderZones(); this.mini(); } });
-        $('#occasion-list').addEventListener('click', (e) => { const b = e.target.closest('[data-occ]'); if (b) { this.data.occasion = b.dataset.occ; this.renderOccasions(); } });
-        $('#res-next').addEventListener('click', () => this.next());
-        $('#res-back').addEventListener('click', () => this.go(this.step - 1));
-        $('#rs-new').addEventListener('click', () => this.restart());
-        $('#rs-ics').addEventListener('click', () => this.ics());
-        $('#r-notes').addEventListener('input', (e) => ($('#notes-count').textContent = e.target.value.length));
-        $('#r-phone').addEventListener('input', (e) => { e.target.value = e.target.value.replace(/[^\d\s]/g, '').slice(0, 14); });
-        ['r-name', 'r-phone', 'r-email'].forEach((id) => {
-          $(`#${id}`).addEventListener('input', () => $(`#${id}`).classList.contains('is-invalid') && this.validateField(id));
-          $(`#${id}`).addEventListener('blur', () => $(`#${id}`).value && this.validateField(id));
-        });
-        $('#r-age').addEventListener('change', () => this.validateField('r-age'));
-        this.form.addEventListener('submit', (e) => { e.preventDefault(); this.next(); });
-        $$('[data-preset-occasion]').forEach((a) => a.addEventListener('click', () => { this.data.occasion = a.dataset.presetOccasion; this.setGuests(Math.max(this.data.guests, 10)); this.renderOccasions(); }));
-        this.setGuests(2);
-        this.renderDates();
-        this.renderZones();
-        this.renderOccasions();
-        this.go(1);
-      }
-      buildDays() {
-        const { y, mo, d } = nowInMexico();
-        const base = new Date(Date.UTC(y, mo - 1, d));
-        return Array.from({ length: CONFIG.daysAhead }, (_, i) => {
-          const dt = new Date(base.getTime() + i * 864e5);
-          return { iso: dt.toISOString().slice(0, 10), dow: dt.getUTCDay(), day: dt.getUTCDate(), month: dt.getUTCMonth(), today: i === 0 };
-        });
-      }
-      perPage() { return window.innerWidth < 400 ? 8 : 14; }
-      shiftDays(dir) {
-        const pp = this.perPage();
-        this.offset = Math.max(0, Math.min(this.days.length - pp, this.offset + dir * pp));
-        this.renderDates();
-      }
-      renderDates() {
-        const pp = this.perPage();
-        const dows = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
-        const months = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
-        const slice = this.days.slice(this.offset, this.offset + pp);
-        $('#date-month').textContent = `· ${months[slice[0].month]}${slice[0].month !== slice[slice.length - 1].month ? ` – ${months[slice[slice.length - 1].month]}` : ''}`;
-        $('#date-prev').disabled = this.offset === 0;
-        $('#date-next').disabled = this.offset + pp >= this.days.length;
-        $('#date-strip').innerHTML = slice.map((d) => {
-          const full = this.slotsFor(d.iso).every((s) => s.disabled);
-          return `<button type="button" class="date-pill press flex flex-col items-center rounded-2xl border border-white/10 py-3 transition-colors hover:border-cobre/50 focus-ring disabled:cursor-not-allowed disabled:opacity-30" data-date="${d.iso}" aria-pressed="${this.data.date === d.iso}" ${full ? 'disabled' : ''} aria-label="${dows[d.dow]} ${d.day} de ${months[d.month]}${full ? ', sin horarios disponibles' : ''}">
-            <span class="text-[0.6rem] uppercase tracking-[0.15em] text-arena">${d.today ? 'Hoy' : dows[d.dow]}</span>
-            <span class="dp-num mt-1 font-display text-2xl">${d.day}</span>
-          </button>`;
-        }).join('');
-      }
-      // Disponibilidad simulada y determinística por fecha/hora (misma respuesta en cada visita).
-      slotsFor(iso) {
-        const day = this.days.find((d) => d.iso === iso);
-        const { minutes } = nowInMexico();
-        const out = [];
-        CONFIG.slotGroups.forEach((g) => {
-          for (let m = g.from; m <= g.to; m += 30) {
-            const seed = [...`${iso}${m}`].reduce((a, c) => (a * 31 + c.charCodeAt(0)) % 997, 7);
-            const weekendNight = (day.dow === 5 || day.dow === 6) && m >= 21 * 60;
-            const full = seed % (weekendNight ? 3 : 7) === 0 || (this.data.guests >= 10 && seed % 4 === 0);
-            const past = day.today && m <= minutes + 30;
-            out.push({ group: g.id, m, disabled: full || past, reason: past ? 'pasado' : full ? 'lleno' : '' });
-          }
-        });
-        return out;
-      }
-      renderSlots() {
-        const d = this.days.find((x) => x.iso === this.data.date);
-        const fmt = new Intl.DateTimeFormat('es-MX', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' });
-        $('#slot-date-label').textContent = `${fmt.format(new Date(`${d.iso}T12:00:00Z`))} · ${this.guestText()}`;
-        const slots = this.slotsFor(this.data.date);
-        $('#slot-groups').innerHTML = CONFIG.slotGroups.map((g) => {
-          const gs = slots.filter((s) => s.group === g.id);
-          return `<div>
-            <p class="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-cobre"><i data-lucide="${g.icon}" class="h-4 w-4"></i>${g.label} <span class="font-normal normal-case tracking-normal text-arena">· ${fmtTime(g.from)} a ${fmtTime(g.to)}</span></p>
-            <div class="mt-3 grid grid-cols-3 gap-2 xs:grid-cols-4 sm:grid-cols-8">${gs.map((s) => `
-              <button type="button" class="chip press justify-center !px-2 ${s.reason === 'lleno' ? 'line-through' : ''}" data-slot="${s.m}" aria-checked="${this.data.slot === s.m}" role="radio" ${s.disabled ? 'disabled' : ''} title="${s.reason === 'lleno' ? 'Sin lugares' : s.reason === 'pasado' ? 'Horario ya pasó' : 'Disponible'}">${fmtTime(s.m).replace(' ', ' ')}</button>`).join('')}
-            </div>
-          </div>`;
-        }).join('');
-        icons($('#slot-groups'));
-      }
-      renderZones() {
-        $('#zone-list').innerHTML = Object.entries(CONFIG.zones).map(([id, z]) => {
-          const tooMany = this.data.guests > z.max;
-          return `<button type="button" class="zone-card press flex flex-col items-start rounded-2xl border border-white/10 p-5 text-left transition-colors hover:border-cobre/50 focus-ring disabled:cursor-not-allowed disabled:opacity-35" data-zone="${id}" aria-pressed="${this.data.zone === id}" ${tooMany ? 'disabled' : ''}>
-            <i data-lucide="${z.icon}" class="h-6 w-6 text-cobre"></i>
-            <span class="mt-4 font-display text-lg">${z.name}</span>
-            <span class="mt-1 text-xs leading-relaxed text-arena">${tooMany ? `Máximo ${z.max} personas` : z.desc}</span>
-          </button>`;
-        }).join('');
-        icons($('#zone-list'));
-      }
-      renderOccasions() {
-        $('#occasion-list').innerHTML = CONFIG.occasions.map((o) => `<button type="button" class="chip press" data-occ="${o.id}" aria-pressed="${this.data.occasion === o.id}"><i data-lucide="${o.icon}" class="h-4 w-4"></i>${o.label}</button>`).join('');
-        icons($('#occasion-list'));
-      }
-      guestText() { return this.data.guests >= 15 ? '15 o más personas' : `${this.data.guests} ${this.data.guests === 1 ? 'persona' : 'personas'}`; }
-      setGuests(n) {
-        this.data.guests = Math.max(1, Math.min(15, n));
-        $('#guests-out').textContent = this.data.guests >= 15 ? '15+' : this.data.guests;
-        $('#guests-label').textContent = this.data.guests === 1 ? 'persona' : 'personas';
-        $$('[data-g]').forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.g) === this.data.guests)));
-        const z = CONFIG.zones[this.data.zone];
-        if (z && this.data.guests > z.max) this.data.zone = 'salon';
-        this.renderZones && $('#zone-list') && this.renderZones();
-        this.mini();
-      }
-      mini() {
-        const parts = [this.guestText()];
-        if (this.data.date) parts.push(new Intl.DateTimeFormat('es-MX', { day: 'numeric', month: 'short', timeZone: 'UTC' }).format(new Date(`${this.data.date}T12:00:00Z`)));
-        if (this.data.slot != null) parts.push(fmtTime(this.data.slot));
-        if (this.step >= 3) parts.push(CONFIG.zones[this.data.zone].name);
-        $('#res-mini').textContent = parts.join(' · ');
-      }
-      validateField(id) {
-        const el = $(`#${id}`);
-        const errEl = $(`[data-err-for="${id}"]`);
-        let msg = '';
-        if (id === 'r-name') { const v = el.value.trim(); if (v.length < 3) msg = 'Escribe tu nombre completo.'; else if (!/^[\p{L}\s.'-]+$/u.test(v)) msg = 'Usa solo letras.'; }
-        if (id === 'r-phone') { const digits = el.value.replace(/\D/g, ''); if (digits.length !== 10) msg = 'El teléfono debe tener 10 dígitos.'; }
-        if (id === 'r-email') { if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(el.value.trim())) msg = 'Escribe un correo válido.'; }
-        if (id === 'r-age') { if (!el.checked) msg = 'Necesitamos esta confirmación para reservar.'; }
-        errEl.textContent = msg;
-        if (id !== 'r-age') { el.classList.toggle('is-invalid', !!msg); el.classList.toggle('is-valid', !msg); }
-        el.setAttribute('aria-invalid', String(!!msg));
-        return !msg;
-      }
-      validateStep() {
-        if (this.step === 1 && !this.data.date) { $('#err-date').textContent = 'Elige un día para continuar.'; return false; }
-        if (this.step === 2 && this.data.slot == null) { $('#err-slot').textContent = 'Elige un horario disponible.'; return false; }
-        if (this.step === 4) {
-          const ok = ['r-name', 'r-phone', 'r-email', 'r-age'].map((id) => this.validateField(id));
-          if (ok.includes(false)) { const first = $('.is-invalid', this.form) || $('#r-age'); first.focus(); return false; }
-        }
-        return true;
-      }
-      next() {
-        if (!this.validateStep()) return;
-        if (this.step === 4) return this.submit();
-        this.go(this.step + 1);
-      }
-      go(step) {
-        if (step < 1) return;
-        this.step = step;
-        if (step === 2) this.renderSlots();
-        $$('.step-panel', this.form).forEach((p) => p.classList.toggle('hidden', Number(p.dataset.step) !== step));
-        $$('.res-step-ind').forEach((li) => {
-          const n = Number(li.dataset.ind);
-          li.querySelector('span > span').style.width = n < step || step === 5 ? '100%' : n === step ? '50%' : '0%';
-          li.querySelector('span:last-child').classList.toggle('text-marfil', n <= step);
-        });
-        $('#res-nav').classList.toggle('hidden', step === 5);
-        $('#res-back').disabled = step === 1;
-        $('#res-next').innerHTML = step === 4 ? '<i data-lucide="check" class="h-4 w-4"></i> Confirmar reservación' : 'Continuar <i data-lucide="arrow-right" class="h-4 w-4"></i>';
-        icons($('#res-next'));
-        this.mini();
-      }
-      submit() {
-        const btn = $('#res-next');
-        btn.disabled = true;
-        btn.innerHTML = '<svg class="h-4 w-4 animate-spin" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-opacity=".25" stroke-width="3"/><path d="M21 12a9 9 0 0 0-9-9" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg> Apartando…';
-        setTimeout(() => {
-          btn.disabled = false;
-          const f = folio('RES');
-          const name = $('#r-name').value.trim();
-          const dateText = new Intl.DateTimeFormat('es-MX', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${this.data.date}T12:00:00Z`));
-          const occ = CONFIG.occasions.find((o) => o.id === this.data.occasion).label;
-          const notes = $('#r-notes').value.trim();
-          this.last = { f, name, dateText, time: fmtTime(this.data.slot) };
-          $('#rs-name').textContent = name.split(' ')[0];
-          $('#rs-folio').textContent = f;
-          const rows = [['Fecha', dateText], ['Hora', fmtTime(this.data.slot)], ['Personas', this.guestText()], ['Zona', CONFIG.zones[this.data.zone].name], ['Motivo', occ], ['Teléfono', $('#r-phone').value.trim()]];
-          $('#rs-summary').innerHTML = rows.map(([k, v]) => `<div class="rounded-xl border border-white/5 bg-black/20 p-3"><dt class="text-[0.6rem] uppercase tracking-[0.2em] text-arena">${k}</dt><dd class="mt-1 capitalize-first">${esc(v)}</dd></div>`).join('');
-          $('#rs-wa').href = waLink([
-            `🗓️ *Reservación ${f}* — Cantina Real`,
-            `Nombre: ${name}`,
-            `Fecha: ${dateText}`,
-            `Hora: ${fmtTime(this.data.slot)}`,
-            `Personas: ${this.guestText()}`,
-            `Zona: ${CONFIG.zones[this.data.zone].name}`,
-            `Motivo: ${occ}`,
-            `Tel: ${$('#r-phone').value.trim()} · ${$('#r-email').value.trim()}`,
-            notes ? `Peticiones: ${notes}` : '',
-          ].filter(Boolean).join('\n'));
-          this.go(5);
-          $('#res-success').focus({ preventScroll: true });
-          $('#reservas').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
-        }, 1000);
-      }
-      ics() {
-        const start = this.data.date.replace(/-/g, '') + 'T' + pad(Math.floor(this.data.slot / 60) % 24) + pad(this.data.slot % 60) + '00';
-        const endM = this.data.slot + 150;
-        const endDate = endM >= 1440 ? new Date(new Date(`${this.data.date}T12:00:00Z`).getTime() + 864e5).toISOString().slice(0, 10) : this.data.date;
-        const end = endDate.replace(/-/g, '') + 'T' + pad(Math.floor(endM / 60) % 24) + pad(endM % 60) + '00';
-        const ics = [
-          'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Cantina Real Ags//Reservas//ES', 'BEGIN:VEVENT',
-          `UID:${this.last.f}@cantinareal`, `DTSTART;TZID=America/Mexico_City:${start}`, `DTEND;TZID=America/Mexico_City:${end}`,
-          `SUMMARY:Reservación en Cantina Real (${this.guestText()})`, `LOCATION:${CONFIG.address.replace(/,/g, '\\,')}`,
-          `DESCRIPTION:Folio ${this.last.f}. Zona: ${CONFIG.zones[this.data.zone].name}.`,
-          'BEGIN:VALARM', 'TRIGGER:-PT2H', 'ACTION:DISPLAY', 'DESCRIPTION:Tu mesa en Cantina Real', 'END:VALARM',
-          'END:VEVENT', 'END:VCALENDAR',
-        ].join('\r\n');
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(new Blob([ics], { type: 'text/calendar' }));
-        a.download = `cantina-real-${this.last.f}.ics`;
-        a.click();
-        setTimeout(() => URL.revokeObjectURL(a.href), 2000);
-      }
-      restart() {
-        this.form.reset();
-        $$('.field', this.form).forEach((f) => f.classList.remove('is-invalid', 'is-valid'));
-        $$('.field-error', this.form).forEach((e) => (e.textContent = ''));
-        $('#notes-count').textContent = '0';
-        this.data = { guests: 2, date: null, slot: null, zone: 'salon', occasion: 'casual' };
-        this.setGuests(2);
-        this.renderDates();
-        this.renderOccasions();
-        this.go(1);
-      }
-    }
-
-    /* =========================================================
-       GALERÍA, NEWSLETTER, LEGALES, EFECTOS
-       ========================================================= */
-    function initGallery() {
-      $('#gallery').innerHTML = GALLERY.map((g, i) => `
-        <figure class="gallery-item group relative overflow-hidden rounded-[20px] border hairline" tabindex="0" data-reveal="scale" style="--d:${(i % 4) * 90}ms">
-          <img src="${IMG(g.src, 800)}" alt="${esc(g.alt)}" loading="lazy" class="${g.h} w-full object-cover" />
-          <figcaption class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent p-4 text-sm font-medium">${esc(g.cap)}</figcaption>
-        </figure>`).join('');
-    }
-
-    function initNewsletter() {
-      $('#news-form').addEventListener('submit', (e) => {
-        e.preventDefault();
-        const input = $('#news-email');
-        const msg = $('#news-msg');
-        const v = input.value.trim();
-        if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) {
-          msg.textContent = 'Escribe un correo válido.';
-          msg.className = 'field-error';
-          input.classList.add('is-invalid');
-          input.focus();
-          return;
-        }
-        input.classList.remove('is-invalid');
-        msg.className = 'field-error !text-agave';
-        msg.innerHTML = `¡Listo! <a class="underline" target="_blank" rel="noopener" href="${waLink(`Hola, quiero recibir las exclusivas de Cantina Real. Mi correo: ${v}`)}">Confirma tu alta por WhatsApp</a>.`;
-        input.value = '';
-      });
-    }
-
-    function initLegal() {
-      const modal = new Overlay($('#legal-modal'));
-      $$('[data-legal]').forEach((b) => b.addEventListener('click', () => {
-        const l = LEGAL[b.dataset.legal];
-        $('#lg-title').textContent = l.title;
-        $('#lg-body').innerHTML = l.body.map((p) => `<p>${esc(p)}</p>`).join('');
-        modal.open(b);
-      }));
-    }
-
-    function initEffects() {
-      // Reveal al hacer scroll
-      const io = new IntersectionObserver((entries) => entries.forEach((en) => {
-        if (en.isIntersecting) { en.target.classList.add('is-visible'); io.unobserve(en.target); }
-      }), { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-      $$('[data-reveal]').forEach((el) => io.observe(el));
-
-      // Parallax sutil
-      const par = $$('[data-parallax]');
-      if (!reduceMotion && par.length) {
-        let ticking = false;
-        const update = () => {
-          par.forEach((el) => {
-            const r = el.getBoundingClientRect();
-            const off = (r.top + r.height / 2 - innerHeight / 2) * Number(el.dataset.parallax);
-            el.style.transform = `translate3d(0, ${off}px, 0) scale(1.1)`;
-          });
-          ticking = false;
-        };
-        window.addEventListener('scroll', () => { if (!ticking) { requestAnimationFrame(update); ticking = true; } }, { passive: true });
-        update();
-      }
-
-      // Botones magnéticos (solo con puntero fino)
-      if (!reduceMotion && matchMedia('(pointer: fine)').matches) {
-        $$('.magnetic').forEach((b) => {
-          b.addEventListener('mousemove', (e) => {
-            const r = b.getBoundingClientRect();
-            b.style.transform = `translate(${(e.clientX - r.left - r.width / 2) * 0.18}px, ${(e.clientY - r.top - r.height / 2) * 0.28}px) scale(1.05)`;
-          });
-          b.addEventListener('mouseleave', () => (b.style.transform = ''));
-        });
-      }
-
-      // Onda de retroalimentación en cada clic
-      document.addEventListener('pointerdown', (e) => {
-        const b = e.target.closest('.btn');
-        if (!b || b.disabled) return;
-        const r = b.getBoundingClientRect();
-        const s = Math.max(r.width, r.height);
-        const rip = document.createElement('span');
-        rip.className = 'ripple';
-        rip.style.cssText = `width:${s}px;height:${s}px;left:${e.clientX - r.left - s / 2}px;top:${e.clientY - r.top - s / 2}px`;
-        b.appendChild(rip);
-        setTimeout(() => rip.remove(), 700);
-      });
-    }
-
-    /* =========================================================
-       ARRANQUE
-       ========================================================= */
-    document.addEventListener('DOMContentLoaded', () => {
-      $$('[data-year]').forEach((n) => (n.textContent = new Date().getFullYear()));
-      $('#event-wa').href = waLink('Hola, quiero cotizar una posada / evento en Cantina Real. Somos aprox. __ personas, para la fecha __.');
-      initGallery();
-      new Header();
-      const cart = new Cart();
-      new Menu(cart);
-      new Booking();
-      initNewsletter();
-      initLegal();
-      initEffects();
-      icons();
-    });
-  })();
-  </script>
+  // Aparición al hacer scroll
+  const io = new IntersectionObserver(es => es.forEach(x => { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } }), { rootMargin: "0px 0px -8% 0px" });
+  const watch = () => $$(".reveal:not(.in)").forEach(n => io.observe(n));
+  watch(); new MutationObserver(watch).observe(document.body, { childList: true, subtree: true });
+})();
+</script>
 </body>
 </html>
