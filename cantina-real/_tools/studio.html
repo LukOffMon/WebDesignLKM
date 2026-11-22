@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Estudio · Cantina Real</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&display=block" rel="stylesheet">
+<style>
+:root{--ink:#121214;--char:#1c1c20;--gold:#D3AD6E;--gold2:#a8813f;--cream:#F6EFE2;--red:#a3312c;--W:1080px;--H:1350px}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#000}
+body{width:var(--W);height:var(--H);overflow:hidden;font-family:Oswald,sans-serif;color:var(--cream)}
+.stage{position:relative;width:var(--W);height:var(--H);overflow:hidden;
+  background:radial-gradient(120% 70% at 50% 18%,#2a2620 0%,#1a1a1d 55%,#0f0f11 100%)}
+.stage::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.frame{position:absolute;inset:28px;border:2px solid rgba(211,173,110,.55);pointer-events:none}
+.frame::before{content:"";position:absolute;inset:10px;border:1px solid rgba(211,173,110,.25)}
+.papel{position:absolute;left:0;top:0;width:100%;height:150px;opacity:.95}
+.logo{display:block;margin:0 auto;width:330px}
+.kicker{font-weight:500;letter-spacing:.42em;text-transform:uppercase;color:var(--gold);font-size:30px;text-align:center}
+.royal{font-family:"Playfair Display",serif;font-weight:900;text-transform:uppercase;line-height:.88;color:var(--cream);
+  text-shadow:5px 5px 0 var(--ink),8px 8px 0 var(--gold);letter-spacing:-.01em;text-align:center}
+.script{font-family:"Playfair Display",serif;font-style:italic;font-weight:900;color:var(--gold);text-align:center;line-height:1}
+.rule{display:flex;align-items:center;gap:22px;justify-content:center;color:var(--gold)}
+.rule i{display:block;height:3px;width:150px;background:linear-gradient(90deg,transparent,var(--gold))}
+.rule i:last-child{background:linear-gradient(270deg,transparent,var(--gold))}
+.rule svg{width:22px;height:34px}
+.icon{color:var(--gold);width:250px;height:250px;margin:0 auto;padding:34px;border:3px solid rgba(211,173,110,.6);border-radius:50%;
+  background:radial-gradient(circle,rgba(211,173,110,.14),transparent 70%)}
+.icon svg{width:100%;height:100%}
+.deal{font-size:44px;font-weight:500;text-align:center;line-height:1.15;color:var(--cream);text-transform:uppercase;letter-spacing:.02em}
+.price{display:flex;align-items:flex-end;justify-content:center;gap:26px}
+.price b{font-family:Oswald;font-weight:700;font-size:170px;line-height:.82;color:var(--gold);letter-spacing:-.02em}
+.price b sup{font-size:.45em;vertical-align:top;position:relative;top:.12em;margin-right:4px}
+.price s{font-size:40px;color:rgba(246,239,226,.55);margin-bottom:14px;text-decoration-thickness:3px}
+.badge{display:inline-block;background:var(--gold);color:var(--ink);font-weight:700;font-size:96px;line-height:1;padding:18px 44px 22px;
+  transform:rotate(-3deg);box-shadow:8px 8px 0 var(--ink),11px 11px 0 var(--cream);text-transform:uppercase}
+.pill{display:inline-block;border:2px solid var(--gold);color:var(--gold);border-radius:999px;padding:10px 34px;font-size:32px;letter-spacing:.12em;text-transform:uppercase}
+.foot{position:absolute;left:60px;right:60px;bottom:58px;text-align:center}
+.foot .addr{font-size:27px;letter-spacing:.08em;text-transform:uppercase;color:var(--cream)}
+.foot .addr em{font-style:normal;color:var(--gold)}
+.foot .legal{margin-top:10px;font-size:20px;letter-spacing:.18em;text-transform:uppercase;color:rgba(246,239,226,.55)}
+.col{position:absolute;left:60px;right:60px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.fit{display:flex;flex-direction:column;align-items:center;transform-origin:center center}
+.photo{position:absolute;left:0;right:0;top:0;background-size:cover;background-position:center;filter:saturate(.9) contrast(1.08)}
+.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,15,17,.35) 0%,rgba(15,15,17,.1) 35%,rgba(15,15,17,.85) 80%,#141416 100%)}
+.card{position:absolute;border:3px solid var(--gold);box-shadow:0 30px 80px rgba(0,0,0,.6);background-size:cover;background-position:center}
+.list{width:100%;max-width:820px}
+.list div{display:flex;align-items:baseline;gap:14px;font-size:44px;text-transform:uppercase;padding:8px 0}
+.list div span{flex:1;border-bottom:3px dotted rgba(211,173,110,.5);transform:translateY(-10px)}
+.list div b{color:var(--gold);font-weight:600}
+.list div small{display:block;font-size:24px;color:rgba(246,239,226,.6);letter-spacing:.1em}
+/* ---------- animación ---------- */
+.a{position:absolute;will-change:transform,opacity}
+.center{left:0;right:0;text-align:center}
+</style>
+</head>
+<body>
+<div class="stage" id="stage"></div>
+<script src="../data.js"></script>
+<script src="../art.js"></script>
+<script>
+const Q = new URLSearchParams(location.search);
+const FMT = Q.get("fmt") || "post";
+const SIZES = { post: [1080, 1350], story: [1080, 1920], square: [1080, 1080] };
+const [W, H] = SIZES[FMT] || SIZES.post;
+document.documentElement.style.setProperty("--W", W + "px");
+document.documentElement.style.setProperty("--H", H + "px");
+const stage = document.getElementById("stage");
+const { CONTACT, PROMOS, EXTRAS, POSTERS, MENU } = window.CR;
+const { ICONS, papel, cross } = window.CRART;
+const LOGO = "../img/logo-light.png";
+const money = n => "$" + n.toLocaleString("es-MX");
+const rule = `<div class="rule"><i></i>${cross}<i></i></div>`;
+const tall = FMT === "story";
+const FOOT = tall ? 300 : 196;
+const col = (top, gap, inner) => `<div class="col" style="top:${top}px;bottom:${FOOT}px"><div class="fit" style="gap:${gap}px">${inner}</div></div>`;
+const foot = () => `<div class="foot"><div class="addr">Emiliano Zapata 822 · Jesús María · <em>9 AM – 2 AM</em></div>
+  <div class="addr" style="margin-top:6px">Reservas WhatsApp <em>449 415 94 66</em> · @${CONTACT.instagram}</div>
+  <div class="legal">Evita el exceso · +18 · Aplican restricciones</div></div>`;
+const priceBlock = (p) => p.price ? `<div class="price"><b><sup>$</sup>${p.price}</b>${p.was ? `<s>antes ${money(p.was)}</s>` : ""}</div>`
+  : `<div class="badge">${p.badge || "Promo"}</div>`;
+
+/* ======================= POSTERS ======================= */
+function renderPoster(id) {
+  const P = POSTERS.find(p => p.id === id);
+  if (!P) throw new Error("poster no existe: " + id);
+  const top = tall ? 300 : 175, gap = tall ? 44 : 26;
+  let html = `<div class="frame"></div>${papel(9, W, tall ? 190 : 150)}`;
+  if (P.type === "promo" || P.type === "extra") {
+    const p = P.type === "promo" ? PROMOS.find(x => x.day === P.ref) : EXTRAS.find(x => x.id === P.ref);
+    const head = P.type === "promo" ? p.dayName : p.title.split(" ")[0];
+    const rest = P.type === "promo" ? p.title.replace(p.dayName, "").trim() : p.title.split(" ").slice(1).join(" ");
+    html += col(top, gap, `<img class="logo" src="${LOGO}" style="width:${tall ? 300 : 230}px">
+      <div class="kicker">${P.type === "promo" ? "Promo de la semana" : p.hook}</div>
+      <div><div class="royal" style="font-size:${head.length > 7 ? 150 : 178}px">${head}</div>
+      <div class="script" style="font-size:${rest.length > 12 ? 78 : 96}px;margin-top:14px">${rest}</div></div>
+      ${rule}
+      <div class="icon" style="${tall ? "" : "width:210px;height:210px;padding:28px"}">${ICONS[p.icon]}</div>
+      <div class="deal" style="max-width:860px">${p.deal}</div>
+      ${priceBlock(p)}
+      ${p.when ? `<div class="pill">${p.when}</div>` : `<div class="pill">${p.hook}</div>`}`) + foot();
+  } else {
+    html += brand(P, top, gap);
+  }
+  stage.innerHTML = html;
+}
+
+function brand(P, top, gap) {
+  const L = P.layout;
+  const photoTop = (src, h) => `<div class="photo" style="height:${h}px;background-image:url(../${src})"></div>`;
+  if (["tequilas", "michelada", "barra", "partido"].includes(L)) {
+    const ch = tall ? 640 : 420, cw = tall ? 760 : 600, ct = tall ? 300 : 175;
+    const copy = {
+      tequilas: ["Más de", "25 tequilas", "Copa desde $100 · Botella desde $800", "Tradicional · Herradura · 7 Leguas · Maestro Dobel · Don Julio 70 · 1800 · 30-30"],
+      michelada: ["La que", "te revive", "Michelada preparada $70 · Gringa $65", "Abrimos desde las 9 de la mañana"],
+      barra: ["Tu lugar", "en la barra", "Buen trago · buena música · buena gente", "Cervezas desde $45 · Canasta desde $290"],
+      partido: ["Ven a ver", "el partido", "Pantallas · canasta bien fría · la mejor porra", "Canasta Tecate $290 · Corona/Victoria $320"],
+    }[L];
+    return `<div class="photo" style="height:${ct + ch + 160}px;background-image:url(../${P.photo});filter:blur(26px) brightness(.55) saturate(1.1);transform:scale(1.15)"></div>
+      <div class="frame"></div>${papel(9, W, tall ? 190 : 150)}
+      <div class="card" style="left:${(W - cw) / 2}px;top:${ct}px;width:${cw}px;height:${ch}px;transform:rotate(-1.5deg);background-image:url(../${P.photo})"></div>
+      <img src="${LOGO}" style="position:absolute;width:${tall ? 230 : 170}px;left:${(W + cw) / 2 - (tall ? 150 : 110)}px;top:${ct + ch - (tall ? 110 : 80)}px;filter:drop-shadow(0 6px 18px #000)">
+      ${col(ct + ch + 30, gap, `<div class="kicker">${copy[0]}</div>
+        <div class="royal" style="font-size:${tall ? 150 : 128}px">${copy[1]}</div>
+        ${rule}
+        <div class="deal">${copy[2]}</div>
+        <div class="kicker" style="font-size:24px;letter-spacing:.2em;max-width:860px;line-height:1.5;color:rgba(246,239,226,.75)">${copy[3]}</div>`)}${foot()}`;
+  }
+  if (L === "cocina" || L === "casa") {
+    const sec = MENU.find(m => m.id === (L === "cocina" ? "cocina" : "casa"));
+    const items = L === "cocina" ? sec.items.filter(i => i[0] !== "Guacamole extra") : sec.items.slice(0, 5).concat([["Para compartir (XL)", 220]]);
+    return col(top, gap, `<img class="logo" src="${LOGO}" style="width:${tall ? 280 : 210}px">
+      <div class="kicker">${L === "cocina" ? "Para acompañar la ronda" : "Solo aquí"}</div>
+      <div class="royal" style="font-size:${tall ? 150 : 128}px">${L === "cocina" ? "Cocina Real" : "De la casa"}</div>
+      ${rule}
+      <div class="list">${items.map(i => `<div><div>${i[0]}${typeof i[2] === "string" && L === "cocina" ? `<small>${i[2]}</small>` : ""}</div><span></span><b>${money(i[1])}</b></div>`).join("")}</div>`) + foot();
+  }
+  const simple = {
+    horario: ["De la mañana a la madrugada", "9 AM", "a 2 AM", "Los 7 días de la semana", "Desayuno · comida · after · noche", "reloj"],
+    posadas: ["Diciembre 2026", "Posadas", "y fin de año", "Grupos de 10 a 40 personas", "Botellas · canastas · botana · tu mesa apartada", "esfera"],
+    reserva: ["Sin filas, sin vueltas", "Reserva", "tu mesa", "WhatsApp 449 415 94 66", "Día · hora · número de personas", "whatsapp"],
+    ubicacion: ["Aquí estamos", "Jesús María", "El Calvario", "Emiliano Zapata 822", "A pie de calle · guárdalo para el próximo plan", "pin"],
+  }[L];
+  return col(top, gap + 6, `<img class="logo" src="${LOGO}" style="width:${tall ? 300 : 240}px">
+    <div class="kicker">${simple[0]}</div>
+    <div><div class="royal" style="font-size:${simple[1].length > 8 ? 140 : 190}px">${simple[1]}</div>
+    <div class="script" style="font-size:96px;margin-top:14px">${simple[2]}</div></div>
+    ${rule}
+    <div class="icon">${ICONS[simple[5]]}</div>
+    <div class="deal">${simple[3]}</div>
+    <div class="pill">${simple[4]}</div>`) + foot();
+}
+
+/* ======================= ANIMACIONES ======================= */
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const ease = t => 1 - Math.pow(1 - clamp(t), 3);
+const back = t => { t = clamp(t); const c = 1.7; return 1 + (c + 1) * Math.pow(t - 1, 3) + c * Math.pow(t - 1, 2); };
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const el = (html, style = "") => { const d = document.createElement("div"); d.className = "a"; d.style.cssText = style; d.innerHTML = html; stage.appendChild(d); return d; };
+const set = (n, o, x = 0, y = 0, s = 1, r = 0) => { n.style.opacity = o; n.style.transform = `translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`; };
+
+const ANIMS = {
+  /* -------- Reel 1: La Semana Real (15 s) -------- */
+  "reel-semana"() {
+    const pp = el(papel(9, W, 200), `left:0;top:0;width:${W}px;height:200px`);
+    const frame = el("", "inset:28px;border:2px solid rgba(211,173,110,.55)");
+    const h1 = el(`<div class="kicker" style="font-size:44px">Una promo</div>`, `top:640px;left:0;right:0`);
+    const h2 = el(`<div class="royal" style="font-size:150px">Para cada</div>`, `top:720px;left:0;right:0`);
+    const h3 = el(`<div class="script" style="font-size:190px">día</div>`, `top:880px;left:0;right:0`);
+    const days = PROMOS.slice().sort((a, b) => ((a.day + 6) % 7) - ((b.day + 6) % 7)).map(p => {
+      const g = el(`<div class="col" style="position:static;gap:34px">
+        <div class="kicker" style="font-size:40px">${p.when}</div>
+        <div class="royal" style="font-size:${p.dayName.length > 7 ? 138 : p.dayName.length > 6 ? 165 : 196}px">${p.dayName}</div>
+        <div class="script" style="font-size:${p.title.length > 20 ? 86 : 100}px">${p.title.replace(p.dayName, "").trim()}</div>
+        <div class="icon" style="width:300px;height:300px">${ICONS[p.icon]}</div>
+        <div class="deal" style="font-size:54px;max-width:900px">${p.deal}</div>
+        ${priceBlock(p)}</div>`, `top:420px;left:60px;right:60px`);
+      return g;
+    });
+    const end = el(`<div class="col" style="position:static;gap:44px"><img class="logo" src="${LOGO}" style="width:560px">
+      ${rule}<div class="deal" style="font-size:58px">Emiliano Zapata 822<br>Jesús María, Ags.</div>
+      <div class="pill" style="font-size:40px">9 AM – 2 AM · todos los días</div>
+      <div class="kicker" style="font-size:40px">Reserva · 449 415 94 66</div>
+      <div class="kicker" style="font-size:24px;color:rgba(246,239,226,.55)">Evita el exceso · +18</div></div>`, `top:470px;left:60px;right:60px`);
+    return t => {
+      set(pp, 1, 0, -200 * (1 - ease(seg(t, 0, .6))));
+      set(frame, ease(seg(t, .2, .8)));
+      const out = 1 - ease(seg(t, 1.45, 1.7));
+      set(h1, ease(seg(t, .15, .5)) * out, 0, 40 * (1 - ease(seg(t, .15, .5))));
+      set(h2, ease(seg(t, .35, .7)) * out, 0, 0, 1.6 - .6 * back(seg(t, .35, .7)));
+      set(h3, ease(seg(t, .6, .95)) * out, 0, 0, 1, -8 * (1 - back(seg(t, .6, .95))));
+      const D = 1.57;
+      days.forEach((g, i) => {
+        const a = 1.6 + i * D, b = a + D, lt = t - a;
+        const vis = t >= a - .05 && t < b + .1;
+        g.style.display = vis ? "" : "none";
+        if (!vis) return;
+        const inn = back(seg(lt, 0, .35)), outp = ease(seg(t, b - .18, b));
+        set(g, clamp(seg(lt, 0, .2)) * (1 - outp), (1 - inn) * 900 - outp * 900, 0, 1);
+        const kids = g.firstElementChild.children;
+        set(kids[3], 1, 0, 0, .3 + .7 * back(seg(lt, .12, .5)), 0);
+        set(kids[5], clamp(seg(lt, .3, .5)), 0, 0, 1.5 - .5 * back(seg(lt, .3, .62)));
+      });
+      const e = seg(t, 12.6, 13.2);
+      set(end, ease(e), 0, 80 * (1 - ease(e)), .9 + .1 * ease(e));
+    };
+  },
+
+  /* -------- Reel 2: Esto es Cantina Real (fotos reales, 15 s) -------- */
+  "reel-cantina"() {
+    const shots = [
+      ["../assets/barra.jpg", "La barra de", "Jesús María", 0, 3],
+      ["../assets/tequilas.jpg", "Más de", "25 tequilas", 3, 5.6],
+      ["../assets/gringa.jpg", "Micheladas", "desde $65", 5.6, 8.2],
+      ["../assets/botellas.jpg", "Copa o", "botella", 8.2, 10.6],
+      ["../assets/contrabarra.jpg", "Pantallas y", "buen ambiente", 10.6, 12.8],
+    ].map(([src, k, big, a, b]) => {
+      const bg = el("", `inset:-60px;background:url(${src}) center/cover;filter:blur(40px) brightness(.45) saturate(1.1)`);
+      const pano = /contrabarra/.test(src), ch = pano ? 420 : 980, ct = pano ? 640 : 360;
+      const card = el("", `left:${pano ? 40 : 90}px;right:${pano ? 40 : 90}px;top:${ct}px;height:${ch}px;border:4px solid var(--gold);background:url(${src}) center/cover no-repeat;box-shadow:0 40px 120px rgba(0,0,0,.7)`);
+      const tx = el(`<div class="kicker" style="font-size:44px">${k}</div><div class="royal" style="font-size:140px;margin-top:14px">${big}</div>`, `left:40px;right:40px;top:1390px`);
+      return { bg, card, tx, a, b };
+    });
+    const logo = el(`<img src="${LOGO}" style="width:300px">`, `left:0;right:0;top:120px;text-align:center`);
+    const end = el(`<div class="col" style="position:static;gap:44px"><img class="logo" src="${LOGO}" style="width:600px">${rule}
+      <div class="royal" style="font-size:120px">Te esperamos</div>
+      <div class="pill" style="font-size:40px">9 AM – 2 AM · los 7 días</div>
+      <div class="deal" style="font-size:52px">Emiliano Zapata 822 · Jesús María</div>
+      <div class="kicker" style="font-size:40px">WhatsApp 449 415 94 66</div>
+      <div class="kicker" style="font-size:24px;color:rgba(246,239,226,.55)">Evita el exceso · +18</div></div>`, `top:430px;left:60px;right:60px`);
+    const endBg = el("", "inset:0;background:radial-gradient(120% 70% at 50% 30%,#2a2620,#0f0f11)");
+    stage.appendChild(end);
+    return t => {
+      shots.forEach(s => {
+        const vis = t >= s.a - .3 && t < s.b + .3;
+        [s.bg, s.card, s.tx].forEach(n => n.style.display = vis ? "" : "none");
+        if (!vis) return;
+        const lt = (t - s.a) / (s.b - s.a);
+        const fi = ease(seg(t, s.a - .3, s.a + .2)), fo = 1 - ease(seg(t, s.b - .15, s.b + .3));
+        set(s.bg, fi * fo, 0, 0, 1.1 + .05 * lt);
+        set(s.card, fi * fo, 0, (1 - fi) * 120, 1.02 + .08 * lt, (lt - .5) * 1.6);
+        const tin = back(seg(t, s.a + .1, s.a + .5));
+        set(s.tx, clamp(seg(t, s.a + .1, s.a + .3)) * fo, (1 - tin) * -300, 0);
+      });
+      set(logo, (1 - ease(seg(t, 12.4, 12.8))) * ease(seg(t, .1, .6)), 0, 0, 1);
+      const e = seg(t, 12.8, 13.4);
+      set(endBg, ease(e)); set(end, ease(e), 0, 60 * (1 - ease(e)), .92 + .08 * ease(e));
+    };
+  },
+
+  /* -------- Reel 3: ¿Plan para hoy? (15 s) -------- */
+  "reel-plan"() {
+    const pp = el(papel(9, W, 200), `left:0;top:0;width:${W}px;height:200px`);
+    const q = el(`<div class="royal" style="font-size:170px" id="qq"></div>`, `left:40px;right:40px;top:720px`);
+    const sub = el(`<div class="script" style="font-size:110px">ya lo tienes</div>`, `left:0;right:0;top:1060px`);
+    const items = [
+      ["canasta", "Canasta 8 cervezas", "desde", 290], ["taco", "Tacos Real de filete", "orden de 3", 60],
+      ["michelada", "Michelada preparada", "la de la casa", 70], ["arrachera", "Arrachera", "orden", 190], ["cerveza", "Hora Real · L–J 5 a 8 pm", "cerveza nacional", 35],
+    ].map(([ic, name, small, pr]) => el(`<div class="col" style="position:static;gap:40px">
+      <div class="icon" style="width:360px;height:360px">${ICONS[ic]}</div>
+      <div class="deal" style="font-size:64px">${name}</div>
+      <div class="kicker" style="font-size:36px">${small}</div>
+      <div class="price"><b style="font-size:230px"><sup>$</sup>${pr}</b></div></div>`, `left:60px;right:60px;top:470px`));
+    const end = el(`<div class="col" style="position:static;gap:44px"><img class="logo" src="${LOGO}" style="width:560px">${rule}
+      <div class="royal" style="font-size:130px">Hoy toca</div><div class="script" style="font-size:120px">Cantina Real</div>
+      <div class="pill" style="font-size:40px">Abierto 9 AM – 2 AM</div>
+      <div class="kicker" style="font-size:40px">Reserva · 449 415 94 66</div>
+      <div class="kicker" style="font-size:24px;color:rgba(246,239,226,.55)">Emiliano Zapata 822 · Jesús María · Evita el exceso · +18</div></div>`, `top:420px;left:60px;right:60px`);
+    const Qtxt = "¿Plan para hoy?";
+    const qq = q.querySelector("#qq");
+    return t => {
+      set(pp, 1, 0, -200 * (1 - ease(seg(t, 0, .5))));
+      const n = Math.floor(clamp(seg(t, .1, 1.3)) * Qtxt.length);
+      qq.textContent = Qtxt.slice(0, n) + (t < 1.4 && Math.floor(t * 4) % 2 ? "|" : "");
+      const qo = 1 - ease(seg(t, 2.3, 2.6));
+      set(q, qo, 0, 0, 1 + .04 * Math.sin(t * 6) * (t > 1.3 ? 1 : 0));
+      set(sub, ease(seg(t, 1.4, 1.8)) * qo, 0, 0, 1.4 - .4 * back(seg(t, 1.4, 1.8)), -4);
+      const D = 1.7;
+      items.forEach((g, i) => {
+        const a = 2.6 + i * D, b = a + D;
+        const vis = t >= a && t < b + .05;
+        g.style.display = vis ? "" : "none";
+        if (!vis) return;
+        const lt = t - a, k = g.firstElementChild.children;
+        const fo = ease(seg(t, b - .2, b));
+        set(g, (1 - fo), 0, -fo * 200);
+        set(k[0], clamp(seg(lt, 0, .2)), 0, 0, back(seg(lt, 0, .4)), (1 - ease(seg(lt, 0, .5))) * -30);
+        set(k[1], clamp(seg(lt, .1, .3)), 0, (1 - ease(seg(lt, .1, .4))) * 60);
+        set(k[2], clamp(seg(lt, .2, .4)));
+        set(k[3], clamp(seg(lt, .3, .45)), 0, 0, 1.8 - .8 * back(seg(lt, .3, .7)), (1 - back(seg(lt, .3, .7))) * 10);
+      });
+      const e = seg(t, 11.1, 11.7);
+      set(end, ease(e), 0, 80 * (1 - ease(e)));
+    };
+  },
+
+  /* -------- GIF 1: Logo Real (5 s, cuadrado) -------- */
+  "gif-logo"() {
+    const svg = el(`<svg viewBox="0 0 300 260" width="420" height="364" fill="none" stroke="#D3AD6E" stroke-width="9">
+      ${[[60, 90], [110, 90], [160, 90], [210, 90], [85, 135], [135, 135], [185, 135], [110, 180], [160, 180], [135, 225]].map(([x, y], i) => `<circle class="g" data-i="${i}" cx="${x + 15}" cy="${y}" r="25" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>`).join("")}
+      <path class="leaf" d="M150 50c-6-10-2-20 0-28 4 6 8 4 10-2 4 6 0 12 8 12-4 6-8 8-2 14-8 2-12 0-16 4z" fill="#D3AD6E" stroke="none"/></svg>`, `left:0;right:0;top:150px;text-align:center`);
+    const word = el(`<img src="${LOGO}" style="width:860px">`, `left:0;right:0;top:120px;text-align:center`);
+    const circles = [...svg.querySelectorAll(".g")], leaf = svg.querySelector(".leaf");
+    return t => {
+      circles.forEach((c, i) => { c.setAttribute("stroke-dashoffset", 1 - ease(seg(t, .1 + i * .1, .5 + i * .1))); });
+      leaf.style.opacity = ease(seg(t, 1.1, 1.4)); leaf.style.transform = `translateY(${-30 * (1 - back(seg(t, 1.1, 1.5)))}px)`;
+      const sw = ease(seg(t, 1.6, 2.1));
+      set(svg, 1 - sw, 0, 0, 1 - .3 * sw);
+      set(word, sw * (1 - ease(seg(t, 4.6, 5))), 0, 0, (.8 + .2 * back(seg(t, 1.6, 2.2))) * (1 + .025 * Math.sin(clamp((t - 2.6) / 1.2) * Math.PI)));
+    };
+  },
+
+  /* -------- GIF 2: ¡Salud! (5 s) -------- */
+  "gif-salud"() {
+    const mug = s => `<div style="width:300px;height:300px;color:#D3AD6E">${ICONS.cerveza}</div>`;
+    const L = el(mug(), `left:170px;top:300px`), R = el(mug(), `left:610px;top:300px`);
+    R.firstElementChild.style.transform = "scaleX(-1)";
+    const txt = el(`<div class="royal" style="font-size:210px">¡Salud!</div>`, `left:0;right:0;top:640px`);
+    const sub = el(`<div class="kicker" style="font-size:40px">Cantina Real · Jesús María</div>`, `left:0;right:0;top:880px`);
+    const drops = Array.from({ length: 16 }, (_, i) => el(`<div style="width:${10 + (i % 4) * 5}px;height:${10 + (i % 4) * 5}px;border-radius:50%;background:${i % 3 ? "#F6EFE2" : "#D3AD6E"}"></div>`, `left:530px;top:330px`));
+    const logo = el(`<img src="../img/uvas.png" style="width:200px">`, `left:0;right:0;top:60px;text-align:center`);
+    return t => {
+      const cyc = t % 5;
+      const hit = 1.1;
+      const appr = ease(seg(cyc, .2, hit)), rec = ease(seg(cyc, hit, hit + .5)), back2 = ease(seg(cyc, 4.2, 4.9));
+      const dx = 140 * appr - 40 * rec - 100 * back2;
+      set(L, 1, dx, -20 * Math.sin(appr * Math.PI), 1, 18 * appr - 8 * rec - 10 * back2);
+      set(R, 1, -dx, -20 * Math.sin(appr * Math.PI), 1, -18 * appr + 8 * rec + 10 * back2);
+      drops.forEach((d, i) => {
+        const a = (i / 16) * Math.PI * 2, p = seg(cyc, hit, hit + 1.1);
+        const r = 40 + 320 * ease(p), g = 380 * p * p;
+        set(d, p > 0 && p < 1 ? 1 - p : 0, Math.cos(a) * r, Math.sin(a) * r * .6 - 60 + g, 1);
+      });
+      set(txt, ease(seg(cyc, hit, hit + .2)) * (1 - back2), 0, 0, 1.6 - .6 * back(seg(cyc, hit, hit + .5)), -3);
+      set(sub, ease(seg(cyc, hit + .3, hit + .7)) * (1 - back2));
+      set(logo, 1 - back2 * .0);
+    };
+  },
+
+  /* -------- GIF 3: Una promo cada día (5 s) -------- */
+  "gif-promo"() {
+    const order = PROMOS.slice().sort((a, b) => ((a.day + 6) % 7) - ((b.day + 6) % 7));
+    const head = el(`<div class="kicker" style="font-size:40px">Promo de hoy en Cantina Real</div>`, `left:0;right:0;top:110px`);
+    const row = el(`<div style="display:flex;gap:14px;justify-content:center">${order.map(p => `<div class="chip" style="width:120px;height:120px;border:3px solid #D3AD6E;display:grid;place-items:center;font-size:34px;font-weight:600;letter-spacing:.06em">${p.short}</div>`).join("")}</div>`, `left:0;right:0;top:200px`);
+    const chips = [...row.querySelectorAll(".chip")];
+    const cards = order.map(p => el(`<div class="col" style="position:static;gap:22px">
+      <div class="icon" style="width:230px;height:230px;padding:30px">${ICONS[p.icon]}</div>
+      <div class="royal" style="font-size:${p.title.length > 18 ? 84 : 100}px">${p.title}</div>
+      ${p.price ? `<div class="price"><b style="font-size:130px"><sup>$</sup>${p.price}</b></div>` : `<div class="badge" style="font-size:70px">${p.badge}</div>`}</div>`, `left:50px;right:50px;top:380px`));
+    return t => {
+      const D = 5 / 7, k = Math.min(6, Math.floor(t / D)), lt = t - k * D;
+      chips.forEach((c, i) => { c.style.background = i === k ? "#D3AD6E" : "transparent"; c.style.color = i === k ? "#121214" : "#D3AD6E"; c.style.transform = i === k ? "scale(1.08)" : "scale(1)"; });
+      cards.forEach((c, i) => {
+        c.style.display = i === k ? "" : "none";
+        if (i === k) set(c, clamp(seg(lt, 0, .12)) * (1 - ease(seg(lt, D - .1, D))), 0, 0, .85 + .15 * back(seg(lt, 0, .3)));
+      });
+    };
+  },
+};
+
+/* ======================= API para el renderizador ======================= */
+window.ready = (async () => {
+  const poster = Q.get("poster"), anim = Q.get("anim");
+  if (poster) renderPoster(poster);
+  if (anim) window.seek = ANIMS[anim]();
+  await document.fonts.ready;
+  await Promise.all(["barra", "tequilas", "gringa", "botellas", "contrabarra"].map(n => new Promise(r => { const i = new Image(); i.onload = i.onerror = r; i.src = `../assets/${n}.jpg`; })));
+  await Promise.all([...document.images].map(i => i.complete ? 0 : new Promise(r => { i.onload = i.onerror = r; })));
+  document.querySelectorAll(".col > .fit").forEach(f => {
+    const avail = f.parentElement.clientHeight, need = f.scrollHeight;
+    if (need > avail) f.style.transform = `scale(${(avail / need).toFixed(3)})`;
+  });
+  if (window.seek) window.seek(+(Q.get("t") || 0));
+  return true;
+})();
+</script>
+</body>
+</html>
