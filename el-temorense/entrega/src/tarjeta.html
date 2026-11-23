@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<title>Tarjeta de mesa · El Temorense</title>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Lora:wght@700&family=Manrope:wght@600;800&display=block" rel="stylesheet">
+<style>
+@page{size:4in 6in;margin:0}
+*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0}
+.card{width:4in;height:6in;background:#1b110c;color:#f5e8d6;position:relative;overflow:hidden;font-family:Manrope,sans-serif;text-align:center;display:flex;flex-direction:column;align-items:center}
+.card .ph{position:absolute;inset:0 0 auto;height:2.3in;background:url(../../img/family.webp) center/cover}
+.card .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(27,17,12,.2),#1b110c)}
+.card .logo{position:relative;width:1in;border-radius:50%;margin-top:.25in;box-shadow:0 .05in .15in rgba(0,0,0,.6)}
+.card h1{position:relative;font:400 30pt/1 Yellowtail,cursive;color:#ecb354;margin:.1in 0 0}
+.card p{position:relative;margin:.04in 0 0;font:600 9pt Manrope}
+.qr{position:relative;width:2.1in;height:2.1in;background:#fff;border-radius:.18in;padding:.1in;margin-top:.16in}
+.qr img{width:100%;height:100%;display:block}
+.scan{font:700 15pt/1.1 Lora,serif;margin-top:.14in}
+.foot{margin-top:auto;width:100%;background:#ecb354;color:#2a1706;padding:.1in;font:800 9pt Manrope}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="ph"></div>
+  <img class="logo" src="../../img/logo.webp" alt="">
+  <h1>Nuestro menú</h1>
+  <p>Escanea con la cámara de tu celular</p>
+  <div class="qr"><img src="../qr.png" alt="QR del menú"></div>
+  <div class="scan">Pide desde tu mesa<br>o para llevar</div>
+  <div class="foot">Pedidos por WhatsApp · (614) 609 6023</div>
+</div>
+</body>
+</html>

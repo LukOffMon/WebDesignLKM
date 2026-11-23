@@ -487,6 +487,8 @@ Si les gusta, lo dejo listo esta misma semana. ¿Con quién lo puedo platicar?
 
 Teléfono: 614 609 6023. Alta: Tripadvisor y Chihuahua de Cerca dan el mismo número (la dirección varía entre fuentes).
 
+> **Actualizado:** ya tenemos su carta oficial (junio 2026) y se hizo el sitio completo en [`el-temorense/`](https://lukoffmon.github.io/WebDesignLKM/el-temorense/). Usar el mensaje y la propuesta de `el-temorense/entrega/LEEME.md` en lugar del de abajo.
+
 ```
 Hola, buen día. ¿Hablo con El Temorense?
 
