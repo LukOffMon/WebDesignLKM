@@ -33,6 +33,7 @@ const file = f => 'file://' + f;
   await hi.goto(file(path.join(SRC, 'tarjeta.html')), { waitUntil: 'networkidle' });
   await hi.evaluate(() => document.fonts.ready);
   await hi.locator('.card').screenshot({ path: path.join(OUT, 'tarjeta-mesa.png') });
-  console.log('ok tarjeta-mesa.png');
+  fs.copyFileSync(path.join(OUT, 'tarjeta-mesa.png'), path.resolve(SRC, '../../tarjeta-mesa.png'));
+  console.log('ok tarjeta-mesa.png (y copia en el-temorense/)');
   await b.close();
 })();
