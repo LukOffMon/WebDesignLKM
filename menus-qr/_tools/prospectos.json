@@ -31,7 +31,8 @@
       "whatsapp": "3330065241",
       "contacto": "whatsapp_oficial",
       "region": "nacional",
-      "guion": "mariscos"
+      "guion": "mariscos",
+      "negociado": true
     },
     {
       "slug": "matilda",
@@ -476,7 +477,8 @@
       "estrella": "pozole, charola Tezcalli y sus antojitos",
       "contacto": "whatsapp_oficial",
       "region": "nacional",
-      "guion": "cocina_tradicional"
+      "guion": "cocina_tradicional",
+      "negociado": true
     },
     {
       "slug": "josefina",
@@ -523,12 +525,29 @@
         "texto": "Manrope"
       },
       "lema": "Birria, gorditas de asiento y menudo",
-      "gancho": "Sus boxes familiares y la birria se venden por foto: un menú digital los pone al frente para mesa y para llevar.",
-      "mejora": "Lo dejo con sus boxes y un botón de pedido por WhatsApp.",
-      "estrella": "birria, gorditas de asiento y sus boxes familiares",
+      "gancho": "Ya les armé su sitio con su carta de junio 2026 completa (119 platillos con precios de salón), lo nuevo al frente y pedido directo a su WhatsApp, sin comisión de apps.",
+      "mejora": "Hoy su carta es un PDF de 9 MB y en Rappi sus precios salen con comisión (plato de birria $182 contra $135 en salón): con su sitio el cliente ve sus precios reales y les pide directo.",
+      "estrella": "birria, quesibirri revolcada, gorditas de asiento y sus Family Box",
       "contacto": "numero_propio",
       "region": "nacional",
-      "guion": "taqueria"
+      "guion": "taqueria",
+      "sitio": "https://lukoffmon.github.io/WebDesignLKM/el-temorense/",
+      "sitio_rel": "el-temorense/",
+      "propuesta": "https://lukoffmon.github.io/WebDesignLKM/el-temorense/propuesta/",
+      "paquete": {
+        "nombre": "Sitio completo",
+        "inst": 1500,
+        "mens": 250
+      },
+      "q": {
+        "n": 119,
+        "f": 46,
+        "c": 13,
+        "d": 12,
+        "h": true,
+        "ld": true
+      },
+      "tarjeta": "Sitio completo con su carta oficial: 119 platillos con precios de salón, QR con su logo y propuesta de promociones."
     },
     {
       "slug": "la-guasavena",
@@ -893,7 +912,8 @@
       "mejora": "Lo dejo con sus cuatro sucursales en el mismo enlace y el pedido llega al WhatsApp de cada una.",
       "estrella": "pastor, gringas y alambres por kilo",
       "region": "nacional",
-      "guion": "taqueria"
+      "guion": "taqueria",
+      "negociado": true
     },
     {
       "slug": "fokus",
@@ -1049,7 +1069,8 @@
       "mejora": "Lo dejo con sus faroladas y pizzas al frente.",
       "estrella": "faroladas, pizza de arrachera y tacos",
       "region": "nacional",
-      "guion": "taqueria"
+      "guion": "taqueria",
+      "negociado": true
     },
     {
       "slug": "la-argentina",
@@ -1311,7 +1332,8 @@
       "mejora": "Lo hago bilingüe y dejo todas sus sucursales de Acapulco en el mismo enlace.",
       "estrella": "pastor por kilo, volcanes y quesatacos",
       "region": "nacional",
-      "guion": "taqueria"
+      "guion": "taqueria",
+      "negociado": true
     },
     {
       "slug": "pachita",
@@ -1519,7 +1541,8 @@
       "mejora": "Lo dejo con su imagen de bistró y un botón para reservar.",
       "estrella": "sus desayunos, pepitos y pastas",
       "region": "ags",
-      "guion": "restaurante"
+      "guion": "restaurante",
+      "negociado": true
     },
     {
       "slug": "el-yuca",
@@ -2253,7 +2276,8 @@
       "mejora": "Separo la carta de desayunos y la de noche.",
       "estrella": "croques, scones y pizzas",
       "region": "ags",
-      "guion": "restaurante"
+      "guion": "restaurante",
+      "negociado": true
     },
     {
       "slug": "xilaquil",
@@ -2568,7 +2592,8 @@
       "mejora": "Lo dejo con sus dos sucursales (Centro y Villasunción).",
       "estrella": "pastas, tablas de quesos y malteadas",
       "region": "ags",
-      "guion": "restaurante"
+      "guion": "restaurante",
+      "negociado": true
     },
     {
       "slug": "me-lo-dijo-adela",
@@ -3020,7 +3045,8 @@
       "contacto": "numero_propio",
       "region": "ags",
       "guion": "cocina_tradicional",
-      "alta": "2026-11-18"
+      "alta": "2026-11-18",
+      "negociado": true
     },
     {
       "slug": "the-boiling-pot",
@@ -3134,7 +3160,8 @@
       "contacto": "directorio",
       "region": "ags",
       "guion": "desayunos",
-      "alta": "2026-11-18"
+      "alta": "2026-11-18",
+      "negociado": true
     },
     {
       "slug": "cardonas-grill",
@@ -3219,7 +3246,8 @@
       "contacto": "numero_propio",
       "region": "ags",
       "guion": "cocina_tradicional",
-      "alta": "2026-11-18"
+      "alta": "2026-11-18",
+      "negociado": true
     },
     {
       "slug": "carnitas-romo",
@@ -3247,7 +3275,8 @@
       "contacto": "numero_propio",
       "region": "ags",
       "guion": "taqueria",
-      "alta": "2026-11-18"
+      "alta": "2026-11-18",
+      "negociado": true
     },
     {
       "slug": "mariscos-villa-marina",
@@ -3276,7 +3305,8 @@
       "region": "nacional",
       "guion": "mariscos",
       "alta": "2026-11-18",
-      "sin_web": true
+      "sin_web": true,
+      "negociado": true
     },
     {
       "slug": "taqueria-la-plancha",
@@ -3480,7 +3510,8 @@
       "region": "nacional",
       "guion": "mariscos",
       "alta": "2026-11-18",
-      "sin_web": true
+      "sin_web": true,
+      "negociado": true
     },
     {
       "slug": "el-seri-pescaderia",
@@ -3654,7 +3685,8 @@
       "region": "nacional",
       "guion": "mariscos",
       "alta": "2026-11-18",
-      "sin_web": true
+      "sin_web": true,
+      "negociado": true
     },
     {
       "slug": "carnitas-el-guero-toluca",
@@ -3683,7 +3715,8 @@
       "region": "nacional",
       "guion": "taqueria",
       "alta": "2026-11-18",
-      "sin_web": true
+      "sin_web": true,
+      "negociado": true
     },
     {
       "slug": "mariscos-frente-al-mar",
@@ -3741,7 +3774,8 @@
       "region": "nacional",
       "guion": "cocina_tradicional",
       "alta": "2026-11-18",
-      "sin_web": true
+      "sin_web": true,
+      "negociado": true
     },
     {
       "slug": "taqueria-los-mandiles",
@@ -3799,7 +3833,8 @@
       "region": "nacional",
       "guion": "mariscos",
       "alta": "2026-11-18",
-      "sin_web": true
+      "sin_web": true,
+      "negociado": true
     },
     {
       "slug": "mr-camaron-morelia",

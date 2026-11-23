@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<title>Propuesta · Sitio y menú digital El Temorense</title>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Lora:wght@600;700&family=Manrope:wght@400;600;800&display=block" rel="stylesheet">
+<style>
+@page{size:letter;margin:0}
+:root{--bg:#1b110c;--card:#2c1d13;--cream:#f5e8d6;--mute:#c5b29c;--gold:#ecb354;--chile:#c8372b}
+*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0;font:10.5pt/1.5 Manrope,Arial,sans-serif;color:var(--cream);background:var(--bg)}
+.page{width:8.5in;height:11in;position:relative;overflow:hidden;page-break-after:always;break-after:page;padding:.6in .65in;background:var(--bg)}
+.page:last-child{page-break-after:auto;break-after:auto}
+.script{font-family:Yellowtail,cursive;color:var(--gold);font-weight:400;line-height:1}
+.k{font:800 8pt/1 Manrope;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+h1,h2,h3{font-family:Lora,Georgia,serif;margin:0}
+.cover{padding:0}
+.cover>img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,12,8,.55),rgba(20,12,8,.25) 40%,rgba(20,12,8,.95) 75%)}
+.cover .in{position:absolute;inset:.7in;z-index:1;display:flex;flex-direction:column}
+.cover .logo{width:1.3in;border-radius:50%}
+.cover h1{font-size:44pt;line-height:1.05;margin-top:auto}
+.cover h1 .script{display:block;font-size:40pt;margin-top:.08in}
+.cover p{font-size:13pt;max-width:5.4in;color:#ead9c3}
+.cover .meta{display:flex;justify-content:space-between;align-items:flex-end;margin-top:.25in}
+.cover .meta img{width:1.25in;background:#fff;padding:.07in;border-radius:.12in}
+h2{font-size:26pt;margin:.08in 0 .2in}
+h2 .script{font-size:36pt}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:.18in}
+.box{background:var(--card);border:1px solid #4a3322;border-radius:.16in;padding:.16in .18in}
+.box b{display:block;font:700 12.5pt/1.2 Lora,serif;color:var(--gold);margin-bottom:.04in}
+.box p{margin:0;color:var(--mute);font-size:9.5pt}
+.shots{display:flex;gap:.2in;justify-content:center;margin:.25in 0 .1in}
+.phone{width:2in;border-radius:.24in;background:#000;padding:.06in;box-shadow:0 .1in .3in rgba(0,0,0,.6)}
+.phone img{width:100%;display:block;border-radius:.19in}
+table{width:100%;border-collapse:collapse;margin:.1in 0 .2in}
+td{padding:.09in 0;border-bottom:1px solid #4a3322;vertical-align:top}
+td:last-child{text-align:right;font:700 13pt Lora,serif;color:var(--gold);white-space:nowrap;padding-left:.2in}
+td small{display:block;color:var(--mute)}
+.big{background:var(--gold);color:#2a1706;border-radius:.2in;padding:.22in .26in;display:flex;justify-content:space-between;align-items:center}
+.big b{font:700 30pt/1 Lora,serif}
+.pn{position:absolute;right:.65in;bottom:.35in;font-size:8pt;color:var(--mute)}
+ul{margin:.05in 0;padding-left:.2in}li{margin:.03in 0}
+</style>
+</head>
+<body>
+
+<div class="page cover">
+  <img class="bg" src="../../img/birria.webp" alt="">
+  <div class="in">
+    <img class="logo" src="../../img/logo.webp" alt="">
+    <h1>Su carta completa, en el celular de cada cliente <span class="script">Sabor de la Sierra, ahora en línea</span></h1>
+    <p>Propuesta de sitio web y menú digital con QR para El Temorense, hecho con su carta de junio 2026 y sus fotos.</p>
+    <div class="meta">
+      <div><div class="k">Preparado por LKM'r Company</div><div style="margin-top:.06in;font-size:9.5pt;color:#ead9c3">Escanee para verlo funcionando →</div></div>
+      <img src="../qr.png" alt="QR">
+    </div>
+  </div>
+</div>
+
+<div class="page">
+  <p class="k">Qué reciben</p>
+  <h2>Un sitio que vende <span class="script">solito</span></h2>
+  <div class="shots">
+    <div class="phone"><img src="shots/m-hero.png" alt=""></div>
+    <div class="phone" style="transform:translateY(.3in)"><img src="shots/m-menu.png" alt=""></div>
+    <div class="phone"><img src="shots/m-cart.png" alt=""></div>
+  </div>
+  <div class="cols" style="margin-top:.35in">
+    <div class="box"><b>Carta completa con sus precios</b><p>119 platillos y bebidas de la carta de junio 2026, con variantes (maíz/harina, plato/litro, sencilla/especial) y buscador.</p></div>
+    <div class="box"><b>Pedidos directo a su WhatsApp</b><p>El cliente arma su pedido, elige para llevar, a domicilio o comer ahí, su salsa y notas. Les llega el mensaje con el total. Sin comisión de apps.</p></div>
+    <div class="box"><b>Lo nuevo y las de la casa al frente</b><p>Tatemo, Mar y Sierra, Lonjudo, Clamato Temorense… y la Quesibirri Revolcada®, el plato de birria y la costribirri como recomendados.</p></div>
+    <div class="box"><b>Calculadora de Family Box</b><p>"¿Cuántos van a comer?" y el sitio arma la combinación de boxes. Ideal para reuniones y oficinas: ticket más alto.</p></div>
+    <div class="box"><b>Salsas por picor</b><p>Sus 10 salsas de "no pica" a "pica machín", y una ruleta para el indeciso.</p></div>
+    <div class="box"><b>Horario en vivo y contacto</b><p>"Abierto ahora" con la hora de Chihuahua, botón de llamar, Instagram y cómo llegar en Google Maps.</p></div>
+  </div>
+  <span class="pn">2</span>
+</div>
+
+<div class="page">
+  <p class="k">Antes y después</p>
+  <h2>Por qué <span class="script">conviene</span></h2>
+  <div class="cols">
+    <div class="box"><b>Hoy</b><ul style="color:var(--mute)"><li>La carta vive en un PDF de 9 MB: pesado para abrir en el celular y difícil de leer con zoom.</li><li>En Rappi los precios llevan comisión (ej. Plato de birria $182 vs. $135 en salón).</li><li>Los pedidos por teléfono se toman a mano.</li></ul></div>
+    <div class="box"><b>Con el sitio</b><ul style="color:var(--mute)"><li>Abre en 1–2 segundos, desde la cámara, sin descargar nada.</li><li>Pedidos directos con sus precios de salón: el cliente paga menos y ustedes no pagan comisión.</li><li>El pedido llega escrito y con total: menos errores.</li><li>Aparecen mejor en Google con sus datos estructurados.</li></ul></div>
+  </div>
+  <p class="k" style="margin-top:.3in">Inversión · elijan su paquete</p>
+  <table>
+    <tr><td><b>Menú QR</b><small>Carta con fotos y precios, QR con su logo, tarjeta de mesa y pedidos por WhatsApp.</small></td><td>$650 + $200/mes</td></tr>
+    <tr><td><b>Sitio completo · recomendado</b><small>Todo lo que ya vieron funcionando: lo nuevo, las de la casa, Family Box, salsas, horario, Google y dominio propio si lo quieren.</small></td><td>$1,500 + $250/mes</td></tr>
+    <tr><td><b>Sitio + Promos QR</b><small>Además: 4 promociones al mes (póster, historia y post con QR), promo del día en el sitio, sticker para bolsas, cupón de regreso y QR de reseñas.</small></td><td>$2,200 + $450/mes</td></tr>
+  </table>
+  <div class="big"><div><div style="font:800 9pt Manrope;letter-spacing:.2em;text-transform:uppercase">Ejemplos de promos y paquetes</div><div style="font-size:10pt;margin-top:.04in">lukoffmon.github.io/WebDesignLKM/el-temorense/propuesta/</div></div><img src="../qr.png" alt="" style="width:.9in;background:#fff;border-radius:.08in;padding:.04in"></div>
+  <p style="margin-top:.25in;color:var(--mute)">Listo esta semana: solo confirmamos dirección, horario y que el 614 609 6023 recibe WhatsApp. Contacto LKM'r: WhatsApp 449 209 4034.</p>
+  <span class="pn">3</span>
+</div>
+
+</body>
+</html>

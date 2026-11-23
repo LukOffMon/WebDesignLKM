@@ -862,10 +862,10 @@ def update_portfolio(rows):
         thumb = next((it["img"] for c in cats if cat_rank(c["name"]) in (1, 4) for it in c["items"] if it.get("img")),
                      next((it["img"] for c in cats for it in c["items"] if it.get("img")), ""))
         cards.append(
-            f'      <a class="card qr-card" href="menus-qr/{r['slug']}/">\n'
-            f'        <div class="thumb" style="background-image:url(\'menus-qr/{r['slug']}/{thumb}\')"></div>\n'
+            f'      <a class="card qr-card" href="{r.get('sitio_rel') or f"menus-qr/{r['slug']}/"}">\n'
+            f'        <div class="thumb" style="background-image:url(\'{r['sitio_rel'] + 'img/og.jpg' if r.get('sitio_rel') else f"menus-qr/{r['slug']}/{thumb}"}\')"></div>\n'
             f'        <div class="body"><p class="tag" style="color:{r['tema']['acc'] if luminance(r['tema']['acc']) > .12 else '#d6b47a'}">{e(r['ciudad'])}</p>'
-            f'<p class="name">{e(r['nombre'])}</p><p class="desc">{e(r['lema'])}. {n} platillos con foto, buscador y pedido por WhatsApp.</p>'
+            f'<p class="name">{e(r['nombre'])}</p><p class="desc">{e(r['lema'])}. {e(r['tarjeta']) if r.get('tarjeta') else f"{n} platillos con foto, buscador y pedido por WhatsApp."}</p>'
             f'<p class="go">Ver menú →</p></div>\n      </a>')
     ags = [cd for cd, (r, *_ ) in zip(cards, rows) if r.get("region") == "ags"]
     nac = [cd for cd, (r, *_ ) in zip(cards, rows) if r.get("region") != "ags"]

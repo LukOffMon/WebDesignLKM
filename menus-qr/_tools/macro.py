@@ -49,7 +49,13 @@ def preset(r):
         p["alta"] = r["alta"]
     if r.get("sin_web"):
         p["sin_web"] = True
-    p["q"] = calidad(r["slug"])
+    # Clientes con sitio propio (ej. El Temorense): el enlace de venta es su sitio, no la muestra de menus-qr.
+    if r.get("sitio"):
+        p["menu"] = r["sitio"]
+    for k in ("propuesta", "paquete"):
+        if r.get(k):
+            p[k] = r[k]
+    p["q"] = r.get("q") or calidad(r["slug"])
     return p
 
 
@@ -81,7 +87,16 @@ def main():
     # Los nuevos van primero (WhatsApp antes que teléfono); los demás conservan su orden en el macro.
     nuevos = sorted((p for p in rows if p["menu"] not in orden), key=lambda p: ORDEN.get(p["contacto"], 9))
     # De los que ya estaban se respetan sus datos (coordenadas y ajustes hechos a mano); solo se renueva `q`.
-    lista = nuevos + [{**v, "q": por_menu[v["menu"]]["q"]} for v in viejos if v["menu"] in por_menu]
+    por_tel = {p["tel"]: p for p in rows}
+    propios = {"menu", "propuesta", "paquete", "gancho", "mejora", "platillos"}
+    def renueva(v):
+        n = por_menu.get(v["menu"]) or por_tel.get(v["tel"])
+        if not n:
+            return None
+        extra = {k: n[k] for k in propios if k in n} if (n.get("propuesta") or n["menu"] != v["menu"]) else {}
+        return {**v, **extra, "q": n["q"]}
+    nuevos = [p for p in nuevos if p["tel"] not in {v["tel"] for v in viejos}]
+    lista = nuevos + [x for x in (renueva(v) for v in viejos) if x]
     body = ",\n".join("  " + json.dumps(p, ensure_ascii=False) for p in lista)
     path.write_text(html[:m.start(1)] + body + html[m.end(1):], encoding="utf-8")
     print(f"PRESETS del macro: {len(lista)} ({len(nuevos)} nuevos)")
