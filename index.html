@@ -3,39 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LKM’r · Proyectos web</title>
-  <meta name="description" content="Sitios web diseñados y desarrollados por LKM’r." />
+  <title>LKM’r · Portafolio</title>
+  <meta name="description" content="Todos los proyectos públicos de LKM’r en un solo lugar: sitios para negocios, Rojo 87, apps, herramientas personales y extensiones para Claude." />
   <meta name="theme-color" content="#0b0b0c" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;1,500&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet" />
   <style>
-    :root { --bg: #0b0b0c; --card: #151518; --line: rgba(255,255,255,.1); --mute: #9a9aa3; }
+    :root { --bg: #0b0b0c; --card: #141417; --card2: #1b1b1f; --line: rgba(255,255,255,.09); --line2: rgba(255,255,255,.22); --mute: #9a9aa3; --gold: #d6b47a; --text: #f4f1ea; }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: #fff; font-family: Manrope, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
-    main { max-width: 1200px; margin: 0 auto; padding: 72px 16px 48px; }
-    .eyebrow { font-size: .7rem; font-weight: 800; letter-spacing: .3em; text-transform: uppercase; color: var(--mute); }
+    html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: Manrope, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    main { max-width: 1200px; margin: 0 auto; padding: 0 16px 48px; }
+
+    /* Portada */
+    .hero { padding: 72px 0 8px; }
+    .eyebrow { font-size: .7rem; font-weight: 800; letter-spacing: .3em; text-transform: uppercase; color: var(--mute); margin: 0; }
     h1 { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: clamp(2.6rem, 8vw, 5rem); line-height: 1; margin: 16px 0 0; letter-spacing: -.02em; }
-    h1 em { color: #d6b47a; }
-    .grid { display: grid; gap: 16px; margin-top: 48px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-    a.card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: var(--card); color: inherit; text-decoration: none; transition: transform .5s cubic-bezier(.22,1,.36,1), border-color .3s; }
-    a.card:hover, a.card:focus-visible { transform: translateY(-4px); border-color: rgba(255,255,255,.3); outline: none; }
-    .thumb { aspect-ratio: 16/10; background-size: cover; background-position: center; }
-    .body { padding: 20px 22px 24px; }
-    .tag { font-size: .65rem; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
-    .name { font-family: Fraunces, Georgia, serif; font-size: 1.7rem; margin: 6px 0 4px; }
-    .desc { color: var(--mute); font-size: .9rem; line-height: 1.5; margin: 0; }
-    .go { margin-top: 16px; font-size: .85rem; font-weight: 800; }
-    footer { border-top: 1px solid var(--line); margin-top: 64px; padding-top: 24px; color: var(--mute); font-size: .8rem; }
-    .qr-sec { margin-top: 88px; padding-top: 40px; border-top: 1px solid var(--line); }
-    .qr-sec h2 { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.05; margin: 14px 0 0; letter-spacing: -.02em; }
-    .qr-lead { color: var(--mute); max-width: 60ch; line-height: 1.6; margin: 14px 0 0; }
-    .qr-sec .grid { margin-top: 32px; }
-    .qr-card .thumb { aspect-ratio: 16/9; }
+    h1 em { color: var(--gold); }
+    .lead { color: var(--mute); max-width: 58ch; line-height: 1.6; margin: 18px 0 0; font-size: 1.02rem; }
+    .stats { display: flex; flex-wrap: wrap; gap: 10px 28px; margin: 28px 0 0; padding: 0; list-style: none; }
+    .stats b { display: block; font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: 2rem; color: var(--text); }
+    .stats span { font-size: .72rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: var(--mute); }
+
+    /* Barra de filtros fija */
+    .bar { position: sticky; top: 0; z-index: 10; margin: 36px -16px 0; padding: 12px 16px; background: rgba(11,11,12,.86); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+    .bar-in { max-width: 1200px; margin: 0 auto; display: flex; gap: 10px; align-items: center; }
+    .chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; flex: 1; min-width: 0; }
+    .chips::-webkit-scrollbar { display: none; }
+    .chip { flex: none; font: 800 .78rem/1 Manrope, system-ui, sans-serif; color: var(--mute); background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 10px 14px; cursor: pointer; white-space: nowrap; }
+    .chip:hover { color: var(--text); border-color: var(--line2); }
+    .chip[aria-pressed="true"] { color: #111; background: var(--gold); border-color: var(--gold); }
+    .chip small { font-weight: 600; opacity: .7; margin-left: 4px; }
+    .search { flex: none; width: 200px; font: 600 .85rem Manrope, system-ui, sans-serif; color: var(--text); background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 10px 14px; }
+    .search::placeholder { color: var(--mute); }
+    .search:focus, .chip:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+    /* Secciones */
+    section.group { margin-top: 56px; }
+    .ghead { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 14px; }
+    .ghead h2 { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: clamp(1.7rem, 4vw, 2.4rem); margin: 0; letter-spacing: -.01em; }
+    .ghead h2 .n { font-family: Manrope, system-ui, sans-serif; font-size: .8rem; font-weight: 800; color: var(--mute); margin-left: 10px; vertical-align: middle; }
+    .ghead p { margin: 0; color: var(--mute); font-size: .88rem; max-width: 52ch; }
+    .cards { display: grid; gap: 16px; margin-top: 22px; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+
+    /* Tarjetas */
+    a.card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: 22px; background: var(--card); text-decoration: none; transition: transform .45s cubic-bezier(.2,.8,.2,1), border-color .3s; }
+    a.card:hover, a.card:focus-visible { transform: translateY(-4px); border-color: var(--line2); outline: none; }
+    .thumb { position: relative; aspect-ratio: 16/10; background: var(--card2) center/cover no-repeat; overflow: hidden; }
+    .thumb.art { display: grid; place-items: center; background: radial-gradient(120% 90% at 20% 10%, color-mix(in srgb, var(--c) 55%, transparent), transparent 60%), radial-gradient(90% 80% at 90% 100%, color-mix(in srgb, var(--c) 30%, transparent), transparent 65%), #111114; }
+    .thumb.art::after { content: ""; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px); background-size: 28px 28px; }
+    .mono { position: relative; z-index: 1; font-family: Fraunces, Georgia, serif; font-size: 3.6rem; line-height: 1; color: #fff; text-shadow: 0 6px 30px rgba(0,0,0,.45); }
+    .badge { position: absolute; z-index: 2; top: 12px; left: 12px; font-size: .62rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: #fff; background: rgba(0,0,0,.55); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,.18); border-radius: 999px; padding: 6px 10px; }
+    .body { padding: 18px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+    .ctag { font-size: .64rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; margin: 0; }
+    .name { font-family: Fraunces, Georgia, serif; font-size: 1.55rem; line-height: 1.15; margin: 6px 0 6px; }
+    .desc { color: var(--mute); font-size: .88rem; line-height: 1.5; margin: 0; }
+    .foot { margin-top: auto; padding-top: 16px; display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: .8rem; }
+    .url { color: var(--mute); font-size: .72rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .go { font-weight: 800; white-space: nowrap; }
+
+    .empty { display: none; margin: 56px 0 0; color: var(--mute); text-align: center; }
+    footer { border-top: 1px solid var(--line); margin-top: 72px; padding-top: 24px; color: var(--mute); font-size: .8rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+    footer a { color: var(--mute); }
+
+    @media (max-width: 640px) {
+      .hero { padding-top: 56px; }
+      .bar-in { flex-direction: column; align-items: stretch; }
+      .search { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } a.card { transition: none; } }
   </style>
 </head>
 <body>
-<!-- LKMR-INTRO:START (lo genera menus-qr/_tools/build.py) -->
+<!-- LKMR-INTRO:START (cinemática de entrada de 3 s) -->
 <style id="lkmr-intro-css">
 #lkmr-intro{position:fixed;inset:0;z-index:2147483000;display:grid;place-items:center;background:#08080a;color:#f3efe6;overflow:hidden;
   font-family:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;cursor:pointer;transition:opacity .55s ease,transform .7s cubic-bezier(.7,0,.2,1)}
@@ -82,204 +124,153 @@ setTimeout(end,3000);el.addEventListener('click',end);document.addEventListener(
 </script>
 <!-- LKMR-INTRO:END -->
   <main>
-    <p class="eyebrow">Portafolio</p>
-    <h1>Proyectos web de <em>LKM’r</em>.</h1>
-    <div class="grid">
-      <a class="card" href="crunchy-corner/">
-        <div class="thumb" style="background-image:url('crunchy-corner/img/og.jpg')"></div>
-        <div class="body"><p class="tag" style="color:#ffb81c">Boneless · Alitas · 18 salsas</p><p class="name">The Crunchy Corner</p><p class="desc">Menú QR animado de la sucursal Plaza Cuatro Hojas: promo del día, ruleta de salsas y pedidos por WhatsApp. Aguascalientes.</p><p class="go">Abrir sitio →</p></div>
-      </a>
-      <a class="card" href="hannah-michael/">
-        <div class="thumb" style="background-image:url('hannah-michael/assets/og.jpg')"></div>
-        <div class="body"><p class="tag" style="color:#C2651A">Brunch · Desayunos · Café</p><p class="name">Hannah &amp; Michael</p><p class="desc">Chilaquiles, bagels, waffles y café. Animaciones con GSAP, menú con comanda y quiz de antojo. Blvd. Colosio, Aguascalientes.</p><p class="go">Abrir sitio →</p></div>
-      </a>
-      <a class="card" href="cafeto/">
-        <div class="thumb" style="background-image:url('cafeto/assets/instagram/salon.jpg')"></div>
-        <div class="body"><p class="tag" style="color:#d4af37">Café · Restaurante · Bar</p><p class="name">Vive Cafeto</p><p class="desc">Café, cocina y bar. Reservaciones en Loreta & San Telmo, Aguascalientes.</p><p class="go">Abrir sitio →</p></div>
-      </a>
-      <a class="card" href="burdo/">
-        <div class="thumb" style="background-image:url('burdo/assets/momentos/letrero.jpg')"></div>
-        <div class="body"><p class="tag" style="color:#ff6a3d">Parrilla & Bar</p><p class="name">Burdo San Telmo</p><p class="desc">Cortes a la parrilla, terraza jardín y reservaciones.</p><p class="go">Abrir sitio →</p></div>
-      </a>
-      <a class="card" href="oaxakita/">
-        <div class="thumb" style="background-image:url('oaxakita/assets/fachada.jpg')"></div>
-        <div class="body"><p class="tag" style="color:#e55b2b">Cocina oaxaqueña · Mezcalería</p><p class="name">Restaurante Oaxakita</p><p class="desc">Moles, tlayudas al carbón y mezcales. Pedidos y reservas por WhatsApp. Valle Dorado, Aguascalientes.</p><p class="go">Abrir sitio →</p></div>
-      </a>
-      <a class="card" href="texas-bbq/">
-        <div class="thumb" style="background-image:url('texas-bbq/assets/brisket-toro.jpg')"></div>
-        <div class="body"><p class="tag" style="color:#f97316">Smokehouse · BBQ texano</p><p class="name">Texas BBQ Ags</p><p class="desc">Brisket y costillas ahumadas. Horario en vivo, pedidos por WhatsApp y Uber Eats. Puerto las Hadas, Aguascalientes.</p><p class="go">Abrir sitio →</p></div>
-      </a>
-      <a class="card" href="jkj-stock/">
-        <div class="thumb" style="background-image:url('jkj-stock/assets/products/le-labo-santal-33-1.webp');background-color:#fff;background-size:contain;background-repeat:no-repeat"></div>
-        <div class="body"><p class="tag" style="color:#c9a46a">Tienda · Perfumes</p><p class="name">JkJ Stock</p><p class="desc">Catálogo de fragancias con filtros y pedidos por WhatsApp.</p><p class="go">Abrir sitio →</p></div>
-      </a>
-      <a class="card" href="cantina-real/">
-        <div class="thumb" style="background-image:url('cantina-real/assets/barra.jpg')"></div>
-        <div class="body"><p class="tag" style="color:#e9a8ff">Cantina · Bar</p><p class="name">Cantina Real Ags</p><p class="desc">Carta 2025 completa, una promo por día, 20 posters y 6 videos para IG, reservas y posadas. Jesús María, Aguascalientes.</p><p class="go">Abrir sitio →</p></div>
-      </a>
-      <a class="card" href="micarpintero/">
-        <div class="thumb" style="background-image:url('micarpintero/og.png')"></div>
-        <div class="body"><p class="tag" style="color:#f59e0b">App web · Carpintería</p><p class="name">MiCarpintero</p><p class="desc">Diseña muebles en 3D: despiece, plano de corte optimizado, presupuesto y PDF de fabricación.</p><p class="go">Abrir sitio →</p></div>
-      </a>
-      <a class="card" href="mk-abogados/">
-        <div class="thumb" style="background-image:url('mk-abogados/assets/sello-mk.jpg')"></div>
-        <div class="body"><p class="tag" style="color:#c5a059">Bufete jurídico</p><p class="name">MK Firma de Abogados</p><p class="desc">Defensa penal, amparo y consultas confidenciales.</p><p class="go">Abrir sitio →</p></div>
-      </a>
-    </div>
-    <!-- MENUS-QR:START (lo genera menus-qr/_tools/build.py) -->
-    <section class="qr-sec" id="menus-qr">
-      <p class="eyebrow">Menús QR</p>
-      <h2>Menús digitales con QR para restaurantes.</h2>
-      <p class="qr-lead">36 muestras en 35 ciudades del país: carta con fotos, buscador, categorías y pedido directo por WhatsApp. Se imprime el QR para mesas y mostrador.</p>
-      <div class="grid">
-      <a class="card qr-card" href="menus-qr/mariscos-save/">
-        <div class="thumb" style="background-image:url('menus-qr/mariscos-save/img/c21919e395f3.webp')"></div>
-        <div class="body"><p class="tag" style="color:#ff7a45">Guadalajara, Jal.</p><p class="name">Mariscos Save</p><p class="desc">Mariscos estilo Sinaloa · zarandeados a las brasas. 131 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/matilda/">
-        <div class="thumb" style="background-image:url('menus-qr/matilda/img/99fe24854b24.webp')"></div>
-        <div class="body"><p class="tag" style="color:#b5452f">Mérida, Yuc.</p><p class="name">Matilda Salón Mexicano</p><p class="desc">Cocina mexicana y yucateca en el Centro de Mérida. 86 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/hanaichi/">
-        <div class="thumb" style="background-image:url('menus-qr/hanaichi/img/64352ee9f03d.webp')"></div>
-        <div class="body"><p class="tag" style="color:#c8102e">San Pedro Garza García, N.L.</p><p class="name">Hanaichi</p><p class="desc">Sushi, sashimi y teppanyaki. 87 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/el-acuario/">
-        <div class="thumb" style="background-image:url('menus-qr/el-acuario/img/2991718e43e5.webp')"></div>
-        <div class="body"><p class="tag" style="color:#0d7f8c">León, Gto.</p><p class="name">El Acuario Mariscos</p><p class="desc">Cazuelas, mojarras, filetes y camarones. 87 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/china-poblana/">
-        <div class="thumb" style="background-image:url('menus-qr/china-poblana/img/d78b743ab534.webp')"></div>
-        <div class="body"><p class="tag" style="color:#d6b47a">Puebla, Pue.</p><p class="name">Antigua Fonda de la China Poblana</p><p class="desc">Cocina poblana tradicional a un paso del Zócalo. 68 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/mi-alma/">
-        <div class="thumb" style="background-image:url('menus-qr/mi-alma/img/f788af0f1c21.webp')"></div>
-        <div class="body"><p class="tag" style="color:#5f7f3a">Querétaro, Qro.</p><p class="name">Mi Alma Restaurante</p><p class="desc">Desayunos y comida casera en el Centro. 46 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/cocina-azul/">
-        <div class="thumb" style="background-image:url('menus-qr/cocina-azul/img/5da3fcfeedd5.webp')"></div>
-        <div class="body"><p class="tag" style="color:#f2b33d">Oaxaca de Juárez, Oax.</p><p class="name">Cocina Azul</p><p class="desc">Cocina oaxaqueña y panadería. 35 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/los-agustines/">
-        <div class="thumb" style="background-image:url('menus-qr/los-agustines/img/db7d63a0db52.webp')"></div>
-        <div class="body"><p class="tag" style="color:#c0392b">San Luis Potosí, S.L.P.</p><p class="name">Los Agustines</p><p class="desc">Enchiladas potosinas y cocina del Centro Histórico. 62 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/las-playas/">
-        <div class="thumb" style="background-image:url('menus-qr/las-playas/img/5ae2e00aa249.webp')"></div>
-        <div class="body"><p class="tag" style="color:#e0582a">Tijuana, B.C.</p><p class="name">Restaurant Las Playas</p><p class="desc">Mariscos, desayunos y antojitos desde temprano. 67 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/casona-de-las-rosas/">
-        <div class="thumb" style="background-image:url('menus-qr/casona-de-las-rosas/img/48744d69da20.webp')"></div>
-        <div class="body"><p class="tag" style="color:#d6b47a">Morelia, Mich.</p><p class="name">La Casona de las Rosas</p><p class="desc">Cocina michoacana frente al Jardín de las Rosas. 84 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/la-chicha/">
-        <div class="thumb" style="background-image:url('menus-qr/la-chicha/img/24d7080612e7.webp')"></div>
-        <div class="body"><p class="tag" style="color:#ff4f9a">Ciudad de México</p><p class="name">La Chicha</p><p class="desc">Cocina mexicana, cervezas y coctelería en la Roma. 46 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/el-mana/">
-        <div class="thumb" style="background-image:url('menus-qr/el-mana/img/156446ce4bbc.webp')"></div>
-        <div class="body"><p class="tag" style="color:#e8743b">Boca del Río, Ver.</p><p class="name">Restaurante El Maná</p><p class="desc">Mariscos y desayunos jarochos. 38 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/el-zocabon/">
-        <div class="thumb" style="background-image:url('menus-qr/el-zocabon/img/9bf55e5dfb36.webp')"></div>
-        <div class="body"><p class="tag" style="color:#d6b47a">Durango, Dgo.</p><p class="name">Restaurant El Zocabón</p><p class="desc">Cocina mexicana tradicional en el Palacio de las Rosas. 46 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/puscua/">
-        <div class="thumb" style="background-image:url('menus-qr/puscua/img/f21d38238d27.webp')"></div>
-        <div class="body"><p class="tag" style="color:#a4552c">Marfil, Guanajuato</p><p class="name">Puscua, Cocina de Herencia</p><p class="desc">Desayunos de herencia en la Casa Museo Gene Byron. 32 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/mirasol/">
-        <div class="thumb" style="background-image:url('menus-qr/mirasol/img/137e4ccc6640.webp')"></div>
-        <div class="body"><p class="tag" style="color:#d08a1e">San Miguel de Allende, Gto.</p><p class="name">Restaurante Mirasol</p><p class="desc">Desayunos y comida en el jardín de Villa Mirasol. 63 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/carmelita-pech/">
-        <div class="thumb" style="background-image:url('menus-qr/carmelita-pech/img/eaf02743a4e6.webp')"></div>
-        <div class="body"><p class="tag" style="color:#d9531e">Playa del Carmen, Q. Roo</p><p class="name">Carmelita Pech Fonda Yucateca</p><p class="desc">Fonda yucateca desde el desayuno hasta la cena. 52 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/cinco-reyes/">
-        <div class="thumb" style="background-image:url('menus-qr/cinco-reyes/img/4ed9ad06743e.webp')"></div>
-        <div class="body"><p class="tag" style="color:#f2a33a">Campeche, Camp.</p><p class="name">Los 5 Reyes</p><p class="desc">Tacos, parrilladas y desayunos en Santa Ana. 60 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/cocina-de-tomasa/">
-        <div class="thumb" style="background-image:url('menus-qr/cocina-de-tomasa/img/f3500272c447.webp')"></div>
-        <div class="body"><p class="tag" style="color:#c2402a">Puerto Vallarta, Jal.</p><p class="name">La Cocina de Tomasa</p><p class="desc">Cocina mexicana casera, birria y desayunos. 86 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/tezcalli/">
-        <div class="thumb" style="background-image:url('menus-qr/tezcalli/img/04569b385ea8.webp')"></div>
-        <div class="body"><p class="tag" style="color:#e2603a">Xalapa, Ver.</p><p class="name">Tezcalli Cocina Mexicana</p><p class="desc">Cocina mexicana, pozole y antojitos. 73 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/josefina/">
-        <div class="thumb" style="background-image:url('menus-qr/josefina/img/38e05f4039ac.webp')"></div>
-        <div class="body"><p class="tag" style="color:#7b8f4a">Tepic, Nay.</p><p class="name">Josefina Cocina del Valle</p><p class="desc">Desayunos, waffles y cafetería. 72 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/el-temorense/">
-        <div class="thumb" style="background-image:url('menus-qr/el-temorense/img/66647b27372c.webp')"></div>
-        <div class="body"><p class="tag" style="color:#e0452b">Chihuahua, Chih.</p><p class="name">El Temorense</p><p class="desc">Birria, gorditas de asiento y menudo. 47 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/la-guasavena/">
-        <div class="thumb" style="background-image:url('menus-qr/la-guasavena/img/f302f824e0ec.webp')"></div>
-        <div class="body"><p class="tag" style="color:#b23a2a">Mexicali, B.C.</p><p class="name">Cenaduría La Guasaveña</p><p class="desc">Cocina sinaloense de cenaduría. 39 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/el-tapatio/">
-        <div class="thumb" style="background-image:url('menus-qr/el-tapatio/img/f84147cfba14.webp')"></div>
-        <div class="body"><p class="tag" style="color:#e3b23c">Guanajuato, Gto.</p><p class="name">Restaurante Bar El Tapatío</p><p class="desc">Molcajetes, carnes y cocina guanajuatense. 93 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/las-brisas/">
-        <div class="thumb" style="background-image:url('menus-qr/las-brisas/img/f70fd2c1091d.webp')"></div>
-        <div class="body"><p class="tag" style="color:#e2603a">Pachuca, Hgo.</p><p class="name">Marisquería Las Brisas</p><p class="desc">Mojarras, cócteles y molcajetes de mariscos. 67 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/clavo-y-canela/">
-        <div class="thumb" style="background-image:url('menus-qr/clavo-y-canela/img/7bea2ff77c5b.webp')"></div>
-        <div class="body"><p class="tag" style="color:#a8521f">Irapuato, Gto.</p><p class="name">Clavo y Canela</p><p class="desc">Comida casera, desayunos y antojos. 124 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/rincon-del-bife/">
-        <div class="thumb" style="background-image:url('menus-qr/rincon-del-bife/img/bfbe56f037b9.webp')"></div>
-        <div class="body"><p class="tag" style="color:#c8732f">Cuernavaca, Mor.</p><p class="name">Rincón del Bife</p><p class="desc">Desayunos de tradición y cortes. 36 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/samael/">
-        <div class="thumb" style="background-image:url('menus-qr/samael/img/7be6cad725ee.webp')"></div>
-        <div class="body"><p class="tag" style="color:#e07a2e">La Paz, B.C.S.</p><p class="name">Restaurante Samael</p><p class="desc">Desayunos y antojitos sudcalifornianos. 77 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/siete-mares/">
-        <div class="thumb" style="background-image:url('menus-qr/siete-mares/img/f9336d46cc74.webp')"></div>
-        <div class="body"><p class="tag" style="color:#20c4b7">Hermosillo, Son.</p><p class="name">Mariscos 7 Mares</p><p class="desc">Aguachiles, barra fría y molcajetes. 51 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/sabor-a-mi/">
-        <div class="thumb" style="background-image:url('menus-qr/sabor-a-mi/img/c70b666e632c.webp')"></div>
-        <div class="body"><p class="tag" style="color:#cc3d2b">Mazatlán, Sin.</p><p class="name">Cenaduría Sabor a Mí</p><p class="desc">Cenaduría mazatleca: asado, tacos dorados y más. 35 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/molcajetes-de-villa/">
-        <div class="thumb" style="background-image:url('menus-qr/molcajetes-de-villa/img/b8a4cac94559.webp')"></div>
-        <div class="body"><p class="tag" style="color:#c0441f">Villa de Álvarez, Col.</p><p class="name">Los Molcajetes de Villa</p><p class="desc">Desayunos, guisos caseros y panadería. 72 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/la-fionela/">
-        <div class="thumb" style="background-image:url('menus-qr/la-fionela/img/beb6592204d9.webp')"></div>
-        <div class="body"><p class="tag" style="color:#b0654a">Saltillo, Coah.</p><p class="name">La Fionela</p><p class="desc">Desayunos y comida casera. 42 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/cafe-con-leche/">
-        <div class="thumb" style="background-image:url('menus-qr/cafe-con-leche/img/531a4229bf52.webp')"></div>
-        <div class="body"><p class="tag" style="color:#8a5a3b">Zacatecas, Zac.</p><p class="name">Café con Leche</p><p class="desc">Desayunos, antojitos y parrilladas. 63 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/sazon-de-la-abuela/">
-        <div class="thumb" style="background-image:url('menus-qr/sazon-de-la-abuela/img/8baf248aaae6.webp')"></div>
-        <div class="body"><p class="tag" style="color:#b8442b">Torreón, Coah.</p><p class="name">La Sazón de la Abuela</p><p class="desc">Comida casera mexicana y desayunos. 63 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/taqueria-san-juan/">
-        <div class="thumb" style="background-image:url('menus-qr/taqueria-san-juan/img/72a88de6e29f.webp')"></div>
-        <div class="body"><p class="tag" style="color:#f05a28">Culiacán, Sin.</p><p class="name">Taquería San Juan</p><p class="desc">Tacos, vampiros, chilakas y changuirongos. 64 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/tolk/">
-        <div class="thumb" style="background-image:url('menus-qr/tolk/img/68b85a53df73.webp')"></div>
-        <div class="body"><p class="tag" style="color:#d9a441">Villahermosa, Tab.</p><p class="name">Tolk Restaurant</p><p class="desc">Desayunos, cocina mexicana y burgers. 68 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
-      <a class="card qr-card" href="menus-qr/okane-sushi/">
-        <div class="thumb" style="background-image:url('menus-qr/okane-sushi/img/049260e6a7e0.webp')"></div>
-        <div class="body"><p class="tag" style="color:#e8453c">Durango, Dgo.</p><p class="name">Okane Sushi</p><p class="desc">Sushi, ramen y especialidades. 74 platillos con foto, buscador y pedido por WhatsApp.</p><p class="go">Ver menú →</p></div>
-      </a>
+    <header class="hero">
+      <p class="eyebrow">Portafolio · LKM’r Company</p>
+      <h1>Todo lo que hace <em>LKM’r</em>, en un solo lugar.</h1>
+      <p class="lead">Sitios para negocios, la plataforma Rojo 87, apps propias, herramientas personales y extensiones para Claude. Cada tarjeta abre el proyecto publicado.</p>
+      <ul class="stats" id="stats"></ul>
+    </header>
+
+    <nav class="bar" aria-label="Filtrar proyectos">
+      <div class="bar-in">
+        <div class="chips" id="chips" role="group" aria-label="Categorías"></div>
+        <input class="search" id="q" type="search" placeholder="Buscar proyecto…" aria-label="Buscar proyecto" autocomplete="off" />
       </div>
-    </section>
-    <!-- MENUS-QR:END -->
-    <footer>Sitios diseñados y desarrollados por <strong style="color:#fff">LKM’r</strong></footer>
+    </nav>
+
+    <div id="groups"></div>
+    <p class="empty" id="empty">No hay proyectos con esa búsqueda.</p>
+
+    <noscript>
+      <p class="lead">Activa JavaScript para ver las tarjetas. Enlaces: <a href="cantina-real/">Cantina Real</a> · <a href="crunchy-corner/">The Crunchy Corner</a> · <a href="jkj-stock/">JkJ Stock</a> · <a href="mk-abogados/">MK Abogados</a> · <a href="micarpintero/">MiCarpintero</a> · <a href="https://lukoffmon.github.io/LKMLPR/">LKM’r Company</a> · <a href="https://lukoffmon.github.io/LKMLPR/rojo87/">Rojo 87</a></p>
+    </noscript>
+
+    <footer>
+      <span>Diseñado y desarrollado por <strong style="color:var(--text)">LKM’r</strong></span>
+      <a href="https://lukoffmon.github.io/LKMLPR/">lukoffmon.github.io/LKMLPR</a>
+    </footer>
   </main>
+
+<script>
+/* Para agregar o quitar un proyecto, edita esta lista. `img` es opcional: sin foto se dibuja una portada con su color. */
+var GH = "https://lukoffmon.github.io/";
+var GROUPS = [
+  { id: "clientes", name: "Negocios", note: "Sitios y menús digitales hechos para clientes reales.", items: [
+    { name: "Cantina Real Ags", tag: "Cantina · Bar", c: "#e9a8ff", href: "cantina-real/", img: "cantina-real/assets/barra.jpg",
+      desc: "Carta 2025 completa con cuenta dividida, promo de cada día, posters y videos para IG, reservas y posadas por WhatsApp." },
+    { name: "The Crunchy Corner", tag: "Boneless · Alitas · Menú QR", c: "#ffb81c", href: "crunchy-corner/", img: "crunchy-corner/img/og.jpg",
+      desc: "Menú QR de la sucursal Plaza Cuatro Hojas: promo del día, ruleta de 18 salsas y pedidos por WhatsApp." },
+    { name: "JkJ Stock", tag: "Tienda · Perfumes", c: "#c9a46a", href: "jkj-stock/", img: "jkj-stock/assets/products/le-labo-santal-33-1.webp", contain: true,
+      desc: "Catálogo de fragancias de diseñador y árabes con carrito, descuento por volumen y pedidos por WhatsApp." },
+    { name: "MK Firma de Abogados", tag: "Bufete jurídico", c: "#c5a059", href: "mk-abogados/", img: "mk-abogados/assets/sello-mk.jpg",
+      desc: "Defensa penal estratégica, amparo, urgencias 24/7 y consultas confidenciales." }
+  ]},
+  { id: "lkmr", name: "LKM’r y Rojo 87", note: "La empresa y su plataforma para restaurantes.", items: [
+    { name: "LKM’r Company", tag: "Sitio de la empresa", c: "#d6b47a", href: GH + "LKMLPR/", mono: "L",
+      desc: "Sitios web, Google Maps, redes sociales, video y chatbots de WhatsApp para negocios. Entrega en días." },
+    { name: "Rojo 87", tag: "Plataforma · Restaurantes", c: "#ff3b3b", href: GH + "LKMLPR/rojo87/", mono: "87",
+      desc: "Reservas, carta, pedido desde la mesa, cocina en orden y la luz roja para llamar al mesero. 0 % de comisión. En 4 idiomas." },
+    { name: "Rojo 87 · Lealtad", tag: "Tarjetas de lealtad", c: "#ff6b5b", href: GH + "LKMLPR/rojo87/lealtad/", mono: "★", badge: "Antes Mr Key",
+      desc: "Cuenta del restaurante, QR del mostrador, sellos y tarjeta del cliente en web, Apple y Google Wallet." }
+  ]},
+  { id: "apps", name: "Apps y herramientas", note: "Productos propios que funcionan en el navegador o en tu PC.", items: [
+    { name: "MiCarpintero", tag: "App web · Carpintería", c: "#f59e0b", href: "micarpintero/", img: "micarpintero/og.png",
+      desc: "Diseña muebles en 3D: despiece, plano de corte optimizado, presupuesto y PDF de fabricación." },
+    { name: "HighlyArtMon", tag: "Pixel art con Claude", c: "#7c5cff", href: GH + "LKMLPR/highlyartmon/", mono: "▦",
+      desc: "Estudio de pixel art conectado a Claude: Claude dibuja, ve el resultado y tú lo ves en vivo. Exporta a GameMaker." },
+    { name: "HighlyArtMon · Editor", tag: "Editor en el navegador", c: "#9b7bff", href: GH + "LKMLPR/highlyartmon/app/", mono: "✎",
+      desc: "La versión del editor que se abre directo en el navegador, sin instalar." },
+    { name: "CandyOS", tag: "Optimizador · Gaming", c: "#ff5fa2", href: GH + "LKMLPR/candyos/", mono: "C",
+      desc: "Optimizador competitivo para Fortnite y Valorant: diagnóstico de PC y red, ajustes reversibles y Modo Enfoque." },
+    { name: "NEXUS", tag: "Gimnasio mental", c: "#22d3ee", href: GH + "LKMLPR/nexus/", mono: "N",
+      desc: "Entrenamiento mental con ejercicios para la mente." },
+    { name: "NutriConsumer", tag: "Encuesta", c: "#4ade80", href: GH + "LKMLPR/encuesta/", mono: "%",
+      desc: "Cuestionario anónimo sobre hábitos alimentarios y ultraprocesados, con resultados en tiempo real." }
+  ]},
+  { id: "personal", name: "Personal y escuela", note: "Herramientas de uso diario. Los datos se guardan en tu dispositivo.", items: [
+    { name: "Mi Horario Escolar", tag: "Escuela", c: "#60a5fa", href: GH + "CuauhtemocUca/Mi%20Horario%20Escolar.html", mono: "H",
+      desc: "Horario, exámenes, tareas de Moodle/ALEKS y estudio. Instalable y funciona sin internet." },
+    { name: "Grey~Spell", tag: "Idiomas", c: "#a3a3b5", href: GH + "CuauhtemocUca/grey-spell/", mono: "G",
+      desc: "Francés, portugués, sueco, ruso, alemán e inglés del cero a C2, con mascota por curso y modos de juego." },
+    { name: "Astra Hik's", tag: "Gimnasio", c: "#f97316", href: GH + "CuauhtemocUca/astra-hiks/", mono: "A",
+      desc: "Bitácora de entrenamiento: rutinas, récords, progreso por ejercicio y PDF por sesión." },
+    { name: "Porte-Monnaie Malin", tag: "Finanzas personales", c: "#34d399", href: GH + "CuauhtemocUca/porte-monnaie-malin/pmm/", mono: "$",
+      desc: "Monedero inteligente 100 % local: anota en segundos, presupuesto, metas y estado de cuenta en PDF." },
+    { name: "Playlist → MP3", tag: "Música", c: "#1ed760", href: GH + "CuauhtemocUca/playlist-mp3/", mono: "♪", badge: "Corre en tu PC",
+      desc: "Convierte una playlist a MP3 en un ZIP. La página necesita su servidor local (python3 server.py)." }
+  ]},
+  { id: "claude", name: "Para Claude", note: "Plugin High-Performance Claude y sus apps.", items: [
+    { name: "Iceberg", tag: "Modo de trabajo", c: "#7dd3fc", href: GH + "HighPerformanceClaude/", mono: "▲",
+      desc: "Di una palabra y Claude explora todo lo que hay debajo de tu petición antes de construir." },
+    { name: "GeekMcON", tag: "Memoria para Claude", c: "#e5d3b3", href: GH + "HighPerformanceClaude/cekmecon/", mono: "G",
+      desc: "Un cajón de notas que Claude ordena solo, con Neuronas para ver tu memoria como una red viva." },
+    { name: "GeekMcON · Web", tag: "App en el navegador", c: "#f0e2c6", href: GH + "HighPerformanceClaude/cekmecon/app/", mono: "◎",
+      desc: "La versión web de GeekMcON: sin instalar y sin conexión." }
+  ]}
+];
+
+(function () {
+  var groupsEl = document.getElementById("groups"), chipsEl = document.getElementById("chips"),
+      q = document.getElementById("q"), empty = document.getElementById("empty");
+  var esc = function (s) { return String(s).replace(/[&<>"']/g, function (ch) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]; }); };
+  var norm = function (s) { return s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); };
+  var shortUrl = function (href) { return /^https?:/.test(href) ? href.replace(/^https?:\/\/lukoffmon\.github\.io\//, "").replace(/%20/g, " ") : "WebDesignLKM/" + href; };
+  var total = 0, external = 0;
+
+  GROUPS.forEach(function (g) {
+    total += g.items.length;
+    var sec = document.createElement("section");
+    sec.className = "group"; sec.id = g.id; sec.dataset.group = g.id;
+    sec.innerHTML = '<div class="ghead"><h2>' + esc(g.name) + '<span class="n">' + g.items.length + '</span></h2><p>' + esc(g.note) + '</p></div><div class="cards"></div>';
+    var grid = sec.querySelector(".cards");
+    g.items.forEach(function (it) {
+      var ext = /^https?:/.test(it.href); if (ext) external++;
+      var a = document.createElement("a");
+      a.className = "card"; a.href = it.href;
+      a.dataset.text = norm([it.name, it.tag, it.desc, g.name].join(" "));
+      var thumb = it.img
+        ? '<div class="thumb" style="background-image:url(\'' + esc(it.img) + '\')' + (it.contain ? ';background-color:#fff;background-size:contain' : '') + '">'
+        : '<div class="thumb art" style="--c:' + esc(it.c) + '"><span class="mono" aria-hidden="true">' + esc(it.mono || it.name[0]) + '</span>';
+      a.innerHTML = thumb + (it.badge ? '<span class="badge">' + esc(it.badge) + '</span>' : '') + '</div>' +
+        '<div class="body"><p class="ctag" style="color:' + esc(it.c) + '">' + esc(it.tag) + '</p><p class="name">' + esc(it.name) + '</p><p class="desc">' + esc(it.desc) + '</p>' +
+        '<div class="foot"><span class="url">' + esc(shortUrl(it.href)) + '</span><span class="go">Abrir →</span></div></div>';
+      grid.appendChild(a);
+    });
+    groupsEl.appendChild(sec);
+  });
+
+  document.getElementById("stats").innerHTML =
+    '<li><b>' + total + '</b><span>Proyectos</span></li>' +
+    '<li><b>' + GROUPS[0].items.length + '</b><span>Negocios</span></li>' +
+    '<li><b>4</b><span>Repositorios</span></li>';
+
+  var current = "all";
+  var mk = function (id, label, n) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.dataset.id = id;
+    b.setAttribute("aria-pressed", id === current ? "true" : "false");
+    b.innerHTML = esc(label) + '<small>' + n + '</small>';
+    b.addEventListener("click", function () { current = id; apply(); });
+    chipsEl.appendChild(b);
+  };
+  mk("all", "Todos", total);
+  GROUPS.forEach(function (g) { mk(g.id, g.name, g.items.length); });
+
+  function apply() {
+    var term = norm(q.value.trim()), any = false;
+    chipsEl.querySelectorAll(".chip").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.id === current ? "true" : "false"); });
+    groupsEl.querySelectorAll("section.group").forEach(function (sec) {
+      var inGroup = current === "all" || sec.dataset.group === current, shown = 0;
+      sec.querySelectorAll("a.card").forEach(function (a) {
+        var ok = inGroup && (!term || a.dataset.text.indexOf(term) !== -1);
+        a.style.display = ok ? "" : "none"; if (ok) shown++;
+      });
+      sec.style.display = shown ? "" : "none"; if (shown) any = true;
+    });
+    empty.style.display = any ? "none" : "block";
+  }
+  q.addEventListener("input", apply);
+})();
+</script>
 </body>
 </html>
